@@ -1,0 +1,130 @@
+:root {
+  /* articles: blue, fuchsia, amber -- none of them the green and red that mean right and wrong */
+  --der: #2563eb; --die: #c026d3; --das: #d97706;
+  --right: #16a34a; --wrong: #dc2626;
+  --right-tint: #dcfce7; --wrong-tint: #fee2e2;
+  --bg: #f3f2f8; --card: #ffffff; --ink: #1d1d2b; --mute: #6f6f85; --line: #dcd8ee;
+  --accent: #0d9488;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --der: #60a5fa; --die: #e879f9; --das: #fbbf24;
+    --right: #22c55e; --wrong: #f87171;
+    --right-tint: #12301f; --wrong-tint: #3a1618;
+    --bg: #15141d; --card: #211f2d; --ink: #ecebf5; --mute: #9a98b0; --line: #393650;
+  }
+}
+/* each mode has its colour */
+body[data-mode="article"]      { --accent: #0d9488; }
+body[data-mode="plural"]       { --accent: #4f46e5; }
+body[data-mode="vocab"]        { --accent: #0284c7; }
+body[data-mode="vocabReverse"] { --accent: #7c3aed; }
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }        /* (a display rule must not show what is hidden) */
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.45 system-ui, sans-serif; }
+main { max-width: 600px; margin: 0 auto; padding: 16px; }
+h1 { margin: 4px 0 14px; font-size: 24px; }
+
+/* the articles, wherever they are shown */
+.der { color: var(--der); font-weight: 700; }
+.die { color: var(--die); font-weight: 700; }
+.das { color: var(--das); font-weight: 700; }
+
+#modes { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+button, select { font: inherit; color: inherit; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 7px 12px; cursor: pointer; }
+.tab.chosen { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+.controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 14px; }
+#status { color: var(--mute); font-size: 14px; margin-left: auto; }
+
+.card { background: var(--card); border: 1px solid var(--line); border-top: 5px solid var(--accent); border-radius: 16px; padding: 20px 18px; }
+#meta { color: var(--mute); font-size: 13px; }
+#prompt { font-size: 30px; font-weight: 650; margin: 6px 0 2px; overflow-wrap: anywhere; }
+#hint { color: var(--mute); margin-bottom: 18px; min-height: 1.4em; }
+
+#options { display: grid; gap: 10px; }
+.option { display: flex; gap: 12px; align-items: center; text-align: left; padding: 12px 14px; font-size: 19px; border-width: 2px; }
+.option:hover:not(:disabled) { border-color: var(--accent); }
+.option:disabled { cursor: default; }
+.key { color: var(--mute); font-size: 14px; min-width: 1em; }
+/* the article buttons are filled with their colour */
+.option.article { color: #fff; justify-content: center; font-size: 22px; }
+.option.article .key { color: rgba(255, 255, 255, .75); }
+.option.der { background: var(--der); border-color: var(--der); }
+.option.die { background: var(--die); border-color: var(--die); }
+.option.das { background: var(--das); border-color: var(--das); }
+
+/* after answering: the right option green, the wrong choice red and struck through, the rest faded */
+.option.right { background: var(--right); border-color: var(--right); color: #fff; }
+.option.wrong { background: var(--wrong); border-color: var(--wrong); color: #fff; text-decoration: line-through; }
+.option.right .key, .option.right span, .option.wrong .key, .option.wrong span { color: #fff; }
+.option:disabled:not(.right):not(.wrong) { opacity: .35; }
+
+#feedback { min-height: 3.4em; margin-top: 16px; }
+.verdict { font-weight: 700; font-size: 18px; }
+.verdict.right { color: var(--right); }
+.verdict.wrong { color: var(--wrong); }
+.details { color: var(--mute); font-size: 15px; }
+/* after answering, the right option is what goes on; after a wrong answer it glows until clicked */
+.option.right:not(:disabled) { cursor: pointer; }
+.option.waiting { animation: glow 1.2s ease-in-out infinite; }
+@keyframes glow { 50% { box-shadow: 0 0 0 6px var(--right-tint), 0 0 0 9px var(--right); } }
+.go-on { color: var(--mute); font-weight: 400; font-size: 15px; }
+
+/* the summary strip: today's right and wrong counters, the rates */
+.summary { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; justify-content: space-between;
+           background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 8px 14px; margin-bottom: 12px; }
+.summary .today, .summary .overall { display: flex; gap: 10px; align-items: center; }
+.summary .label { color: var(--mute); font-size: 13px; text-transform: uppercase; letter-spacing: .05em; }
+.summary .rate { color: var(--mute); font-size: 14px; }
+.counter { position: relative; }
+.count { display: inline-block; min-width: 2.2em; text-align: center; padding: 2px 8px; border-radius: 999px;
+         font-weight: 700; color: #fff; }
+.count.right { background: var(--right); }
+.count.right::before { content: "✓ "; }
+.count.wrong { background: var(--wrong); }
+.count.wrong::before { content: "✗ "; }
+.count.pop { animation: pop .45s ease-out; }
+@keyframes pop { 0% { transform: scale(1); } 35% { transform: scale(1.45); } 100% { transform: scale(1); } }
+.plus-one { position: absolute; left: 50%; top: -4px; transform: translateX(-50%); font-weight: 800; pointer-events: none;
+            animation: float-up .9s ease-out forwards; }
+.count.right + .plus-one { color: var(--right); }
+.count.wrong + .plus-one { color: var(--wrong); }
+@keyframes float-up { from { opacity: 1; transform: translate(-50%, 0); } to { opacity: 0; transform: translate(-50%, -28px); } }
+
+.stats { margin-top: 18px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; }
+.stats summary { cursor: pointer; font-weight: 600; }
+.stats table { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 14px; }
+.stats th, .stats td { padding: 4px 6px; text-align: right; border-bottom: 1px solid var(--line); }
+.stats th:first-child, .stats td:first-child { text-align: left; overflow-wrap: anywhere; }
+.stats tr.total td { font-weight: 700; color: var(--accent); }
+
+/* the welcome */
+h1 #learner { float: right; color: var(--mute); font-size: 16px; font-weight: 500; margin-top: 6px; }
+.welcome { background: var(--card); border: 1px solid var(--line); border-top: 5px solid var(--accent); border-radius: 16px;
+           padding: 36px 20px; text-align: center; }
+.welcome h2 { font-size: 30px; margin: 0 0 8px; }
+.welcome p { color: var(--mute); margin: 0 0 22px; }
+.welcome form { display: flex; flex-direction: column; gap: 12px; align-items: center; }
+.welcome input { font: inherit; font-size: 20px; padding: 10px 14px; border: 2px solid var(--line); border-radius: 10px;
+                 background: var(--bg); color: var(--ink); text-align: center; width: min(320px, 100%); }
+.version { margin: 22px 0 0; color: var(--mute); font-size: 13px; }
+.version button { font-size: 13px; padding: 3px 9px; }
+.welcome-stats { display: grid; gap: 6px; margin: 0 auto 24px; font-size: 17px; }
+.welcome-stats .label { display: inline-block; min-width: 5.5em; color: var(--mute); font-size: 13px; text-transform: uppercase;
+                        letter-spacing: .05em; }
+.big { font-size: 20px; font-weight: 650; padding: 12px 34px; background: var(--accent); border-color: var(--accent); color: #fff; }
+
+/* the result, at once and on the whole card: tint, border, a big badge, a bounce or a shake */
+.card { position: relative; transition: background-color .15s; }
+.card.was-right { background: var(--right-tint); border-color: var(--right); border-top-color: var(--right); animation: bounce .35s ease-out; }
+.card.was-wrong { background: var(--wrong-tint); border-color: var(--wrong); border-top-color: var(--wrong); animation: shake .4s ease-in-out; }
+.badge { position: absolute; top: 14px; right: 14px; width: 54px; height: 54px; border-radius: 50%; display: none;
+         place-items: center; font-size: 32px; font-weight: 800; color: #fff; }
+.card.was-right .badge { display: grid; background: var(--right); animation: pop .4s ease-out; }
+.card.was-right .badge::after { content: "✓"; }
+.card.was-wrong .badge { display: grid; background: var(--wrong); animation: pop .4s ease-out; }
+.card.was-wrong .badge::after { content: "✗"; }
+@keyframes bounce { 40% { transform: scale(1.025); } }
+@keyframes shake { 20%, 60% { transform: translateX(-8px); } 40%, 80% { transform: translateX(8px); } }

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deutsch Trainer</title>
+<link rel="stylesheet" href="trainer/style.css">
+</head>
+<body data-mode="article">
+<main>
+  <h1>Deutsch <span class="der">der</span> <span class="die">die</span> <span class="das">das</span> <span id="learner"></span></h1>
+
+  <section id="welcome" class="welcome">
+    <h2 id="welcome-title"></h2>
+    <p id="welcome-text"></p>
+    <div id="welcome-stats" class="welcome-stats" hidden></div>
+    <form id="name-form" hidden>
+      <input id="name" autocomplete="given-name" maxlength="40">
+      <button class="big">Los geht's ▶</button>
+    </form>
+    <button id="start" class="big" hidden>Lernen ▶</button>
+    <p class="version"><span id="version"></span> <button id="checkUpdate" hidden>check for update</button> <button id="doUpdate" hidden></button></p>
+  </section>
+
+  <div id="trainer" hidden>
+  <nav id="modes"></nav>
+
+  <div class="controls">
+    <select id="level">
+      <option value="1">FREQ 1</option>
+      <option value="2">FREQ 1–2</option>
+      <option value="3">all words</option>
+    </select>
+    <select id="category"><option value="">all categories</option></select>
+    <select id="speech" title="how loud the German word is spoken (speak.js)"><option value="0">🔇 off</option><option value="1">🔈 quiet</option><option value="2">🔉 medium</option><option value="3">🔊 loud</option></select>
+    <select id="voice" title="who speaks"><option value="man">man</option><option value="woman">woman</option><option value="child">child</option></select>
+    <span id="status"></span>
+  </div>
+
+  <section class="summary">
+    <div class="today">
+      <span class="label">today</span>
+      <span class="counter"><span id="today-right" class="count right">0</span></span>
+      <span class="counter"><span id="today-wrong" class="count wrong">0</span></span>
+      <span id="today-rate" class="rate"></span>
+    </div>
+    <div class="overall"><span class="label">overall</span> <span id="overall-rate" class="rate"></span></div>
+  </section>
+
+  <section id="card" class="card">
+    <div class="badge"></div>
+    <div id="meta"></div>
+    <div id="prompt">…</div>
+    <div id="hint"></div>
+    <div id="options"></div>
+    <div id="feedback"></div>
+  </section>
+
+  <details class="stats">
+    <summary>Statistics by category</summary>
+    <table>
+      <thead>
+        <tr><th></th><th colspan="3">today</th><th colspan="3">overall</th></tr>
+        <tr><th>category</th><th>answers</th><th>right</th><th>avg time</th><th>answers</th><th>right</th><th>avg time</th></tr>
+      </thead>
+      <tbody id="stats-body"></tbody>
+    </table>
+  </details>
+  </div>
+</main>
+<script type="module" src="trainer/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+ "version": "9e54891881",
+ "made": "2026-10-07 22:57",
+ "files": [
+  "deutsch.tsv",
+  "index.html",
+  "order.tsv",
+  "speak.html",
+  "trainer.html",
+  "trainer/app.js",
+  "trainer/data.js",
+  "trainer/offline.js",
+  "trainer/plurals.js",
+  "trainer/questions.js",
+  "trainer/speak.js",
+  "trainer/srs.js",
+  "trainer/stats.js",
+  "trainer/storage.js",
+  "trainer/style.css",
+  "trainer/ui.js",
+  "offline.json"
+ ]
+}
