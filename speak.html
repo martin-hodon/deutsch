@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Speech Bench</title>
+<style>
+  :root { --bg: #f3f2f8; --card: #fff; --ink: #1d1d2b; --mute: #6f6f85; --line: #dcd8ee; --accent: #0d9488; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #15141d; --card: #211f2d; --ink: #ecebf5; --mute: #9a98b0; --line: #393650; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.45 system-ui, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 16px; }
+  .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 10px 0; }
+  input, button, select { font: inherit; color: inherit; background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; }
+  input { flex: 1; min-width: 180px; }
+  button { cursor: pointer; } button.voice { background: var(--accent); border-color: var(--accent); color: #fff; }
+  #words button { margin: 3px; }
+  .mute { color: var(--mute); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Speech bench</h1>
+  <p class="mute">The trainer's own voice (engine/speak.js): a word looked up in the language's dictionary, or any IPA, spoken
+    as a man, a woman or a child with the language's prosody (&lt;lang&gt;/rules/speech.txt: its rhythm, lengths, pauses,
+    pitch). Serve the folder (python3 -m http.server) and open this page.</p>
+  <div class="row"><select id="lang"></select><input id="word" placeholder="a word (Hund, sprechen, Mädchen)"><span id="found" class="mute"></span></div>
+  <div class="row"><input id="ipa" placeholder="or its IPA (ˈʃpʁɛçən)"></div>
+  <div class="row">
+    <button class="voice" data-kind="man">▶ man</button><button class="voice" data-kind="woman">▶ woman</button><button class="voice" data-kind="child">▶ child</button>
+    <select id="level"><option value="1">quiet</option><option value="2" selected>medium</option><option value="3">loud</option></select>
+    <select id="tempo"><option value="0.85">slower</option><option value="1" selected>normal tempo</option><option value="1.2">faster</option><option value="1.4">fast</option></select>
+    <span id="ms" class="mute"></span>
+  </div>
+  <div id="words"></div>
+</main>
+<script type="module">
+import { createVoice, render, loadProsody } from "./engine/speak.js";
+import { LANGS } from "./engine/langs.js";
+const $ = (id) => document.getElementById(id), voice = createVoice();
+let ipaOf = new Map();
+for (const l of Object.keys(LANGS).filter((l) => LANGS[l].speech)) $("lang").append(new Option(LANGS[l].name, l));
+const SAMPLES = {
+  de: "Haus Hund Katze Wasser Schule Mädchen Baum Größe Brot Milch Zeitung Pferd Buch Kirche Stuhl Tisch Fenster Garten Vogel Fisch Nacht Woche Sonne Mond Straße Freund Kopf Hand Auge Zahn sprechen gehen schlafen trinken essen lesen schreiben fahren kaufen grün Bücher Bäume Häuser Mädchen ich ach Küche",
+  en: "house dog cat water school girl tree bread milk newspaper horse book church chair table window garden bird fish night week sun moon street friend head hand eye tooth speak go sleep drink eat read write drive buy green world great giant large-scale",
+  es: "casa perro gato agua escuela niña árbol pan leche periódico caballo libro iglesia silla mesa ventana jardín pájaro pez noche semana sol luna calle amigo cabeza mano ojo diente hablar ir dormir beber comer leer escribir conducir comprar verde grande tamaño magnífico",
+  fr: "maison chien chat eau école fille arbre pain lait journal cheval livre église chaise table fenêtre jardin oiseau poisson nuit semaine soleil lune rue ami tête main œil dent parler aller dormir boire manger lire écrire conduire acheter vert grand taille grandeur magnifique",
+};
+// the language: its dictionary's words and sounds (the columns by the header: word, ipa), its prosody
+async function useLang(l) {
+  const [head, ...lines] = (await (await fetch(LANGS[l].dict)).text()).trim().split("\n"), cols = head.split("\t"), W = cols.indexOf("word"), I = cols.indexOf("ipa");
+  ipaOf = new Map();
+  for (const line of lines) { const f = line.split("\t"); if (!ipaOf.has(f[W])) ipaOf.set(f[W], f[I]); }
+  voice.prosody = await loadProsody(LANGS[l].speech);
+  document.documentElement.lang = l;
+  $("words").replaceChildren(...SAMPLES[l].split(" ").filter((w) => ipaOf.has(w)).map((w) => { const b = document.createElement("button"); b.textContent = w; b.onclick = () => { $("word").value = w; $("word").oninput(); play(document.querySelector(".voice.last")?.dataset.kind ?? "man"); }; return b; }));
+}
+$("lang").onchange = () => useLang($("lang").value);
+$("word").oninput = () => { const ipa = ipaOf.get($("word").value.trim()); $("found").textContent = ipa ? `[${ipa}]` : ""; if (ipa) $("ipa").value = ipa; };
+const play = (kind) => {
+  voice.kind = kind; voice.level = Number($("level").value); voice.tempo = Number($("tempo").value);
+  const t0 = performance.now(); render($("ipa").value, kind, { prosody: voice.prosody, tempo: voice.tempo }); const ms = performance.now() - t0;   // (timed apart from playing)
+  voice.say($("ipa").value); $("ms").textContent = `made in ${ms.toFixed(1)} ms`;
+};
+for (const b of document.querySelectorAll(".voice")) b.onclick = () => play(b.dataset.kind);
+await useLang("de");
+for (const b of document.querySelectorAll(".voice")) b.addEventListener("click", () => { for (const o of document.querySelectorAll(".voice")) o.classList.toggle("last", o === b); });
+</script>
+</body>
+</html>

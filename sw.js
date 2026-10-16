@@ -13,8 +13,8 @@ self.addEventListener("install", (event) => {
   event.waitUntil((async () => {
     if ((await caches.keys()).some((k) => k.startsWith(PREFIX))) return;
     const manifest = await (await fetch("offline.json", { cache: "no-store" })).json();
-    const cache = await caches.open(PREFIX + manifest.version);
-    await cache.addAll(manifest.files.map((f) => new Request(f, { cache: "reload" })));
+    const name = PREFIX + manifest.version, cache = await caches.open(name);
+    try { await cache.addAll(manifest.files.map((f) => new Request(f, { cache: "reload" }))); } catch (error) { await caches.delete(name); throw error; }   // (a file missing online: no copy, tried again next visit)
   })());
 });
 self.addEventListener("activate", (event) => event.waitUntil(self.clients.claim()));

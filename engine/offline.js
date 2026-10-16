@@ -37,7 +37,10 @@ export async function update() {
     await cache.addAll(manifest.files.map((f) => new Request(f, { cache: "reload" })));
   } catch (error) {
     await caches.delete(name);
-    throw error;
+    // (which file: the first the server has not -- the message the welcome screen shows)
+    const missing = [];
+    for (const f of manifest.files) { try { const r = await fetch(f, { cache: "no-store" }); if (!r.ok) missing.push(`${f} (${r.status})`); } catch { missing.push(f); } if (missing.length >= 3) break; }
+    throw new Error(missing.length ? missing.join(", ") : error.message);
   }
   for (const k of await caches.keys()) if (k.startsWith(PREFIX) && k !== name) await caches.delete(k);
   location.reload();

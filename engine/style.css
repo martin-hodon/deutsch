@@ -220,12 +220,12 @@ body[data-group="sentences"] #prompt { font-size: 24px; line-height: 1.35; }
 
 /* ---- the dictionary page (dictionary.html, engine/dictionary.js) ---- */
 .dictionary .top { display: flex; align-items: center; justify-content: space-between; }
-.search-row { display: flex; gap: 8px; margin: 6px 0 4px; }
+.search-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 6px 0 4px; }
 .search-row select { flex: 0 0 auto; }
 .search-row .listen { flex: 0 0 auto; font-size: 20px; padding: 4px 10px; }
 .search-row .listen.on { background: var(--wrong-tint); border-color: var(--wrong); }
 .result-score { color: var(--mute); font-size: 13px; }
-.search-row input { flex: 1; font: inherit; font-size: 20px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--card); color: inherit; }
+.search-row input { flex: 1 1 160px; min-width: 0; font: inherit; font-size: 20px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--card); color: inherit; }
 .mute { color: var(--mute); }
 .results { display: grid; gap: 4px; margin-bottom: 14px; }
 .result { display: grid; grid-template-columns: minmax(120px, 1fr) auto 2fr; gap: 10px; text-align: left; padding: 6px 10px; }
@@ -284,3 +284,12 @@ body[data-group="sentences"] #prompt { font-size: 24px; line-height: 1.35; }
 .tip-word { font-weight: 650; } .tip-pos { color: var(--mute); font-weight: 400; font-size: 13px; }
 .tip-open { text-decoration: none; font-size: 14px; }
 .tip-ipa, .tip-sk { color: var(--mute); } .tip-sk { color: var(--ink); margin-bottom: 6px; }
+
+/* ---- a phone: the corner (tabs, name, ⋯) keeps the upper right, the title goes under it; nothing wider than the screen --- */
+@media (max-width: 600px) {
+  header.top { flex-wrap: wrap; }
+  header.top .corner { order: -1; width: 100%; }
+  .pages a { padding: 4px 8px; font-size: 13px; }
+  header.top h1 { font-size: 24px; }
+  main { overflow-x: hidden; }
+}

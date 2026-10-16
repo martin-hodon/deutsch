@@ -69,7 +69,7 @@ export function showVersion(kept, { check, update }) {
     $("version").textContent = `${t("offline-copy", { v: kept })} · ${t("new-version", { v: online })}`;
     Object.assign($("doUpdate"), { hidden: false, textContent: t("update-now"), onclick: async () => {
       $("doUpdate").disabled = true; $("doUpdate").textContent = t("updating");
-      try { await update(); } catch { $("doUpdate").disabled = false; $("doUpdate").textContent = t("update-failed"); }
+      try { await update(); } catch (error) { $("doUpdate").disabled = false; $("doUpdate").textContent = t("update-failed") + (error?.message ? ` · ${error.message}` : ""); }
     } });
   };
 }
