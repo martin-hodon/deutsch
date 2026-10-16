@@ -1,0 +1,261 @@
+AN zásadný : idea, problem, rule
+N škola : institution, building, enterable
+N žiak : role
+N riaditeľ školy : professional
+N základná škola : institution, building, enterable
+N vysoká škola : institution, building, enterable
+N gymnázium : institution, building, enterable
+N žiačka : role
+N univerzita : institution, building, enterable
+N materská škola : institution, building, enterable
+N trieda : group
+N učebňa : room, cleanable, enterable
+N lekcia : event, attendable
+N kurz : activity, attendable
+V učiť : person > patient {dieťa|žiak|žiačka|študent|študentka|začiatočník|syn|dcéra|chlapec|dievča}
+V učiť : person > patient {dieťa|žiak|žiačka|študent|študentka|začiatočník|syn|dcéra|chlapec|dievča}, second language -{materinský jazyk}
+V učiť : person > patient {dieťa|žiak|žiačka|študent|študentka|začiatočník|syn|dcéra|chlapec|dievča}, second {schopnosť|remeslo|technika|matematika|trpezlivosť|rešpekt|disciplína|hudba|šport}
+N učiteľ : professional
+N učenie : idea
+N učebný plán : text
+N učebnica : text, openable
+N doučovateľ : professional
+N profesor : professional
+V študovať : person -child -{žiak|žiačka} > patient {prípad|výsledok|údaje}
+V študovať : person -child -{žiak|žiačka} > patient {kniha|text|správa (o udalosti)|štúdia|zmluva|zákon}
+V študovať : {študent|muž|žena|priateľ|dievča|učiteľ} > patient language -{materinský jazyk}
+V študovať : person -child -{žiak|žiačka} > patient {zákon|pravidlo|princíp|teória|zásada|predpis}
+N študent : role
+N štúdium : activity
+N školné : money
+V tvoriť : {škola|univerzita|učiteľ|učiteľka} > patient {dieťa|žiak|študent}
+V tvoriť : person > patient {veta|slovo|množné číslo}
+V tvoriť : {kancelár|prezident|politická strana|politik} > patient {vláda|koalícia}
+V tvoriť : {učiteľ|učiteľka|tréner|rebrík|šéf|riaditeľ|kolega} > patient {skupina|tím|zbor}
+N vzdelanie : state
+AN vzdelaný : person
+V vyškoliť : {firma|prevádzka|podnik|majster|učiteľ|šéf|armáda|polícia|škola} > patient {učeň|učeň|učeň|spolupracovník|spolupracovníčka|stážista|vojak|nezamestnaný|účastník|uchádzač|pilot}
+N odborná príprava : activity
+N ďalšie vzdelávanie : activity
+V vyučovať : person -child > patient {žiak|žiačka|študent|študentka|dieťa|trieda|začiatočník}, second {matematika|príbeh|fyzika|chémia|biológia}
+V vyučovať : person -child > patient {žiak|žiačka|študent|študentka|dieťa|trieda|začiatočník}, second language
+V vyučovať : person -child > patient language
+V vyučovať : person -child > patient {matematika|príbeh|fyzika|chémia|biológia}
+N vyučovanie : event, activity, attendable
+V učiť sa : {dieťa|žiak|študent|študentka|chlapec|dievča|muž|žena|priateľ|priateľka|kamarát|syn|dcéra|začiatočník} > patient language -{materinský jazyk}
+V učiť sa : {dieťa|žiak|študent|študentka|chlapec|dievča|muž|žena|priateľ|priateľka|kamarát|syn|dcéra|začiatočník} > patient {slovo|lekcia|báseň|pieseň}
+V učiť sa : {dieťa|žiak|študent|študentka|chlapec|dievča|muž|žena|priateľ|priateľka|kamarát|syn|dcéra|začiatočník} > patient {povolanie|remeslo}
+V učiť sa : {dieťa|žiak|študent|študentka|chlapec|dievča|muž|žena|priateľ|priateľka|kamarát|syn|dcéra|začiatočník} > patient {pravidlo|zákon}
+V učiť sa : {dieťa|žiak|študent|študentka|chlapec|dievča|muž|žena|priateľ|priateľka|kamarát|syn|dcéra|začiatočník} > inf
+V učiť sa : {dieťa|žiak|študent|študentka|chlapec|dievča|muž|žena|priateľ|priateľka|kamarát|syn|dcéra|začiatočník} > inf.bare {plávať|variť|tancovať|spievať}
+V naučiť sa : person > patient language
+V naučiť sa : person > patient {povolanie|remeslo|technika}
+V naučiť sa : person > patient ability
+V naučiť sa : person > patient rule
+V cvičiť (nácvik) : person > patient {tanec|reč|pieseň|technika}
+V cvičiť (nácvik) : person -professional > patient instrument
+N cvičenie : activity
+V vykonávať : person > patient {povolanie|šport|úrad|moc|vplyv}
+N úloha : activity, problem
+N domáca úloha : activity
+V preveriť : {učiteľ|učiteľka|profesor|skúšajúci|lekár|lekárka|úradník|policajt|policajtka} > patient {žiak|študent|kandidát|uchádzač|pacient|dieťa}
+V preveriť : {technik|mechanik|inžinier|elektrikár|expert|revízor|skúšajúci|žena|muž|osoba} > patient {stroj|motor|prístroj|brzda|zariadenie|senzor|robot|počítač}
+V preveriť : {mechanik|technik|policajt|policajtka|úradník|skúšajúci|inžinier|revízor|vodič|majiteľ|otec|muž} > patient road-vehicle
+V preveriť : {úradník|policajt|revízor|skúšajúci|tajomník|spolupracovník|učiteľ|muž|žena} > patient document -{akcia (cenný papier)|účet (bankový)|bežný účet}
+V preveriť : {úradník|policajt|policajtka|učiteľ|učiteľka|novinár|redaktor|revízor|skúšajúci|muž|žena} > patient {tvrdenie|údaj|správa (oznam)|účet (na zaplatenie)}
+N skúška : event, attendable
+N skúšajúci : professional
+N preskúmanie : activity
+N test : event, attendable
+V testovať : person > patient device
+V testovať : person > patient {nôž|nožnice|kladivo|píla|vrták}
+V testovať : {lekár|učiteľ|profesor|tréner} > patient {žiak|študent|pacient|dieťa|hráč|športovec|kandidát}
+V testovať : person > patient software
+V testovať : person > patient food
+N diplom : document
+N semester : period
+N tabuľa : artifact, cleanable
+N prednáška : event, attendable
+V zapísať sa : {žiak|žiačka|študent|študentka|účastník|dieťa|chlapec|dievča|mladistvý|uchádzač} > purpose {kurz|skúška|seminár|tréning}, location {škola|univerzita|vysoká škola}
+V zapísať sa : {študent|študentka|uchádzač|mladistvý} > purpose {štúdium|odborná príprava}, location {univerzita|vysoká škola}
+N zápis : event
+V absolvovať : person -professional > patient {skúška|kurz|odborná príprava|tréning|stáž}
+N absolvent : person
+N mentor : professional
+N dekan : professional
+N fakulta : institution
+N kampus : place ; auf
+N študentský domov : building, enterable
+N prednáškova sála : room, cleanable, enterable
+N študentská jedáleň : building, enterable
+N kvíz : activity
+N záverečná práca : text
+N seminár : event, attendable
+N štipendium : money
+N guma (na gumovanie) : tool
+N gramotnosť : activity
+N certifikát : document
+N akadémia : institution
+N vysokoškolák : professional
+AN akademický : person, institution, activity ; attr
+N škôlka : institution, building, enterable
+N veda : idea
+N vedec : professional
+AN vedecký : activity, idea, information, institution, text ; attr
+N prírodná veda : idea
+N ekonómia : idea
+V bádať : {výskumník|vedec|profesor|študent|študentka|expert}
+V bádať : {výskumník|vedec|policajt|policajtka|detektív|inžinier|expert|profesor|študent|študentka|lekár|lekárka} > theme {príčina|pravda|odpoveď|stopa|riešenie}
+N výskum : activity
+N výskumník : professional
+V preskúmať : person > patient place
+N laboratórium : room, lockable, cleanable, enterable
+N experiment : activity
+V experimentovať : person > instrument substance
+V experimentovať : person > instrument device
+V experimentovať : person > instrument food
+V experimentovať : person > instrument {farba|tvar|metóda|technika}
+N teória : idea
+AN teoretický : idea, information, activity ; attr
+N hypotéza : idea
+N metóda : idea
+N analýza : activity
+N fakt : information
+V vynájsť : person > patient device
+V vynájsť : person > patient {príbeh|klamstvo|rozprávka}
+N obhliadka : activity
+V informovať sa : person > theme person, location {sused|susedka|priateľ|priateľka|kolega|kolegyňa|predavač|predavačka|úradník|úradníčka|učiteľ|učiteľka|čašník|čašníčka}
+V informovať sa : person > theme {cena|cesta (komunikácia)|čas (na hodinách)|cestovný poriadok}, location {sused|susedka|priateľ|priateľka|kolega|kolegyňa|predavač|predavačka|úradník|úradníčka|učiteľ|učiteľka|čašník|čašníčka}
+V informovať sa : person > theme {zdravie|poloha}, location {sused|susedka|priateľ|priateľka|kolega|kolegyňa|predavač|predavačka|úradník|úradníčka|učiteľ|učiteľka|čašník|čašníčka}
+N expedícia : event, attendable
+N vzorec : information
+V formulovať : person > patient {veta|otázka|odpoveď}
+V formulovať : person > patient {myšlienka|cieľ|kritika|návrh}
+N formulácia : writing
+N definícia : information
+N rovnica : information
+N premenná : quantity
+N desatinné číslo : quantity
+N pomer : relation
+N polomer : quantity
+N priemer (kruhu) : quantity
+N teoréma : information
+N graf : picture
+N grafické znázornenie : picture
+N diagram : picture
+N exemplár : thing
+N referencia : information
+N štúdia : information
+N objasnenie : activity
+N kvalifikácia : state
+N prognóza : information
+N vyhodnotenie : activity
+N princíp : rule
+N kritérium : idea
+N matematika : idea
+N matika : idea
+N matematik : professional
+AN matematický : idea, information, activity, problem ; attr
+N fyzika : idea
+N fyzik : professional
+AN fyzikálny : phenomenon, idea, information, activity ; attr
+N chémia : idea
+N chemik : professional
+AN chemický : substance, activity ; attr
+N biológia : idea
+N biológ : professional
+AN biologický : living, food, activity ; attr
+N geografia : idea
+N filozofia : idea
+N filozof : professional
+AN filozofický : idea, information, problem, activity ; attr
+N psychológia : idea
+N psychológ : professional
+AN psychologický : problem, illness, activity, idea ; attr
+N astronómia : idea
+N astronóm : professional
+N geometria : idea
+N geológia : idea
+N botanika : idea
+N zoológia : idea
+N sociológia : idea
+N lingvistika : idea
+N archeológia : idea
+N archeológ : professional
+N štatistika : idea
+AN štatistický : information, activity, quantity ; attr
+N genetika : idea
+N ekológia : idea
+N algebra : idea
+N aritmetika : idea
+N knižnica : building, institution, enterable
+N knihovník : professional
+N encyklopédia : text, openable
+N atlas : text, openable
+N glóbus : artifact, thing
+N mikroskop : device, repairable
+N teleskop : device, repairable
+N pravítko : tool
+N baňka : container, breakable, fillable
+N lievik : tool
+N hranol : artifact
+N archív : building, institution, enterable
+V archivovať : agent > patient text
+N ústav : institution, building, enterable
+N tabuľka : text
+N maturita : event, attendable
+N začiatočník : person
+N architektúra : idea
+N odborná škola : institution, building, enterable
+N rozdiel (číselný) : quantity
+N etika : idea
+N odborná vysoká škola : institution, building, enterable
+N jednotná škola : institution, building, enterable
+N hlavná škola : institution, building, enterable
+N historik : professional
+N informatika : idea
+N detské jasle : institution, building, enterable
+N písomná práca : event, attendable
+N učiteľka : professional
+N učňovské miesto : abstract
+N spolužiak : person
+N reálna škola : institution, building, enterable
+N rešerš : activity
+N referát : event, attendable
+N školský dvor : place, cleanable, enterable ; auf
+N školský deň : period
+N školská taška : container, openable, fillable
+N letné prázdniny : period
+N jazykový kurz : activity, attendable
+N študentka : role
+N študijný odbor : activity
+N listina : document
+N ľudová škola : institution, building, enterable
+N opakovanie : event
+N riadok : writing
+N vysvedčenie : document
+N číslica : writing
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN archeologický : {nález|výskum|múzeum}
+AN architektonický : building, {štýl|návrh|plán|pamiatka}
+AN astronomický : {pozorovanie|ďalekohľad|jav|rok}
+AN experimentálny : activity, idea, creative-work, {metóda|štúdia|zariadenie}
+AN geologický : {vrstva|výskum|mapa|vek|štruktúra}
+AN neúmerný : quantity, problem, state, activity, {rozdiel (číselný)|cena}
+AN overiteľný : information, idea, {fakt|tvrdenie|údaje}
+AN pedagogický : activity, {metóda|prístup|škola|práca|zbor}
+AN prvotriedny : object, food, drink, person, professional, creative-work, activity
+AN prírodovedný : {predmet|výskum|múzeum|fakulta}
+AN skutočný : person, object, place, information, event, state, feeling ; attr
+AN školský : building, room, {rok|trieda|poriadok|batoh|knižnica|lavica|zošit|tabuľa}
+V odpisovať : person > patient {úloha|text|test|poznámka}, source person
+V referovať : person > recipient person, topic {výskum|situácia|výsledok|projekt|prípad}
+V rozlišovať : person > patient thing, as thing
+V senzibilizovať : person > patient {verejnosť|spoločnosť|žiak|študent}, topic {problém|téma}
+V spoznať : person > patient {mesto|kultúra|jazyk (reč)|zvyk}
+V spoznať : person > patient {mesto|kultúra|jazyk (reč)|zvyk}
+V vytriediť : person > patient {odpad|papier|ovocie|zemiak|fotka|pošta}
+V zapísať do školy : person > patient child
+V získať doktorát : person -child
+V školiť : person > patient {zamestnanec|žiak|študent|učeň|pes}

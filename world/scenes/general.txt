@@ -1,0 +1,36 @@
+# GENERAL: words of every setting -- people as such, the everyday verbs. (A line: `POS word [= slovak] [: role]`;
+# the Slovak only where the word has several senses in the dictionary.)
+SETTING everyday
+N muž
+N žena
+N dieťa
+N priateľ
+N priateľka
+N človek
+N ľudia
+N rodina
+N deň
+N večer
+N ráno
+V vidieť
+V mať (vlastniť)
+V mať rád
+V nájsť
+V potrebovať
+V prísť
+V ísť (pešo)
+V zostať
+V povedať
+V hovoriť
+V pýtať sa
+V odpovedať
+V čakať
+V pomôcť
+V dať
+V vziať
+V doniesť
+V smiať sa
+V myslieť
+V vedieť
+V sedieť
+V stáť (v stoji)

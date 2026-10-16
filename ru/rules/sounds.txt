@@ -1,0 +1,225 @@
+# RUSSIAN LETTERS TO SOUNDS (engine/sounds.js): a word the dictionary has not -- a case form, a plural, a verb form --
+# read from its spelling. The word's STRESS is found through the dictionary word it is a form of (`stem` rules: the
+# same stem, the dictionary's ending) and written as an acute (U+0301) after the stressed letter before these rules
+# read it: a vowel sounds by its place against the stress (о: ˈo stressed, ɐ just before it or at the start, ə
+# elsewhere). A consonant is soft (ʲ) before е ё и ю я ь; ж ш ц are always hard, ч щ always soft; a voiced obstruent
+# is devoiced at the end and before a voiceless one, a voiceless one voiced before a voiced one.
+class vowel = а е ё и о у ы э ю я
+class soft = е ё и ю я ь
+class voiceless = к п с т ф х ц ч ш щ
+class voiced = б г д ж з
+stress = none
+
+# ---- the forms: a dictionary word's stem + an ending (nouns, adjectives, verbs) ------------------------------------
+stem а = - о ь я й е
+stem я = ь й - е
+stem ы = а - ь
+stem и = а я ь й - е о
+stem у = - а ь й е о
+stem ю = я ь й е
+stem е = а я - ь й о
+stem ом = - й ь о
+stem ем = ь й е
+stem ой = а
+stem ей = я ь е
+stem ов = -
+stem ев = й ь
+stem ам = а - я ь й о е
+stem ям = я ь й е
+stem ами = а - я ь о
+stem ями = я ь й е
+stem ах = а - я ь о
+stem ях = я ь й е
+stem ого = ый ой ий
+stem его = ий ой
+stem ому = ый ой ий
+stem ему = ий
+stem ым = ый ой ий
+stem им = ий
+stem ых = ый ой ий
+stem их = ий
+stem ыми = ый ой ий
+stem ими = ий
+stem ая = ый ой ий
+stem яя = ий
+stem ое = ый ой ий
+stem ее = ий
+stem ую = ый ой ий
+stem юю = ий
+stem ые = ый ой ий
+stem ие = ий
+stem ю = ть ить еть
+stem у = ть ать нуть
+stem ешь = ть
+stem ет = ть
+stem ем = ть
+stem ете = ть
+stem ют = ть
+stem ут = ать нуть
+stem ишь = ить еть
+stem ит = ить еть
+stem им = ить еть
+stem ите = ить еть
+stem ят = ить еть
+stem ат = ать
+stem л = ть
+stem ла = ть
+stem ло = ть
+stem ли = ть
+stem лся = ться
+stem лась = ться
+stem лись = ться
+stem ся = - 
+stem сь = -
+stem ется = аться яться еться
+stem ются = аться яться еться
+stem ится = иться еться
+stem ятся = иться еться
+stem й = ть
+stem йте = ть
+stem и = ить
+stem ите = ить
+stem ь = ить еть
+stem ьте = ить еть
+
+# ---- words no rule reads right ------------------------------------------------------------------------------------
+word что = ʂto
+word чтобы = ˈʂtobɨ
+word конечно = kɐˈnʲeʂnə
+word сегодня = sʲɪˈvodʲnʲə
+word его = jɪˈvo
+word её = jɪˈjo
+word чувство = ˈtɕustvə
+word здравствуйте = ˈzdrastvujtʲɪ
+word пожалуйста = pɐˈʐalustə
+word солнце = ˈsontsə
+word сердце = ˈsʲertsə
+word что-то = ˈʂtotə
+word кого = kɐˈvo
+word того = tɐˈvo
+word этого = ˈɛtəvə
+word ничего = nʲɪtɕɪˈvo
+word никого = nʲɪkɐˈvo
+word много = ˈmnoɡə
+word немного = nʲɪˈmnoɡə
+word строго = ˈstroɡə
+word дорого = ˈdorəɡə
+
+# ---- consonant clusters and endings --------------------------------------------------------------------------------
+letters о́го$ = ˈovə
+letters ого́$ = ɐˈvo
+letters его́$ = ɪˈvo
+letters ого$ = əvə
+letters его$ = ɪvə
+letters ться$ = tsːə
+letters тся$ = tsːə
+letters сч = ɕː
+letters зч = ɕː
+letters жч = ɕː
+letters здн = zn
+letters стн = sn
+letters лнц = nts
+letters вств = stv
+letters тч = tɕː
+letters дч = tɕː
+letters тс = ts
+letters дс = ts
+letters нн = nː
+letters сс = sː
+letters лл = lː
+letters тт = tː
+
+# ---- consonants: soft before a soft vowel or ь; devoiced at the end and before a voiceless; voiced before a voiced ----
+letters б(?=[кпстфхцчшщ]) = p
+letters б$ = p
+letters бь$ = pʲ
+letters б(?={soft}) = bʲ
+letters б = b
+letters в(?=[кпстфхцчшщ]) = f
+letters в$ = f
+letters вь$ = fʲ
+letters в(?={soft}) = vʲ
+letters в = v
+letters г(?=[кпстфхцчшщ]) = k
+letters г$ = k
+letters г(?={soft}) = ɡʲ
+letters г = ɡ
+letters д(?=[кпстфхцчшщ]) = t
+letters д$ = t
+letters дь$ = tʲ
+letters д(?={soft}) = dʲ
+letters д = d
+letters ж(?=[кпстфхцчшщ]) = ʂ
+letters ж$ = ʂ
+letters ж = ʐ
+letters з(?=[кпстфхцчшщ]) = s
+letters з$ = s
+letters зь$ = sʲ
+letters з(?={soft}) = zʲ
+letters з = z
+letters й = j
+letters к(?=[бгдзж]) = ɡ
+letters к(?={soft}) = kʲ
+letters к = k
+letters л(?={soft}) = lʲ
+letters л = l
+letters м(?={soft}) = mʲ
+letters м = m
+letters н(?={soft}) = nʲ
+letters н = n
+letters п(?=[бгдзж]) = b
+letters п(?={soft}) = pʲ
+letters п = p
+letters р(?={soft}) = rʲ
+letters р = r
+letters с(?=[бгдзж]) = z
+letters с(?={soft}) = sʲ
+letters с = s
+letters т(?=[бгдзж]) = d
+letters т(?={soft}) = tʲ
+letters т = t
+letters ф(?={soft}) = fʲ
+letters ф = f
+letters х(?={soft}) = xʲ
+letters х = x
+letters ц = ts
+letters ч = tɕ
+letters ш = ʂ
+letters щ = ɕː
+letters ь =
+letters ъ =
+
+# ---- vowels: stressed (with the acute), then unstressed by their place ---------------------------------------------
+letters а́ = ˈa
+letters о́ = ˈo
+letters у́ = ˈu
+letters ы́ = ˈɨ
+letters э́ = ˈɛ
+letters и́ = ˈɨ after /[жшц]$/
+letters и́ = ˈi
+letters е́ = ˈje after /^$|{vowel}́?$|[ьъ]$/
+letters е́ = ˈɛ after /[жшц]$/
+letters е́ = ˈe
+letters ё = ˈjo after /^$|{vowel}́?$|[ьъ]$/
+letters ё = ˈo
+letters ю́ = ˈju after /^$|{vowel}́?$|[ьъ]$/
+letters ю́ = ˈu
+letters я́ = ˈja after /^$|{vowel}́?$|[ьъ]$/
+letters я́ = ˈa
+# unstressed: о and а are ɐ just before the stressed syllable and at the word's start, ə elsewhere
+letters [ао](?=[^аеёиоуыэюя]*[аеёиоуыэюя]́) = ɐ
+letters [ао] = ɐ after /^$/
+letters [ао] = ə
+letters у = ʊ
+letters ы = ɨ
+letters э = ɛ
+letters и = ɨ after /[жшц]$/
+letters и = i
+letters е = jɪ after /^$|{vowel}́?$|[ьъ]$/
+letters е = ɨ after /[жшц]$/
+letters е = ɪ
+letters ю = jʊ after /^$|{vowel}́?$|[ьъ]$/
+letters ю = ʊ
+letters я = jɪ after /^$|{vowel}́?$|[ьъ]$/
+letters я = ɪ
+letters [-] =

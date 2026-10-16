@@ -1,0 +1,181 @@
+# war-peace
+N vojna
+N občianska vojna
+N vojnová loď
+N mier
+AN mierumilovný : adverb mierumilovne
+N mierová zmluva
+N bitka (vojenská)
+N bojisko
+N boj
+V bojovať
+N bojovník
+V bojovať proti
+N bojová morálka
+AN bojovný : adverb bojovne
+N konflikt
+N nepriateľ
+AN nepriateľský : adverb nepriateľsky
+AN nepriateľský voči ženám
+AN znepriatelený
+N spojenectvo
+N spojenec
+V spojiť sa
+N hrozba
+V ohrozovať
+V zaútočiť
+N útok
+N útočník (agresor)
+V brániť
+N obrana
+N obranca
+N invázia
+V dobyť
+N dobytie
+N dobyvateľ
+V znovu dobyť
+V obsadiť
+N obsadenie
+AN obsadený
+N víťazstvo
+V zvíťaziť
+N víťaz
+AN víťazný : adverb víťazne
+V poraziť
+AN bez víťazstva
+N porážka
+V kapitulovať
+N kapitulácia
+N ústup
+N hrdina
+N hrdinka
+AN hrdinský : adverb hrdinsky
+N rukojemník
+N braní rukojemníkov
+N blokáda
+V blokovať
+N embargo
+N sabotáž
+V sabotovať
+N strata
+N výkupné
+N útočná vojna
+N ofenzíva
+N front
+N vpád
+N eskalácia
+N potieranie
+N paľba
+N atentát
+N vojnový zločin
+N mučenie
+V zdiskreditovať
+
+# army
+N armáda
+N námorníctvo
+AN vojenský
+N vojak
+N vojačka
+N dôstojník
+N povel
+N veliteľ
+V veliť
+N oddiel
+N stráž
+N strážca
+V strážiť
+N špión
+V špehovať
+N špionáž
+N prieskumník
+N rytier
+N veterán
+V hliadkovať
+N pochod
+V pochodovať
+N kasárne
+N veliteľstvo
+N generál
+N admirál
+N plukovník
+N poručík
+N seržant
+N regrút
+V verbovať
+N žoldnier
+N pluk
+N kavaléria
+N pechota
+N loďstvo
+V salutovať
+N Bundeswehr
+N ozbrojené sily
+N zásahové jednotky
+N revír
+V kamuflovať
+V zamerať
+V lemovať
+V zaskočiť
+V katapultovať
+
+# weapons-fortification
+N zbraň
+N strelná zbraň
+V odzbrojiť
+V ozbrojiť
+AN ozbrojený
+N prímerie
+N puška
+N pištoľ
+N kanón
+V strieľať
+N výstrel
+N strelec
+N ostrostrelec
+N zákop
+N strelný prach
+V zastreliť
+V zostreliť
+V ostreľovať
+V minúť (strelu)
+N granát
+N bomba
+V bombardovať
+N bombardovanie
+N munícia
+N výbuch
+V explodovať
+N meč
+N dýka
+N štít
+N oštep
+N šíp
+PHR luk a šípy
+N brnenie
+N prilba
+N tank
+N tábor
+N obliehanie
+V obliehať
+N zálusk
+N predsunuté stanovište
+N bunker
+N barikáda
+N mína
+N torpédo
+N delostrelectvo
+N arzenál
+N prepad
+V prepadnúť
+N mieridlo
+N jadrová zbraň
+V vraziť do
+V odraziť
+V zbrojiť
+
+# war
+V plieniť
+V obkľúčiť
+N sklad
+N tuha

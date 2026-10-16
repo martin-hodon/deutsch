@@ -1,0 +1,18 @@
+# HOW SPANISH SOUNDS (engine/speak.js loadProsody): Castilian -- the format is de/rules/speech.txt's.
+rhythm = syllable      -- syllable-timed: every syllable about as long as the next -- a speaker speeds up the long ones
+even = 0.6             -- how far the syllables are pulled toward one length
+long = 1               -- Spanish has no long vowels (a ː is not written in its IPA)
+stress = 1.15          -- a stressed vowel is only a little longer: the stress is heard in the pitch, not the length
+unstressed = 1         -- unstressed vowels keep their full quality and nearly their length (no schwa)
+final = 1.15
+pause = 25             -- ms between words: Spanish links its words (los amigos is one stretch of sound)
+slow = 1.15            -- a little slower than conversation (the listener's own tempo is set in the trainer)
+accent = 1.06          -- the pitch rise on the stressed syllable: slight
+range = 0.12           -- a flat declination
+aspiration = 0.15      -- p t k are not aspirated: a short, quiet release
+
+# WEAK WORDS: said without stress in a phrase (speak.js phrase); more than `run` syllables without a beat get one back
+run = 3
+weak = el la los las lo un una unos unas de del a al en con por para sin sobre entre hacia desde
+weak = y e o u pero que si ni se me te le les nos os mi mis tu tus su sus
+weak = es son soy eres somos era eran fue fueron ha han he has hemos había habían hay no

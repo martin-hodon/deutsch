@@ -1,0 +1,8 @@
+# CHINESE'S WORD FOR A CONCEPT where the realizer should not take the first commonest one -- `POS concept = word`.
+# Read by zh/realize.js (engine/lexicon.js).
+V skúsiť = 尝试
+V ísť (pešo) = 去
+V pomôcť = 帮
+V navštíviť = 看望
+AV vtedy = 这时
+V obnoviť (pôvodný stav) = 修复

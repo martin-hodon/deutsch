@@ -1,0 +1,2 @@
+@ grammar/particles-adverbs.txt # attitude-and-manner
+2 AV leid {leid} [laɪt] = ľúto

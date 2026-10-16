@@ -1,0 +1,120 @@
+# accusative
+1 PRE 为 {为} [wèi] = pre
+1 PRE 给 {给} [gěi] = pre
+3 PRE 围绕 {围绕} [wéirào] = okolo
+2 PRE 绕着 {绕着} [ràozhe] = okolo
+3 AV 越发 {越发} [yuèfā] = tým viac
+2 AV 更加 {更加} [gèngjiā] = tým viac
+1 PRE 没有 {没有} [méiyǒu] = bez
+3 PRE 无 {无} [wú] = bez
+2 AV 无论如何 {无论如何} [wúlùn rúhé] = tak či tak
+2 AV 反正 {反正} [fǎnzhèng] = tak či tak
+3 PRE 针对 {针对} [zhēnduì] = proti
+2 PRE 对着 {对着} [duìzhe] = proti
+1 PRE 每 {每} [měi] = na (za jednotku)
+2 PRE 按 {按} [àn] = na (za jednotku)
+1 PRE 通过 {通过} [tōngguò] = prostredníctvom
+3 PRE 经由 {经由} [jīngyóu] = prostredníctvom
+
+# dative
+2 PRE 由 {由} [yóu] = z
+1 PRE 从 {从} [cóng] = z
+1 PRE 在 {在} [zài] = pri
+2 PRE 靠近 {靠近} [kàojìn] = pri
+1 PRE 跟 {跟} [gēn] = s
+1 PRE 和 {和} [hé] = s
+1 PRE 用 {用} [yòng] = s
+1 PRE 从 {从} [cóng] = od (pôvod)
+1 PRE 来自 {来自} [láizì] = od (pôvod)
+1 PRE 到 {到} [dào] = k
+1 PRE 向 {向} [xiàng] = k
+1 PRE 为了 {为了} [wèile] = pre dobro
+3 PRE 看在 {看在} [kànzài] = pre dobro
+1 PRE 从 {从} [cóng] = od (začiatok)
+2 PRE 自从 {自从} [zìcóng] = od (začiatok)
+1 PRE 除了 {除了} [chúle] = okrem
+3 PRE 除开 {除开} [chúkāi] = okrem
+3 PRE 违背 {违背} [wéibèi] = v rozpore s
+2 PRE 违反 {违反} [wéifǎn] = v rozpore s
+2 PRE 按照 {按照} [ànzhào] = v súlade s
+3 PRE 依照 {依照} [yīzhào] = v súlade s
+3 PRE 连同 {连同} [liántóng] = spolu s
+2 PRE 加上 {加上} [jiāshàng] = spolu s
+3 PRE 多亏 {多亏} [duōkuī] = vďaka
+3 PRE 凭借 {凭借} [píngjiè] = vďaka
+3 PRE 同 {同} [tóng] = s
+2 PRE 自 {自} [zì] = od (začiatok)
+2 PRE 往 {往} [wǎng] = k
+2 PRE 以来 {以来} [yǐlái] = od (začiatok)
+2 PRE 随着 {随着} [suízhe] = spolu s
+1 PRE 以外 {以外} [yǐwài] = okrem
+
+# genitive
+1 PRE 因为 {因为} [yīnwèi] = kvôli
+2 PRE 由于 {由于} [yóuyú] = kvôli
+2 PRE 尽管 {尽管} [jǐn'guǎn] = napriek
+3 PRE 不顾 {不顾} [bùgù] = napriek
+2 PRE 代替 {代替} [dàitì] = namiesto
+2 PRE 替 {替} [tì] = namiesto
+3 AV 取而代之 {取而代之} [qǔ'ér dàizhī] = namiesto toho
+2 AV 而是 {而是} [érshì] = namiesto toho
+1 PRE 里 {里} [lǐ] = vnútri
+2 PRE 内 {内} [nèi] = vnútri
+1 PRE 外 {外} [wài] = mimo
+2 PRE 之外 {之外} [zhīwài] = mimo
+1 PRE 这边 {这边} [zhèbiān] = na tejto strane
+2 PRE 这一边 {这一边} [zhè yībiān] = na tejto strane
+2 PRE 根据 {根据} [gēnjù] = na základe
+3 PRE 基于 {基于} [jīyú] = na základe
+2 PRE 由于 {由于} [yóuyú] = následkom
+3 PRE 因 {因} [yīn] = následkom
+3 PRE 值此 {值此} [zhícǐ] = pri príležitosti
+3 PRE 适逢 {适逢} [shìféng] = pri príležitosti
+1 PRE 关于 {关于} [guānyú] = pokiaľ ide o
+2 PRE 至于 {至于} [zhìyú] = pokiaľ ide o
+3 PRE 鉴于 {鉴于} [jiànyú] = vzhľadom na
+2 PRE 考虑到 {考虑到} [kǎolǜdào] = vzhľadom na
+2 PRE 有利于 {有利于} [yǒulìyú] = v prospech
+3 PRE 有益于 {有益于} [yǒuyìyú] = v prospech
+3 PRE 借助 {借助} [jièzhù] = pomocou
+1 PRE 用 {用} [yòng] = pomocou
+1 PRE 为了 {为了} [wèile] = za účelom
+2 PRE 以便 {以便} [yǐbiàn] = za účelom
+2 PRE 由 {由} [yóu] = zo strany
+1 PRE 来自 {来自} [láizì] = zo strany
+1 PRE 在中间 {在中间} [zài zhōngjiān] = uprostred
+2 PRE 当中 {当中} [dāngzhōng] = uprostred
+2 PRE 远离 {远离} [yuǎnlí] = stranou
+1 PRE 在旁边 {在旁边} [zài pángbiān] = stranou
+1 PRE 在附近 {在附近} [zài fùjìn] = neďaleko
+2 PRE 靠近 {靠近} [kàojìn] = neďaleko
+2 PRE 期间 {期间} [qījiān] = v priebehu
+2 PRE 之内 {之内} [zhīnèi] = v priebehu
+2 PRE 包括 {包括} [bāokuò] = vrátane
+2 PRE 含 {含} [hán] = vrátane
+2 PRE 以 {以} [yǐ] = pomocou
+2 PRE 中 {中} [zhōng] = vnútri
+2 PRE 来说 {来说} [láishuō] = pokiaľ ide o
+2 PRE 出于 {出于} [chūyú] = kvôli
+2 PRE 在内 {在内} [zàinèi] = vrátane
+2 PRE 之中 {之中} [zhīzhōng] = uprostred
+
+# two-way
+1 PRE 在 {在} [zài] = na (v kontakte)
+2 PRE 靠 {靠} [kào] = na (v kontakte)
+1 PRE 在 {在} [zài] = na (navrchu)
+1 PRE 在上面 {在上面} [zài shàngmiàn] = na (navrchu)
+1 PRE 在 {在} [zài] = v
+1 PRE 在里面 {在里面} [zài lǐmiàn] = v
+1 PRE 上 {上} [shàng] = na (navrchu)
+2 PRE 于 {于} [yú] = v
+
+# more
+1 PHR 不管 {不管} [bùguǎn] = bez ohľadu na
+2 PHR 无论 {无论} [wúlùn] = bez ohľadu na
+1 PHR 不论 {不论} [búlùn] = bez ohľadu na
+
+# language-specific closed words (no Slovak word: a description)
+1 PRE 比 {比} [bǐ] = porovnávacia predložka (比)
+1 PRE 离 {离} [lí] = od (vzdialenosť)
+2 PRE 小于 {小于} [xiǎoyú] = menej ako

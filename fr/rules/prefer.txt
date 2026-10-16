@@ -1,0 +1,7 @@
+# FRENCH'S WORD FOR A CONCEPT where the realizer should not take the first commonest one -- `POS concept = word`.
+# Read by fr/realize.js.
+N učiteľ = professeur
+AN pokazený = en panne
+AN hotový = prêt
+N jedlo = repas
+AN ľahký = facile

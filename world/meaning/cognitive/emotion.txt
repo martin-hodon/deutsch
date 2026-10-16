@@ -1,0 +1,477 @@
+AN neistý : animal, -insect, state, idea
+N pocit : feeling
+N súcit : feeling
+AN bezcitný : person
+AN citový : person, creative-work
+N emócia : feeling
+AN emocionálny : person, event, creative-work
+AN náladový : person
+N šťastie : state
+AN šťastný : relative, child, pet, livestock, {žena|muž|pár|priateľ|priateľka|dáma}, -{príbuzný|blízky|dvojča}
+AN nešťastný : animal, -insect, incident
+AV našťastie : sentence ind
+N blaženosť : feeling
+N radosť : feeling
+V tešiť sa : person > topic {darček|kvetina|auto|dom|list (písomnosť)|návšteva}
+V tešiť sa : person > topic {správa (oznam)|odpoveď|list (písomnosť)|telefonát|výsledok|kompliment|chvála}
+V tešiť sa : person > topic {víťazstvo|návšteva|úspech|slávnosť|opätovné stretnutie}
+V tešiť sa : person > topic person
+V tešiť sa : person > theme {dovolenka|víkend|prázdniny|návšteva|večierok|Vianoce|slávnosť|narodeniny}
+V tešiť sa : person > theme {leto|zima|jar|jeseň}
+V tešiť sa : person > theme relative
+V tešiť sa : person > theme infant
+V tešiť sa : person > theme {priateľ|priateľka|partner|partnerka|žena|muž|manžel|manželka}
+V tešiť sa : person > theme meal
+V tešiť sa : person > theme sweets
+V tešiť sa : person > inf
+AN potešený : person
+AN radostný : person, event
+AN rád : relative, child, -infant, {žena|muž|pár|priateľ|priateľka|dáma}, -{príbuzný|blízky|dvojča} ; pred
+AN veselý : animal, -insect, celebration, period
+AN smutný : animal, -insect, -fish-animal, {nehoda|dopravná nehoda|smrť|strata|rozlúčka}, {okamih|okamih|koniec|príležitosť}, creative-work, -{vtip|žart}
+N smútok : feeling
+V smútiť : person > topic animal
+N žiaľ : feeling
+N zlosť : feeling
+AN zúrivý : relative, child, -infant, {žena|muž|pán|dáma|priateľ|priateľka|pacient|zákazník|hosť|sused}, mammal, -{príbuzný|blízky|dvojča}
+N hnev : feeling
+AN nahnevaný : relative, child, -infant, {žena|muž|pán|dáma|priateľ|priateľka|pacient|zákazník|hosť|sused}, mammal, -{príbuzný|blízky|dvojča}
+N strach : feeling
+AN bojazlivý : animal, -insect
+N zdesenie : feeling
+AN zdesený : person
+AN hrozný : event, crime, illness, phenomenon
+N starosť : feeling
+V robiť si starosti : person > topic relative
+V robiť si starosti : person > topic child
+V robiť si starosti : person > topic {priateľ|priateľka|partner|partnerka|muž|žena|manžel|manželka|spolupracovník|kolega|pacient}
+V robiť si starosti : person > topic pet
+V robiť si starosti : person > topic {zdravie|budúcnosť|bezpečnosť|mier|práca}
+V robiť si starosti : person > topic {dom|auto|peniaze|záhrada}
+V postarať sa : person > purpose relative
+V postarať sa : person > purpose child
+V postarať sa : person > purpose pet
+V postarať sa : person > purpose livestock
+V postarať sa : person > purpose {poriadok|pokoj|bezpečnosť|mier|zdravie}
+V postarať sa : person > purpose {hádka|rozruch|chaos|prekvapenie|zábava|sranda|nálada}
+AN ustarostený : person, -infant
+V obstarať : person > patient {darček|lístok|cestovný lístok|náradie|kvetina|noviny}
+V obstarať : person > patient {chlieb|liek|voda|jedlo|ovocie|koláč|zelenina|mäso|mlieko}
+V obstarať : person > recipient person, patient {darček|lístok|cestovný lístok|náradie|kvetina|noviny}
+V obstarať : person > recipient person, patient {chlieb|liek|voda|jedlo|ovocie|koláč|zelenina|mäso|mlieko}
+AN pokojný : relative, child, {žena|muž|pán|dáma|priateľ|priateľka|partner|pacient|sused}, pet, livestock, {kraj|dedina|mesto|susedstvo}, {jazero|more|rybník|rieka|potok|voda}, room, -{toaleta|kúpeľňa|kuchyňa|pivnica|chodba}, road, {deň|noc|večer|ráno|týždeň|víkend}, -{príbuzný|blízky|dvojča}
+N pokoj : state
+V upokojiť : person > patient person
+V upokojiť : person > patient pet
+V upokojiť : {správa (oznam)|odpoveď|informácia|vysvetlenie} > patient person
+V upokojiť : {hudba|pieseň|zvuk} > patient animal
+V upokojiť : {čaj|mlieko|kakao} > patient animal
+V upokojiť : animal -insect
+AN nepokojný : relative, child, {žena|muž|pán|dáma|priateľ|priateľka|partner|pacient|sused}, pet, livestock, {kraj|dedina|mesto|susedstvo}, {jazero|more|rybník|rieka|potok|voda}, room, -{toaleta|kúpeľňa|kuchyňa|pivnica|chodba}, road, {deň|noc|večer|ráno|týždeň|víkend}, -{príbuzný|blízky|dvojča}
+N úľava : feeling
+V uľahčiť : device > patient {práca|všedný deň|úloha|život}
+V uľahčiť : tool > patient {práca|všedný deň|úloha|život}
+V uľahčiť : {aplikácia|program|softvér} > patient {práca|všedný deň|úloha|život}
+V uľahčiť : rule > patient {práca|všedný deň|úloha|život}
+V uľahčiť : device > recipient person, patient {práca|všedný deň|úloha|život}
+V uľahčiť : tool > recipient person, patient {práca|všedný deň|úloha|život}
+V uľahčiť : {aplikácia|program|softvér} > recipient person, patient {práca|všedný deň|úloha|život}
+V uľahčiť : rule > recipient person, patient {práca|všedný deň|úloha|život}
+AN uľavený : person
+N prekvapenie : event, feeling
+V prekvapiť : {návšteva|víťazstvo|darček|výsledok|ponuka} > patient person
+V prekvapiť : {správa (oznam)|odpoveď|otázka|telefonát|list (písomnosť)} > patient person
+V prekvapiť : {búrka|dážď|víchor|sneh|chlad} > patient person
+V prekvapiť : person > patient person -infant
+AN prekvapivý : event, information
+AN prekvapený : animal, -insect
+N šok : feeling
+V šokovať : {správa (oznam)|hlásenie|novinka|číslo (matematické)|správa (o udalosti)} > patient person
+V šokovať : {nehoda|výbuch|katastrofa|vojna} > patient person
+V šokovať : crime > patient person
+V šokovať : {obraz|fotka|film} > patient person
+N sklamanie : feeling
+V sklamať : person > patient {rodičia|dieťa|syn|dcéra|priateľ|priateľka|muž|žena|partner|zákazník}
+V sklamať : {hra|koncert|dovolenka|výsledok|cesta (cestovanie)|voľba} > patient person
+V sklamať : {film|kniha|pieseň|koniec} > patient person
+V sklamať : {správa (oznam)|odpoveď|nota} > patient person
+AN sklamaný : person
+N zúfalstvo : feeling
+AN zúfalý : person, activity
+N nádej : feeling
+V dúfať : person > theme {víťazstvo|zázrak|pomoc|záchrana|odpoveď|správa (oznam)}
+V dúfať : person > theme {mier|šťastie|úspech|pokoj|milosť}
+V dúfať : person > theme {lekár|pomocník}
+V dúfať : person > that
+V dúfať : person > inf
+AV dúfajme : sentence present perfect future ind
+V nudiť sa : person
+V nudiť sa : pet
+AN znudený : person, pet
+AN nudný : game, creative-work, {text|článok|denník (zápisky)|román}, {práca|povolanie|práca|úloha|vyučovanie|všedný deň|večierok|skúška|zasadnutie|konferencia|stretnutie|porada|koncert}, {človek|učiteľ|rečník|kolega|typ|prednáška}
+N nuda : feeling
+V rozčuľovať : {správa (oznam)|hlásenie|chýr|otázka} > patient person
+V rozčuľovať : {hádka|nehoda|návšteva|skúška} > patient person
+V rozčuľovať : {problém|chyba|meškanie|zápcha} > patient person
+V rozčuľovať : person > patient animal
+V rozčuľovať : person > topic person
+V rozčuľovať : person > topic {hádka|hluk|nehoda|voľba|počasie}
+V rozčuľovať : person > topic {problém|chyba|zápcha|meškanie}
+V rozčuľovať : person > topic {správa (oznam)|hlásenie|chýr|odpoveď}
+AN vzrušený : animal, -insect
+AN vzrušujúci : event, place, creative-work
+N vzrušenie : feeling
+N nadšenie : feeling
+V nadchnúť : {film|pieseň|kniha|báseň|príbeh} > patient person
+V nadchnúť : {koncert|hra|víťazstvo|slávnosť|cesta (cestovanie)} > patient person
+V nadchnúť : {nápad|plán|návrh|koncepcia} > patient person
+V nadchnúť : person > patient {žiak|obecenstvo|divák|dieťa|priateľ|žena|muž|zákazník}
+V nadchnúť : person > purpose {šport|hudba|politika|umenie|technika}
+V nadchnúť : person > purpose {film|pieseň|kniha|báseň}
+V nadchnúť : person > purpose {nápad|plán|návrh|koncepcia}
+AN nadšený : relative, child, -infant, {žena|muž|pán|dáma|priateľ|priateľka|zákazník|divák}, -{príbuzný|blízky|dvojča}
+AN nervózny : relative, child, -infant, {žena|muž|pán|dáma|priateľ|priateľka|pacient|zákazník|hostiteľ|sused|atlét|žiak|kandidát}, pet, -{príbuzný|blízky|dvojča}
+V hnevať : person > patient animal
+V hnevať : {hádka|meškanie|hluk|nehoda|porážka} > patient person
+V hnevať : {problém|chyba|zápcha} > patient person
+V hnevať : {správa (oznam)|hlásenie|odpoveď|chýr} > patient person
+V hnevať : person > topic person
+V hnevať : person > topic {hádka|meškanie|hluk|porážka|počasie}
+V hnevať : person > topic {problém|chyba|zápcha}
+V hnevať : person > topic {správa (oznam)|hlásenie|odpoveď|kritika}
+N mrzutosť : feeling
+AN rozladený : person
+N panika : feeling
+AN panický : animal, feeling
+V ľutovať : person > patient person
+V ľutovať : person > patient {chyba|rozhodnutie|hádka|strata|smrť|nehoda}
+V ľutovať : person > patient {situácia}
+V ľutovať : person > that
+AN poľutovaniahodný : event, problem
+N potešenie : feeling
+V vychutnávať si : person > patient {jedlo|jedlo|raňajky|obed|večera|piknik|koláč|ľad|čokoláda}
+V vychutnávať si : person > patient {víno|pivo|káva|čaj|kakao|šťava}
+V vychutnávať si : person > patient {dovolenka|prechádzka|výlet|cesta (cestovanie)|prestávka}
+V vychutnávať si : person > patient {pokoj|sloboda|ticho|mier|luxus|výhľad|život}
+N pôžitok : feeling
+N stres : state
+AN stresujúci : activity, period
+AN vystresovaný : person, -infant
+N okúzlenie : feeling
+AN rozkošný : person, animal, clothing, building
+N napätie : state
+AN spokojný : animal, -insect
+N spokojnosť : feeling
+AN nespokojný : animal, -insect
+N hrôza : feeling
+N zľaknutie : feeling
+V zľaknúť sa : animal -insect
+V zľaknúť sa : animal -insect -fish-animal -reptile > cause {pes|had|pavúk|myš|medveď|vlk|opica|lev}
+V zľaknúť sa : animal -insect -fish-animal -reptile > cause {búrka|hrom|blesk|oheň}
+V zľaknúť sa : animal -insect -reptile > cause {pohľad|tma}
+V zľaknúť sa : animal -insect -reptile > cause {hluk|tresk|výkrik|šum}
+V zľaknúť sa : animal -insect -reptile > topic {nehoda|výbuch|pohľad}
+V zľaknúť sa : animal -insect -reptile > topic {správa (oznam)|hlásenie|telefonát|diagnóza|číslo (matematické)}
+V strhnúť sa : animal -insect
+V poplašiť : person > patient {polícia|hasiči|lekár|sused|človek|obyvateľstvo}
+V uvoľniť sa : animal -insect -professional
+V uvoľniť sa : {hudba|film|kniha|pieseň} > patient animal
+V uvoľniť sa : {prechádzka|dovolenka|šport|masáž|kúpeľňa|spánok (stav)} > patient animal
+V uvoľniť sa : drink > patient animal
+AN uvoľnený (bez napätia) : animal, -insect, state
+N relaxácia : state
+AN napätý : animal, -insect, state
+AN napínavý : event, creative-work, text
+AN stiesnený : animal, -insect, place, feeling
+V dráždiť : sound > patient animal -insect -fish-animal
+V dráždiť : {správa (oznam)|otázka|odpoveď|poznámka|hlásenie} > patient person -infant
+N frustrácia : feeling
+AN frustrovaný : person, -infant
+N rozhorčenie : feeling
+AN rozhorčený : person, -infant
+N zúrivosť : feeling
+N núdza : state
+N trápenie : state
+AN biedny : animal, -insect, state, place
+N bieda : state
+AN pochmúrny : place, time, state
+N melanchólia : feeling
+AN melancholický : person, creative-work
+AN sentimentálny : person, creative-work
+N extáza : feeling
+V premôcť : {radosť|strach|smútok|bázeň|panika|hanba|zlosť|zúfalstvo} > patient animal
+V premôcť : {víťazstvo|svadba|pôrod|pohľad|úspech} > patient person -child
+V premôcť : {víchor|horúčava|chlad|príliv|tma} > patient animal
+V premôcť : person > patient {páchateľ|zlodej|vlamač|útočník (agresor)}
+AN ohromujúci : event, landscape, creative-work, feeling
+V omráčiť : medicine > patient animal
+V omráčiť : drink > patient animal
+V omráčiť : illness > patient animal
+V omráčiť : feeling > patient animal
+V ohromiť : {odpoveď|otázka|výsledok|číslo (matematické)|správa (oznam)} > patient person
+V ohromiť : {víťazstvo|vystúpenie (na pódiu)|predstava} > patient person
+V ohromiť : {nápad|riešenie|plán|návrh} > patient person
+V ohromiť : person > patient person
+AN ohromený : animal, -insect
+N bázeň : feeling
+AN otrasený : person
+V rušiť : sound > patient animal
+V rušiť : person > patient animal
+V rušiť : {návšteva|hádka|telefonát|večierok} > patient animal
+V rušiť : {horúčava|vietor|dážď|chlad} > patient animal
+V rušiť : sound > patient {vyučovanie|práca|rozhovor|koncert}
+V rušiť : person > patient {vyučovanie|práca|rozhovor|koncert}
+V rušiť : {hádka|návšteva|telefonát} > patient {vyučovanie|práca|rozhovor}
+V rušiť : sound > patient {pokoj|spánok (stav)|ticho|sústredenie (pozornosť)|relaxácia|mier}
+V rušiť : person > patient {pokoj|spánok (stav)|ticho|sústredenie (pozornosť)|relaxácia|mier}
+V rušiť : {hádka|návšteva|telefonát} > patient {pokoj|spánok (stav)|ticho|sústredenie (pozornosť)|relaxácia|mier}
+V baviť : {film|vtip|príbeh|pieseň|kniha} > patient person
+V baviť : {večierok|hra|koncert|cirkus} > patient person
+V baviť : person > patient person
+V baviť : {vtip|správa (oznam)|príbeh|poznámka} > patient person
+V baviť : person > topic person
+V baviť : person > topic {hádka|hra|predstava|vystúpenie (na pódiu)}
+V baviť : person > topic {vtip|poznámka|správa (oznam)|príbeh|hlásenie}
+V baviť : person > topic beast
+AN bezmocný : animal, -insect
+N neistota : state
+AN vyrovnaný : animal, -insect
+N vyrovnanosť : feeling
+N apatia : state
+AN apatický : animal, -insect
+V zazlievať : person > recipient person, patient {meškanie|klamstvo|chyba|správanie|odmietnutie|hádka}
+V zazlievať : person > recipient person, patient {poznámka|kritika|vyjadrenie|výčitka|odpoveď}
+N horlivosť : feeling
+AN horlivý : person
+N žiarlivosť : feeling
+AN žiarlivý : person, -infant
+N utrpenie : state
+V obávať sa : person > patient {vojna|nehoda|nešťastie|hádka|katastrofa|panika|odmietnutie|meškanie}
+V obávať sa : person > patient illness
+V obávať sa : person > patient {ťažkosť|problém|nebezpečenstvo|riziko}
+V obávať sa : person > patient crime
+V obávať sa : person > that
+N optimizmus : feeling
+N napínavosť : feeling
+AN zvedavý : animal, -insect
+V báť sa : animal -insect > patient {šéf|učiteľ|policajt|nepriateľ|protivník}
+V báť sa : animal -insect > patient {pes|vlk|medveď|had|pavúk|tiger|lev|žralok}
+V báť sa : person > patient {búrka|víchor|oheň|hrom|tma}
+V báť sa : pet > patient {búrka|víchor|oheň|hrom|tma}
+V báť sa : animal -insect > patient {vojna|nehoda|skúška|budúcnosť|smrť|operácia}
+V báť sa : animal -insect > patient illness
+V báť sa : animal -insect > cause {pes|vlk|medveď|had|pavúk|tiger|lev|žralok}
+V báť sa : person > cause {búrka|víchor|oheň|hrom|tma}
+V báť sa : pet > cause {búrka|víchor|oheň|hrom|tma}
+V báť sa : animal -insect > cause {vojna|nehoda|skúška|budúcnosť|smrť|operácia}
+V báť sa : animal -insect > cause illness
+V ľúbiť : person > patient relative
+V ľúbiť : person > patient child
+V ľúbiť : person -child > patient {priateľ|priateľka|muž|žena|manžel|manželka|partner|partnerka}
+V ľúbiť : person > patient pet
+V ľúbiť : person > patient food -meal
+V ľúbiť : person > patient {šport|hudba|tanec|cesta (cestovanie)|sloboda|príroda}
+N láska : feeling
+AN láskavý : animal, -insect
+AN zamilovaný : relative, child, -infant, {žena|muž|pán|dáma|priateľ|priateľka}, -{príbuzný|blízky|dvojča|rodičia|starí rodičia|mama|otec|matka|otec|babka|dedko|stará mama|starý otec}
+V zamilovať sa : person -{rodičia|starí rodičia|mama|otec|matka|otec|babka|dedko|stará mama|starý otec} > theme person -relative -child -{manžel|manželka}
+N zamilovanosť : feeling
+AV radšej : other
+V mať rád : person > patient person
+V mať rád : person > patient animal
+V mať rád : person > patient food
+V mať rád : person > patient {hudba|film|pieseň|kniha|báseň|príbeh}
+V nenávidieť : person > patient {človek|sused|šéf|učiteľ|politik|protivník|nepriateľ|muž|žena}
+V nenávidieť : person > patient {pes|mačka|pavúk|had|myš|potkan|osa|komár}
+V nenávidieť : person > patient {práca|šport|hluk|hádka|vojna}
+V nenávidieť : person > patient {špenát|zelenina|ryba|cibuľa|kapusta}
+N nenávisť : feeling
+N náklonnosť : feeling
+N vášeň : feeling
+AN vášnivý : person, activity
+V postrádať : person > patient relative
+V postrádať : person > patient child
+V postrádať : person > patient {priateľ|priateľka|muž|žena|manžel|manželka|partner|partnerka|kolega|kolegyňa}
+V postrádať : person > patient pet
+V postrádať : person > patient settlement
+V postrádať : person > patient {vlasť|domov|dom|záhrada|byt}
+V postrádať : person > patient {kľúč|mobil|taška|okuliare|peniaze|auto}
+N závisť : feeling
+AN závistlivý : person, -infant
+V závidieť : person > patient person, theme {dom|auto|záhrada|peniaze|byt}
+V závidieť : person > patient person, theme building
+V závidieť : person > patient person, theme ability
+V závidieť : person > patient person, theme {šťastie|pokoj|sloboda|úspech|bohatstvo|zdravie|sláva}
+N znechutenie : feeling
+V hnusiť sa : animal -insect > cause animal
+V hnusiť sa : animal -insect > cause food
+V hnusiť sa : animal -insect > cause substance
+V hnusiť sa : animal -insect > cause person
+N pohŕdanie : feeling
+V pohŕdať : person > patient person
+V pohŕdať : person > patient crime
+V pohŕdať : person > patient {povera|rasizmus|diktatúra|klamstvo}
+V pohŕdať : person > patient {lenivosť|vojna|násilie|zbabelosť}
+V obdivovať : person > patient {otec|matka|učiteľ|hrdina|umelec|športovec|výskumník|priateľ|priateľka|žena|muž|spevák|herec}
+V obdivovať : person > patient {maľba|obraz|fotka}
+V obdivovať : person > patient {krajina (prírodná)|výhľad|vrch|jazero|more|vinica}
+N obdiv : feeling
+V vážiť si : person > patient person
+V vážiť si : person > patient ability
+V vážiť si : person > patient {práca|pomoc|podpora}
+V vážiť si : person > patient {hudba|film|kniha|báseň|pieseň}
+N túžba : feeling
+V túžiť : person > theme {pokoj|mier|sloboda|ticho|bezpečnosť|teplo|dovolenka|spánok (stav)}
+V túžiť : person > theme feeling
+V túžiť : person > goal settlement
+V túžiť : person > goal country
+V túžiť : person > theme person
+V žiadať : agent > patient {peniaze|poplatok|nájom|cena|súčet}, source person -professional
+V žiadať : agent > patient {odpoveď|informácia|vysvetlenie|dôkaz|pravda|ospravedlnenie}, source person
+V žiadať : institution > patient {preukaz|doklad|doklad|podpis}, source person -professional
+V žiadať : agent > patient {práca|výkon|trpezlivosť|poslušnosť|obeť}, source person
+N nežnosť : feeling
+AN nežný : animal, -insect, activity
+N empatia : feeling
+N posmech : feeling
+N hnus : feeling
+AN ohavný : crime, event, person, food, place
+N nepriateľstvo : feeling
+N zlomyseľnosť : feeling
+N zášť : feeling
+N trápenie z lásky : feeling
+N zloba : quality
+N hanba : feeling
+V hanbiť sa : person > topic relative
+V hanbiť sa : person > topic child -infant
+V hanbiť sa : person > topic {priateľ|priateľka|kolega|kolegyňa|sused|susedka|partner|muž|žena}
+V hanbiť sa : person > topic {správanie|klamstvo|chyba|porážka|chudoba}
+V hanbiť sa : person > topic crime
+V hanbiť sa : person > topic {dom|byt|auto|šaty}
+AN nehanebný : person, activity
+AN rozpačitý : person, -infant
+N rozpaky : feeling
+AN hrdý : person, -infant
+N hrdosť : feeling
+AN vďačný : animal, -insect
+N vďačnosť : feeling
+AN osamelý : animal, -insect, place
+N osamelosť : state
+V utešiť : person > patient relative
+V utešiť : person > patient child
+V utešiť : person > patient {priateľ|priateľka|muž|žena|pacient}
+V utešiť : person > patient {pes|mačka|kôň}
+N útecha : feeling
+N nostalgia : feeling
+AN nostalgický : person, creative-work
+N clivota : feeling
+AN clivý : person, -infant
+N ľútosť : feeling
+V oľutovať : person > patient {chyba|rozhodnutie|klamstvo|kúpa|cesta (cestovanie)}
+V oľutovať : person > that
+N identita : quality
+V smiať sa : person
+V smiať sa : person -infant > topic {muž|žena|dieťa|priateľ|priateľka|sused|šéf|učiteľ|brat|sestra|kolega}
+V smiať sa : person -infant > topic {vystúpenie (na pódiu)|hra|chyba}
+V smiať sa : person -infant > topic {vtip|poznámka|správa (oznam)|príbeh}
+V smiať sa : person -infant > topic {film|video}
+N smiech : event
+AN smiešny : person, idea, event, quantity, rule
+V vysmiať : person > patient {muž|žena|dieťa|priateľ|priateľka|sused|šéf|učiteľ|brat|sestra|kolega}
+V usmievať sa : person
+V usmievať sa : person -infant > topic {dieťa|muž|žena|priateľ|priateľka|brat|sestra}
+V usmievať sa : person -infant > topic {poznámka|kompliment|správa (oznam)|vtip}
+N úsmev : event
+V plakať : person
+V plakať : person -infant > topic {rozlúčka|porážka|smrť|strata|rozchod|nehoda}
+V plakať : person -infant > topic {správa (oznam)|diagnóza|list (písomnosť)|odmietnutie}
+V plakať : person -infant > topic relative
+V plakať : person > cause {radosť|zlosť|bolesť|strach|smútok|šťastie|šok|úľava}
+V vzdychať : person
+N vzdych : event
+N úcta : feeling
+N vyznanie : information
+N jednota : state
+N fair play : quality
+N lojalita : quality
+N nervozita : feeling
+N otvorenosť : quality
+N žart : creative-work
+N výsmech : activity
+N sympatie : feeling
+N nepríjemný pocit : feeling
+N nevôľa : feeling
+N nespokojnosť : feeling
+N spriaznenosť : feeling
+N radosť z očakávania : feeling
+N obľuba : feeling
+N náraz : quality
+N opovážlivosť : problem
+AN dôkladný : person, activity, -national
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN blahodarný : {účinok|vplyv|dážď|teplo|pokoj|ticho|odpočinok|zmena|hudba|liek|čaj|voda|slnko|vitamín}, medicine, state
+AN eufórický : person, feeling, event, {nálada|pocit|zážitok|víťazstvo|smiech|oslava}
+AN frustrujúci : event, problem, state, activity, relation, {práca|situácia|zážitok|hra|zápas|výsledok|neúspech|skúsenosť|pokus|prekážka|úloha}
+AN hanebný : crime, activity, event, relation, {čin|správanie|rozhodnutie|zákon|obvinenie|výsledok|vlastnosť|zrada}
+AN lichotivý : information, {slovo|kompliment|hodnotenie|obraz|fotografia|opis|výsledok|kritika|ponuka|portrét|farba|šaty|účes}, creative-work
+AN milovaný : person, pet, {dieťa|manžel|manželka|pes|mačka|kôň|učiteľ|dedko|babka|mesto|domov|kniha|hra|pieseň|pán}, -role
+AN nebojácny : person, animal, -insect
+AN nevďačný : person, child, -infant
+AN odstrašujúci : event, incident, crime, {príklad|pohľad|výraz}
+AN opojný : drink, phenomenon, feeling, {vôňa|pocit}
+AN plný nádeje : person, child, -infant
+AN strašidelný : place, building, room, event, {príbeh|zvuk|hlas}
+AN tiesnivý : place, room, feeling, {atmosféra|ticho|pocit}
+AN vrúcny : person, relation, {privítanie|objatie|pozdrav}
+V blamovať sa : person
+V doprajať : person > recipient person, patient {dovolenka|odpočinok|pokoj|oddych}
+V dotierať : person > patient person
+V dvoriť sa : person > recipient person
+V fascinovať : celestial > patient person
+V fascinovať : person > patient person
+V frustrovať : incident > patient person
+V harmonizovať : person > patient {farba|zvuk|plán}
+V hýriť : person
+V nahnevať : person > patient person
+V nahnevať : incident > patient person
+V nariekať : person
+V odstrašiť : person > patient person
+V odstrašiť : beast > patient person
+V okrídliť : {úspech|chvála|nádej} > patient person
+V otriezviť : incident > patient person
+V ozlobiť : incident > patient person
+V pobúriť : incident > patient person
+V pobúriť : person > patient person
+V pohrávať sa (s myšlienkou) : person > inf
+V posmievať sa : person > recipient person
+V potešiť : person > patient person
+V potešiť : {darček|správa (oznam)|návšteva|kvetina} > patient person
+V prechovávať : person > patient {nádej|nenávisť|podozrenie|strach}
+V rozhnevať sa : person
+V rozmaznávať : person > patient child
+V rozmaznávať : person > patient pet
+V rozrušiť : incident > patient person
+V sporiť sa : person > companion person
+V stonať : person
+V strachovať sa : person > topic person
+V strachovať sa : person > topic {zdravie|budúcnosť|bezpečnosť}
+V traumatizovať : incident > patient person
+V triumfovať : person
+V túžobne očakávať : person > patient {návšteva|list (písomnosť)|odpoveď|správa (oznam)}
+V uctievať : person > patient being
+V uctievať : person > patient person
+V udivovať : landscape > patient person
+V udivovať : person > patient person
+V vyhýbať sa : person > patient person
+V vyhýbať sa : person > patient {problém|riziko|nebezpečenstvo}
+V vystrašiť : beast > patient person
+V vystrašiť : person > patient person
+V vystrašiť : sound > patient person
+V vzrušiť : celebration > patient person
+V zneistiť : incident > patient person
+V znepokojiť : incident > patient person
+V znepokojiť : sound > patient person
+V zúriť : person
+V škľabiť sa : person
+V žasnúť : person > cause {príroda|úspech|výkon|krása}

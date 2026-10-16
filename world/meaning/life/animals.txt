@@ -1,0 +1,280 @@
+N zviera : beast
+N domáce zviera : pet
+N šelma : beast
+N divé zviera : beast
+N cicavec : mammal
+N hospodárske zviera : livestock
+N sob : mammal
+N leňochod : mammal
+N mul : mammal, livestock, rideable
+N vtákopysk : mammal
+AN zvierací : animal, substance ; attr
+N zver : meat, cookable
+AN divoký : animal, plant, landscape
+AN krotký : animal
+V skrotiť : person > patient animal
+N korisť : thing
+N beštia : animal
+N samec : animal
+N samica : animal
+N útulok pre zvieratá : building, enterable
+N medveď : mammal
+N ľadový medveď : mammal
+N macko : toy, washable
+N mýval : mammal
+N vlk : mammal
+N vlčica : mammal
+N líška : mammal
+N jeleň : mammal
+N srna : mammal
+N zajac : mammal
+N králik : mammal, pet
+N veverička : mammal
+N jež : mammal
+N myš : mammal
+N netopier : mammal
+N potkan : mammal
+N lev : mammal
+N levica : mammal
+N tiger : mammal
+N slon : mammal
+N chobot : body-part
+N opica : mammal
+N žirafa : mammal
+N zebra : mammal
+N ťava : mammal, livestock, rideable
+N klokan : mammal
+N los : mammal
+N veľryba : mammal
+N delfín : mammal
+N tuleň : mammal
+N leopard : mammal
+N vydra : mammal
+N bobor : mammal
+N krt : mammal
+N jazvec : mammal
+N lasica : mammal
+N antilopa : mammal
+N byvol : mammal
+N bizón : mammal
+N panda : mammal
+N gorila : mammal
+N gepard : mammal
+N škrečok : pet, mammal
+N mrož : mammal
+N rys : mammal
+N šimpanz : mammal
+N hyena : mammal
+N šakal : mammal
+N panter : mammal
+N puma : mammal
+N gazela : mammal
+N fretka : pet, mammal
+N koala : mammal
+N surikata : mammal
+N pes : pet, mammal
+N suka : pet, mammal
+N ovčiak : pet, mammal
+N šteňa : pet
+N mačka : pet, mammal
+N mačiatko : pet
+N kocúr : pet
+N kôň : mammal, livestock, rideable
+N hroch : mammal
+N morský koník : fish-animal
+N žrebec : livestock, rideable
+N kobyla : livestock, rideable
+N žriebä : livestock
+N poník : livestock, rideable
+N krava : livestock
+N teľa : livestock
+N hovädo : livestock, meat
+N býk : livestock
+N vôl : livestock
+N prasa : livestock, meat
+N diviak : mammal
+N dikobraz : mammal
+N morča : pet, mammal
+N prasiatko : livestock
+N ovca : livestock
+N jahňa : livestock, meat, cookable
+N koza : livestock
+N somár : livestock, rideable
+N vták : bird
+N sťahovavý vták : bird
+N spevavec : bird
+N dravec : bird
+N kanárik : bird, pet
+N orol : bird
+N sova : bird
+N vrana : bird
+N havran : bird
+N vrabec : bird
+N lastovička : bird
+N bocian : bird
+N žeriav (vták) : bird
+N kačica : bird, livestock
+N hus : bird, livestock
+N kura : bird, livestock
+N kuriatko : bird
+N kohút : bird, livestock
+N moriak : bird, livestock
+N holub : bird
+N labuť : bird
+N papagáj : bird, pet
+N páv : bird
+N tučniak : bird
+N pštros : bird
+N slávik : bird
+N kukučka : bird
+N ďateľ : bird
+N čajka : bird
+N straka : bird
+N červienka : bird
+N bažant : bird
+N plameniak : bird
+N pelikán : bird
+N volavka : bird
+N sokol : bird
+N sup : bird
+N kos : bird
+N pinka : bird
+N škovránok : bird
+N prepelica : bird
+N oriešok : bird
+N jastrab : bird
+N ryba : fish-animal, meat, cookable
+V loviť ryby : {rybár|udičkár|muž|otec|dedko|chlapec|dieťa} > patient {pstruh|losos|tuniak|sleď|kapor|šťuka|úhor}
+V loviť ryby : {rybár|udičkár|muž|otec|dedko|chlapec|dieťa}
+N zlatá rybka : fish-animal, pet
+N tuniak : fish-animal, meat, cookable
+N sépia : animal, fish-animal, meat, cookable
+N žralok : fish-animal
+N losos : fish-animal, meat, cookable
+N kapor : fish-animal, meat, cookable
+N pstruh : fish-animal, meat, cookable
+N šťuka : fish-animal, meat, cookable
+N úhor : fish-animal, meat, cookable
+N treska : fish-animal, meat, cookable
+N sleď : fish-animal, meat, cookable
+N sumec : fish-animal
+N raja : fish-animal
+N krab : animal, meat, cookable
+N homár : animal, meat, cookable
+N chobotnica : animal, fish-animal
+N medúza : animal, fish-animal
+N morská hviezdica : animal, fish-animal
+N mušľa : animal, meat, cookable, openable
+N ustrica : animal, meat, cookable, openable
+N žaba : reptile
+N ropucha : reptile
+N žubrienka : reptile
+N mlok : reptile
+N salamandra : reptile
+N had : reptile
+N jedovatý had : reptile
+V vinúť sa : reptile
+V vinúť sa : road
+V vinúť sa : water-body
+N vretenica : reptile
+N kobra : reptile
+N pytón : reptile
+N jašterica : reptile
+N gekón : reptile
+N leguán : reptile
+N chameleón : reptile
+N korytnačka : reptile
+N krokodíl : reptile
+N aligátor : reptile
+N hmyz : insect
+N havaď : insect
+N mucha : insect
+N komár : insect
+N včela : insect
+N včela medonosná : insect
+N osa : insect
+N sršeň : insect
+N čmeliak : insect
+N mravec : insect
+N termit : insect
+N motýľ : insect
+N húsenica : insect
+N chrobák : insect
+N lienka : insect
+N vážka : insect
+N svrček : insect
+N kobylka : insect
+N saranča : insect
+N šváb : insect
+N blcha : insect
+N kliešť : insect
+N pavúk : insect
+N pavučina : object
+N škorpión : insect
+N stonožka : insect
+N červ : insect
+N slimák : insect
+N slizniak : insect
+N ulita : body-part
+N moľa : insect
+N larva : insect
+N chvost : body-part
+N krídlo : body-part
+N pero (vtáka) : thing
+N operenie : body-part
+N srsť : body-part
+N kožušina : body-part, fabric
+N pazúr : body-part
+N labka : body-part
+N kopyto : body-part
+N roh (zvieraťa) : body-part
+N nosorožec : mammal
+N parohy : body-part
+N kel : body-part
+N zobák : body-part
+N šupina : body-part
+N plutva : body-part
+N žiabra : body-part
+N tykadlo : body-part
+N škrupina : plant-part, container
+N hniezdo : place
+N osteň : body-part, plant-part
+AN ostnatý : living, object, -person
+N hriva : body-part
+N fúz : body-part
+N papuľa : body-part
+V štekať : {pes|suka|ovčiak|šteňa}
+V vyť : {vlk|vlčica|pes|suka|šakal|hyena|šteňa}
+V vyť : {vietor|víchor|motor}
+V revať : {lev|levica|tiger|medveď|býk}
+V revať : person
+V vrčať : {pes|suka|ovčiak|šteňa|vlk|medveď|lev|levica|tiger|mačka|kocúr|leopard|panter}
+V priasť : {mačka|kocúr|mačiatko}
+V mňaukať : {mačka|kocúr|mačiatko}
+V syčať : {had|jedovatý had|vretenica|kobra|pytón|hus|labuť}
+V bzučať : {včela|včela medonosná|mucha|komár|čmeliak|osa|sršeň}
+V bzučať : person
+V štebotať : {vták|spevavec|vrabec|kos|lastovička|červienka|pinka|škovránok|slávik|kanárik|oriešok}
+V bučať : {krava|teľa|hovädo|býk|vôl}
+V kvákať : {žaba|ropucha}
+V kvákať : {kačica}
+V chrochtať : {prasa|diviak|prasiatko}
+V kdákať : {kura|kurča}
+V kikiríkať : {kohút}
+N ohrada : place, enterable
+N sliepka : bird, livestock
+N klietka : container, openable, lockable, cleanable
+N vodítko : tool
+N plemeno : quality
+N svorka (zvierat) : group
+N roj : group
+N škodca : animal
+N štvornožec : animal
+# added: Schale in its second sense
+N miska : container, kitchenware, washable, fillable
+# added: Schlange in its second sense
+N fronta : group
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+N biologický druh : idea
+V ukoristiť : beast > patient beast

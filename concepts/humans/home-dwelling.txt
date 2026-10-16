@@ -1,0 +1,284 @@
+# building-parts
+N dom
+N domov
+N výšková budova
+N obytný dom
+N rodinný dom
+N radový dom
+N vidiecky dom
+N panský dom
+N obydlie
+N číslo domu
+N gazdinká
+N domáca práca
+N domácnosť
+AN domáci (rodinný)
+N chata
+N horská chata
+V bývať
+N byt
+N nájomný byt
+N byt vo vlastníctve
+N garsónka
+N miesto bydliska
+N bydlisko
+N spoločná domácnosť
+AN bytom
+AN neobývaný
+N nájom
+N nájomník
+N prenajímateľ
+V prenajať
+N nájomná zmluva
+N strecha
+N povala
+N odkvap
+N strešná škridla
+N stena
+N vonkajšia stena
+N priečka
+N strop
+N paplón
+N vlnená deka
+N prešívaná prikrývka
+N okno
+N okenica
+N parapet
+N strešné okno
+N dvere
+N vchodové dvere
+N dvere bytu
+N kľučka
+N guľová kľučka
+N kukátko
+N zárubňa
+N prah
+N schod
+N schodík pred dverami
+N schody
+N schodisko
+N podesta
+N zábradlie
+N zábradlie schodiska
+N výťah
+N prízemie
+N horné poschodie
+N suterén
+N podkrovie
+N poschodie
+N komín
+N kominár
+N krb
+N pivnica
+N vínna pivnica
+N balkón
+N terasa
+N strešná terasa
+N veranda
+N dvor
+N átrium
+N zadný dvor
+N kôlňa
+N garáž
+N podzemná garáž
+N príjazd
+N vchod
+N východ (výstup)
+N tapeta
+V tapetovať
+N fasáda
+N základy
+N dlaždica
+N parkety
+N odtok
+N kanalizácia
+N vodovod
+V kúriť
+N kúrenie
+N radiátor
+N kotol (kúrenia)
+V vykurovať
+V rozkúriť
+N pánt
+N zástrčka (na dverách)
+N podlahová doska
+N markíza
+N baldachýn
+N poštová schránka
+N vila
+N rezidencia
+N múr
+V podložiť
+N okenná tabuľa
+N omietka
+N vchod do domu
+N vybavenie
+N stará zástavba
+N viacbytový dom
+N bytový blok
+N klapka
+N usadlosť
+V byť domovom pre
+AN voľne stojaci
+
+# rooms
+N izba
+N spálňa
+N obývačka
+N jedáleň (v byte)
+N detská izba
+N hosťovská izba
+N toaleta
+N toaletný papier
+N špajza
+N vestibul
+N apartmán
+N bungalov
+N penthouse
+N kúpeľňa
+N obytný priestor
+N pracovňa
+N komora
+
+# furniture
+N nábytok
+N kus nábytku
+N stôl
+N písací stôl
+N jedálenský stôl
+N nočný stolík
+N stolička (nábytok)
+N hojdacie kreslo
+N taburetka
+N podnožka
+N sedací puf
+N lavica
+N banka
+N kreslo
+N pohovka
+N gauč
+N posteľ
+N manželská posteľ
+N poschodová posteľ
+N čelo postele
+N matrac
+N posteľná plachta
+N skriňa
+N šatník
+N vstavaná skriňa
+N polica
+N polica na knihy
+N zásuvka (v nábytku)
+N komoda
+N pracovná doska
+N zrkadlo
+N odraz v zrkadle
+V odrážať
+N koberec
+N záves
+N lampa
+N tienidlo
+N luster
+N vankúš
+N podhlavník
+N obliečka na vankúš
+N čalúnenie
+N uterák
+N osuška
+N vešiak
+N kolíska
+N hojdacia sieť
+
+# household-objects
+N kľúč
+N zväzok kľúčov
+N zámok
+V zamknúť
+N vodovodný kohútik
+N rohožka
+N behúň
+N odpad
+N odpadkový kôš
+N popolnica
+N zvoz odpadu
+N termostat
+N rukoväť
+N zvonček
+V zvoniť
+N sviečka
+N svietnik
+N lampáš
+N hodiny
+N náramkové hodinky
+N čas (na hodinách)
+N budík
+N vedro
+N sprcha
+V sprchovať sa
+N vaňa
+N metla
+N mop
+N kefa
+N zubná kefka
+N kefa na vlasy
+V kefovať
+N hrebeň
+V česať
+N mydlo
+N hubka
+N šampón
+N zubná pasta
+V holiť
+N holiaci strojček
+N nožnice
+N vrece
+N kôš
+N truhlica
+N váza
+N stan
+N vysávač
+N sušička
+N poistka
+N handra
+N vrecko
+N vrecúško
+N sťahovanie
+N palica
+V navýšiť
+N vedľajšie náklady
+N majiteľ domu
+N náklady na kúrenie
+N balón (nafukovací)
+N bedňa
+N platňa
+
+# household-actions
+N upratovačka
+N čistiaci prostriedok
+V umývať
+N bielizeň
+N posteľná bielizeň
+N práčka
+N prací prostriedok
+N umývadlo
+V umyť
+V oplachovať
+N drez
+V vyzdobiť
+N výzdoba
+AN dekoratívny : adverb dekoratívne
+V upratať
+N neporiadok
+N škvrna
+AN škvrnitý
+AN pohodlný : adverb pohodlne
+AN nepohodlný : adverb nepohodlne
+N pohodlnosť
+N pohodlie
+AN útulný : adverb útulne
+AN neútulný : adverb neútulne
+N útulnosť
+N kúpeľ
+N deka
+N seminárna práca
+N pranie

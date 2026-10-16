@@ -1,0 +1,824 @@
+# SOCIETY: law, politics, the state, war and the army -- nouns and verbs of humans/society-law-politics.txt and humans/war-military.txt
+SETTING politics
+N spoločnosť
+N občan
+N štát
+N vláda
+N prezident
+N kráľ
+N kráľovná
+N princ
+N princezná
+N parlament
+N politika
+N politik
+N politická strana
+N moc
+N región
+N sloboda
+N ľud
+N národ
+N národnosť
+N verejnosť
+N občianka
+N štátne občianstvo
+N cudzinec
+N cudzinka
+N vodca
+N organizácia
+N inštitúcia
+N výbor
+N konferencia
+N aktivista
+N utečenec
+V angažovať sa
+N vlasť
+V vládnuť
+N prezidentka
+N prezidentské voľby
+N kráľovstvo
+N cisár
+N cisárovná
+N minister
+N ministerka
+N ministerstvo
+N premiér
+N minister zahraničných vecí
+N ministerka zahraničných vecí
+N kandidát
+N politička
+N koruna
+N vlajka
+N územie
+N provincia
+N ríša
+N republika
+N demokracia
+N monarchia
+N diktátor
+N diktatúra
+N revolúcia
+N protest
+V protestovať
+N demonštrácia
+V demonštrovať
+N nezávislosť
+N veľvyslanectvo
+N veľvyslanec
+N diplomat
+N úradník
+N úradníčka
+N ústava
+N guvernér
+N kampaň
+N kolónia
+N korupcia
+N reforma
+N kongres
+N poslanec
+N kancelár
+N kancelárka
+N kabinet
+N režim (politický)
+V potláčať
+N propaganda
+N škandál
+N zrada
+N utečenec
+N prisťahovalec
+N prisťahovalectvo
+V vysťahovať sa
+N referendum
+N anketa
+N koalícia
+N zákaz vychádzania
+N spolková vláda
+N zemská vláda
+N Spolkový snem
+N Spolková rada
+N zemský snem
+N zväz
+N únia
+N obec
+N komisia
+N hlasovanie
+N sankcia
+N zasadnutie
+N predseda
+N protivník
+N protivníčka
+N opozícia
+N predvolebná kampaň
+N funkčné obdobie
+N spolková krajina
+N spolkový prezident
+N integrácia
+N účasť
+N spolková republika
+N hlavné mesto spolkovej krajiny
+N demokrat
+N poslanecký klub
+N výbor
+N združenie
+N nariadenie
+N dohovor
+N migrant
+N rasizmus
+N povstanie
+N medzinárodné právo
+N civilizácia
+N otrok
+N otrokyňa
+V zotročiť
+N otroctvo
+N šľachta
+N šľachtic
+V zjednotiť
+N aktivistka
+N žiadateľ o azyl
+N podporovateľ
+N prisťahovalectvo
+N participácia
+N demonštrácia
+N bojkot
+N hlas proti
+N kvalita života
+N antisemitizmus
+N nacista
+N oligarcha
+N daňový poplatník
+N vojvoda
+N vojvodkyňa
+N hlava štátu
+N vladár
+N predseda vlády
+N prezidentstvo
+N korunný princ
+N cisárstvo
+N minister vnútra
+N minister financií
+N minister hospodárstva
+N minister zdravotníctva
+N premiér
+N premiérka
+V kandidovať
+N kandidatúra
+N kandidátka
+N mocnár
+N trón
+N následník trónu
+V korunovať
+N korunovácia
+N hymna
+N štátna hymna
+N demonštrant
+N veľvyslankyňa
+N diplomacia
+N ústavný súd
+V reformovať
+N senát
+N senátor
+N spolkový kancelár
+N tyran
+N tyrania
+N útlak
+N cenzúra
+V cenzurovať
+N vlastizrada
+N sprisahanie
+N exil
+N vysťahovalec
+N petícia
+N hlasovací lístok
+N dekrét
+N veto
+N kapitalizmus
+N socializmus
+N komunizmus
+N anarchia
+N patriot
+N obecná rada
+N obec
+N okres
+N kantón
+N nadácia
+N slobodný štát
+N hlava štátu
+N landrat
+N grémium
+N azyl
+N štátna príslušnosť
+N migrácia
+N volebné právo
+N referendum
+N základný zákon
+N zákonodarstvo
+N nariadenie
+N konjunktúra
+N rozpočet
+N vládca
+N rovnoprávnosť
+N sloboda prejavu
+N ľudské právo
+N diskriminácia
+N pomocná organizácia
+N štátna hranica
+N jadrová energia
+N straníckly zjazd
+N predseda strany
+N ľudová strana
+N sociálny demokrat
+N volebný obvod
+N druhé kolo volieb
+N opätovné zvolenie
+N koaličná zmluva
+N ministerstvo zahraničných vecí
+N ministerstvo vnútra
+N ministerstvo zdravotníctva
+N ministerstvo obrany
+N minister obrany
+N vyšetrovací výbor
+N generálny tajomník
+N krajinský hajtman
+N predseda
+N Národná rada
+N členský štát
+N spolkový štát
+N neutralita
+N suverenita
+N demonštrácia
+N apel
+N povstalec
+N vojna
+N mier
+N konflikt
+N spojenectvo
+N mierová zmluva
+N blokáda
+N embargo
+N špión
+V špehovať
+N špionáž
+N prieskumník
+N prímerie
+N prímerie
+N jadrová zbraň
+SETTING everyday
+N člen
+N povinnosť
+V zakázať
+V dovoliť
+N spoločenstvo
+N členstvo
+N status
+N česť
+N povesť
+N spor
+N zaťaženie
+V zaťažiť
+N zúčastnený
+V upozorniť
+N sláva
+N bohatý
+N akceptácia
+N vedomosť
+SETTING travel
+N región
+N národnosť
+N cudzinec
+N cudzinka
+N utečenec
+N vlasť
+N veľvyslanectvo
+N útek
+N utečenec
+N prisťahovalec
+N prisťahovalectvo
+V vysťahovať sa
+N spolková krajina
+N spolková republika
+N hlavné mesto spolkovej krajiny
+N migrant
+N žiadateľ o azyl
+N prisťahovalectvo
+N exil
+N vysťahovalec
+N kantón
+N azyl
+N migrácia
+N štátna hranica
+SETTING law
+N právo
+N zákon
+N sudca
+V kradnúť : suspect
+N polícia
+N policajt : police
+N vina
+N ústava
+N korupcia
+N násilie
+N sudkyňa
+N advokát
+N advokátka
+N spravodlivosť
+N zločin
+N zločinec : suspect
+N zlodej
+N krádež
+N vražda
+N vrah : suspect
+V zavraždiť : suspect
+N podvod
+V podvádzať : suspect
+N väzenie
+V zatknúť : police
+N zatknutie
+N policajtka : police
+N dôkaz
+V dokázať
+N svedok
+N svedkyňa
+N trest
+V potrestať
+N pokuta
+N zákaz
+V dohodnúť
+N dohoda
+N zmluva
+V zdediť
+N vlastníctvo
+N vlastník
+N majetok
+N majiteľ
+N podozrenie
+N odvolanie
+V sťažovať sa
+N žaloba
+N ublíženie na zdraví
+V uniesť : suspect
+N zbojník : suspect
+N banda
+N páchateľ : suspect
+N páchateľka : suspect
+V vyšetrovať : police
+N vyšetrovanie
+N vyšetrovateľ : police
+N justícia
+N vyšetrovacia väzba
+N trestný čin
+N zneužitie
+N podozrivý : suspect
+N kriminálna polícia
+N tiesňové volanie
+N vlámanie
+N medzinárodné právo
+N pôvodca
+N znalec
+N poplach
+N evakuácia
+N vyprostenie
+N ústavný súd
+N vlastizrada
+N základný zákon
+N zákonodarstvo
+N ľudské právo
+N zatykač
+N súdny dvor
+N vyšetrovací výbor
+N zákonodarca
+N návrh zákona
+N advokát
+N prokurátor
+N prokuratúra
+N nespravodlivosť
+N kriminalita
+N zlodejka : suspect
+V okradnúť : suspect
+V vraždiť : suspect
+N podvodník : suspect
+N väzeň : suspect
+N zajatie
+N väzba
+V zatknúť : police
+N zatknutie
+N detektív : police
+N svedecká výpoveď
+N nevinnosť
+N potrestanie
+N prísaha
+N dedičstvo
+N dedičstvo
+N dedič
+V podozrievať : police
+N podozrivý : suspect
+N kaucia
+N väzba
+V vypočúvať : police
+N výsluch
+N alibi
+V zažalovať
+V obžalovať
+N obžaloba
+N obžalovaný : suspect
+N poprava
+V popraviť
+V podplatiť : suspect
+N podplácanie
+N úplatok
+N vydieranie
+V vydierať : suspect
+N vyděrač : suspect
+N vandalizmus
+N vandal : suspect
+N únos
+N únosca : suspect
+N lúpež
+V lúpiť : suspect
+N mafia
+N neznámy
+N krajský súd
+N miesto činu
+N okresný súd
+N posudok
+N delikt
+N zabitie
+N ohováranie
+N zproštenie viny
+N trest odňatia slobody
+N podmienečný trest
+N revízia
+N žalobca
+N ručenie
+N náhrada škody
+N závet
+N výživné
+N bezprávie
+N komisár : police
+N hliadka
+N porušenie
+N právny nárok
+N poškodenie
+N oslobodenie
+N napadnutie
+N trest odňatia slobody
+N trestné konanie
+N vyšetrovanie
+N odsúdenie
+N pátranie
+N obvinený : suspect
+N podpaľačstvo
+N usmrtenie
+N vlamač : suspect
+N hmotná škoda
+N hovorca polície : police
+N policajt : police
+N hrozba
+N hrozba
+V ohrozovať
+N potieranie
+N atentát
+N pištoľ
+N bomba
+N prepad
+V prepadnúť : suspect
+N rukojemník
+N braní rukojemníkov
+N výkupné
+N vojnový zločin
+N mučenie
+N stráž
+N hliadka
+V hliadkovať
+N zásahové jednotky
+N revír
+SETTING media
+N verejnosť
+N kampaň
+N propaganda
+N škandál
+N anketa
+N upozornenie
+N vydavateľ
+N imidž
+N cenzúra
+V cenzurovať
+N sloboda prejavu
+N pokarhanie
+N hovorca polície
+SETTING culture
+N kultúra
+N sláva
+N podujatie
+V zorganizovať
+N organizátor
+N civilizácia
+N klub
+N aktér
+N aktérka
+N pôvodca
+N porota
+N hrdina
+N hrdinka
+N rytier
+SETTING office
+N cudzinecká polícia
+N štátne občianstvo
+N úradník : staff
+N úradníčka : staff
+N administratíva
+V spravovať
+N úrad
+N úrad
+N žiadosť
+N nariadenie
+N povolenie
+V povoliť
+N povolenie
+N upozornenie
+N mestská správa
+N byrokracia
+N štátna príslušnosť
+N naturalizácia
+N nariadenie
+N daňový úrad
+N daňové priznanie
+N matrika
+N poriadkový úrad
+N spotrebiteľská poradňa
+N krajinský úrad
+N oslobodenie
+N kompetencia
+N povinnosť
+N schválenie
+N vstup
+SETTING work
+V slúžiť
+N sluha
+N organizácia
+V organizovať
+N konferencia
+N zasadnutie
+N predstavenstvo
+N predseda
+N spolupráca
+N účasť
+N predpis
+N prevádzkovateľ
+N zdroj
+V dohodnúť
+N dohoda
+N zmluva
+N expertka
+N konjunktúra
+N dobrovoľná funkcia
+N ručenie
+N náhrada škody
+N preťaženie
+N preťaženie
+N spoľahlivosť
+SETTING military
+N bombardovanie
+N odvolanie poplachu
+V slúžiť
+N hodnosť
+N vodca
+V stáť na čele
+N civilista
+N revolúcia
+N zrada
+N útek
+N násilie
+N povstanie
+N nacista
+N apel
+N zajatie
+N povstalec
+N vojna
+N mier
+N boj
+V bojovať
+V zaútočiť
+N víťazstvo
+N vojak
+N zbraň
+N občianska vojna
+N vojnová loď
+N bitka (vojenská)
+N bojovník
+V bojovať proti
+N konflikt
+N nepriateľ
+N spojenectvo
+N hrozba
+N hrozba
+V ohrozovať
+N útok
+N útočník (agresor)
+V brániť
+N obrana
+N invázia
+V dobyť
+N dobytie
+V obsadiť
+N obsadenie
+V zvíťaziť
+N víťaz
+N porážka
+N ústup
+N hrdina
+N hrdinka
+V blokovať
+N strata
+N ofenzíva
+N front
+N vpád
+N eskalácia
+N potieranie
+N atentát
+N armáda
+N námorníctvo
+N armáda
+N vojačka
+N dôstojník
+N povel
+N veliteľ
+N oddiel
+N rytier
+V pochodovať
+N generál
+N plukovník
+N loďstvo
+N Bundeswehr
+N strelná zbraň
+N puška
+N pištoľ
+V strieľať
+N výstrel
+V zastreliť
+N bomba
+V bombardovať
+N munícia
+N výbuch
+V explodovať
+N meč
+N štít
+N šíp
+N brnenie
+N prilba
+N tank
+N tábor
+N bunker
+N mína
+N prepad
+V prepadnúť
+N bojovník
+N mierová zmluva
+N bojisko
+N bojová morálka
+N nepriateľstvo
+N spojenec
+V spojiť sa
+N obranca
+N dobyvateľ
+V kapitulovať
+N kapitulácia
+N rukojemník
+N braní rukojemníkov
+N blokáda
+N embargo
+N sabotáž
+V sabotovať
+N výkupné
+N útočná vojna
+N paľba
+N vojnový zločin
+N obrana
+N mučenie
+N útok
+V veliť
+N stráž
+N strážca
+V strážiť
+N špión
+V špehovať
+N špionáž
+N prieskumník
+N veterán
+N hliadka
+V hliadkovať
+N pochod
+N kasárne
+N veliteľstvo
+N admirál
+N poručík
+N seržant
+N regrút
+V verbovať
+N žoldnier
+N pluk
+N kavaléria
+N pechota
+V salutovať
+N ozbrojené sily
+N zásahové jednotky
+V odzbrojiť
+V ozbrojiť
+N prímerie
+N prímerie
+N kanón
+N strelec
+N ostrostrelec
+N zákop
+N strelný prach
+V zostreliť
+N granát
+N dýka
+N oštep
+N obliehanie
+V obliehať
+N zálusk
+N predsunuté stanovište
+N barikáda
+N torpédo
+N delostrelectvo
+N arzenál
+N mieridlo
+N jadrová zbraň
+SETTING celebration
+V uctiť
+N ocenenie
+N podujatie
+V zorganizovať
+N organizátor
+N pamätný deň
+SETTING family
+N úmrtie
+V zdediť
+N pozostalý
+N smútočný obrad
+N dedičstvo
+N dedičstvo
+N dedič
+N závet
+N výživné
+SETTING town
+N obec
+SETTING sport
+N spolok
+N protivník
+N protivníčka
+N klub
+N boj
+V bojovať
+N víťazstvo
+V zvíťaziť
+N víťaz
+N porážka
+N šíp
+N prilba
+N strelec
+SETTING science
+V dokázať
+N znalec
+N expertka
+SETTING doctor
+N tiesňové volanie
+N tehotná (žena)
+N posudok
+SETTING health
+N preživší
+N kvalita života
+SETTING school
+N študujúci
+N dozor
+N vylúčenie
+SETTING religion
+N smútočný obrad
+SETTING shop
+N záujemca
+N spotrebiteľská poradňa
+N dostupnosť
+SETTING bank
+N živobytie
+N daňový poplatník
+N rozpočet
+N daňový úrad
+N daňové priznanie
+N omeškanie
+SETTING home
+N domáci pán
+SETTING factory
+N jadrová energia
+N výbuch
+V explodovať
+N sabotáž
+V sabotovať
+SETTING traffic
+N prednosť v jazde
+N hmotná škoda
+V blokovať
+SETTING water
+N vojnová loď
+N námorníctvo
+N loďstvo

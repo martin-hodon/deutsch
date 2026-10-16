@@ -1,0 +1,52 @@
+# Places A-I (Afrika .. Innenstadt) that are not buildings: streets, quarters, floors, yards, harbours, settlements
+# skipped Afrika -- a continent, abstract region
+# skipped Amerika -- a continent, abstract region
+# skipped Asien -- a continent, abstract region
+# skipped Australien -- a continent/country, abstract region
+# skipped Europa -- a continent, abstract region
+# skipped Ausland -- abstract (foreign countries), no scene
+# skipped Basis -- too general (base/foundation)
+# skipped Bezirk -- an administrative region
+# skipped Bundesland -- an administrative region
+# skipped Gebiet -- abstract region
+# skipped Gegend -- abstract region
+# skipped Gemeinde -- an organisation more than a place
+# skipped Boden -- the floor/ground, a thing not a place
+# skipped Fläche -- abstract (surface/area)
+# skipped Front -- abstract (front line/front side)
+# skipped Geschoss -- same as Etage, which is listed
+# skipped Heimat -- abstract (homeland)
+# skipped Himmel -- the sky, one cannot be in it as a scene
+# skipped Horizont -- a line one sees, not a place
+# skipped Hölle -- a myth, not a place for everyday scenes
+PLACE staré_mesto : out ; age starý ; beauty krásny ; crowd plný ; things ulička | kostol | fontána | dom | kaviareň | miesto_(priestor) ; people turista | čašník
+PLACE pracovisko : in ; order poriadny ; loudness pokojný ; things písací_stôl | počítač | telefón | stolička_(nábytok) | lampa | papier ; people kolega | šéf
+PLACE východ_(výstup) : in ; light svetlý ; crowd plný ; things dvere | štít | schody | svetlo | zámok
+PLACE nástupište : out ; loudness hlasný ; crowd plný ; things vlak | koľaj | lavica | hodiny | štít | schody ; people cestujúci | sprievodca_vo_vlaku
+PLACE balkón : out ; light svetlý ; comfort útulný ; things kvetina | stolička_(nábytok) | stôl | zábradlie | dvere | rastlina
+PLACE stavenisko : out ; loudness hlasný ; cleanliness špinavý ; danger nebezpečný ; things žeriav_(stroj) | bager | piesok | tehla | prilba | plot ; people robotník | murár
+PLACE javisko : in ; light svetlý ; size veľký ; things záves | svetlo | mikrofón | reproduktor | stolička_(nábytok) | hudba ; people spevák | herec
+PLACE kampus : out ; size veľký ; colour zelený ; crowd plný ; things budova | lúka | lavica | bicykel | knižnica | strom ; people študent | profesor
+PLACE podkrovie : in ; space tesný_(priestorovo) ; temperature teplý ; light svetlý ; things okno | posteľ | schody | trám | polica | stôl
+PLACE paluba : out ; space široký ; light svetlý ; colour modrý ; things loď | sťažeň | lano | voda | stolička_(nábytok) | zástava ; people kapitán
+PLACE dedina : out ; size malý ; loudness pokojný ; beauty krásny ; things dom | kostol | ulica | fontána | záhrada | pes ; people roľník | sused
+PLACE vchod : in ; light svetlý ; things dvere | štít | schody | zvonček | poštová_schránka | svetlo
+PLACE prízemie : in ; light svetlý ; things dvere | chodba | schody | okno | kuchyňa | obývačka
+PLACE poschodie : in ; things schody | výťah | dvere | chodba | okno | byt
+PLACE bleší_trh : out ; crowd plný ; loudness hlasný ; age starý ; things stôl | kniha | šaty | riad | hračka | stánok ; people predavač | zákazník
+PLACE cintorín : out ; loudness tichý_(pokojný) ; colour zelený ; things hrob | kvetina | sviečka | strom | lavica | kostol
+PLACE chodba : in ; space tesný_(priestorovo) ; light tmavý ; things dvere | svetlo | stena | pôda | schody | okno
+PLACE záhrada : out ; colour zelený ; loudness pokojný ; comfort útulný ; things strom | kvetina | tráva | lavica | plot | stôl ; people záhradník
+PLACE hrob : out ; loudness tichý_(pokojný) ; things kvetina | sviečka | kameň | kríž | strom
+PLACE priekopa : out ; wetness vlhký ; things voda | tráva | zem | most | kameň | ker
+PLACE hranica : out ; things plot | štít | ulica | zástava | múr | auto ; people policajt
+PLACE veľkomesto : out ; size veľký ; loudness hlasný ; crowd plný ; things ulica | auto | výšková_budova | autobus | park | obchod ; people taxikár | policajt
+PLACE jama : out ; space tesný_(priestorovo) ; light tmavý ; things zem | kameň | rebrík | voda | lopata | lano
+PLACE pozemok : out ; size veľký ; things dom | plot | záhrada | strom | gól | cesta_(komunikácia) ; people majiteľ
+PLACE prístav : out ; loudness hlasný ; wetness vlhký ; things loď | čln | žeriav_(stroj) | voda | lano | čajka ; people kapitán | rybár
+PLACE zastávka : out ; crowd plný ; things autobus | električka | lavica | štít | cestovný_poriadok | hodiny ; people vodič
+PLACE hlavné_mesto : out ; size veľký ; crowd plný ; loudness hlasný ; things ulica | múzeum | vláda | most | miesto_(priestor) | park ; people turista | politik
+PLACE domov : in ; loudness pokojný ; comfort útulný ; things izba | posteľ | stôl | chodba | záhrada | kuchyňa ; people ošetrovateľ
+PLACE dvor : out ; space široký ; things plot | gól | dom | strom | pes | auto ; people sused
+PLACE átrium : out ; loudness pokojný ; light svetlý ; things fontána | strom | lavica | stena | okno | kvetina
+PLACE centrum_mesta : out ; crowd plný ; loudness hlasný ; things obchod | ulica | miesto_(priestor) | kaviareň | autobus | kostol ; people predavač | turista

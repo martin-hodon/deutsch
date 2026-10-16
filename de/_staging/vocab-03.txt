@@ -1,0 +1,405 @@
+# vocab part 03: verbs and adjectives from a 1M-sentence news corpus (counts 63-85, all FREQ 3)
+@ abstract/space-position.txt < gehen
+- 3 V übergehen {über·gehen} [ˈyːbɐɡeːən], geht über/ging über/übergegangen [ɡeːt ˈyːbɐ/ɡɪŋ ˈyːbɐ/ˈyːbɐɡəɡaŋən], ist (in A, zu D) = prejsť, presunúť sa
+- 3 V aufgehen {auf·gehen} [ˈaʊfɡeːən], geht auf/ging auf/aufgegangen [ɡeːt aʊf/ɡɪŋ aʊf/ˈaʊfɡəɡaŋən], ist (in D) = vyjsť, otvoriť sa, vyjsť (o slnku)
+- 3 V hingehen {hin·gehen} [ˈhɪnɡeːən], geht hin/ging hin/hingegangen [ɡeːt hɪn/ɡɪŋ hɪn/ˈhɪnɡəɡaŋən], ist = ísť tam, zájsť tam
+- 3 V einhergehen {einher·gehen} [aɪnˈheːɐɡeːən], geht einher/ging einher/einhergegangen [ɡeːt aɪnˈheːɐ/ɡɪŋ aɪnˈheːɐ/aɪnˈheːɐɡəɡaŋən], ist (mit D) = sprevádzať, byť spojený s
+@ abstract/space-position.txt < kommen
+- 3 V herauskommen {heraus·kommen} [hɛˈʁaʊskɔmən], kommt heraus/kam heraus/herausgekommen [kɔmt hɛˈʁaʊs/kaːm hɛˈʁaʊs/hɛˈʁaʊsɡəkɔmən], ist (aus D) = vyjsť, vyjsť von, vyjsť najavo
+@ abstract/space-position.txt < stürzen
+- 3 V umstürzen {um·stürzen} [ˈʊmʃtʏʁtsən], hat/ist = zvaliť sa, prevrátiť, zvrhnúť
+@ abstract/space-position.txt < Zentrum
+- 3 AN dezentral {de|zentral} [deˈtsɛntʁaːl] = decentralizovaný
+@ abstract/space-position.txt < Nordosten
+- 3 AN nordöstlich {nord|östlich} [nɔʁtˈœstlɪç] = severovýchodný
+@ abstract/relation-change.txt < bekommen
+- 3 V hinbekommen {hin·bekommen} [ˈhɪnbəkɔmən], bekommt hin/bekam hin/hinbekommen [bəˈkɔmt hɪn/bəˈkaːm hɪn/ˈhɪnbəkɔmən], hat (A) = zvládnuť, dokázať
+@ abstract/relation-change.txt < legen
+- 3 V zurücklegen {zurück·legen} [tsuˈʁʏkleːɡən], hat (A) = prejsť (vzdialenosť), odložiť, uložiť
+- 3 V nachlegen {nach·legen} [ˈnaːxleːɡən], hat = pridať, doložiť
+@ abstract/relation-change.txt < gestalten
+- 3 V umgestalten {um·gestalten} [ˈʊmɡəʃtaltən], hat (A) = prestavať, pretvoriť
+@ abstract/relation-change.txt < Wirkung
+- 3 V entgegenwirken {entgegen·wirken} [ɛntˈɡeːɡənvɪʁkən], hat (D) = pôsobiť proti, brániť
+@ abstract/relation-change.txt < Option
+- 3 AN optional {optional} [ɔptsi̯oˈnaːl] = voliteľný
+@ abstract/relation-change.txt < Bedarf
+- 3 V bedürfen {be|dürfen} [bəˈdʏʁfən], bedarf/bedurfte/bedurft [bəˈdaʁf/bəˈdʊʁftə/bəˈdʊʁft], hat (G) = potrebovať, vyžadovať
+@ abstract/quality-property.txt < angemessen
+- 3 AN unangemessen {un|angemessen} [ˈʊnanɡəmɛsən] = neprimeraný
+@ abstract/quality-property.txt < schön
+- 3 AN unschön {un|schön} [ˈʊnʃøːn] = neľúbivý, nepekný, nepríjemný
+@ abstract/quality-property.txt < neu
+- 3 AN brandneu {brand|neu} [ˈbʁantnɔɪ] = celkom nový, čerstvý
+@ abstract/shape-form.txt < Linie
+- 3 AN linear {linear} [lineˈaːɐ] = lineárny, priamočiary
+@ abstract/shape-form.txt < Punkt
+- 3 AN punktuell {punkt|uell} [pʊŋktuˈɛl] = bodový, čiastkový
+@ abstract/quantity-number.txt < hundert
+- 3 AN hundertprozentig {hundert|prozentig} [ˈhʊndɐtpʁoˈtsɛntɪç] = stopercentný
+@ abstract/quantity-number.txt < wiegen
+- 3 V überwiegen {über|wiegen} [yːbɐˈviːɡən], überwiegt/überwog/überwogen [yːbɐˈviːkt/yːbɐˈvoːk/yːbɐˈvoːɡən], hat = prevažovať
+@ abstract/quantity-number.txt < Zahl
+- 3 V einzahlen {ein·zahlen} [ˈaɪntsaːlən], hat (A) = vložiť (peniaze), vkladať
+@ natural-world/matter-energy.txt < Kraft
+- 3 AN kraftvoll {kraft|voll} [ˈkʁaftfɔl] = silný, mocný
+@ natural-world/matter-energy.txt < brennen
+- 3 V ausbrennen {aus·brennen} [ˈaʊsbʁɛnən], brennt aus/brannte aus/ausgebrannt [bʁɛnt aʊs/ˈbʁantə aʊs/ˈaʊsɡəbʁant], hat/ist = vyhorieť, dohorieť
+- 3 V abbrennen {ab·brennen} [ˈapbʁɛnən], brennt ab/brannte ab/abgebrannt [bʁɛnt ap/ˈbʁantə ap/ˈapɡəbʁant], hat/ist = zhorieť, odpáliť
+@ natural-world/matter-energy.txt # fire-burning
+3 V zünden {zünden} [ˈtsʏndən], hat = zapáliť, vznietiť, odpáliť
+- 3 V anzünden {an·zünden} [ˈantsʏndən], hat (A) = zapáliť, podpáliť
+@ humans/language-communication.txt < sagen
+- 3 V aussagen {aus·sagen} [ˈaʊszaːɡən], hat (über A, gegen A) = vypovedať, tvrdiť
+@ humans/language-communication.txt < schreiben
+- 3 V vorschreiben {vor·schreiben} [ˈfoːɐʃʁaɪbən], schreibt vor/schrieb vor/vorgeschrieben [ʃʁaɪpt foːɐ/ʃʁiːp foːɐ/ˈfoːɐɡəʃʁiːbən], hat (D A) = predpisovať, nariaďovať
+- 3 V festschreiben {fest·schreiben} [ˈfɛstʃʁaɪbən], schreibt fest/schrieb fest/festgeschrieben [ʃʁaɪpt fɛst/ʃʁiːp fɛst/ˈfɛstɡəʃʁiːbən], hat (A) = zakotviť, stanoviť
+@ humans/language-communication.txt < fordern
+- 3 V einfordern {ein·fordern} [ˈaɪnfɔʁdɐn], hat (A) = vymáhať, dožadovať sa
+@ humans/language-communication.txt < Übersicht
+- 3 AN übersichtlich {über|sicht|lich} [ˈyːbɐzɪçtlɪç] = prehľadný
+- 3 AN unübersichtlich {un|übersichtlich} [ˈʊnyːbɐzɪçtlɪç] = neprehľadný, zložitý
+@ humans/language-communication.txt < Thema
+- 3 AN thematisch {thematisch} [teˈmaːtɪʃ] = tematický
+@ humans/art-entertainment.txt < zeichnen
+- 3 V aufzeichnen {auf·zeichnen} [ˈaʊftsaɪçnən], hat (A) = zaznamenať, nahrať
+@ humans/art-entertainment.txt < Tor
+- 3 AN torlos {tor|los} [ˈtoːɐloːs] = bezgólový
+@ humans/art-entertainment.txt < Fußball
+- 3 AN fußballerisch {fußballerisch} [ˈfuːsbalɐʁɪʃ] = futbalový
+@ humans/religion-custom.txt < Siegel
+- 3 V versiegeln {ver|siegeln} [fɛɐˈziːɡəln], hat (A) = zapečatiť, utesniť
+@ humans/clothing.txt < Schleier
+- 3 V verschleiern {ver|schleiern} [fɛɐˈʃlaɪɐn], hat (A) = zahaliť, zastrieť
+@ humans/clothing.txt < Kleid
+- 3 V sich verkleiden {sich ver|kleiden} [zɪç fɛɐˈklaɪdən], hat (als N) = prezliecť sa, maskovať sa
+@ humans/clothing.txt < Maske
+- 3 V maskieren {maskieren} [masˈkiːʁən], hat (sich A) = maskovať, zamaskovať
+@ humans/transport-travel.txt < Motor
+- 3 V motorisieren {motorisieren} [motoʁiˈziːʁən], hat (A) = motorizovať
+@ humans/transport-travel.txt < Auto
+- 3 AN autofrei {auto|frei} [ˈaʊtofʁaɪ] = bez áut
+@ humans/transport-travel.txt < Transport
+- 3 V abtransportieren {ab·transportieren} [ˈaptʁanspɔʁtiːʁən], hat (A) = odviezť, odtransportovať
+@ humans/technology.txt < Kabel
+- 3 AN kabellos {kabel|los} [ˈkaːbəlloːs] = bezdrôtový
+@ humans/technology.txt < Profil
+- 3 V sich profilieren {sich profilieren} [zɪç pʁofiˈliːʁən], hat (als N) = vyprofilovať sa, presadiť sa
+@ humans/technology.txt < Konstruktion
+- 3 V rekonstruieren {re|konstruieren} [ʁekɔnstʁuˈiːʁən], hat (A) = rekonštruovať
+@ humans/trade-money.txt < Gastronomie
+- 3 AN gastronomisch {gastronomisch} [ɡastʁoˈnoːmɪʃ] = gastronomický
+@ humans/trade-money.txt < Geschäft
+- 3 AN geschäftlich {geschäft|lich} [ɡəˈʃɛftlɪç] = obchodný, služobný
+- 3 AN geschäftsführend {geschäfts|führend} [ɡəˈʃɛftsfyːʁənt] = poverený vedením, výkonný
+@ humans/trade-money.txt < Kosten
+- 3 V verbilligen {ver|billigen} [fɛɐˈbɪlɪɡən], hat (A) = zlacniť
+@ humans/health-medicine.txt < Fieber
+- 3 V fiebern {fiebern} [ˈfiːbɐn], hat (nach D) = mať horúčku, nedočkavo očakávať
+@ humans/health-medicine.txt < Virus
+- 3 AN viral {viral} [viˈʁaːl] = vírusový, virálny
+@ humans/society-law-politics.txt < Boykott
+- 3 V boykottieren {boykottieren} [bɔɪkɔˈtiːʁən], hat (A) = bojkotovať
+@ humans/society-law-politics.txt < Freiheit
+- 3 AN freiheitlich {frei|heit|lich} [ˈfʁaɪhaɪtlɪç] = slobodný, liberálny
+@ humans/society-law-politics.txt < Sozialismus
+- 3 AN sozialistisch {sozialistisch} [zotsiaˈlɪstɪʃ] = socialistický
+@ humans/society-law-politics.txt < Demokratie
+- 3 AN sozialdemokratisch {sozial|demokratisch} [zoˈtsiaːldemoˈkʁaːtɪʃ] = sociálnodemokratický
+@ humans/society-law-politics.txt < Politik
+- 3 AN sicherheitspolitisch {sicherheits|politisch} [ˈzɪçɐhaɪtspoliːtɪʃ] = bezpečnostnopolitický
+@ humans/society-law-politics.txt < Kooperation
+- 3 AN kooperativ {kooperativ} [koopeʁaˈtiːf] = kooperatívny, ústretový
+@ humans/society-law-politics.txt < Verfassung
+- 3 AN verfassungswidrig {verfassungs|widrig} [fɛɐˈfasʊŋsviːdʁɪç] = protiústavný
+@ humans/society-law-politics.txt < Strafe
+- 3 V verbüßen {ver|büßen} [fɛɐˈbyːsən], hat (A) = odsedieť si, odpykať si
+- 3 AN vorbestraft {vor|be|straft} [ˈfoːɐbəʃtʁaːft] = trestaný, súdne trestaný
+@ humans/settlement-city.txt < Stadt
+- 3 AN städtebaulich {städte|baulich} [ˈʃtɛːtəbaʊlɪç] = urbanistický, stavebný
+@ humans/knowledge-education.txt < Schule
+- 3 AN schulisch {schulisch} [ˈʃuːlɪʃ] = školský
+@ humans/knowledge-education.txt < Prinzip
+- 3 AN prinzipiell {prinzipiell} [pʁɪntsiˈpjɛl] = zásadný, v zásade
+@ humans/knowledge-education.txt < Klasse
+- 3 AN erstklassig {erst|klassig} [ˈeːɐstklasɪç] = prvotriedny, vynikajúci
+@ humans/work-industry.txt < machen
+- 3 V durchmachen {durch·machen} [ˈdʊʁçmaxən], hat (A) = prekonať, prežiť
+@ humans/work-industry.txt < Gewerbe
+- 3 AN gewerblich {ge|werb|lich} [ɡəˈvɛʁplɪç] = živnostenský, komerčný
+@ cognitive/perception.txt < fühlen
+- 3 V sich wohlfühlen {sich wohl·fühlen} [zɪç ˈvoːlfyːlən], hat = cítiť sa dobre, byť spokojný
+@ cognitive/will-character.txt < Vorbild
+- 3 AN vorbildlich {vor|bild|lich} [ˈfoːɐbɪltlɪç] = vzorný, príkladný
+@ cognitive/will-character.txt < Ziel
+- 3 AN zielführend {ziel|führend} [ˈtsiːlfyːʁənt] = účelný, vedúci k cieľu
+@ cognitive/emotion.txt < Frust
+- 3 AN frustrierend {frustrierend} [fʁʊsˈtʁiːʁənt] = frustrujúci
+@ cognitive/emotion.txt < Wucht
+- 3 AN wuchtig {wuchtig} [ˈvʊxtɪç] = mohutný, silný
+@ cognitive/emotion.txt < Zorn
+- 3 V erbittern {er|bittern} [ɛɐˈbɪtɐn], hat (A) = ozlobiť, rozhorčiť
+@ cognitive/mind-thought.txt < Original
+- 3 AN originell {originell} [oʁiɡiˈnɛl] = originálny, nápaditý
+@ cognitive/mind-thought.txt < Tendenz
+- 3 V tendieren {tendieren} [tɛnˈdiːʁən], hat (zu D) = mať sklon, smerovať
+@ abstract/relation-change.txt < Last
+- 3 AN belastbar {be|lastbar} [bəˈlastbaːɐ] = zaťažiteľný, odolný
+@ abstract/relation-change.txt < Charme
+- 3 AN charmant {charmant} [ʃaʁˈmant] = šarmantný, očarujúci
+@ abstract/relation-change.txt # action-and-use
+3 V ausnutzen {aus·nutzen} [ˈaʊsnʊtsən], hat (A) = využiť, zneužiť
+3 V handhaben {hand|haben} [ˈhantˌhaːbən], hat (A) = narábať, zaobchádzať
+3 V herbeiführen {herbei·führen} [hɛɐˈbaɪfyːʁən], hat (A) = privodiť, spôsobiť
+3 V hervorrufen {hervor·rufen} [hɛɐˈfoːɐʁuːfən], ruft hervor/rief hervor/hervorgerufen [ʁuːft hɛɐˈfoːɐ/ʁiːf hɛɐˈfoːɐ/hɛɐˈfoːɐɡəʁuːfən], hat (A) = vyvolať, spôsobiť
+3 V vorhalten {vor·halten} [ˈfoːɐhaltən], hält vor/hielt vor/vorgehalten [hɛlt foːɐ/hiːlt foːɐ/ˈfoːɐɡəhaltən], hat (D A) = vyčítať, mať v zálohe
+3 V zurücklassen {zurück·lassen} [tsuˈʁʏklasən], lässt zurück/ließ zurück/zurückgelassen [lɛst tsuˈʁʏk/liːs tsuˈʁʏk/tsuˈʁʏkɡəlasən], hat (A) = zanechať, nechať za sebou
+3 V zurücknehmen {zurück·nehmen} [tsuˈʁʏkneːmən], nimmt zurück/nahm zurück/zurückgenommen [nɪmt tsuˈʁʏk/naːm tsuˈʁʏk/tsuˈʁʏkɡənɔmən], hat (A) = vziať späť, odvolať
+3 V loslegen {los·legen} [ˈloːsleːɡən], hat = začať naplno, pustiť sa do toho
+3 V unterlassen {unter|lassen} [ʊntɐˈlasən], unterlässt/unterließ/unterlassen [ʊntɐˈlɛst/ʊntɐˈliːs/ʊntɐˈlasən], hat (A) = zanechať, nerobiť, zdržať sa
+3 V erzwingen {er|zwingen} [ɛɐˈtsvɪŋən], erzwingt/erzwang/erzwungen [ɛɐˈtsvɪŋt/ɛɐˈtsvaŋ/ɛɐˈtsvʊŋən], hat (A) = vynútiť si, vynútiť
+3 V ableiten {ab·leiten} [ˈaplaɪtən], hat (A, aus D, von D) = odvodiť, odviesť
+3 V einteilen {ein·teilen} [ˈaɪntaɪlən], hat (A, in A) = rozdeliť, zaradiť
+3 V dosieren {dosieren} [doˈziːʁən], hat (A) = dávkovať
+3 V mindern {mindern} [ˈmɪndɐn], hat (A) = zmenšiť, znížiť
+3 V normalisieren {normalisieren} [nɔʁmaliˈziːʁən], hat (sich A) = normalizovať, vrátiť do normálu
+3 V überbrücken {über|brücken} [yːbɐˈbʁʏkən], hat (A) = preklenúť, prekonať
+3 V abtrennen {ab·trennen} [ˈaptʁɛnən], hat (A) = odtrhnúť, oddeliť
+3 V koppeln {koppeln} [ˈkɔpəln], hat (A, an A) = spojiť, prepojiť
+3 V verstreuen {ver|streuen} [fɛɐˈʃtʁɔɪən], hat (A) = rozsypať, rozosiať
+3 V verstopfen {ver|stopfen} [fɛɐˈʃtɔpfən], hat/ist = upchať, zapchať
+3 V umkippen {um·kippen} [ˈʊmkɪpən], hat/ist = prevrátiť sa, prevrhnúť
+3 V hüllen {hüllen} [ˈhʏlən], hat (in A) = zahaliť, obaliť
+3 V hinziehen {hin·ziehen} [ˈhɪntsiːən], zieht hin/zog hin/hingezogen [tsiːt hɪn/tsoːk hɪn/ˈhɪnɡətsoːɡən], hat (sich A) = naťahovať sa, zdĺhať
+3 V abdrehen {ab·drehen} [ˈapdʁeːən], hat/ist = zatočiť, vypnúť, odbočiť
+3 V abverlangen {ab·verlangen} [ˈapfɛɐlaŋən], hat (D A) = vyžadovať
+3 V anvertrauen {an·vertrauen} [ˈanfɛɐtʁaʊən], hat (D A) = zveriť
+3 V androhen {an·drohen} [ˈandʁoːən], hat (D A) = pohroziť, vyhrážať sa
+3 V bannen {bannen} [ˈbanən], hat (A) = zažehnať, upútať, zakliať
+- 3 V verbannen {ver|bannen} [fɛɐˈbanən], hat (A) = vyhnať, vypovedať, vytlačiť
+3 V abzielen {ab·zielen} [ˈaptsiːlən], hat (auf A) = smerovať, mať za cieľ
+3 V zücken {zücken} [ˈtsʏkən], hat (A) = vytasiť, vytiahnuť
+@ abstract/relation-change.txt # relations
+3 V überrollen {über|rollen} [yːbɐˈʁɔlən], hat (A) = prevalcovať, prejsť
+3 V vermerken {ver|merken} [fɛɐˈmɛʁkən], hat (A) = poznamenať, zaznamenať
+3 V sich gesellen {sich gesellen} [zɪç ɡəˈzɛlən], hat (zu D) = pripojiť sa, pridať sa
+3 V aufwerten {auf·werten} [ˈaʊfveːɐtən], hat (A) = zhodnotiť, zvýšiť hodnotu
+3 V freistellen {frei·stellen} [ˈfʁaɪʃtɛlən], hat (A, von D) = uvoľniť, oslobodiť
+@ abstract/space-position.txt # motion
+3 V ragen {ragen} [ˈʁaːɡən], hat (aus D, über A) = týčiť sa, vyčnievať
+3 V eindringen {ein·dringen} [ˈaɪndʁɪŋən], dringt ein/drang ein/eingedrungen [dʁɪŋt aɪn/dʁaŋ aɪn/ˈaɪnɡədʁʊŋən], ist (in A) = preniknúť, vniknúť
+3 V einmarschieren {ein·marschieren} [ˈaɪnmaʁʃiːʁən], ist (in A) = vtiahnuť, vpochodovať
+3 V wackeln {wackeln} [ˈvakəln], hat = kývať sa, vratiť sa
+@ abstract/space-position.txt # travel
+3 V anreisen {an·reisen} [ˈanʁaɪzən], ist = pricestovať, prísť
+@ abstract/quality-property.txt # evaluation
+3 V stagnieren {stagnieren} [ʃtaɡˈniːʁən], hat = stagnovať
+3 V boomen {boomen} [ˈbuːmən], hat = prosperovať, rásť
+3 AN fies {fies} [fiːs] = ohavný, zlomyseľný, odporný
+3 AN mies {mies} [miːs] = mizerný, zlý
+3 AN lästig {lästig} [ˈlɛstɪç] = obťažný, otravný
+3 AN blöd {blöd} [bløːt] = hlúpy, otravný
+3 AN köstlich {köstlich} [ˈkœstlɪç] = chutný, vynikajúci
+3 AN ultimativ {ultimativ} [ʊltimaˈtiːf] = definitívny, konečný, najlepší
+3 AN dezent {dezent} [deˈtsɛnt] = nenápadný, decentný
+3 AN elementar {elementar} [elemɛnˈtaːɐ] = základný, elementárny
+3 AN adäquat {adäquat} [adɛˈkvaːt] = primeraný, adekvátny
+3 AN unerträglich {un|erträglich} [ˈʊnɛɐtʁɛːklɪç] = neznesiteľný
+3 AN unerheblich {un|erheblich} [ˈʊnɛɐheːblɪç] = bezvýznamný, nepodstatný
+3 AN substanziell {substanziell} [zʊpstanˈtsi̯ɛl] = podstatný, značný
+3 AN unerlässlich {un|erlässlich} [ˈʊnɛɐlɛslɪç] = nevyhnutný, nepostrádateľný
+3 AN unabdingbar {un|abdingbar} [ˈʊnapdɪŋbaːɐ] = nevyhnutný, nutný
+3 AN bedenklich {be|denk|lich} [bəˈdɛŋklɪç] = znepokojujúci, riskantný
+3 AN förmlich {förm|lich} [ˈfœʁmlɪç] = formálny, doslova
+3 AN dringlich {dringlich} [ˈdʁɪŋlɪç] = naliehavý
+3 AN vollumfänglich {voll|umfänglich} [ˈfɔlʊmfɛŋlɪç] = v plnom rozsahu, úplný
+3 AN unbegrenzt {un|be|grenzt} [ˈʊnbəɡʁɛntst] = neobmedzený
+3 AN gleichmäßig {gleich|mäßig} [ˈɡlaɪçmɛːsɪç] = rovnomerný, pravidelný
+3 AN beständig {be|ständig} [bəˈʃtɛndɪç] = stály, trvalý
+3 AN durchgängig {durch|gängig} [ˈdʊʁçɡɛŋɪç] = súvislý, nepretržitý
+3 AN ganzjährig {ganz|jährig} [ˈɡantsjɛːʁɪç] = celoročný
+3 AN tagtäglich {tag|täglich} [ˈtaːktɛːklɪç] = každodenný
+3 AN hauchdünn {hauch|dünn} [ˈhaʊxdʏn] = vlásočný, tenučký
+3 AN knallhart {knall|hart} [ˈknalhaʁt] = tvrdý, bezohľadný
+3 AN harsch {harsch} [haʁʃ] = drsný, ostrý
+3 AN schrill {schrill} [ʃʁɪl] = pichľavý, výstredný
+3 AN glimpflich {glimpflich} [ˈɡlɪmpflɪç] = bez väčších následkov, zľahka
+3 AN unmissverständlich {un|miss|verständlich} [ˈʊnmɪsfɛɐʃtɛntlɪç] = jednoznačný, nedvojsmyselný
+3 AN unverständlich {un|verständlich} [ˈʊnfɛɐʃtɛntlɪç] = nezrozumiteľný, nepochopiteľný
+3 AN glaubhaft {glaub|haft} [ˈɡlaʊphaft] = dôveryhodný, vierohodný
+3 AN aussagekräftig {aussage|kräftig} [ˈaʊszaːɡəkʁɛftɪç] = výpovedný, presvedčivý
+3 AN eindrücklich {ein|drücklich} [ˈaɪndʁʏklɪç] = pôsobivý, naliehavý
+3 AN irreführend {irre|führend} [ˈɪʁəfyːʁənt] = zavádzajúci
+3 AN zufriedenstellend {zufrieden|stellend} [tsuˈfʁiːdənʃtɛlənt] = uspokojivý
+3 AN hinreichend {hin|reichend} [ˈhɪnʁaɪçənt] = dostatočný
+3 AN naheliegend {nahe|liegend} [ˈnaːəliːɡənt] = zrejmý, prirodzený
+3 AN folgenschwer {folgen|schwer} [ˈfɔlɡənʃveːɐ] = s ťažkými následkmi
+3 AN wegweisend {weg|weisend} [ˈvɛkvaɪzənt] = prelomový, smerodajný
+3 AN verstörend {verstörend} [fɛɐˈʃtøːʁənt] = znepokojujúci, desivý
+3 AN allgegenwärtig {all|gegenwärtig} [ˈalɡeːɡənvɛʁtɪç] = všadeprítomný
+3 AN vermeidbar {ver|meidbar} [fɛɐˈmaɪtbaːɐ] = vyhnuteľný
+3 AN einsetzbar {ein|setzbar} [ˈaɪnzɛtsbaːɐ] = použiteľný, nasaditeľný
+3 AN unbegründet {un|begründet} [ˈʊnbəɡʁʏndət] = neodôvodnený, bezdôvodný
+3 AN unauffällig {un|auffällig} [ˈʊnaʊffɛlɪç] = nenápadný
+3 AN unbesetzt {un|besetzt} [ˈʊnbəzɛtst] = neobsadený, voľný
+3 AN größtmöglich {größt|möglich} [ˈɡʁøːstmøːklɪç] = najväčší možný
+3 AN potentiell {potentiell} [potɛnˈtsi̯ɛl] = potenciálny, možný
+3 AN hochmodern {hoch|modern} [ˈhoːxmoˈdɛʁn] = najmodernejší
+3 AN vollelektrisch {voll|elektrisch} [ˈfɔleˈlɛktʁɪʃ] = plne elektrický
+3 AN synthetisch {synthetisch} [zʏnˈteːtɪʃ] = syntetický, umelý
+3 AN exotisch {exotisch} [eˈksoːtɪʃ] = exotický
+3 AN restriktiv {restriktiv} [ʁɛstʁɪkˈtiːf] = reštriktívny, obmedzujúci
+3 AN präventiv {präventiv} [pʁɛvɛnˈtiːf] = preventívny
+3 AN systemisch {systemisch} [zʏsˈteːmɪʃ] = systémový
+3 AN subjektiv {subjektiv} [zʊpjɛkˈtiːf] = subjektívny
+3 AN vertikal {vertikal} [vɛʁtiˈkaːl] = vertikálny, zvislý
+3 AN geografisch {geografisch} [ɡeoˈɡʁaːfɪʃ] = geografický
+3 AN demografisch {demografisch} [demoˈɡʁaːfɪʃ] = demografický
+3 AN akustisch {akustisch} [aˈkʊstɪʃ] = akustický
+3 AN ästhetisch {ästhetisch} [ɛsˈteːtɪʃ] = estetický
+3 AN poetisch {poetisch} [poˈeːtɪʃ] = poetický, básnický
+3 AN malerisch {maler|isch} [ˈmaːləʁɪʃ] = malebný
+3 AN agil {agil} [aˈɡiːl] = čulý, agilný
+3 AN informell {informell} [ɪnfɔʁˈmɛl] = neformálny
+3 AN inoffiziell {in|offiziell} [ˈɪnɔfitsi̯ɛl] = neoficiálny
+3 AN kognitiv {kognitiv} [kɔɡniˈtiːf] = kognitívny
+3 AN intellektuell {intellektuell} [ɪntɛlɛkˈtuɛl] = intelektuálny
+3 AN sprunghaft {sprung|haft} [ˈʃpʁʊŋhaft] = prchký, skokový, nestály
+3 AN rätselhaft {rätsel|haft} [ˈʁɛːtslhaft] = záhadný
+3 AN hektisch {hektisch} [ˈhɛktɪʃ] = hektický, zhonový
+3 AN gruselig {gruselig} [ˈɡʁuːzəlɪç] = strašidelný, desivý
+3 AN blond {blond} [blɔnt] = blond, plavovlasý
+3 AN lesbisch {lesbisch} [ˈlɛsbɪʃ] = lesbický
+3 AN leistungsstark {leistungs|stark} [ˈlaɪstʊŋsʃtaʁk] = výkonný
+3 AN konkurrenzfähig {konkurrenz|fähig} [kɔnkʊˈʁɛntsfɛːɪç] = konkurencieschopný
+3 AN unternehmerisch {unternehmer|isch} [ʊntɐˈneːməʁɪʃ] = podnikateľský
+3 AN hauptamtlich {haupt|amtlich} [ˈhaʊptamtlɪç] = na plný úväzok, funkcionársky
+3 AN populistisch {populistisch} [popuˈlɪstɪʃ] = populistický
+3 AN rechtsradikal {rechts|radikal} [ˈʁɛçtsʁadikaːl] = pravicovo radikálny
+3 AN südöstlich {süd|östlich} [zyːtˈœstlɪç] = juhovýchodný
+3 AN bösartig {bös|artig} [ˈbøːsaːɐtɪç] = zlomyseľný, zhubný
+3 AN tätlich {tät|lich} [ˈtɛːtlɪç] = fyzický, násilný
+3 AN unkontrolliert {un|kontrolliert} [ˈʊnkɔntʁɔliːɐt] = nekontrolovaný
+3 AN übergeordnet {über|geordnet} [ˈyːbɐɡəɔʁdnət] = nadriadený, nadradený
+3 AN verletzungsbedingt {verletzungs|bedingt} [fɛɐˈlɛtsʊŋsbədɪŋt] = zapríčinený zranením
+@ abstract/quality-property.txt < Gefahr
+- 3 AN ungefährlich {un|gefährlich} [ˈʊnɡəfɛːɐlɪç] = neškodný, bezpečný
+@ abstract/quality-property.txt < tief
+- 3 AN tiefgreifend {tief|greifend} [ˈtiːfɡʁaɪfənt] = hlboký, zásadný
+@ abstract/relation-change.txt < Wechsel
+- 3 AN wechselhaft {wechsel|haft} [ˈvɛksəlhaft] = premenlivý, nestály
+@ abstract/time.txt < Jahr
+- 3 AN minderjährig {minder|jährig} [ˈmɪndɐjɛːʁɪç] = maloletý, nezletilý
+@ natural-world/weather-climate.txt < Klima
+- 3 AN klimaschädlich {klima|schädlich} [ˈkliːmaʃɛːtlɪç] = škodlivý pre klímu
+@ humans/family-social.txt < Gnade
+- 3 AN gnadenlos {gnaden|los} [ˈɡnaːdənloːs] = nemilosrdný
+@ humans/family-social.txt < Freund
+- 3 AN freundschaftlich {freundschaftlich} [ˈfʁɔʏntʃaftlɪç] = priateľský
+@ life/body.txt < Herz
+- 3 AN beherzt {be|herzt} [bəˈhɛʁtst] = odvážny, srdnatý
+@ cognitive/will-character.txt # character-traits
+3 AN tapfer {tapfer} [ˈtapfɐ] = statočný, udatný
+3 AN brav {brav} [bʁaːf] = poslušný, slušný
+3 AN dreist {dreist} [dʁaɪst] = drzý, bezočivý
+3 AN wachsam {wach|sam} [ˈvaxzaːm] = ostražitý, bdelý
+3 AN respektvoll {respekt|voll} [ʁeˈspɛktfɔl] = úctivý, s rešpektom
+3 AN vertrauensvoll {vertrauens|voll} [fɛɐˈtʁaʊənsfɔl] = dôverčivý, dôverný
+3 AN unbeschwert {un|beschwert} [ˈʊnbəʃveːɐt] = bezstarostný
+@ cognitive/will-character.txt # will-intent
+3 V sich begnügen {sich be|gnügen} [zɪç bəˈɡnyːɡən], hat (mit D) = uspokojiť sa, uspokojovať sa
+3 V sich widersetzen {sich wider|setzen} [zɪç viːdɐˈzɛtsən], hat (D) = vzpierať sa, protiviť sa
+3 V verharren {ver|harren} [fɛɐˈhaʁən], hat (in D) = zotrvať, vytrvať
+@ cognitive/mind-thought.txt # thinking
+3 V evaluieren {evaluieren} [evaluˈiːʁən], hat (A) = hodnotiť, vyhodnotiť
+3 V suggerieren {suggerieren} [zʊɡɡeˈʁiːʁən], hat (D A) = naznačovať, navodzovať
+3 V assoziieren {assoziieren} [asotsiˈiːʁən], hat (mit D) = asociovať, spájať
+3 V verneinen {ver|neinen} [fɛɐˈnaɪnən], hat (A) = poprieť, zaprieť
+3 V bestärken {be|stärken} [bəˈʃtɛʁkən], hat (in D) = utvrdiť, posilniť
+@ cognitive/perception.txt # hearing
+3 V lauschen {lauschen} [ˈlaʊʃən], hat (D) = načúvať, počúvať
+3 V ertönen {ertönen} [ɛɐˈtøːnən], ist = zaznieť, ozvať sa
+3 V rauschen {rauschen} [ˈʁaʊʃən], hat/ist = šumieť, hučať
+@ cognitive/perception.txt # seeing
+3 V erstrahlen {er|strahlen} [ɛɐˈʃtʁaːlən], ist = zažiariť, rozžiariť sa
+@ cognitive/perception.txt # other-senses
+3 V wittern {wittern} [ˈvɪtɐn], hat (A) = vetriť, zacítiť
+@ cognitive/emotion.txt # basic-feelings
+3 V beunruhigen {be|unruhigen} [bəˈʊnʁuːɪɡən], hat (A) = znepokojiť
+3 V beflügeln {be|flügeln} [bəˈflyːɡəln], hat (A) = okrídliť, povzbudiť
+3 V bedrängen {be|drängen} [bəˈdʁɛŋən], hat (A) = dotierať, tlačiť na
+3 V verängstigen {ver|ängstigen} [fɛɐˈɛŋstɪɡən], hat (A) = vystrašiť, zastrašiť
+3 V traumatisieren {traumatisieren} [tʁaʊmatiˈziːʁən], hat (A) = traumatizovať
+3 AN euphorisch {euphorisch} [ɔɪˈfoːʁɪʃ] = eufórický
+@ cognitive/emotion.txt # expressions
+3 V schmunzeln {schmunzeln} [ˈʃmʊntsəln], hat (über A) = usmievať sa
+@ life/body-actions.txt # manipulation
+3 V schubsen {schubsen} [ˈʃʊpsən], hat (A) = strčiť, postrčiť
+3 V fegen {fegen} [ˈfeːɡən], hat/ist (A) = zametať, vymetať
+3 V stechen {stechen} [ˈʃtɛçən], sticht/stach/gestochen [ʃtɪçt/ʃtaːx/ɡəˈʃtɔxən], hat (A) = bodať, pichať
+3 V rütteln {rütteln} [ˈʁʏtəln], hat (an D) = trasť, otriasať
+3 V tätowieren {tätowieren} [tɛtoˈviːʁən], hat (A) = tetovať
+@ life/life-processes.txt # nourishment
+3 V nähren {nähren} [ˈnɛːʁən], hat (A) = živiť, kŕmiť
+@ humans/food-cooking.txt # cooking
+3 V speisen {speisen} [ˈʃpaɪzən], hat = stolovať, jesť
+3 V verzehren {ver|zehren} [fɛɐˈtseːʁən], hat (A) = skonzumovať, zjesť
+@ humans/family-social.txt # social-interaction
+3 V beschenken {be|schenken} [bəˈʃɛŋkən], hat (A, mit D) = obdarovať
+@ humans/language-communication.txt # speaking
+3 V signieren {signieren} [zɪɡˈniːʁən], hat (A) = podpísať, označiť podpisom
+3 V adressieren {adressieren} [adʁɛˈsiːʁən], hat (A, an A) = adresovať
+@ humans/language-communication.txt # media-news
+3 V posten {posten} [ˈpoːstən], hat (A) = zverejniť (príspevok), postnúť
+@ humans/technology.txt # computing-communication-devices
+3 V verschlüsseln {ver|schlüsseln} [fɛɐˈʃlʏsəln], hat (A) = zašifrovať
+3 V checken {checken} [ˈtʃɛkən], hat (A) = skontrolovať, overiť
+@ humans/technology.txt # machines-devices
+3 V ticken {ticken} [ˈtɪkən], hat = tikať
+@ humans/society-law-politics.txt # law-justice
+3 V vollstrecken {voll|strecken} [fɔlˈʃtʁɛkən], hat (A) = vykonať (rozsudok), vymáhať
+@ humans/society-law-politics.txt # state-politics
+3 V votieren {votieren} [voˈtiːʁən], hat (für A, gegen A) = hlasovať
+@ humans/knowledge-education.txt # school
+3 V promovieren {promovieren} [pʁomoˈviːʁən], hat (zu D) = získať doktorát, promovať
+@ humans/work-industry.txt # work-general
+3 V pensionieren {pensionieren} [pɛnzi̯oˈniːʁən], hat (A) = poslať do dôchodku
+3 V managen {managen} [ˈmɛnɪdʒən], hat (A) = riadiť, zvládať
+@ humans/art-entertainment.txt # performance-literature
+3 V performen {performen} [pɛɐˈfɔʁmən], hat (A) = predviesť, vystupovať
+3 V arrangieren {arrangieren} [aʁaŋˈʒiːʁən], hat (A) = zorganizovať, zaranžovať
+3 V restaurieren {restaurieren} [ʁɛstaʊˈʁiːʁən], hat (A) = reštaurovať, obnoviť
+@ humans/art-entertainment.txt # games-sport
+3 V zocken {zocken} [ˈtsɔkən], hat = hrať hazardne, hrať počítačové hry
+3 V erspielen {er|spielen} [ɛɐˈʃpiːlən], hat (sich D) = vybojovať si, vyhrať si
+3 V komplettieren {komplettieren} [kɔmplɛˈtiːʁən], hat (A) = doplniť, skompletizovať
+@ humans/trade-money.txt # buying-selling
+3 V spendieren {spendieren} [ʃpɛnˈdiːʁən], hat (D A) = zaplatiť, darovať
+3 V ermäßigen {er|mäßigen} [ɛɐˈmɛːsɪɡən], hat (A) = znížiť (cenu), zľaviť
+@ humans/trade-money.txt # economy-finance
+3 V ausschütten {aus·schütten} [ˈaʊsʃʏtən], hat (A) = vyplatiť (dividendu), vyliať
+3 V diversifizieren {diversifizieren} [divɛʁzifiˈtsiːʁən], hat (A) = diverzifikovať
+3 V konsolidieren {konsolidieren} [kɔnzoliˈdiːʁən], hat (sich A) = konsolidovať, upevniť
+@ humans/agriculture.txt # farming
+3 V kultivieren {kultivieren} [kʊltiˈviːʁən], hat (A) = pestovať, kultivovať
+@ humans/war-military.txt # army
+3 V tarnen {tarnen} [ˈtaʁnən], hat (A) = maskovať, zamaskovať
+3 V peilen {peilen} [ˈpaɪlən], hat (A) = zamerať, merať
+@ abstract/relation-change.txt # change-events
+3 V zusammenbrechen {zusammen·brechen} [tsuˈzamənbʁɛçən], bricht zusammen/brach zusammen/zusammengebrochen [bʁɪçt tsuˈzamən/bʁaːx tsuˈzamən/tsuˈzamənɡəbʁɔxən], ist = zrútiť sa, skolabovať
+3 V überfluten {über|fluten} [yːbɐˈfluːtən], hat (A) = zaplaviť
+3 V befallen {be|fallen} [bəˈfalən], befällt/befiel/befallen [bəˈfɛlt/bəˈfiːl/bəˈfalən], hat (A) = napadnúť, postihnúť
+3 V sich auskennen {sich aus·kennen} [zɪç ˈaʊskɛnən], kennt aus/kannte aus/ausgekannt [kɛnt aʊs/ˈkantə aʊs/ˈaʊsɡəkant], hat (mit D, in D) = vyznať sa
+@ abstract/relation-change.txt # action-and-use
+3 V durchleben {durch|leben} [dʊʁçˈleːbən], hat (A) = prežiť, zažiť
+3 V ruinieren {ruinieren} [ʁuiˈniːʁən], hat (A) = zruinovať, zničiť
+3 V versäumen {ver|säumen} [fɛɐˈzɔɪmən], hat (A) = zameškať, premeškať
+3 V taugen {taugen} [ˈtaʊɡən], hat (zu D, für A) = hodiť sa, byť dobrý
+3 V vergünstigen {ver|günstigen} [fɛɐˈɡʏnstɪɡən], hat (A) = zlacniť, zvýhodniť
+3 V schmeißen {schmeißen} [ˈʃmaɪsən], schmeißt/schmiss/geschmissen [ʃmaɪst/ʃmɪs/ɡəˈʃmɪsən], hat (A) = hodiť, mrštiť
+3 V absprechen {ab·sprechen} [ˈapʃpʁɛçən], spricht ab/sprach ab/abgesprochen [ʃpʁɪçt ap/ʃpʁaːx ap/ˈapɡəʃpʁɔxən], hat (D A) = uprieť, dohodnúť (si)
+@ abstract/quality-property.txt # evaluation
+3 AN fulminant {fulminant} [fʊlmiˈnant] = úchvatný, skvelý
+3 AN stattlich {statt|lich} [ˈʃtatlɪç] = statný, úctyhodný
+@ abstract/quantity-number.txt < Grad
+- 3 AN hochgradig {hoch|gradig} [ˈhoːxɡʁaːdɪç] = vysokostupňový, extrémny

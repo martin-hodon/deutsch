@@ -1,0 +1,164 @@
+N šaty : clothing, washable, hangable
+N oblečenie : clothing, washable, foldable
+N kus oblečenia : clothing, washable, foldable, hangable
+N večerné šaty : clothing, washable, hangable
+N šatňa : furniture, room ; an
+V obliecť : person > patient wearable
+V obliecť : {matka|otec|rodičia|mama|otec|babka|dedko|žena|muž|sestra|brat|vychovávateľ|učiteľ} > patient child
+V vyzliecť : person > patient wearable
+V vyzliecť : {matka|otec|rodičia|babka|dedko|lekár|zdravotná sestra} > patient {dieťa|bábätko|pacient}
+N košeľa : clothing, washable, foldable, hangable
+N tielko : clothing, washable, foldable
+N nočná košeľa : clothing, washable, foldable
+N blúzka : clothing, washable, foldable, hangable
+N tričko : clothing, washable, foldable
+N mikina : clothing, washable, foldable
+N nohavice : clothing, washable, foldable, hangable
+N spodky : clothing, washable
+N plavky (pánske) : clothing, washable
+N pančuchové nohavice : clothing, washable
+N traktorky : clothing, washable
+N traky : clothing
+N rifle : clothing, washable, foldable
+N šortky : clothing, washable, foldable
+N legíny : clothing, washable, foldable
+N kabát : clothing, washable, hangable
+N župan : clothing, washable, hangable
+N pršiplášť : clothing, washable, hangable
+N bunda : clothing, washable, hangable
+N pletený kardigán : clothing, washable, hangable
+N sveter : clothing, washable, foldable
+N vesta : clothing, washable, hangable
+N oblek : clothing, washable, hangable
+N pyžamo : clothing, washable, foldable
+N plavky (jednodielne) : clothing, washable
+N kravata : clothing, washable, hangable
+N uniforma : clothing, washable, hangable
+N spodná bielizeň : clothing, washable, foldable
+N podprsenka : clothing, washable
+N bikiny : clothing, washable
+N zástera : clothing, washable, hangable
+N outfit : clothing, washable
+N kimono : clothing, washable
+N plášť : clothing, washable, foldable, hangable
+N tunika : clothing, washable
+N korzet : clothing
+N plienka : artifact, thing, washable
+N topánka : clothing, washable, repairable, cleanable
+N tenisky : clothing, washable, repairable, cleanable
+N papuča : clothing, washable, repairable, cleanable
+N rukavica : clothing, washable
+N čižma : clothing, washable, repairable, cleanable
+N sandál : clothing, washable, repairable
+N podrážka : thing
+N šnúrka do topánok : thing
+N ponožka : clothing, washable
+N pančucha : clothing, washable
+N klobúk : clothing
+N čiapka : clothing, washable
+N kapucňa : clothing
+N šál : clothing, washable, foldable
+N palčiak : clothing, washable
+N závoj : clothing
+N opasok : clothing
+N okuliare : wearable, repairable, breakable, cleanable
+N slnečné okuliare : wearable, repairable, breakable, cleanable
+N parochňa : wearable
+N čelenka : clothing, washable
+N taška : container, openable, fillable
+N kabelka : container, openable, fillable
+N vrecko nohavíc : container, openable, fillable
+N gombík : thing
+N gombíková dierka : thing
+V zapnúť (gombíky) : person > patient clothing
+N zips : thing
+N golier : thing
+N rukáv : thing
+N manžeta : thing
+N čipka : fabric
+N remeň : thing
+N lem : thing
+N spona : thing
+N záplata : thing
+N látka : fabric, washable, foldable, cuttable
+N utierka : fabric, artifact, thing, washable, foldable
+N vreckovka : artifact, thing, washable, foldable, hangable
+N šatka : clothing, washable, foldable
+N šatka na hlavu : clothing, washable, foldable
+N šatka na krk : clothing, washable, foldable
+N bavlna : fabric
+N hodváb : fabric
+N ľan : fabric
+N koža (materiál) : fabric
+N niť : material, cuttable
+N ihla : tool
+N špendlík : tool
+N vlásenka : tool
+V šiť : person > patient {šaty|košeľa|nohavice|rock|kabát|bunda|oblečenie}
+V šiť : person > patient {záves|strop|vankúš|taška}
+N šev : thing
+N šijací stroj : device, repairable, switchable
+V pliesť : person > patient {sveter|ponožka|šál|čiapka|rukavica|bunda|vesta}
+V tkať : person > patient fabric
+N tkáčsky stav : device, repairable
+V vyšívať : person > patient fabric
+N výšivka : picture
+V žehliť : person > patient clothing
+V žehliť : person > patient fabric
+N žehlička : device, repairable, switchable
+V poskladať : person -professional > patient fabric +foldable
+V poskladať : person -professional > patient paper +foldable
+V poskladať : person -professional > patient text +foldable
+V poskladať : person -professional > patient artifact +foldable
+N textília : fabric
+N denim : fabric
+N nylon : fabric
+N flís : fabric
+N zamat : fabric
+N satén : fabric
+N kašmír : fabric
+N flanel : fabric
+N priadza : material, cuttable
+V farbiť : person > patient fabric
+V farbiť : {holič|žena|matka|dcéra|dievča|muž} > patient {vlasy}
+N krajčír : professional
+V krajčíriť : professional > patient clothing
+N náprstok : tool
+N výkladná figurína : artifact
+V pasovať : clothing > recipient person
+V pasovať : {košeľa|bunda|sveter} > inf
+V pasovať : {klobúk|topánka|rukavica|kravata} > inf
+V pasovať : {šál|čiapka|rukavica} > inf
+V pasovať : furniture > inf
+N móda : quality
+AN módny : clothing, wearable ; attr
+N trend : idea
+AN elegantný : person, clothing, building
+N elegancia : quality
+AN nahý : animal, body-part
+AV bosý : manner
+N šperk : jewelry ; mass
+V ozdobiť : person > patient person, instrument thing
+V ozdobiť : person > patient building, instrument thing
+V ozdobiť : person > patient room, instrument thing
+V ozdobiť : person > patient tree, instrument thing
+N klenot : jewelry
+N klenotník : professional
+N prsteň : jewelry
+N náušnica : jewelry
+N náhrdelník : jewelry
+N náramok : jewelry
+N perla : jewelry
+N prívesok : jewelry
+N maska : wearable
+N peňaženka : container, thing, openable
+N dáždnik : artifact, thing, openable, foldable
+N ľudový odev : clothing, washable, foldable
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+V dávať pozor : person > theme {dieťa|auto|zdravie}
+V maskovať : person > patient {tvár|chyba|budova}
+V obliekať : person > patient child
+V obliekať : person > patient clothing
+V prezliecť sa : person
+V zmeniť farbu : {strom|chameleón|obloha|voda|vlasy}

@@ -1,0 +1,72 @@
+# coordinating
+1 CON и {и} [i] = a
+1 CON а {а} [a] = a
+2 PHR и так далее {и так далее} [i tak ˈdalʲɪjɪ] = a tak ďalej
+1 CON или {или} [ˈilʲɪ] = alebo
+2 CON либо {либо} [ˈlʲibə] = buď
+1 CON но {но} [no] = ale
+1 CON потому что {потому что} [pətɐˈmu ʂto] = lebo
+3 CON ибо {ибо} [ˈibə] = lebo
+1 CON а {а} [a] = nýbrž
+2 CON а также {а также} [a ˈtagʐɨ] = ako aj
+2 CON как и {как и} [kak i] = ako aj
+2 CON как… так и {как… так и} [kak tak i] = ako… tak aj
+1 CON ни… ни {ни… ни} [nʲi nʲi] = ani
+3 CON или же {или же} [ˈilʲɪ ʐɨ] = respektíve
+2 CON так и {так и} [tak i] = ako… tak aj
+
+# subordinating
+1 CON что {что} [ʂto] = že
+1 CON так что {так что} [tak ʂto] = takže
+1 CON чтобы {чтобы} [ˈʂtobɨ] = aby
+1 CON потому что {потому что} [pətɐˈmu ʂto] = pretože
+2 CON так как {так как} [tak kak] = keďže
+2 CON поскольку {поскольку} [pɐˈskolʲku] = keďže
+3 CON тем более что {тем более что} [tʲem ˈbolʲɪjɪ ʂto] = najmä keďže
+1 CON если {если} [ˈjesʲlʲɪ] = ak
+2 CON насколько {насколько} [nɐˈskolʲkə] = pokiaľ
+1 CON пока {пока} [pɐˈka] = dokiaľ
+1 CON как только {как только} [kak ˈtolʲkə] = len čo
+2 CON каждый раз когда {каждый раз когда} [ˈkaʐdɨj ras kɐɡˈda] = vždy keď
+1 CON ли {ли} [lʲi] = či
+1 CON хотя {хотя} [xɐˈtʲa] = hoci
+2 CON хоть {хоть} [xotʲ] = hoci
+1 PHR как будто {как будто} [kak ˈbutːə] = akoby
+2 PHR словно {словно} [ˈslovnə] = akoby
+1 CON когда {когда} [kɐɡˈda] = keď
+1 CON как {как} [kak] = ako
+1 CON чем {чем} [tɕem] = ako
+1 CON прежде чем {прежде чем} [ˈprʲeʐdʲɪ tɕem] = predtým než
+2 CON до того как {до того как} [də tɐˈvo kak] = predtým než
+1 CON прежде чем {прежде чем} [ˈprʲeʐdʲɪ tɕem] = skôr než
+2 CON до того как {до того как} [də tɐˈvo kak] = skôr než
+1 CON после того как {после того как} [ˈposlʲɪ tɐˈvo kak] = potom čo
+3 CON тем что {тем что} [tʲem ʂto] = tým že
+1 PHR чтобы {чтобы} [ˈʂtobɨ] (+ inf) = aby
+
+# connecting-adverbs
+1 AV поэтому {поэтому} [pɐˈɛtəmu] = preto
+2 AV итак {итак} [ɪˈtak] = takže
+1 AV значит {значит} [ˈznatɕɪt] = takže
+2 AV тем не менее {тем не менее} [tʲem nʲɪ ˈmʲenʲɪjɪ] = napriek tomu
+1 AV всё же {всё же} [fsʲo ʐɨ] = napriek tomu
+1 AV всё-таки {всё-таки} [ˈfsʲotəkʲɪ] = predsa
+2 AV однако {однако} [ɐdˈnakə] = však
+3 AV впрочем {впрочем} [ˈfprotɕɪm] = však
+1 AV иначе {иначе} [ˈinətɕɪ] = inak (v opačnom prípade)
+3 AV в противном случае {в противном случае} [f prɐˈtʲivnəm ˈslutɕɪjɪ] = inak (v opačnom prípade)
+1 AV кроме того {кроме того} [ˈkromʲɪ tɐˈvo] = okrem toho
+1 AV к тому же {к тому же} [k tɐˈmu ʐɨ] = navyše
+2 AV следовательно {следовательно} [slʲɪdɐˈvatʲɪlʲnə] = teda
+2 AV таким образом {таким образом} [tɐˈkʲim ˈobrəzəm] = teda
+1 AV ведь {ведь} [vʲetʲ] = totiž
+2 AV а именно {а именно} [a ˈimʲɪnːə] = totiž
+3 AV соответственно {соответственно} [səɐtˈvʲetstvʲɪnːə] = podľa toho
+2 AV правда {правда} [ˈpravdə] = síce
+1 AV с одной стороны {с одной стороны} [s ɐdˈnoj stərɐˈnɨ] = na jednej strane
+2 CON плюс {плюс} [plʲus] = plus
+2 AV потому {потому} [pətɐˈmu] = preto
+
+# more
+1 CON если не {если не} [ˈjesʲlʲɪ nʲɪ] = ak nie
+3 CON разве что {разве что} [ˈrazvʲɪ ʂto] = ak nie

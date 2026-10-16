@@ -1,0 +1,58 @@
+# accusative
+1 PRE for {for} [fɔː] = pre
+1 PRE around {around} [əˈraʊnd] = okolo
+2 AV all the more {all the more} [ɔːl ðə ˈmɔː] = tým viac
+1 PRE without {without} [wɪðˈaʊt] = bez
+1 AV anyway {anyway} [ˈenɪweɪ] = tak či tak
+1 PRE against {against} [əˈɡenst] = proti
+1 PRE per {per} [pɜː] = na (za jednotku)
+2 PRE via {via} [ˈvaɪə] = prostredníctvom
+# dative
+1 PRE out of {out of} [ˈaʊt əv] = z
+1 PRE of {of} [ɒv] = z
+1 PRE at {at} [ət] = pri
+1 PRE with {with} [wɪð] = s
+1 PRE from {from} [frɒm] = od (pôvod)
+1 PRE to {to} [tuː] = k
+2 PRE for the sake of {for the sake of} [fə ðə ˈseɪk əv] = pre dobro
+1 PRE from {from} [frɒm] = od (začiatok)
+1 PRE except {except} [ɪkˈsept] = okrem
+2 PRE contrary to {contrary to} [ˈkɒntrərɪ tuː] = v rozpore s
+2 PRE in accordance with {in accordance with} [ɪn əˈkɔːdəns wɪð] = v súlade s
+1 PRE together with {together with} [təˈɡeðə wɪð] = spolu s
+2 PRE thanks to {thanks to} [ˈθæŋks tuː] = vďaka
+1 PRE along with {along with} [əˈlɒŋ wɪð] = spolu s
+# genitive
+1 PRE because of {because of} [bɪˈkɒz əv] = kvôli
+1 PRE despite {despite} [dɪˈspaɪt] = napriek
+1 PRE instead of {instead of} [ɪnˈsted əv] = namiesto
+1 AV instead {instead} [ɪnˈsted] = namiesto toho
+1 PRE within {within} [wɪðˈɪn] = vnútri
+1 PRE outside {outside} [aʊtˈsaɪd] = mimo
+2 PRE on this side of {on this side of} [ɒn ðɪs ˈsaɪd əv] = na tejto strane
+2 PRE on the basis of {on the basis of} [ɒn ðə ˈbeɪsɪs əv] = na základe
+2 PRE as a result of {as a result of} [əz ə rɪˈzʌlt əv] = následkom
+2 PRE on the occasion of {on the occasion of} [ɒn ði əˈkeɪʒən əv] = pri príležitosti
+2 PRE regarding {regarding} [rɪˈɡɑːdɪŋ] = pokiaľ ide o
+2 PRE in view of {in view of} [ɪn ˈvjuː əv] = vzhľadom na
+2 PRE in favour of {in favour of} [ɪn ˈfeɪvər əv] = v prospech
+2 PRE by means of {by means of} [baɪ ˈmiːnz əv] = pomocou
+2 PRE for the purpose of {for the purpose of} [fə ðə ˈpɜːpəs əv] = za účelom
+2 PRE on the part of {on the part of} [ɒn ðə ˈpɑːt əv] = zo strany
+2 PRE in the middle of {in the middle of} [ɪn ðə ˈmɪdəl əv] = uprostred
+2 PRE away from {away from} [əˈweɪ frɒm] = stranou
+2 PRE not far from {not far from} [nɒt ˈfɑː frɒm] = neďaleko
+2 PRE during {during} [ˈdjʊərɪŋ] = v priebehu
+2 PRE including {including} [ɪnˈkluːdɪŋ] = vrátane
+1 PRE due to {due to} [ˈdjuː tuː] = kvôli
+1 PRE based on {based on} [ˈbeɪst ɒn] = na základe
+# two-way
+1 PRE on {on} [ɒn] = na (v kontakte)
+1 PRE on {on} [ɒn] = na (navrchu)
+1 PRE in {in} [ɪn] = v
+
+# more
+2 PHR regardless of {regardless of} [rɪˈɡɑːdləs əv] = bez ohľadu na
+
+# language-specific closed words (no Slovak word: a description)
+1 PRE into {into} [ˈɪntuː] = do

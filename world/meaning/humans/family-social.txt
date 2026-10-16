@@ -1,0 +1,340 @@
+V podporovať : person > patient person -infant, share {práca|úloha|hľadanie|projekt}
+V podporovať : agent -being -{vysielač|pošta} > patient person -infant
+V podporovať : person > patient {nápad|plán|návrh|projekt}
+N rodina : group
+AN rodinný : event, state, group
+N rodičia : relative
+N rodič : role
+N starí rodičia : relative
+N otec : relative
+AN otcovský : person, feeling, idea
+N starý otec : relative
+N dedko : relative
+N nevlastný otec : relative
+N svokor : relative
+N matka : relative
+N mama : relative
+AN materinský : person, feeling, idea
+N stará mama : relative
+N babka : relative
+N nevlastná matka : relative
+N svokra : relative
+N syn : relative
+N zať : relative
+N dcéra : relative
+N synova : relative
+N dieťa : child, relative
+N malé dieťa : infant
+N detstvo : period
+AN detský : person, feeling, body-part
+N brat : relative
+N sestra : relative
+N súrodenci : relative
+N dvojča : role
+N vnuk : relative
+N strýko : relative
+N teta : relative
+N bratranec : relative
+N sesternica : relative
+N synovec : relative
+N neter : relative
+N nevesta : person
+N ženích : person
+N vdova : person
+N vdovec : person
+N sirota : child
+N predok : relative
+AN príbuzný : animal, language
+N príbuzný : relative
+N príbuzenstvo : group, relation
+V adoptovať : person > patient child
+N adopcia : event
+N generácia : group
+N krstný otec : person
+N krstná matka : person
+N poručník : person
+V vychovať : {matka|otec|rodičia|stará mama|starý otec|vychovávateľ|učiteľ|poručník} > patient child -infant
+N výchova : activity
+N vychovávateľ : professional
+N blízky : relative
+N osoba : person
+AN osobný : idea, event, information, thing ; attr
+N človek : person
+AN ľudský : person, activity, state
+N ľudstvo : group
+N muž : person
+AN mužský : animal, plant
+N žena : person
+AN ženský : animal, plant
+N bábätko : infant
+N opatrovateľ detí : professional
+N chlapec : child
+N dievča : child
+N mládež : period, group
+AN mladistvý : person, state
+N mladistvý : person
+N tínedžer : child
+AN dospelý : animal
+N dospelý : person
+N pán : person
+N dáma : person
+N dojča : infant
+N novorodenec : infant
+N najstarší : person
+N starý mládenec : person
+N senior : role
+V oženiť sa : {muž|žena|priateľ|priateľka|syn|dcéra|brat|sestra|princ|princezná|kráľ|kráľovná} > patient {muž|žena|priateľ|priateľka|snúbenec|nevesta|ženích|princ|princezná|kráľ|kráľovná|partner|partnerka}
+V oženiť sa : {muž|žena|priateľ|priateľka|syn|dcéra|brat|sestra|princ|princezná|kráľ|kráľovná}
+N sobáš : celebration
+AN ženatý : person
+N manželstvo : relation
+N manžel : person
+N manželka : relative
+N manželský partner : person
+N manželský pár : group
+N rozvod : event
+AN rozvedený : person
+V zasnúbiť sa : person > companion person
+N zásnuby : event
+N snúbenec : person
+V dohodnúť si stretnutie : person > companion {priateľ|priateľka|kolega|kolegyňa|sused|susedka|známy|kamarát|partner|partnerka}
+N dohodnuté stretnutie : event, attendable
+N milenec : person
+N priateľ : person
+N priateľka : person
+N priateľstvo : relation
+AN priateľský : national, pet, livestock, {dieťa|chlapec|dievča|babka|dedko|muž|žena|človek|sused|susedka|učiteľ|učiteľka|lekár|návštevník|hosť|zákazník|pacient|pacientka|úradník|starosta|čašník|čašníčka|predavač|predavačka}, {list (písomnosť)|pozvanie|správa (oznam)}, sound, celebration
+AN nemilý : person, pet, livestock, {list (písomnosť)|pozvanie|správa (oznam)}, sound, celebration, professional
+AN spriatelený : person
+N kamarát : person
+N partner : person
+N partnerka : person
+N partnerstvo : relation
+N známy : person
+N známosť : relation
+N hosť : role
+N hostiteľ : role
+AN pohostinný : agent, place
+N pohostinnosť : state
+N sused : person
+N susedka : person
+N susedstvo : region, group
+AN cudzí : settlement, region, {izba|dom|jazyk (reč)|muž|žena|človek|osoba|dieťa|chlapec|dievča|okolie|hlas}
+N medové týždne : period
+N romanca : relation
+AN romantický : place, event, feeling, creative-work
+V flirtovať : person > companion person
+N rival : role
+N rivalita : relation
+N rovesník : person
+AN dobrovoľný : activity, person
+N dobrovoľník : person
+V stretnúť : person -{hostiteľ} > patient person -infant -{zúčastnený}
+V stretnúť : person -{rozprávač} > patient {rozhodnutie}
+N stretnutie : event, attendable
+N miesto stretnutia : place
+V dorazit : person
+V dorazit : {autobus|vlak|lietadlo|loď|taxík|električka}
+V navštíviť : person -{hostiteľ} > patient person -{návštevník}
+V navštíviť : person > patient {múzeum|škola|kostol|zámok|divadlo|kino|knižnica|obchod|reštaurácia|kaviareň|nemocnica|klinika|hotel|pekáreň|mešita|chrám|hrad}
+V navštíviť : person > patient settlement
+V navštíviť : person > patient country
+N návšteva : event
+N návštevník : role
+N návštevníčka : role
+V pozvať : agent -{generácia|dorast} > patient person -infant -{návštevník|miláčik|zúčastnený|človek|osoba}, inf
+V pozvať : agent -{generácia|dorast} > patient person -infant -child -{návštevník|miláčik|zúčastnený|človek|osoba}, inf
+V pozvať : agent -{generácia|dorast} > patient person -infant -child -{návštevník|miláčik|zúčastnený|človek|osoba}
+N pozvanie : text
+V pozdraviť : person > patient person
+N pozdrav : information
+V privítať : person -{profesionál} > patient person
+N privítanie : event
+V predstaviť : person -{celebrita|majster sveta} > recipient person -infant -professional, patient person -infant -{človek|osoba}
+N rozlúčka : event
+V rozlúčiť sa : person > source person -{milionár}
+V sprevádzať : person -professional > patient person -professional -{človek|osoba}
+N spoločník : role
+N sprievod : activity
+N večierok : celebration, attendable
+V blahoželať : person > recipient person, inf
+V blahoželať : person > recipient person
+V pomôcť : agent -institution -{ľudstvo|národ|generácia|dorast|domácnosť|obecenstvo} > recipient person -{človek|osoba|zamestnanec}, share {práca|úloha|úroda}
+V pomôcť : agent -institution -{ľudstvo|národ|generácia|dorast|domácnosť|obecenstvo} > recipient person -{človek|osoba|zamestnanec}
+V pomôcť : person -{celebrita|majster sveta} > recipient person -{človek|osoba}, inf
+N pomoc : activity
+N pomocník : role
+AN ochotný pomôcť : person
+N podpora : activity
+V starať sa : person > topic beast -insect
+V starať sa : person > topic child
+V starať sa : person > topic relative
+V starať sa : person > topic {hosť|zákazník|pacient|chorý|sused}
+V starať sa : person > topic {problém|domácnosť|záhrada|nákup}
+V chrániť : {matka|otec|rodičia|stará mama|starý otec|priateľ|priateľka} > patient {dieťa|bábätko|dcéra|syn|vnuk}, cause {víchor|dážď|horúčava|chlad}
+V chrániť : {matka|otec|rodičia|brat|sestra|vojak|policajt|stráž|hrdina|priateľ|priateľka} > patient {dieťa|dcéra|syn|žena|muž|rodičia|priateľ|priateľka|svedok|občan}
+V chrániť : person > patient {pes|šteňa|mačka|mačiatko}
+V chrániť : {vojak|policajt|armáda|polícia|hasiči|armáda} > patient settlement
+V chrániť : {vojak|armáda|armáda|polícia} > patient {krajina (štát)|vlasť}
+V chrániť : {vláda|človek|občan|spolok|spoločnosť} > patient {les|lúka|krajina (prírodná)|pole|príroda|pobrežie|rašelinisko}
+V chrániť : {policajt|vojak|stráž|hasiči|vláda} > patient {dom|budova|kostol|mešita|klinika|zámok|škola}
+N ochrana : state
+V ochrániť : {matka|otec|rodičia|stará mama|starý otec|priateľ|priateľka} > patient {dieťa|bábätko|dcéra|syn|vnuk}, cause {víchor|dážď|horúčava|chlad}
+V ochrániť : {matka|otec|rodičia|brat|sestra|vojak|policajt|stráž|hrdina|priateľ|priateľka} > patient {dieťa|dcéra|syn|žena|muž|rodičia|priateľ|priateľka|svedok|občan}
+V ochrániť : person > patient {pes|šteňa|mačka|mačiatko}
+V ochrániť : {vojak|policajt|armáda|polícia|hasiči|armáda} > patient {mesto|dedina}
+V ochrániť : {vojak|armáda|armáda|polícia} > patient {krajina (štát)|vlasť}
+N darček : thing, openable
+V darovať (darček) : person > recipient person, patient {kniha|kvetina|prsteň|reťaz|hodiny|fotka|bábika|lopta|šál|sveter|peniaze|poukaz|čokoláda|koláč|taška|mobil}
+V ďakovať : person -professional -{fajčiar} > recipient person -infant -{človek|osoba}, topic {pomoc|darček|pozvanie|podpora}
+V ďakovať : person -professional -{fajčiar} > recipient person -infant -{človek|osoba}
+N vďaka : feeling
+V poďakovať sa : person -{odborník} > recipient person -infant, topic {pomoc|darček|pozvanie|podpora}
+V poďakovať sa : person -{odborník} > recipient person -infant
+V ospravedlniť sa : person > recipient person -infant -{aktivista|rytier}, topic {chyba|meškanie|hluk|správanie}
+V ospravedlniť sa : person > recipient person -infant -{aktivista|rytier}
+V ospravedlniť sa : person > recipient {zákazník|hosť|obyvateľ}
+N ospravedlnenie : information
+V odpustiť : person > recipient person -infant -professional, patient {vina|hriech|klamstvo}
+V odpustiť : agent > recipient person, patient {cena|zákazka|miesto (bod)|nota|rola|termín|štipendium}
+V objať : person > patient person -{človek|osoba}
+N objatie : activity
+V bozkávať : {matka|otec|rodičia|stará mama|starý otec|babka|dedko|strýko|teta|brat|sestra|dieťa|syn|dcéra} > patient {dieťa|dcéra|syn|matka|otec|stará mama|starý otec|rodičia|brat|sestra|bábätko}
+V bozkávať : {muž|žena|pán|dáma|priateľ|priateľka|partner|partnerka|manžel|manželka} > patient {muž|žena|priateľ|priateľka|partner|partnerka|manžel|manželka}
+N bozk : activity
+V rešpektovať : person > patient person
+V rešpektovať : person > patient {pravidlo|zákon|predpis|rozhodnutie|názor|želanie}
+N rešpekt : feeling
+V dôverovať : person -{pán|dáma} > recipient person
+V dôverovať : person > theme ability
+V dôverovať : person > theme {slovo|sľub|pomoc|budúcnosť}
+V dôverovať : person -{hostiteľ} > theme {boh|osud|milosť|božstvo}
+N dôvera : feeling
+N nedôvera : feeling
+V zradiť : person -professional > patient person -{pán|dáma}
+V zradiť : person -professional > recipient {priateľ|priateľka|kolega|kolegyňa|sused|susedka|kamarát|brat|sestra|matka|otec|syn|dcéra|chlapec|dievča|partner|partnerka}, patient {tajomstvo|plán|meno|heslo}
+N zradca : person
+AN verný : animal
+N vernosť : quality
+AN neverný : animal
+AN zdvorilý : person, information, activity, professional
+N zdvorilosť : quality
+AN nezdvorilý : person, information, activity, professional
+AV spolu : other
+V spolupracovať : agent > companion agent -{personál}
+N spolupráca : activity
+AN sám : animal
+N hádka : event
+N pomsta : activity, feeling
+V pomstiť : person > patient person
+V páčiť sa : clothing > recipient person -infant -{dospelý}
+V páčiť sa : jewelry > recipient person -infant -{dospelý}
+V páčiť sa : picture > recipient person -infant -{dospelý}
+V páčiť sa : toy > recipient child
+V páčiť sa : furniture > recipient person -infant -{dospelý}
+V páčiť sa : settlement > recipient person -infant -{dospelý}
+V páčiť sa : landscape > recipient person -infant -{dospelý}
+V páčiť sa : room > recipient person -infant -{dospelý}
+V páčiť sa : building > recipient person -infant -{dospelý}
+V páčiť sa : country > recipient person -{občan}
+V páčiť sa : person -{človek|osoba|majster sveta|celebrita} > recipient person -infant -{dospelý}
+V páčiť sa : {film|pieseň|kniha|obraz} > recipient person -infant -{dospelý}
+N láskavosť : relation
+AN dobročinný : agent, event, activity
+N dobročinnosť : activity
+N milosť : state
+AN milostivý : agent, state
+N opätovné stretnutie : event
+V znova vidieť : person > patient person -infant -professional -{návštevník}
+N etiketa : rule
+N solidarita : feeling
+AN solidárny : agent, activity
+N šibalstvo : activity
+V doberať si : person > patient person
+V šikanovať : person > patient person
+N šikana : activity
+V povzbudiť : person > patient person -infant -professional, inf
+V povzbudiť : person > patient person -infant -professional
+V poslúchať : animal > recipient person
+N poslušnosť : quality
+V zmieriť sa : {priateľ|priateľka|brat|sestra|muž|žena|chlapec|dievča|sused|susedka|partner|partnerka|manžel|manželka|otec|matka|syn|dcéra} > companion {priateľ|priateľka|brat|sestra|muž|žena|chlapec|dievča|sused|susedka|partner|partnerka|manžel|manželka|otec|matka|syn|dcéra|blízky}
+N zmierenie : event
+V oklamať : person -{celebrita|majster sveta} > patient person
+N klam : activity, problem
+N takt : quality
+AN taktný : person, information, activity
+AN netaktný : person, information, activity
+AN obľúbený : person, food, place, activity, professional
+N obľúbenosť : quality
+AN neobľúbený : person, food, place, activity
+N kompromis : idea
+N dôstojnosť : quality
+N pokora : feeling
+V ponížiť : person > patient person
+N poníženie : event
+N napodobenina : activity
+V inšpirovať : person > patient person, inf
+V inšpirovať : {film|kniha|báseň} > patient person, inf
+V inšpirovať : {krajina (prírodná)|príroda|more|vrch} > patient person, inf
+V inšpirovať : person > patient person
+V inšpirovať : {film|kniha|báseň|pieseň} > patient person
+V inšpirovať : {krajina (prírodná)|príroda|more|vrch} > patient person
+N inšpirácia : idea
+V tolerovať : person > patient person -child -{striga}
+V tolerovať : person > patient {správanie|hluk|chyba}
+N tolerancia : quality
+AN tolerantný : agent
+V miešať sa : person > share {hádka|rozhovor|hra}
+V miešať sa : person > share {politika|konflikt}
+V provokovať : person > patient person
+V provokovať : person > patient {hádka|kríza|škandál|konflikt}
+V stretnúť sa : {ľudia|rodičia|súrodenci}
+N provokácia : activity
+AN vzájomný : relation, activity, feeling
+V dohodnúť sa : agent > theme {cena|plán|kompromis|riešenie|návrh}, companion agent
+V dohodnúť sa : agent > theme {cena|plán|kompromis|riešenie|návrh}
+V snažiť sa : person > theme {mier|pokoj|porozumenie}
+V snažiť sa : person > theme {zákazník|pacient|hosť|dieťa|spolupracovník|žiak|žena|muž|dievča|chlapec|priateľ}
+V snažiť sa : person > inf
+N úsilie : activity
+N posol : professional
+N mládenec : person
+N vnučka : relative
+N vnúča : relative
+N flirt : activity
+N hostiteľka : role
+N idiot : person
+N chlap : person
+N životný partner : person
+N životná partnerka : person
+N miláčik : role
+N spolubývajúci : person
+N potupa : state
+N švagor : relative
+N seniorka : role
+N single : person
+N hostinský : professional
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN dôstojný človeka : state, event
+AN hodný ochrany : person, beast, plant, place
+AN homofóbny : person, idea, -national
+AN nedôstojný : person, event, state
+AN nehumánny : person, idea, event
+AN nekompromisný : person, institution, idea
+AN nemilosrdný : person, event, phenomenon
+AN nesprevádzaný : child, person ; pred
+AN neľudský : person, event, state
+AN partnerský : relation, state, institution
+AN priateľský k rodinám : place, building, institution, event ; pred
+AN spôsobený človekom : incident, process, phenomenon ; pred
+AN transrodový : person ; attr
+V hosťovať : person > location {divadlo|klub|film|štúdio}
+V izolovať sa : person
+V obdarovať : person > recipient person, patient thing
+V predstierať : person > that
+V predstierať : person > patient {choroba|záujem|bolesť}
+V solidarizovať sa : person > companion person
+V spoliehať sa : person > basis {priateľ|pomoc|rodina|učiteľ}
+V túliť sa : person > companion person
+V vďačiť : person > recipient person, patient {úspech|život|zdravie}

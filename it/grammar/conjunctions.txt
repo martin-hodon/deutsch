@@ -1,0 +1,87 @@
+# coordinating
+1 CON e {e} [e] = a
+1 PHR e così via {e così via} [e koˈzi ˈviːa] = a tak ďalej
+2 PHR eccetera {eccetera} [etˈtʃɛːtera] = a tak ďalej
+1 CON o {o} [o] = alebo
+1 CON oppure {oppure} [oˈpːuːre] = alebo
+1 CON o {o} [o] = buď
+1 CON ma {ma} [ma] = ale
+1 CON però {però} [peˈrɔ] = ale
+1 CON perché {perché} [perˈke] = lebo
+2 CON poiché {poiché} [pojˈke] = lebo
+1 CON ma {ma} [ma] = nýbrž
+3 CON bensì {bensì} [benˈsi] = nýbrž
+3 CON nonché {nonché} [nonˈke] = ako aj
+1 CON sia… sia {sia… sia} [ˈsiːa ˈsiːa] = ako… tak aj
+2 CON tanto… quanto {tanto… quanto} [ˈtanto ˈkwanto] = ako… tak aj
+1 CON né {né} [ne] = ani
+2 CON ovvero {ovvero} [oˈvːeːro] = respektíve
+2 CON ossia {ossia} [oˈsːiːa] = respektíve
+3 CON ed {ed} [ed] = a
+
+# subordinating
+1 CON che {che} [ke] = že
+2 CON cosicché {cosicché} [koziˈkːe] = takže
+2 CON sicché {sicché} [siˈkːe] = takže
+2 CON affinché {affinché} [afːinˈke] = aby
+1 CON perché {perché} [perˈke] = aby
+1 CON perché {perché} [perˈke] = pretože
+2 CON poiché {poiché} [pojˈke] = pretože
+2 CON siccome {siccome} [siˈkːoːme] = keďže
+1 CON dato che {dato che} [ˈdaːto ke] = keďže
+3 CON tanto più che {tanto più che} [ˈtanto ˈpju ke] = najmä keďže
+2 CON soprattutto perché {soprattutto perché} [sopraˈtːutːo perˈke] = najmä keďže
+1 CON se {se} [se] = ak
+2 CON per quanto {per quanto} [per ˈkwanto] = pokiaľ
+1 CON finché {finché} [finˈke] = dokiaľ
+3 CON fintanto che {fintanto che} [finˈtanto ke] = dokiaľ
+1 CON appena {appena} [aˈpːeːna] = len čo
+2 CON non appena {non appena} [non aˈpːeːna] = len čo
+1 CON ogni volta che {ogni volta che} [ˈoɲːi ˈvɔlta ke] = vždy keď
+2 CON tutte le volte che {tutte le volte che} [ˈtutːe le ˈvɔlte ke] = vždy keď
+1 CON se {se} [se] = či
+1 CON anche se {anche se} [ˈaŋke se] = hoci
+2 CON sebbene {sebbene} [seˈbːeːne] = hoci
+2 CON benché {benché} [benˈke] = hoci
+1 PHR come se {come se} [ˈkoːme se] = akoby
+1 CON quando {quando} [ˈkwando] = keď
+1 CON come {come} [ˈkoːme] = ako
+1 CON prima che {prima che} [ˈpriːma ke] = predtým než
+1 CON prima che {prima che} [ˈpriːma ke] = skôr než
+1 CON dopo che {dopo che} [ˈdɔːpo ke] = potom čo
+2 CON per il fatto che {per il fatto che} [per il ˈfatːo ke] = tým že
+2 PHR per {per} [per] (+ inf) = aby
+3 PHR al fine di {al fine di} [al ˈfiːne di] (+ inf) = aby
+
+# connecting-adverbs
+1 AV perciò {perciò} [perˈtʃɔ] = preto
+1 AV per questo {per questo} [per ˈkwesto] = preto
+1 AV quindi {quindi} [ˈkwindi] = preto
+1 AV quindi {quindi} [ˈkwindi] = takže
+1 AV dunque {dunque} [ˈduŋkwe] = takže
+1 AV allora {allora} [aˈlːoːra] = takže
+2 AV tuttavia {tuttavia} [tutːaˈviːa] = napriek tomu
+3 AV ciononostante {ciononostante} [tʃononoˈstante] = napriek tomu
+1 AV lo stesso {lo stesso} [lo ˈstesːo] = napriek tomu
+2 AV eppure {eppure} [eˈpːuːre] = predsa
+1 AV comunque {comunque} [koˈmuŋkwe] = predsa
+1 AV però {però} [peˈrɔ] = však
+2 AV tuttavia {tuttavia} [tutːaˈviːa] = však
+1 AV altrimenti {altrimenti} [altriˈmenti] = inak (v opačnom prípade)
+2 AV in caso contrario {in caso contrario} [in ˈkaːzo konˈtraːrjo] = inak (v opačnom prípade)
+1 AV inoltre {inoltre} [iˈnoltre] = okrem toho
+2 AV oltre a ciò {oltre a ciò} [ˈoltre a ˈtʃɔ] = okrem toho
+2 AV per di più {per di più} [per di ˈpju] = navyše
+1 AV dunque {dunque} [ˈduŋkwe] = teda
+2 AV pertanto {pertanto} [perˈtanto] = teda
+1 AV infatti {infatti} [inˈfatːi] = totiž
+1 AV cioè {cioè} [tʃoˈɛ] = totiž
+2 AV di conseguenza {di conseguenza} [di konseˈɡwɛntsa] = podľa toho
+2 AV pertanto {pertanto} [perˈtanto] = podľa toho
+1 AV certo {certo} [ˈtʃɛrto] = síce
+1 AV da un lato {da un lato} [da un ˈlaːto] = na jednej strane
+1 CON più {più} [ˈpju] = plus
+
+# more
+1 CON a meno che {a meno che} [a ˈmeːno ke] = ak nie
+3 CON salvo che {salvo che} [ˈsalvo ke] = ak nie

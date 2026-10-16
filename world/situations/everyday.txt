@@ -1,0 +1,126 @@
+# SITUATIONS (sentences/STORIES.md): one concrete scene of a setting -- where it is, who else is there, the things in
+# it, what someone wants there and what can go wrong with the things that needs. The stories (trainer/story.js) take
+# the words that carry the plot only from here; the settings stay the pool for the rest. A block:
+#
+#   SITUATION name : setting -- what happens
+#     place   Küche | Esszimmer                 where (one of them)
+#     people  kin | Freund                      the second person: kin (ihr Bruder, seine Mutter ...) or nouns
+#     things  Tisch | Teller | Tasse             what is there
+#     want    hungrig : Brot toasten ; uses Toaster    a STATE, the action it makes one want (object + verb), the
+#                                                       things that action needs; the object as it is first said:
+#                                                       bare (Brot toasten), ein (ein Buch lesen -- then: das
+#                                                       Buch), der (den Tisch decken: the one here), sein (sein
+#                                                       Gesicht waschen: her own), a plural (Kekse backen), or a
+#                                                       verb with sich (sich ausruhen)
+#     own     Fahrrad | Regenschirm             what she has WITH HER (said ihr Fahrrad); things of the place stay in `things`
+#     trouble Toaster kaputt : reparieren       a thing, a bad OBJSTATE it can get, the action that mends it
+#     trouble Auto kaputt : reparieren by Mechaniker     (by: who mends it; else the second person)
+#     lack    Mehl : Supermarkt [holen]     what she may not have (a thing the action uses, or its object) and
+#                                           where she gets it (kaufen, if no verb is said)
+
+SITUATION frühstück : kitchen -- morgens frühstücken
+  place   kuchyňa
+  people  kin
+  things  stôl | tanier | šálka | sklenica | hriankovač | kávovar | chlieb | káva | mlieko
+  want    hladný : verb=hriankovať patient=none:chlieb ; uses hriankovač
+  want    smädný : verb=variť patient=none:káva ; uses kávovar | šálka
+  want    smädný : verb=piť patient=none:mlieko ; uses sklenica
+  trouble hriankovač pokazený : opraviť
+  trouble kávovar pokazený : opraviť
+  trouble šálka špinavý : oplachovať
+  trouble sklenica špinavý : oplachovať
+  lack    chlieb : pekáreň
+  lack    mlieko : supermarket
+  lack    káva : supermarket
+
+SITUATION kochen : kitchen -- zu Hause kochen
+  place   kuchyňa
+  people  kin | priateľ
+  things  sporák | pec | hrniec | panvica | tanier | vidlička | chladnička | zelenina
+  want    hladný : verb=variť patient=indef:polievka ; uses hrniec | sporák
+  want    hladný : verb=piecť patient=indef:koláč ; uses pec | múka | cukor
+  want    hladný : verb=smažiť patient=indef:vajce ; uses panvica | sporák
+  trouble hrniec špinavý : oplachovať
+  trouble sporák pokazený : opraviť
+  trouble pec pokazený : opraviť
+  trouble panvica špinavý : oplachovať
+  lack    múka : supermarket
+  lack    cukor : supermarket
+  lack    vajce : supermarket
+
+SITUATION abend : home -- abends im Wohnzimmer
+  place   obývačka
+  people  kin | priateľ
+  things  pohovka | televízor | lampa | stôl
+  own     okuliare
+  want    unavený : verb=oddýchnuť_si ; uses pohovka
+  want    chuť : verb=pozerať_televíziu ; uses televízor
+  want    chuť : verb=čítať patient=indef:kniha ; uses lampa | okuliare
+  trouble pohovka špinavý : čistiť
+  trouble televízor pokazený : opraviť
+  trouble lampa pokazený : opraviť
+  trouble okuliare špinavý : čistiť
+  lack    kniha : knižnica požičať
+
+SITUATION bad : bathroom -- morgens im Bad
+  place   kúpeľňa
+  people  kin
+  things  sprcha | zrkadlo | uterák | mydlo | vodovodný_kohútik
+  want    špinavý : verb=sprchovať_sa ; uses sprcha | uterák
+  trouble sprcha pokazený : opraviť
+  trouble vodovodný_kohútik pokazený : opraviť
+  lack    mydlo : supermarket
+
+SITUATION garten : garden -- im Garten
+  place   záhrada
+  people  kin | sused
+  things  trávnik | kvetina | strom | krhla
+  own     fľaša
+  want    chuť : verb=liať patient=none:kvetina+pl ; uses krhla
+  want    smädný : verb=piť patient=none:voda ; uses fľaša
+  trouble krhla prázdny : naplniť
+  trouble fľaša prázdny : naplniť
+
+SITUATION essen gehen : restaurant -- im Restaurant essen
+  place   reštaurácia
+  people  čašník
+  things  stôl | tanier | sklenica | vidlička | jedálny_lístok
+  want    hladný : verb=jesť patient=indef:polievka ; uses stôl | tanier
+  want    smädný : verb=piť patient=none:voda ; uses sklenica
+  trouble stôl špinavý : čistiť by čašník
+  trouble sklenica prázdny : naplniť by čašník
+
+SITUATION panne : traffic -- unterwegs mit dem Fahrrad oder dem Auto
+  place   ulica
+  people  priateľ | mechanik
+  things  semafor | chodník
+  own     bicykel | auto
+  want    ponáhľanie : verb=ísť_(dopravou) patient=none:bicykel ; uses bicykel
+  want    ponáhľanie : verb=ísť_(dopravou) patient=none:auto ; uses auto
+  trouble bicykel pokazený : opraviť by mechanik
+  trouble auto pokazený : opraviť by mechanik
+
+SITUATION büro : office -- im Büro
+  place   kancelária
+  people  kolega
+  things  písací_stôl | počítač | tlačiareň | telefón | kávovar | šálka
+  want    smädný : verb=variť patient=none:káva ; uses kávovar | šálka
+  trouble kávovar pokazený : opraviť
+  trouble šálka špinavý : oplachovať
+
+SITUATION unterricht : school -- in der Schule lernen
+  place   učebňa
+  people  učiteľ | priateľ
+  things  tabuľa | stôl | text
+  own     kniha | okuliare
+  want    zvedavý : verb=čítať patient=def:text ; uses tabuľa
+  want    chuť : verb=čítať patient=poss:kniha ; uses kniha | okuliare
+  trouble tabuľa špinavý : čistiť by učiteľ
+  trouble okuliare špinavý : čistiť by priateľ
+
+SITUATION reise : travel -- mit dem Zug verreisen
+  place   stanica
+  people  priateľ | kin | mechanik
+  things  vlak | hodiny
+  own     kufor | cestovný_lístok
+  want    dovolenka : verb=odcestovať ; uses vlak | kufor | cestovný_lístok

@@ -1,0 +1,314 @@
+# place-position
+N miesto (v priestore)
+N lokalita
+PHR na mieste
+N pozícia
+N poloha
+V skladovať
+PHR byť schopný
+V presunúť
+N miesto (bod)
+N postavenie
+V postaviť
+V zistiť
+V znázorniť
+AV miestami
+V pripisovať
+N strana
+N horná strana
+N spodná strana
+N predná strana
+N zadná strana
+AV bokom
+AN bočný
+AV nabok
+AN jednostranný : adverb jednostranne
+AN všestranný : adverb všestranne
+N stred
+AV uprostred
+N centrum
+AN centrálny : adverb centrálne
+N ústredie
+AN decentralizovaný
+AV vnútri
+N vnútro
+AN vnútorný
+AV vonku
+AV zvonka
+N vonkajšok
+AN vonkajší
+AV tu
+AV tam (miesto)
+AN tamojší
+AV všade
+AV niekde
+AV nikde
+PRE medzi
+PRE pod
+AV na ceste
+N podložie
+AN podzemný
+PRE nad
+AV nad tým
+AV na druhú stranu
+PRE za
+AV vzadu
+N pozadie
+V zanechať
+PRE vedľa
+AV vedľa
+AV odvedľa
+AV popri tom
+PHR hneď vedľa
+PRE oproti
+N protistrana
+V stáť oproti
+AV dokola
+AV dookola
+N sféra
+N zóna
+N miesto (priestor)
+V umiestniť
+N hranica
+AN susediaci
+N pohraničie
+V ohraničiť
+AN bezhraničný
+V vymedziť
+V hraničiť
+AN cezhraničný
+AN rozsiahly : adverb rozsiahle
+V zahŕňať
+AN komplexný : adverb komplexne
+V obklopovať
+N základňa
+V zakladať sa
+N výklenok
+N sektor
+N usporiadanie
+N pole
+N rozpätie
+N dosah
+N prázdnota
+N vákuum
+N priehradka
+AN odborný : adverb odborne
+N štrbina
+N dutina
+N miestnosť
+AN priestorový
+AN veľkopriestorový
+N oblasť
+N veľká časť
+N ohnisko
+N číslo (poradové)
+N popredie
+
+# direction-distance
+N smer
+V nasmerovať
+PHR smerom k
+V zarovnať
+AN vzdialený : adverb vzdialene
+N diaľka
+AN blízky : adverb blízko
+N blízkosť
+PHR v blízkosti
+AN najbližší
+V približovať sa
+N priblíženie
+AN ďaleký : adverb ďaleko
+N šírava
+AN prevažný : adverb prevažne
+AV vľavo
+AV vpravo
+AV hore
+AV dole
+AV nahor (smerom)
+AV nadol
+AV vzad
+N sever
+AN severný
+N juh
+AN južný
+N východ (svetová strana)
+AN východný
+N západ
+AN západný
+AV preč
+PRE pozdĺž
+PRE cez
+AV skrz
+AV úplne
+PHR okolo
+PRE na druhej strane
+N onen svet
+PHR vopred
+AN oddelený : adverb oddelene
+AV inde
+PHR vonku
+AN odľahlý
+AN kolmý : adverb kolmo
+AN rovnobežný : adverb rovnobežne
+N rovnobežka
+PHR v smere hodinových ručičiek
+PHR proti smeru hodinových ručičiek
+N vzdialenosť
+N beh
+N stopa
+AN jednopruhový
+N severovýchod
+AN severovýchodný
+N juhozápad
+
+# motion
+V hýbať
+N pohyb
+AN pohyblivý
+V prinútiť
+V ísť (pešo)
+V ísť (dopravou)
+V odísť
+V prejsť okolo
+V ísť von
+V zaoberať sa
+V ísť späť
+V zakročiť
+V zapadnúť
+V chopiť sa
+V zaobchádzať
+V obísť
+V spáchať
+V uniknúť
+V plynúť
+V ísť vpredu
+V venovať sa
+V prejsť (na iné)
+V otvoriť sa
+V ísť tam
+V súvisieť
+V prísť
+V dôjsť
+N príchod
+V vyskytovať sa
+N pôvod
+V uhradiť
+V pribudnúť
+V zaobísť sa
+V vyhovieť
+V prísť vhod
+V vyjsť von
+V prísť sem
+V poradiť si
+V prebiť sa
+V prísť na návštevu
+V pokročiť
+V skapať
+V dostať sa tam
+V rovnať sa
+V vrátiť sa
+N návrat
+V vstúpiť
+N vstup
+V vstúpiť na
+V prejsť cez
+V odbočiť
+V padnúť
+PHR pustiť
+V upútať
+V napadnúť
+V zrušiť sa
+V vypadnúť
+V stúpať
+V zostúpiť
+V vystúpiť
+N nárast
+N vzostup
+N zostup
+V klesať
+V potopiť
+V potopiť sa
+V hnať
+V prevádzkovať
+V posúvať dopredu
+V vyhnať
+V preháňať
+V poháňať
+V znepokojovať
+V nasledovať
+N následok
+AN nasledujúci
+V dodržať
+V prenasledovať
+N nástupca
+N nástupkyňa
+V sledovať
+V ďalej sledovať
+V vystopovať
+V viesť
+N vedenie
+V vykonať
+V zaviesť
+V viesť späť
+V previezť
+V pokračovať v
+V zviesť
+V uviesť v premiére
+V zlúčiť
+AN pretrvávajúci
+N zastavenie
+V zdržať
+V dosiahnuť
+AN dosiahnuteľný
+AN nedosiahnuteľný
+V kvapiť
+N ponáhľanie
+AN súrny : adverb súrne
+V ponáhľať sa
+V postúpiť (vpred)
+V rozložiť
+V šíriť
+N šírenie
+V posunúť
+N posun
+V točiť sa
+N otočenie
+V otočiť
+V utiecť
+V potulovať sa
+V unášať sa
+V spadnúť
+N pád
+V zrútiť sa z výšky
+V zrútiť sa
+V zvaliť sa
+AN roztržitý : adverb roztržito
+V vznášať sa
+V naraziť
+V vyplývať
+V kolidovať
+V preniknúť
+V vyraziť
+V týčiť sa
+V vniknúť
+V vtiahnuť
+V kývať sa
+V štvať
+V šmýkať sa
+V krútiť sa
+V križovať
+V pritiahnuť
+V postúpiť (vyššie)
+
+# travel
+V pricestovať
+
+# position
+AN priechodný
+V presťahovať sa
+V blúdiť
+V vyviesť
+V stihnúť
+
+# more
+PHR kdekoľvek

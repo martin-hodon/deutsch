@@ -3,12 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Deutsch Trainer</title>
-<link rel="stylesheet" href="trainer/style.css">
+<title>Trainer</title>
+<link rel="stylesheet" href="engine/style.css">
 </head>
 <body data-mode="article">
 <main>
-  <h1>Deutsch <span class="der">der</span> <span class="die">die</span> <span class="das">das</span> <span id="learner"></span></h1>
+  <header class="top">
+    <h1 id="title" data-t-title="dictionary">Deutsch <span class="der">der</span> <span class="die">die</span> <span class="das">das</span></h1>
+  </header>
 
   <section id="welcome" class="welcome">
     <h2 id="welcome-title"></h2>
@@ -16,58 +18,99 @@
     <div id="welcome-stats" class="welcome-stats" hidden></div>
     <form id="name-form" hidden>
       <input id="name" autocomplete="given-name" maxlength="40">
-      <button class="big">Los geht's ▶</button>
+      <button class="big" data-t="lets-go">Let's go ▶</button>
     </form>
-    <button id="start" class="big" hidden>Lernen ▶</button>
-    <p class="version"><span id="version"></span> <button id="checkUpdate" hidden>check for update</button> <button id="doUpdate" hidden></button></p>
+    <button id="start" class="big" hidden data-t="learn">Learn ▶</button>
+    <p class="version"><span id="version"></span> <button id="checkUpdate" hidden data-t="check-update">check for update</button> <button id="doUpdate" hidden></button></p>
   </section>
 
   <div id="trainer" hidden>
-  <nav id="modes"></nav>
-
   <div class="controls">
-    <select id="level">
+    <label for="learn" class="mute" data-t="learning">learning:</label>
+    <select id="learn" data-t-title="learning-title"></select>
+    <select id="kind" data-t-title="kind-title"><option value="words" data-t="words">Words</option><option value="forms" data-t="morphology">Morphology</option><option value="order" data-t="syntax">Syntax</option></select>
+    <select id="level" data-t-title="freq-title">
       <option value="1">FREQ 1</option>
-      <option value="2">FREQ 1–2</option>
-      <option value="3">all words</option>
+      <option value="2">FREQ 2</option>
+      <option value="3">FREQ 3</option>
     </select>
-    <select id="category"><option value="">all categories</option></select>
-    <select id="speech" title="how loud the German word is spoken (speak.js)"><option value="0">🔇 off</option><option value="1">🔈 quiet</option><option value="2">🔉 medium</option><option value="3">🔊 loud</option></select>
-    <select id="voice" title="who speaks"><option value="man">man</option><option value="woman">woman</option><option value="child">child</option></select>
+    <select id="category" class="filter" data-filter="category"><option value="" data-t="all-categories">all categories</option></select>
+    <select id="structure" class="filter" data-filter="structure" data-t-title="structure-title"><option value="all" data-t="all-structures">all structures</option></select>
+    <select id="rule" class="filter" data-filter="rule" data-t-title="rule-title"><option value="all" data-t="all-forms">all forms</option></select>
+    <select id="verbs" class="filter" data-filter="rule" data-t-title="verbs-title"><option value="all" data-t="all-verbs">all verbs</option><option value="irregular" data-t="irregular-verbs">irregular verbs</option></select>
     <span id="status"></span>
   </div>
+  <nav id="modes"></nav>
 
   <section class="summary">
     <div class="today">
-      <span class="label">today</span>
+      <span class="label" data-t="today">today</span>
       <span class="counter"><span id="today-right" class="count right">0</span></span>
       <span class="counter"><span id="today-wrong" class="count wrong">0</span></span>
       <span id="today-rate" class="rate"></span>
     </div>
-    <div class="overall"><span class="label">overall</span> <span id="overall-rate" class="rate"></span></div>
+    <div class="overall"><span class="label" data-t="overall">overall</span> <span id="overall-rate" class="rate"></span></div>
   </section>
 
   <section id="card" class="card">
     <div class="badge"></div>
     <div id="meta"></div>
-    <div id="prompt">…</div>
+    <div class="prompt-row"><div id="prompt">…</div><button id="again" class="again" hidden data-t-title="say-again" aria-label="say it again">🔊</button></div>
     <div id="hint"></div>
     <div id="options"></div>
+    <div id="order" hidden>
+      <div id="built" class="built" aria-label="your sentence"></div>
+      <div id="bank" class="bank" aria-label="the words"></div>
+      <div class="order-actions"><button id="check" class="go" disabled data-t="check">Check ⏎</button></div>
+    </div>
     <div id="feedback"></div>
+    <div id="examples"></div>
   </section>
 
-  <details class="stats">
-    <summary>Statistics by category</summary>
+  <section id="panel-settings" class="panel" hidden>
+    <header><h3 data-t="settings">⚙ Settings</h3><button class="close" aria-label="close">✕</button></header>
+    <div class="row">
+      <label for="native" data-t="native">my language</label>
+      <select id="native"></select>
+      <span class="mute" data-t="native-help"></span>
+    </div>
+    <h4 data-t="speech">Speech</h4>
+    <p class="mute" data-t="speech-help">How loud the word is spoken, and who speaks.</p>
+    <div class="row">
+      <select id="speech"><option value="0" data-t="speech-off">🔇 off</option><option value="1" data-t="speech-quiet">🔈 quiet</option><option value="2" data-t="speech-medium">🔉 medium</option><option value="3" data-t="speech-loud">🔊 loud</option></select>
+      <select id="voice"><option value="man" data-t="man">man</option><option value="woman" data-t="woman">woman</option><option value="child" data-t="child">child</option></select>
+      <select id="tempo" data-t-title="tempo-title"><option value="0.85" data-t="tempo-slow">slower</option><option value="1" data-t="tempo-normal">normal tempo</option><option value="1.2" data-t="tempo-faster">faster</option><option value="1.4" data-t="tempo-fast">fast</option></select>
+    </div>
+  </section>
+
+  <section id="panel-stats" class="panel stats" hidden>
+    <header><h3><span data-t="statistics">📊 Statistics</span> <span id="stats-mode" class="mute"></span></h3><button class="close" aria-label="close">✕</button></header>
     <table>
       <thead>
-        <tr><th></th><th colspan="3">today</th><th colspan="3">overall</th></tr>
-        <tr><th>category</th><th>answers</th><th>right</th><th>avg time</th><th>answers</th><th>right</th><th>avg time</th></tr>
+        <tr><th></th><th colspan="3" data-t="today">today</th><th colspan="3" data-t="overall">overall</th></tr>
+        <tr><th data-t="category">category</th><th data-t="answers">answers</th><th data-t="right-col">right</th><th data-t="avg-time">avg time</th><th data-t="answers">answers</th><th data-t="right-col">right</th><th data-t="avg-time">avg time</th></tr>
       </thead>
       <tbody id="stats-body"></tbody>
     </table>
-  </details>
+  </section>
+
+  <section id="panel-data" class="panel data" hidden>
+    <header><h3 data-t="data">🗂 Recorded data</h3><button class="close" aria-label="close">✕</button></header>
+    <p id="data-summary" class="mute"></p>
+    <div class="row">
+      <select id="data-mode"><option value="" data-t="every-exercise">every exercise</option></select>
+      <button id="data-download" data-t="download">⬇ download (JSON)</button>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th data-t="when">when</th><th data-t="exercise">exercise</th><th data-t="asked">asked</th><th data-t="right-answer">right answer</th><th data-t="chosen">chosen</th><th></th><th>s</th></tr></thead>
+        <tbody id="data-body"></tbody>
+      </table>
+    </div>
+    <button id="data-more" hidden data-t="show-more">show more</button>
+  </section>
   </div>
 </main>
-<script type="module" src="trainer/app.js"></script>
+<script type="module" src="engine/app.js"></script>
 </body>
 </html>

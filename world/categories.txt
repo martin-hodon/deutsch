@@ -1,0 +1,173 @@
+# THE CATEGORIES (sentences/README.md): what a word's meaning IS, as a graph. A line is
+#     name : parent, parent -- what it is (examples)
+# a category may have several parents (a meal is food and an event); every category leads up to `entity`. A word belongs
+# to categories (sentences/meaning/), and a verb or an adjective asks for categories (eat: an `animal` eats `food`) --
+# a word fits when one of its categories is, or lies under, the one asked for.
+
+# DIRECTIVES (tools/meaning.py and trainer/meaning.js read them):
+#   BUCKET: categories too mixed to be a verb's subject or slot alone -- such a frame names a subcategory, adds an
+#           affordance (+x) or lists its nouns ({Geburtstag|Hochzeit}); the checker says where
+#   CLOSED: categories an adjective reaches only by naming them (or one under them): "alt : person, object" is said of
+#           people, "schwer : object, animal" is not ("schwerer Nachbar")
+BUCKET: event activity state idea problem information phenomenon moment writing creative-work object
+CLOSED: person professional role text document money illness feeling
+
+entity -- anything at all
+concrete : entity -- what is there physically, can be seen or touched
+abstract : entity -- what is not physical: times, events, states, ideas, qualities
+# (inanimate: what a colour, a size, a texture is said of -- not a person: no "dunkelgrüner Angehöriger")
+inanimate : concrete -- what is physical and not alive: things, stuff, places, the sky, the weather
+
+# ---- the living
+living : concrete -- what lives and grows
+agent : entity -- what can act on purpose: people, groups of them, institutions
+animal : living -- any animal (people are animals too: a slot for `animal` takes people)
+person : animal, agent -- a human being (Mann, Frau, Freund)
+beast : animal -- an animal that is no person (Tier, Hund, Vogel, Fisch): `animal` includes people, `beast` does not
+child : person -- a young person (Kind, Baby, Junge)
+infant : child -- a baby (Baby, Säugling, Kleinkind): as a subject only of what grammar.txt infant.verbs lists
+relative : person -- a family member (Mutter, Bruder, Onkel)
+professional : person -- a person by their work or role (Arzt, Lehrer, Polizist, König)
+role : person -- a person by what they do or where they are at a time (Kunde, Besucher, Nutzer, Teilnehmer, Fahrer, Gast): no looks, no fame of their own
+national : person -- a person by nationality or origin (Engländer, Kroatin, Europäer, Berliner)
+group : agent, concrete -- several people as one (Familie, Team, Volk, Publikum, Armee)
+institution : agent, abstract -- an organisation that acts (Firma, Regierung, Universität, Partei, Bank as a firm)
+mammal : beast -- (Hund, Pferd, Kuh, Maus)
+bird : beast -- (Vogel, Huhn, Adler)
+fish-animal : beast -- a fish alive in the water (Fisch, Hai)
+insect : beast -- also spiders, worms (Biene, Fliege, Spinne)
+reptile : beast -- also amphibians (Schlange, Frosch)
+pet : beast -- kept in a home (Hund, Katze)
+livestock : beast -- kept on a farm (Kuh, Schwein, Huhn)
+plant : living -- (Pflanze, Gras)
+fungus : living -- (Pilz, Schimmel)
+being : agent, concrete -- a supernatural being (Gott, Engel, Geist, Teufel, Drache)
+tree : plant -- (Baum, Eiche)
+flower : plant -- (Blume, Rose)
+crop : plant -- grown in a field for food or use (Weizen, Kartoffel as a plant)
+plant-part : concrete -- (Blatt, Wurzel, Ast)
+body-part : concrete -- a part of a body (Kopf, Hand, Herz, Haar)
+
+# ---- food and drink
+consumable : inanimate -- what is eaten or drunk
+food : consumable -- what is eaten
+drink : consumable, liquid -- what is drunk (Wasser, Bier, Saft, Milch)
+fruit : food -- (Apfel, Banane)
+vegetable : food -- (Karotte, Tomate)
+meat : food -- also fish as food (Fleisch, Wurst, Schinken)
+baked-goods : food -- (Brot, Kuchen, Brötchen)
+sweets : food -- (Schokolade, Bonbon)
+dairy : food -- (Käse, Butter, Joghurt)
+grain : food -- (Reis, Mehl, Nudeln)
+seasoning : food -- (Salz, Pfeffer, Zucker)
+dish : food -- something cooked, a course (Suppe, Salat, Braten)
+meal : food, event -- (Frühstück, Mittagessen)
+medicine : consumable -- (Medikament, Tablette)
+
+# ---- matter
+substance : inanimate -- stuff, not a thing (Wasser, Luft, Sand)
+liquid : substance -- (Öl, Blut)
+gas : substance -- (Luft, Dampf)
+material : substance -- what things are made of
+metal : material -- (Eisen, Gold)
+wood : material
+stone : material -- also a stone as a thing (Stein, Felsen)
+fabric : material -- (Stoff, Wolle, Leder)
+paper : material
+fuel : substance -- (Benzin, Kohle)
+
+# ---- things made
+object : inanimate -- a physical object, of any size (Gegenstand; a car, a fridge, a door)
+thing : object -- an object small enough to pick up and carry (Ding, Stein, Ball, Tasse, Messer)
+artifact : object -- made by people
+tool : artifact, thing -- (Hammer, Messer, Schlüssel, Besen)
+device : artifact -- a machine or an apparatus (Maschine, Computer, Telefon, Lampe)
+vehicle : artifact -- (Auto, Bus, Fahrrad, Schiff, Flugzeug)
+road-vehicle : vehicle -- one on the road, an everyday sight (Auto, Bus, Fahrrad, Taxi, Motorrad)
+furniture : artifact -- (Tisch, Stuhl, Bett)
+# (vehicles, furniture, devices, building parts: objects, not things -- a device one carries, Handy, is a `thing` by its
+#  own noun line)
+wearable : thing -- what is worn on the body
+clothing : artifact, wearable -- (Hemd, Hose, Schuh, Hut)
+jewelry : artifact, wearable, thing -- (Ring, Kette)
+container : artifact, thing -- what holds things (Tasse, Flasche, Kiste, Tasche, Topf)
+kitchenware : artifact, thing -- (Teller, Löffel, Pfanne)
+instrument : artifact -- a musical instrument (Gitarre, Klavier)
+weapon : artifact, thing -- (Schwert, Gewehr)
+toy : artifact, thing -- also sport equipment (Ball, Puppe)
+text : artifact, thing -- a written thing to be read (Buch, Brief, Zeitung, Zettel; what it SAYS is information)
+picture : artifact, thing -- (Bild, Foto, Karte)
+money : artifact, thing -- (Geld, Münze, Schein)
+document : artifact, thing -- a paper that proves, permits or binds (Pass, Ausweis, Visum, Ticket, Gutschein, Vertrag, Formular)
+building-part : artifact -- (Dach, Wand, Tür, Fenster, Treppe, Boden as a floor)
+
+# ---- places
+place : inanimate -- where one can be or go
+building : place -- (Haus, Kirche, Schule as a building; not a `thing`: one does not carry or wipe it)
+room : place -- a part of a building (Küche, Zimmer)
+shop : building -- where one buys (Laden, Bäckerei, Supermarkt)
+settlement : place -- (Stadt, Dorf)
+country : place -- also a state, a continent (Deutschland, Europa)
+region : place -- (Gegend, Land as countryside)
+landscape : place -- natural ground (Wald, Wiese, Berg, Strand)
+water-body : place -- (See, Fluss, Meer)
+road : place -- (Straße, Weg, Brücke)
+celestial : inanimate -- (Sonne, Mond, Stern)
+phenomenon : inanimate -- what happens in nature (Regen, Wind, Feuer, Gewitter)
+sound : phenomenon -- (Geräusch, Lärm, Klang, Ton, Knall)
+
+# ---- the abstract
+time : abstract -- (Zeit)
+period : time -- a stretch of time (Jahr, Woche, Sommer, Stunde)
+moment : time -- a point in time (Augenblick, Termin)
+event : abstract -- what happens, an occasion (Treffen, Reise, Konzert)
+incident : event -- what befalls someone (Unfall, Katastrophe, Explosion, Brand)
+process : abstract -- a change that goes on (Entwicklung, Änderung, Wachstum, Verfall, Rückgang)
+activity : event -- what is done (Arbeit, Reise, Kauf)
+game : activity -- a game or a sport (Spiel, Fußball, Schach, Tennis)
+crime : activity -- (Diebstahl, Mord, Betrug)
+celebration : event -- (Fest, Party, Hochzeit, Geburtstag)
+state : abstract -- how someone or something is (Gesundheit, Frieden, Ruhe)
+illness : state -- (Krankheit, Grippe, Schmerz)
+feeling : state -- (Freude, Angst, Liebe, Wut)
+quality : abstract -- a property (Größe, Farbe, Schönheit)
+ability : quality -- what someone can do (Fähigkeit, Talent, Kraft)
+quantity : abstract -- (Menge, Zahl, Teil)
+measure : abstract -- a unit (Meter, Kilo, Liter)
+currency : measure -- a unit of money (Euro, Cent, Dollar): what one pays, earns, owes
+information : abstract -- what is known or told (Nachricht, Wissen, Antwort)
+idea : abstract -- what is thought (Gedanke, Plan, Idee, Meinung)
+language : abstract -- a language (Sprache, Deutsch as a language)
+writing : abstract -- written signs and units of language (Wort, Satz, Schrift, Alphabet, Buchstabe, Überschrift)
+software : abstract -- (Programm, App, Software, Datei, Website)
+creative-work : abstract -- a work of art (Lied, Film, Gedicht, Geschichte)
+rule : abstract -- (Gesetz, Regel)
+problem : abstract -- (Problem, Frage, Schwierigkeit)
+relation : abstract -- (Freundschaft, Ehe, Kontakt)
+direction : abstract -- (Norden, Richtung)
+position : abstract -- a point or part of space as such (Stelle, Seite, Mitte, Nähe, Lage): not a place one is in or goes to
+
+# ---- AFFORDANCES: what one can do with it -- categories a noun has besides what it IS (a door IS a building-part and
+# is openable, lockable); a verb's slot asks for one with `+x` (V zumachen : person > A object +openable). They cut
+# across the tree, so they sit right under `concrete` and are never what an adjective or a frame names alone.
+openable : concrete -- one opens and closes it (Tür, Fenster, Flasche, Kiste, Buch, Augen, Dose)
+lockable : concrete -- one locks it (Tür, Auto, Schrank, Fahrrad, Koffer)
+breakable : concrete -- it breaks, shatters (Glas, Tasse, Teller, Fenster, Spiegel, Bein, Knochen)
+repairable : concrete -- one repairs it (Auto, Fahrrad, Uhr, Dach, Computer, Schuh, Heizung)
+washable : concrete -- one washes it (Hemd, Hände, Haare, Auto, Teller, Gemüse)
+cleanable : concrete -- one cleans, wipes, sweeps it (Boden, Küche, Fenster, Tisch, Zimmer, Bad)
+sittable : concrete -- one sits on it (Stuhl, Sofa, Bank, Bett, Sessel, Hocker, Boden, Rasen)
+drivable : concrete -- one drives, steers, parks it (Auto, Bus, Lkw, Traktor, Zug, Motorrad)
+rideable : concrete -- one rides it (Pferd, Fahrrad, Motorrad, Esel, Kamel)
+playable : concrete -- one plays it (Gitarre, Klavier, Spiel, Fußball, Schach, Karten, Lied)
+cookable : concrete -- one cooks, fries, bakes, boils it (Kartoffel, Fleisch, Nudeln, Reis, Ei, Suppe, Kuchen)
+hangable : concrete -- one hangs it up (Bild, Mantel, Jacke, Lampe, Vorhang, Wäsche, Plakat)
+plantable : concrete -- one plants, waters it (Baum, Blume, Kartoffel, Samen, Rose, Strauch)
+burnable : concrete -- it burns, one lights it (Holz, Kerze, Papier, Kohle, Zigarette, Feuer)
+foldable : concrete -- one folds it (Papier, Brief, Hemd, Handtuch, Karte, Decke, Zeitung)
+cuttable : concrete -- one cuts, slices, peels it (Brot, Kuchen, Apfel, Papier, Haare, Fleisch, Stoff)
+switchable : concrete -- one switches it on and off (Licht, Lampe, Radio, Fernseher, Computer, Herd, Motor)
+enterable : concrete -- one goes into it (Haus, Zimmer, Laden, Auto, Zug, Wald, Höhle, Garten)
+climbable : concrete -- one climbs it (Berg, Baum, Leiter, Treppe, Mauer, Turm)
+fillable : concrete -- one fills and empties it (Glas, Flasche, Tasse, Eimer, Tank, Kiste)
+attendable : abstract -- an occasion one takes part in, goes to, cancels (Treffen, Konzert, Kurs, Sitzung, Party, Spiel, Prüfung)

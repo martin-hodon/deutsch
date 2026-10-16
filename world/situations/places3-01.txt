@@ -1,0 +1,124 @@
+# SITUATIONS of Halle, Hauptbahnhof, Hauptstadt, Hochhaus, Hochschule, Hügel, Kanal, Kapelle, Kasse, Kita, Kleinstadt, Klinik, Kloster (format: everyday.txt)
+# (skipped: Haus -- every scene in a house is told in one of its rooms (Küche, Bad ...), "im Haus" alone has no story; Korridor -- a passage, nobody wants anything there)
+
+SITUATION halle : sport -- in der Halle Volleyball spielen
+  place   hala
+  people  priateľ | kin | remeselník | elektrikár
+  things  lampa | sieť_(rybárska) | pôda
+  want    chuť : verb=hrať patient=none:volejbal ; uses sieť_(rybárska) | lampa
+  trouble sieť_(rybárska) pokazený : opraviť by remeselník
+  trouble lampa pokazený : opraviť by elektrikár
+
+SITUATION hauptbahnhof : traffic -- im Hauptbahnhof den Zug erreichen
+  place   hlavná_stanica
+  people  priateľ | kin
+  things  vlak | koľaj | nástupište | hodiny | informačná_tabuľa
+  want    ponáhľanie : verb=vziať patient=def:vlak ; uses cestovný_lístok
+  lack    cestovný_lístok : automat
+
+SITUATION hauptstadt : town -- in der Hauptstadt die Brücke zeichnen
+  place   hlavné_mesto
+  people  priateľ | kin
+  things  most | múzeum | námestie | park
+  own     blok
+  want    chuť : verb=kresliť patient=def:most ; uses blok
+  want    hladný : verb=jesť patient=indef:sendvič
+  trouble blok mokrý : sušiť
+  lack    sendvič : občerstvenie
+
+SITUATION hochhaus : home -- im Hochhaus
+  place   výšková_budova
+  people  kin | sused | technik
+  things  výťah | balkón | schody | dvere
+  own     slúchadlo | mobil
+  want    ponáhľanie : verb=vziať patient=def:výťah ; uses výťah
+  want    chuť : verb=počuť patient=none:hudba ; uses slúchadlo | mobil
+  trouble výťah pokazený : opraviť by technik
+  trouble mobil prázdny : nabiť
+
+SITUATION hochschule : school -- an der Hochschule
+  place   vysoká_škola
+  people  priateľ | kin | technik
+  things  prednáškova_sála | počítač | stôl | študentská_jedáleň | projektor | tanier | vidlička
+  want    chuť : verb=počuť patient=indef:prednáška ; uses projektor
+  want    hladný : verb=jesť patient=none:cestoviny+pl ; uses tanier | vidlička
+  trouble projektor pokazený : opraviť by technik
+  trouble vidlička špinavý : oplachovať
+  lack    cestoviny : študentská_jedáleň
+
+SITUATION hügel : nature -- auf dem Hügel Kartoffeln braten
+  place   kopec
+  people  priateľ | kin
+  things  tráva | strom | cesta_(komunikácia) | drevo
+  own     čajník
+  want    hladný : verb=smažiť patient=none:zemiak+pl ; uses drevo
+  want    smädný : verb=piť patient=none:čaj ; uses čajník
+  trouble drevo mokrý : sušiť
+  trouble čajník prázdny : naplniť
+
+SITUATION kanal : water -- am Kanal
+  place   kanál
+  people  priateľ | kin | remeselník
+  things  voda | čln | most | breh | cesta_(komunikácia)
+  own     pádlo
+  want    chuť : verb=kŕmiť patient=none:kačica+pl ; uses chlieb
+  want    chuť : verb=ísť_(dopravou) patient=none:čln ; uses čln | pádlo
+  trouble čln pokazený : opraviť by remeselník
+  lack    chlieb : pekáreň
+
+SITUATION kapelle : religion -- in der Kapelle
+  place   kaplnka
+  people  priateľ | kin
+  things  oltár | lavica | kríž | obraz
+  own     okuliare
+  want    chuť : verb=pozrieť_si patient=def:obraz ; uses okuliare
+  want    chuť : verb=zapáliť patient=indef:sviečka
+  want    unavený : verb=oddýchnuť_si ; uses lavica
+  trouble okuliare špinavý : čistiť
+  trouble lavica špinavý : čistiť
+  lack    sviečka : obchod
+
+SITUATION kasse : shop -- an der Kasse im Supermarkt
+  place   supermarket
+  people  kin | priateľ | technik
+  things  dopravný_pás | pokladňa | vrecko | fronta
+  want    ponáhľanie : verb=zaplatiť patient=def:nákup+pl ; uses dopravný_pás | pokladňa
+  trouble dopravný_pás pokazený : opraviť by technik
+  trouble pokladňa pokazený : opraviť by technik
+
+SITUATION kita : school -- in der Kita
+  place   škôlka
+  people  vychovávateľ | priateľ
+  things  hračka | stôl | stolička_(nábytok) | lopta | lyžica | štetec | papier
+  want    hladný : verb=jesť patient=none:jogurt ; uses lyžica
+  want    chuť : verb=maľovať patient=indef:obraz ; uses štetec | papier
+  trouble lyžica špinavý : oplachovať
+  trouble štetec špinavý : umývať
+  lack    jogurt : kuchyňa
+
+SITUATION kleinstadt : town -- in der Kleinstadt
+  place   mestečko
+  people  kin | priateľ
+  things  ulica | trh | obchod | park
+  own     bicykel
+  want    hladný : verb=jesť patient=indef:žemľa
+  want    chuť : verb=ísť_(dopravou) patient=none:bicykel ; uses bicykel
+  trouble bicykel pokazený : opraviť by mechanik
+  lack    žemľa : pekáreň
+
+SITUATION klinik : health -- in der Klinik
+  place   klinika
+  people  zdravotná_sestra | lekár | kin
+  things  posteľ | izba | stolička_(nábytok) | okno | sklenica
+  want    chorý : verb=vziať patient=indef:tabletka ; uses sklenica
+  trouble sklenica prázdny : naplniť by zdravotná_sestra
+  lack    tabletka : lekáreň
+
+SITUATION kloster : religion -- im Kloster
+  place   kláštor
+  people  mních | mníška | priateľ | remeselník
+  things  záhrada | zvon | sviečka | múr | nožnice
+  want    chuť : verb=žať patient=none:bylinky ; uses nožnice
+  want    chuť : verb=zvoniť patient=def:zvon ; uses zvon
+  trouble nožnice pokazený : opraviť
+  trouble zvon pokazený : opraviť by remeselník

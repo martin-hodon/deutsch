@@ -1,0 +1,188 @@
+# SITUATIONS inside shops, services, public buildings and schools (format: everyday.txt): Apotheke, Bar, Buchhandlung,
+# Einkaufszentrum, Feuerwache, Fitnessstudio, Gasthaus, Kaufhaus, Kneipe, Krankenhaus, Laden, Reisebüro, Tierheim,
+# Wartezimmer, Kindergarten, Grundschule, Gymnasium, Hörsaal, Galerie, Aquarium. (Rathaus: no everyday scene that fits.)
+
+SITUATION apotheke : shop -- in der Apotheke Medizin holen
+  place   lekáreň
+  people  kin | priateľ
+  things  polica | pult | tabletka
+  want    chorý : verb=vziať patient=indef:tabletka ; uses voda
+  lack    voda : kiosk
+
+SITUATION bar : restaurant -- abends in der Bar
+  place   bar
+  people  čašník | priateľ
+  things  pult | sklenica | taburetka | nápoj
+  want    smädný : verb=piť patient=none:šťava ; uses sklenica
+  want    smädný : verb=piť patient=none:voda ; uses sklenica
+  trouble sklenica prázdny : naplniť by čašník
+
+SITUATION buchhandlung : shop -- in der Buchhandlung stöbern
+  place   kníhkupectvo
+  people  priateľ | kin
+  things  kniha | polica | pokladňa | stôl | časopis | lampa
+  own     okuliare
+  want    chuť : verb=čítať patient=indef:kniha ; uses okuliare | lampa
+  want    chuť : verb=čítať patient=indef:časopis ; uses okuliare
+  trouble okuliare špinavý : čistiť
+  trouble lampa pokazený : opraviť by školník
+
+SITUATION einkaufszentrum : shop -- im Einkaufszentrum
+  place   nákupné_centrum
+  people  priateľ | kin
+  things  obchod | eskalátor | pokladňa | lavica | reštaurácia | vrecko | stôl
+  want    unavený : verb=oddýchnuť_si ; uses lavica
+  want    hladný : verb=jesť patient=indef:pizza ; uses stôl
+  trouble lavica špinavý : čistiť
+  trouble stôl špinavý : čistiť by čašník
+
+SITUATION feuerwache : town -- die Feuerwache besuchen
+  place   hasičská_stanica
+  people  hasič | kin | priateľ
+  things  auto | hadica | prilba | rebrík | dvere
+  own     kamera | fľaša
+  want    chuť : verb=robiť patient=none:fotka+pl ; uses kamera
+  want    smädný : verb=piť patient=none:voda ; uses fľaša
+  trouble kamera pokazený : opraviť
+  trouble fľaša prázdny : naplniť by hasič
+
+SITUATION fitnessstudio : sport -- ins Fitnessstudio gehen
+  place   fitnescentrum
+  people  priateľ | kin
+  things  prístroj | zrkadlo | hudba | sprcha
+  own     fľaša | uterák
+  want    smädný : verb=piť patient=none:voda ; uses fľaša
+  want    špinavý : verb=sprchovať_sa ; uses sprcha | uterák
+  trouble fľaša prázdny : naplniť
+  trouble sprcha pokazený : opraviť by školník
+
+SITUATION gasthaus : restaurant -- im Gasthaus essen
+  place   hostinec
+  people  hostinský | čašník | priateľ
+  things  stôl | pivo | stolička_(nábytok) | jedálny_lístok | pult | sklenica
+  want    hladný : verb=jesť patient=indef:rezeň ; uses stôl
+  want    smädný : verb=piť patient=none:pivo ; uses sklenica
+  trouble stôl špinavý : čistiť by čašník
+  trouble sklenica prázdny : naplniť by hostinský
+
+SITUATION kaufhaus : shop -- im Kaufhaus Kleidung kaufen
+  place   obchodný_dom
+  people  priateľ | kin
+  things  eskalátor | pokladňa | polica | oblečenie | vrecko | výťah
+  want    chuť : verb=kúpiť patient=indef:nohavice ; uses pokladňa
+  want    chuť : verb=kúpiť patient=indef:darček ; uses pokladňa
+  trouble pokladňa pokazený : opraviť by technik
+
+SITUATION kneipe : restaurant -- abends in der Kneipe
+  place   krčma
+  people  hostinský | priateľ
+  things  pivo | stôl | stolička_(nábytok) | sklenica | pult | tanier
+  want    smädný : verb=piť patient=indef:pivo ; uses sklenica
+  want    hladný : verb=jesť patient=indef:klobása ; uses tanier
+  trouble sklenica prázdny : naplniť by hostinský
+  trouble tanier špinavý : oplachovať by hostinský
+
+SITUATION krankenhaus : doctor -- krank im Krankenhaus
+  place   nemocnica
+  people  kin | priateľ
+  things  posteľ | izba | chodba | dvere | okno | stolička_(nábytok)
+  own     fľaša
+  want    chorý : verb=užívať patient=none:tabletka+pl ; uses fľaša
+  want    smädný : verb=piť patient=none:voda ; uses fľaša
+  trouble fľaša prázdny : naplniť by zdravotná_sestra
+
+SITUATION laden : shop -- im kleinen Laden
+  place   obchod
+  people  kin | priateľ
+  things  polica | dvere | pokladňa | okno | stôl | štít
+  want    hladný : verb=kúpiť patient=none:chlieb ; uses dvere | pokladňa
+  want    smädný : verb=kúpiť patient=none:šťava ; uses dvere | pokladňa
+  trouble dvere pokazený : opraviť by školník
+  trouble pokladňa pokazený : opraviť by technik
+
+SITUATION reisebüro : office -- im Reisebüro eine Reise planen
+  place   cestovná_kancelária
+  people  priateľ | kin
+  things  stôl | počítač | prospekt | karta | stolička_(nábytok) | dvere
+  own     okuliare
+  want    chuť : verb=čítať patient=indef:prospekt ; uses okuliare
+  want    chuť : verb=zarezervovať patient=indef:cesta_(cestovanie) ; uses počítač
+  trouble okuliare špinavý : čistiť
+  trouble počítač pokazený : opraviť by technik
+
+SITUATION tierheim : nature -- im Tierheim
+  place   útulok_pre_zvieratá
+  people  kin | priateľ
+  things  pes | mačka | klietka | vodítko | dvere | voda
+  want    chuť : verb=vyviesť patient=indef:pes ; uses vodítko
+  trouble vodítko pokazený : opraviť
+
+SITUATION wartezimmer : doctor -- im Wartezimmer warten
+  place   čakáreň
+  people  priateľ | kin
+  things  stolička_(nábytok) | noviny | stôl | hodiny
+  own     okuliare
+  want    chuť : verb=čítať patient=indef:noviny ; uses okuliare
+  want    chorý : verb=oddýchnuť_si ; uses stolička_(nábytok)
+  trouble okuliare špinavý : čistiť
+  trouble stolička_(nábytok) špinavý : čistiť
+
+SITUATION kindergarten : school -- im Kindergarten
+  place   materská_škola
+  people  učiteľka | priateľ
+  things  hračka | stôl | stolička_(nábytok) | lopta | obraz
+  own     fľaša
+  want    hladný : verb=jesť patient=none:chlieb ; uses stôl
+  want    smädný : verb=piť patient=none:voda ; uses fľaša
+  trouble stôl špinavý : čistiť by učiteľka
+  trouble fľaša prázdny : naplniť by učiteľka
+
+SITUATION grundschule : school -- in der Grundschule
+  place   základná_škola
+  people  učiteľka | priateľ
+  things  trieda | tabuľa | zošit | stôl | stolička_(nábytok)
+  want    chuť : verb=písať patient=indef:veta ; uses tabuľa
+  want    chuť : verb=maľovať patient=indef:obraz ; uses stôl
+  trouble tabuľa špinavý : čistiť by učiteľka
+  trouble stôl špinavý : čistiť by učiteľka
+
+SITUATION gymnasium : school -- im Gymnasium
+  place   gymnázium
+  people  priateľ | učiteľ
+  things  trieda | tabuľa | kniha | stôl | počítač
+  own     okuliare
+  want    chuť : verb=čítať patient=indef:kniha ; uses okuliare
+  want    chuť : verb=písať patient=indef:text ; uses počítač
+  trouble okuliare špinavý : čistiť
+  trouble počítač pokazený : opraviť by technik
+
+SITUATION hörsaal : school -- in der Vorlesung
+  place   prednáškova_sála
+  people  priateľ | profesor
+  things  stôl | stolička_(nábytok) | tabuľa | počítač | kniha
+  own     laptop
+  want    chuť : verb=robiť patient=none:poznámka+pl ; uses laptop
+  want    smädný : verb=piť patient=none:voda
+  trouble laptop prázdny : nabiť
+  lack    voda : kiosk
+
+SITUATION galerie : culture -- in der Galerie Bilder ansehen
+  place   galéria
+  people  priateľ | kin
+  things  obraz | stena | socha | lavica | svetlo | dvere
+  own     okuliare
+  want    chuť : verb=pozrieť_si patient=indef:obraz ; uses svetlo | okuliare
+  want    unavený : verb=oddýchnuť_si ; uses lavica
+  trouble svetlo pokazený : opraviť by školník
+  trouble okuliare špinavý : čistiť
+  trouble lavica špinavý : čistiť
+
+SITUATION aquarium : culture -- im Aquarium die Fische sehen
+  place   akvárium
+  people  dieťa | priateľ | kin
+  things  ryba | voda | sklenica | tabuľa | rastlina | štít
+  own     kamera
+  want    chuť : verb=robiť patient=none:fotka+pl ; uses kamera
+  want    chuť : verb=pozrieť_si patient=indef:ryba ; uses sklenica
+  trouble kamera pokazený : opraviť
+  trouble sklenica špinavý : čistiť by školník

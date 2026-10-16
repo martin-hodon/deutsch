@@ -1,0 +1,3 @@
+# THE COMMON MEASURE WORDS of Chinese (zh/morph.js): the wrong options the measure-word exercise offers beside a noun's
+# own (一本书 -- 本, not 个 or 张), commonest first.
+classifiers : 个 本 张 只 条 把 件 辆 杯 瓶 块 位 家 口 双 支 封 套 顶 棵 朵 座 间 台 部 篇 首 场 顿 节 门 片 颗 头 匹 艘 架 幅 份 群 碗 盘 包 袋 盒 箱 层 排 行 句 段 页 根 粒 滴 束 串 对 副 批 种 类 项 笔 期 届 轮 步 阵 顿 趟 遍 次 回 下 声 口 滴

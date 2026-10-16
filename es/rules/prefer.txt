@@ -1,0 +1,11 @@
+# SPANISH'S WORD FOR A CONCEPT where the realizer should not take the first commonest one -- `POS concept = word`.
+# Read by es/realize.js.
+N učiteľ = profesor
+N učiteľka = profesora
+AN pokazený = estropeado
+AN zlatý = dorado
+N kus = trozo
+AN ľahký = fácil
+V obnoviť (pôvodný stav) = restaurar
+V volať = gritar
+N kaviareň = café

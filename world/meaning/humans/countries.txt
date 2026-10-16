@@ -1,0 +1,222 @@
+N Nemecko : country
+AN nemecký : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|víno|jazyk (reč)|nárečie|gramatika} ; attr
+N Nemec : national
+N Rakúsko : country
+AN rakúsky : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|víno|jazyk (reč)|nárečie|gramatika} ; attr
+N Rakúšan : national
+N Rakúšanka : national
+N Švajčiarsko : country
+AN švajčiarsky : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|víno|jazyk (reč)|nárečie|gramatika} ; attr
+N Švajčiar : national
+N Švajčiarka : national
+N Francúzsko : country
+AN francúzsky : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|víno|jazyk (reč)|nárečie|gramatika} ; attr
+N Francúz : national
+N Francúzka : national
+N Taliansko : country
+AN taliansky : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|víno|jazyk (reč)|nárečie|gramatika} ; attr
+N Talian : national
+N Talianka : national
+N Španielsko : country
+AN španielsky : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|víno|jazyk (reč)|nárečie|gramatika} ; attr
+N Španiel : national
+N Španielka : national
+N Portugalsko : country
+AN portugalský : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|víno|jazyk (reč)|nárečie|gramatika} ; attr
+N Portugalec : national
+N Portugalka : national
+N Veľká Británia : country
+AN britský : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Brit : national
+N Britka : national
+N Anglicko : country
+AN anglický : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Angličan : national
+N Angličanka : national
+N Írsko : country
+AN írsky : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Ír : national
+N Írka : national
+N Holandsko : country
+AN holandský : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Holanďan : national
+N Holanďanka : national
+N Belgicko : country
+AN belgický : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Belgičan : national
+N Belgičanka : national
+N Luxembursko : country
+AN luxemburský : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Luxemburčan : national
+N Luxemburčanka : national
+N Dánsko : country
+AN dánsky : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Dán : national
+N Dánka : national
+N Švédsko : country
+AN švédsky : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Švéd : national
+N Švédka : national
+N Nórsko : country
+AN nórsky : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Nór : national
+N Nórka : national
+N Fínsko : country
+AN fínsky : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Fín : national
+N Fínka : national
+N Island : country
+AN islandský : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Islanďan : national
+N Islanďanka : national
+N Poľsko : country
+AN poľský : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Poliak : national
+N Poľka : national
+N Česko : country
+AN český : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Čech : national
+N Češka : national
+N Slovensko : country
+AN slovenský : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Slovák : national
+N Slovenka : national
+N Maďarsko : country
+AN maďarský : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|víno|jazyk (reč)|nárečie|gramatika} ; attr
+N Maďar : national
+N Maďarka : national
+N Slovinsko : country
+AN slovinský : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|víno|jazyk (reč)|nárečie|gramatika} ; attr
+N Slovinec : national
+N Slovinka : national
+N Chorvátsko : country
+AN chorvátsky : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|víno|jazyk (reč)|nárečie|gramatika} ; attr
+N Chorvát : national
+N Chorvátka : national
+N Srbsko : country
+AN srbský : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Srb : national
+N Srbka : national
+N Rumunsko : country
+AN rumunský : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|víno|jazyk (reč)|nárečie|gramatika} ; attr
+N Rumun : national
+N Rumunka : national
+N Bulharsko : country
+AN bulharský : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|víno|jazyk (reč)|nárečie|gramatika} ; attr
+N Bulhar : national
+N Bulharka : national
+N Grécko : country
+AN grécky : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|víno|jazyk (reč)|nárečie|gramatika} ; attr
+N Grék : national
+N Grékyňa : national
+N Turecko : country
+AN turecký : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Turek : national
+N Turkyňa : national
+N Ukrajina : country
+AN ukrajinský : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Ukrajinec : national
+N Ukrajinka : national
+N Rusko : country
+AN ruský : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Rus : national
+N Ruska : national
+N Litva : country
+AN litovský : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Litovčan : national
+N Litovčanka : national
+N Lotyšsko : country
+AN lotyšský : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Lotyš : national
+N Lotyška : national
+N Estónsko : country
+AN estónsky : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Estónec : national
+N Estónka : national
+N USA : country
+N Čína : country
+AN čínsky : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Číňan : national
+N Číňanka : national
+N Japonsko : country
+AN japonský : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Japonec : national
+N Japonka : national
+N India : country
+AN indický : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Ind : national
+N Indka : national
+N Izrael : country
+AN izraelský : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Izraelčan : national
+N Izraelčanka : national
+N Irán : country
+AN iránsky : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Iránec : national
+N Iránka : national
+N Irak : country
+AN iracký : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Iračan : national
+N Iračanka : national
+N Sýria : country
+AN sýrsky : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Sýrčan : national
+N Sýrčanka : national
+N Egypt : country
+AN egyptský : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Egypťan : national
+N Egypťanka : national
+N Katar : country
+AN katarský : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Katarčan : national
+N Katarčanka : national
+N Saudská Arábia : country
+N Afganistan : country
+AN afganský : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Afganec : national
+N Afganka : national
+N Pakistan : country
+AN pakistanský : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Pakistanec : national
+N Pakistanka : national
+N Brazília : country
+AN brazílsky : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Brazílčan : national
+N Brazílčanka : national
+N Kanada : country
+AN kanadský : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Kanaďan : national
+N Kanaďanka : national
+N Mexiko : country
+AN mexický : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Mexičan : national
+N Mexičanka : national
+N Argentína : country
+AN argentínsky : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|víno|jazyk (reč)|nárečie|gramatika} ; attr
+N Argentínčan : national
+N Argentínčanka : national
+N Južná Afrika : country
+AN juhoafrický : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|víno|jazyk (reč)|nárečie|gramatika} ; attr
+N Juhoafričan : national
+N Juhoafričanka : national
+N Európa : region
+AN európsky : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|víno|jazyk (reč)|nárečie|gramatika} ; attr
+N Európan : national
+N Európanka : national
+N Ázia : region
+AN ázijský : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Ázijčan : national
+N Ázijčanka : national
+N Afrika : region
+AN africký : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|jazyk (reč)|nárečie|gramatika} ; attr
+N Afričan : national
+N Afričanka : national
+N Amerika : region
+AN americký : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|víno|jazyk (reč)|nárečie|gramatika} ; attr
+N Američan : national
+N Američanka : national
+N Austrália : region
+AN austrálsky : {muž|žena|chlapec|dievča|dieťa|rodina|priateľ|priateľka|študent|študentka|turista|hráč|športovec|fanúšik|umelec|spisovateľ|kuchár|auto|vlak|firma|kuchyňa|hudba|literatúra|film|kultúra|príbeh|tradícia|pokrm|pivo|víno|jazyk (reč)|nárečie|gramatika} ; attr
+N Austrálčan : national
+N Austrálčanka : national
+N Antarktída : region

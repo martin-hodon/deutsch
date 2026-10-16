@@ -1,0 +1,485 @@
+AN trvanlivý : artifact, living
+V rozbiť : person > patient object +breakable
+V zadržať : person > patient child
+V zadržať : person > patient beast -insect
+V zadržať : person > patient {list (písomnosť)|balík|peniaze|dodávka|platba|pošta|lopta}
+V chytiť : person > theme {ruka|sklenica|zbraň|lano|nôž|kniha|kľúč|šálka|pero (písacie)}
+V chytiť : person > inf
+V stáť (v stoji) : furniture > location room
+V stáť (v stoji) : {bedňa|kufor|taška|vedro|kôš|kartón|batoh|školská taška|fľaša|hrniec} > location room -{prázdninový byt}
+V stáť (v stoji) : {počítač|tlačiareň|televízor|rádio|lampa|telefón} > location {kancelária|obývačka|pracovňa|detská izba|izba|spálňa}
+V stáť (v stoji) : {práčka|chladnička|sporák|stroj|pec} > location {kuchyňa|pivnica|kúpeľňa}
+V stáť (v stoji) : person -professional > location room
+V stáť (v stoji) : pet > location room
+V stáť (v stoji) : person > location {obchod|kostol|stanica|hala|kino|škola|múzeum|supermarket|pekáreň}
+V stáť (v stoji) : person > location road
+V stáť (v stoji) : animal -fish-animal -insect -professional > location {les|záhrada|park|voda|rad}
+V stáť (v stoji) : building > location settlement
+V stáť (v stoji) : tree > location {záhrada|park|les|lúka|pole}
+V stáť (v stoji) : flower > location {záhrada|park|hrniec|váza|izba|kuchyňa|lúka|skleník}
+V stáť (v stoji) : crop > location {pole|záhrada|skleník|lúka}
+V stáť (v stoji) : plant -tree -flower -crop > location {záhrada|park|hrniec|skleník|izba|roh (uhol)|kuchyňa}
+V vstať : animal -fish-animal -insect
+V zastaviť sa : animal -fish-animal -insect
+V zastaviť sa : vehicle
+V zastaviť sa : thing
+V stáť v rade : person
+V sedieť : animal -fish-animal -insect
+V sedieť : animal -fish-animal -insect > location furniture +sittable
+V sedieť : animal -fish-animal -insect > location place +sittable
+V sedieť : person > location room
+V sedieť : pet > location room
+V sedieť : person > location {kaviareň|reštaurácia|kostol|kino|divadlo|škola|väzenie|bar|kancelária|knižnica}
+V sedieť : person > location {auto|autobus|vlak|lietadlo|loď|čln|taxík|voz|električka|nákladné auto|vrtuľník}
+V sedieť : animal -fish-animal -insect > location {záhrada|park|väzenie}
+V sadnúť si : animal -fish-animal -insect -professional
+V sadnúť si : person > goal furniture +sittable
+V sadnúť si : pet > goal furniture +sittable
+V sadnúť si : person > goal place +sittable
+V sadnúť si : pet > goal place +sittable
+N sedadlo : artifact, sittable
+V ležať : thing -text -document > location furniture -{nábytok}
+V ležať : person > location {posteľ|manželská posteľ|pohovka|gauč|banka|hojdacia sieť}
+V ležať : pet > location {posteľ|pohovka|gauč|kreslo|koberec|vankúš|strop}
+V ležať : thing -money -document > location {izba|kuchyňa|obývačka|spálňa|kúpeľňa|chodba|hosťovská izba|pivnica}
+V ležať : thing > location {zásuvka (v nábytku)|skriňa|taška|bedňa|kufor|polica|pivnica|záhrada}
+V ležať : animal > location {posteľ|maštaľ|záhrada|izba|voda|tráva|tieň|piesok|hojdacia sieť}
+V ležať : building -{stánok|stan} > location settlement
+V ležať : building -{stánok|stan} > location country
+V ležať : building -{stánok|stan} > location region
+V byť k dispozícii : {problém|chyba|otázka|podozrenie}
+V byť k dispozícii : {zmluva|žiadosť|formulár|dokument|správa (o udalosti)|preukaz}
+V byť k dispozícii : illness
+V byť k dispozícii : {dôkaz|informácia|dotaz|správa (oznam)}
+V kľačať : person
+V pokľaknúť : person
+V opierať : person > patient {bicykel|rebrík|metla|palica|doska|dáždnik|rýľ|zrkadlo|obraz}, goal {stena|múr|dvere|plot|stôl|skriňa|strom}
+V opierať : person > goal {stena|múr|dvere|plot|stôl|skriňa|strom}
+V oprieť sa dozadu : person
+N operadlo : furniture
+V uklonit sa : person > recipient {kráľ|kráľovná|obecenstvo|učiteľ|sudca|prezident|dáma}
+V čupieť : animal -fish-animal -insect
+V skrčiť sa : animal -fish-animal -insect
+V vystrieť : person > patient {paža|noha (končatina)|ruka|prst|noha (chodidlo)|jazyk (orgán)|krk}
+N trať : road ; auf
+V balansovať : person > patient thing
+V balansovať : person
+N rovnováha : state
+V vzpriamiť : person > patient beast
+V vzpriamiť : person > patient {rebrík|sťažeň|stolička (nábytok)}
+AN vzpriamený : animal, thing
+V rozvaliť sa : person
+V bežať : animal -fish-animal
+V bežať : animal -fish-animal > goal {les|záhrada|park|hala|izba|kuchyňa|maštaľ}
+V bežať : animal -fish-animal > inf
+V bežať : animal -fish-animal -professional > inf
+V skákať : animal
+V skákať : animal > goal water-body
+V skákať : animal > path {plot|priekopa|stena}
+V skákať : animal > path water-body
+N skok : event
+V vyskočiť : animal -fish-animal -insect
+V preskočiť : animal > patient {plot|priekopa|stena}
+V preskočiť : animal > patient water-body
+V liezť : person -professional > goal tree +climbable
+V liezť : {zviera|divé zviera|mačka|opica|veverička|medveď|mravec|pavúk|chrobák} > goal tree +climbable
+V liezť : person -professional > goal landscape +climbable
+V liezť : {zviera|divé zviera|koza} > goal {vrch|skala|skala}
+V liezť : person -professional > path {plot|stena}
+V liezť : {mačka|opica|veverička|medveď} > path {plot|stena}
+V plaziť sa : animal -fish-animal
+V liezť po štyroch : {bábätko|chrobák|mravec|pavúk|dieťa|hmyz|malé dieťa}
+V plávať : person -professional
+V plávať : fish-animal
+V plávať : {kačica|labuť|hus|pes|kôň|delfín|veľryba|tuleň|žaba|korytnačka}
+V plávať : person -professional > location {jazero|rieka|rybník|more|potok}
+V plávať : {kačica|labuť|hus|pes|kôň|delfín|veľryba|tuleň|žaba|korytnačka} > location {jazero|rieka|rybník|more|potok}
+N plavec : person
+V potápať sa : person -professional > goal {jazero|more|rieka|rybník|voda}
+V potápať sa : {rybár|potápač} > theme {perla|poklad|mušľa|ryba|minca|hubka|sieť (rybárska)}
+V vynoriť sa : animal
+V vynoriť sa : vehicle
+V vynoriť sa : {kľúč|okuliare|mobil|prsteň|fotka|list (písomnosť)|čln}
+V ponoriť sa : person
+N potápač : person
+V lietať : bird
+V lietať : {lietadlo|vrtuľník|raketa|dron|prúdové lietadlo}
+V lietať : person > goal settlement
+V odletieť : bird
+V odletieť : {lietadlo|vrtuľník|raketa|dron|prúdové lietadlo}
+V preletieť : bird > patient place
+V preletieť : {lietadlo|vrtuľník|raketa|dron|prúdové lietadlo} > patient place
+V preletieť : person > patient text
+N letec : person, vehicle
+V kráčať : person
+V kráčať : person > inf
+N krok : event
+V vykračovať : person
+V zasiahnuť : person > share {hádka|rozhovor|hra}
+V zasiahnuť : {polícia|vláda} > share {hádka|konflikt}
+V prekročiť : person > patient {zákon|pravidlo|hranica|limit|lehota|predpis}
+V putovať : person -professional
+V putovať : {vlk|medveď|slon|jeleň|sob|zebra|byvol}
+N túra : activity
+N pešký turista : person
+V odsťahovať sa : animal
+V prisťahovať sa : person > goal country
+V loviť : {lovec|človek|muž|otec|dedko|strýko} > patient beast -insect -reptile
+V loviť : {lev|vlk|tiger|leopard|medveď} > patient {jeleň|srna|zebra|antilopa|gazela}
+V loviť : {líška|mačka|pes|orol|sova|sokol} > patient {myš|potkan|zajac|králik|vták}
+V loviť : {policajt|policajtka|strážca|detektív} > patient {zlodej|zločinec|zbojník|páchateľ}
+N poľovačka : activity
+V zahnať : animal > patient animal
+V ujsť : person -professional > source {protivník|nepriateľ|policajt|lovec|strážca|zbojník|zlodej|páchateľ}
+V ujsť : beast > source {lovec|nepriateľ}
+V kĺzať sa : child
+V kĺzať sa : {koberec|rebrík|kameň|lavína|nohavice|bedňa|sneh}
+V pošmyknúť sa : person
+V pošmyknúť sa : {pes|mačka|kôň|krava|králik}
+V zošmyknúť sa : animal -fish-animal -insect
+V zošmyknúť sa : {rebrík|kameň|lavína|nohavice|bedňa|sneh}
+AN šmykľavý : road, landscape, building-part, stone, material, body-part
+N šmykľavka : toy
+V gúľať sa : {auto|autobus|vlak|nákladné auto|voz|bicykel|koč|lietadlo|motocykel}
+V gúľať sa : {lopta|guľa|pneumatika}
+V gúľať sa : fruit
+V gúľať sa : person > patient {sud|lopta|pneumatika|guľa|koberec|kameň|koleso|invalidný vozík}
+V zrolovať : person > patient {koberec|lano|kábel|papier|rukáv|karta|hadica}
+V poskakovať : child
+V poskakovať : {zajac|králik|žaba|klokan|vrabec|veverička|blcha}
+V krívať : animal -fish-animal
+V potknúť sa : animal -insect -fish-animal > cause {kameň|kábel|koreň|koberec|schod|hrana|topánka|hračka|stolička (nábytok)}
+V šprintovať : animal -fish-animal
+N šprint : activity
+N šprintér : person
+V behať : person -child -professional
+V prechádzať sa : person -professional > path {park|les|mesto|záhrada|staré mesto}
+N prechádzka : activity
+V korzovať : person
+V potácať sa : animal -fish-animal
+V ustúpiť : animal > recipient animal
+V uhnúť : animal > recipient animal
+V uhnúť : animal > recipient vehicle
+V uhnúť : person > recipient {mláka|diera|stena}
+V odchýliť sa : person > source {plán|kurz|názor}
+V odchýliť sa : person > source {pravidlo|norma|predpis|zákon}
+N odchýlka : quality
+V unikať : substance
+V cválať : mammal
+N cval : event
+V brodiť sa : animal > path water-body
+V plížiť sa : {mačka|tiger|lev|líška|vlk|šelma|zlodej|vlamač|špión|dieťa}
+V votrieť sa : person > goal place
+V vtrhnúť : {dieťa|chlapec|dievča|býk|kôň|pes}
+V vtrhnúť : {fanúšik|policajt|vojak|demonštrant|bojovník} > patient {štadión|budova|dom|banka|zámok|hrad|radnica|veľvyslanectvo}
+V vtrhnúť : group > patient {štadión|budova|dom|banka|zámok|hrad|radnica|veľvyslanectvo}
+N útočník (v športe) : person
+V dobyť útokom : {vojak|policajt|bojovník|demonštrant|fanúšik} > patient {štadión|budova|dom|banka|zámok|hrad|radnica|veľvyslanectvo}
+V dobyť útokom : group > patient {štadión|budova|dom|banka|zámok|hrad|radnica|veľvyslanectvo}
+V klusať : mammal
+N klus : event
+V držať : person > patient {fotka|kniha|biblia|pero (písacie)|čiapka|sklenica|šálka|lano|ruka|nôž|lopta|dáždnik|taška|zástava}
+V pridržať : person > patient beast -insect
+V pridržať : person > patient {lano|ruka|dvere|dieťa|taška|klobúk|dáždnik|rebrík}
+N držanie tela : state
+V chopiť : person > patient {sekera|pištoľ|nôž|lano|palica|zbraň|ruka|príležitosť|iniciatíva|opatrenie}
+V chopiť : person > patient beast
+V chopiť : {policajt|policajtka|strážca|detektív|vojak} > patient {zlodej|zločinec|zbojník|páchateľ}
+N zásah : event
+V zobrať si : person
+V niesť : person > patient {kufor|taška|bedňa|kartón|sud|vedro|vrece|kniha|batožina|sieť (rybárska)|kameň|nôž|pero (písacie)|predmet}
+V niesť : {somár|kôň|ťava|mul|slon|vôl} > patient {vrece|sud|kufor|batožina|bremeno|bedňa}
+V niesť : person > patient wearable
+V zniesť : person > patient {bolesť|horúčava|chlad|hluk}
+V zniesť : person > patient {osamelosť|hlad|chudoba|ticho}
+V znášať : animal > patient {mlieko|mäso|syr|cibuľa|alkohol|káva|ryba|orech|horúčava}
+V znášať : person > companion {brat|sestra|sused|kolega|priateľ|dieťa|pes}
+N nosič : person
+AN prenosný : thing
+V prispieť : person > inf
+V dvíhať : person > patient {bedňa|kufor|šálka|sklenica|kameň|dieťa|vrece|vedro|stôl}
+V dvíhať : person > patient {paža|noha (končatina)|noha (chodidlo)|ruka|hlava|prst}
+V zodvihnúť : person > patient {nôž|kameň|lopta|kniha|pero (písacie)|rukavica|minca|kľúč|utierka}
+V zodvihnúť : {vláda|pokrm|parlament|úrad|ministerstvo} > patient rule
+V zdvihnúť : person > patient {paža|ruka|päsť|hlava|prst}
+V nadvihnúť : person > patient {bedňa|kufor|stôl|pokrievka|auto|vrece|kameň}
+V nadvihnúť : institution > patient quantity
+V hodiť : person -professional > patient {lopta|kameň|vankúš|topánka|oštep|palica|minca|kľúč|chlieb|uterák}
+V hodiť : person -professional > instrument {lopta|kameň|vankúš|topánka}
+N hod : event
+V vyhodiť : person > patient {papier|fľaša|sklenica|kľúč|list (písomnosť)|noviny|topánka|košeľa}
+V zhodiť : person > patient {bremeno|vrece|lopta|list (písomnosť)|balík}
+V vyčítať : person > recipient person -infant, patient {chyba|klamstvo|podvod}
+N výčitka : information
+V navrhnúť (projektovať) : {architekt|inžinier|dizajnér|umelec|umelkyňa|tím} > patient {plán|koncepcia|model}
+V navrhnúť (projektovať) : {architekt|inžinier} > patient {dom|budova|most|loď}
+V navrhnúť (projektovať) : {dizajnér|umelec|umelkyňa} > patient {šaty|nábytok|logo}
+V chytať : animal > patient beast
+V chytať : person > patient toy
+V chytať : {policajt|policajtka|strážca|detektív} > patient {zlodej|zločinec|zbojník}
+V zachytiť : person > patient toy
+V zachytiť : person > patient {voda|šťava|mlieko}
+V chytiť späť : person > patient animal
+N úlovok : animal
+AN zajatý : animal
+V odsunúť : institution > patient person
+V ťahať : person > patient {lano|kára|voz|sánky|kufor|vodítko|záves|zub}
+V ťahať : {kôň|vôl|somár|poník|ťava|pes} > patient {voz|kára|sánky|pluh|koč}
+V ťahať : person > goal settlement
+V nasťahovať sa : person > goal {dom|byt|vila|novostavba|kláštor}
+V uprednostniť : person > patient {čaj|káva|víno|pivo|ryba|mäso|zelenina|ovocie|ryža|chlieb}
+V stiahnuť sa : person
+V odpočítať : {šéf|zamestnávateľ|predavač|firma|banka} > patient {suma|súčet|daň|zľava|záloha|náklady}
+V vliecť : person -professional > patient {kufor|vrece|bedňa|batožina|bedňa|vedro|taška|lano|kameň|batoh}
+V triasť : person > patient {hlava|ruka|päsť|paža|noha (končatina)|labka}
+V triasť : person > patient {fľaša|sklenica|vankúš|strop|strom|ruka|koberec}
+V otriasť : {nehoda|výbuch|katastrofa|zemetrasenie|atentát|požiar} > patient person
+V otriasť : {správa (oznam)|smrť} > patient person
+N otras : event
+V mávať (rukou) : person > recipient person
+V mávať (rukou) : person > instrument {ruka|paža|vreckovka|zástava}
+V pokynúť k sebe : person > patient person
+V zamávať : person > recipient person
+V odmávnuť : person
+V ukázať : person > recipient person, patient {zmluva|kniha|fotka|kľúč|hodiny|list (písomnosť)|pero (písacie)}
+V ukázať : person > recipient person, patient picture
+V ukázať : person > recipient person, patient beast
+V ukázať : person -professional > recipient person, patient building
+V ukázať : person > recipient person, patient {vrch|vrchol|dolina|jazero|les|pláž}
+V ukázať : person > theme {pero (písacie)|hodiny|karta|dvere|tabuľa|obraz|štít|cieľ}
+V ukázať : person > theme picture
+V ukázať : person -professional > theme animal
+V ukázať : person > theme building
+V ukázať : person > theme {vrch|vrchol|les|jazero}
+V nahlásiť : person -professional > patient {páchateľ|zlodej|sused|zločinec|vodič|šéf|kolega|lekár|policajt|učiteľ}
+V nahlásiť : {hodiny|budík|náramkové hodinky|mobil|displej} > patient {čas (trvanie)}
+V nahlásiť : {teplomer|displej|obrazovka|mobil} > patient {teplota}
+V nahlásiť : {displej|obrazovka|mobil} > patient {chyba}
+N inzerát : text
+N ručička : thing
+V tlieskať : person -professional
+V biť : {hráč|športovec|boxer|mužstvo|tím} > patient {protivník|rival|konkurent}
+V biť : person > goal {stôl|bubon|klinec|dvere}
+V biť : person > goal {bubon|klinec|dvere}
+V biť : person > goal {dvere|stena|okno}
+N úder : event
+V udrieť : person
+V vybiť : person > patient {okno|dvere|klinec}
+V vybiť : {blesk|bomba|raketa}
+V zabiť úderom : person > patient animal
+N bitka (výtržnosť) : event
+V kopnúť : person -professional > goal {lopta|dvere|stena}
+V kopnúť : person -professional > goal {brzda|pedál|schod}
+V kopnúť : person -professional > goal {hala|miestnosť|izba|sála|kuchyňa|kancelária|obchod}
+N kop : event
+V nastúpiť (do radu) : {vojak|hráč|mužstvo|tím|protivník|žiak|kandidát}
+V odstúpiť : professional
+N odstúpenie : event
+V zastupovať : {učiteľ|lekár|advokát|asistent|architekt} > patient {kolega|šéf}
+V zastupovať : {vláda|spolková vláda|politická strana|minister|politik|advokát|expert|muž|žena} > patient {názor|stanovisko|pozícia|záujem}
+N zástupca : professional
+V stlačiť : person > patient {citrón|pomaranč|prst|ruka|bobuľa|cesnak}
+V stlačiť : person > patient body-part
+V stlačiť : person > patient fruit
+V stlačiť : person > patient animal
+V rozdrviť : person > patient {citrón|pomaranč|bobuľa|cesnak|zemiak}
+V rozdrviť : person > patient fruit
+V rozdrviť : person > patient animal
+V rozdrviť : person > patient body-part
+N dojem : idea
+V zapôsobiť : person > patient person
+V zapôsobiť : {film|pieseň|kniha|báseň} > patient person
+V zapôsobiť : {vrch|pohorie|vodopád|krajina (prírodná)|pobrežie|sopka} > patient person -professional
+AN pôsobivý : person, building, landscape, creative-work
+V trieť : person > patient {ruka|oko|nos|chrbát|paža|noha (končatina)|koleno|plece|krk|čelo|tvár}
+V trieť : person > patient {syr|mrkva|jablko|orech|zemiak|citrón|zázvor|čokoláda}
+V votrieť : person > patient body-part
+V votrieť : person > patient animal
+V škrabať : animal -professional > patient {hlava|nos|chrbát|ucho}
+V škrabať : animal -reptile -fish-animal -insect
+V škrabať : {mačka|kocúr|mačiatko|pes|tiger|lev|medveď|opica} > patient person
+N škrabanec : state
+V poškriabať : mammal > patient furniture
+V poškriabať : animal > patient {dvere|stena|pôda}
+V trhať : person > theme {lano|dvere|rukoväť|vodítko|reťaz|páka}
+V trhať : {lano|niť|reťaz|sieť (rybárska)|papier|látka|nohavice|košeľa|kravata}
+V roztrhnúť : person > patient {papier|list (písomnosť)|látka|košeľa|cigareta|sieť (rybárska)|papierik|nohavice}
+V rozovrieť : person > patient {dvere|okno|balík|list (písomnosť)|ústa|oko|vrecko}
+V strhnúť so sebou : {víchor|lavína|zosuv pôdy|príliv} > patient thing
+V strhnúť so sebou : {víchor|lavína|zosuv pôdy|príliv} > patient animal
+V strhnúť so sebou : {víchor|lavína|zosuv pôdy|príliv} > patient building
+V strhnúť so sebou : {víchor|lavína|zosuv pôdy|príliv} > patient vehicle
+V strhnúť so sebou : water-body > patient thing
+V strhnúť so sebou : water-body > patient animal
+V strhnúť so sebou : water-body > patient building
+V strhnúť so sebou : water-body > patient vehicle
+V klopať : person > goal {dvere|okno|stena|stôl}
+V zaklopať : person
+V visieť : thing > location {stena|strop|hák|dvere|okno|klinec|zábradlie|vodítko}
+V visieť : fruit > location tree
+V visieť : {hojdacia sieť|lampa|hniezdo|štít} > location tree
+V zavesiť : person > patient thing +hangable, goal {stena|strop|hák|dvere|okno|klinec|zábradlie|vodítko}
+V zavesiť : person > patient {hojdacia sieť|lampa|štít}, goal tree
+V zakryť : person > patient {okno|zrkadlo|obraz}
+V kmitať : thing
+V kmitať : person > patient thing
+N elán : quality
+N kmitanie : phenomenon
+V otáčať : person > patient {ceruzka|baterka|kľúč|hlava|koleso|skrutka|lopta|prijatie}
+V otáčať : person > theme {koleso|gombík|kohút|skrutka|rukoväť|volant}
+V otáčať : person > patient {film|video}
+V skrútiť : person -professional > patient {paža|krk|slovo|fakt}
+V pootočiť : person > patient device
+V prekrúcať : person
+V štipnúť : person > patient animal
+V ovinúť : person > patient {šál|utierka|lano|obväz|strop|špagát|väzivo}, path {krk|paža|noha (končatina)|ruka|hlava|prst|noha (chodidlo)|koleno|zápästie}
+V ovinúť : person > patient {šál|utierka|lano|obväz|strop|špagát|väzivo}, path {rúra|tyč|konár|balík}
+V odvinúť : person > patient thing
+V navinúť : person > patient thing
+V viazať : person -professional > patient {topánka|kravata|slučka|uzol|pštros|šál|balík|lano}
+V viazať : person -professional > patient {pes|kôň|koza|somár|krava|ovca|teľa}, goal {plot|stĺp|strom|zábradlie|bicykel}
+V priviazať : person > patient beast
+V zviazať dokopy : person > patient thing
+N pripútanosť : relation
+V kopať : {pes|krt|jazvec|líška|králik|myš}
+V kopať : person > theme {zlato|poklad|voda|olej|uhlie|koreň}
+V vykopať : person > patient {poklad|kosť|koreň|zemiak|mŕtvola|minca|kameň|hrniec}
+V zakopať : animal > patient {kosť|poklad|zemiak|minca|korisť}
+V prikývnuť : person
+V prikývnuť : person > instrument {hlava}
+V trhnúť sa : animal > instrument {plece|ucho|nos|pera|oko|prst}
+V striasť sa : person
+N pokrčenie plecami : event
+V žmurkať : person > instrument {oko}
+V potľapkať : person > patient mammal
+V potľapkať : person > patient child
+V ťukať : person > goal {mobil|displej|obrazovka|monitor|tablet|klávesnica|tlačidlo}
+V ťukať : person > patient text
+N tip : information
+V ťuknúť : person > patient thing
+N políček : event
+V dať políčok : person > patient person
+V šťuchnúť : person > patient mammal
+V šťuchnúť : person > patient child
+N natiahnutie (svalu) : illness
+V namáhavo zdvihnúť : person > patient thing
+V zovrieť : person > patient body-part
+AN zovretý : body-part, feeling, event
+V zhluknúť sa : substance
+V zhluknúť sa : {oblak|hmla|búrka}
+V zhluknúť sa : group
+V hladiť : person > patient {vlasy|mačka|pes|látka|líce|hlava|chrbát|srsť}
+V hladkať : person -professional > patient pet
+V hladkať : person -professional > patient {kôň|krava|teľa|ovca|koza|jahňa|somár|poník}
+V hladkať : person -professional > patient child
+N zápalka : tool, burnable
+N škrtnutie : event
+V prečiarknuť : person > patient text
+V lúskať : person > instrument {prst}
+V chňapnúť : beast > theme {lopta|palica|kosť|chlieb|klobása|mäso|ruka|korisť}
+V chňapnúť : {policajt|policajtka|strážca|detektív} > patient {zlodej|zločinec|zbojník|páchateľ}
+V chňapnúť : beast > patient {lopta|palica|kosť|chlieb|klobása|mäso|mucha|korisť}
+V začuť : person > patient {slovo|správa (oznam)|chýr|veta}
+N momentka : picture
+V šklbať : person > theme thing
+V vytrhať : person > patient body-part
+V vyžmýkať : person > patient thing
+V poklepať : person > patient thing
+V potrieť : person > patient body-part
+V poutierať : person > patient body-part
+V poutierať : person > patient animal
+V krájať : person > patient food +cuttable
+V krájať : person > patient thing +cuttable
+V krájať : person > patient {vlasy|necht}
+N rez : event
+N ostrie : thing
+V odrezať : person > patient thing +cuttable
+V odrezať : person > patient {vlasy|brada (porast)|necht}
+V vystrihnúť : person > patient thing +cuttable
+# added: Anzeige in its second sense
+N informačná tabuľa : device
+# added: schlagen in its second sense
+V šľahať : person > patient food
+V šľahať : person > patient animal
+# added: schlagen in its second sense
+V zatĺkať : person > patient thing, instrument tool
+# added: streichen in its second sense
+V natrieť : person > patient thing, instrument substance
+V natrieť : person > patient baked-goods, instrument food
+# added: tragen in its second sense
+V nosiť : person > patient wearable
+# added: treten in its second sense
+V šliapnúť : person > goal thing
+V šliapnúť : person > goal place
+# added: drücken (press), on stlačiť
+V stlačiť : person > goal {gombík|tlačidlo|zvonček|vypínač}
+V stlačiť : person > patient {ruka|gombík|páka|vypínač|dieťa|citrón|pomaranč}
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN hmatateľný : object, body-part, quality
+AN neporaziteľný : person, group, beast
+AN nosný : building-part
+AN prenositeľný : device, thing, illness
+V biť sa : person > companion person
+V blížiť sa : animal > goal {mesto|dedina|dom|stanica|prístav}
+V bodať : person > patient person
+V bodať : insect > patient animal
+V byť isté : es > that
+V byť pripravený : person
+V dotiahnuť do konca : person > patient {plán|práca|projekt}
+V držať spolu : group
+V hltať : animal > patient food
+V hodiť sa k sebe : clothing > companion clothing
+V hodiť sa k sebe : person > companion person
+V leštiť : person > patient {nábytok|auto|topánka|nôž|okno}
+V ležať v minulosti : incident
+V lipnúť : animal > theme person
+V lipnúť : plant > theme building-part
+V mazať : person > patient food, instrument food
+V natiahnuť : person > patient fabric
+V natiahnuť : person > patient body-part
+V obnažiť : person > patient body-part
+V obnažiť : animal > patient body-part
+V odvliecť : person > patient person, goal place
+V odvliecť : person > patient artifact, goal place
+V odňať : person > patient artifact, recipient person
+V podchytiť : person > patient {nápad|myšlienka}
+V podrobiť sa : person > patient {operácia|skúška|kontrola}
+V podľahnúť : person > theme illness
+V podľahnúť : person > theme feeling
+V ponoriť (sa) : person > goal water-body
+V ponoriť (sa) : person > patient artifact, goal liquid
+V postrčiť : person > patient artifact
+V postrčiť : person > patient person
+V potiahnuť : person > patient furniture, instrument fabric
+V poukázať : person > theme {problém|chyba}
+V prestáť : person > patient illness
+V pripnúť : person > patient paper, goal building-part
+V prizvať : person > patient person
+V rozprestierať sa : landscape > location region
+V rozprestierať sa : water-body > location region
+V siahnuť (po) : person > theme tool
+V stáť tam : person > location place
+V stáť tam : building > location place
+V svišťať : {vietor|šíp|kameň}
+V tetovať : person > patient person, instrument picture
+V trasť : person > patient artifact
+V tápať : person > location room
+V vypršať : {termín|lehota|zmluva|povolenie|vízum|platnosť}
+V vystáť : person > patient {bolesť|hlad|zima}
+V vytiecť : liquid > source container
+V vyvinúť sa : animal
+V vyvinúť sa : plant
+V vyvinúť sa : illness
+V váľať : person > patient container, location place
+V zablúdiť : person > location landscape
+V zablúdiť : animal > location landscape
+V zahrnúť : text > patient {informácia}
+V zapliesť : person > patient person, location {spor|problém}
+V zaplietť sa : person > location {spor|problém}
+V zapojiť : person > patient person, goal {hra|práca}
+V zapojiť : person > patient device
+V zaseknúť : device
+V zaseknúť : person > patient device
+V zbiť : person > patient person
+V ísť ďalej : person

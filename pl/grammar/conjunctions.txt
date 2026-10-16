@@ -1,0 +1,90 @@
+# coordinating
+1 CON i {i} [i] = a
+1 CON a {a} [a] = a
+1 PHR i tak dalej {i tak dalej} [i tak ˈdalɛj] = a tak ďalej
+1 CON albo {albo} [ˈalbɔ] = alebo
+1 CON lub {lub} [lup] = alebo
+1 CON albo {albo} [ˈalbɔ] = buď
+1 CON ale {ale} [ˈalɛ] = ale
+3 CON lecz {lecz} [lɛtʂ] = ale
+1 CON bo {bo} [bɔ] = lebo
+3 CON gdyż {gdyż} [ɡdɨʂ] = lebo
+2 CON lecz {lecz} [lɛtʂ] = nýbrž
+1 CON ale {ale} [ˈalɛ] = nýbrž
+2 CON oraz {oraz} [ˈɔras] = ako aj
+2 CON jak również {jak również} [jak ˈruvɲɛʂ] = ako aj
+2 CON zarówno {zarówno} [zaˈruvnɔ] = ako… tak aj
+1 CON ani {ani} [ˈaɲi] = ani
+3 CON względnie {względnie} [ˈvzɡlɛndɲɛ] = respektíve
+2 CON bądź {bądź} [bɔɲtɕ] = respektíve
+2 CON zaś {zaś} [zaɕ] = a
+
+# subordinating
+1 CON że {że} [ʐɛ] = že
+2 CON tak że {tak że} [tak ʐɛ] = takže
+1 CON żeby {żeby} [ˈʐɛbɨ] = aby
+2 CON aby {aby} [ˈabɨ] = aby
+1 CON ponieważ {ponieważ} [pɔˈɲɛvaʂ] = pretože
+1 CON bo {bo} [bɔ] = pretože
+1 CON skoro {skoro} [ˈskɔrɔ] = keďže
+2 CON ponieważ {ponieważ} [pɔˈɲɛvaʂ] = keďže
+2 CON zwłaszcza że {zwłaszcza że} [ˈzvwaʂtʂa ʐɛ] = najmä keďže
+1 CON jeśli {jeśli} [ˈjɛɕli] = ak
+1 CON jeżeli {jeżeli} [jɛˈʐɛli] = ak
+2 CON o ile {o ile} [ɔ ˈilɛ] = pokiaľ
+1 CON dopóki {dopóki} [dɔˈpuki] = dokiaľ
+1 CON gdy tylko {gdy tylko} [ɡdɨ ˈtɨlkɔ] = len čo
+1 CON jak tylko {jak tylko} [jak ˈtɨlkɔ] = len čo
+3 CON ilekroć {ilekroć} [iˈlɛkrɔtɕ] = vždy keď
+2 CON zawsze gdy {zawsze gdy} [ˈzafʂɛ ɡdɨ] = vždy keď
+1 CON czy {czy} [tʂɨ] = či
+1 CON chociaż {chociaż} [ˈxɔtɕaʂ] = hoci
+1 CON choć {choć} [xɔtɕ] = hoci
+1 PHR jakby {jakby} [ˈjakbɨ] = akoby
+2 PHR jak gdyby {jak gdyby} [jak ˈɡdɨbɨ] = akoby
+1 CON gdy {gdy} [ɡdɨ] = keď
+1 CON kiedy {kiedy} [ˈkjɛdɨ] = keď
+1 CON jak {jak} [jak] = ako
+1 CON niż {niż} [ɲiʂ] = ako
+1 CON zanim {zanim} [ˈzaɲim] = predtým než
+1 CON zanim {zanim} [ˈzaɲim] = skôr než
+1 CON po tym, jak {po tym, jak} [pɔ tɨm jak] = potom čo
+2 CON przez to, że {przez to, że} [pʂɛs tɔ ʐɛ] = tým že
+1 PHR żeby {żeby} [ˈʐɛbɨ] = aby
+2 PHR aby {aby} [ˈabɨ] = aby
+1 CON jako {jako} [ˈjakɔ] = ako
+3 CON iż {iż} [iʂ] = že
+
+# connecting-adverbs
+1 AV dlatego {dlatego} [dlaˈtɛɡɔ] = preto
+2 AV stąd {stąd} [stɔnt] = preto
+1 AV więc {więc} [vʲɛnts] = takže
+2 AV zatem {zatem} [ˈzatɛm] = takže
+1 AV mimo to {mimo to} [ˈmʲimɔ tɔ] = napriek tomu
+1 AV jednak {jednak} [ˈjɛdnak] = predsa
+2 AV mimo wszystko {mimo wszystko} [ˈmʲimɔ ˈfʂɨstkɔ] = predsa
+1 AV jednak {jednak} [ˈjɛdnak] = však
+2 AV natomiast {natomiast} [naˈtɔmʲast] = však
+1 AV inaczej {inaczej} [iˈnatʂɛj] = inak (v opačnom prípade)
+2 AV w przeciwnym razie {w przeciwnym razie} [f pʂɛˈtɕivnɨm ˈraʑɛ] = inak (v opačnom prípade)
+1 AV poza tym {poza tym} [ˈpɔza tɨm] = okrem toho
+1 AV oprócz tego {oprócz tego} [ˈɔprutʂ ˈtɛɡɔ] = okrem toho
+2 AV ponadto {ponadto} [pɔˈnadtɔ] = navyše
+2 AV dodatkowo {dodatkowo} [dɔdatˈkɔvɔ] = navyše
+1 AV więc {więc} [vʲɛnts] = teda
+2 AV zatem {zatem} [ˈzatɛm] = teda
+2 AV bowiem {bowiem} [ˈbɔvʲɛm] = totiž
+2 AV mianowicie {mianowicie} [mʲanɔˈvʲitɕɛ] = totiž
+2 AV odpowiednio {odpowiednio} [ɔtpɔˈvʲɛdɲɔ] = podľa toho
+2 AV zgodnie z tym {zgodnie z tym} [ˈzɡɔdɲɛ s tɨm] = podľa toho
+2 AV wprawdzie {wprawdzie} [ˈfpravdʑɛ] = síce
+2 AV co prawda {co prawda} [tsɔ ˈpravda] = síce
+1 AV z jednej strony {z jednej strony} [z ˈjɛdnɛj ˈstrɔnɨ] = na jednej strane
+1 CON plus {plus} [plus] = plus
+
+# more
+2 CON chyba że {chyba że} [ˈxɨba ʐɛ] = ak nie
+
+# language-specific closed words (no Slovak word: a description)
+1 CON gdyby {gdyby} [ˈɡdɨbɨ] = keby
+1 CON czyli {czyli} [ˈtʂɨli] = čiže

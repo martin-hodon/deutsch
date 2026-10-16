@@ -1,0 +1,137 @@
+# THE SETTINGS (sentences/README.md): where words belong -- a sentence in SCENE MODE picks one setting and takes its
+# nouns and verbs from it (and from the settings above and below it, and from scenes/general.txt), so that all its
+# clauses are about one situation. A line:
+#     SETTING name : parent -- what it is (roles: role role)
+# A word belongs to settings by the files in scenes/ (scenes/restaurant.txt: `N Kellner : staff`); a ROLE is what a
+# person does there (the guest orders, the staff brings) -- a verb with a role takes only subjects of that role.
+# Adjectives and adverbs (colours, sizes, gern) belong to every setting; their categories decide where they fit.
+
+SETTING everyday -- life at all
+# at home
+SETTING home : everyday -- zu Hause, in der Wohnung (roles: family guest)
+SETTING kitchen : home -- kochen und essen zu Hause (roles: family guest)
+SETTING bathroom : home -- sich waschen, duschen, sich anziehen
+SETTING garden : home -- im Garten: pflanzen, gießen, ernten
+SETTING family : everyday -- Familie, Freunde, Feste: Geburtstag, Hochzeit, Besuch
+# in town
+SETTING town : everyday -- in der Stadt: Straßen, Gebäude, Ämter
+SETTING restaurant : town -- im Restaurant, im Café (roles: guest staff)
+SETTING shop : town -- einkaufen: im Geschäft, auf dem Markt, Kleidung kaufen (roles: customer staff)
+SETTING bank : town -- Geld: auf der Bank, bei der Post, Rechnungen
+SETTING office : town -- Behörden, Formulare, Termine (roles: client staff)
+# on the way
+SETTING travel : everyday -- reisen: Urlaub, Hotel, Ausland, Länder (roles: guest staff)
+SETTING traffic : travel -- auf der Straße: Auto, Fahrrad, Bus, Bahnhof, Flughafen
+# health
+SETTING health : everyday -- krank sein, gesund werden, der Körper
+SETTING doctor : health -- beim Arzt, im Krankenhaus, in der Apotheke (roles: patient staff)
+SETTING sport : health -- Sport treiben: laufen, schwimmen, spielen, gewinnen
+# work and learning
+SETTING work : everyday -- arbeiten: Beruf, Firma, Büro, Kollegen (roles: boss worker)
+SETTING craft : work -- bauen, reparieren, Werkstatt, Werkzeug
+SETTING farm : work -- Bauernhof, Feld, Tiere, Ernte
+SETTING factory : work -- Industrie, Maschinen, Produktion
+SETTING school : everyday -- Schule, Universität, lernen und lehren (roles: pupil teacher)
+SETTING science : school -- forschen, messen, Labor, Entdeckung
+# talking and media
+SETTING media : everyday -- telefonieren, schreiben, Zeitung, Fernsehen, Internet, Computer
+SETTING language : media -- sprechen, Sprachen, Wörter, übersetzen
+# free time
+SETTING culture : everyday -- Kunst, Musik, Theater, Kino, Museum, Bücher (roles: audience artist)
+SETTING celebration : family -- feiern: Fest, Party, Geschenke, Tanz
+# nature
+SETTING nature : everyday -- draußen: Wald, Berge, Wiese, Tiere, Pflanzen
+SETTING water : nature -- Meer, See, Fluss, Strand, schwimmen, Boot
+SETTING weather : nature -- Wetter und Jahreszeiten: Regen, Schnee, Sonne
+SETTING sky : nature -- Himmel, Sterne, Mond, Planeten
+# society
+SETTING politics : everyday -- Staat, Regierung, Wahlen, Gesellschaft, Wirtschaft
+SETTING law : politics -- Recht, Gericht, Polizei, Verbrechen (roles: police suspect)
+SETTING military : politics -- Krieg, Armee, Soldaten, Frieden
+SETTING religion : everyday -- Glaube, Kirche, Feiertage, Bräuche
+
+# THE STATES that conditions (conditions.txt) speak of, and how a clause says one -- an adjective of the subject (sein
+# + adj: weil er müde ist), a noun it has (haben + the bare noun: weil er Hunger hat); its OPPOSITE (obwohl er satt
+# ist, isst er); OF: the objects it is about, when the action has one (hungrig: food -- "weil er Hunger hat, bestellt er
+# eine Suppe", not "... Wasser"):
+# GOAL: a state one acts FOR (um ... zu: Er arbeitet, um einzukaufen -- Geld; not "Er rennt, um einzuschlafen");
+# FEELING: a mood -- a reason (weil er froh ist, lacht er), never a step in time (not "Nachdem er erschrocken war,
+# schrie er vor Freude"). An OPPOSITE only where it makes the action surprising, not impossible (müde has none:
+# "schläft, obwohl er wach ist" contradicts itself):
+# DEFAULT: the normal state -- never a reason (not "rennt, weil er gesund ist", "zahlt, weil er Geld hat"), only what
+# is against it (obwohl er krank ist) or a condition in the Konjunktiv II (Wenn ich Zeit hätte, ...); PERSON: only a person's (not "Die Zebras hatten Zeit");
+# WISH: said only with what one wants (Er hatte Lust, einen Film zu sehen -- not "Er hatte Lust."); ENDS: the action
+# that ends it (hungrig: essen -- a story whose action only prepares the food tells it too: Dann aß sie die Torte.):
+#     STATE name : adj word | noun word ; opposite name ; of category category ; goal ; feeling ; default ; person ; wish ; ends verb
+STATE hladný : adj hladný | noun hlad ; opposite sýty ; of food ; ends jesť
+STATE sýty : adj sýty ; opposite hladný ; of food
+STATE smädný : adj smädný | noun smäd ; of drink ; ends piť
+STATE unavený : adj unavený
+STATE bdelý : adj bdelý ; opposite unavený ; default
+STATE chorý : adj chorý | noun horúčka | noun bolesť hlavy ; opposite zdravý
+STATE zdravý : adj zdravý ; opposite chorý ; goal ; default
+STATE zranený : adj zranený
+STATE čas : noun čas (trvanie) ; goal ; person
+STATE peniaze : noun peniaze ; goal ; default ; person
+STATE práca : noun práca ; opposite nezamestnaný ; goal ; person
+STATE nezamestnaný : adj nezamestnaný ; opposite práca ; person
+STATE ponáhľanie : noun ponáhľanie ; opposite čas ; person
+STATE dovolenka : noun dovolenka ; person
+STATE chuť : noun chuť (túžba) ; feeling ; person ; wish
+STATE rád : adj rád | adj šťastný ; opposite smutný ; feeling
+STATE smutný : adj smutný ; opposite rád ; feeling
+STATE strach : noun strach ; feeling
+STATE odvaha : noun odvaha ; opposite strach ; feeling
+STATE pochybnosť : noun pochybnosť ; feeling ; person
+STATE zúrivý : adj zúrivý ; feeling
+STATE nervózny : adj nervózny | adj vzrušený ; feeling
+STATE pokojný : adj pokojný ; opposite nervózny ; feeling
+STATE sám : adj sám | adj osamelý ; feeling
+STATE zamilovaný : adj zamilovaný ; feeling
+STATE hrdý : adj hrdý ; feeling
+STATE závistlivý : adj závistlivý ; feeling
+STATE nadšený : adj nadšený ; feeling
+STATE spokojný : adj spokojný ; opposite nespokojný ; feeling
+STATE nespokojný : adj nespokojný ; opposite spokojný ; feeling
+STATE vinný : adj vinný
+STATE nevinný : adj nevinný ; opposite vinný
+STATE ctižiadostivý : adj ctižiadostivý ; opposite lenivý
+STATE lenivý : adj lenivý ; opposite ctižiadostivý
+STATE veriaci : adj veriaci
+STATE tehotná : adj tehotná
+STATE zvedavý : adj zvedavý ; feeling
+STATE silný : adj silný ; opposite slabý ; goal
+STATE slabý : adj slabý ; opposite silný
+STATE bohatý : adj bohatý (majetný) ; opposite chudobný
+STATE chudobný : adj chudobný ; opposite bohatý
+STATE mokrý : adj mokrý ; opposite suchý
+STATE suchý : adj suchý ; opposite mokrý
+STATE špinavý : adj špinavý ; opposite čistý
+STATE čistý : adj čistý (bez špiny) ; opposite špinavý ; goal
+STATE hotový : adj hotový ; goal
+STATE pripravený : adj pripravený ; goal
+# ... and of the OBJECT (needs A:kaputt -- Er repariert das Auto, weil es kaputt ist): an adjective said of it
+# BECOME: how a thing gets it by itself -- a verb (kaputtgehen: Der Toaster ging kaputt) or werden (Das Buch wurde nass)
+OBJSTATE pokazený ; opposite celý ; become pokaziť sa
+OBJSTATE celý ; opposite pokazený
+OBJSTATE špinavý ; opposite čistý ; become werden
+OBJSTATE čistý ; opposite špinavý
+OBJSTATE chorý ; opposite zdravý
+OBJSTATE zdravý ; opposite chorý
+OBJSTATE zranený ; opposite zdravý
+OBJSTATE nový ; opposite starý
+OBJSTATE starý ; opposite nový
+OBJSTATE silný ; opposite slabý
+OBJSTATE slabý ; opposite silný
+OBJSTATE prázdny ; opposite plný ; become werden
+OBJSTATE plný ; opposite prázdny
+OBJSTATE studený ; opposite teplý ; become werden
+OBJSTATE teplý ; opposite studený
+OBJSTATE horúci ; opposite studený
+OBJSTATE otvorený ; opposite zatvorený
+OBJSTATE zatvorený ; opposite otvorený
+OBJSTATE mokrý ; opposite suchý ; become werden
+OBJSTATE suchý ; opposite mokrý
+OBJSTATE zrelý
+OBJSTATE čerstvý
+OBJSTATE hotový

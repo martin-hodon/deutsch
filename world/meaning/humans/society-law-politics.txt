@@ -1,0 +1,708 @@
+N povesť : quality
+N obec : institution, settlement
+V nariadiť : person > patient {stolička (nábytok)|nábytok|obraz}
+V nariadiť : person > patient {kniha|kvetina|karta|kameň}
+V nariadiť : {lekár|sudca|policajt|šéf|minister|prezident|riaditeľ|učiteľ} > that
+V nariadiť : {vláda|úrad|pokrm|ministerstvo|polícia|škola} > that
+V prehľadať : person > patient place, theme thing
+V prehľadať : person > patient place, theme animal
+N neznámy : person
+N klub : institution
+N dohoda : rule
+V sťažovať sa : person -professional > topic illness
+V sťažovať sa : person -professional > topic {hluk|chlad|horúčava|práca}
+V sťažovať sa : person -professional > topic {strach|starosť|osamelosť|clivota|únava}
+V sťažovať sa : person -professional > opponent {firma|podnik|vláda|štát|prenajímateľ|sused}
+N žiadosť : document, text
+N okres : region
+N ľudia : group
+N ľud : group
+N medzinárodné právo : rule
+N národ : group
+AN národný : event, institution, rule, group ; attr
+AN medzinárodný : event, institution, rule ; attr
+N národnosť : quality
+N spoločnosť : institution
+AN spoločenský : problem, event, relation ; attr
+N spoločenstvo : group
+AN spoločný : group, activity, event, language
+N verejnosť : state
+AN verejný : place, event, building
+N kultúra : abstract
+AN kultúrny : event, institution, relation, creative-work ; attr
+N civilizácia : abstract
+AN civilizovaný : person, group
+N člen : role
+N členstvo : relation
+N občan : role
+N občianka : role
+AN občiansky : rule, event, relation, person ; attr
+N štátne občianstvo : state
+N cudzinec : national
+N cudzinka : national
+AN zahraničný : agent, dish, drink, dairy, baked-goods, vehicle, device, -national ; attr
+N otrok : person
+N otrokyňa : person
+V zotročiť : person > patient person
+V zotročiť : group > patient person
+N otroctvo : state
+V slúžiť : {vojak|vojačka|úradník|politik|politička|minister|starosta|starostka|prezident|prezidentka|sluha} > recipient {štát|ľud|krajina (štát)|boh|kráľ|zákazník|obec|vláda}
+N sluha : professional
+N status : state
+N hodnosť : state
+N česť : quality
+V uctiť : {prezident|starosta|vláda|spolok|škola|kráľ|kráľovná} > patient person -child -relative -role
+AN čestný : person, activity
+N sláva : state
+AN slávny : {zámok|hrad|kostol|dóm|veža|palác|múzeum|divadlo}, settlement, -{obec}, creative-work, {autor|autorka|herec|herečka|spevák|speváčka|umelec|maliar|básnik|vedec|športovec|politik|architekt}
+N vodca : role
+V stáť na čele : {generál|dôstojník|veliteľ|kapitán|tréner|vodca} > patient {skupina|armáda|politická strana|tím|mužstvo|oddiel}
+V stáť na čele : person > patient {príklad|dôvod}
+N šľachta : group
+N šľachtic : person
+AN šľachtický : person
+N organizácia : institution
+V organizovať : {šéf|šéfka|manažér|riaditeľ|spolok|škola|obec|učiteľ|organizátor|firma|vláda} > patient {konferencia|zasadnutie|stretnutie|porada|porada|podujatie|kurz|koncert|výstava|turnaj}
+V organizovať : {šéf|šéfka|manažér|riaditeľ|spolok|škola|obec|učiteľ|organizátor|firma|rodina} > patient celebration
+AN organizovaný : person, event, crime, institution
+N výbor : institution
+N konferencia : event, attendable
+V zjednotiť : agent > patient group
+V zjednotiť : agent > patient institution
+N aktivista : role
+N aktivistka : role
+N civilista : role
+N aktér : person
+N aktérka : person
+N utečenec : role
+N ocenenie : abstract
+N úmrtie : incident
+V angažovať sa : {občan|občianka|muž|žena|študent|politik|učiteľ|sused} > purpose {mier|sloboda|spravodlivosť|vzdelanie}
+V angažovať sa : {spolok|skupina|rodina|politická strana|škola|obec|národ|ľud|obyvateľstvo|trieda|odbory} > purpose {mier|sloboda|spravodlivosť|vzdelanie}
+AN angažovaný : agent
+N štát : country, institution
+AN štátny : institution, rule, building, event ; attr
+N hlava štátu : professional
+N vlasť : place
+N vláda : institution
+V vládnuť : {prezident|kancelár|vláda|politická strana} > patient country
+V vládnuť : {kráľ|kráľovná|cisár|vládca} > patient {krajina (štát)|ríša|ľud}
+V vládnuť : {kráľ|kráľovná|cisár|prezident|kancelár|politická strana|vládca}
+N vladár : professional
+N predseda vlády : professional
+N prezident : professional
+N prezidentka : professional
+N prezidentstvo : state
+N prezidentské voľby : event
+N kráľ : professional
+N kráľovná : professional
+AN kráľovský : agent, building, event
+N kráľovstvo : country
+N princ : professional
+N korunný princ : person
+N princezná : professional
+N cisár : professional
+N cisárovná : professional
+N cisárstvo : country
+N minister : professional
+N ministerka : professional
+N ministerstvo : institution
+N premiér : professional
+N minister zahraničných vecí : professional
+N ministerka zahraničných vecí : professional
+N minister vnútra : professional
+N minister financií : professional
+N minister hospodárstva : professional
+N minister zdravotníctva : professional
+N parlament : institution
+AN parlamentný : institution, event, rule ; attr
+N kandidát : professional
+V kandidovať : person > purpose institution
+V kandidovať : person > purpose professional
+N kandidatúra : activity
+N politika : activity
+N politik : professional
+N politička : professional
+AN politický : event, problem, institution, rule, agent ; attr
+N politická strana : institution
+AN bezpartijný : person
+N moc : state
+N mocnár : person
+N trón : furniture, sittable
+N následník trónu : person
+N koruna : jewelry
+V korunovať : agent > patient person
+N korunovácia : celebration
+N vlajka : artifact, thing, hangable, foldable
+N hymna : creative-work
+N štátna hymna : creative-work
+N územie : region
+N región : region
+N provincia : region
+N ríša : country
+N republika : country
+N demokracia : idea
+AN demokratický : institution, rule, event, agent
+N monarchia : idea
+N diktátor : professional
+N diktatúra : idea
+N revolúcia : event
+AN revolučný : idea, event, activity, agent
+N protest : event, attendable
+V protestovať : {občan|študent|žiak|robotník|človek|demonštrant|mladistvý|obyvateľ} > opponent {zákon|reforma}
+V protestovať : {ľud|množstvo|skupina|obyvateľstvo|odbory|politická strana} > opponent {zákon|reforma}
+V protestovať : {občan|študent|žiak|robotník|človek|demonštrant|mladistvý|obyvateľ} > opponent {vojna|násilie|chudoba|daň}
+V protestovať : {ľud|množstvo|skupina|obyvateľstvo|odbory|politická strana} > opponent {vojna|násilie|chudoba|daň}
+V protestovať : {občan|študent|žiak|robotník|človek|demonštrant|mladistvý|obyvateľ} > opponent {vláda|politická strana|firma|koncern|štát}
+V protestovať : {ľud|množstvo|skupina|obyvateľstvo|odbory|politická strana} > opponent {vláda|politická strana|firma|koncern|štát}
+N demonštrácia : event, attendable
+V demonštrovať : {občan|študent|žiak|robotník|človek|demonštrant|mladistvý|obyvateľ} > opponent {zákon|reforma}
+V demonštrovať : {ľud|množstvo|skupina|obyvateľstvo|odbory|politická strana} > opponent {zákon|reforma}
+V demonštrovať : {občan|študent|žiak|robotník|človek|demonštrant|mladistvý|obyvateľ} > opponent {vojna|násilie|chudoba|daň}
+V demonštrovať : {ľud|množstvo|skupina|obyvateľstvo|odbory|politická strana} > opponent {vojna|násilie|chudoba|daň}
+V demonštrovať : {občan|študent|žiak|robotník|človek|demonštrant|mladistvý|obyvateľ} > opponent {vláda|politická strana|firma|koncern|štát}
+V demonštrovať : {ľud|množstvo|skupina|obyvateľstvo|odbory|politická strana} > opponent {vláda|politická strana|firma|koncern|štát}
+V demonštrovať : {občan|študent|žiak|robotník|človek|demonštrant|mladistvý|obyvateľ} > purpose {mier|sloboda|rovnosť}
+V demonštrovať : {ľud|množstvo|skupina|obyvateľstvo|odbory|politická strana} > purpose {mier|sloboda|rovnosť}
+V demonštrovať : {občan|študent|žiak|robotník|človek|demonštrant|mladistvý|obyvateľ} > purpose {zákon|reforma|právo|spravodlivosť}
+V demonštrovať : {ľud|množstvo|skupina|obyvateľstvo|odbory|politická strana} > purpose {zákon|reforma|právo|spravodlivosť}
+N demonštrant : person
+N sloboda : state
+AN nezávislý : agent
+N nezávislosť : state
+N právo : rule
+AN právny : rule, problem, information, event ; attr
+N povinnosť : rule
+N veľvyslanectvo : building, institution, enterable
+N veľvyslanec : professional
+N veľvyslankyňa : professional
+N diplomat : professional
+N diplomacia : activity
+AN diplomatický : agent, activity, event ; attr
+N úradník : professional
+N úradníčka : professional
+N ústava : rule
+N ústavný súd : institution
+N guvernér : professional
+N kampaň : activity
+N kolónia : region
+N korupcia : crime
+AN skorumpovaný : agent, professional
+N reforma : event
+V reformovať : agent > patient institution
+V reformovať : agent > patient rule
+N senát : institution
+N senátor : professional
+N kongres : institution
+N poslanec : professional
+N kancelár : professional
+N kancelárka : professional
+N spolkový kancelár : professional
+N kabinet : institution
+N administratíva : institution
+V spravovať : {vláda|starosta|administratíva|úrad|štát|riaditeľ|manažér|šéf|šéfka} > patient {firma|podnik|škola|nemocnica|spolok|obec|banka|múzeum|knižnica|nadácia}
+V spravovať : {vláda|starosta|administratíva|úrad|štát|riaditeľ|manažér|šéf|šéfka} > patient {mesto|dedina|budova|dom|oblasť|krajina (štát)|obec}
+N mestská správa : institution
+N byrokracia : institution
+AN byrokratický : institution, activity, problem ; attr
+N režim (politický) : institution
+N tyran : person
+N tyrania : state
+V potláčať : agent > patient {ľud|žena|obyvateľstvo|opozícia}
+V potláčať : person > patient {zlosť|strach|hnev|smiech}
+N útlak : activity
+N propaganda : information
+N cenzúra : activity
+V cenzurovať : agent > patient {správa (oznam)|list (písomnosť)|film|kniha}
+N škandál : event
+N zrada : event
+N vlastizrada : event
+N sprisahanie : activity
+N exil : state
+N útek : event
+N prisťahovalec : role
+N prisťahovalectvo : process
+V vysťahovať sa : person -professional -child > goal {Amerika|Kanada|Austrália|Španielsko|Taliansko|Brazília|Rakúsko|Švajčiarsko}
+N vysťahovalec : person
+N petícia : text
+N hlasovací lístok : text, foldable
+N referendum : event
+N anketa : activity
+N dekrét : text
+N veto : event
+N koalícia : institution
+AN liberálny : person, institution, idea, rule
+AN konzervatívny : person, institution, idea, rule
+N kapitalizmus : idea
+N socializmus : idea
+N komunizmus : idea
+N anarchia : state
+N patriot : person
+N zákaz vychádzania : rule
+N spolková vláda : institution
+N zemská vláda : institution
+N Spolkový snem : institution
+N Spolková rada : institution
+N zemský snem : institution
+N zväz : institution
+N únia : institution
+N obecná rada : institution
+N kantón : region
+N úrad : institution
+N komisia : institution
+N hlasovanie : event, attendable
+N sankcia : event
+N zasadnutie : event, attendable
+N predstavenstvo : institution
+N predseda : professional
+N spolok : institution
+N nadácia : institution
+N protivník : role
+N protivníčka : role
+N násilie : crime
+N podujatie : event, attendable
+V zorganizovať : {hostiteľ|spolok|škola|obec|firma|organizátor|šéf|riaditeľ|učiteľ|rodičia|rodina|vláda|skupina|mladistvý} > patient {stretnutie|koncert|výstava|súťaž|turnaj|predstavenie|ohňostroj|vianočný trh}
+V zorganizovať : {hostiteľ|spolok|škola|obec|firma|organizátor|šéf|riaditeľ|učiteľ|rodičia|rodina|vláda|skupina|mladistvý} > patient {slávnosť|oslava|večierok|festival|svadba}
+N organizátor : role
+N opozícia : group
+N predvolebná kampaň : activity
+N funkčné obdobie : period
+N spolková krajina : region
+N spolkový prezident : professional
+N integrácia : activity
+N predpis : rule
+N spor : event
+N prevádzkovateľ : role
+N zaťaženie : state
+V zaťažiť : {vina|starosť|kríza|stres} > patient person -professional
+V zaťažiť : illness > patient person -professional
+V zaťažiť : {práca|zodpovednosť|hluk} > patient person -professional
+V zaťažiť : crime > patient person -professional
+AN zaťažený : agent, place
+N zdroj : abstract
+N spolková republika : country
+N slobodný štát : country
+N hlavné mesto spolkovej krajiny : settlement
+N landrat : professional
+N demokrat : national
+N poslanecký klub : institution
+N grémium : institution
+N združenie : institution
+N nariadenie : rule
+N povolenie : document
+V povoliť : {šéf|riaditeľ|úrad|vláda|administratíva|rodičia|otec|matka} > recipient person, patient {cesta (cestovanie)|dovolenka|žiadosť|projekt}
+V povoliť : {šéf|riaditeľ|úrad|vláda|administratíva|starosta} > patient {žiadosť|zmluva|vízum|formulár|preukaz|pas|úradné rozhodnutie|plán}
+N dohovor : text
+N migrant : role
+N rasizmus : idea
+N zúčastnený : role
+AN jednohlasný : event, idea ; attr
+N vedomosť : information
+N zákon : rule
+AN zákonný : rule, activity, event ; attr
+N zákonodarca : institution
+N návrh zákona : text
+N sudca : professional
+N sudkyňa : professional
+N porota : group
+N advokát : professional
+N advokátka : professional
+N prokurátor : professional
+N prokuratúra : institution
+N spravodlivosť : quality
+N nespravodlivosť : quality
+N zločin : crime
+N zločinec : role
+AN kriminálny : agent, activity
+N kriminalita : state
+V kradnúť : person > patient {peniaze|auto|bicykel|mobil|hodiny|šperk|taška|laptop|prsteň|reťaz|kľúč}
+V kradnúť : person > recipient person, patient {peniaze|auto|bicykel|mobil|hodiny|šperk|taška|laptop|prsteň|reťaz|kľúč}
+N zlodej : role
+N zlodejka : role
+N krádež : crime
+V okradnúť : person > patient person
+N vražda : crime
+N vrah : role
+V vraždiť : {páchateľ|vrah|zločinec|zbojník|muž|žena}
+V vraždiť : {páchateľ|vrah|zločinec|zbojník|muž|žena} > patient person
+V zavraždiť : {páchateľ|vrah|zločinec|zbojník|muž|žena} > patient person
+N podvod : crime
+V podvádzať : person > patient {zákazník|priateľ|partner|manžel|manželka|štát|firma}
+V podvádzať : group > patient {zákazník|priateľ|partner|štát|firma}
+N podvodník : person
+N väzenie : building, enterable
+N väzeň : person
+N zajatie : state
+N väzba : state
+V zatknúť : person > patient {páchateľ|zlodej|zločinec|podvodník|zbojník|podozrivý|demonštrant|muž|žena}
+V zatknúť : institution > patient {páchateľ|zlodej|zločinec|podvodník|zbojník|podozrivý|demonštrant|muž|žena}
+N zatknutie : event
+N polícia : institution
+N policajt : professional
+N policajtka : professional
+AN policajný : activity, institution, information, event ; attr
+N detektív : professional
+N dôkaz : information
+V dokázať : person > patient {nevinnosť|vina|odvaha|talent}
+V dokázať : person > that
+N svedok : role
+N svedkyňa : role
+N svedecká výpoveď : information
+N vina : state
+AN vinný : {muž|žena|priateľ|priateľka|sused|susedka|partner|partnerka|politik|prezident|novinár}
+AN nevinný : person, -professional, -role, -{fajčiar|hrdina|celebrita|dáma|upír|rozprávač|pacient}, {politik|prezident|novinár|úradník|spolupracovník|predseda|kráľovná}
+N nevinnosť : state
+N trest : event
+V potrestať : {polícia|sudca|pokrm|štát|vláda|úrad} > patient {páchateľ|zlodej|zločinec|vodič}, cause crime
+V potrestať : {učiteľ|rodičia|otec|matka|šéf|tréner|rozhodca} > patient {dieťa|žiak|vodič|hráč|syn|dcéra}, cause {chyba|klamstvo}
+N potrestanie : event
+N pokuta : event
+AN trestný : activity
+V zakázať : {rodičia|otec|matka|učiteľ|škola|šéf|riaditeľ|podnik|vláda|štát|pokrm|polícia|úrad} > recipient {dieťa|syn|dcéra|žiak|spolupracovník|občan|brat|sestra|mladistvý}, patient {návšteva|prístup|štrajk|obchodovanie|demonštrácia}
+V zakázať : {vláda|štát|škola|pokrm|polícia} > patient {kniha|román|film|noviny|pieseň|mobil|alkohol}
+V zakázať : {rodičia|otec|matka|učiteľ|škola|šéf|riaditeľ|podnik|vláda|štát|pokrm|polícia|úrad} > recipient {dieťa|syn|dcéra|žiak|spolupracovník|občan|brat|sestra|mladistvý}, inf
+N zákaz : rule
+AN zakázaný : activity, artifact, place
+V dovoliť : {rodičia|otec|matka|učiteľ|škola|šéf|riaditeľ|podnik|vláda|štát|pokrm|polícia|úrad} > recipient {dieťa|syn|dcéra|žiak|spolupracovník|občan|brat|sestra|mladistvý}, patient {návšteva|prístup|cesta (cestovanie)|prestávka}
+V dovoliť : {rodičia|otec|matka|učiteľ|škola|šéf|riaditeľ|podnik|vláda|štát|pokrm|polícia|úrad} > recipient {dieťa|syn|dcéra|žiak|spolupracovník|občan|brat|sestra|mladistvý}, inf
+AN dovolený : activity, artifact, place
+V dohodnúť : person -child > patient {termín|stretnutie|cena}, companion {zákazník|kolega|lekár|učiteľ|šéf|priateľ|firma|úrad}
+V dohodnúť : {firma|podnik|spolok|vláda} > patient {termín|stretnutie|cena}, companion {zákazník|kolega|lekár|učiteľ|šéf|priateľ|firma|úrad}
+V dohodnúť : person -child > patient {podmienka|pravidlo|lehota}, companion {zákazník|kolega|lekár|učiteľ|šéf|priateľ|firma|úrad}
+V dohodnúť : {firma|podnik|spolok|vláda} > patient {podmienka|pravidlo|lehota}, companion {zákazník|kolega|lekár|učiteľ|šéf|priateľ|firma|úrad}
+N zmluva : document, text
+N prísaha : event
+V zdediť : person -child > patient {dom|imanie|dvor|firma|peniaze}
+N dedičstvo : abstract
+N dedič : person
+N vlastníctvo : artifact
+N vlastník : role
+N majetok : object
+N majiteľ : role
+N podozrenie : idea
+AN podozrivý : person, thing
+V podozrievať : agent > patient person, topic crime
+N podozrivý : person
+AN legálny : activity, artifact
+AN nelegálny : activity, artifact
+N odvolanie : event
+N kaucia : money
+V vypočúvať : person > patient person
+V vypočúvať : institution > patient person
+N výsluch : event
+N alibi : information
+N žaloba : event
+V zažalovať : agent > patient agent
+V zažalovať : agent > patient agent, theme money
+V obžalovať : agent > patient person, topic crime
+N obžaloba : event
+N obžalovaný : person
+N poprava : event
+V popraviť : person > patient person
+V popraviť : institution > patient person
+V podplatiť : person > patient person
+V podplatiť : group > patient person
+N podplácanie : event
+N úplatok : money
+N vydieranie : crime
+V vydierať : person > patient person
+V vydierať : person > patient money
+N vyděrač : person
+N vandalizmus : activity
+N vandal : person
+N ublíženie na zdraví : event
+V uniesť : person > patient person
+N únos : crime
+N únosca : person
+N lúpež : crime
+V lúpiť : person > patient thing
+N zbojník : role
+N banda : group
+N mafia : group
+N povstanie : event
+N povstalec : person
+N upozornenie : information
+V upozorniť : {polícia|úrad|vláda|učiteľ|šéf|riaditeľ|administratíva|expert|lekár|hovorca} > theme {nebezpečenstvo|chyba|problém|riziko}
+V upozorniť : {polícia|úrad|vláda|učiteľ|šéf|riaditeľ|administratíva} > theme rule
+V upozorniť : {polícia|úrad|vláda|učiteľ|šéf|riaditeľ|administratíva|expert|lekár|hovorca} > that
+N páchateľ : role
+N páchateľka : role
+V vyšetrovať : {policajt|komisár|detektív|vyšetrovateľ|prokurátor} > opponent person
+V vyšetrovať : institution > opponent person
+V vyšetrovať : {policajt|komisár|detektív|vyšetrovateľ|prokurátor} > patient {páchateľ|príčina|adresa|hodnota}
+V vyšetrovať : institution > patient {páchateľ|príčina|adresa|hodnota}
+N vyšetrovanie : activity
+N vyšetrovateľ : professional
+N krajský súd : institution
+N miesto činu : place
+N justícia : institution
+N okresný súd : institution
+N vyšetrovacia väzba : state
+N trestný čin : crime
+N zneužitie : event
+N kriminálna polícia : institution
+N tiesňové volanie : event
+N posudok : text
+N akceptácia : state
+N poplach : event
+N antisemitizmus : idea
+N azyl : state
+N žiadateľ o azyl : person
+N dozor : activity
+N cudzinecká polícia : institution
+N vylúčenie : event
+N ministerstvo zahraničných vecí : institution
+N oslobodenie : event
+N vyprostenie : activity
+N obvinený : person
+N poškodenie : event
+N podmienečný trest : state
+N bojkot : activity
+N podpaľačstvo : crime
+N spolkový štát : country, institution
+N delikt : crime
+N diskriminácia : activity
+N dobrovoľná funkcia : activity
+N vlamač : person
+N vlámanie : crime
+N naturalizácia : process
+N odvolanie poplachu : information
+N evakuácia : event
+N expertka : professional
+N pátranie : activity
+N daňový úrad : institution, building, enterable
+N trest odňatia slobody : event
+N zproštenie viny : event
+N pamätný deň : celebration, attendable
+N hlas proti : information
+N generálny tajomník : professional
+N súdny dvor : institution
+N zákonodarstvo : activity
+N ministerstvo zdravotníctva : institution
+N rovnoprávnosť : state
+N základný zákon : rule, text
+N zatykač : document
+N ručenie : state
+N domáci pán : person
+N vydavateľ : professional
+N vládca : professional
+N vojvoda : professional
+N vojvodkyňa : professional
+N pomocná organizácia : institution
+N pozostalý : person
+N imidž : quality
+N ministerstvo vnútra : institution
+N kandidátka : professional
+N žalobca : person
+N koaličná zmluva : document, text
+N komisár : professional
+N konjunktúra : state
+N krajinský úrad : institution
+N štátna hranica : place ; an
+N krajinský hajtman : professional
+N kvalita života : quality
+N živobytie : state
+N sloboda prejavu : state
+N ľudské právo : rule
+N migrácia : process
+N premiérka : professional
+N členský štát : country, institution
+N Národná rada : institution
+N nacista : person
+N neutralita : state
+N oligarcha : person
+N poriadkový úrad : institution
+N predseda strany : professional
+N straníckly zjazd : event, attendable
+N hovorca polície : professional
+N právny nárok : rule
+N bohatý : person
+N revízia : activity
+N hmotná škoda : state
+N znalec : professional
+N náhrada škody : money ; mass
+N tehotná (žena) : person
+N suverenita : state
+N sociálny demokrat : person
+N štátna príslušnosť : relation
+N matrika : institution, building, enterable
+N daňové priznanie : document, text
+N daňový poplatník : person
+N druhé kolo volieb : event
+N trestné konanie : event
+N hliadka : group
+N študujúci : person
+N participácia : state
+N závet : document, text
+N zabitie : crime
+N smútočný obrad : event, attendable
+N usmrtenie : crime
+N bezprávie : state
+N výživné : money ; mass
+N podporovateľ : person
+N vyšetrovací výbor : institution
+N pôvodca : person
+N spotrebiteľská poradňa : institution
+N dostupnosť : quality
+N ohováranie : crime
+N porušenie : event
+N minister obrany : professional
+N ministerstvo obrany : institution
+N odsúdenie : event
+N pokarhanie : information
+N omeškanie : state
+N ľudová strana : institution
+N prednosť v jazde : rule
+N volebný obvod : region
+N volebné právo : rule
+N opätovné zvolenie : event
+N schválenie : document
+N preťaženie : state
+N napadnutie : crime
+N preživší : person
+V odložiť : person > patient event +attendable
+V iniciovať : {polícia|pokrm|vláda|úrad|sudca|prokurátor|lekár|riaditeľ|minister|ministerstvo|šéf} > patient {postup|vyšetrenie|opatrenie|rozhovor}
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN antisemitský : idea, activity, crime, creative-work, person ; attr
+AN autokratický : person, institution, rule, idea ; attr
+AN bezpečnostnopolitický : problem, idea, event, institution ; attr
+AN celospoločenský : problem, idea, event, process ; attr
+AN dobrovoľnícky : activity, group, institution, event ; attr
+AN dotieravý : person, animal, idea
+AN dôverný : information, text, document, relation, idea
+AN energeticko-politický : problem, idea, event, rule ; attr
+AN etnický : group, problem, event, idea ; attr
+AN extrémistický : person, group, idea, institution ; attr
+AN fašistický : person, group, institution, idea, rule ; attr
+AN feministický : person, group, idea, creative-work ; attr
+AN finančnopolitický : problem, idea, event, rule ; attr
+AN geopolitický : problem, idea, event, state ; attr
+AN inštitucionálny : problem, rule, idea, process ; attr
+AN islamistický : person, group, idea, crime ; attr
+AN jednotný v celom štáte : rule, document
+AN kantonálny : institution, rule, document, event ; attr
+AN klimaticko-politický : problem, idea, event, rule ; attr
+AN komunistický : person, institution, group, idea, rule ; attr
+AN komunálny : institution, rule, event, activity ; attr
+AN konjunkturálny : process, problem, idea ; attr
+AN kooperatívny : person, group, institution, activity
+AN medziobecný : institution, activity, rule, event ; attr
+AN medzistranícky : event, activity, idea, relation ; attr
+AN mohutný : animal, object, building, landscape, person
+AN moslimský : person, group, building, celebration, idea ; attr
+AN nadregionálny : institution, event, road, activity ; attr
+AN nadstranícky : person, institution, idea, activity ; attr
+AN nepovolený : activity, crime, object, event
+AN násilný : person, crime, activity, event, incident
+AN občianskoprávny : problem, rule, idea ; attr
+AN organický : plant, substance, material, process ; attr
+AN organizačný : problem, activity, process, institution ; attr
+AN podliehajúci hláseniu : event, activity, incident ; pred
+AN podvodný : person, activity, crime, document, idea
+AN podozrivý z činu : person ; pred
+AN policajne známy : person ; pred
+AN poverený : person, professional, institution ; pred
+AN povinný : activity, event, document, person
+AN pravicovo-extrémistický : person, group, idea, crime ; attr
+AN prebiehajúci (súdne) : problem, event, activity ; attr
+AN prednostný : idea, activity, document ; attr
+AN premocný : person, animal, institution, group
+AN protiprávny : activity, crime, event, idea
+AN protiústavný : rule, idea, activity, event
+AN právnický : person, problem, idea, text ; attr
+AN právnoštátny : institution, idea, rule, activity ; attr
+AN právoplatný : document, rule, event, idea
+AN pútavý pre verejnosť : event, creative-work, activity ; pred
+AN rasistický : person, idea, crime, creative-work ; attr
+AN republikánsky : person, institution, idea, rule ; attr
+AN sexistický : person, idea, creative-work ; attr
+AN slobodný (o spoločnosti) : institution, group, relation, state, idea
+AN socialistický : person, institution, idea, rule ; attr
+AN sociálnodemokratický : person, institution, idea, group ; attr
+AN spoločensko-politický : problem, idea, event, process ; attr
+AN straníckopolitický : problem, idea, event, activity ; attr
+AN sudcovský : professional, activity, rule, idea ; attr
+AN súdny : institution, event, activity, document, problem ; attr
+AN teroristický : person, group, crime, incident, idea ; attr
+AN trestaný : crime, activity, person ; pred
+AN trestnoprávny : problem, rule, idea, text ; attr
+AN v rozpore s medzinárodným právom : activity, crime, rule, idea ; pred
+AN vnútropolitický : problem, idea, event, process ; attr
+AN vnútrostranícky : problem, idea, event, activity ; attr
+AN volebný : event, activity, rule, institution, document ; attr
+AN vysokopostavený : person, professional ; attr
+AN vzdelávacej politiky : problem, idea, rule, event ; pred
+AN z hľadiska ochrany údajov : problem, idea, activity, software ; pred
+AN zahraničnopolitický : problem, idea, event, institution ; attr
+AN zločinecký : person, group, activity, idea ; attr
+AN zmluvný : relation, document, rule, idea ; attr
+AN zneužívajúci : person, institution, relation, activity
+AN zákonodarný : institution, activity, process ; attr
+AN úradný : document, institution, activity, event ; attr
+AN ústavnoprávny : problem, rule, idea ; attr
+AN šetriaci zdroje : device, vehicle, activity, process ; pred
+AN škandalózny : event, incident, person, creative-work, idea
+N elita : group
+N kontroverzia : problem
+N presadzovanie záujmov : activity
+N súkromie : state ; bare
+N výsada : quality
+N začlenenie : process
+V anektovať : {štát|vláda} > patient {krajina (štát)|oblasť}
+V anulovať : agent > patient {zmluva|manželstvo|rozhodnutie|zákon|voľba}
+V bojkotovať : agent > patient {voľba|obchod|firma|podnik|spoločnosť}
+V deklarovať : agent > patient {nezávislosť|zákon|nárok}
+V deklarovať : agent > that
+V delegovať : agent > patient {úloha|práca}, recipient person
+V diskriminovať : agent > patient person
+V dosvedčiť : person > patient {pravda|fakt|podpis}
+V dosvedčiť : person > that
+V emigrovať : person > goal country
+V evakuovať : agent > patient {obyvateľ|dieťa|škola|budova|mesto}
+V koordinovať : agent > patient {práca|projekt|činnosť|pomoc}
+V legalizovať : agent > patient {zmluva|droga|manželstvo}
+V legitimizovať : agent > patient {vláda|zákon|moc}
+V mobilizovať : agent > patient {armáda|vojak|obyvateľ|pomoc}
+V nominovať : agent > patient person, as {kandidát|minister|prezident}
+V obviňovať : person > patient person, topic crime
+V obviňovať : person > patient person, topic {klamstvo|zrada}
+V odobrať sa : person > goal {miestnosť|dom|izba}
+V odsedieť si : person > patient {trest|väzenie}
+V odslúžiť si : person > patient {trest|rok}
+V odvolať voľbou : {parlament|vláda|občan} > patient {prezident|poslanec|minister}
+V oplakávať : person > patient {smrť|mŕtvy|strata}
+V oprávniť : agent > patient person, purpose {právo|zmluva}
+V ospravedlniť : person > patient {chyba|meškanie|správanie}
+V osvedčiť : agent > patient {dokument|podpis|kópia}
+V podriadiť sa : person > recipient {zákon|pravidlo|šéf|vláda}
+V poučiť : person > patient person, topic {právo|pravidlo|povinnosť}
+V prideliť : agent > patient {úloha|práca|miestnosť|byt}, recipient person
+V propagovať : agent > patient {výrobok|politika|kultúra|myšlienka}
+V radikalizovať : agent > patient {mládež|spoločnosť|názor}
+V ratifikovať : {parlament|vláda|prezident} > patient {zmluva|dohoda}
+V reprezentovať : person > patient {krajina (štát)|klub|firma|občan}
+V reprezentovať : person > patient {krajina (štát)|klub|firma|občan}
+V revidovať : agent > patient {zákon|zmluva|plán|názor}
+V rozmiestniť : agent > patient {vojak|policajt|zbraň}, goal place
+V sankcionovať : {vláda|štát|úrad} > patient {krajina (štát)|firma|podnik}
+V spolupôsobiť : person > companion person
+V stanoviť termín : agent > patient {stretnutie|zasadnutie}
+V suspendovať : agent > patient {profesor|učiteľ|policajt|minister|zákon}
+V sídliť : {vláda|firma|podnik|ministerstvo|polícia|klub} > location building
+V tematizovať : person > patient {problém|téma}
+V umiestniť sa : person > location {pozícia|poloha}
+V uväzniť : {polícia|sudca|vláda} > patient person
+V vymenovať : agent > patient person, as {minister|sudca|riaditeľ|veliteľ}
+V výtržníčiť : person
+V zamietnuť : agent > patient {žiadosť|návrh|zákon|odvolanie}
+V zanechať v dedičstve : person > patient {dom|peniaze|majetok}, recipient person
+V zaprisahať : person > patient person, that
+V zavinit : person > patient {nehoda|škoda|požiar}
+V zdediť po niekom : person > patient {dom|peniaze|majetok|byt}
+V zhabať : {polícia|úrad|štát} > patient {majetok|peniaze|zbraň|auto}
+V zneužiť : person > patient {moc|dôvera|peniaze}
+V znárodniť : {vláda|štát} > patient {firma|podnik|banka|priemysel}
+V znásilniť : person > patient person
+V zrevolucionizovať : {technológia|vynález|vedec|vláda} > patient {priemysel|spoločnosť|trh}
+V zvolať : person > patient {zhromaždenie|stretnutie|zasadnutie}

@@ -1,0 +1,64 @@
+# personal
+1 P io {io} [ˈiːo] = ja
+1 P tu {tu} [tu] = ty
+1 P lui {lui} [ˈluːi] = on
+1 P lei {lei} [ˈlɛːi] = ona
+3 P esso {esso} [ˈɛsːo] = ono
+1 P noi {noi} [ˈnɔːi] = my
+1 P voi {voi} [ˈvɔːi] = vy (neformálne množné číslo)
+1 P Lei {Lei} [ˈlɛːi] = vy (zdvorilé oslovenie)
+
+# possessive
+1 P mio {mio} [ˈmiːo] = môj
+1 P tuo {tuo} [ˈtuːo] = tvoj
+1 P suo {suo} [ˈsuːo] = jeho
+1 P suo {suo} [ˈsuːo] = jej
+1 P nostro {nostro} [ˈnɔstro] = náš
+1 P vostro {vostro} [ˈvɔstro] = váš (neformálne)
+1 P Suo {Suo} [ˈsuːo] = Váš (zdvorilé oslovenie)
+
+# reflexive-and-reciprocal
+1 P si {si} [si] = sa (zvratné zámeno)
+2 P sé {sé} [se] = sa (zvratné zámeno)
+1 P stesso {stesso} [ˈstesːo] = sám
+2 P l'un l'altro {l'un l'altro} [lun ˈlaltro] = navzájom
+
+# demonstrative
+1 P questo {questo} [ˈkwesto] = tento
+1 AV questa volta {questa volta} [ˈkwesta ˈvɔlta] = tentoraz
+2 AV stavolta {stavolta} [ˈstaːvolta] = tentoraz
+1 P quello {quello} [ˈkwɛlːo] = tamten
+1 P tale {tale} [ˈtaːle] = taký
+2 PHR un tale {un tale} [un ˈtaːle] = taký
+1 P quel {quel} [ˈkwel] = tamten
+
+# interrogative-and-relative
+1 P chi {chi} [ki] = kto
+1 P che {che} [ke] = čo
+1 P quale {quale} [ˈkwaːle] = ktorý
+2 PHR che tipo di {che tipo di} [ke ˈtiːpo di] = aký
+1 P cui {cui} [ˈkuːi] = ktorý
+
+# indefinite
+1 P si {si} [si] = sa (neurčitý podmet)
+2 P uno {uno} [ˈuːno] = sa (neurčitý podmet)
+1 P qualcuno {qualcuno} [kwalˈkuːno] = niekto
+1 P nessuno {nessuno} [neˈsːuːno] = nikto
+1 P ognuno {ognuno} [oɲˈɲuːno] = každý človek
+2 P ciascuno {ciascuno} [tʃasˈkuːno] = každý človek
+1 P alcuni {alcuni} [alˈkuːni] = niektorý
+2 P qualche {qualche} [ˈkwalke] = niektorý
+2 P entrambi {entrambi} [enˈtrambi] = obaja
+3 P ambedue {ambedue} [ambeˈduːe] = obaja
+2 P qualsiasi {qualsiasi} [kwalˈsiːasi] = akýkoľvek
+2 P qualunque {qualunque} [kwaˈluŋkwe] = akýkoľvek
+2 P parecchi {parecchi} [paˈrekːi] = niekoľkí
+2 P diversi {diversi} [diˈvɛrsi] = niekoľkí
+1 PHR un po' {un po'} [un ˈpɔ] = trochu
+1 P nessuno {nessuno} [neˈsːuːno] = žiadny
+3 PHR po' {po'} [pɔ] = trochu
+
+# language-specific closed words (no Slovak word: a description)
+1 P ciò {ciò} [ˈtʃɔ] = to (ukazovacie zámeno)
+1 P loro {loro} [ˈloːro] = oni
+1 P loro {loro} [ˈloːro] = ich

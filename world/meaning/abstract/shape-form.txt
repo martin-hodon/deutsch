@@ -1,0 +1,161 @@
+N tvar : quality
+V tvarovať : person > patient {cesto|guľa|lopta|socha}
+V tvarovať : {dieťa|chlapec|dievča|muž|žena|hrnčiar|umelec|sochár} > patient {tón|vosk|sadra}
+V tvarovať : {sochár|umelec} > patient {mramor}
+N postava : quality
+N kruh : quality
+AN kruhový : object, place
+V krúžiť : animal > path building
+V krúžiť : animal > path thing
+V krúžiť : celestial > path celestial
+V krúžiť : vehicle > path place
+N polkruh : quality
+N štvorec : quality
+AN štvorcový : object, place
+N roh (uhol) : concrete
+N trojuholník : quality
+N štvoruholník : quality
+N obdĺžnik : quality
+AN hranatý : object, body-part
+AN trojuholníkový : object, place
+AN obdĺžnikový : object, place
+N guľa : thing
+N kocka : toy
+V hádzať kockou : person
+N valec : quality
+N kužeľ : quality
+N ovál : quality
+AN oválny : object, place, body-part
+N špirála : quality
+V ohnúť : {kováč|robotník|remeselník|mechanik|klampiar|muž|žena|chlapec|dieťa} > patient {drôt|konár|rúra|prút|lyžica|klinec|vetva|železo|kov}
+V ohnúť : vehicle > goal road
+N oblúk : quality
+AN ohnutý : object, road, body-part, plant
+N ohyb : road
+N kríž : quality
+V krížiť : road > patient road
+V krížiť : person > patient body-part
+V zakrúžkovať : person > patient {odpoveď|pole|dátum|meno}
+V zakrúžkovať : person > patient document
+N čiara : quality
+N prúžok : quality
+AN pruhovaný : fabric, clothing, animal
+N bod : quality
+N stredobod : quality
+N uhol : quality
+AN pravouhlý : object, place
+N zorný uhol : quality
+N okraj : concrete
+N zákruta : place
+N obrys : quality
+N rám : artifact
+V zarámovať : person > patient picture
+N mreža : artifact
+N mrežovanie : artifact
+N zárez : concrete
+N hrana : concrete
+N kontúra : quality
+N silueta : quality
+V vinúť : animal
+V vinúť : road
+N závit : quality
+N slučka : quality
+N vydutie : concrete
+N zúženie : process
+AN zúžený : object, building
+N hlavica : artifact
+N drážka : concrete
+N cikcak : quality
+N očko : concrete
+N zhluk : quantity
+AN okrúhly : {lopta|guľa|jablko|pomaranč|paradajka|stôl|tanier|minca|gombík|koláč|pizza|tvár}
+N zaoblenie : quality
+AN guľatý : person, animal, thing
+AN plochý : object, landscape, road
+N plocha : place, cleanable
+N povrch : concrete, cleanable
+AN rovný : object, road, body-part
+N priamka : quality
+AV rovno : direction
+AN šikmý : object, building, body-part, plant
+AN ostrý : tool, weapon, food
+V brúsiť : person > patient tool
+N ostrosť : quality
+AN neostrý : picture
+AN tupý : object, body-part
+N pahýľ : concrete
+AN špicatý : object, body-part, landscape
+AN dutý : thing
+V vyhĺbiť : person > patient thing
+V vyhĺbiť : {voda|vietor|dážď} > patient stone
+AN masívny : object, material, building
+AN hladký : object, material, road, body-part
+V uhladiť : person > patient thing
+V uhladiť : person > patient material
+N hladkosť : quality
+AN drsný : object, material, body-part, sound
+AN nerovný : object, landscape, road
+N nerovnosť : quality
+N diera : concrete, fillable
+AN deravý : object, material
+N medzera : concrete, fillable
+AN medzerovitý : object, information
+N trhlina : concrete, repairable
+N vrstva : concrete
+V vrstviť : person > patient thing
+N rad : quantity
+N stĺpec : concrete
+V štiepiť : person > patient wood
+V štiepiť : {hádka|konflikt|otázka|reforma} > patient group
+N rozštiepenie : process
+N vzor (dezén) : quality
+AN vzorovaný : fabric, clothing
+V prezerať si : person > patient person
+V prezerať si : person > patient thing
+V prezerať si : person > patient vehicle
+N štruktúra : quality
+V štruktúrovať : person > patient text
+V štruktúrovať : person > patient {údaje|reč|program|vyučovanie}
+V štruktúrovať : person > patient institution
+V štruktúrovať : person > patient {práca|deň|priebeh}
+AN štrukturálny : problem, state, idea ; attr
+N textúra : quality
+N uzol : concrete
+N uzlový bod : place
+N hrča : concrete
+N preliačina : concrete
+N symetria : quality
+AN symetrický : object, building, body-part
+AN uhlopriečny : object, place
+N uhlopriečka : quality
+AN vydutý : thing
+AN vypuklý : thing
+N hrot : concrete
+AN zúbkovaný : object, landscape
+AN zubatý : object, landscape
+AN skrútený : object, body-part, plant
+AN vlnitý : object, landscape, water-body, body-part
+N proporcia : quality
+N rozmer : quality
+AN trojrozmerný : object
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN bodový : {svetlo|lampa|zdroj}, picture ; attr
+AN formálny : event, document, text, relation, {oblek}
+AN lineárny : {pohyb|rast|vývoj|text|dej|čiara}
+AN nadrozmerný : object
+AN v celom okrese : event, rule, {zákaz|reklama|kampaň}, problem ; pred
+V formovať : person > patient {cesto|vosk|kov}
+V formovať : person > patient {charakter|názor|budúcnosť}
+V obiehať : celestial > path celestial
+V obiehať : {satelit|planéta} > path celestial
+V orámovať : person > patient {obraz|fotografia|zrkadlo|plagát}
+V orámovať : {strom|stĺp|múr} > patient {dvor|záhrada|námestie}
+V prekonať : person > patient {problém|ťažkosť|choroba|strach|prekážka|rekord}
+V prekonať : person > patient person
+V prekrížiť : person > patient {plán|zámer}
+V prekrížiť : person > patient {plán}
+V vyradiť zo služby : institution > patient {loď|lietadlo|vlak|zbraň|stroj}
+V vyradiť zo služby : person > patient {loď|lietadlo|vlak|stroj}
+V zneškodniť : {polícia|vojak|špecialista} > patient {bomba|mína|zbraň}
+V zneškodniť : {polícia|vojak} > patient person

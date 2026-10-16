@@ -1,0 +1,306 @@
+# concepts added for words of one language's word lists (HSK ...) that no concept said
+N juan -- čínska mena: 十元
+N násobok -- koľkokrát viac: 两倍
+AN hlučný -- hlučný, rušivý: 太吵了
+AN smradľavý -- smradľavý, páchnuci: 臭鱼
+AN chudý (o postave) -- chudý, útly: 他很瘦
+AN rozbitý -- rozbitý na kúsky: 杯子碎了
+N vápnik -- chemický prvok Ca: 补钙
+N luk (zbraň) -- luk na streľbu šípmi: 一把弓
+N hliník -- chemický prvok Al: 铝
+AN lepkavý -- lepkavý, lepivý: 黏
+N moč -- moč: 尿
+AN zvislý -- zvislý, kolmý: 竖线
+AN plešatý -- plešatý, holohlavý: 他秃了
+N struna -- struna hudobného nástroja: 琴弦
+N buchta -- parená alebo pečená kysnutá buchta, aj plnená
+N čínština -- čínsky jazyk
+N čínsky znak -- jeden znak čínskeho písma
+AN príjemný na počúvanie -- o hlase, hudbe, piesni
+N letenka
+N školská budova -- budova, v ktorej sa vyučuje
+N tento rok
+N budúci rok
+N diktát -- písanie podľa diktovania
+N internetový priateľ
+N slečna
+N predseda triedy -- žiak vedúci triedu
+N školská známka -- hodnotenie žiaka alebo študenta
+N čínsky Nový rok -- jarný sviatok podľa lunárneho kalendára
+N stanica metra
+N SMS -- krátka textová správa v telefóne
+N instantné rezance
+AN dojemný
+N dobrý človek
+N dobrý skutok
+N zlý človek
+N rýchle občerstvenie
+N paličky na jedenie
+N staroba
+N zahraničný študent -- študent študujúci v cudzej krajine
+N ťažká úloha
+AN nepríjemný na počúvanie -- o hlase, hudbe, reči
+N ročník -- ročník v škole
+N mandarínčina -- štandardná čínština
+N predminulý rok
+N slnečný deň
+N celá rodina
+N celé telo
+N neznáme slovo -- nové slovo, ktoré sa žiak učí
+N pani
+N telesná výchova
+N iný kraj -- iná časť krajiny, než kde hovoriaci býva
+N jedlo so sebou
+N večerník -- večerné noviny
+N západné jedlo
+N západná medicína
+N budúci týždeň
+N tekutý liek
+N zamračený deň
+N angličtina -- anglický jazyk
+N čínske jedlo
+AN stredne pokročilý
+N stredný vek
+N základná a stredná škola
+N tradičná čínska medicína
+N čínska kapusta
+N ochrankár -- strážca bezpečnosti budovy alebo podniku
+N silná stránka
+AN začiatočnícky
+N televízny seriál
+N televízna stanica
+N slabá stránka
+N člen tímu
+AN rozvinutý -- hospodársky alebo spoločensky vyspelý
+AN vysokorýchlostný
+N rôzne časti krajiny -- všetky kraje a oblasti krajiny, 各地
+N kung-fu -- čínske bojové umenie
+N štátny sviatok -- národný sviatok krajiny, 国庆
+N colnica -- úrad na hranici, ktorý kontroluje tovar a cestujúcich
+AN vyhovujúci -- spĺňajúci požadovanú normu
+N čierny čaj -- čaj z fermentovaných listov
+N za dva roky -- rok po budúcom roku, 后年
+N dopravný policajt -- policajt, ktorý riadi premávku
+N učebný materiál -- materiály pre výučbu
+N zlatá medaila -- medaila za prvé miesto
+N pekingská opera -- tradičná čínska opera
+N starec -- starý muž
+N seriál -- televízny seriál
+N studená voda -- nevarená voda
+N zelený čaj -- čaj z nefermentovaných listov
+AN ľudový -- patriaci ľudu, nie úradný
+N čaj s mliekom -- čaj zmiešaný s mliekom
+N vidiek -- krajina mimo miest
+N dav -- veľké množstvo ľudí na jednom mieste
+N formalita -- úradný postup
+N obe strany -- obidve zúčastnené strany
+N skok do výšky -- atletická disciplína
+N skok do diaľky -- atletická disciplína
+N forma -- vonkajšia podoba, nie obsah
+N pohlavie -- mužské alebo ženské
+N strieborná medaila -- medaila za druhé miesto
+N kapela -- hudobná skupina
+AN vlastenecký -- milujúci svoju vlasť
+N bakalárske štúdium -- prvý stupeň vysokoškolského štúdia
+AN diaľkový -- na veľkú vzdialenosť
+N elektrické vozidlo -- vozidlo na elektrinu
+N elektrický zdroj -- zdroj elektrickej energie
+AN použitý -- už predtým používaný
+N faktúra -- doklad o kúpe
+N vysoká cena -- vysoká hodnota tovaru
+N rýchlovlak -- vysokorýchlostný vlak
+N jednotlivec -- jeden človek ako člen celku
+N kompaktný disk -- CD alebo DVD
+N zákonitosť -- pravidelnosť, ktorú možno nájsť v javoch
+N morská voda -- slaná voda mora
+N zimné prázdniny -- školské voľno v zime
+N mililiter -- tisícina litra
+N červená obálka -- obálka s peniazmi ako dar
+AN pevný -- tvrdý a stabilný
+N spoločenský styk -- stýkanie sa s ľuďmi
+N novovek -- obdobie nedávnej minulosti
+N objektív -- šošovka fotoaparátu alebo kamery
+N vriaca voda -- vyvarená voda
+N hovorový jazyk -- hovorená reč
+N kuriérska služba -- expresné doručenie zásielok
+N krásavica -- pekná žena
+N vizitka -- obchodná karta s menom a kontaktom
+N modelka -- žena predvádzajúca módu
+N muži a ženy -- obe pohlavia
+N vnútorné lekárstvo -- odbor lekárstva
+N tlstoch -- tučný človek
+N druhá mocnina -- číslo vynásobené samým sebou
+N koniec semestra -- posledné týždne školského obdobia
+N polovica semestra -- stred školského obdobia
+N mladosť -- obdobie mladého veku
+N chudobný človek -- chudobný človek
+AN rušný -- plný ľudí a ruchu
+N bojové umenie -- tradičné bojové techniky
+N fešák -- pekný mladý muž
+N borovica -- ihličnatý strom s dlhými ihlicami
+N akciová cena -- znížená cena tovaru v akcii
+N devízy -- cudzia mena na účtoch a v rezervách
+N webová adresa -- adresa internetovej stránky, URL
+N nasledujúci mesiac -- mesiac po tomto
+N kredit -- študijný kredit
+N vyučovacia hodina -- jednotka vyučovania
+N doktorand -- postgraduálny študent
+AN amatérsky -- nie profesionálny
+N koniec mesiaca -- posledné dni mesiaca
+N športové podujatie -- športové hry, súťaže, atletický deň
+N záverečný ceremoniál -- slávnostné zakončenie podujatia
+N sklo -- priehľadný materiál
+N doktor (titul) -- akademický titul alebo jeho nositeľ
+N dlhovekosť -- dlhý život
+N titul -- čestný titul, označenie hodnosti
+N idióm -- ustálené slovné spojenie
+N fax -- prístroj alebo správa posielaná po telefónnej linke
+N osnova -- stručný prehľad hlavných bodov
+N ryžovar -- elektrický prístroj na varenie ryže
+N elektronická verzia -- digitálna podoba textu alebo knihy
+N sójový výrobok -- tofu, sójové mlieko a pod.
+N QR kód -- dvojrozmerný čiarový kód
+N právny poriadok -- zákony a inštitúcie štátu
+N topánky na podpätku -- dámska obuv s vysokým opätkom
+N obed v krabičke -- hotové jedlo v krabičke so sebou
+N pozdravná karta -- karta s blahoželaním alebo pozdravom
+N evolúcia -- postupný vývoj druhov
+N alkoholik -- človek závislý na alkohole
+N otvárací ceremoniál -- slávnostné otvorenie podujatia
+N pečená kačica -- kačica upečená v rúre
+N zvonenie -- zvuk zvončeka alebo zvona
+N poľnohospodársky výrobok -- produkt z poľnohospodárstva
+N próza -- literárny text nie vo verši
+N horská oblasť -- krajina s horami
+N vejár -- ručné ovievadlo
+N počítačová myš -- ovládač kurzora počítača
+N obe ruky -- obidve ruky spolu
+N magister -- osoba s magisterským titulom
+N broskyňový kvet -- kvet broskyne
+N broskyňový strom -- strom, nie plod
+N vedúci delegácie -- predstaviteľ skupiny vyslancov
+N vonkajší svet -- svet mimo skupiny či domova
+N mikroblog -- krátke príspevky na sociálnej sieti
+N xiangsheng -- čínsky komický dialóg dvoch hercov
+N protipožiarna ochrana -- hasenie a predchádzanie požiarom
+N kultivovanosť -- vzdelanosť a vyspelosť osobnosti
+N voliteľný predmet -- predmet, ktorý si žiak vyberie sám
+N školský predmet -- odbor vedomostí, ktorý sa učí
+N akademický titul -- stupeň vysokoškolského vzdelania
+N učenec -- vzdelaný človek, bádateľ
+N druhé miesto -- v súťaži
+N bedminton -- loptová hra s raketou a košíčkom
+N páperová bunda -- zimná bunda plnená perím
+N dažďová voda -- voda z dažďa
+N mesačný koláč -- čínsky koláč k sviatku stredu jesene
+N čitáreň -- miestnosť na čítanie v knižnici
+N postihnutá oblasť -- oblasť zasiahnutá katastrofou
+N ukazovateľ -- číselná hodnota merania alebo cieľa
+N sviatok stredu jesene -- čínsky sviatok pri splne mesiaca
+N ochrana zdravia -- preventívna starostlivosť o zdravie
+N povinný predmet -- predmet, ktorý musí žiak absolvovať
+N opravná skúška -- skúška opakovaná po neúspechu
+AN neprechodný -- zablokovaný, nedá sa ním prejsť
+AN nestojí za to -- nemá to cenu
+N produkcia -- vyrobené množstvo
+AN prosperujúci -- hospodársky rozkvitajúci
+N beh na dlhé trate -- atletická disciplína
+N autosalón -- výstava automobilov
+N mesto a vidiek -- mestá a vidiecke oblasti spolu
+N vedúci oddelenia -- šéf úradu alebo útvaru
+N dvojhra -- zápas jednotlivcov proti sebe
+AN pirátsky -- nelegálne kopírovaný
+N taoizmus -- čínske náboženstvo a filozofia
+N nízka teplota -- chlad
+N názov miesta -- meno obce alebo lokality
+N sviatok dračích lodí -- čínsky sviatok piateho dňa piateho mesiaca
+N dobrodinec -- človek, ktorý pomohol
+N pediatria -- detské lekárstvo
+N súd -- inštitúcia, ktorá súdi
+N francúzština -- jazyk Francúzov
+N deľba práce -- rozdelenie úloh medzi ľudí
+N budhizmus -- náboženstvo odvodené od Budhu
+N otec a dcéra -- otec s dcérou
+N otec a syn -- otec so synom
+AN dojímavý -- vzbudzujúci cit
+AN vyšší -- vyššieho stupňa
+N špičková technológia -- najmodernejšia technika
+N spevácka hviezda -- slávny spevák
+N priemysel a obchod -- hospodárske odvetvia
+AN domácej výroby -- vyrobený v krajine
+N štátna vlajka -- vlajka krajiny
+N morské dno -- dno mora
+AN učenlivý -- túžiaci sa učiť
+AN priaznivý -- sľubujúci šťastie
+N prvá pomoc -- ošetrenie pri nehode
+N sójová omáčka -- soy sauce, 酱油
+N ministerstvo školstva -- Ministry of Education
+AN krátkozraký -- 近视: krátkozrakosť
+N skúšobná miestnosť -- miestnosť, kde sa píše skúška
+N skúšobná otázka -- otázka na skúške
+N ústna skúška -- oral exam
+N rýchlik -- rýchly vlak
+N rubrika -- stály oddiel novín alebo vysielania
+N krajan -- človek z rovnakého kraja alebo národa
+N horúca voda
+N magnetofón -- tape recorder
+N parená buchta -- 馒头
+N osobný vlak -- pomalý vlak so zastávkami
+N slepec
+N slivkový kvet
+N ľudová pieseň
+N pracovný migrant -- migrant worker
+N verejná mienka
+N matka a dcéra
+N matka a dieťa
+N sušené mlieko
+N vnútrozemie -- inland
+N vnútro a vonkajšok -- inside and outside
+N rebríček -- chart, ranking list
+N športová raketa -- raketa na tenis, stolný tenis
+N športová hviezda
+N horúca téma
+N ohrievač vody
+N horúca linka
+N japončina
+N mliečny výrobok
+N učitelia a žiaci
+N módne oblečenie
+N pilotný projekt
+N štvorhra -- doubles
+N solárna energia
+N atlétika
+N rovnaké obdobie
+N bronzová medaila
+N cudzia mena
+N vrchné oblečenie
+N zahraničná investícia
+N internetová kaviareň
+N predchádzajúce roky
+N lôžko vo vlaku
+N tmavý oblak
+N španielčina
+N čínska opera
+N priekopník
+N usmiata tvár
+N administratívna budova
+N srdcová choroba
+AN vznikajúci
+AN vreckový
+AN pobrežný
+AN jednorazový
+AN audiovizuálny
+N filmový fanúšik
+N filmová hviezda
+AN núdzový
+N potreby -- predmety dennej potreby
+N herná konzola
+N výbušnina
+N spolubojovník
+N index
+N hlavná postava
+AN vyhradený
+N voda z vodovodu
+N vlastné ja
+N celkové množstvo
+N diskusné stretnutie

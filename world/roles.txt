@@ -1,0 +1,37 @@
+# ROLES (DESIGN.md): what a verb's slots ARE, language-free. A frame (world/meaning) names its slots by these roles;
+# each language says how it marks a role -- by default (`<lang>/rules/roles.txt`) or, for a word that does it its own
+# way, in its frames file (de: warten > theme = auf A).
+#
+#   ROLE name -- what it is (examples: German / English)
+#
+# objects
+ROLE patient     -- what the action is done to, makes, perceives, has (isst den Apfel / eats the apple; sieht ihn / sees him)
+ROLE second      -- a second plain object: what is taught, what it costs (lehrt die Kinder Deutsch / teaches the children German)
+ROLE recipient   -- who gets, is told, shown, sent, helped or harmed (gibt dem Kind / gives the child; hilft ihr / helps her)
+ROLE as          -- what the object or subject is taken as, named (nennt ihn einen Lügner / calls him a liar; gilt als Experte)
+# things the action is about or aimed at
+ROLE theme       -- what one waits, looks, hopes, asks for, reacts to, does without (wartet auf den Bus / waits for the bus)
+ROLE topic       -- what one speaks, thinks, knows, worries, is glad about (spricht über das Wetter / talks about the weather;
+                    denkt an sie / thinks of her; freut sich über das Geschenk / is glad about the present)
+ROLE cause       -- what one fears, flees, suffers from (Angst vor dem Hund / afraid of the dog; leidet unter der Hitze)
+ROLE basis       -- what something depends, is based, insists on (hängt vom Wetter ab / depends on the weather)
+ROLE purpose     -- what or whom something is for, is good for, cares for (eignet sich für die Arbeit / is suited for)
+ROLE companion   -- with whom one does it together (spricht mit ihm / talks with him; teilt mit dem Freund)
+ROLE opponent    -- against whom or what (kämpft gegen den Feind / fights the enemy; protestiert gegen das Gesetz)
+ROLE instrument  -- with what, the stuff used (füllt das Glas mit Wasser / fills the glass with water)
+ROLE share       -- what one takes part in, lacks (nimmt an der Sitzung teil / takes part in the meeting; mangelt an Geld)
+ROLE result      -- what something becomes, is turned into (verwandelt sich in einen Frosch / turns into a frog)
+ROLE substitute  -- what replaces it (ersetzt ihn durch einen neuen / replaces it with a new one)
+# where (the language chooses its preposition by the kind of place: in a room, on a field, at the shore, to a person)
+ROLE location    -- where it is or happens (wohnt in Berlin / lives in Berlin; sitzt auf dem Stuhl / sits on the chair)
+ROLE goal        -- where to (geht in die Küche / goes into the kitchen; fährt nach Wien / goes to Vienna; kommt zu ihr)
+ROLE source      -- where from (kommt aus Polen / comes from Poland; befreit ihn von der Sorge / frees him from the worry)
+ROLE path        -- through, along, around (spaziert durch den Park / walks through the park; kreist um die Sonne)
+# clauses and other kinds of slot (not roles of a noun)
+#   that      a clause (weiß, dass ... / knows that ...)        whether   (fragt, ob ... / asks whether ...)
+#   inf       an infinitive, its subject the clause's or the object's (versucht zu kommen / tries to come; erlaubt ihm zu gehen)
+#   inf.bare  with the bare infinitive (geht schwimmen / goes swimming; hört ihn singen)   inf.obj  (lässt das Auto reparieren)
+#   adj       a predicate adjective (ist müde / is tired)       pred  a predicate noun (ist Lehrer / is a teacher)
+#   refl      the verb is reflexive in this sense, said per language (sich freuen / be glad / alegrarse / se réjouir)
+#   fixed     words the phrase carries, as concepts: `fixed {dôležitý|jasný}` (es ist wichtig, dass / it is important
+#             that) -- each language's frames say them (world/CLAUSES.md fixed=); name, age, clock

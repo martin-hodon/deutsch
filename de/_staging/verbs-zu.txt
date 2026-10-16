@@ -1,0 +1,4 @@
+@ life/body-actions.txt < fangen
+- 1 V anfangen {an·fangen} [ˈanfaŋən], fängt an/fing an/angefangen [fɛŋt an/fɪŋ an/ˈanɡəfaŋən], hat (mit D) = začať, začínať
+@ abstract/relation-change.txt < haben
+- 1 V vorhaben {vor·haben} [ˈfoːɐhaːbən], hat vor/hatte vor/vorgehabt [hat foːɐ/ˈhatə foːɐ/ˈfoːɐɡəhaːpt], hat (A) = mať v pláne, zamýšľať

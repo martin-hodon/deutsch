@@ -1,0 +1,1001 @@
+# THE ITALIAN GRAMMAR TESTS: the language-free plans of de/rules/tests.txt (world/CLAUSES.md), each with the Italian
+# sentence it/realize.js must make of it -- standard Italian; the German and English it was written from above it.
+# sentences.html?test=it/rules/tests.txt&lang=it runs them.
+
+# A1.1 the present, the verb second, a place
+# de: Ich wohne in Deutschland.
+# en: I live in Germany.
+Abito in Germania.
+  S: 1 .
+  1 MAIN verb=bývať subj=1sg location=none:Nemecko
+
+# A1.1 a predicate noun after das
+# de: Das ist ein Tisch.
+# en: That is a table.
+Questo è un tavolo.
+  S: 1 .
+  1 MAIN verb=byť subj=this pred=indef:stôl
+
+# A1.1 a job, with no article
+# de: Ich bin Lehrer.
+# en: I am a teacher.
+Sono insegnante.
+  S: 1 .
+  1 MAIN verb=byť subj=1sg pred=none:učiteľ
+
+# A1.1 wie; heißen
+# de: Wie heißt du?
+# en: What is your name?
+Come ti chiami?
+  S: 1 ?
+  1 WH verb=volať_sa subj=2sg wh=how
+
+# A1.1 a name
+# de: Ich heiße Anna.
+# en: My name is Anna.
+Mi chiamo Anna.
+  S: 1 .
+  1 MAIN verb=volať_sa subj=1sg pred=name:Anna
+
+# A1.1 an age
+# de: Ich bin zwanzig Jahre alt.
+# en: I am twenty years old.
+Ho vent'anni.
+  S: 1 .
+  1 MAIN verb=byť subj=1sg pred=age:dvadsať
+
+# A1.1 the time
+# de: Es ist acht Uhr.
+# en: It is eight o'clock.
+Sono le otto.
+  S: 1 .
+  1 MAIN verb=byť subj=3sg.n pred=clock:osem
+
+# A1.1 a yes/no question, nicht
+# de: Kommst du heute nicht?
+# en: Are you not coming today?
+Non vieni oggi?
+  S: 1 ?
+  1 YESNO verb=prísť subj=2sg time=dnes neg=yes
+
+# A1.1 woher
+# de: Woher kommst du?
+# en: Where do you come from?
+Da dove vieni?
+  S: 1 ?
+  1 WH verb=prísť subj=2sg wh=whence
+
+# A1.1 two main clauses with aber
+# de: Ich bin müde, aber ich arbeite.
+# en: I am tired, but I work.
+Sono stanco, ma lavoro.
+  S: 1 , but 2 .
+  1 MAIN verb=byť subj=1sg pred=adj:unavený
+  2 MAIN verb=pracovať subj=1sg
+
+# A1.1 an alternative question with oder (the modal möchte, A1.2)
+# de: Möchtest du Kaffee oder Tee?
+# en: Would you like coffee or tea?
+Vorresti caffè o tè?
+  S: 1 ?
+  1 YESNO verb=mať_rád subj=2sg mood=hypo patient=none:káva+pair(or,none:čaj)
+
+# A1.1 the time asked
+# de: Wie spät ist es?
+# en: What time is it?
+Che ore sono?
+  S: 1 ?
+  1 WH verb=byť subj=3sg.n wh=how-late
+
+# A1.2 möchte
+# de: Ich möchte einen Kaffee.
+# en: I would like a coffee.
+Vorrei un caffè.
+  S: 1 .
+  1 MAIN verb=mať_rád subj=1sg mood=hypo patient=indef:káva
+
+# A1.2 es gibt
+# de: Es gibt hier ein Café.
+# en: There is a café here.
+Qui c'è un bar.
+  S: 1 .
+  1 MAIN verb=dať subj=3sg.n patient=indef:kaviareň place=tu
+
+# A1.2 the accusative, kein, a new object after the time
+# de: Ich kaufe heute keinen Apfel.
+# en: I am not buying an apple today.
+Oggi non compro nessuna mela.
+  S: 1 .
+  1 MAIN verb=kúpiť subj=1sg patient=no:jablko time=dnes
+
+# A1.2 the imperative, bitte
+# de: Komm bitte morgen!
+# en: Come tomorrow!
+Vieni domani!
+  S: 1 !
+  1 IMP verb=prísť imp=2sg time=zajtra
+
+# A1.2 a modal, a separable verb, an accusative pronoun
+# de: Kannst du mich morgen anrufen?
+# en: Can you phone me tomorrow?
+Puoi chiamarmi domani?
+  S: 1 ?
+  1 YESNO verb=zavolať subj=2sg patient=1sg modal=môcť time=zajtra
+
+# A1.2 man, a language with no article
+# de: Man spricht hier Deutsch.
+# en: You speak German here.
+Qui si parla tedesco.
+  S: 1 .
+  1 MAIN verb=hovoriť subj=one patient=none:nemčina place=tu
+
+# A1.2 a time phrase in front, prepositions with the dative
+# de: Am Montag fahre ich mit dem Bus zur Arbeit.
+# en: I go to work by bus on Monday.
+Il lunedì vado al lavoro in autobus.
+  S: 1 .
+  1 MAIN verb=ísť_(dopravou) subj=1sg time=on-day:pondelok instrument=def:autobus pp=to:def:práca
+
+# A2.1 the perfect, a dative pronoun, an adjective
+# de: Ich habe dir gestern ein neues Buch gegeben.
+# en: I gave you a new book yesterday.
+Ieri ti ho dato un libro nuovo.
+  S: 1 .
+  1 MAIN verb=dať subj=1sg recipient=2sg patient=indef:kniha+adj:nový time=včera tense=perfect
+
+# A2.1 a two-way preposition with the accusative
+# de: Er legt das Buch auf den Tisch.
+# en: He puts the book on the table.
+Mette il libro sul tavolo.
+  S: 1 .
+  1 MAIN verb=položiť subj=3sg.m patient=def:kniha goal=def:stôl
+
+# A2.1 a reflexive verb
+# de: Wir freuen uns sehr.
+# en: We are very pleased.
+Siamo molto contenti.
+  S: 1 .
+  1 MAIN verb=tešiť_sa subj=1pl manner=veľmi
+
+# A2.1 the comparative with als
+# de: Mein Bruder ist größer als ich.
+# en: My brother is bigger than me.
+Mio fratello è più alto di me.
+  S: 1 .
+  1 MAIN verb=byť subj=poss.1sg:brat pred=adj:veľký+comp+than(1sg)
+
+# A2.1 weil, the verb last
+# de: Ich bleibe heute zu Hause, weil ich krank bin.
+# en: I am staying at home today because I am ill.
+Oggi resto a casa perché sono malato.
+  S: 1 , 2 .
+  1 MAIN verb=zostať subj=1sg time=dnes place=home
+  2 SUB link=because verb=byť subj=1sg pred=adj:chorý
+
+# A2.1 a dass clause, kein with a bare noun
+# de: Er sagt, dass er keine Zeit hat.
+# en: He says that he has no time.
+Dice che non ha tempo.
+  S: 1 .
+  1 MAIN verb=povedať subj=3sg.m clause=2
+  2 SUB link=that verb=mať_(vlastniť) subj=3sg.m bare=no:čas_(trvanie)
+
+# A2.2 the polite Konjunktiv II
+# de: Könnten Sie mir bitte helfen?
+# en: Could you help me?
+Potrebbe aiutarmi?
+  S: 1 ?
+  1 YESNO verb=pomôcť subj=formal recipient=1sg modal=môcť mood=hypo
+
+# A2.2 welch
+# de: Welches Buch hast du gelesen?
+# en: Which book have you read?
+Quale libro hai letto?
+  S: 1 ?
+  1 WH verb=čítať subj=2sg wh=which:A.def:kniha tense=perfect
+
+# A2.2 als, the simple past of sein
+# de: Als ich jung war, wohnte ich in Österreich.
+# en: When I was young, I lived in Austria.
+Quando ero giovane, abitavo in Austria.
+  S: 1 , 2 .
+  1 SUB link=when-past verb=byť subj=1sg pred=adj:mladý tense=past
+  2 MAIN verb=bývať subj=1sg location=none:Rakúsko tense=past
+
+# A2.2 nichts
+# de: Ich habe nichts gesehen.
+# en: I have seen nothing.
+Non ho visto niente.
+  S: 1 .
+  1 MAIN verb=vidieť subj=1sg patient=nothing tense=perfect
+
+# A2.2 an indefinite pronoun object is new: after the time
+# de: Ich habe heute nichts gesehen.
+# en: I have seen nothing today.
+Oggi non ho visto niente.
+  S: 1 .
+  1 MAIN verb=vidieť subj=1sg patient=nothing tense=perfect time=dnes
+
+# A2.2 a strong past stem in -ie: schrie, wir schrien
+# de: Die Kinder schrien.
+# en: The children shouted.
+I bambini hanno gridato.
+  S: 1 .
+  1 MAIN verb=kričať subj=def:dieťa+pl tense=past
+
+# A1.2 a separable prefix of two prefixes, written apart: wieder her
+# de: Er stellt das Haus wieder her.
+# en: He restores the house.
+Restaura la casa.
+  S: 1 .
+  1 MAIN verb=obnoviť_(pôvodný_stav) subj=3sg.m patient=def:dom
+
+# A2.2 particles in a command
+# de: Komm doch mal!
+# en: Come!
+Vieni!
+  S: 1 !
+  1 IMP verb=prísť imp=2sg
+
+# A2.2 a quantifier, a place phrase
+# de: Alle Kinder spielen im Garten.
+# en: All the children play in the garden.
+Tutti i bambini giocano in giardino.
+  S: 1 .
+  1 MAIN verb=hrať subj=all:dieťa place=in:def:záhrada
+
+# B1.1 a relative clause in the dative, the perfect
+# de: Der Mann, dem ich gestern geholfen habe, wohnt jetzt in Deutschland.
+# en: The man whom I helped yesterday now lives in Germany.
+L'uomo che ho aiutato ieri ora abita in Germania.
+  S: 1 .
+  1 MAIN verb=bývať subj=def:muž+rel(2) time=teraz location=none:Nemecko
+  2 REL verb=pomôcť subj=1sg relrole=recipient time=včera tense=perfect
+
+# B1.1 a relative clause after a preposition, a possessive predicate
+# de: Die Frau, mit der ich spreche, ist meine Lehrerin.
+# en: The woman I am talking to is my teacher.
+La donna con cui parlo è la mia insegnante.
+  S: 1 .
+  1 MAIN verb=byť subj=def:žena+rel(2) pred=poss.1sg:učiteľka
+  2 REL verb=hovoriť subj=1sg relrole=companion
+
+# B1.1 an indirect question
+# de: Ich weiß nicht, wo er wohnt.
+# en: I do not know where he lives.
+Non so dove abita.
+  S: 1 .
+  1 MAIN verb=vedieť subj=1sg neg=yes clause=2
+  2 SUB wh=where verb=bývať subj=3sg.m
+
+# B1.1 an indirect yes/no question
+# de: Ich weiß nicht, ob er morgen kommt.
+# en: I do not know whether he is coming tomorrow.
+Non so se viene domani.
+  S: 1 .
+  1 MAIN verb=vedieť subj=1sg neg=yes clause=2
+  2 SUB link=whether verb=prísť subj=3sg.m time=zajtra
+
+# B1.1 the pluperfect with nachdem; gehen with an infinitive
+# de: Nachdem er gegessen hatte, ging er schlafen.
+# en: After he had eaten, he went to sleep.
+Dopo che aveva mangiato, è andato a dormire.
+  S: 1 , 2 .
+  1 SUB link=after verb=jesť subj=3sg.m tense=pluperfect
+  2 MAIN verb=ísť_(pešo) subj=3sg.m inf=spať tense=past
+
+# B1.1 an unreal condition
+# de: Wenn ich Zeit hätte, würde ich dich besuchen.
+# en: If I had time, I would visit you.
+Se avessi tempo, ti verrei a trovare.
+  S: 1 , 2 .
+  1 SUB link=if-unreal verb=mať_(vlastniť) subj=1sg bare=none:čas_(trvanie) mood=hypo
+  2 MAIN verb=navštíviť subj=1sg patient=2sg mood=hypo
+
+# B1.1 um ... zu
+# de: Ich spare Geld, um ein Auto zu kaufen.
+# en: I save money to buy a car.
+Risparmio soldi per comprare una macchina.
+  S: 1 , 2 .
+  1 MAIN verb=šetriť subj=1sg patient=none:peniaze
+  2 INF link=purpose verb=kúpiť ctrl=1sg patient=indef:auto
+
+# B1.1 a zu-infinitive as an object
+# de: Ich versuche, das Buch zu lesen.
+# en: I try to read the book.
+Cerco di leggere il libro.
+  S: 1 .
+  1 MAIN verb=skúsiť subj=1sg clause=2
+  2 INF verb=čítať ctrl=1sg patient=def:kniha
+
+# B1.1 lassen with an infinitive
+# de: Ich lasse mein Auto reparieren.
+# en: I have my car repaired.
+Faccio riparare la mia macchina.
+  S: 1 .
+  1 MAIN verb=nechať subj=1sg patient=poss.1sg:auto inf=opraviť
+
+# B1.1 the genitive attribute
+# de: Das ist das Auto meines Vaters.
+# en: That is my father's car.
+Questa è la macchina di mio padre.
+  S: 1 .
+  1 MAIN verb=byť subj=this pred=def:auto+owner(poss.1sg:otec)
+
+# B1.2 the passive in the past, von
+# de: Das Haus wurde von meinem Großvater gebaut.
+# en: The house was built by my grandfather.
+La casa è stata costruita da mio nonno.
+  S: 1 .
+  1 MAIN verb=stavať subj=def:dom voice=passive tense=past by=poss.1sg:starý_otec
+
+# B1.2 a genitive preposition in front
+# de: Wegen des Regens bleiben wir heute zu Hause.
+# en: We are staying at home today because of the rain.
+A causa della pioggia oggi restiamo a casa.
+  S: 1 .
+  1 MAIN verb=zostať subj=1pl because-of=def:dážď time=dnes place=home
+
+# B1.2 weder ... noch
+# de: Er trinkt weder Kaffee noch Tee.
+# en: He drinks neither coffee nor tea.
+Non beve né caffè né tè.
+  S: 1 .
+  1 MAIN verb=piť subj=3sg.m patient=none:káva+pair(neither-nor,none:čaj)
+
+# B1.2 nicht ..., sondern ...
+# de: Ich trinke nicht Kaffee, sondern Tee.
+# en: I do not drink coffee but tea.
+Non bevo caffè, ma tè.
+  S: 1 .
+  1 MAIN verb=piť subj=1sg patient=none:káva+pair(not-but,none:čaj)
+
+# B1.2 nicht nur ..., sondern auch ..., the perfect
+# de: Sie hat nicht nur ein Buch, sondern auch eine Zeitung gekauft.
+# en: She has bought not only a book but also a newspaper.
+Ha comprato non solo un libro, ma anche un giornale.
+  S: 1 .
+  1 MAIN verb=kúpiť subj=3sg.f patient=indef:kniha+pair(not-only-but-also,indef:noviny) tense=perfect
+
+# B1.2 the Konjunktiv II of the past
+# de: Wenn ich das gewusst hätte, wäre ich früher gekommen.
+# en: If I had known that, I would have come earlier.
+Se lo avessi saputo, sarei venuto prima.
+  S: 1 , 2 .
+  1 SUB link=if-unreal verb=vedieť subj=1sg patient=this tense=perfect mood=hypo
+  2 MAIN verb=prísť subj=1sg time=skôr tense=perfect mood=hypo
+
+# B1.2 nicht brauchen zu
+# de: Du brauchst morgen nicht zu kommen.
+# en: You do not need to come tomorrow.
+Non hai bisogno di venire domani.
+  S: 1 .
+  1 MAIN verb=prísť subj=2sg raise=potrebovať neg=yes time=zajtra
+
+# B1.2 a da-word before a dass clause
+# de: Ich freue mich darauf, dass du kommst.
+# en: I am looking forward to you coming.
+Sono contento che tu venga.
+  S: 1 .
+  1 MAIN verb=tešiť_sa subj=1sg pp=on:it clause=2
+  2 SUB link=that verb=prísť subj=2sg
+
+# B1.2 es before a dass clause
+# de: Es ist wichtig, dass ihr pünktlich seid.
+# en: It is important that you are punctual.
+È importante che siate puntuali.
+  S: 1 .
+  1 MAIN verb=byť subj=3sg.n fixed=dôležitý clause=2
+  2 SUB link=that verb=byť subj=2pl pred=adj:dochvíľny
+
+# B1.2 the subject left out after und
+# de: Er kauft Brot und trinkt Kaffee.
+# en: He buys bread and drinks coffee.
+Compra il pane e beve il caffè.
+  S: 1 and 2 .
+  1 MAIN verb=kúpiť subj=3sg.m patient=none:chlieb
+  2 MAIN verb=piť drop=yes subj=3sg.m patient=none:káva
+
+# B1.2 zwar ... aber
+# de: Er ist zwar müde, aber er arbeitet.
+# en: Admittedly, he is tired, but he works.
+È vero che è stanco, ma lavora.
+  S: 1 , but 2 .
+  1 MAIN verb=byť subj=3sg.m conn=síce pred=adj:unavený
+  2 MAIN verb=pracovať subj=3sg.m
+
+# B1.2 obwohl in front, gehen with an infinitive in the perfect
+# de: Obwohl es regnete, sind wir spazieren gegangen.
+# en: Although it rained, we went for a walk.
+Anche se pioveva, siamo andati a fare una passeggiata.
+  S: 1 , 2 .
+  1 SUB link=although verb=pršať subj=3sg.n tense=past
+  2 MAIN verb=ísť_(pešo) subj=1pl inf=prechádzať_sa tense=perfect
+
+# B2.1 the passive in the perfect, a time phrase
+# de: Das Haus ist letztes Jahr renoviert worden.
+# en: The house was renovated last year.
+La casa è stata ristrutturata l'anno scorso.
+  S: 1 .
+  1 MAIN verb=renovovať subj=def:dom voice=passive tense=perfect time=last:rok
+
+# B2.1 the passive with a modal
+# de: Der Brief muss heute geschrieben werden.
+# en: The letter must be written today.
+La lettera deve essere scritta oggi.
+  S: 1 .
+  1 MAIN verb=písať subj=def:list_(písomnosť) voice=passive modal=musieť time=dnes
+
+# B2.1 the state passive
+# de: Die Tür ist geöffnet.
+# en: The door is open.
+La porta è aperta.
+  S: 1 .
+  1 MAIN verb=otvoriť subj=def:dvere voice=state
+
+# B2.1 reported speech, the Konjunktiv I of the past
+# de: Er sagt, er sei krank gewesen.
+# en: He says he was ill.
+Dice di essere stato malato.
+  S: 1 .
+  1 MAIN verb=povedať subj=3sg.m clause=2
+  2 REP verb=byť subj=3sg.m pred=adj:chorý tense=perfect mood=reported
+
+# B2.1 the double infinitive in the Konjunktiv II
+# de: Ich hätte gestern arbeiten müssen.
+# en: I would have had to work yesterday.
+Ieri avrei dovuto lavorare.
+  S: 1 .
+  1 MAIN verb=pracovať subj=1sg modal=musieť tense=perfect mood=hypo time=včera
+
+# B2.1 the double infinitive in a subordinate clause
+# de: Ich weiß, dass er gestern hat kommen müssen.
+# en: I know that he had to come yesterday.
+So che ieri è dovuto venire.
+  S: 1 .
+  1 MAIN verb=vedieť subj=1sg clause=2
+  2 SUB link=that verb=prísť subj=3sg.m modal=musieť tense=perfect time=včera
+
+# B2.1 hören with an infinitive in the perfect
+# de: Ich habe sie singen hören.
+# en: I have heard her sing.
+L'ho sentita cantare.
+  S: 1 .
+  1 MAIN verb=počuť subj=1sg patient=3sg.f inf=spievať tense=perfect
+
+# B2.1 je ... desto
+# de: Je länger er arbeitet, desto müder wird er.
+# en: The longer he works, the more tired he becomes.
+Più a lungo lavora, più si stanca.
+  S: 1 , 2 .
+  1 SUB link=the-more verb=pracovať subj=3sg.m jecomp=dlhý
+  2 MAIN link=the-more-so verb=stať_sa subj=3sg.m pred=adj:unavený+comp.bare
+
+# B2.1 als ob with the Konjunktiv II
+# de: Er tut so, als ob er krank wäre.
+# en: He acts as if he were ill.
+Fa come se fosse malato.
+  S: 1 , 2 .
+  1 MAIN verb=robiť subj=3sg.m fixed=tak
+  2 SUB link=as-if verb=byť subj=3sg.m pred=adj:chorý mood=hypo
+
+# B2.1 indem
+# de: Er lernt, indem er liest.
+# en: He learns by reading.
+Impara leggendo.
+  S: 1 , 2 .
+  1 MAIN verb=učiť_sa subj=3sg.m
+  2 SUB link=by-doing verb=čítať subj=3sg.m
+
+# B2.1 a participle I before the noun
+# de: Die lachenden Kinder spielen im Garten.
+# en: The laughing children play in the garden.
+I bambini che ridono giocano in giardino.
+  S: 1 .
+  1 MAIN verb=hrať subj=def:dieťa+pl+part(I,smiať_sa) place=in:def:záhrada
+
+# B2.1 sich lassen
+# de: Das Fenster lässt sich leicht öffnen.
+# en: The window opens easily.
+La finestra si apre facilmente.
+  S: 1 .
+  1 MAIN verb=otvoriť subj=def:okno voice=sichlassen manner=ľahký
+
+# B2.1 sein + zu
+# de: Das Problem ist schwer zu lösen.
+# en: The problem is difficult to solve.
+Il problema è difficile da risolvere.
+  S: 1 .
+  1 MAIN verb=riešiť subj=def:problém voice=seinzu manner=ťažký
+
+# B2.1 scheinen + zu
+# de: Er scheint müde zu sein.
+# en: He seems to be tired.
+Sembra essere stanco.
+  S: 1 .
+  1 MAIN verb=byť subj=3sg.m raise=zdať_sa pred=adj:unavený
+
+# B2.1 a relative clause with dessen
+# de: Der Mann, dessen Auto kaputt ist, wartet auf den Bus.
+# en: The man whose car is broken is waiting for the bus.
+L'uomo la cui macchina è rotta aspetta l'autobus.
+  S: 1 .
+  1 MAIN verb=čakať subj=def:muž+rel(2) theme=def:autobus
+  2 REL verb=byť subj=none:auto relrole=owner pred=adj:pokazený
+
+# B2.1 a relative clause after a two-way preposition
+# de: Der Lehrer, auf den wir warten, kommt morgen.
+# en: The teacher we are waiting for is coming tomorrow.
+L'insegnante che aspettiamo viene domani.
+  S: 1 .
+  1 MAIN verb=prísť subj=def:učiteľ+rel(2) time=zajtra
+  2 REL verb=čakať subj=1pl relrole=theme
+
+# B2.1 a modal said of what one hears (subjective sollen)
+# de: Er soll sehr reich sein.
+# en: He is supposed to be very rich.
+Si dice che sia molto ricco.
+  S: 1 .
+  1 MAIN verb=byť subj=3sg.m modal=mať_(povinnosť) pred=adj:bohatý_(majetný)+deg:veľmi
+
+# B2.1 the future perfect
+# de: Er wird das Buch morgen gelesen haben.
+# en: He will have read the book by tomorrow.
+Avrà letto il libro entro domani.
+  S: 1 .
+  1 MAIN verb=čítať subj=3sg.m patient=def:kniha time=zajtra tense=future2
+
+# B2.2 an extended participle
+# de: Der vom Arzt empfohlene Tee schmeckt bitter.
+# en: The tea recommended by the doctor tastes bitter.
+Il tè consigliato dal medico ha un sapore amaro.
+  S: 1 .
+  1 MAIN verb=chutiť subj=def:čaj+part(II,odporučiť,by(def:lekár)) pred=adj:horký
+
+# B2.2 zu + participle I
+# de: Das zu lesende Buch liegt auf dem Tisch.
+# en: The book to be read lies on the table.
+Il libro da leggere è sul tavolo.
+  S: 1 .
+  1 MAIN verb=ležať subj=def:kniha+part(zuI,čítať) location=def:stôl
+
+# B2.2 the condition without wenn, in the past
+# de: Hätte ich Zeit gehabt, wäre ich gekommen.
+# en: If I had had time, I would have come.
+Se avessi avuto tempo, sarei venuto.
+  S: 1 , 2 .
+  1 SUB link=if-unreal verb=mať_(vlastniť) subj=1sg bare=none:čas_(trvanie) tense=perfect mood=hypo
+  2 MAIN verb=prísť subj=1sg tense=perfect mood=hypo
+
+# B2.2 wer ..., der ... with a separable verb (joined at the end)
+# de: Wer früh aufsteht, der arbeitet viel.
+# en: Whoever gets up early works a lot.
+Chi si alza presto lavora molto.
+  S: 1 , 2 .
+  1 WHOEVER verb=vstať time=raný
+  2 MAIN verb=pracovať subj=that-one manner=veľa
+
+# B2.2 wer ..., der ...
+# de: Wer Hunger hat, der isst.
+# en: Whoever is hungry eats.
+Chi ha fame mangia.
+  S: 1 , 2 .
+  1 WHOEVER verb=mať_(vlastniť) bare=none:hlad
+  2 MAIN verb=jesť subj=that-one
+
+# B2.2 a nominalised infinitive
+# de: Das Lesen fällt ihm schwer.
+# en: Reading is difficult for him.
+Leggere gli costa fatica.
+  S: 1 .
+  1 MAIN verb=padnúť subj=def:@čítať recipient=3sg.m fixed=ťažký
+
+# B2.2 the passive in the Konjunktiv II of the past
+# de: Das Haus wäre beinahe zerstört worden.
+# en: The house was almost destroyed.
+La casa è quasi stata distrutta.
+  S: 1 .
+  1 MAIN verb=zničiť subj=def:dom voice=passive tense=perfect mood=hypo manner=takmer
+
+# B2.2 ohne ... zu in front
+# de: Ohne ein Wort zu sagen, ging er.
+# en: Without saying a word, he left.
+Senza dire una parola, se n'è andato.
+  S: 1 , 2 .
+  1 INF link=without verb=povedať ctrl=3sg.m patient=indef:slovo
+  2 MAIN verb=ísť_(pešo) subj=3sg.m tense=past
+
+# B2.2 a relative clause in the pluperfect, the object in front, a modal in the perfect
+# de: Das Buch, das ich ihm gegeben hatte, hat er nicht lesen wollen.
+# en: He did not want to read the book that I had given him.
+Non ha voluto leggere il libro che gli avevo dato.
+  S: 1 .
+  1 MAIN verb=čítať subj=3sg.m patient=def:kniha+rel(2) modal=chcieť tense=perfect neg=yes
+  2 REL verb=dať subj=1sg relrole=patient recipient=3sg.m tense=pluperfect
+
+# B2.2 es tut mir leid, a dass clause in the perfect
+# de: Es tut mir leid, dass ich nicht gekommen bin.
+# en: I am sorry that I did not come.
+Mi dispiace di non essere venuto.
+  S: 1 .
+  1 MAIN verb=robiť subj=3sg.n recipient=1sg fixed=ľúto clause=2
+  2 SUB link=that verb=prísť subj=1sg neg=yes tense=perfect
+
+# B2.2 everything at once: a condition in the past with a modal, a relative clause, a passive infinitive
+# de: Wenn man mir das gesagt hätte, hätte ich den Brief, der gestern geschrieben worden war, nicht schicken müssen.
+# en: If you had told me that, I would not have had to send the letter that had been written yesterday.
+Se me lo avessero detto, non avrei dovuto spedire la lettera che era stata scritta ieri.
+  S: 1 , 2 .
+  1 SUB link=if-unreal verb=povedať subj=one recipient=1sg patient=this tense=perfect mood=hypo
+  2 MAIN verb=poslať subj=1sg patient=def:list_(písomnosť)+rel(3) modal=musieť tense=perfect mood=hypo neg=yes
+  3 REL verb=písať relrole=subj voice=passive tense=pluperfect time=včera
+
+# A1.2 the dative plural: no -n after a vowel, capitals too (den USA); a strong noun in -at (dem Staat)
+# de: Wir kommen aus den USA.
+# en: We come from the USA.
+Veniamo dagli Stati Uniti.
+  S: 1 .
+  1 MAIN verb=prísť subj=1pl source=def:USA+pl
+
+# de: Er hilft dem Staat.
+# en: He helps the state.
+Aiuta lo stato.
+  S: 1 .
+  1 MAIN verb=pomôcť subj=3sg.m recipient=def:štát
+
+# A1.2 a stem change with a stem in -t: du hältst, du rätst
+# de: Du hältst die Tasse.
+# en: You hold the cup.
+Tieni la tazza.
+  S: 1 .
+  1 MAIN verb=držať subj=2sg patient=def:šálka
+
+# A2.1 direct speech: what is said in „ “ after a colon
+# de: Sie sagte: „Danke!“
+# en: She said, ‘Thank you!’
+Ha detto: «Grazie!»
+  S: 1 : „ ďakujem ! “
+  1 MAIN verb=povedať subj=3sg.f tense=past
+
+# de: Er fragte seine Mutter: „Kannst du mir helfen?“
+# en: He asked his mother, ‘Can you help me?’
+Ha chiesto a sua madre: «Puoi aiutarmi?»
+  S: 1 : „ 2 ? “
+  1 MAIN verb=pýtať_sa subj=3sg.m patient=poss.3sg.m:matka tense=past
+  2 YESNO verb=pomôcť subj=2sg recipient=1sg modal=môcť
+
+# A2.1 an adjective that loses its e before an ending: teuer -> teure, sauer -> saure (morphology.txt adj.drop-e)
+# de: Ich kaufe ein teures Auto und einen sauren Apfel.
+# en: I buy an expensive car and a sour apple.
+Compro una macchina cara e una mela acida.
+  S: 1 .
+  1 MAIN verb=kúpiť subj=1sg patient=indef:auto+adj:drahý+pair(and,indef:jablko+adj:kyslý)
+
+# A2.1 the present by rule: -ien after a consonant (knien: ich knie), -eln (ich sammle), -ern (wir wandern), an e
+# before -st/-t after an obstruent and m/n (du atmest) -- morphology.txt rule.present
+# de: Ich knie, und wir knien.
+# en: I kneel, and we kneel.
+Sono in ginocchio e siamo in ginocchio.
+  S: 1 , and 2 .
+  1 MAIN verb=kľačať subj=1sg
+  2 MAIN verb=kľačať subj=1pl
+
+# de: Ich sammle Steine, du atmest, und wir wandern.
+# en: I collect stones, you breathe, and we hike.
+Raccolgo sassi, respiri e facciamo escursioni.
+  S: 1 , 2 , and 3 .
+  1 MAIN verb=zbierať subj=1sg patient=none:kameň+pl
+  2 MAIN verb=dýchať subj=2sg
+  3 MAIN verb=putovať subj=1pl
+
+# B1.1 Konjunktiv II of a strong verb: its past with the umlaut (kam -> käme, gab -> gäbe) -- morphology.txt rule.subj2
+# de: Wenn er käme, gäbe ich ihm das Buch.
+# en: If he came, I would give him the book.
+Se venisse, gli darei il libro.
+  S: 1 , 2 .
+  1 SUB link=if-unreal verb=prísť subj=3sg.m mood=hypo
+  2 MAIN verb=dať subj=1sg recipient=3sg.m patient=def:kniha mood=hypo
+
+# B1.1 a prepositional phrase in front: the instrument (story telling)
+# de: Mit einem Löffel probierte er die Suppe.
+# en: He tasted the soup with a spoon.
+Ha assaggiato la zuppa con un cucchiaio.
+  S: 1 .
+  1 MAIN verb=ochutnať subj=3sg.m patient=def:polievka pp=with:indef:lyžica tense=past
+
+# B1.1 direct speech first, then who said it (the verb before the speaker)
+# de: „Das Essen ist fertig!“, rief seine Mutter.
+# en: ‘The food is ready!’ his mother called.
+«Il cibo è pronto!», ha chiamato sua madre.
+  S: „ 2 ! “ , 1 .
+  1 MAIN verb=volať subj=poss.3sg.m:matka tense=past
+  2 MAIN verb=byť subj=def:jedlo pred=adj:hotový
+
+# B1.1 the manner in front
+# de: Langsam schmolz die Butter.
+# en: The butter melted slowly.
+Il burro si è sciolto lentamente.
+  S: 1 .
+  1 MAIN verb=topiť_sa subj=def:maslo manner=pomalý tense=past
+
+# B1.1 a state as an attribute
+# de: Sie legte das Ei in die heiße Pfanne.
+# en: She put the egg into the hot pan.
+Ha messo l'uovo nella padella calda.
+  S: 1 .
+  1 MAIN verb=položiť subj=3sg.f patient=def:vajce goal=def:panvica+adj:horúci tense=past
+
+# B1.2 a participle attribute
+# de: Dann aß er das gebratene Ei.
+# en: Then he ate the fried egg.
+Poi ha mangiato l'uovo fritto.
+  S: 1 .
+  1 MAIN verb=jesť subj=3sg.m patient=def:vajce+part(II,smažiť) time=potom tense=past
+
+# B1.2 während: two things at once
+# de: Während die Butter schmolz, schnitt sie die Zwiebeln.
+# en: While the butter melted, she cut the onions.
+Mentre il burro si scioglieva, ha tagliato le cipolle.
+  S: 1 , 2 .
+  1 SUB link=while verb=topiť_sa subj=def:maslo tense=past
+  2 MAIN verb=krájať subj=3sg.f patient=def:cibuľa+pl tense=past
+
+# B1.2 three verbs, one subject
+# de: Sie nahm einen Löffel, rührte die Suppe um und probierte sie.
+# en: She took a spoon, stirred the soup and tasted it.
+Ha preso un cucchiaio, ha mescolato la zuppa e l'ha assaggiata.
+  S: 1 , 2 and 3 .
+  1 MAIN verb=vziať subj=3sg.f patient=indef:lyžica tense=past
+  2 MAIN verb=premiešať drop=yes subj=3sg.f patient=def:polievka tense=past
+  3 MAIN verb=ochutnať drop=yes subj=3sg.f patient=it:polievka tense=past
+
+# B1.1 a gesture with its manner, and another
+# de: Sie atmete tief aus und lächelte.
+# en: She breathed out deeply and smiled.
+Ha espirato profondamente e ha sorriso.
+  S: 1 and 2 .
+  1 MAIN verb=vydychovať subj=3sg.f manner=hlboký tense=past
+  2 MAIN verb=usmievať_sa drop=yes subj=3sg.f tense=past
+
+# A2.2 a part of the body as the subject
+# de: Ihre Stirn glänzte.
+# en: Her forehead shone.
+La sua fronte luccicava.
+  S: 1 .
+  1 MAIN verb=lesknúť_sa subj=poss.3sg.f:čelo tense=past
+
+# B1.1 the turning point
+# de: Jetzt kam der entscheidende Augenblick.
+# en: Now the decisive moment came.
+Ora è arrivato il momento decisivo.
+  S: 1 .
+  1 MAIN verb=prísť subj=def:okamih+adj:rozhodujúci time=teraz tense=past
+
+# A2.1 a verdict: one word
+# de: Perfekt.
+# en: Perfect.
+Perfetto.
+  S: dokonalý .
+
+# B1.1 the reflexive before a noun subject in the middle field
+# de: Nun freute sich Max.
+# en: Now Max was pleased.
+Ora Max si è rallegrato.
+  S: 1 .
+  1 MAIN verb=tešiť_sa subj=name:Max time=teraz tense=past
+
+# B1.1 the manner before a new object
+# de: Sie trank langsam einen Schluck.
+# en: She slowly drank a sip.
+Ha bevuto un sorso lentamente.
+  S: 1 .
+  1 MAIN verb=piť subj=3sg.f patient=indef:dúšok manner=pomalý tense=past
+
+# B1.1 the manner in front, a new object (the manner once)
+# de: Vorsichtig schob sie Kekse in den Ofen.
+# en: She carefully pushed biscuits into the oven.
+Con cautela ha infilato dei biscotti nel forno.
+  S: 1 .
+  1 MAIN verb=tlačiť subj=3sg.f patient=none:sušienka+pl pp=into:def:pec manner=opatrný tense=past
+
+# B2.1 a reply with ohne ... zu (the speaker after the quote)
+# de: „Gern!“, antwortete sie, ohne den Blick vom Herd zu wenden.
+# en: ‘Gladly!’ she answered, without turning her gaze from the cooker.
+«Volentieri!», ha risposto, senza distogliere lo sguardo dai fornelli.
+  S: „ rád ! “ , 1 , 2 .
+  1 MAIN verb=odpovedať subj=3sg.f tense=past
+  2 INF link=without verb=obrátiť patient=def:pohľad pp=from:def:sporák ctrl=3sg.f
+
+# B1.2 a fragment: a noun phrase alone (a story's verdict on what was made)
+# de: Eine Tomatensoße mit Knoblauch und Basilikum.
+# en: A tomato sauce with garlic and basil.
+Una salsa di pomodoro con aglio e basilico.
+  S: 1 .
+  1 FRAG np=indef:paradajková_omáčka pp=with:none:cesnak+pair(and,none:bazalka)
+
+# B1.1 a smell of what is being made (a participle on a bare noun)
+# de: Es duftete nach gebratenen Frikadellen.
+# en: It smelt of fried meatballs.
+Profumava di polpette fritte.
+  S: 1 .
+  1 MAIN verb=voňať subj=3sg.n theme=none:fašírka+pl+part(II,smažiť) tense=past
+
+# B2.1 a sign of the work's heat, while ... (the manner of what goes on)
+# de: Ihre Stirn glänzte von der Hitze, während sie die Suppe konzentriert umrührte.
+# en: Her forehead shone from the heat while she stirred the soup with concentration.
+La sua fronte luccicava per il calore mentre mescolava la zuppa con concentrazione.
+  S: 1 , 2 .
+  1 MAIN verb=lesknúť_sa subj=poss.3sg.f:čelo pp=from:def:horúčava tense=past
+  2 SUB link=while verb=premiešať subj=3sg.f patient=def:polievka manner=sústredený tense=past
+
+# B1.1 a time span ahead, said in a hurry
+# de: Die Gäste kommen in zehn Minuten!
+# en: The guests are coming in ten minutes!
+Gli ospiti arrivano tra dieci minuti!
+  S: 1 !
+  1 MAIN verb=prísť subj=def:hosť+pl time=in-time:desať:minúta
+
+# B1.1 still needs (noch), a seasoning added (dazu at the end)
+# de: Die Suppe brauchte noch Salz.
+# en: The soup still needed salt.
+La zuppa aveva ancora bisogno di sale.
+  S: 1 .
+  1 MAIN verb=potrebovať subj=def:polievka patient=none:soľ time=ešte tense=past
+
+# de: Sie gab Salz dazu.
+# en: She added salt.
+Ha aggiunto sale.
+  S: 1 .
+  1 MAIN verb=dať subj=3sg.f patient=none:soľ fixed=k_tomu tense=past
+
+# A2.2 a doorbell: es as the subject
+# de: Da klingelte es an der Tür.
+# en: Then the doorbell rang.
+A quel punto ha suonato il campanello.
+  S: 1 .
+  1 MAIN verb=zvoniť subj=def:zvonček time=vtedy tense=past
+
+# A2.1 two sentences in one block
+# de: Da klingelte es an der Tür. Die Gäste waren da.
+# en: Then the doorbell rang. The guests were there.
+A quel punto ha suonato il campanello. Gli ospiti erano lì.
+  S: 1 . 2 .
+  1 MAIN verb=zvoniť subj=def:zvonček time=vtedy tense=past
+  2 MAIN verb=byť subj=def:hosť+pl place=tam_(miesto) tense=past
+
+# A2.1 a number and a plural noun
+# de: Sie schlug zwei Eier in die Pfanne.
+# en: She cracked two eggs into the pan.
+Ha rotto due uova nella padella.
+  S: 1 .
+  1 MAIN verb=biť subj=3sg.f patient=num.dva:vajce+pl pp=into:def:panvica tense=past
+
+# B1.2 a hint of a taste: a fragment
+# de: Ein Hauch von Knoblauch.
+# en: A hint of garlic.
+Un accenno di aglio.
+  S: 1 .
+  1 FRAG np=indef:závan+owner.von(none:cesnak)
+
+# B1.1 a tiny portion tasted with a spoon (the instrument in front)
+# de: Mit einem Löffel probierte er eine winzige Portion.
+# en: He tasted a tiny portion with a spoon.
+Con un cucchiaio ha assaggiato una porzione minuscola.
+  S: 1 .
+  1 MAIN verb=ochutnať subj=3sg.m patient=indef:porcia+adj:maličký pp=with:indef:lyžica tense=past
+
+# A2.2 how it turned out
+# de: Bald waren die Brötchen golden.
+# en: The rolls were soon golden.
+Presto i panini erano dorati.
+  S: 1 .
+  1 MAIN verb=byť subj=def:žemľa+pl pred=adj:zlatý time=čoskoro tense=past
+
+# A2.2 a time phrase of two words in front
+# de: Kurz danach kochte das Wasser.
+# en: Shortly afterwards the water boiled.
+Poco dopo l'acqua bolliva.
+  S: 1 .
+  1 MAIN verb=vrieť subj=def:voda time=krátko_nato tense=past
+
+# B2.1 two adjectives on one noun (coordinated, a comma)
+# de: Die Butter verwandelte die dünne Soße in einen dunklen, glänzenden Spiegel.
+# en: The butter turned the thin sauce into a dark, shiny mirror.
+Il burro ha trasformato la salsa liquida in uno specchio scuro e lucido.
+  S: 1 .
+  1 MAIN verb=premeniť subj=def:maslo patient=def:omáčka+adj:tenký result=indef:zrkadlo+adj:tmavý+adj:lesklý tense=past
+
+# B1.2 a predicate pair: two adjectives with aber
+# de: Seine Stimme war ruhig, aber laut.
+# en: His voice was quiet but loud.
+La sua voce era calma, ma forte.
+  S: 1 .
+  1 MAIN verb=byť subj=poss.3sg.m:hlas pred=adj:pokojný+but(hlasný) tense=past
+
+# B1.2 a list of three noun phrases (a fragment)
+# de: Ein Hauch von Salz, eine knusprige Kruste und ein warmer Duft.
+# en: A hint of salt, a crispy crust and a warm aroma.
+Un accenno di sale, una crosta croccante e un profumo caldo.
+  S: 1 .
+  1 FRAG np=indef:závan+owner.von(none:soľ)+pair(and,indef:kôrka+adj:chrumkavý)+pair(and,indef:vôňa+adj:teplý)
+
+# B1.1 three main clauses in a row, the last with und
+# de: Der Kühlschrank summte, Öl zischte, und der Duft lag schwer in der Luft.
+# en: The fridge hummed, oil hissed, and the aroma lay heavy in the air.
+Il frigorifero ronzava, l'olio sfrigolava e il profumo stagnava pesante nell'aria.
+  S: 1 , 2 , and 3 .
+  1 MAIN verb=bzučať subj=def:chladnička tense=past
+  2 MAIN verb=syčať subj=none:olej tense=past
+  3 MAIN verb=ležať subj=def:vôňa manner=ťažký location=def:vzduch tense=past
+
+# B1.2 begann, ... zu
+# de: Er begann, die Suppe umzurühren.
+# en: He began to stir the soup.
+Ha iniziato a mescolare la zuppa.
+  S: 1 , 2 .
+  1 MAIN verb=začať subj=3sg.m clause=2 tense=past
+  2 INF verb=premiešať patient=def:polievka ctrl=3sg.m
+
+# B2.1 a circumposition: über ... hinweg
+# de: Sie rief über den Lärm hinweg.
+# en: She called over the noise.
+Ha gridato sopra il rumore.
+  S: 1 .
+  1 MAIN verb=kričať subj=3sg.f pp=above-to:def:hluk+post(hinweg) tense=past
+
+# B1.2 a relative clause with wo
+# de: Er trat an den Tisch, wo das Essen wartete.
+# en: He approached the table where the food was waiting.
+Si è avvicinato al tavolo dove il cibo aspettava.
+  S: 1 .
+  1 MAIN verb=priblížiť_sa subj=3sg.m goal=def:stôl+rel(2) tense=past
+  2 REL verb=čakať subj=def:jedlo relrole=where tense=past
+
+# B2.1 a role apposition in front: als + noun
+# de: Als Koch kannte er jede Soße.
+# en: He knew every sauce as a cook.
+Da cuoco conosceva ogni salsa.
+  S: 1 .
+  1 MAIN verb=poznať subj=3sg.m patient=every:omáčka role=none:kuchár tense=past
+
+# B2.1 dieser eine
+# de: Für diesen einen Teller hatte sich die Mühe gelohnt.
+# en: The effort had been worth it for this one plate.
+Per questo unico piatto la fatica era valsa la pena.
+  S: 1 .
+  1 MAIN verb=oplatiť_sa subj=def:námaha pp=for:this:tanier+one tense=pluperfect
+
+# B2.1 a simile: gleichen with the dative
+# de: Der Lärm glich einem Konzert.
+# en: The noise resembled a concert.
+Il rumore somigliava a un concerto.
+  S: 1 .
+  1 MAIN verb=podobať_sa subj=def:hluk recipient=indef:koncert tense=past
+
+# B2.2 an extended participle with an adverb
+# de: Das perfekt gebratene Filet wartete auf dem Teller.
+# en: The perfectly fried fillet waited on the plate.
+Il filetto perfettamente fritto aspettava sul piatto.
+  S: 1 .
+  1 MAIN verb=čakať subj=def:filé+part(II,smažiť,dokonalý) pp=on:def:tanier tense=past
+
+# B2.1 a dash between two sentences
+# de: Der Lärm wurde leise – der Stress hatte sich gelohnt.
+# en: The noise became quiet – the stress had been worth it.
+Il rumore è diventato silenzioso – lo stress era valso la pena.
+  S: 1 – 2 .
+  1 MAIN verb=stať_sa subj=def:hluk pred=adj:tichý_(nehlučný) tense=past
+  2 MAIN verb=oplatiť_sa subj=def:stres tense=pluperfect
+
+# B1.1 a measure and its stuff: no article, the same case
+# de: Er gab eine Prise Salz dazu.
+# en: He added a pinch of salt.
+Ha aggiunto un pizzico di sale.
+  S: 1 .
+  1 MAIN verb=dať subj=3sg.m patient=indef:štipka+of(none:soľ) fixed=k_tomu tense=past
+
+# de: Er nahm ein Stück kalte Butter.
+# en: He took a piece of cold butter.
+Ha preso un pezzo di burro freddo.
+  S: 1 .
+  1 MAIN verb=vziať subj=3sg.m patient=indef:kus+of(none:maslo+adj:studený) tense=past

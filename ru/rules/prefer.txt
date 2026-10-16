@@ -1,0 +1,5 @@
+# RUSSIAN'S WORD FOR A CONCEPT where the realizer should not take the first commonest one -- `POS concept = word`.
+# Read by ru/realize.js (engine/lexicon.js).
+N kus = кусок
+V skúsiť = пытаться
+AN dokonalý = идеальный

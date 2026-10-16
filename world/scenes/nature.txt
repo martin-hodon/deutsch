@@ -1,0 +1,1162 @@
+# THE NATURE GROUP: animals, land, matter and energy, sky, water, weather (dictionary files life/animals, natural-world/*)
+SETTING everyday
+N svet
+N jar
+N leto
+N jeseň
+N zima
+SETTING home
+N domáce zviera
+N pes
+N mačka
+N králik
+N morča
+N škrečok
+N kanárik
+N zlatá rybka
+N papagáj
+N mačiatko
+N šteňa
+N kocúr
+N macko
+N klietka
+N vodítko
+N suka
+N ovčiak
+N fretka
+N poník
+N srsť
+N labka
+N fúz
+V štekať
+V mňaukať
+V vrčať
+V priasť
+N havaď
+N škodca
+N mucha
+N komár
+N blcha
+N šváb
+N moľa
+N pavúk
+N pavučina
+N žľab
+N prach
+V prášiť
+N pôda
+N dym
+N popol
+N oheň
+N svetlo
+N prúd
+V vetrať
+N žiarovka
+V svietiť
+N ticho
+N zapaľovač
+N plameň
+N iskra
+N vedenie
+N výpadok prúdu
+V spáliť
+N dym
+V dymiť
+N sadze
+N popolník
+N vosk
+N žeravé uhlie
+V osvetliť
+N osvetlenie
+V zatemniť
+N jas
+V osvetliť
+N hluk
+N šum
+N uhlie
+N požiar
+V horieť
+N hrdza
+N cencúľ
+V ohrievať
+N vlhkosť
+N klimatizácia
+N hluk
+N táborák
+N teplo
+N štvornožec
+SETTING town
+N útulok pre zvieratá
+N požiar
+N hluk
+N hluk
+N tresk
+V hlučať
+N mláka
+N odpadová voda
+N čistiareň odpadových vôd
+N osvetlenie
+N výpadok prúdu
+SETTING kitchen
+N losos
+N tuniak
+N pstruh
+N kurča
+N homár
+N ustrica
+N moriak
+N prepelica
+N kapor
+N sleď
+N treska
+N plyn
+N tekutina
+V rozpustiť
+N drevené uhlie
+N ľad
+N pitná voda
+N kocka ľadu
+N para
+V pariť sa
+V namočiť
+V zmraziť
+V chladiť
+V ochladiť
+V zohriať
+V ohrievať
+V zohriať
+V rozmraziť
+V topiť sa
+V páliť
+V vypariť sa
+N soľanka
+V pokryť
+N bublina
+V vyvierať
+V striekať
+N palivo
+N škrupina
+N zemný plyn
+V horieť
+N rozpustenie
+SETTING bathroom
+N kvapka
+N pena
+V peniť sa
+N para
+V pariť sa
+N panva
+V striekať
+V namočiť
+V zrkadliť sa
+V zvlhčiť
+N vlhkosť
+N odraz
+SETTING restaurant
+N losos
+N tuniak
+N pstruh
+N kurča
+N homár
+N ustrica
+N moriak
+N kocka ľadu
+N popolník
+V vyvierať
+N pitná voda
+SETTING farm
+N krava
+N prasa
+N ovca
+N kôň
+N kura
+N kačica
+N hus
+N kurča
+N kuriatko
+N kohút
+N sliepka
+N žriebä
+N poník
+N teľa
+N hovädo
+N býk
+N jahňa
+N koza
+N somár
+N hospodárske zviera
+N mul
+N žrebec
+N kobyla
+N vôl
+N prasiatko
+N plemeno
+N ohrada
+N včela
+N včela medonosná
+N chvost
+N kopyto
+N roh (zvieraťa)
+N hriva
+N krídlo
+N pero (vtáka)
+N zobák
+N hniezdo
+V skrotiť
+V bučať
+V chrochtať
+V kdákať
+V kikiríkať
+N svorka (zvierat)
+N roj
+N kosák
+N sucho
+V prezimovať
+N saranča
+N vysočina
+N nížina
+N trávnatá krajina
+N step
+N pôda
+N zem
+N štrk
+N mráz
+SETTING garden
+N zem
+N kosák
+N rybník
+N rybník
+N mráz
+N rosa
+V zvlhčiť
+N štrk
+N kamienok
+N slimák
+N slizniak
+N včela
+N lienka
+N mravec
+N osa
+N krt
+N dúha
+N červ
+N húsenica
+N škodca
+N slnečné svetlo
+SETTING sport
+N kôň
+N horolezec
+N vlna
+N terén
+V zohriať
+N pereje
+N vrchol
+N sila
+N pláž
+N svah
+SETTING craft
+N kov
+N železo
+N striebro
+N meď
+N bronz
+N olovo
+N zinok
+N mosadz
+N hrdza
+V hrdzavieť
+N mramor
+N žula
+N vosk
+N trenie
+N rozpúšťadlo
+N vedenie
+N íl
+N žľab
+N jama
+N priekopa
+N hrádza
+N hrádza
+N štrk
+N kameň
+N piesok
+N skalný blok
+N kamienok
+SETTING factory
+N elektráreň
+N jadrová elektráreň
+N ropa
+N zemný plyn
+N uhlie
+N kov
+N železo
+N bronz
+N mosadz
+N ruda
+N decht
+N sadze
+N plyn
+N energia
+N tlak
+N prúd
+N vedenie
+V riadiť
+N výpadok prúdu
+N palivo
+V žeraviť sa
+N vodná nádrž
+N odpadová voda
+N čistiareň odpadových vôd
+N emisia
+N výfukové plyny
+N energetický obrat
+V chladiť
+N para
+N impulz
+N plavebná komora
+SETTING science
+N substancia
+N plyn
+N tekutina
+N kyslík
+N vodík
+N atóm
+N oxid uhličitý
+N masa
+N hmota
+N pevná látka
+N dusík
+N molekula
+N častica
+N minerál
+N olovo
+N zinok
+N ortuť
+N síra
+N uhlík
+N kryštál
+N kremeň
+N hornina
+N hustota
+V vypariť sa
+N rozpúšťadlo
+V absorbovať
+N gravitácia
+N magnet
+N trenie
+N žiarenie
+V vyžarovať
+V vyslať
+N zvuk
+N vibrácia
+V vibrovať
+N impulz
+N efekt
+N energia
+N tlak
+N sila
+V žiariť
+V riadiť
+N atómová bomba
+N diamant
+N ozvena
+N pologuľa
+N svetelný rok
+N hvezdáreň
+N obežná dráha
+N lúč
+N kondenzácia
+V kondenzovať
+N doba ľadová
+N zákal
+V zakaliť
+N hladina mora
+N mikroklíma
+N meteorológia
+N meteorológ
+N bod mrazu
+N pól
+N rovník
+N zemetrasenie
+N sopka
+V zrkadliť sa
+N odraz
+V ohriať
+N otepľovanie
+N teplota
+N planéta
+N galaxia
+N vesmír
+N slnečná sústava
+N trhlina v ľadovci
+N rozpustenie
+SETTING doctor
+N teplota
+SETTING shop
+N zlato
+N striebro
+N diamant
+N kryštál
+N bronz
+SETTING nature
+N zviera
+N medveď
+N vlk
+N myš
+N lev
+N slon
+N opica
+N vták
+N šelma
+N divé zviera
+N cicavec
+N sob
+N zver
+N korisť
+N samec
+N samica
+N ľadový medveď
+N líška
+N jeleň
+N srna
+N zajac
+N králik
+N veverička
+N jež
+N netopier
+N potkan
+N tiger
+N žirafa
+N zebra
+N ťava
+N klokan
+N los
+N leopard
+N bobor
+N jazvec
+N panda
+N gorila
+N gepard
+N rys
+N šimpanz
+N panter
+N puma
+N koala
+N diviak
+N sťahovavý vták
+N orol
+N sova
+N vrana
+N vrabec
+N lastovička
+N bocian
+N hus
+N holub
+N labuť
+N papagáj
+N tučniak
+N čajka
+N sokol
+N žaba
+N had
+N korytnačka
+N krokodíl
+N hmyz
+N mucha
+N komár
+N včela
+N osa
+N čmeliak
+N mravec
+N motýľ
+N húsenica
+N chrobák
+N kliešť
+N pavúk
+N červ
+N slimák
+N chvost
+N pero (vtáka)
+N srsť
+N labka
+N roh (zvieraťa)
+N zobák
+N plutva
+N škrupina
+N hniezdo
+V vyť
+V revať
+V bzučať
+V štekať
+N leňochod
+N vtákopysk
+N beštia
+N škodca
+N mýval
+N vlčica
+N levica
+N chobot
+N vydra
+N krt
+N lasica
+N antilopa
+N byvol
+N bizón
+N mrož
+N hyena
+N šakal
+N gazela
+N surikata
+N hroch
+N hroch
+N dikobraz
+N ohrada
+N spevavec
+N dravec
+N havran
+N žeriav (vták)
+N páv
+N pštros
+N slávik
+N kukučka
+N ďateľ
+N straka
+N červienka
+N bažant
+N plameniak
+N pelikán
+N volavka
+N sup
+N kos
+N pinka
+N škovránok
+N oriešok
+N jastrab
+N ropucha
+N žubrienka
+N mlok
+N salamandra
+N jedovatý had
+V vinúť sa
+N vretenica
+N kobra
+N pytón
+N jašterica
+N gekón
+N leguán
+N chameleón
+N aligátor
+N havaď
+N sršeň
+N termit
+N lienka
+N vážka
+N svrček
+N kobylka
+N saranča
+N pavučina
+N škorpión
+N stonožka
+N slizniak
+N ulita
+N moľa
+N larva
+N operenie
+N kožušina
+N pazúr
+N kopyto
+N nosorožec
+N parohy
+N kel
+N šupina
+N tykadlo
+N osteň
+N hriva
+N fúz
+N papuľa
+V vrčať
+V syčať
+V štebotať
+V kvákať
+N svorka (zvierat)
+N roj
+N veľryba
+N delfín
+N tuleň
+N štvornožec
+N krajina (štát)
+N pôda
+N zem
+N vrch
+N dolina
+N púšť
+N kameň
+N piesok
+N príroda
+N krajina (prírodná)
+N pevnina
+N pôda
+N zemetrasenie
+N kontinent
+N pohorie
+N horolezec
+N kopec
+N rovina
+N jaskyňa
+N vrchol
+N svah
+N sopka
+N erupcia sopky
+N terén
+N močiar
+N jama
+N priekopa
+N sklon
+V nakláňať
+N kraj
+N skala
+N blato
+N prach
+N vypuknutie
+V vypuknúť
+N lavína
+N prírodná katastrofa
+N ochrana prírody
+N životné prostredie
+N vysočina
+N nížina
+N trávnatá krajina
+N zosuv pôdy
+N vysoké pohorie
+N predhorie
+N horský hrebeň
+N násyp
+N náhorná plošina
+N nížina
+V spustošiť
+N duna
+N útes (skalnatý)
+V vrcholiť
+N zráz
+N roklina
+N kráter
+N tiesňava
+N výmoľ
+N trhlina v ľadovci
+N step
+N tundra
+N savana
+N prérie
+N divočina
+N žľab
+V stekať
+N rašelinisko
+N vresovisko
+N priepasť (v teréne)
+N skala
+N národný park
+N prírodná rezervácia
+N skalný blok
+N skalný výčnelok
+N skalný hrot
+N skalná stena
+N kamienok
+N hornina
+N pohyblivý piesok
+V prášiť
+N íl
+N štrk
+N láva
+N vzduch
+N oheň
+V horieť
+N dym
+N popol
+N táborák
+N plameň
+N iskra
+N tieň
+N tma
+N ticho
+N ozvena
+N šum
+N dym
+V dymiť
+N žeravé uhlie
+N minerál
+N mramor
+N žula
+N ruda
+N drevené uhlie
+N záblesk
+V spáliť
+N hluk
+N vodopád
+N potok
+N horský potok
+N ľadovec
+N oáza
+N pobrežné močiare
+N mokraď
+N gejzír
+N doba ľadová
+N východ slnka
+N západ slnka
+N slnečné svetlo
+N súmrak
+N ranný súmrak
+N večerný súmrak
+N svitanie
+N šero
+V brieždiť sa
+N klíma
+N ročné obdobie
+N blato
+V prezimovať
+N ochrana životného prostredia
+N rosa
+SETTING weather
+N vzduch
+N počasie
+N dážď
+V pršať
+N sneh
+V snežiť
+N vietor
+N víchor
+N oblak
+N teplota
+N horúčava
+N chlad
+N teplo
+N ročné obdobie
+N jar
+N leto
+N jeseň
+N zima
+N predpoveď počasia
+N správa o počasí
+N nečas
+N dúha
+N krúpy
+N prehánka
+N dažďová prehánka
+N búrka
+N hrom
+N blesk
+N hmla
+N predpoveď
+V pokryť
+N vlhkosť
+N vlhkosť vzduchu
+N vlna horúčav
+V zohriať
+V ohriať
+N otepľovanie
+V ochladiť
+V mrznúť
+N mráz
+V zamrznúť
+V topiť sa
+V rozmraziť
+N sucho
+N jar
+N klíma
+N zmena klímy
+N ochrana klímy
+N tropy
+N zrážky
+N mrholenie
+N lejak
+N snehová vločka
+N snehová búrka
+N dážď so snehom
+N snehová fujavica
+V krúpiť
+N poryv vetra
+N smršť
+N bezvetrie
+N vánok
+N poryv vetra
+N poryv vetra
+N víchor
+V hrmieť
+V blýskať sa
+N hurikán
+N orkán
+N tornádo
+N tajfún
+N cyklón
+N monzún
+N oblačnosť
+N blato
+N cencúľ
+N meteorologická služba
+N poľadovica
+N námraza
+N globálne otepľovanie
+N závan
+N silný dážď
+N denná teplota
+N vlna chladu
+N chládok
+V zmierniť
+V triasť sa od zimy
+N bod mrazu
+V tajať
+N rosa
+N obleva
+N dusno
+V páliť
+N mikroklíma
+N meteorológia
+N meteorológ
+N oxid uhličitý
+N emisia
+N opar
+N kondenzácia
+V kondenzovať
+N rozprášená voda
+N mláka
+N povodeň
+N záplava
+V zaplaviť
+N cunami
+N ľad
+V premočiť
+V prúdiť
+N prírodná katastrofa
+N zemetrasenie
+N slnečné svetlo
+N slnko
+N doba ľadová
+N lavína
+N pól
+N severný pól
+N južný pól
+N výfukové plyny
+SETTING sky
+N slnko
+N mesiac (na oblohe)
+N hviezda
+N obloha
+N východ slnka
+N západ slnka
+N slnečné svetlo
+N slnečný lúč
+N slnečné svetlo
+N zatmenie Slnka
+N slnečná sústava
+N spln
+N mesačné svetlo
+N súhvezdie
+N znamenie zverokruhu
+N planéta
+N galaxia
+N vesmír
+N vesmír
+N Mliečna cesta
+N vesmír
+N svetová strana
+N obzor
+N súmrak
+N tma
+N lúč
+N atmosféra
+N polárna žiara
+N svetelný rok
+N vesmír
+N nov
+N polmesiac
+N mesačný svit
+N východ mesiaca
+N zatmenie Mesiaca
+N padajúca hviezda
+N hvezdáreň
+N svetlo hviezd
+N trpasličia planéta
+N Mars
+N Venuša
+N Jupiter
+N Saturn
+N Merkúr
+N Urán
+N Neptún
+N kométa
+N meteor
+N meteorit
+N asteroid
+N obežná dráha
+N nebeské teleso
+N hviezdna obloha
+N nebeská klenba
+N zenit
+N ranný súmrak
+N večerný súmrak
+V brieždiť sa
+N svitanie
+N šero
+N kosák
+N kosáčik Mesiaca
+N supernova
+N svetlo
+N tieň
+V svietiť
+V žiariť
+N jas
+N gravitácia
+N žiarenie
+N tma
+N dúha
+N pologuľa
+N pól
+N severný pól
+N južný pól
+SETTING family
+N znamenie zverokruhu
+SETTING media
+N predpoveď počasia
+N správa o počasí
+N predpoveď
+N meteorologická služba
+V vyžarovať
+V vyslať
+N vibrácia
+N meteorológ
+SETTING culture
+N zvuk
+V znieť
+N zvuk
+N efekt
+N ozvena
+N šum
+N osvetlenie
+N ticho
+N tón
+SETTING language
+N tón
+N zvuk
+V znieť
+SETTING politics
+N ochrana prírody
+N životné prostredie
+N zmena klímy
+N ochrana klímy
+N ochrana životného prostredia
+N globálne otepľovanie
+N energetický obrat
+N emisia
+N ropa
+N jadrová elektráreň
+N samit
+N svetová vojna
+N atómová bomba
+N prírodná rezervácia
+SETTING military
+N svetová vojna
+N atómová bomba
+N priekopa
+V spustošiť
+N hluk
+N tresk
+N požiar
+V vypuknúť
+SETTING traffic
+N hmla
+N poľadovica
+N výfukové plyny
+N klimatizácia
+N palivo
+N decht
+N hluk
+N plavebná komora
+SETTING religion
+N pohan
+N nebeská klenba
+SETTING law
+V zmierniť
+SETTING travel
+N krajina (štát)
+N kontinent
+N kraj
+N breh
+N pobrežie
+N pláž
+N ostrov
+N oáza
+N zátoka
+N záliv
+N polostrov
+N more
+N more
+N jazero
+N oceán
+N Severné more
+N Baltské more
+N Stredozemné more
+N Atlantik
+N prieliv
+N fjord
+N gejzír
+N mys
+N polárna žiara
+N svetová strana
+N tropy
+N rovník
+N pól
+N severný pól
+N južný pól
+N svet
+N národný park
+N táborák
+N pohorie
+N vrch
+N púšť
+N dolina
+N jaskyňa
+N sopka
+N krajina (prírodná)
+N východ slnka
+N západ slnka
+SETTING water
+N veľryba
+N delfín
+N tuleň
+N mrož
+N tuniak
+N žralok
+N losos
+N pstruh
+N krab
+N medúza
+N mušľa
+N tučniak
+N čajka
+N labuť
+N kačica
+V loviť ryby
+N zlatá rybka
+N sépia
+N kapor
+N šťuka
+N úhor
+N treska
+N sleď
+N sumec
+N raja
+N homár
+N chobotnica
+N morská hviezdica
+N ustrica
+N morský koník
+N plutva
+N žiabra
+N šupina
+N žaba
+N ropucha
+N žubrienka
+N mlok
+N krokodíl
+N aligátor
+N pelikán
+N plameniak
+N volavka
+N vydra
+N hroch
+N hroch
+N korytnačka
+N bobor
+N škrupina
+N vážka
+N piesok
+N útes (skalnatý)
+N duna
+V stekať
+N obzor
+V prúdiť
+N záblesk
+N odraz
+N kamienok
+N zákal
+V zakaliť
+V premočiť
+V zaplaviť
+N vlna
+N kvapka
+N ľad
+N breh
+N pobrežie
+N pláž
+N ostrov
+N vodopád
+N pitná voda
+N vodstvo
+N povodeň
+N hladina mora
+N oceán
+N more
+N Severné more
+N Baltské more
+N rybník
+N potok
+N zátoka
+N záliv
+N ľadovec
+N ústie
+N príliv a odliv
+N odliv
+N príliv
+N prúdenie
+N záplava
+N cunami
+V kvapkať
+N pena
+N bublina
+N ľadová kryha
+N mláka
+V striekať
+N panva
+V vyvierať
+N polostrov
+N slaná voda
+N sladká voda
+N prieliv
+N Stredozemné more
+N Atlantik
+N vodná nádrž
+N prítok
+N koryto rieky
+N horský potok
+N lagúna
+N delta
+V ústiť
+N pobrežné močiare
+N mokraď
+N útes (morský)
+N fjord
+N morské vlnenie
+N príboj
+V peniť sa
+N zvlnenie hladiny
+V zvlniť
+N vír
+N pereje
+V presakovať
+N rozprášená voda
+N plavebná komora
+N hrádza
+N hrádza
+N rybník
+N breh rieky
+N mys
+N more
+N jazero
+N rieka
+V tiecť
+N para
+N opar
+N trhlina v ľadovci
+N doba ľadová
+N soľanka
+SETTING work
+V iniciovať

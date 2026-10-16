@@ -1,0 +1,138 @@
+# shapes
+N tvar
+V tvarovať
+V formovať
+AN formálny : adverb formálne
+N kruh
+AN kruhový
+V krúžiť
+N polkruh
+V obiehať
+AN v celom okrese
+N štvorec
+AN štvorcový
+N roh (uhol)
+N trojuholník
+N štvoruholník
+N obdĺžnik
+AN trojuholníkový
+AN obdĺžnikový
+N guľa
+N kocka
+V hádzať kockou
+N valec
+N kužeľ
+N ovál
+AN oválny
+N špirála
+V ohnúť
+N oblúk
+AN ohnutý
+N ohyb
+N kríž
+V krížiť
+V zakrúžkovať
+V prekrížiť
+N čiara
+AN lineárny : adverb lineárne
+N prúžok
+AN pruhovaný
+N bod
+N stredobod
+AN bodový
+N uhol
+AN pravouhlý
+N zorný uhol
+N okraj
+N zákruta
+N obrys
+N rám
+V zarámovať
+V orámovať
+N mreža
+N mrežovanie
+N zárez
+N hrana
+AN hranatý
+N kontúra
+N silueta
+V vinúť
+N závit
+V prekonať
+N slučka
+N vydutie
+N zúženie
+AN zúžený
+N hlavica
+N drážka
+N cikcak
+N očko
+N zhluk
+N postava
+
+# form-properties
+AN okrúhly
+N zaoblenie
+AN guľatý
+N plocha
+N povrch
+AN rovný : adverb rovno
+N priamka
+AV rovno
+AN šikmý : adverb šikmo
+AN ostrý : adverb ostro
+V brúsiť
+N ostrosť
+AN neostrý : adverb neostro
+V zneškodniť
+AN tupý : adverb tupo
+N pahýľ
+AN špicatý
+AN dutý
+V vyhĺbiť
+AN masívny
+AN hladký : adverb hladko
+V uhladiť
+N hladkosť
+AN drsný : adverb drsne
+AN plochý
+AN nerovný
+N nerovnosť
+N diera
+AN deravý
+N medzera
+AN medzerovitý
+N trhlina
+N vrstva
+V vrstviť
+N rad
+N stĺpec
+V štiepiť
+N rozštiepenie
+N vzor (dezén)
+AN vzorovaný
+V prezerať si
+V vyradiť zo služby
+N štruktúra
+V štruktúrovať
+AN štrukturálny
+N textúra
+N uzol
+N uzlový bod
+N hrča
+N preliačina
+N symetria
+AN symetrický : adverb symetricky
+AN uhlopriečny : adverb uhlopriečne
+N uhlopriečka
+AN vydutý
+AN vypuklý
+N hrot
+AN zúbkovaný
+AN zubatý
+AN skrútený
+AN vlnitý
+N proporcia
+N rozmer
+AN trojrozmerný
+AN nadrozmerný

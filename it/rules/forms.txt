@@ -1,0 +1,43 @@
+# THE FORMS EXERCISE for Italian: a sentence with one word left out, its right form among wrong ones of the same word --
+# the format: de/rules/forms.txt. The cells: engine/paradigm.js (V.pres.* V.impf.* V.fut.* V.cond.* V.subj.* V.subjimpf.*
+# V.pp, N.pl, AN.<g>.<num>, ART.<kind>.<g>.<num>).
+
+present: presente
+  ask   V.pres.*
+  wrong V.pres.* ~V.pres.= V.impf.=
+
+imperfect: imperfetto
+  when  tense=past
+  ask   V.impf.*
+  wrong V.impf.* V.pres.= ~V.impf.=
+
+future: futuro
+  when  tense=future
+  ask   V.fut.*
+  wrong V.cond.= V.fut.* V.pres.=
+
+conditional: condizionale
+  when  mood=hypo
+  ask   V.cond.*
+  wrong V.fut.= V.cond.* V.impf.=
+
+subjunctive: congiuntivo
+  steer link=so-that link=before mood=hypo
+  ask   V.subj.* V.subjimpf.*
+  wrong V.pres.= V.subj.* V.subjimpf.* V.impf.=
+
+participle: participio passato
+  ask   V.pp
+  wrong ~V.pp V.inf V.ger
+
+plural: plurale
+  ask   N.pl
+  wrong ~N.pl N.sg
+
+adjective: accordo dell'aggettivo
+  ask   AN.*.*
+  wrong AN.*.*
+
+article: articoli
+  ask   ART.*.*.*
+  wrong ART.=.*.*

@@ -1,0 +1,61 @@
+# coordinating
+CON a
+PHR a tak ďalej
+CON alebo
+CON buď
+CON ale
+CON lebo
+CON nýbrž
+CON ako aj
+CON ako… tak aj
+CON ani
+CON respektíve
+
+# subordinating
+CON že
+CON takže
+CON aby
+CON pretože
+CON keďže
+CON najmä keďže
+CON ak
+CON pokiaľ
+CON dokiaľ
+CON len čo
+CON vždy keď
+CON či
+CON hoci
+PHR akoby
+CON keď
+CON ako
+CON predtým než
+CON skôr než
+CON potom čo
+CON tým že
+PHR aby
+
+# connecting-adverbs
+AV preto
+AV takže
+AV napriek tomu
+AV predsa
+AV však
+AV inak (v opačnom prípade)
+AV okrem toho
+AV navyše
+AV teda
+AV totiž
+AV podľa toho
+AV síce
+AV na jednej strane
+CON plus
+
+# more
+CON ak nie
+
+# language-specific closed words (no Slovak word: a description)
+CON čiže -- to jest, čiže: that is, i.e.
+CON keby -- nereálna alebo hypotetická podmienka
+CON iba ak -- jediná podmienka
+CON aj keby -- ústupková podmienka: even if
+CON aby nie -- so as not to

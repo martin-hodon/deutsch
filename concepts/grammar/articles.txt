@@ -1,0 +1,11 @@
+# definite-article
+ART ten (určitý člen mužského rodu)
+P ten istý
+P ten (kto)
+ART tá (určitý člen ženského rodu a množného čísla)
+ART to (určitý člen stredného rodu)
+
+# indefinite-article
+ART jeden
+ART nejaký
+ART žiadny

@@ -1,0 +1,956 @@
+# MIND: the dictionary's space/position, time, emotion, thought, perception, will and character words -- mostly
+# everyday (mental life belongs everywhere); the ones with a domain (law, science, religion, travel ...) go there.
+SETTING everyday
+N miesto (v priestore)
+N miesto (bod)
+N strana
+N stred
+N miesto (priestor)
+N blízkosť
+V odísť
+V padnúť
+V stúpať
+V nasledovať
+V viesť
+V dosiahnuť
+V točiť sa
+N lokalita
+N pozícia
+N poloha
+N postavenie
+N zóna
+V ohraničiť
+N rozsah
+V zahŕňať
+N okolie
+N základňa
+V zakladať sa
+N sektor
+N usporiadanie
+V nariadiť
+N dosah
+N ohnisko
+N číslo (poradové)
+V nasmerovať
+V zarovnať
+N vzdialenosť
+N diaľka
+V približovať sa
+N šírava
+N vzdialenosť
+V hýbať
+V zaoberať sa
+V ísť späť
+V zakročiť
+V chopiť sa
+V zaobchádzať
+V pokračovať
+V vyskytovať sa
+V vstúpiť
+V vstúpiť na
+V upútať
+V napadnúť
+V zrušiť sa
+V stúpať
+N nárast
+V klesať
+V hnať
+N následok
+V viesť späť
+V zdržať
+V ponáhľať sa
+V posunúť
+N posun
+N otočenie
+V otočiť
+V spadnúť
+V zrútiť sa z výšky
+V naraziť
+V umiestniť
+N horná strana
+N spodná strana
+N predná strana
+N zadná strana
+N vnútro
+N vonkajšok
+N medzera
+V zanechať
+N protistrana
+V stáť oproti
+V umiestniť
+V vymedziť
+V obklopovať
+N rozpätie
+N prázdnota
+N veľká časť
+N priblíženie
+V prinútiť
+V vyjsť von
+V obísť
+V znížiť
+V kvapiť
+N ponáhľanie
+V pokračovať
+V rozptýliť
+N čas (trvanie)
+N okamih
+N sekunda
+N minúta
+N hodina
+N noc
+N týždeň
+N víkend
+N mesiac (časť roka)
+N rok
+N poludnie
+N odpoludnie
+N pondelok
+N utorok
+N streda
+N štvrtok
+N piatok
+N sobota
+N nedeľa
+N budúcnosť
+N minulosť
+N prestávka
+N január
+N február
+N marec
+N apríl
+N máj
+N jún
+N júl
+N august
+N september
+N október
+N november
+N december
+N obdobie
+N časový bod
+N okamih
+N chvíľa
+N štvrťhodina
+N polnoc
+N desaťročie
+N storočie
+N fáza
+N predpoludnie
+N príležitosť
+N príležitosť
+N súčasnosť
+V trvať (časovo)
+N trvanie
+N tempo
+V vyčkať
+N rutina
+N minulý rok
+N všedný deň
+N časové rozpätie
+N éra
+N denná doba
+N deň v týždni
+N tisícročie
+N začiatok roka
+N rok života
+N začiatok roka
+N koniec roka
+N zmena času
+N sobota
+N ranná hodina
+N obdobie
+N predchádzajúci deň
+N predchádzajúci týždeň
+N predchádzajúci mesiac
+N krátkosť
+N január
+N pocit
+N šťastie
+N radosť
+V tešiť sa
+N strach
+N starosť
+V postarať sa
+N pokoj
+N prekvapenie
+N nádej
+V dúfať
+V rušiť
+V postrádať
+V plakať
+N súcit
+N emócia
+N nálada
+N žiaľ
+N zlosť
+N zdesenie
+V robiť si starosti
+V obstarať
+V upokojiť
+N úľava
+V uľahčiť
+V prekvapiť
+N šok
+V šokovať
+N sklamanie
+V sklamať
+N zúfalstvo
+V nudiť sa
+N nuda
+V rozčuľovať
+N vzrušenie
+N nadšenie
+V nadchnúť
+V hnevať
+N mrzutosť
+N panika
+V ľutovať
+V vychutnávať si
+N stres
+N spokojnosť
+N zľaknutie
+N hrôza
+V zľaknúť sa
+V poplašiť
+V dráždiť
+N frustrácia
+N rozhorčenie
+N núdza
+N trápenie
+V trápiť
+V premôcť
+V ohromiť
+N neistota
+N utrpenie
+N súcit
+V obávať sa
+N optimizmus
+N napínavosť
+V báť sa
+N úcta
+V nenávidieť
+N nenávisť
+N vášeň
+V obdivovať
+N túžba
+V žiadať
+N sympatie
+V hanbiť sa
+N hrdosť
+N osamelosť
+V utešiť
+N identita
+N smiech
+V vysmiať
+V usmievať sa
+N úsmev
+N blaženosť
+N smútok
+N hnev
+V strašiť
+N okúzlenie
+N napätie
+N hrôza
+V strhnúť sa
+N napätie
+N zúrivosť
+N bieda
+N zdesenie
+N vyrovnanosť
+N apatia
+V zazlievať
+N horlivosť
+N žiarlivosť
+N strach
+N nespokojnosť
+N nervozita
+N náklonnosť
+N závisť
+V závidieť
+N znechutenie
+V hnusiť sa
+N pohŕdanie
+V pohŕdať
+N obdiv
+V vážiť si
+N uznanie
+V túžiť
+N túžba
+N nežnosť
+N empatia
+N posmech
+N hnus
+N nepriateľstvo
+N zlomyseľnosť
+N zášť
+N zloba
+N náklonnosť
+N obľuba
+N hanba
+N rozpaky
+N vďačnosť
+N útecha
+N nostalgia
+N nepríjemný pocit
+N nevôľa
+N spriaznenosť
+N otvorenosť
+N jednota
+N fair play
+N opovážlivosť
+V vzdychať
+N vzdych
+N výsmech
+N žart
+N frustrácia
+N náraz
+V premýšľať
+N nápad
+N názor
+V myslieť si
+V predstaviť si
+N sen
+V snívať
+V poznať
+V rozumieť
+N pravda
+V veriť
+N chyba
+V spomínať si
+N spomienka
+V pripomenúť
+V zabudnúť
+N problém
+V riešiť
+N riešenie
+N myšlienka
+N pozornosť
+V sústrediť sa
+N sústredenie (pozornosť)
+V pýtať sa seba
+V odhadovať
+V odhadnúť
+N odhad
+V podceňovať
+V porovnať
+V pochopiť
+N rozumnosť
+V predpovedať
+V očakávať
+N očakávanie
+N náhľad
+V uvedomiť si
+V pozrieť si
+N úvaha
+N motivácia
+N stanovisko
+N perspektíva
+V zaujímať sa
+N záujemca
+N argument
+N námietka
+N vedomosti
+N vedomie
+N rozum
+N porozumenie
+N nedorozumenie
+V rozpoznať
+V uznať
+N uznanie
+N pochybnosť
+V pochybovať
+V domnievať sa
+N domnienka
+N sebadôvera
+V zmiasť
+N zmätok
+N záver
+V vylúčiť
+V predpokladať
+N predpoklad
+N presvedčenie
+V posúdiť
+V vyvodzovať
+V hádať
+N rada
+V poradiť
+V uhádnuť
+N hádanka
+V dostať sa
+V predvídať
+N tušenie
+V tušiť
+V rozptýliť
+N rozptýlenie
+N múdrosť
+N talent
+N tajomstvo
+N omyl
+N prekážka
+N neúspech
+N nepríjemnosť
+N trik
+V brať do úvahy
+V premyslieť
+N myslenie
+V zvažovať
+N zváženie
+V zvážiť
+N predstavivosť
+N nočná mora
+N odhad
+V preceňovať
+V usudzovať
+N intuícia
+V dumať
+V fantazírovať
+N dilema
+N svetonázor
+N názor
+N hľadisko
+N zistenie
+N názor
+N posúdenie
+N nápad
+N námet
+N spätný pohľad
+N zdanie
+N spôsob myslenia
+N obava
+N neistota
+N výhrada
+N kompetencia
+N súčasník
+N nepochopenie
+N vízia
+V rozpoznať
+V pochybovať
+V dohadovať sa
+N sebavedomie
+N skepsa
+N skeptik
+N cynizmus
+N cynik
+N úsudok
+N záver
+N záver
+V anticipovať
+N spätný pohľad
+N posadnutosť
+N cit
+N zabudnutie
+V spamätať sa
+N nočná mora
+N múdrosť
+N hlúposť
+N naivita
+N bystrosť
+N krok späť
+N výhovorka
+N smola
+V pozerať sa
+N pohľad
+V počuť
+V prestať
+N farba
+N názor
+V pozrieť si
+V vyzerať
+V prehliadnuť
+V plánovať
+V prizerať
+V pozrieť si
+V pozorovať
+N pozorovanie
+V všimnúť si
+V pozrieť
+N prehľad
+V zdať sa
+V objaviť sa
+N jav
+N svit
+V zmiznúť
+V ukryť
+N skrýša
+V objaviť
+N objav
+V odlíšiť
+V ignorovať
+V lesknúť sa
+N nahliadnutie
+V počúvať
+V vypočuť si
+V čuchať
+N pach
+V voňať
+V smrdieť
+N smrad
+V dotknúť sa
+N dotyk
+V byť na dotyk
+N zmysel
+N nezmysel
+V vnímať
+N vnímanie
+V cítiť
+N pocit
+N pozorovateľ
+V zízať
+V zízať na
+V pozrieť na
+N pohľad
+V uchmatnúť
+V vyzerať
+V zazerať
+N rozlišovanie
+V trblietať sa
+V mihotať sa
+N lesk
+V prepočuť
+V mrmlať
+V ňuchať
+V štekliť
+V chcieť
+N vôľa
+V želať si
+N želanie
+V voliť
+N voľba
+V rozhodnúť
+N rozhodnutie
+N cieľ
+N plán
+V plánovať
+V skúsiť
+N pokus
+V podariť sa
+N úspech
+N chuť (túžba)
+N opatrnosť
+V používať
+N použitie
+V uprednostňovať
+N výhoda
+V vybrať
+N výber
+V rozhodnúť sa
+N rozhodnutie
+N odhodlanie
+N úmysel
+N účel
+N plánovanie
+V pripraviť (vopred)
+N príprava (na niečo)
+N námaha
+N neúspech
+V stroskotať
+V vyhnúť sa
+V odmietnuť
+N odmietnutie
+V váhať
+V odvážiť sa
+N ctižiadostivosť
+N disciplína
+N záväzok
+V zaviazať
+N zdržanlivosť
+N charakter
+N osobnosť
+N návyk
+V zvyknúť si
+N správanie
+V správať sa
+N postoj
+N usilovnosť
+N trpezlivosť
+N čestnosť
+N zvedavosť
+N vážnosť
+N predsudok
+N optimizmus
+N odvaha
+N ohľad
+V presadiť sa
+N vzor (idol)
+N sila vôle
+V mať v úmysle
+V nepodariť sa
+N zlyhanie
+N predchádzanie
+N odvážny čin
+N chamtivosť
+N žiadostivosť
+N potreba
+N predsavzatie
+N pohnútka
+N nutkanie
+N zrieknutie sa
+N postup
+N splnenie
+N zlozvyk
+N lenivosť
+V lenivieť
+N netrpezlivosť
+N úprimnosť
+N nedbalosť
+N skromnosť
+N veľkorysosť
+N lakomstvo
+N skupáň
+N egoizmus
+N egoista
+N plachosť
+N arogancia
+N ľahkomyseľnosť
+N obozretnosť
+N chvat
+N márnivosť
+N zaujatosť
+N vada
+N povaha
+N optimista
+N pesimizmus
+N pesimista
+N realizmus
+V odradiť
+N rozpustilosť
+N zbabelec
+N zbabelosť
+N smelosť
+N slušnosť
+N drzosť
+N temperament
+N integrita
+V trvať (na niečom)
+N vytrvalosť
+N pasivita
+N presadzovacia schopnosť
+N nezištnosť
+N ochota pomáhať
+N pohoršenie
+N pud
+SETTING home
+V postaviť
+N priehradka
+N miestnosť
+N výklenok
+V rozložiť
+N špina
+V blikať
+SETTING farm
+N pole
+SETTING traffic
+N smer
+N stopa
+V prejsť cez
+V odbočiť
+V vystúpiť
+V zastaviť
+N zastavenie
+V prejsť okolo
+N pád
+N prednosť
+SETTING travel
+V dôjsť
+N hranica
+N oblasť
+N sever
+N juh
+N východ (svetová strana)
+N západ
+N príchod
+N pôvod
+V vrátiť sa
+N pohraničie
+N severovýchod
+N juhozápad
+N návrat
+V prenocovať
+N nocľah
+N etapa
+N miestny čas
+N jesenné prázdniny
+N clivota
+N orientácia
+N oneskorenie
+N výhľad
+N pamätihodnosť
+N výhľad
+N objaviteľ
+SETTING science
+V zistiť
+N vákuum
+N dutina
+N rovnobežka
+N cyklus
+N frekvencia
+N nekonečno
+N interval
+V analyzovať
+N logika
+N téza
+N poznatok
+N paradox
+N premisa
+N doklad
+N objekt
+N tendencia
+N položenie otázky
+V vyhodnotiť
+V validovať
+V vyvrátiť
+V rozlúštiť
+N koherencia
+N pozorovanie
+V objaviť
+N objav
+N objaviteľ
+SETTING culture
+V znázorniť
+N pozadie
+N popredie
+N vstup
+N epocha
+N staroveká doba
+N melanchólia
+N extáza
+N predstava
+N fantázia
+N ilúzia
+N talent
+N originál
+N blázon
+N génius
+N odtieň
+N odtieň
+N humor
+N kreativita
+N šibal
+N nádhera
+SETTING town
+N centrum
+V ísť von
+N obec
+SETTING work
+N sféra
+N nástupca
+N nástupkyňa
+N vedenie
+V uskutočniť
+V vykonať
+V zaviesť
+N ústredie
+N vzostup
+V prevádzkovať
+N prestávka
+N koniec pracovnej doby
+N štvrťrok
+N pracovný deň
+N dochvíľnosť
+N doba platnosti
+N stres
+N lojalita
+V robiť brainstorming
+N brainstorming
+N kompetencia
+N odborné posúdenie
+N nesprávne rozhodnutie
+N úspech
+V motivovať
+N záväzok
+V zaviazať
+N samostatnosť
+N protihodnota
+N zanedbanie
+N dôkladnosť
+SETTING politics
+N hranica
+N nástupca
+N nástupkyňa
+N pohraničie
+N éra
+N núdzový stav
+N aféra
+V voliť
+N voľba
+N volič
+V rozhodnúť
+N uznesenie
+N svojvôľa
+N boj o moc
+N autorita
+SETTING nature
+N oblasť
+N stopa
+V stúpať
+V zostúpiť
+N vzostup
+N zostup
+V potulovať sa
+N priepasť (medzi ľuďmi)
+SETTING sport
+N beh
+N pohyb
+N zostup
+N etapa
+N polčas
+N fair play
+N talent
+N prekážka
+V namáhať sa
+SETTING law
+N stopa
+V spáchať
+V prenasledovať
+V dodržať
+N lehota
+N motív
+N rozsudok
+V súdiť
+N nátlak
+N námietka
+N doklad
+V odsúdiť
+N incident
+V prehľadať
+N záväzok
+V nútiť
+N čin
+N odplata
+N súhlas
+SETTING media
+V šíriť
+N šírenie
+N šírenie
+V vybaviť si
+V vizualizovať
+V odhaliť
+V odkryť
+N odhalenie
+N rozruch
+SETTING military
+V utiecť
+V utiecť
+V potopiť
+V postúpiť (vpred)
+N disciplína
+N rozkaz
+N krutosť
+N agresia
+V mieriť
+SETTING health
+N pád
+V uvoľniť sa
+N relaxácia
+N šialenstvo
+N blud
+N predispozícia
+V svrbieť
+N bledosť
+SETTING factory
+V skladovať
+N spotreba
+N pohon
+SETTING craft
+N podložie
+N štrbina
+N dutina
+V zrútiť sa
+V modernizovať
+SETTING religion
+N onen svet
+N večnosť
+N veľkonočné prázdniny
+N smútok
+V smútiť
+N bázeň
+N ľútosť
+V oľutovať
+N vyznanie
+N viera
+N zjavenie
+V zjaviť
+N rozjímanie
+N záhada
+N cnosť
+N svedomie
+N pokušenie
+N neresť
+N morálka
+SETTING sky
+V zapadnúť
+V vznášať sa
+V trblietať sa
+SETTING water
+V potopiť
+V unášať sa
+V unášať sa
+SETTING school
+N prestávka
+N polrok
+N školský rok
+N jesenné prázdniny
+N veľkonočné prázdniny
+V sústrediť sa
+N sústredenie (pozornosť)
+V pochopiť
+N logika
+N vedomosti
+V hodnotiť
+N hodnotenie
+N inteligencia
+N poznámka
+N vysvetlenie
+N disciplína
+N usilovnosť
+N prísnosť
+SETTING office
+N dátum
+N lehota
+N kalendár
+N miesto narodenia
+N záležitosť
+SETTING weather
+N sezóna
+N viditeľnosť
+V rachotiť
+SETTING bank
+N štvrťrok
+N doba platnosti
+V špekulovať
+N špekulácia
+SETTING celebration
+N prelom roka
+N potešenie
+V baviť
+N radosť z očakávania
+N blahoželanie
+SETTING family
+V ľúbiť
+N láska
+V zamilovať sa
+N zamilovanosť
+N trápenie z lásky
+N družnosť
+SETTING restaurant
+N pôžitok
+SETTING doctor
+V omráčiť
+N pamäť (schopnosť)
+N zrak
+N sluch
+SETTING language
+N pojem
+N nuansa
+N kontext
+N kľúčové slovo
+SETTING bathroom
+N špina
+SETTING garden
+N vôňa
+SETTING kitchen
+N aróma
+V hniť
+SETTING shop
+V vybrať
+N výber

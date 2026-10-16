@@ -1,0 +1,64 @@
+# coordinating
+1 CON und {und} [ʊnt] = a, i
+- 2 PHR und so weiter {und so weiter} [ʊnt zoː ˈvaɪtɐ] = a tak ďalej
+1 CON oder {oder} [ˈoːdɐ] = alebo, či
+- 2 CON entweder {entweder} [ˈɛntveːdɐ] = buď
+1 CON aber {aber} [ˈaːbɐ] = ale, však
+1 CON denn {denn} [dɛn] = lebo, pretože
+1 CON sondern {sondern} [ˈzɔndɐn] = nýbrž, ale
+2 CON sowie {so|wie} [zoˈviː] = ako aj, a tiež
+2 CON sowohl {so|wohl} [zoˈvoːl] = ako… tak aj
+2 CON weder {weder} [ˈveːdɐ] = ani
+3 CON beziehungsweise {beziehungs|weise} [bəˈtsiːʊŋsvaɪzə] = respektíve, alebo
+
+# subordinating
+1 CON dass {dass} [das] = že
+- 2 CON sodass {so|dass} [zoˈdas] = takže, tak že
+1 CON damit {damit} [daˈmɪt] = aby
+1 CON weil {weil} [vaɪl] = pretože, lebo
+2 CON da {da} [daː] = keďže, pretože
+3 CON zumal {zu|mal} [tsuˈmaːl] = najmä keďže, zvlášť že
+1 CON wenn {wenn} [vɛn] = ak, keď, vždy keď
+- 2 CON falls {falls} [fals] = ak, v prípade že, pokiaľ
+- 3 CON wenngleich {wenn|gleich} [vɛnˈɡlaɪç] = hoci, aj keď
+2 CON sofern {so|fern} [zoˈfɛʁn] = ak, pokiaľ
+3 CON soweit {so|weit} [zoˈvaɪt] = pokiaľ, ako ďaleko
+2 CON solange {so|lange} [zoˈlaŋə] = dokiaľ, pokiaľ, kým
+2 CON sobald {so|bald} [zoˈbalt] = len čo, hneď ako
+3 CON sooft {so|oft} [zoˈɔft] = vždy keď, kedykoľvek
+1 CON ob {ob} [ɔp] = či
+- 1 CON obwohl {ob|wohl} [ɔpˈvoːl] = hoci, aj keď
+- 3 CON obgleich {ob|gleich} [ɔpˈɡlaɪç] = hoci, aj keď
+- 3 CON obschon {ob|schon} [ɔpˈʃoːn] = hoci
+- 2 PHR als ob {als ob} [als ɔp] = akoby
+1 CON als {als} [als] = keď, ako, než
+1 CON wie {wie} [viː] = ako, ako keď
+1 CON bevor {be|vor} [bəˈfoːɐ] = predtým než, skôr než
+2 CON ehe {ehe} [ˈeːə] = skôr než, predtým než
+1 CON nachdem {nach|dem} [naːxˈdeːm] = potom čo, keď
+2 CON indem {in|dem} [ɪnˈdeːm] = tým že, pričom
+2 CON seitdem {seit|dem} [zaɪtˈdeːm] = odkedy, odvtedy čo
+2 CON wohingegen {wo|hin|gegen} [vohɪnˈɡeːɡən] = zatiaľ čo, kdežto
+2 PHR um zu {um zu} [ʊm tsuː] = aby, na to aby
+
+# connecting-adverbs
+1 AV deshalb {des|halb} [ˈdɛshalp] = preto
+1 AV deswegen {des|wegen} [ˈdɛsveːɡən] = preto, kvôli tomu
+1 AV daher {daher} [daˈheːɐ] = preto, odtiaľ
+1 AV also {also} [ˈalzoː] = takže, teda
+1 AV trotzdem {trotzdem} [ˈtʁɔtsdeːm] = napriek tomu, aj tak
+2 AV dennoch {dennoch} [ˈdɛnɔx] = predsa, napriek tomu
+2 AV jedoch {jedoch} [jeˈdɔx] = však, avšak
+2 AV allerdings {allerdings} [ˈalɐdɪŋs] = však, ovšem
+1 AV sonst {sonst} [zɔnst] = inak (v opačnom prípade), ináč, ešte
+1 AV außerdem {außer|dem} [ˈaʊsɐdeːm] = okrem toho, navyše
+3 AV zudem {zu|dem} [tsuˈdeːm] = navyše, okrem toho
+2 AV somit {so|mit} [zoˈmɪt] = teda, tým
+2 AV nämlich {nämlich} [ˈnɛːmlɪç] = totiž
+3 AV demnach {dem|nach} [ˈdeːmnaːx] = podľa toho, teda
+2 AV zwar {zwar} [ˈtsvaːɐ] = síce
+2 AV einerseits {einer|seits} [ˈaɪnɐzaɪts] = na jednej strane
+2 CON plus {plus} [plʊs] = plus, a k tomu
+
+# more
+2 CON es sei denn {es sei denn} [ɛs zaɪ ˈdɛn] = ak nie

@@ -1,0 +1,120 @@
+# modal-verbs
+V môcť
+N zručnosť
+V musieť
+V mať (povinnosť)
+V smieť
+
+# language-specific closed words (no Slovak word: a description)
+V mohol by (možnosť) -- mohol by: could
+V pomocné sloveso zložených časov -- he cantado, había llegado, habrá terminado
+V byť práve pri deji (stare + gerundio) -- sta lavorando: práve pracuje
+V priať -- priať niekomu niečo: 祝你生日快乐
+V pamätať si -- uchovať v pamäti: 记住, 我记得
+V ísť taxíkom -- zastaviť si alebo objednať taxík a nastúpiť
+V mať prázdniny -- mať voľno zo školy alebo z práce
+V skončiť vyučovanie -- koniec vyučovania, žiaci odchádzajú
+V vrátiť sa domov
+V zapamätať si
+V mať poradu -- zúčastniť sa porady alebo ju viesť
+V žartovať
+V ísť k lekárovi -- dať sa vyšetriť lekárom, alebo lekár vyšetruje
+V požiadať o voľno -- požiadať o uvoľnenie z práce alebo zo školy
+V ísť do práce
+V ísť na vyučovanie
+V chodiť do školy
+V skončiť prácu
+V odísť do zahraničia
+V narodiť sa
+V odísť z nemocnice -- byť prepustený po liečbe
+V byť bez obáv
+V pripiť si
+V dojať
+V osláviť Nový rok
+V vrátiť sa do vlasti
+V spriateliť sa
+V zdvihnúť ruku
+V začať školský rok
+V vystupovať na vrchy
+V počúvať prednášku
+V pýtať sa na cestu
+V zdriemnuť si -- krátko si pospať cez deň
+V ísť na dovolenku
+V mylne si myslieť -- domnievať sa niečo, čo sa ukáže nepravdivé
+V mať čas
+V získať bod -- zaznamenať bod alebo gól
+V vystúpiť s príhovorom
+V stýkať sa -- udržiavať styky s niekým
+V zamestnať sa -- nájsť si prácu
+V študovať v zahraničí -- študovať v cudzej krajine
+V podať si ruku -- pozdraviť sa stiskom ruky
+V pripraviť sa na hodinu -- naštudovať učivo vopred
+V zachovať tajomstvo -- nepovedať nikomu
+V podporiť predaj -- zvýšiť predaj reklamou alebo zľavami
+V dať zľavu -- znížiť cenu
+V dať injekciu -- podať liek injekciou
+V zbankrotovať -- stať sa platobne neschopným
+V rozísť sa -- skončiť vzťah
+V získať cenu -- dostať ocenenie
+V uspieť na skúške -- prejsť skúškou
+V nestihnúť -- nemať dosť času
+V čeliť -- stáť tvárou v tvár
+V vyjsť na poschodie -- ísť do vyššieho poschodia
+V čistiť si zuby -- umývať zuby kefkou
+V záležať -- na niekom alebo na niečom mi záleží
+V zavolať políciu -- oznámiť polícii
+V ísť na služobnú cestu -- cestovať kvôli práci
+V zvoliť -- vybrať hlasovaním do funkcie
+V byť nižší ako -- mať menšiu hodnotu než niečo
+V zdieľať -- deliť sa o niečo s inými
+V neodolať -- nevedieť sa ovládnuť
+V odstrániť vírus -- vyčistiť počítač od vírusu
+V nechcieť sa vzdať -- ťažko sa lúčiť s niečím alebo niekým
+V dvihnúť hlavu -- zdvihnúť hlavu nahor
+V robiť ťažkosti -- sťažovať niekomu život
+V krútiť hlavou -- nesúhlasne
+V zvýšiť výrobu -- vyrobiť viac
+V prijímať žiakov -- škola prijíma nových žiakov
+V dostať bitku -- byť bitý
+V pracovať v kancelárii -- vykonávať úradnú prácu
+V viesť školu -- založiť a riadiť školu
+V prihlásiť sa na skúšku -- zapísať sa na prijímaciu či inú skúšku
+V zdeformovať sa -- zmeniť tvar nežiaducim spôsobom
+V vytočiť číslo -- zavolať na telefónne číslo
+V doučovať -- učiť navyše zameškanú či slabšie zvládnutú látku
+V špekulovať na burze -- obchodovať s akciami
+V reorganizovať -- usporiadať znova
+V oficiálne navštíviť -- ísť na úradnú návštevu
+V chodiť dnu a von -- vstupovať a vystupovať
+V súdiť sa -- viesť súdny spor
+V hrať karty -- hrať hru s kartami
+V sklopiť hlavu -- skloniť hlavu
+V vyrábať elektrinu -- vyrábať elektrickú energiu
+V mať zápal -- zapáliť sa o tkanive
+V odpovedať otázkou -- odvetiť otázkou
+V deliť si prácu -- rozdeliť úlohy medzi viacerých
+V poučiť sa -- učiť sa z cudzej skúsenosti
+V pracovať do noci -- 开夜车: burn the midnight oil
+V hospodáriť s peniazmi -- spravovať vlastné financie
+V zanechať odkaz
+V odniesť
+V porušiť -- porušiť práva, hranice
+V hľadať prácu
+V uvoľniť miesto -- ustúpiť svoje miesto na sedenie
+V nechať sa oklamať
+V vystúpiť na pódium
+V stúpnuť v hodnote -- zvýšiť svoju hodnotu
+V naučiť sa čítať
+V povedať pravdu
+V odprevadiť
+V skákať do vody
+V prezradiť
+V vrátiť lístok
+V brať drogy
+V opraviť auto
+V zabávať sa
+V trpieť nevoľnosťou v aute
+V nastoliť poriadok
+V učiť sa samostatne
+V hovoriť sám pre seba
+V zneplatniť

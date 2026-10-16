@@ -1,0 +1,202 @@
+AN mierny : {leto|zima|jeseň|deň|noc|týždeň|víkend|rok|večer}, phenomenon
+AN kalný : liquid, {leto|zima|jeseň|deň|noc|týždeň|víkend|rok|večer}, state
+N počasie : phenomenon
+N predpoveď počasia : information
+N správa o počasí : text
+N nečas : phenomenon
+N dážď : phenomenon
+V pršať : es
+AN daždivý : {leto|zima|jeseň|deň|noc|týždeň|víkend|rok|večer}, place
+N dúha : phenomenon
+N mrholenie : phenomenon
+N lejak : phenomenon
+N sneh : phenomenon
+V snežiť : es
+N snehová vločka : phenomenon
+N snehová búrka : phenomenon
+N dážď so snehom : phenomenon
+N snehová fujavica : phenomenon
+AN zasnežený : place
+N krúpy : phenomenon
+V krúpiť : es
+N prehánka : phenomenon
+N dažďová prehánka : phenomenon
+N vietor : phenomenon
+AN veterný : {leto|zima|jeseň|deň|noc|týždeň|víkend|rok|večer}, place
+N poryv vetra : phenomenon
+N smršť : phenomenon
+N bezvetrie : state
+N vánok : phenomenon
+N víchor : phenomenon
+AN búrlivý : {leto|zima|jeseň|deň|noc|týždeň|víkend|rok|večer}, place
+N búrka : phenomenon
+N hrom : sound
+V hrmieť : es
+N blesk : phenomenon
+V blýskať sa : es
+N hurikán : phenomenon
+N orkán : phenomenon
+N tornádo : phenomenon
+N tajfún : phenomenon
+N cyklón : phenomenon
+N monzún : phenomenon
+N oblak : phenomenon
+AN oblačný : {leto|zima|jeseň|deň|noc|týždeň|víkend|rok|večer}, place
+N oblačnosť : state
+AN bez oblakov : {leto|zima|jeseň|deň|noc|týždeň|víkend|rok|večer}, place
+N hmla : phenomenon
+AN hmlistý : {leto|zima|jeseň|deň|noc|týždeň|víkend|rok|večer}, place
+N cencúľ : thing
+N predpoveď : information
+AN zamračený : {leto|zima|jeseň|deň|noc|týždeň|víkend|rok|večer}, place
+V pokryť : {sneh|hmla|oblak|mráz} > patient landscape
+V pokryť : {sneh|hmla|mráz} > patient building
+V pokryť : {sneh|mráz} > patient thing
+V pokryť : {prach|piesok|blato|ľad|lístie} > patient landscape
+V pokryť : {prach|piesok|blato} > patient building
+V pokryť : {prach|piesok|blato|ľad|lístie} > patient thing
+V pokryť : {utierka|koberec} > patient landscape
+V pokryť : {utierka|koberec} > patient building
+V pokryť : {utierka|koberec} > patient thing
+V pokryť : person > patient thing, instrument {utierka|posteľná plachta|uterák|látka}
+V pokryť : person > patient body-part, instrument {utierka|posteľná plachta|uterák|látka}
+V pokryť : person > patient {dieťa|bábätko|pes|mačka|kôň|pacient}, instrument {utierka|posteľná plachta|uterák|látka}
+V pokryť : person > patient furniture, instrument {utierka|posteľná plachta|uterák|látka}
+N vlhkosť : quality
+N vlhkosť vzduchu : quality
+V zvlhčiť : person > patient thing
+V zvlhčiť : person > patient plant
+V zvlhčiť : person > patient body-part
+V zvlhčiť : person > patient food
+AN slnečný : {leto|zima|jeseň|deň|noc|týždeň|víkend|rok|večer}, place
+N meteorologická služba : institution
+N teplota : quality
+AN horúci : {polievka|omáčka|jedlo|pizza|pečienka}, {káva|čaj|mlieko|voda|nápoj|kakao|olej|para|oheň|vietor}, {izba|kuchyňa|kúpeľňa|obývačka}, {leto|zima|jeseň|deň|noc|týždeň|víkend|rok|večer}, metal
+N horúčava : phenomenon
+N vlna horúčav : phenomenon
+V zohriať : {matka|otec|babka|dedko|muž|žena|syn|dcéra|priateľ|brat|sestra|kuchár} > patient {polievka|omáčka|jedlo|pokrm|mlieko}
+V zohriať : {matka|otec|babka|dedko|muž|žena|syn|dcéra|priateľ|brat|sestra|kuchár} > patient {voda|olej}
+V zohriať : {kováč|robotník|remeselník|mechanik} > patient metal
+V zohriať : {matka|otec|babka|dedko|muž|žena|syn|dcéra|priateľ|brat|sestra|kuchár} > patient kitchenware
+AN prchký : person, event
+AN studený : {polievka|šalát|pizza|pečienka|omáčka|jedlo|hranolky|mäso|klobása|ryba|šunka}, dairy, drink, -{alkohol}, liquid, -{krv}, phenomenon, -sound, -{chlad|mráz}, {izba|spálňa|obývačka|kuchyňa|pivnica|kúpeľňa}, {ruka|noha (chodidlo)|prst|nos|koža (orgán)|čelo|tvár|telo}, {leto|zima|jeseň|deň|noc|týždeň|víkend|rok|večer}, metal
+N chlad : phenomenon
+N vlna chladu : phenomenon
+AN chladnokrvný : animal, person
+AN teplý : dish, baked-goods, {mäso|klobása|ryba|losos|čaj|káva|mlieko|voda|kakao|nápoj}, phenomenon, -sound, -{teplo|horúčava}, {izba|spálňa|obývačka|kuchyňa|pivnica|kúpeľňa}, {ruka|noha (chodidlo)|prst|nos|ucho|čelo|koža (orgán)}, {leto|zima|jeseň|deň|noc|týždeň|víkend|rok|večer}, clothing
+N teplo : phenomenon
+V ohrievať : {matka|otec|babka|dedko|muž|žena|syn|dcéra|priateľ|brat|sestra|kuchár} > patient {ruka|noha (chodidlo)|prst|paža|noha (končatina)|telo}
+V ohrievať : {matka|otec|babka|dedko|muž|žena|syn|dcéra|priateľ|brat|sestra|kuchár} > patient dish
+V ohrievať : {matka|otec|babka|dedko|muž|žena|syn|dcéra|priateľ|brat|sestra|kuchár} > patient meat
+V ohrievať : {matka|otec|babka|dedko|muž|žena|syn|dcéra|priateľ|brat|sestra|kuchár} > patient baked-goods
+V ohrievať : {matka|otec|babka|dedko|muž|žena|syn|dcéra|priateľ|brat|sestra|kuchár} > patient drink
+V ohrievať : {matka|otec|babka|dedko|muž|žena|syn|dcéra|priateľ|brat|sestra|kuchár} > patient {dieťa|bábätko|pes|mačka}
+V ohrievať : {slnko|oheň} > patient landscape
+V ohrievať : {slnko|oheň} > patient animal
+V ohrievať : {slnko|oheň} > patient {ruka|noha (chodidlo)|prst|paža|noha (končatina)|telo}
+V ohriať : {matka|otec|babka|dedko|muž|žena|syn|dcéra|priateľ|brat|sestra|kuchár} > patient {ruka|noha (chodidlo)|prst|paža|noha (končatina)|telo}
+V ohriať : {matka|otec|babka|dedko|muž|žena|syn|dcéra|priateľ|brat|sestra|kuchár} > patient dish
+V ohriať : {matka|otec|babka|dedko|muž|žena|syn|dcéra|priateľ|brat|sestra|kuchár} > patient meat
+V ohriať : {matka|otec|babka|dedko|muž|žena|syn|dcéra|priateľ|brat|sestra|kuchár} > patient baked-goods
+V ohriať : {matka|otec|babka|dedko|muž|žena|syn|dcéra|priateľ|brat|sestra|kuchár} > patient drink
+V ohriať : {matka|otec|babka|dedko|muž|žena|syn|dcéra|priateľ|brat|sestra|kuchár} > patient {dieťa|bábätko|pes|mačka}
+V ohriať : {slnko|oheň} > patient landscape
+V ohriať : {slnko|oheň} > patient animal
+V ohriať : {slnko|oheň} > patient {ruka|noha (chodidlo)|prst|paža|noha (končatina)|telo}
+N otepľovanie : process
+AN vlažný : dish, drink, liquid
+AN chladný : drink, liquid, -{krv}, phenomenon, -sound, -{chlad|mráz}, {izba|spálňa|obývačka|kuchyňa|pivnica}, {ruka|čelo|koža (orgán)|smotana|maslo}, {leto|zima|jeseň|deň|noc|týždeň|víkend|rok|večer}
+V chladiť : {matka|otec|babka|dedko|muž|žena|syn|dcéra|priateľ|brat|sestra|kuchár} > patient {mäso|klobása|šunka|ryba|ovocie|zelenina|maslo|syr}
+V chladiť : {matka|otec|babka|dedko|muž|žena|syn|dcéra|priateľ|brat|sestra|kuchár} > patient dairy
+V chladiť : {matka|otec|babka|dedko|muž|žena|syn|dcéra|priateľ|brat|sestra|kuchár} > patient drink
+V chladiť : {matka|otec|babka|dedko|muž|žena|syn|dcéra|priateľ|brat|sestra|kuchár} > patient {ruka|noha (chodidlo)|prst|paža|noha (končatina)|telo}
+V chladiť : {technik|mechanik|inžinier|robotník|muž|otec} > patient {počítač|motor|stroj}
+V ochladiť : liquid
+V ochladiť : food -meal
+V ochladiť : metal
+V ochladiť : {počasie|noc|klíma}
+V ochladiť : {matka|otec|babka|dedko|muž|žena|syn|dcéra|priateľ|brat|sestra|kuchár} > patient dish
+V ochladiť : {matka|otec|babka|dedko|muž|žena|syn|dcéra|priateľ|brat|sestra|kuchár} > patient baked-goods
+V ochladiť : {matka|otec|babka|dedko|muž|žena|syn|dcéra|priateľ|brat|sestra|kuchár} > patient liquid
+V ochladiť : {matka|otec|babka|dedko|muž|žena|syn|dcéra|priateľ|brat|sestra|kuchár} > patient {ruka|noha (chodidlo)|prst|paža|noha (končatina)|telo}
+V ochladiť : {kováč|robotník|remeselník|mechanik} > patient metal
+N chládok : phenomenon
+V mrznúť : person
+V mrznúť : pet
+V mrznúť : es
+N mráz : phenomenon
+AN mrazivý : {leto|zima|jeseň|deň|noc|týždeň|víkend|rok|večer}, place
+V triasť sa od zimy : person
+V zamrznúť : {voda|mlieko|šťava|jazero|rieka}
+V zmraziť : {matka|otec|babka|dedko|muž|žena|syn|dcéra|priateľ|brat|sestra|kuchár} > patient {mäso|ryba|chlieb|zelenina|polievka|koláč|klobása|žemľa}
+V zmraziť : {voda|mlieko|šťava|jazero|rieka}
+N bod mrazu : quantity
+V topiť sa : metal
+V topiť sa : {ľad|sneh|maslo|syr|čokoláda|vosk|plast}
+V topiť sa : professional > patient {kov|železo|zlato|plast|vosk|sklenica}
+V tajať : es
+N rosa : phenomenon
+V rozmraziť : {matka|otec|babka|dedko|muž|žena|syn|dcéra|brat|sestra|kuchár} > patient {mäso|ryba|chlieb|zelenina|polievka|koláč|klobása|žemľa|pizza|kurča}
+V rozmraziť : {ľad|sneh|pôda|jazero|rieka}
+N obleva : phenomenon
+AN ľadový : drink, liquid, phenomenon, -sound, {izba|spálňa|obývačka|kuchyňa|pivnica|kúpeľňa}, {ruka|noha (chodidlo)|prst|nos|ucho|čelo|koža (orgán)}, {leto|zima|jeseň|deň|noc|týždeň|víkend|rok|večer}, water-body
+AN dusný : {leto|zima|jeseň|deň|noc|týždeň|víkend|rok|večer}, state
+N dusno : phenomenon
+V páliť : celestial > patient landscape
+V páliť : celestial > patient plant
+V páliť : celestial > patient animal
+V páliť : celestial > patient thing
+AN pálivý : phenomenon
+N zákal : state
+V zakaliť : {blato|dážď|víchor} > patient liquid
+V zakaliť : substance > patient liquid
+V zakaliť : {hádka|správa (oznam)|kríza|strach|smútok} > patient {nálada|radosť|nálada|šťastie}
+AN vyschnutý : place, plant, {leto|zima|jeseň|deň|noc|týždeň|víkend|rok|večer}
+N sucho : phenomenon
+N ročné obdobie : period
+N jar : period
+N leto : period
+AN letný : {leto|zima|jeseň|deň|noc|týždeň|víkend|rok|večer}, phenomenon
+N jeseň : period
+AN jesenný : {leto|zima|jeseň|deň|noc|týždeň|víkend|rok|večer}, phenomenon
+N zima : period
+AN zimný : {leto|zima|jeseň|deň|noc|týždeň|víkend|rok|večer}, phenomenon
+V prezimovať : animal
+N klíma : state
+N zmena klímy : process
+N klimatizácia : device, switchable, repairable
+N ochrana klímy : activity
+AN klimatický : state, phenomenon ; attr
+N mikroklíma : state
+AN tropický : place, plant, phenomenon
+AN subtropický : place, plant, phenomenon
+N tropy : region
+N rovník : place ; an
+N pól : place ; an
+AN polárny : place ; attr
+N severný pól : place ; an
+N južný pól : place ; an
+N zrážky : phenomenon
+N meteorológia : abstract
+N meteorológ : professional
+AN meteorologický : information, activity ; attr
+N výfukové plyny : gas
+N globálne otepľovanie : process
+N poľadovica : phenomenon
+N závan : phenomenon
+N námraza : phenomenon
+N silný dážď : phenomenon
+N denná teplota : quality
+N ochrana životného prostredia : activity
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN ekologický : food, activity, process, vehicle, building
+AN horúci letný : {deň|noc|večer|týždeň|víkend}, phenomenon
+AN jarný : {deň|noc|večer|týždeň|víkend}, phenomenon, flower
+AN nepredvídateľný : phenomenon, person, animal, event
+AN podchladený : person, animal
+AN ľadovo studený : liquid, drink, phenomenon, body-part
+AN šetrný ku klíme : vehicle, device, activity, process
+AN škodlivý pre klímu : vehicle, device, activity, process, substance
+V prehriať : person > patient device
+V prehriať : person > patient liquid

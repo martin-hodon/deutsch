@@ -1,0 +1,62 @@
+# accusative
+PRE pre
+PRE okolo
+AV tým viac
+PRE bez
+AV tak či tak
+PRE proti
+PRE na (za jednotku)
+PRE prostredníctvom
+
+# dative
+PRE z
+PRE pri
+PRE s
+PRE od (pôvod)
+PRE k
+PRE pre dobro
+PRE od (začiatok)
+PRE okrem
+PRE v rozpore s
+PRE v súlade s
+PRE spolu s
+PRE vďaka
+
+# genitive
+PRE kvôli
+PRE napriek
+PRE namiesto
+AV namiesto toho
+PRE vnútri
+PRE mimo
+PRE na tejto strane
+PRE na základe
+PRE následkom
+PRE pri príležitosti
+PRE pokiaľ ide o
+PRE vzhľadom na
+PRE v prospech
+PRE pomocou
+PRE za účelom
+PRE zo strany
+PRE uprostred
+PRE stranou
+PRE neďaleko
+PRE v priebehu
+PRE vrátane
+
+# two-way
+PRE na (v kontakte)
+PRE na (navrchu)
+PRE v
+
+# more
+PHR bez ohľadu na
+
+# language-specific closed words (no Slovak word: a description)
+PRE porovnávacia predložka (比) -- než pri porovnaní: 他比我高
+PRE o -- predložka témy: hovoriť o niečom, ide o, súťažiť o
+PRE v prípade -- podmienka: v prípade potreby, w razie czego
+PRE voči -- vzťah k niekomu alebo niečomu: voči nemu, w stosunku
+PRE od (vzdialenosť) -- vzdialenosť od: 离这儿很近
+PRE menej ako

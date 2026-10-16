@@ -1,0 +1,6 @@
+@ life/body-actions.txt # locomotion
+1 V laufen {laufen} [ˈlaʊfən], läuft/lief/gelaufen [lɔʏft/liːf/ɡəˈlaʊfən], ist = bežať, chodiť
+@ humans/language-communication.txt < schreiben
+- 2 V verschreiben {ver|schreiben} [fɛɐˈʃʁaɪbən], verschreibt/verschrieb/verschrieben [fɛɐˈʃʁaɪpt/fɛɐˈʃʁiːp/fɛɐˈʃʁiːbən], hat (D A) = predpísať
+@ abstract/relation-change.txt < nehmen
+- 2 V einnehmen {ein·nehmen} [ˈaɪnneːmən], nimmt ein/nahm ein/eingenommen [nɪmt aɪn/naːm aɪn/ˈaɪnɡənɔmən], hat (A) = užívať, prijať

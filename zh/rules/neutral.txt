@@ -1,0 +1,165 @@
+# HOW CHINESE SAYS THE WORLD'S CLOSED WORDS (world/CLAUSES.md) -- as en/rules/neutral.txt: `KIND neutral = Chinese`,
+# alternatives `|` ([place] [person] [surface] [vehicle]: the alternative for such a noun). A pronoun: the word/its
+# possessive/its person (0 我 .. 5 他们). A relation: the coverb phrase with … where the noun goes (在…里: a circumposition);
+# `pre` the phrase stands before the verb (the default), `post` after it. Read by zh/realize.js.
+
+pron 1sg = 我/我的/0
+pron 2sg = 你/你的/1
+pron 3sg.m = 他/他的/2
+pron 3sg.f = 她/她的/2
+pron 3sg.n = 它/它的/2
+pron 1pl = 我们/我们的/3
+pron 2pl = 你们/你们的/4
+pron 3pl = 他们/他们的/5
+pron 3pl.f = 她们/她们的/5
+pron formal = 您/您的/4
+pron one = 人们/-/5
+pron someone = 有人/-/2
+pron noone = 没有人/-/2
+pron something = 什么东西/-/2
+pron nothing = 什么都不/-/2
+pron everything = 一切/-/2
+pron this = 这/-/2
+pron that-one = 他/他的/2
+pron who = 谁/谁的/2
+
+# the determiners: `这+CL` takes the noun's measure word (这本书), `一+CL` one of them (一本书), a bare word stands as it is
+det def =
+det indef = 一+CL
+det this = 这+CL
+det every = 每+CL
+det all = 所有的
+det some = 一些
+det both = 两+CL
+det many = 很多
+det much = 很多
+det little = 一点
+det several = 几+CL
+det few = 很少
+det which = 哪+CL
+det no = 没有
+
+coord and = ，
+coord but = 但是
+coord or = 或者
+coord for = 因为
+coord either = 要么
+coord admittedly = 虽然
+coord as-well-as = 以及
+
+# a link: the word before its clause; `>` what the MAIN clause then begins with (因为 ... 所以 ...); `<` the link stands
+# at the END of its clause (...的时候)
+link because = 因为 >所以
+link although = 虽然 >但是
+link if = 如果 >就
+link if-unreal = 如果 >就
+link when = <的时候
+link when-past = <的时候
+link before = <以前
+link after = <以后
+link as-soon-as = 一 >就
+link in-case = 万一
+link while = <的时候
+link until = 直到
+link as-long-as = 只要 >就
+link since = 自从 <以来
+link so-that = 为了
+link by-doing = 通过
+link with-result = 所以
+link without-that = 没有
+link instead-that = 而不是
+link as-if = 好像
+link that =
+link whether = 是不是
+link purpose = 为了
+link without = 没有
+link instead = 而不是
+
+rel in = 在…里 | 在 [place]
+rel into = 到…里 | 到 [place]
+rel on = 在…上
+rel onto = 到…上
+rel at = 在
+rel to-side = 到
+rel to = 到 | 去 [place]
+rel from = 从
+rel off = 从…上
+rel under = 在…下面
+rel under-to = 到…下面
+rel above = 在…上面
+rel above-to = 到…上面
+rel behind = 在…后面
+rel behind-to = 到…后面
+rel front = 在…前面
+rel front-to = 到…前面
+rel beside = 在…旁边
+rel beside-to = 到…旁边
+rel between = 在…之间
+rel through = 穿过
+rel along = 沿着
+rel around = 围着
+rel near = 在…附近 | 在…那里 [person]
+rel with = 和…一起 | 用 [thing]
+rel without = 没有
+rel by = 坐
+rel for = 为
+rel about = 关于
+rel like = 像…一样
+rel against = 反对
+rel opposite = 在…对面
+rel smell-of = 有…的味道
+rel after = …以后
+rel before = …以前
+rel out-of = 因为
+rel because-of = 因为
+rel despite = 尽管
+rel during = 在…期间
+rel instead-of = 而不是
+rel until = 到
+rel of = …的
+
+time on-day =
+time in-period =
+time at-hour = …点
+time date =
+time last = 上+CL
+time next = 下+CL
+time every = 每+CL
+time since = 已经
+time ago = …以前
+time in-time = …以后
+
+wh who = 谁
+wh whom = 谁
+wh what = 什么
+wh when = 什么时候
+wh where = 哪里
+wh whence = 从哪里
+wh whither = 哪里
+wh why = 为什么
+wh how = 怎么
+wh how-old = 多大
+wh how-late = 几点
+wh how-often = 多久一次
+wh which = 哪+CL
+wh what-kind = 什么样的
+wh how-many = 多少
+
+neg yes = 不
+neg no-more = 不再
+neg not-yet = 还没
+neg not-at-all = 一点也不
+
+# WORD LISTS: time words of the past and the future; the measure words of time units (天 and 年 take none: 三天, 两年;
+# 星期 and 月 take 个); the numbers' values; the words a 了 never follows (a state: 是 有 在 喜欢 知道 认识 觉得 希望 想 爱 怕)
+list past = 昨天|前天|最近|以前|当时|刚才
+list future = 明天|后天|很快|以后|将来|今天晚上
+list state = 是|有|在|喜欢|知道|认识|觉得|希望|想|爱|怕|住|姓|叫|需要|应该|能|会|可以|像|属于|等于
+list unit-cl = 天:|年:|星期:个|月:个|小时:个|分钟:
+list num = jeden:1|dva:2|tri:3|štyri:4|päť:5|šesť:6|sedem:7|osem:8|deväť:9|desať:10|jedenásť:11|dvanásť:12|trinásť:13|štrnásť:14|pätnásť:15|šestnásť:16|sedemnásť:17|osemnásť:18|devätnásť:19|dvadsať:20|tridsať:30|štyridsať:40|päťdesiat:50|šesťdesiat:60|sedemdesiat:70|osemdesiat:80|deväťdesiat:90|sto:100
+list digits = 零|一|二|三|四|五|六|七|八|九|十
+# adjectives of the plan that Chinese says as verbs (病了, not 很病)
+list verbadj = 病|生病|感冒|发烧|结婚|毕业|死|醒|饿|渴
+# time words that open the sentence (然后他……, 这时门铃响了); the verbs of perceiving (听见她唱歌: the one heard before the verb)
+list front = 然后|这时|那时候|现在|后来|当时|刚才|最后|首先|突然|接着|于是
+list perceive = 听见|看见|看到|听到|听|看|感觉到|发现

@@ -1,0 +1,199 @@
+# yes-no
+1 PAR ja {ja} [jaː] = áno, však, veď
+- 3 INT jawohl {ja|wohl} [jaˈvoːl] = áno (dôrazne)
+1 INT nein {nein} [naɪn] = nie
+1 PAR doch {doch} [dɔx] = však, predsa, ale áno
+
+# modal-particles
+2 PAR mal {mal} [maːl] = raz (častica), len, no
+- 2 AV nochmal {noch|mal} [ˈnɔxmaːl] = ešte raz, znova
+2 PAR halt {halt} [halt] = veď, jednoducho, proste
+2 PAR wohl {wohl} [voːl] = asi, pravdepodobne, snáď
+2 PAR denn {denn} [dɛn] = teda, vlastne
+2 PAR bloß {bloß} [bloːs] = len, iba, vôbec
+2 PAR eigentlich {eigentlich} [ˈaɪɡəntlɪç] = vlastne, v skutočnosti
+2 PAR etwa {etwa} [ˈɛtva] = azda, približne, napríklad
+2 PAR überhaupt {über|haupt} [yːbɐˈhaʊpt] = vôbec, vlastne
+2 PAR gar {gar} [ˈɡaːɐ] = vôbec, celkom
+1 PAR bitte {bitte} [ˈbɪtə] = prosím
+1 PAR danke {danke} [ˈdaŋkə] = ďakujem
+1 PHR kein Problem {kein Problem} [kaɪn pʁoˈbleːm] = žiadny problém
+2 PHR nicht schlimm {nicht schlimm} [nɪçt ˈʃlɪm] = to nevadí
+2 PHR so ein Mist {so ein Mist} [zoː aɪn ˈmɪst] = do kelu
+
+# negation
+1 AV nicht {nicht} [nɪçt] = nie, ne-
+- 1 PHR nicht mehr {nicht mehr} [nɪçt meːɐ] = už nie, viac nie
+- 1 PHR noch nicht {noch nicht} [nɔx nɪçt] = ešte nie
+- 2 PHR gar nicht {gar nicht} [ɡaːɐ nɪçt] = vôbec nie
+- 2 PHR nicht nur {nicht nur} [nɪçt nuːɐ] = nielen
+2 AV kaum {kaum} [kaʊm] = sotva, takmer nie
+2 AV niemals {niemals} [ˈniːmaːls] = nikdy, nikdy viac
+
+# degree-and-focus
+1 AV auch {auch} [aʊx] = aj, tiež
+- 2 AV ebenfalls {eben|falls} [ˈeːbənfals] = takisto, tiež
+1 AV sehr {sehr} [zeːɐ] = veľmi
+1 AV so {so} [zoː] = tak, takto
+- 2 AV ebenso {eben|so} [ˈeːbənzoː] = rovnako, práve tak
+- 2 AV genauso {genau|so} [ɡəˈnaʊzoː] = presne tak, rovnako
+- 2 AV sogar {so|gar} [zoˈɡaːɐ] = dokonca
+- 2 AV sowieso {sowieso} [zoviˈzoː] = tak či tak, aj tak
+1 AV zu {zu} [tsuː] = príliš
+2 AV ziemlich {ziemlich} [ˈtsiːmlɪç] = pomerne, dosť
+2 AV fast {fast} [fast] = takmer
+2 AV bereits {bereits} [bəˈʁaɪts] = už
+2 AV erst {erst} [eːɐst] = až, najprv, iba
+- 2 AV zuerst {zu|erst} [tsuˈeːɐst] = najprv, spočiatku
+2 AV mindestens {mindestens} [ˈmɪndəstəns] = minimálne, aspoň
+2 AV zumindest {zumindest} [tsuˈmɪndəst] = aspoň, prinajmenšom
+2 AV wenigstens {wenigstens} [ˈveːnɪçstəns] = aspoň
+2 AV höchstens {höchstens} [ˈhøːçstəns] = najviac, nanajvýš
+2 AV lediglich {lediglich} [ˈleːdɪklɪç] = iba, len, výlučne
+2 AV ausschließlich {aus|schließ|lich} [ˈaʊsʃliːslɪç] = výlučne, iba
+2 AV insbesondere {ins|besondere} [ɪnsbəˈzɔndəʁə] = najmä, obzvlášť
+2 AV zugleich {zu|gleich} [tsuˈɡlaɪç] = zároveň, súčasne
+2 AV hingegen {hin|gegen} [hɪnˈɡeːɡən] = naopak, zato
+2 AV miteinander {mit|einander} [mɪtaɪˈnandɐ] = navzájom, spolu
+2 AV hinzu {hin|zu} [hɪnˈtsuː] = k tomu, navyše
+2 AV quasi {quasi} [ˈkvaːzi] = akoby, takmer
+2 AV ausgerechnet {aus|gerechnet} [ˈaʊsɡəʁɛçnət] = práve, zrovna
+2 AV äußerst {äußerst} [ˈɔʏsɐst] = nanajvýš, mimoriadne
+3 AV allzu {all|zu} [ˈaltsuː] = príliš
+2 AV beinahe {bei|nahe} [ˈbaɪnaːə] = takmer
+2 AV vergleichsweise {vergleichs|weise} [fɛɐˈɡlaɪçsvaɪzə] = pomerne, relatívne
+2 AV überwiegend {über|wiegend} [yːbɐˈviːɡənt] = prevažne, väčšinou
+2 AV vermehrt {vermehrt} [fɛɐˈmeːɐt] = čoraz viac, vo zvýšenej miere
+2 AV circa {circa} [ˈtsɪʁka] = približne, asi
+2 AV desto {desto} [ˈdɛsto] = tým viac, tým (viac), o to
+
+# time
+2 AV nun {nun} [nuːn] = teraz, no, tak
+2 AV damals {damals} [ˈdaːmaːls] = vtedy, onehdy
+2 AV später {später} [ˈʃpɛːtɐ] = neskôr, potom
+2 AV nachher {nachher} [ˈnaːxheːɐ] = neskôr, potom
+2 AV mittlerweile {mittlerweile} [ˈmɪtlɐˈvaɪlə] = medzitým, zatiaľ
+2 AV meistens {meistens} [ˈmaɪstəns] = väčšinou, zväčša
+- 2 AV meist {meist} [maɪst] = väčšinou, najčastejšie
+2 AV stets {stets} [ʃteːts] = stále, vždy
+3 AV jemals {jemals} [ˈjeːmaːls] = niekedy, kedykoľvek
+2 AV längst {längst} [lɛŋst] = dávno, už dávno
+2 AV bisher {bisher} [bɪsˈheːɐ] = doteraz, dosiaľ
+2 AV zuletzt {zuletzt} [tsuˈlɛtst] = naposledy, nakoniec
+2 AV zunächst {zunächst} [tsuˈnɛːçst] = najprv, spočiatku
+3 AV neulich {neulich} [ˈnɔʏlɪç] = nedávno, onehdy
+2 AV weiterhin {weiter|hin} [ˈvaɪtɐhɪn] = naďalej, i naďalej
+2 AV bislang {bis|lang} [bɪsˈlaŋ] = doteraz, dosiaľ
+2 AV vorerst {vor|erst} [ˈfoːɐeːɐst] = zatiaľ, prozatiaľ
+2 AV daraufhin {dar|auf|hin} [daʁaʊfˈhɪn] = následne, nato, na to
+2 AV anschließend {an|schließend} [ˈanʃliːsənt] = potom, následne
+2 AV derweil {der|weil} [ˈdeːɐvaɪl] = medzitým, zatiaľ
+2 AV indes {indes} [ɪnˈdɛs] = medzitým, zatiaľ, však
+- 3 AV indessen {indessen} [ɪnˈdɛsən] = medzitým, však
+2 AV kurzfristig {kurz|fristig} [ˈkʊʁtsfʁɪstɪç] = krátkodobo, narýchlo
+2 AV langfristig {lang|fristig} [ˈlaŋfʁɪstɪç] = dlhodobo
+2 AV jüngst {jüngst} [jʏŋst] = nedávno
+3 AV unterdessen {unter|dessen} [ʊntɐˈdɛsən] = medzitým, zatiaľ
+2 AV erstmal {erst|mal} [ˈeːɐstmaːl] = najprv, zatiaľ, pre začiatok
+3 AV vorab {vor|ab} [foːɐˈap] = vopred
+2 AV dreimal {drei|mal} [ˈdʁaɪmaːl] = trikrát
+2 AV zeitweise {zeit|weise} [ˈtsaɪtvaɪzə] = občas, dočasne
+2 AV umgehend {umgehend} [ˈʊmɡeːənt] = okamžite, bezodkladne
+2 AV mitunter {mit|unter} [mɪtˈʊntɐ] = občas, niekedy
+2 AV demnächst {demnächst} [deːmˈnɛːçst] = onedlho, v najbližšom čase
+2 AV seither {seit|her} [zaɪtˈheːɐ] = odvtedy
+2 AV zwischenzeitlich {zwischen|zeit|lich} [ˈtsvɪʃəntsaɪtlɪç] = medzitým, zatiaľ
+
+# attitude-and-manner
+1 AV vielleicht {vielleicht} [fiˈlaɪçt] = možno, snáď
+2 AV bestimmt {bestimmt} [bəˈʃtɪmt] = určite, iste
+1 AV leider {leider} [ˈlaɪdɐ] = bohužiaľ, žiaľ
+1 AV gern {gern} [ɡɛʁn] = rád, ochotne
+1 AV wirklich {wirklich} [ˈvɪʁklɪç] = naozaj, skutočne
+2 AV tatsächlich {tatsächlich} [ˈtaːtzɛçlɪç] = skutočne, naozaj
+2 AV übrigens {übrigens} [ˈyːbʁɪɡəns] = mimochodom
+2 AV irgendwie {irgend|wie} [ˈɪʁɡəntviː] = nejako
+2 AV umsonst {umsonst} [ʊmˈzɔnst] = zadarmo, nadarmo
+2 AV vergebens {vergebens} [fɛɐˈɡeːbəns] = márne, nadarmo
+2 AV jedenfalls {jeden|falls} [ˈjeːdənfals] = každopádne, v každom prípade
+2 AV womöglich {wo|möglich} [voˈmøːklɪç] = možno, prípadne
+2 AV unbedingt {un|be|dingt} [ˈʊnbədɪŋt] = nevyhnutne, za každú cenu
+2 AV vielmehr {viel|mehr} [ˈfiːlmeːɐ] = skôr, naopak
+2 AV extra {extra} [ˈɛkstʁa] = osobitne, navyše
+2 AV derart {derart} [ˈdeːɐaːɐt] = natoľko, tak
+2 AV freilich {frei|lich} [ˈfʁaɪlɪç] = samozrejme, síce
+2 AV keineswegs {keines|wegs} [ˈkaɪnəsveːks] = vôbec nie, nijako
+2 AV ansonsten {an|sonsten} [anˈzɔnstən] = inak (v opačnom prípade), v opačnom prípade
+2 AV bestens {bestens} [ˈbɛstəns] = veľmi dobre, čo najlepšie
+2 AV eventuell {eventuell} [evɛnˈtuɛl] = prípadne, možno
+2 AV hinterher {hinterher} [hɪntɐˈheːɐ] = potom, neskôr, za
+2 AV aufeinander {auf|einander} [aʊfaɪˈnandɐ] = na seba, jeden na druhého
+2 AV leid {leid} [laɪt] = ľúto
+2 AV gerne {gerne} [ˈɡɛʁnə] = rád
+
+# place-direction
+1 AV her {her} [heːɐ] = sem, odtiaľ
+- 2 AV herein {herein} [hɛˈʁaɪn] = dnu (k hovoriacemu), dovnútra
+- 2 AV heraus {heraus} [hɛˈʁaʊs] = von
+- 2 AV herauf {herauf} [hɛˈʁaʊf] = nahor (k hovoriacemu), hore
+- 2 AV herunter {herunter} [hɛˈʁʊntɐ] = dolu (k hovoriacemu)
+1 AV hin {hin} [hɪn] = tam (smer), k
+- 2 AV hinein {hinein} [hɪˈnaɪn] = dnu (od hovoriaceho), dovnútra
+- 2 AV hinaus {hinaus} [hɪˈnaʊs] = von
+- 2 AV hinauf {hinauf} [hɪˈnaʊf] = nahor (od hovoriaceho), hore
+- 2 AV hinunter {hinunter} [hɪˈnʊntɐ] = dolu (od hovoriaceho)
+1 AV zurück {zurück} [tsuˈʁʏk] = späť, naspäť
+2 AV vorbei {vorbei} [foːɐˈbaɪ] = okolo, mimo, preč
+2 AV vorn {vorn} [fɔʁn] = vpredu, dopredu
+2 AV voran {vor|an} [foˈʁan] = vpred, dopredu
+2 AV dahin {da|hin} [daˈhɪn] = tam (smer), týmto smerom
+2 AV raus {raus} [ʁaʊs] = von, preč
+2 AV hierzulande {hier|zu|lande} [ˈhiːɐtsulandə] = u nás, v našej krajine
+2 AV hinweg {hin|weg} [hɪnˈvɛk] = preč, cez
+2 AV wonach {wo|nach} [voˈnaːx] = podľa čoho, po čom
+
+# da-compounds
+1 AV da {da} [daː] = tam (miesto), tu, vtedy
+- 1 AV damit {damit} [daˈmɪt] = s tým, tým
+- 1 AV dafür {dafür} [daˈfyːɐ] = za to, na to, pre to
+- 1 AV dagegen {dagegen} [daˈɡeːɡən] = proti tomu, naopak
+- 1 AV davon {davon} [daˈfɔn] = od toho, z toho, o tom
+- 1 AV dazu {dazu} [daˈtsuː] = k tomu, na to
+- 1 AV darauf {darauf} [daˈʁaʊf] = na tom, potom
+- 1 AV daran {daran} [daˈʁan] = na tom, na to
+- 1 AV darin {darin} [daˈʁɪn] = v tom, v ňom
+- 1 AV darum {darum} [daˈʁʊm] = preto, o to
+- 1 AV dabei {dabei} [daˈbaɪ] = pri tom, pritom
+- 2 AV davor {davor} [daˈfoːɐ] = pred tým
+- 2 AV dadurch {dadurch} [daˈdʊʁç] = tým, tadiaľ
+- 2 AV daraus {daraus} [daˈʁaʊs] = z toho
+- 2 AV darunter {darunter} [daˈʁʊntɐ] = pod tým, medzi nimi
+- 2 AV dahinter {da|hinter} [daˈhɪntɐ] = za tým
+- 2 AV dran {dran} [dʁan] = na tom, pri tom
+- 2 AV drauf {drauf} [dʁaʊf] = na to, na tom
+- 2 AV drin {drin} [dʁɪn] = v tom, vnútri
+2 AV hierbei {hier|bei} [ˈhiːɐbaɪ] = pri tom, tu
+
+# question-words
+1 AV wie {wie} [viː] = ako
+- 2 AV wieso {wieso} [viˈzoː] = prečo, ako to
+- 1 PHR wie viel {wie viel} [viː ˈfiːl] = koľko
+1 AV warum {warum} [vaˈʁʊm] = prečo
+- 2 AV weshalb {wes|halb} [vɛsˈhalp] = prečo, z akého dôvodu
+1 AV wann {wann} [van] = kedy
+- 2 AV irgendwann {irgend|wann} [ˈɪʁɡəntvan] = niekedy, kedykoľvek
+1 AV wo {wo} [voː] = kde
+- 1 AV wohin {wohin} [voˈhɪn] = kam
+- 1 AV woher {woher} [voˈheːɐ] = odkiaľ
+- 2 AV womit {womit} [voˈmɪt] = s čím, čím
+- 2 AV wofür {wofür} [voˈfyːɐ] = za čo, na čo
+- 2 AV wozu {wozu} [voˈtsuː] = načo, k čomu
+- 2 AV wovon {wovon} [voˈfɔn] = z čoho, o čom
+- 2 AV woran {woran} [voˈʁan] = na čom
+- 2 AV worauf {worauf} [voˈʁaʊf] = na čo, na čom
+- 2 AV worüber {worüber} [voˈʁyːbɐ] = o čom, nad čím
+- 3 AV wobei {wobei} [voˈbaɪ] = pri čom
+- 3 AV wodurch {wodurch} [voˈdʊʁç] = čím, cez čo
+
+# language-specific closed words (no Slovak word: a description)
+1 PHR im Rahmen {im Rahmen} [ɪm ˈʁaːmən] (G, von D) = v rámci (im Rahmen)

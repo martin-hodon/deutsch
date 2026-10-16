@@ -1,0 +1,83 @@
+# SITUATIONS of society: politics, law, military, religion (a few each; hard settings get fewer, natural ones)
+# (deleted in the audit: demonstration -- anger unmotivated, a wet sign does not stop a march; wahl -- no strong motive to vote, pen "repaired"; polizeiwache -- report/print only for work;
+#  gericht -- no motive for a letter in court, "Gericht" is also the dish in the dictionary;
+#  protestieren with a Schild -- the dictionary's Schild is the shield)
+
+SITUATION nachrichten : politics -- die Nachrichten über die Regierung
+  place   obývačka
+  people  kin | priateľ
+  own     okuliare
+  things  televízor | rádio | noviny | pohovka | lampa
+  want    chuť : verb=pozerať_televíziu ; uses televízor
+  want    chuť : verb=počuť patient=none:rádio ; uses rádio
+  want    chuť : verb=čítať patient=def:noviny ; uses lampa | okuliare
+  trouble televízor pokazený : opraviť
+  trouble rádio pokazený : opraviť
+  trouble lampa pokazený : opraviť
+  trouble okuliare špinavý : čistiť
+
+SITUATION notruf : law -- Hilfe holen, wenn etwas passiert
+  place   byt
+  people  kin | priateľ
+  own     mobil
+  things  telefón | dvere | okno | lampa
+  want    chorý : verb=zavolať patient=indef:lekár ; uses telefón | mobil
+  trouble telefón pokazený : opraviť
+  trouble mobil prázdny : nabiť
+
+SITUATION streife : law -- die Polizei unterwegs
+  place   ulica
+  people  mechanik | kolega
+  things  auto | pneumatika | nádrž
+  want    ponáhľanie : verb=ísť_(dopravou) patient=none:auto ; uses auto | nádrž | pneumatika
+  trouble auto pokazený : opraviť by mechanik
+  trouble pneumatika pokazený : vymeniť by mechanik
+  trouble nádrž prázdny : naplniť by kolega
+
+SITUATION kaserne : military -- in der Kaserne
+  place   kasárne
+  people  priateľ | školník
+  things  posteľ | sprcha | tanier | lyžica
+  want    špinavý : verb=sprchovať_sa ; uses sprcha
+  want    hladný : verb=jesť patient=indef:polievka ; uses tanier | lyžica
+  want    unavený : verb=spať ; uses posteľ
+  trouble sprcha pokazený : opraviť by školník
+  trouble posteľ pokazený : opraviť by školník
+  trouble tanier špinavý : oplachovať by priateľ
+  trouble lyžica špinavý : oplachovať by priateľ
+
+SITUATION übung : military -- eine Übung im Gelände
+  place   terén
+  people  priateľ | kolega
+  own     stan | spací_vak
+  things  tank | nákladné_auto
+  want    unavený : verb=spať ; uses stan | spací_vak
+  trouble stan pokazený : opraviť
+  trouble spací_vak mokrý : sušiť
+
+SITUATION kirche : religion -- in der Kirche
+  place   kostol
+  people  priateľ | kin
+  things  sviečka | organ | lavica | zvon | dvere
+  want    chuť : verb=zapáliť patient=indef:sviečka
+  want    unavený : verb=oddýchnuť_si ; uses lavica
+  want    chuť : verb=hrať patient=none:organ ; uses organ
+  want    chuť : verb=spievať patient=indef:pieseň
+  trouble lavica špinavý : čistiť
+
+SITUATION friedhof : religion -- auf dem Friedhof
+  place   cintorín
+  people  kin | sused
+  things  hrob | kvetina | krhla | lavica | strom
+  want    chuť : verb=liať patient=none:kvetina+pl ; uses krhla
+  want    unavený : verb=oddýchnuť_si ; uses lavica
+  trouble krhla prázdny : naplniť
+  trouble krhla pokazený : opraviť
+  trouble lavica špinavý : čistiť
+
+SITUATION weihnachtsfeier : religion -- Weihnachten in der Kirche
+  place   kostol | obývačka
+  people  kin
+  things  vianočný_stromček | sviečka | hviezda
+  want    chuť : verb=ozdobiť patient=def:vianočný_stromček ; uses hviezda
+  trouble hviezda pokazený : opraviť

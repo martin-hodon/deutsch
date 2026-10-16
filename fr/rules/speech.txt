@@ -1,0 +1,21 @@
+# HOW FRENCH SOUNDS (engine/speak.js loadProsody): France French -- the format is de/rules/speech.txt's.
+rhythm = syllable      -- syllable-timed: even syllables, the last one of a phrase lengthened (French stress is final)
+even = 0.6
+long = 1.2             -- a ː is rare in French IPA (it marks a vowel before a final r or z: rose); a little longer only
+stress = 1.15          -- the stress mark falls on a word's last syllable: lengthened, not louder
+unstressed = 1         -- every vowel keeps its full quality
+final = 1.4            -- the last vowel of what is said is drawn out: the French phrase ends long
+pause = 15             -- ms between words: French links everything (liaison, enchaînement) -- hardly any pause
+slow = 1.15            -- a little slower than conversation (the listener's own tempo is set in the trainer)
+accent = 1.04          -- the pitch moves little within a word; a phrase rises at its end and falls at the sentence's
+range = 0.12           -- a flat declination
+aspiration = 0.15      -- p t k are not aspirated
+
+# WEAK WORDS: said without stress in a phrase (speak.js phrase); more than `run` syllables without a beat get one back
+# (the elided forms without their apostrophe: l d qu j n m t s c)
+run = 3
+weak = le la les l un une des de du d à au aux en et ou mais que qu qui si ne n pas
+weak = je j tu il elle on nous vous ils elles me m te t se s lui leur y ce c cet cette ces
+weak = mon ma mes ton ta tes son sa ses notre votre nos vos leurs
+weak = est sont a ont ai as avons avez suis es sommes êtes était étaient étais avais avait avaient été eu
+weak = dans sur sous avec pour par chez sans vers entre

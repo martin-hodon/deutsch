@@ -1,0 +1,136 @@
+# SITUATIONS of rooms and small buildings one is IN: Arbeitszimmer, Berghütte, Dachboden, Ferienwohnung, Garage, Gästezimmer,
+# Gewächshaus, Keller, Kinderzimmer, Scheune, Toilette, Wohnheim, Zelt, Hütte (format: everyday.txt; places: world/places/rooms.txt, buildings-*.txt)
+# skipped: Flur, Garderobe, Treppenhaus, Haus (no everyday want with a strong motive that a thing there could stop)
+
+SITUATION arbeitszimmer : home -- abends im Arbeitszimmer
+  place   pracovňa
+  people  kin | priateľ
+  things  písací_stôl | počítač | polica | kniha | lampa | stolička_(nábytok)
+  want    chuť : verb=pozerať patient=indef:film ; uses počítač
+  want    chuť : verb=čítať patient=indef:kniha ; uses lampa
+  trouble počítač pokazený : opraviť
+  trouble lampa pokazený : opraviť
+
+SITUATION berghütte : travel -- in der Berghütte
+  place   horská_chata
+  people  priateľ | kin
+  things  pec | stôl | posteľ | drevo | okno | strop | šálka | hrniec
+  want    smädný : verb=variť patient=none:čaj ; uses pec | šálka
+  want    hladný : verb=variť patient=indef:polievka ; uses pec | hrniec
+  trouble pec pokazený : opraviť by hostinský
+  trouble šálka špinavý : oplachovať
+  trouble hrniec špinavý : oplachovať
+
+SITUATION dachboden : home -- alte Fotos auf dem Dachboden
+  place   povala
+  people  kin
+  things  bedňa | kufor | okno | schody | lampa
+  want    chuť : verb=pozrieť_si patient=none:fotka+pl ; uses lampa
+  trouble lampa pokazený : opraviť
+
+SITUATION ferienwohnung : travel -- in der Ferienwohnung kochen
+  place   prázdninový_byt
+  people  kin | priateľ
+  things  sporák | hrniec | stôl | rýchlovarná_kanvica | šálka | kuchyňa
+  want    hladný : verb=variť patient=none:ryža ; uses sporák | hrniec
+  want    smädný : verb=variť patient=none:čaj ; uses rýchlovarná_kanvica | šálka
+  trouble sporák pokazený : opraviť by prenajímateľ
+  trouble rýchlovarná_kanvica pokazený : opraviť by prenajímateľ
+  trouble hrniec špinavý : oplachovať
+  trouble šálka špinavý : oplachovať
+  lack    ryža : supermarket
+  lack    čaj : supermarket
+
+SITUATION garage : home -- in der Garage
+  place   garáž
+  people  kin
+  things  auto | bicykel | náradie | gól | polica
+  want    ponáhľanie : verb=ísť_(dopravou) patient=def:auto ; uses auto
+  want    ponáhľanie : verb=ísť_(dopravou) patient=none:bicykel ; uses bicykel
+  trouble auto pokazený : opraviť by mechanik
+  trouble bicykel pokazený : opraviť by mechanik
+
+SITUATION gästezimmer : home -- Besuch im Gästezimmer
+  place   hosťovská_izba
+  people  kin | priateľ
+  own     okuliare
+  things  posteľ | skriňa | lampa | stôl | okno
+  want    unavený : verb=oddýchnuť_si ; uses posteľ
+  want    chuť : verb=čítať patient=indef:kniha ; uses lampa | okuliare
+  trouble posteľ pokazený : opraviť
+  trouble lampa pokazený : opraviť
+  trouble okuliare špinavý : čistiť
+
+SITUATION gewächshaus : farm -- im Gewächshaus
+  place   skleník
+  people  záhradník | kin
+  own     fľaša
+  things  rastlina | paradajka | zem | kvetina | krhla
+  want    smädný : verb=piť patient=none:voda ; uses fľaša
+  want    chuť : verb=liať patient=none:rastlina+pl ; uses krhla
+  trouble fľaša prázdny : naplniť
+  trouble krhla prázdny : naplniť
+  trouble krhla pokazený : opraviť by záhradník
+
+SITUATION keller : home -- im Keller
+  place   pivnica
+  people  kin
+  things  polica | schody | bedňa | bicykel | svetlo | práčka
+  want    špinavý : verb=umývať patient=poss:košeľa ; uses práčka
+  want    chuť : verb=ísť_(dopravou) patient=none:bicykel ; uses bicykel
+  trouble práčka pokazený : opraviť by technik
+  trouble bicykel pokazený : opraviť by mechanik
+
+SITUATION kinderzimmer : home -- im Kinderzimmer spielen
+  place   detská_izba
+  people  kin | priateľ
+  things  posteľ | hračka | bábika | kniha | polica | rádio | štetec | papier
+  want    chuť : verb=maľovať patient=indef:obraz ; uses štetec | papier
+  want    chuť : verb=počúvať patient=none:hudba ; uses rádio
+  trouble štetec špinavý : umývať
+  trouble rádio pokazený : opraviť
+
+SITUATION scheune : farm -- in der Scheune
+  place   stodola
+  people  priateľ | roľník
+  things  seno | slama | traktor | rebrík | dvere | vrece
+  want    unavený : verb=oddýchnuť_si ; uses seno
+  trouble seno mokrý : sušiť by roľník
+
+SITUATION toilette : home -- auf der Toilette
+  place   toaleta
+  people  kin
+  things  papier | zrkadlo | dvere | umývadlo | mydlo | vodovodný_kohútik
+  want    špinavý : verb=umývať patient=poss:ruka+pl ; uses vodovodný_kohútik | mydlo
+  trouble vodovodný_kohútik pokazený : opraviť by klampiar
+
+SITUATION wohnheim : school -- im Studentenwohnheim
+  place   študentský_domov | kuchyňa
+  people  priateľ | študent
+  own     laptop
+  things  izba | posteľ | stôl | pec | kuchyňa | dvere
+  want    hladný : verb=piecť patient=indef:pizza ; uses pec
+  want    chuť : verb=pozerať patient=indef:film ; uses laptop
+  trouble pec pokazený : opraviť by školník
+  trouble laptop pokazený : opraviť
+
+SITUATION zelt : travel -- eine Nacht im Zelt
+  place   stan
+  people  kin | priateľ
+  things  dvere | podlaha | strop
+  own     spací_vak | baterka
+  want    unavený : verb=spať ; uses spací_vak
+  want    chuť : verb=čítať patient=indef:kniha ; uses baterka
+  trouble spací_vak mokrý : sušiť
+  trouble baterka pokazený : opraviť
+
+SITUATION hütte : nature -- in der Hütte am Feuer
+  place   chata
+  people  kin | priateľ
+  things  pec | stôl | posteľ | drevo | okno | dvere | hrniec
+  want    hladný : verb=variť patient=none:zemiak+pl ; uses pec | hrniec | drevo
+  want    unavený : verb=oddýchnuť_si ; uses posteľ
+  trouble pec pokazený : opraviť
+  trouble drevo mokrý : sušiť
+  trouble hrniec špinavý : oplachovať
+  trouble posteľ pokazený : opraviť

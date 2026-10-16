@@ -1,0 +1,221 @@
+# machines-devices
+N technológia
+AN technologický
+AN technický : adverb technicky
+N stroj
+AN strojový
+N prístroj
+N domáci spotrebič
+N mechanizmus
+AN mechanický : adverb mechanicky
+N robot
+N automat
+AN automatický : adverb automaticky
+V automatizovať
+N automatizácia
+N vynález
+N vynálezca
+N pumpa
+V pumpovať
+V zapínať
+N vypínač
+V zapnúť (prístroj)
+N obvod
+N páka
+N ozubené koleso
+N gadget
+N senzor
+N patent
+N inovácia
+AN inovatívny : adverb inovatívne
+N bager
+N konštrukcia
+AN konštruktívny : adverb konštruktívne
+V zostrojiť
+V rekonštruovať
+N rúra
+N displej
+N škatuľa
+N lupa
+V tikať
+AN hydraulický
+
+# electricity-energy
+N batéria
+N akumulátor
+AN s batériovým pohonom
+N drôt
+N kábel
+AN bezdrôtový
+V strčiť
+N zástrčka (elektrická)
+N zásuvka (elektrická)
+V zastrčiť
+V skrývať sa za tým
+V naložiť
+N nabíjačka
+V nabiť
+V stiahnuť
+V nahrať (na server)
+N laser
+AN jadrový
+AN elektrický
+AN elektronický : adverb elektronicky
+N elektronika
+N elektrina
+N baterka
+N jadrová energia
+N solárny článok
+N veterná turbína
+N účet za elektrinu
+N zásobovanie energiou
+N zásobovanie elektrinou
+N dodávateľ energie
+N kilowatthodina
+N watt
+
+# computing-communication-devices
+N počítač
+N laptop
+N tablet
+N obrazovka
+N monitor
+N dotyková obrazovka
+N tlačidlo
+N klávesnica
+V vytlačiť
+N tlačiareň
+V potlačiť
+N skener
+V skenovať
+N program
+V programovať
+N programátor
+N softvér
+N hardvér
+N aplikácia
+N súbor
+N priečinok
+N údaje
+N databáza
+N ochrana údajov
+N kód
+N heslo
+N internet
+N wifi
+N sieť (počítačová)
+N webová stránka
+N webkamera
+N prehliadač
+N odkaz
+V prepojiť odkazom
+N e-mail
+V kliknúť
+N kliknutie
+AV online
+AN digitálny : adverb digitálne
+N digitalizácia
+V digitalizovať
+PHR umelá inteligencia
+N umelá inteligencia
+N signál
+N server
+N satelit
+N dron
+N telefón
+V telefonovať
+N mobil
+N smartfón
+N smart hodinky
+N kamera
+N fotka
+N fotograf
+V fotografovať
+N fotografia
+N fotoaparát
+AN fotografický
+N video
+N televízor
+N televízia
+V pozerať televíziu
+N diaľkový ovládač
+N ďalekohľad
+N rádio
+N mikrofón
+N reproduktor
+N slúchadlo
+N kalkulačka
+N čip
+N procesor
+N USB
+N kurzor
+N rozhranie
+N algoritmus
+N spam
+N hacker
+N blog
+N podcast
+N router
+N bluetooth
+N GPS
+N pixel
+V rolovať
+V zotrieť
+V priblížiť
+V ohlásiť
+N hlásenie
+V prihlásiť sa
+V odhlásiť sa
+N prihlásenie
+V prihlásiť
+N profil
+V vyprofilovať sa
+N emoji
+AN virtuálny : adverb virtuálne
+V aktualizovať
+N aktualizácia
+N záložná kópia
+N radar
+N projektor
+N používateľ
+N používateľka
+N platforma
+N infraštruktúra
+N telefónne číslo
+N pamäť (počítača)
+N notebook
+N mobilný telefón
+N volajúci
+N poštová priehradka
+N príloha (dokumentu)
+N registrácia
+N operačný systém
+N pevný disk
+N vyhľadávač
+N anténa
+N počítačová hra
+N hasiaci prístroj
+N portál
+N internetová stránka
+N stiahnutie
+AN telefonický : adverb telefonicky
+V simulovať
+V deaktivovať
+V personalizovať
+V zašifrovať
+V skontrolovať
+V znovu aktivovať
+V konfigurovať
+AN škálovateľný
+
+# devices
+V demontovať
+V fotiť
+N zakladač
+N okienko
+
+# more
+N tweet
+AN kybernetický
+N polovodič
+N konektivita

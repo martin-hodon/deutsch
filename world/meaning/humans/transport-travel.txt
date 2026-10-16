@@ -1,0 +1,314 @@
+N ubytovanie : room, enterable
+N chodba : place, event
+N auto : road-vehicle, drivable, lockable, repairable
+N autobus : road-vehicle, drivable, repairable
+N voz : road-vehicle, drivable, lockable, repairable
+N osobné auto : road-vehicle, drivable, lockable, repairable
+N nákladné auto : road-vehicle, drivable, repairable
+N dodávkové auto : vehicle, drivable, lockable, repairable, enterable
+N kočík : artifact, foldable
+N taxík : road-vehicle, drivable, lockable, repairable
+N vlak : vehicle, drivable, enterable
+N koleso : artifact, repairable
+N bicykel : road-vehicle, rideable, lockable, repairable
+N motocykel : road-vehicle, drivable, rideable, lockable, repairable
+N cyklistický chodník : road ; auf
+N kára : vehicle
+N koč : vehicle, drivable, enterable
+N sánky : vehicle
+N loď : vehicle, drivable, enterable
+N vesmírna loď : vehicle, drivable, enterable
+N čln : vehicle, drivable, enterable
+N plachetnica : vehicle, drivable, enterable
+N ponorka : vehicle, drivable, enterable
+N bárka : vehicle, drivable, enterable
+N nákladný čln : vehicle, drivable, enterable
+N trajekt : vehicle, enterable
+N jachta : vehicle, drivable, enterable
+N plť : vehicle, drivable
+N kajak : vehicle, drivable
+N lietadlo : vehicle, drivable, enterable
+N vrtuľník : vehicle, drivable, repairable
+N helikoptéra : vehicle, drivable, repairable
+N raketa : vehicle, weapon
+N kolobežka : road-vehicle, drivable, rideable, repairable
+N moped : vehicle, drivable, rideable, repairable
+N prúdové lietadlo : vehicle, drivable, repairable
+N lokomotíva : vehicle, drivable, repairable
+N karavána : group
+N záchranka : vehicle, drivable, repairable
+N záchranársky vrtuľník : vehicle
+N motocyklista : person
+N vodič : role
+N cestujúci : role
+N smer jazdy : direction
+N spolucestujúci : person
+N zrážka : incident
+N kolízia : incident
+N preprava : activity
+V prepravovať : {vodič|robotník|kuriér|dodávateľ|muž|roľník} > patient {tovar|náklad|batožina|kufor|bedňa|balík|nábytok}
+V prepravovať : {vodič|roľník|poľnohospodár|veterinár} > patient livestock
+V prepravovať : {autobus|vlak|lietadlo|loď|čln|električka|taxík|trajekt} > patient {cestujúci|cestujúci|cestujúci|spolucestujúci}
+V prepravovať : {nákladné auto|vlak|loď|železnica|lietadlo|nákladná loď|dodávkové auto|traktor} > patient {tovar|náklad|batožina}
+V prepravovať : {nákladné auto|vlak|loď|traktor} > patient livestock
+V prepravovať : {nákladné auto|vlak|loď|nákladná loď} > patient {benzín|olej|voda|mlieko|uhlie}
+N pneumatika : artifact, repairable
+N defekt pneumatiky : incident
+N motor : device, switchable, repairable
+N kapota : artifact, openable
+N brzda : artifact
+V brzdiť : {vodič|cyklista|pilot|kuriér|muž|žena|dieťa|chlapec|dievča}
+V brzdiť : vehicle
+N pedál : artifact
+N benzín : fuel
+N pohonná látka : fuel
+N nafta : fuel
+N nádrž : object, fillable
+V tankovať : person -child > patient fuel
+V tankovať : person -child
+N čerpacia stanica : building, enterable ; an
+N veslo : tool
+V veslovať : {muž|žena|kapitán|rybár|dieťa|chlapec|dievča|športovec}
+N plachta : artifact
+V plaviť sa na plachetnici : {kapitán|námorník|rybár|muž|žena|otec|priateľ|priateľka|rodina}
+V plaviť sa na plachetnici : {kapitán|námorník|rybár|muž|žena|otec|priateľ|priateľka|rodina} > goal settlement
+V plaviť sa na plachetnici : {kapitán|námorník|rybár|muž|žena|otec|priateľ|priateľka|rodina} > goal {Amerika|Anglicko|Taliansko|Grécko|Švédsko}
+N kotva : tool
+V kotviť : vehicle
+V kotviť : person
+N sťažeň : artifact, climbable
+N paluba : place ; auf
+N svetlomet : device, switchable, repairable
+N predné sklo : artifact
+N nárazník : artifact
+N palubná doska : artifact
+N klaksón : device
+N výfuk : artifact
+N tachometer : device
+N bezpečnostný pás : artifact
+N vrtuľa : device
+N pádlo : tool
+N bója : artifact
+N cesta (komunikácia) : road ; auf
+N zachádzka : road ; auf
+N železnica : vehicle, road
+N električka : vehicle, drivable, enterable
+N metro : vehicle, drivable, enterable
+N diaľnica : road ; auf
+N stanica : building, enterable ; an
+N nástupište : place ; auf
+N pristávacia dráha : road ; auf
+N hlavná stanica : building, enterable
+N koľaj : road ; auf
+N tunel : road, enterable
+N most : road ; auf
+N križovatka : place
+N priechod pre chodcov : road ; auf
+N doprava : phenomenon
+N cestná premávka : activity
+N dopravný prostriedok : vehicle
+N dopravná značka : artifact
+N zápcha : state
+N semafor : device
+N zastávka : place ; an
+N prístav : place
+N letisko : building, enterable ; an
+N mólo : place ; auf
+N maják : building, climbable, enterable
+V parkovať : person -child -professional > patient {auto|voz|osobné auto|nákladné auto|autobus|taxík|bicykel|motocykel|kolobežka|moped|dodávkové auto|karavan}
+V parkovať : person
+N parkovisko : place ; auf
+N dok : place
+N lodenica : building
+N mýto : money
+N terminál : building, enterable
+N vozovka : road ; auf
+N mobilita : quality
+N spolková cesta : road ; auf
+N jazda : event
+N spolujazdec : role
+N vozidlo : vehicle
+N cyklista : role
+N cestovný lístok : document
+N cestovný poriadok : text
+N cestovné : quantity
+N jazdný pruh : road ; auf
+N odjazd : event
+N výjazd : road
+N cesta tam : event
+N cesta späť : event
+N plavba výletnou loďou : event, attendable
+V cúvať : {auto|autobus|nákladné auto|vlak|traktor}
+V cúvať : person
+N motorista : role
+N motoristka : role
+N cesta (cestovanie) : event
+V cestovať : person > goal settlement
+V cestovať : person > goal country
+V cestovať : person > instrument {vlak|autobus|lietadlo|loď|čln|auto|bicykel|taxík|trajekt}
+V cestovať : person
+V odcestovať : person
+N cestovná kancelária : institution, shop
+N sprievodca : text, professional
+N cestovný pas : document
+N námorná cesta : event
+N výlet : event, attendable
+N let : event
+N odlet : event
+N spiatočný let : event
+N letecká spoločnosť : institution
+N dobrodružstvo : event
+AN dobrodružný : event, person
+N dobrodruh : person
+N turista : role
+N cestovný ruch : activity
+AN turistický : place, activity ; attr
+N posádka : group
+N pilot : professional
+N námorník : professional
+N kapitán : professional
+N sprievodca vo vlaku : professional
+N astronaut : professional
+N lístok : document
+N meškanie : state
+V meškať : person
+V meškať : {vlak|autobus|lietadlo|električka|trajekt}
+N batožina : thing ; mass
+N príručná batožina : thing ; mass
+N kufor : container, openable, lockable, fillable
+N batožinový priestor : container, openable
+N batoh : container, openable, fillable
+N vízum : document
+N kompas : device, thing
+N vodičský preukaz : document
+N hotel : building, enterable
+N hostel : building, enterable
+N kabína : room, enterable
+N suvenír : artifact, thing
+V pristáť : {lietadlo|vrtuľník|helikoptéra|prúdové lietadlo|raketa|vesmírna loď} > location settlement
+V pristáť : {lietadlo|vrtuľník|helikoptéra|prúdové lietadlo|raketa|vesmírna loď} > location country
+V pristáť : {lietadlo|vrtuľník|helikoptéra|prúdové lietadlo|raketa|vesmírna loď} > location {pristávacia dráha}
+V pristáť : {vták|orol|holub|čajka|kačica|hus|labuť} > location {pôda|strecha|konár|lúka|pole}
+N pristátie : event
+V štartovať : {auto|motocykel|lietadlo|vrtuľník|raketa|nákladné auto|traktor}
+V štartovať : {vodič|pilot|muž|žena|otec|matka|chlapec|mechanik|technik|kolega|kolegyňa} > patient {motor|počítač|auto|program|stroj}
+V štartovať : {firma|agentúra|tím|vláda|inžinier|vedec|organizácia} > patient {raketa|satelit}
+N štart : event
+N zahraničie : place
+V dochádzať : person > goal settlement
+N dochádzajúci : role
+N navigácia : activity
+N trasa : road
+N trasa cesty : road
+V nastúpiť (do vozidla) : person > goal {autobus|vlak|auto|taxík|čln|loď|lietadlo|trajekt|voz|osobné auto}
+V prestúpiť : person -professional > goal {autobus|vlak|auto|taxík|čln|loď|lietadlo|trajekt}
+N nástup : event
+N výstup : event
+V zrýchliť : vehicle
+V zrýchliť : person > patient {proces|postup|vývoj|tempo}
+N zrýchlenie : event
+V predbehnúť : {vodič|cyklista|motocyklista|kuriér|muž|žena} > patient {auto|osobné auto|nákladné auto|autobus|bicykel|motocykel|traktor|voz|dodávkové auto}
+V predbehnúť : {auto|osobné auto|nákladné auto|autobus|bicykel|motocykel|voz|dodávkové auto} > patient {auto|osobné auto|nákladné auto|autobus|bicykel|motocykel|traktor|voz|dodávkové auto}
+V odtiahnuť : person > patient vehicle
+N nehoda : incident
+N dopravná nehoda : incident
+V mať nehodu : person
+N defekt : incident
+N náklad : thing
+N nákladná loď : vehicle, drivable, enterable
+N kuriér : professional
+N kokpit : room
+V prezrieť si : {turista|návštevník|návštevníčka|hosť|muž|žena|rodina|dieťa|priateľ|priateľka|žiak|študent} > patient {múzeum|galéria|kostol|hrad|akvárium|knižnica|továreň|kláštor|divadlo|palác|dóm|veža}
+V prezrieť si : {turista|návštevník|návštevníčka|hosť|muž|žena|rodina|dieťa|priateľ|priateľka|žiak|študent} > patient settlement
+N prehliadka : event, attendable
+N symbol mesta : building
+N prázdniny : period
+N rekreačné stredisko : settlement
+V rezervovať : person > patient {izba|miesto na sedenie|miesto na státie|cesta (cestovanie)}
+V rezervovať : person > patient {stôl|lístok|miesto (priestor)}
+N rezervácia : event
+V zarezervovať : person -{pilot|kapitán|sprievodca|vodič} > patient {cesta (cestovanie)|let|dovolenka|plavba výletnou loďou|spiatočný let|výlet}
+V zarezervovať : person > patient {hotel|izba|hostel|prázdninový byt|chata|lístok|miesto (priestor)}
+N padák : artifact, thing, foldable
+N pas : document, landscape
+N odťahová služba : institution
+N nájazd : place
+N preukaz : document
+N jednosmerná ulica : road ; auf
+N vstup do krajiny : event
+N nasťahovanie : event
+N konečná stanica : place
+N vodička : role
+N prázdninový byt : building, lockable, cleanable, enterable
+N plynový pedál : artifact
+N protismerná premávka : activity
+N zadná časť : artifact
+N cesta domov : road ; auf
+N maximálna rýchlosť : quantity
+N priemyselná oblasť : region
+N poznávacia značka : artifact, thing
+N kostolná veža : building, enterable, climbable
+N revízor : professional
+N motorové vozidlo : vehicle, drivable, lockable, repairable, enterable
+N mapa : picture, foldable
+N cesta mimo mesta : road ; auf
+N linkový autobus : vehicle, drivable, repairable, enterable
+N miestna doprava : activity
+N parkovací dom : building, enterable
+N penzión : building, enterable
+N občiansky preukaz : document
+N prospekt : text, foldable
+N rampa : building-part
+N oddych : activity
+N odpočívadlo : place ; auf
+N zájazdový autobus : vehicle, drivable, repairable, enterable
+N cieľ cesty : place
+N ruské koleso : object, enterable
+N prímestská železnica : vehicle, drivable, enterable
+N koľajnica : artifact, repairable
+N spací vak : artifact, thing, washable, foldable
+N bezpečnostná kontrola : event
+N miesto na sedenie : place, sittable
+N krém na opaľovanie : substance
+N závora : object
+N uzávera : event
+N športové ihrisko : place ; auf
+N miesto na státie : place
+N telefónna búdka : building, enterable
+N obchádzka : road
+N prestup : event
+N dovolenkár : role
+N účastník cestnej premávky : person
+N turistický chodník : road ; auf
+N zimná pneumatika : artifact, repairable
+N obytné auto : vehicle, drivable, lockable, repairable, enterable
+N karavan : vehicle, lockable, repairable, enterable
+N medzipristátie : event
+N plavba : event
+# added: fahren in its second sense
+V jazdiť : person > patient drivable
+V jazdiť : person > patient rideable
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN bez áut : settlement, road, region
+AN dopravnopolitický : idea, rule
+AN stredomorský : region, country, food, landscape ; attr
+N letectvo : institution
+N tranzit : activity
+V asfaltovať : person > patient road
+V bicyklovať : person
+V cestovať spolu : person > companion person
+V manévrovať : person > instrument vehicle
+V motorizovať : institution > patient group
+V navštevovať : person > patient {obchod|škola|kostol|reštaurácia|múzeum}
+V odviezť : person > patient thing
+V odúčtovať : agent > patient money
+V precestovať : person > patient country
+V uviaznuť : vehicle
+V vojsť : vehicle > goal {prístav|stanica|garáž|tunel}
+V vstúpiť do krajiny : person
+V zabrzdiť : person > patient vehicle
+V zakotviť : {loď|čln|kapitán} > location {prístav|more}
+V zaúčtovať : agent > patient money
+V zraziť : vehicle > patient person
+V zájsť : person > goal {obchod|reštaurácia|kaviareň|lekáreň}

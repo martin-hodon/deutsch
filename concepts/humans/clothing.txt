@@ -1,0 +1,155 @@
+# garments
+N šaty
+N oblečenie
+N kus oblečenia
+N večerné šaty
+V obliekať
+V prezliecť sa
+N šatňa
+V obliecť
+V vyzliecť
+N košeľa
+N tielko
+N nočná košeľa
+N blúzka
+N tričko
+N mikina
+N nohavice
+N spodky
+N plavky (pánske)
+N pančuchové nohavice
+N traktorky
+N traky
+N rifle
+N šortky
+N legíny
+N kabát
+N župan
+N pršiplášť
+N bunda
+N pletený kardigán
+N sveter
+N vesta
+N oblek
+N pyžamo
+N plavky (jednodielne)
+N kravata
+N uniforma
+N spodná bielizeň
+N podprsenka
+N bikiny
+N zástera
+N outfit
+N kimono
+N plášť
+N tunika
+N korzet
+N plienka
+N ľudový odev
+
+# footwear-accessories
+N topánka
+N tenisky
+N papuča
+N rukavica
+N čižma
+N sandál
+N podrážka
+N šnúrka do topánok
+N ponožka
+N pančucha
+N klobúk
+N čiapka
+N kapucňa
+N šál
+N palčiak
+N závoj
+N opasok
+N okuliare
+N slnečné okuliare
+N parochňa
+N čelenka
+N dáždnik
+N peňaženka
+
+# parts-fasteners
+N taška
+N kabelka
+N vrecko nohavíc
+N gombík
+N gombíková dierka
+V zapnúť (gombíky)
+N zips
+N golier
+N rukáv
+N manžeta
+N čipka
+N remeň
+N lem
+N spona
+N záplata
+
+# materials-making
+N látka
+N utierka
+N vreckovka
+N šatka
+N šatka na hlavu
+N šatka na krk
+N bavlna
+N hodváb
+N ľan
+N koža (materiál)
+N niť
+N ihla
+N špendlík
+N vlásenka
+V šiť
+N šev
+N šijací stroj
+V pliesť
+V tkať
+N tkáčsky stav
+V vyšívať
+N výšivka
+V žehliť
+N žehlička
+V poskladať
+N textília
+N denim
+N nylon
+N flís
+N zamat
+N satén
+N kašmír
+N flanel
+N priadza
+V farbiť
+V zmeniť farbu
+N krajčír
+V krajčíriť
+N náprstok
+N výkladná figurína
+
+# wearing-jewelry
+V pasovať
+V dávať pozor
+N móda
+AN módny
+N trend
+AN elegantný : adverb elegantne
+N elegancia
+AN nahý
+AV bosý
+N šperk
+V ozdobiť
+N klenot
+N klenotník
+N prsteň
+N náušnica
+N náhrdelník
+N náramok
+N perla
+N prívesok
+N maska
+V maskovať

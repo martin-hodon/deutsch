@@ -1,0 +1,442 @@
+N špina : substance ; mass
+N predpoklad : abstract
+V rozptýliť : person > patient person, source {práca|úloha|vyučovanie|tréning}
+N uznanie : feeling
+V myslieť : person > topic person
+V myslieť : person > topic {dovolenka|cesta (cestovanie)|skúška|stretnutie|budúcnosť}
+V myslieť : person > topic {vlasť|mesto|dedina|dom|domov}
+V myslieť : person > topic {darček|kľúč|domáca úloha|nákup}
+V myslieť : person > that
+N myšlienka : idea
+V premýšľať : person > topic {otázka|plán|nápad|riešenie|návrh|rozhodnutie|problém|budúcnosť}
+V premýšľať : person > topic person
+AN zamyslený : person, -national
+V brať do úvahy : person > patient {problém|riziko|nebezpečenstvo|následok|možnosť|návrh}
+V brať do úvahy : person > patient {množstvo|číslo (matematické)|trvanie|hodnota|veľkosť}
+AN mysliteľný : idea, event
+V premyslieť : person > patient {plán|rozhodnutie|návrh|nápad|ponuka|stratégia}
+N myslenie : activity
+N nápad : idea
+AN ideálny : place, person, thing, phenomenon, moment, -national
+N názor : idea
+V myslieť si : person > that
+V zvažovať : person > patient {možnosť|návrh|možnosť|plán|alternatíva|riešenie}
+V zvažovať : person > inf
+N zváženie : idea
+V zvážiť : person > patient {výhoda|nevýhoda|riziko|možnosť|šanca|možnosť}
+N pozornosť : state
+AN pozorný : person, animal, -national
+V sústrediť sa : person > theme {práca|úloha|skúška|tréning|hra|štúdium}
+V sústrediť sa : person > theme {problém|otázka|téma}
+N sústredenie (pozornosť) : state
+AN sústredený : person, -national
+V predstaviť si : person > patient {pláž|ostrov|les|mesto|dedina|more}
+V predstaviť si : person > patient {budúcnosť|svadba|dovolenka|cesta (cestovanie)|stretnutie}
+V predstaviť si : person > patient {dom|záhrada|byt|izba|auto}
+V predstaviť si : person > recipient person
+N predstava : idea
+N predstavivosť : ability
+AN predstaviteľný : idea, event, state
+AN nepredstaviteľný : idea, event, state
+N sen : idea
+V snívať : animal -insect -reptile -fish-animal
+V snívať : person > topic person
+V snívať : person > topic {dovolenka|cesta (cestovanie)|svadba|víťazstvo|budúcnosť|úspech}
+V snívať : person > topic {dom|statok|zámok|vila}
+V snívať : person > topic {leto|detstvo|mládež|dovolenka}
+N nočná mora : idea
+V pýtať sa seba : person > whether
+V odhadovať : person > patient {vek|vzdialenosť|trvanie|výška|dĺžka|hmotnosť|množstvo|hodnota|cena|číslo (matematické)|veľkosť|šírka|čas (trvanie)}
+N odhad : idea
+V odhadnúť : person -child > patient {poloha|situácia|riziko|nebezpečenstvo|šanca|ťažkosť}
+V odhadnúť : person > patient person
+V preceňovať : person > patient person
+V preceňovať : person > patient ability
+V preceňovať : person > patient {nebezpečenstvo|ťažkosť|riziko}
+V preceňovať : person > patient {množstvo|číslo (matematické)|vzdialenosť|trvanie|výška|hodnota|veľkosť}
+V podceňovať : person > patient person
+V podceňovať : person > patient ability
+V podceňovať : person > patient {nebezpečenstvo|ťažkosť|riziko}
+V podceňovať : person > patient {množstvo|číslo (matematické)|vzdialenosť|trvanie|výška|hodnota|veľkosť}
+V porovnať : person > patient person, companion person
+V porovnať : person > patient {mobil|počítač|laptop|televízor}, companion {mobil|počítač|laptop|televízor}
+V porovnať : person > patient {auto|bicykel|vlak|autobus|lietadlo|loď|čln|motocykel}, companion {auto|bicykel|vlak|autobus|lietadlo|loď|čln|motocykel}
+V porovnať : person > patient {cena|ponuka}, companion {cena|ponuka}
+V porovnať : person > patient {výsledok|číslo (matematické)}, companion {výsledok|číslo (matematické)}
+V porovnať : person > patient {hmotnosť|množstvo}, companion {hmotnosť|množstvo}
+V porovnať : person > patient settlement, companion settlement
+V porovnať : person > patient country, companion country
+AN porovnateľný : thing, quantity, event, person, place, -national
+V analyzovať : person > patient {údaje|výsledok|informácia|štúdia|štatistika}
+V analyzovať : person -child > patient {problém|chyba|situácia|poloha}
+V analyzovať : person > patient {nácvik|krv|voda|pôda|vzduch}
+V analyzovať : person > patient {text|báseň|zmluva|správa (o udalosti)|článok|veta}
+AN analytický : person, activity, -national
+N pojem : idea
+V pochopiť : person > patient {problém|hádanka|súvislosť|zmysel}
+V pochopiť : person > patient {nápad|koncepcia|teória|myšlienka}
+V pochopiť : person > that
+N logika : idea
+AN logický : idea, activity
+V usudzovať : person > source {údaje|výsledok|dôkaz|štúdia|upozornenie}, that
+N rozumnosť : quality
+AN rozumný : person, idea, -national
+AN nerozumný : person, idea, -national
+V očakávať : person > patient {hosť|návštevník|priateľ|priateľka|zákazník|pacient|bábätko|dieťa}
+V očakávať : person > patient {návšteva|odpoveď|správa (oznam)|výsledok|balík|list (písomnosť)|dodávka}
+V očakávať : person > source person -infant, patient {pomoc|práca|výkon|podpora|rešpekt|trpezlivosť|usilovnosť|disciplína|čestnosť}
+N očakávanie : idea
+AN neočakávaný : event
+N náhľad : idea
+V uvedomiť si : person > patient {chyba|problém|vina|omyl}
+V uvedomiť si : person > that
+N intuícia : quality
+AN intuitívny : person, activity, -national
+V špekulovať : person > topic {budúcnosť|výsledok|príčina|dôvod}
+V špekulovať : person > topic period
+V špekulovať : person > topic person
+N špekulácia : idea
+V dumať : person > topic {problém|otázka|hádanka|rozhodnutie|chyba}
+V pozrieť si : person > patient picture
+V pozrieť si : person > patient landscape
+V pozrieť si : person > patient {žena|muž|dieťa|dievča|chlapec}
+V pozrieť si : person > patient {karta|fotka|model|socha|minca|kameň|kvetina}
+V pozrieť si : person > patient person, as {priateľ|nepriateľ|vzor (idol)|hrdina|konkurent|expert}
+V pozrieť si : person > patient {poloha|situácia|problém|návrh}, as {šanca|výhoda|nevýhoda|nebezpečenstvo|chyba}
+N fantázia : quality
+AN fantastický : person, event, place, creative-work, food, idea, -national
+V fantazírovať : person > topic person
+V fantazírovať : person > topic {dovolenka|cesta (cestovanie)|dobrodružstvo|víťazstvo|sláva}
+V fantazírovať : person > topic place
+V fantazírovať : person > topic period
+N ilúzia : idea
+N blud : state
+N šialenstvo : state
+AN šialený : person, idea, event, quantity, activity, -national
+N motív : idea
+N motivácia : state
+AN motivovaný : person, -national
+N dilema : problem
+N paradox : idea
+AN paradoxný : idea
+N svetonázor : idea
+V vizualizovať : person > patient {údaje|výsledok|plán|nápad|koncepcia|štatistika}
+AN abstraktný : idea, creative-work, quality
+N premisa : idea
+N perspektíva : idea
+N nuansa : quality
+AN subtílny : quality, idea, creative-work
+AN hlbokomyseľný : idea, creative-work
+AN viacznačný : information, language
+AN jednoznačný : information, rule, idea
+V robiť brainstorming : person
+N brainstorming : activity, attendable
+V zaujímať sa : {šport|hudba|politika|príbeh|film|téma|kniha|ponuka|správa (oznam)} > patient person
+V zaujímať sa : person > purpose {šport|hudba|politika|umenie|príbeh|film|móda|technika}
+V zaujímať sa : person > purpose {téma|ponuka|návrh}
+AN zainteresovaný : person, -national
+N záujemca : role
+V vedieť : person > patient {odpoveď|pravda|tajomstvo|adresa|heslo|cesta (komunikácia)|dôvod}
+V vedieť : person -child > that
+V vedieť : {dieťa|chlapec|dievča|mladistvý} > that
+N vedomosti : information
+AN vedomý : person, activity, -national
+N vedomie : state
+AN nevedomý : activity, state
+AN podvedomý : feeling, idea
+V poznať : person > patient person
+V poznať : {pes|mačka|kôň|papagáj} > patient person
+V poznať : person > patient {mesto|dedina|krajina (štát)|kraj|cesta (komunikácia)|ulica|budova|hotel|reštaurácia}
+V poznať : person > patient {pravidlo|zákon|predpis|zákaz|povinnosť}
+V poznať : person > patient {pieseň|film|príbeh|báseň|kniha|rozprávka}
+AN známy : {expert|umelec|herec|autor|autorka|spevák|politik|vedec|športovec|lekár|hotel|letisko|park|jazero|reštaurácia|múzeum|stanica|mesto}, creative-work
+V rozumieť : person > patient person
+V rozumieť : person > patient language
+V rozumieť : person > patient {problém|otázka|úloha|hádanka|súvislosť|vtip|zmysel}
+V rozumieť : person > patient {pravidlo|zákon|predpis|návod|gramatika}
+V rozumieť : person > that
+N rozum : quality
+N porozumenie : state
+AN zrozumiteľný : information, language, idea
+N nedorozumenie : problem
+AN samozrejmý : state, activity, rule
+V rozpoznať : person > patient person
+V rozpoznať : {pes|mačka|kôň|papagáj} > patient person
+V rozpoznať : person > patient {problém|chyba|nebezpečenstvo|vážnosť|zmysel|šanca}
+V rozpoznať : person > patient {tvár|hlas|dom|auto|rukopis (písmo)}
+V rozpoznať : person > that
+N poznatok : information
+AN rozpoznateľný : thing, person, picture, problem, idea, -national
+V uznať : person > patient rule
+V uznať : person > patient {výkon|nasadenie|úspech|schopnosť}
+V uznať : {úrad|univerzita|škola|zamestnávateľ|štát} > patient {vysvedčenie|diplom|vodičský preukaz|pas|vízum}
+V uznať : person > patient country
+AN oboznámený : person, place, thing, sound, idea, -national
+N pravda : information
+N pochybnosť : feeling
+V pochybovať : person > topic {zmysel|pravda|úspech|plán|nápad|rozhodnutie|teória}
+V pochybovať : person > topic {tvrdenie|tvrdenie|správa (oznam)|údaj|chýr}
+V pochybovať : person > topic {priateľ|partner|šéf|lekár|učiteľ|svedok|expert}
+V pochybovať : person > topic ability
+V pochybovať : person > whether
+AV nepochybne : sentence
+V domnievať sa : person > patient {chyba|príčina|úmysel|problém|dôvod}
+V domnievať sa : person > that
+N domnienka : idea
+AV pravdepodobne : sentence
+V dohadovať sa : person > that
+AN domnelý : person, event, idea, -national ; attr
+V veriť : person > topic {boh|anjel|diabol}
+V veriť : person > topic {priateľ|priateľka|syn|dcéra|brat|sestra|muž|žena}
+V veriť : person > topic {zázrak|pravda|budúcnosť|úspech|víťazstvo|láska|pokrok}
+V veriť : person > that
+V veriť : person > recipient person
+N viera : idea
+AN veriaci : person, -child, -professional, -national
+AN dôveryhodný : person, information, -national
+AN neuveriteľný : event, information, creative-work, quantity, person, place, -national
+N sebadôvera : feeling
+N sebavedomie : feeling
+AN sebavedomý : person, -national
+N chyba : problem
+AN chybný : artifact, information, activity
+AN bezchybný : artifact, information, activity
+AN zmätený : person, animal, -national
+V zmiasť : {otázka|odpoveď|správa (oznam)|vysvetlenie|pravidlo|problém|hádanka} > patient person
+V zmiasť : person > patient {muž|žena|pacient|dieťa|žiak|zákazník}
+N zmätok : state
+AN racionálny : person, idea, -national
+AN iracionálny : person, idea, -national
+AN rozvážny : person, -national
+V zavrieť : person > patient container +openable
+V zavrieť : person > patient building-part +openable
+V zavrieť : person > patient {laptop|chladnička|rúra na pečenie}
+V zavrieť : person > patient body-part +openable
+V zavrieť : person > patient text +openable
+V zavrieť : person > source {údaje|výsledok|dôkaz|upozornenie|štúdia}, that
+N záver : idea, moment
+V vylúčiť : {tréner|učiteľ|rozhodca|riaditeľ|predseda|spolok|škola} > patient {hráč|žiak|študent|účastník|člen|športovec}
+V vylúčiť : person > patient {nehoda|chyba|podvod|náhoda|možnosť|riziko|nebezpečenstvo}
+V hodnotiť : person > patient person
+V hodnotiť : person > patient {výkon|práca|skúška|projekt|výsledok|slohová práca}
+V hodnotiť : person > patient {film|pieseň|kniha|báseň|príbeh}
+V hodnotiť : person > patient {návrh|nápad|plán|riziko|šanca}
+N hodnotenie : information
+V vyhodnotiť : person > patient {údaje|výsledok|anketa|štúdia|štatistika|meranie}
+AN skeptický : person, -national
+N skepsa : feeling
+N skeptik : person
+AN cynický : person, -national
+N cynizmus : quality
+N cynik : person
+V predpokladať : {štúdium|odborná príprava|povolanie|skúška} > patient ability
+V predpokladať : rule > patient {poriadok|zrelosť|skúsenosť|súhlas|kvalifikácia}
+V predpokladať : person > that
+N presvedčenie : idea
+AN presvedčený : person, -national
+AN presvedčivý : person, information, -national
+N rozsudok : information
+V súdiť : person > topic person
+V súdiť : person > topic crime
+V súdiť : person > topic {výkon|práca|správanie}
+V súdiť : person > topic {film|kniha|pieseň|báseň}
+V posúdiť : person > patient person
+V posúdiť : person > patient ability
+V posúdiť : person -child > patient {poloha|situácia|stav|riziko|nebezpečenstvo}
+V posúdiť : person > patient {film|kniha|pieseň|báseň|príbeh}
+V odsúdiť : person > patient person, inf
+N úsudok : ability
+V vyvodzovať : person > source {údaje|výsledok|dôkaz|štúdia|upozornenie}, that
+V hádať : person > patient {odpoveď|riešenie|slovo|číslo (matematické)|heslo|hádanka}
+V hádať : {lekár|lekárka|otec|matka|priateľ|priateľka|učiteľ|poradca|advokát} > recipient person -infant, patient {pokoj|opatrnosť|trpezlivosť|opak}
+V poradiť : {advokát|lekár|lekárka|poradca|expert|tréner|učiteľ|priateľ|matka|otec} > patient person
+V uhádnuť : person > patient {odpoveď|riešenie|heslo|tajomstvo|hádanka|číslo (matematické)}
+AN bezradný : person, -national
+N hádanka : problem
+V dostať sa : person > result {ťažkosť|hádka|panika|núdza|nebezpečenstvo|zápcha|podozrenie|konflikt}
+V validovať : person > patient {údaje|výsledok|tvrdenie|meranie}
+V vyvrátiť : person > patient {teória|tvrdenie|hypotéza|výčitka}
+V rozlúštiť : person > patient text
+AN súvislý : information, idea
+N koherencia : quality
+AN vierohodný : idea, information
+V anticipovať : person > patient {problém|reakcia|otázka|vývoj}
+V predvídať : person -child > patient {problém|výsledok|vývoj|nebezpečenstvo|následok}
+AN predpokladaný : event ; attr
+N spätný pohľad : information
+N tušenie : idea
+V tušiť : person > patient {nebezpečenstvo|nešťastie|podvod|problém|pravda|mrzutosť|podozrenie}
+V tušiť : person > that
+AN nič netušiaci : person, -national
+N zjavenie : information, event
+V zjaviť : person > recipient person, patient {tajomstvo|pravda|plán|úmysel}
+AN posadnutý : person, -national
+N posadnutosť : state
+N rozptýlenie : event
+N pamäť (schopnosť) : quality
+V spomínať si : person > topic person
+V spomínať si : person > topic {dovolenka|cesta (cestovanie)|svadba|slávnosť|nehoda|detstvo|narodeniny}
+V spomínať si : person > topic place
+V spomínať si : person > topic {detstvo|mládež|leto|zima|minulosť}
+V spomínať si : person > that
+N spomienka : idea
+V pripomenúť : person > patient {priateľ|dieťa|muž|žena|syn|dcéra|brat|sestra}, topic {otec|matka|brat|sestra|priateľ|priateľka|chlapec|dievča|starý otec|stará mama}
+V pripomenúť : person > patient person, topic {termín|narodeniny|sľub|stretnutie|skúška}
+V zabudnúť : person > patient {kľúč|mobil|taška|dáždnik|okuliare|peniaze|preukaz|pas}
+V zabudnúť : person > patient {heslo|meno|adresa|telefónne číslo|termín|slovo|odpoveď}
+V zabudnúť : person > patient {narodeniny|termín|sľub|stretnutie|skúška}
+V zabudnúť : person > inf
+AN zábudlivý : person, -national
+AN nezabudnuteľný : event
+N zabudnutie : state
+V vybaviť si : person > patient {údaje|informácia|správa (oznam)|e-mail|e-mail|súbor}
+V spamätať sa : person > theme {tradícia|cieľ|sila|minulosť|základ}
+V spamätať sa : person > theme ability
+N rozjímanie : state
+N inteligencia : quality
+AN inteligentný : animal
+AN múdry : child, -infant, {žiak|študent|muž|žena|líška|pes|sova|havran|rozhodnutie|nápad|plán}
+N múdrosť : quality
+AN hlúpy : {nápad|plán|návrh|rozhodnutie|chyba|otázka}
+N hlúposť : quality
+N blázon : person
+AN bláznivý : person, -national
+N génius : person
+AN geniálny : person, idea, -national
+N talent : ability
+AN talentovaný : person, -national
+AN brilantný : person, idea, -national
+AN naivný : person, -national
+N naivita : quality
+AN prefíkaný : person, -national
+N bystrosť : quality
+AN bystrý : person, -national
+AN absurdný : idea, event
+N problém : problem
+AN problematický : state, idea, activity, event
+AN bezproblémový : activity, process, event, state
+V riešiť : person > patient {problém|hádanka|úloha|konflikt|rovnica|hádka}
+N riešenie : idea
+AN riešiteľný : problem
+N záhada : problem
+AN záhadný : event, place, person, crime, phenomenon, thing, -national
+N tajomstvo : information
+AN tajný : information, place
+AN tajomný : person, place, event, information, thing, -national
+N aféra : event
+N námet : idea
+N zdanie : idea
+N argument : idea
+N výhovorka : information
+N obava : feeling
+N posúdenie : information
+N spôsob myslenia : idea
+N námietka : information
+N odborné posúdenie : information
+N nesprávne rozhodnutie : event
+N zistenie : information
+N položenie otázky : problem
+N cit : ability
+N prekážka : problem
+N omyl : idea
+N priepasť (medzi ľuďmi) : abstract
+N kompetencia : ability
+N kontext : abstract
+N nepríjemnosť : incident
+N doklad : document
+N núdzový stav : state
+N objekt : object
+N orientácia : ability
+N originál : object
+N smola : state
+N neúspech : incident
+N krok späť : process
+N kľúčové slovo : writing
+N tendencia : process
+N téza : idea
+N trik : idea
+N nepochopenie : state
+N predispozícia : quality
+N oneskorenie : event
+N vízia : idea
+N výhrada : idea
+N súčasník : person
+N nátlak : state
+AN neodvratný : event, process, problem
+V napodobňovať : animal > patient animal
+V napodobňovať : animal > patient {hlas|pohyb|šum}
+V priznať : {muž|žena|zlodej|chlapec|dievča|syn|dcéra|podozrivý|obžalovaný|priateľ|priateľka} > recipient {policajt|sudca|kňaz|advokát}, patient {zločin|klamstvo|vina|chyba}
+V priznať : {muž|žena|chlapec|dievča|syn|dcéra|priateľ|priateľka} > recipient {priateľ|priateľka|matka|otec|učiteľ|rodičia}, patient {klamstvo|láska|vina|chyba}
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN bohatý na fantáziu : person, child, -infant
+AN dezorientovaný : person, animal, -insect
+AN difúzny : substance, phenomenon, {svetlo|pocit|bolesť}
+AN etický : idea, problem, rule, {rozhodnutie|otázka|zásada|správanie}
+AN homogénny : substance, material, group
+AN kompetentný : professional, person, -child, institution
+AN logistický : activity, {problém|plán|podpora|centrum|firma}
+AN menný : rule, writing, {zoznam|register|zhoda}
+AN myšlienkový : idea, process, activity, {pochod|súvislosť|svet}
+AN nejednotný : group, institution, idea, {názor|výsledok|štýl|stanovisko}
+AN neveriaci : person, -child
+AN objektívny : idea, information, person, -child, {pohľad|dôvod|posúdenie|správa (oznam)}
+AN originálny : creative-work, idea, text, object, person, -national
+AN preukázateľný : information, idea, {fakt|výsledok|vplyv|chyba|súvislosť}
+AN uzavretý : building, room, place, group, {obchod|hranica|cesta (komunikácia)|spoločnosť}
+AN záverečný : event, activity, period, moment, {skúška|práca|slovo|kapitola|veta}
+V asociovať : person > patient {pojem|slovo|farba|vôňa|pocit}
+V demaskovať : person > patient {zlodej|podvodník|podvod}
+V dúfať v : person > theme {pomoc|úspech|zlepšenie|odpoveď|zázrak|budúcnosť}
+V identifikovať : person > patient {zlodej|vrah|páchateľ|osoba|ľudia|telo|zvuk|chyba|problém|príčina}
+V improvizovať : person
+V improvizovať : person > patient {riešenie|reč|melódia|večera|jedlo|scéna}
+V kalkulovať : person > patient {cena|náklad|riziko|zisk|trasa|plán}
+V kalkulovať : person
+V koncipovať : person > patient {plán|text|projekt|zákon|zmluva|návrh|stratégia|program}
+V konkretizovať : person > patient {plán|návrh|nápad|otázka|ponuka|termín}
+V lokalizovať : person > patient {chyba|problém|zdroj|miesto (priestor)|zvuk}
+V mať sklon : person > inf
+V mať sklon : person > basis {nervozita|lenivosť|hnev}
+V mýliť sa : person
+V mýliť sa : person > topic {cesta (cestovanie)|cena|názor|smer|úsudok|predpoklad}
+V naznačovať : person > that
+V naznačovať : {správa (oznam)|výsledok|štúdia|odpoveď} > that
+V naznačovať : person > patient {zmena|riešenie|problém|nádej|možnosť|smer}
+V obhliadnuť : person > patient {dom|byt|izba|auto|záhrada|pozemok|škoda}
+V odomknúť : person > patient object +lockable
+V optimalizovať : person > patient {proces|plán|cesta (komunikácia)|výkon|program|trasa}
+V orientovať : person > patient {mapa|kompas|stavba|loď}
+V orientovať sa : person > location {mesto|dedina|les|budova|mapa|miesto (priestor)}
+V orientovať sa : person > basis {mapa|kompas|hviezda|značka}
+V overiť : person > patient {informácia|údaj|fakt|správa (oznam)|výsledok|podozrenie|teória}
+V overiť : person > that
+V polarizovať : {diskusia|rozhodnutie|reč} > patient {spoločnosť|verejnosť|strana|diskusia|názor}
+V polarizovať : person > patient {spoločnosť|verejnosť|strana|diskusia|názor}
+V pomýliť si : person > patient person, substitute person
+V pomýliť si : person > patient {cesta (cestovanie)|deň|číslo (matematické)|dvere|ulica|slovo|meno}
+V poprieť : person > patient {obvinenie|vina|fakt|podozrenie|zodpovednosť|pravda}
+V poprieť : person > that
+V považovať : person > patient person, as {priateľ|expert|nepriateľ}
+V považovať : person > patient {nápad|plán|návrh|riešenie|situácia}, adj
+V premietať : person > patient {film|obraz|fotka|prezentácia}
+V priorizovať : person > patient {úloha|cieľ|projekt|práca|problém}
+V pripojiť : person > patient {súbor|dokument|fotka|list (písomnosť)}
+V pripojiť : person > patient device
+V reflektovať : person > topic {práca|výkon|situácia|správanie|skúsenosť}
+V reflektovať : person
+V relativizovať : person > patient {problém|riziko|fakt|význam|výrok|úspech|obvinenie}
+V spočívať : {riešenie|problém|tajomstvo|úspech} > basis {rozhodnutie|schopnosť|dôvera|nápad}
+V sprístupniť : person > patient {informácia|údaj|dokument|budova|park|zbierka|cesta (komunikácia)}
+V stimulovať : person > patient {fantázia|rast|chuť do jedla|záujem}
+V stimulovať : person > patient person
+V symbolizovať : {vlajka|holub|kríž|koruna|prsteň} > patient {mier|sloboda|láska|nádej|moc|jednota}
+V symbolizovať : picture > patient {mier|sloboda|láska|nádej|moc|jednota}
+V sústrediť : person > patient {pozornosť|sila|úsilie|výroba|záujem}
+V utvrdiť : person > patient {podozrenie|presvedčenie|názor|dojem|rozhodnutie}
+V utvrdiť : {nehoda|správa (oznam)|výsledok|stretnutie} > patient {podozrenie|presvedčenie|názor|dojem|rozhodnutie}
+V vykoumať : person > patient {riešenie|plán|trik|spôsob|systém|nápad|stratégia}
+V vymýšľať : person > patient {príbeh|hra|slovo|výhovorka|nápad|riešenie|vtip|meno}
+V započítať : person > patient {cena|náklad|výdavok|poplatok|daň|riziko}
+V zúfalieť : person
+V zúfalieť : person > cause {situácia|problém|zlyhanie|neúspech}

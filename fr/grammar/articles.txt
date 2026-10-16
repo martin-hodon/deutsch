@@ -1,0 +1,17 @@
+# definite-article
+1 ART le {le} [lə] = ten (určitý člen mužského rodu)
+1 P le même {le même} [lə ˈmɛm] = ten istý
+1 P celui {celui} [səˈlɥi] = ten (kto)
+1 ART la {la} [la] = tá (určitý člen ženského rodu a množného čísla)
+1 ART les {les} [le] = tá (určitý člen ženského rodu a množného čísla)
+1 ART le {le} [lə] = to (určitý člen stredného rodu)
+1 P ceux {ceux} [sø] = ten (kto)
+1 P celle {celle} [sɛl] = ten (kto)
+2 P celles {celles} [sɛl] = ten (kto)
+
+# indefinite-article
+1 ART un {un} [œ̃] = jeden
+1 ART une {une} [yn] = jeden
+2 ART quelque {quelque} [kɛlk] = nejaký
+1 ART des {des} [de] = nejaký
+2 ART aucun {aucun} [oˈkœ̃] = žiadny

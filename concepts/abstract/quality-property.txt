@@ -1,0 +1,858 @@
+# size
+AN veľký
+N veľkosť
+AN veľkolepý : adverb veľkolepo
+V zväčšiť
+AN veľkoplošný
+AN malý
+N maličkosť
+V zmenšiť
+AN obrovský : adverb obrovsky
+AN obrovitý
+AN gigantický
+AN enormný : adverb enormne
+AN nesmierny : adverb nesmierne
+AN maličký
+PHR drobnučký
+AN dlhý : adverb dlho
+N dĺžka
+AN pomalý : adverb pomaly
+AN zdĺhavý
+AN doživotný
+AN krátky : adverb krátko
+AN široký : adverb široko
+N šírka
+AN úzky
+AN hlboký : adverb hlboko
+N hĺbka
+AN plytký : adverb plytko
+AN hrubý (hrúbka)
+AN tenký : adverb tenko
+V preriediť
+AN vysoký : adverb vysoko
+N výška
+AN urastený
+V zvýšiť
+N zvýšenie
+N vyvrcholenie
+AN ťažký : adverb ťažko
+V sťažiť
+AN ľahký : adverb ľahko
+N ľahkosť
+N hmotnosť
+N objem
+AN rozľahlý
+AN štíhly
+AN bucľatý
+AN zavalitý
+AN kompaktný
+AN priestranný
+AN strmý : adverb strmo
+AN tesný (sotva postačujúci) : adverb tesne
+
+# evaluation
+AN dobrý : adverb dobre
+AN lepší : adverb lepšie
+AN zlý : adverb zle
+AN výborný : adverb výborne
+AN strašný : adverb strašne
+AN úžasný : adverb úžasne
+AN skvelý : adverb skvele
+AN dokonalý : adverb dokonale
+N dokonalosť
+AN nesprávny : adverb nesprávne
+V falšovať
+N falzifikát
+AN sfalšovaný
+AN nefalšovaný
+AN správny : adverb správne
+AN dôležitý
+AN nedôležitý
+AN životne dôležitý
+PAR hlavný (v zloženinách)
+AN hlavný : adverb hlavne
+N hlavná vec
+AN významný : adverb významne
+AN nevýznamný
+AN nízky : adverb nízko
+AN nepatrný : adverb nepatrne
+AN potrebný
+N nevyhnutnosť
+AN zbytočný : adverb zbytočne
+AN užitočný
+AN neužitočný
+AN cenný
+AN kvalitný : adverb kvalitne
+AN menejcenný
+AN drahocenný
+N kvalita
+AN kvalitatívny
+N výhoda
+AN výhodný : adverb výhodne
+N nevýhoda
+AN nevýhodný
+V znevýhodniť
+AN normálny : adverb normálne
+N norma
+AN obyčajný
+AN nezvyčajný : adverb nezvyčajne
+AN mimoriadny : adverb mimoriadne
+AN zvyknutý
+AN čudný : adverb čudne
+AN typický : adverb typicky
+AN netypický
+AV obzvlášť
+N zvláštnosť
+AN častý : adverb často
+AN zriedkavý : adverb zriedka
+N zriedkavosť
+AN jedinečný : adverb jedinečne
+AN jednoduchý : adverb jednoducho
+V zjednodušiť
+N jednoduchosť
+AN zložitý : adverb zložito
+AN komplikovaný : adverb komplikovane
+N ťažkosť
+AN praktický : adverb prakticky
+V hodiť sa
+AN vhodný : adverb vhodne
+AN nevhodný : adverb nevhodne
+N spôsobilosť
+N nebezpečenstvo
+AN nebezpečný : adverb nebezpečne
+V ohroziť
+AN životu nebezpečný
+AN mimoriadne nebezpečný
+AN bezpečný : adverb bezpečne
+N bezpečnosť
+V zabezpečiť
+AV iste
+AN relevantný pre bezpečnosť
+N riziko
+AN riskantný : adverb riskantne
+V riskovať
+AN rizikový
+N škoda
+V škodiť
+AN škodlivý
+V poškodiť
+AN zdraviu škodlivý
+AN pozoruhodný : adverb pozoruhodne
+AN vynikajúci : adverb vynikajúco
+AN nadradený
+V rozmýšľať
+N úvaha
+AN primeraný : adverb primerane
+AN neprimeraný : adverb neprimerane
+V stačiť
+AN dostatočný : adverb dostatočne
+AN nedostatočný : adverb nedostatočne
+AN podstatný : adverb podstatne
+AN nepodstatný
+AN rozhodujúci
+AN naliehavý : adverb naliehavo
+AN triviálny
+AN závažný : adverb závažne
+AN intenzívny : adverb intenzívne
+AN extrémny : adverb extrémne
+AN pravicovo extrémny
+AN absolútny : adverb absolútne
+V korigovať
+N oprava (chyby)
+V spresniť
+AN efektívny : adverb efektívne
+N efektívnosť
+AN neefektívny : adverb neefektívne
+AN účinný : adverb účinne
+AN výnosný
+AN uskutočniteľný
+AN zreteľný : adverb zreteľne
+AN pozitívny : adverb pozitívne
+AN úplný (nič nechýba) : adverb úplne
+AN jediný : adverb jedine
+AN oficiálny : adverb oficiálne
+AN relatívny : adverb relatívne
+AN historický : adverb historicky
+AN globálny : adverb globálne
+AN súkromný : adverb súkromne
+AN sociálny : adverb sociálne
+AN sociálno-politický
+AN takzvaný
+AN bývalý
+AN údajný : adverb údajne
+AN prudký : adverb prudko
+AN značný : adverb značne
+AN klasický : adverb klasicky
+N klasik
+AN špeciálny : adverb špeciálne
+AN osobitný : adverb osobitne
+AN regionálny
+AN miestny
+AN všeobecný : adverb všeobecne
+AN humanitárny
+AN kontroverzný : adverb kontroverzne
+AN dôsledný : adverb dôsledne
+AN prístupný
+AN predbežný : adverb predbežne
+AN predčasný : adverb predčasne
+AN stredný
+AN hustý : adverb husto
+V zhustiť
+AN netesný
+N transparentnosť
+AN atraktívny : adverb atraktívne
+AN brutálny : adverb brutálne
+AN fér
+AN optimálny : adverb optimálne
+AN kreatívny : adverb kreatívne
+AN legendárny
+AN senzačný : adverb senzačne
+AN solídny : adverb solídne
+AN tragický : adverb tragicky
+AN príjemný : adverb príjemne
+AN nepríjemný : adverb nepríjemne
+AN prekvapujúci : adverb prekvapujúco
+AN nápomocný
+AN zničujúci : adverb zničujúco
+AN potešiteľný
+AN náročný : adverb náročne
+AN márny : adverb márne
+AN hravý : adverb hravo
+AN bežný : adverb bežne
+AN takýto
+AN drastický : adverb drasticky
+AN umiernený : adverb umierene
+AN osudný : adverb osudne
+AN explicitný : adverb explicitne
+AN týkajúci sa tejto veci
+AN zvládnuteľný
+AN nepretržitý : adverb nepretržite
+AN opätovný : adverb opätovne
+AN nedbanlivý
+AN klesajúci
+AN kulinársky
+AN čelný
+AN kuriózny
+AN neškodný
+AN primárny : adverb primárne
+AN nepochopiteľný : adverb nepochopiteľne
+AN populárny
+AN reprezentatívny
+AN homosexuálny
+AN bezbariérový
+AN kolektívny : adverb kolektívne
+AN komerčný
+AN trápny : adverb trápne
+AN dôrazný : adverb dôrazne
+AN sľubný : adverb sľubne
+AN autonómny : adverb autonómne
+AN výrazný : adverb výrazne
+AN turbulentný
+AN konvenčný
+AN výbušný
+AN dodatočný : adverb dodatočne
+AN paušálny : adverb paušálne
+AN energetický
+AN analógový
+AN špecifický : adverb špecificky
+AN vehementný : adverb vehementne
+AN legitímny : adverb legitímne
+AN fascinujúci : adverb fascinujúco
+AN pekný : adverb pekne
+AN chytrý : adverb chytro
+AN lukratívny
+AN dominantný
+AN neslávne známy
+AN bujný : adverb bujne
+AN dlhodobejší
+AN seriózny : adverb seriózne
+AN ohrozujúci život
+AN ideologický : adverb ideologicky
+AN ctižiadostivý
+AN impozantný : adverb impozantne
+AN idylický : adverb idylicky
+AN bizarný : adverb bizarne
+AN čudácky
+AN pútavý : adverb pútavo
+AN plný atmosféry
+AN dych vyrážajúci
+AN nepriaznivý
+AN nežiaduci
+AN neprípustný : adverb neprípustne
+AN nemysliteľný
+AN nezanedbateľný
+AN špičkový
+AN náležitý : adverb náležite
+AN prehnaný : adverb prehnane
+AN privysoký
+AN nadmerný : adverb nadmerne
+V stagnovať
+V prekvitať
+AN zlomyseľný : adverb zlomyseľne
+AN mizerný : adverb mizerne
+AN obťažný
+AN ultimátny
+AN decentný : adverb decentne
+AN neznesiteľný : adverb neznesiteľne
+AN bezvýznamný
+AN nevyhnutný
+AN znepokojujúci : adverb znepokojujúco
+AN v plnom rozsahu
+AN neobmedzený : adverb neobmedzene
+AN rovnomerný : adverb rovnomerne
+AN stály : adverb stále
+AN celoročný
+AN vlásočný
+AN pichľavý
+AN bez väčších následkov
+AN nezrozumiteľný : adverb nezrozumiteľne
+AN výpovedný
+AN zavádzajúci : adverb zavádzajúco
+AN uspokojivý : adverb uspokojivo
+AN s ťažkými následkmi
+AN smerodajný
+AN desivý : adverb desivo
+AN všadeprítomný
+AN vyhnuteľný
+AN nasaditeľný
+AN neodôvodnený : adverb neodôvodnene
+AN nenápadný : adverb nenápadne
+AN neobsadený
+AN najväčší možný
+AN najmodernejší
+AN plne elektrický
+AN syntetický
+AN exotický
+AN reštriktívny
+AN preventívny : adverb preventívne
+AN systémový
+AN subjektívny : adverb subjektívne
+AN vertikálny : adverb vertikálne
+AN geografický : adverb geograficky
+AN demografický : adverb demograficky
+AN akustický : adverb akusticky
+AN estetický : adverb esteticky
+AN poetický : adverb poeticky
+AN malebný : adverb malebne
+AN agilný
+AN neformálny : adverb neformálne
+AN neoficiálny : adverb neoficiálne
+AN kognitívny
+AN intelektuálny
+AN vrtkavý
+AN hektický
+AN blond
+AN lesbický
+AN konkurencieschopný
+AN podnikateľský
+AN na plný úväzok
+AN populistický
+AN pravicovo radikálny
+AN juhovýchodný
+AN nekontrolovaný : adverb nekontrolovane
+AN nadriadený
+AN zapríčinený zranením
+AN úchvatný : adverb úchvatne
+AN statný
+AN krehký
+AN chabý : adverb chabo
+AN bezútešný : adverb bezútešne
+AN nezameniteľný : adverb nezameniteľne
+AN stuhnutý
+AN ohybný
+AN prepychový
+AN riedky : adverb riedko
+AN znesiteľný
+AN neúnosný : adverb neúnosne
+AN neuspokojivý : adverb neuspokojivo
+AN nezaplatený
+AN neznížený
+AN nevážny
+AN okrajový
+AN groteskný : adverb groteskne
+AN surreálny : adverb surreálne
+AN extravagantný : adverb extravagantne
+AN irelevantný
+AN scestný
+AN sebestačný
+AN modulárny
+AN očakávateľný
+AN poklidný : adverb poklidne
+AN beznádejný : adverb beznádejne
+AN tepelný
+AN sýtoružový
+AN mnohotvárny
+AN odhalený
+AN ukvapený : adverb ukvapene
+AN nespochybnený
+AN zakorenený
+AN zbehlý
+AN informatívny
+AN podpriemerný
+AN ničivý
+
+# state-properties
+AN nový
+N novinka
+AV opätovne
+AN celkom nový
+AN plný
+AN úplný (celkový) : adverb úplne
+AN pružný : adverb pružne
+AN prázdny : adverb prázdno
+V vyprázdniť
+AN otvorený : adverb otvorene
+V otvoriť
+AN zrejmý : adverb zrejme
+AN zatvorený
+AN vnímavý
+AN čistý (bez špiny) : adverb čisto
+N čistota
+V očistiť
+AN špinavý : adverb špinavo
+AN suchý : adverb sucho
+V sušiť
+N suchosť
+AN mokrý
+AN vlhký
+AN silný : adverb silno
+V posilniť
+V zosilniť
+AN slabý : adverb slabo
+N slabosť
+V oslabiť
+V zoslabiť
+V slabnúť
+AN mocný : adverb mocne
+AN rýchly : adverb rýchlo
+N rýchlosť
+AN hlasný : adverb hlasno
+N hlasitosť
+AN bezhlasný : adverb bezhlasne
+PRE podľa
+AN tichý (nehlučný) : adverb ticho
+AN mäkký : adverb mäkko
+AN tvrdý : adverb tvrdo
+N tvrdosť
+AN húževnatý : adverb húževnato
+AN pripravený
+N pripravenosť
+V zamestnávať
+AN zaneprázdnený
+N zamestnanie
+AN voľný
+V oslobodiť
+AN bezemisný
+AN celý
+V pokaziť sa
+AN tesný (priestorovo) : adverb tesne
+N tesnosť
+V zúžiť
+V uvoľniť
+N uvoľnenie
+AN stabilný : adverb stabilne
+N stabilita
+V stabilizovať
+V destabilizovať
+AN flexibilný : adverb flexibilne
+N flexibilita
+AN čistý (nezmiešaný)
+V čistiť
+N čistenie
+V vyčistiť
+AN krásny : adverb krásne
+AN nádherný : adverb nádherne
+AN neľúbivý
+V skrášliť
+AN škaredý : adverb škaredo
+AN pravdivý : adverb pravdivo
+AN pravdepodobný : adverb pravdepodobne
+N pravdepodobnosť
+AN nepravdepodobný : adverb nepravdepodobne
+AN pravý
+AN možný : adverb možno
+N možnosť
+AN nemožný
+V umožniť
+AV čo najviac
+AN istý : adverb iste
+N istota
+AN jasný : adverb jasne
+V objasniť
+N jasnosť
+AN presný : adverb presne
+N presnosť
+AN autentický : adverb autenticky
+AN umelý : adverb umelo
+AN spoľahlivý : adverb spoľahlivo
+N spoľahlivosť
+AN robustný
+AN strnulý : adverb strnulo
+V doplniť
+AN doplňujúci
+N doplnenie
+N poriadok
+AN poriadny : adverb poriadne
+AN neporiadny
+V zoradiť
+PHR v poriadku
+AN upratný
+AN hrubý (nehladký) : adverb hrubo
+V zjemniť
+AN rafinovaný : adverb rafinovane
+AN príručný
+AN záludný : adverb záludne
+AN vlastný
+AN svojrázny
+AN zvláštny : adverb zvláštne
+AN nejasný : adverb nejasne
+AN hotový
+AN pravidelný : adverb pravidelne
+AN nepravidelný : adverb nepravidelne
+AN príslušný
+AN činný
+AN dostupný
+AN celoštátny
+AN uvoľnený (nepevný)
+AN jedno
+AN konkrétny : adverb konkrétne
+AN existujúci
+AN bezprostredný : adverb bezprostredne
+AN doterajší
+AN vtedajší
+AN terajší
+AN tohtoročný
+AN dlhoročný
+AN rodom z
+AN zastupujúci
+AN udržateľný : adverb udržateľne
+N udržateľnosť
+AN neustály : adverb neustále
+AN rozličný : adverb rozlične
+AN negatívny : adverb negatívne
+AN totálny : adverb totálne
+AN obvyklý : adverb obvykle
+AN citeľný : adverb citeľne
+AN ojedinelý : adverb ojedinele
+AN odkázaný
+AN šikovný : adverb šikovne
+AN vo forme
+AN super
+AN domáci (miestny)
+AN zaujímavý : adverb zaujímavo
+AN nezaujímavý : adverb nezaujímavo
+AN zajedno
+AN priamy : adverb priamo
+N chaos
+AN chaotický : adverb chaoticky
+AN neznámy
+AN individuálny : adverb individuálne
+AN inkluzívny
+AN interný : adverb interne
+AN externý : adverb externe
+AN reálny : adverb reálne
+AN exkluzívny : adverb exkluzívne
+AN riadny : adverb riadne
+AN akútny : adverb akútne
+AN relevantný
+AN rapídny : adverb rapídne
+AN jemný : adverb jemne
+AN základný
+AN kontinuálny : adverb kontinuálne
+AN finálny
+AN radikálny : adverb radikálne
+AN civilný
+AN nákladný : adverb nákladne
+AN podrobný : adverb podrobne
+AN nápadný : adverb nápadne
+AN svižný : adverb svižne
+AN tvrdo sporný
+AN vypredaný
+AN samostatný : adverb samostatne
+AN predchádzajúci
+AN fyzický : adverb fyzicky
+AN mentálny : adverb mentálne
+AN ofenzívny : adverb ofenzívne
+AN defenzívny : adverb defenzívne
+AN najlepší možný
+AN pochopiteľný : adverb pochopiteľne
+AN neutrálny : adverb neutrálne
+AN v bezpečí
+AN prítomný (v mysli)
+AN dynamický : adverb dynamicky
+AN tunajší
+AN ďalekosiahly
+AN queer
+AN obsahový
+AN dvojciferný
+AN mnohonásobný : adverb mnohonásobne
+AN plošný : adverb plošne
+AN nepriamy : adverb nepriamo
+AN väčšinový
+AN sídliaci
+AN transparentný : adverb transparentne
+AN anonymný : adverb anonymne
+AN verejnoprospešný
+AN klimaticky neutrálny
+AN prominentný
+AN suverénny : adverb suverénne
+AN profesionálny : adverb profesionálne
+AN všetok
+AN operatívny : adverb operatívne
+AN personálny
+AN potenciálny
+AN mobilný
+AN fosílny
+AN predvídateľný
+AN optický : adverb opticky
+AN ľubovoľný : adverb ľubovoľne
+AN vydatný
+AN pokazený
+AN lesklý
+AN identický : adverb identicky
+AN hybridný
+AN neporušený
+AN náhly : adverb náhle
+AN provizórny : adverb provizórne
+AN svojvoľný : adverb svojvoľne
+AN neúmyselný : adverb neúmyselne
+AN skrytý
+AN slabší
+AN fiktívny
+AN bezšvový
+AN letmý : adverb letmo
+AN štvormiestny
+AN päťmiestny
+AN výhradný : adverb výhradne
+AN striedavý
+AN preplnený
+AN nevybavený
+AN prevládajúci
+AN esenciálny
+AN každoročný : adverb každoročne
+AN doslovný : adverb doslovne
+AN zjazdný
+AN realizovateľný
+AN vizuálny : adverb vizuálne
+AN ručný : adverb ručne
+AN postupný : adverb postupne
+AN toxický
+AN rádioaktívny
+AN územný
+AN alpský
+AN bilaterálny
+AN súdobý
+AN spôsobený chorobou
+AN pamiatkovo chránený
+AN apokalyptický
+AN odporný : adverb odporne
+AN vratký
+AN neotrasiteľný
+AN šetrný k životnému prostrediu
+AN selektívny : adverb selektívne
+AN programový
+AN súkromnohospodársky
+AN bezmedzný : adverb bezmedzne
+AN kryptický
+AN okázalý : adverb okázalo
+AN povzbudzujúci
+AN slobodný (bez partnera)
+AN plnoletý
+AN nedôveryhodný
+AN ekologicky uvedomelý
+AN nemotorný : adverb nemotorne
+AN presne padnúci
+AN prostredný
+AN stojí za to
+AN latentný
+AN pronikavý : adverb pronikavo
+AN excesívny
+AN výstredný : adverb výstredne
+AN jednokoľajný
+AN chirurgický : adverb chirurgicky
+AN barbarský : adverb barbarsky
+AN podmienený vekom
+AN obranyschopný
+AN zavrhnutiahodný
+AN nepredvídaný
+AN nepotvrdený
+AN klamlivý
+AN objemný
+AN nominálny
+AN matný
+AN úbohý
+AN životopisný
+AN bezpríznakový
+AN plnochuťový
+AN virtuózny : adverb virtuózne
+AN nešportový
+AN neprístupný rozumu
+AN nepoužiteľný
+AN štylistický
+AN plagátový
+AN nadzemný
+AN drobný
+AN imaginárny
+AN chytľavý
+AN dementný
+AN blízko bydliska
+AN vitálny
+AN neprekonateľný
+AN hrôzostrašný : adverb hrôzostrašne
+AN honosný : adverb honosne
+AN monotónny : adverb monotónne
+AN lyrický
+AN chvályhodný
+AN poučný : adverb poučne
+AN bez pána
+AN zákerný : adverb zákerne
+AN filigránsky
+AN empatický : adverb empaticky
+AN vypočítateľný
+AN ústavný
+AN neúprosný : adverb neúprosne
+AN obludný : adverb obludne
+AN tanečný
+AN vzdorovitý : adverb vzdorovito
+AN stoický : adverb stoicky
+AN oprávnený hrať
+AN minimalistický
+AN metodický : adverb metodicky
+AN kričivý : adverb kričivo
+AN humánny : adverb humánne
+AN vysoko zložitý
+AN schátraný
+AN nenáhlivý : adverb nenáhlivo
+AN grafovo-technický
+AN akrobatický
+AN primeraný deťom
+AN primeraný druhu
+AN upršaný
+
+# corpus-adjectives
+AN premyslený
+AN duálny
+AN prírode blízky
+AN šitý na mieru
+AN hrbolatý
+AN priebežný : adverb priebežne
+AN cenovo dostupný
+AN mnohovrstevnatý
+AN chrumkavý
+AN otrasný : adverb otrasne
+AN roztomilý : adverb roztomilo
+AN dávno známy
+AN nestály
+AN neúplný : adverb neúplne
+AN neoprávnený : adverb neoprávnene
+AN grafický : adverb graficky
+AN endemický
+AN vzájomne dohodnutý
+AN univerzálny : adverb univerzálne
+AN prezieravý : adverb prezieravo
+AN nerozpoznaný
+AN neatraktívny
+AN regulačný
+AN rovnoprávny : adverb rovnoprávne
+AN výdatný : adverb výdatne
+AN nezáväzný : adverb nezáväzne
+AN špekulatívny
+AN nestabilný : adverb nestabilne
+AN bohatý (hojný) : adverb bohato
+AN redakčný
+AN s rovnakým počtom bodov
+AN perspektívny
+AN nevyspytateľný
+AN duchovný : adverb duchovne
+AN povrchný : adverb povrchne
+AN ikonický
+AN celodenný
+AN prelomový
+AN administratívny : adverb administratívne
+AN napnutý
+AN nádejný : adverb nádejne
+AN čiastočný : adverb čiastočne
+AN nízkoprahový
+AN rovnocenný : adverb rovnocenne
+AN demonštratívny : adverb demonštratívne
+AN nepresný : adverb nepresne
+AN nedotknutý
+AN trblietavý
+AN otravný : adverb otravne
+AN pamätihodný
+AN názorný : adverb názorne
+AN samoživiteľský
+AN trefný : adverb trefne
+AN závratný : adverb závratne
+AN premrštený
+AN depresívny
+AN neobývateľný
+AN cielený : adverb cielene
+AN jednomyseľný : adverb jednomyseľne
+AN uprázdnený
+AN progresívny
+AN stredne ťažký
+AN invazívny
+AN medzinárodnoprávny
+AN zmierlivý : adverb zmierlivo
+AN sporný
+AN sebakritický
+AN šetrný : adverb šetrne
+AN rozjímavý
+AN banálny : adverb banálne
+AN rozhádaný
+AN znášanlivý
+AN lákavý : adverb lákavo
+AN nekonvenčný : adverb nekonvenčne
+AN súdržný
+AN statický : adverb staticky
+AN rečnícky
+AN pravoslávny
+AN interdisciplinárny
+AN žalostný : adverb žalostne
+AN skľučujúci : adverb skľučujúco
+AN nečakaný : adverb nečakane
+AN odporúčaniahodný
+AN severozápadný
+AN juhozápadný
+AN orientovaný na budúcnosť
+AN hodný života
+AN nadčasový
+AN hlavný zodpovedný
+AN predvianočný
+AN protirečivý
+
+# quality
+AN škodlivý pre životné prostredie
+AN drvivý : adverb drvivo
+AN prírodný
+AN holý
+AN monumentálny : adverb monumentálne
+AN mystický : adverb mysticky
+AN svahovitý
+AN rustikálny : adverb rustikálne
+AN pikantný : adverb pikantne
+AN notorický : adverb notoricky
+AN krivý : adverb krivo
+AN provokatívny : adverb provokatívne
+AN frenetický : adverb freneticky
+AN sekundárny : adverb sekundárne
+AN obojstranný
+AN erotický : adverb eroticky
+AN ergonomický : adverb ergonomicky
+AN menový
+AN nezadržateľný : adverb nezadržateľne
+AN nezaplatiteľný
+AN neúčinný : adverb neúčinne
+AN nezvestný
+AN mimosúdny
+AN heterosexuálny
+AN bisexuálny
+AN na vlastnú zodpovednosť
+AN prekypujúci
+AN tesný (nepriepustný)
+N závažie
+
+# more
+AV neuveriteľne
+AN zvýšený

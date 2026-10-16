@@ -1,0 +1,96 @@
+# water-bodies
+N voda
+N vodopád
+N pitná voda
+N slaná voda
+N sladká voda
+N vodstvo
+N povodeň
+V zriediť
+AN vodotesný
+N prieliv
+N hladina mora
+N Stredozemné more
+N oceán
+N Atlantik
+N jazero
+N vodná nádrž
+N more
+N Severné more
+N Baltské more
+N rieka
+N prítok
+N koryto rieky
+V tiecť
+N rybník
+N potok
+N horský potok
+N zátoka
+N záliv
+N ľadovec
+N oáza
+N lagúna
+N delta
+N ústie
+V ústiť
+N pobrežné močiare
+N mokraď
+N útes (morský)
+N fjord
+N gejzír
+
+# water-features
+N vlna
+N príliv a odliv
+N odliv
+N príliv
+N morské vlnenie
+N príboj
+N prúdenie
+N záplava
+V zaplaviť
+N cunami
+N kvapka
+V kvapkať
+N pena
+V peniť sa
+N bublina
+N ľad
+N ľadová kryha
+N kocka ľadu
+N doba ľadová
+N para
+V pariť sa
+N mláka
+V striekať
+N zvlnenie hladiny
+V zvlniť
+N vír
+N pereje
+V presakovať
+N rozprášená voda
+N opar
+N kondenzácia
+V kondenzovať
+N soľanka
+N panva
+V vyvierať
+V namočiť
+V premočiť
+N plavebná komora
+N hrádza
+V zamedziť
+N odpadová voda
+N čistiareň odpadových vôd
+V špliechať
+
+# water-land-edge
+N breh
+N breh rieky
+N pobrežie
+N pláž
+N ostrov
+N polostrov
+N mys
+N bazén
+N zmrzlina

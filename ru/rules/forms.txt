@@ -1,0 +1,34 @@
+# THE FORMS EXERCISE for Russian: a sentence with one word left out, its right form among wrong ones of the same word --
+# the format: de/rules/forms.txt. The cells: engine/paradigm.js (V.pres.* the imperfective's present, V.fut.* the
+# perfective's, V.past.<g>, V.pfpast.<g>, V.imp.*, N.<case>.<num>, AN.<case>.<g>).
+
+present: настоящее время
+  ask   V.pres.*
+  wrong V.pres.* ~V.pres.= V.fut.=
+
+past: прошедшее время (вид)
+  when  tense=past|perfect
+  ask   V.past.* V.pfpast.*
+  wrong V.past.* V.pfpast.* ~V.pfpast.= ~V.past.=
+
+future: будущее время
+  when  tense=future
+  ask   V.fut.*
+  wrong V.fut.* V.pres.= ~V.fut.=
+
+imperative: повелительное наклонение
+  when  type=IMP
+  ask   V.imp.*
+  wrong V.imp.* V.pres.2sg V.pres.2pl
+
+cases: падежи
+  ask   N.*.*
+  wrong N.*.=
+
+plural: множественное число
+  ask   N.*.pl
+  wrong N.*.sg N.*.pl
+
+adjective: согласование прилагательного
+  ask   AN.*.*
+  wrong AN.*.*

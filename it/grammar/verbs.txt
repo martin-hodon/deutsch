@@ -1,0 +1,11 @@
+# modal-verbs
+1 V potere {potere} [poˈteːre], irr = môcť
+2 N l'abilità (f) {abilità} [abiliˈta], abilità = zručnosť
+2 N la capacità {capacità} [kapatʃiˈta], capacità = zručnosť
+3 N la bravura {bravura} [braˈvuːra], bravure = zručnosť
+1 V dovere {dovere} [doˈveːre], irr = musieť
+1 V dovere {dovere} [doˈveːre], irr = mať (povinnosť)
+1 V potere {potere} [poˈteːre], irr = smieť
+
+# language-specific closed words (no Slovak word: a description)
+1 V stare {stare} [ˈstaːre], irr, essere (+ ger) = byť práve pri deji (stare + gerundio)

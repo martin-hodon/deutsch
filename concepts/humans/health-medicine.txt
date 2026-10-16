@@ -1,0 +1,273 @@
+# health-illness
+AN zdravý : adverb zdravo
+N zdravie
+AN nezdravý : adverb nezdravo
+V uzdraviť sa
+AN zdravotnícko-politický
+AN chorý
+N choroba
+V ochorieť
+N ochorenie
+N chorý
+N nemocnica
+N zdravotná sestra
+N sanitka
+N infekcia
+V nakaziť
+AN infekčný
+AN nákazlivý
+N nákaza
+N pandémia
+N epidémia
+N bolesť
+V bolieť
+AN bolestivý : adverb bolestivo
+AN bezbolestný : adverb bezbolestne
+N bolesť hlavy
+N bolesť zubov
+N bolesť brucha
+N bolesť hrdla
+N liek proti bolesti
+N horúčka
+V mať horúčku
+V kašľať
+N kašeľ
+V kýchať
+V prechladnúť
+N prechladnutie
+AN prechladnutý
+N nádcha
+N chrípka
+N alergia
+AN alergický
+N rakovina
+N rana
+V zraniť
+N zranenie
+AN zranený
+N zranený
+AN zraniteľný
+PHR modrina
+N pomliaždenina
+N jazva
+V napúchať
+N opuch
+N zlom
+N vyrážka
+N symptóm
+AN príznačný
+AN slepý
+AN chromý
+N ochrnutie
+V paralyzovať
+AN ochrnutý
+V prekážať
+AN zdravotne postihnutý
+N postihnutie
+N závrat
+AN so závratom
+AN nevoľný : adverb nevoľno
+N nevoľnosť
+V zvracať
+N mdloba
+AN v mdlobách
+PHR omdlieť
+AN v bezvedomí
+V trpieť
+V utrpieť
+AN nespavý
+N nespavosť
+N porucha
+AN bez porúch
+AN chronický
+AN imúnny
+N imunita
+N imunitný systém
+V imunizovať
+N zápal
+N zápal pľúc
+N akné
+N nádor
+N migréna
+N záchvat
+N mozgová príhoda
+AN náchylný
+N kóma
+N otras mozgu
+V vymknúť si
+N vymknutie
+N cukrovka
+N astma
+N mor
+N obezita
+AN nezranený
+N izolácia (oddelenie)
+N krvný tlak
+N krvná skupina
+N odber krvi
+N krvácanie
+N hnačka
+N bolesti chrbta
+N srdcový infarkt
+N depresia
+N nadváha
+AN obézny
+N vedľajší účinok
+N drogy
+N ťažkosti
+N výsledok vyšetrenia
+N ohrozenie života
+N bodnutie
+AN sexuálny
+AN psychický
+AN ambulantný
+AN stacionárny
+AN zdravotný
+V narušiť
+V aplikovať
+V zdecimovať
+AN traumatický
+AN epidemiologický
+AN vysoko nákazlivý
+AN odkázaný na opateru
+
+# treatment
+N medicína
+AN lekársky
+AN intenzívnej medicíny
+N liek
+N tabletka
+N pilulka
+N masť
+N obväz
+N náplasť
+N injekcia
+V očkovať
+N očkovanie
+N vakcína
+V vyliečiť
+N liečenie
+AN liečiteľný
+AN nevyliečiteľný
+V zahojiť sa
+V liečiť
+N liečba
+V zotaviť sa
+N zotavenie
+AN oddychový
+N operácia
+V operovať
+V vyšetriť
+N vyšetrenie
+N preventívna prehliadka
+N diagnóza
+V diagnostikovať
+N terapia
+N terapeut
+N antibiotikum
+N masáž
+V masírovať
+N röntgen
+V röntgenovať
+N röntgenová snímka
+N transplantácia
+N darca
+N milodar
+N darca orgánu
+N narkóza
+N ultrazvuk
+N sadra
+N stetoskop
+N karanténa
+N antiseptikum
+AN sterilný
+V sterilizovať
+V ošetrovať
+N ošetrovanie
+N ošetrovateľka
+N záchrana
+N liečebný pobyt
+N rehabilitácia
+V zmierniť
+AN psychiatrický
+V resuscitovať
+AN terapeutický
+
+# medical-people-places
+N lekár
+N lekárka
+N zubár
+N veterinár
+N obvodný lekár
+N lekár záchrannej služby
+N chirurg
+N pacient
+N pacientka
+N klinika
+AN klinický
+N lekáreň
+N lekárnik
+N lekárnička
+N núdzový prípad
+N záchranár
+N teplomer
+N invalidný vozík
+N barla
+N nosidlá
+N pôrodná asistentka
+N psychiater
+N psychiatria
+N oddelenie (nemocničné)
+N ordinácia
+V praktizovať
+N jednotka intenzívnej starostlivosti
+N zdravotný úrad
+N klinické centrum
+N zdravotná poisťovňa
+N zdravotné poistenie
+N pohotovosť
+N ordinačné hodiny
+N čakáreň
+N odborný lekár
+N detský lekár
+N domov pre seniorov (ošetrovateľský)
+N domov dôchodcov
+N opatrovateľská služba
+N záchranná služba
+N očkovací preukaz
+N kozmetika
+AN kozmetický
+N zdravotníctvo
+N uzdravený
+
+# hygiene-substances
+N hygiena
+AN hygienický : adverb hygienicky
+N jed
+AN jedovatý : adverb jedovato
+V otráviť
+N otrava
+N protijed
+N tabak
+N cigareta
+V fajčiť
+N fajčiar
+N nefajčiar
+AN opitý
+AN triezvy : adverb triezvo
+N diéta
+N vitamín
+N vírus
+AN vírusový
+N baktéria
+N závislosť (choroba)
+AN závislý (na droge)
+N kalória
+N droga
+N konope
+N steh
+
+# more
+N potrat
+N samovražda
+N kokaín

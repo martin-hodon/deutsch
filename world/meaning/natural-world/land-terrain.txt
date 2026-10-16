@@ -1,0 +1,116 @@
+N pologuľa : region ; auf
+AV samozrejme : sentence
+N krajina (štát) : region, country ; auf
+N krajina (prírodná) : landscape
+N pevnina : landscape ; auf
+N vysočina : landscape
+N nížina : landscape
+N trávnatá krajina : landscape
+N pôda : substance, place, sittable, cleanable ; auf
+N zem : substance, celestial ; auf
+N zemetrasenie : phenomenon, incident
+N zosuv pôdy : phenomenon, incident
+AN pozemský : living, state, feeling, event
+N kontinent : country ; auf
+AN kontinentálny : place ; attr
+N vrch : landscape, climbable ; auf
+N pohorie : landscape
+N vysoké pohorie : landscape
+N predhorie : landscape
+N horský hrebeň : landscape ; auf
+AN hornatý : landscape
+N horolezec : role
+N kopec : landscape, climbable ; auf
+N násyp : landscape, climbable ; auf
+AN kopcovitý : landscape
+N dolina : landscape
+N rovina : landscape, quality ; auf
+N náhorná plošina : landscape ; auf
+N púšť : landscape
+AN pustý : landscape
+V spustošiť : person > patient place
+V spustošiť : {víchor|príliv|oheň|vojna|zemetrasenie} > patient place
+N duna : landscape, climbable ; auf
+N jaskyňa : landscape, enterable
+N útes (skalnatý) : landscape, climbable ; auf
+N vrchol : landscape ; auf
+V vrcholiť : {hádka|protest|konflikt} > result {násilie|vojna|chaos|škandál}
+N samit : event, attendable
+N svah : landscape ; an
+N zráz : landscape ; an
+N roklina : landscape
+N sopka : landscape, climbable ; auf
+AN sopečný : landscape, stone ; attr
+N erupcia sopky : incident
+N kráter : landscape
+N tiesňava : landscape
+N výmoľ : landscape
+N trhlina v ľadovci : landscape
+N step : landscape
+N tundra : landscape
+N savana : landscape
+N prérie : landscape
+N terén : landscape
+N močiar : landscape
+N jama : place
+N priekopa : place
+N divočina : landscape
+N žľab : place
+V stekať : liquid
+N rašelinisko : landscape
+N vresovisko : landscape
+N pohan : person
+N sklon : quality
+V nakláňať : person > inf
+V nakláňať : person > patient {hlava|sklenica|fľaša}
+N priepasť (v teréne) : landscape
+N kraj : region
+N skala : stone, climbable
+N skalný blok : stone, climbable
+N skalný výčnelok : landscape ; auf
+N skalný hrot : landscape
+N skalná stena : landscape, climbable ; an
+AN skalnatý : landscape
+N kameň : stone
+N kamienok : stone
+N hornina : stone
+AN kamenistý : landscape, thing
+N piesok : substance
+N pohyblivý piesok : substance
+AN piesočnatý : landscape
+N blato : substance
+AN blatistý : landscape
+N prach : substance
+AN prašný : furniture, building-part, road, room, clothing, text, landscape, thing
+V prášiť : es
+V prášiť : thing
+V prášiť : furniture
+N íl : material
+N tón : sound
+N štrk : stone
+N láva : substance
+N vypuknutie : event
+V vypuknúť : {sopka|gejzír}
+V vypuknúť : {vojna|oheň|hádka|panika}
+V vypuknúť : beast > source {klietka|maštaľ|zoologická záhrada|ohrada}
+V vypuknúť : {väzeň|zločinec|zbojník|zlodej|páchateľ} > source {väzenie}
+N lavína : phenomenon, incident
+N príroda : concrete
+AN prirodzený : living, activity, material, food, landscape, phenomenon, state
+N prírodná katastrofa : incident
+N ochrana prírody : activity
+N svet : place ; auf
+N životné prostredie : state
+AV celosvetovo : place
+N svetová vojna : event
+N národný park : landscape, enterable
+N prírodná rezervácia : landscape, enterable
+# added: Boden in its second sense
+N podlaha : building-part, sittable, cleanable
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN otvorený svetu : person, country, settlement, institution
+AN svetoznámy : person, creative-work, building, place
+V triasť sa : person
+V triasť sa : animal
+V triasť sa : building

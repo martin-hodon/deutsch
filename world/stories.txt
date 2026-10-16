@@ -1,0 +1,787 @@
+# THE STORIES (sentences/STORIES.md): a little world -- a SITUATION (sentences/situations/*.txt), a PLACE with its
+# weather and properties, a person of the CAST with her likes (sentences/world/*) -- and what happens in it, told by
+# trainer/story.js from the blocks below. Nothing German is in the code: every sentence is a block here.
+#
+# PLOT name {weight} : TOKENS -- the order of a story;   PART name : TOKENS {w} | TOKENS {w} -- alternatives
+#     X     must be told (no way of telling it: no story)
+#     X?    told half the time
+#     (X)   told when the world has it (a way whose `when` holds)
+#     X*    told while it can (WORK*: the procedure's lines, world/procedures.txt -- up to the thing in the way, and
+#           after it is mended the rest)
+# A PART's alternative is chosen among those whose first must-token can be told now.
+#
+# MOVE name {weight} when COND COND sets FLAG : the words around the clauses (S: of sentences/tests.txt)
+#   then its clauses, one per line, in the tests.txt format, with
+#     $slot      a value of the world (story.js SLOTS): $p1 $p2 (the people, er/sie when clear), $trouble ...
+#     $slot?     dropped when the world has none
+#     $frag      alone: several parts at once ($state: verb=sein pred=adj:müde; $act: the wanted action)
+#     @list      a word of a WORDS list (not the one used last)
+# A move has one block per way of telling it; the ways whose `when` holds are chosen by weight (story.js CONDS);
+# `level N`: only in stories of complexity N or more (1 simple, 2 medium, 3 complex). `sets` marks the world (WISH is
+# not told again after a STATE that said it).
+#
+# JOIN A B {chance} when COND : words -- B told right after A becomes ONE sentence with it, as an author would combine them
+# (`when`: a cond of the world, or of the two clauses: same-subj -- one doer, B's subject may drop --, durative-a /
+# durative-b -- that clause's verb takes time, story.durative: während needs it)
+# (the chance grows with the complexity: none in simple stories). Its clauses: `ID = A` / `ID = B` -- that move's
+# clause, changed (a TYPE: SUB conj=nachdem, INVERTED; key=value replaces; -key leaves it out), or a new clause with
+# $slots; none given: 1 = A, 2 = B. Only plain ways join (one clause, `1 .`).
+
+# THE PLAN (story.js): a PLOT is what happens; its lines are its ARCS -- the shapes it is told in (PLOT order/rush:
+# the plot `order` in the shape `rush`), chosen by weight. A BEAT is a part of the story chosen when it is PLANNED,
+# before a word is told -- so the plan knows what it holds (an obstacle in an order: the work waits for it); its
+# [conds] are of the world at the start, `-` an empty way; ~tag: weighed by the narrator's taste for it. (A PART is
+# chosen while the story is told.) The session remembers the arcs and beats told lately: less likely again.
+#
+# NARRATOR name {w} : how a story is told -- joins (x how often two moves become one sentence), maybe (an optional
+# move told), decor (a thing said with its state: die heiße Pfanne), adorn (its colour, size), manner (how she does
+# it), speech (x ways with speech); other keys weigh the ways tagged ~key: scene (the place's sounds and sights),
+# talk (dialogue first and last), quiet (a quiet end), inner (her state shown first)
+NARRATOR plain {2} : joins=.6 maybe=.4 decor=.35 adorn=.2 manner=.35 speech=.8 scene=.5 quiet=.7
+NARRATOR lively {2} : joins=.9 maybe=.55 speech=1.8 talk=3 scene=.7 quiet=.5
+NARRATOR painter {2} : joins=1.3 maybe=.65 decor=.75 adorn=.5 manner=.65 speech=.7 scene=3 quiet=2
+NARRATOR warm {1.5} : joins=1.1 maybe=.6 speech=1.2 talk=1.5 inner=3 quiet=1.5
+
+# (something is in the way of what she wants: it is mended -- she asks, calls, or does it herself)
+PLOT obstacle/classic {2} : OPEN (OMEN) (WANT) WORK* BLOCK FEEL? MEND WORK* WANTEND
+PLOT obstacle/want-first {1} : WANTFIRST (OMEN) WORK* BLOCK FEEL? MEND WORK* WANTEND
+PLOT mishap {1} : OPEN (WANT) WORK* (OMEN) BREAK FEEL? MEND WORK* WANTEND
+PLOT weather {2} : WOPEN (WANT) WORK* SPOIL FEEL? MEND WORK* WANTEND
+PLOT errand/classic {1.3} : OPEN (WANT) WORK* LACK FETCH BACK? WORK* WANTEND
+PLOT errand/want-first {.7} : WANTFIRST WORK* LACK FETCH BACK? WORK* WANTEND
+# (an order -- the kitchen passage's shape: one of hers asks for a dish, she makes it step by step, he tastes it --
+#  told the plain way; the asking first, then where she is; she wants to surprise him; in a hurry, guests coming)
+PLOT order/classic {1.4} : SETTING ASKING (MIX) WORK* KITCHEN-TROUBLE? WORK* TASTING ENDING
+PLOT order/voice-first {1.2} : ASKING SETTING-AFTER (MIX) WORK* KITCHEN-TROUBLE? WORK* TASTING ENDING
+PLOT order/surprise {.7} : SETTING SURPRISE (MIX) WORK* KITCHEN-TROUBLE-ALONE? WORK* TASTING COMEHOME ENDING
+PLOT order/rush {.7} : SETTING RUSHING (MIX) WORK* KITCHEN-TROUBLE? WORK* TASTING RUSH-ENDING
+# (it burns: the other one laughs it off -- they order a pizza)
+PLOT order/burnt {.5} : SETTING ASKING (MIX) WORK* BURN FEEL? (RESCUE) (LAUGH) (PIZZA)
+# (a favor: one of hers asks her to mend his thing; she does it, step by step, and he thanks her)
+PLOT favor/classic {1.2} : SET (AMBIENCE) ASKFIX (REPLY) FIXWORK* FAVOR-END
+PLOT favor/voice-first {.8} : ASKFIX SET (REPLY) FIXWORK* FAVOR-END
+PLOT favor/trouble-first {.8} : SET HISTROUBLE ASKFIX (REPLY) FIXWORK* FAVOR-END
+
+# ---- the beats
+# (the scene first, then she is placed in it: In der Küche duftete es nach frischem Brot. Lisa stand am Herd.)
+BEAT OPEN : [scene there-at complex ~scene] SCENE PLACED (OWN) {4} | WOPEN {5} | SET AMBIENCE* (JOB) (OWN) (THERE) (DESCRIBE) {2} | SET AMBIENCE* (OWN) (THERE) {3} | GOTO AMBIENCE* (OWN) (THERE) {3}
+# (her state first -- Lisas Magen knurrte. -- then where she is; or why she went there: Weil ..., ging sie ..., um ...)
+BEAT WANTFIRST : [~inner] (PAST) STATE SET (OWN) (THERE) {3} | [goto] GOTO (OWN) (THERE) {2}
+# (the end of a wish: she does it, says what it is like, eats it, how she is; or the one who helped is thanked last)
+BEAT WANTEND : (DONE) (VERDICT) COMMENT? (FINISH) REACT? (RESULT) {4} | [~quiet] (DONE) (FINISH) (RESULT) {2} | [p2 ~talk] (DONE) (VERDICT) (FINISH) (THANKEND) {1}
+# (where she is when the order comes: the scene and its sounds; the time of day; or simply where she is)
+BEAT SETTING : [scene workthing complex ~scene] SCENE AMBIENCE* ATWORK {4} | [workthing complex] ATTIME {2} | [workthing complex] ATWORK (AMBIENCE) {2} | SET (AMBIENCE) {1}
+# (after the asking: where she stands, the scene)
+BEAT SETTING-AFTER : [workthing complex] ATWORK (AMBIENCE) {3} | [scene complex ~scene] SCENE AMBIENCE* {2} | SET {1}
+# (the asking: a plain question; a birthday first; hunger)
+BEAT ASKING : REQUEST (REPLY) {3} | [baked complex] OCCASION REQUEST (REPLY) {1.5}
+# (in a hurry: guests are coming, the food must be ready -- impatience shown)
+BEAT RUSHING : RUSH (VOICE) (REPLY) {3} | RUSH (REPLY) (VOICE) {1}
+# (it goes wrong in the work: a thing is in the way, or something is missing -- fetched)
+BEAT KITCHEN-TROUBLE : [trouble] BLOCK FEEL? MEND {2} | [lack] LACK FETCH BACK? {2}
+BEAT KITCHEN-TROUBLE-ALONE : [lack] LACK FETCH BACK? {1}
+# (she tastes: the dish lacks a spice; or her verdict; or only what it is like now)
+BEAT TASTING : (DONE) (LACKS) (ADDSPICE) (RETASTE) (HINT) (VERDICT) {3} | (DONE) (HINT) (VERDICT) {2} | (DONE) {1}
+# (the end: served, tasted, the quiet hands; praised aloud; later, together at the table)
+BEAT ENDING : SERVE (REACT) {3} | [~quiet] SERVE (REACT) (APRON) {2} | [~talk] SERVE PRAISE {2} | [~quiet] SERVE (REACT) LATER {1.5}
+# (in a hurry: the guests come in time -- relief; the effort was worth it; or their praise)
+BEAT RUSH-ENDING : (ARRIVAL) SERVE (REACT) (RELIEF) {2} | (ARRIVAL) SERVE (REACT) (RELIEF) (REFLECT) {1.5} | [~talk] (ARRIVAL) SERVE PRAISE (RELIEF) {2} | [~quiet] (ARRIVAL) SERVE (REACT) (APRON) {1}
+BEAT FAVOR-END : THANKED (RESULT) {3} | [~talk] THANKED PRAISEFIX {1}
+
+# ---- the parts: chosen while the story is told
+PART WOPEN : (SEASON) WEATHER (TASTE) SET (WEAR) (OWN) (THERE)
+PART WANT : (PAST) (FOND) STATE (WISH) {3} | (PAST) (FOND) STATE+WISH {2}
+# (the mending told step by step when there is a procedure for it -- one asked or called does it, or she herself; a
+#  relative never helps unasked; else in one sentence, as before)
+PART MEND : [mend p2.here] ASK OFFER? FIXWORK* THANK? {4} | [mend p2.away] CALL ARRIVE FIXWORK* THANK? {3} | [mend self] FIXWORK* {3} | [!mend] ASK? HELP THANK? {2} | [!mend] CALL ARRIVE THANK? {1} | [!mend] CALLREL FIX THANK? {1} | [!mend] SELF {3}
+# the procedure's lines (world/procedures.txt): a step of hers, a thing that does something, the decisive step
+PART WORK : STEP {3} | PROCESS {2} | MOMENT? KEY {2} | HEAT {1} | MEANWHILE {1} | CHECKIN ANSWER {1} | SPICE {1} | SPATTER {1} | SMOKE {1} | DONENESS {20}
+# the mending's lines -- done by the one who helps (or her) while she waits
+PART FIXWORK mend : STEP {3} | PROCESS {2} | MOMENT? KEY {2} | WAIT {1}
+
+# ---- the opening: where, when, what is there
+MOVE SET {2} : 1 .
+  1 MAIN verb=byť subj=$p1 pp=$along? pp=$at tense=past
+MOVE SET level 2 : 1 .
+  1 MAIN verb=byť subj=$p1 pp=$along? pp=$at time=on-day:@story.day de.front=time tense=past
+# Weil Lisa Hunger hatte, ging sie mit ihrem Bruder in die Küche, um Brot zu toasten. (the wish told here: WANT not)
+MOVE GOTO level 3 when goto !wish sets wished stated : 1 , 2 , 3 .
+  1 SUB $state subj=$p1 link=because tense=past
+  2 MAIN verb=ísť_(pešo) subj=$p1 pp=$along? pp=$to tense=past
+  3 INF $act link=purpose ctrl=$p1
+MOVE SEASON : 1 .
+  1 MAIN verb=byť subj=3sg.n pred=$season tense=past
+MOVE WEATHER when weather-told : 1 .
+  1 MAIN $weather tense=past
+MOVE TASTE when weather-liked : 1 .
+  1 MAIN verb=mať_rád subj=$p1 patient=$weather.noun tense=past
+MOVE TASTE when weather-taste !weather-liked : 1 .
+  1 MAIN verb=mať_rád subj=$p1 patient=no:$weather.word tense=past
+MOVE WEAR when wear : 1 .
+  1 MAIN verb=nosiť subj=$p1 patient=$wear tense=past
+MOVE JOB when job-fits : 1 .
+  1 MAIN verb=byť subj=$p1 pred=$job tense=past
+# Als Lehrerin war Lisa oft in der Schule. (her work, as an apposition in front)
+MOVE SET level 3 when job-fits : 1 .
+  1 MAIN verb=byť subj=$p1 pp=$along? pp=$at role=$job freq=často de.front=role tense=past
+MOVE OWN when own-trouble : 1 .
+  1 MAIN verb=mať_(vlastniť) subj=$p1 patient=$own place=pri_tom tense=past
+# (complex stories place the thing by where she stands -- Sie stand am Herd. -- not "Es gab dort ...": bench 21, F)
+MOVE THERE when there !complex : 1 .
+  1 MAIN verb=dať subj=3sg.n patient=$there place=tam_(miesto) tense=past
+MOVE THERE {2} when there-one !complex : 1 .
+  1 MAIN verb=$there.verb subj=$there time=tam_(miesto) de.front=time tense=past
+# Der Wasserhahn tropfte. / Es roch nach Rauch. (an OMEN: the trouble's first sign -- world/ambience.txt `; omen`)
+MOVE OMEN level 2 when omen : 1 .
+  1 MAIN $omen tense=past
+# In der Küche duftete es nach frischem Brot. (the place in front, its atmosphere)
+MOVE SCENE level 3 when scene : 1 .
+  1 MAIN $scene pp=$at de.front=pp tense=past
+# In der Küche summte der Kühlschrank, das Radio spielte leise, und die Sonne schien durch das Fenster.
+MOVE SCENE {3} level 3 when scene3 : 1 , 2 , and 3 .
+  1 MAIN $scene pp=$at de.front=pp tense=past
+  2 MAIN $scene tense=past
+  3 MAIN $scene tense=past
+# Lisa stand mit ihrem Bruder am Herd.
+MOVE PLACED level 3 when there-at : 1 .
+  1 MAIN verb=stáť_(v_stoji) subj=$p1 pp=$along? pp=$there.at tense=past
+# Lukas stand mit seinem Opa am Herd. (where her work is: its first thing)
+MOVE ATWORK level 3 when workthing : 1 .
+  1 MAIN verb=stáť_(v_stoji) subj=$p1 pp=$along? pp=at:$workthing tense=past
+# Am Abend stand Lisa mit ihrem Bruder am Herd.
+MOVE ATTIME level 3 when workthing : 1 .
+  1 MAIN verb=stáť_(v_stoji) subj=$p1 pp=$along? pp=at:$workthing time=on-day:@story.daypart de.front=time tense=past
+# Der Kühlschrank summte, und die Kerze flackerte. (world/ambience.txt: the things here, not the one wanted or broken)
+MOVE AMBIENCE level 2 when ambience : 1 .
+  1 MAIN $ambience tense=past
+# Sie stand am Herd. (the thing she will use, introduced by where she stands)
+MOVE THERE {2} level 2 when there-at : 1 .
+  1 MAIN verb=stáť_(v_stoji) subj=$p1 pp=$there.at tense=past
+MOVE DESCRIBE when feature : 1 .
+  1 MAIN verb=byť subj=$place pred=adj:$feature tense=past
+
+# ---- the wish: what she likes, the state and what it makes her want
+MOVE PAST when past : 1 .
+  1 MAIN $past subj=$p1 time=predtým de.front=time tense=pluperfect
+MOVE FOND when fond : 1 .
+  1 MAIN verb=mať_rád subj=$p1 patient=$fond tense=past
+MOVE STATE when wish !stated sets wished : 1 .
+  1 MAIN $state subj=$p1 clause=2 tense=past
+  2 INF $act ctrl=$p1
+MOVE STATE when !wish !stated : 1 .
+  1 MAIN $state subj=$p1 tense=past
+# Ihr Magen knurrte. (world/body.txt: the state shown, not named)
+MOVE STATE {2} level 2 when !wish !stated sign.want : 1 .
+  1 MAIN $sign.want tense=past
+MOVE STATE+WISH when !wish !stated : 1 , 2 .
+  1 SUB $state subj=$p1 link=because tense=past
+  2 MAIN $act subj=$p1 modal=chcieť tense=past
+MOVE STATE+WISH {.5} level 2 when !wish !stated : 1 , 2 .
+  1 SUB $state subj=$p1 link=because de.word=da tense=past
+  2 MAIN $act subj=$p1 modal=chcieť tense=past
+MOVE WISH when !wished : 1 .
+  1 MAIN $act subj=$p1 modal=chcieť tense=past
+
+# ---- what is in the way
+MOVE BLOCK when trouble : @story.against 1 .
+  1 MAIN verb=byť subj=$trouble pred=adj:$trouble.state tense=past
+MOVE BLOCK {.5} level 3 when trouble : 1 .
+  1 MAIN verb=byť subj=$trouble pred=adj:$trouble.state sentence=bohužiaľ de.front=sentence tense=past
+# Als sie die Pfanne auf den Herd stellen wollte, sah sie, dass der Herd kaputt war. (the step that uses it)
+MOVE BLOCK {3} level 2 when trouble waiting : 1 , 2 .
+  1 SUB $next subj=$p1 link=when-past modal=chcieť tense=past
+  2 MAIN verb=vidieť subj=$p1 clause=3 tense=past
+  3 SUB link=that verb=byť subj=$trouble pred=adj:$trouble.state tense=past
+MOVE BREAK when breaks : @story.against 1 .
+  1 MAIN $becomes subj=$trouble time=@story.suddenly de.front=time tense=past
+MOVE SPOIL when caused : @story.against 1 .
+  1 MAIN $becomes subj=$trouble time=@story.soon de.front=time tense=past
+MOVE LACK when lack : @story.against 1 .
+  1 MAIN verb=mať_(vlastniť) subj=$p1 patient=no:$lack tense=past
+# (a feeling named only in simple and medium stories; complex ones show it)
+MOVE FEEL {2} when !complex sets tense : 1 .
+  1 MAIN verb=byť subj=$p1 pred=adj:$feel tense=past
+# „So ein Mist!“, rief Lisa.
+MOVE FEEL {2} level 2 sets tense : „ @story.exclaim ! “ , 1 .
+  1 MAIN verb=volať subj=$p1 tense=past
+MOVE FEEL {4} level 2 when sign.feel sets tense : 1 .
+  1 MAIN $sign.feel tense=past
+
+# ---- the mending: who is there is asked and helps; who is not is called and comes
+MOVE ASK when p2.here sets helper : 1 : „ 2 ? “
+  1 MAIN verb=pýtať_sa subj=$p1 patient=$p2 tense=past
+  2 YESNO verb=pomôcť subj=2sg recipient=1sg modal=môcť
+MOVE ASK level 2 when p2.here sets helper : 1 : „ 2 ? “
+  1 MAIN verb=pýtať_sa subj=$p1 patient=$p2 tense=past
+  2 YESNO verb=pomôcť subj=2sg recipient=1sg modal=môcť de.part=bitte
+MOVE ASK level 2 when p2.here sets helper : 1 .
+  1 MAIN verb=pýtať_sa subj=$p1 patient=$p2 clause=2 tense=past
+  2 SUB link=whether verb=pomôcť subj=$p2.pron recipient=$p1.pron modal=môcť mood=hypo
+# „Kannst du mir helfen?“, fragte sie ihren Bruder.
+MOVE ASK {2} level 2 when p2.here sets helper : „ 2 ? “ , 1 .
+  1 MAIN verb=pýtať_sa subj=$p1 patient=$p2 tense=past
+  2 YESNO verb=pomôcť subj=2sg recipient=1sg modal=môcť
+# „Hilfst du mir?“, fragte sie ihren Bruder.
+MOVE ASK level 2 when p2.here sets helper : „ 2 ? “ , 1 .
+  1 MAIN verb=pýtať_sa subj=$p1 patient=$p2 tense=past
+  2 YESNO verb=pomôcť subj=2sg recipient=1sg
+MOVE ASK level 2 when p2.here sets helper : 1 .
+  1 MAIN verb=prosiť subj=$p1 patient=$p2 theme=none:pomoc tense=past
+MOVE HELP when p2.here sets helped cleared : 1 .
+  1 MAIN verb=$trouble.verb subj=$p2 patient=$trouble sentence=@story.luckily de.front=sentence tense=past
+# Ihr Bruder reparierte den Toaster mit einem Schraubenzieher. / Er holte einen Lappen und putzte den Tisch. (tools.txt)
+MOVE HELP level 2 when p2.here tool sets helped cleared : 1 .
+  1 MAIN verb=$trouble.verb subj=$p2 patient=$trouble pp=with:indef:$tool tense=past
+MOVE HELP level 2 when p2.here tool sets helped cleared : 1 and 2 .
+  1 MAIN verb=doniesť subj=$p2 patient=indef:$tool time=@story.then de.front=time tense=past
+  2 MAIN verb=$trouble.verb drop=yes de.form=main subj=$p2 patient=$trouble tense=past
+MOVE HELP level 3 when p2.here sets helped cleared tense : 1 , 2 .
+  1 SUB verb=$trouble.verb subj=$p2 patient=$trouble link=while tense=past
+  2 MAIN verb=čakať subj=$p1 tense=past
+# Also rief sie einen Mechaniker an, der bald kam. Er reparierte das Auto.
+MOVE CALLREL level 3 when p2.away call-plain sets called : 1 .
+  1 MAIN verb=$call subj=$p1 patient=$p2+rel(2) conn=@story.because de.front=conn tense=past
+  2 REL verb=prísť relrole=subj time=čoskoro tense=past
+MOVE FIX when called sets helped cleared : 1 .
+  1 MAIN verb=$trouble.verb subj=$p2 patient=$trouble tense=past
+MOVE FIX level 2 when called tool sets helped cleared : 1 .
+  1 MAIN verb=$trouble.verb subj=$p2 patient=$trouble pp=with:indef:$tool tense=past
+MOVE CALL when p2.away sets called : 1 .
+  1 MAIN verb=$call subj=$p1 patient=$p2 conn=@story.because de.front=conn tense=past
+# (called to mend it step by step: he comes -- the steps follow)
+MOVE ARRIVE when called mend sets helper : 1 .
+  1 MAIN verb=prísť subj=$p2 time=@story.arrive de.front=time tense=past
+MOVE ARRIVE when called !mend sets helped cleared : 1 and 2 .
+  1 MAIN verb=prísť subj=$p2 time=@story.arrive de.front=time tense=past
+  2 MAIN verb=$trouble.verb drop=yes de.form=main subj=$p2 patient=$trouble tense=past
+# „Klar!“, sagte ihr Bruder. / „Ich helfe dir!“, sagte er.
+MOVE OFFER when helper : „ @story.yes ! “ , 1 .
+  1 MAIN verb=povedať subj=$p2 tense=past
+MOVE OFFER level 2 when helper : „ 2 ! “ , 1 .
+  1 MAIN verb=povedať subj=$p2 tense=past
+  2 MAIN verb=pomôcť subj=1sg recipient=2sg
+# (while the other mends it: she waits -- or her impatience shows: Sie sah auf die Uhr.)
+MOVE WAIT level 2 when helper mending !waited sets waited : 1 .
+  1 MAIN verb=čakať subj=$p1 tense=past
+MOVE WAIT {2} level 2 when helper mending !waited sign.wait impatient sets waited : 1 .
+  1 MAIN $sign.wait tense=past
+MOVE THANK {2} level 2 when p2 sets thanked : „ ďakujem ! “ , 1 .
+  1 MAIN verb=povedať subj=$p1 tense=past
+MOVE THANK {3} when p2 sets thanked : 1 .
+  1 MAIN verb=poďakovať_sa subj=$p1 recipient=$p2 tense=past
+MOVE THANK {2} level 2 when p2 sets thanked : 1 .
+  1 MAIN verb=ďakovať subj=$p1 recipient=$p2 tense=past
+MOVE THANK {2} when p2 sets thanked : 1 : „ ďakujem ! “
+  1 MAIN verb=povedať subj=$p1 tense=past
+MOVE SELF when self sets cleared : 1 .
+  1 MAIN verb=$trouble.verb subj=$p1 patient=$trouble conn=@story.because de.front=conn tense=past
+# Mit dem Mehl ging sie zurück in die Küche.
+MOVE BACK level 2 when lack : 1 .
+  1 MAIN verb=ísť_späť subj=$p1 pp=with:def:$lack pp=$to time=@story.then de.front=time tense=past
+MOVE FETCH when lack sets cleared : 1 and 2 .
+  1 MAIN verb=ísť_(pešo) subj=$p1 pp=to:def:$lack.place conn=@story.because de.front=conn tense=past
+  2 MAIN verb=$lack.verb drop=yes de.form=main subj=$p1 patient=$lack.get tense=past
+MOVE FETCH level 2 when lack sets cleared : 1 , 2 .
+  1 MAIN verb=@story.go subj=$p1 pp=to:def:$lack.place conn=@story.because de.front=conn tense=past
+  2 INF link=purpose verb=$lack.verb ctrl=$p1 patient=$lack.get
+
+# ---- the end: she does it, what ends the motive, how she is, what she plans
+MOVE DONE when !proc : 1 .
+  1 MAIN $act subj=$p1 time=@story.then de.front=time tense=past
+
+# ---- the work, step by step (world/procedures.txt): her steps, what the things do, the decisive moment
+MOVE STEP {3} when step : 1 .
+  1 MAIN $step subj=$doer manner=$manner? tense=past
+MOVE STEP level 2 when step : 1 .
+  1 MAIN $step subj=$doer time=@story.then de.front=time tense=past
+# Zuerst zog er den Stecker. (the first step of a procedure)
+MOVE STEP {2} level 2 when step first-step : 1 .
+  1 MAIN $step subj=$doer time=najprv de.front=time tense=past
+# Mit dem Kochlöffel rührte sie die Suppe um. (front=pp: the first pp -- the tool, before the step's own)
+MOVE STEP {2} level 2 when step with : 1 .
+  1 MAIN $step pp=$with subj=$doer de.front=pp tense=past
+# Sie nahm den Löffel und probierte die Suppe.
+MOVE STEP level 2 when step with : 1 and 2 .
+  1 MAIN verb=vziať subj=$doer patient=$with.thing tense=past
+  2 MAIN $step drop=yes subj=$doer tense=past
+# Sie schaltete den Herd ein und stellte die Pfanne darauf. / ..., füllte ... und stellte ...
+MOVE STEP {6} level 2 when step2 : 1 and 2 .
+  1 MAIN $step subj=$doer tense=past
+  2 MAIN $step drop=yes subj=$doer manner=$manner? tense=past
+MOVE STEP {4} level 2 when step3 : 1 , 2 and 3 .
+  1 MAIN $step subj=$doer tense=past
+  2 MAIN $step drop=yes subj=$doer tense=past
+  3 MAIN $step drop=yes subj=$doer tense=past
+# Sie begann, die Suppe umzurühren. (a step that takes a while)
+MOVE STEP level 3 when step durative-next : 1 , 2 .
+  1 MAIN verb=začať subj=$doer clause=2 tense=past
+  2 INF $step ctrl=$doer
+# Das Wasser kochte. / Bald kochte das Wasser. / Langsam ...
+MOVE PROCESS {2} when process : 1 .
+  1 MAIN $step tense=past
+MOVE PROCESS level 2 when process !manner-in : 1 .
+  1 MAIN $step time=@story.soon de.front=time tense=past
+MOVE PROCESS level 2 when process : 1 .
+  1 MAIN $step manner=$manner.process de.front=manner tense=past
+# Jetzt kam der entscheidende Augenblick. (only before the decisive step, and only with one of hers waiting for it)
+MOVE MOMENT level 3 when moment guests : 1 .
+  1 MAIN verb=prísť subj=def:okamih+adj:rozhodujúci time=teraz de.front=time tense=past
+MOVE KEY {2} when key : 1 .
+  1 MAIN $step subj=$doer manner=$manner? tense=past
+# Vorsichtig legte sie die Frikadellen in die heiße Pfanne.
+MOVE KEY {3} level 2 when key : 1 .
+  1 MAIN $step subj=$doer manner=$manner.key de.front=manner tense=past
+MOVE KEY {2} level 2 when key with : 1 .
+  1 MAIN $step pp=$with subj=$doer de.front=pp tense=past
+MOVE FINISH when finish !close : 1 .
+  1 MAIN verb=$finish subj=$doer patient=$finish.obj time=@story.then de.front=time tense=past
+# Die Torte war lecker. (an everyday adjective of good valence that fits it)
+MOVE COMMENT level 2 when comment sensed sets commented : 1 .
+  1 MAIN verb=byť subj=$wantobj pred=adj:$comment tense=past
+# (what the action gave -- satt, sauber -- named; a feeling -- glücklich -- named only below complex, else shown)
+MOVE RESULT when result !close !result-feel : 1 .
+  1 MAIN verb=byť subj=$doer pred=adj:$result time=$end de.front=time tense=past
+MOVE RESULT when result !close result-feel !complex : 1 .
+  1 MAIN verb=byť subj=$doer pred=adj:$result time=$end de.front=time tense=past
+MOVE RESULT {.5} level 2 when glad !close !complex : 1 .
+  1 MAIN verb=tešiť_sa subj=$doer time=$end de.front=time tense=past
+# Endlich atmete sie tief aus und lächelte. / Nun lächelte sie. (world/body.txt)
+MOVE RESULT {2} level 2 when sign.end tense !close : 1 .
+  1 MAIN $sign.end time=$end de.front=time tense=past
+
+# Sie biss in den warmen Kuchen. (the procedure's close: her last touch is the end)
+MOVE RESULT {3} level 2 when close : 1 .
+  1 MAIN $step subj=$doer tense=past
+
+# ---- an order: „Kannst du Pfannkuchen backen?“, fragte ihr Bruder. „Gern!“, antwortete sie.
+MOVE REQUEST when order sets asked asked-q : „ 2 ? “ , 1 .
+  1 MAIN verb=pýtať_sa subj=$p2 tense=past
+  2 YESNO $act subj=2sg modal=môcť
+# „Machst du heute Pfannkuchen?“, fragte ihr Bruder. / „Ich hätte gern eine Suppe!“, sagte er.
+MOVE REQUEST level 2 when order sets asked asked-q : „ 2 ? “ , 1 .
+  1 MAIN verb=pýtať_sa subj=$p2 tense=past
+  2 YESNO $act subj=2sg time=dnes
+MOVE REQUEST level 2 when order sets asked : „ 2 ! “ , 1 .
+  1 MAIN verb=povedať subj=$p2 tense=past
+  2 MAIN verb=mať_(vlastniť) subj=1sg patient=$dish mood=hypo manner=rád
+MOVE REQUEST level 2 when order sets asked : „ 2 ! “ , 1 .
+  1 MAIN verb=volať subj=$p2 tense=past
+  2 MAIN verb=mať_(vlastniť) subj=1sg bare=none:hlad
+MOVE REPLY when asked !urgent asked-q : „ @story.yes ! “ , 1 .
+  1 MAIN verb=odpovedať subj=$p1 tense=past
+MOVE REPLY when asked !urgent !asked-q : „ @story.soon-reply ! “ , 1 .
+  1 MAIN verb=odpovedať subj=$p1 tense=past
+# „Kein Problem!“, antwortete er. (to a hurry, not „Gern!“ -- it was no request; to „Ich habe Hunger!“: „Gleich!“)
+MOVE REPLY when asked urgent : „ @story.calm ! “ , 1 .
+  1 MAIN verb=odpovedať subj=$p1 tense=past
+# Sie stellte die Frikadellen auf den Tisch. / Sie gab ihrem Bruder die Frikadellen.
+MOVE SERVE when order !plated !soup : 1 .
+  1 MAIN verb=postaviť subj=$p1 patient=$wantobj pp=onto:def:stôl tense=past
+MOVE SERVE {2} when order plated : 1 .
+  1 MAIN verb=položiť subj=$p1 patient=$wantobj goal=def:tanier+pl tense=past
+# Sie füllte die Suppe in die Teller. (a soup, a sauce: ladled)
+MOVE SERVE {2} when order soup : 1 .
+  1 MAIN verb=naplniť subj=$p1 patient=$wantobj pp=into:def:tanier+pl tense=past
+# Sie trug die Nudeln zum Tisch, wo die Gäste warteten.
+MOVE SERVE {4} level 3 when order arrived : 1 .
+  1 MAIN verb=niesť subj=$p1 patient=$wantobj pp=to:def:stôl+rel(2) tense=past
+  2 REL verb=čakať subj=def:hosť+pl relrole=where tense=past
+MOVE SERVE when order !arrived : 1 .
+  1 MAIN verb=dať subj=$p1 recipient=$p2 patient=$wantobj tense=past
+
+# „Kannst du meine Lampe reparieren?“, fragte ihr Bruder. (a favor)
+MOVE ASKFIX when favor sets asked : „ 2 ? “ , 1 .
+  1 MAIN verb=pýtať_sa subj=$p2 tense=past
+  2 YESNO verb=$trouble.verb subj=2sg patient=$trouble.mine modal=môcť
+# Die Lampe ihres Bruders war kaputt. (his thing, what is wrong with it -- then he asks)
+MOVE HISTROUBLE level 2 when favor : 1 .
+  1 MAIN verb=byť subj=$trouble.his pred=adj:$trouble.state time=@story.unluckily? tense=past
+# „Danke!“, sagte ihr Bruder. / Ihr Bruder bedankte sich bei ihr.
+MOVE THANKED when favor sets praised : „ ďakujem ! “ , 1 .
+  1 MAIN verb=povedať subj=$p2 tense=past
+MOVE THANKED when favor sets praised : 1 .
+  1 MAIN verb=poďakovať_sa subj=$p2 recipient=$p1 tense=past
+# Eine Tomatensoße mit Knoblauch und Basilikum. (what she made, a fragment: the food the wish used)
+# Zuerst holte sie Butter und Zitronen. (what the dish is made of: fetched before the work)
+MOVE COMPOSE level 3 when ingredients made : 1 .
+  1 MAIN verb=doniesť subj=$doer patient=$ingredients time=najprv de.front=time tense=past
+# Ihr Bruder holte die Teller. (meanwhile: joined -- Während sie die Suppe umrührte, holte ihr Bruder die Teller.)
+MOVE MEANWHILE level 3 when side !away sets sidedone : 1 .
+  1 MAIN $side tense=past
+# „Das Essen muss gleich fertig sein!“, rief ihr Vater.
+MOVE RUSH when order sets asked tense urgent : „ 2 ! “ , 1 .
+  1 MAIN verb=volať subj=$p2 tense=past
+  2 MAIN verb=byť subj=def:jedlo pred=adj:hotový modal=musieť time=hneď
+# „Die Gäste kommen in zehn Minuten!“, rief ihre Mutter. (an order in a hurry: tension, and relief at the end)
+# „Die Gäste kommen in zehn Minuten!“, rief ihr Bruder über das Summen des Kühlschranks hinweg.
+MOVE RUSH {3} when order noisy sets asked tense urgent guests : „ 2 ! “ , 1 .
+  1 MAIN verb=volať subj=$p2 pp=about:$noise tense=past
+  2 MAIN verb=prísť subj=def:hosť+pl time=in:@story.minutes:minúta
+MOVE RUSH {2} when order sets asked tense urgent guests : „ 2 ! “ , 1 .
+  1 MAIN verb=volať subj=$p2 tense=past
+  2 MAIN verb=prísť subj=def:hosť+pl time=in:@story.minutes:minúta
+# Ihre Stirn glänzte von der Hitze. (the work is hot -- joined: ..., während sie konzentriert umrührte)
+MOVE HEAT level 3 when hot-work sets heated : 1 .
+  1 MAIN verb=lesknúť_sa subj=$doer.brow pp=off:def:horúčava tense=past
+
+# ---- the other person: tastes it and nods; a verdict in one word
+# (one of hers -- a relative, a friend -- tastes what she made; not the waiter)
+MOVE REACT level 2 when p2.here p2.kin made dish !arrived sets sensed praised : 1 and 2 .
+  1 MAIN verb=ochutnať subj=$p2 patient=$wantobj tense=past
+  2 MAIN verb=prikývnuť drop=yes subj=$p2 tense=past
+# (the guests have come: they taste it -- not the one who announced them)
+MOVE REACT {6} level 3 when arrived made dish sets sensed praised : 1 . „ @story.praise-word ! “ , 2 .
+  1 MAIN verb=ochutnať subj=def:hosť+pl patient=$wantobj tense=past
+  2 MAIN verb=povedať subj=3pl tense=past
+MOVE REACT {4} level 3 when arrived made dish sets sensed praised : 1 .
+  1 MAIN verb=zjesť subj=def:hosť+pl patient=everything tense=past
+# Ihr Vater probierte die Suppe. „Lecker!“, sagte er. / ... und lobte sie. / Ihr Vater aß alles auf.
+MOVE REACT {2} level 3 when p2.here p2.kin made dish !arrived sets sensed praised : 1 . „ @story.praise-word ! “ , 2 .
+  1 MAIN verb=ochutnať subj=$p2 patient=$wantobj tense=past
+  2 MAIN verb=povedať subj=$p2 tense=past
+MOVE REACT level 3 when p2.here p2.kin made dish !arrived sets sensed praised : 1 and 2 .
+  1 MAIN verb=ochutnať subj=$p2 patient=$wantobj tense=past
+  2 MAIN verb=chváliť drop=yes subj=$p2 patient=$p1 tense=past
+MOVE REACT level 3 when p2.here p2.kin made dish !arrived sets sensed praised : 1 .
+  1 MAIN verb=zjesť subj=$p2 patient=everything tense=past
+# Seine Mutter probierte die Suppe und nickte zufrieden.
+MOVE REACT {2} level 3 when p2.here p2.kin made dish !arrived sets sensed praised : 1 and 2 .
+  1 MAIN verb=ochutnať subj=$p2 patient=$wantobj tense=past
+  2 MAIN verb=prikývnuť drop=yes subj=$p2 manner=spokojný tense=past
+# Perfekt. (her verdict, when she has tasted what she made -- after what it is made of)
+MOVE VERDICT level 3 when dish made sensed !commented !smoked sets commented : @story.verdict .
+# Die Suppe brauchte noch Salz. Sie gab Salz dazu. Sie probierte noch einmal. -- Perfekt. (the tasting finds what
+#  is missing: a turn, and the verdict earned)
+MOVE LACKS level 3 when lacking sets lacked : 1 .
+  1 MAIN verb=potrebovať subj=$wantobj patient=$spice.one time=ešte tense=past
+MOVE ADDSPICE level 3 when lacked !added sets added : 1 .
+  1 MAIN verb=dať subj=$p1 patient=$spice.measure fixed=k_tomu tense=past
+MOVE RETASTE level 3 when added sets sensed : 1 .
+  1 MAIN verb=ochutnať subj=$p1 patient=$wantobj time="ešte raz" tense=past
+# Da klingelte es an der Tür. Die Gäste waren da. (the guests announced arrive: the hurry paid off)
+MOVE ARRIVAL level 3 when guests sets arrived : 1 . 2 .
+  1 MAIN verb=zvoniť subj=3sg.n pp=at:def:dvere time=tam_(miesto) de.front=time tense=past
+  2 MAIN verb=byť subj=def:hosť+pl place=tam_(miesto) tense=past
+# Endlich atmete er tief aus. (in time: relief -- an order without a hurry ends with the nod)
+MOVE RELIEF level 2 when urgent relief sign.end sets ended : 1 .
+  1 MAIN $sign.end time=$end de.front=time tense=past
+# Heute hatte Lisas Vater Geburtstag. (a birthday: he asks for a cake)
+MOVE OCCASION level 3 : 1 .
+  1 MAIN verb=mať_(vlastniť) subj=$p2 bare=none:narodeniny time=dnes de.front=time tense=past
+# Heute wollte Lisa ihren Bruder mit einer Suppe überraschen. (no one asks: she wants to)
+MOVE SURPRISE when order sets away : 1 .
+  1 MAIN verb=prekvapiť subj=$p1 patient=$p2 pp=with:$dish.with time=dnes de.front=time modal=chcieť tense=past
+# Da kam ihr Bruder in die Küche. (the one she surprises comes -- not there before: no help meanwhile)
+MOVE COMEHOME when order sets home : 1 .
+  1 MAIN verb=prísť subj=$p2 pp=$to time=tam_(miesto) de.front=time tense=past
+# „Das schmeckt wunderbar!“, sagte ihr Bruder. (his praise, the last word)
+MOVE PRAISE level 2 when order p2.here sets praised sensed : „ 2 ! “ , 1 .
+  1 MAIN verb=povedať subj=$p2 tense=past
+  2 MAIN verb=chutiť subj=this manner=@story.praise-word
+# „Du bist toll!“, sagte ihr Bruder. (his thanks for the mended thing, the last word)
+MOVE PRAISEFIX level 2 when favor : „ 2 ! “ , 1 .
+  1 MAIN verb=povedať subj=$p2 tense=past
+  2 MAIN verb=byť subj=2sg pred=adj:skvelý
+# Später saßen sie zusammen am Tisch. (time passes: the meal together)
+MOVE LATER level 2 when order p2.here : 1 .
+  1 MAIN verb=sedieť subj=3pl fixed=spolu pp=at:def:stôl time=neskôr de.front=time tense=past
+# Schließlich bedankte sie sich bei ihrem Bruder. (the one who helped, thanked at the end)
+MOVE THANKEND when helped !thanked : 1 .
+  1 MAIN verb=poďakovať_sa subj=$p1 recipient=$p2 time=nakoniec de.front=time tense=past
+# Plötzlich roch es nach Rauch. Die Frikadellen waren schwarz. (burnt after the decisive step: no saving it)
+MOVE BURN level 3 when burnable sets burnt tense : 1 . 2 .
+  1 MAIN verb=voňať subj=3sg.n theme=none:dym time=náhle de.front=time tense=past
+  2 MAIN verb=byť subj=$wantobj pred=adj:čierny tense=past
+MOVE BURN level 3 when burnable sets burnt tense : 1 , and 2 .
+  1 MAIN verb=voňať subj=3sg.n theme=none:dym time=náhle de.front=time tense=past
+  2 MAIN verb=spáliť subj=$wantobj tense=past
+# „Nicht schlimm! Wir bestellen eine Pizza!“, sagte ihr Bruder und lachte. (the other one saves the evening)
+MOVE RESCUE level 3 when burnt : „ @story.never-mind ! 2 ! “ , 1 and 3 .
+  1 MAIN verb=povedať subj=$p2 tense=past
+  2 MAIN verb=objednať subj=1pl patient=indef:pizza
+  3 MAIN verb=smiať_sa drop=yes subj=$p2 tense=past
+# Lisa lachte auch. / Später aßen sie zusammen Pizza.
+MOVE LAUGH level 3 when burnt : 1 .
+  1 MAIN verb=smiať_sa subj=$p1 fixed=aj tense=past
+MOVE PIZZA level 3 when burnt : 1 .
+  1 MAIN verb=jesť subj=3pl patient=none:pizza fixed=spolu time=neskôr de.front=time tense=past
+# „Bist du bald fertig?“, fragte er. „Gleich!“, antwortete sie, ohne den Blick von der Pfanne zu wenden. (in the work)
+MOVE CHECKIN level 3 when urgent checkin sets checked : „ 2 ? “ , 1 .
+  1 MAIN verb=pýtať_sa subj=$p2 tense=past
+  2 YESNO verb=byť subj=2sg pred=adj:hotový time=čoskoro
+MOVE ANSWER level 3 when checked !answered sets answered : „ @story.soon-reply ! “ , 1 , 2 .
+  1 MAIN verb=odpovedať subj=$p1 tense=past
+  2 INF link=without verb=obrátiť patient=def:pohľad pp=off:$workthing ctrl=$p1
+# Sie würzte den Fisch mit Zitrone und Butter. (the ingredients used, not listed) / Sie mischte Mehl und Hefe.
+MOVE SPICE level 3 when spice !seasoned made sets seasoned : 1 .
+  1 MAIN verb=ochutiť subj=$doer patient=$wantobj pp=with:$spices tense=past
+MOVE MIX level 3 when ingredients baked made : 1 .
+  1 MAIN verb=miešať subj=$doer patient=$ingredients time=najprv de.front=time tense=past
+# ... – für diesen einen Moment hatte sich die ganze Mühe gelohnt. (after the relief, joined with a dash)
+MOVE REFLECT level 3 when ended arrived sets reflected : 1 .
+  1 MAIN verb=oplatiť_sa subj=def:námaha+adj:celý pp=for:this:okamih+one de.front=pp tense=pluperfect
+# Sie trocknete die Hände an ihrer Schürze und lächelte leise. (the quiet end)
+MOVE APRON level 3 when !ended hands-busy : 1 and 2 .
+  1 MAIN verb=sušiť subj=$p1 patient=def:ruka+pl pp=at:$p1.apron tense=past
+  2 MAIN verb=usmievať_sa drop=yes subj=$p1 manner=tichý_(nehlučný) tense=past
+# Bald waren die Brötchen golden. (how it turned out; then said with it: die knusprigen Brötchen)
+MOVE DONENESS level 3 when done sets textured : 1 .
+  1 MAIN verb=byť subj=$wantobj pred=adj:$texture.pair time=@story.soon de.front=time tense=past
+# Ein Hauch von Knoblauch. (what she tasted -- before her verdict: Perfekt.)
+MOVE HINT level 3 when hint sets hinted : 1 .
+  1 FRAG np=indef:závan+owner.von($spice.one)
+# Heißes Fett spritzte auf ihre Hand. / Plötzlich roch es nach Rauch. Schnell nahm sie die Pfanne vom Herd.
+MOVE SPATTER level 3 when spatter sets spattered tense : 1 .
+  1 MAIN verb=striekať subj=none:tuk+adj:horúci pp=onto:$p1.hand tense=past
+MOVE SMOKE level 3 when smoke sets smoked tense : 1 . 2 .
+  1 MAIN verb=voňať subj=3sg.n theme=none:dym time=náhle de.front=time tense=past
+  2 MAIN verb=vziať subj=$p1 patient=$workpan pp=off:def:sporák manner=rýchly de.front=manner tense=past
+# Seine Stimme klang ungeduldig. (the one in a hurry)
+# Ihr Bruder trommelte mit den Fingern auf den Tisch. / sah auf die Uhr. (his impatience shown)
+MOVE VOICE {2} level 3 when urgent : 1 .
+  1 MAIN $sign.p2wait tense=past
+MOVE VOICE level 3 when urgent : 1 .
+  1 MAIN verb=znieť subj=$p2.voice pred=adj:netrpezlivý tense=past
+
+# Lisa war in der Küche und hatte Hunger.
+JOIN SET STATE {.3} : 1 and 2 .
+  1 = A
+  2 = B drop=yes de.form=main subj=$p1
+JOIN SET OWN {.3} : 1 and 2 .
+  1 = A
+  2 = B drop=yes de.form=main subj=$p1
+# Weil es regnete, trug sie ihre Jacke.
+JOIN WEATHER WEAR {.5} : 1 , 2 .
+  1 = A SUB link=because
+  2 = B MAIN
+# Sie wollte Brot toasten, aber der Toaster war kaputt. / Als sie Brot toasten wollte, merkte sie, dass ...
+JOIN WISH BLOCK {.3} : 1 , @story.against 2 .
+JOIN WISH BLOCK {.25} : 1 , 3 .
+  1 = A SUB link=when-past
+  3 MAIN verb=všimnúť_si subj=$p1 clause=2 tense=past
+  2 = B SUB link=that -sentence -de.front
+# Lisa war enttäuscht, weil der Toaster kaputt war.
+JOIN BLOCK FEEL {.35} : 2 , 1 .
+  2 = B
+  1 = A SUB link=because -sentence -de.front
+# Sie war enttäuscht, denn der Toaster war kaputt.
+JOIN BLOCK FEEL {.2} : 2 , for 1 .
+  2 = B
+  1 = A -sentence -de.front
+# Nachdem ihr Bruder den Toaster repariert hatte, bedankte sie sich bei ihm.
+JOIN HELP THANK {.4} : 1 , 2 .
+  1 = A SUB link=after tense=pluperfect -sentence -de.front
+  2 = B MAIN
+# Nachdem sie die Torte geschnitten hatte, aß sie die Torte. / Als sie gegessen hatte, war sie endlich satt.
+JOIN DONE FINISH {.4} : 1 , 2 .
+  1 = A SUB link=after tense=pluperfect -time -de.front
+  2 = B MAIN -time -de.front
+JOIN FINISH RESULT {.35} : 1 , 2 .
+  1 = A SUB link=when-past tense=pluperfect -time -de.front
+  2 = B MAIN time=$end.waited? -de.front
+# Während das Wasser kochte, gab sie die Nudeln hinein. / Sie legte ..., und die Frikadellen zischten.
+JOIN PROCESS STEP {.4} when durative-a : 1 , 2 .
+  1 = A SUB link=while -de.front -time -manner
+  2 = B MAIN -de.front -time
+JOIN PROCESS KEY {.3} when durative-a : 1 , 2 .
+  1 = A SUB link=while -de.front -time -manner
+  2 = B MAIN -de.front -time
+JOIN KEY PROCESS {.3} : 1 , and 2 .
+JOIN STEP PROCESS {.2} : 1 , and 2 .
+# Während der Mechaniker die Maschine reparierte, sah Lisa auf die Uhr. / Lisa wartete, während er Werkzeug holte.
+JOIN KEY WAIT {.6} when durative-a : 1 , 2 .
+  1 = A SUB link=while -de.front -time -manner
+  2 = B MAIN -de.front -time
+JOIN STEP WAIT {.5} when durative-a : 1 , 2 .
+  1 = A SUB link=while -de.front -time -manner
+  2 = B MAIN -de.front -time
+JOIN WAIT STEP {.4} when durative-b : 1 , 2 .
+  1 = A
+  2 = B SUB link=while -de.front -time -manner
+JOIN WAIT KEY {.4} when durative-b : 1 , 2 .
+  1 = A
+  2 = B SUB link=while -de.front -time -manner
+# Deshalb rief sie den Hausmeister, und bald kam er.
+JOIN CALL ARRIVE {.5} : 1 , and 2 .
+  1 = A
+  2 = B time=čoskoro
+# Dann kam er und sah die Maschine an. / ..., holte Werkzeug und reparierte sie.
+JOIN ARRIVE STEP {.5} when same-subj : 1 and 2 .
+  1 = A
+  2 = B MAIN drop=yes subj=$doer -de.front -time
+JOIN STEP KEY {.4} when same-subj : 1 and 2 .
+  1 = A
+  2 = B MAIN drop=yes subj=$doer -de.front -time
+JOIN KEY STEP {.4} when same-subj : 1 and 2 .
+  1 = A
+  2 = B MAIN drop=yes subj=$doer -de.front -time
+# Als die Nähmaschine wieder funktionierte, dankte Laura dem Techniker. / Nachdem er den Herd repariert hatte, ...
+# Nachdem er den Stecker gezogen hatte, sah er das Kabel an.
+JOIN STEP STEP {.3} when same-subj : 1 , 2 .
+  1 = A SUB link=after tense=pluperfect -de.front -time -manner
+  2 = B MAIN -de.front -time
+JOIN STEP MEANWHILE {.7} when durative-a : 1 , 2 .
+  1 = A SUB link=while -de.front -time -manner
+  2 = B MAIN -de.front -time
+JOIN KEY MEANWHILE {.7} when durative-a : 1 , 2 .
+  1 = A SUB link=while -de.front -time -manner
+  2 = B MAIN -de.front -time
+JOIN PROCESS MEANWHILE {.6} when durative-a : 1 , 2 .
+  1 = A SUB link=while -de.front -time -manner
+  2 = B MAIN -de.front -time
+JOIN HEAT STEP {.7} when durative-b : 1 , 2 .
+  1 = A
+  2 = B SUB link=while manner=$manner.focus? -de.front -time
+JOIN HEAT KEY {.7} when durative-b : 1 , 2 .
+  1 = A
+  2 = B SUB link=while manner=$manner.focus? -de.front -time
+# Kurz flackerte die Lampe, dann leuchtete sie wieder. / Das Wasser kochte und dampfte.
+JOIN PROCESS PROCESS {.5} : 1 , 2 .
+  1 = A
+  2 = B time=potom de.front=time
+JOIN RELIEF REFLECT {.9} : 1 – 2 .
+JOIN PROCESS THANK {.4} : 1 , 2 .
+  1 = A SUB link=when-past -de.front -time -manner
+  2 = B MAIN -de.front -time
+JOIN KEY THANK {.4} : 1 , 2 .
+  1 = A SUB link=after tense=pluperfect -de.front -time -manner
+  2 = B MAIN -de.front -time
+# Als die Kasse plötzlich kaputtging, schüttelte Maria den Kopf.
+JOIN BREAK FEEL {.4} : 1 , 2 .
+  1 = A SUB link=when-past -de.front -sentence
+  2 = B MAIN
+# Sie schüttelte den Kopf und rief deshalb einen Techniker an. / Sie dankte ihm und malte dann ein Bild.
+JOIN FEEL CALL {.3} when same-subj : 1 and 2 .
+  1 = A
+  2 = B MAIN drop=yes subj=$p1 -de.front
+JOIN THANK DONE {.3} when same-subj : 1 and 2 .
+  1 = A
+  2 = B MAIN drop=yes subj=$p1 -de.front
+# Die Lampe flackerte, und plötzlich ging sie kaputt. / Während sie umrührte, flackerte die Lampe.
+JOIN OMEN BREAK {.5} : 1 , and 2 .
+JOIN STEP OMEN {.4} when durative-a : 1 , 2 .
+  1 = A SUB link=while -de.front -time -manner
+  2 = B MAIN -de.front -time
+# Es duftete nach frischem Brot, und ihr Magen knurrte. (the smell that made her hungry, said with it)
+JOIN AMBIENCE STATE {.5} when smelled : 1 , and 2 .
+# In der Küche summte der Kühlschrank, und das Radio spielte leise.
+JOIN SCENE AMBIENCE {.7} : 1 , and 2 .
+JOIN DONE RESULT {.3} : 1 , and 2 .
+JOIN DONE RESULT {.1} : 1 , 2 .
+  1 = A SUB link=after tense=pluperfect -time -de.front
+  2 = B MAIN time=$end.waited? -de.front
+
+# the words that join the moves -- by what the move is to the one before (each a word of the dictionary)
+WORDS story.because: preto | takže
+WORDS story.go: ísť_(pešo) | bežať
+WORDS story.day: pondelok | utorok | streda | štvrtok | piatok | sobota | nedeľa
+WORDS story.then: potom | neskôr
+WORDS story.arrive: potom
+WORDS story.against: ale | však
+WORDS story.luckily: našťastie
+# things whose sight is from inside (Die Sonne schien durch das Fenster. -- not in a courtyard)
+WORDS story.inside-only: okno
+WORDS story.unluckily: bohužiaľ
+WORDS story.suddenly: náhle
+WORDS story.soon: čoskoro | krátko_nato
+WORDS story.end: teraz
+WORDS story.end-waited: konečne
+# the moves after which a thing is said with what was done to it (die gebratenen Frikadellen, das kochende Wasser)
+WORDS story.marks: STEP | KEY | PROCESS | DONE | HELP | FIX | ARRIVE | SELF
+# the obstacles that hit a thing in use: the step after the one that used it waits (it broke while she cooked)
+WORDS story.in-use: BREAK | SPOIL
+# how the decisive step is done (each only with the verbs of its grammar.txt manner list)
+WORDS story.careful: opatrný | pomalý | sústredený
+# states not said as an attribute ("den ganzen Herd" is the whole stove)
+WORDS story.no-attribute: celý | hotový | plný | otvorený | zatvorený
+# what one says of food that turned out well: one word
+WORDS story.verdict: dokonalý | chutný | úžasný
+# what one cries when it goes wrong; says yes to a request (one word or a fixed phrase -- each word in the dictionary)
+WORDS story.exclaim: nie | do_kelu
+WORDS story.yes: jasný | rád | prirodzený
+WORDS story.calm: žiadny_problém
+WORDS story.soon-reply: rovnaký | hneď
+WORDS story.daypart: ráno | poludnie | večer
+# the moves of one of hers who asks her (then the second person is a relative: ihr Bruder), and of those the ones
+# that have him there from the start (Lisa war mit ihrem Bruder in der Küche.) -- with the one who mends
+WORDS story.kin-asks: REQUEST | RUSH | ASKFIX | SURPRISE
+WORDS story.along: MEND | REQUEST | RUSH | ASKFIX
+# what is done with a dish once it is done -- it is soft, golden before it: drained, taken out (DONENESS)
+WORDS story.after-done: liať | vziať | abgießen | servírovať | položiť | krájať
+# what burns (BURN: after the decisive step), and the plot moves that stop the work there; what one says to a mishap
+WORDS story.burns: smažiť | piecť | grilovať
+WORDS story.in-work: BURN
+WORDS story.never-mind: to_nevadí | žiadny_problém
+# what is measured by the pinch (Sie gab eine Prise Salz dazu.)
+WORDS story.pinches: soľ | čierne_korenie | škorica
+# what leaves the hands sticky or wet (then: Sie trocknete die Hände an ihrer Schürze.)
+WORDS story.hand-verbs: miesiť | umývať | krájať | miešať | naplniť
+# what stands hot on the stove (it spatters; it is pulled off when it smells of smoke)
+WORDS story.pans: panvica | panvica_na_vyprážanie | hrniec
+# what is ladled into the plates (Sie füllte die Suppe in die Teller.)
+WORDS story.soups: polievka | vývar | Eintopf | paradajková_omáčka | omáčka
+WORDS story.praise-word: chutný | úžasný | skvelý
+# what seasons a dish (Er würzte den Fisch mit Salz und Zitrone.)
+WORDS story.spices: soľ | čierne_korenie | cesnak | bazalka | petržlen | rozmarín | tymian | citrón | škorica | horčica
+WORDS story.minutes: päť | desať | dvadsať
+# a state that is itself tension (a hurry: endlich, erleichtert are earned)
+WORDS story.hurry: ponáhľanie
+# what shows while she waits (world/body.txt)
+WORDS story.wait-feel: netrpezlivý
+# what takes a while (während: one thing while another goes on -- not a moment, not a state)
+WORDS story.durative: pozrieť_si | opraviť | čistiť | oplachovať | doniesť | variť | syčať | premiešať | umývať | sušiť | piecť | smažiť | nahradiť | šiť | žeraviť_sa | topiť_sa | čítať | lepiť | pumpovať | skrutkovať | pripevniť | nabiť | kopať
+# the kinds a smell must share with the wish (Es duftete nach Brot -- for bread, not for broccoli)
+# how a thing does what it does (Langsam schmolz die Butter.)
+WORDS story.process-manner: pomalý
+WORDS story.hot-things: sporák | pec | rúra_na_pečenie | gril | panvica | panvica_na_vyprážanie
+WORDS story.smell-kinds: baked-goods | dish | drink | sweets | fruit | meat
+# the states an ambience smell may be told for (Es roch nach Kaffee. -- she gets hungry)
+WORDS story.ambience-states: hladný | smädný | chuť
+# what one stands at (THERE: Sie stand am Herd.)
+WORDS story.stand-at: furniture | device
+# the actions that make food ready -- after them she eats it (FINISH), not after fangen or ernten
+WORDS story.prepares: piecť | variť | smažiť | hriankovať | grilovať | krájať | robiť | objednať | ohrievať
+# (not kaufen, holen: raw meat is not eaten at the counter)
+# the moves that put something in the way (after them a good feeling at the end; endlich after waiting for help)
+WORDS story.obstacles: BLOCK | BREAK | SPOIL | LACK
+# the feelings: after what went wrong (verärgert for the impatient: their traits), at a good end
+WORDS story.bad-feeling: sklamaný | rozladený
+WORDS story.impatient: netrpezlivý | nervózny
+WORDS story.good-feeling: rád | spokojný | šťastný
+# (and after someone helped: erleichtert -- not after plain shopping)
+WORDS story.relieved: uľavený
+# sad work: no glad ending after it (a buried bird)
+WORDS story.sombre: pochovať
+# what one says of the result (COMMENT: Die Torte war lecker.)
+# (by what the thing is -- story.praise.CATEGORY, the first that fits, and only an adjective that fits the thing:
+#  not "Das Taxi war glatt", "Die Himbeeren waren knusprig"; the specific kinds first)
+WORDS story.praise.sweets: sladký | chutný
+WORDS story.praise.fruit: šťavnatý | čerstvý | sladký
+WORDS story.praise.baked-goods: čerstvý | chutný
+WORDS story.praise.vegetable: čerstvý
+WORDS story.praise.dairy: čerstvý | chutný
+WORDS story.praise.dish: chutný | horúci
+WORDS story.praise.drink: čerstvý | chladný
+WORDS story.praise.food: chutný | čerstvý
+WORDS story.praise.text: napínavý | zaujímavý | zábavný
+WORDS story.praise.creative-work: napínavý | krásny | zábavný | skvelý
+WORDS story.praise.picture: krásny | pestrý | zábavný
+WORDS story.praise.furniture: pohodlný | útulný
+WORDS story.praise.clothing: teplý | krásny
+WORDS story.praise.plant: krásny | pestrý
+# the properties whose words decorate (in der gemütlichen Küche, ein roter Ball) -- only these: others contradict the
+# plot (a clean clinic, a dirty bed) or read odd (ein billiger Computer, im stillen Feld)
+WORDS story.adorn-place: beauty | comfort | size | light
+WORDS story.adorn-thing: colour | size
+# adjectives too bland to describe or comment on a thing ("Die Gitarre war gut.")
+WORDS story.bland: dobrý | zlý
+# how a thing is in a place (THERE: Dort stand ein Toaster.) -- by the first of its categories that fits
+WORDS story.stand: furniture | device | vehicle | instrument | plant | container
+WORDS story.lie: text | tool | kitchenware | toy | food | thing
+WORDS story.hang: picture | clothing
+# who every building has, called as "der" (Also rief sie den Hausmeister.)
+WORDS story.building-staff: školník
+# the second person when a situation says `kin`: a relative of the first, with her or his possessive (ihr Bruder)
+WORDS story.kin: brat | sestra | matka | otec | babka | dedko | strýko | teta
+# who of a situation's people is one's own, said with the possessive like kin (sein Freund, ihre Nachbarin)
+WORDS story.close: priateľ | priateľka | sused | susedka | kolega | kolegyňa

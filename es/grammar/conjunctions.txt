@@ -1,0 +1,70 @@
+# coordinating
+1 CON y {y} [i] = a
+1 PHR etcétera {etcétera} [etˈθeteɾa] = a tak ďalej
+2 PHR y así sucesivamente {y así sucesivamente} [i aˈsi suθesiβaˈmente] = a tak ďalej
+1 CON o {o} [o] = alebo
+2 CON o bien {o bien} [o ˈβjen] = buď
+1 CON pero {pero} [ˈpeɾo] = ale
+1 CON pues {pues} [pwes] = lebo
+1 CON sino {sino} [ˈsino] = nýbrž
+2 CON así como {así como} [aˈsi ˈkomo] = ako aj
+2 CON tanto como {tanto como} [ˈtanto ˈkomo] = ako… tak aj
+1 CON ni {ni} [ni] = ani
+3 CON o sea {o sea} [o ˈsea] = respektíve
+1 CON e {e} [e] = a
+
+# subordinating
+1 CON que {que} [ke] = že
+1 CON así que {así que} [aˈsi ke] = takže
+1 CON para que {para que} [ˈpaɾa ke] (+ subj) = aby
+1 CON porque {porque} [poɾˈke] = pretože
+1 CON ya que {ya que} [ʝa ke] = keďže
+2 CON puesto que {puesto que} [ˈpwesto ke] = keďže
+3 CON sobre todo porque {sobre todo porque} [ˈsoβɾe ˈtoðo poɾˈke] = najmä keďže
+1 CON si {si} [si] = ak
+3 CON en la medida en que {en la medida en que} [en la meˈðiða en ke] = pokiaľ
+1 CON mientras {mientras} [ˈmjentɾas] = dokiaľ
+2 CON en cuanto {en cuanto} [en ˈkwanto] = len čo
+2 CON apenas {apenas} [aˈpenas] = len čo
+1 CON siempre que {siempre que} [ˈsjempɾe ke] = vždy keď
+2 CON cada vez que {cada vez que} [ˈkaða βeθ ke] = vždy keď
+1 CON si {si} [si] = či
+1 CON aunque {aunque} [ˈawŋke] = hoci
+2 CON a pesar de que {a pesar de que} [a peˈsaɾ ðe ke] = hoci
+1 PHR como si {como si} [ˈkomo si] (+ subj) = akoby
+1 CON cuando {cuando} [ˈkwando] = keď
+1 CON como {como} [ˈkomo] = ako
+2 CON que {que} [ke] = ako
+1 CON antes de que {antes de que} [ˈantes ðe ke] (+ subj) = predtým než
+2 CON antes que {antes que} [ˈantes ke] = skôr než
+2 CON después de que {después de que} [desˈpwes ðe ke] = potom čo
+3 CON por el hecho de que {por el hecho de que} [poɾ el ˈetʃo ðe ke] = tým že
+1 PHR para {para} [ˈpaɾa] (+ inf) = aby
+
+# connecting-adverbs
+1 AV por eso {por eso} [poɾ ˈeso] = preto
+2 AV por lo tanto {por lo tanto} [poɾ lo ˈtanto] = preto
+1 AV así que {así que} [aˈsi ke] = takže
+1 AV entonces {entonces} [enˈtonθes] = takže
+2 AV aun así {aun así} [awn aˈsi] = napriek tomu
+3 AV no obstante {no obstante} [no oβsˈtante] = napriek tomu
+2 AV a pesar de todo {a pesar de todo} [a peˈsaɾ ðe ˈtoðo] = predsa
+1 AV sin embargo {sin embargo} [sin emˈbaɾɣo] = však
+1 AV si no {si no} [si no] = inak (v opačnom prípade)
+2 AV de lo contrario {de lo contrario} [de lo konˈtɾaɾjo] = inak (v opačnom prípade)
+1 AV además {además} [aðeˈmas] = okrem toho
+1 AV además {además} [aðeˈmas] = navyše
+2 AV encima {encima} [enˈθima] = navyše
+2 AV así pues {así pues} [aˈsi pwes] = teda
+3 AV por consiguiente {por consiguiente} [poɾ konsiˈɣjente] = teda
+2 AV es que {es que} [es ke] = totiž
+2 AV según eso {según eso} [seˈɣun ˈeso] = podľa toho
+3 AV en consecuencia {en consecuencia} [en konseˈkwenθja] = podľa toho
+3 AV si bien {si bien} [si ˈβjen] = síce
+2 AV es cierto que {es cierto que} [es ˈθjeɾto ke] = síce
+2 AV por un lado {por un lado} [poɾ un ˈlaðo] = na jednej strane
+1 CON más {más} [mas] = plus
+
+# more
+2 CON a menos que {a menos que} [a ˈmenos ke] (+ subj) = ak nie
+2 CON salvo que {salvo que} [ˈsalβo ke] (+ subj) = ak nie

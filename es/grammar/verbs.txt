@@ -1,0 +1,10 @@
+# modal-verbs
+1 V poder {poder} [poˈðeɾ], o>ue = môcť
+2 N la habilidad {habilidad} [aβiliˈðað], habilidades = zručnosť
+3 N la destreza {destreza} [desˈtɾeθa], destrezas = zručnosť
+1 V tener que {tener que} [teˈneɾ ke], irr = musieť
+1 V deber {deber} [deˈβeɾ] = mať (povinnosť)
+1 V poder {poder} [poˈðeɾ], o>ue = smieť
+
+# language-specific closed words (no Slovak word: a description)
+1 V haber {haber} [aˈβeɾ], irr = pomocné sloveso zložených časov

@@ -1,0 +1,143 @@
+# settlements
+N mesto
+AN mestský
+N mestečko
+N veľkomesto
+N hlavné mesto
+N centrum mesta
+N staré mesto
+N okraj mesta
+N mestská časť
+N štvrť
+N mestské hradby
+AN urbanistický
+AN vnútromestský
+N dedina
+N metropola
+N predmestie
+N osada
+N osadník
+V usadiť sa
+V osídliť
+N slum
+V obývať
+N obyvateľka
+N obyvateľ
+N územie mesta
+N časť obce
+N areál
+N susedná krajina
+N rodné mesto
+N rodná krajina
+N prístavné mesto
+
+# streets-places
+N ulica
+N hlavná ulica
+N pouličná lampa
+N park
+N ulička
+N fontána
+N pamätník
+N trávnik
+N kosačka
+N detské ihrisko
+N alej
+N bulvár
+N obrubník
+N kruhový objazd
+N blok domov
+N nadjazd
+N priehrada
+N reklamná tabuľa
+N bazár
+N graffiti
+N asfalt
+V dláždiť
+N námestie
+N okoloidúci
+N slepá ulica
+N cestička
+N policajná stanica
+N chodník
+N okraj cesty
+N podchod
+
+# buildings
+N budova
+N budova súdu
+N stavba
+N stavenisko
+N stavebný robotník
+AN stavebný
+N veža
+N palác
+N pevnosť
+N mrakodrap
+N radnica
+N hostinec
+N reštaurácia
+N kaviareň
+N krčma
+N bar
+N ruina
+N zoologická záhrada
+N akvárium
+N aréna
+N kupola
+N eskalátor
+V renovovať
+N renovácia
+V zbúrať
+N demolácia
+N hala
+N inštitúcia
+N sanácia
+N novostavba
+N prestavba
+N výstavba
+N pozemok
+N sála
+N hrad
+N dóm
+N pivovar
+N zmrzlináreň
+N jedáleň (v práci)
+N advokátska kancelária
+N ateliér
+N aula
+N sauna
+N skladová hala
+N krytá plaváreň
+N letné kúpalisko
+N koncertná sála
+
+# city-life
+N adresa
+N chodec
+N pešia zóna
+N obyvateľstvo
+N starosta
+N starostka
+N primátor
+AN vidiecky
+N znečistenie
+V znečistiť
+N smog
+V recyklovať
+N recyklácia
+AN bezdomovský
+N bezdomovec
+N hasiči
+N hasič
+N hasičská stanica
+V žobrať
+N žobrák
+N mestská rada
+N pút
+
+# settling
+V osídľovať
+
+# more
+N miesto konania

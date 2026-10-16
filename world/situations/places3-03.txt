@@ -1,0 +1,228 @@
+# SITUATIONS at the places Stadtviertel .. Zentrum (round 3, file 03; format: everyday.txt)
+# All 13 places of the list have a scene (none skipped). Uni / Universität and Stadtviertel / Zentrum / Vorort get
+# different stories each. Format limits: no rain-caused trouble for a thing that is only damp (a wet Karte or Decke
+# is told, but a wet Block at a Wasserfall comes from the spray, which the weather rules do not know); `lack` only
+# takes one shop place; a Hausmeister who is not in a sheet's `people` can still be named in `by`.
+
+SITUATION stadtviertel-hund : town -- im Stadtviertel mit dem Hund gehen
+  place   štvrť
+  people  sused | kin
+  things  ulica | dom | park | obchod
+  own     vodítko
+  want    chuť : verb=vyviesť patient=poss:pes ; uses vodítko
+  want    hladný : verb=jesť patient=indef:praclík
+  trouble vodítko pokazený : opraviť
+  lack    praclík : pekáreň
+
+SITUATION stadtviertel-roller : town -- auf der Straße mit dem Roller zur Schule
+  place   ulica
+  people  sused | kin | mechanik
+  things  škola | park | obchod
+  own     kolobežka
+  want    ponáhľanie : verb=ísť_(dopravou) patient=none:kolobežka ; uses kolobežka
+  want    smädný : verb=piť patient=none:limonáda
+  trouble kolobežka pokazený : opraviť by mechanik
+  lack    limonáda : kiosk
+
+SITUATION teich-fernglas : nature -- am Teich Enten beobachten
+  place   rybník
+  people  priateľ | kin
+  things  voda | kačica | žaba | lavica | strom
+  own     ďalekohľad
+  want    chuť : verb=pozorovať patient=none:kačica+pl ; uses ďalekohľad
+  trouble ďalekohľad špinavý : čistiť
+
+SITUATION teich-picknick : nature -- am Teich Brote essen
+  place   rybník
+  people  priateľ | kin
+  things  voda | lavica | strom | ryba
+  own     strop
+  want    hladný : verb=jesť patient=none:chlieb+pl
+  want    chuť : verb=robiť patient=indef:piknik ; uses strop
+  trouble strop mokrý : sušiť
+  lack    chlieb : pekáreň
+
+SITUATION tiefgarage-auto : traffic -- in der Tiefgarage zum Auto
+  place   podzemná_garáž
+  people  sused | kin | mechanik
+  things  auto | svetlo | schody | dvere | štít
+  own     auto
+  want    ponáhľanie : verb=doniesť patient=poss:auto ; uses auto
+  trouble auto pokazený : opraviť by mechanik
+
+SITUATION tiefgarage-rad : traffic -- in der Tiefgarage das Fahrrad holen
+  place   podzemná_garáž
+  people  sused | kin
+  things  auto | stena | schody | svetlo
+  own     bicykel
+  want    ponáhľanie : verb=ísť_(dopravou) patient=none:bicykel ; uses bicykel
+  trouble bicykel pokazený : opraviť
+
+SITUATION treppenhaus-brief : home -- im Treppenhaus einen Brief schicken
+  place   schodisko
+  people  sused | kin | školník
+  things  schody | dvere | svetlo | poštová_schránka | zábradlie
+  want    ponáhľanie : verb=poslať patient=indef:list_(písomnosť) ; uses poštová_schránka
+  want    chuť : verb=čítať patient=def:pošta ; uses svetlo
+  trouble poštová_schránka pokazený : opraviť by školník
+  trouble svetlo pokazený : opraviť by školník
+
+SITUATION turm-aussicht : culture -- im Turm die Stadt ansehen
+  place   veža
+  people  priateľ | kin
+  things  schody | okno | hodiny | múr
+  own     ďalekohľad
+  want    chuť : verb=pozrieť_si patient=def:mesto ; uses ďalekohľad | okno
+  trouble ďalekohľad špinavý : čistiť
+  trouble okno špinavý : čistiť
+
+SITUATION turm-pause : culture -- im Turm eine Pause machen
+  place   veža
+  people  priateľ | kin
+  things  schody | okno | zvon | dvere
+  own     fľaša
+  want    hladný : verb=jesť patient=indef:jablko
+  want    smädný : verb=piť patient=none:jablkový_džús ; uses fľaša
+  trouble fľaša prázdny : naplniť
+  lack    jablko : trh
+
+SITUATION uni-automat : school -- an der Uni Kaffee aus dem Automaten
+  place   univerzita
+  people  študent | priateľ | technik
+  things  automat | stôl | počítač | kniha
+  want    smädný : verb=piť patient=none:káva ; uses automat
+  want    hladný : verb=jesť patient=indef:žemľa
+  trouble automat pokazený : opraviť by technik
+  lack    žemľa : pekáreň
+
+SITUATION uni-drucken : school -- an der Uni eine Hausarbeit drucken
+  place   univerzita
+  people  študent | priateľ | technik
+  things  počítač | tlačiareň | stôl | knižnica
+  want    ponáhľanie : verb=vytlačiť patient=indef:seminárna_práca ; uses tlačiareň | počítač
+  trouble tlačiareň pokazený : opraviť by technik
+  trouble počítač pokazený : opraviť by technik
+
+SITUATION universität-krank : school -- an der Universität krank sein
+  place   univerzita
+  people  priateľ | kin
+  things  prednáškova_sála | stôl | knižnica | kniha
+  own     mobil
+  want    chorý : verb=zavolať patient=indef:lekár ; uses mobil
+  want    chorý : verb=vziať patient=indef:tabletka
+  trouble mobil prázdny : nabiť
+  lack    tabletka : lekáreň
+
+SITUATION universität-zeichnen : school -- an der Universität an der Tafel zeichnen
+  place   univerzita
+  people  študent | profesor
+  things  prednáškova_sála | tabuľa | stôl | počítač
+  want    chuť : verb=kresliť patient=indef:skica ; uses tabuľa | krieda
+  trouble tabuľa špinavý : čistiť by študent
+  lack    krieda : obchod
+
+SITUATION villa-gitarre : home -- in der Villa Gitarre spielen
+  place   vila
+  people  kin | priateľ
+  things  izba | pohovka | okno | záhrada
+  own     gitara
+  want    chuť : verb=hrať patient=none:gitara ; uses gitara
+  want    hladný : verb=jesť patient=indef:koláč
+  trouble gitara pokazený : opraviť
+  lack    koláč : pekáreň
+
+SITUATION villa-bad : home -- in der Villa ein Bad nehmen
+  place   vila
+  people  kin
+  things  vaňa | izba | okno | uterák
+  want    špinavý : verb=vziať patient=indef:kúpeľňa ; uses vaňa | mydlo
+  trouble vaňa pokazený : opraviť by klampiar
+  lack    mydlo : drogéria
+
+SITUATION volkshochschule-malkurs : school -- in der Volkshochschule malen
+  place   ľudová_škola
+  people  učiteľ | priateľ
+  things  kurz | stôl | stolička_(nábytok) | tabuľa
+  own     štetec
+  want    chuť : verb=maľovať patient=indef:obraz ; uses štetec | farba
+  trouble štetec špinavý : umývať
+  lack    farba : obchod
+
+SITUATION volkshochschule-nähkurs : school -- in der Volkshochschule nähen
+  place   ľudová_škola
+  people  učiteľ | priateľ
+  things  kurz | stôl | stolička_(nábytok) | šijací_stroj
+  want    chuť : verb=šiť patient=indef:sukňa ; uses šijací_stroj | niť
+  trouble šijací_stroj pokazený : opraviť by technik
+  lack    niť : obchod
+
+SITUATION vorort-auto : town -- im Vorort das Auto waschen
+  place   predmestie
+  people  sused | kin
+  things  dom | záhrada | ulica | auto
+  own     vedro | hubka
+  want    špinavý : verb=umývať patient=poss:auto ; uses vedro | hubka
+  trouble vedro prázdny : naplniť
+  trouble hubka špinavý : umývať
+
+SITUATION vorort-grill : town -- im Vorort im Garten Mais grillen
+  place   predmestie | záhrada
+  people  sused | kin
+  things  dom | záhrada | plot | gril | uhlie
+  want    hladný : verb=grilovať patient=none:kukurica ; uses gril | uhlie
+  trouble uhlie mokrý : sušiť
+  trouble gril špinavý : čistiť
+  lack    kukurica : supermarket
+
+SITUATION wasserfall-becher : nature -- am Wasserfall Wasser trinken
+  place   vodopád
+  people  priateľ | kin
+  things  voda | kameň | most | strom
+  own     hrnček
+  want    smädný : verb=piť patient=none:voda ; uses hrnček
+  trouble hrnček špinavý : oplachovať
+
+SITUATION wasserfall-zeichnen : nature -- am Wasserfall zeichnen
+  place   vodopád
+  people  priateľ | kin
+  things  voda | kameň | vrch | most
+  own     blok
+  want    chuť : verb=kresliť patient=def:vodopád ; uses blok
+  trouble blok mokrý : sušiť
+
+SITUATION wohnhaus-wäsche : home -- im Wohnhaus Wäsche waschen
+  place   obytný_dom
+  people  sused | kin | technik
+  things  práčka | schody | dvere | pivnica
+  want    špinavý : verb=umývať patient=none:bielizeň ; uses práčka | prací_prostriedok
+  trouble práčka pokazený : opraviť by technik
+  lack    prací_prostriedok : supermarket
+
+SITUATION wohnhaus-suppe : home -- im Wohnhaus eine Suppe essen und kochen
+  place   obytný_dom | byt
+  people  sused | kin
+  things  dvere | schody | kuchyňa | sporák | hrniec
+  want    hladný : verb=jesť patient=indef:polievka ; uses polievka | sporák
+  want    hladný : verb=variť patient=none:cestoviny+pl ; uses hrniec | sporák
+  trouble polievka studený : ohrievať
+  trouble sporák pokazený : opraviť by technik
+  trouble hrniec špinavý : oplachovať
+  lack    cestoviny : supermarket
+
+SITUATION zentrum-karten : town -- im Zentrum Postkarten schreiben
+  place   centrum
+  people  priateľ | kin | predavač
+  things  ulica | miesto_(priestor) | kostol | kaviareň | obchod
+  own     pero_(písacie)
+  want    chuť : verb=písať patient=none:pohľadnica+pl ; uses pero_(písacie)
+  want    smädný : verb=piť patient=none:káva
+  lack    pohľadnica : obchod
+  lack    káva : kaviareň
+
+SITUATION zentrum-karte : town -- im Zentrum die Stadt erkunden
+  place   centrum
+  people  priateľ | kin
+  things  ulica | miesto_(priestor) | kostol | autobus
+  own     mobil
+  want    chuť : verb=preskúmať patient=def:mesto ; uses mobil
+  trouble mobil prázdny : nabiť

@@ -1,0 +1,33 @@
+# CONDITIONS of the work group (work, technology, school, language words)
+V učiť sa : needs chuť
+V bádať : needs zvedavý
+V preskúmať : needs zvedavý
+V preskúmať : needs zvedavý
+V experimentovať : needs zvedavý
+V informovať sa : needs zvedavý
+V študovať : needs zvedavý
+V brigádovať : needs chudobný ; gives peniaze
+V dať výpoveď : needs zúrivý
+V štrajkovať : needs zúrivý
+V stavať : needs peniaze čas ; gives has:A
+V zrekonštruovať : needs A:pokazený ; gives A:celý
+V lepiť : needs A:pokazený ; gives A:celý
+V otvoriť : gives A:otvorený
+V zatvoriť : gives A:zatvorený
+V nabiť : needs A:prázdny ; gives A:plný
+V naložiť : needs A:prázdny ; gives A:plný
+V zotrieť : needs A:špinavý ; gives A:čistý
+V telefonovať : needs čas
+V kričať : needs zúrivý strach
+V kričať na : needs zúrivý
+V hádať sa : needs zúrivý
+V uraziť : needs zúrivý
+V nadávať : needs zúrivý
+V urážať : needs zúrivý
+V úpenlivo prosiť : needs strach
+V koktať : needs nervózny
+V rozprávať sa : needs čas
+V sťažovať sa : needs zúrivý
+V vyhrážať sa : needs zúrivý
+V obviniť : needs zúrivý
+V zúčastniť sa : needs chuť

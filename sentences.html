@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sentences</title>
+<style>
+  :root { --bg: #f3f2f8; --card: #fff; --ink: #1d1d2b; --mute: #6f6f85; --line: #dcd8ee; --accent: #0d9488; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #15141d; --card: #211f2d; --ink: #ecebf5; --mute: #9a98b0; --line: #393650; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.45 system-ui, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 16px; }
+  .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 10px 0; }
+  button, select { font: inherit; color: inherit; background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; cursor: pointer; }
+  button.go { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .s { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; margin: 8px 0; cursor: pointer; }
+  .s .ipa { color: var(--mute); font-size: 14px; }
+  .s.on { border-color: var(--accent); }
+  .mute { color: var(--mute); font-size: 14px; }
+  #R { white-space: pre-wrap; font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Sentences</h1>
+  <p class="mute">Sentences made by rule (engine/sentences.js): one language-free plan from the world's meanings and
+    the shared syllabus, said by the language's grammar and morphology -- planned for a learner of the language chosen,
+    the same plan beside it in another. Click one to hear it.</p>
+  <div class="row">
+    <select id="lang"></select>
+    <select id="beside"><option value="">nothing beside</option></select>
+  </div>
+  <div class="row">
+    <button class="go" id="more">New sentences</button>
+    <select id="level"><option value="1">FREQ 1 words</option><option value="2" selected>FREQ 1–2</option><option value="3">all words</option></select>
+    <select id="stage"><option value="">all grammar</option></select>
+    <select id="complexity"><option value="1">simple</option><option value="2" selected>medium</option><option value="3">complex</option></select>
+    <select id="kind"><option>man</option><option>woman</option><option>child</option></select>
+    <select id="tempo"><option value="0.85">slower</option><option value="1" selected>normal tempo</option><option value="1.2">faster</option><option value="1.4">fast</option></select>
+    <label class="mute"><input type="checkbox" id="showIpa"> IPA</label>
+  </div>
+  <div class="row">
+    <button class="go" id="tell">Story</button>
+    <label class="mute"><input type="checkbox" id="showTrace"> Struktur</label>
+    <span class="mute">a story (engine/story.js): a situation, its place, the season and weather, a person of the cast -- its sentences as complex as chosen above</span>
+  </div>
+  <div id="list"></div>
+  <div id="R"></div>
+</main>
+<script type="module">
+import { loadDictionary } from "./engine/data.js";
+import { loadSentences } from "./engine/sentences.js";
+import { parseTests } from "./engine/realize.js";
+import { createVoice, loadProsody } from "./engine/speak.js";
+import { LANGS } from "./engine/langs.js";
+import { sayerFor } from "./engine/say.js";
+const $ = (id) => document.getElementById(id), voice = createVoice();
+const dict = await loadDictionary("de/dict.tsv", "de/order.tsv");
+const gens = {};
+// ?seed=N: the same sentences every time (a small seeded random source, mulberry32)
+const seed = Number(new URLSearchParams(location.search).get("seed"));
+const seeded = (a) => () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
+// ?scenes=0: without the scenes (world/settings.txt) -- any words together, as before them
+const scenes = new URLSearchParams(location.search).get("scenes") !== "0";
+// (?lang=en|es|fr, the page's first select: the sentences planned for that language's learner -- its words' level, its
+//  verbs' gates)
+const SAID = Object.keys(LANGS).filter((l) => LANGS[l].dict);   // (the languages a realizer says: <lang>/realize.js)
+let target = new URLSearchParams(location.search).get("lang") ?? "de";
+const generator = async (level, complexity, stage = null, lang = target) => (gens[[level, complexity, stage, lang].join("/")] ??= await loadSentences({ dict, level, complexity, stage, scenes, rnd: seed ? seeded(seed) : Math.random, lang }));
+
+// ?dump=N: N sentences as text, for checking them without the page (the headless harness)
+const dump = Number(new URLSearchParams(location.search).get("dump"));
+// ?test: the grammar tests (de/rules/tests.txt) -- each sentence built from its structure, compared word for word
+if (new URLSearchParams(location.search).has("test")) {
+  // (?test=FILE: another test file -- in the language-free clause format, said by de/realize.js; &via=plain: a test
+  //  file in the German clause format, as the realizer reads it inside)
+  const q = new URLSearchParams(location.search), file = q.get("test") || "de/rules/tests.txt";
+  const gen = await generator(3, 3), tests = parseTests(await (await fetch(file)).text()), out = [];
+  //  &lang=en: said by en/realize.js)
+  const say = q.get("via") === "plain" && target === "de" ? null : await sayerFor(gen, target);
+  let ok = 0;
+  for (const t of tests) {
+    let got;
+    try { got = say ? say(t).text : gen.realize(t); } catch (e) { got = "ERROR " + e.message + " " + e.stack.split("\n")[1]; }
+    if (got === t.target) ok++;
+    else out.push(`FAIL ${t.note}\n  want ${t.target}\n  got  ${got}`);
+  }
+  $("R").textContent = `${ok} of ${tests.length} tests pass\n` + out.join("\n");
+  document.title = "SHOT";
+}
+if (dump) {
+  const q = new URLSearchParams(location.search), out = [];
+  const gen = await generator(Number(q.get("level") ?? 2), Number(q.get("complexity") ?? 2), q.get("stage"));
+  // (&lang=en: each sentence's plan said in English too -- German, English, the plan)
+  const en = target !== "de" ? await sayerFor(gen, target) : null;
+  for (let i = 0; i < dump; i++) {
+    const s = gen.sentence();
+    if (!s) { out.push(`${i + 1}\t(none)`); continue; }
+    if (!en) { out.push(`${i + 1}\t${s.text}\t${s.trace}`); continue; }
+    let e, b; try { b = s.plan(); e = en(b).text; } catch (x) { e = "ERROR " + x.message + " " + x.stack.split("\n")[1]; }
+    out.push(`${i + 1}\t${s.text}\n\t${e}\n\t${b ? gen.planText(b).replace(/\n/g, "\n\t") : ""}`);
+  }
+  $("R").textContent = out.join("\n");
+  document.title = "SHOT";
+}
+
+// ?check=N: N sentences, each planned, written out language-free (world/CLAUSES.md) and said again by de/realize.js --
+// the same sentence both ways, else its plan is listed (phase 1d: the planner's plans are the realizer's input)
+const checkN = Number(new URLSearchParams(location.search).get("check"));
+if (checkN) {
+  const gen = await generator(Number(new URLSearchParams(location.search).get("level") ?? 3), Number(new URLSearchParams(location.search).get("complexity") ?? 3));
+  const de = await (await import("./de/realize.js")).loadGerman("", gen, gen.frames);
+  let ok = 0; const out = [];
+  for (let i = 0; i < checkN; i++) {
+    const s = gen.sentence(); if (!s) continue;
+    let b, t;
+    try { b = s.plan(); t = de.realize(b); } catch (e) { t = "ERROR " + e.message + " " + e.stack.split("\n")[1]; }
+    if (t === s.text) ok++; else out.push(`DIFF ${i + 1}\n  want ${s.text}\n  got  ${t}\n  ${b ? gen.planText(b).replace(/\n/g, "\n  ") : ""}\n  trace ${s.trace}`);
+  }
+  $("R").textContent = `${ok} of ${checkN} the same\n` + out.join("\n");
+  document.title = "SHOT";
+}
+// ?story=N: N stories (engine/story.js, world/stories.txt) -- each sentence with its move and structure
+const storyN = Number(new URLSearchParams(location.search).get("story"));
+if (storyN) {
+  const { createStoryteller } = await import("./engine/story.js");
+  // (&lang=en: said in English)
+  const gen = await generator(3, 3), say = await sayerFor(gen, target, seed ? seeded(seed + 31) : Math.random);
+  const teller = createStoryteller(gen, dict, await (await fetch("world/stories.txt")).text(), (b) => say(b).text);
+  const rnd = seed ? seeded(seed + 7919) : Math.random, out = [];
+  for (let i = 1; i <= storyN; i++) {
+    let st = null;
+    const whys = [];
+    for (let t = 0; t < 300 && !st; t++) { st = teller.story(rnd, Number(new URLSearchParams(location.search).get("complexity") ?? 2), new URLSearchParams(location.search).get("plot")); if (!st) whys.push(teller.why?.() ?? ""); }
+    if (!st) { out.push(`${i}.0\t(none)\t${[...new Set(whys)].slice(0, 5).join(" | ")}`); continue; }
+    st.sentences.forEach((s, j) => out.push(`${i}.${j + 1}\t${s.text}\t${s.move} [${st.world.situation}/${st.world.plot}:${st.world.arc}~${st.world.narrator}~${st.world.beats.join(",")}/${st.world.season ?? ""}:${st.world.weather ?? ""}] ${s.trace}`));
+  }
+  $("R").textContent = out.join("\n");
+  document.title = "SHOT";
+}
+// a sentence on the page: the target language's, its IPA, the same plan said in the language beside it (German: the
+// planner's own text and IPA; a plan that a realizer cannot say is left out)
+async function said(gen, s) {
+  const plan = target === "de" && !$("beside").value ? null : s.plan();
+  const main = target === "de" ? { text: s.text, ipa: s.ipa } : (await sayerFor(gen, target, Math.random))(plan);
+  const beside = $("beside").value ? (await sayerFor(gen, $("beside").value, Math.random))(plan).text : "";
+  return { ...main, beside };
+}
+function card(text, ipa, beside, extra = "") {
+  const div = document.createElement("div");
+  div.className = "s";
+  div.innerHTML = `<div></div><div class="mute"></div><div class="ipa" ${$("showIpa").checked ? "" : "hidden"}></div><div class="ipa trace" ${$("showTrace").checked ? "" : "hidden"}></div>`;
+  const parts = [...div.children];
+  [text, beside, ipa, extra].forEach((t, i) => { parts[i].textContent = t; if (!t) parts[i].remove(); });
+  div.onclick = async () => { for (const o of document.querySelectorAll(".s")) o.classList.toggle("on", o === div); if (ipa) { voice.kind = $("kind").value; voice.tempo = Number($("tempo").value); voice.prosody = await prosody(target); voice.say(ipa, { question: text.endsWith("?") }); } };
+  return div;
+}
+async function more() {
+  const gen = await generator(Number($("level").value), Number($("complexity").value), $("stage").value || null), cards = [];
+  for (const s of Array.from({ length: 8 }, () => gen.sentence()).filter(Boolean)) {
+    try { const o = await said(gen, s); cards.push(card(o.text, o.ipa, o.beside)); } catch (e) { console.error(e); }
+  }
+  $("list").replaceChildren(...cards);
+}
+// a STORY on the page: its world in a line, its sentences, each with its move and structure (Struktur)
+let teller = null;
+async function tell() {
+  const gen = await generator(3, 3), say = await sayerFor(gen, target, Math.random), by = $("beside").value ? await sayerFor(gen, $("beside").value, Math.random) : null;
+  if (teller?.lang !== target) { const { createStoryteller } = await import("./engine/story.js"); teller = createStoryteller(gen, dict, await (await fetch("world/stories.txt")).text(), (b) => say(b).text); teller.lang = target; }
+  let st = null;
+  for (let t = 0; t < 30 && !st; t++) st = teller.story(Math.random, Number($("complexity").value));
+  if (!st) { $("list").textContent = "(no story: " + teller.why() + ")"; return; }
+  const w = st.world, head = document.createElement("p");
+  head.className = "mute";
+  head.textContent = [w.actor, w.place, w.season, w.weather, `${w.situation} / ${w.plot}`].filter(Boolean).join(" · ");
+  $("list").replaceChildren(head, ...st.sentences.map((s) => {
+    let beside = "";
+    try { beside = by && s.plan ? by(s.plan).text : ""; } catch (e) { console.error(e); }
+    return card(s.text, "", beside, `${s.move}: ${s.trace}`);
+  }));
+}
+$("tell").onclick = tell;
+$("showTrace").onchange = () => { for (const d of document.querySelectorAll(".s .trace")) d.hidden = !$("showTrace").checked; };
+$("more").onclick = more; $("level").onchange = more; $("complexity").onchange = more; $("stage").onchange = more;
+// the languages: the target (planned for its learner, said in it) and the one beside it (the same plans)
+for (const l of SAID) { $("lang").append(new Option(LANGS[l].name, l, false, l === target)); $("beside").append(new Option("beside: " + LANGS[l].name, l)); }
+$("lang").onchange = () => { target = $("lang").value; document.documentElement.lang = target; more(); };
+// (the voice: each language's own prosody -- <lang>/rules/speech.txt)
+const prosodies = {}, prosody = async (l) => (prosodies[l] ??= await loadProsody(LANGS[l].speech));
+$("beside").onchange = more;
+document.documentElement.lang = target;
+// the stages of the syllabus (world/syllabus.txt): the grammar learnt so far
+for (const s of (await generator(2, 2)).grammar.stages) $("stage").append(new Option("grammar up to " + s, s));
+$("showIpa").onchange = () => { for (const d of document.querySelectorAll(".s .ipa")) d.hidden = !$("showIpa").checked; };
+if (!dump && !storyN && !checkN) more();
+</script>
+</body>
+</html>

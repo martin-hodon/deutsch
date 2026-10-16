@@ -1,0 +1,23 @@
+# HOW RUSSIAN MARKS A ROLE (world/roles.txt) when a word does not say otherwise in ru/rules/frames.txt: a CASE (В
+# accusative, Р genitive, Д dative, Т instrumental, П prepositional, Н nominative) or `preposition+CASE`; alternatives
+# `|` by the noun's kind: [surface] [place] [container] [person] [vehicle]
+patient     В
+second      В
+recipient   Д
+as          Т
+bare        В
+theme       В
+topic       о+П
+cause       Р
+basis       от+Р
+purpose     для+Р
+companion   с+Т
+opponent    против+Р
+instrument  Т | на+П [vehicle]
+share       в+П
+result      в+В
+substitute  на+В
+location    в+П | на+П [surface] | у+Р [person]
+goal        в+В | на+В [surface] | к+Д [person]
+source      из+Р | от+Р [person]
+path        через+В

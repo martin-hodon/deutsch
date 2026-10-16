@@ -1,0 +1,169 @@
+# life-death
+V žiť
+N život
+AN živý : adverb živo
+N živý tvor
+V zažiť
+N zážitok
+V prežiť
+V oživiť
+AN bezvládny : adverb bezvládne
+V ožiť
+V vyžiť sa
+AN mŕtvy
+N smrť
+V zabiť
+AN smrteľný (smrtiaci)
+N mŕtvy
+V zomrieť
+AN smrteľný (podliehajúci smrti)
+V vymrieť
+AN vymretý
+V odumrieť
+V zahynúť
+AN zosnulý
+N zosnulý
+N pôrod
+V porodiť
+AN narodený
+V rásť
+N rast
+V vyrastať
+AN starý
+N vek
+V starnúť
+V zastarať
+AN staromódny : adverb staromódne
+AN prastarý
+AN mladý : adverb mlado
+AN zrelý
+N zrelosť
+V dozrievať
+AN nezrelý
+V dozrieť
+V pochovať
+N mŕtvola
+V existovať
+V rozmnožovať sa
+N rozmnožovanie
+V páriť sa
+N párenie
+V vyliahnuť sa
+N potomok
+N dorast
+AN tehotná
+N tehotenstvo
+V prijať (hosťa)
+N recepcia
+N príjemca
+N počatie
+V chátrať
+N rozpad
+V hniť
+V udusiť
+
+# body-functions
+V dýchať
+N dych
+V vdychovať
+V vydychovať
+N dýchanie
+AN bez dychu
+V spať
+N spánok (stav)
+AN ospalý : adverb ospalo
+V zaspať
+V prespať
+V vyspať sa
+PHR prezimovať
+AN bdelý
+V zobudiť sa
+V prebudiť sa
+V budiť
+V odpočívať
+V oddýchnuť si
+AN unavený
+N únava
+V unaviť
+AN neúnavný : adverb neúnavne
+AN vyčerpaný
+V vysiliť
+N vyčerpanie
+V zívať
+V chvieť sa
+V tráviť
+N trávenie
+V prehĺtať
+N dúšok
+N štikútavka
+V zadúšať sa
+V žuť
+N žuvačka
+V hrýzť
+N uhryznutie
+V odhryznúť
+AN hryzavý
+V pľuť
+V vypľuť
+V mrkať
+V chrápať
+N tlkot srdca
+N búšenie srdca
+V začervenať sa
+N červeň
+V slintať
+V dychčať
+V ťažko dýchať
+V škrtiť
+V uškrtiť
+N látková výmena
+V driemať
+V zmĺknuť
+AN silný ako medveď
+
+# nourishment
+V jesť
+V piť
+V utopiť sa
+V vypiť
+N hlad
+AN hladný
+V hladovať
+V zomrieť od hladu
+N hladomor
+N smäd
+AN smädný
+V zomrieť od smädu
+N chuť do jedla
+PHR dobrú chuť
+V kŕmiť
+N kŕmenie
+V sať
+V dojčiť
+N potrava
+V živiť
+N výživa
+V konzumovať
+V srkať
+V lízať
+V olízať
+V hlodať
+V chrúmať
+
+# senses-instinct
+N inštinkt
+AN inštinktívny : adverb inštinktívne
+N reflex
+
+# growth-adaptation
+N puberta
+V vyvíjať sa
+V zvliekať kožu
+N zvliekanie kože
+V prosperovať
+V zakoreniť sa
+V uhynúť
+V vyprchať
+
+# more
+N ekosystém

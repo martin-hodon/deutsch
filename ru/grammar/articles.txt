@@ -1,0 +1,14 @@
+# definite-article
+1 ART этот {этот} [ˈɛtət] = ten (určitý člen mužského rodu)
+1 P тот же {тот же} [tot ʐɨ] = ten istý
+2 P тот же самый {тот же самый} [tot ʐɨ ˈsamɨj] = ten istý
+1 P тот {тот} [tot] = ten (kto)
+1 ART эта {эта} [ˈɛtə] = tá (určitý člen ženského rodu a množného čísla)
+1 ART эти {эти} [ˈɛtʲɪ] = tá (určitý člen ženského rodu a množného čísla)
+1 ART это {это} [ˈɛtə] = to (určitý člen stredného rodu)
+
+# indefinite-article
+1 ART один {один} [ɐˈdʲin] = jeden
+2 ART какой-то {какой-то} [kɐˈkojtə] = nejaký
+2 ART какой-нибудь {какой-нибудь} [kɐˈkojnʲɪbutʲ] = nejaký
+1 ART никакой {никакой} [nʲɪkɐˈkoj] = žiadny

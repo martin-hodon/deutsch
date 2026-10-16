@@ -1,0 +1,13 @@
+# SIDE TASKS (tools/world.py): what the other one does WHILE she works -- told with während, as an author shows two
+# people at once (Während Lisa die Suppe umrührte, holte ihr Bruder die Teller.); by place, only for one of hers who
+# is there and not doing the work
+#   SIDE Place | Place : clause      (the tests.txt format, no subject, no tense)
+SIDE kuchyňa | jedáleň_(v_byte) | byt | vidiecky_dom | chata | chata : verb=doniesť patient=def:tanier+pl
+SIDE kuchyňa | jedáleň_(v_byte) | byt | vidiecky_dom | chata | chata : verb=postaviť patient=none:sklenica+pl pp=onto:def:stôl
+SIDE kuchyňa | byt | vidiecky_dom | chata | chata : verb=krájať patient=none:chlieb
+SIDE kuchyňa | byt | vidiecky_dom | chata : verb=umývať patient=def:šalát
+SIDE kuchyňa | jedáleň_(v_byte) | byt | vidiecky_dom | chata : verb=položiť patient=def:príbor goal=def:stôl
+SIDE záhrada | terasa | balkón : verb=doniesť patient=def:tanier+pl
+SIDE záhrada | terasa | balkón : verb=postaviť patient=def:stolička_(nábytok)+pl pp=around:def:stôl
+SIDE dielňa | garáž | pivnica : verb=držať patient=def:lampa
+SIDE dielňa | garáž | pivnica | obývačka | spálňa : verb=dať patient=def:náradie recipient=$doer

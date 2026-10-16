@@ -1,0 +1,228 @@
+# school
+N škola
+N žiak
+N riaditeľ školy
+N základná škola
+N vysoká škola
+N gymnázium
+N žiačka
+V školiť
+AN školský
+V zapísať do školy
+N univerzita
+N materská škola
+N trieda
+N učebňa
+AN prvotriedny
+N lekcia
+N kurz
+V učiť
+N učiteľ
+N učenie
+N učebný plán
+N učebnica
+N doučovateľ
+N učiteľka
+N profesor
+V študovať
+N študent
+N štúdium
+N školné
+N študentka
+V tvoriť
+N vzdelanie
+AN vzdelaný
+V vyškoliť
+N odborná príprava
+N ďalšie vzdelávanie
+V vyučovať
+N vyučovanie
+V učiť sa
+V naučiť sa
+V spoznať
+V cvičiť (nácvik)
+N cvičenie
+V vykonávať
+N úloha
+N domáca úloha
+V preveriť
+N skúška
+N skúšajúci
+N preskúmanie
+AN overiteľný
+N test
+V testovať
+N diplom
+N semester
+N tabuľa
+V zapísať sa
+N zápis
+V absolvovať
+N absolvent
+N mentor
+N dekan
+N fakulta
+N kampus
+N študentský domov
+N prednáškova sála
+N študentská jedáleň
+N kvíz
+N záverečná práca
+N seminár
+N štipendium
+N guma (na gumovanie)
+N gramotnosť
+N certifikát
+N akadémia
+N vysokoškolák
+AN akademický
+N škôlka
+N odborná škola
+N hlavná škola
+N reálna škola
+N jednotná škola
+N odborná vysoká škola
+N spolužiak
+N školská taška
+N letné prázdniny
+N maturita
+N písomná práca
+N referát
+V referovať
+N prednáška
+N vysvedčenie
+N listina
+N opakovanie
+N riadok
+N číslica
+N informatika
+N etika
+N rozdiel (číselný)
+V rozlišovať
+N školský dvor
+N jazykový kurz
+N školský deň
+N učňovské miesto
+N začiatočník
+N detské jasle
+N študijný odbor
+N ľudová škola
+AN pedagogický
+V senzibilizovať
+V získať doktorát
+V odpisovať
+V vytriediť
+
+# knowledge-science
+N veda
+N vedec
+AN vedecký : adverb vedecky
+N prírodná veda
+N ekonómia
+AN prírodovedný
+V bádať
+N výskum
+N výskumník
+N laboratórium
+N experiment
+V experimentovať
+AN experimentálny : adverb experimentálne
+N teória
+AN teoretický : adverb teoreticky
+N hypotéza
+N metóda
+N analýza
+N fakt
+V vynájsť
+V preskúmať
+N obhliadka
+V informovať sa
+N expedícia
+N vzorec
+V formulovať
+N formulácia
+N definícia
+N rovnica
+N premenná
+N desatinné číslo
+N pomer
+AN neúmerný : adverb neúmerne
+N polomer
+N priemer (kruhu)
+N teoréma
+N graf
+N grafické znázornenie
+N diagram
+N exemplár
+N referencia
+N štúdia
+N objasnenie
+N kvalifikácia
+N prognóza
+N vyhodnotenie
+N princíp
+AN zásadný : adverb zásadne
+N kritérium
+AN skutočný : adverb skutočne
+N historik
+N rešerš
+N architektúra
+AN architektonický
+
+# fields-of-study
+N matematika
+N matika
+N matematik
+AN matematický
+N fyzika
+N fyzik
+AN fyzikálny
+N chémia
+N chemik
+AN chemický
+N biológia
+N biológ
+AN biologický
+N geografia
+N filozofia
+N filozof
+AN filozofický
+N psychológia
+N psychológ
+AN psychologický
+N astronómia
+N astronóm
+AN astronomický
+N geometria
+N geológia
+AN geologický
+N botanika
+N zoológia
+N sociológia
+N lingvistika
+N archeológia
+N archeológ
+AN archeologický
+N štatistika
+AN štatistický
+N genetika
+N ekológia
+N algebra
+N aritmetika
+
+# institutions-objects
+N knižnica
+N knihovník
+N encyklopédia
+N atlas
+N glóbus
+N mikroskop
+N teleskop
+N pravítko
+N baňka
+N lievik
+N hranol
+N archív
+V archivovať
+N ústav
+N tabuľka

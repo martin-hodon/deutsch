@@ -1,0 +1,277 @@
+# MORPHOLOGY (sentences/README.md): how German words change -- the forms and the rules, each with its IPA, read by
+# trainer/morph.js. A line is `key = value`; a cell `form [ipa]`, several cells `|`-separated in a fixed order:
+#   cases          nom | acc | dat | gen
+#   genders        m | f | n | pl          (pl: the plural, whatever the gender)
+#   persons        1sg | 2sg | 3sg | 1pl | 2pl | 3pl
+# An ENDING is written as spelled; its IPA comes from `ipa.<ending>`.
+
+# ---- endings: their sound ------------------------------------------------------------------------------------------
+ipa.e = ə
+ipa.en = ən
+ipa.n = n
+ipa.em = əm
+ipa.er = ɐ
+ipa.es = əs
+ipa.s = s
+ipa.st = st
+ipa.t = t
+ipa.et = ət
+ipa.est = əst
+ipa.te = tə
+ipa.ten = tən
+ipa.test = təst
+ipa.tet = tət
+ipa.ete = ətə
+ipa.eten = ətən
+ipa.etest = ətəst
+ipa.etet = ətət
+ipa.ge = ɡə
+ipa.zu = tsu
+
+# ---- the definite article and the der-words -------------------------------------------------------------------------
+det.def.nom = der [deːɐ] | die [diː] | das [das] | die [diː]
+det.def.acc = den [deːn] | die [diː] | das [das] | die [diː]
+det.def.dat = dem [deːm] | der [deːɐ] | dem [deːm] | den [deːn]
+det.def.gen = des [dɛs] | der [deːɐ] | des [dɛs] | der [deːɐ]
+# der-words (dieser, jeder, welcher): a stem and these endings, by case x gender; the adjective after them: weak
+ending.der.nom = er | e | es | e
+ending.der.acc = en | e | es | e
+ending.der.dat = em | er | em | en
+ending.der.gen = es | er | es | er
+derword.dies = dies [diːz]
+derword.jed = jed [jeːd]
+derword.welch = welch [vɛlç]
+# ... quantifiers with these endings, the adjective after them weak (alle großen Häuser, manche Leute, beide Kinder)
+derword.all = all [al]
+derword.manch = manch [manç]
+derword.beid = beid [baɪd]
+
+# ---- ein, kein and the possessives: a stem and these endings (- none); the adjective after them: mixed --------------
+ending.ein.nom = - | e | - | e
+ending.ein.acc = en | e | - | e
+ending.ein.dat = em | er | em | en
+ending.ein.gen = es | er | es | er
+# a stem's sound before an ending that begins with a vowel, where it changes (ihr [iːɐ] -> ihre [ˈiːʁə])
+einword.ein = ein [aɪn]
+einword.kein = kein [kaɪn]
+einword.mein = mein [maɪn]
+einword.dein = dein [daɪn]
+einword.sein = sein [zaɪn]
+einword.ihr = ihr [iːɐ] / ihr [iːʁ]
+einword.unser = unser [ˈʊnzɐ] / unser [ˈʊnzəʁ]
+einword.euer = euer [ˈɔʏɐ] / eur [ˈɔʏʁ]
+einword.Ihr = Ihr [iːɐ] / Ihr [iːʁ]
+# whose: the possessor -> the stem (person number / gender)
+possessive = 1sg mein | 2sg dein | 3sg.m sein | 3sg.f ihr | 3sg.n sein | 1pl unser | 2pl euer | 3pl ihr | formal Ihr
+
+# ---- pronouns --------------------------------------------------------------------------------------------------------
+# personal, by case (nom | acc | dat)
+pron.1sg = ich [ɪç] | mich [mɪç] | mir [miːɐ]
+pron.2sg = du [duː] | dich [dɪç] | dir [diːɐ]
+pron.3sg.m = er [eːɐ] | ihn [iːn] | ihm [iːm]
+pron.3sg.f = sie [ziː] | sie [ziː] | ihr [iːɐ]
+pron.3sg.n = es [ɛs] | es [ɛs] | ihm [iːm]
+pron.1pl = wir [viːɐ] | uns [ʊns] | uns [ʊns]
+pron.2pl = ihr [iːɐ] | euch [ɔʏç] | euch [ɔʏç]
+pron.3pl = sie [ziː] | sie [ziː] | ihnen [ˈiːnən]
+pron.formal = Sie [ziː] | Sie [ziː] | Ihnen [ˈiːnən]
+# INDEFINITE pronouns (the verb in the 3rd person singular): man, jemand, niemand; etwas, nichts, alles for things
+# DEMONSTRATIVE pronouns as subjects (Das ist mein Auto. Wer Hunger hat, der isst.)
+pron.das = das [das] | das [das] | dem [deːm]
+pron.der = der [deːɐ] | den [deːn] | dem [deːm]
+pron.man = man [man] | einen [ˈaɪnən] | einem [ˈaɪnəm]
+pron.jemand = jemand [ˈjeːmant] | jemanden [ˈjeːmandən] | jemandem [ˈjeːmandəm]
+pron.niemand = niemand [ˈniːmant] | niemanden [ˈniːmandən] | niemandem [ˈniːmandəm]
+pron.etwas = etwas [ˈɛtvas] | etwas [ˈɛtvas] | etwas [ˈɛtvas]
+pron.nichts = nichts [nɪçts] | nichts [nɪçts] | nichts [nɪçts]
+pron.alles = alles [ˈaləs] | alles [ˈaləs] | allem [ˈaləm]
+# reflexive (acc | dat): the 3rd persons and the polite one `sich`
+reflexive.1sg = mich [mɪç] | mir [miːɐ]
+reflexive.2sg = dich [dɪç] | dir [diːɐ]
+reflexive.3 = sich [zɪç] | sich [zɪç]
+reflexive.1pl = uns [ʊns] | uns [ʊns]
+reflexive.2pl = euch [ɔʏç] | euch [ɔʏç]
+# relative pronouns (der, die, das ...): the definite article but for these
+relative.dat = dem [deːm] | der [deːɐ] | dem [deːm] | denen [ˈdeːnən]
+relative.gen = dessen [ˈdɛsən] | deren [ˈdeːʁən] | dessen [ˈdɛsən] | deren [ˈdeːʁən]
+# question words for what a clause leaves open
+wh.person = wer [veːɐ] | wen [veːn] | wem [veːm]
+wh.thing = was [vas] | was [vas] | -
+wh.time = wann [van]
+wh.place = wo [voː]
+wh.reason = warum [vaˈʁʊm]
+wh.manner = wie [viː]
+wh.from = woher [voˈheːɐ]
+wh.whither = wohin [voˈhɪn]
+
+# ---- adjectives: the endings after a der-word (weak), an ein-word (mixed) or nothing (strong), case x gender ---------
+ending.adj.weak.nom = e | e | e | en
+ending.adj.weak.acc = en | e | e | en
+ending.adj.weak.dat = en | en | en | en
+ending.adj.weak.gen = en | en | en | en
+ending.adj.mixed.nom = er | e | es | en
+ending.adj.mixed.acc = en | e | es | en
+ending.adj.mixed.dat = en | en | en | en
+ending.adj.mixed.gen = en | en | en | en
+ending.adj.strong.nom = er | e | es | e
+ending.adj.strong.acc = en | e | es | e
+ending.adj.strong.dat = em | er | em | en
+ending.adj.strong.gen = en | er | en | er
+# a stem that loses its e before an ending: rule.adj-stem; the few irregular ones:
+# adjectives with no endings at all (ein lila Kleid)
+# the DEGREES whose sounds no rule makes (gut: besser, am besten; viel: mehr, am meisten)
+adj.degree-ipa = besser [ˈbɛsɐ] | best [bɛst] | mehr [meːɐ] | meist [maɪst] | lieber [ˈliːbɐ] | liebst [liːpst] | höher [ˈhøːɐ] | höchst [høːçst] | näher [ˈnɛːɐ] | nächst [nɛːçst]
+adj.invariant = lila | rosa | orange | beige | prima | super | klasse
+adj.stem.hoch = hoh [hoː]
+adj.stem.fit = fitt [fɪt]
+
+# ---- the UMLAUT (Haus -> Häuser, alt -> älter, kam -> käme): a vowel and its umlaut -- the LAST of a stem that can
+# take one (in au: the a) -- and in sound (a diphthong's whole: aʊ -> ɔʏ, not its ʊ); the rules say it as `umlaut`
+umlaut = a ä | o ö | u ü
+umlaut-ipa = aʊ ɔʏ | aː ɛː | a ɛ | oː øː | ɔ œ | o ø | uː yː | ʊ ʏ | u y
+
+# ---- nouns -----------------------------------------------------------------------------------------------------------
+# genitive singular of a masculine or neuter noun: -es after these endings or for one syllable, else -s
+noun.gen-es-after = s | ß | x | z | sch | st
+# (a one-syllable loanword: -s only -- des Chefs, des Jobs, not "des Chefes")
+noun.gen-s-only = Chef | Job | Team | Fan | Star | Song | Klub | Club | Shop | Trend | Hit | Chip | Clip | Check | Snack | Boss | Pub
+# the N-DECLENSION: masculine nouns with -(e)n in every form but the nominative singular (der Junge, den Jungen) --
+# those ending so whose plural is the singular + -(e)n, and these words
+noun.weak-endings = e | ent | ant | ist | oge | at | ad | soph | graf | nom | et
+noun.weak-words = Satellit | Bandit | Christ | Katholik | Architekt | Leopard | Spatz | Fink | Mensch | Herr | Held | Bär | Prinz | Graf | Narr | Nachbar | Bauer | Fürst | Kamerad | Soldat | Pilot | Astronaut | Planet | Rebell
+# (noun.not-weak and noun.mixed also cover compounds ending so: Stausee, Vorname)
+noun.not-weak = Käse | See | Staat
+# the MIXED declension: -n, and -ns in the genitive (der Name, den Namen, des Namens)
+noun.mixed = Name | Gedanke | Buchstabe | Glaube | Wille | Friede | Funke | Same | Haufe
+
+# ---- verbs -----------------------------------------------------------------------------------------------------------
+# prefixes NEVER stressed: a core after a separable prefix (auf·bewahren) keeps its stress past them -- aufbewahrt,
+# not "aufgebewahrt" (the participle's ge- comes only before a stressed first syllable)
+verb.unstressed-prefix = be [bə] | ge [ɡə] | ver [fɛɐ] | er [ɛɐ] | ent [ɛnt] | zer [tsɛɐ] | emp [ɛmp]
+# the verbs' endings: the RULES at the end of this file (rule.present, rule.past ...)
+# the verbs no rule makes: every person of the present, the past stem (persons as strong) and the participle come from here
+paradigm.sein.present = bin [bɪn] | bist [bɪst] | ist [ɪst] | sind [zɪnt] | seid [zaɪt] | sind [zɪnt]
+paradigm.sein.past = war [vaːɐ] | warst [vaːɐst] | war [vaːɐ] | waren [ˈvaːʁən] | wart [vaːɐt] | waren [ˈvaːʁən]
+paradigm.haben.present = habe [ˈhaːbə] | hast [hast] | hat [hat] | haben [ˈhaːbən] | habt [haːpt] | haben [ˈhaːbən]
+paradigm.haben.past = hatte [ˈhatə] | hattest [ˈhatəst] | hatte [ˈhatə] | hatten [ˈhatən] | hattet [ˈhatət] | hatten [ˈhatən]
+paradigm.werden.present = werde [ˈveːɐdə] | wirst [vɪʁst] | wird [vɪʁt] | werden [ˈveːɐdən] | werdet [ˈveːɐdət] | werden [ˈveːɐdən]
+paradigm.werden.past = wurde [ˈvʊʁdə] | wurdest [ˈvʊʁdəst] | wurde [ˈvʊʁdə] | wurden [ˈvʊʁdən] | wurdet [ˈvʊʁdət] | wurden [ˈvʊʁdən]
+paradigm.wissen.present = weiß [vaɪs] | weißt [vaɪst] | weiß [vaɪs] | wissen [ˈvɪsən] | wisst [vɪst] | wissen [ˈvɪsən]
+paradigm.können.present = kann [kan] | kannst [kanst] | kann [kan] | können [ˈkœnən] | könnt [kœnt] | können [ˈkœnən]
+paradigm.müssen.present = muss [mʊs] | musst [mʊst] | muss [mʊs] | müssen [ˈmʏsən] | müsst [mʏst] | müssen [ˈmʏsən]
+paradigm.sollen.present = soll [zɔl] | sollst [zɔlst] | soll [zɔl] | sollen [ˈzɔlən] | sollt [zɔlt] | sollen [ˈzɔlən]
+paradigm.wollen.present = will [vɪl] | willst [vɪlst] | will [vɪl] | wollen [ˈvɔlən] | wollt [vɔlt] | wollen [ˈvɔlən]
+paradigm.dürfen.present = darf [daʁf] | darfst [daʁfst] | darf [daʁf] | dürfen [ˈdʏʁfən] | dürft [dʏʁft] | dürfen [ˈdʏʁfən]
+paradigm.mögen.present = mag [maːk] | magst [maːkst] | mag [maːk] | mögen [ˈmøːɡən] | mögt [møːkt] | mögen [ˈmøːɡən]
+# KONJUNKTIV II (hätte, wäre, könnte, würde): these verbs' own forms; those of verb.subj2-own by rule.subj2 (käme,
+# ginge, fände); every other verb takes würde + infinitive
+paradigm.sein.subj2 = wäre [ˈvɛːʁə] | wärst [vɛːɐst] | wäre [ˈvɛːʁə] | wären [ˈvɛːʁən] | wärt [vɛːɐt] | wären [ˈvɛːʁən]
+paradigm.haben.subj2 = hätte [ˈhɛtə] | hättest [ˈhɛtəst] | hätte [ˈhɛtə] | hätten [ˈhɛtən] | hättet [ˈhɛtət] | hätten [ˈhɛtən]
+paradigm.werden.subj2 = würde [ˈvʏʁdə] | würdest [ˈvʏʁdəst] | würde [ˈvʏʁdə] | würden [ˈvʏʁdən] | würdet [ˈvʏʁdət] | würden [ˈvʏʁdən]
+paradigm.können.subj2 = könnte [ˈkœntə] | könntest [ˈkœntəst] | könnte [ˈkœntə] | könnten [ˈkœntən] | könntet [ˈkœntət] | könnten [ˈkœntən]
+paradigm.müssen.subj2 = müsste [ˈmʏstə] | müsstest [ˈmʏstəst] | müsste [ˈmʏstə] | müssten [ˈmʏstən] | müsstet [ˈmʏstət] | müssten [ˈmʏstən]
+paradigm.dürfen.subj2 = dürfte [ˈdʏʁftə] | dürftest [ˈdʏʁftəst] | dürfte [ˈdʏʁftə] | dürften [ˈdʏʁftən] | dürftet [ˈdʏʁftət] | dürften [ˈdʏʁftən]
+paradigm.mögen.subj2 = möchte [ˈmœçtə] | möchtest [ˈmœçtəst] | möchte [ˈmœçtə] | möchten [ˈmœçtən] | möchtet [ˈmœçtət] | möchten [ˈmœçtən]
+paradigm.sollen.subj2 = sollte [ˈzɔltə] | solltest [ˈzɔltəst] | sollte [ˈzɔltə] | sollten [ˈzɔltən] | solltet [ˈzɔltət] | sollten [ˈzɔltən]
+paradigm.wollen.subj2 = wollte [ˈvɔltə] | wolltest [ˈvɔltəst] | wollte [ˈvɔltə] | wollten [ˈvɔltən] | wolltet [ˈvɔltət] | wollten [ˈvɔltən]
+paradigm.wissen.subj2 = wüsste [ˈvʏstə] | wüsstest [ˈvʏstəst] | wüsste [ˈvʏstə] | wüssten [ˈvʏstən] | wüsstet [ˈvʏstət] | wüssten [ˈvʏstən]
+# KONJUNKTIV I (reported speech: er sei, er habe, er komme): rule.subj1; sein its own
+paradigm.sein.subj1 = sei [zaɪ] | seist [zaɪst] | sei [zaɪ] | seien [ˈzaɪən] | seiet [ˈzaɪət] | seien [ˈzaɪən]
+# ORDINALS' stems (der dritte Mai, am ersten Tag): declined as adjectives
+ordinal = erst [eːɐst] | zweit [tsvaɪt] | dritt [dʁɪt] | viert [fiːɐt] | fünft [fʏnft] | sechst [zɛkst] | siebt [ziːpt] | acht [axt] | neunt [nɔʏnt] | zehnt [tseːnt] | elft [ɛlft] | zwölft [tsvœlft] | zwanzigst [ˈtsvantsɪçst]
+# the PASSIVE's participle of werden (ist gebaut worden -- not "geworden")
+verb.passive-participle = worden [ˈvɔʁdən]
+paradigm.tun.present = tue [ˈtuːə] | tust [tuːst] | tut [tuːt] | tun [tuːn] | tut [tuːt] | tun [tuːn]
+# the modal verbs (with an infinitive at the clause's end; in the perfect, their past instead)
+verb.modal = können | müssen | sollen | wollen | dürfen | mögen
+# separable prefixes and their sound (an·rufen: ruft ... an), longest first where one begins another
+verb.separable = zusammen [tsuˈzamən] | zurück [tsuˈʁʏk] | vorbei [foːɐˈbaɪ] | heraus [hɛˈʁaʊs] | herein [hɛˈʁaɪn] | hinaus [hɪˈnaʊs] | hinein [hɪˈnaɪn] | herum [hɛˈʁʊm] | herunter [hɛˈʁʊntɐ] | hinunter [hɪˈnʊntɐ] | herauf [hɛˈʁaʊf] | hinauf [hɪˈnaʊf] | weiter [ˈvaɪtɐ] | wieder [ˈviːdɐ] | entgegen [ɛntˈɡeːɡən] | fest [fɛst] | statt [ʃtat] | teil [taɪl] | fort [fɔʁt] | durch [dʊʁç] | über [ˈyːbɐ] | unter [ˈʊntɐ] | nach [naːx] | auf [aʊf] | aus [aʊs] | bei [baɪ] | ein [aɪn] | mit [mɪt] | vor [foːɐ] | weg [vɛk] | dar [daːɐ] | her [heːɐ] | hin [hɪn] | los [loːs] | an [an] | ab [ap] | um [ʊm] | zu [tsuː] | wiederher [viːdɐˈheːɐ] | gegenüber [ɡeːɡənˈyːbɐ] | rückwärts [ˈʁʏkvɛʁts] | aufrecht [ˈaʊfʁɛçt] | voraus [foˈʁaʊs] | vorher [foːɐˈheːɐ] | kaputt [kaˈpʊt] | hervor [hɛɐˈfoːɐ] | sicher [ˈzɪçɐ] | nieder [ˈniːdɐ] | bereit [bəˈʁaɪt] | umher [ʊmˈheːɐ] | hinzu [hɪnˈtsuː] | übel [ˈyːbəl] | groß [ɡʁoːs] | fern [fɛʁn] | hoch [hoːx] | wert [veːɐt] | wahr [vaːɐ] | weh [veː] | zu [tsuː]
+# (a separable prefix of two prefixes, written apart when it stands alone: stellt es wieder her)
+verb.separable-apart = wiederher
+# a preposition and the definite article as one word (in dem -> im)
+# a preposition with a THING as its pronoun object: one word (mit ihm -> damit, über A -> darüber); `prep.case` where
+# only that case has one (in D: darin)
+da-word = an: daran [daˈʁan] | auf: darauf [daˈʁaʊf] | aus: daraus [daˈʁaʊs] | bei: dabei [daˈbaɪ] | durch: dadurch [daˈdʊʁç] | für: dafür [daˈfyːɐ] | gegen: dagegen [daˈɡeːɡən] | in.D: darin [daˈʁɪn] | mit: damit [daˈmɪt] | nach: danach [daˈnaːx] | über: darüber [daˈʁyːbɐ] | um: darum [daˈʁʊm] | unter: darunter [daˈʁʊntɐ] | von: davon [daˈfɔn] | vor: davor [daˈfoːɐ] | zu: dazu [daˈtsuː] | zwischen: dazwischen [daˈtsvɪʃən] | neben: daneben [daˈneːbən] | hinter: dahinter [daˈhɪntɐ]
+contraction = an dem: am [am] | in dem: im [ɪm] | von dem: vom [fɔm] | zu dem: zum [tsʊm] | zu der: zur [tsuːɐ] | bei dem: beim [baɪm] | in das: ins [ɪns] | an das: ans [ans]
+
+# ---- LETTERS: named groups for the rules -- {name} in a pattern is any letter of the group (as [abc] is any of a, b,
+# c); a group may be made of others: {a} - {b} - [cd] (the letters of a, not of b, not c or d)
+group.vowel = a e i o u ä ö ü y
+group.consonant = b c d f g h j k l m n p q r s t v w x z ß
+group.liquid = l r
+group.nasal = m n
+group.s-sound = s ß x z
+# the consonants that want an e between them and m/n before -st, -t (rechnest, atmet, öffnet) -- not h, silent in
+# wohnen; nor a liquid or a nasal (filmt, lernt, kämmst); ch is written as it is
+group.obstruent = {consonant} - {liquid} - {nasal} - [hj]
+# a named PATTERN, in a rule as {name} too: a stem that takes an e before -st, -t, -te (arbeitest, atmet, rechnete)
+pattern.e-insert = ([td]|{obstruent}[mn]|ch[mn])
+
+# ---- RULES: a form made by replacing a word's end -- `rule.KIND pattern /sound/ = -cut > ending | ending ...`
+# `rule.KIND` with no pattern is the STANDARD; the others are its EXCEPTIONS, tried in their order before it: the first
+# whose pattern ends the word (and whose /sound/ ends its IPA, when given; and whose cut ends it) cuts `cut` and puts
+# the ending (`umlaut` before the cut: the stem's last vowel that can takes its umlaut first) -- one per person (1sg
+# 2sg 3sg 1pl 2pl 3pl) or one for every form; `-` nothing; `.` as the next rule that
+# fits the word says it (an exception writes only where it differs). A pattern is read as a regular expression: [abc]
+# one of these letters, {group} or {pattern}, (a|b) either. (Every verb ends in -en, -ln or -rn but tun -- and sein,
+# all its own paradigms: [lru]n.) The sounds: a cut's or an ending's own
+# [ipa] if written, else its ipa.* above, else its letters (e as ə, r as ʁ). What a cut and its ending share stays
+# (-eln > elst is -n > st).
+
+# the PRESENT, from the infinitive
+rule.present = -en > e | st | t | en | t | en
+rule.present {consonant}ien = -n [ən] > - | st | t | n [ən] | t | n [ən]
+rule.present {e-insert}en = -en > . | est | et | . | et | .
+rule.present {s-sound}en = -en > . | t | . | . | . | .
+rule.present eln = -eln > le | . | . | . | . | .
+rule.present [lru]n = -n > e | st | t | n | t | n
+#   (kommen; knien: ich knie; arbeiten: du arbeitest, er atmet; lesen: du liest; sammeln: ich sammle; wandern: wir wandern)
+
+# the weak PAST, from the infinitive; the strong past from the dictionary's past (sprach, fand, las, schrie); a mixed
+# verb's (brachte, dachte) from its own past
+rule.past = -en > te | test | te | ten | tet | ten
+rule.past {consonant}ien = -n [ən] > te | test | te | ten | tet | ten
+rule.past {e-insert}en = -en > ete | etest | ete | eten | etet | eten
+rule.past [lru]n = -n > te | test | te | ten | tet | ten
+rule.past-strong = > - | st | - | en | t | en
+rule.past-strong {e-insert} = > . | est | . | . | et | .
+rule.past-strong {s-sound} = > . | est | . | . | . | .
+rule.past-strong e = > . | . | . | n [ən] | . | n [ən]
+rule.past-mixed = -te > te | test | te | ten | tet | ten
+#   (du fandest, ihr fandet; du lasest; wir schrien; du brachtest)
+
+# the PARTICIPLE's ending (its ge- by the stress: the code), from the infinitive
+rule.participle = -en > t
+rule.participle {consonant}ien = -n [ən] > t
+rule.participle {e-insert}en = -en > et
+rule.participle [lru]n = -n > t
+
+# KONJUNKTIV I, from the infinitive (er sei: paradigm.sein.subj1)
+rule.subj1 = -en > e | est | e | en | et | en
+rule.subj1 {consonant}ien = -n [ən] > - | st | - | n [ən] | t | n [ən]
+rule.subj1 eln = -eln > le | . | le | . | . | .
+rule.subj1 [lr]n = -n > e | st | e | n | t | n
+rule.subj1 un = -n > e | est | e | en | et | en
+#   (er komme; er knie; er sammle, du sammelst; er wandere, ihr wandert; er tue)
+
+# KONJUNKTIV II, from the dictionary's past with the umlaut (kam -> käme, fand -> fände, ging -> ginge, sah -> sähe; a
+# mixed verb's: brachte -> brächte) -- for the verbs that keep their own in everyday German; the rest: würde + infinitive
+verb.subj2-own = kommen | gehen | geben | bleiben | lassen | finden | liegen | sitzen | stehen | tun | halten | heißen | sehen | ziehen | bringen | denken
+rule.subj2 = umlaut > e | est | e | en | et | en
+rule.subj2-mixed = umlaut -te > te | test | te | ten | tet | ten
+
+# the IMPERATIVE for du, from the infinitive (a changed stem -- sprich! -- from the dictionary: the code)
+rule.imperative = -en > -
+rule.imperative {consonant}ien = -n [ən] > -
+rule.imperative {e-insert}en = -en > e
+rule.imperative eln = -eln > le
+rule.imperative ern = -n > e
+rule.imperative un = -n > -
+#   (komm! knie! arbeite! atme! sammle! wandere! tu!)
+
+# an ADJECTIVE's stem before an ending (no standard: the adjective as it is)
+rule.adj-stem e /ə/ = -e > -
+rule.adj-stem el /əl/ = -el > l
+rule.adj-stem uer /ɐ/ = -er > r
+#   (leise: leise; dunkel: dunkle -- not parallel [eːl], viel; teuer: teure, sauer: saure -- -uer is au/eu + er, a
+#    qu-word like quer would need its own line)

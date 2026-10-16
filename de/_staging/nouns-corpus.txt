@@ -1,0 +1,478 @@
+# nouns from the news corpus candidates (corpus angle)
+
+@ humans/work-industry.txt # industry-places
+2 N der Betrieb {Be|trieb} [bəˈtʁiːp], Betriebe = podnik, prevádzka
+3 N das Gewerbe {Gewerbe} [ɡəˈvɛʁbə], Gewerbe = živnosť, remeslo
+3 N die Logistik {Logistik} [loˈɡɪstɪk], - = logistika
+3 N das Geschäftsmodell {Geschäfts|modell} [ɡəˈʃɛftsmodɛl], Geschäftsmodelle = obchodný model
+
+@ humans/work-industry.txt # work-general
+2 N der/die Beschäftigte {Be|schäftigte} [bəˈʃɛftɪçtə], Beschäftigte = zamestnanec, zamestnankyňa
+3 N die Arbeitsbedingung {Arbeits|bedingung} [ˈaʁbaɪtsbədɪŋʊŋ], Arbeitsbedingungen = pracovná podmienka
+3 N die Arbeitsgruppe {Arbeits|gruppe} [ˈaʁbaɪtsɡʁʊpə], Arbeitsgruppen = pracovná skupina
+3 N die Führungskraft {Führungs|kraft} [ˈfyːʁʊŋskʁaft], Führungskräfte = vedúci pracovník
+3 N die Geschäftsführung {Geschäfts|führung} [ɡəˈʃɛftsfyːʁʊŋ], Geschäftsführungen = vedenie firmy, konateľstvo
+3 N die Geschäftsführerin {Geschäfts|führerin} [ɡəˈʃɛftsfyːʁəʁɪn], Geschäftsführerinnen = konateľka, riaditeľka
+3 N die Kurzarbeit {Kurz|arbeit} [ˈkʊʁtsaʁbaɪt], - = skrátený pracovný čas
+3 N der Fachkräftemangel {Fach|kräfte|mangel} [ˈfaxkʁɛftəmaŋəl], - = nedostatok odborníkov
+3 N die Delegation {Delegation} [deleɡaˈtsjoːn], Delegationen = delegácia
+3 N die Hauptversammlung {Haupt|versammlung} [ˈhaʊptfɛɐzamlʊŋ], Hauptversammlungen = valné zhromaždenie
+3 N der Aufsichtsrat {Aufsichts|rat} [ˈaʊfzɪçtsʁaːt], Aufsichtsräte = dozorná rada
+3 N der Vorsitz {Vor|sitz} [ˈfoːɐzɪts], - = predsedníctvo
+3 N die Ausschreibung {Aus|schreibung} [ˈaʊsʃʁaɪbʊŋ], Ausschreibungen = výberové konanie, súťaž
+3 N die Auslastung {Aus|lastung} [ˈaʊslastʊŋ], - = vyťaženosť
+3 N die Bezahlung {Be|zahlung} [bəˈtsaːlʊŋ], - = platba, plat
+3 N die Durchführung {Durch|führung} [ˈdʊʁçfyːʁʊŋ], - = uskutočnenie, vykonanie
+3 N die Errichtung {Er|richtung} [ɛɐˈʁɪçtʊŋ], Errichtungen = výstavba, zriadenie
+3 N die Fertigstellung {Fertig|stellung} [ˈfɛʁtɪçʃtɛlʊŋ], - = dokončenie
+3 N die Ausstattung {Aus|stattung} [ˈaʊsʃtatʊŋ], Ausstattungen = vybavenie
+3 N die Komponente {Komponente} [kɔmpoˈnɛntə], Komponenten = súčasť, komponent
+3 N die Lehrkraft {Lehr|kraft} [ˈleːɐkʁaft], Lehrkräfte = pedagóg, učiteľský zbor
+
+@ humans/knowledge-education.txt # school
+2 N das Schuljahr {Schul|jahr} [ˈʃuːljaːɐ], Schuljahre = školský rok
+2 N die Sommerferien {Sommer|ferien} [ˈzɔmɐfeːʁiən], PL = letné prázdniny
+2 N die Lehrerin {Lehrerin} [ˈleːʁəʁɪn], Lehrerinnen = učiteľka
+3 N der/die Studierende {Studierende} [ʃtuˈdiːʁəndə], Studierende = študent, študentka
+
+@ humans/knowledge-education.txt # knowledge-science
+3 N der Historiker {Historiker} [hɪsˈtoːʁikɐ], Historiker = historik
+3 N die Recherche {Recherche} [ʁeˈʃɛʁʃə], Recherchen = prieskum, zisťovanie, rešerš
+3 N die Architektur {Architektur} [aʁçitɛkˈtuːɐ], - = architektúra
+
+@ humans/society-law-politics.txt # society
+2 N die Migration {Migration} [miɡʁaˈtsjoːn], - = migrácia
+3 N der Antisemitismus {Antisemitismus} [antizemiˈtɪsmʊs], - = antisemitizmus
+3 N der Nazi {Nazi} [ˈnaːtsi], Nazis = nacista
+3 N der Oligarch {Oligarch} [oliˈɡaʁç], Oligarchen = oligarcha
+2 N das Menschenrecht {Menschen|recht} [ˈmɛnʃənʁɛçt], Menschenrechte = ľudské právo
+3 N die Diskriminierung {Diskriminierung} [dɪskʁimiˈniːʁʊŋ], Diskriminierungen = diskriminácia
+3 N der Verlierer {Ver|lierer} [fɛɐˈliːʁɐ], Verlierer = porazený
+3 N der Außenseiter {Außen|seiter} [ˈaʊsənzaɪtɐ], Außenseiter = outsider, nepopulárny človek
+3 N der Inhaber {Inhaber} [ˈɪnhaːbɐ], Inhaber = majiteľ, držiteľ
+3 N der Steuerzahler {Steuer|zahler} [ˈʃtɔʏɐtsaːlɐ], Steuerzahler = daňový poplatník
+3 N der Kamerad {Kamerad} [kamaˈʁaːt], Kameraden = kamarát, druh
+3 N der Hausherr {Haus|herr} [ˈhaʊshɛʁ], Hausherren = domáci pán, hostiteľ
+3 N der Herzog {Herzog} [ˈhɛʁtsoːk], Herzöge = vojvoda
+3 N die Herzogin {Herzogin} [ˈhɛʁtsoːɡɪn], Herzoginnen = vojvodkyňa
+3 N der Unterstützer {Unter|stützer} [ˈʊntɐʃtʏtsɐ], Unterstützer = podporovateľ
+3 N der Interessent {Interessent} [ɪntəʁɛˈsɛnt], Interessenten = záujemca
+3 N der Urlauber {Urlauber} [ˈuːɐlaʊbɐ], Urlauber = dovolenkár
+3 N die Verfolgung {Ver|folgung} [fɛɐˈfɔlɡʊŋ], Verfolgungen = prenasledovanie
+3 N die Befreiung {Be|freiung} [bəˈfʁaɪʊŋ], Befreiungen = oslobodenie
+3 N das Image {Image} [ˈɪmɪtʃ], Images = imidž
+3 N die Akzeptanz {Akzeptanz} [aktsɛpˈtants], - = akceptácia, prijatie
+3 N die Fahrerin {Fahrerin} [ˈfaːʁəʁɪn], Fahrerinnen = vodička
+3 N die Verbraucherin {Ver|braucherin} [fɛɐˈbʁaʊxəʁɪn], Verbraucherinnen = spotrebiteľka
+3 N die Seniorin {Seniorin} [zeˈnioːʁɪn], Seniorinnen = seniorka, dôchodkyňa
+3 N die Journalistin {Journalistin} [ʒʊʁnaˈlɪstɪn], Journalistinnen = novinárka
+3 N die Expertin {Expertin} [ɛksˈpɛʁtɪn], Expertinnen = expertka, odborníčka
+3 N die Kandidatin {Kandidatin} [kandiˈdaːtɪn], Kandidatinnen = kandidátka
+
+@ humans/society-law-politics.txt # state-politics
+3 N der Parteitag {Partei|tag} [paʁˈtaɪtaːk], Parteitage = straníckly zjazd
+3 N der Parteichef {Partei|chef} [paʁˈtaɪʃɛf], Parteichefs = predseda strany
+3 N die Volkspartei {Volks|partei} [ˈfɔlkspaʁtaɪ], Volksparteien = ľudová strana
+3 N der Sozialdemokrat {Sozial|demokrat} [zotsjaːldemoˈkʁaːt], Sozialdemokraten = sociálny demokrat
+3 N der Wahlkreis {Wahl|kreis} [ˈvaːlkʁaɪs], Wahlkreise = volebný obvod
+3 N die Stichwahl {Stich|wahl} [ˈʃtɪçvaːl], Stichwahlen = druhé kolo volieb
+3 N die Wiederwahl {Wieder|wahl} [ˈviːdɐvaːl], - = opätovné zvolenie
+3 N der Koalitionsvertrag {Koalitions|vertrag} [koalɪˈtsjoːnsfɛɐtʁaːk], Koalitionsverträge = koaličná zmluva
+3 N das Außenministerium {Außen|ministerium} [ˈaʊsənminɪsteːʁiʊm], Außenministerien = ministerstvo zahraničných vecí
+3 N das Innenministerium {Innen|ministerium} [ˈɪnənminɪsteːʁiʊm], Innenministerien = ministerstvo vnútra
+3 N das Gesundheitsministerium {Gesundheits|ministerium} [ɡəˈzʊnthaɪtsminɪsteːʁiʊm], Gesundheitsministerien = ministerstvo zdravotníctva
+3 N das Verteidigungsministerium {Verteidigungs|ministerium} [fɛɐˈtaɪdɪɡʊŋsminɪsteːʁiʊm], Verteidigungsministerien = ministerstvo obrany
+3 N der Verteidigungsminister {Verteidigungs|minister} [fɛɐˈtaɪdɪɡʊŋsminɪstɐ], Verteidigungsminister = minister obrany
+3 N die Ministerpräsidentin {Minister|präsidentin} [miˈnɪstɐpʁɛzidɛntɪn], Ministerpräsidentinnen = premiérka, predsedníčka vlády
+3 N das Landesamt {Landes|amt} [ˈlandəsamt], Landesämter = krajinský úrad
+3 N der Gerichtshof {Gerichts|hof} [ɡəˈʁɪçtshoːf], Gerichtshöfe = súdny dvor
+3 N der Untersuchungsausschuss {Untersuchungs|ausschuss} [ʊntɐˈzuːxʊŋsaʊsʃʊs], Untersuchungsausschüsse = vyšetrovací výbor
+3 N der Generalsekretär {General|sekretär} [ɡenəʁaːlzekʁeˈtɛːɐ], Generalsekretäre = generálny tajomník
+3 N der Landeshauptmann {Landes|hauptmann} [ˈlandəshaʊptman], Landeshauptleute = krajinský hajtman
+3 N der Obmann {Obmann} [ˈɔpman], Obmänner = predseda, vedúci
+3 N der Nationalrat {National|rat} [natsjoˈnaːlʁaːt], Nationalräte = Národná rada
+3 N der Mitgliedstaat {Mitglied|staat} [ˈmɪtɡliːtʃtaːt], Mitgliedstaaten = členský štát
+3 N der Bundesstaat {Bundes|staat} [ˈbʊndəsʃtaːt], Bundesstaaten = spolkový štát
+3 N der Beitritt {Bei|tritt} [ˈbaɪtʁɪt], Beitritte = vstup, pristúpenie
+3 N die Neutralität {Neutralität} [nɔʏtʁaliˈtɛːt], - = neutralita
+3 N die Souveränität {Souveränität} [zuveʁɛniˈtɛːt], - = suverenita
+3 N die Kundgebung {Kund|gebung} [ˈkʊntɡeːbʊŋ], Kundgebungen = zhromaždenie, demonštrácia
+3 N die Demo {Demo} [ˈdeːmo], Demos = demonštrácia
+3 N der Appell {Appell} [aˈpɛl], Appelle = výzva, apel
+
+@ humans/society-law-politics.txt # law-justice
+3 N die Streife {Streife} [ˈʃtʁaɪfə], Streifen = hliadka
+3 N der Haftbefehl {Haft|befehl} [ˈhaftbəfeːl], Haftbefehle = zatykač
+3 N die Haftstrafe {Haft|strafe} [ˈhaftʃtʁaːfə], Haftstrafen = trest odňatia slobody
+3 N das Strafverfahren {Straf|verfahren} [ˈʃtʁaːffɛɐfaːʁən], Strafverfahren = trestné konanie
+3 N das Ermittlungsverfahren {Ermittlungs|verfahren} [ɛɐˈmɪtlʊŋsfɛɐfaːʁən], Ermittlungsverfahren = vyšetrovanie, vyšetrovacie konanie
+3 N die Verurteilung {Ver|urteilung} [fɛɐˈʊʁtaɪlʊŋ], Verurteilungen = odsúdenie
+3 N die Fahndung {Fahndung} [ˈfaːndʊŋ], Fahndungen = pátranie
+3 N der/die Beschuldigte {Be|schuldigte} [bəˈʃʊldɪçtə], Beschuldigte = obvinený, obvinená
+3 N die Brandstiftung {Brand|stiftung} [ˈbʁantʃtɪftʊŋ], - = podpaľačstvo
+3 N der Verstoß {Ver|stoß} [fɛɐˈʃtoːs], Verstöße (gegen A) = porušenie
+3 N die Vorschrift {Vor|schrift} [ˈfoːɐʃʁɪft], Vorschriften = predpis
+3 N die Auflage {Auf|lage} [ˈaʊflaːɡə], Auflagen = podmienka, povinnosť
+3 N die Zulassung {Zu|lassung} [ˈtsuːlasʊŋ], Zulassungen = povolenie, schválenie
+3 N die Einhaltung {Ein|haltung} [ˈaɪnhaltʊŋ], - = dodržiavanie
+3 N die Beschränkung {Be|schränkung} [bəˈʃʁɛŋkʊŋ], Beschränkungen = obmedzenie
+3 N der Ausschluss {Aus|schluss} [ˈaʊsʃlʊs], Ausschlüsse = vylúčenie
+3 N die Tötung {Tötung} [ˈtøːtʊŋ], Tötungen = zabitie
+3 N der Nachweis {Nach|weis} [ˈnaːxvaɪs], Nachweise = dôkaz, preukaz
+3 N der Einbruch {Ein|bruch} [ˈaɪnbʁʊx], Einbrüche = vlámanie, prepad
+3 N der Einbrecher {Ein|brecher} [ˈaɪnbʁɛçɐ], Einbrecher = vlamač
+3 N der Sachschaden {Sach|schaden} [ˈzaxʃaːdən], Sachschäden = hmotná škoda
+3 N die Akte {Akte} [ˈaktə], Akten = spis
+3 N das Kennzeichen {Kenn|zeichen} [ˈkɛntsaɪçən], Kennzeichen = značka, poznávacia značka
+3 N der Zutritt {Zu|tritt} [ˈtsuːtʁɪt], - = vstup, prístup
+3 N der Polizeisprecher {Polizei|sprecher} [poliˈtsaɪʃpʁɛçɐ], Polizeisprecher = hovorca polície
+3 N der/die Polizeibeamte {Polizei|beamte} [poliˈtsaɪbəamtə], Polizeibeamte = policajt, príslušník polície
+
+@ humans/society-law-politics.txt # society
+3 N der Alarm {Alarm} [aˈlaʁm], Alarme = poplach, alarm
+3 N die Evakuierung {Evakuierung} [evakuˈiːʁʊŋ], Evakuierungen = evakuácia
+3 N die Entwarnung {Ent|warnung} [ɛntˈvaʁnʊŋ], Entwarnungen = odvolanie poplachu
+3 N die Bergung {Bergung} [ˈbɛʁɡʊŋ], Bergungen = záchrana, vyslobodenie
+3 N der Rettungsdienst {Rettungs|dienst} [ˈʁɛtʊŋsdiːnst], Rettungsdienste = záchranná služba
+
+@ humans/trade-money.txt # money
+2 N das Pfund {Pfund} [pfʊnt], Pfunde = libra, 500 gramov
+3 N der Rubel {Rubel} [ˈʁuːbəl], Rubel = rubeľ
+3 N die Mehrwertsteuer {Mehr|wert|steuer} [ˈmeːɐvɛʁtʃtɔʏɐ], - = daň z pridanej hodnoty, DPH
+3 N die Abgabe {Ab|gabe} [ˈapɡaːbə], Abgaben = odovzdanie, poplatok, dávka
+3 N die Preiserhöhung {Preis|erhöhung} [ˈpʁaɪsɛɐhøːʊŋ], Preiserhöhungen = zvýšenie ceny
+3 N die Mehrkosten {Mehr|kosten} [ˈmeːɐkɔstən], PL = dodatočné náklady
+
+@ humans/trade-money.txt # buying-selling
+3 N der Vorverkauf {Vor|verkauf} [ˈfoːɐfɛɐkaʊf], - = predpredaj
+3 N das Sortiment {Sortiment} [zɔʁtiˈmɛnt], Sortimente = sortiment
+3 N die Zielgruppe {Ziel|gruppe} [ˈtsiːlɡʁʊpə], Zielgruppen = cieľová skupina
+3 N die Vergabe {Ver|gabe} [fɛɐˈɡaːbə], Vergaben = udelenie, pridelenie
+3 N die Lieferkette {Liefer|kette} [ˈliːfɐkɛtə], Lieferketten = dodávateľský reťazec
+
+@ humans/trade-money.txt # places-of-trade
+2 N die Messe {Messe} [ˈmɛsə], Messen = veľtrh
+3 N der Discounter {Discounter} [dɪsˈkaʊntɐ], Discounter = diskont
+
+@ humans/trade-money.txt # economy-finance
+3 N die Insolvenz {Insolvenz} [ɪnzɔlˈvɛnts], Insolvenzen = platobná neschopnosť
+3 N der Ökonom {Ökonom} [økoˈnoːm], Ökonomen = ekonóm
+3 N die Notenbank {Noten|bank} [ˈnoːtənbaŋk], Notenbanken = centrálna banka
+3 N der Leitzins {Leit|zins} [ˈlaɪttsɪns], Leitzinsen = kľúčová úroková sadzba
+3 N die Geldpolitik {Geld|politik} [ˈɡɛltpoliˌtiːk], - = menová politika
+3 N die Rendite {Rendite} [ʁɛnˈdiːtə], Renditen = výnos
+3 N der Erlös {Erlös} [ɛɐˈløːs], Erlöse = výnos, tržba
+3 N der Engpass {Eng|pass} [ˈɛŋpas], Engpässe = nedostatok, úzke miesto
+
+@ humans/religion-custom.txt # religion
+2 N die Messe {Messe} [ˈmɛsə], Messen = omša
+
+@ humans/religion-custom.txt # customs-celebrations
+3 N der Advent {Advent} [atˈvɛnt], - = advent
+3 N die Feierlichkeit {Feier|lich|keit} [ˈfaɪɐlɪçkaɪt], Feierlichkeiten = slávnosť
+
+@ humans/art-entertainment.txt # games-sport
+2 N die Runde {Runde} [ˈʁʊndə], Runden = kolo, kruh
+3 N das Achtelfinale {Achtel|finale} [ˈaxtəlfinaːlə], Achtelfinale = osemfinále
+3 N das Viertelfinale {Viertel|finale} [ˈfɪʁtəlfinaːlə], Viertelfinale = štvrťfinále
+3 N das Endspiel {End|spiel} [ˈɛntʃpiːl], Endspiele = finále
+3 N der Aufsteiger {Auf|steiger} [ˈaʊfʃtaɪɡɐ], Aufsteiger = nováčik, postupujúci
+3 N der Klassenerhalt {Klassen|erhalt} [ˈklasənɛɐhalt], - = záchrana v lige
+3 N das Mittelfeld {Mittel|feld} [ˈmɪtəlfɛlt], Mittelfelder = stred poľa, stredné pole
+3 N der Mittelfeldspieler {Mittelfeld|spieler} [ˈmɪtəlfɛltʃpiːlɐ], Mittelfeldspieler = stredopoliar
+3 N der Innenverteidiger {Innen|verteidiger} [ˈɪnənfɛɐtaɪdɪɡɐ], Innenverteidiger = stredný obranca
+3 N die Defensive {Defensive} [defɛnˈziːvə], Defensiven = obrana
+3 N der Neuzugang {Neu|zugang} [ˈnɔʏtsuːɡaŋ], Neuzugänge = nová posila
+3 N der Pfosten {Pfosten} [ˈpfɔstən], Pfosten = tyč, stĺp
+3 N das Hinspiel {Hin|spiel} [ˈhɪnʃpiːl], Hinspiele = prvý zápas
+3 N das Rückspiel {Rück|spiel} [ˈʁʏkʃpiːl], Rückspiele = odveta
+3 N die Rückrunde {Rück|runde} [ˈʁʏkʁʊndə], Rückrunden = odvetné kolo, jarná časť sezóny
+3 N das Testspiel {Test|spiel} [ˈtɛstʃpiːl], Testspiele = prípravný zápas
+3 N das Auswärtsspiel {Auswärts|spiel} [ˈaʊsvɛʁtsʃpiːl], Auswärtsspiele = zápas vonku
+3 N die Gruppenphase {Gruppen|phase} [ˈɡʁʊpənfaːzə], Gruppenphasen = základná skupina
+3 N die Nachspielzeit {Nach|spiel|zeit} [ˈnaːxʃpiːltsaɪt], Nachspielzeiten = nadstavený čas
+3 N die Schlussphase {Schluss|phase} [ˈʃlʊsfaːzə], Schlussphasen = záver zápasu
+3 N der Anpfiff {An|pfiff} [ˈanpfɪf], Anpfiffe = výkop, začiatok zápasu
+3 N der Freistoß {Frei|stoß} [ˈfʁaɪʃtoːs], Freistöße = priamy kop
+3 N die Flanke {Flanke} [ˈflaŋkə], Flanken = centr
+3 N der Konter {Konter} [ˈkɔntɐ], Konter = protiútok
+3 N das Remis {Remis} [ʁəˈmiː], Remis = remíza
+3 N das Unentschieden {Un|ent|schieden} [ˈʊnɛntʃiːdən], Unentschieden = remíza
+3 N der Cheftrainer {Chef|trainer} [ˈʃɛftʁɛːnɐ], Cheftrainer = hlavný tréner
+3 N der Bundestrainer {Bundes|trainer} [ˈbʊndəstʁɛːnɐ], Bundestrainer = tréner národného tímu
+3 N der Sportdirektor {Sport|direktor} [ˈʃpɔʁtdiʁɛktoːɐ], Sportdirektoren = športový riaditeľ
+3 N der Teamkollege {Team|kollege} [ˈtiːmkɔleːɡə], Teamkollegen = spoluhráč
+3 N die Tribüne {Tribüne} [tʁiˈbyːnə], Tribünen = tribúna
+3 N das Trainingslager {Trainings|lager} [ˈtʁɛːnɪŋslaːɡɐ], Trainingslager = sústredenie
+3 N die Winterpause {Winter|pause} [ˈvɪntɐpaʊzə], Winterpausen = zimná prestávka
+3 N die Sommerpause {Sommer|pause} [ˈzɔmɐpaʊzə], Sommerpausen = letná prestávka
+3 N die Auszeit {Aus|zeit} [ˈaʊstsaɪt], Auszeiten = oddychový čas, prestávka
+3 N der Startschuss {Start|schuss} [ˈʃtaʁtʃʊs], Startschüsse = štartový výstrel, začiatok
+3 N das Debüt {Debüt} [deˈbyː], Debüts = debut
+3 N der Tabellenführer {Tabellen|führer} [taˈbɛlənfyːʁɐ], Tabellenführer = líder tabuľky
+3 N der Titelverteidiger {Titel|verteidiger} [ˈtiːtəlfɛɐtaɪdɪɡɐ], Titelverteidiger = obhajca titulu
+3 N der Rekordmeister {Rekord|meister} [ʁeˈkɔʁtmaɪstɐ], Rekordmeister = rekordný majster
+2 N der Favorit {Favorit} [favoˈʁiːt], Favoriten = favorit
+3 N das Schlusslicht {Schluss|licht} [ˈʃlʊslɪçt], Schlusslichter = posledné miesto, chvost tabuľky
+3 N der Triumph {Triumph} [tʁiˈʊmf], Triumphe = triumf
+3 N der Jubel {Jubel} [ˈjuːbəl], - = jasot
+3 N der Spielraum {Spiel|raum} [ˈʃpiːlʁaʊm], Spielräume = priestor, manévrovací priestor
+3 N das Duo {Duo} [ˈduːo], Duos = duo
+
+@ humans/art-entertainment.txt # music
+3 N das Trio {Trio} [ˈtʁiːo], Trios = trio
+2 N der Song {Song} [sɔŋ], Songs = pieseň
+3 N der Rapper {Rapper} [ˈʁɛpɐ], Rapper = raper
+
+@ humans/art-entertainment.txt # performance-literature
+3 N die Inszenierung {Inszenierung} [ɪnstseˈniːʁʊŋ], Inszenierungen = inscenácia
+3 N die Kulisse {Kulisse} [kuˈlɪsə], Kulissen = kulisa
+3 N die Regie {Regie} [ʁeˈʒiː], - = réžia
+3 N die Dreharbeiten {Dreh|arbeiten} [ˈdʁeːaʁbaɪtn̩], PL = natáčanie
+3 N die Episode {Episode} [epiˈzoːdə], Episoden = epizóda
+3 N die Schau {Schau} [ʃaʊ], Schauen = prehliadka, šou
+3 N das Spektakel {Spektakel} [ʃpɛkˈtaːkəl], Spektakel = predstavenie, rámus
+
+@ humans/art-entertainment.txt # art-general
+3 N das Original {Original} [oʁiɡiˈnaːl], Originale = originál
+3 N das Logo {Logo} [ˈloːɡo], Logos = logo
+
+@ humans/language-communication.txt # speaking
+2 N das Argument {Argument} [aʁɡuˈmɛnt], Argumente = argument
+2 N der Vortrag {Vor|trag} [ˈfoːɐtʁaːk], Vorträge = prednáška
+3 N die Ansprache {An|sprache} [ˈanʃpʁaːxə], Ansprachen = príhovor
+3 N das Telefonat {Telefonat} [telefoˈnaːt], Telefonate = telefonát
+3 N der Verweis {Ver|weis} [fɛɐˈvaɪs], Verweise = odkaz, napomenutie
+
+@ humans/language-communication.txt # language-writing
+2 N der Zettel {Zettel} [ˈtsɛtəl], Zettel = lístok, papierik
+3 N die Unterlage {Unter|lage} [ˈʊntɐlaːɡə], Unterlagen = podložka, doklady
+
+@ humans/language-communication.txt # media-news
+3 N der Verlag {Verlag} [fɛɐˈlaːk], Verlage = vydavateľstvo
+3 N der Rundfunk {Rund|funk} [ˈʁʊntfʊŋk], - = rozhlas, vysielanie
+3 N der Reporter {Reporter} [ʁeˈpɔʁtɐ], Reporter = reportér
+3 N die Übertragung {Über|tragung} [yːbɐˈtʁaːɡʊŋ], Übertragungen = prenos, vysielanie
+3 N die Edition {Edition} [ediˈtsjoːn], Editionen = vydanie
+
+@ humans/technology.txt # machines-devices
+3 N das Display {Display} [dɪsˈpleɪ], Displays = displej
+3 N die Box {Box} [bɔks], Boxen = škatuľa, reproduktor
+3 N die Lupe {Lupe} [ˈluːpə], Lupen = lupa
+
+@ humans/technology.txt # electricity-energy
+3 N die Energieversorgung {Energie|versorgung} [enɛʁˈɡiːfɛɐzɔʁɡʊŋ], - = zásobovanie energiou
+3 N die Stromversorgung {Strom|versorgung} [ˈʃtʁoːmfɛɐzɔʁɡʊŋ], - = zásobovanie elektrinou
+3 N der Energieversorger {Energie|versorger} [enɛʁˈɡiːfɛɐzɔʁɡɐ], Energieversorger = dodávateľ energie
+3 N die Kilowattstunde {Kilowatt|stunde} [kiloˈvatʃtʊndə], Kilowattstunden = kilowatthodina
+3 N das Watt {Watt} [vat], Watt = watt
+3 N die Atomkraft {Atom|kraft} [aˈtoːmkʁaft], - = jadrová energia
+3 N das Windrad {Wind|rad} [ˈvɪntʁaːt], Windräder = veterná turbína
+
+@ humans/technology.txt # computing-communication-devices
+3 N das Portal {Portal} [pɔʁˈtaːl], Portale = portál
+3 N die Internetseite {Internet|seite} [ˈɪntɐnɛtzaɪtə], Internetseiten = internetová stránka
+3 N der Download {Download} [ˈdaʊnloːt], Downloads = stiahnutie
+
+@ humans/war-military.txt # weapons-fortification
+3 N die Atomwaffe {Atom|waffe} [aˈtoːmvafə], Atomwaffen = jadrová zbraň
+
+@ humans/war-military.txt # war-peace
+3 N die Attacke {Attacke} [aˈtakə], Attacken = útok
+3 N der Wiederaufbau {Wieder|aufbau} [ˈviːdɐaʊfbaʊ], - = obnova
+
+@ humans/health-medicine.txt # health-illness
+2 N die Lebensgefahr {Lebens|gefahr} [ˈleːbənsɡəfaːɐ], - = ohrozenie života
+3 N der Stich {Stich} [ʃtɪç], Stiche = bodnutie, vpich
+
+@ humans/health-medicine.txt # medical-people-places
+3 N das Spital {Spital} [ʃpiˈtaːl], Spitäler = nemocnica
+3 N die Pflegekraft {Pflege|kraft} [ˈpfleːɡəkʁaft], Pflegekräfte = ošetrovateľ, zdravotná sestra
+2 N die Krankenkasse {Kranken|kasse} [ˈkʁaŋkənkasə], Krankenkassen = zdravotná poisťovňa
+3 N das Gesundheitswesen {Gesundheits|wesen} [ɡəˈzʊnthaɪtsveːzən], - = zdravotníctvo
+3 N der/die Genesene {Genesene} [ɡəˈneːzənə], Genesene = uzdravený, uzdravená
+
+@ humans/health-medicine.txt # hygiene-substances
+3 N das Cannabis {Cannabis} [ˈkanabɪs], - = konope, marihuana
+
+@ humans/home-dwelling.txt # building-parts
+2 N die Mauer {Mauer} [ˈmaʊɐ], Mauern = múr
+3 N das Mehrfamilienhaus {Mehr|familien|haus} [ˈmeːɐfamiːliənhaʊs], Mehrfamilienhäuser = bytový dom
+3 N das Anwesen {An|wesen} [ˈanveːzən], Anwesen = usadlosť, pozemok
+2 N das Heim {Heim} [haɪm], Heime = domov, ústav
+
+@ humans/home-dwelling.txt # rooms
+3 N die Kammer {Kammer} [ˈkamɐ], Kammern = komora, izbieta
+
+@ humans/home-dwelling.txt # household-objects
+3 N der Kasten {Kasten} [ˈkastən], Kästen = skriňa, debna, schránka
+
+@ humans/home-dwelling.txt # household-actions
+2 N der Umzug {Um|zug} [ˈʊmtsuːk], Umzüge = sťahovanie, sprievod
+
+@ humans/settlement-city.txt # buildings
+2 N die Burg {Burg} [bʊʁk], Burgen = hrad
+
+@ humans/settlement-city.txt # streets-places
+2 N der Gehweg {Geh|weg} [ˈɡeːveːk], Gehwege = chodník
+
+@ humans/settlement-city.txt # settlements
+2 N das Nachbarland {Nachbar|land} [ˈnaxbaːɐlant], Nachbarländer = susedná krajina
+3 N die Heimatstadt {Heimat|stadt} [ˈhaɪmatʃtat], Heimatstädte = rodné mesto
+3 N das Heimatland {Heimat|land} [ˈhaɪmatlant], Heimatländer = rodná krajina, domovina
+3 N die Hafenstadt {Hafen|stadt} [ˈhaːfənʃtat], Hafenstädte = prístavné mesto
+
+@ humans/settlement-city.txt # city-life
+2 N das Freibad {Frei|bad} [ˈfʁaɪbaːt], Freibäder = letné kúpalisko
+
+@ humans/transport-travel.txt # vehicles
+3 N der Transporter {Transporter} [tʁansˈpɔʁtɐ], Transporter = dodávka
+
+@ humans/transport-travel.txt # vehicle-parts
+3 N das Heck {Heck} [hɛk], Hecks = zadná časť, korma
+
+@ humans/transport-travel.txt # infrastructure
+2 N die Landstraße {Land|straße} [ˈlantʃtʁaːsə], Landstraßen = cesta mimo mesta, vedľajšia cesta
+2 N die Schiene {Schiene} [ˈʃiːnə], Schienen = koľajnica
+3 N die Anschlussstelle {Anschluss|stelle} [ˈanʃlʊsʃtɛlə], Anschlussstellen = nájazd, výjazd z diaľnice
+3 N der Nahverkehr {Nah|verkehr} [ˈnaːfɛɐkeːɐ], - = miestna doprava
+3 N die Sperrung {Sperrung} [ˈʃpɛʁʊŋ], Sperrungen = uzávera
+
+@ humans/transport-travel.txt # travel
+2 N die Unterkunft {Unter|kunft} [ˈʊntɐkʊnft], Unterkünfte = ubytovanie
+3 N die Unterbringung {Unter|bringung} [ˈʊntɐbʁɪŋʊŋ], - = ubytovanie, umiestnenie
+3 N das Quartier {Quartier} [kvaʁˈtiːɐ], Quartiere = ubytovanie, štvrť
+2 N das Zelt {Zelt} [tsɛlt], Zelte = stan
+3 N das Camp {Camp} [kɛmp], Camps = tábor
+3 N die Einreise {Ein|reise} [ˈaɪnʁaɪzə], Einreisen = vstup do krajiny
+3 N der Umstieg {Um|stieg} [ˈʊmʃtiːk], Umstiege = prestup
+3 N der Verkehrsteilnehmer {Verkehrs|teilnehmer} [fɛɐˈkeːɐstaɪlneːmɐ], Verkehrsteilnehmer = účastník cestnej premávky
+3 N der Einzug {Ein|zug} [ˈaɪntsuːk], Einzüge = vstup, nasťahovanie
+
+@ humans/agriculture.txt # livestock-keeping
+3 N der Reiter {Reiter} [ˈʁaɪtɐ], Reiter = jazdec
+
+@ life/animals.txt # animal-general
+3 N der Vierbeiner {Vier|beiner} [ˈfiːɐbaɪnɐ], Vierbeiner = štvornožec
+
+@ life/plants.txt # plant-parts
+2 N die Frucht {Frucht} [fʁʊxt], Früchte = plod, ovocie
+
+@ cognitive/emotion.txt # expressions
+3 N der Frust {Frust} [fʁʊst], - = frustrácia
+3 N der Unmut {Unmut} [ˈʊnmuːt], - = nevôľa
+3 N die Vorfreude {Vor|freude} [ˈfoːɐfʁɔʏdə], - = radosť z očakávania
+3 N die Wucht {Wucht} [vʊxt], - = sila, náraz
+
+@ cognitive/emotion.txt # basic-feelings
+2 N die Achtung {Achtung} [ˈaxtʊŋ], - = úcta, pozor
+3 N das Pech {Pech} [pɛç], - = smola
+
+@ cognitive/will-character.txt # will-intent
+2 N das Bedürfnis {Be|dürfnis} [bəˈdʏʁfnɪs], Bedürfnisse = potreba
+3 N die Moral {Moral} [moˈʁaːl], - = morálka
+3 N die Kreativität {Kreativität} [kʁeativiˈtɛːt], - = kreativita
+3 N die Orientierung {Orientierung} [oʁiɛnˈtiːʁʊŋ], - = orientácia
+3 N die Auffassung {Auf|fassung} [ˈaʊffasʊŋ], Auffassungen = názor, chápanie
+3 N der Verzicht {Ver|zicht} [fɛɐˈtsɪçt], - (auf A) = vzdanie sa
+
+@ cognitive/mind-thought.txt # thinking
+3 N die Vision {Vision} [viˈzjoːn], Visionen = vízia
+3 N der Kontext {Kontext} [ˈkɔntɛkst], Kontexte = kontext
+3 N die Expertise {Expertise} [ɛkspɛʁˈtiːzə], Expertisen = odborné posúdenie, odborné znalosti
+3 N die Tendenz {Tendenz} [tɛnˈdɛnts], Tendenzen = tendencia
+
+@ cognitive/mind-thought.txt # problems
+3 N die Hürde {Hürde} [ˈhʏʁdə], Hürden = prekážka
+3 N der Rückschlag {Rück|schlag} [ˈʁʏkʃlaːk], Rückschläge = neúspech, krok späť
+3 N die Affäre {Affäre} [aˈfɛːʁə], Affären = aféra
+3 N die Mühe {Mühe} [ˈmyːə], Mühen = námaha, úsilie
+
+@ abstract/relation-change.txt # change-events
+2 N die Tat {Tat} [taːt], Taten = čin, skutok
+2 N das Phänomen {Phänomen} [fɛnoˈmeːn], Phänomene = jav, fenomén
+2 N der Übergang {Über|gang} [ˈyːbɐɡaŋ], Übergänge = prechod
+3 N der Durchbruch {Durch|bruch} [ˈdʊʁçbʁʊx], Durchbrüche = prielom
+3 N der Meilenstein {Meilen|stein} [ˈmaɪlənʃtaɪn], Meilensteine = míľnik
+3 N der Neustart {Neu|start} [ˈnɔʏʃtaʁt], Neustarts = nový začiatok, reštart
+3 N der Anlauf {An|lauf} [ˈanlaʊf], Anläufe = rozbeh, pokus
+3 N der Vorstoß {Vor|stoß} [ˈfoːɐʃtoːs], Vorstöße = iniciatíva, výpad
+3 N das Resultat {Resultat} [ʁezʊlˈtaːt], Resultate = výsledok
+3 N der Ernstfall {Ernst|fall} [ˈɛʁnstfal], Ernstfälle = vážny prípad
+3 N der Einzelfall {Einzel|fall} [ˈaɪntsəlfal], Einzelfälle = ojedinelý prípad
+2 N die Angelegenheit {Angelegen|heit} [ˈanɡəleːɡənhaɪt], Angelegenheiten = vec, záležitosť
+3 N der Vorgang {Vor|gang} [ˈfoːɐɡaŋ], Vorgänge = proces, dej
+3 N der Zusammenhalt {Zusammen|halt} [tsuˈzamənhalt], - = súdržnosť
+3 N die Dynamik {Dynamik} [dyˈnaːmɪk], - = dynamika
+3 N der Ausfall {Aus|fall} [ˈaʊsfal], Ausfälle = výpadok, zrušenie
+3 N die Verzögerung {Ver|zögerung} [fɛɐˈtsøːɡəʁʊŋ], Verzögerungen = oneskorenie
+3 N der Wegfall {Weg|fall} [ˈvɛkfal], - = zánik, vynechanie
+3 N die Aufhebung {Auf|hebung} [ˈaʊfheːbʊŋ], Aufhebungen = zrušenie
+3 N der Abbruch {Ab|bruch} [ˈapbʁʊx], Abbrüche = prerušenie, zbúranie
+3 N die Übernahme {Über|nahme} [ˈyːbɐnaːmə], Übernahmen = prevzatie
+3 N die Schließung {Schließung} [ˈʃliːsʊŋ], Schließungen = zatvorenie
+3 N die Weiterentwicklung {Weiter|entwicklung} [ˈvaɪtɐɛntvɪklʊŋ], Weiterentwicklungen = ďalší vývoj
+3 N die Gestaltung {Ge|staltung} [ɡəˈʃtaltʊŋ], - = tvorba, stvárnenie
+3 N die Erhebung {Er|hebung} [ɛɐˈheːbʊŋ], Erhebungen = prieskum, vyvýšenina
+3 N die Aufarbeitung {Auf|arbeitung} [ˈaʊfaʁbaɪtʊŋ], - = spracovanie, vyrovnanie sa s minulosťou
+3 N die Sicherung {Sicherung} [ˈzɪçəʁʊŋ], Sicherungen = zabezpečenie, poistka
+3 N die Absicherung {Ab|sicherung} [ˈapzɪçəʁʊŋ], Absicherungen = zabezpečenie
+3 N die Gefährdung {Ge|fährdung} [ɡəˈfɛːɐdʊŋ], Gefährdungen = ohrozenie
+
+@ abstract/relation-change.txt # action-and-use
+3 N die Stärkung {Stärkung} [ˈʃtɛʁkʊŋ], Stärkungen = posilnenie
+3 N die Verstärkung {Ver|stärkung} [fɛɐˈʃtɛʁkʊŋ], Verstärkungen = posila, zosilnenie
+3 N die Ausrichtung {Aus|richtung} [ˈaʊsʁɪçtʊŋ], Ausrichtungen = zameranie, organizácia
+3 N die Verteilung {Ver|teilung} [fɛɐˈtaɪlʊŋ], Verteilungen = rozdelenie, distribúcia
+
+@ abstract/relation-change.txt # existence-being
+2 N die Wirklichkeit {Wirklich|keit} [ˈvɪʁklɪçkaɪt], - = skutočnosť, realita
+3 N die Normalität {Normalität} [nɔʁmaliˈtɛːt], - = normálnosť
+3 N die Verfügbarkeit {Verfüg|bar|keit} [fɛɐˈfyːkbaːɐkaɪt], - = dostupnosť
+3 N das Objekt {Objekt} [ɔpˈjɛkt], Objekte = objekt, predmet
+2 N die Eigenschaft {Eigen|schaft} [ˈaɪɡənʃaft], Eigenschaften = vlastnosť
+
+@ abstract/relation-change.txt # relations
+3 N der Abbau {Ab|bau} [ˈapbaʊ], - = zníženie, odstraňovanie, ťažba
+3 N der Abzug {Ab|zug} [ˈaptsuːk], Abzüge = odpočet, odchod
+
+@ abstract/quantity-number.txt # amount
+3 N das Fünftel {Fünf|tel} [ˈfʏnftəl], Fünftel = pätina
+3 N der Zuwachs {Zu|wachs} [ˈtsuːvaks], - = prírastok, nárast
+3 N die Senkung {Senkung} [ˈzɛŋkʊŋ], Senkungen = zníženie
+3 N die Anhebung {An|hebung} [ˈanheːbʊŋ], Anhebungen = zvýšenie
+3 N die Ausweitung {Aus|weitung} [ˈaʊsvaɪtʊŋ], Ausweitungen = rozšírenie
+3 N die Reserve {Reserve} [ʁeˈzɛʁvə], Reserven = rezerva, zásoba
+3 N die Gesamtzahl {Gesamt|zahl} [ɡəˈzamtsaːl], Gesamtzahlen = celkový počet
+3 N der Höchstwert {Höchst|wert} [ˈhøːçstveːɐt], Höchstwerte = maximálna hodnota
+
+@ abstract/quantity-number.txt # counting-measuring
+3 N der Kubikmeter {Kubik|meter} [kuˈbiːkmeːtɐ], Kubikmeter = kubický meter
+
+@ abstract/shape-form.txt # shapes
+2 N der Strich {Strich} [ʃtʁɪç], Striche = čiara, čiarka
+2 N die Scheibe {Scheibe} [ˈʃaɪbə], Scheiben = plátok, tabuľa, kotúč
+3 N der Stock {Stock} [ʃtɔk], Stöcke = palica, prút
+
+@ abstract/time.txt # months
+3 N der Jänner {Jänner} [ˈjɛnɐ], - = január
+
+@ abstract/time.txt # relative-time
+3 N die Vorwoche {Vor|woche} [ˈfoːɐvɔxə], Vorwochen = predchádzajúci týždeň
+3 N der Vormonat {Vor|monat} [ˈfoːɐmoːnat], Vormonate = predchádzajúci mesiac
+3 N die Laufzeit {Lauf|zeit} [ˈlaʊftsaɪt], Laufzeiten = trvanie, platnosť
+3 N die Kürze {Kürze} [ˈkʏʁtsə], - = krátkosť, stručnosť
+
+@ abstract/time.txt # day-parts-and-week
+3 N die Morgenstunde {Morgen|stunde} [ˈmɔʁɡənʃtʊndə], Morgenstunden = ranná hodina
+
+@ abstract/space-position.txt # direction-distance
+3 N der Nordosten {Nord|osten} [nɔʁtˈɔstən], - = severovýchod
+3 N der Südwesten {Süd|westen} [zyːtˈvɛstən], - = juhozápad
+
+@ natural-world/weather-climate.txt # weather
+3 N der Starkregen {Stark|regen} [ˈʃtaʁkʁeːɡən], - = silný dážď
+3 N die Tagestemperatur {Tages|temperatur} [ˈtaːɡəstɛmpəʁatuːɐ], Tagestemperaturen = denná teplota
+
+@ natural-world/matter-energy.txt # energy-forces
+3 N die Emission {Emission} [emɪˈsjoːn], Emissionen = emisia

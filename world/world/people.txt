@@ -1,0 +1,20 @@
+# PEOPLE (tools/world.py): what a person can be like (TRAIT: adjectives) and what one may like or not (TASTE kind:
+# nouns, or verbs for what one does) -- the cast (cast.txt) and the stories' people take theirs from here.
+TRAIT priateľský | usilovný | lenivý | trpezlivý | netrpezlivý | zvedavý | pokojný | zábavný | vážny | poriadny
+TRAIT ochotný_pomôcť | zdvorilý | nesmelý | odvážny | bojazlivý | veselý | nervózny | športový | múdry | úprimný
+TASTE food : káva | čaj | koláč | čokoláda | ovocie | zelenina | ryba | mäso | polievka | pizza | syr | chlieb | ľad | šalát | šťava | mlieko
+TASTE weather : dážď | sneh | slnko | vietor | horúčava | chlad | zima | leto | jeseň | jar
+TASTE animal : pes | mačka | kôň | vták
+TASTE thing : hudba | kvetina | kniha | film | noviny
+TASTE activity : čítať | variť | piecť | tancovať | plávať | putovať | spievať | maľovať | fotografovať | cestovať | spať | bežať | pozerať_televíziu | telefonovať | chytať_ryby
+# how a trait SHOWS in what one does: the manner of her steps (Vorsichtig legte sie ...) -- each an adverb whose
+# grammar.txt list manner.<adverb> says the verbs it goes with
+SHOWS trpezlivý : pomalý | opatrný
+SHOWS pokojný : pomalý
+SHOWS poriadny : opatrný
+SHOWS bojazlivý : opatrný
+SHOWS netrpezlivý : rýchly
+SHOWS nervózny : rýchly
+SHOWS usilovný : rýchly
+SHOWS nesmelý : tichý_(nehlučný)
+SHOWS vážny : sústredený

@@ -1,0 +1,22 @@
+# HOUSEHOLD conditions: cooking, cleaning the house, garden and farm actions
+V pripraviť (jedlo) : needs hladný
+V grilovať : needs hladný
+V opražiť : needs hladný
+V dusiť : needs hladný
+V fritovať : needs hladný
+V variť do mäkka : needs hladný ; gives A:hotový
+V priviesť do varu : needs A:studený ; gives A:horúci
+V naliať : needs A:prázdny ; gives A:plný
+V piknikovať : needs chuť čas
+V umyť : needs A:špinavý ; gives A:čistý
+V kefovať : needs A:špinavý ; gives A:čistý
+V kúriť : needs A:studený ; gives A:teplý
+V zamknúť : gives A:zatvorený
+V prenajať : gives peniaze
+V liať : needs A:suchý ; gives A:mokrý
+V poliať : needs A:suchý ; gives A:mokrý
+V zavlažovať : needs A:suchý ; gives A:mokrý
+V žať : needs A:zrelý ; gives has:A
+V pásť sa : needs hladný
+V pásť (sa) : needs hladný
+V chytať ryby : needs čas chuť

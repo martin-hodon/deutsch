@@ -1,0 +1,574 @@
+V preukázať : person > recipient {úrad|pokrm|polícia|úrad|banka|prenajímateľ}, patient {nevinnosť|identita|príjem|vek}
+V preukázať : {polícia|pokrm|prokuratúra|úrad} > recipient {zlodej|páchateľ|podozrivý|obžalovaný|muž|žena|úradník|vrah}, patient {vina|nevinnosť}
+N prerušenie : event
+N nálada : feeling
+V predpovedať : person > patient {počasie|dážď|búrka|víchor|budúcnosť|výsledok}
+N stanovisko : information
+AN pochybný : idea, information, problem, event
+N rada : information
+N záležitosť : idea
+N poznámka : information
+N vysvetlenie : information
+AN vtipný : person, creative-work, information
+V trvať (na niečom) : person > basis {názor|požiadavka (žiadanie)|právo|plán|stanovisko|rozhodnutie}
+N súhlas : information
+V hovoriť : person > companion person, topic person
+V hovoriť : person > companion person, topic {počasie|politika|šport|cesta (cestovanie)|dovolenka|plán|problém|téma|vojna}
+V hovoriť : person > patient {jazyk (reč)|materinský jazyk|cudzí jazyk|nárečie|slang|nemčina}
+N jazyk (reč) : language
+N rozhovor : activity
+N hovorca : professional
+N výrok : information
+V sľúbiť : person > recipient person -professional, patient {pomoc|peniaze|vernosť|podpora}
+V sľúbiť : person > recipient person, that
+V sľúbiť : person > recipient person, inf.subj
+N sľub : information
+V vysloviť : person > patient {slovo|meno|písmeno|veta}
+V vysloviť : person > patient {želanie|varovanie|zákaz|pozvanie}
+N výslovnosť : quality
+V prebrať : person > patient {problém|plán|téma|projekt|otázka|výsledok}, companion person
+V protirečiť : person > recipient person -{zúčastnený}
+V protirečiť : person > recipient {tvrdenie|tvrdenie|návrh|teória|názor}
+N rozpor : idea
+N materinský jazyk : language
+N cudzí jazyk : language
+AN dvojjazyčný : person, text ; attr
+AN bez slov : person
+N hovorkyňa : professional
+V osloviť : person > patient person -professional
+V osloviť : person > patient {problém|téma|chýr}
+V povedať : person > recipient person, patient {pravda|meno|názor|odpoveď|dôvod}
+V povedať : person > recipient person -{obeť}, that
+V povedať : person > recipient person, bare {úradné rozhodnutie}
+N tvrdenie : information
+V odrecitovať : person > patient text
+V odrecitovať : person > patient {báseň|výrok|pieseň|citát}
+N prísľub : information
+V rozprávať : person > recipient person -professional, patient {príbeh|vtip|rozprávka|klamstvo|tajomstvo|novinka}
+V rozprávať : person > topic {cesta (cestovanie)|dovolenka|nehoda|vojna|svadba|slávnosť}
+V rozprávať : person > topic person -professional
+V rozprávať : person > topic settlement
+V rozprávať : person > topic country
+V rozprávať : person > topic landscape
+V rozprávať : person > topic {more|jazero|rieka}
+V rozprávať : person > topic {zámok|hrad|kostol|veža|dom|škola}
+V rozprávať : person > topic {film|kniha|sen}
+N rozprávač : role
+V rozprávať sa : person > companion person
+V rozprávať sa : person > topic {počasie|politika|šport|cesta (cestovanie)|dovolenka|plán|problém|téma|vojna}
+V rozprávať sa : person > topic person
+N reč : creative-work
+N rečník : professional
+V prehovoriť : person > patient person, inf
+V vyhovoriť : person > recipient person, patient {plán|nápad|cesta (cestovanie)|zámer}
+V vyhovoriť : person
+N rčenie : writing
+AN výrečný : person
+N dialóg : activity
+N monológ : activity
+N hlas : sound
+V byť správny : {správa (oznam)|odpoveď|tvrdenie|tvrdenie|údaj|účet (na zaplatenie)|číslo (matematické)|súčet|suma|počet}
+V byť správny : person -child > purpose {zákon|reforma|žiadosť|návrh|plán|úprava|zákaz}
+V byť správny : person -child > purpose {kandidát|kandidátka|starosta|prezident|prezidentka}
+V byť správny : person -child > purpose {politická strana|vláda|koalícia}
+V súhlasiť : person > recipient person
+V súhlasiť : person > recipient {návrh|plán|nápad|názor|rozhodnutie}
+N prízvuk : quality
+V kričať : person > cause {strach|zlosť|bolesť|radosť|panika|hrôza|zúfalstvo|hlad|smútok}
+V kričať : {vták|papagáj|havran|čajka|orol|sova|kohút} > cause {strach|bolesť|hlad}
+N výkrik : sound
+V kričať na : person -professional > patient relative
+V kričať na : person -professional > patient {priateľ|priateľka|dieťa|chlapec|dievča|tínedžer|muž|žena|kolega|kolegyňa|sused|susedka}
+V šepkať : person > recipient person, patient {tajomstvo|slovo|meno|modlitba|želanie}
+V šepkať : person
+V volať : person > patient person -professional
+V volať : person > patient {lekár|čašník|policajt|učiteľ}
+V volať : {dieťa|matka|otec|muž|žena|chlapec|dievča|syn|dcéra|priateľ|priateľka} > theme person -professional
+V volať : person > theme {lekár|čašník}
+V volať : {vták|sova|kukučka|kohút|papagáj|havran|vrana|čajka}
+V zavolať : person > patient relative
+V zavolať : person > patient {priateľ|priateľka|kolega|kolegyňa|sused|susedka|známy|lekár|učiteľ}
+V zavolať : person > patient {firma|polícia|banka|škola|hotel|úrad|hasiči|kancelária}
+N telefonát : event
+N apel : information
+V vyhlásiť : agent > patient {výsledok|rozsudok|víťazstvo|rozhodnutie|uznesenie|správa (oznam)}
+V vyhlásiť : agent > that
+N zvolanie : information
+V vyzvať (k vystúpeniu) : {učiteľ|učiteľka|profesor} > patient {žiak|žiačka|študent|študentka}
+V vyzvať (k vystúpeniu) : {moderátor|moderátorka|rebrík|vedúca|hovorca} > patient {kandidát|účastník|svedok|svedkyňa}
+V pýtať sa : person > patient person
+V pýtať sa : person > patient person, whether
+V pýtať sa : person > theme person
+V pýtať sa : person > theme road
+V pýtať sa : person > theme {cena|meno|čas (na hodinách)|dôvod|adresa|telefónne číslo}
+V pýtať sa : person > theme {izba|vlak|autobus|toaleta|stanica|kľúč}
+N otázka : problem
+N dotaz : information
+V spýtať sa : person > location {úrad|úrad|polícia|banka|firma|škola|starosta|starostka|priateľ|priateľka|sused|susedka|kolega|kolegyňa|učiteľ|učiteľka|lekár}
+V vypytovať sa : {policajt|policajtka|novinár|novinárka|sudca|sudkyňa|vyšetrovateľ|advokát|reportér|komisár} > patient {svedok|svedkyňa|sused|susedka|okoloidúci|obyvateľ|muž|žena|občan}, inf
+N otáznik : writing
+N odpoveď : information
+V odpovedať : person > recipient person
+V odpovedať : person > theme {otázka|list (písomnosť)|správa (oznam)|pozvanie|telefonát}
+V odpovedať na : person > patient {otázka|list (písomnosť)|správa (oznam)|pozvanie|telefonát}
+N debata : activity, attendable
+V debatovať : person > topic {problém|otázka|téma|plán|reforma}, companion person
+V debatovať : person > topic rule, companion person
+V hádať sa : person > companion person -professional -infant, topic {problém|peniaze|otázka|plán|politika}
+V hádať sa : {syn|dcéra|dieťa|chlapec|dievča|tínedžer} > companion {rodičia|otec|matka|stará mama|starý otec|dedko|babka}, topic {vreckové}
+V hádať sa : person -child > companion person -professional -infant, topic {nájom|plat|mzda|dedič|dlhy}
+V popierať : person -professional > patient {vina|pravda|chyba|zločin}
+V popierať : person > that
+N priznanie : information
+V vysvetliť : person > recipient person -professional, patient {pravidlo|zákon|zákaz|úprava|gramatika|hra}
+V vysvetliť : person > recipient person -professional, patient {problém|úloha|nápad|cesta (komunikácia)|dôvod|rozdiel (odlišnosť)}
+V vysvetliť : person > recipient person -professional, that
+V spomenúť : person > patient person
+V spomenúť : person > patient {meno|problém|nehoda|stretnutie|cesta (cestovanie)|dôvod|slávnosť}
+V spomenúť : person > patient settlement
+V spomenúť : person > patient country
+V spomenúť : person > that
+N zmienka : information
+V opakovať : person > patient {slovo|veta|otázka|meno|tvrdenie}
+V opakovať : person -professional > patient {skúška|kurz|pokus|cvičenie|rok}
+V vyjadriť : person > patient {názor|želanie|kritika|podozrenie|nápad|pochybnosť}
+V vyjadriť : person > patient {radosť|zlosť|strach|smútok|starosť|vďaka}
+N výraz : writing
+AN výslovný : information, rule, idea ; attr
+V avizovať : agent > patient {návšteva|štrajk|cesta (cestovanie)|odstúpenie|skúška|koncert}
+V avizovať : agent > patient celebration
+V avizovať : agent > that
+N ohlásenie : information
+V varovať : person > patient person, cause {nebezpečenstvo|podvod|riziko|chyba}
+V varovať : person > patient person, cause illness
+V varovať : person > patient person, cause crime
+V varovať : person > patient person, cause {víchor|búrka|horúčava|chlad|hmla}
+V varovať : person > patient person, that
+N varovanie : information
+V navrhnúť (ponúknuť) : person > recipient person, patient {plán|nápad|riešenie|termín|stretnutie|hra|výlet}
+V navrhnúť (ponúknuť) : person > recipient person, that
+V navrhnúť (ponúknuť) : person > recipient person, inf
+N návrh : idea
+V presvedčiť : person > patient person, topic {nápad|plán|výhoda|pravda|návrh}
+V presvedčiť : person > patient person -child, topic {kvalita|hodnota|sila|potenciál|úžitok}
+V presvedčiť : person > patient person -child, topic ability
+V presvedčiť : ability > patient person -child -professional -{páchateľ}
+V presvedčiť : {kvalita|výkon|ponuka} > patient person -professional -child -{páchateľ}
+V presvedčiť : {nápad|plán|návrh|dôkaz} > patient person -professional -child
+V presvedčiť : {film|reč|pieseň|báseň} > patient person -professional -child
+N sťažnosť : information
+V prisahať : person > basis being
+V prisahať : person > basis text
+V prisahať : person > that
+V klamať : person
+N klamstvo : information
+N luhár : role
+N klebety : information
+N vtip : creative-work
+V uraziť : {muž|žena|chlapec|dievča|priateľ|priateľka|dieťa|tínedžer|sused|susedka|kolega|brat|sestra|matka|otec|rodičia} > patient {muž|žena|chlapec|dievča|priateľ|priateľka|dieťa|tínedžer|sused|susedka|kolega|brat|sestra|matka|otec|rodičia}
+N urážka : information
+AN urazený : person
+V chváliť : person > patient person, purpose {práca|pomoc|výkon|nápad|odvaha}
+V chváliť : person > patient {herec|herečka|spevák|speváčka|autor|autorka|umelec|umelkyňa}, purpose {film|reč|pieseň|báseň|kniha}
+V chváliť : person > patient {film|reč|pieseň|báseň|kniha}
+N chvála : information
+V obviniť : person > patient person, topic crime
+N obvinenie : information
+N komentár : text
+V komentovať : person > patient game
+V komentovať : person > patient {film|reč|obraz|kniha}
+V komentovať : person > patient {zákon|pravidlo|úprava|reforma|zákaz}
+V komentovať : person > patient {situácia|poloha|rozhodnutie|problém}
+V prosiť : person > patient person, theme {pomoc|pokoj|trpezlivosť|povolenie|rada}
+V prosiť : {dieťa|syn|dcéra|priateľ|priateľka|brat|sestra|žobrák|študent} > patient {otec|matka|rodičia|priateľ|priateľka|brat|sestra|strýko|teta}, theme {peniaze|milodar|úver}
+V prosiť : person > patient person, theme {informácia|odpoveď|informácia|termín}
+V prosiť : person > theme {pomoc|pokoj|trpezlivosť|povolenie|rada}
+V prosiť : person > theme {peniaze|milodar|úver}
+V prosiť : person > theme {informácia|odpoveď|informácia|termín}
+V prosiť : person > patient person, inf
+N prosba : activity
+V požadovať : person > patient {plat|mzda}, source {firma|šéf|zamestnávateľ}
+V požadovať : person > patient {peniaze|odškodnenie}, source {firma|poistenie|štát}
+V požadovať : {učiteľ|učiteľka|šéf|otec|matka|tréner|manažér} > patient {rešpekt|poslušnosť}, source {dieťa|žiak|žiačka|spolupracovník|spolupracovníčka|syn|dcéra}
+V požadovať : {dôstojník|veliteľ} > patient {rešpekt|poslušnosť}, source {vojak}
+V požadovať : person > patient {odpoveď|pomoc}, source person -professional -infant
+V požadovať : {politická strana|opozícia|odbory|politik|občan|demonštrant} > patient {odstúpenie|sloboda|spravodlivosť|mier}, source {vláda|minister|štát}
+V požadovať : {politická strana|opozícia|odbory|politik|občan|demonštrant} > patient {zákon|zákaz|pravidlo|úprava|reforma|zmena}, source {vláda|minister|štát}
+N požiadavka (žiadanie) : information
+N požiadavka (kritérium) : information
+V vyzvať (požiadať) : agent -institution > patient person, inf
+V vyzvať (požiadať) : {firma|banka|úrad|prenajímateľ|veriteľ|predavač|podnikateľ} > patient person, inf
+N výzva (požiadanie) : information
+V vyprovokovať : person > patient person -professional -child
+N výzva (problém) : problem
+V pozostávať : artifact -text -picture -money -document > source material
+V pozostávať : building > source {drevo|kameň|betón|tehla|sklenica|kov}
+V pozostávať : {trieda|škola} > source {žiak|dieťa|dievča|chlapec}
+V pozostávať : {tím|mužstvo} > source {hráč|muž|žena|člen}
+V pozostávať : {rodina|skupina|ľud|spolok} > source {člen|dieťa|muž|žena|rodičia}
+V pozostávať : {zbor|orchester|väzivo} > source {spevák|hudobník|člen}
+V pozostávať : {firma|obec|politická strana|vláda} > source {člen|spolupracovník|občan|minister}
+V pozostávať : {slovo|abeceda} > source {písmeno}
+V pozostávať : {veta} > source {slovo}
+V pozostávať : person > basis rule
+V pozostávať : person > basis {názor|právo|požiadavka (žiadanie)|plán|rozhodnutie}
+V pozostávať : person -professional -infant > patient {skúška|test|dobrodružstvo}
+V prerušiť : person > patient {práca|cesta (cestovanie)|rozhovor|zasadnutie|hra|vyučovanie|reč}
+V prerušiť : person > patient person -professional
+V informovať : person > topic {nehoda|vojna|cesta (cestovanie)|stretnutie|problém|hra|voľba}
+V informovať : person > topic crime
+V informovať : person > topic {nehoda|vojna|cesta (cestovanie)|stretnutie|problém|hra}
+V informovať : person > topic person
+N informácia : information
+V komunikovať : agent > companion agent
+N komunikácia : activity
+N kontakt : relation
+V kontaktovať : agent -{priemysel|stádo} > patient person
+V kontaktovať : agent -{priemysel|stádo} > patient {firma|úrad|oddelenie (útvar)|polícia|škola|banka|médiá|redakcia|vydavateľstvo|spolok}
+V vyhrážať sa : {šéf|otec|matka|učiteľ|učiteľka} > recipient {dieťa|syn|dcéra|žiak|žiačka|chlapec|dievča|spolupracovník|spolupracovníčka|obžalovaný}, instrument {trest|výpoveď|pomsta}
+V vyhrážať sa : {odbory|robotník} > recipient {firma|podnik|vláda|zamestnávateľ}, instrument {štrajk}
+V vyhrážať sa : {štát|vláda|prezident|vodca} > recipient {štát|krajina (štát)|sused|vláda}, instrument {vojna|násilie}
+V vyhrážať sa : {zbojník|zlodej|páchateľ|muž|zločinec} > recipient {muž|žena|dieťa|chlapec|dievča|okoloidúci|predavač|predavačka|obeť}, instrument {pištoľ|nôž|puška|zbraň}
+V vyhrážať sa : {nebezpečenstvo|trest|vojna|štrajk|chaos} > recipient agent
+V vyhrážať sa : {víchor|búrka|povodeň|horúčava} > recipient agent
+V vyhrážať sa : illness > recipient agent
+AN hrozivý : animal, phenomenon, state, event
+V citovať : person > patient {veta|výrok|citát|odsek|verš}, source {kniha|biblia|list (písomnosť)|reč|báseň|článok|zmluva}
+V citovať : person > patient {autor|autorka|básnik|filozof|profesor|expert|politik|kancelár|prezident|svedok|svedkyňa}
+N citát : information
+N téma : idea
+V potvrdiť : agent > patient {termín|správa (oznam)|chýr|podozrenie|rezervácia|výsledok}
+V potvrdiť : {polícia|vláda|úrad|firma|hovorca|hovorkyňa|lekár|svedok} > that
+N potvrdenie : information
+V tvrdiť : person > patient {opak|nevinnosť|pravda}
+V tvrdiť : person > that
+V zdôrazniť : person > patient {význam|výhoda|rozdiel (odlišnosť)|plán|želanie}
+V zdôrazniť : person > patient {kvalita|sila|hodnota|schopnosť|talent}
+V zdôrazniť : person > that
+N dôraz : quality
+V kritizovať : person -{kráľ|kráľovná} > patient person, purpose {práca|správanie|chyba|rozhodnutie|výkon}
+V kritizovať : person > patient {herec|herečka|spevák|speváčka|autor|autorka|umelec|umelkyňa}, purpose {film|kniha|reč|pieseň}
+V kritizovať : {politik|starosta|kancelár|minister|expert|advokát|novinár|profesor|politická strana|opozícia|odbory|obväz} > patient {zákon|pravidlo|nariadenie|predpis|zákaz|určenie|reforma|úprava}
+V kritizovať : person > patient {plán|nápad|rozhodnutie|politika|návrh}
+V kritizovať : person > patient {film|kniha|reč|pieseň|báseň}
+V kritizovať : person > patient {hra}
+N kritika : information
+N kritik : professional
+AN kritický : person, information, state
+N poradenstvo : activity
+N poradca : professional
+V koktať : person
+V nadávať : person > opponent {šéf|sused|susedka|kolega|kolegyňa|učiteľ|politik|rozhodca}
+V nadávať : person > opponent {vláda|zdravotná poisťovňa|obec|mesto|polícia|banka|firma|škola|úrad}
+V nadávať : person > opponent {zákon|pravidlo|nariadenie|predpis|zákaz}
+V nadávať : person > opponent {počasie|doprava|politika|cena|daň}
+V nadávať : person > companion {dieťa|syn|dcéra|žiak|žiačka|chlapec|dievča|priateľ|priateľka|partner|partnerka|muž|žena|sused|susedka}
+V urážať : person > patient person -professional
+N nadávka : writing
+V chváliť sa : person > instrument ability
+V chváliť sa : person > instrument money
+V chváliť sa : person > instrument thing
+V chváliť sa : person > instrument person
+N kompliment : information
+V úpenlivo prosiť : person > theme {milosť|pomoc|život|mier}
+N gesto : activity
+N chýr : information
+N anekdota : creative-work
+AN výstižný : information, language
+AN plynulý : language, liquid, phenomenon
+V odkázať : person > theme text
+V odkázať : person > theme {zákon|pravidlo|predpis|zmluva}
+V odkázať : {advokát|sudca|úradník|policajt|učiteľ|šéf|hovorca|hovorkyňa} > theme {zmluva|zákon|preukaz|listina|vysvedčenie|dokument}
+V odporučiť : {čašník|kuchár|predavač|priateľ|priateľka|matka|otec|muž|žena} > recipient person, patient dish
+V odporučiť : {čašník|kuchár|predavač|priateľ|priateľka|matka|otec|muž|žena} > recipient person -child, patient {víno|pivo|čaj|káva|syr|koláč}
+V odporučiť : person -professional > recipient person, patient shop -{stánok}
+V odporučiť : person -professional > recipient person, patient {kniha|román|noviny|časopis|detektívka}
+V odporučiť : person -professional > recipient person, patient {reštaurácia|hotel|kaviareň|múzeum|pláž}
+V odporučiť : person > recipient person, inf
+V diskutovať : person -{kráľ|vrah|princ|princezná|kráľovná} > topic {problém|otázka|plán|nápad|téma|reforma}, companion person -{princ|princezná|kráľ|kráľovná}
+V diskutovať : person -{kráľ|vrah|princ|princezná|kráľovná} > topic {zákon|pravidlo|zákaz}, companion person -{princ|princezná|kráľ|kráľovná}
+N diskusia : activity, attendable
+V konfrontovať : person > patient person -infant, instrument {problém|výčitka|fakt|pravda|chyba|dôkaz}
+V konfrontovať : person > patient person -infant, instrument crime
+V požiadať o : person -professional > patient {vízum|pas|preukaz|vodičský preukaz|povolenie|povolenie|štipendium}
+V požiadať o : person -professional > patient {peniaze|úver|dôchodok|dovolenka|pomoc}
+V požiadať o : {firma|spolok|obec|ústav|úrad|politická strana|škola} > patient {povolenie|povolenie|úver|pomoc}
+N odporúčanie : information
+N vyjadrenie : information
+N prieskum : activity
+N zobrazenie : information
+N slovo : writing
+N slovná zásoba : writing
+N príslovie : writing
+N fráza : writing
+N meno : writing
+V nazvať : person > patient person -{zúčastnený}, as {hrdina|luhár|zbabelec|génius|priateľ|zradca|anjel}
+V nazvať : person > patient {dôvod|meno|číslo (matematické)|príklad|cena|dátum}
+N krstné meno : writing
+N priezvisko : writing
+N prezývka : writing
+V znamenať : {slovo|znak|symbol|štít} > patient {nebezpečenstvo|pokoj|sloboda|mier}
+V znamenať : {štrajk|vojna|nehoda|sneh} > patient {chaos|zápcha|meškanie|nebezpečenstvo|stres}
+V znamenať : {chudoba|choroba} > patient {utrpenie|núdza|stres}
+V znamenať : {mier} > patient {pokoj|bezpečnosť|šťastie}
+V znamenať : {sloboda} > patient {šťastie|bezpečnosť}
+N význam : quality
+V naznačiť : person > patient {plán|nápad|odstúpenie|úmysel|želanie}
+V naznačiť : person > patient {problém|ťažkosť|nebezpečenstvo}
+V naznačiť : person > that
+N náznak : information
+V preložiť : person > patient text, result language -{gramatika}
+N preklad : text
+N prekladateľ : professional
+V písať : person > patient {list (písomnosť)|text|slohová práca|poznámka|denník (zápisky)|pohľadnica|e-mail}
+V písať : person -child > patient {román|kniha|článok|správa (o udalosti)|učebnica|kapitola|komentár|návod|zhrnutie}
+V písať : person > recipient person -professional, patient {list (písomnosť)|pohľadnica|e-mail|poznámka|papierik|správa (oznam)}
+V písať : person > recipient person
+N písmo : writing
+V zapísať : person > patient {nápad|plán|adresa|telefónne číslo|recept|báseň|slovo|meno}
+V odpísať : {žiak|žiačka|študent|študentka|dieťa|chlapec|dievča} > patient {text|úloha|odpoveď|riešenie|veta|domáca úloha}, source {priateľ|priateľka|sused|dieťa|chlapec|dievča}
+V opísať : person -professional > patient person -professional
+V opísať : person > patient {mesto|dedina|ostrov|pláž|miesto (v priestore)|cesta (cestovanie)}
+V opísať : person > patient {obraz|fotka|auto|dom|izba|cesta (komunikácia)|zviera|pes|mačka}
+V opísať : person > patient {nehoda|incident|incident|nešťastie}
+N opis : information
+V podpísať : person -child > patient {list (písomnosť)|zmluva|formulár|papierik|žiadosť|vysvedčenie|šek|pohľadnica|listina|zápisnica}
+N podpis : writing, document
+N nadpis : writing
+N rukopis (písmo) : writing
+N typ písma : writing
+N pravopis : rule
+N guľôčkové pero : tool
+V čítať : person -{hostiteľ|pomocník} > patient text
+N čitateľ (osoba) : role
+N autorské čítanie : event, attendable
+V čítať nahlas : person > recipient person, patient {list (písomnosť)|kniha|noviny|text|rozprávka|báseň|príbeh|článok}
+N lektúra : text
+AN nečitateľný : text, language
+N text : text
+N odsek : writing
+N kapitola : writing
+N názov : writing
+N podtitul : writing
+N slohová práca : text
+V zhrnúť : person -{zúčastnený} > patient {text|článok|správa (o udalosti)|kniha|reč|príbeh|list (písomnosť)|slohová práca}
+V zhrnúť : person > patient {výsledok|rozhovor|príbeh|reč}
+N zhrnutie : text
+N znak : writing
+V označiť : person > patient person -professional, as {hrdina|luhár|zbabelec|génius|priateľ|zradca|expert|idiot}
+V označiť : person > patient {plán|rozhodnutie|hra|nápad}, as {chyba|úspech|problém|katastrofa}
+N označenie : writing
+N interpunkčné znamienko : writing
+N symbol : writing
+AN symbolický : writing, idea, activity ; attr
+N čiarka : writing
+V poznamenať si : person > patient {meno|adresa|telefónne číslo|termín|nápad}
+N zoznam : text
+N list (písomnosť) : text, foldable, openable
+N poštová známka : artifact, thing
+N poštár : professional
+N obálka : container, openable
+N pošta : institution, text
+N pohľadnica : text
+N poštový úrad : building, enterable
+N PSČ : information
+N pero (písacie) : tool
+N ceruzka : tool
+N pastelka : tool
+N atrament : liquid
+N krieda : material
+N papier : paper, foldable, cuttable, burnable ; mass
+N zošit : text, openable
+N dokument : text
+V zdokumentovať : person > patient incident
+V zdokumentovať : person > patient crime
+V zdokumentovať : person > patient {výsledok|prípad|priebeh|nález}
+N dokumentácia : text
+N štítok : artifact, thing
+N kópia : artifact, thing
+V kopírovať : person > patient {text|list (písomnosť)|strana|dokument|článok|správa (o udalosti)|papierik}
+V kopírovať : person > patient picture
+N kniha : text, openable
+N písmeno : writing
+V hláskovať : person > patient {slovo|meno|adresa}
+N slovník : text, openable
+N denník (zápisky) : text, openable
+N zápisník : text, openable
+N kníhkupectvo : shop, enterable
+N sloveso : writing
+N podstatné meno : writing
+N prídavné meno : writing
+N množné číslo : writing
+N predpona : writing
+N prípona : writing
+N synonymum : writing
+N antonymum : writing
+N nárečie : language
+N slang : language
+N abeceda : writing
+AN abecedný : language, text
+N slabika : writing
+N samohláska : writing
+N spoluhláska : writing
+N gramatika : language
+N interpunkcia : writing
+N spojovník : writing
+N zátvorka : writing
+N skratka : writing
+N kaligrafia : activity
+V podčiarknuť : person > patient {slovo|veta|meno|názov}
+V podčiarknuť : person > patient {význam|dôležitosť|nevyhnutnosť|bod|tvrdenie|výhoda}
+N značenie : writing
+N register : text
+N koncept : text
+V prepracovať : {autor|autorka|novinár|novinárka|redaktor|prekladateľ|učiteľ|učiteľka|študent} > patient text
+V prepracovať : {advokát|šéf|spolupracovník|úradník} > patient {zmluva|správa (o udalosti)|žiadosť|formulár|životopis}
+N prepracovanie : activity
+N rukopis (text) : text
+V tlmočiť : person
+N tlmočník : professional
+N telegram : text
+N nemčina : language ; bare
+N správa (oznam) : information
+N správy : information
+N noviny : text, foldable
+N časopis : text
+N článok : text
+N správa (o udalosti) : text
+N spravodajstvo : activity
+N médiá : institution
+N tlač : institution
+N tlačová konferencia : event, attendable
+N interview : activity
+V robiť rozhovor : person > patient person
+N plagát : picture, hangable
+N kanál : water-body
+V zverejniť : {autor|autorka|vydavateľstvo|novinár|novinárka|noviny|spisovateľ|vedec} > patient {kniha|román|článok|správa (o udalosti)|slohová práca|učebnica|štúdia|denník (zápisky)|komentár}
+V zverejniť : {autor|autorka|básnik|spevák|speváčka|hudobník|umelec|umelkyňa|fotograf|vydavateľstvo|noviny|časopis} > patient {pieseň|báseň|fotka|obraz}
+V zverejniť : {výskumník|vedec|ústav|úrad|vláda} > patient {výsledok}
+N zverejnenie : activity
+N redaktor : professional
+N redakcia : institution
+N novinár : professional
+N žurnalistika : activity
+N slogan : writing
+N motto : writing
+N titulok : text
+N memorandum : text
+N leták : text, foldable
+N brožúra : text, foldable
+N katalóg : text
+V oznámiť : person > recipient agent, patient {výsledok|rozhodnutie|správa (oznam)|termín|meno|novinka}
+V oznámiť : {úrad|firma|polícia|vláda|škola|obec} > recipient person, patient {výsledok|rozhodnutie|správa (oznam)|termín|novinka}
+V oznámiť : person > recipient agent, that
+V oznámiť : {úrad|firma|polícia|vláda|škola|obec} > recipient person, that
+N oznámenie : information
+N údaj : information
+N spravodajská agentúra : institution
+N tlačová správa : text
+N moderátor : professional
+N moderátorka : professional
+N štúdio : room, enterable
+N príhovor : information
+N úradné rozhodnutie : document
+N vydanie : text
+N záznam : writing
+N poslucháč : person
+N novinárka : professional
+N škatuľka : container, openable, fillable
+N nezhoda : event
+N somarina : information
+N rozhlasová stanica : institution
+N odôvodnenie : information
+N reportáž : creative-work
+N rozhlas : institution
+N denník (noviny) : text, foldable
+N výtržnosť : activity
+N vydavateľstvo : institution
+N dorozumenie : activity
+N výsledok volieb : information
+N reklamný spot : creative-work
+V predpísať : {lekár|zubár|veterinár} > recipient person -professional, patient {liek|tabletka|okuliare|masť}
+# added: stimmen in its second sense
+V ladiť : person > patient instrument +playable
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN bezkontaktný : {platba|karta|kontrola|teplomer|doručenie}
+AN jazykový : {kurz|škola|schopnosť|zručnosť|chyba|pobyt}
+AN komunikatívny : person, -child, {jazyk (reč)|metóda|zručnosť}
+AN mediálny : information, institution, {správa (oznam)|kampaň|pozornosť|vplyv}
+AN menovitý : {hlasovanie|zoznam|rozkaz}, quantity ; attr
+AN multimediálny : software, device, {prezentácia|obsah|učebňa|výstava}
+AN nemý : person, beast, {film|svedok|zvuk} ; pred
+AN neprehľadný : place, road, problem, text, {systém|situácia}
+AN nesporný : information, idea, {fakt|dôkaz|úspech|pravda|výhoda}
+AN nevysvetliteľný : phenomenon, incident, event, feeling, {záhada|tajomstvo}
+AN novinársky : professional, activity, text, {článok|práca|etika|otázka}
+AN prehľadný : text, picture, software, room, {tabuľka|plán|systém|zoznam|mapa}
+AN písomný : text, document, {skúška|odpoveď|žiadosť|úloha|súhlas}
+AN tematický : {zoznam|oblasť|plán|večer|park}
+AN verbálny : {útok|komunikácia|spor|súhlas|zručnosť}
+AN čitateľný : text, writing, {písmo}
+V adresovať : person > patient {list (písomnosť)|otázka|žiadosť|balík|kritika|pozdrav}, recipient person
+V apelovať : person > recipient {verejnosť|vláda|občan|zamestnanec|rodič}, that
+V argumentovať : person > opponent person, basis {fakt|dôkaz|zákon|skúsenosť}
+V brániť sa : person > opponent {obvinenie|kritika|útok|útočník (agresor)}
+V dementovať : person > patient {správa (oznam)|informácia|obvinenie|tvrdenie}
+V diktovať : person > patient {text|list (písomnosť)|správa (oznam)|číslo (poradové)|adresa}, recipient person
+V dištancovať sa : person > source {názor|čin|násilie|tvrdenie|obvinenie}
+V frflať : person
+V hlasovať : person > purpose {návrh|zákon|kandidát|strana}
+V ilustrovať : person > patient {kniha|text|príklad|článok|príbeh}, instrument picture
+V kolovať : {správa (oznam)|informácia|list (písomnosť)|peniaze|vírus}
+V kolportovať : person > patient {správa (oznam)|informácia}
+V konštatovať : person > patient {fakt|pokles|zmena|chyba|rozdiel (odlišnosť)}
+V konštatovať : person > patient {fakt|pokles|zmena|chyba|rozdiel (odlišnosť)}
+V mlčať : person
+V moderovať : person > patient {diskusia|program|koncert|večer|oslava}
+V naladiť na : person > patient device, goal {stanica|program|kanál}
+V naladiť sa : person > goal {nálada|úloha|práca|výkon}
+V napomínať : person > patient person, topic {správanie|chyba|hluk|meškanie}
+V odmietať : person > patient {ponuka|pomoc|žiadosť|návrh|pozvanie|jedlo|zodpovednosť}
+V odmietať : person > inf
+V odoprieť : person > recipient person, patient {pomoc|prístup|právo|vstup|žiadosť|prosba}
+V oponovať : person > opponent {názor|návrh|argument|tvrdenie|učiteľ|vláda}
+V osloviť písomne : person > patient {úrad|firma|škola|banka}
+V pomenovať : person > patient {dieťa|pes|mačka|ulica|dieťa|loď|objav}, as {meno}
+V postnúť : person > patient {fotka|obrázok|správa (oznam)|komentár|video|príspevok}
+V prediskutovať : person > patient {problém|plán|situácia|návrh|téma|otázka}, companion person
+V predpisovať : person > patient {liek|diéta|pravidlo|postup|liečba}, recipient person
+V preťažovať : person > patient {systém|sieť (počítačová)|server|kapacita|zamestnanec|kôň}
+V privolať : person > patient {lekár|polícia|taxík|sanitka|pomoc|hasič}
+V publikovať : person > patient {kniha|článok|štúdia|fotka|báseň|výsledok|správa (oznam)}
+V signalizovať : person > patient {problém|zmena|súhlas|odpor|nebezpečenstvo}, recipient person
+V signalizovať : device > patient {chyba|porucha|problém|nebezpečenstvo}
+V skúmať : person > patient {prípad|problém|vzorka|príčina|dôkaz}
+V spochybniť : person > patient {tvrdenie|rozhodnutie|výsledok|autorita|dôkaz|názor|pravda}
+V streamovať : person > patient {film|koncert|zápas|hra|hudba|video}
+V ubezpečovať : person > recipient person, that
+V upovedomiť : person > patient person, topic {zmena|nehoda|výsledok|termín|rozhodnutie}
+V uviesť na trh : person > patient {výrobok|tovar}
+V uviesť na trh : institution > patient {výrobok|tovar}
+V verejne odsúdiť : person > patient {násilie|útok|krádež|vojna|rasizmus|zločin}
+V verejne odsúdiť : person > patient person
+V vylákať : person > patient {peniaze|tajomstvo|priznanie|informácia}, source person
+V vylíčiť : person > recipient person, patient {udalosť|nehoda|zážitok|príbeh}
+V vymáhať : institution > patient {zákon|pokuta|poplatok|právo}
+V vymáhať : professional > patient {zákon|pokuta|poplatok|právo}
+V vypovedať : person > recipient {polícia|sudca}, that
+V vypovedať : person > topic {nehoda|zločin|udalosť}
+V vypísať : person > patient document
+V vytknúť : person > recipient person, patient {chyba|omyl|nedostatok}
+V vytýkať : person > recipient person, patient {chyba|omyl|nedostatok}
+V vytýkať : person > recipient person, that
+V vyčísliť : person > patient {škoda|náklady|strata|cena|výsledok}
+V vyžadovať : person > patient {pomoc|pozornosť|pravda|odpoveď|poriadok}
+V vyžadovať : institution > patient {pomoc|pozornosť|pravda|odpoveď|poriadok}
+V vyžiadať si : person > patient {pomoc|pozornosť|odpoveď|informácia|peniaze}, source person
+V zahladiť : person > patient {stopa|dôkaz|chyba|zločin}
+V zamlčať : person > recipient person, patient {pravda|chyba|informácia|tajomstvo}
+V zasadzovať sa : person > purpose {mier|sloboda|pravda|spravodlivosť|ochrana|reforma}
+V zasadzovať sa : person > purpose person
+V zlyhať : person
+V zlyhať : {plán|projekt|pokus|systém|stroj}
+V zľahčovať : person > patient {problém|nebezpečenstvo|chyba|situácia|škoda}

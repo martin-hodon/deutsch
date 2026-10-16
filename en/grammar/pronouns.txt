@@ -1,0 +1,55 @@
+# personal
+1 P I {I} [aɪ] = ja
+1 P you {you} [juː] = ty
+1 P he {he} [hiː] = on
+1 P she {she} [ʃiː] = ona
+1 P it {it} [ɪt] = ono
+1 P we {we} [wiː] = my
+1 P you {you} [juː] = vy (neformálne množné číslo)
+1 P you {you} [juː] = vy (zdvorilé oslovenie)
+# possessive
+1 P my {my} [maɪ] = môj
+1 P your {your} [jɔː] = tvoj
+1 P his {his} [hɪz] = jeho
+1 P her {her} [hɜː] = jej
+1 P our {our} [ˈaʊə] = náš
+1 P your {your} [jɔː] = váš (neformálne)
+1 P your {your} [jɔː] = Váš (zdvorilé oslovenie)
+# reflexive-and-reciprocal
+1 P oneself {oneself} [wʌnˈself] = sa (zvratné zámeno)
+1 P myself {myself} [maɪˈself] = sám
+1 P each other {each other} [ˈiːtʃ ˈʌðə] = navzájom
+# demonstrative
+1 P this {this} [ðɪs] = tento
+1 AV this time {this time} [ðɪs ˈtaɪm] = tentoraz
+1 P that {that} [ðæt] = tamten
+1 P such {such} [sʌtʃ] = taký
+1 PHR such a {such a} [sʌtʃ ə] = taký
+1 P these {these} [ðiːz] = tento
+1 P those {those} [ðəʊz] = tamten
+# interrogative-and-relative
+1 P who {who} [huː] = kto
+1 P what {what} [wɒt] = čo
+1 P which {which} [wɪtʃ] = ktorý
+1 PHR what kind of {what kind of} [wɒt ˈkaɪnd əv] = aký
+# indefinite
+1 P one {one} [wʌn] = sa (neurčitý podmet)
+1 P you {you} [juː] = sa (neurčitý podmet)
+1 P somebody {somebody} [ˈsʌmbədɪ] = niekto
+1 P someone {someone} [ˈsʌmwʌn] = niekto
+1 P nobody {nobody} [ˈnəʊbədɪ] = nikto
+1 P everybody {everybody} [ˈevrɪbɒdɪ] = každý človek
+1 P some {some} [sʌm] = niektorý
+1 P both {both} [bəʊθ] = obaja
+1 P any {any} [ˈenɪ] = akýkoľvek
+2 P several {several} [ˈsevərəl] = niekoľkí
+1 PHR a bit {a bit} [ə ˈbɪt] = trochu
+1 P no {no} [nəʊ] = žiadny
+1 P everyone {everyone} [ˈevrɪwʌn] = každý človek
+1 PHR a little {a little} [ə ˈlɪtəl] = trochu
+
+# language-specific closed words (no Slovak word: a description)
+1 P they {they} [ðeɪ] = oni
+1 P their {their} [ðeə] = ich
+1 P anyone {anyone} [ˈenɪwʌn] = ktokoľvek
+1 P whose {whose} [huːz] = čí

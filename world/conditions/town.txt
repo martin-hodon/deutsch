@@ -1,0 +1,32 @@
+# TOWN group: money, trade, transport, travel, building
+V predať : gives peniaze
+V inkasovať : gives peniaze
+V zaplatiť : needs peniaze
+V minúť (peniaze) : needs peniaze
+V dovoliť si : needs peniaze ; gives has:A
+V prenajať si : needs peniaze ; gives has:A
+V vrátiť peniaze : needs peniaze
+V investovať : needs peniaze
+V darovať (na dobročinnosť) : needs peniaze
+V financovať : needs peniaze
+V previesť : needs peniaze
+V vybrať z účtu : gives peniaze
+V márniť : needs peniaze ; gives chudobný
+V schudobnieť : gives chudobný
+V žobrať : needs chudobný ; gives peniaze
+V poistiť : needs strach
+V vymeniť : needs A:pokazený ; gives A:celý
+V nastúpiť (do vozidla) : needs has:cestovný_lístok
+V parkovať : needs has:auto
+V tankovať : needs A:prázdny ; gives A:plný
+V cestovať : needs dovolenka peniaze
+V odcestovať : needs dovolenka
+V zarezervovať : needs dovolenka ; gives has:A
+V prezrieť si : needs čas zvedavý
+V dochádzať : needs práca
+V veslovať : needs zdravý ; gives unavený
+V odtiahnuť : needs A:pokazený
+V mať nehodu : gives zranený
+V renovovať : needs A:pokazený ; gives A:celý
+V zbúrať : needs A:pokazený
+V znečistiť : needs A:čistý ; gives A:špinavý

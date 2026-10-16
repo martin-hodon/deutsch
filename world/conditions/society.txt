@@ -1,0 +1,28 @@
+# SOCIETY: conditions for verbs of law, politics and war
+V kradnúť : gives has:A
+V lúpiť : gives has:A
+V okradnúť : needs chudobný
+V podvádzať : gives peniaze
+V vydierať : gives peniaze
+V podplatiť : needs peniaze
+V zdediť : gives peniaze
+V uniesť : gives has:A
+V vraždiť : needs zúrivý
+V bojovať : needs zúrivý silný ; gives unavený
+V zaútočiť : needs zúrivý ; gives unavený
+V zvíťaziť : needs silný ; gives rád
+V kapitulovať : needs slabý strach
+V dobyť : needs silný ; gives has:A
+V obsadiť : needs silný ; gives has:A
+V pochodovať : needs zdravý ; gives unavený
+V hliadkovať : needs bdelý ; gives unavený
+V strážiť : needs bdelý ; gives unavený
+V sabotovať : needs zúrivý
+V ozbrojiť : gives pripravený
+V protestovať : needs zúrivý
+V demonštrovať : needs zúrivý
+V sťažovať sa : needs zúrivý smutný
+V zažalovať : needs zúrivý
+V angažovať sa : needs čas
+V zorganizovať : needs peniaze čas
+V ohrozovať : needs zúrivý

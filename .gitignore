@@ -1,0 +1,9 @@
+# GENERATED, rebuilt by one command each (DESIGN.md): not committed
+*/listen.bin
+*/listen.json
+# ^ the listening templates: gjs -m tools/listen_templates.js LANG (8-12 MB a language)
+# (dict.tsv, order.tsv and offline.json -- the 4 KB file list of the offline copy, python3 tools/offline.py -- ARE committed: dict.tsv is the compiled dictionary the pages read -- python3 tools/words.py LANG
+#  --compile, tools/compile.py for German --, order.tsv ranks the words by corpora that are not in the repository)
+__pycache__/
+*.pyc
+.tmp*

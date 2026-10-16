@@ -1,0 +1,291 @@
+# posture
+V stáť (v stoji)
+V vstať
+V zastaviť sa
+V stáť v rade
+V prestáť
+V byť isté
+V blížiť sa
+V stáť tam
+V vystáť
+V byť pripravený
+V sedieť
+V sadnúť si
+N sedadlo
+V ležať
+V byť k dispozícii
+V podľahnúť
+V ležať v minulosti
+V kľačať
+V pokľaknúť
+V opierať
+V oprieť sa dozadu
+N operadlo
+V uklonit sa
+V skrčiť sa
+V čupieť
+V vystrieť
+N trať
+V rozprestierať sa
+V balansovať
+N rovnováha
+V vzpriamiť
+AN vzpriamený
+V rozvaliť sa
+PHR chodiť po špičkách
+
+# locomotion
+V skákať
+N skok
+V vyskočiť
+V preskočiť
+V liezť
+V plaziť sa
+V liezť po štyroch
+V plávať
+N plavec
+V potápať sa
+V vynoriť sa
+V ponoriť sa
+N potápač
+V ponoriť (sa)
+V lietať
+V odletieť
+V preletieť
+N letec
+V kráčať
+N krok
+V vykračovať
+V prekročiť
+V putovať
+N túra
+N pešký turista
+V odsťahovať sa
+V prisťahovať sa
+V loviť
+N poľovačka
+V zahnať
+V ujsť
+V kĺzať sa
+V pošmyknúť sa
+V zošmyknúť sa
+AN šmykľavý
+N šmykľavka
+V gúľať sa
+V zrolovať
+V poskakovať
+V krívať
+V potknúť sa
+V šprintovať
+N šprint
+N šprintér
+V behať
+V prechádzať sa
+N prechádzka
+V korzovať
+V potácať sa
+V ustúpiť
+V uhnúť
+V odchýliť sa
+N odchýlka
+V unikať
+V cválať
+N cval
+V brodiť sa
+V plížiť sa
+V votrieť sa
+V vtrhnúť
+N útočník (v športe)
+V dobyť útokom
+V klusať
+N klus
+V bežať
+V vypršať
+V zablúdiť
+V tápať
+V svišťať
+V váľať
+
+# manipulation
+V držať
+V pridržať
+V zadržať
+N držanie tela
+AN trvanlivý
+V chytiť
+V chopiť
+V zasiahnuť
+N zásah
+V zobrať si
+V siahnuť (po)
+V podchytiť
+AN hmatateľný
+V niesť
+V zniesť
+V znášať
+N nosič
+AN prenosný
+V prispieť
+AN prenositeľný
+AN nosný
+V dvíhať
+V zodvihnúť
+V zdvihnúť
+V nadvihnúť
+V hodiť
+N hod
+V vyhodiť
+V zhodiť
+V vyčítať
+N výčitka
+V navrhnúť (projektovať)
+V chytať
+V zachytiť
+V chytiť späť
+N úlovok
+AN zajatý
+V odsunúť
+V ťahať
+V nasťahovať sa
+V uprednostniť
+V stiahnuť sa
+V odpočítať
+V odňať
+V podrobiť sa
+V prizvať
+V zahrnúť
+V dotiahnuť do konca
+V natiahnuť
+V potiahnuť
+V ísť ďalej
+V vliecť
+V odvliecť
+V triasť
+V otriasť
+N otras
+V mávať (rukou)
+V pokynúť k sebe
+V zamávať
+V odmávnuť
+V ukázať
+V nahlásiť
+N inzerát
+N ručička
+V poukázať
+V tlieskať
+V biť
+N úder
+V udrieť
+V vybiť
+V zabiť úderom
+N bitka (výtržnosť)
+AN neporaziteľný
+V kopnúť
+N kop
+V nastúpiť (do radu)
+V odstúpiť
+N odstúpenie
+V zastupovať
+N zástupca
+V vytiecť
+V stlačiť
+V rozdrviť
+N dojem
+V zapôsobiť
+AN pôsobivý : adverb pôsobivo
+V trieť
+V votrieť
+V škrabať
+N škrabanec
+V poškriabať
+V trhať
+V roztrhnúť
+V rozovrieť
+V strhnúť so sebou
+V klopať
+V zaklopať
+V visieť
+V zavesiť
+V zakryť
+V kmitať
+N elán
+N kmitanie
+V otáčať
+V skrútiť
+V pootočiť
+V prekrúcať
+V štipnúť
+V ovinúť
+V odvinúť
+V navinúť
+V zapliesť
+V viazať
+V priviazať
+V zviazať dokopy
+N pripútanosť
+V zapojiť
+V kopať
+V vykopať
+V zakopať
+V prikývnuť
+V trhnúť sa
+PHR pokrčiť plecami
+V striasť sa
+N pokrčenie plecami
+V žmurkať
+V potľapkať
+V ťukať
+N tip
+V ťuknúť
+N políček
+V dať políčok
+V šťuchnúť
+N natiahnutie (svalu)
+V namáhavo zdvihnúť
+V zovrieť
+AN zovretý
+V zhluknúť sa
+V hladiť
+V hladkať
+N zápalka
+N škrtnutie
+V prečiarknuť
+V lúskať
+V chňapnúť
+V začuť
+N momentka
+V šklbať
+V vytrhať
+V vyžmýkať
+V poklepať
+V potrieť
+V poutierať
+V krájať
+N rez
+N ostrie
+V odrezať
+V vystrihnúť
+V postrčiť
+V bodať
+V trasť
+V tetovať
+V leštiť
+V rozbiť
+V mazať
+V zaseknúť
+V biť sa
+V zbiť
+V pripnúť
+V obnažiť
+V zaplietť sa
+V lipnúť
+V držať spolu
+V hodiť sa k sebe
+V hltať
+V vyvinúť sa
+N informačná tabuľa
+V šľahať
+V zatĺkať
+V natrieť
+V nosiť
+V šliapnúť

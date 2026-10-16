@@ -1,0 +1,113 @@
+N vlna : phenomenon
+N voda : drink ; mass
+N vodopád : landscape ; an
+N pitná voda : drink
+N slaná voda : liquid
+N sladká voda : liquid
+N vodstvo : water-body
+N povodeň : phenomenon, incident
+N more : water-body
+N prieliv : water-body
+N hladina mora : quality
+N Stredozemné more : water-body ; an
+N oceán : water-body
+N Atlantik : water-body ; an
+N jazero : water-body ; an
+N vodná nádrž : water-body
+N Severné more : water-body ; an
+N Baltské more : water-body ; an
+N rieka : water-body ; an
+N prítok : water-body
+N koryto rieky : landscape
+V tiecť : liquid
+V tiecť : {rieka|potok|prúd|kanál}
+N rybník : water-body ; an
+N potok : water-body ; an
+N horský potok : water-body
+N zátoka : water-body
+N záliv : water-body
+N ľadovec : landscape ; auf
+N oáza : region
+N lagúna : water-body
+N delta : landscape
+N ústie : landscape ; an
+V ústiť : water-body > goal water-body
+N pobrežné močiare : landscape
+N mokraď : landscape
+N útes (morský) : landscape
+N fjord : water-body
+N gejzír : phenomenon
+N príliv a odliv : phenomenon
+N odliv : phenomenon
+N príliv : incident
+N morské vlnenie : phenomenon
+N príboj : phenomenon
+N prúdenie : phenomenon
+N záplava : incident
+V zaplaviť : {rieka|prúd|povodeň|príliv|dážď} > patient settlement
+V zaplaviť : {rieka|prúd|povodeň|príliv|dážď} > patient road
+V zaplaviť : {rieka|prúd|povodeň|príliv|dážď} > patient region
+V zaplaviť : {rieka|prúd|povodeň|príliv|dážď} > patient {pivnica|garáž}
+V zaplaviť : {rieka|prúd|povodeň|príliv|dážď} > patient {rovina|lúka|pole|dolina|záhrada|ostrov}
+N cunami : phenomenon, incident
+N kvapka : quantity
+V kvapkať : {voda|krv|dážď|med|pot|olej|vodovodný kohútik}
+N pena : substance
+V peniť sa : liquid
+N bublina : gas
+N ľad : substance, sweets ; auf
+N ľadová kryha : landscape ; auf
+N kocka ľadu : substance
+N doba ľadová : period
+N para : gas
+V pariť sa : food
+V pariť sa : liquid
+V pariť sa : animal
+V pariť sa : water-body
+N mláka : water-body
+V striekať : {voda|krv|olej|blato|tuk|šťava}
+V striekať : person > patient {voda|farba|olej|šťava|smotana}
+N zvlnenie hladiny : phenomenon
+V zvlniť : water-body
+N vír : phenomenon
+N pereje : water-body
+V presakovať : liquid
+N rozprášená voda : substance
+N opar : gas
+N kondenzácia : phenomenon
+V kondenzovať : gas
+N soľanka : liquid
+N panva : body-part, container
+V vyvierať : {voda|prameň|šumivé víno|minerálka|limonáda}
+V namočiť : person > patient {bielizeň|fazuľa|chlieb|košeľa|nohavice|ryža|šošovica|hrach|oblečenie}
+V premočiť : {dážď|prehánka|búrka} > patient clothing
+V premočiť : {dážď|prehánka|búrka} > patient animal
+V premočiť : {dážď|prehánka|búrka} > patient thing
+V premočiť : {dážď|prehánka|búrka} > patient landscape
+V premočiť : liquid > patient clothing
+V premočiť : liquid > patient animal
+V premočiť : liquid > patient thing
+V premočiť : liquid > patient landscape
+N breh : landscape ; an
+N breh rieky : landscape ; an
+N pobrežie : landscape ; an
+N pláž : landscape ; an
+N ostrov : landscape ; auf
+N polostrov : landscape ; auf
+N mys : landscape
+N odpadová voda : liquid ; mass
+N hrádza : artifact, climbable
+N čistiareň odpadových vôd : building, enterable
+N plavebná komora : artifact
+# added: Becken in its second sense
+N bazén : water-body, enterable
+# added: Eis in its second sense
+N zmrzlina : sweets
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN vodotesný : clothing, container, device, building-part
+V zamedziť : person > patient {požiar|nehoda|škoda}
+V zriediť : person > patient liquid
+V zriediť : person > patient drink
+V špliechať : liquid
+V špliechať : water-body

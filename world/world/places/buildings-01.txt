@@ -1,0 +1,47 @@
+# Building places K-Z (Kirche .. Zelt): rooms and houses one is in or at; one PLACE line each, skipped nouns below
+PLACE kostol : in ; loudness tichý_(pokojný) ; temperature chladný ; age starý ; things oltár | lavica | sviečka | zvon | okno | organ ; people farár
+PLACE škôlka : in ; loudness hlasný ; colour pestrý ; things hračka | stôl | stolička_(nábytok) | lopta | obraz | dvere ; people dieťa
+PLACE klinika : in ; cleanliness čistý_(bez_špiny) ; light svetlý ; things posteľ | izba | dvere | chodba | stolička_(nábytok) | okno ; people lekár | zdravotná_sestra
+PLACE kláštor : in ; loudness tichý_(pokojný) ; age starý ; things múr | kostol | záhrada | izba | zvon | sviečka ; people mních | mníška
+PLACE krčma : in ; loudness hlasný ; light tmavý ; comfort útulný ; things pivo | stôl | stolička_(nábytok) | sklenica | pult | fľaša ; people hostinský | hosť
+PLACE elektráreň : out ; loudness hlasný ; size veľký ; things veža | rúra | stroj | plot | kábel | gól ; people robotník
+PLACE nemocnica : in ; cleanliness čistý_(bez_špiny) ; light svetlý ; crowd plný ; things posteľ | izba | chodba | dvere | okno | stolička_(nábytok) ; people lekár | zdravotná_sestra | pacient
+# merged into world/places/buildings-00.txt (a synonym's sheet): PLACE obchod : in ; light svetlý ; things polica | dvere | pokladňa | okno | stôl | štít ; people predavač | zákazník
+PLACE vidiecky_dom : in ; comfort útulný ; loudness tichý_(pokojný) ; space široký ; things záhrada | stôl | okno | dvere | pohovka | krb
+PLACE maják : out ; space široký ; weather veterný {3} | slnečný {2} | hmlistý {2} | búrka {1} ; things svetlo | more | schody | okno | dvere | loď
+PLACE študentská_jedáleň : in ; loudness hlasný ; crowd plný ; things stôl | stolička_(nábytok) | podnos | tanier | jedlo | pokladňa ; people študent
+PLACE mešita : in ; loudness tichý_(pokojný) ; size veľký ; things koberec | veža | dvere | okno | stena | topánka
+PLACE múzeum : in ; loudness tichý_(pokojný) ; light svetlý ; things obraz | sála | maľba | vstupenka | socha | dvere ; people návštevník
+PLACE mlyn : out ; age starý ; loudness hlasný ; things koleso | voda | zrno | múka | vrece | potok ; people mlynár
+PLACE palác : in ; size veľký ; beauty krásny ; age starý ; things sála | schody | okno | dvere | záhrada | koberec ; people kráľ | kráľovná
+PLACE poštový_úrad : in ; things list_(písomnosť) | balík | poštová_známka | vypínač | váha | dvere ; people poštár | zákazník
+PLACE ordinácia : in ; cleanliness čistý_(bez_špiny) ; light svetlý ; things stolička_(nábytok) | stôl | posteľ | počítač | dvere | okno ; people lekár | pacient
+PLACE radnica : in ; size veľký ; age starý ; things schody | sála | dvere | okno | hodiny | vypínač ; people starosta
+PLACE radový_dom : in ; size malý ; space tesný_(priestorovo) ; things záhrada | dvere | okno | schody | kuchyňa | strecha
+PLACE cestovná_kancelária : in ; light svetlý ; things stôl | počítač | prospekt | karta | stolička_(nábytok) | dvere ; people zákazník
+PLACE reštaurácia : in ; comfort útulný ; things stôl | stolička_(nábytok) | jedálny_lístok | tanier | sklenica | účet_(na_zaplatenie) ; people čašník | kuchár | hosť
+PLACE ruina : out ; age starý ; loudness tichý_(pokojný) ; things múr | kameň | veža | tráva | okno | gól
+PLACE stodola : in ; light tmavý ; things seno | slama | traktor | rebrík | dvere | vrece
+PLACE škola : in ; loudness hlasný ; things trieda | tabuľa | stôl | stolička_(nábytok) | kniha | zošit ; people učiteľ | žiak
+PLACE plaváreň : in ; wetness mokrý ; loudness hlasný ; crowd plný ; things voda | panva | uterák | sprcha | lavica | dvere
+PLACE štadión : out ; size veľký ; loudness hlasný ; crowd plný ; things futbal | gól | trávnik | tribúna | zástava | hráč ; people fanúšik | hráč
+PLACE maštaľ : in ; light tmavý ; things seno | slama | krava | kôň | dvere | stena ; people roľník
+PLACE stánok : out ; size malý ; things stôl | strecha | ovocie | zelenina | váha | pokladňa ; people predavač | zákazník
+PLACE supermarket : in ; light svetlý ; crowd plný ; things polica | pokladňa | nákupný_vozík | dvere | chlieb | mlieko ; people predavač | zákazník
+PLACE čerpacia_stanica : out ; things auto | benzín | pokladňa | štít | strecha | pneumatika ; people zákazník
+PLACE chrám : in ; loudness tichý_(pokojný) ; age starý ; things oltár | múr | socha | sviečka | dvere | stena
+PLACE terminál : in ; crowd plný ; loudness hlasný ; things kufor | vypínač | tabuľa | lietadlo | lavica | hodiny ; people cestujúci
+PLACE divadlo : in ; light tmavý ; loudness tichý_(pokojný) ; things javisko | sála | kreslo | záves | vstupenka | svetlo ; people herec | divák
+PLACE podzemná_garáž : in ; light tmavý ; loudness tichý_(pokojný) ; things auto | stena | schody | dvere | svetlo | štít
+PLACE útulok_pre_zvieratá : in ; loudness hlasný ; things pes | mačka | klietka | krmivo | dvere | voda
+PLACE veža : in ; space tesný_(priestorovo) ; things schody | okno | hodiny | zvon | múr | dvere
+PLACE univerzita : in ; crowd plný ; things prednáškova_sála | knižnica | kniha | stôl | počítač | tabuľa ; people študent | profesor
+# merged into world/places/buildings-01.txt (a synonym's sheet): PLACE univerzita : in ; size veľký ; crowd plný ; things prednáškova_sála | knižnica | kniha | stôl | počítač | tabuľa ; people študent | profesor
+PLACE vila : in ; size veľký ; beauty krásny ; things záhrada | schody | okno | dvere | izba | pohovka
+PLACE ľudová_škola : in ; things kurz | trieda | tabuľa | stôl | stolička_(nábytok) | kniha ; people učiteľ | žiak
+PLACE dielňa : in ; loudness hlasný ; order neporiadny ; things náradie | kladivo | stôl | stroj | auto | skriňa ; people mechanik
+PLACE obytný_dom : in ; things dvere | schody | okno | poštová_schránka | byt | strecha ; people sused
+PLACE študentský_domov : in ; space tesný_(priestorovo) ; things izba | posteľ | stôl | kuchyňa | chodba | dvere ; people študent
+PLACE stan : in ; space tesný_(priestorovo) ; light tmavý ; things spací_vak | lampa | dvere | pôda | batoh | strop
+# skipped Neubau -- a kind of building (new construction), not a place one is at
+# skipped Residenz -- a seat of power or a stately home in general, no characteristic place

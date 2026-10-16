@@ -1,0 +1,58 @@
+# THE FORMS EXERCISE (the trainer's Sentences > Forms): a sentence with one word left out, the right form of that word
+# among two wrong ones of the same word -- the forms other rules make. Each RULE SET: `name: label`, then
+#   ask    the forms asked: CELLS of the word's paradigm (engine/paradigm.js) -- V.present.3sg, V.pp, N.pl,
+#          AN.pos.weak.dat.m, ART.def.acc.m; * any value
+#   wrong  the wrong options, the first that differ from the right one, in this order: cells of the same word
+#          (= the asked form's value there: V.past.= the same person in the past), ~ the form the regular rule alone
+#          would make (kommte for kam, Baums for Bäume)
+#   word   the words the asked form is of instead of the plan's (werden: the future's); also: besides the plan's
+#   when   what the clause of the word must have (no clause key: any clause): tense=present, link=a|b (either), modal=- (none),
+#          type!=INF -- its tense and mood also steer the sentence made (engine/practice.js)
+#   not    cells the asked form must not also be (spelled alike -- French parle: present and subjunctive)
+#   steer  what the sentence made is wished to have, without asking for it: link=so-that, mood=hypo, degree=comp,
+#          freq=yes (a habit: siempre jugaba -- the imperfect's)
+# (engine/forms.js reads it; the same file in every language: en/ es/ fr/rules/forms.txt)
+
+present: Präsens
+  when  tense=present mood=- modal=- voice=- type!=INF
+  ask   V.present.*
+  wrong V.present.* ~V.present.= V.past.=
+
+past: Präteritum
+  when  tense=past mood=- modal=- voice=- type!=INF
+  ask   V.past.*
+  wrong ~V.past.= V.present.= V.past.*
+
+perfect: Partizip II
+  when  tense=perfect
+  ask   V.pp
+  wrong ~V.pp V.inf V.past.3sg
+
+future: Futur I mit werden
+  word  werden
+  when  tense=future
+  ask   V.present.*
+  wrong V.present.* V.subj2.= V.past.=
+
+subj2: Konjunktiv II
+  also  werden haben sein
+  when  mood=hypo
+  ask   V.subj2.*
+  wrong V.past.= V.subj2.* V.present.=
+
+plural: Plural
+  ask   N.pl
+  wrong ~N.pl N.sg
+
+article: Artikel und Kasus
+  ask   ART.*.*.*
+  wrong ART.=.*.= ART.=.=.*
+
+adjective: Adjektivendungen
+  ask   AN.pos.*.*.*
+  wrong AN.pos.*.*.*
+
+comparison: Komparativ und Superlativ
+  steer degree=comp
+  ask   AN.comp AN.comp.*.*.* AN.sup.*.*.*
+  wrong ~AN.comp AN.pos AN.pos.*.*.* AN.sup.*.*.*

@@ -1,0 +1,397 @@
+AN zodpovedný : agent
+V vyrobiť : agent > patient artifact -building-part -text -document -picture -money
+V vyrobiť : agent > patient baked-goods
+V vyrobiť : agent > patient dairy
+V vyrobiť : agent > patient sweets
+V vyrobiť : agent > patient drink
+V vyrobiť : agent > patient medicine
+V vyrobiť : agent > patient {klobása|šunka}
+N výrobok : artifact
+N výrobca : agent
+N zodpovednosť : state
+N ošetrovateľ : professional
+N podnikateľ : professional
+N práca : activity
+V pracovať : {architekt|inžinier|expert|odborník|kolega|kolegyňa|spolupracovník|šéf|šéfka|asistent|zakladateľ|vývojár|vedec|študent|muž|žena} > share {projekt|plán|riešenie|kniha}
+V pracovať : {robotník|zamestnanec|zamestnanec|spolupracovník|spolupracovníčka|manažér|kolega|kolegyňa|expert|inžinier|technik|zástupca|poradca|muž|žena} > location {firma|podnik|prevádzka|organizácia|koncern|start-up}
+V pracovať : person -child -{sluha|podnikateľ|podnikateľ|roľník|poľnohospodár|krajčír|obuvník} > location {spolok|škola|nemocnica|továreň|hotel|reštaurácia}
+N robotník : professional
+N zamestnávateľ : institution
+N zamestnanec : person
+N spolupracovník : professional
+N pracovisko : place ; an
+N pracovný čas : period
+N nezamestnanosť : state
+AN nezamestnaný : person, -child, -{zamestnanec|kolega|kolegyňa|spolupracovník|spolupracovníčka|rebrík|vedúca|predseda|šéf|šéfka|riaditeľ|manažér|zamestnanec|dáma}
+N spolupracovníčka : professional
+V brigádovať : person
+N kariéra : activity
+N povolanie : activity
+AN pracovný : activity, relation ; attr
+AN zamestnaný : person
+AN na voľnej nohe : person, activity
+N šéf : professional
+N šéfka : professional
+N kolega : professional
+N kolegyňa : professional
+N personál : group ; mass
+V zamestnať : {šéf|šéfka|manažér|riaditeľ|firma|podnik|prevádzka|koncern|škola|nemocnica} > patient {spolupracovník|spolupracovníčka|robotník|kuchár|čašník|učiteľ|učiteľka|asistent|odborník|sekretárka}
+V zamestnať : person > patient device
+V prepustiť (z práce) : {šéf|šéfka|manažér|riaditeľ|firma|podnik|prevádzka|koncern} > patient {spolupracovník|spolupracovníčka|robotník|zamestnanec|kuchár|čašník|učiteľ|učiteľka|asistent|sekretárka}
+N prepustenie : event
+N dôchodca : role
+N odpočinok : state
+N dovolenka : period
+N schopnosť : ability
+AN schopný : agent, professional
+AN neschopný : agent, professional
+N skúsenosť : information
+V dozvedieť sa : person > patient {pravda|správa (oznam)|tajomstvo|výsledok}
+AN skúsený : person, professional
+N časový plán : idea
+N porada : event, attendable
+N pracovný pohovor : event, attendable
+V uchádzať sa : person -child -{obchodník|podnikateľ|podnikateľ|kráľ|kráľovná|prezident|starosta} > theme {miesto (bod)|práca|stáž|odborná príprava}, location {firma|podnik|prevádzka|organizácia|koncern|start-up|škola|nemocnica|továreň|hotel|reštaurácia}
+N žiadosť o prácu : text
+N uchádzač : person
+N životopis : text
+N manažér : professional
+N riaditeľ : professional
+N vedúci : professional
+N tajomník : professional
+N sekretárka : professional
+N asistent : professional
+N expert : professional
+N štrajk : event
+V štrajkovať : person
+N odbory : institution
+N povýšenie : event
+V povýšiť : agent > patient professional -{predseda}
+V povýšiť : person > patient {balík|list (písomnosť)|batožina|náklad|tovar|kufor}
+N inžinier : professional
+N mechanik : professional
+N tesár : professional
+N klampiar : professional
+N elektrikár : professional
+N kováč : professional
+N kováčska dielňa : building, enterable
+V kovať : person > patient material
+V kovať : person > patient artifact
+N architekt : professional
+N stáž : activity, attendable
+N stážista : person
+N mzda : money
+N minimálna mzda : money
+V oplatiť sa : {práca|cesta (cestovanie)|návšteva|kúpa}
+N nadčasy : period
+N práca na čiastočný úväzok : state
+N práca na plný úväzok : activity
+N podnik : institution
+V podniknúť : person > patient {cesta (cestovanie)|výlet|pokus|prechádzka}
+N start-up : institution
+N zamestnanci : group
+N oddelenie (útvar) : institution
+N pobočka : institution
+N koncern : institution
+N prezentácia : event, attendable
+V prezentovať : person -child > recipient {kolega|zákazník|hosť|šéf}, patient {film|kniha|pieseň|obraz}
+V prezentovať : person -child > recipient {kolega|zákazník|hosť|šéf}, patient device
+V prezentovať : {šéf|manažér|riaditeľ|učiteľ|spolupracovník|kolega|študent|výskumník|expert|poradca|vedec|inžinier} > recipient {šéf|kolega|zákazník|učiteľ|hosť|riaditeľ|spolupracovník}, patient {výsledok|správa (o udalosti)|štúdia}
+V prezentovať : {šéf|manažér|riaditeľ|učiteľ|spolupracovník|kolega|študent|výskumník|expert|poradca|vedec|inžinier} > recipient {šéf|kolega|zákazník|učiteľ|hosť|riaditeľ|spolupracovník}, patient {nápad|plán|koncepcia|výrobok}
+N projekt : activity
+N program rokovania : information, idea
+N nadriadený : professional
+N technik : professional
+N školník : professional
+N murár : professional
+N holič : professional
+N obuvník : professional
+V dať výpoveď : {šéf|zamestnávateľ|manažér|riaditeľ} > recipient professional
+V dať výpoveď : person -child > patient {zmluva|nájomná zmluva|pracovná zmluva|predplatné|poistenie|účet (bankový)|byt}
+N výpoveď : event
+N vyhorenie : illness
+N vybavovanie : activity
+N predchodca : role
+N vedúca : professional
+N odborník : professional
+N zakladateľ : professional
+N zakladateľka : professional
+V robiť : {kuchár|kuchárka|matka|babka|otec|žena} > patient dish
+V robiť : {pekár|kuchár|kuchárka|matka|babka|otec|žena} > patient baked-goods
+V robiť : person -professional > patient {káva|čaj|šťava|kokteil|limonáda}
+V robiť : person > patient {fotka|prijatie}
+V robiť : person > patient {práca|prestávka|chyba|dovolenka|šport}
+V robiť : person > patient {večierok|slávnosť|oslava|piknik}
+V robiť : person > patient {skúška|odborná príprava|stáž|kurz}
+V robiť : person > patient {chyba|prestávka|fotka|výlet|prechádzka}
+V robiť : es > recipient person, bare {sranda}
+V zatvoriť : person > patient container +openable
+V zatvoriť : person > patient building-part +openable
+V zatvoriť : person > patient device +openable
+V zatvoriť : person > patient body-part +openable
+V napodobniť : person > patient person
+V napodobniť : person > recipient person, patient {pohyb|gesto|tanec|hlas}
+V vyrábať : {firma|podnik|továreň|koncern|prevádzka|výrobca} > patient vehicle
+V vyrábať : {firma|podnik|továreň|koncern|prevádzka|výrobca} > patient device
+V vyrábať : {firma|podnik|továreň|koncern|prevádzka|výrobca} > patient clothing
+V vyrábať : {firma|podnik|továreň|koncern|prevádzka|výrobca} > patient food
+V vyrábať : {firma|podnik|továreň|koncern|prevádzka|výrobca} > patient drink
+V vyrábať : {firma|podnik|továreň|koncern|prevádzka|výrobca} > patient {oceľ|cement|betón|plast|guma (materiál)|tehla|plast}
+V vyrábať : agent > patient {film|pieseň|séria|kniha}
+N výroba : activity
+AN produktívny : agent, activity
+N produktivita : quality
+V stavať : {stavebný robotník|murár|tesár|remeselník|robotník|roľník|muž|otec|rodina} > patient {dom|chata|most|škola|kostol|maštaľ|veža|hrad|zámok|stodola}
+V stavať : {inžinier|mechanik|technik|remeselník|robotník|kováč|tesár|výrobca|otec|muž} > patient vehicle
+V stavať : {stolár|remeselník|tesár|majster|otec|dedko|muž} > patient {stôl|skriňa|polica|posteľ|stolička (nábytok)|písací stôl}
+V stavať : {inžinier|mechanik|technik|remeselník|robotník|kováč|elektrikár|tesár|výrobca|kolega|otec|muž} > patient {stroj|motor|zariadenie|robot|počítač|rádio}
+V vybudovať : {muž|žena|otec|matka|kolega|kolegyňa|spolupracovník|spolupracovníčka|remeselník|robotník|syn|chlapec} > patient {stôl|skriňa|polica|posteľ|stolička (nábytok)|písací stôl}
+V vybudovať : {technik|mechanik|inžinier|elektrikár|robotník|kolega|spolupracovník|remeselník|muž|otec} > patient {stroj|zariadenie|žeriav (stroj)|stan|javisko}
+V vybudovať : person -child > patient institution
+V vybudovať : person -child > patient {vzťah|kontakt|priateľstvo|spolupráca}
+V vybudovať : person -child > patient {obchod|existencia|obchodovanie|sieť (rybárska)}
+V rozobrať : person > patient {stôl|skriňa|polica|posteľ|stolička (nábytok)|písací stôl}
+V rozobrať : {technik|mechanik|inžinier|elektrikár|robotník|kolega|spolupracovník|remeselník|muž|otec} > patient {stroj|zariadenie|žeriav (stroj)|lešenie|stan|javisko}
+V rozobrať : {baník|robotník|podnik|koncern} > patient {železo|zlato|striebro|meď|zinok}
+V rozobrať : {baník|robotník|podnik|koncern} > patient {uhlie}
+V rozobrať : {baník|robotník|podnik|koncern} > patient stone
+V rozobrať : person > patient {dlhy|predsudok|napínavosť|stres}
+V rozobrať : person -professional > patient {strach|zlosť|agresia}
+V zmontovať : person > patient {stôl|skriňa|polica|posteľ|stolička (nábytok)|písací stôl}
+V zmontovať : {mechanik|technik|inžinier|remeselník|robotník|elektrikár|tesár|otec|muž} > patient device
+V zmontovať : {mechanik|technik|inžinier|remeselník|robotník|elektrikár|tesár|otec|muž} > patient vehicle
+N súčiastka : artifact, thing
+N stavebný plán : picture
+V dobudovať : person > patient {dom|budova|pivnica|povala|stanica|letisko|nemocnica|škola}
+V dobudovať : {obec|spolok|rodina|mesto|firma} > patient {dom|budova|pivnica|povala|stanica|letisko|nemocnica|škola}
+V dobudovať : person > patient road
+V dobudovať : group > patient road
+V dobudovať : agent > patient institution
+V dobudovať : agent > patient {vzťah|kontakt|priateľstvo|spolupráca}
+V opraviť : {mechanik|technik|elektrikár|remeselník|klampiar|inžinier|muž|otec|otec|strýko|dedko} > patient object +repairable
+N oprava (poškodeného) : activity
+V zvárať : person > patient metal
+V zvárať : person > patient tool
+V zvárať : person > patient vehicle
+N výstroj : artifact
+N prototyp : artifact, thing
+N stavebné práce : activity
+V vypracovať : {expert|poradca|inžinier|vedec|učiteľ|študent|tím|skupina|kolega|spolupracovník} > patient {plán|koncepcia|riešenie}
+V vypracovať : {expert|poradca|inžinier|vedec|učiteľ|študent|tím|skupina|kolega|spolupracovník} > patient {pravidlo|zákon|predpis}
+V vypracovať : {expert|poradca|inžinier|vedec|učiteľ|študent|tím|skupina|kolega|spolupracovník} > patient {zmluva|formulár|zápisnica|posudok|koncept}
+V vypracovať : {expert|poradca|inžinier|vedec|učiteľ|študent|tím|skupina|kolega|spolupracovník} > patient {vedomosti|výsledok|správa (o udalosti)}
+V vybaviť (záležitosť) : person > patient {práca|úloha|nákup|zákazka}
+V starať sa o : person > patient pet
+V starať sa o : {učiteľ|učiteľka|vychovávateľ|lekár|lekárka|ošetrovateľ|matka|otec|rodičia|babka|dedko} > patient {dieťa|bábätko|pacient|hosť|zákazník|účastník|žiak}
+N starostlivosť : activity
+V zrekonštruovať : {remeselník|robotník|murár|muž|otec} > patient {dom|budova|statok|škola|kostol|zámok|hrad|stará zástavba|most}
+V zrekonštruovať : {obec|mesto|spolok|firma|rodina} > patient {dom|budova|statok|škola|kostol|zámok|hrad|stará zástavba|most}
+V zrekonštruovať : {manažér|riaditeľ|šéf|vláda} > patient {firma|podnik|koncern|prevádzka}
+N kladivo : tool
+V búchať kladivom : person
+N sekera : tool
+N píla : tool
+V pílit : person > patient material
+N motorová píla : tool, switchable, repairable
+N skrutka : artifact, thing
+V skrutkovať : person > patient artifact
+N skrutkovač : tool
+N maticový kľúč : tool
+N svorka (náradie) : tool
+N vrták : tool
+V vŕtať : person > patient material
+V vŕtať : person > patient building-part
+V vŕtať : person > patient body-part
+N vŕtačka : device, switchable, repairable
+N kliešte : tool
+N lopata : tool
+V lopatiť : person > patient substance
+N krompáč : tool
+N lano : artifact, thing, cuttable
+N kladka : tool
+N lanovka : vehicle, enterable
+N reťaz : artifact, thing
+N rebrík : tool, climbable
+N hák : artifact, thing
+V lepiť : person > patient {plagát|fotka|poštová známka|štítok|náplasť|tapeta|nálepka|papierik}
+N lepidlo : material
+N lepiaca páska : artifact, thing, cuttable
+N nálepka : artifact, thing
+N čap : artifact, thing
+N dláto : tool
+V tesať : person > patient material
+V ostriť : person > patient {nôž|drevo|kameň|sklenica}
+N brúsny papier : paper
+N páčidlo : tool
+N nákovka : tool
+N sud : container, fillable
+N kontajner : object, openable, fillable
+N materiál : material
+N drevo : wood, burnable, cuttable
+AN drevený : artifact
+N palivové drevo : wood, fuel, burnable
+N preglejka : wood, cuttable
+N doska : wood, cuttable
+N kmeň stromu : wood
+N trám : wood
+N tehla : material
+N cement : material
+N betón : material
+N plast : material
+N guma (materiál) : material
+N oceľ : metal
+N cín : metal
+N lepenka : paper, foldable, cuttable
+N kartón : paper, container, openable, foldable
+N zliatina : metal
+N lak : material
+V lakovať : person > patient vehicle
+V lakovať : person > patient {stôl|skriňa|polica|posteľ|stolička (nábytok)|písací stôl}
+V lakovať : person > patient {dvere|klinec|stena}
+N izolácia (stavebná) : material
+V zatepliť : person > patient building
+N dielo : creative-work
+N náradie : tool ; mass
+N box na náradie : container, openable, fillable
+N dielňa : building, enterable
+N baňa : place, enterable
+N remeslo : activity
+N remeselník : professional
+N baník : professional
+N baníctvo : activity
+N priemysel : abstract
+AN priemyselný : place, institution ; attr
+N továreň : building, enterable
+N žeriav (stroj) : device, switchable, repairable
+N rafinéria : building, enterable
+N lom : place
+N potrubie : artifact
+N lešenie : artifact, climbable
+N generátor : device, switchable, repairable
+N turbína : device, switchable, repairable
+N dopravný pás : device, switchable
+N vysokozdvižný vozík : vehicle, drivable, repairable
+N buldozér : vehicle, drivable, repairable
+N ventil : device, openable
+N os : artifact
+N služba (v práci) : activity
+V obsluhovať : {robotník|technik|mechanik|elektrikár|spolupracovník|spolupracovníčka|inžinier|remeselník|pilot} > patient {stroj|žeriav (stroj)|vysokozdvižný vozík|robot|počítač|práčka|výťah|dopravný pás|vŕtačka|generátor}
+V obsluhovať : {čašník|čašníčka|predavač|predavačka|hostinský|holič|pekár|spolupracovník|spolupracovníčka} > patient {zákazník|zákazníčka|hosť|cestujúci}
+N obsluha : activity
+N služba (poskytovaná) : activity
+V nainštalovať : {technik|mechanik|elektrikár|remeselník|inžinier|spolupracovník|robotník|muž|otec} > patient {motor|kúrenie|sporák|klimatizácia|lampa|kamera|práčka}
+V nainštalovať : person > patient {program|aplikácia|softvér}
+N inštalácia : activity
+N inštalatér : professional
+N odstupné : money
+N spis : document, text
+N návod : text
+N zamestnanecký pomer : state
+N pokyn : information
+N pracovná podmienka : state
+N pracovná skupina : group
+N nezamestnaný : role
+N pracovná zmluva : document, text
+N dozorná rada : institution
+N vyťaženosť : quality
+N výberové konanie : document, text
+N učeň : person
+N pracujúci : person
+N prevádzka : institution
+N podnikový výbor : institution
+N plech : metal
+N blok : thing
+N vodič autobusu : professional
+N delegácia : group
+N rodičovská dovolenka : period
+N nedostatok odborníkov : problem
+N dokončenie : event
+N formulár : document, text
+N lesník : professional
+N vedúci pracovník : professional
+N hosťujúci pracovník : person
+N návod na použitie : text
+N zvýšenie platu : event
+N vedenie firmy : group
+N obchodný model : idea
+N živnosť : activity
+N valné zhromaždenie : event, attendable
+N úrad práce : institution, building, enterable
+N starostlivosť o deti : activity
+N čepeľ : artifact, thing
+N PN : document
+N skrátený pracovný čas : state
+N životné poistenie : institution
+N pedagóg : professional
+N logistika : activity
+N rušňovodič : professional
+N obedňajšia prestávka : period
+N notár : professional
+N súkromný život : state
+N zápisnica : document, text
+N dôchodkové poistenie : institution
+N reportér : professional
+N špagát : artifact, thing, cuttable
+N stolár : professional
+N šrot : material ; mass
+N suť : substance ; mass
+N samostatne zárobkovo činná osoba : person
+N sociálny pracovník : professional
+N špecialista : professional
+N prút : artifact, thing
+N tyč : artifact, thing
+N pečiatka : tool
+N daňový poradca : professional
+N taxikár : professional
+N diár : text, openable
+N podklad : document, text
+N deň dovolenky : period
+N predsedníctvo : state
+N papierik : text, foldable
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN kolegiálny : person
+AN neskúsený : person
+AN nezodpovedný : person
+AN odborový : institution, idea, person
+AN plastický : material, artifact
+AN podnikový : institution, idea, event, building
+AN popri zamestnaní : activity, event
+AN remeselný : professional, activity, artifact
+AN služobný : activity, event, vehicle, document
+AN živnostenský : professional, activity, document
+N prax : activity
+N verejnoprospešný podnik : institution
+V adaptovať : animal > goal {zima|klíma}
+V implementovať : agent > patient {plán|pravidlo|zákon|systém}
+V koučovať : professional > patient person
+V kutiť : person
+V lisovať : person > patient {olej|kov|papier|ovocie}
+V manažovať : person > patient {firma|projekt|tím|obchod}
+V mutovať : beast
+V nadviazať : person > patient {kontakt|rozhovor|práca}
+V nasadiť (na hlavu) : person > patient clothing
+V odvolať : agent > patient person
+V ozeleniť : agent > patient {mesto|dvor|strecha|ulica}
+V pilovať : person > patient {drevo|kov}
+V plne vyťažiť : agent > patient {stroj|továreň|kapacita}
+V poslať do dôchodku : institution > patient person
+V postaviť podľa vzoru : person > patient {dom|stroj|loď|model}
+V povolať : agent > patient person
+V presadzovať : agent > patient {plán|návrh|zmena|pravidlo}
+V prilepiť : person > patient {papier|plagát|etiketa}
+V priškrtiť : institution > patient {výdavok|výroba|rozpočet}
+V reklamovať : person > patient {tovar|stroj|auto}
+V rozdúchať : person > patient {oheň|konflikt|vášeň}
+V roztiahnuť : person > patient {deka|krídlo|plachta}
+V vyplniť : person > patient {formulár|dokument}
+V vypreparovať : professional > patient beast
+V vypustiť : agent > patient {zviera|plyn|voda}
+V vyčleniť : agent > patient money
+V zabudovať : person > patient device, location building
+V zastavať : agent > patient {pozemok|plocha|záhrada}
+V zhotoviť : person > patient artifact
+V zintenzívniť : agent > patient {výroba|práca|kontrola}
+V zohnať : person > patient thing
+V štandardizovať : institution > patient {výroba|postup|pravidlo}
+V žiť z : person > source {práca|poľnohospodárstvo|obchod}

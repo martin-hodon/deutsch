@@ -1,0 +1,49 @@
+# THE RESTAURANT: guests order, eat and pay; the staff brings, serves, cooks
+SETTING restaurant
+N reštaurácia
+N kaviareň
+N hosť : guest
+N čašník : staff
+N čašníčka : staff
+N kuchár : staff
+N kuchárka : staff
+N jedálny lístok
+N stôl
+N stolička (nábytok)
+N účet (na zaplatenie)
+N sprepitné
+N polievka
+N šalát
+N mäso
+N ryba
+N cestoviny
+N pizza
+N koláč
+N zákusok
+N víno
+N pivo
+N voda
+N šťava
+N káva
+N čaj
+N tanier
+N sklenica
+N šálka
+N vidlička
+N lyžica
+N nôž
+N terasa
+N obed
+N večera
+V objednať : guest
+V priniesť : staff
+V servírovať : staff
+V odporučiť : staff
+V rezervovať : guest
+V zaplatiť : guest
+V jesť
+V piť
+V chutiť
+V ochutnať
+V stáť (mať cenu)
+V variť : staff

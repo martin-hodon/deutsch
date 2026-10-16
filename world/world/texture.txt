@@ -1,0 +1,13 @@
+# TEXTURE (tools/world.py): what a dish is like when it is done -- the first word what it turns (Bald waren die
+# Brötchen golden.), the others said with it afterwards (die knusprigen Brötchen); by kind of food or by the noun
+# (the first line that fits wins)
+#   TEXTURE kind | Noun : adjective | adjective
+TEXTURE pstruh | losos | ryba : zlatý | jemný
+TEXTURE baked-goods : zlatý | chrumkavý | teplý
+TEXTURE meat : hnedý | šťavnatý | jemný
+TEXTURE vegetable : mäkký | zlatý
+TEXTURE grain : mäkký | horúci
+TEXTURE polievka | vývar | paradajková_omáčka : horúci | korenistý
+TEXTURE puding : krémový | sladký
+TEXTURE sweets | marmeláda : sladký | lesklý
+TEXTURE dish : horúci | korenistý

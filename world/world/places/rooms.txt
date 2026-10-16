@@ -1,0 +1,37 @@
+# rooms and buildings one is IN: home rooms, flats, school/work/hospital rooms, plus Kaserne, Turnhalle (in) and Straße, Obstgarten (out)
+PLACE pracovňa : in ; loudness tichý_(pokojný) ; order poriadny ; things písací_stôl | počítač | polica | kniha | lampa | stolička_(nábytok)
+PLACE kúpeľňa : in ; cleanliness čistý_(bez_špiny) ; wetness vlhký ; things sprcha | vaňa | zrkadlo | uterák | umývadlo | mydlo
+# merged into world/places/rooms.txt (a synonym's sheet): PLACE kúpeľňa : in ; cleanliness čistý_(bez_špiny) ; wetness vlhký ; things sprcha | vaňa | zrkadlo | uterák | umývadlo | mydlo
+PLACE kancelária : in ; order poriadny ; loudness pokojný ; things písací_stôl | počítač | telefón | tlačiareň | papier | stolička_(nábytok) ; people šéf | kolega
+PLACE povala : in ; light tmavý ; cleanliness špinavý ; age starý ; things bedňa | kufor | pavúk | okno | schody
+PLACE garsónka : in ; size malý ; space tesný_(priestorovo) ; things posteľ | stôl | kuchyňa | skriňa | okno
+PLACE jedáleň_(v_byte) : in ; comfort útulný ; light svetlý ; things stôl | stolička_(nábytok) | tanier | sklenica | sviečka | skriňa
+# merged into world/places/outside-00.txt (a synonym's sheet): PLACE chodba : in ; space tesný_(priestorovo) ; light tmavý ; things dvere | vešiak | topánka | zrkadlo | bunda
+PLACE šatňa : in ; space tesný_(priestorovo) ; things bunda | kabát | topánka | čiapka | taška
+PLACE hosťovská_izba : in ; order poriadny ; cleanliness čistý_(bez_špiny) ; things posteľ | skriňa | lampa | stôl | okno
+PLACE prednáškova_sála : in ; crowd plný ; size veľký ; things stôl | stolička_(nábytok) | tabuľa | počítač | kniha ; people profesor | študent
+PLACE jednotka_intenzívnej_starostlivosti : in ; loudness pokojný ; cleanliness čistý_(bez_špiny) ; things posteľ | počítač | maska | lampa ; people lekár | zdravotná_sestra | pacient
+PLACE kabína : in ; size malý ; space tesný_(priestorovo) ; things zrkadlo | záves | dvere | šaty | nohavice
+PLACE kasárne : in ; order poriadny ; things posteľ | uniforma | dvere | okno | zbraň ; people vojak
+PLACE pivnica : in ; light tmavý ; temperature chladný ; wetness vlhký ; things polica | schody | bedňa | fľaša | bicykel | svetlo
+PLACE detská_izba : in ; order neporiadny ; colour pestrý ; things posteľ | hračka | bábika | lopta | kniha | polica ; people dieťa
+PLACE učebňa : in ; loudness hlasný ; things tabuľa | stôl | stolička_(nábytok) | zošit | kniha | okno ; people učiteľ | žiak
+# merged into world/places/outside-00.txt (a synonym's sheet): PLACE chodba : in ; space tesný_(priestorovo) ; light tmavý ; things dvere | okno | koberec | lampa | schody
+PLACE kuchyňa : in ; temperature teplý ; light svetlý ; comfort útulný ; things sporák | chladnička | stôl | drez | okno | hrniec | panvica | lyžica | vidlička | tanier | rádio ; people kuchár
+PLACE laboratórium : in ; cleanliness čistý_(bez_špiny) ; order poriadny ; things stôl | počítač | stroj | sklenica ; people výskumník
+PLACE nájomný_byt : in ; things izba | kuchyňa | kúpeľňa | okno | dvere | balkón
+PLACE ovocný_sad : out ; light svetlý ; loudness pokojný ; colour zelený ; things strom | jablko | hruška | tráva | rebrík | kôš ; weather slnečný {5} | teplý {3} | dážď {1}
+PLACE miestnosť : in ; things dvere | okno | stena | stôl | stolička_(nábytok) | lampa
+PLACE sála : in ; size veľký ; space široký ; things stôl | stolička_(nábytok) | javisko | okno | lampa
+PLACE spálňa : in ; light tmavý ; loudness tichý_(pokojný) ; comfort útulný ; things posteľ | skriňa | vankúš | strop | lampa | okno
+PLACE oddelenie_(nemocničné) : in ; cleanliness čistý_(bez_špiny) ; loudness pokojný ; things posteľ | dvere | telefón | počítač ; people lekár | zdravotná_sestra | pacient
+PLACE ulica : out ; loudness hlasný ; crowd plný ; things auto | dom | autobus | bicykel | semafor | lampáš ; people chodec
+PLACE štúdio : in ; things kamera | mikrofón | lampa | počítač | kábel | pohovka
+PLACE toaleta : in ; cleanliness čistý_(bez_špiny) ; size malý ; things papier | zrkadlo | dvere | umývadlo | mydlo
+PLACE schodisko : in ; light tmavý ; loudness hlasný ; things schody | dvere | svetlo | poštová_schránka | okno | zábradlie
+PLACE telocvičňa : in ; size veľký ; loudness hlasný ; things lopta | sieť_(rybárska) | gól | píšťala ; people učiteľ | žiak
+PLACE ubytovanie : in ; comfort útulný ; size malý ; things posteľ | stôl | kľúč | sprcha | okno
+PLACE čakáreň : in ; loudness tichý_(pokojný) ; crowd plný ; things stolička_(nábytok) | noviny | stôl | dvere | hodiny ; people pacient | lekár
+PLACE byt : in ; comfort útulný ; things izba | kuchyňa | kúpeľňa | dvere | okno | balkón
+PLACE obývačka : in ; comfort útulný ; light svetlý ; things pohovka | televízor | stôl | koberec | polica | lampa
+PLACE izba : in ; things posteľ | stôl | stolička_(nábytok) | skriňa | okno | dvere

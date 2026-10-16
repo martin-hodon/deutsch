@@ -1,0 +1,292 @@
+# COVERAGE situations of the settings shop and restaurant (format: everyday.txt): everyday words no situation said yet --
+# fruit, vegetables, food, clothes and dishes -- as the wanted action, its object, the thing that goes wrong, what she
+# has with her and what she lacks.
+
+SITUATION obststand : shop -- Obst am Stand kaufen
+  place   stánok
+  people  predavač | kin
+  things  stôl | ovocie | váha | pokladňa
+  want    hladný : verb=kúpiť patient=none:jahoda+pl ; uses váha
+  want    hladný : verb=kúpiť patient=none:malina+pl ; uses váha
+  want    hladný : verb=kúpiť patient=none:čerešňa_(plod)+pl ; uses váha
+  want    hladný : verb=kúpiť patient=indef:ananás ; uses váha
+  trouble váha pokazený : opraviť by predavač
+
+SITUATION geldbörse : shop -- mit leerer Geldbörse auf dem Markt
+  place   trh
+  people  kin | priateľ
+  things  stánok | ovocie | váha | pokladňa
+  own     peňaženka
+  want    hladný : verb=kúpiť patient=none:broskyňa+pl ; uses peňaženka | stánok
+  want    hladný : verb=kúpiť patient=none:slivka+pl ; uses peňaženka
+  want    hladný : verb=kúpiť patient=indef:avokádo ; uses peňaženka
+  want    hladný : verb=kúpiť patient=indef:dyňa ; uses peňaženka
+  want    chuť : verb=kúpiť patient=indef:kytica ; uses peňaženka | stánok
+  trouble peňaženka prázdny : naplniť
+  trouble stánok zatvorený : otvoriť by predavač
+
+SITUATION traubenstand : shop -- samstags Obst naschen
+  place   trhovisko
+  people  predavač | kin | priateľ
+  things  stánok | ovocie | zelenina | kôš
+  want    hladný : verb=jesť patient=none:hrozno+pl
+  want    hladný : verb=jesť patient=none:čučoriedka+pl
+  want    hladný : verb=jesť patient=indef:marhuľa
+  lack    hrozno : stánok
+  lack    čučoriedka : stánok
+  lack    marhuľa : stánok
+
+SITUATION früchtestand : shop -- auf dem Markt Früchte essen
+  place   trh
+  people  predavač | kin | priateľ
+  things  stánok | ovocie | váha | kôš
+  want    hladný : verb=jesť patient=indef:pomaranč
+  want    hladný : verb=jesť patient=indef:melón
+  want    hladný : verb=jesť patient=indef:hruška
+  want    hladný : verb=jesť patient=indef:mango
+  want    hladný : verb=jesť patient=indef:kivi
+  lack    pomaranč : stánok
+  lack    melón : stánok
+  lack    hruška : stánok
+  lack    mango : stánok
+  lack    kivi : stánok
+
+SITUATION marktplatz-snack : shop -- auf dem Marktplatz etwas knabbern
+  place   námestie
+  people  predavač | kin | priateľ
+  things  stánok | ovocie | zelenina | kôš
+  want    hladný : verb=jesť patient=none:mrkva+pl
+  want    hladný : verb=jesť patient=indef:uhorka
+  want    hladný : verb=jesť patient=none:orech+pl
+  want    hladný : verb=jesť patient=none:oliva+pl
+  lack    mrkva : stánok
+  lack    uhorka : stánok
+  lack    orech : stánok
+  lack    oliva : stánok
+
+SITUATION gemüsestand : shop -- auf dem Markt Gemüse kaufen
+  place   trh
+  people  predavač | kin | priateľ
+  things  stánok | zelenina | váha | pokladňa
+  want    hladný : verb=kúpiť patient=indef:tekvica ; uses váha
+  want    hladný : verb=kúpiť patient=none:cibuľa+pl ; uses váha
+  want    hladný : verb=kúpiť patient=none:fazuľa+pl ; uses váha
+  want    hladný : verb=kúpiť patient=none:mrkva+pl ; uses váha
+  want    hladný : verb=kúpiť patient=none:hrach+pl ; uses váha
+  want    hladný : verb=kúpiť patient=indef:kapusta ; uses váha | stánok
+  trouble váha pokazený : opraviť by predavač
+  trouble stánok zatvorený : otvoriť by predavač
+
+SITUATION gemüseregal : shop -- im Supermarkt Gemüse kaufen
+  place   supermarket
+  people  predavač | kin
+  things  polica | pokladňa | nákupný_vozík | zelenina
+  want    hladný : verb=kúpiť patient=none:špargľa ; uses polica | nákupný_vozík
+  want    hladný : verb=kúpiť patient=none:brokolica ; uses nákupný_vozík
+  want    hladný : verb=kúpiť patient=none:špenát ; uses polica
+  want    hladný : verb=kúpiť patient=none:šampiňón+pl ; uses nákupný_vozík
+  trouble nákupný_vozík pokazený : vymeniť by predavač
+  trouble polica prázdny : naplniť by predavač
+
+SITUATION fleischtheke : shop -- im Supermarkt Fleisch kaufen
+  place   supermarket
+  people  predavač | kin
+  things  polica | pokladňa | nákupný_vozík | pult
+  want    hladný : verb=kúpiť patient=none:mleté_mäso ; uses pult | nákupný_vozík
+  want    hladný : verb=kúpiť patient=none:hovädzie_mäso ; uses pult
+  want    hladný : verb=kúpiť patient=none:bravčové_mäso ; uses pult
+  want    hladný : verb=kúpiť patient=none:šunka ; uses pult | nákupný_vozík
+  want    hladný : verb=kúpiť patient=none:slanina ; uses pult
+  trouble pult prázdny : naplniť by predavač
+  trouble nákupný_vozík pokazený : vymeniť by predavač
+
+SITUATION vorrat : shop -- für zu Hause einkaufen
+  place   supermarket
+  people  predavač | kin
+  things  polica | pokladňa | nákupný_vozík | dvere
+  want    hladný : verb=kúpiť patient=none:potravina ; uses nákupný_vozík
+  want    hladný : verb=kúpiť patient=indef:konzerva ; uses nákupný_vozík | polica
+  want    hladný : verb=kúpiť patient=none:müsli ; uses polica
+  trouble nákupný_vozík pokazený : vymeniť by predavač
+  trouble polica prázdny : naplniť by predavač
+
+SITUATION getränkeregal : shop -- im Supermarkt etwas zu trinken kaufen
+  place   supermarket
+  people  predavač | kin
+  things  polica | pokladňa | nákupný_vozík
+  want    smädný : verb=kúpiť patient=none:minerálka ; uses polica | pokladňa
+  want    smädný : verb=kúpiť patient=none:pomarančový_džús ; uses polica
+  trouble polica prázdny : naplniť by predavač
+  trouble pokladňa pokazený : opraviť by technik
+
+SITUATION frühstückseinkauf : shop -- im kleinen Laden für das Frühstück
+  place   obchod
+  people  predavač | kin
+  things  polica | dvere | pokladňa | stôl
+  want    hladný : verb=kúpiť patient=none:med ; uses polica | pokladňa
+  want    hladný : verb=kúpiť patient=none:marmeláda ; uses polica | pokladňa
+  want    hladný : verb=kúpiť patient=none:džem ; uses polica
+  want    hladný : verb=kúpiť patient=none:tvaroh ; uses polica
+  want    hladný : verb=kúpiť patient=none:čerstvý_syr ; uses polica
+  want    hladný : verb=kúpiť patient=none:smotana ; uses polica
+  trouble polica prázdny : naplniť by predavač
+  trouble pokladňa pokazený : opraviť by technik
+
+SITUATION naschladen : shop -- im Laden Süßes kaufen
+  place   obchod
+  people  predavač | kin | priateľ
+  things  polica | pokladňa | dvere | stôl
+  want    chuť : verb=kúpiť patient=none:cukrík+pl ; uses pokladňa
+  want    chuť : verb=kúpiť patient=none:čokoláda ; uses polica | pokladňa
+  want    chuť : verb=kúpiť patient=none:čipsy ; uses polica
+  want    chuť : verb=kúpiť patient=none:sladkosť+pl ; uses polica
+  trouble polica prázdny : naplniť by predavač
+  trouble pokladňa pokazený : opraviť by technik
+
+SITUATION aussuchen : shop -- im Kaufhaus Kleidung aussuchen
+  place   obchodný_dom
+  people  predavač | priateľ | kin
+  things  eskalátor | pokladňa | polica | oblečenie | zrkadlo
+  want    chuť : verb=vybrať patient=indef:sveter ; uses zrkadlo | polica
+  want    chuť : verb=vybrať patient=indef:blúzka ; uses zrkadlo
+  want    chuť : verb=vybrať patient=indef:tričko ; uses zrkadlo
+  want    chuť : verb=vybrať patient=indef:kus_oblečenia ; uses zrkadlo | polica
+  trouble zrkadlo špinavý : čistiť by predavač
+  trouble polica prázdny : naplniť by predavač
+
+SITUATION umtausch : shop -- im Geschäft Kleidung kaufen
+  place   obchod
+  people  predavač | priateľ | kin
+  things  polica | pokladňa | zrkadlo | blúzka | sveter | plavky_(pánske)
+  want    chuť : verb=kúpiť patient=indef:blúzka ; uses blúzka | pokladňa
+  want    chuť : verb=kúpiť patient=indef:sveter ; uses sveter
+  want    chuť : verb=kúpiť patient=indef:plavky_(pánske) ; uses plavky_(pánske)
+  want    chuť : verb=kúpiť patient=none:rifle ; uses zrkadlo
+  trouble blúzka pokazený : vymeniť by predavač
+  trouble sveter špinavý : vymeniť by predavač
+  trouble plavky_(pánske) pokazený : vymeniť by predavač
+  trouble zrkadlo špinavý : čistiť by predavač
+
+SITUATION wintermode : shop -- im Einkaufszentrum warme Sachen kaufen
+  place   nákupné_centrum
+  people  predavač | priateľ | kin
+  things  obchod | eskalátor | pokladňa
+  want    chuť : verb=kúpiť patient=none:rukavica+pl ; uses eskalátor | pokladňa
+  want    chuť : verb=kúpiť patient=indef:šál ; uses eskalátor
+  want    chuť : verb=kúpiť patient=none:čižma ; uses eskalátor | pokladňa
+  want    chuť : verb=kúpiť patient=indef:šatka_na_hlavu ; uses pokladňa
+  trouble eskalátor pokazený : opraviť by technik
+  trouble pokladňa pokazený : opraviť by technik
+
+SITUATION zubehör : shop -- im Kaufhaus Zubehör und Wäsche kaufen
+  place   obchodný_dom
+  people  predavač | priateľ | kin
+  things  eskalátor | pokladňa | polica | oblečenie
+  want    chuť : verb=kúpiť patient=indef:opasok ; uses pokladňa
+  want    chuť : verb=kúpiť patient=indef:kravata ; uses pokladňa
+  want    chuť : verb=kúpiť patient=indef:klobúk ; uses pokladňa
+  want    chuť : verb=kúpiť patient=indef:šatka ; uses pokladňa
+  want    chuť : verb=kúpiť patient=none:ponožka+pl ; uses polica
+  want    chuť : verb=kúpiť patient=none:pančuchové_nohavice+pl ; uses polica
+  want    chuť : verb=kúpiť patient=none:spodky+pl ; uses polica
+  want    chuť : verb=kúpiť patient=none:šortky ; uses polica
+  want    chuť : verb=kúpiť patient=indef:výhodná_kúpa ; uses eskalátor | pokladňa
+  trouble pokladňa pokazený : opraviť by technik
+  trouble polica prázdny : naplniť by predavač
+  trouble eskalátor pokazený : opraviť by technik
+
+SITUATION drogerie-kleinkram : shop -- in der Drogerie das Nötige kaufen
+  place   drogéria
+  people  predavačka | kin
+  things  polica | pokladňa | kôš
+  want    chorý : verb=kúpiť patient=none:tabletka+pl ; uses polica | pokladňa
+  want    špinavý : verb=kúpiť patient=none:mydlo ; uses polica
+  want    špinavý : verb=kúpiť patient=none:šampón ; uses polica | pokladňa
+  trouble polica prázdny : naplniť by predavačka
+  trouble pokladňa pokazený : opraviť by technik
+
+SITUATION bestellen : restaurant -- im Restaurant etwas bestellen
+  place   reštaurácia
+  people  čašník | kin | priateľ
+  things  stôl | stolička_(nábytok) | jedálny_lístok | tanier | sklenica
+  want    hladný : verb=objednať patient=indef:hlavné_jedlo ; uses jedálny_lístok
+  want    hladný : verb=objednať patient=indef:predjedlo ; uses jedálny_lístok
+  want    hladný : verb=objednať patient=indef:zákusok ; uses jedálny_lístok
+  want    hladný : verb=objednať patient=indef:príloha_(jedla) ; uses jedálny_lístok
+  want    chuť : verb=vybrať patient=indef:hlavné_jedlo ; uses jedálny_lístok
+  trouble jedálny_lístok špinavý : vymeniť by čašník
+
+SITUATION fleischgericht : restaurant -- im Gasthaus Fleisch essen
+  place   hostinec
+  people  hostinský | čašník | priateľ
+  things  stôl | stolička_(nábytok) | jedálny_lístok | pult | príbor
+  want    hladný : verb=jesť patient=indef:steak ; uses príbor
+  want    hladný : verb=jesť patient=indef:pečienka ; uses príbor
+  want    hladný : verb=jesť patient=indef:kurča ; uses príbor
+  want    hladný : verb=jesť patient=none:hovädzie_mäso ; uses príbor
+  want    hladný : verb=jesť patient=none:bravčové_mäso ; uses príbor
+  trouble príbor špinavý : vymeniť by čašník
+
+SITUATION fischgericht : restaurant -- im Restaurant Fisch und Salat essen
+  place   reštaurácia
+  people  čašník | priateľ | kin
+  things  stôl | stolička_(nábytok) | tanier | jedálny_lístok | obrúsok
+  want    hladný : verb=jesť patient=indef:pstruh ; uses tanier | obrúsok
+  want    hladný : verb=jesť patient=none:losos ; uses tanier | stôl
+  want    hladný : verb=jesť patient=none:tuniak ; uses tanier | stôl
+  want    hladný : verb=jesť patient=none:zemiakový_šalát ; uses tanier
+  trouble tanier špinavý : vymeniť by čašník
+  trouble stôl špinavý : čistiť by čašník
+
+SITUATION mensa-beilage : restaurant -- in der Mensa zu Mittag essen
+  place   študentská_jedáleň
+  people  priateľ | kin
+  things  stôl | stolička_(nábytok) | podnos | tanier | pokladňa
+  want    hladný : verb=jesť patient=none:hranolky ; uses podnos | tanier
+  want    hladný : verb=jesť patient=none:kyslá_kapusta ; uses tanier
+  want    hladný : verb=jesť patient=indef:burger ; uses podnos | tanier
+  want    hladný : verb=jesť patient=indef:snack ; uses podnos
+  trouble podnos špinavý : čistiť
+  trouble tanier špinavý : čistiť
+
+SITUATION frühstückscafé : restaurant -- im Café spät frühstücken
+  place   kaviareň
+  people  čašník | priateľ | kin
+  things  stôl | stolička_(nábytok) | sklenica | pult | tanier
+  want    hladný : verb=jesť patient=indef:omeleta ; uses tanier
+  want    hladný : verb=jesť patient=indef:volské_oko ; uses tanier
+  want    smädný : verb=piť patient=none:ovocný_džús ; uses sklenica
+  trouble tanier špinavý : vymeniť by čašník
+  trouble sklenica prázdny : naplniť by čašník
+
+SITUATION cocktailbar : restaurant -- abends in der Bar etwas trinken
+  place   bar
+  people  čašník | priateľ
+  things  pult | sklenica | taburetka | nápoj | fľaša
+  want    smädný : verb=piť patient=indef:kokteil ; uses sklenica
+  want    smädný : verb=piť patient=none:pitná_voda ; uses sklenica
+  want    smädný : verb=piť patient=none:víno ; uses sklenica
+  want    smädný : verb=piť patient=none:červené_víno ; uses sklenica
+  want    smädný : verb=piť patient=none:biele_víno ; uses sklenica
+  trouble sklenica špinavý : vymeniť by čašník
+  trouble sklenica prázdny : naplniť by čašník
+
+SITUATION soße : restaurant -- im Restaurant etwas probieren
+  place   reštaurácia
+  people  čašník | kuchár | priateľ
+  things  stôl | tanier | lyžica | jedálny_lístok
+  want    chuť : verb=ochutnať patient=def:omáčka ; uses lyžica
+  want    chuť : verb=ochutnať patient=def:omáčka ; uses lyžica
+  want    chuť : verb=ochutnať patient=indef:pokrm ; uses lyžica
+  trouble lyžica špinavý : vymeniť by čašník
+
+SITUATION am tisch : restaurant -- am Tisch im Restaurant
+  place   reštaurácia
+  people  čašník | priateľ | kin
+  things  stôl | stolička_(nábytok) | sklenica | krčah | tanier | lyžica
+  want    smädný : verb=naliať patient=none:minerálka ; uses krčah | sklenica
+  want    smädný : verb=naliať patient=none:ovocný_džús ; uses krčah | sklenica
+  want    hladný : verb=zjesť patient=def:zákusok ; uses lyžica
+  trouble krčah prázdny : naplniť by čašník
+  trouble sklenica špinavý : vymeniť by čašník
+  trouble lyžica špinavý : vymeniť by čašník

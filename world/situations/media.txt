@@ -1,0 +1,239 @@
+# SITUATIONS of the media, language, culture, nature, water, weather and sky settings (format: everyday.txt)
+
+SITUATION zeitung : media -- Zeitung und Radio am Morgen
+  place   kuchyňa | obývačka
+  people  kin
+  things  noviny | rádio | stôl
+  want    chuť : verb=počuť patient=none:správy ; uses rádio
+  want    chuť : verb=počuť patient=none:hudba ; uses rádio
+  trouble rádio pokazený : opraviť
+
+SITUATION telefon : media -- mit dem Handy
+  place   obývačka | izba
+  people  kin | priateľ
+  things  telefón | pohovka | stôl
+  own     mobil
+  want    chuť : verb=telefonovať ; uses mobil
+  want    chuť : verb=písať patient=indef:správa_(oznam) ; uses mobil
+  trouble mobil pokazený : opraviť
+  trouble mobil mokrý : sušiť
+
+SITUATION computerabend : media -- zu Hause am Laptop
+  place   izba
+  people  kin | priateľ
+  things  písací_stôl | stolička_(nábytok)
+  own     laptop
+  want    chuť : verb=hrať patient=indef:hra ; uses laptop
+  want    chuť : verb=vidieť patient=indef:film ; uses laptop
+  trouble laptop pokazený : opraviť by priateľ
+
+SITUATION filmabend : media -- abends einen Film sehen
+  place   obývačka
+  people  kin | priateľ
+  things  televízor | diaľkový_ovládač | pohovka | lampa | film
+  want    chuť : verb=vidieť patient=indef:film ; uses televízor
+  want    unavený : verb=oddýchnuť_si ; uses pohovka
+  trouble televízor pokazený : opraviť
+  trouble pohovka špinavý : čistiť
+
+SITUATION wörterbuch : language -- Wörter nachschlagen
+  place   izba | učebňa
+  people  učiteľ | priateľ
+  things  slovo | veta | text
+  own     slovník | zošit
+  want    chuť : verb=učiť_sa patient=none:slovo+pl ; uses slovník | zošit
+  trouble slovník mokrý : sušiť
+  trouble slovník pokazený : lepiť
+
+SITUATION sprachkurs : language -- Deutsch lernen
+  place   učebňa
+  people  učiteľ
+  things  tabuľa | slovo | text
+  own     kniha | zošit
+  want    chuť : verb=učiť_sa patient=none:nemčina ; uses kniha | zošit
+  want    chuť : verb=čítať patient=def:text ; uses tabuľa
+  trouble kniha pokazený : opraviť
+  trouble tabuľa špinavý : čistiť
+
+SITUATION gutenacht : language -- eine Geschichte vorlesen
+  place   spálňa | izba
+  people  kin
+  things  posteľ | lampa | kniha | strop
+  want    chuť : verb=čítať patient=indef:rozprávka ; uses kniha | lampa
+  trouble kniha pokazený : opraviť
+  trouble lampa pokazený : opraviť
+
+SITUATION kino : culture -- im Kino
+  place   kino
+  people  priateľ | kin
+  things  film | sedadlo | popcorn
+  want    chuť : verb=vidieť patient=indef:film ; uses sedadlo
+  trouble sedadlo špinavý : čistiť
+
+SITUATION museum : culture -- Bilder ansehen
+  place   múzeum
+  people  priateľ | kin
+  things  obraz | lavica
+  own     okuliare
+  want    chuť : verb=pozrieť_si patient=indef:obraz ; uses okuliare
+  want    unavený : verb=oddýchnuť_si ; uses lavica
+  trouble okuliare špinavý : čistiť
+  trouble lavica špinavý : čistiť
+
+SITUATION malen : culture -- ein Bild malen
+  place   izba | obývačka
+  people  kin | priateľ
+  things  farba | stôl | štetec | papier
+  want    chuť : verb=maľovať patient=indef:obraz ; uses štetec | papier
+  trouble štetec špinavý : umývať
+  trouble papier mokrý : sušiť
+
+SITUATION musik : culture -- Gitarre spielen
+  place   obývačka | izba
+  people  kin | priateľ
+  things  gitara | klavír | stolička_(nábytok) | pieseň
+  want    chuť : verb=hrať patient=none:gitara ; uses gitara
+  trouble gitara pokazený : opraviť
+
+SITUATION theater : culture -- abends im Theater
+  place   divadlo
+  people  priateľ | kin
+  things  javisko | sedadlo | program
+  want    chuť : verb=vidieť patient=indef:divadelná_hra ; uses sedadlo
+  trouble sedadlo špinavý : čistiť
+
+SITUATION bibliothek : culture -- in der Bibliothek
+  place   knižnica
+  people  priateľ | kin
+  things  kniha | polica | stôl | lampa | časopis
+  own     okuliare
+  want    chuť : verb=čítať patient=indef:kniha ; uses lampa | okuliare
+  want    chuť : verb=čítať patient=indef:časopis ; uses lampa | okuliare
+  trouble lampa pokazený : opraviť by školník
+  trouble okuliare špinavý : čistiť
+
+SITUATION wanderung : nature -- im Wald oder auf dem Berg wandern
+  place   les | vrch
+  people  priateľ | kin
+  things  cesta_(komunikácia) | strom
+  own     batoh | fľaša
+  want    chuť : verb=putovať ; uses batoh
+  want    smädný : verb=piť patient=none:voda ; uses fľaša
+  trouble batoh pokazený : opraviť
+  trouble fľaša prázdny : naplniť
+
+SITUATION pilze : nature -- im Wald Pilze sammeln
+  place   les
+  people  kin | priateľ
+  things  huba | strom | cesta_(komunikácia)
+  own     kôš
+  want    chuť : verb=zbierať patient=none:huba+pl ; uses kôš
+  trouble kôš pokazený : opraviť
+
+SITUATION picknick : nature -- auf der Wiese
+  place   lúka | park
+  people  priateľ | kin
+  things  chlieb | ovocie | strom
+  own     strop | kôš | fľaša
+  want    hladný : verb=robiť patient=indef:piknik ; uses strop | kôš
+  want    smädný : verb=piť patient=none:šťava ; uses fľaša
+  trouble strop mokrý : sušiť
+  trouble kôš pokazený : opraviť
+  trouble fľaša prázdny : naplniť
+
+SITUATION zelten : nature -- eine Nacht im Zelt
+  place   lúka | les
+  people  priateľ | kin
+  things  strom
+  own     stan | spací_vak
+  want    unavený : verb=spať ; uses stan | spací_vak
+  trouble stan pokazený : opraviť
+  trouble spací_vak mokrý : sušiť
+
+SITUATION vögel : nature -- Vögel beobachten
+  place   les | lúka
+  people  priateľ | kin
+  things  vták | strom | cesta_(komunikácia)
+  own     ďalekohľad
+  want    chuť : verb=pozorovať patient=none:vták+pl ; uses ďalekohľad
+  trouble ďalekohľad špinavý : čistiť
+
+SITUATION strand : water -- am Meer
+  place   pláž
+  people  kin | priateľ
+  things  piesok | more
+  own     fľaša
+  want    smädný : verb=piť patient=none:šťava ; uses fľaša
+  trouble fľaša prázdny : naplniť
+  lack    šťava : supermarket
+
+SITUATION angeln : water -- am See angeln
+  place   jazero | rieka
+  people  priateľ | kin
+  things  ryba | čln | strom
+  own     udica | sieť_(rybárska)
+  want    chuť : verb=chytať_ryby ; uses udica
+  want    hladný : verb=chytať patient=none:ryba+pl ; uses sieť_(rybárska)
+  trouble sieť_(rybárska) pokazený : opraviť by rybár
+  trouble udica pokazený : opraviť
+
+SITUATION bootsfahrt : water -- mit dem Boot auf dem See
+  place   jazero | rieka
+  people  priateľ | kin
+  things  čln | veslo | voda | most | ryba
+  want    chuť : verb=ísť_(dopravou) patient=none:čln ; uses čln | veslo
+  trouble veslo pokazený : opraviť
+
+SITUATION wasserholen : water -- Wasser am Fluss holen
+  place   rieka | jazero
+  people  kin | sused
+  things  voda | cesta_(komunikácia)
+  own     vedro
+  want    smädný : verb=doniesť patient=none:voda ; uses vedro
+  trouble vedro pokazený : opraviť
+  trouble vedro špinavý : oplachovať
+
+SITUATION regentag : weather -- ein Spaziergang im Regen
+  place   ulica | mesto
+  people  kin | sused
+  things  oblak
+  own     dáždnik
+  want    chuť : verb=robiť patient=indef:prechádzka ; uses dáždnik
+  trouble dáždnik pokazený : opraviť
+
+SITUATION schnee : weather -- Schlitten fahren im Schnee
+  place   vrch
+  people  kin | priateľ
+  things  sneh
+  own     sánky
+  want    chuť : verb=ísť_(dopravou) patient=none:sánky ; uses sánky
+  trouble sánky pokazený : opraviť
+
+SITUATION winterabend : weather -- ein kalter Abend zu Hause
+  place   kuchyňa
+  people  kin
+  things  čaj | polievka | šálka | tanier | okno
+  want    smädný : verb=piť patient=none:čaj ; uses čaj | šálka
+  want    hladný : verb=jesť patient=indef:polievka ; uses polievka | tanier
+  trouble čaj studený : ohrievať
+  trouble polievka studený : ohrievať
+  trouble šálka špinavý : oplachovať
+  trouble tanier špinavý : oplachovať
+  lack    čaj : supermarket
+
+SITUATION sommertag : weather -- ein heißer Tag im Garten
+  place   záhrada
+  people  kin | sused
+  things  slnko | stôl | stolička_(nábytok) | sklenica
+  want    smädný : verb=piť patient=none:šťava ; uses sklenica
+  trouble sklenica špinavý : oplachovať
+  trouble sklenica prázdny : naplniť
+  lack    šťava : supermarket
+
+SITUATION sterne : sky -- abends Sterne ansehen
+  place   záhrada | balkón
+  people  kin | priateľ
+  things  hviezda | mesiac_(na_oblohe) | obloha | stolička_(nábytok)
+  own     teleskop
+  want    chuť : verb=pozorovať patient=none:hviezda+pl ; uses teleskop
+  trouble teleskop špinavý : čistiť

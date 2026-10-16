@@ -1,0 +1,49 @@
+# Places and settlements K-Z (Kasse .. Zuhause): streets, squares, town parts, poles, floors, one PLACE line each, skipped nouns below
+# skipped Kolonie -- an abstract region / territory
+# skipped Kurve -- a bend of a road, not a place to be at
+# skipped Land -- an abstract region (country)
+# skipped Nachbarschaft -- abstract, the people nearby more than a place
+# skipped Nest -- a bird's home, no scene for a person
+# skipped Ort -- too general, any place
+# skipped Platz -- too general (a square is Marktplatz, a play area Spielplatz)
+# skipped Pol -- too general; Nordpol and Südpol are listed
+# skipped Provinz -- an abstract region
+# skipped Region -- an abstract region
+# skipped Sehenswürdigkeit -- a kind of thing, not one place
+# skipped Territorium -- an abstract region
+# skipped Treffpunkt -- any agreed spot, no typical scene
+# skipped Umfeld -- abstract surroundings
+# skipped Umgebung -- abstract surroundings
+# skipped Welt -- too big, not a scene place
+# skipped Wohnort -- an abstract notion (the town where one lives)
+PLACE pokladňa : in ; loudness pokojný ; crowd plný ; things pokladňa | peniaze | fronta | väzivo | vrecko | karta ; people pokladník | zákazník
+PLACE mestečko : out ; size malý ; loudness pokojný ; comfort útulný ; things dom | ulica | kostol | trh | obchod | park ; people občan
+PLACE križovatka : out ; loudness hlasný ; danger nebezpečný ; things semafor | auto | ulica | bicykel | štít | autobus
+PLACE tábor : out ; loudness pokojný ; things stan | oheň | batoh | spací_vak | strom | lúka
+PLACE hlavné_mesto_spolkovej_krajiny : out ; size veľký ; loudness hlasný ; crowd plný ; things ulica | dom | stanica | múzeum | park | most
+PLACE trh : out ; loudness hlasný ; crowd plný ; colour pestrý ; things stánok | ovocie | zelenina | pokladňa | kôš | váha ; people predavač | zákazník
+PLACE námestie : out ; crowd plný ; loudness hlasný ; things fontána | stánok | kostol | lavica | dom | holub ; people predavač
+PLACE severný_pól : out ; temperature studený ; colour biely ; loudness tichý_(pokojný) ; things ľad | sneh | medveď | obloha | stan ; weather sneh {4} | studený {4} | hmlistý {1} | oblačný {1}
+PLACE oáza : out ; temperature horúci ; colour zelený ; wetness suchý ; things palma | voda | piesok | stan | ťava | strom ; weather slnečný {6} | horúci {4} | veterný {1}
+PLACE horné_poschodie : in ; light svetlý ; loudness pokojný ; things schody | izba | dvere | okno | chodba | posteľ
+PLACE parkovisko : out ; space široký ; crowd plný ; things auto | štít | automat | plot | bicykel | strom ; people vodič
+PLACE osada : out ; loudness pokojný ; comfort útulný ; things dom | záhrada | ulica | plot | auto | strom ; people sused
+PLACE detské_ihrisko : out ; loudness hlasný ; light svetlý ; things šmykľavka | hra | piesok | lavica | lopta | strom ; people dieťa | matka
+PLACE mesto : out ; loudness hlasný ; crowd plný ; things ulica | dom | auto | autobus | obchod | park ; people občan
+PLACE okraj_mesta : out ; loudness pokojný ; space široký ; things pole | dom | ulica | strom | záhrada | plot
+PLACE mestská_časť : out ; loudness pokojný ; things ulica | dom | obchod | park | škola | autobus ; people sused
+PLACE štvrť : out ; loudness pokojný ; things ulica | dom | obchod | kaviareň | park | škola ; people sused
+# merged into world/places/outside-00.txt (a synonym's sheet): PLACE centrum_mesta : out ; loudness hlasný ; crowd plný ; things ulica | obchod | kostol | miesto_(priestor) | kaviareň | autobus ; people turista | predavač
+# merged into world/places/outside-00.txt (a synonym's sheet): PLACE poschodie : in ; loudness pokojný ; things schody | chodba | dvere | izba | okno | stena
+PLACE južný_pól : out ; temperature studený ; colour biely ; loudness tichý_(pokojný) ; things ľad | sneh | tučniak | stan | obloha ; weather sneh {4} | studený {4} | hmlistý {1} | oblačný {1}
+PLACE terasa : out ; light svetlý ; comfort útulný ; things stôl | stolička_(nábytok) | kvetina | záhrada | dvere
+PLACE tropy : out ; temperature horúci ; wetness vlhký ; colour zelený ; things palma | prales | rieka | opica | kvetina | dážď ; weather horúci {5} | dážď {4} | búrka {2} | slnečný {2}
+PLACE suterén : in ; light tmavý ; temperature chladný ; loudness tichý_(pokojný) ; things schody | dvere | lampa | polica | stena | bedňa
+PLACE skrýša : in ; light tmavý ; space tesný_(priestorovo) ; loudness tichý_(pokojný) ; things bedňa | skriňa | strop | dvere | stena | lampa
+PLACE predmestie : out ; loudness pokojný ; comfort útulný ; things dom | záhrada | ulica | plot | auto | autobus ; people sused
+PLACE vesmír : out ; light tmavý ; temperature studený ; loudness tichý_(pokojný) ; space široký ; things hviezda | mesiac_(na_oblohe) | planéta | raketa | slnko
+# merged into world/places/outside-01.txt (a synonym's sheet): PLACE vesmír : out ; light tmavý ; temperature studený ; loudness tichý_(pokojný) ; space ďaleký ; things hviezda | mesiac_(na_oblohe) | planéta | raketa | slnko
+PLACE trhovisko : out ; loudness hlasný ; crowd plný ; colour pestrý ; things stánok | ovocie | zelenina | kôš | syr | kvetina ; people predavač | zákazník
+PLACE centrum : out ; loudness hlasný ; crowd plný ; things ulica | obchod | kostol | miesto_(priestor) | kaviareň | autobus ; people turista | predavač
+PLACE zoologická_záhrada : out ; loudness hlasný ; crowd plný ; things klietka | zviera | slon | opica | lev | cesta_(komunikácia) ; people návštevník | dieťa
+# merged into world/places/outside-00.txt (a synonym's sheet): PLACE domov : in ; comfort útulný ; loudness pokojný ; things pohovka | posteľ | stôl | kuchyňa | okno | dvere ; people matka | otec

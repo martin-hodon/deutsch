@@ -1,0 +1,33 @@
+# HOW GERMAN SOUNDS (engine/speak.js loadProsody): the rhythm and timing of the voice -- what differs between the
+# languages; the sounds themselves are shared. `key = value -- note`; `say X = Y`: the symbol X of this language's IPA
+# is the sound Y.
+rhythm = stress        -- stress-timed: the stressed syllables come at even intervals, the unstressed ones between them are squeezed
+even = 0.35            -- how far the timing is evened out (0 none, 1 feet of equal length) -- part of the way, as speakers do
+long = 1.7             -- a long vowel (ː: Staat) against a short one (Stadt) under stress -- German's length is a phoneme, kept wide; unstressed much less
+stress = 1.2           -- a stressed vowel's length
+unstressed = 0.9       -- an unstressed vowel's (the schwa has its own, shorter)
+final = 1.15           -- the last vowel of what is said, lengthened
+pause = 45             -- ms between words: a short gap only (longer ones sound like a list)
+slow = 1.15             -- everything this much slower than conversation, for a learner
+accent = 1.08          -- the pitch on a stressed vowel, times the baseline -- a little: German speech is fairly level
+range = 0.15           -- the pitch's fall over a statement, as a share of the voice's pitch
+aspiration = 1         -- p t k before a vowel are aspirated in full
+
+# WEAK WORDS: said without stress in a phrase (speak.js phrase) -- the articles, pronouns, prepositions, conjunctions,
+# the auxiliaries and modals, the particles. A content word is stressed; a stretch of more than `run` syllables without a
+# beat gets one back on the weak word in its middle.
+run = 3
+weak = der die das den dem des ein eine einen einem einer eines kein keine keinen keinem keiner keines
+weak = ich du er sie es wir ihr mich dich ihn uns euch mir dir ihm ihnen sich man
+weak = mein meine meinen meinem meiner meines dein deine deinen deinem deiner deines sein seine seinen seinem seiner seines
+weak = ihre ihren ihrem ihrer ihres unser unsere unseren unserem unserer unseres euer eure euren eurem eurer eures
+weak = in an auf aus bei mit nach von zu für um durch über unter vor hinter neben zwischen ohne gegen seit bis
+weak = am im ins zum zur vom beim ans aufs
+weak = und oder aber denn dass weil wenn ob als sondern wie
+weak = bin bist ist sind seid war warst waren wart wäre wären wärst wärt
+weak = habe hast hat haben habt hatte hattest hatten hattet hätte hättest hätten hättet
+weak = werde wirst wird werden werdet wurde wurdest wurden wurdet würde würdest würden würdet worden
+weak = kann kannst können könnt konnte konnten könnte könnten muss musst müssen müsst musste mussten müsste müssten
+weak = will willst wollen wollt wollte wollten soll sollst sollen sollt sollte sollten darf darfst dürfen dürft durfte durften dürfte dürften
+weak = mag magst mögen möchte möchtest möchten
+weak = noch schon auch nur doch ja mal

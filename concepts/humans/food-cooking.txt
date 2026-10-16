@@ -1,0 +1,403 @@
+# food-general
+N jedlo
+N obed
+N večera
+AN jedlý
+N hostina
+N pokrm
+N hlavné jedlo
+N predjedlo
+N dezert
+N jedálny lístok
+N potravina
+N raňajky
+V raňajkovať
+N zákusok
+N snack
+N občerstvenie
+N príloha (jedla)
+N piknik
+V piknikovať
+AN sýty
+N čašník
+N čašníčka
+N kuchyňa
+N vegetarián
+N vegetariánka
+AN vegetariánsky
+AN vegánsky
+N banket
+N bufet
+N štipka
+N nátierka
+N poleva
+N vegán
+N koláčik
+N kola
+N slnečnicový olej
+N bylinky
+
+# staples
+N chlieb
+N žemľa
+N chlieb s maslom
+N celozrnný chlieb
+N múka
+N cesto
+N kvások
+N lístkové cesto
+N pečivo
+N ryža
+N cestoviny
+N polievka
+N vývar
+N kaša
+N zemiaková kaša
+N müsli
+N syr
+N čerstvý syr
+N tvaroh
+N maslo
+N smotana
+N mlieko
+N mliečny kokteil
+N cmar
+N jogurt
+N vajce
+N žĺtok
+N bielok
+N volské oko
+N praženica
+N olej
+N olivový olej
+N ocot
+N omáčka
+N paradajková omáčka
+N šťava z pečene
+N korenie
+V ochutiť
+AN korenistý
+N klinček
+N čierne korenie
+N soľ
+V soliť
+AN slaný
+N cukor
+N med
+N marmeláda
+N džem
+N horčica
+N kečup
+N majonéza
+N sendvič
+N burger
+N pizza
+N hrianka
+V hriankovať
+N hriankovač
+N omeleta
+N knedľa
+N škorica
+N droždie
+N sirup
+N kôrka
+N omrvinka
+N bazalka
+N mäta
+N rozmarín
+N tymian
+N šalvia
+N čili
+N kari
+N paprika
+N sezam
+N pohánka
+N šošovica
+N tofu
+N taco
+
+# meat-fish-food
+N hovädzie mäso
+N bravčové mäso
+N jahňacie mäso
+N teľacie mäso
+N kurča
+N klobása
+N pečená klobása
+N párok
+N klobása s kari omáčkou
+N šunka
+N slanina
+V schudnúť
+N steak
+N rezeň
+N kreveta
+N morské plody
+N filé
+N kaviár
+N saláma
+N mäsová guľka
+N fašírka
+N kebab
+N döner kebab
+N suši
+
+# fruits
+N ovocie
+N jablko
+N jablkový džús
+N jablkové pyré
+N granátové jablko
+N hruška
+N slivka
+N čerešňa (plod)
+N hrozno
+N pomaranč
+N pomarančový džús
+N citrón
+N citrónová šťava
+N banán
+N broskyňa
+N marhuľa
+N bobuľa
+N jahoda
+N malina
+N čučoriedka
+N černica
+N egreš
+N brusnica
+N ríbezľa
+N kanadská brusnica
+N dyňa
+N melón
+N cukrová dyňa
+N ananás
+N mango
+N kivi
+N orech
+N vlašský orech
+N lieskový orech
+N arašid
+N kokosový orech
+N muškátový orech
+N avokádo
+N figa
+N datľa
+N hrozienko
+N limetka
+N grapefruit
+
+# vegetables
+N zelenina
+N zemiak
+N sladký zemiak
+N hranolky
+N paradajka
+N uhorka
+N nakladaná uhorka
+N mrkva
+N cesnak
+N kapusta
+N karfiol
+N ružičkový kel
+N červená kapusta
+N kyslá kapusta
+N brokolica
+N cvikla
+N reďkovka
+N fazuľa
+N kávové zrno
+N sójový bôb
+N hrach
+N kukurica
+N tekvica
+N baklažán
+N šalát
+N hlávkový šalát
+N zemiakový šalát
+N ovocný šalát
+N špenát
+N zeler
+N petržlen
+N kôpor
+N oliva
+N zázvor
+N cuketa
+N pór (zelenina)
+N špargľa
+N šampiňón
+
+# sweets-drinks
+N koláč
+N palacinka
+N tvarohový koláč
+N perník
+N torta
+N paštéta
+N sušienka
+N čokoláda
+N cukrík
+N sladkosť
+N puding
+N vanilka
+N nápoj
+N nealkoholický nápoj
+N čaj
+N čajník
+N káva
+N kávovar
+N espresso
+N limonáda
+N kakao
+N minerálka
+N pivo
+N víno
+N červené víno
+N biele víno
+N jablkové víno
+N šumivé víno
+N šampanské
+N vodka
+N whisky
+N rum
+N pálenka
+N likér
+N alkohol
+AN alkoholický
+AN nealkoholický
+N kokteil
+N muffin
+N oblátka
+N croissant
+N donut
+N popcorn
+N krekr
+N praclík
+N čipsy
+N karamel
+N želé
+
+# cooking
+V variť
+N kuchár
+N kuchárka
+N kuchárska kniha
+N rýchlovarná kanvica
+V priviesť do varu
+V pomaly variť
+V vrieť
+V piecť
+N prášok do pečiva
+AN okoralý
+V smažiť
+N pečienka
+V opražiť
+V fritovať
+V variť do mäkka
+V pražiť
+V grilovať
+N gril
+V dusiť
+V miešať
+N zmes
+V miešať sa do
+V zamiešať
+V premiešať
+V rozmiešať
+V liať
+V naliať
+V poliať
+N krhla
+V sypať
+V rozliať
+V rozrezať
+N krájané mäso
+V sekať
+N mleté mäso
+V lúpať
+V miesiť
+V tĺcť
+V ochutnať
+V vyskúšať
+V pripraviť (jedlo)
+N príprava (jedla)
+V servírovať
+N recept
+N ingrediencia
+V stolovať
+V skonzumovať
+V garnírovať
+
+# kitchen-tools
+N nôž
+N vreckový nôž
+N vidlička
+N príbor
+N lyžica
+N polievková lyžica
+N čajová lyžička
+N tanier
+N misa
+N šálka
+N tanierik pod šálku
+N hrnček
+N sklenica
+N zavárací pohár
+AN jasný ako krištáľ
+N hrniec
+N chňapka
+N kvetináč
+N panvica
+N panvica na vyprážanie
+N obracačka
+N pec
+N rúra na pečenie
+N sporák
+N mikrovlnka
+N chladnička
+N mraznička
+N podnos
+N krčah
+N fľaša
+N otvárač na fľaše
+N plechovka
+N otvárač konzerv
+N konzerva
+N pokrievka
+N korok
+N vývrtka
+N obrúsok
+N obrus
+N slamka
+N metlička
+N naberačka
+N strúhadlo
+N cedidlo
+N sito
+N umývačka riadu
+N mixér
+N varecha
+N kuchynský nôž
+N menu
+N pohostinstvo
+
+# taste-quality
+N chuť (na jazyku)
+AN nechutný : adverb nechutne
+AN vkusný : adverb vkusne
+AN sladký : adverb sladko
+AN kyslý
+N kyselina
+AN horký
+AN zatrpknutý
+AN čerstvý : adverb čerstvo
+N sviežosť
+V osviežiť
+AN surový
+AN chutný : adverb chutne
+N maškrta
+AN šťavnatý
+AN mastný
+AN krémový
+N dóza
+V polievať

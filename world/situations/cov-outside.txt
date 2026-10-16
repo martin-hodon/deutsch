@@ -1,0 +1,218 @@
+# COVERAGE situations of the outside settings (nature, water, weather, sky, travel, traffic, town; format: everyday.txt): everyday words
+# no situation said yet -- berries, flowers, fish, boats, winter clothes, vehicles, tickets -- as the wanted action, its object, the
+# thing that goes wrong, what she has with her and what she lacks.
+
+SITUATION beerenwald : nature -- Beeren im Wald sammeln
+  place   les
+  people  kin | priateľ
+  things  ker | ker | krovie | strom
+  own     kôš
+  want    hladný : verb=zbierať patient=none:čučoriedka+pl ; uses kôš
+  want    hladný : verb=zbierať patient=none:černica+pl ; uses kôš
+  want    hladný : verb=zbierať patient=none:malina+pl ; uses kôš
+  trouble kôš pokazený : opraviť
+  trouble kôš plný : vyprázdniť
+
+SITUATION rosenbeet : nature -- Blumen im Garten pflanzen
+  place   záhrada
+  people  záhradník | kin
+  things  zem | plot | tráva
+  own     rýľ
+  want    chuť : verb=sadiť patient=none:tulipán+pl ; uses rýľ
+  want    chuť : verb=sadiť patient=indef:ruža ; uses rýľ
+  want    chuť : verb=siať patient=none:kvetina+pl ; uses semeno
+  trouble rýľ pokazený : opraviť
+  lack    semeno : záhradníctvo
+
+SITUATION gartenpflege : nature -- Gartenarbeit im Herbst
+  place   záhrada
+  people  kin | sused
+  things  plot | tráva | strom
+  own     rukavica | deka
+  want    chuť : verb=šklbať patient=none:burina ; uses rukavica
+  want    unavený : verb=oddýchnuť_si ; uses strop
+  trouble rukavica pokazený : šiť
+  trouble strop mokrý : sušiť
+  lack    rukavica : obchodný_dom
+
+SITUATION waldtag : nature -- ein Tag im Wald
+  place   les
+  people  priateľ | kin
+  things  strom | cesta_(komunikácia) | kmeň | huba
+  own     sekera | čižma | batoh
+  want    chuť : verb=sekať patient=none:drevo ; uses sekera
+  want    chuť : verb=zbierať patient=none:konár+pl ; uses batoh
+  want    chuť : verb=prechádzať_sa ; uses čižma
+  trouble sekera pokazený : opraviť
+  trouble čižma pokazený : lepiť
+  trouble batoh pokazený : opraviť
+
+SITUATION wildbeobachtung : nature -- Tiere am Feld beobachten
+  place   pole
+  people  priateľ | kin
+  things  tráva | cesta_(komunikácia) | strom
+  own     ďalekohľad
+  want    chuť : verb=pozorovať patient=none:zver ; uses ďalekohľad
+  want    chuť : verb=pozorovať patient=none:vták+pl ; uses ďalekohľad
+  trouble ďalekohľad špinavý : čistiť
+
+SITUATION drachenbau : nature -- einen Drachen bauen
+  place   obývačka
+  people  kin | priateľ
+  things  stôl | pohovka | okno | nožnice
+  want    chuť : verb=stavať patient=indef:šarkan ; uses nožnice | papier | špagát
+  trouble nožnice pokazený : opraviť
+  lack    papier : obchodný_dom
+  lack    špagát : obchodný_dom
+
+SITUATION klettertour : nature -- im Gebirge klettern
+  place   pohorie
+  people  priateľ | kin
+  things  vrch | kameň | sneh
+  own     lano | prilba
+  want    chuť : verb=liezť ; uses lano | prilba
+  trouble lano pokazený : vymeniť
+  trouble prilba pokazený : vymeniť
+
+SITUATION forellen : water -- Forellen am Fluss
+  place   rieka
+  people  rybár | priateľ | kin
+  things  voda | most | breh
+  own     udica | sieť_(rybárska)
+  want    hladný : verb=chytať patient=none:pstruh+pl ; uses udica
+  want    chuť : verb=loviť_ryby ; uses sieť_(rybárska)
+  trouble udica pokazený : opraviť
+  trouble sieť_(rybárska) pokazený : opraviť by rybár
+
+SITUATION strandtag : water -- am Strand schwimmen und tauchen
+  place   pláž
+  people  kin | priateľ
+  things  piesok | slnko | mušľa | more
+  own     maska
+  want    chuť : verb=plávať ; uses plavky_(pánske)
+  want    chuť : verb=potápať_sa ; uses maska
+  trouble maska špinavý : oplachovať
+  lack    plavky_(pánske) : obchodný_dom
+
+SITUATION schwimmhalle : water -- im Schwimmbad schwimmen
+  place   plaváreň
+  people  školník | priateľ | kin
+  things  voda | bazén | sprcha
+  want    chuť : verb=plávať ; uses panva
+  trouble panva prázdny : naplniť by školník
+  trouble panva špinavý : čistiť by školník
+
+SITUATION faehre : water -- mit der Fähre fahren
+  place   prístav
+  people  priateľ | kin
+  things  loď | žeriav_(stroj) | čajka
+  own     kamera
+  want    ponáhľanie : verb=vziať patient=def:trajekt ; uses cestovný_lístok
+  want    chuť : verb=fotografovať patient=def:trajekt ; uses kamera
+  trouble kamera prázdny : nabiť
+  lack    cestovný_lístok : okienko
+
+SITUATION segeln : water -- an der Ostsee segeln
+  place   Baltské_more
+  people  priateľ | kin
+  things  voda | vlna | čajka
+  own     plachetnica | čln
+  want    chuť : verb=plaviť_sa_na_plachetnici ; uses plachetnica | kotva
+  want    chuť : verb=veslovať ; uses čln
+  trouble plachetnica pokazený : opraviť
+  trouble čln pokazený : opraviť
+  lack    kotva : prístav
+
+SITUATION winterlager : weather -- im Winter zelten
+  place   kemping
+  people  priateľ | kin
+  things  stan | oheň | sneh | strom | čaj | polievka
+  own     vlnená_deka | spací_vak
+  want    unavený : verb=spať ; uses vlnená_deka | spací_vak
+  want    smädný : verb=piť patient=none:čaj ; uses čaj
+  want    smädný : verb=piť patient=none:pitná_voda
+  want    hladný : verb=jesť patient=none:polievka ; uses polievka
+  trouble vlnená_deka mokrý : sušiť
+  trouble čaj studený : ohriať
+  trouble polievka studený : zohriať
+  lack    pitná_voda : prameň doniesť
+
+SITUATION rodeln : weather -- im Schnee auf dem Hügel
+  place   kopec
+  people  kin | priateľ
+  things  sneh | cesta_(komunikácia) | strom
+  own     sánky
+  want    chuť : verb=jazdiť patient=none:sánky ; uses sánky | šál
+  trouble sánky pokazený : opraviť
+  lack    šál : obchodný_dom
+
+SITUATION tiefkuehl : weather -- aus dem Gefrierfach
+  place   kuchyňa
+  people  kin | priateľ
+  things  sporák | hrniec | chladnička | mikrovlnka
+  want    hladný : verb=rozmraziť patient=none:polievka ; uses hrniec | sporák
+  want    smädný : verb=ochladiť patient=none:limonáda ; uses chladnička
+  want    hladný : verb=rozmraziť patient=none:pizza ; uses mikrovlnka
+  trouble sporák pokazený : opraviť
+  trouble chladnička pokazený : opraviť
+  trouble mikrovlnka pokazený : opraviť
+  trouble hrniec špinavý : oplachovať
+
+SITUATION silvester : sky -- Feuerwerk im Garten
+  place   záhrada
+  people  kin | sused | priateľ
+  things  obloha | lavica | plot
+  own     zapaľovač | ďalekohľad
+  want    chuť : verb=štartovať patient=none:raketa+pl ; uses zapaľovač
+  want    chuť : verb=pozorovať patient=def:satelit+pl ; uses ďalekohľad
+  trouble zapaľovač pokazený : nahradiť by sused
+  trouble ďalekohľad špinavý : čistiť
+
+SITUATION hotelzimmer : travel -- im Hotel übernachten
+  place   hotel
+  people  priateľ | kin | školník
+  things  izba | kľúč | manželská_posteľ | výťah
+  want    unavený : verb=prenocovať ; uses manželská_posteľ
+  want    unavený : verb=vziať patient=def:výťah ; uses výťah
+  trouble manželská_posteľ pokazený : opraviť by školník
+  trouble výťah pokazený : opraviť by školník
+
+SITUATION hbf : traffic -- mit dem Zug und der U-Bahn
+  place   hlavná_stanica
+  people  priateľ | kin
+  things  vlak | koľaj | nástupište | hodiny
+  want    ponáhľanie : verb=nastúpiť_(do_vozidla) ; uses vlak | cestovný_lístok
+  want    ponáhľanie : verb=prestúpiť ; uses cestovný_lístok
+  want    ponáhľanie : verb=chytiť patient=def:metro ; uses cestovný_lístok
+  lack    cestovný_lístok : okienko
+
+SITUATION zentrumsbummel : town -- im Zentrum spazieren
+  place   centrum_mesta
+  people  kin | priateľ
+  things  ulica | kaviareň | námestie | pamätník
+  own     kamera
+  want    chuť : verb=fotografovať patient=def:pamätník ; uses kamera
+  trouble kamera prázdny : nabiť
+
+SITUATION parkplatz-fahrt : traffic -- am Parkplatz
+  place   parkovisko
+  people  priateľ | kin | technik
+  things  auto | štít | plot | automat | batožinový_priestor
+  want    ponáhľanie : verb=parkovať ; uses auto | automat
+  want    ponáhľanie : verb=pozvať patient=def:batožina ; uses batožinový_priestor
+  trouble automat pokazený : opraviť by technik
+  trouble batožinový_priestor plný : vyprázdniť
+
+SITUATION autofahrt : traffic -- eine Fahrt mit dem Auto
+  place   ulica
+  people  priateľ | mechanik | kin
+  things  semafor | dom | autobus | motor | brzda
+  own     auto | motocykel | prilba
+  want    ponáhľanie : verb=tankovať ; uses auto | benzín
+  want    chuť : verb=robiť patient=indef:výlet ; uses auto | motor | brzda
+  want    chuť : verb=jazdiť patient=none:motocykel ; uses motocykel | prilba
+  trouble auto pokazený : opraviť by mechanik
+  trouble motor pokazený : opraviť by mechanik
+  trouble brzda pokazený : opraviť by mechanik
+  trouble motocykel pokazený : opraviť by mechanik
+  lack    benzín : čerpacia_stanica

@@ -1,0 +1,176 @@
+# SITUATIONS: home, kitchen, bathroom, garden, family, celebration (more scenes; see everyday.txt for the format)
+
+SITUATION schlafzimmer : home -- im Schlafzimmer
+  place   spálňa
+  people  kin
+  things  posteľ | vankúš | skriňa | lampa | rádio | budík
+  want    chuť : verb=počúvať patient=none:hudba ; uses rádio
+  trouble rádio pokazený : opraviť
+
+SITUATION esszimmer : home -- am Tisch essen
+  place   jedáleň_(v_byte)
+  people  kin
+  things  stôl | stolička_(nábytok) | obrus | tanier | vidlička | lyžica | sklenica | voda
+  want    hladný : verb=jesť patient=indef:polievka ; uses lyžica
+  want    hladný : verb=jesť patient=indef:koláč ; uses vidlička
+  trouble lyžica špinavý : oplachovať
+  trouble vidlička špinavý : oplachovať
+
+SITUATION tee : kitchen -- Tee und Wasser
+  place   kuchyňa
+  people  kin | priateľ
+  things  rýchlovarná_kanvica | šálka | sklenica | čaj | voda | stôl
+  want    smädný : verb=variť patient=none:čaj ; uses rýchlovarná_kanvica | šálka
+  want    smädný : verb=piť patient=none:voda ; uses sklenica
+  trouble rýchlovarná_kanvica pokazený : opraviť
+  trouble šálka špinavý : oplachovať
+  trouble sklenica špinavý : oplachovať
+  lack    čaj : supermarket
+
+SITUATION abwasch : kitchen -- Brot schneiden
+  place   kuchyňa
+  people  kin
+  things  drez | umývačka_riadu | tanier | nôž | misa | uterák | chlieb
+  want    hladný : verb=krájať patient=none:chlieb ; uses nôž
+  trouble nôž špinavý : oplachovať
+  lack    chlieb : pekáreň
+
+SITUATION salat : kitchen -- ein Salat zum Mittag
+  place   kuchyňa
+  people  kin | priateľ
+  things  šalát | paradajka | syr | misa | nôž | stôl
+  want    hladný : verb=robiť patient=indef:šalát ; uses misa | nôž
+  trouble misa špinavý : oplachovať
+  trouble nôž špinavý : oplachovať
+
+SITUATION eis : kitchen -- etwas Kaltes
+  place   kuchyňa
+  people  kin
+  things  chladnička | mraznička | zmrzlina | šťava | sklenica | lyžica
+  want    chuť : verb=jesť patient=none:zmrzlina ; uses lyžica
+  want    smädný : verb=piť patient=none:šťava ; uses sklenica
+  trouble lyžica špinavý : oplachovať
+  trouble sklenica špinavý : oplachovať
+  lack    zmrzlina : supermarket
+  lack    šťava : supermarket
+
+SITUATION hände : bathroom -- am Waschbecken
+  place   kúpeľňa
+  people  kin
+  things  umývadlo | vodovodný_kohútik | mydlo | zubná_kefka | zrkadlo
+  want    špinavý : verb=umývať patient=poss:tvár ; uses vodovodný_kohútik | mydlo
+  trouble vodovodný_kohútik pokazený : opraviť by klampiar
+  lack    mydlo : supermarket
+
+SITUATION baden : bathroom -- ein Bad nehmen
+  place   kúpeľňa
+  people  kin
+  things  vaňa | voda | mydlo | uterák | šampón
+  want    špinavý : verb=vziať patient=indef:kúpeľ ; uses vaňa | voda
+  trouble vaňa špinavý : čistiť
+  trouble vaňa pokazený : opraviť by klampiar
+  trouble voda studený : ohrievať
+
+SITUATION grillen : garden -- ein Grillfest im Garten
+  place   záhrada
+  people  kin | sused
+  things  gril | stôl | stolička_(nábytok) | párok | mäso
+  want    hladný : verb=grilovať patient=none:párok ; uses gril
+  want    hladný : verb=grilovať patient=none:mäso ; uses gril
+  trouble gril pokazený : opraviť
+  trouble gril špinavý : čistiť
+  lack    mäso : mäsiarstvo
+  lack    párok : mäsiarstvo
+
+SITUATION liegestuhl : garden -- im Garten ausruhen
+  place   záhrada
+  people  kin | sused
+  things  hojdacia_sieť | strom | stôl | slnko
+  want    unavený : verb=oddýchnuť_si ; uses hojdacia_sieť
+  trouble hojdacia_sieť pokazený : opraviť
+  trouble hojdacia_sieť mokrý : sušiť
+
+SITUATION schlauch : garden -- Blumen im Garten
+  place   záhrada
+  people  kin | sused
+  things  hadica | krhla | vedro | voda | tráva
+  want    chuť : verb=liať patient=none:kvetina+pl ; uses hadica | krhla
+  trouble hadica pokazený : opraviť
+  trouble krhla prázdny : naplniť
+
+SITUATION foto : family -- ein Foto von der Familie
+  place   obývačka | záhrada
+  people  kin | priateľ
+  own     kamera
+  things  pohovka | stôl | kvetina
+  want    chuť : verb=robiť patient=indef:fotka ; uses kamera
+  trouble kamera pokazený : opraviť
+
+SITUATION fotos : family -- Fotos ansehen
+  place   obývačka
+  people  kin | priateľ
+  things  počítač | pohovka | stôl | lampa
+  want    chuť : verb=pozrieť_si patient=none:fotka+pl ; uses počítač
+  trouble počítač pokazený : opraviť
+
+SITUATION roller : family -- die Kinder spielen
+  place   dvor
+  people  kin | sused
+  own     kolobežka
+  things  lopta | bicykel | gól | dom
+  want    chuť : verb=ísť_(dopravou) patient=none:kolobežka ; uses kolobežka
+  trouble kolobežka pokazený : opraviť
+
+SITUATION kartenspiel : family -- ein Spieleabend
+  place   obývačka
+  people  kin | priateľ
+  things  stôl | stolička_(nábytok) | hra | lampa | pohovka
+  want    chuť : verb=hrať patient=none:karta+pl ; uses stôl
+  trouble stôl mokrý : sušiť
+  trouble stôl špinavý : čistiť
+
+SITUATION geschenk : celebration -- ein Geschenk zum Geburtstag
+  place   obývačka
+  people  kin | priateľ
+  things  darček | papier | stôl | nožnice
+  want    chuť : verb=zabaliť patient=indef:darček ; uses nožnice
+  trouble nožnice pokazený : opraviť
+
+SITUATION party : celebration -- eine Party zu Hause
+  place   obývačka
+  people  kin | priateľ
+  things  reproduktor | pohovka | sklenica | tanier | stôl | koláč | nápoj
+  want    chuť : verb=počúvať patient=none:hudba ; uses reproduktor
+  want    smädný : verb=piť patient=none:šťava ; uses sklenica
+  want    hladný : verb=jesť patient=none:koláč ; uses tanier
+  trouble reproduktor pokazený : opraviť
+  trouble sklenica špinavý : oplachovať
+  trouble tanier špinavý : oplachovať
+  lack    šťava : supermarket
+
+SITUATION torte : celebration -- die Geburtstagstorte
+  place   kuchyňa | jedáleň_(v_byte)
+  people  kin
+  things  torta | sviečka | tanier | vidlička | nôž | stôl
+  want    hladný : verb=jesť patient=def:torta ; uses vidlička | tanier
+  want    hladný : verb=krájať patient=def:torta ; uses nôž
+  trouble vidlička špinavý : oplachovať
+  trouble tanier špinavý : oplachovať
+  trouble nôž špinavý : oplachovať
+
+SITUATION hochzeit : celebration -- zur Hochzeit
+  place   spálňa
+  people  kin | priateľ
+  things  šaty | zrkadlo | skriňa | oblek
+  want    ponáhľanie : verb=obliecť patient=poss:oblek ; uses oblek
+  trouble oblek špinavý : kefovať
+
+SITUATION plätzchen : celebration -- Weihnachtskekse backen
+  place   kuchyňa
+  people  kin
+  things  pec | stôl | cesto | misa
+  want    chuť : verb=piecť patient=none:sušienka+pl ; uses pec | misa | múka | maslo
+  trouble pec pokazený : opraviť
+  trouble misa špinavý : oplachovať
+  lack    múka : supermarket
+  lack    maslo : supermarket

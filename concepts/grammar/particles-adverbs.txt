@@ -1,0 +1,315 @@
+# yes-no
+PAR áno
+INT áno (dôrazne)
+INT nie
+PAR však
+
+# modal-particles
+PAR raz (častica)
+AV ešte raz
+PAR veď
+PAR asi
+PAR teda
+PAR len
+PAR vlastne
+PAR azda
+PAR vôbec
+PAR prosím
+PAR ďakujem
+PHR žiadny problém
+PHR to nevadí
+PHR do kelu
+
+# negation
+AV nie
+PHR už nie
+PHR ešte nie
+PHR vôbec nie
+PHR nielen
+AV sotva
+
+# degree-and-focus
+AV aj
+AV takisto
+AV veľmi
+AV tak
+AV rovnako
+AV presne tak
+AV dokonca
+AV príliš
+AV pomerne
+AV takmer
+AV až
+AV minimálne
+AV aspoň
+AV najviac
+AV výlučne
+AV najmä
+AV zároveň
+AV naopak
+AV navzájom
+AV akoby
+AV práve
+AV nanajvýš
+AV prevažne
+AV čoraz viac
+AV približne
+
+# time
+AV teraz
+AV vtedy
+AV neskôr
+AV väčšinou
+AV stále
+AV dávno
+AV doteraz
+AV naposledy
+AV najprv
+AV naďalej
+AV zatiaľ
+AV následne
+AV krátkodobo
+AV dlhodobo
+AV vopred
+AV trikrát
+AV okamžite
+AV onedlho
+AV odvtedy
+
+# attitude-and-manner
+AV možno
+AV určite
+AV bohužiaľ
+AV rád
+AV naozaj
+AV skutočne
+AV mimochodom
+AV nejako
+AV zadarmo
+AV márne
+AV každopádne
+AV nevyhnutne
+AV osobitne
+AV natoľko
+AV vôbec nie
+AV veľmi dobre
+AV prípadne
+AV na seba
+AV ľúto
+
+# place-direction
+AV sem
+AV dnu (k hovoriacemu)
+AV nahor (k hovoriacemu)
+AV dolu (k hovoriacemu)
+AV tam (smer)
+AV dnu (od hovoriaceho)
+AV von
+AV nahor (od hovoriaceho)
+AV dolu (od hovoriaceho)
+AV späť
+AV okolo
+AV vpredu
+AV vpred
+AV u nás
+AV podľa čoho
+
+# da-compounds
+AV s tým
+AV za to
+AV proti tomu
+AV od toho
+AV k tomu
+AV na tom
+AV v tom
+AV pri tom
+AV pred tým
+AV tým
+AV z toho
+AV pod tým
+AV za tým
+AV na to
+
+# question-words
+AV ako
+PHR koľko
+AV prečo
+AV kedy
+AV niekedy
+AV kde
+AV kam
+AV odkiaľ
+AV s čím
+AV za čo
+AV načo
+AV z čoho
+AV na čom
+AV na čo
+AV o čom
+AV pri čom
+AV čím
+
+# language-specific closed words (no Slovak word: a description)
+PAR by -- by: would
+PAR častica prívlastku (的) -- spája prívlastok s menom: 我的书, 红的
+PAR príslovková častica (地) -- za prídavným menom pred slovesom: 慢慢地走
+PAR častica trpného rodu (被) -- pôvodca deja je za ňou: 他被打了
+PAR opytovacia častica -- na konci vety: 你好吗
+PAR prípona množného čísla osôb (们) -- za zámenom alebo podstatným menom osoby: 我们, 孩子们
+PAR častica budúceho deja (会) -- pred slovesom: 明天会下雨
+PAR častica prebiehajúceho deja (在) -- pred slovesom: 他正在吃饭
+PAR doplnok začiatku deja (起来) -- po slovese: 笑起来
+AV všetko bez výnimky (都) -- zhŕňa podmet pred slovesom: 我们都去
+PHR jeden z (之一) -- po mene: 世界之一
+PHR čím… tým (越…越) -- stupňovanie: 越来越, 越多越好
+PHR zákaz konania (不要) -- nerob: 不要走
+PHR nemožnosť konania (无法) -- nedá sa: 无法进入
+PHR v rámci (im Rahmen) -- im Rahmen G / von D: im Rahmen der Veranstaltung
+PHR tisíce (miles de) -- mnoho tisíc: miles de personas
+AV tiež nie (záporné aj) -- tampoco: Yo tampoco
+PHR to je (c'est) -- väzba ukazovacieho zámena a slovesa byť: c'est bien, c'est vrai
+PHR ide o -- bezpodmetová väzba: il s'agit de la paix
+PAR záporová častica (ne) -- s pas, plus, jamais: je ne sais pas
+PHR treba -- neosobné: bisogna fare, bisogna che + cong
+PAR hľa -- ecco il libro: hľa, tu je
+AV ani len -- nemmeno lui: ani on, ani len
+PHR dá sa -- neosobné: dá sa, smie sa
+PAR je vidieť (widać) -- neosobné: vidno, je zrejmé
+PAR je známe (wiadomo) -- neosobné: vie sa
+AV ďalej -- ďalej v čase alebo v priestore: a tak ďalej, išiel ďalej
+NUM pol -- polovica pred počítanou vecou: pol hodiny, pół roku
+PAR zdôrazňovacia častica (же) -- zdôrazňuje alebo odkazuje späť: Кто же это? Он же сказал
+PAR častica hlavnej vety (то) -- po podraďovacej vete: Если..., то...; а то
+PAR záporová zdôrazňovacia častica (ни) -- ni jeden, ani jeden: ни разу, ни слова, ни за что
+PAR tvorba najvyššieho stupňa (самый) -- самый + prídavné meno: самый большой
+PHR nemožno -- nesmie sa alebo sa nedá: нельзя курить, невозможно сделать
+N raz (príležitosť) -- la vez, las veces
+PAR počítacie slovo (个) -- pre väčšinu mien: 三个人
+PAR počítacie slovo (把) -- pre veci s rukoväťou, hrsť: 一把椅子, 一把刀
+PAR počítacie slovo (次) -- pre počet opakovaní: 三次
+PAR počítacie slovo (位) -- pre ľudí s úctou: 三位客人
+PAR počítacie slovo (道) -- pre dvere, otázky, jedlá, čiary: 一道菜, 一道题
+PAR počítacie slovo (首) -- pre piesne a básne: 一首歌
+PAR počítacie slovo (场) -- pre dážď, zápasy, predstavenia: 一场雨, 一场比赛
+PAR počítacie slovo (期) -- pre čísla časopisov, kurzy: 第三期
+PAR počítacie slovo (副) -- pre páry a súpravy: 一副眼镜
+PAR počítacie slovo (张) -- pre ploché veci: 一张纸, 一张桌子
+PAR počítacie slovo (本) -- pre knihy: 一本书
+PAR počítacie slovo (款) -- pre modely a druhy výrobkov: 一款手机
+PAR počítacie slovo (条) -- pre dlhé veci: 一条鱼, 一条路
+PAR počítacie slovo (件) -- pre oblečenie a veci: 一件衣服, 一件事
+PAR počítacie slovo (座) -- pre budovy a hory: 一座桥, 一座山
+PAR počítacie slovo (项) -- pre body, projekty, úlohy: 一项计划
+PAR počítacie slovo (支) -- pre tyčinky, perá, tímy: 一支笔
+PAR počítacie slovo (片) -- pre plátky a plochy: 一片面包, 一片云
+PAR počítacie slovo (股) -- pre pachy, prúdy, sily: 一股香味
+PAR počítacie slovo (届) -- pre ročníky podujatí: 第十届
+PAR počítacie slovo (间) -- pre izby a domy: 一间房
+PAR počítacie slovo (套) -- pre súpravy: 一套衣服
+PAR počítacie slovo (架) -- pre lietadlá a stroje: 一架飞机
+PAR počítacie slovo (颗) -- pre guľaté drobné veci: 一颗星
+PAR počítacie slovo (辆) -- pre vozidlá: 一辆车
+PAR počítacie slovo (户) -- pre domácnosti: 一户人家
+PAR počítacie slovo (篇) -- pre texty: 一篇文章
+PAR počítacie slovo (堂) -- pre vyučovacie hodiny: 一堂课
+PAR počítacie slovo (声) -- pre zvuky a výkriky: 喊了一声
+PAR počítacie slovo (台) -- pre stroje a prístroje: 一台电脑
+PAR počítacie slovo (所) -- pre školy a nemocnice: 一所学校
+PAR častica predmetu (把) -- predmet pred slovesom: 我把书给他
+PAR dôrazová častica (啊) -- na konci vety zmäkčuje alebo zdôrazňuje: 好啊
+NUM desaťtisíc -- 万: 三万
+PAR počítacie slovo (艘) -- pre lode: 一艘船
+PAR počítacie slovo (幅) -- pre obrazy a plátna: 一幅画
+PAR počítacie slovo (杯) -- pre pohár alebo šálku obsahu: 一杯水
+PAR počítacie slovo (盒) -- pre škatuľku obsahu: 一盒巧克力
+PAR počítacie slovo (节) -- pre vyučovacie hodiny a vagóny: 一节课
+PAR počítacie slovo (轮) -- pre kolá a kolesá udalostí: 第一轮, 一轮明月
+PAR počítacie slovo (顿) -- pre jedlo a pokarhanie: 一顿饭
+PAR počítacie slovo (遍) -- pre počet prechodov od začiatku do konca: 读三遍
+PAR počítacie slovo (顶) -- pre čiapky a stany: 一顶帽子
+PAR počítacie slovo (卷) -- pre zvitky a kotúče: 一卷纸
+PAR počítacie slovo (亩) -- čínska miera plochy: 三亩地
+PAR zvolacia častica (呀) -- zjemňuje vetu: 好呀, 快来呀
+PAR častica zmeny a zvolania (啦) -- spojenie 了 a 啊: 好啦, 下雨啦
+PAR počítacie slovo (刻) -- pre štvrťhodinu: 三刻, 一刻钟
+PAR počítacie slovo (棵) -- pre stromy a rastliny: 一棵树
+PAR počítacie slovo (粒) -- pre zrnká, guľôčky: 一粒米
+PAR počítacie slovo (盘) -- pre taniere jedla, kotúče: 一盘菜
+PAR počítacie slovo (枝) -- pre vetvičky a kvety: 一枝花
+PAR počítacie slovo (箱) -- pre debny, škatule: 一箱啤酒
+PAR počítacie slovo (枚) -- pre malé ploché veci, mince, medaily: 一枚硬币
+PAR počítacie slovo (瓶) -- pre fľaše: 一瓶水
+PAR počítacie slovo (斤) -- pre jednotku pol kila: 两斤苹果
+PAR počítacie slovo (磅) -- pre libru: 三磅
+PAR počítacie slovo (串) -- pre veci na šnúrke či v rade: 一串钥匙
+PAR počítacie slovo (幢) -- pre budovy: 一幢楼
+PAR počítacie slovo (栋) -- pre budovy: 一栋房子
+PAR počítacie slovo (趟) -- pre cesty tam a späť: 去一趟
+PAR počítacie slovo (匹) -- pre kone a kusy látky: 一匹马
+PAR počítacie slovo (袋) -- pre vrecia: 一袋米
+PAR počítacie slovo (尺) -- pre čínsky stopu: 三尺
+NUM sto miliónov -- 亿: 一亿 = 100 000 000
+PAR počítacie slovo (阵) -- pre prudký úsek deja: 一阵风, 一阵笑
+PAR počítacie slovo (朵) -- pre kvety a oblaky: 一朵花
+INT hej (upútanie pozornosti) -- 嘿, 哎: hej, počuj
+PAR počítacie slovo (样) -- pre druhy vecí: 三样东西
+INT ach (vzdych) -- 唉: ach, jaj
+PAR počítacie slovo (缕) -- pre pramene a prúžky: 一缕阳光
+PAR počítacie slovo (盏) -- pre lampy: 一盏灯
+PAR počítacie slovo (桩) -- pre prípady a záležitosti: 一桩事
+PHR niet za čo -- odpoveď na poďakovanie
+PHR netreba -- nie je potrebné
+AV doma
+PHR poďte ďalej -- pozvanie vstúpiť
+PHR posaďte sa
+PHR dovoľte otázku -- zdvorilý začiatok otázky: prepáčte, môžem sa opýtať
+AV minule -- naposledy, keď sa niečo stalo
+AV nabudúce
+AV najlepšie -- najlepšie by bolo
+PHR nie veľmi
+PHR nie taký dobrý ako -- horší než, nevyrovná sa
+PHR lepšie by bolo -- radšej by sa malo
+PHR nejde to -- nesmie sa, nedá sa, nie je to dobré
+PHR nie nevyhnutne
+AV od detstva
+AV ako dlho
+AV pred chvíľou
+PHR pod nulou -- o teplote
+PHR dobrú noc
+PHR šťastnú cestu
+PHR čo robiť
+PHR nemať inú možnosť -- musieť, môcť len
+INT haha -- smiech nahlas
+AV vraj -- údajne, podľa počutia
+PHR pred očami -- priamo pred zrakom
+PHR je toho dosť -- niečoho je dostatok
+PHR je mi to jedno -- nezáleží mi na tom
+PAR zlomok (分之) -- častica zlomku: 三分之一
+PHR po Kristovi -- letopočet nášho letopočtu
+AV čo najskôr -- tak skoro, ako je možné
+PHR nedá sa nič robiť -- nie je východisko
+PHR nečakal som -- nepredpokladal som
+PHR byť dobrý v -- mať v niečom zručnosť
+AV ako prvý -- o tom, kto začne ako prvý
+AV nie nevyhnutne -- nemusí to tak byť
+PHR to je priveľa cti -- skromná odpoveď na pochvalu
+PHR skrátka -- zhrnutie jednou vetou
+AV po celej ceste -- celou cestou
+AV jedným dychom -- bez prestávky na nadýchnutie
+AV mimovoľne -- bez úmyslu, nedá sa to ovládnuť
+PHR nič moc -- nie je to nič výnimočné
+AV s námahou -- s veľkým úsilím
+PHR ťažko povedať -- nedá sa to jasne určiť
+INT pomoc -- výkrik o pomoc: 救命!
+AV tvárou v tvár
+AV na vlastné oči
+AV zo všetkých síl
+AV dňom i nocou
+PHR nechaj tak -- 算了
+AV zámerne
+AV po ceste
+AV naraz
+AV na chvíľu
+AV skôr či neskôr
+AV ako predtým
+PAR častica trvajúceho stavu (着) -- po slovese: prebiehajúci dej alebo trvajúci stav: 坐着, 开着

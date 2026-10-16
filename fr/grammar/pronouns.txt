@@ -1,0 +1,65 @@
+# personal
+1 P je {je} [ʒə] = ja
+1 P moi {moi} [mwa] = ja
+1 P tu {tu} [ty] = ty
+1 P toi {toi} [twa] = ty
+1 P il {il} [il] = on
+1 P lui {lui} [lɥi] = on
+1 P elle {elle} [ɛl] = ona
+1 P il {il} [il] = ono
+1 P ça {ça} [sa] = ono
+1 P nous {nous} [nu] = my
+1 P vous {vous} [vu] = vy (neformálne množné číslo)
+1 P vous {vous} [vu] = vy (zdvorilé oslovenie)
+1 P cela {cela} [səˈla] = ono
+
+# possessive
+1 P mon {mon} [mɔ̃] = môj
+1 P ton {ton} [tɔ̃] = tvoj
+1 P son {son} [sɔ̃] = jeho
+1 P son {son} [sɔ̃] = jej
+1 P notre {notre} [nɔtʁ] = náš
+1 P votre {votre} [vɔtʁ] = váš (neformálne)
+1 P votre {votre} [vɔtʁ] = Váš (zdvorilé oslovenie)
+
+# reflexive-and-reciprocal
+1 P se {se} [sə] = sa (zvratné zámeno)
+2 P soi {soi} [swa] = sa (zvratné zámeno)
+1 P même {même} [mɛm] = sám
+2 P l'un l'autre {l'un l'autre} [lœ̃ ˈlotʁ] = navzájom
+
+# demonstrative
+1 P ce {ce} [sə] = tento
+2 P celui-ci {celui-ci} [səlɥi ˈsi] = tento
+1 AV cette fois {cette fois} [sɛt ˈfwa] = tentoraz
+2 P celui-là {celui-là} [səlɥi ˈla] = tamten
+2 P tel {tel} [tɛl] = taký
+2 PHR un tel {un tel} [œ̃ ˈtɛl] = taký
+
+# interrogative-and-relative
+1 P qui {qui} [ki] = kto
+1 P que {que} [kə] = čo
+1 P quoi {quoi} [kwa] = čo
+1 P quel {quel} [kɛl] = ktorý
+2 P lequel {lequel} [ləˈkɛl] = ktorý
+2 PHR quel genre de {quel genre de} [kɛl ʒɑ̃ʁ ˈdə] = aký
+2 P laquelle {laquelle} [laˈkɛl] = ktorý
+
+# indefinite
+1 P on {on} [ɔ̃] = sa (neurčitý podmet)
+1 P quelqu'un {quelqu'un} [kɛlˈkœ̃] = niekto
+1 P personne {personne} [pɛʁˈsɔn] = nikto
+1 P tout le monde {tout le monde} [tu lə mɔ̃d] = každý človek
+1 P certains {certains} [sɛʁˈtɛ̃] = niektorý
+1 P les deux {les deux} [le dø] = obaja
+2 P n'importe quel {n'importe quel} [nɛ̃ˈpɔʁt kɛl] = akýkoľvek
+1 P plusieurs {plusieurs} [plyˈzjœʁ] = niekoľkí
+1 PHR un peu {un peu} [œ̃ pø] = trochu
+1 P aucun {aucun} [oˈkœ̃] = žiadny
+
+# language-specific closed words (no Slovak word: a description)
+1 P dont {dont} [dɔ̃] = ktorého (vzťažné zámeno)
+1 P ils {ils} [il] = oni
+1 P elles {elles} [ɛl] = oni
+1 P eux {eux} [ø] = oni
+1 P leur {leur} [lœʁ] = ich

@@ -1,0 +1,19 @@
+# CONDITIONS of the abstract group (change, quantity, quality, shape verbs)
+V čistiť : needs A:špinavý ; gives A:čistý
+V očistiť : needs A:špinavý ; gives A:čistý
+V sušiť : needs A:mokrý ; gives A:suchý
+V vyprázdniť : needs A:plný ; gives A:prázdny
+V naplniť : needs A:prázdny ; gives A:plný
+V rozbiť : gives A:pokazený
+V zničiť : gives A:pokazený
+V poškodiť : gives A:pokazený
+V obnoviť (pôvodný stav) : needs A:pokazený ; gives A:celý
+V obnoviť (nahradiť novým) : needs A:pokazený ; gives A:celý
+V odriecť : needs chorý zranený
+V zúčastniť sa : needs chuť čas
+V zúčastniť sa : needs chuť
+V vzdať sa : needs unavený slabý
+V pokračovať : needs chuť
+V dostať : gives has:A
+V dostať : gives has:A
+V stráviť : needs čas

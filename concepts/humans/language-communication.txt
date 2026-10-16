@@ -1,0 +1,401 @@
+# speaking
+V hovoriť
+N jazyk (reč)
+N rozhovor
+N hovorca
+N výrok
+V sľúbiť
+N sľub
+V vysloviť
+N výslovnosť
+V prebrať
+V protirečiť
+N rozpor
+N materinský jazyk
+N cudzí jazyk
+AN dvojjazyčný
+AN bez slov
+N hovorkyňa
+V osloviť
+V povedať
+N tvrdenie
+V odrecitovať
+N prísľub
+V zlyhať
+V vypovedať
+V rozprávať
+N rozprávač
+V rozprávať sa
+N reč
+N rečník
+V prehovoriť
+V vyhovoriť
+N rčenie
+AN výrečný : adverb výrečne
+N dialóg
+N monológ
+N hlas
+V byť správny
+V súhlasiť
+N súhlas
+N nálada
+V hlasovať
+V naladiť sa
+N prízvuk
+V kričať
+N výkrik
+V kričať na
+V šepkať
+V volať
+V zavolať
+N telefonát
+N apel
+N zvolanie
+V vyzvať (k vystúpeniu)
+V privolať
+V pýtať sa
+N otázka
+N dotaz
+V spýtať sa
+V vypytovať sa
+N otáznik
+AN pochybný
+V spochybniť
+N odpoveď
+V odpovedať
+V odpovedať na
+N debata
+V debatovať
+V hádať sa
+AN nesporný : adverb nesporne
+V popierať
+N priznanie
+V vysvetliť
+N vysvetlenie
+AN nevysvetliteľný : adverb nevysvetliteľne
+V spomenúť
+N zmienka
+V opakovať
+N výraz
+AN výslovný : adverb výslovne
+V avizovať
+N ohlásenie
+V vyhlásiť
+V varovať
+N varovanie
+V navrhnúť (ponúknuť)
+N návrh
+V presvedčiť
+N sťažnosť
+V prisahať
+V naladiť na
+V klamať
+N klamstvo
+N luhár
+N klebety
+N vtip
+AN vtipný : adverb vtipne
+V uraziť
+N urážka
+AN urazený
+V chváliť
+N chvála
+V obviniť
+N komentár
+V komentovať
+V prosiť
+N prosba
+V požadovať
+N požiadavka (žiadanie)
+N požiadavka (kritérium)
+V vyzvať (požiadať)
+N výzva (požiadanie)
+V vyprovokovať
+N výzva (problém)
+V vyžadovať
+V preťažovať
+V vyžiadať si
+V vymáhať
+V pozostávať
+V prerušiť
+N prerušenie
+N informácia
+V komunikovať
+N komunikácia
+N kontakt
+V kontaktovať
+AN bezkontaktný
+V vyhrážať sa
+AN hrozivý : adverb hrozivo
+V citovať
+N citát
+N téma
+AN tematický
+V potvrdiť
+N potvrdenie
+V tvrdiť
+V zdôrazniť
+N dôraz
+V kritizovať
+N kritika
+N kritik
+AN kritický : adverb kriticky
+N poznámka
+N rada
+N poradenstvo
+N poradca
+V koktať
+V nadávať
+V urážať
+N nadávka
+V chváliť sa
+N kompliment
+V úpenlivo prosiť
+N gesto
+N chýr
+N anekdota
+AN výstižný : adverb výstižne
+AN plynulý : adverb plynulo
+V vyjadriť
+V odkázať
+V odporučiť
+V diskutovať
+N diskusia
+N záležitosť
+N stanovisko
+V konfrontovať
+V požiadať o
+N odporúčanie
+N vyjadrenie
+N prieskum
+N zobrazenie
+N príhovor
+N somarina
+N výtržnosť
+N odôvodnenie
+N nezhoda
+N dorozumenie
+N obvinenie
+N poslucháč
+V vylíčiť
+V apelovať
+V napomínať
+V zasadzovať sa
+V argumentovať
+V moderovať
+V signalizovať
+V vyčísliť
+V upovedomiť
+V predpovedať
+V publikovať
+V skúmať
+V odoprieť
+V odmietať
+V dištancovať sa
+V brániť sa
+V ubezpečovať
+V vytýkať
+V vytknúť
+V oponovať
+V trvať (na niečom)
+V dementovať
+V mlčať
+V konštatovať
+V prediskutovať
+V ilustrovať
+V adresovať
+V verejne odsúdiť
+V kolportovať
+V zľahčovať
+V frflať
+V zahladiť
+V zamlčať
+V vylákať
+V diktovať
+AN komunikatívny
+AN nemý
+
+# language-writing
+N slovo
+N slovná zásoba
+N príslovie
+N fráza
+N meno
+V nazvať
+N krstné meno
+N priezvisko
+N prezývka
+AN menovitý
+V pomenovať
+V znamenať
+N význam
+V naznačiť
+N náznak
+V preložiť
+N preklad
+N prekladateľ
+V písať
+N písmo
+V zapísať
+V odpísať
+V opísať
+N opis
+V podpísať
+N podpis
+N nadpis
+N rukopis (písmo)
+N typ písma
+N pravopis
+N guľôčkové pero
+V predpísať
+V vypísať
+V predpisovať
+V osloviť písomne
+V čítať
+N čitateľ (osoba)
+N autorské čítanie
+V čítať nahlas
+N lektúra
+AN nečitateľný : adverb nečitateľne
+AN čitateľný : adverb čitateľne
+N text
+N odsek
+N kapitola
+N názov
+N podtitul
+N slohová práca
+V zhrnúť
+N zhrnutie
+N znak
+V označiť
+N označenie
+N interpunkčné znamienko
+N symbol
+AN symbolický : adverb symbolicky
+N čiarka
+V poznamenať si
+N zoznam
+N list (písomnosť)
+N poštová známka
+N obálka
+N pošta
+N pohľadnica
+N poštový úrad
+N poštár
+N PSČ
+N pero (písacie)
+N ceruzka
+N pastelka
+N atrament
+N krieda
+N papier
+N zošit
+N dokument
+V zdokumentovať
+N dokumentácia
+N štítok
+N kópia
+V kopírovať
+N kniha
+N písmeno
+V hláskovať
+N slovník
+N denník (zápisky)
+N zápisník
+N kníhkupectvo
+N sloveso
+AN verbálny : adverb verbálne
+N podstatné meno
+N prídavné meno
+N množné číslo
+N predpona
+N prípona
+N synonymum
+N antonymum
+N nárečie
+N slang
+N abeceda
+AN abecedný : adverb abecedne
+N slabika
+N samohláska
+N spoluhláska
+N gramatika
+N interpunkcia
+N spojovník
+N zátvorka
+N skratka
+N kaligrafia
+V podčiarknuť
+N značenie
+N register
+N koncept
+V prepracovať
+N prepracovanie
+N rukopis (text)
+V tlmočiť
+N tlmočník
+N telegram
+N nemčina
+AN písomný : adverb písomne
+AN jazykový
+
+# media-news
+N správa (oznam)
+N správy
+N noviny
+N článok
+V informovať
+N správa (o udalosti)
+N spravodajstvo
+N médiá
+AN mediálny
+AN multimediálny
+N tlač
+N tlačová konferencia
+N interview
+V robiť rozhovor
+N plagát
+N kanál
+V zverejniť
+N zverejnenie
+N redaktor
+N redakcia
+N novinár
+N žurnalistika
+N novinárka
+N slogan
+N motto
+N titulok
+N memorandum
+N leták
+N brožúra
+N katalóg
+V oznámiť
+N oznámenie
+N údaj
+N spravodajská agentúra
+N tlačová správa
+N časopis
+N moderátor
+N moderátorka
+N štúdio
+AN prehľadný : adverb prehľadne
+AN neprehľadný : adverb neprehľadne
+N reportáž
+N rozhlas
+N reklamný spot
+N vydavateľstvo
+N záznam
+N úradné rozhodnutie
+N škatuľka
+N rozhlasová stanica
+N denník (noviny)
+N výsledok volieb
+N vydanie
+V uviesť na trh
+V kolovať
+V preukázať
+AN novinársky
+V streamovať
+V postnúť
+V ladiť

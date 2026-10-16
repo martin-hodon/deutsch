@@ -1,0 +1,291 @@
+V cítiť : person > patient {teplo|chlad|vietor|dážď|piesok}
+V cítiť : person > patient {bolesť|radosť|strach|láska|smútok|zlosť}
+V cítiť : person > adj
+V vidieť : animal -insect -reptile -fish-animal > patient thing -money -document -text
+V vidieť : animal -insect -reptile -fish-animal > patient {lietadlo|vlak|auto|autobus|loď|čln|raketa|bicykel|vrtuľník}
+V vidieť : animal -insect -reptile -fish-animal > patient animal
+V vidieť : animal -insect -reptile -fish-animal > patient landscape
+V vidieť : animal -insect -reptile -fish-animal > patient {ulica|most|cesta (komunikácia)|križovatka|príjazd|diaľnica|tunel}
+V vidieť : animal -insect -reptile -fish-animal > patient water-body
+V vidieť : animal -insect -reptile -fish-animal > patient {miesto (priestor)|záhrada|dvor|dedina|mesto|priechod}
+V vidieť : animal -insect -reptile -fish-animal > patient plant
+V vidieť : person > that
+V vidieť : person > theme relative
+V vidieť : person > theme child
+V vidieť : person > theme {pacient|chorý|sused|priateľ}
+V vidieť : person > patient animal, inf.bare
+N zrak : quality
+N viditeľnosť : quality
+N výhľad : state
+AN viditeľný : object, place, celestial, phenomenon, beast
+AN neviditeľný : object, place, celestial, phenomenon, beast, being
+AN priehľadný : material, fabric, clothing, container, {dvere|strecha|stena|gól}, liquid
+AN nepriehľadný : material, fabric, clothing, container, {dvere|strecha|stena|gól}, liquid, idea
+V vyzerať : concrete -country > adj
+V prehliadnuť : person > patient person
+V prehliadnuť : person > patient {chyba|problém|štít|upozornenie|detail}
+N pamätihodnosť : place
+V pozerať sa : animal -insect > theme {hodiny|mobil|kamera|obraz|karta|fotka|tabuľa|displej}
+V pozerať sa : animal -insect > theme animal
+V pozerať sa : animal -insect > goal place
+V pozerať sa : person > theme relative
+V pozerať sa : person > theme child
+V pozerať sa : person > theme {pacient|chorý|sused|priateľ}
+V prizerať : person > theme {hra|boj|preteky|koncert|film|tréning}
+V prizerať : person > theme person
+V pozorovať : person > patient {lopta|hniezdo|čln|vlak|lietadlo|oblak|hviezda}
+V pozorovať : person > patient animal
+V pozorovať : person > patient {krajina (prírodná)|pobrežie}
+V pozorovať : person > patient {rieka|jazero|more|vlna}
+V pozorovať : person -child > patient process
+V pozorovať : person > patient {nehoda|hra|boj|preteky|západ slnka|búrka}
+N pozorovanie : activity
+N pozorovateľ : person
+AN badateľný : state, event, sound, phenomenon
+V zízať : person > theme thing -document -money
+V zízať : person > theme animal
+V zízať : person > goal place
+V zízať na : person > patient thing
+V zízať na : person > patient animal
+N pohľad : event
+V pozrieť : person > theme {hodiny|mobil|kamera|obraz|karta|fotka|tabuľa|displej|zrkadlo|obrazovka}
+V pozrieť : person > theme animal
+V pozrieť : person > goal place
+V pozrieť : person > goal {izba|miestnosť|kuchyňa|pivnica|obývačka|kabína|sála}
+V pozrieť na : person > patient person
+N prehľad : information
+V zdať sa : {slnko|mesiac (na oblohe)|hviezda}
+V zdať sa : es > that
+V zdať sa : entity > adj
+V objaviť sa : person
+V objaviť sa : {kniha|noviny|článok|román|zošit}
+V objaviť sa : {slnko|mesiac (na oblohe)|hviezda}
+AN zdanlivý : problem, state
+N svit : phenomenon, state
+V zmiznúť : animal
+V zmiznúť : {peniaze|kľúč|okuliare|mobil|taška}
+V zmiznúť : {hmla|dym|tieň|oblak|dúha|stopa}
+V zmiznúť : feeling
+V ukryť : person > patient {darček|kľúč|peniaze|list (písomnosť)|lopta|vajce|poklad|kniha|mobil|taška}
+V ukryť : person > patient child -infant
+V ukryť : person > patient pet
+N skrýša : place, enterable
+V odhaliť : person > patient {tajomstvo|pravda|plán|socha|pamätník|identita}
+N odhalenie : event
+V uchmatnúť : person > patient {pohľad|šanca|záblesk}
+V uchmatnúť : person > patient animal
+V trblietať sa : {slnko|mesiac (na oblohe)|hviezda}
+V trblietať sa : water-body
+V trblietať sa : jewelry
+V trblietať sa : road-vehicle
+V trblietať sa : {hodiny|okuliare|zrkadlo|okno|topánka|sklenica|nôž|lopta|zub}
+V trblietať sa : metal
+V zazerať : person > patient person
+V objaviť : person > patient {ostrov|jaskyňa|park|dolina|sopka|pláž|les|prameň}
+V objaviť : person > patient settlement -{obec}
+V objaviť : person > patient country
+V objaviť : person > patient {miesto (v priestore)|miesto (priestor)|cesta (komunikácia)|záhrada|budova}
+V objaviť : person > patient {tajomstvo|pravda|chyba|stopa|klamstvo|talent}
+V objaviť : person > patient {bomba|zámok|poklad|minca|zbraň|dvere}
+N objav : event
+N objaviteľ : professional
+V odkryť : person -child > patient crime
+V odkryť : person -child > patient {chyba|podvod|slabosť|tajomstvo|klamstvo}
+V odlíšiť : person > patient {pravda}, source {klamstvo}
+V odlíšiť : person > patient {názor}, source {fakt}
+V odlíšiť : person > patient {sen}, source {skutočnosť|realita}
+N rozlišovanie : activity
+V ignorovať : person > patient person
+V ignorovať : person > patient rule
+V ignorovať : person > patient {problém|varovanie|upozornenie|zákaz|telefonát}
+AN rozmazaný : picture, idea
+AN bujarý : animal, event
+V blikať : {oheň|plameň|svetlo|sviečka}
+V blikať : device
+V mihotať sa : {slnko|mesiac (na oblohe)|hviezda}
+V mihotať sa : water-body
+V mihotať sa : jewelry
+V mihotať sa : road-vehicle
+V mihotať sa : {hodiny|okuliare|zrkadlo|okno|topánka|sklenica|nôž|lopta|zub}
+V mihotať sa : metal
+V mihotať sa : fabric
+V lesknúť sa : {slnko|mesiac (na oblohe)|hviezda}
+V lesknúť sa : {jazero|more|rieka|potok|rybník|voda}
+V lesknúť sa : jewelry
+V lesknúť sa : road-vehicle
+V lesknúť sa : {hodiny|okuliare|zrkadlo|okno|topánka|sklenica|nôž|lopta|zub}
+V lesknúť sa : metal
+N lesk : quality
+N nahliadnutie : information
+N rozruch : state
+V počuť : animal -fish-animal > patient sound
+V počuť : animal -fish-animal > patient {hudba|pieseň|rádio|báseň}
+V počuť : animal -fish-animal > patient person
+V počuť : person > patient {správa (oznam)|chýr|novinka|hlas}
+V počuť : person > topic person
+V počuť : person > topic {nehoda|vojna|koncert|film|pieseň|chýr|plán|novinka}
+V počuť : person > theme person
+V počuť : person > theme {rada|varovanie|rozumnosť}
+V počuť : person > theme {hlas|povesť}
+V počuť : person > patient animal, inf.bare
+V počúvať : person > theme person
+V počúvať : person > theme {pieseň|hudba|reč|báseň|koncert}
+V počúvať : person > theme {zvuk|hlas|spev|šum}
+V vypočuť si : person > patient {pieseň|hudba|reč|koncert|báseň}
+V vypočuť si : person > patient {správa (oznam)|názor|návrh|prijatie|vysvetlenie}
+V vypočuť si : person > patient person
+V prestať : person > theme {práca|hádka|tréning|vyučovanie|hra}
+V prestať : person > inf
+V prestať : {dážď|sneh|vietor|búrka|hluk|hudba}
+V prepočuť : person > patient sound
+V prepočuť : person > patient {otázka|varovanie|upozornenie|veta}
+V prepočuť : person > patient person
+N sluch : quality
+AN počuteľný : sound, phenomenon, event
+V mrmlať : person
+V mrmlať : person > patient {modlitba|slovo|meno|veta}
+V rachotiť : {hrom|búrka|sopka}
+V čuchať : animal > patient {dym|plyn|kvetina|smrad|pach}
+V čuchať : animal > patient consumable
+V čuchať : animal > patient plant
+V čuchať : mammal > patient mammal
+V čuchať : animal > theme {dym|benzín|olej|pot|plyn|drevo|tráva}
+V čuchať : clothing > theme {dym|benzín|olej|plyn|drevo}
+V čuchať : vehicle > theme {dym|benzín|olej|plyn|drevo}
+V čuchať : room > theme {dym|benzín|plyn|drevo|káva|olej}
+V čuchať : {polievka|omáčka|vývar|pokrm|pečienka} > theme {ryba|citrón|cesnak|cibuľa|syr}
+V čuchať : {šalát} > theme {cesnak|cibuľa|citrón}
+V čuchať : drink > theme {citrón|vanilka|čokoláda|med|káva}
+V čuchať : {koláč|torta|sušienka|koláčik|muffin} > theme {citrón|vanilka|čokoláda|med}
+V čuchať : sweets > theme {citrón|vanilka|čokoláda|med}
+V čuchať : clothing > adj
+V čuchať : container > adj
+V čuchať : furniture > adj
+V čuchať : material > adj
+V čuchať : consumable > adj
+V čuchať : {noha (chodidlo)|ruka|ústa|vlasy} > adj
+V čuchať : plant > adj
+N pach : quality
+N vôňa : quality
+V voňať : animal -insect > theme {mydlo|kvetina|ruža}
+V voňať : {sviečka|vankúš|uterák|bielizeň|papierik} > theme {ruža|kvetina|mydlo|káva|vanilka|škorica|drevo}
+V voňať : {záhrada|lúka|park|kuchyňa|izba|pekáreň|les|obchod} > theme {kvetina|káva|chlieb|koláč|tráva|drevo|ruža}
+V voňať : consumable > theme {vanilka|škorica|čokoláda|káva|med|citrón|cesnak}
+AN voňavý : plant, food, substance
+V smrdieť : animal > theme {pot|alkohol|dym|ryba|cesnak|cibuľa}
+V smrdieť : clothing > theme {dym|benzín|ryba|plyn|alkohol}
+V smrdieť : vehicle > theme {dym|benzín|ryba|plyn|alkohol}
+V smrdieť : {odpadkový kôš|vedro|taška|kufor|chladnička} > theme {dym|benzín|ryba|plyn|alkohol}
+V smrdieť : room > theme {dym|odpad|benzín|ryba|plyn|alkohol}
+V smrdieť : building > theme {dym|odpad|benzín|ryba|plyn|alkohol}
+V smrdieť : settlement > theme {dym|odpad|benzín|ryba|plyn|alkohol}
+V smrdieť : consumable > theme {ryba|cesnak|cibuľa|syr|alkohol}
+N smrad : quality
+V chutiť : consumable > recipient person
+V chutiť : {polievka|omáčka|vývar|pokrm|pečienka} > theme {ryba|cesnak|cibuľa|syr|citrón}
+V chutiť : {šalát} > theme {cesnak|cibuľa|citrón}
+V chutiť : drink > theme {citrón|vanilka|čokoláda|med|káva}
+V chutiť : {koláč|torta|sušienka|koláčik|muffin} > theme {citrón|vanilka|čokoláda|med}
+V chutiť : sweets > theme {citrón|vanilka|čokoláda|med}
+V chutiť : consumable > adj
+V dotknúť sa : person > patient {dvere|stena|stôl|kameň|sklenica|voda}
+V dotknúť sa : person > patient {ruka|paža|plece|hlava|tvár}
+V dotknúť sa : person > patient animal
+V dotknúť sa : person > patient {kvetina|ruža|list (rastliny)|konár}
+N dotyk : event
+V byť na dotyk : thing > adj
+V byť na dotyk : furniture > adj
+V byť na dotyk : material > adj
+V byť na dotyk : consumable > adj
+V byť na dotyk : body-part > adj
+V byť na dotyk : plant > adj
+N zmysel : quality
+AN nezmyselný : activity, event, idea
+AN zmysluplný : activity, event, idea
+N nezmysel : idea
+AN zmyselný : person, creative-work
+V vnímať : animal -insect > patient sound
+V vnímať : animal -insect > patient {svetlo|teplo|chlad|pohyb|tieň|pach}
+N vnímanie : activity
+AN vnímateľný : phenomenon, sound, event
+V svrbieť : body-part
+V svrbieť : es
+AN citlivý : person, body-part, device
+AN jemnocitný : person
+AN hluchý : person, animal, body-part
+V ňuchať : animal > theme thing
+V ňuchať : animal > theme animal
+V ňuchať : animal > theme plant
+V ňuchať : person > location container
+N aróma : quality
+AN aromatický : consumable, plant
+V štekliť : person > patient animal
+N farba : quality
+AN farebný : clothing, road-vehicle, fruit, vegetable, furniture, fabric, toy, {dvere|strecha|stena|gól}, container, beast, plant
+AN bezfarebný : liquid, gas, material, fabric
+N odtieň : quality
+AN orgovánový : clothing, road-vehicle, furniture, fabric, toy, {dvere|strecha|stena|gól}, container, -{balík|bielizeň}
+AN slonovinový : clothing, road-vehicle, furniture, fabric, toy, {dvere|strecha|stena|gól}, container, -{balík}
+AN jantárový : clothing, road-vehicle, furniture, fabric, toy, {dvere|strecha|stena|gól}, container, -{balík|bielizeň}
+AN červený : clothing, road-vehicle, {jablko|čerešňa (plod)|jahoda|malina|hrozno|ríbezľa|granátové jablko|slivka}, {paradajka|paprika|reďkovka|červená kapusta}, furniture, fabric, toy, {dvere|strecha|stena|gól}, container, bird, insect, flower, -{černica|čučoriedka|čučoriedka|banán|citrón}, -{balík|bielizeň}
+AN červenkastý : clothing, road-vehicle, {jablko|čerešňa (plod)|jahoda|malina|hrozno|ríbezľa|granátové jablko|slivka}, {paradajka|paprika|reďkovka|červená kapusta}, furniture, fabric, toy, {dvere|strecha|stena|gól}, container, flower, beast, -{balík|bielizeň}
+AN purpurový : clothing, road-vehicle, furniture, fabric, toy, {dvere|strecha|stena|gól}, container, -{balík|bielizeň}
+AN šarlátový : clothing, road-vehicle, furniture, fabric, toy, {dvere|strecha|stena|gól}, container, -{balík|bielizeň}
+AN modrý : clothing, road-vehicle, {slivka|slivka|hrozno|hrozno|čučoriedka|čučoriedka|černica}, furniture, fabric, toy, {dvere|strecha|stena|gól}, container, bird, {motýľ|vážka}, fish-animal, {kvetina|fialka|hyacint}, -{balík|bielizeň}
+AN svetlomodrý : clothing, road-vehicle, furniture, fabric, toy, {dvere|strecha|stena|gól}, container, -{balík|bielizeň}
+AN tmavomodrý : clothing, road-vehicle, furniture, fabric, toy, {dvere|strecha|stena|gól}, container, -{balík|bielizeň}
+AN modrastý : clothing, road-vehicle, furniture, fabric, toy, {dvere|strecha|stena|gól}, container, -{balík|bielizeň}
+AN zelený : clothing, road-vehicle, {jablko|hruška|hrozno|hrozno|kivi|limetka|dyňa|egreš|avokádo}, {paprika|uhorka|fazuľa|hrach|hlávkový šalát|kapusta|brokolica|cuketa|špenát|pór (zelenina)|špargľa}, furniture, fabric, toy, {dvere|strecha|stena|gól}, container, reptile, {papagáj|ďateľ|vták}, plant, -flower, -crop, -{burina}, -{balík|bielizeň}
+AN svetlozelený : clothing, road-vehicle, {jablko|hruška|hrozno|hrozno|kivi|limetka|dyňa|egreš|avokádo}, {paprika|uhorka|fazuľa|hrach|hlávkový šalát|kapusta|brokolica|cuketa|špenát|pór (zelenina)|špargľa}, furniture, fabric, toy, {dvere|strecha|stena|gól}, container, plant, -{balík|bielizeň}
+AN tmavozelený : clothing, road-vehicle, {jablko|hruška|hrozno|hrozno|kivi|limetka|dyňa|egreš|avokádo}, {paprika|uhorka|fazuľa|hrach|hlávkový šalát|kapusta|brokolica|cuketa|špenát|pór (zelenina)|špargľa}, furniture, fabric, toy, {dvere|strecha|stena|gól}, container, plant, -{balík|bielizeň}
+AN zelenkastý : clothing, road-vehicle, {jablko|hruška|hrozno|hrozno|kivi|limetka|dyňa|egreš|avokádo}, {paprika|uhorka|fazuľa|hrach|hlávkový šalát|kapusta|brokolica|cuketa|špenát|pór (zelenina)|špargľa}, furniture, fabric, toy, {dvere|strecha|stena|gól}, container, plant, -{balík|bielizeň}
+AN žltý : clothing, road-vehicle, {citrón|banán|hruška|ananás|dyňa|jablko|mango}, {paprika|cuketa|tekvica|kukurica|zemiak|cibuľa}, furniture, fabric, toy, {dvere|strecha|stena|gól}, container, {kuriatko|kačica|kanárik}, {včela|osa|motýľ}, plant, -{balík|bielizeň}
+AN žltkastý : clothing, road-vehicle, {citrón|banán|hruška|ananás|dyňa|jablko|mango}, {paprika|cuketa|tekvica|kukurica|zemiak|cibuľa}, furniture, fabric, toy, {dvere|strecha|stena|gól}, container, plant, -{balík|bielizeň}
+AN čierny : clothing, road-vehicle, {čerešňa (plod)|oliva|hrozno|ríbezľa}, furniture, fabric, toy, {dvere|strecha|stena|gól}, container, pet, livestock, bird, {medveď|vlk|panter|havran|zajac}, -{balík}
+AN biely : clothing, road-vehicle, vegetable, furniture, fabric, toy, {dvere|strecha|stena|gól}, container, {pes|mačka|kôň|ovca|zajac|holub|labuť|čajka}, flower, -{sklenica}, -{balík}
+AN hnedý : clothing, road-vehicle, {orech|vlašský orech|lieskový orech|kokosový orech|datľa|hruška}, furniture, fabric, toy, {dvere|strecha|stena|gól}, container, {medveď|pes|kôň|zajac|krava|jeleň|líška|potkan|myš}, plant
+AN sivý : clothing, road-vehicle, furniture, fabric, toy, {dvere|strecha|stena|gól}, container, beast, -{sedadlo}, -{balík}
+AN ružový : clothing, road-vehicle, furniture, fabric, toy, {dvere|strecha|stena|gól}, container, livestock, bird, -{balík|bielizeň}
+AN fialový : clothing, road-vehicle, {slivka|slivka|hrozno|hrozno}, {baklažán|červená kapusta}, furniture, fabric, toy, {dvere|strecha|stena|gól}, container, plant, -{balík|bielizeň}
+AN oranžový : clothing, road-vehicle, {pomaranč|pomaranč|mango|marhuľa|marhuľa}, {mrkva|mrkva|tekvica|paprika}, furniture, fabric, toy, {dvere|strecha|stena|gól}, container, plant, -{balík|bielizeň}
+AN pestrý : clothing, fabric, toy, {dvere|strecha|stena|gól}, container, {papagáj|kohút|vták}, {motýľ}, fish-animal, {kvetina|kytica|záhon}
+AN bledý : clothing, road-vehicle, fruit, vegetable, furniture, fabric, toy, {dvere|strecha|stena|gól}, container, person
+N bledosť : quality
+AN tyrkysový : clothing, road-vehicle, furniture, fabric, toy, {dvere|strecha|stena|gól}, container, -{balík|bielizeň}
+AN béžový : clothing, road-vehicle, furniture, fabric, toy, {dvere|strecha|stena|gól}, container, -{balík}
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN neobjavený : place, landscape, creative-work, {talent|tajomstvo|zdroj|hrob|ostrov}
+AN pestrofarebný : object, animal, plant, flower, clothing, picture, {motýľ|vták|papagáj|trh|výklad}
+AN stojaci za videnie : place, building, landscape, event, creative-work
+V cítiť sa dobre : person
+V dohliadať na : person > theme child
+V dohliadať na : person > theme {práca|stavba|kuchyňa|test|hra|skúška|trh}
+V dohliadať na : person > theme person
+V nakuknúť : animal -insect > goal {izba|kuchyňa|dvere|okno|taška|škatuľa|dom}
+V načúvať : person > theme {hudba|rádio|zvuk|rozhovor|správa (oznam)|ticho|hlas|prednáška}
+V načúvať : person > theme person
+V obzrieť sa : animal -insect
+V obzrieť sa : animal -insect > theme person
+V obzrieť sa späť : person
+V opatriť : person > patient {dokument|list (písomnosť)|kniha|text}, instrument {podpis|pečiatka|poznámka|dátum|titulok}
+V opatriť : person > patient {dom|auto|dvere|okno}, instrument {zámok|kľúč|poistka}
+V ovoniavať : animal -insect > patient {jedlo|kvetina|ruka|kosť|strom|stopa}
+V ovoniavať : person > patient {jedlo|kvetina|víno|mäso}
+V prekuknúť : person > patient {trik|plán|podvod|zámer|hra}
+V prekuknúť : person > patient person
+V vetriť : beast > patient {korisť|nebezpečenstvo|jedlo|stopa|človek}
+V vyblednúť : clothing
+V vyblednúť : picture
+V vyblednúť : fabric
+V vyblednúť : {farba|spomienka|nádej|stopa|fotka}
+V zaznieť : sound
+V zaznieť : {hlas|hudba|výstrel|zvonček|smiech|hymna|zvuk}
+V zazrieť : animal -insect > patient person
+V zazrieť : animal -insect > patient {lietadlo|vlak|auto|loď|ostrov|svetlo|zver|vták|dym}
+V zazrieť : animal -insect > patient animal
+V zažiariť : celestial
+V zažiariť : {lampa|svetlo|tvár|ohňostroj|blesk}
+V škúliť : person > goal {slnko|svetlo|dvere|tabuľa|diaľka}
+V šumieť : {les|more|potok|vietor|lístie|rieka|tráva|vodopád|dážď}
+V šumieť : drink

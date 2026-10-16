@@ -1,0 +1,285 @@
+# school
+1 N die Schule {Schule} [ˈʃuːlə], Schulen = škola
+- 1 N der Schüler {Schüler} [ˈʃyːlɐ], Schüler = žiak, školák
+- 3 N der Schulleiter {Schul|leiter} [ˈʃuːllaɪtɐ], Schulleiter = riaditeľ školy
+- 2 N die Grundschule {Grund|schule} [ˈɡʁʊntʃuːlə], Grundschulen = základná škola
+- 2 N die Hochschule {Hoch|schule} [ˈhoːxʃuːlə], Hochschulen = vysoká škola
+- 2 N das Gymnasium {Gymnasium} [ɡʏmˈnaːzjʊm], Gymnasien = gymnázium
+- 2 N die Schülerin {Schülerin} [ˈʃyːləʁɪn], Schülerinnen = žiačka, školáčka
+- 2 V schulen {schulen} [ˈʃuːlən], hat (A) = školiť, vyškoliť
+- 3 AN schulisch {schulisch} [ˈʃuːlɪʃ] = školský
+- 3 V einschulen {ein·schulen} [ˈaɪnʃuːlən], hat (A) = zapísať do školy
+
+1 N die Universität {Universität} [univɛʁziˈtɛːt], Universitäten = univerzita
+- 2 N die Uni {Uni} [ˈʊni], Unis = univerzita, vysoká
+
+2 N der Kindergarten {Kinder|garten} [ˈkɪndɐɡaʁtən], Kindergärten = materská škola, škôlka
+
+1 N die Klasse {Klasse} [ˈklasə], Klassen = trieda, ročník
+- 2 N das Klassenzimmer {Klassen|zimmer} [ˈklasəntsɪmɐ], Klassenzimmer = učebňa, trieda
+- 3 AN erstklassig {erst|klassig} [ˈeːɐstklasɪç] = prvotriedny, vynikajúci
+- 3 AN hochklassig {hoch|klass|ig} [ˈhoːxklasɪç] = prvotriedny, vysokej úrovne
+- 3 V klassifizieren {klassifizieren} [klasifiˈtsiːʁən], hat (A) = klasifikovať, zaradiť
+
+2 N die Lektion {Lektion} [lɛkˈtsjoːn], Lektionen = lekcia, hodina
+
+2 N der Kurs {Kurs} [kʊʁs], Kurse = kurz, smer
+
+2 V lehren {lehren} [ˈleːʁən], hat (A, D A) = učiť, vyučovať
+- 1 N der Lehrer {Lehrer} [ˈleːʁɐ], Lehrer = učiteľ
+- 3 N die Lehre {Lehre} [ˈleːʁə], Lehren = učenie, náuka, vyučenie
+- 3 N der Lehrplan {Lehr|plan} [ˈleːɐplaːn], Lehrpläne = učebný plán, osnovy
+- 2 N das Lehrbuch {Lehr|buch} [ˈleːɐbuːx], Lehrbücher = učebnica
+- 3 N der Nachhilfelehrer {Nach|hilfe|lehrer} [ˈnaːxhɪlfəleːʁɐ], Nachhilfelehrer = doučovateľ, súkromný učiteľ
+- 1 N die Lehrerin {Lehrerin} [ˈleːʁəʁɪn], Lehrerinnen = učiteľka
+
+2 N der Professor {Professor} [pʁoˈfɛsoːɐ], Professoren = profesor
+
+2 V studieren {studieren} [ʃtuˈdiːʁən], hat (A) = študovať
+- 2 N der Student {Student} [ʃtuˈdɛnt], Studenten = študent, poslucháč
+- 2 N das Studium {Studium} [ˈʃtuːdjʊm], Studien = štúdium
+- 3 N die Studiengebühr {Studien|gebühr} [ˈʃtuːdjənɡəbyːɐ], Studiengebühren = školné
+- 2 N die Studentin {Studentin} [ʃtuˈdɛntɪn], Studentinnen = študentka
+
+2 V bilden {bilden} [ˈbɪldən], hat (A, sich A) = tvoriť, vytvoriť, vzdelávať
+- 2 N die Bildung {Bildung} [ˈbɪldʊŋ], - = vzdelanie
+- 2 AN gebildet {ge|bildet} [ɡəˈbɪldət] = vzdelaný
+- 2 V ausbilden {aus·bilden} [ˈaʊsbɪldən], hat (A) = vyškoliť, vzdelávať
+- 2 N die Ausbildung {Aus|bildung} [ˈaʊsbɪldʊŋ], Ausbildungen = odborná príprava, vzdelanie, škola
+- 3 N die Weiterbildung {Weiter|bildung} [ˈvaɪtɐbɪldʊŋ], Weiterbildungen = ďalšie vzdelávanie
+
+2 V unterrichten {unter|richten} [ʊntɐˈʁɪçtən], hat (A, in D) = vyučovať, učiť
+- 1 N der Unterricht {Unter|richt} [ˈʊntɐʁɪçt], - = vyučovanie, hodina
+
+1 V lernen {lernen} [ˈlɛʁnən], hat (A, von D) = učiť sa
+- 3 V erlernen {er|lernen} [ɛɐˈlɛʁnən], hat (A) = naučiť sa, osvojiť si
+- 2 V kennenlernen {kennen·lernen} [ˈkɛnənˌlɛʁnən], hat (A) = spoznať, zoznámiť sa
+
+2 V üben {üben} [ˈyːbən], hat (A) = cvičiť (nácvik), trénovať
+- 2 N die Übung {Übung} [ˈyːbʊŋ], Übungen = cvičenie
+- 2 V ausüben {aus·üben} [ˈaʊsʔyːbən], hat (A) = vykonávať, vykonať
+- 3 V verüben {ver|üben} [fɛɐˈyːbən], hat (A) = spáchať, vykonať
+
+1 N die Aufgabe {Auf|gabe} [ˈaʊfɡaːbə], Aufgaben = úloha, povinnosť
+- 2 N die Hausaufgabe {Haus|auf|gabe} [ˈhaʊsaʊfɡaːbə], Hausaufgaben = domáca úloha
+
+2 V prüfen {prüfen} [ˈpʁyːfən], hat (A, auf A) = preveriť, skúmať, skúšať
+- 2 N die Prüfung {Prüfung} [ˈpʁyːfʊŋ], Prüfungen = skúška
+- 3 N der Prüfer {Prüfer} [ˈpʁyːfɐ], Prüfer = skúšajúci, kontrolór
+- 2 V überprüfen {über|prüfen} [yːbɐˈpʁyːfən], hat = preveriť, skontrolovať
+- 2 N die Überprüfung {Überprüfung} [yːbɐˈpʁyːfʊŋ], Überprüfungen = preskúmanie, kontrola
+- 3 AN überprüfbar {über|prüf|bar} [yːbɐˈpʁyːfbaːɐ] = overiteľný, preskúmateľný
+
+2 N der Test {Test} [tɛst], Tests = test
+- 2 V testen {testen} [ˈtɛstən], hat (A) = testovať
+
+3 N das Diplom {Diplom} [diˈploːm], Diplome = diplom
+2 N das Semester {Semester} [zeˈmɛstɐ], Semester = semester
+2 N die Tafel {Tafel} [ˈtaːfəl], Tafeln = tabuľa, tabuľka
+2 N die Vorlesung {Vor|lesung} [ˈfoːɐleːzʊŋ], Vorlesungen = prednáška
+
+2 V sich einschreiben {sich ein·schreiben} [zɪç ˈaɪnʃʁaɪbən], schreibt ein/schrieb ein/eingeschrieben [ʃʁaɪpt aɪn/ʃʁiːp aɪn/ˈaɪnɡəʃʁiːbən], hat (für A, an D) = zapísať sa, zaregistrovať sa
+- 3 N die Einschreibung {Ein|schreibung} [ˈaɪnʃʁaɪbʊŋ], Einschreibungen = zápis, imatrikulácia
+
+2 V absolvieren {absolvieren} [apzɔlˈviːʁən], hat (A) = absolvovať, ukončiť
+- 3 N der Absolvent {Absolvent} [apzɔlˈvɛnt], Absolventen = absolvent
+
+3 N der Mentor {Mentor} [ˈmɛntoːɐ], Mentoren = mentor
+3 N der Dekan {Dekan} [deˈkaːn], Dekane = dekan
+2 N die Fakultät {Fakultät} [fakʊlˈtɛːt], Fakultäten = fakulta
+2 N der Campus {Campus} [ˈkampʊs], Campus = kampus, areál univerzity
+2 N das Wohnheim {Wohn|heim} [ˈvoːnhaɪm], Wohnheime = študentský domov, internát
+2 N der Hörsaal {Hör|saal} [ˈhøːɐzaːl], Hörsäle = prednáškova sála, poslucháreň
+2 N die Mensa {Mensa} [ˈmɛnza], Mensen = študentská jedáleň, menza
+2 N das Quiz {Quiz} [kvɪs], Quiz = kvíz
+3 N die Abschlussarbeit {Ab|schluss|arbeit} [ˈapʃlʊsaɐbaɪt], Abschlussarbeiten = záverečná práca, diplomová práca
+2 N das Seminar {Seminar} [zemiˈnaːɐ], Seminare = seminár
+3 N das Stipendium {Stipendium} [ʃtiˈpɛndjʊm], Stipendien = štipendium
+2 N der Radiergummi {Radier|gummi} [ʁaˈdiːɐɡʊmi], Radiergummis = guma (na gumovanie)
+3 N die Alphabetisierung {Alphabetisierung} [alfabetiˈziːʁʊŋ], - = gramotnosť, odstraňovanie negramotnosti
+2 N das Zertifikat {Zertifikat} [tsɛʁtifiˈkaːt], Zertifikate = certifikát, osvedčenie
+
+2 N die Akademie {Akademie} [akadeˈmiː], Akademien = akadémia
+- 3 N der Akademiker {Akademiker} [akaˈdeːmikɐ], Akademiker = vysokoškolák, akademik
+- 3 AN akademisch {akademisch} [akaˈdeːmɪʃ] = akademický, vysokoškolský
+2 N die Kita {Kita} [ˈkiːta], Kitas = škôlka, jasle
+2 N die Berufsschule {Berufs|schule} [bəˈʁuːfsʃuːlə], Berufsschulen = odborná škola
+3 N die Hauptschule {Haupt|schule} [ˈhaʊptʃuːlə], Hauptschulen = hlavná škola, základná škola (nemecká)
+3 N die Realschule {Real|schule} [ʁeˈaːlʃuːlə], Realschulen = reálna škola
+3 N die Gesamtschule {Gesamt|schule} [ɡəˈzamtʃuːlə], Gesamtschulen = jednotná škola
+3 N die Fachhochschule {Fach|hochschule} [ˈfaxhoːxʃuːlə], Fachhochschulen = odborná vysoká škola
+3 N der Mitschüler {Mit|schüler} [ˈmɪtʃyːlɐ], Mitschüler = spolužiak
+2 N die Schultasche {Schul|tasche} [ˈʃuːltaʃə], Schultaschen = školská taška
+3 N die Sommerferien {Sommer|ferien} [ˈzɔmɐfeːʁiən], PL = letné prázdniny
+3 N das Abitur {Abitur} [abiˈtuːɐ], - = maturita
+3 N die Klausur {Klausur} [klaʊˈzuːɐ], Klausuren = písomná práca, skúška
+3 N das Referat {Referat} [ʁefeˈʁaːt], Referate = referát, prednáška
+- 3 V referieren {referieren} [ʁefeˈʁiːʁən], hat (über A) = referovať, podať správu
+2 N der Vortrag {Vor|trag} [ˈfoːɐtʁaːk], Vorträge = prednáška
+3 N das Zeugnis {Zeugnis} [ˈtsɔʏknɪs], Zeugnisse = vysvedčenie, posudok
+3 N die Urkunde {Urkunde} [ˈuːɐkʊndə], Urkunden = listina, diplom
+3 N die Wiederholung {Wieder|holung} [ˈviːdɐhoːlʊŋ], Wiederholungen = opakovanie
+3 N die Zeile {Zeile} [ˈtsaɪlə], Zeilen = riadok
+3 N die Ziffer {Ziffer} [ˈtsɪfɐ], Ziffern = číslica
+3 N die Informatik {Informatik} [ɪnfɔʁˈmaːtɪk], - = informatika
+3 N die Ethik {Ethik} [ˈeːtɪk], - = etika
+3 N die Differenz {Differenz} [dɪfəˈʁɛnts], Differenzen = rozdiel (číselný)
+- 3 V differenzieren {differenzieren} [dɪfəʁɛnˈtsiːʁən], hat (A, zwischen D) = rozlišovať, diferencovať
+3 N der Schulhof {Schul|hof} [ˈʃuːlhoːf], Schulhöfe = školský dvor
+3 N der Sprachkurs {Sprach|kurs} [ˈʃpʁaːxkʊʁs], Sprachkurse = jazykový kurz
+3 N der Schultag {Schul|tag} [ˈʃuːltaːk], Schultage = školský deň
+3 N die Lehrstelle {Lehr|stelle} [ˈleːɐʃtɛlə], Lehrstellen = učňovské miesto
+3 N der Anfänger {Anfänger} [ˈanfɛŋɐ], Anfänger = začiatočník
+3 N die Kindertagesstätte {Kinder|tages|stätte} [ˈkɪndɐtaːɡəsʃtɛtə], Kindertagesstätten = detské jasle
+3 N der Studiengang {Studien|gang} [ˈʃtuːdiənɡaŋ], Studiengänge = študijný odbor
+2 N die Volkshochschule {Volks|hoch|schule} [ˈfɔlkshoːxʃuːlə], Volkshochschulen = ľudová škola, večerná škola
+3 AN pädagogisch {pädagogisch} [pɛdaˈɡoːɡɪʃ] = pedagogický
+3 V sensibilisieren {sensibilisieren} [zɛnzibiliˈziːʁən], hat (für A) = senzibilizovať, upozorniť na
+3 V promovieren {promovieren} [pʁomoˈviːʁən], hat (zu D) = získať doktorát, promovať
+3 V spicken {spicken} [ˈʃpɪkən], hat (bei D) = odpisovať, podvádzať
+3 V aussortieren {aus·sortieren} [ˈaʊszɔʁtiːʁən], hat (A) = vytriediť, vyradiť
+
+# knowledge-science
+2 N die Wissenschaft {Wissen|schaft} [ˈvɪsənʃaft], Wissenschaften = veda
+- 2 N der Wissenschaftler {Wissen|schaftler} [ˈvɪsənʃaftlɐ], Wissenschaftler = vedec
+- 2 AN wissenschaftlich {wissen|schaft|lich} [ˈvɪsənʃaftlɪç] = vedecký
+- 3 N die Naturwissenschaft {Natur|wissen|schaft} [naˈtuːɐvɪsənʃaft], Naturwissenschaften = prírodná veda
+- 3 N die Wirtschaftswissenschaft {Wirt|schafts|wissen|schaft} [ˈvɪʁtʃaftsvɪsənʃaft], Wirtschaftswissenschaften = ekonómia, ekonomická veda
+- 3 AN naturwissenschaftlich {natur|wissenschaftlich} [naˈtuːɐvɪsənʃaftlɪç] = prírodovedný
+
+2 V forschen {forschen} [ˈfɔʁʃən], hat (nach D) = bádať, skúmať
+- 2 N die Forschung {Forschung} [ˈfɔʁʃʊŋ], Forschungen = výskum
+- 2 N der Forscher {Forscher} [ˈfɔʁʃɐ], Forscher = výskumník, bádateľ
+- 3 V erforschen {er|forschen} [ɛɐˈfɔʁʃən], hat (A) = preskúmať, skúmať
+
+2 N das Labor {Labor} [laˈboːɐ], Labore = laboratórium
+
+2 N das Experiment {Experiment} [ɛkspeʁiˈmɛnt], Experimente = experiment, pokus
+- 3 V experimentieren {experimentieren} [ɛkspeʁimɛnˈtiːʁən], hat (mit D) = experimentovať
+- 3 AN experimentell {experimentell} [ɛkspeʁimɛnˈtɛl] = experimentálny, pokusný
+
+2 N die Theorie {Theorie} [teoˈʁiː], Theorien = teória
+- 3 AN theoretisch {theoretisch} [teoˈʁeːtɪʃ] = teoretický
+
+3 N die Hypothese {Hypothese} [hyˈpoːtezə], Hypothesen = hypotéza
+2 N die Methode {Methode} [meˈtoːdə], Methoden = metóda, spôsob
+2 N die Analyse {Analyse} [anaˈlyːzə], Analysen = analýza, rozbor
+
+2 N die Tatsache {Tat|sache} [ˈtaːtzaxə], Tatsachen = fakt, skutočnosť
+
+2 V erfinden {er|finden} [ɛɐˈfɪndən], erfindet/erfand/erfunden [ɛɐˈfɪndət/ɛɐˈfant/ɛɐˈfʊndən], hat (A) = vynájsť, vymyslieť
+
+3 V erkunden {er|kunden} [ɛɐˈkʊndən], hat (A) = preskúmať, zmapovať
+- 3 N die Erkundung {Er|kundung} [ɛɐˈkʊndʊŋ], Erkundungen = obhliadka, prieskum
+- 2 V sich erkundigen {sich er|kundigen} [zɪç ɛɐˈkʊndɪɡən], hat (nach D, bei D) = informovať sa, pýtať sa
+
+3 N die Expedition {Expedition} [ɛkspediˈtsjoːn], Expeditionen = expedícia, výprava
+
+2 N die Formel {Formel} [ˈfɔʁməl], Formeln = vzorec, formula
+- 2 V formulieren {formulieren} [fɔʁmuˈliːʁən], hat (A) = formulovať, sformulovať
+- 2 N die Formulierung {Formulierung} [fɔʁmuˈliːʁʊŋ], Formulierungen = formulácia
+
+2 N die Definition {Definition} [definiˈtsjoːn], Definitionen = definícia
+3 N die Gleichung {Gleichung} [ˈɡlaɪçʊŋ], Gleichungen = rovnica
+3 N die Variable {Variable} [vaˈʁiaːblə], Variablen = premenná
+3 N die Dezimalzahl {Dezimal|zahl} [detsiˈmaːltsaːl], Dezimalzahlen = desatinné číslo
+
+2 N das Verhältnis {Ver|hält|nis} [fɛɐˈhɛltnɪs], Verhältnisse = pomer, vzťah
+- 3 AV verhältnismäßig {verhältnis|mäßig} [fɛɐˈhɛltnɪsmɛːsɪç] = pomerne, relatívne
+- 3 AN unverhältnismäßig {un|ver|hältnis|mäßig} [ˈʊnfɛɐhɛltnɪsmɛːsɪç] = neúmerný, neprimeraný
+
+3 N der Radius {Radius} [ˈʁaːdiʊs], Radien = polomer
+3 N der Durchmesser {Durch|messer} [ˈdʊʁçmɛsɐ], Durchmesser = priemer (kruhu)
+3 N das Theorem {Theorem} [teoˈʁeːm], Theoreme = teoréma, poučka
+3 N der Graph {Graph} [ɡʁaːf], Graphen = graf
+3 N das Schaubild {Schau|bild} [ˈʃaʊbɪlt], Schaubilder = grafické znázornenie, graf
+3 N das Diagramm {Diagramm} [diaˈɡʁam], Diagramme = diagram, graf
+3 N das Exemplar {Exemplar} [ɛksɛmˈplaːɐ], Exemplare = exemplár, kus
+3 N die Referenz {Referenz} [ʁefeˈʁɛnts], Referenzen = referencia, odkaz
+2 N die Studie {Studie} [ˈʃtuːdiə], Studien = štúdia
+2 V aufklären {auf·klären} [ˈaʊfklɛːʁən], hat = objasniť, vyšetriť, poučiť
+- 2 N die Aufklärung {Auf|klärung} [ˈaʊfklɛːʁʊŋ], - = objasnenie, vyšetrovanie, osveta
+2 N die Qualifikation {Qualifikation} [kvalifikaˈtsjoːn], Qualifikationen = kvalifikácia
+2 N die Prognose {Prognose} [pʁoˈɡnoːzə], Prognosen = prognóza, predpoveď
+2 N die Auswertung {Aus|wertung} [ˈaʊsveːɐtʊŋ], Auswertungen = vyhodnotenie
+2 N das Prinzip {Prinzip} [pʁɪnˈtsiːp], Prinzipien = princíp, zásada
+- 3 AN prinzipiell {prinzipiell} [pʁɪntsiˈpjɛl] = zásadný, v zásade
+2 N das Kriterium {Kriterium} [kʁiˈteːʁiʊm], Kriterien = kritérium
+2 N der Fakt {Fakt} [fakt], Fakten = fakt
+- 3 AN faktisch {faktisch} [ˈfaktɪʃ] = skutočný, faktický
+3 N der Historiker {Historiker} [hɪsˈtoːʁikɐ], Historiker = historik
+3 N die Recherche {Recherche} [ʁeˈʃɛʁʃə], Recherchen = rešerš, prieskum, zisťovanie
+3 N die Architektur {Architektur} [aʁçitɛkˈtuːɐ], - = architektúra
+- 3 AN architektonisch {architektonisch} [aʁçitɛkˈtoːnɪʃ] = architektonický
+
+# fields-of-study
+2 N die Mathematik {Mathematik} [matemaˈtiːk], - = matematika
+- 1 N die Mathe {Mathe} [ˈmatə], - = matika, matematika
+- 3 N der Mathematiker {Mathematiker} [mateˈmaːtikɐ], Mathematiker = matematik
+- 2 AN mathematisch {mathematisch} [mateˈmaːtɪʃ] = matematický
+
+2 N die Physik {Physik} [fyˈziːk], - = fyzika
+- 2 N der Physiker {Physiker} [ˈfyːzikɐ], Physiker = fyzik
+- 3 AN physikalisch {physikalisch} [fyziˈkaːlɪʃ] = fyzikálny
+
+2 N die Chemie {Chemie} [çeˈmiː], - = chémia
+- 3 N der Chemiker {Chemiker} [ˈçeːmikɐ], Chemiker = chemik
+- 2 AN chemisch {chemisch} [ˈçeːmɪʃ] = chemický
+
+2 N die Biologie {Bio|logie} [bioloˈɡiː], - = biológia
+- 3 N der Biologe {Bio|loge} [bioˈloːɡə], Biologen = biológ
+- 2 AN biologisch {bio|logisch} [bioˈloːɡɪʃ] = biologický
+
+2 N die Geographie {Geo|graphie} [ɡeoɡʁaˈfiː], - = geografia
+
+2 N die Philosophie {Philosophie} [filozoˈfiː], Philosophien = filozofia
+- 3 N der Philosoph {Philosoph} [filoˈzoːf], Philosophen = filozof
+- 3 AN philosophisch {philosophisch} [filoˈzoːfɪʃ] = filozofický
+
+2 N die Psychologie {Psycho|logie} [psyçoloˈɡiː], - = psychológia
+- 3 N der Psychologe {Psycho|loge} [psyçoˈloːɡə], Psychologen = psychológ
+- 3 AN psychologisch {psycho|logisch} [psyçoˈloːɡɪʃ] = psychologický
+
+3 N die Astronomie {Astronomie} [astʁonoˈmiː], - = astronómia
+- 3 N der Astronom {Astronom} [astʁoˈnoːm], Astronomen = astronóm
+- 3 AN astronomisch {astronom|isch} [astʁoˈnoːmɪʃ] = astronomický, závratný
+
+3 N die Geometrie {Geo|metrie} [ɡeomeˈtʁiː], - = geometria
+3 N die Geologie {Geo|logie} [ɡeoloˈɡiː], - = geológia
+- 3 AN geologisch {geologisch} [ɡeoˈloːɡɪʃ] = geologický
+3 N die Botanik {Botanik} [boˈtaːnɪk], - = botanika
+3 N die Zoologie {Zoo|logie} [tsoːoloˈɡiː], - = zoológia
+3 N die Soziologie {Soziologie} [zotsjoloˈɡiː], - = sociológia
+3 N die Linguistik {Linguistik} [lɪŋɡuɪsˈtiːk], - = lingvistika, jazykoveda
+
+3 N die Archäologie {Archäologie} [aʁçɛoloˈɡiː], - = archeológia
+- 3 N der Archäologe {Archäologe} [aʁçɛoˈloːɡə], Archäologen = archeológ
+- 3 AN archäologisch {archäologisch} [aʁçeoˈloːɡɪʃ] = archeologický
+
+2 N die Statistik {Statistik} [ʃtatɪsˈtiːk], Statistiken = štatistika
+- 3 AN statistisch {statistisch} [ʃtaˈtɪstɪʃ] = štatistický
+
+3 N die Genetik {Genetik} [ɡeneˈtiːk], - = genetika
+
+3 N die Ökologie {Ökologie} [økoloˈɡiː], - = ekológia
+3 N die Algebra {Algebra} [ˈalɡebʁa], - = algebra
+3 N die Arithmetik {Arithmetik} [aʁɪtmeˈtiːk], - = aritmetika
+
+# institutions-objects
+2 N die Bibliothek {Bibliothek} [bibliɔˈteːk], Bibliotheken = knižnica
+- 3 N der Bibliothekar {Bibliothekar} [biblioteˈkaːɐ], Bibliothekare = knihovník
+
+3 N die Enzyklopädie {Enzyklopädie} [ɛntsyklopɛˈdiː], Enzyklopädien = encyklopédia
+3 N der Atlas {Atlas} [ˈatlas], Atlanten = atlas
+3 N der Globus {Globus} [ˈɡloːbʊs], Globen = glóbus
+3 N das Mikroskop {Mikro|skop} [mikʁoˈskoːp], Mikroskope = mikroskop
+3 N das Teleskop {Tele|skop} [teleˈskoːp], Teleskope = teleskop, ďalekohľad
+2 N das Lineal {Lineal} [lineˈaːl], Lineale = pravítko
+3 N der Kolben {Kolben} [ˈkɔlbən], Kolben = baňka, banka, piest, pažba
+3 N der Trichter {Trichter} [ˈtʁɪçtɐ], Trichter = lievik
+3 N das Prisma {Prisma} [ˈpʁɪsma], Prismen = hranol, prizma
+
+3 N das Archiv {Archiv} [aʁˈçiːf], Archive = archív
+- 3 V archivieren {archivieren} [aʁçiˈviːʁən], hat (A) = archivovať
+2 N das Institut {Institut} [ɪnstiˈtuːt], Institute = ústav, inštitút
+2 N die Tabelle {Tabelle} [taˈbɛlə], Tabellen = tabuľka

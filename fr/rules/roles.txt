@@ -1,0 +1,23 @@
+# HOW FRENCH MARKS A ROLE (world/roles.txt) when a word does not say otherwise in fr/rules/frames.txt: `direct` the
+# object after the verb, `io` the indirect object (à + it; its clitic lui / leur), a preposition; alternatives `|` by
+# the noun's kind: [surface] [place] [container] [person] [vehicle]
+patient     direct
+second      direct
+recipient   io
+as          comme
+bare        direct
+theme       à
+topic       de
+cause       de
+basis       sur
+purpose     pour
+companion   avec
+opponent    contre
+instrument  avec | en [vehicle]
+share       à
+result      en
+substitute  par
+location    dans | sur [surface] | à [place]
+goal        à
+source      de
+path        par

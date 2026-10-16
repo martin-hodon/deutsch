@@ -1,0 +1,11 @@
+# THE FORMS EXERCISE for Chinese: a sentence with one word left out, the right one among wrong ones -- the format of
+# de/rules/forms.txt. Chinese has no inflection: what is drilled is the MEASURE WORD of a noun (一本书: 本, not 个 or 张)
+# and the ASPECT PARTICLE after a verb (了 for a completed event, 过 for an experience, 着 for a state).
+
+measure: 量词
+  ask   N.cl
+  wrong ~N.cl
+
+aspect: 了 · 过 · 着
+  ask   V.asp.*
+  wrong V.asp.*

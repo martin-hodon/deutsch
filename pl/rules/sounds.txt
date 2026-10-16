@@ -1,0 +1,72 @@
+# POLISH LETTERS TO SOUNDS (engine/sounds.js): a word the dictionary has not -- a case form, a plural, a verb form -- read
+# from its spelling (the spelling is regular: sz cz rz ż dż ś ć ź dź ń, ł is w, the soft consonants before i, the nasal
+# vowels by what follows, voiced obstruents devoiced at the end). The stress: always on the second-last syllable
+# (`penult`). The first rule that matches at a place wins: the longer spellings stand first.
+class vowel = a e i o u y ą ę ó
+stress = penult
+
+letters ch = x
+letters cz = tʂ
+letters sz = ʂ
+letters rz(?=[^aeiouyąęó]|$) = ʂ
+letters rz = ʂ after /[ptk]/
+letters rz = ʐ
+letters dż = dʐ
+letters dź = dʑ
+letters dzi(?=[aeouąęó]) = dʑ
+letters dz(?=i) = dʑ
+letters dz$ = ts
+letters dz = dz
+letters ć = tɕ
+letters ci(?=[aeouąęó]) = tɕ
+letters c(?=i) = tɕ
+letters c = ts
+letters ś = ɕ
+letters si(?=[aeouąęó]) = ɕ
+letters s(?=i) = ɕ
+letters ź = ʑ
+letters zi(?=[aeouąęó]) = ʑ
+letters z(?=i) = ʑ
+letters ń = ɲ
+letters ni(?=[aeouąęó]) = ɲ
+letters n(?=i) = ɲ
+letters ż$ = ʂ
+letters ż = ʐ
+letters ł = w
+letters w$ = f
+letters w(?=[ptkcsś]) = f
+letters w = v
+letters b$ = p
+letters d$ = t
+letters g$ = k
+letters z$ = s
+letters b = b
+letters d = d
+letters g = ɡ
+letters z = z
+letters ó = u
+letters ą(?=[pb]) = ɔm
+letters ą(?=[ćśź]|ci|si|zi|dzi) = ɔɲ
+letters ą(?=[tdcdz]) = ɔn
+letters ą(?=[kg]) = ɔŋ
+letters ą = ɔ̃
+letters ę$ = ɛ
+letters ę(?=[pb]) = ɛm
+letters ę(?=[ćśź]|ci|si|zi|dzi) = ɛɲ
+letters ę(?=[tdcdz]) = ɛn
+letters ę(?=[kg]) = ɛŋ
+letters ę = ɛ̃
+letters i(?=[aeouąęó]) = ʲ after /[bpmwf]/
+letters i(?=[aeouąęó]) = j after /^|[aeiouyąęó]/
+letters i(?=[aeouąęó]) =
+letters i = ʲi after /[bpmwf]/
+letters i = i
+letters y = ɨ
+letters e = ɛ
+letters o = ɔ
+letters h = x
+letters j = j
+letters [aulrmnpfkst] = $
+letters q = k
+letters v = v
+letters x = ks

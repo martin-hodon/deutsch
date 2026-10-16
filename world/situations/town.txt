@@ -1,0 +1,74 @@
+# SITUATIONS of the town settings: town, restaurant, shop, bank, office (format: everyday.txt)
+
+SITUATION stadtbummel : town -- zu Fuß in der Stadt
+  place   ulica | mesto
+  people  priateľ | kin
+  things  fontána | dom | most | park
+  own     kamera
+  want    chuť : verb=robiť patient=none:fotka+pl ; uses kamera
+  trouble kamera pokazený : opraviť
+
+SITUATION haltestelle : town -- an der Haltestelle auf den Bus warten
+  place   zastávka
+  people  priateľ | kin
+  things  autobus | lavica | hodiny
+  own     okuliare
+  want    chuť : verb=čítať patient=indef:kniha ; uses okuliare
+  want    unavený : verb=oddýchnuť_si ; uses lavica
+  trouble okuliare špinavý : čistiť
+  trouble lavica špinavý : čistiť
+
+SITUATION café : restaurant -- im Café sitzen
+  place   kaviareň
+  people  čašník
+  things  stôl | šálka | koláč | káva | lyžica | jedálny_lístok
+  want    smädný : verb=piť patient=none:káva ; uses šálka
+  want    hladný : verb=jesť patient=none:koláč ; uses stôl
+  trouble šálka prázdny : naplniť by čašník
+  trouble stôl špinavý : čistiť by čašník
+
+SITUATION imbiss : restaurant -- schnell etwas essen
+  place   reštaurácia
+  people  čašník | priateľ
+  things  stôl | tanier | sklenica | pizza | šalát | pivo
+  want    smädný : verb=piť patient=none:pivo ; uses sklenica
+  want    hladný : verb=jesť patient=indef:pizza ; uses stôl
+  trouble sklenica prázdny : naplniť by čašník
+  trouble stôl špinavý : čistiť by čašník
+
+SITUATION supermarkt : shop -- im Supermarkt einkaufen
+  place   supermarket
+  people  predavač | kin
+  things  nákupný_vozík | chlieb | ovocie | mlieko | pokladňa
+  want    hladný : verb=kúpiť patient=none:ovocie ; uses pokladňa
+  want    hladný : verb=kúpiť patient=none:chlieb ; uses pokladňa
+  want    smädný : verb=kúpiť patient=none:mlieko ; uses pokladňa
+  trouble pokladňa pokazený : opraviť by technik
+
+SITUATION kleiderladen : shop -- Kleidung kaufen
+  place   obchod
+  people  predavač | priateľ
+  things  nohavice | košeľa | bunda | zrkadlo | topánka | pokladňa
+  want    chuť : verb=kúpiť patient=indef:bunda ; uses pokladňa
+  trouble pokladňa pokazený : opraviť by technik
+
+SITUATION bankgeschäft : bank -- Geld holen
+  place   banka
+  people  priateľ | kin
+  things  peniaze | účet_(bankový) | automat | vypínač
+  want    ponáhľanie : verb=doniesť patient=none:peniaze ; uses automat
+  trouble automat pokazený : opraviť by technik
+
+SITUATION post : bank -- auf der Post
+  place   poštový_úrad
+  people  priateľ | kin
+  things  poštová_známka | váha | vypínač
+  want    ponáhľanie : verb=poslať patient=indef:balík ; uses váha
+  trouble váha pokazený : opraviť by technik
+
+SITUATION amt : office -- im Büro
+  place   kancelária
+  people  kolega
+  things  stolička_(nábytok) | tlačiareň | kávovar | písací_stôl
+  want    unavený : verb=variť patient=none:káva ; uses kávovar
+  trouble kávovar pokazený : opraviť

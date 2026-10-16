@@ -1,0 +1,67 @@
+# accusative
+1 PRE für {für} [fyːɐ], A = pre, za
+1 PRE um {um} [ʊm], A = okolo, o, za
+- 2 AV umso {umso} [ˈʊmzoː] = tým viac, tým
+1 PRE ohne {ohne} [ˈoːnə], A = bez
+- 3 AV ohnehin {ohne|hin} [ˈoːnəhɪn] = tak či tak, aj tak
+1 PRE gegen {gegen} [ˈɡeːɡən], A = proti, okolo
+3 PRE wider {wider} [ˈviːdɐ], A = proti
+3 PRE pro {pro} [pʁoː], A = na (za jednotku), za
+2 PRE je {je} [jeː], A = na (za jednotku), za, každý
+3 PRE per {per} [pɛʁ], A = prostredníctvom, poštou
+2 PRE via {via} [ˈviːa], A = prostredníctvom, cez
+
+# dative
+1 PRE aus {aus} [aʊs], D = z, zo
+1 PRE bei {bei} [baɪ], D = pri, u
+- 1 PRE beim {beim} [baɪm], D = pri, u (bei dem)
+1 PRE mit {mit} [mɪt], D = s, so
+1 PRE von {von} [fɔn], D = od (pôvod), z, o
+- 1 PRE vom {vom} [fɔm], D = od (pôvod), z (von dem)
+1 PRE zu {zu} [tsuː], D = k, do, na
+- 3 PRE zuliebe {zu|liebe} [tsuˈliːbə], D = pre dobro, kvôli
+2 PRE ab {ab} [ap], D = od (začiatok)
+2 PRE außer {außer} [ˈaʊsɐ], D = okrem, mimo
+2 PRE entgegen {ent|gegen} [ɛntˈɡeːɡən], D = v rozpore s, oproti, proti
+3 PRE gemäß {gemäß} [ɡəˈmɛːs], D = v súlade s, podľa
+3 PRE samt {samt} [zamt], D = spolu s
+3 PRE zufolge {zu|folge} [tsuˈfɔlɡə], D = podľa
+3 PRE nebst {nebst} [nɛpst], D = spolu s, aj s
+2 PRE dank {dank} [daŋk], D/G = vďaka
+
+# genitive
+1 PRE wegen {wegen} [ˈveːɡən], G = kvôli, pre
+1 PRE trotz {trotz} [tʁɔts], G = napriek, i keď
+1 PRE statt {statt} [ʃtat], G = namiesto
+- 2 PRE anstatt {an|statt} [anˈʃtat], G = namiesto
+- 2 AV stattdessen {statt|dessen} [ʃtatˈdɛsən] = namiesto toho
+2 PRE innerhalb {innerhalb} [ˈɪnɐhalp], G = vnútri, v rámci
+2 PRE außerhalb {außer|halb} [ˈaʊsɐhalp], G = mimo, zvonka
+3 PRE oberhalb {oberhalb} [ˈoːbɐhalp], G = nad, vyššie ako
+3 PRE diesseits {diesseits} [ˈdiːszaɪts], G = na tejto strane
+2 PRE aufgrund {auf|grund} [aʊfˈɡʁʊnt], G = na základe, kvôli
+3 PRE infolge {in|folge} [ɪnˈfɔlɡə], G = následkom
+3 PRE anlässlich {anlässlich} [ˈanlɛslɪç], G = pri príležitosti
+3 PRE bezüglich {be|züglich} [bəˈtsyːklɪç], G = pokiaľ ide o, týkajúci sa
+3 PRE hinsichtlich {hinsichtlich} [ˈhɪnzɪçtlɪç], G = pokiaľ ide o, z hľadiska
+3 PRE angesichts {angesichts} [ˈanɡəzɪçts], G = vzhľadom na
+3 PRE zugunsten {zu|gunsten} [tsuˈɡʊnstən], G = v prospech
+3 PRE mithilfe {mit|hilfe} [mɪtˈhɪlfə], G = pomocou
+3 PRE mittels {mittels} [ˈmɪtəls], G = pomocou, prostredníctvom
+3 PRE zwecks {zwecks} [tsvɛks], G = za účelom
+3 PRE seitens {seitens} [ˈzaɪtəns], G = zo strany
+3 PRE anhand {an|hand} [anˈhant], G = na základe, podľa
+3 PRE inmitten {in|mitten} [ɪnˈmɪtən], G = uprostred
+3 PRE abseits {abseits} [ˈapzaɪts], G = stranou, mimo
+3 PRE unweit {un|weit} [ˈʊnvaɪt], G = neďaleko
+3 PRE binnen {binnen} [ˈbɪnən], D/G = v priebehu, do, behom
+2 PRE inklusive {inklusive} [ɪnkluˈziːvə], G = vrátane
+2 PRE einschließlich {ein|schließlich} [ˈaɪnʃliːslɪç], G = vrátane
+
+# two-way
+1 PRE an {an} [an], A/D = na (v kontakte), pri, k
+1 PRE auf {auf} [aʊf], A/D = na (navrchu), po
+1 PRE in {in} [ɪn], A/D = v, do
+
+# more
+2 PHR unabhängig von {unabhängig von} [ˈʊnaphɛŋɪç fɔn] = bez ohľadu na

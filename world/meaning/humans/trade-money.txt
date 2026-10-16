@@ -1,0 +1,439 @@
+N náklady : quantity
+V poskytnúť : person -child > patient {pomoc|služba (v práci)|odpor|príspevok}
+V poskytnúť : person > recipient person, bare {pomoc|spoločnosť}
+AN hodný : object, activity, event, person
+N stánok : shop ; an
+N rozpočet : quantity
+N peniaze : money ; mass
+N hotovosť : money ; mass
+N bankovka : money
+N drobné : money ; mass
+N vrátené drobné : money ; mass
+N sprepitné : money
+N vreckové : money
+N bankomat : device
+N minca : money
+N mena : abstract
+N euro : currency
+N cent : currency
+N poklad : thing
+N imanie : quantity
+N majetková hodnota : quantity
+AN majetný : person, institution
+V byť schopný : agent > inf
+AN bohatý (majetný) : child, settlement, region, {muž|žena|priateľ|priateľka|sused|susedka|rodina|roľník|obchodník|obchodník|krajina (štát)|rodičia|dcéra|syn|strýko|teta}, -infant, -{dvojča|blízky}
+N bohatstvo : state
+N blahobyt : state
+AN zámožný : person, -role, group
+AN chudobný : child, settlement, region, {muž|žena|priateľ|priateľka|sused|susedka|rodina|roľník|obchodník|obchodník|krajina (štát)|rodičia|dcéra|syn|strýko|teta}, -infant, -{dvojča|blízky|tínedžer}
+N chudoba : state
+V schudobnieť : person
+V schudobnieť : group
+N dlhy : quantity
+V dlhovať : person -child > recipient {banka|priateľ|priateľka|brat|otec|matka|sused|susedka|štát|firma}, patient money
+V dlhovať : person -child > recipient {banka|priateľ|priateľka|brat|otec|matka|sused|susedka|štát|firma}, patient currency
+N dlžník : person
+N pôžička : money
+V požičať : person > recipient person, patient {kladivo|píla|vŕtačka|dáždnik|kľúč|náradie}
+V požičať : person > recipient person, patient vehicle
+V požičať : person > recipient person, patient {peniaze|hotovosť|kniha|šaty}
+V požičať : {banka|sporiteľňa|centrálna banka} > recipient person -child, patient {peniaze|hotovosť}
+N hypotéka : quantity
+N fond : quantity
+N kapitál : quantity
+N financie : quantity
+AN finančný : problem, institution, activity, information ; attr
+V financovať : agent > patient {projekt|štúdium|cesta (cestovanie)|odborná príprava}
+V financovať : {vláda|štát|mesto|obec|nadácia} > patient {kostol|škola|múzeum|nemocnica|divadlo|štadión|knižnica}
+V financovať : {milionár|investor|sponzor} > patient {kostol|škola|múzeum|nemocnica|divadlo|štadión|knižnica}
+V financovať : {vláda|štát|mesto} > patient {autobus|vlak|loď|lietadlo|električka}
+N financovanie : activity
+N milionár : role
+N dolár : currency
+N suma : quantity
+V kúpiť : person > patient thing -money -{polievková lyžica|čajová lyžička}
+V kúpiť : person > patient vehicle
+V kúpiť : person > patient clothing
+V kúpiť : person > patient furniture
+V kúpiť : person > patient food -fruit -vegetable -dish -meal -{huba}
+V kúpiť : person > patient {jablko|banán|paradajka|mrkva|zemiak}
+V kúpiť : person > patient pet
+V kúpiť : {roľník|poľnohospodár|pastier|chovateľ|obchodník} > patient livestock
+V kúpiť : person > patient {dom|byt|vila|chata|hotel|reštaurácia|obchod|garáž|statok|budova}
+V predať : agent -professional > patient thing -money -document -container -text -{batožina|polievková lyžica|čajová lyžička}
+V predať : {predavač|predavačka|obchodník|obchodník|obchod|obchod|obchodný dom|firma|stánok} > patient thing -money -document -container -text -{batožina|polievková lyžica|čajová lyžička}
+V predať : agent > patient vehicle
+V predať : agent -professional > patient clothing
+V predať : {predavač|predavačka|obchodník|obchodník|obchod|obchod|obchodný dom|firma|stánok} > patient clothing
+V predať : agent -professional > patient furniture
+V predať : {predavač|predavačka|obchodník|obchodník|obchod|obchod|obchodný dom|firma|stánok} > patient furniture
+V predať : {predavač|predavačka|obchodník|obchodník|obchod|obchod|obchodný dom|firma|stánok|roľník|pekár|mäsiar} > patient food -meal -dish -{huba}
+V predať : {roľník|poľnohospodár|obchodník|mäsiar} > patient livestock
+V predať : agent > patient pet
+V predať : agent -professional > patient {dom|byt|vila|chata|hotel|reštaurácia|obchod|garáž|statok|budova|nákupné centrum}
+V predať : {maklér|vlastník|majiteľ} > patient {dom|byt|vila|chata|hotel|reštaurácia|obchod|garáž|statok|budova|nákupné centrum}
+V predať : agent -professional > recipient person -{spotrebiteľ|spotrebiteľ}, patient thing -money -document -container -text -{batožina|polievková lyžica|čajová lyžička}
+V predať : {predavač|predavačka|obchodník|obchodník|obchod|obchod|obchodný dom|firma|stánok} > recipient person -{spotrebiteľ|spotrebiteľ}, patient thing -money -document -container -text -{batožina|polievková lyžica|čajová lyžička}
+V predať : agent > recipient agent -group -{obchod}, patient vehicle
+V predať : agent -professional > recipient person -{spotrebiteľ|spotrebiteľ}, patient clothing
+V predať : {predavač|predavačka|obchodník|obchodník|obchod|obchod|obchodný dom|firma|stánok} > recipient person -{spotrebiteľ|spotrebiteľ}, patient clothing
+V predať : agent -professional > recipient person -child -{spotrebiteľ|spotrebiteľ}, patient furniture
+V predať : {predavač|predavačka|obchodník|obchodník|obchod|obchod|obchodný dom|firma|stánok} > recipient person -child -{spotrebiteľ|spotrebiteľ}, patient furniture
+V predať : {predavač|predavačka|obchodník|obchodník|obchod|obchod|obchodný dom|firma|stánok|roľník|pekár|mäsiar} > recipient person -{spotrebiteľ|spotrebiteľ}, patient food -meal -dish -{huba}
+V predať : {roľník|poľnohospodár|obchodník|mäsiar} > recipient {roľník|poľnohospodár|obchodník|mäsiar|sused|susedka|priateľ}, patient livestock
+V predať : agent > recipient agent -child -{obchod}, patient pet
+V predať : agent -professional > recipient agent -child -group -{obchod}, patient {dom|byt|vila|chata|hotel|reštaurácia|obchod|garáž|statok|budova}
+V predať : {maklér|vlastník|majiteľ} > recipient agent -child -group -{obchod}, patient {dom|byt|vila|chata|hotel|reštaurácia|obchod|garáž|statok|budova}
+N predaj : activity
+N predavač : professional
+N kúpa : activity
+N kupujúci : role
+V nakupovať : person
+V nakupovať : person > patient {oblečenie|potravina}
+V nakupovať : person > patient {chlieb|mlieko|ovocie|zelenina|mäso|syr|maslo|ryža|múka|cukor|klobása|ryba}
+N nákup : activity
+N nákupné centrum : building, enterable
+N obchodník : professional
+V zaplatiť : person -child > patient {peniaze|plat|mzda|hotovosť|nájom|poplatok|daň}
+V zaplatiť : person -child > patient currency
+V zaplatiť : person -child > recipient person -child, patient {peniaze|plat|mzda|hotovosť|nájom|poplatok|daň}
+V zaplatiť : person -child > recipient person -child, patient currency
+N platba : activity
+V vrátiť peniaze : person -child > patient {peniaze|hotovosť|úver|pôžička|dlhy|suma|hypotéka}
+V vrátiť peniaze : person -child > patient currency
+N vklad : activity
+V stáť (mať cenu) : artifact -money > patient currency
+V stáť (mať cenu) : building > patient currency
+V stáť (mať cenu) : food > patient currency
+V stáť (mať cenu) : {cesta (cestovanie)|dovolenka|štúdium|oprava (poškodeného)} > patient money
+V stáť (mať cenu) : person > patient {polievka|víno|syr|koláč|omáčka|med|čokoláda}
+V stáť (mať cenu) : artifact -money > patient person, second currency
+AN bezplatný : artifact, food, activity
+N hodnota : quantity
+AN bezcenný : artifact, idea
+N cenný papier : document
+AN lacný : clothing, furniture, vehicle, device, jewelry, tool, meat, dairy, shop, {červené víno|biele víno|whisky|káva|čokoláda|víno}, settlement, {dom|byt|hotel|reštaurácia|obchod|cesta (cestovanie)|dovolenka|oprava (poškodeného)|štúdium|záľuba}, -{vrecko nohavíc|motor|zariadenie}
+AN drahý : clothing, furniture, vehicle, device, jewelry, tool, meat, dairy, shop, {červené víno|biele víno|whisky|káva|čokoláda|víno}, {dom|byt|vila|hotel|reštaurácia|obchod|cesta (cestovanie)|dovolenka|oprava (poškodeného)|štúdium|záľuba}, -{vrecko nohavíc|motor}
+N zdraženie : process
+N zľava : quantity
+N výhodná kúpa : thing
+N účet (na zaplatenie) : document, text
+V rátať : person > theme {meškanie|návšteva|mrzutosť}
+V rátať : person > theme {dážď|sneh|búrka|víchor}
+V rátať : person > theme {nárast|strata|zisk|náklady|číslo (matematické)|počet|súčet}
+N potvrdenka : document
+V objednať : person -role > patient {kniha|šaty|bunda|topánka|hodiny|taška|darček|balík|tovar|kvetina}
+V objednať : {zákazník|zákazníčka|kupujúci|spotrebiteľ|spotrebiteľka} > patient {kniha|šaty|bunda|topánka|hodiny|taška|darček|balík|tovar|kvetina}
+V objednať : person -role > patient {stôl|stolička (nábytok)|pohovka|posteľ|skriňa|polica|kreslo|nábytok}
+V objednať : person -role > patient {počítač|mobil|televízor|laptop|kamera|práčka|telefón|tlačiareň}
+V objednať : {zákazník|zákazníčka|kupujúci|spotrebiteľ|spotrebiteľka} > patient {počítač|mobil|televízor|laptop|kamera|práčka|telefón|tlačiareň}
+V objednať : person > patient dish -{omáčka}
+V objednať : person > patient drink -{alkohol}
+N objednávka : activity
+N značka : abstract
+N zákazník : role
+N zákazníčka : role
+N zákazníci : group
+V dovoliť si : person > patient vehicle
+V dovoliť si : person > patient {počítač|mobil|televízor|kamera|laptop|telefón|práčka}
+V dovoliť si : person > patient jewelry
+V dovoliť si : person -child -{mladistvý} > patient {dom|byt|vila|dovolenka|cesta (cestovanie)|jedlo|luxus|štúdium}
+V dovoliť si : person > patient {oblek|kabát|šaty|večerné šaty}
+N výkon : activity
+N vrátenie peňazí : event
+V vrátiť : agent > patient money
+V vrátiť : agent > patient currency
+N aukcia : event, attendable
+N luxus : state
+AN luxusný : artifact, building, room
+V prenajať si : person -child > patient {byt|dom|izba|miestnosť|kancelária|hala|budova|novostavba|miesto (priestor)|garáž|obchod|sála|vila}
+V prenajať si : person -child > patient vehicle
+V vymeniť si : person -professional > patient {miesto (priestor)|izba|byt|sedadlo|rola|karta|peniaze}
+V vymeniť si : person -professional > patient currency -{cent}
+N výmena : activity
+V spotrebovať : person > patient {voda|zásoba|múka|cukor|olej|soľ|benzín|energia|prúd|papier}
+V spotrebovať : {rodina|domácnosť|mesto|továreň|dedina} > patient {voda|zásoba|múka|cukor|olej|soľ|benzín|energia|prúd|papier}
+V spotrebovať : vehicle > patient fuel
+V spotrebovať : {pec|kúrenie|elektráreň|sporák} > patient fuel
+V spotrebovať : {chladnička|práčka|televízor|počítač|kúrenie|pec|sporák|lampa|klimatizácia} > patient {prúd|energia}
+N spotrebiteľ : role
+N tovar : thing
+N surovina : material
+N poukaz : document
+N záruka : rule
+N transakcia : event
+N pokladňa : device, place
+N pokladník : professional
+V inkasovať : person > patient money
+N čiarový kód : picture
+N marketing : activity
+N sponzor : role, institution
+V sponzorovať : agent > patient person
+V sponzorovať : agent > patient event +attendable
+N aukčná ponuka : information
+N obchod : shop, institution, enterable
+N trh : place ; auf
+N supermarket : shop, enterable
+N bleší trh : place ; auf
+N trhovisko : place ; auf
+N pekár : professional
+N pekáreň : shop, enterable
+N mäsiar : professional
+N mäsiarstvo : shop, enterable
+N kiosk : shop, enterable
+N pult : furniture
+N gastronómia : activity
+N otváracia doba : period
+N obchodovanie : activity
+V obchodovať : {obchodník|obchodník|podnikateľ|predavač} > instrument {tovar|tovar|zbraň|látka|korenie}
+V obchodovať : {obchodník|obchodník|podnikateľ|roľník|predavač} > instrument {mäso|ovocie|zelenina|obilie|syr|víno|káva|čaj|cukor|ryža}
+V obchodovať : {obchodník|obchodník|podnikateľ|roľník|predavač} > instrument livestock
+V obchodovať : {obchodník|obchodník|podnikateľ|roľník|predavač} > instrument {olej|plyn|drevo|zlato|uhlie|soľ}
+V obchodovať : {obchodník|obchodník|podnikateľ|predavač|roľník}
+V obchodovať : {firma|podnik|koncern} > instrument {tovar|tovar|korenie|olej|plyn|drevo|uhlie}
+V rokovať : {obchodník|obchodník|podnikateľ|podnikateľ|manažér|šéf|riaditeľ|spolupracovník|spolupracovníčka|firma|podnik|koncern|odbory|vláda|obväz} > companion agent, topic {zmluva|plat|nájom}
+V rokovať : {obchodník|obchodník|podnikateľ|podnikateľ|manažér|šéf|riaditeľ|spolupracovník|spolupracovníčka|firma|podnik|koncern|odbory|vláda|obväz} > companion agent, topic money
+V rokovať : {obchodník|obchodník|podnikateľ|podnikateľ|manažér|šéf|riaditeľ|spolupracovník|spolupracovníčka|firma|podnik|koncern|odbory|vláda|obväz} > companion agent -group, topic {zákon|pravidlo|podmienka|zákaz}
+V rokovať : {obchodník|obchodník|podnikateľ|podnikateľ|manažér|šéf|riaditeľ|spolupracovník|spolupracovníčka|firma|podnik|koncern|odbory|vláda|obväz} > companion agent, topic {cena|riešenie|mier}
+N rokovanie : event, attendable
+N výmenný obchod : activity
+N veľkoobchod : activity
+N maloobchod : activity
+N dopyt : quantity
+N hospodárstvo : abstract
+AN hospodársky : problem, event, institution, activity ; attr
+N obchod s potravinami : shop, enterable
+N konateľ : professional
+N firma : institution
+N kancelária : room, enterable
+N zisk : quantity
+N príjem : quantity
+N plat : money
+N bonus : quantity
+N dôchodok : quantity
+N poplatok : quantity
+V zarobiť : person -child > patient {peniaze|plat|mzda|sprepitné}
+V zarobiť : person -child -{neznámy} > patient currency
+V zarobiť : person > patient {rešpekt|dôvera|trest|pokoj}
+N zárobok : quantity
+V minúť (peniaze) : person -child > patient {peniaze|hotovosť|drobné|vreckové|sprepitné|plat|mzda}
+V minúť (peniaze) : person -child > patient currency
+N výdavok : quantity, text
+V šetriť : person > patient {peniaze|drobné|vreckové|hotovosť}
+V šetriť : person > patient currency
+V šetriť : {firma|úrad|hasiči|obec|mesto|vláda|štát|rodina|spolok} > patient {peniaze}
+AN sporivý : person
+N sporiteľňa : institution
+V márniť : agent > patient money
+V márniť : agent > patient currency
+V márniť : agent > patient time
+V márniť : agent > patient substance
+V márniť : agent > patient ability
+N plytvanie : activity
+N úroky : quantity
+N účet (bankový) : document
+N stav účtu : quantity
+N úver : quantity
+N karta : artifact, thing, foldable
+N kreditná karta : artifact, thing
+V investovať : {firma|podnik|koncern|banka|investor|podnikateľ} > goal {nehnuteľnosť|hotel|továreň|reštaurácia|dom}
+V investovať : {firma|podnik|koncern|banka|investor|investor|podnikateľ} > goal {firma|podnik|akcia (cenný papier)|fond|nehnuteľnosť}
+V investovať : person -child -professional > goal {akcia (cenný papier)|fond|nehnuteľnosť}
+V investovať : {firma|podnik|koncern|výrobca|poľnohospodár|roľník} > goal {stroj|počítač|robot|veterná turbína}
+V investovať : {podnikateľ|investor|investor|milionár|podnikateľ} > goal {firma|podnik|akcia (cenný papier)|fond|nehnuteľnosť|továreň|stroj}
+V investovať : {firma|podnik|koncern|vláda|mesto|škola|štát} > goal {vzdelanie|výskum|reklama|projekt|značka}
+N investícia : activity
+N investor : person
+N poistenie : institution
+V poistiť : agent > patient vehicle, opponent {nehoda|oheň|krádež|škoda}
+V poistiť : agent > patient thing, opponent {oheň|krádež|škoda}
+V poistiť : agent > patient building, opponent {oheň|krádež|škoda}
+V poistiť : agent > patient pet, opponent {nehoda|choroba}
+V poistiť : agent > patient livestock, opponent {nehoda|choroba}
+N daň : quantity
+N volant : artifact
+N vývoz : activity
+V vyvážať : agent > patient artifact
+N dovoz : activity
+V dovážať : agent > patient artifact
+N inflácia : state
+N bankrot : event
+AN zbankrotovaný : person, institution
+N reklama : activity
+V robiť reklamu : agent > purpose {výrobok|tovar|značka}
+V robiť reklamu : agent > purpose food
+V robiť reklamu : agent > purpose event +attendable
+V robiť reklamu : agent > purpose institution
+N prevod : event
+V previesť : person -child > recipient agent -group -{burza}, patient {peniaze|suma|pôžička}
+V previesť : person -child > recipient person, patient {plat|prémia|podpora v nezamestnanosti|prídavok na dieťa|príspevok na bývanie}
+V previesť : person -child > recipient agent -group -{burza}, patient currency
+V previesť : {banka|firma|vláda|štát|mesto|úrad|poistenie|sporiteľňa|centrálna banka} > recipient agent -group -child -{burza}, patient {peniaze|suma|pôžička}
+V previesť : {banka|firma|vláda|štát|mesto|úrad|poistenie|sporiteľňa|centrálna banka} > recipient person -child, patient {plat|prémia|podpora v nezamestnanosti|prídavok na dieťa|príspevok na bývanie}
+N inkaso : event
+N šek : document, money
+N akcia (cenný papier) : document
+N akcionár : person
+N maklér : professional
+N dodávateľ : person, institution
+N konkurent : agent
+N konkurencia : relation
+V súťažiť : agent > opponent agent
+N monopol : state
+N recesia : state
+N colná sadzba : quantity
+N kvóta : quantity
+N schodok : quantity
+N príjmy : quantity
+N sociálna pomoc : quantity
+N dotácia : quantity
+V darovať (na dobročinnosť) : agent > patient {peniaze|hotovosť|drobné|sprepitné|krv}
+V darovať (na dobročinnosť) : agent > patient currency
+N účtovník : professional
+N účtovníctvo : activity
+N predplatné : relation
+V predplatiť si : person > patient text
+N provízia : quantity
+N odškodnenie : quantity
+V odškodniť : agent > patient person
+N trezor : artifact, openable, lockable
+N inventár : artifact
+N zariadenie : building, device
+N obrat : quantity
+N bilancia : information
+N odvetvie : abstract
+N zákazka : activity
+N burza : institution
+N centrálna banka : institution
+N analytik : professional
+N agentúra : institution
+N manažment : group
+N trh práce : abstract
+N mínus : quantity
+N obchodný rok : period
+N nehnuteľnosť : building
+N zvýšenie cien : process
+N odovzdanie : activity
+N podpora v nezamestnanosti : money ; mass
+N pokladničný doklad : document
+N diskont : shop, enterable
+N drogéria : shop, enterable
+N nákupný vozík : artifact, fillable
+N nákupný zoznam : text, foldable
+N tržba : quantity
+N úzke miesto : problem
+N výťažok : quantity
+N úspora : quantity
+N ojazdené auto : vehicle, drivable, lockable, repairable
+N menová politika : activity
+N konateľka : professional
+N zodpovednosť za vady : state
+N bežný účet : document
+N veriteľ : person
+N pomôcka : tool
+N platobná neschopnosť : state
+N obchodný dom : shop, enterable
+N prídavok na dieťa : money ; mass
+N škrt : event
+N kľúčová úroková sadzba : quantity
+N dodávateľský reťazec : process
+N upomienka : document, text
+N dodatočné náklady : quantity
+N DPH : quantity
+N míľnik : moment
+N cena nájmu : quantity
+N nábytkárstvo : shop, enterable
+N internetový obchod : software
+N balenie : container, openable
+N paušál : quantity
+N záloha : quantity
+N libra : currency, measure
+N poistná zmluva : document, text
+N zvýšenie ceny : event
+N prémia : money
+N balíček : container, openable
+N reklamácia : activity
+N výnosnosť : quantity
+N rubeľ : currency
+N vrátenie : activity
+N opora : state
+N rezervný fond : quantity
+N výklad : building-part, breakable, cleanable
+N sortiment : quantity
+N spotrebiteľka : role
+N udelenie : activity
+N predavačka : professional
+N obal : container, openable
+N platba vopred : activity
+N zásoba : quantity
+N predpredaj : activity
+N výmenný kurz : quantity
+N cennosť : thing
+N príspevok na bývanie : money ; mass
+N cieľová skupina : group
+N úrok : quantity
+N úroková sadzba : quantity
+N príplatok : quantity
+N doručenie : activity
+N ekonóm : professional
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN bezhotovostný : activity, event
+AN celohospodársky : problem, rule, quantity ; attr
+AN daňový : rule, document, problem, institution ; attr
+AN ekonomický : problem, rule, institution, activity, quantity ; attr
+AN finančne dostupný : thing, building, activity
+AN fiškálny : rule, problem, quantity ; attr
+AN gastronomický : event, activity, shop ; attr
+AN hospodársko-politický : problem, rule, event ; attr
+AN inflačný : process, quantity, problem ; attr
+AN neochvejný : person, idea, state
+AN nezaslúžený : quantity, state, event
+AN národohospodársky : problem, rule, quantity ; attr
+AN obchodný : activity, institution, event, document, relation ; attr
+AN platobne neschopný : person, institution
+AN plnohodnotný : person, role, object, activity
+AN podliehajúci dani : quantity, activity, thing, document ; pred
+AN poverený vedením : person ; pred
+AN spoplatnený : road, activity, building, shop
+AN stredostavovský : person, group, relation, activity ; attr
+AN výkonný : device, person, institution
+N kryptomena : money ; mass
+N ziskovosť : quality
+N získavanie prostriedkov : activity
+V bilancovať : person > patient {rok|obdobie|výsledok|práca}
+V diverzifikovať : agent > patient {ponuka|výroba|príjem|trh}
+V dotovať : {štát|vláda|ministerstvo} > patient {poľnohospodár|firma|podnik|doprava|škola}
+V expandovať : {firma|podnik|obchod|spoločnosť} > goal {krajina (štát)|trh}
+V komercializovať : agent > patient {výrobok|nápad|šport|kultúra}
+V konsolidovať : agent > patient {rozpočet|dlhy|firma}
+V kvitovať : person > patient {rozhodnutie|zmena|úspech}
+V kúpiť si : person > patient thing
+V kúpiť si : person > patient {auto|dom|byt|jedlo}
+V licencovať : agent > patient {program|patent|výrobok}
+V limitovať : agent > patient {rýchlosť|náklady|počet}
+V obhospodarovať : person > patient {pole|les|majetok|záhrada}
+V objednať vopred : person > patient {lístok|stôl|izba|ubytovanie}
+V obohatiť : person > patient person
+V oceniť : person > patient {práca|výkon|pomoc|pamiatka}
+V odoslať : agent > recipient person, patient {balík|zásielka|dokument}
+V patentovať : agent > patient {vynález|stroj|nápad}
+V platiť daň : agent > patient {príjem|majetok|dom|auto}
+V podviesť : person > patient person
+V pohostiť : person > recipient person
+V poveriť : agent > patient person, inf
+V prejaviť sa : {liek|opatrenie|zmena|reforma}
+V prinášať : person > recipient person, patient thing
+V rozpočtovať : agent > patient {projekt|stavba|výdavok}
+V stornovať : agent > patient {objednávka|rezervácia|zmluva|let|lístok}
+V sčítať : person > patient quantity
+V uskladniť : person > patient thing, location {sklad|garáž|komora}
+V ušetriť : person > patient money
+V vyplatiť : agent > recipient person, patient money
+V vystupovať pod firmou : person
+V zastropovať : institution > patient {cena|nájom|výdavok}
+V zdaniť : institution > patient {príjem|majetok|tovar}
+V zdražiť : agent > patient {tovar|chlieb|benzín|lístok}
+V zlacniť : agent > patient {tovar|chlieb|benzín|lístok}
+V zlikvidovať : agent > patient {odpad|dokument|firma}
+V zlúčiť sa : institution > companion institution

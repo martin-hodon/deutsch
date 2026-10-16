@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reading</title>
+<link rel="stylesheet" href="engine/style.css">
+</head>
+<body class="reading">
+<main>
+  <header class="top">
+    <h1 id="title" data-t="reading" data-t-title="trainer">📄 Reading</h1>
+  </header>
+  <div class="search-row">
+    <select id="lang" data-t-title="learning-title"></select>
+    <span id="status" class="mute"></span>
+  </div>
+  <textarea id="input" rows="6" data-t-placeholder="paste-text" placeholder="paste a text"></textarea>
+  <p class="mute read-help" data-t="read-help">hover a word for its meaning, click it to hear it</p>
+  <section id="text" class="card text" hidden></section>
+</main>
+<script type="module">
+import { start } from "./engine/reading.js";
+start();
+</script>
+</body>
+</html>

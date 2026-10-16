@@ -1,0 +1,20 @@
+# HOW MANDARIN SOUNDS (engine/speak.js loadProsody): the format is de/rules/speech.txt's. The pitch is the TONES'
+# (a digit after every syllable in the IPA: speak.js parse / render), not a stress accent's.
+rhythm = syllable      -- every syllable about as long as the next (a neutral-tone one shorter, a third-tone one a little longer: speak.js)
+even = 0.5
+long = 1               -- no vowel length
+stress = 1.1           -- a stressed syllable (the phrase's content words) hardly longer
+unstressed = 1
+final = 1.3            -- the last syllable of what is said drawn out
+pause = 30             -- ms between words
+slow = 1.15            -- a little slower than conversation (the listener's own tempo is set in the trainer)
+accent = 1             -- no pitch accent on stress: the tones carry the pitch
+range = 0.1            -- a gentle fall over a statement under the tones
+aspiration = 0.2       -- b d g z zh j are unaspirated (p t k c ch q carry ʰ: a full breath whatever this says)
+tune toneEase = 50     -- a tone's pitch eased toward over 50 ms, not 15: the syllables flow into one another (chosen by ear 2026-10-15)
+
+# WEAK WORDS: said without stress in a phrase (speak.js phrase) -- the particles, pronouns, the commonest function words
+run = 4
+weak = 的 了 着 过 吗 呢 吧 啊 得 地 们 个
+weak = 我 你 他 她 它 我们 你们 他们 她们 它们 您 这 那 这个 那个
+weak = 是 不 没 有 在 和 跟 也 都 很 就 还 把 被 给 从 到 对 比 会 要 能 可以 想

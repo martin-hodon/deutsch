@@ -1,0 +1,44 @@
+# THE SHAPES OF A SENTENCE (DESIGN.md): which clauses a sentence has and how they are joined -- language-free; the
+# planner (engine/sentences.js) expands S, plans each clause, and the language's realizer says them in its order
+# (German: de/rules/grammar.txt -- MAIN -> FRONT vfin MIDDLE ...). The clause kinds are the planner's (INVERTED: a
+# statement after a clause in front; DROP: its subject left out; JE / DESTO: the more ..., the more ...; CONDV: an
+# unreal condition first; WERREL: who ..., he ...). Weights {simple/medium/complex}; @feature: the target language's
+# syllabus must have it (its grammar.txt FEATURE lines). coord, dropcoord, zwarmark, w.<word>: the joining words.
+CLAUSES: MAIN INVERTED SUB REL YESNO WH IMP ZU REP DROP ZUADV JE DESTO CONDV WERREL
+
+# ---- sentences -------------------------------------------------------------------------------------------------------
+# (the subordinate clause's link, a Konjunktiv II condition -- Wenn ich Zeit hätte, würde ich kommen -- and the like
+#  are the planner's; the shapes are here)
+# (complexity 1: one clause; 2: now and then two; 3: often two or three -- more clauses, more chances of nonsense: a
+#  blind critic found sentences of 3 or 4 clauses all nonsense, of one clause with nothing added most often fine)
+S -> MAIN "."                                {6/6/5}
+S -> MAIN "," coord MAIN "."                 {0/0.5/1.5}  @coord
+S -> MAIN "," SUB "."                        {0/1/2}      @that-because-if
+S -> SUB "," INVERTED "."                    {0/0.5/1}    @that-because-if
+S -> MAIN dropcoord DROP "."                 {0/0.4/0.8}  @subject-drop
+S -> MAIN "," ZUADV "."                      {0/0.3/0.6}  @purpose
+S -> w.entweder INVERTED "," w.oder MAIN "." {0/0.15/0.3} @paired
+S -> zwarmark MAIN "," w.aber MAIN "."       {0/0.15/0.3} @paired
+S -> JE "," DESTO "."                        {0/0.15/0.3} @so-that-the-more
+S -> CONDV "," INVERTED "."                  {0/0.1/0.2}  @verb-first-if
+S -> WERREL "," MAIN "."                     {0/0.1/0.2}  @free-relative
+S -> YESNO "?"                               {1}          @yes-no
+S -> WH "?"                                  {1}          @wh-basic
+S -> IMP "!"                                 {1}          @imperative
+
+# (a clause is a leaf here: the planner plans it, the realizer orders it)
+MAIN -> here
+INVERTED -> here
+SUB -> here
+REL -> here
+YESNO -> here
+WH -> here
+IMP -> here
+ZU -> here
+REP -> here
+DROP -> here
+ZUADV -> here
+JE -> here
+DESTO -> here
+CONDV -> here
+WERREL -> here

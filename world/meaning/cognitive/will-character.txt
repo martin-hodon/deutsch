@@ -1,0 +1,336 @@
+V potrebovať : person > patient {kladivo|nožnice|nôž|píla|kliešte|dáždnik|vrták|skrutkovač}
+V potrebovať : person > patient {mobil|počítač|laptop|tlačiareň|kamera|televízor|telefón|rádio|tablet}
+V potrebovať : person > patient {stôl|stolička (nábytok)|posteľ|pohovka|skriňa|polica|banka}
+V potrebovať : person > patient clothing
+V potrebovať : person > patient money
+V potrebovať : person > patient {čas (trvanie)|pomoc|pokoj|prestávka|dovolenka|tréning}
+V potrebovať : beast > patient {krmivo|voda|pokoj|pomoc}
+V potrebovať : {auto|motor|traktor|nákladné auto|autobus|generátor|lietadlo|loď|motocykel} > patient fuel
+V vybrať : person > patient {darček|recept|kniha|šaty|stôl|stolička (nábytok)}
+V vybrať : person > patient {košeľa|nohavice|bunda|kabát|oblek|rock|blúzka|klobúk|topánka|šál}
+V vybrať : person > patient {kandidát|kandidátka|hráč|hráčka|účastník|uchádzač}
+V vybrať : person > patient food
+V vybrať : person > patient {film|pieseň|báseň|obraz}
+AN optimistický : person, -national
+AN chápavý : person, -national
+V plánovať : agent > patient {cesta (cestovanie)|dovolenka|výlet|projekt|návšteva}
+V plánovať : agent > patient {slávnosť|oslava|svadba|večierok|koncert|výlet}
+V plánovať : agent > patient {dom|novostavba|stavba|záhrada|prestavba}
+V plánovať : agent > inf
+V chcieť : person > patient thing
+V chcieť : person > patient food
+V chcieť : person > patient vehicle
+V chcieť : person > that
+N vôľa : quality
+N sila vôle : quality
+AN neochotný : person, -national
+AN nedobrovoľný : person, event, -national
+V želať si : person > patient {darček|auto|bicykel|mobil|pes|mačka|kniha|počítač|bábika|hračka}
+V želať si : person > recipient person, patient {šťastie|úspech|zdravie|pokoj|mier|Vianoce}
+N želanie : idea
+N blahoželanie : information
+AN žiaduci : state, idea, event, quality
+N spotreba : quantity
+V uprednostňovať : person > patient food
+V uprednostňovať : person > patient clothing
+V uprednostňovať : person > patient {auto|vlak|autobus|železnica|bicykel|lietadlo}
+V uprednostňovať : person > patient {šport|pokoj|hudba|ticho}
+V uprednostňovať : {otec|matka|rodičia|učiteľ|učiteľka|šéf|šéfka} > patient {dieťa|syn|dcéra|brat|sestra}
+V voliť : {občan|volič|muž|žena|sused|susedka|matka|otec|babka|dedko|študent} > patient {politik|poslanec|starosta|prezident|prezidentka|predseda|hovorca|hovorkyňa|kandidát|kandidátka|kancelár|kancelárka|minister|biskup|pápež}
+V voliť : person > patient {číslo (poradové)|cesta (komunikácia)|farba|povolanie|téma}
+N voľba : event
+N výber : quantity
+N volič : role
+AN vyberavý : person, animal, -national
+V rozhodnúť : person > topic {budúcnosť|otázka|prípad|cena|plán|hádka|osud}
+V rozhodnúť : {obec|mestská rada|vláda|parlament|firma|škola|spolok|úrad} > topic {budúcnosť|otázka|prípad|cena|plán|hádka|osud}
+V rozhodnúť : person > purpose clothing
+V rozhodnúť : person > purpose {auto|autobus|vlak|bicykel|lietadlo|motocykel}
+V rozhodnúť : person > purpose {mobil|počítač|laptop|televízor}
+V rozhodnúť : person > purpose {stôl|stolička (nábytok)|posteľ|pohovka|skriňa|polica}
+V rozhodnúť : person > purpose {cesta (komunikácia)|plán|cesta (cestovanie)|povolanie}
+V rozhodnúť : person > whether
+N rozhodnutie : idea
+V rozhodnúť sa : person > inf
+AN odhodlaný : person, -national
+N odhodlanie : quality
+N uznesenie : idea
+N úmysel : idea
+AN úmyselný : activity
+V mať v úmysle : person > inf
+V mať v úmysle : person > patient {cesta (cestovanie)|kúpa|návšteva|výlet}
+N účel : idea
+AN účelný : activity, artifact
+N cieľ : idea
+V mieriť : person > theme thing
+V mieriť : person > theme animal
+AN cieľavedomý : person, -national
+AN bezcieľny : person, activity, -national
+N plán : idea
+N plánovanie : activity
+AN plánovaný : event ; attr
+V pripraviť (vopred) : person > patient dish
+V pripraviť (vopred) : person > patient meal
+V pripraviť (vopred) : person > patient {cesta (cestovanie)|reč|vyučovanie|prezentácia|prednáška}
+V pripraviť (vopred) : person > patient event +attendable
+V pripraviť (vopred) : person > patient celebration
+V pripraviť (vopred) : person > theme {cesta (cestovanie)|skúška|test|reč|rokovanie|tlačová konferencia|zasadnutie|stretnutie|podujatie|koncert|kurz|slávnostný sprievod}
+V pripraviť (vopred) : person > theme celebration
+N príprava (na niečo) : activity
+V skúsiť : person > inf
+N pokus : event
+N pokušenie : feeling
+V namáhať sa : person
+V podariť sa : {experiment|pokus|útek|test|skúška|skok|plán|prekvapenie} > recipient person -infant
+V podariť sa : dish +cookable > recipient person -infant
+V podariť sa : {obraz|fotka|pieseň|báseň|film|kresba} > recipient person -infant
+AN vydarený : event, creative-work
+N úspech : state
+AN úspešný : agent, activity, professional
+AN neúspešný : agent, activity, professional
+V stroskotať : person > cause {problém|skúška|úloha|odpor}
+V stroskotať : {plán|projekt|manželstvo|pokus|reforma} > cause {problém|odpor|peniaze|hádka|náklady}
+N zlyhanie : event
+V vyhnúť sa : person > patient {problém|chyba|hádka|nehoda|zápcha|nebezpečenstvo}
+V vyhnúť sa : person > patient {sused|susedka|šéf|šéfka|kolega|kolegyňa|neznámy}
+N predchádzanie : activity
+V odmietnuť : person > patient {návrh|ponuka|žiadosť|pozvanie|pomoc|plán}
+V odmietnuť : person > patient {kandidát|kandidátka|uchádzač}
+V váhať : person
+V váhať : person > theme {odpoveď|rozhodnutie|kúpa}
+AN váhavý : person, -national
+V odvážiť sa : person > inf
+V odvážiť sa : person > patient {skok|pokus|krok|cesta (cestovanie)}
+N odvážny čin : activity
+AN odvážny : person, animal, -national
+N ctižiadostivosť : quality
+V motivovať : person > patient {spolupracovník|zamestnanec|zamestnanec|odborník|žiak|študent|hráč|dieťa}, inf
+V motivovať : person > patient {zákazník|návštevník|občan}, inf
+N disciplína : quality
+AN disciplinovaný : person, -national
+N záväzok : rule
+V zaviazať : {štát|obec} > patient {občan|obyvateľ|nájomník}, inf
+V zaviazať : {spolok|politická strana} > patient {člen}, inf
+V zaviazať : {podnik|firma} > patient {zamestnanec|spolupracovník}, inf
+V zaviazať : {šéf|šéfka|riaditeľ} > patient {spolupracovník|zamestnanec|zamestnanec}, inf
+AN zaviazaný : person, -national
+N zdržanlivosť : quality
+AN zdržanlivý : person, -national
+N chamtivosť : feeling
+AN chamtivý : person, animal, -national
+AN dychtivý : person, animal, -national
+N žiadostivosť : feeling
+N chuť (túžba) : feeling
+V nútiť : {štát|vláda|polícia|armáda|nepriateľ|protivník|vojna} > patient person, inf
+V nútiť : {šéf|šéfka|riaditeľ|otec|matka|učiteľ|tréner} > patient person, inf
+V nútiť : {obyvateľstvo|politická strana|vláda|opozícia|tlač|spolok} > patient {minister|starosta|riaditeľ|predseda|tréner}, inf
+N charakter : quality
+AN charakteristický : creative-work, animal, sound, place
+N osobnosť : quality
+N návyk : quality
+V zvyknúť si : person > topic person
+V zvyknúť si : person > topic {mesto|dedina|dom|byt|škola|krajina (štát)|klíma}
+V zvyknúť si : person > topic {práca|tréning|stres|tempo}
+V zvyknúť si : person > topic {chlad|horúčava|hluk|tma}
+N zlozvyk : quality
+N správanie : state
+V správať sa : animal > adj
+N postoj : idea
+AN lenivý : child, -infant, {žiak|študent|muž|chlap|pes|mačka|somár|medveď}
+N lenivosť : quality
+V lenivieť : person
+AN usilovný : child, -infant, {žiak|žiačka|študent|študentka|muž|žena|gazdinká|robotník|včela|mravec}
+N usilovnosť : quality
+N trpezlivosť : quality
+AN trpezlivý : person, animal, -national, professional
+AN netrpezlivý : person, animal, -national, professional
+N netrpezlivosť : quality
+AN úprimný : person, information, -national, professional
+N čestnosť : quality
+AN nečestný : person, -national
+N úprimnosť : quality
+AN milý : person, pet, -infant, -role, -{luhár|zranený|páchateľka}, -national, {učiteľ|učiteľka|lekár|lekárka|predavač|predavačka|čašník|kolega|kolegyňa}
+AN krutý : person, event, -national
+N krutosť : quality
+AN prísny : person, rule, -national, professional
+N prísnosť : quality
+AN tvrdohlavý : person, animal, -national
+AN opatrný : person, animal, -national
+N opatrnosť : quality
+AN nenútený : person, clothing, -national
+AN nedbalý : person, activity, -national
+N nedbalosť : quality
+N zvedavosť : feeling
+AN vážny : problem, {choroba|zranenie|kríza|nehoda|incident}
+N vážnosť : quality
+AN zábavný : child, -infant, {človek|muž|žena|chlap|klaun|strýko|dedko}, celebration, creative-work
+N humor : quality
+AN bez zmyslu pre humor : person, -national
+AN skromný : person, -national
+N skromnosť : quality
+AN veľkorysý : person, room, -national
+N veľkorysosť : quality
+AN lakomý : person, -national
+N lakomstvo : quality
+N skupáň : person
+AN sebecký : person, -national
+N egoizmus : quality
+N egoista : person
+AN nesmelý : person, animal, -national
+N plachosť : quality
+AN arogantný : person, -national
+N arogancia : quality
+AN ľahkomyseľný : person, activity, -national
+N ľahkomyseľnosť : quality
+AN obozretný : person, -national
+N obozretnosť : quality
+AN impulzívny : person, -national
+AN spontánny : person, event, -national
+AN unáhlený : person, activity, -national
+N chvat : state
+AN družný : person, event, -national
+N družnosť : quality
+AN márnivý : person, -national
+N márnivosť : quality
+N šibal : person
+AN šibalský : person, -national
+AN neposlušný : person, animal, -national
+N predsudok : idea
+N zaujatosť : quality
+AN zaujatý : person, -national
+AN nezaujatý : person, -national
+AN spravodlivý : person, institution, rule, -national
+AN nespravodlivý : person, institution, rule, -national
+N cnosť : quality
+AN cnostný : person, -national
+N neresť : quality
+N vada : quality
+N povaha : quality
+AN mrzutý : person, -national
+N optimista : person
+AN pesimistický : person, -national
+N pesimizmus : quality
+N pesimista : person
+AN realistický : person, idea, -national
+AN nerealistický : person, idea, -national
+N realizmus : quality
+N odvaha : quality
+V odradiť : {neúspech|porážka|kritika|problém|správa (oznam)} > patient person
+V odradiť : person > patient person
+AN skľúčený : person, -national
+N rozpustilosť : quality
+AN zbabelý : person, animal, -national
+N zbabelec : person
+N zbabelosť : quality
+AN smelý : person, idea, -national
+N smelosť : quality
+N svedomie : quality
+AN svedomitý : person, -national
+AN bezškrupulózny : person, -national
+N ohľad : quality
+AN bezohľadný : person, -national
+AN ohľaduplný : person, -national
+AN pokorný : person, -national
+AN slušný : person, activity, -national
+N slušnosť : quality
+AN neslušný : person, activity, -national
+AN zlostný : person, animal, -national
+AN drzý : person, animal, -national
+N drzosť : quality
+AN príkry : person, landscape, -national
+N temperament : quality
+AN temperamentný : person, animal, -national
+N integrita : quality
+AN vytrvalý : person, -national
+N vytrvalosť : quality
+AN agresívny : person, animal, -national
+N agresia : feeling
+AN pasívny : person, -national
+N pasivita : quality
+AN asertívny : person, -national
+V presadiť sa : person > opponent {šéf|šéfka|kolega|kolegyňa|protivník|protivníčka|konkurent|brat|sestra|strýko|zástupca|dieťa}
+N presadzovacia schopnosť : quality
+AN nezištný : person, -national
+N nezištnosť : quality
+N vzor (idol) : idea
+N pohon : quality
+N autorita : quality
+N rozkaz : information
+N pohnútka : idea
+N nutkanie : feeling
+N splnenie : event
+N protihodnota : activity
+N ochota pomáhať : quality
+N kreativita : quality
+N boj o moc : event
+N morálka : rule
+N nádhera : quality
+N samostatnosť : quality
+N čin : activity
+N pud : feeling
+N odplata : activity
+N zanedbanie : event
+N zrieknutie sa : event
+N prednosť : state
+N predsavzatie : idea
+N svojvôľa : quality
+N pohoršenie : problem
+AN energický : person
+# added: wählen in its second sense
+V vyberať : person > patient thing
+V vyberať : person > patient food
+# added: abheben (money), its own concept
+V vybrať z účtu : person > patient {peniaze|hotovosť|drobné}
+V vybrať z účtu : person > patient currency
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN ambivalentný : person, feeling, idea, relation, {postoj|vzťah|pocit}
+AN autoritársky : person, -child, institution, {vláda|štát|systém|výchova|štýl|otec}
+AN bezbranný : person, beast
+AN bezstarostný : person, period, state
+AN blahosklonný : person ; attr
+AN celostný : idea, process, quality
+AN charizmatický : person, -national
+AN detinský : person, idea
+AN diskrétny : person, -national
+AN dôverčivý : person, beast
+AN intímny : relation, state, feeling, room
+AN ironický : person, -national
+AN lojálny : person, group, institution
+AN morálny : person, idea, rule, quality
+AN nebyrokratický : institution, idea, process
+AN neskrývaný : feeling, idea, state
+AN núdzny : person, beast, state
+AN ostražitý : person, beast
+AN plánovateľný : event, activity, process
+AN poslušný : person, beast
+AN použiteľný : artifact, software, information, idea
+AN pragmatický : person, idea, -national
+AN proaktívny : person, institution
+AN schopný konať : person, institution ; pred
+AN sebaurčený : person, group, country
+AN slastný : feeling, state, moment
+AN starostlivý : person, -national
+AN statočný : person, -national
+AN sympatický : person, -national
+AN vzorný : person, activity, thing
+AN úctivý : person, -national
+AN čulý : person, beast
+N odolnosť : ability
+V charakterizovať : person > patient {človek|dieťa|muž|žena|kniha|film}, as person
+V dychtiť : person > theme {vedomosť|úspech|pomsta|dobrodružstvo|pomoc}
+V inscenovať : person > patient {hra|film|predstavenie|nehoda}
+V konať : person > inf
+V konať : person > theme {práca|projekt|plán}
+V oneskoriť : person > patient {vlak|autobus|predstavenie|projekt}
+V osvedčiť sa : person > as {učiteľ|lekár|priateľ|vodca}
+V otužiť : person > patient {dieťa|telo}
+V usilovať sa : person > inf
+V usilovať sa o : person > theme {úspech|práca|pokoj|mier|zdravie}
+V uspokojiť : person > patient {zákazník|dieťa|hosť}
+V uspokojiť : person > patient {potreba|želanie}
+V uspokojiť sa : person > instrument {odpoveď|výsledok|riešenie}
+V vzpierať sa : person > opponent {rozkaz|zákon|povinnosť|zmena}
+V zanedbať : person > patient {práca|povinnosť|zdravie|záhrada|dieťa}
+V zaslúžiť si : person > patient {odmena|úspech|trest|pokoj|dovolenka}
+V špecializovať sa : person > theme {medicína|právo|kuchyňa|umenie}

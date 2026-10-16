@@ -1,0 +1,23 @@
+# HOW POLISH MARKS A ROLE (world/roles.txt) when a word does not say otherwise in pl/rules/frames.txt: a CASE (B
+# accusative, D genitive, C dative, N instrumental, Ms locative, M nominative) or `preposition+CASE`; alternatives
+# `|` by the noun's kind: [surface] [place] [container] [person] [vehicle]
+patient     B
+second      B
+recipient   C
+as          N
+bare        B
+theme       B
+topic       o+Ms
+cause       D
+basis       od+D
+purpose     dla+D
+companion   z+N
+opponent    przeciw+C
+instrument  N
+share       w+Ms
+result      w+B
+substitute  za+B
+location    w+Ms | na+Ms [surface] | u+D [person]
+goal        do+D | na+B [surface]
+source      z+D | od+D [person]
+path        przez+B

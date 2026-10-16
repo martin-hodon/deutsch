@@ -1,0 +1,179 @@
+# HOW RUSSIAN SAYS THE WORLD'S CLOSED WORDS (world/CLAUSES.md) -- as en/rules/neutral.txt: `KIND neutral = Russian`,
+# alternatives `|` ([place] [person] [surface] ...: the alternative for such a noun). A pronoun: nominative/genitive/
+# dative/accusative/instrumental/prepositional/its possessive (declined by ru/morph.js pronAdj)/its person (0 я .. 5 они).
+# A relation or a role marking: `preposition+CASE` (CASE: Н В Р Д Т П), a CASE alone for a bare case. Read by ru/realize.js.
+
+pron 1sg = я/меня/мне/меня/мной/мне/мой/0
+pron 2sg = ты/тебя/тебе/тебя/тобой/тебе/твой/1
+pron 3sg.m = он/его/ему/его/им/нём/его/2
+pron 3sg.f = она/её/ей/её/ей/ней/её/2
+pron 3sg.n = оно/его/ему/его/им/нём/его/2
+pron 1pl = мы/нас/нам/нас/нами/нас/наш/3
+pron 2pl = вы/вас/вам/вас/вами/вас/ваш/4
+pron 3pl = они/их/им/их/ими/них/их/5
+pron 3pl.f = они/их/им/их/ими/них/их/5
+pron formal = вы/вас/вам/вас/вами/вас/ваш/4
+pron one = -/-/-/-/-/-/свой/5
+pron someone = кто-то/кого-то/кому-то/кого-то/кем-то/ком-то/чей-то/2
+pron noone = никто/никого/никому/никого/никем/ни о ком/ничей/2
+pron something = что-то/чего-то/чему-то/что-то/чем-то/чём-то/-/2
+pron nothing = ничего/ничего/ничему/ничего/ничем/ни о чём/-/2
+pron everything = всё/всего/всему/всё/всем/всём/-/2
+pron this = это/этого/этому/это/этим/этом/-/2
+pron that-one = тот/того/тому/того/тем/том/его/2
+pron who = кто/кого/кому/кого/кем/ком/чей/2
+
+# the determiners: a declined word (этот каждый весь какой никакой: ru/morph.js), or a quantity word with the genitive
+det def =
+det indef =
+det this = этот
+det every = каждый
+det all = весь
+det some = несколько+Р
+det both = оба
+det many = много+Р
+det much = много+Р
+det little = мало+Р
+det several = несколько+Р
+det few = мало+Р
+det which = какой
+det no = никакой
+
+coord and = и
+coord but = но
+coord or = или
+coord for = ведь
+coord either = либо
+coord admittedly = правда
+coord as-well-as = а также
+
+link because = потому что {3} | так как {1}
+link although = хотя
+link if = если
+link if-unreal = если бы
+link when = когда
+link when-past = когда
+link before = прежде чем
+link after = после того как
+link as-soon-as = как только
+link in-case = на случай если
+link while = пока
+link until = пока не
+link as-long-as = пока
+link since = с тех пор как
+link so-that = чтобы
+link by-doing = тем что
+link with-result = так что
+link without-that = без того чтобы
+link instead-that = вместо того чтобы
+link as-if = как будто
+link that = что
+link whether = ли
+link purpose = чтобы
+link without = не
+link instead = вместо того чтобы
+
+# the clause's verb in the past (+ бы where the link has it): чтобы он пришёл, если бы он пришёл
+mood past = so-that|if-unreal|without-that|instead-that|as-if
+mood by = if-unreal|as-if
+
+rel in = в+П | на+П [surface]
+rel into = в+В | на+В [surface]
+rel on = на+П
+rel onto = на+В
+rel at = у+Р | на+П [surface]
+rel to-side = к+Д
+rel to = в+В | к+Д [person] | на+В [surface]
+rel from = из+Р | от+Р [person]
+rel off = с+Р
+rel under = под+Т
+rel under-to = под+В
+rel above = над+Т
+rel above-to = над+Т
+rel behind = за+Т
+rel behind-to = за+В
+rel front = перед+Т
+rel front-to = перед+Т
+rel beside = рядом с+Т
+rel beside-to = рядом с+Т
+rel between = между+Т
+rel through = через+В
+rel along = вдоль+Р
+rel around = вокруг+Р
+rel near = у+Р
+rel with = с+Т | Т [thing]
+rel without = без+Р
+rel by = на+П
+rel for = для+Р
+rel about = о+П
+rel like = как+Н
+rel against = против+Р
+rel opposite = напротив+Р
+rel smell-of = Т
+rel after = после+Р
+rel before = до+Р
+rel out-of = от+Р
+rel because-of = из-за+Р
+rel despite = несмотря на+В
+rel during = во время+Р
+rel instead-of = вместо+Р
+rel until = до+Р
+rel of = Р
+
+time on-day = в+В
+time in-period = в+П
+time at-hour = в+В
+time date = Р
+time last = прошлый
+time next = следующий
+time every = каждый+В
+time since = уже+В
+time ago = В назад
+time in-time = через+В
+
+wh who = кто
+wh whom = кого
+wh what = что
+wh when = когда
+wh where = где
+wh whence = откуда
+wh whither = куда
+wh why = почему
+wh how = как
+wh how-old = сколько лет
+wh how-late = который час
+wh how-often = как часто
+wh which = какой
+wh what-kind = какой
+wh how-many = сколько
+
+neg yes = не
+neg no-more = больше не
+neg not-yet = ещё не
+neg not-at-all = совсем не
+
+# WORD LISTS: time words of the past and the future; those standing first; verbs of a state (the imperfective past in a
+# past clause even for one event); the weather (сегодня холодно: an adjective's adverb); irregular adverbs of adjectives;
+# the numbers' values (the cases after a number: 1 nom, 2-4 gen sg, 5+ gen pl); the parts of the day said alone in the
+# instrumental (утром, вечером); the months (в мае: prepositional)
+list past = вчера|позавчера|недавно|раньше|тогда|давно
+list future = завтра|послезавтра|скоро|потом|позже|сегодня вечером
+list front = сейчас|потом|затем|тогда|скоро|здесь|вдруг|наконец|сегодня|вчера|завтра
+list state = быть|жить|знать|любить|хотеть|мочь|думать|стоить|бояться|ждать|надеяться|казаться|нравиться|спать|сидеть|стоять|лежать|работать|учиться|болеть
+list weather = холодный:холодно|тёплый:тепло|жаркий:жарко|прохладный:прохладно|хороший:хорошо|плохой:плохо|солнечный:солнечно|ветреный:ветрено|сухой:сухо|сырой:сыро
+list adverb = хороший:хорошо|плохой:плохо|большой:много|маленький:мало|многочисленный:много|ранний:рано|поздний:поздно|громкий:громко|тихий:тихо|частый:часто|редкий:редко|далёкий:далеко|близкий:близко|долгий:долго|лёгкий:легко|охотный:охотно|рад:с радостью
+list num = jeden:1|dva:2|tri:3|štyri:4|päť:5|šesť:6|sedem:7|osem:8|deväť:9|desať:10|jedenásť:11|dvanásť:12|trinásť:13|štrnásť:14|pätnásť:15|šestnásť:16|sedemnásť:17|osemnásť:18|devätnásť:19|dvadsať:20|tridsať:30|štyridsať:40|päťdesiat:50|šesťdesiat:60|sedemdesiat:70|osemdesiat:80|deväťdesiat:90|sto:100
+list daypart = утро|вечер|день|ночь|полдень
+list week = неделя
+# nouns that take на / с instead of в / из (на работу, на почте, с вокзала); verbs whose command is imperfective
+# (приходи!); the weather verbs with their noun (идёт дождь); adjectives said in the short form as a predicate
+# (m,f,n,pl) and those said as a verb's past (я устал); verbs whose past stays imperfective for an event with a span
+list na = работа|почта|вокзал|улица|рынок|концерт|урок|завод|стадион|площадь|море|север|юг|восток|запад|кухня|остановка|станция|пляж|берег|этаж|лекция|собрание|встреча|экзамен|праздник|свадьба|день рождения|каникулы|выставка|спектакль|фильм|матч|балкон|крыша|стена|пол|потолок|стол|диван|кровать|стул
+list imp-impf = приходить|заходить|входить|проходить|садиться|приезжать|вставать|ложиться|говорить|идти|ехать|смотреть|слушать|читать
+list rain = pršať:дождь|snežiť:снег|krúpiť:град
+list short = больной:болен,больна,больно,больны|голодный:голоден,голодна,голодно,голодны|рад:рад,рада,радо,рады|готовый:готов,готова,готово,готовы|занятый:занят,занята,занято,заняты|свободный:свободен,свободна,свободно,свободны|довольный:доволен,довольна,довольно,довольны|здоровый:здоров,здорова,здорово,здоровы|пунктуальный:пунктуален,пунктуальна,пунктуально,пунктуальны|согласный:согласен,согласна,согласно,согласны|уверенный:уверен,уверена,уверено,уверены|женатый:женат,жената,женато,женаты|знакомый:знаком,знакома,знакомо,знакомы|похожий:похож,похожа,похоже,похожи|нужный:нужен,нужна,нужно,нужны|должный:должен,должна,должно,должны|сытый:сыт,сыта,сыто,сыты|прав:прав,права,право,правы|виноватый:виноват,виновата,виновато,виноваты|открытый:открыт,открыта,открыто,открыты|закрытый:закрыт,закрыта,закрыто,закрыты|грустный:грустен,грустна,грустно,грустны|счастливый:счастлив,счастлива,счастливо,счастливы|сердитый:сердит,сердита,сердито,сердиты
+list verbadj = усталый:устать|уставший:устать|влюблённый:влюбиться|замужняя:выйти замуж|испуганный:испугаться|удивлённый:удивиться|сломанный:сломаться
+list durative = кричать|плакать|смеяться|петь|танцевать|играть|гулять|работать|спать|бежать|плавать|разговаривать|смотреть|слушать|учиться|сидеть|стоять|лежать|жить|ждать|читать|писать|думать|искать|готовить|рисовать|путешествовать|отдыхать|мечтать|болеть|дышать|молчать|шуметь|гореть|течь|светить|дуть
+# time words said after the subject, not first (суп ещё нуждался); the phase verbs, whose infinitive is imperfective (начал перемешивать)
+list mid = ещё|уже|тоже|также|даже|только|почти|всегда|часто|иногда|редко|никогда|обычно
+list phase = начинать|начать|продолжать|продолжить|кончать|кончить|заканчивать|закончить|переставать|перестать|прекращать|прекратить|бросать|бросить

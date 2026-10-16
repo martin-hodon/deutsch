@@ -1,0 +1,408 @@
+# Spanish irregular verbs: only what es/morph.js's rules get wrong. Reflexives are written without -se. Multi-word entries use their first verb's line.
+# (a stem change given in the dictionary -- poder, querer, dormir, jugar, adquirir ... -- is NOT repeated here; the tú command is the pres 3rd person unless imptu is given)
+
+# --- the core irregulars
+ser : pres soy eres es somos sois son | pret fui fuiste fue fuimos fuisteis fueron | impf era eras era éramos erais eran | subj sea seas sea seamos seáis sean | imptu sé | pp sido | ger siendo
+ir : pres voy vas va vamos vais van | pret fui fuiste fue fuimos fuisteis fueron | impf iba ibas iba íbamos ibais iban | subj vaya vayas vaya vayamos vayáis vayan | imptu ve | pp ido | ger yendo
+estar : pres estoy estás está estamos estáis están | pres1 estoy | pretstem estuv | subj esté estés esté estemos estéis estén | imptu está
+dar : pres doy das da damos dais dan | pret di diste dio dimos disteis dieron | subj dé des dé demos deis den | imptu da
+haber : pres he has ha hemos habéis han | pres1 he | pretstem hub | futstem habr | subj haya hayas haya hayamos hayáis hayan | imptu he | pp habido
+saber : pres1 sé | pretstem sup | futstem sabr | subj sepa sepas sepa sepamos sepáis sepan
+caber : pres1 quepo | pretstem cup | futstem cabr
+poder : pretstem pud | futstem podr | ger pudiendo | model o>ue
+querer : pretstem quis | futstem querr | model e>ie
+andar : pretstem anduv
+desandar : like andar
+ver : pres veo ves ve vemos veis ven | pres1 veo | pret vi viste vio vimos visteis vieron | impf veía veías veía veíamos veíais veían | imptu ve | pp visto
+prever : like ver | pret preví previste previó previmos previsteis previeron | imptu prevé
+rever : like ver | pret reví reviste revió revimos revisteis revieron | imptu revé
+entrever : like ver | pret entreví entreviste entrevió entrevimos entrevisteis entrevieron | imptu entrevé
+proveer : pp provisto
+
+# --- tener, venir, poner, salir, valer, hacer, decir, traer, caer and their prefixed verbs
+tener : pres tengo tienes tiene tenemos tenéis tienen | pres1 tengo | pretstem tuv | futstem tendr | imptu ten | model e>ie
+venir : pres vengo vienes viene venimos venís vienen | pres1 vengo | pretstem vin | futstem vendr | imptu ven | ger viniendo | model e>ie
+poner : pres1 pongo | pretstem pus | futstem pondr | imptu pon | pp puesto
+salir : pres1 salgo | futstem saldr | imptu sal
+sobresalir : like salir
+valer : pres1 valgo | futstem valdr | imptu vale
+equivaler : like valer
+hacer : pres1 hago | pret hice hiciste hizo hicimos hicisteis hicieron | futstem har | imptu haz | pp hecho
+deshacer : like hacer
+rehacer : like hacer
+contrahacer : like hacer
+satisfacer : pres1 satisfago | pret satisfice satisficiste satisfizo satisficimos satisficisteis satisficieron | futstem satisfar | imptu satisfaz | pp satisfecho
+decir : pres digo dices dice decimos decís dicen | pres1 digo | pretstem dij | futstem dir | imptu di | pp dicho | ger diciendo | model e>i
+predecir : like decir | futstem predecir | imptu predice | model e>i
+contradecir : like decir | futstem contradecir | imptu contradice | model e>i
+desdecir : like decir | futstem desdecir | imptu desdice
+bendecir : like decir | futstem bendecir | imptu bendice | pp bendecido | model e>i
+maldecir : like decir | futstem maldecir | imptu maldice | pp maldecido | model e>i
+traer : pres1 traigo | pretstem traj
+atraer : like traer
+distraer : like traer
+extraer : like traer
+contraer : like traer
+sustraer : like traer
+abstraer : like traer
+retraer : like traer
+substraer : like traer
+detraer : like traer
+caer : pres1 caigo
+decaer : like caer
+recaer : like caer
+raer : pres1 raigo
+roer : pres1 roigo
+corroer : like roer
+asir : pres1 asgo
+desasir : like asir
+yacer : pres1 yazco
+mantener : like tener | imptu mantén | model e>ie
+obtener : like tener | imptu obtén | model e>ie
+contener : like tener | imptu contén | model e>ie
+detener : like tener | imptu detén | model e>ie
+retener : like tener | imptu retén | model e>ie
+sostener : like tener | imptu sostén | model e>ie
+entretener : like tener | imptu entretén | model e>ie
+abstener : like tener | imptu abstén | model e>ie
+atener : like tener | imptu atén
+componer : like poner | imptu compón
+proponer : like poner | imptu propón
+suponer : like poner | imptu supón
+exponer : like poner | imptu expón
+imponer : like poner | imptu impón
+oponer : like poner | imptu opón
+disponer : like poner | imptu dispón
+posponer : like poner | imptu pospón
+superponer : like poner | imptu superpón
+reponer : like poner | imptu repón
+deponer : like poner | imptu depón
+anteponer : like poner | imptu antepón
+interponer : like poner | imptu interpón
+descomponer : like poner | imptu descompón
+presuponer : like poner | imptu presupón
+predisponer : like poner | imptu predispón
+yuxtaponer : like poner | imptu yuxtapón
+sobreponer : like poner | imptu sobrepón
+contraponer : like poner | imptu contrapón
+transponer : like poner | imptu transpón
+recomponer : like poner | imptu recompón
+indisponer : like poner | imptu indispón
+intervenir : like venir | imptu intervén | model e>ie
+convenir : like venir | imptu convén
+prevenir : like venir | imptu prevén
+provenir : like venir | imptu provén
+devenir : like venir | imptu devén
+sobrevenir : like venir | imptu sobrevén
+avenir : like venir | imptu avén
+contravenir : like venir | imptu contravén
+subvenir : like venir | imptu subvén
+reconvenir : like venir | imptu reconvén
+
+# --- -ducir: c>zc and the j preterite
+conducir : pres1 conduzco | pretstem conduj | model c>zc
+producir : pres1 produzco | pretstem produj | model c>zc
+traducir : pres1 traduzco | pretstem traduj | model c>zc
+reducir : pres1 reduzco | pretstem reduj | model c>zc
+introducir : pres1 introduzco | pretstem introduj | model c>zc
+seducir : pres1 seduzco | pretstem seduj | model c>zc
+deducir : pres1 deduzco | pretstem deduj | model c>zc
+inducir : pres1 induzco | pretstem induj
+reproducir : pres1 reproduzco | pretstem reproduj | model c>zc
+aducir : pres1 aduzco | pretstem aduj
+
+# --- -uir: y before a e o, the preterite's yó/yeron
+huir : pres huyo huyes huye huimos huis huyen | pres1 huyo | pret hui huiste huyó huimos huisteis huyeron
+construir : pres construyo construyes construye construimos construís construyen | pres1 construyo | pret construí construiste construyó construimos construisteis construyeron
+incluir : pres incluyo incluyes incluye incluimos incluís incluyen | pres1 incluyo | pret incluí incluiste incluyó incluimos incluisteis incluyeron
+contribuir : pres contribuyo contribuyes contribuye contribuimos contribuís contribuyen | pres1 contribuyo | pret contribuí contribuiste contribuyó contribuimos contribuisteis contribuyeron
+destruir : pres destruyo destruyes destruye destruimos destruís destruyen | pres1 destruyo | pret destruí destruiste destruyó destruimos destruisteis destruyeron
+atribuir : pres atribuyo atribuyes atribuye atribuimos atribuís atribuyen | pres1 atribuyo | pret atribuí atribuiste atribuyó atribuimos atribuisteis atribuyeron
+destituir : pres destituyo destituyes destituye destituimos destituís destituyen | pres1 destituyo | pret destituí destituiste destituyó destituimos destituisteis destituyeron
+distribuir : pres distribuyo distribuyes distribuye distribuimos distribuís distribuyen | pres1 distribuyo | pret distribuí distribuiste distribuyó distribuimos distribuisteis distribuyeron
+sustituir : pres sustituyo sustituyes sustituye sustituimos sustituís sustituyen | pres1 sustituyo | pret sustituí sustituiste sustituyó sustituimos sustituisteis sustituyeron
+constituir : pres constituyo constituyes constituye constituimos constituís constituyen | pres1 constituyo | pret constituí constituiste constituyó constituimos constituisteis constituyeron
+instruir : pres instruyo instruyes instruye instruimos instruís instruyen | pres1 instruyo | pret instruí instruiste instruyó instruimos instruisteis instruyeron
+concluir : pres concluyo concluyes concluye concluimos concluís concluyen | pres1 concluyo | pret concluí concluiste concluyó concluimos concluisteis concluyeron
+excluir : pres excluyo excluyes excluye excluimos excluís excluyen | pres1 excluyo | pret excluí excluiste excluyó excluimos excluisteis excluyeron
+disminuir : pres disminuyo disminuyes disminuye disminuimos disminuís disminuyen | pres1 disminuyo | pret disminuí disminuiste disminuyó disminuimos disminuisteis disminuyeron
+diluir : pres diluyo diluyes diluye diluimos diluís diluyen | pres1 diluyo | pret diluí diluiste diluyó diluimos diluisteis diluyeron
+influir : pres influyo influyes influye influimos influís influyen | pres1 influyo | pret influí influiste influyó influimos influisteis influyeron
+fluir : pres fluyo fluyes fluye fluimos fluis fluyen | pres1 fluyo | pret flui fluiste fluyó fluimos fluisteis fluyeron
+obstruir : pres obstruyo obstruyes obstruye obstruimos obstruís obstruyen | pres1 obstruyo | pret obstruí obstruiste obstruyó obstruimos obstruisteis obstruyeron
+retribuir : pres retribuyo retribuyes retribuye retribuimos retribuís retribuyen | pres1 retribuyo | pret retribuí retribuiste retribuyó retribuimos retribuisteis retribuyeron
+reconstruir : pres reconstruyo reconstruyes reconstruye reconstruimos reconstruís reconstruyen | pres1 reconstruyo | pret reconstruí reconstruiste reconstruyó reconstruimos reconstruisteis reconstruyeron
+restituir : pres restituyo restituyes restituye restituimos restituís restituyen | pres1 restituyo | pret restituí restituiste restituyó restituimos restituisteis restituyeron
+recluir : pres recluyo recluyes recluye recluimos recluís recluyen | pres1 recluyo | pret recluí recluiste recluyó recluimos recluisteis recluyeron
+intuir : pres intuyo intuyes intuye intuimos intuís intuyen | pres1 intuyo | pret intuí intuiste intuyó intuimos intuisteis intuyeron
+derruir : pres derruyo derruyes derruye derruimos derruís derruyen | pres1 derruyo | pret derruí derruiste derruyó derruimos derruisteis derruyeron
+imbuir : pres imbuyo imbuyes imbuye imbuimos imbuís imbuyen | pres1 imbuyo | pret imbuí imbuiste imbuyó imbuimos imbuisteis imbuyeron
+prostituir : pres prostituyo prostituyes prostituye prostituimos prostituís prostituyen | pres1 prostituyo | pret prostituí prostituiste prostituyó prostituimos prostituisteis prostituyeron
+confluir : pres confluyo confluyes confluye confluimos confluís confluyen | pres1 confluyo | pret confluí confluiste confluyó confluimos confluisteis confluyeron
+afluir : pres afluyo afluyes afluye afluimos afluís afluyen | pres1 afluyo | pret afluí afluiste afluyó afluimos afluisteis afluyeron
+refluir : pres refluyo refluyes refluye refluimos refluís refluyen | pres1 refluyo | pret refluí refluiste refluyó refluimos refluisteis refluyeron
+inmiscuir : pres inmiscuyo inmiscuyes inmiscuye inmiscuimos inmiscuís inmiscuyen | pres1 inmiscuyo | pret inmiscuí inmiscuiste inmiscuyó inmiscuimos inmiscuisteis inmiscuyeron
+autoexcluir : pres autoexcluyo autoexcluyes autoexcluye autoexcluimos autoexcluís autoexcluyen | pres1 autoexcluyo | pret autoexcluí autoexcluiste autoexcluyó autoexcluimos autoexcluisteis autoexcluyeron
+argüir : pres argüyo argüyes argüye argüimos argüís argüyen | pres1 argüyo | pret argüí argüiste argüyó argüimos argüisteis argüyeron | ger argüyendo
+
+# --- -eír, -oír
+reír : pres río ríes ríe reímos reís ríen | pres1 río | pret reí reíste rio reímos reísteis rieron | subj ría rías ría riamos riáis rían | futstem reir | ger riendo | pp reído | model e>i
+sonreír : like reír | pret sonreí sonreíste sonrió sonreímos sonreísteis sonrieron | model e>i
+freír : pres frío fríes fríe freímos freís fríen | pres1 frío | pret freí freíste frio freímos freísteis frieron | subj fría frías fría friamos friáis frían | futstem freir | ger friendo | pp frito | model e>i
+engreír : like reír | pret engreí engreíste engrió engreímos engreísteis engrieron
+oír : pres oigo oyes oye oímos oís oyen | pres1 oigo | futstem oir | imptu oye | ger oyendo | pp oído
+desoír : like oír
+entreoír : like oír
+
+# --- others
+morir : pp muerto | model o>ue
+erguir : pres yergo yergues yergue erguimos erguís yerguen | pres1 yergo | pret erguí erguiste irguió erguimos erguisteis irguieron | subj yerga yergas yerga irgamos irgáis yergan | imptu yergue | ger irguiendo
+errar : pres yerro yerras yerra erramos erráis yerran | subj yerre yerres yerre erremos erréis yerren
+oler : pres huelo hueles huele olemos oléis huelen | subj huela huelas huela olamos oláis huelan
+adquirir : pres adquiero adquieres adquiere adquirimos adquirís adquieren | subj adquiera adquieras adquiera adquiramos adquiráis adquieran | model i>ie
+prohibir : pres prohíbo prohíbes prohíbe prohibimos prohibís prohíben | subj prohíba prohíbas prohíba prohibamos prohibáis prohíban | model i>í
+reunir : pres reúno reúnes reúne reunimos reunís reúnen | subj reúna reúnas reúna reunamos reunáis reúnan | model u>ú
+pudrir : pp podrido
+
+# --- irregular participles only
+escribir : pp escrito
+describir : like escribir
+inscribir : like escribir
+suscribir : like escribir
+transcribir : like escribir
+prescribir : like escribir
+proscribir : like escribir
+circunscribir : like escribir
+reescribir : like escribir
+abrir : pp abierto
+reabrir : like abrir
+entreabrir : like abrir
+cubrir : pp cubierto
+descubrir : like cubrir
+encubrir : like cubrir
+recubrir : like cubrir
+redescubrir : like cubrir
+romper : pp roto
+volver : pp vuelto | model o>ue
+devolver : like volver | model o>ue
+envolver : like volver | model o>ue
+revolver : like volver
+desenvolver : like volver
+resolver : pp resuelto | model o>ue
+disolver : pp disuelto | model o>ue
+absolver : pp absuelto
+imprimir : pp impreso
+
+# --- stem changes
+abastecer : model c>zc
+acordar : model o>ue
+actuar : model u>ú
+advertir : model e>ie
+agradecer : model c>zc
+aislar : model i>í
+alentar : model e>ie
+aliar : model i>í
+amanecer : model c>zc
+ampliar : model i>í
+ansiar : model i>í
+aparecer : model c>zc
+apostar : model o>ue
+apretar : model e>ie
+arrendar : model e>ie
+arrepentir : model e>ie
+ascender : model e>ie
+asentar : model e>ie
+asentir : model e>ie
+asolar : model o>ue
+atender : model e>ie
+atenuar : model u>ú
+atravesar : model e>ie
+avergonzar : model o>ue
+calentar : model e>ie
+carecer : model c>zc
+cerner : model e>ie
+cerrar : model e>ie
+cocer : model o>ue
+colar : model o>ue
+colgar : model o>ue
+comenzar : model e>ie
+competir : model e>i
+complacer : model c>zc
+comprobar : model o>ue
+concebir : model e>i
+concernir : model e>ie
+concordar : model o>ue
+confesar : model e>ie
+confiar : model i>í
+conocer : model c>zc
+conseguir : model e>i
+consolar : model o>ue
+contar : model o>ue
+continuar : model u>ú
+convertir : model e>ie
+corregir : model e>i
+costar : model o>ue
+crecer : model c>zc
+criar : model i>í
+defender : model e>ie
+demoler : model o>ue
+demostrar : model o>ue
+denegar : model e>ie
+derretir : model e>i
+desafiar : model i>í
+desaparecer : model c>zc
+descender : model e>ie
+desconcertar : model e>ie
+desenterrar : model e>ie
+desfavorecer : model c>zc
+deshelar : model e>ie
+desmentir : model e>ie
+despedir : model e>i
+despertar : model e>ie
+desplegar : model e>ie
+desterrar : model e>ie
+desteñir : model e>i
+desvanecer : model c>zc
+desviar : model i>í
+digerir : model e>ie
+divertir : model e>ie
+doler : model o>ue
+dormir : model o>ue
+elegir : model e>i
+embellecer : model c>zc
+embestir : model e>i
+empezar : model e>ie
+empobrecer : model c>zc
+encarecer : model c>zc
+encender : model e>ie
+encomendar : model e>ie
+encontrar : model o>ue
+endurecer : model c>zc
+enfriar : model i>í
+enfurecer : model c>zc
+enmohecer : model c>zc
+ennoblecer : model c>zc
+enriquecer : model c>zc
+entender : model e>ie
+enterrar : model e>ie
+entorpecer : model c>zc
+entrecerrar : model e>ie
+envejecer : model c>zc
+enviar : model i>í
+esclarecer : model c>zc
+esforzar : model o>ue
+espiar : model i>í
+esquiar : model i>í
+establecer : model c>zc
+estremecer : model c>zc
+evaluar : model u>ú
+expiar : model i>í
+extender : model e>ie
+favorecer : model c>zc
+florecer : model c>zc
+fluctuar : model u>ú
+fortalecer : model c>zc
+forzar : model o>ue
+fotografiar : model i>í
+fregar : model e>ie
+gemir : model e>i
+gobernar : model e>ie
+graduar : model u>ú
+guarnecer : model c>zc
+guiar : model i>í
+helar : model e>ie
+herir : model e>ie
+hervir : model e>ie
+humedecer : model c>zc
+impedir : model e>i
+inferir : model e>ie
+insinuar : model u>ú
+interactuar : model u>ú
+invernar : model e>ie
+invertir : model e>ie
+jugar : model u>ue
+llover : model o>ue
+lucir : model c>zc
+malentender : model e>ie
+manifestar : model e>ie
+medir : model e>i
+mentir : model e>ie
+merecer : model c>zc
+moler : model o>ue
+morder : model o>ue
+mostrar : model o>ue
+mover : model o>ue
+negar : model e>ie
+nevar : model e>ie
+obedecer : model c>zc
+ofrecer : model c>zc
+oscurecer : model c>zc
+padecer : model c>zc
+palidecer : model c>zc
+parecer : model c>zc
+pedir : model e>i
+pensar : model e>ie
+perder : model e>ie
+perecer : model c>zc
+permanecer : model c>zc
+perpetuar : model u>ú
+perseguir : model e>i
+pertenecer : model c>zc
+piar : model i>í
+poblar : model o>ue
+preferir : model e>ie
+prevalecer : model c>zc
+probar : model o>ue
+promover : model o>ue
+proseguir : model e>i
+radiografiar : model i>í
+recomendar : model e>ie
+reconocer : model c>zc
+reforzar : model o>ue
+regar : model e>ie
+relucir : model c>zc
+remover : model o>ue
+rendir : model e>i
+renovar : model o>ue
+repetir : model e>i
+requerir : model e>ie
+resentir : model e>ie
+resfriar : model i>í
+resonar : model o>ue
+resplandecer : model c>zc
+restablecer : model c>zc
+revestir : model e>i
+rociar : model i>í
+rodar : model o>ue
+rogar : model o>ue
+segar : model e>ie
+seguir : model e>i
+sembrar : model e>ie
+sentar : model e>ie
+sentir : model e>ie
+serrar : model e>ie
+servir : model e>i
+situar : model u>ú
+sobrecalentar : model e>ie
+sobrevolar : model o>ue
+soldar : model o>ue
+soltar : model o>ue
+sonar : model o>ue
+soñar : model o>ue
+sugerir : model e>ie
+tatuar : model u>ú
+temblar : model e>ie
+tender : model e>ie
+tentar : model e>ie
+teñir : model e>i
+torcer : model o>ue
+tostar : model o>ue
+transferir : model e>ie
+tronar : model o>ue
+tropezar : model e>ie
+vaciar : model i>í
+variar : model i>í
+verter : model e>ie
+vestir : model e>i
+volar : model o>ue
+volcar : model o>ue

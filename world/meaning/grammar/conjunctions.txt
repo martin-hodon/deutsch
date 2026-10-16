@@ -1,0 +1,13 @@
+AV teda : connective
+AV preto : connective
+AV takže : connective
+AV napriek tomu : connective
+AV predsa : connective
+AV však : connective
+AV inak (v opačnom prípade) : connective
+AV okrem toho : connective
+AV navyše : connective
+AV totiž : connective
+AV podľa toho : connective
+AV síce : other
+AV na jednej strane : connective

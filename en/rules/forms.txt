@@ -1,0 +1,26 @@
+# THE FORMS EXERCISE: a sentence with one word left out, its right form among wrong ones of the same word -- the
+# format: de/rules/forms.txt
+
+present: present simple (he/she -s)
+  when  tense=present modal=- voice=- neg=- type!=INF
+  ask   V.present.3sg
+  wrong V.present.1sg V.past.3sg V.ing
+
+past: past simple
+  when  tense=past modal=- voice=- neg=- type!=INF type!=YESNO type!=WH
+  ask   V.past.*
+  wrong ~V.past.= V.pp V.inf V.present.3sg
+
+participle: past participle
+  when  tense=perfect
+  ask   V.pp
+  wrong ~V.pp V.past.3sg V.inf V.ing
+
+plural: plural nouns
+  ask   N.pl
+  wrong ~N.pl N.sg
+
+comparison: comparatives and superlatives
+  steer degree=comp
+  ask   AN.comp AN.sup
+  wrong ~AN.comp AN.sup AN.comp AN.pos

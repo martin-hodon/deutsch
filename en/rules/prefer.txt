@@ -1,0 +1,18 @@
+# ENGLISH'S WORD FOR A CONCEPT where the realizer should not take the first commonest one -- as de/rules/prefer.txt:
+# `POS concept = word`. Read by en/realize.js.
+V ísť (dopravou) = go
+V vstať = get up
+V odporučiť = recommend
+V putovať = hike
+AN hotový = ready
+AN dochvíľny = punctual
+V premiešať = stir
+N dúšok = sip
+N pohľad = gaze
+N fašírka = meatball
+N vôňa = aroma
+V bzučať = hum
+AN zlatý = golden
+N pec = oven
+N závan = hint
+V opraviť = repair

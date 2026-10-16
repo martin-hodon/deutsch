@@ -1,0 +1,33 @@
+# THE DOCTOR'S: patients come ill, wait, are examined and treated; the staff examines, treats, prescribes
+SETTING doctor
+N lekár : staff
+N lekárka : staff
+N pacient : patient
+N pacientka : patient
+N zdravotná sestra : staff
+N ordinácia
+N nemocnica
+N termín
+N recept
+N liek
+N tabletka
+N horúčka
+N chrípka
+N prechladnutie
+N kašeľ
+N hlava
+N brucho
+N krk
+N čakáreň
+N injekcia
+N vyšetrenie
+V vyšetriť : staff
+V liečiť : staff
+V predpísať : staff
+V operovať : staff
+V užívať : patient
+V zotaviť sa : patient
+V kašľať : patient
+V bolieť
+V cítiť
+V čakať

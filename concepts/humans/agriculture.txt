@@ -1,0 +1,132 @@
+# farming
+N poľnohospodárstvo
+N poľnohospodár
+N poľnohospodárka
+AN poľnohospodársky
+N roľník
+N statok
+N roľníčka
+N roľa
+N pestovanie plodín
+N poľná plodina
+N úroda
+V žať
+V siať
+N osivo
+V vysiať
+V sadiť
+V vysadiť
+N pluh
+V orať
+V pestovať
+N pestovanie
+N hnojivo
+V hnojiť
+N hrable
+N motyka
+N traktor
+N mlyn
+N veterný mlyn
+N vodný mlyn
+N mlynár
+V mlieť
+N zavlažovanie
+V zavlažovať
+N skleník
+V kosiť
+N kombajn
+N kompost
+V kompostovať
+N hnoj
+N pesticíd
+N hektár
+N parcela
+AN úrodný
+N úrodnosť
+AN neúrodný
+N plantáž
+N ranč
+N kosa
+N fúrik
+N strašiak
+N silo
+N rýľ
+V kultivovať
+
+# crops
+N obilie
+N zrno
+N pšenica
+N raž
+N jačmeň
+N ovos
+N ovsené vločky
+N repka olejka
+N repa
+N cukrová repa
+N seno
+N vidly
+N senná nádcha
+N slama
+N sadenica
+N bala
+
+# livestock-keeping
+N dobytok
+N stádo
+N kŕdeľ
+N hovädzí dobytok
+N pastier
+N ovčiar
+N maštaľ
+N stodola
+V pásť (sa)
+N plot
+V oplotiť
+N sedlo
+V osedlať
+N riad
+N utierka na riad
+N podkova
+N úľ
+N včelár
+V chovať
+N chov
+N chovateľ
+N chov dobytka
+V zabíjať
+N bitúnok
+N hydina
+N krmivo
+N koryto
+V dojiť
+V strihať
+N vemeno
+N búda
+N jazdec
+
+# garden-hunt-fish
+N záhrada
+N záhradník
+N záhradníctvo
+V záhradkáriť
+N ovocný sad
+N vinica
+N vinohradník
+N lovec
+N pasca
+N sieť (rybárska)
+N rybárska sieť
+V zosieťovať
+N návnada
+V chytať ryby
+N rybárčenie
+N udica
+N udičkár
+N rybár
+N rybolov
+N rybárska loď
+V orezať
+N hadica
+N záhradná hadica
+N chlev

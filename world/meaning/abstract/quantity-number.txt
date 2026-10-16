@@ -1,0 +1,155 @@
+N nedostatok : quantity
+AV raz : frequency
+AN jednotlivý : thing, animal, plant, problem
+N jednotka : measure
+AN jednotný : rule, clothing, quantity, document
+AV dvakrát : frequency
+AN trojnásobný : quantity, event, thing
+N tretina : quantity
+AN štvornásobný : quantity, event, thing
+N štvrtina : quantity
+N milión : quantity
+N miliarda : quantity
+AV po prvé : connective
+AV prvýkrát : time
+AN posledný : period, moment, event, writing, person ; attr
+AV napokon : connective
+AN veľa : quantity, money, time, consumable, substance, activity
+AV viac : degree
+AN viacnásobný : quantity, event, thing
+AV niekoľkokrát : frequency
+N väčšina : quantity
+AN málo : quantity, money, time, consumable, substance, activity
+AV menej : degree
+N menšina : quantity
+AV pokaždé : other
+AN polovičný : food, thing, quantity, period
+N polovica : quantity
+V rozpoliť : person > patient {jablko|chlieb|koláč|žemľa|klobása|citrón|pomaranč|paradajka|zemiak|banán|pizza|syr|čokoláda}
+V rozpoliť : person > patient {guľa|doska|lano|prút|papier|látka|drevo|list (rastliny)}
+V rozpoliť : person > patient {číslo (matematické)|množstvo|obrat|cena|súčet|podiel}
+AN dvojitý : quantity, event, thing
+V zdvojnásobiť : {firma|podnik|obchod|obchod|obchodník|štát|vláda|banka|továreň} > patient {číslo (matematické)|množstvo|obrat|cena|súčet|dosah|podiel}
+V zdvojnásobiť : {obchodník|podnikateľ|obchodník|banka} > patient {peniaze}
+V zdvojnásobiť : {firma|podnik|zamestnávateľ|šéf|vláda|štát} > patient {plat|mzda|zisk}
+N pár : quantity
+N párik : group
+N tucet : measure
+AV dosť : degree
+AV iba : degree
+AN celkový : group, quantity, place, period ; attr
+AV celkovo : degree
+N súčet : quantity
+N priemer (priemerná hodnota) : quantity
+AN priemerný : quantity, quality, person
+AN hojný : quantity, consumable, money, time, substance
+AN prídavný : money, information, activity, thing
+N prísada : substance
+N zvyšok : quantity
+AN zvyšný : quantity, money, food, time
+N kopa : quantity
+V hromadiť : person > patient thing
+V hromadiť : person > patient food
+N stoh : quantity
+V stohovať : person > patient thing
+V stohovať : person > patient food
+V tlačiť : person > patient {dvere|kameň|guľa|stôl|stolička (nábytok)}
+V tlačiť : animal > opponent furniture
+V tlačiť : animal > opponent building-part
+V tlačiť : person > theme {problém|ťažkosť|odpor|stopa|poklad|olej|zlato|voda}
+N zväzok : quantity
+V zviazať : person > patient thing
+N šarža : quantity
+N prebytok : quantity
+N hojnosť : quantity
+V naplniť : person > patient {hrniec|misa|kôš}, instrument {polievka|ryža|šalát|zelenina|ovocie}
+V naplniť : person > patient {hrnček|šálka|sklenica|krčah|fľaša}, instrument {voda|šťava|mlieko|čaj|káva|pivo|víno|pomarančový džús|ovocný džús|pitná voda}
+V naplniť : person > patient {vedro|nádrž}, instrument {voda}
+N hrsť : quantity
+AN rôzny : thing, animal, idea, quality
+N balík : container, openable
+N štvorcový meter : measure
+N plus : quantity
+N veľké množstvo : quantity
+N promile : measure
+N percentuálny bod : measure
+N kapacita : quantity
+N číslo (matematické) : quantity
+V počítať : person > patient money
+V počítať : person > patient {kameň|vajce|lopta|gombík|guľa|perla|skrutka|klinec}
+V počítať : person > patient beast
+V počítať : person > patient {hosť|účastník|žiak|návštevník|dieťa|člen}
+V počítať : person > patient plant
+V počítať : person > theme {priateľ|priateľka|brat|sestra|otec|matka|sused|kolega|kolegyňa}
+N počet : quantity
+AN početný : animal, thing, event, problem, information
+AN nespočetný : animal, thing, event, problem, information
+N čitateľ (zlomku) : quantity
+V vypočítať : {učiteľ|žiak|študent|matka|otec|dieťa} > patient {podiel|súčet|množstvo|náklady}
+V vypočítať : {obchodník|predavač} > patient {cena|súčet|náklady}
+N výpočet : activity
+V merať : person > patient {doska|stôl|palica|lano|látka|skriňa|niť}
+V merať : person > patient {horúčka|teplota|pulz|čas (trvanie)|dĺžka|výška|šírka|hĺbka|veľkosť|rýchlosť}
+V merať : person > patient {izba|miestnosť|záhrada|trať|cesta (komunikácia)}
+V merať : person > patient {pes|kôň|dieťa|pacient}
+N meranie : activity
+N miera : measure
+N opatrenie : activity
+V vážiť : person > patient {balík|kufor|taška|list (písomnosť)|batožina}
+V vážiť : person > patient {bábätko|dieťa|pacient|pes|mačka|kôň|prasa|teľa}
+V vážiť : person > patient {múka|cukor|mäso|ovocie|zelenina|maslo|syr}
+V vážiť : thing > patient {kilo|gram|libra|tona}
+V vážiť : vehicle > patient {kilo|gram|libra|tona}
+V vážiť : animal > patient {kilo|gram|libra|tona}
+V vážiť : {chlieb|koláč|syr|mäso|šunka|dyňa|tekvica} > patient {kilo|gram|libra|tona}
+N váha : tool
+N množstvo : quantity
+N kvantita : quantity
+AN kvantitatívny : quantity, information, problem ; attr
+N stupeň : measure
+N percento : measure
+N splátka : quantity
+N meter : measure
+N centimeter : measure
+N kilometer : measure
+N milimeter : measure
+N gram : measure
+N kilogram : measure
+N kilo : measure
+N liter : measure
+N tona : measure
+N míľa : measure
+N palec (jednotka dĺžky) : measure
+N dávka : quantity
+N porcia : quantity
+N kus : quantity
+N stupnica : measure
+N limit : quantity
+N maximum : quantity
+AN maximálny : quantity, quality
+N minimum : quantity
+AN minimálny : quantity, quality
+N pätina : quantity
+N celkový počet : quantity
+N maximálna hodnota : quantity
+N kubický meter : measure
+N rezerva : quantity
+N zníženie : process
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN miliónkrát : quantity ; attr
+AN nadpriemerný : person, quantity, activity, thing
+AN polovičatý : idea, activity, quantity
+AN stopercentný : quantity, person, idea
+AN vysokostupňový : device, activity, quality ; attr
+N bilión : quantity
+V dražiť : person > patient {obraz|auto|dom|socha}
+V prevažovať : quantity
+V prevažovať : {nápad|riziko|zisk}
+V rozmnožiť : person > patient {dokument|text|kniha}
+V rozmnožiť : person > patient {zviera|rastlina}
+V uschovať : person > patient thing
+V uschovať : person > patient document
+V vložiť (na účet) : person > patient money
+V znásobiť : person > patient quantity
+V znásobiť : incident > patient {riziko|zisk}

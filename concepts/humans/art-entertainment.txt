@@ -1,0 +1,393 @@
+# art-general
+N umenie
+N umelec
+AN umelecký : adverb umelecky
+N umelecké dielo
+N umelkyňa
+AN umný : adverb umne
+N krása
+N štýl
+AN štýlový : adverb štýlovo
+V štylizovať
+N galéria
+N múzeum
+N výstava
+V vystaviť (na výstave)
+N obraz
+N sochár
+V maľovať
+N maliar
+N maliarstvo
+N maľba
+N nástenná maľba
+V pomaľovať
+V kresliť
+N kresba
+N kresliar
+N skica
+V načrtnúť
+N portrét
+V portrétovať
+N socha
+V vyrezávať
+N dizajn
+N dizajnér
+N ornament
+N plátno
+N mozaika
+N koláž
+N hrnčiarstvo
+N hrnčiar
+V hrnčiarčiť
+N porcelán
+N maliarsky stojan
+N paleta
+N akvarel
+N uhlík na kreslenie
+N voskovka
+N fixka
+N kurátor
+N štetec
+N logo
+V zdobiť
+AN epický : adverb epicky
+V kurátorovať
+
+# music
+N hudba
+N hudobník
+AN hudobný
+N hudobný nástroj
+V hrať hudbu
+N text piesne
+N uspávanka
+V spievať
+N spevák
+N speváčka
+N zbor
+N melódia
+N rytmus
+AN rytmický : adverb rytmicky
+N nota
+N koncert
+N orchester
+N nástroj
+N klavír
+N gitara
+N husle
+N huslista
+N bubon
+V bubnovať
+N flauta
+N trúbka
+N harfa
+N organ
+V pískať
+N píšťala
+N opera
+N skladateľ
+V skladať
+N skladba
+N dirigent
+V dirigovať
+N refrén
+N akord
+N harmónia
+AN harmonický : adverb harmonicky
+N bas
+N sólo
+N duet
+N symfónia
+N balada
+N žáner
+N džez
+N pop
+N rock
+N sukňa
+N rap
+N violončelo
+N saxofón
+N akordeón
+N album
+N trio
+N pieseň
+N raper
+
+# performance-literature
+N divadlo
+N divadelná hra
+N javisko
+N scéna
+AN scénický
+N herec
+N herečka
+AN herecký
+N rola
+N dráma
+N dramatik
+AN dramatický : adverb dramaticky
+AN dramaturgický
+N komédia
+N tragédia
+N film
+V filmovať
+N hraný film
+N dokumentárny film
+N kreslený film
+N režisér
+V sfilmovať
+AN filmový
+N kino
+N obecenstvo
+N divák
+N potlesk
+V tleskať
+V vystupovať
+N vystúpenie (na pódiu)
+N predstavenie
+V predviesť
+N cirkus
+N klaun
+N marioneta
+V tancovať
+N tanec
+N tanečník
+N balet
+N príbeh
+N rozprávka
+AN rozprávkový
+N báseň
+N básnik
+V písať básne
+N poézia
+N román
+N spisovateľ
+N autor
+N autorka
+N literatúra
+AN literárny
+N poviedka
+N verš
+N rým
+V rýmovať sa
+N nácvik
+V skúšať
+N konkurz
+N scenár (film)
+N zloduch
+N dej
+N premiéra
+N pokračovanie
+N animácia
+N komik
+V žonglovať
+N biografia
+N scenár (možný vývoj)
+N vstupenka
+N detektívka
+N komiks
+N inscenácia
+N kulisa
+N réžia
+N natáčanie
+N epizóda
+N šou
+N podívaná
+V pózovať
+V zelebrovať
+V účinkovať
+V reštaurovať
+V synchronizovať
+AN autobiografický
+
+# games-sport
+N hra
+V hrať
+N hráč
+N hračka
+N hracia karta
+N stav zápasu
+N stolová hra
+N videohra
+N domáci zápas
+N hrací deň
+N reprezentant
+N hráčka
+V uvádzať predstavenia
+V hrať s
+V nahrať (v štúdiu)
+V prehrať
+AN hrateľný
+V hrať ďalej
+V vystatovať sa
+AN bez zápasu
+N bábika
+N šarkan
+N šach
+N šport
+AN športový
+N športovec
+N mužstvo
+AN olympijský
+PHR olympijské hry
+N tím
+N tréner
+V trénovať
+N tréning
+N súťaž
+N zápas
+N preteky
+N majster
+N majstrovstvá
+N majstrovské dielo
+N cena
+N odmena
+V odmeniť
+N gól
+N brankár
+AN bezgólový
+AN nebezpečný pred bránkou
+N futbal
+N futbalista
+AN futbalový
+N basketbal
+N volejbal
+N tenis
+N hokej
+N ľadový hokej
+N box
+V boxovať
+N boxer
+N gymnastika
+V cvičiť (gymnastika)
+N telocvičňa
+V lyžovať
+N lyža
+N lyžiar
+V korčuľovať sa
+N korčuľa
+N plaváreň
+N štadión
+N fitnescentrum
+N kondícia
+N rozhodca
+N lopta
+N medaila
+N trofej
+N pohár
+N turnaj
+N bejzbal
+V vyhrať
+V staviť sa
+N stávka
+N fanúšik
+N záľuba
+N zábava
+V zabávať
+N sranda
+N voľný čas
+N kempovanie
+N kemping
+N liga
+N jedenástka
+N faul
+N maratón
+N zápasenie
+V zápasiť
+N zápasník
+N poker
+N kasíno
+N bowling
+N finále
+N súboj
+V súboriť sa
+N partia
+N trefa
+N štafeta
+N káder
+N turné
+N celebrita
+N reprezentácia
+N majster sveta
+N semifinále
+N comeback
+N profesionál
+N majstrovstvá sveta
+N pokutové územie
+N dres
+N líder tabuľky
+N atlét
+N atlétka
+N rekord
+AN rekordný
+N hádzaná
+N stolný tenis
+N joga
+N výdrž
+N ihrisko
+N remíza
+N porazený
+N lotéria
+N ručná práca
+N zberateľ
+N tromf
+N kolo
+N osemfinále
+N štvrťfinále
+N nováčik
+N záchrana v lige
+N stred poľa
+N stredopoliar
+N stredný obranca
+N defenzíva
+N nová posila
+N stĺp
+N prvý zápas
+N odveta
+N odvetné kolo
+N prípravný zápas
+N zápas vonku
+N základná skupina
+N nadstavený čas
+N záver zápasu
+N výkop
+N priamy kop
+N centr
+N protiútok
+N hlavný tréner
+N tréner národného tímu
+N športový riaditeľ
+N spoluhráč
+N tribúna
+N sústredenie (športovcov)
+N zimná prestávka
+N letná prestávka
+N oddychový čas
+N štartový výstrel
+N debut
+N obhajca titulu
+N rekordný majster
+N favorit
+N posledné miesto
+N triumf
+N duo
+V kopať do lopty
+V hrať hazardne
+V vybojovať si
+V skompletizovať
+V surfovať
+
+# corpus-verbs
+V poštvať proti sebe
+V odkloniť
+V skandovať
+
+# arts
+V vynikať
+V vsunúť
+N tesnenie
+N vzorka
+V hrať sa
+
+# more
+N klip

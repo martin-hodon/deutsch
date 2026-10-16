@@ -1,0 +1,214 @@
+# Coverage situations, setting home (round 3): everyday home, garden, family and celebration words said where the story says them.
+# skipped as unfit (no strong motive or no single object+verb): Mülleimer/Mülltonne only as troubles, wegwerfen, bewahren, aufbewahren, mieten, vermieten, einziehen,
+#   verbrauchen, versorgen, schalten, brennen, verbrennen, leuchten, klopfen, klingeln, bellen, lehnen, Fahrstuhl, Platte, Kasten, Möbelstück, Alkohol
+
+SITUATION schlafzimmer-nacht : home -- müde ins Bett und den Schrank ordnen
+  place   spálňa
+  people  kin
+  things  manželská_posteľ | matrac | podhlavník | paplón | šatník | zásuvka_(v_nábytku) | priehradka
+  want    unavený : verb=zaspať ; uses matrac | podhlavník | paplón
+  want    chorý : verb=oddýchnuť_si ; uses manželská_posteľ | paplón
+  trouble matrac špinavý : čistiť
+  trouble podhlavník pokazený : nahradiť
+  trouble manželská_posteľ pokazený : opraviť
+
+SITUATION gutenacht : family -- im Kinderzimmer vor dem Schlafen
+  place   detská_izba
+  people  kin
+  things  posteľ | macko | lampa | žiarovka | kniha
+  want    unavený : verb=zaspať ; uses posteľ
+  want    chuť : verb=čítať_nahlas patient=indef:príbeh ; uses kniha | lampa | žiarovka
+  trouble posteľ pokazený : opraviť
+  trouble žiarovka pokazený : nahradiť
+  trouble lampa pokazený : opraviť
+
+SITUATION sessel : home -- im Wohnzimmer zurücklehnen
+  place   obývačka
+  people  kin | priateľ
+  things  kreslo | gauč | okno
+  want    unavený : verb=oprieť_sa_dozadu ; uses kreslo
+  want    chorý : verb=oddýchnuť_si ; uses gauč | vlnená_deka
+  trouble kreslo pokazený : opraviť
+  trouble kreslo špinavý : čistiť
+  trouble gauč špinavý : čistiť
+  lack    vlnená_deka : obchodný_dom
+
+SITUATION kalte-wohnung : home -- in der kalten Wohnung
+  place   byt
+  people  kin | sused
+  things  izba | kúrenie | radiátor | okno
+  want    chorý : verb=oddýchnuť_si ; uses izba | kúrenie
+  trouble kúrenie pokazený : opraviť by školník
+  trouble radiátor pokazený : opraviť by školník
+  trouble izba studený : kúriť
+
+SITUATION staubsaugen : home -- der Teppich im Wohnzimmer
+  place   obývačka
+  people  kin | priateľ
+  things  koberec | pohovka | zásuvka_(elektrická) | vysávač | kábel
+  want    ponáhľanie : verb=sať patient=def:koberec ; uses vysávač | zásuvka_(elektrická) | kábel
+  trouble vysávač pokazený : opraviť
+  trouble kábel pokazený : opraviť
+  trouble zásuvka_(elektrická) pokazený : opraviť by elektrikár
+
+SITUATION regal : home -- Bücher und Fotos im Arbeitszimmer
+  place   pracovňa
+  people  kin | priateľ
+  things  polica_na_knihy | rám | kladivo | písací_stôl | lampa
+  want    chuť : verb=zoradiť patient=none:kniha+pl ; uses polica_na_knihy
+  want    chuť : verb=zavesiť patient=indef:fotka ; uses rám | kladivo
+  trouble polica_na_knihy pokazený : opraviť
+  trouble kladivo pokazený : opraviť
+  trouble rám pokazený : lepiť
+
+SITUATION wäsche-falten : home -- im Keller die Wäsche
+  place   pivnica
+  people  kin
+  things  sušička | polica | kôš | pranie
+  want    ponáhľanie : verb=poskladať patient=none:pranie ; uses sušička | pranie
+  trouble sušička pokazený : opraviť by technik
+  trouble bielizeň mokrý : sušiť
+
+SITUATION küche-ordnung : kitchen -- in der Küche aufräumen
+  place   kuchyňa
+  people  kin | priateľ
+  things  odpadkový_kôš | chladnička | stôl
+  want    ponáhľanie : verb=upratať patient=def:kuchyňa ; uses odpadkový_kôš
+  trouble odpadkový_kôš plný : vyprázdniť
+
+SITUATION garten-ordnung : garden -- den Rasen mähen und die Blumen gießen
+  place   záhrada
+  people  kin | sused
+  things  trávnik | kosačka | krhla | kvetina
+  want    chuť : verb=kosiť patient=def:trávnik ; uses kosačka
+  want    chuť : verb=polievať patient=none:kvetina+pl ; uses krhla
+  trouble kosačka pokazený : opraviť
+  trouble krhla prázdny : naplniť
+
+SITUATION gartenarbeit : garden -- säen, graben und pflanzen
+  place   záhrada
+  people  kin | sused
+  things  rýľ | zem | slnečnica | zemiak
+  want    chuť : verb=siať patient=none:slnečnica+pl ; uses semeno
+  want    hladný : verb=vykopať patient=none:zemiak+pl ; uses rýľ
+  want    chuť : verb=sadiť patient=indef:jabloň ; uses rýľ | jabloň
+  trouble rýľ pokazený : opraviť
+  lack    semeno : záhradníctvo
+  lack    jabloň : záhradníctvo
+
+SITUATION hecke : garden -- die Hecke und die Sträucher
+  place   záhrada
+  people  kin | sused
+  things  živý_plot | ker | ovocný_strom | nožnice | rýľ
+  want    chuť : verb=strihať patient=def:živý_plot ; uses nožnice
+  want    chuť : verb=sadiť patient=indef:ker ; uses rýľ | ker
+  trouble nožnice pokazený : opraviť
+  trouble rýľ pokazený : opraviť
+  lack    ker : záhradníctvo
+
+SITUATION balkon-tulpen : home -- Blumen und Kräuter auf dem Balkon
+  place   balkón
+  people  kin | sused
+  things  kvetináč | stôl | stolička_(nábytok) | rastlina
+  want    chuť : verb=sadiť patient=none:tulipán+pl ; uses kvetináč | zem
+  want    hladný : verb=zbierať patient=none:bylinky ; uses rastlina
+  trouble kvetináč pokazený : lepiť
+  trouble rastlina suchý : liať
+  lack    zem : záhradníctvo
+
+SITUATION kartoffelfeuer : garden -- ein Feuer im Garten
+  place   záhrada
+  people  kin | sused
+  things  drevo | lavica
+  want    hladný : verb=piecť patient=none:zemiak+pl ; uses drevo | zapaľovač
+  want    hladný : verb=piecť patient=none:párok ; uses drevo | zápalka
+  lack    zapaľovač : kiosk
+  lack    zápalka : supermarket
+
+SITUATION schatzsuche : family -- am Strand einen Schatz suchen
+  place   pláž
+  people  kin | priateľ
+  own     lopata
+  things  piesok | more
+  want    chuť : verb=vykopať patient=indef:poklad ; uses lopata
+  trouble lopata pokazený : opraviť
+
+SITUATION handy-freunde : family -- Freunde einladen
+  place   obývačka
+  people  kin
+  own     mobil
+  things  pohovka | zásuvka_(elektrická) | stôl
+  want    chuť : verb=pozvať patient=none:priateľ+pl ; uses mobil | nabíjačka
+  want    chuť : verb=dohodnúť_si_stretnutie ; uses mobil
+  trouble mobil prázdny : nabiť
+  lack    nabíjačka : obchodný_dom
+
+SITUATION terrasse-plaudern : celebration -- Gäste auf der Terrasse
+  place   terasa
+  people  kin | priateľ
+  things  stôl | stolička_(nábytok) | lampáš
+  want    chuť : verb=rozprávať_sa ; uses stôl | stolička_(nábytok)
+  trouble stolička_(nábytok) mokrý : sušiť
+
+SITUATION gartenfest : celebration -- ein Fest im Garten
+  place   záhrada
+  people  kin | sused
+  things  stôl | stolička_(nábytok) | lavica | lampáš
+  want    chuť : verb=vyzdobiť patient=def:záhrada ; uses lampáš | výzdoba
+  trouble lampáš pokazený : opraviť
+  lack    výzdoba : obchodný_dom
+
+SITUATION geburtstag-daheim : celebration -- Geburtstag in der Wohnung
+  place   obývačka
+  people  kin | priateľ
+  things  stôl | pohovka
+  want    chuť : verb=vyzdobiť patient=def:obývačka ; uses izbová_rastlina
+  lack    izbová_rastlina : záhradníctvo
+
+SITUATION schwimmbad-becken : water -- im Schwimmbad schwimmen
+  place   plaváreň
+  people  kin | priateľ
+  things  bazén | voda | sprcha | lavica
+  want    chuť : verb=plávať ; uses bazén
+  trouble bazén špinavý : čistiť by školník
+
+SITUATION bad-pflege : bathroom -- Füße waschen und Haare schneiden
+  place   kúpeľňa
+  people  kin
+  things  umývadlo | vodovodný_kohútik | potrubie | zrkadlo | nožnice | hrebeň
+  want    špinavý : verb=umývať patient=poss:noha_(chodidlo)+pl ; uses vodovodný_kohútik | potrubie
+  want    chuť : verb=odrezať patient=poss:vlasy+pl ; uses nožnice | zrkadlo
+  trouble potrubie pokazený : opraviť by klampiar
+  trouble vodovodný_kohútik pokazený : opraviť by klampiar
+  trouble nožnice pokazený : opraviť
+
+SITUATION flur-schloss : home -- vor dem Weggehen im Flur
+  place   chodba
+  people  kin
+  things  dvere | zámok | kľúč | zrkadlo
+  want    ponáhľanie : verb=zamknúť patient=def:dvere ; uses zámok | kľúč
+  trouble zámok pokazený : opraviť by školník
+
+SITUATION wiese-akku : nature -- Fotos auf der Wiese
+  place   lúka
+  people  priateľ | kin
+  own     kamera
+  things  tráva | kvetina | strom
+  want    chuť : verb=robiť patient=none:fotka+pl ; uses kamera | akumulátor
+  lack    akumulátor : obchodný_dom
+
+SITUATION garten-radio : garden -- Musik im Garten
+  place   záhrada
+  people  kin | priateľ
+  things  rádio | stôl | lavica
+  want    chuť : verb=počúvať patient=none:hudba ; uses rádio | batéria
+  trouble rádio pokazený : opraviť
+  lack    batéria : supermarket
+
+SITUATION einrichten : home -- die neue Wohnung
+  place   nájomný_byt
+  people  kin | priateľ
+  things  izba | kuchyňa | okno | dvere | koberec
+  want    chuť : verb=zariadiť patient=def:izba ; uses nábytok | koberec
+  trouble koberec špinavý : čistiť
+  lack    nábytok : nábytkárstvo

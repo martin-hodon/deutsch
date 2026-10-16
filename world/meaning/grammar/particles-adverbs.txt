@@ -1,0 +1,111 @@
+AV približne : degree
+AV možno : sentence
+AV sem : direction
+AV tam (smer) : direction
+AV takmer : degree
+AV vpred : direction
+AV okamžite : manner
+AV teraz : time
+AV ešte raz : frequency
+AV nie : other
+AV sotva : degree
+AV aj : other
+AV takisto : other
+AV veľmi : degree
+AV tak : degree
+AV rovnako : degree
+AV presne tak : degree
+AV dokonca : other
+AV príliš : degree
+AV pomerne : degree
+AV až : time
+AV najprv : time
+AV minimálne : degree
+AV aspoň : degree
+AV najviac : degree
+AV výlučne : degree
+AV najmä : other
+AV zároveň : time
+AV naopak : connective
+AV navzájom : other
+AV k tomu : other
+AV akoby : degree
+AV práve : other
+AV nanajvýš : degree
+AV prevažne : degree
+AV čoraz viac : degree
+AV vtedy : time past perfect
+AV neskôr : time present future
+AV väčšinou : frequency
+AV stále : frequency
+AV niekedy : time
+AV dávno : time present perfect
+AV doteraz : time present perfect
+AV naposledy : time
+AV naďalej : connective
+AV zatiaľ : time
+AV následne : time
+AV krátkodobo : time
+AV dlhodobo : time
+AV vopred : time
+AV trikrát : frequency
+AV onedlho : time present future
+AV odvtedy : time present perfect
+AV určite : sentence
+AV bohužiaľ : sentence present past perfect future ind
+AV rád : manner person
+AV naozaj : degree
+AV skutočne : sentence
+AV mimochodom : connective
+AV nejako : manner
+AV zadarmo : manner
+AV márne : manner
+AV každopádne : connective
+AV nevyhnutne : manner
+AV osobitne : degree
+AV natoľko : degree
+AV vôbec nie : sentence
+AV veľmi dobre : manner
+AV prípadne : sentence present future
+AV na seba : other
+AV dnu (k hovoriacemu) : direction
+AV von : direction
+AV nahor (k hovoriacemu) : direction
+AV dolu (k hovoriacemu) : direction
+AV dnu (od hovoriaceho) : direction
+AV nahor (od hovoriaceho) : direction
+AV dolu (od hovoriaceho) : direction
+AV späť : direction
+AV okolo : direction
+AV vpredu : other
+AV u nás : place
+AV podľa čoho : question
+AV s tým : other
+AV za to : other
+AV proti tomu : other
+AV od toho : other
+AV na tom : other
+AV v tom : other
+AV pri tom : other
+AV pred tým : other
+AV tým : other
+AV z toho : other
+AV pod tým : other
+AV za tým : other
+AV na to : other
+AV ako : question
+AV prečo : question
+AV kedy : question
+AV kde : question
+AV kam : question
+AV odkiaľ : question
+AV s čím : question
+AV za čo : question
+AV načo : question
+AV z čoho : question
+AV na čom : question
+AV na čo : question
+AV o čom : question
+AV pri čom : question
+AV čím : question
+AV ľúto : other

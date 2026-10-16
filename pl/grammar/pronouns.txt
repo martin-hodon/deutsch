@@ -1,0 +1,62 @@
+# personal
+1 P ja {ja} [ja] = ja
+1 P ty {ty} [tɨ] = ty
+1 P on {on} [ɔn] = on
+1 P ona {ona} [ˈɔna] = ona
+1 P ono {ono} [ˈɔnɔ] = ono
+1 P my {my} [mɨ] = my
+1 P wy {wy} [vɨ] = vy (neformálne množné číslo)
+1 P pan {pan} [pan] = vy (zdvorilé oslovenie)
+1 P pani {pani} [ˈpani] = vy (zdvorilé oslovenie)
+1 P państwo {państwo} [ˈpaɲstfɔ] = vy (zdvorilé oslovenie)
+
+# possessive
+1 P mój {mój} [muj] = môj
+1 P twój {twój} [tfuj] = tvoj
+1 P jego {jego} [ˈjɛɡɔ] = jeho
+1 P jej {jej} [jɛj] = jej
+1 P nasz {nasz} [naʂ] = náš
+1 P wasz {wasz} [vaʂ] = váš (neformálne)
+2 P pański {pański} [ˈpaɲski] = Váš (zdvorilé oslovenie)
+2 P pani {pani} [ˈpani] = Váš (zdvorilé oslovenie)
+
+# reflexive-and-reciprocal
+1 P się {się} [ɕɛ] = sa (zvratné zámeno)
+1 P siebie {siebie} [ˈɕɛbʲɛ] = sa (zvratné zámeno)
+1 P sam {sam} [sam] = sám
+1 P nawzajem {nawzajem} [naˈvzajɛm] = navzájom
+2 P siebie nawzajem {siebie nawzajem} [ˈɕɛbʲɛ naˈvzajɛm] = navzájom
+
+# demonstrative
+1 P ten {ten} [tɛn] = tento
+1 AV tym razem {tym razem} [tɨm ˈrazɛm] = tentoraz
+1 P tamten {tamten} [ˈtamtɛn] = tamten
+1 P taki {taki} [ˈtaki] = taký
+1 PHR taki {taki} [ˈtaki] = taký
+
+# interrogative-and-relative
+1 P kto {kto} [ktɔ] = kto
+1 P co {co} [tsɔ] = čo
+1 P który {który} [ˈkturɨ] = ktorý
+1 PHR jaki {jaki} [ˈjaki] = aký
+
+# indefinite
+1 P się {się} [ɕɛ] = sa (neurčitý podmet)
+1 P ktoś {ktoś} [ktɔɕ] = niekto
+1 P nikt {nikt} [ɲikt] = nikto
+1 P każdy {każdy} [ˈkaʐdɨ] = každý človek
+1 P niektóry {niektóry} [ɲɛˈkturɨ] = niektorý
+2 P obaj {obaj} [ˈɔbaj] = obaja
+2 P oba {oba} [ˈɔba] = obaja
+2 P jakikolwiek {jakikolwiek} [jakiˈkɔlvʲɛk] = akýkoľvek
+1 P kilka {kilka} [ˈkilka] = niekoľkí
+2 P parę {parę} [ˈparɛ] = niekoľkí
+1 PHR trochę {trochę} [ˈtrɔxɛ] = trochu
+1 P żaden {żaden} [ˈʐadɛn] = žiadny
+2 PHR nieco {nieco} [ˈɲɛtsɔ] = trochu
+
+# language-specific closed words (no Slovak word: a description)
+1 P swój {swój} [sfuj] = svoj
+1 P oni {oni} [ˈɔɲi] = oni
+1 P one {one} [ˈɔnɛ] = oni
+1 P ich {ich} [ix] = ich

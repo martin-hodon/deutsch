@@ -1,0 +1,8 @@
+# modal-verbs
+1 V pouvoir {pouvoir} [puˈvwaʁ], irr, pu = môcť
+2 N l'habileté (f) {habileté} [abiləˈte], habiletés = zručnosť
+2 N la compétence {compétence} [kɔ̃peˈtɑ̃s], compétences = zručnosť
+1 V devoir {devoir} [dəˈvwaʁ], irr, dû (qch, + inf) = musieť
+1 V devoir {devoir} [dəˈvwaʁ], irr, dû (+ inf) = mať (povinnosť)
+2 V avoir le droit {avoir le droit} [aˈvwaʁ lə dʁwa] (de + inf) = smieť
+1 V falloir {falloir} [faˈlwaʁ], irr, fallu (+ inf) = musieť

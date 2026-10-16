@@ -1,0 +1,232 @@
+AN nepriateľský : agent, place
+N víťaz : role
+N tábor : place
+N vojna : event
+N občianska vojna : event
+N bojovník : role
+N vojnová loď : vehicle, drivable, enterable
+N mier : state
+AN mierumilovný : agent, event
+N mierová zmluva : text
+N bitka (vojenská) : event
+N bojisko : place ; auf
+N boj : event
+V bojovať : {vojak|armáda|oddiel|rytier|bojovník|boxer|hrdina|bojovník|muž|pes|vlk|medveď} > opponent {nepriateľ|protivník|rival|zbojník|vojak|armáda|vlk|medveď}
+V bojovať : animal > theme {korisť|potrava|moc}
+V bojovať : {armáda|oddiel|vojak|protivník|nepriateľ|ľud|občan} > theme country
+V bojovať : {armáda|oddiel|vojak|protivník|nepriateľ|ľud|občan} > theme {mesto|hlavné mesto|pevnosť|hrad|palác|most}
+V bojovať : animal -professional > theme {sloboda|život|mier}
+V bojovať : person > theme {peniaze|imanie|mzda}
+V bojovať : person > purpose {sloboda|spravodlivosť|mier|vlasť}
+V bojovať : group > purpose {sloboda|spravodlivosť|mier|vlasť}
+V bojovať proti : agent > patient {nepriateľ|protivník|armáda}
+V bojovať proti : {vláda|štát|prezident|kráľovná|kráľ|polícia|organizácia|minister|ministerka|politik|spolok} > patient {chudoba|kriminalita|korupcia}
+V bojovať proti : {hasiči|hasič|robotník} > patient {oheň|požiar}
+V bojovať proti : {lekár|lekárka|vedec|výskumník|vláda|organizácia} > patient illness
+N bojová morálka : feeling
+N konflikt : event
+N nepriateľ : agent
+N spojenectvo : relation
+N spojenec : person
+V spojiť sa : agent > companion agent
+N hrozba : problem
+V ohrozovať : {zbojník|páchateľ|zločinec|vojak|muž} > patient person -professional
+V ohrozovať : {armáda|oddiel|armáda|nepriateľ} > patient country
+V ohrozovať : {armáda|oddiel|armáda|nepriateľ} > patient settlement
+V ohrozovať : {víchor|príliv|oheň|sucho} > patient animal
+V zaútočiť : {vlk|medveď|pes|lev|tiger|zbojník|zlodej|páchateľ} > patient animal
+V zaútočiť : {armáda|oddiel|vojak|nepriateľ|armáda} > patient country
+V zaútočiť : {armáda|oddiel|vojak|nepriateľ|armáda} > patient settlement
+N útok : event
+N útočník (agresor) : role
+V brániť : {armáda|oddiel|tím|rodina|armáda|vojak|vojačka|bojovník} > patient place
+V brániť : person -child -professional > patient {dieťa|žena|priateľ|priateľka|brat|sestra|matka|otec|dcéra|syn}
+V brániť : {armáda|oddiel|tím|rodina|armáda} > patient animal
+N obrana : activity
+N obranca : person
+N invázia : event
+V dobyť : {armáda|oddiel|vojak|nepriateľ|armáda} > patient country
+V dobyť : {armáda|oddiel|vojak|nepriateľ|armáda} > patient {mesto|dedina|hlavné mesto|pevnosť|hrad}
+N dobytie : event
+N dobyvateľ : person
+V obsadiť : {armáda|oddiel|vojak|nepriateľ|armáda} > patient country
+V obsadiť : {armáda|oddiel|vojak|nepriateľ|armáda} > patient settlement
+N obsadenie : event
+AN obsadený : place, furniture, device
+N víťazstvo : event
+V zvíťaziť : {hráč|hráčka|športovec|boxer|vojak|bojovník|rytier|hrdina|kráľ|profesionál}
+V zvíťaziť : {armáda|tím|mužstvo|ľud}
+V zvíťaziť : {hráč|hráčka|športovec|boxer|vojak|bojovník|rytier|hrdina|kráľ|profesionál} > opponent {protivník|nepriateľ|rival|tím|klub|spolok|armáda|mužstvo|konkurencia}
+V zvíťaziť : {armáda|tím|mužstvo|ľud} > opponent {protivník|nepriateľ|rival|tím|klub|spolok|armáda|mužstvo|konkurencia}
+AN víťazný : agent
+N porážka : event
+V kapitulovať : person > cause agent
+V kapitulovať : group > cause agent
+N kapitulácia : event
+N ústup : process
+N hrdina : role
+N hrdinka : role
+AN hrdinský : agent, activity
+N rukojemník : person
+N braní rukojemníkov : event
+N blokáda : event
+V blokovať : person > patient {ulica|cesta (komunikácia)|vchod|prístup|východ (výstup)|most|koľaj}
+V blokovať : {polícia|armáda|množstvo|skupina|oddiel} > patient {ulica|cesta (komunikácia)|vchod|prístup|východ (výstup)|most|koľaj}
+N embargo : rule
+N sabotáž : activity
+V sabotovať : person > patient {plán|projekt|rokovanie|voľba}
+V sabotovať : group > patient {plán|projekt|rokovanie|voľba}
+V sabotovať : person > patient device
+V sabotovať : group > patient device
+N strata : event
+N výkupné : money
+N útočná vojna : event
+N ofenzíva : event
+N front : place ; an
+N vpád : event
+N eskalácia : process
+N potieranie : activity
+N paľba : event
+N atentát : event
+N vojnový zločin : event
+N armáda : group
+N námorníctvo : group
+AN vojenský : agent, activity ; attr
+N vojak : professional
+N vojačka : professional
+N dôstojník : professional
+N povel : information
+N veliteľ : professional
+V veliť : person > patient group
+N oddiel : group
+N stráž : group
+N strážca : professional
+V strážiť : person > patient building
+V strážiť : person > patient place
+V strážiť : person > patient animal
+V strážiť : person > patient {vchod|gól|hranica|poklad}
+V strážiť : group > patient building
+V strážiť : group > patient place
+N špión : professional
+V špehovať : person
+N špionáž : activity
+N prieskumník : professional
+N rytier : professional
+N veterán : person
+V hliadkovať : person
+V hliadkovať : group
+V hliadkovať : person > location place
+V hliadkovať : group > location place
+N pochod : event
+V pochodovať : person -professional
+V pochodovať : {vojak|vojačka|bojovník|dôstojník}
+V pochodovať : group
+V pochodovať : {vojak|vojačka|bojovník|dôstojník} > goal settlement
+V pochodovať : {armáda|oddiel|armáda|pluk} > goal settlement
+V pochodovať : {vojak|vojačka|bojovník|dôstojník} > goal {Poľsko|Francúzsko|Rusko|Rakúsko|Taliansko|Maďarsko|Česko|Nemecko}
+V pochodovať : {armáda|oddiel|armáda|pluk} > goal {Poľsko|Francúzsko|Rusko|Rakúsko|Taliansko|Maďarsko|Česko|Nemecko}
+N kasárne : building, enterable
+N veliteľstvo : building, enterable
+N generál : professional
+N admirál : professional
+N plukovník : professional
+N poručík : professional
+N seržant : professional
+N regrút : person
+V verbovať : agent > patient person
+N žoldnier : professional
+N pluk : group
+N kavaléria : group
+N pechota : group
+N loďstvo : group
+V salutovať : person > recipient person
+N Bundeswehr : institution
+N ozbrojené sily : group
+N zásahové jednotky : group
+N zbraň : weapon
+N strelná zbraň : weapon
+V odzbrojiť : person > patient agent
+V odzbrojiť : group > patient agent
+V ozbrojiť : person > patient agent, instrument weapon
+V ozbrojiť : group > patient agent, instrument weapon
+AN ozbrojený : agent, vehicle
+N prímerie : state
+N puška : weapon
+N pištoľ : weapon
+N kanón : weapon
+V strieľať : {vojak|lovec|policajt|zbojník|páchateľ|strážca|strelec} > theme {srna|jeleň|zajac|cieľ|vojak|zbojník|páchateľ|nepriateľ}, instrument {puška|pištoľ|kanón|zbraň|šíp}
+V strieľať : {puška|pištoľ|kanón|zbraň}
+N výstrel : event
+N strelec : professional
+N ostrostrelec : professional
+N zákop : place
+N strelný prach : substance, burnable
+V zastreliť : {vojak|policajt|lovec|zbojník|páchateľ|vrah|strážca} > patient {muž|žena|zbojník|páchateľ|zlodej|vojak|nepriateľ|srna|jeleň|zajac|vlk|medveď|líška}
+V zostreliť : person > patient vehicle
+V zostreliť : group > patient vehicle
+V zostreliť : person > patient weapon
+V zostreliť : group > patient weapon
+V zostreliť : person > patient bird
+V zostreliť : group > patient bird
+N granát : weapon
+N bomba : weapon
+V bombardovať : {armáda|oddiel|vojak|nepriateľ|armáda|lietadlo} > patient settlement
+V bombardovať : {armáda|oddiel|vojak|nepriateľ|armáda|lietadlo} > patient country
+N bombardovanie : event
+N munícia : artifact, thing
+N výbuch : incident
+V explodovať : {bomba|granát|raketa|akumulátor|motor|mobil|auto}
+N meč : weapon
+N dýka : weapon
+N štít : artifact
+N oštep : weapon
+N šíp : weapon
+N brnenie : clothing
+N prilba : clothing
+N tank : weapon, enterable
+N obliehanie : event
+V obliehať : person > patient place
+V obliehať : group > patient place
+N zálusk : event
+N predsunuté stanovište : place
+N bunker : building, enterable
+N barikáda : artifact, climbable
+N mína : weapon
+N torpédo : weapon
+N delostrelectvo : group
+N arzenál : building, enterable
+N prepad : event
+V prepadnúť : {zbojník|páchateľ|zločinec|zlodej} > patient {muž|žena|turista|okoloidúci|cestujúci}
+V prepadnúť : {banda} > patient {muž|žena|turista|okoloidúci|cestujúci}
+V prepadnúť : {zbojník|páchateľ|zločinec|zlodej} > patient {obchod|supermarket|čerpacia stanica|vlak|dom|palác}
+V prepadnúť : {armáda|oddiel|armáda|nepriateľ|vojak|banda} > patient country
+V prepadnúť : {armáda|oddiel|armáda|nepriateľ|vojak|banda} > patient settlement
+N mieridlo : artifact, thing
+N jadrová zbraň : weapon
+N mučenie : crime
+N revír : place
+# added: Lager in its second sense
+N sklad : building, enterable, lockable
+# added: Mine in its second sense
+N tuha : artifact, thing
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN bez víťazstva : person, group
+AN bojovný : person, group, beast
+AN nepriateľský voči ženám : person
+AN znepriatelený : group, institution, country
+V kamuflovať : person > patient {vojak|vozidlo|zbraň|pozícia}
+V katapultovať : person > patient person
+V lemovať : tree > patient road
+V minúť (strelu) : person > patient weapon
+V obkľúčiť : {armáda|oddiel|vojak|nepriateľ} > patient {mesto|pevnosť|hrad|dedina}
+V odraziť : {armáda|oddiel|vojak} > patient {útok|nepriateľ}
+V ostreľovať : {armáda|oddiel|vojak} > patient {mesto|pevnosť|hrad|dedina}
+V plieniť : {armáda|oddiel|vojak|nepriateľ} > patient {mesto|dedina|hrad}
+V poraziť : agent > patient agent
+V vraziť do : vehicle > patient {strom|múr|plot|auto}
+V zamerať : person > patient {nepriateľ|cieľ}
+V zaskočiť : {armáda|oddiel|vojak|nepriateľ} > patient {armáda|oddiel|nepriateľ}
+V zbrojiť : {štát|vláda|armáda|krajina (štát)}
+V zdiskreditovať : person > patient person
+V znovu dobyť : {armáda|oddiel|vojak} > patient {mesto|pevnosť|hrad|dedina}

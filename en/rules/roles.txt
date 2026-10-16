@@ -1,0 +1,24 @@
+# HOW ENGLISH MARKS A ROLE (world/roles.txt) when a word does not say otherwise in en/rules/frames.txt: `direct` the
+# object after the verb, `io` the first of two objects (gives him the book; with a pronoun patient: gives it to him),
+# `to` / `for` ... a preposition; alternatives `|` by the noun's kind: [surface] a table, a bed; [place] a building, a
+# shop, an institution, an event; [container]; [person]; [vehicle].
+patient     direct
+second      direct
+recipient   to
+as          as
+bare        direct
+theme       for
+topic       about
+cause       of
+basis       on
+purpose     for
+companion   with
+opponent    against
+instrument  with | by [vehicle]
+share       in
+result      into
+substitute  with
+location    in | on [surface] | at [place]
+goal        to
+source      from
+path        through

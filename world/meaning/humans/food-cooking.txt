@@ -1,0 +1,417 @@
+N jedlo : food, cookable
+N obed : meal, cookable
+N večera : meal, cookable
+AN jedlý : food
+N hostina : meal, cookable
+N pokrm : dish, cookable
+N hlavné jedlo : dish, cookable
+N predjedlo : dish, cookable
+N dezert : dish, cookable
+N jedálny lístok : text, openable
+N potravina : food
+N raňajky : meal
+V raňajkovať : person
+V raňajkovať : person > patient {chlieb|žemľa|vajce|müsli|ovocie|syr|klobása|jogurt}
+N zákusok : dish, cookable
+N snack : food
+N občerstvenie : food
+N príloha (jedla) : dish, cookable
+N piknik : meal
+V piknikovať : person
+AN sýty : person, -{blízky}, pet, livestock ; pred
+N čašník : professional
+N čašníčka : professional
+N kuchyňa : room, cleanable, enterable
+N vegetarián : role
+N vegetariánka : role
+AN vegetariánsky : food, person
+AN vegánsky : food, person
+N banket : meal, celebration, attendable
+N bufet : meal
+N chlieb : baked-goods, cuttable
+N žemľa : baked-goods, cuttable
+N chlieb s maslom : baked-goods, cuttable
+N celozrnný chlieb : baked-goods, cuttable
+N múka : grain ; mass
+N cesto : food, cuttable
+N cestoviny : grain, cookable
+N kvások : food
+N lístkové cesto : food
+N pečivo : baked-goods
+N ryža : grain, cookable
+N polievka : dish, cookable
+N vývar : dish, cookable
+N kaša : dish, cookable
+N zemiaková kaša : dish, cookable
+N müsli : dish
+N syr : dairy, cuttable
+N čerstvý syr : dairy
+N tvaroh : dairy
+N maslo : dairy
+N smotana : dairy
+N mlieko : drink, dairy
+N mliečny kokteil : drink
+N cmar : drink, dairy
+N jogurt : dairy
+N vajce : food, breakable, cookable
+N žĺtok : food
+N bielok : food
+N volské oko : dish
+N praženica : dish
+N olej : seasoning, liquid
+N olivový olej : seasoning, liquid
+N ocot : seasoning, liquid
+N omáčka : dish, cookable
+N paradajková omáčka : dish, cookable
+N šťava z pečene : dish, cookable
+N korenie : seasoning
+V ochutiť : person > patient {polievka|omáčka|šalát|pečienka|pokrm}
+V ochutiť : person > patient meat
+V ochutiť : person > patient {zelenina|ryža}
+AN korenistý : food
+N klinček : seasoning
+N čierne korenie : seasoning
+N soľ : seasoning
+V soliť : person > patient {polievka|omáčka|šalát|pečienka|pokrm|vajce|ryža}
+V soliť : person > patient meat
+V soliť : person > patient vegetable
+AN slaný : dish, meat, {praclík|syr|maslo|čipsy|orech|arašid}
+N cukor : seasoning
+N med : food
+N marmeláda : food
+N džem : food
+N horčica : seasoning
+N kečup : seasoning
+N majonéza : seasoning
+N sendvič : dish
+N burger : dish, cookable
+N pizza : dish, cookable, cuttable
+N hrianka : baked-goods
+V hriankovať : person > patient baked-goods
+N hriankovač : device, thing, repairable, switchable
+N omeleta : dish, cookable
+N knedľa : dish, cookable
+N škorica : seasoning
+N droždie : food
+N sirup : sweets, liquid
+N kôrka : food
+N omrvinka : food
+N bazalka : seasoning, plant, plantable
+N mäta : seasoning, plant, plantable
+N rozmarín : seasoning, plant, plantable
+N tymian : seasoning, plant, plantable
+N šalvia : seasoning, plant, plantable
+N čili : seasoning, vegetable
+N kari : seasoning
+N paprika : vegetable, seasoning, washable, cookable, cuttable
+N sezam : seasoning
+N pohánka : grain, crop, cookable, plantable
+N šošovica : vegetable, cookable, plantable
+N tofu : food, cookable, cuttable
+N taco : dish
+N hovädzie mäso : meat, cookable, cuttable
+N bravčové mäso : meat, cookable, cuttable
+N jahňacie mäso : meat, cookable, cuttable
+N teľacie mäso : meat, cookable, cuttable
+N kurča : meat, cookable, cuttable
+N klobása : meat, cookable, cuttable
+N pečená klobása : meat, cookable
+N párok : meat, cookable
+N klobása s kari omáčkou : dish, cookable
+N šunka : meat, cuttable
+N slanina : meat, cookable, cuttable
+N steak : meat, cookable, cuttable
+N rezeň : dish, cookable, cuttable
+N kreveta : meat, animal, cookable
+N morské plody : meat, cookable
+N filé : meat, cookable, cuttable
+N kaviár : food
+N saláma : meat, cuttable
+N mäsová guľka : dish, cookable
+N fašírka : dish, cookable
+N kebab : dish
+N döner kebab : dish
+N suši : dish
+N ovocie : fruit, washable, cuttable ; mass
+N jablko : fruit, washable, cuttable
+N jablkový džús : drink
+N jablkové pyré : dish, cookable
+N granátové jablko : fruit, cuttable
+N hruška : fruit, washable, cuttable
+N slivka : fruit, washable, cuttable
+N čerešňa (plod) : fruit, washable
+N hrozno : fruit, washable
+N pomaranč : fruit, cuttable
+N pomarančový džús : drink
+N citrón : fruit, cuttable
+N citrónová šťava : drink
+N banán : fruit, cuttable
+N broskyňa : fruit, washable, cuttable
+N marhuľa : fruit, washable, cuttable
+N bobuľa : fruit, washable
+N jahoda : fruit, washable
+N malina : fruit, washable
+N čučoriedka : fruit, washable
+N černica : fruit, washable
+N egreš : fruit, washable
+N brusnica : fruit
+N ríbezľa : fruit, washable
+N kanadská brusnica : fruit
+N dyňa : fruit, cuttable
+N melón : fruit, cuttable
+N cukrová dyňa : fruit, cuttable
+N ananás : fruit, cuttable
+N mango : fruit, cuttable
+N kivi : fruit, cuttable
+N orech : fruit
+N vlašský orech : fruit
+N lieskový orech : fruit
+N arašid : fruit
+N kokosový orech : fruit
+N muškátový orech : seasoning
+N avokádo : fruit, cuttable
+N figa : fruit, cuttable
+N datľa : fruit
+N hrozienko : fruit
+N limetka : fruit, cuttable
+N grapefruit : fruit, cuttable
+N zelenina : vegetable, washable, cookable, cuttable ; mass
+N zemiak : vegetable, washable, cookable, plantable, cuttable
+N sladký zemiak : vegetable, washable, cookable, plantable, cuttable
+N hranolky : dish, cookable
+N paradajka : vegetable, washable, cookable, plantable, cuttable
+N uhorka : vegetable, washable, plantable, cuttable
+N nakladaná uhorka : vegetable, cuttable
+N mrkva : vegetable, washable, cookable, plantable, cuttable
+N cesnak : vegetable, plantable, cuttable
+N kapusta : vegetable, washable, cookable, plantable, cuttable
+N karfiol : vegetable, washable, cookable, plantable, cuttable
+N ružičkový kel : vegetable, cookable, plantable, cuttable
+N červená kapusta : vegetable, cookable, cuttable
+N kyslá kapusta : dish, cookable
+N brokolica : vegetable, washable, cookable, plantable, cuttable
+N cvikla : vegetable, cookable, plantable, cuttable
+N reďkovka : vegetable, washable, plantable, cuttable
+N fazuľa : vegetable, cookable, plantable
+N kávové zrno : food
+N sójový bôb : crop, plantable
+N hrach : vegetable, cookable, plantable
+N kukurica : vegetable, crop, cookable, plantable
+N tekvica : vegetable, washable, cookable, plantable, cuttable
+N baklažán : vegetable, washable, cookable, plantable, cuttable
+N šalát : dish, vegetable
+N hlávkový šalát : vegetable, washable, plantable, cuttable
+N zemiakový šalát : dish
+N ovocný šalát : dish
+N špenát : vegetable, washable, cookable, plantable
+N zeler : vegetable, washable, cookable, plantable, cuttable
+N petržlen : seasoning, plant, plantable
+N kôpor : seasoning, plant, plantable
+N oliva : fruit
+N zázvor : seasoning, cuttable
+N cuketa : vegetable, washable, cookable, plantable, cuttable
+N pór (zelenina) : vegetable, washable, cookable, plantable, cuttable
+N špargľa : vegetable, washable, cookable, plantable, cuttable
+N šampiňón : fungus, vegetable, washable, cookable, cuttable
+N koláč : baked-goods, cuttable
+N palacinka : dish, cookable, cuttable
+N tvarohový koláč : baked-goods, cuttable
+N perník : baked-goods
+N torta : baked-goods, cuttable
+N paštéta : dish
+N sušienka : baked-goods
+N čokoláda : sweets
+N cukrík : sweets
+N sladkosť : sweets
+N puding : sweets
+N vanilka : seasoning
+N nápoj : drink
+N nealkoholický nápoj : drink
+N čaj : drink ; mass
+N čajník : container, washable, breakable, fillable
+N káva : drink ; mass
+N kávovar : device, thing, repairable, switchable
+N espresso : drink
+N limonáda : drink
+N kakao : drink
+N minerálka : drink
+N pivo : drink
+N víno : drink
+N červené víno : drink
+N biele víno : drink
+N jablkové víno : drink
+N šumivé víno : drink
+N šampanské : drink
+N vodka : drink
+N whisky : drink
+N rum : drink
+N pálenka : drink
+N likér : drink
+N alkohol : drink
+AN alkoholický : drink
+AN nealkoholický : drink
+N kokteil : drink
+N muffin : baked-goods
+N oblátka : baked-goods
+N croissant : baked-goods
+N donut : baked-goods
+N popcorn : food
+N krekr : baked-goods
+N praclík : baked-goods
+N čipsy : food
+N karamel : sweets
+N želé : sweets
+V variť : {kuchár|matka|otec|otec|babka|dedko|muž|žena|dieťa|syn|strýko|bratranec|brat|sused|priateľ|manžel} > patient {polievka|ryža|zemiak|vajce|zelenina|jedlo|omáčka|pokrm}
+V variť : {kuchár|matka|otec|otec|babka|dedko|muž|žena|dieťa|syn|strýko|bratranec|brat|sused|priateľ|manžel}
+V variť : {voda|mlieko|polievka|omáčka|olej}
+N kuchár : professional
+N kuchárka : professional
+N kuchárska kniha : text, openable
+N rýchlovarná kanvica : device, thing, repairable, switchable, fillable
+V priviesť do varu : person -child > patient food +cookable
+V vrieť : {voda|mlieko|olej|polievka}
+V piecť : person -child > patient baked-goods
+N prášok do pečiva : seasoning
+AN okoralý : baked-goods
+V smažiť : person -child > patient meat +cookable
+N pečienka : dish, cuttable
+V opražiť : person -child > patient food +cookable
+V fritovať : person -child > patient food +cookable
+V variť do mäkka : person -child > patient food +cookable
+V pražiť : person -child > patient food +cookable
+V grilovať : person -child > patient {mäso|klobása|steak|kurča}
+V grilovať : person -child > patient {ryba|zelenina|zemiak|cibuľa|kukurica|paprika|syr}
+N gril : device, cleanable, switchable
+V dusiť : person -child > patient food +cookable
+V miešať : person > patient {šalát|müsli|omáčka|cesto}
+V miešať : person > patient grain
+V miešať : person > patient seasoning
+V miešať : person > patient {kokteil|limonáda|šťava}
+N zmes : substance
+V zamiešať : person > patient {polievka|omáčka|kaša|cesto|káva|čaj|mlieko}
+V premiešať : person > patient {polievka|omáčka|kaša|cesto|káva|čaj|mlieko}
+V liať : person > patient liquid
+V liať : person > patient flower
+V liať : person > patient tree
+V liať : person > patient {rastlina|trávnik|záhrada|záhon}
+V naliať : person -professional > patient {voda|víno|pivo|šťava|mlieko|čaj|káva}
+V poliať : person > patient food
+V poliať : person > patient flower
+V poliať : person > patient tree
+V poliať : person > patient {paradajka|uhorka|šalát|mrkva|paprika|kapusta|tekvica}
+V poliať : person > patient {rastlina|trávnik|záhrada|záhon}
+N krhla : container, fillable
+V sypať : person > patient drink
+V sypať : person > patient grain
+V sypať : person > patient {piesok|štrk|cement|zem}
+V rozliať : person > patient liquid
+V rozrezať : person > patient {chlieb|koláč|torta|klobása|pečienka|jablko|paprika|dyňa|syr|šunka|paradajka}
+N krájané mäso : meat
+V sekať : person -child > patient {cibuľa|cesnak|petržlen|bylinky|orech|mäso}
+V sekať : person -child > patient wood
+N mleté mäso : meat, cookable
+V lúpať : person > patient {zemiak|jablko|pomaranč|banán|cibuľa|mrkva|uhorka|hruška|vajce}
+V miesiť : person > patient {cesto|tón}
+V tĺcť : person > patient food
+V tĺcť : person
+V ochutnať : {kuchár|hosť|zákazník|dieťa|muž|žena|priateľ|matka|otec|syn} > patient food -meal
+V ochutnať : {kuchár|hosť|zákazník|dieťa|muž|žena|priateľ|matka|otec|syn} > patient drink -{voda|pitná voda|minerálka}
+V pripraviť (jedlo) : person > patient dish
+V pripraviť (jedlo) : person > patient meal
+V pripraviť (jedlo) : person > patient {koláč|torta|oblátka|palacinka|cesto}
+V pripraviť (jedlo) : person > patient {káva|čaj|kokteil|limonáda}
+N príprava (jedla) : activity
+V servírovať : person > recipient {hosť|zákazník|cestujúci|muž|žena|dieťa}, patient food -{bufet}
+N recept : text
+N ingrediencia : food
+N nôž : tool, washable
+N vreckový nôž : tool
+N vidlička : kitchenware, washable
+N príbor : kitchenware, washable ; mass
+N lyžica : kitchenware, washable
+N polievková lyžica : kitchenware, washable
+N čajová lyžička : kitchenware, washable
+N tanier : kitchenware, washable, breakable
+N misa : kitchenware, container, washable, breakable, fillable
+N šálka : kitchenware, container, washable, breakable, fillable
+N tanierik pod šálku : kitchenware, washable, breakable
+N hrnček : container, kitchenware, washable, breakable, fillable
+N sklenica : container, kitchenware, washable, breakable, fillable
+N zavárací pohár : container, washable, openable, breakable, fillable
+N hrniec : kitchenware, container, washable, fillable
+N chňapka : kitchenware
+N kvetináč : container, breakable, fillable
+N panvica : kitchenware, washable
+N panvica na vyprážanie : kitchenware, washable
+N obracačka : kitchenware, washable
+N pec : device, repairable, openable, cleanable, switchable
+N rúra na pečenie : device, repairable, openable, cleanable, switchable
+N sporák : device, repairable, cleanable, switchable
+N mikrovlnka : device, repairable, openable, cleanable, switchable
+N chladnička : device, repairable, openable, cleanable, switchable, fillable
+N mraznička : device, repairable, openable, switchable, fillable
+N podnos : kitchenware, washable
+N krčah : container, washable, breakable, fillable
+N fľaša : container, openable, breakable, fillable
+N otvárač na fľaše : tool
+N plechovka : container, openable, fillable
+N otvárač konzerv : tool
+N konzerva : food, openable
+N pokrievka : artifact, thing
+N korok : artifact, thing
+N vývrtka : tool
+N obrúsok : artifact, thing, washable, foldable
+N obrus : artifact, thing, washable, foldable
+N slamka : kitchenware, washable
+N metlička : kitchenware, washable
+N naberačka : kitchenware, washable
+N strúhadlo : kitchenware, washable
+N cedidlo : kitchenware, washable
+N sito : kitchenware, washable
+N umývačka riadu : device, repairable, openable, switchable
+N mixér : device, thing, repairable, switchable
+N chuť (na jazyku) : quality
+AN nechutný : food, artifact, activity
+AN vkusný : artifact, food, activity
+AN chutný : food, drink, -seasoning, -{voda|pitná voda|minerálka}
+AN sladký : sweets, fruit, {koláč|torta|sušienka|pečivo|dezert|marmeláda|med}, drink, -{voda|pitná voda|minerálka}, child, pet, mammal, bird
+AN kyslý : fruit, {uhorka|mlieko|smotana|víno|šťava}
+N kyselina : substance
+AN horký : {nápoj|káva|čaj|espresso|pivo|pálenka|likér|liek|pilulka|čokoláda}
+AN zatrpknutý : person
+AN čerstvý : fruit, vegetable, dairy, baked-goods, meat, {ryba|vajce|šalát|bylinky|mlieko|šťava|pomarančový džús|voda|vzduch|vánok|vietor}
+N sviežosť : quality
+V osviežiť : drink > patient animal
+V osviežiť : {dážď|vietor|kúpeľňa|sprcha} > patient animal
+AN surový : food
+N maškrta : sweets
+AN šťavnatý : food
+AN mastný : food, substance
+N nátierka : food
+N poleva : food
+N kola : drink
+N varecha : kitchenware, washable
+N bylinky : seasoning, washable, cuttable
+N kuchynský nôž : tool, kitchenware, washable
+N pohostinstvo : building, enterable
+N menu : meal
+N koláčik : baked-goods
+N štipka : quantity
+N slnečnicový olej : seasoning, liquid
+N vegán : person
+# added: Dose in its second sense
+N dóza : container, openable, fillable
+# added: gießen in its second sense
+V polievať : person > patient plant
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN jasný ako krištáľ : water-body, drink, liquid, idea ; pred
+AN krémový : dish, dairy, drink
+V garnírovať : person > patient dish
+V miešať sa do : person > goal {rozhovor|práca|spor|rozhodnutie}
+V pomaly variť : person > patient food +cookable
+V rozmiešať : person > patient {cesto|polievka|omáčka|farba|mlieko|káva|čaj}, instrument tool
+V schudnúť : person
+V skonzumovať : animal > patient food
+V stolovať : person
+V vyskúšať : person > patient {jedlo|pokrm|nápoj|recept|šaty|auto}

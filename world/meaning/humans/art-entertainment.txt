@@ -1,0 +1,433 @@
+N umenie : abstract
+N umelec : professional
+AN umelecký : person, creative-work ; attr
+N umelecké dielo : creative-work
+N umelkyňa : professional
+N krása : quality
+N štýl : quality
+AN štýlový : artifact, person, building
+N galéria : building, enterable
+N múzeum : building, institution, enterable
+N výstava : event, attendable
+V vystaviť (na výstave) : {umelec|maliar|fotograf|múzeum|galéria} > patient {obraz|maľba|fotka|socha|umelecké dielo|kresba|plagát}
+N obraz : picture, hangable
+N sochár : professional
+V maľovať : {umelec|maliar|dieťa|žiak|dievča|chlapec|matka|otec|žena|muž|dedko} > patient {obraz|portrét|maľba|plagát}
+V maľovať : person > patient {dom|kostol|zámok|hrad|chata}
+V maľovať : person > patient beast
+V maľovať : person > patient {stôl|stolička (nábytok)|skriňa|banka|posteľ}
+N maliar : professional
+N maliarstvo : activity
+N maľba : picture, creative-work, hangable
+N nástenná maľba : picture, creative-work, hangable
+V kresliť : {umelec|maliar|dieťa|žiak|dievča|chlapec|učiteľ|architekt|matka|otec|žena|muž} > patient {obraz|portrét|karta|plagát|skica}
+V kresliť : {umelec|maliar|dieťa|žiak|dievča|chlapec|učiteľ|architekt|matka|otec|žena|muž} > patient beast
+V kresliť : {umelec|maliar|dieťa|žiak|dievča|chlapec|učiteľ|architekt|matka|otec|žena|muž} > patient {dom|kostol|zámok|hrad|veža|chata|most}
+V kresliť : {umelec|maliar|dieťa|žiak|dievča|chlapec|učiteľ|architekt|matka|otec|žena|muž} > patient plant
+N kresba : picture, hangable
+N kresliar : professional
+N skica : picture
+V načrtnúť : person > patient animal
+V načrtnúť : person > patient building
+V načrtnúť : person > patient plant
+N portrét : picture, hangable
+N socha : artifact, creative-work
+V vyrezávať : person > patient artifact
+N dizajn : abstract
+N dizajnér : professional
+N ornament : artifact
+N plátno : artifact, thing, hangable
+N mozaika : picture
+N koláž : picture, hangable
+N hrnčiarstvo : activity, building, enterable
+N hrnčiar : professional
+V hrnčiarčiť : person
+V hrnčiarčiť : person > patient container
+N porcelán : material, breakable
+N maliarsky stojan : tool
+N paleta : tool
+N akvarel : picture, hangable
+N uhlík na kreslenie : tool
+N voskovka : tool
+N fixka : tool
+N kurátor : professional
+N štetec : tool, washable
+N hudba : creative-work, playable
+N hudobník : professional
+AN hudobný : person, creative-work
+N hudobný nástroj : instrument, playable
+N pieseň : creative-work, playable
+N text piesne : text
+N uspávanka : creative-work, playable
+V spievať : {spevák|speváčka|dieťa|dievča|chlapec|žena|muž|zbor|celebrita|žiak|matka|umelkyňa} > patient {pieseň|melódia|hymna}
+V spievať : {dieťa|dievča|chlapec|žena|muž|zbor|žiak|matka}
+V spievať : bird
+N spevák : professional
+N speváčka : professional
+N zbor : group
+N melódia : creative-work, playable
+N rytmus : quality
+AN rytmický : creative-work, event ; attr
+N nota : abstract
+N koncert : event, attendable
+N orchester : group
+N nástroj : instrument, playable
+N klavír : instrument, playable
+N gitara : instrument, playable
+N husle : instrument, playable
+N huslista : professional
+N bubon : instrument, playable
+V bubnovať : person
+V bubnovať : person > location instrument
+N flauta : instrument, playable
+N trúbka : instrument, playable
+N harfa : instrument, playable
+N organ : instrument, playable
+V pískať : person -professional > patient {pieseň|melódia}
+V pískať : person
+N píšťala : instrument, playable
+N opera : creative-work, playable
+N skladateľ : professional
+V skladať : {skladateľ|hudobník|spevák|dirigent|umelec} > patient {pieseň|melódia|opera}
+N skladba : creative-work, playable
+N dirigent : professional
+V dirigovať : person > patient group
+N refrén : creative-work, playable
+N akord : creative-work, playable
+N harmónia : quality
+AN harmonický : creative-work, relation, state
+N bas : instrument, playable
+N sólo : creative-work, playable
+N duet : creative-work, playable
+N symfónia : creative-work, playable
+N balada : creative-work, playable
+N žáner : abstract
+N džez : creative-work, playable
+N pop : creative-work, playable
+N rock : creative-work, playable
+N sukňa : clothing, washable, foldable, hangable
+N rap : creative-work, playable
+N violončelo : instrument, playable
+N saxofón : instrument, playable
+N akordeón : instrument, playable
+N album : creative-work
+N divadlo : building, institution, enterable
+N divadelná hra : creative-work, playable
+N javisko : place ; auf
+N scéna : creative-work, playable
+N herec : professional
+N dráma : creative-work, playable
+N herečka : professional
+N rola : abstract
+N dramatik : professional
+AN dramatický : event, creative-work
+N komédia : creative-work, playable
+N tragédia : creative-work, playable
+N film : creative-work
+V filmovať : person > patient beast
+V filmovať : person > patient building
+V filmovať : person > patient celebration
+V filmovať : person > patient event +attendable
+V filmovať : person > patient landscape
+N hraný film : creative-work
+N dokumentárny film : creative-work
+N kreslený film : creative-work
+N režisér : professional
+N kino : building, enterable
+N obecenstvo : group
+N divák : role
+N potlesk : event
+V tleskať : person > recipient person
+V tleskať : group > recipient person
+V vystupovať : {politik|vedec|expert|profesor|autor|spevák|hudobník|umelec} > as {rečník|hosť}
+V vystupovať : person > as {svedok}
+V vystupovať : {hudobník|spevák|speváčka|herec|herečka|umelec|umelkyňa|tanečník|celebrita|rečník|svedok}
+N vystúpenie (na pódiu) : event
+N predstavenie : event, attendable
+V predviesť : {herec|herečka|hudobník|spevák|speváčka|umelec|umelkyňa|dieťa|žiak} > patient {kus|opera|dráma|koncert}
+V predviesť : {orchester|oddiel|zbor|divadlo|škola|skupina|spolok} > patient {kus|opera|dráma|koncert}
+N cirkus : institution
+N klaun : professional
+N marioneta : toy
+V tancovať : person -{skladateľ}
+V tancovať : {tanečník|muž|žena|matka|otec|mama|otec|dieťa|dievča|chlapec|priateľ|priateľka|brat|sestra|súrodenci|sused|susedka} > companion {priateľ|priateľka|partner|partnerka|sused|susedka|tanečník|súrodenci|muž|žena|matka|otec|dieťa|brat|sestra}
+N tanec : activity
+N tanečník : professional
+N balet : creative-work, activity
+N príbeh : creative-work
+N rozprávka : creative-work
+N báseň : creative-work
+N básnik : professional
+V písať básne : person > patient {báseň|pieseň|verš|rým}
+N poézia : creative-work
+N román : text, creative-work, openable
+N spisovateľ : professional
+N autor : professional
+N autorka : professional
+N literatúra : creative-work
+AN literárny : creative-work, text ; attr
+N poviedka : creative-work
+N verš : text
+N rým : writing
+V rýmovať sa : language > theme language
+N nácvik : event, attendable
+V skúšať : person > patient {kus|scéna|pieseň|koncert}
+V skúšať : group > patient {kus|scéna|pieseň|koncert}
+V skúšať : person
+V skúšať : group
+N konkurz : event, attendable
+N scenár (film) : text
+N zloduch : person
+N dej : event
+N premiéra : event, attendable
+N pokračovanie : creative-work
+N animácia : creative-work
+N komik : professional
+V žonglovať : person > instrument thing
+N biografia : text
+N scenár (možný vývoj) : idea
+N hra : game, playable, attendable
+V hrať : person -infant -professional > patient {hra|šach|poker|futbal|tenis|stolová hra|videohra}
+V hrať : person -infant -professional > patient creative-work +playable
+V hrať : person -infant -professional > patient instrument +playable
+V hrať : child -{tínedžer|mladistvý} > instrument toy
+N hráč : role
+N hračka : toy ; mass
+N hracia karta : toy, playable
+N stav zápasu : quantity
+N stolová hra : game, playable
+N videohra : game, playable
+N domáci zápas : event, attendable
+N hrací deň : period
+N reprezentant : professional
+N hráčka : role
+N bábika : toy
+N šarkan : toy
+N šach : game, playable ; bare
+N šport : game
+AN športový : person
+N športovec : person
+N mužstvo : group
+AN olympijský : event ; attr
+N tím : group
+N tréner : professional
+V trénovať : {tréner|učiteľ|učiteľka|jazdec} > patient {hráč|športovec|žiak|mužstvo|tím|pes|kôň}
+V trénovať : person -{chorý}
+N tréning : activity, attendable
+N súťaž : event, attendable
+N zápas : event, attendable
+N preteky : event, attendable
+N majster : professional
+N majstrovstvá : event, attendable
+N majstrovské dielo : creative-work
+N cena : quantity
+N odmena : abstract
+V odmeniť : {učiteľ|učiteľka|rodičia|matka|otec|tréner} > patient {dieťa|žiak|žiačka|syn|dcéra|hráč|športovec}, purpose {práca|pomoc|výkon}
+V odmeniť : {šéf|firma|spolok} > patient {spolupracovník|spolupracovníčka|hráč|športovec}, purpose {práca|pomoc|výkon}
+N gól : event
+N brankár : person
+N futbal : game, playable
+N futbalista : professional
+N basketbal : game, playable
+N volejbal : game, playable
+N tenis : game, playable
+N hokej : game, playable
+N ľadový hokej : game, playable
+N box : game
+V boxovať : person
+V boxovať : person > opponent person
+N boxer : person
+N gymnastika : game
+V cvičiť (gymnastika) : person
+N telocvičňa : building, cleanable, enterable
+V lyžovať : person
+N lyža : toy
+N lyžiar : person
+V korčuľovať sa : person
+N korčuľa : toy
+N plaváreň : building, enterable
+N štadión : building, enterable
+N fitnescentrum : building, enterable
+N kondícia : state
+N rozhodca : professional
+N lopta : toy
+N medaila : jewelry
+N trofej : artifact, thing
+N pohár : artifact, thing
+N turnaj : event, attendable
+N bejzbal : game, playable
+V vyhrať : person -professional > patient {hra|šach|poker|stolová hra|videohra|lotéria}
+V vyhrať : person > patient {voľba|vojna}
+V vyhrať : {športovec|behúň|vodič|majster sveta|muž|žena|chlapec|dievča} > patient {súťaž|preteky}
+V vyhrať : group > patient {hra|šach|poker|stolová hra|videohra|lotéria}
+V vyhrať : group > patient {voľba|súťaž|preteky|vojna}
+V vyhrať : person -professional > patient {cena|pohár|medaila|auto|cesta (cestovanie)}
+V vyhrať : group > patient {cena|pohár|medaila|auto|cesta (cestovanie)}
+V vyhrať : person -professional > opponent {protivník|priateľ|brat|sused|majster sveta}
+V vyhrať : group > opponent {tím|mužstvo|protivník|spolok}
+V staviť sa : person > theme game
+V staviť sa : person > theme {preteky|súťaž}
+V staviť sa : person > that
+N stávka : event
+N lotéria : game, playable
+N fanúšik : role
+N záľuba : activity
+N zábava : activity
+V zabávať : person > patient {hosť|dieťa|obecenstvo|divák|priateľ|čitateľ (osoba)}
+V zabávať : person > companion person, topic {sused|priateľ|kolega|šéf|učiteľ|brat|sestra|matka|otec}
+V zabávať : person > companion person, topic {film|dovolenka|politika|počasie|cesta (cestovanie)}
+V zabávať : person > companion person, topic {nápad|plán|budúcnosť}
+N sranda : feeling
+N voľný čas : period
+N kempovanie : activity
+N kemping : place ; auf
+N liga : institution
+N jedenástka : event
+N faul : event
+N maratón : event, attendable
+N zápasenie : game
+V zápasiť : person > opponent person, theme {sloboda|moc|uznanie|vzduch}
+V zápasiť : person > opponent person, theme ability
+V zápasiť : person > opponent person, theme substance
+N zápasník : person
+N poker : game, playable
+N kasíno : building, enterable
+N bowling : game, playable
+N finále : event, attendable
+N súboj : event
+N partia : game, playable
+N trefa : event
+N štafeta : event, attendable
+N káder : group
+N turné : event
+N celebrita : professional
+N reprezentácia : group
+N majster sveta : professional
+N semifinále : event, attendable
+N comeback : event
+N profesionál : professional
+N majstrovstvá sveta : event, attendable
+N pokutové územie : place
+N dres : clothing, washable, foldable
+N líder tabuľky : person
+N atlét : professional
+N atlétka : professional
+N rekord : quantity
+N osemfinále : event, attendable
+N výkop : moment
+N nováčik : person
+N výdrž : ability
+N zápas vonku : event, attendable
+N oddychový čas : period
+N tréner národného tímu : professional
+N hlavný tréner : professional
+N komiks : text, openable
+N debut : event
+N defenzíva : activity
+N natáčanie : activity
+N duo : group
+N vstupenka : document
+N epizóda : creative-work
+N favorit : role
+N centr : event
+N priamy kop : event
+N základná skupina : period
+N ručná práca : activity
+N hádzaná : game, playable
+N prvý zápas : event, attendable
+N stredný obranca : person
+N inscenácia : creative-work
+N záchrana v lige : event
+N protiútok : event
+N detektívka : creative-work
+N kulisa : artifact
+N logo : picture
+N stred poľa : place
+N stredopoliar : person
+N nadstavený čas : period
+N nová posila : person
+N stĺp : artifact
+N raper : professional
+N réžia : activity
+N rekordný majster : institution
+N remíza : event
+N kolo : event
+N odvetné kolo : period
+N odveta : event, attendable
+N zberateľ : person
+N šou : event, attendable
+N posledné miesto : person
+N záver zápasu : period
+N letná prestávka : period
+N podívaná : event, attendable
+N ihrisko : place ; auf
+N športový riaditeľ : professional
+N štartový výstrel : event
+N spoluhráč : person
+N prípravný zápas : event, attendable
+N stolný tenis : game, playable
+N obhajca titulu : person
+N sústredenie (športovcov) : event
+N tribúna : place ; auf
+N trio : group
+N triumf : event
+N tromf : artifact, thing
+N porazený : person
+N štvrťfinále : event, attendable
+N zimná prestávka : period
+N joga : activity
+# added: Dichtung in its second sense
+N tesnenie : artifact, thing
+# added: Probe in its second sense
+N vzorka : thing
+# added: spielen in its second sense
+V hrať sa : child
+V hrať sa : child > instrument toy
+V hrať sa : child > companion child
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN autobiografický : text, creative-work
+AN bez zápasu : event, game ; pred
+AN bezgólový : game, event
+AN dramaturgický : creative-work, activity, idea
+AN epický : creative-work, event
+AN filmový : creative-work, professional, idea ; attr
+AN futbalový : game, person, event ; attr
+AN herecký : professional, ability, activity ; attr
+AN hrateľný : software, game, instrument ; pred
+AN nebezpečný pred bránkou : person ; pred
+AN rekordný : quantity, event, moment
+AN rozprávkový : creative-work, place, quality
+AN scénický : creative-work, place, quality ; attr
+AN umný : person, creative-work
+N klip : creative-work
+V hrať hazardne : person
+V hrať hudbu : person > patient {pieseň|hudba|melódia}
+V hrať s : person > companion person
+V hrať ďalej : person
+V kopať do lopty : person
+V kurátorovať : person > patient {výstava|zbierka|festival}
+V nahrať (v štúdiu) : person > patient {pieseň|album|hudba|film}
+V odkloniť : person > patient {voda|doprava|pozornosť}
+V pomaľovať : person > patient {stena|dom|obraz|stôl|stolička (nábytok)|plot}
+V portrétovať : {umelec|maliar|fotograf} > patient person
+V poštvať proti sebe : person > patient person
+V prehrať : person > patient game
+V prehrať : person > patient {pieseň|film|hudba}
+V pózovať : person
+V reštaurovať : person > patient {obraz|kostol|zámok|hrad|socha|budova}
+V sfilmovať : person > patient {kniha|príbeh|scéna|udalosť}
+V skandovať : group > patient {heslo|meno|pieseň}
+V skompletizovať : person > patient {zbierka|práca|projekt|zoznam}
+V surfovať : person
+V synchronizovať : person > patient {film|zvuk|počítač}
+V súboriť sa : person > opponent person
+V uvádzať predstavenia : {divadlo|inštitúcia|umelec}
+V vsunúť : person > patient thing, goal place
+V vybojovať si : person > patient {víťazstvo|úspech|sloboda}
+V vynikať : person > share {matematika|šport|umenie|hudba}
+V vystatovať sa : person > instrument {úspech|bohatstvo|auto|dom}
+V zdobiť : person > patient {stôl|dom|miestnosť|torta|šaty}
+V zelebrovať : person > patient {omša|slávnosť|obrad|oslava}
+V účinkovať : person > location {film|divadlo|koncert|predstavenie}
+V štylizovať : person > patient {text|obraz|účes|postava}

@@ -1,0 +1,19 @@
+# HOW ENGLISH SOUNDS (engine/speak.js loadProsody): British English -- the format is de/rules/speech.txt's.
+rhythm = stress        -- stress-timed: the stressed syllables keep the beat, the unstressed ones are squeezed between them
+even = 0.45            -- English squeezes its unstressed syllables more than German (the schwa swallows them) -- part of the way
+long = 1.5             -- a long vowel (ː: sheep) against a short one (ship) -- the long ones also differ in quality
+stress = 1.2           -- a stressed vowel's length
+unstressed = 0.85      -- an unstressed full vowel's (the schwa is short of itself)
+final = 1.2            -- the last vowel of what is said
+pause = 40             -- ms between words: words run together more than in German
+slow = 1.15            -- a little slower than conversation (the listener's own tempo is set in the trainer)
+accent = 1.08           -- the pitch on a stressed vowel: as level as German (more was heard as sung)
+range = 0.18           -- the fall over a statement
+aspiration = 1         -- p t k before a stressed vowel are aspirated
+say r = ɹ              -- the English r is a glide, not a trill or a tap
+
+# WEAK WORDS: said without stress in a phrase (speak.js phrase); more than `run` syllables without a beat get one back
+run = 3
+weak = the a an of to in on at for with from by as and or but if that than into about over
+weak = is are was were am be been being have has had do does did will would can could shall should may might must
+weak = not I you he she it we they me him her us them my your his its our their this these those there

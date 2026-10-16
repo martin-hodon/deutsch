@@ -1,0 +1,15 @@
+# RULES (tools/world.py): what follows from where one is and the weather -- conditions (in, out, weather W, a
+# property and its value: of the place or of the weather) -> effects:
+#     state S        the person gets a STATE of settings.txt (durstig): a motive WITH its cause (Es war heiß.)
+#     thing S        her own things outside get an OBJSTATE (nass): a trouble with its cause (Es regnete.)
+#     wear N | N     what she wears for it (Sie trug ihren Mantel.) -- one thing, not a pair (Stiefel), worn (not a Regenschirm)
+RULE weather dážď & out -> thing mokrý ; wear bunda
+RULE weather búrka & out -> thing mokrý ; wear bunda
+RULE weather sneh & out -> wear kabát | čiapka | šál
+RULE temperature studený & out -> wear kabát | čiapka | šál
+RULE temperature chladný & out -> wear bunda | sveter
+RULE temperature horúci & out -> state smädný ; wear slnečné_okuliare
+RULE temperature horúci & in -> state smädný
+RULE crowd plný -> state nervózny
+RULE loudness hlasný -> state nervózny
+RULE light tmavý & in -> state unavený

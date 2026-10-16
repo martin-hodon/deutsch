@@ -1,0 +1,182 @@
+# Coverage situations, settings law / military / politics / religion (round 3): prayer, kneeling, giving, celebrating, flags, uniforms, football "schießen", ships and helicopters, everyday law words (kontrollieren, vereinbaren, erwischen, belegen, regeln).
+# (skipped as unfit for a learner's everyday story: Besitz, Eigentum, Leiche, Tote, Verstorbene, Sarg, Munition, and the crime / war / state verbs: anzeigen, bedrohen, befragen, begehen, behaupten, beschädigen, bestrafen, betrügen, beweisen, entführen, entkommen, ermorden, erschießen, festnehmen, gestehen, leugnen, töten, überfallen, bombardieren, erobern ... )
+
+SITUATION kapelle-gebet : religion -- in der Kapelle beten
+  place   kaplnka
+  people  farár | kin
+  things  oltár | sviečka | lavica | kríž
+  want    veriaci : verb=modliť_sa ; uses lavica | sviečka
+  want    veriaci : verb=kľačať ; uses lavica
+  trouble lavica špinavý : čistiť
+  lack    sviečka : obchod
+
+SITUATION garten-tier-begraben : religion -- ein Tier im Garten begraben
+  place   záhrada
+  people  kin | sused
+  things  strom | kvetina | plot | rýľ | bedňa
+  want    smutný : verb=pochovať patient=def:škrečok ; uses rýľ
+  want    smutný : verb=pochovať patient=def:vták ; uses rýľ | bedňa
+  trouble rýľ pokazený : opraviť
+  trouble bedňa pokazený : opraviť
+  lack    bedňa : obchod
+
+SITUATION weihnachten-daheim : religion -- Weihnachten zu Hause feiern
+  place   obývačka
+  people  kin | priateľ
+  things  vianočný_stromček | sviečka | stôl | pohovka
+  want    chuť : verb=sláviť patient=none:Vianoce ; uses vianočný_stromček | sviečka
+  lack    sviečka : supermarket
+  lack    vianočný_stromček : trh
+
+SITUATION ostern-garten : religion -- Ostern im Garten feiern
+  place   záhrada
+  people  kin | sused
+  things  strom | kvetina | tráva | stôl
+  own     kôš
+  want    chuť : verb=sláviť patient=none:Veľká_noc ; uses kôš | vajce
+  trouble kôš pokazený : opraviť
+  lack    vajce : supermarket
+
+SITUATION kirche-spenden : religion -- in der Kirche etwas spenden
+  place   kostol
+  people  kin | priateľ
+  things  lavica | sviečka | oltár
+  own     taška | peňaženka
+  want    veriaci : verb=darovať_(na_dobročinnosť) patient=none:šaty+pl ; uses taška
+  want    veriaci : verb=darovať_(na_dobročinnosť) patient=none:peniaze ; uses peňaženka
+  trouble taška pokazený : šiť
+  lack    peniaze : banka
+
+SITUATION flughafen-hubschrauber : military -- am Flughafen den Hubschrauber sehen
+  place   letisko
+  people  priateľ | kin
+  things  lietadlo | kufor | okienko
+  own     kamera
+  want    chuť : verb=fotografovať patient=def:vrtuľník ; uses kamera
+  trouble kamera prázdny : nabiť
+
+SITUATION hafen-kriegsschiff : military -- im Hafen das Kriegsschiff besichtigen
+  place   prístav
+  people  priateľ | kin
+  things  loď | žeriav_(stroj) | lano | čajka
+  own     kamera
+  want    chuť : verb=prezrieť_si patient=def:vojnová_loď ; uses vstupenka
+  want    chuť : verb=fotografovať patient=def:vojnová_loď ; uses kamera
+  trouble kamera prázdny : nabiť
+  lack    vstupenka : pokladňa
+
+SITUATION stadion-schiessen : sport -- im Stadion aufs Tor schießen
+  place   štadión
+  people  priateľ | kin
+  things  trávnik | tribúna | zástava
+  own     futbal
+  want    chuť : verb=strieľať patient=indef:gól ; uses futbal
+  trouble futbal pokazený : nahradiť
+
+SITUATION park-marsch : military -- im Park mit der Flagge marschieren
+  place   park
+  people  priateľ | kin
+  things  strom | cesta_(komunikácia) | lavica | tráva
+  own     bubon | vlajka
+  want    chuť : verb=pochodovať ; uses bubon | vlajka
+  trouble bubon pokazený : opraviť
+  trouble vlajka pokazený : šiť
+
+SITUATION kaserne-antreten : military -- morgens in der Kaserne antreten
+  place   kasárne
+  people  priateľ | kin
+  things  posteľ | uniforma | čižma | dvere
+  want    ponáhľanie : verb=nastúpiť_(do_radu) ; uses uniforma | čižma
+  want    ponáhľanie : verb=obliecť patient=def:uniforma ; uses uniforma
+  trouble uniforma pokazený : šiť by priateľ
+  trouble čižma špinavý : čistiť by priateľ
+
+SITUATION kinderzimmer-ritter : military -- im Kinderzimmer Ritter spielen
+  place   detská_izba
+  people  kin | priateľ
+  things  posteľ | hračka | polica | brnenie | meč
+  want    chuť : verb=hrať_sa patient=none:rytier ; uses brnenie | meč
+  trouble brnenie pokazený : opraviť
+  trouble meč pokazený : opraviť
+
+SITUATION bauernhof-drohne : military -- auf dem Bauernhof das Feld mit der Drohne filmen
+  place   statok
+  people  priateľ | kin
+  things  pole | traktor | stodola | maštaľ
+  own     dron
+  want    chuť : verb=filmovať patient=def:pole ; uses dron
+  trouble dron prázdny : nabiť
+
+SITUATION balkon-flagge : politics -- die Flagge am Balkon aufhängen
+  place   balkón
+  people  kin | sused
+  things  zábradlie | stolička_(nábytok) | lano | dvere
+  own     vlajka
+  want    chuť : verb=zavesiť patient=def:vlajka ; uses vlajka | lano
+  trouble lano pokazený : obnoviť_(nahradiť_novým)
+  lack    lano : obchod
+
+SITUATION rathaus-wahl : politics -- im Rathaus den Bürgermeister wählen
+  place   radnica
+  people  kin | priateľ
+  things  schody | sála | dvere | okienko | hlasovací_lístok
+  own     pero_(písacie)
+  want    čas : verb=voliť patient=def:starosta ; uses hlasovací_lístok | pero_(písacie)
+  trouble pero_(písacie) prázdny : nahradiť
+  lack    hlasovací_lístok : vypínač
+
+SITUATION café-kuchen-wählen : politics -- im Café einen Kuchen wählen
+  place   kaviareň
+  people  čašník | priateľ
+  things  stôl | stolička_(nábytok) | pult | jedálny_lístok
+  own     okuliare
+  want    hladný : verb=vyberať patient=indef:koláč ; uses jedálny_lístok | okuliare
+  trouble okuliare špinavý : čistiť
+  trouble jedálny_lístok špinavý : nahradiť by čašník
+
+SITUATION café-nachrichten : politics -- im Café über die Nachrichten diskutieren
+  place   kaviareň
+  people  priateľ | čašník
+  things  stôl | stolička_(nábytok) | káva | šálka | noviny
+  want    chuť : verb=diskutovať patient=def:správy ; uses noviny
+  trouble noviny mokrý : nahradiť by čašník
+  lack    noviny : kiosk
+
+SITUATION wohnzimmer-termin : law -- einen Arzttermin vereinbaren
+  place   obývačka
+  people  kin | priateľ
+  things  pohovka | telefón | lampa
+  own     mobil
+  want    chorý : verb=dohodnúť patient=indef:termín ; uses telefón | mobil
+  trouble mobil prázdny : nabiť
+
+SITUATION schlafzimmer-fieber : law -- das Fieber kontrollieren
+  place   spálňa
+  people  kin
+  things  posteľ | lampa | okno | teplomer
+  want    chorý : verb=kontrolovať patient=def:horúčka ; uses teplomer
+  trouble teplomer pokazený : nahradiť
+  lack    teplomer : lekáreň
+
+SITUATION haltestelle-bus-erwischen : law -- den Bus erwischen
+  place   zastávka
+  people  priateľ | kin | vodič
+  things  autobus | lavica | štít | cestovný_poriadok
+  want    ponáhľanie : verb=chytiť patient=def:autobus ; uses cestovný_lístok
+  want    ponáhľanie : verb=vziať patient=def:električka ; uses cestovný_lístok
+  lack    cestovný_lístok : automat
+
+SITUATION fitnessstudio-dusche : law -- nach dem Training duschen
+  place   fitnescentrum
+  people  školník | priateľ
+  things  prístroj | uterák | sprcha
+  want    špinavý : verb=sprchovať_sa ; uses sprcha
+  trouble sprcha studený : regulovať by školník
+
+SITUATION küche-brötchen : law -- Brötchen belegen
+  place   kuchyňa
+  people  kin | priateľ
+  things  stôl | tanier | nôž | žemľa | chladnička
+  want    hladný : verb=obložiť patient=none:žemľa ; uses nôž | syr
+  trouble nôž špinavý : oplachovať
+  lack    syr : supermarket

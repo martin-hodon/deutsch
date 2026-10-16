@@ -1,0 +1,116 @@
+# SITUATIONS of the settings travel, traffic, health, doctor, sport (format: everyday.txt)
+
+SITUATION hotel : travel -- im Hotel wohnen
+  place   hotel
+  people  priateľ | kin | školník
+  things  izba | posteľ | kľúč | sprcha | okno
+  own     kufor
+  want    unavený : verb=spať ; uses posteľ
+  want    špinavý : verb=sprchovať_sa ; uses sprcha
+  trouble posteľ pokazený : opraviť by školník
+  trouble sprcha pokazený : opraviť by školník
+
+SITUATION camping : travel -- im Urlaub zelten
+  place   les | lúka
+  people  priateľ | kin
+  things  oheň
+  own     stan | spací_vak | batoh | fľaša
+  want    unavený : verb=spať ; uses stan | spací_vak
+  want    smädný : verb=piť patient=none:voda ; uses fľaša
+  trouble stan pokazený : opraviť
+  trouble fľaša prázdny : naplniť
+
+SITUATION flughafen : travel -- mit dem Flugzeug verreisen
+  place   letisko
+  people  priateľ | mechanik
+  things  lietadlo | hodiny
+  own     kufor | pas | taška
+  want    dovolenka : verb=lietať ; uses lietadlo
+
+SITUATION ausflug : travel -- ein Ausflug in die Stadt
+  place   mesto | park
+  people  priateľ | kin
+  own     kamera | batoh
+  want    chuť : verb=robiť patient=indef:fotka ; uses kamera
+  trouble kamera špinavý : čistiť
+
+SITUATION bahnreise : traffic -- am Bahnhof auf den Zug warten
+  place   stanica
+  people  priateľ | kin
+  things  vlak | hodiny
+  own     kufor | okuliare | fľaša
+  want    chuť : verb=čítať patient=indef:kniha ; uses okuliare
+  want    smädný : verb=piť patient=none:voda ; uses fľaša
+  trouble okuliare špinavý : čistiť
+  trouble fľaša prázdny : naplniť
+
+SITUATION busfahrt : traffic -- mit dem Bus fahren
+  place   ulica | mesto
+  people  priateľ | mechanik
+  things  autobus | okno
+  own     cestovný_lístok | taška
+  want    ponáhľanie : verb=vziať patient=def:autobus ; uses autobus
+
+SITUATION radtour : traffic -- mit dem Fahrrad fahren
+  place   ulica | park
+  people  priateľ | mechanik
+  own     bicykel | prilba | taška
+  want    chuť : verb=robiť patient=indef:výlet ; uses bicykel
+  trouble bicykel pokazený : opraviť
+
+SITUATION tankstelle : traffic -- mit dem Auto unterwegs
+  place   čerpacia_stanica
+  people  priateľ | mechanik
+  own     auto
+  want    ponáhľanie : verb=ísť_(dopravou) patient=none:auto ; uses auto
+  trouble auto pokazený : opraviť by mechanik
+
+SITUATION erkältung : health -- krank zu Hause
+  place   spálňa
+  people  kin | priateľ
+  things  posteľ | strop | šálka | okno | vreckovka
+  want    chorý : verb=spať ; uses posteľ | strop
+  want    chorý : verb=piť patient=none:čaj ; uses šálka
+  trouble šálka špinavý : oplachovať
+  want    chorý : verb=vziať patient=none:medicína ; uses medicína
+  lack    čaj : supermarket
+  lack    medicína : lekáreň
+
+SITUATION gesund essen : health -- gesund leben
+  place   kuchyňa
+  people  kin
+  things  tanier | sklenica | nôž | ovocie | zelenina | voda
+  want    hladný : verb=jesť patient=none:ovocie ; uses tanier
+  want    smädný : verb=piť patient=none:voda ; uses sklenica
+  trouble tanier špinavý : oplachovať
+  trouble sklenica špinavý : oplachovať
+  lack    ovocie : supermarket
+  lack    zelenina : supermarket
+
+SITUATION arztpraxis : doctor -- beim Arzt warten
+  place   ordinácia
+  people  kin | priateľ
+  things  stolička_(nábytok) | stôl | zošit | hodiny
+  own     okuliare
+  want    chuť : verb=čítať patient=indef:zošit ; uses okuliare
+  want    unavený : verb=sadnúť_si ; uses stolička_(nábytok)
+  trouble okuliare špinavý : čistiť
+  trouble stolička_(nábytok) špinavý : čistiť
+
+SITUATION schwimmbad : sport -- schwimmen gehen
+  place   plaváreň
+  people  priateľ | kin | školník
+  things  voda | sprcha
+  own     uterák | taška
+  want    špinavý : verb=sprchovať_sa ; uses sprcha | uterák
+  trouble sprcha pokazený : opraviť by školník
+
+SITUATION laufen : sport -- joggen im Park
+  place   park
+  people  priateľ | kin
+  things  cesta_(komunikácia) | lavica
+  own     fľaša | hodiny
+  want    smädný : verb=piť patient=none:voda ; uses fľaša
+  want    unavený : verb=oddýchnuť_si ; uses lavica
+  trouble fľaša prázdny : naplniť
+  trouble lavica špinavý : čistiť

@@ -1,0 +1,86 @@
+# accusative
+1 PRE dla {dla} [dla] (D) = pre
+1 PRE wokół {wokół} [ˈvɔkuw] (D) = okolo
+1 AV tym bardziej {tym bardziej} [tɨm ˈbardʑɛj] = tým viac
+1 PRE bez {bez} [bɛs] (D) = bez
+1 AV i tak {i tak} [i tak] = tak či tak
+2 AV tak czy inaczej {tak czy inaczej} [tak tʂɨ iˈnatʂɛj] = tak či tak
+1 PRE przeciw {przeciw} [ˈpʂɛtɕif] (C) = proti
+1 PRE przeciwko {przeciwko} [pʂɛˈtɕifkɔ] (C) = proti
+1 PRE na {na} [na] (B) = na (za jednotku)
+1 PRE przez {przez} [pʂɛs] (B) = prostredníctvom
+3 PRE za pośrednictwem {za pośrednictwem} [za pɔɕrɛdˈɲitstfɛm] (D) = prostredníctvom
+2 PRE poprzez {po|przez} [pɔˈpʂɛs] (B) = prostredníctvom
+
+# dative
+1 PRE z {z} [z] (D) = z
+1 PRE przy {przy} [pʂɨ] (Ms) = pri
+1 PRE u {u} [u] (D) = pri
+1 PRE z {z} [z] (N) = s
+1 PRE od {od} [ɔt] (D) = od (pôvod)
+1 PRE do {do} [dɔ] (D) = k
+2 PRE ku {ku} [ku] (C) = k
+2 PRE dla dobra {dla dobra} [dla ˈdɔbra] (D) = pre dobro
+1 PRE od {od} [ɔt] (D) = od (začiatok)
+1 PRE oprócz {oprócz} [ˈɔprutʂ] (D) = okrem
+2 PRE poza {poza} [ˈpɔza] (N) = okrem
+2 PRE wbrew {wbrew} [vbrɛf] (C) = v rozpore s
+3 PRE w sprzeczności z {w sprzeczności z} [f spʂɛˈtʂnɔɕtɕi z] (N) = v rozpore s
+1 PRE zgodnie z {zgodnie z} [ˈzɡɔdɲɛ z] (N) = v súlade s
+1 PRE razem z {razem z} [ˈrazɛm z] (N) = spolu s
+2 PRE wraz z {wraz z} [vras z] (N) = spolu s
+1 PRE dzięki {dzięki} [ˈdʑɛŋki] (C) = vďaka
+
+# genitive
+1 PRE z powodu {z powodu} [s pɔˈvɔdu] (D) = kvôli
+2 PRE ze względu na {ze względu na} [zɛ ˈvzɡlɛndu na] (B) = kvôli
+1 PRE mimo {mimo} [ˈmʲimɔ] (D) = napriek
+2 PRE pomimo {pomimo} [pɔˈmʲimɔ] (D) = napriek
+1 PRE zamiast {zamiast} [ˈzamʲast] (D) = namiesto
+1 AV zamiast tego {zamiast tego} [ˈzamʲast ˈtɛɡɔ] = namiesto toho
+2 PRE wewnątrz {wewnątrz} [ˈvɛvnɔntʂ] (D) = vnútri
+3 PRE w obrębie {w obrębie} [v ɔˈbrɛmbʲɛ] (D) = vnútri
+1 PRE poza {poza} [ˈpɔza] (N) = mimo
+2 PRE na zewnątrz {na zewnątrz} [na ˈzɛvnɔntʂ] (D) = mimo
+3 PRE po tej stronie {po tej stronie} [pɔ tɛj ˈstrɔɲɛ] (D) = na tejto strane
+1 PRE na podstawie {na podstawie} [na pɔdˈstavʲɛ] (D) = na základe
+2 PRE w wyniku {w wyniku} [v vɨˈɲiku] (D) = následkom
+2 PRE wskutek {wskutek} [ˈfskutɛk] (D) = následkom
+1 PRE z okazji {z okazji} [z ɔˈkazji] (D) = pri príležitosti
+1 PRE jeśli chodzi o {jeśli chodzi o} [ˈjɛɕli ˈxɔdʑi ɔ] (B) = pokiaľ ide o
+2 PRE co do {co do} [tsɔ dɔ] (D) = pokiaľ ide o
+2 PRE ze względu na {ze względu na} [zɛ ˈvzɡlɛndu na] (B) = vzhľadom na
+2 PRE wobec {wobec} [ˈvɔbɛts] (D) = vzhľadom na
+2 PRE na rzecz {na rzecz} [na ʐɛtʂ] (D) = v prospech
+2 PRE na korzyść {na korzyść} [na ˈkɔʐɨɕtɕ] (D) = v prospech
+2 PRE za pomocą {za pomocą} [za pɔˈmɔtsɔ̃] (D) = pomocou
+2 PRE przy pomocy {przy pomocy} [pʂɨ pɔˈmɔtsɨ] (D) = pomocou
+2 PRE w celu {w celu} [f ˈtsɛlu] (D) = za účelom
+1 PRE ze strony {ze strony} [zɛ ˈstrɔnɨ] (D) = zo strany
+1 PRE w środku {w środku} [f ˈɕrɔtku] (D) = uprostred
+2 PRE pośrodku {pośrodku} [pɔˈɕrɔtku] (D) = uprostred
+2 PRE z dala od {z dala od} [z ˈdala ɔt] (D) = stranou
+3 PRE na uboczu {na uboczu} [na uˈbɔtʂu] (D) = stranou
+1 PRE niedaleko {niedaleko} [ɲɛdaˈlɛkɔ] (D) = neďaleko
+1 PRE blisko {blisko} [ˈbliskɔ] (D) = neďaleko
+1 PRE w ciągu {w ciągu} [f ˈtɕɔŋɡu] (D) = v priebehu
+1 PRE w trakcie {w trakcie} [f ˈtraktɕɛ] (D) = v priebehu
+1 PRE podczas {podczas} [ˈpɔttʂas] (D) = v priebehu
+2 PRE włącznie z {włącznie z} [ˈvwɔntʂɲɛ z] (N) = vrátane
+
+# two-way
+1 PRE na {na} [na] (B, Ms) = na (v kontakte)
+1 PRE na {na} [na] (B, Ms) = na (navrchu)
+1 PRE w {w} [v] (B, Ms) = v
+2 PRE we {we} [vɛ] (B, Ms) = v
+
+# more
+2 PHR bez względu na {bez względu na} [bɛz ˈvzɡlɛndu na] (B) = bez ohľadu na
+2 PHR niezależnie od {niezależnie od} [ɲɛzaˈlɛʐɲɛ ɔt] (D) = bez ohľadu na
+
+# language-specific closed words (no Slovak word: a description)
+1 PRE o {o} [ɔ] (B, Ms) = o
+1 PRE w razie {w razie} [v ˈraʑɛ] (D) = v prípade
+1 PRE w przypadku {w przypadku} [f pʂɨˈpatku] (D) = v prípade
+1 PRE wobec {wobec} [ˈvɔbɛts] (D) = voči
+2 PRE względem {względem} [ˈvzɡlɛdɛm] (D) = voči

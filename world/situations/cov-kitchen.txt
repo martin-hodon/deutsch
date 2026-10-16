@@ -1,0 +1,432 @@
+# Coverage situations, setting kitchen (round 3): everyday kitchen words said where the story says them.
+
+SITUATION frikadellen : kitchen -- Frikadellen und Fleischbällchen aus Hackfleisch
+  place   kuchyňa
+  people  kin | priateľ
+  things  panvica_na_vyprážanie | sporák | rúra_na_pečenie | tanier
+  want    hladný : verb=smažiť patient=none:fašírka+pl ; uses panvica_na_vyprážanie | sporák | mleté_mäso
+  want    hladný : verb=piecť patient=none:mäsová_guľka ; uses rúra_na_pečenie | mleté_mäso
+  trouble panvica_na_vyprážanie špinavý : oplachovať
+  trouble sporák pokazený : opraviť
+  trouble rúra_na_pečenie pokazený : opraviť
+  lack    mleté_mäso : mäsiarstvo
+
+SITUATION sonntagsbraten : kitchen -- ein deftiges Essen mit Braten, Knödeln und Sauerkraut
+  place   kuchyňa
+  people  kin
+  things  rúra_na_pečenie | hrniec | sporák
+  want    hladný : verb=robiť patient=indef:pečienka ; uses rúra_na_pečenie | bravčové_mäso
+  want    hladný : verb=variť patient=none:knedľa ; uses hrniec | sporák
+  want    hladný : verb=zohriať patient=none:kyslá_kapusta ; uses hrniec | sporák | kyslá_kapusta
+  trouble rúra_na_pečenie pokazený : opraviť
+  trouble hrniec špinavý : oplachovať
+  trouble sporák pokazený : opraviť
+  lack    bravčové_mäso : mäsiarstvo
+  lack    kyslá_kapusta : supermarket
+
+SITUATION speck-spiegelei : kitchen -- Speck und Spiegelei zum Frühstück
+  place   kuchyňa
+  people  kin
+  things  panvica | sporák | tanier | hrianka
+  want    hladný : verb=smažiť patient=none:slanina ; uses panvica | sporák | slanina
+  want    hladný : verb=smažiť patient=indef:volské_oko ; uses panvica | tuk
+  trouble panvica špinavý : oplachovať
+  trouble sporák pokazený : opraviť
+  lack    tuk : supermarket
+  lack    slanina : mäsiarstvo
+
+SITUATION omelett : kitchen -- ein Omelett mit Schinken
+  place   kuchyňa
+  people  kin | priateľ
+  things  panvica | sporák | nôž | tanier
+  want    hladný : verb=robiť patient=indef:omeleta ; uses panvica | sporák
+  want    hladný : verb=rozrezať patient=none:šunka ; uses nôž | šunka
+  trouble panvica špinavý : oplachovať
+  trouble nôž špinavý : oplachovať
+  trouble sporák pokazený : opraviť
+  lack    šunka : mäsiarstvo
+
+SITUATION kartoffeln : kitchen -- Kartoffelbrei kochen
+  place   kuchyňa
+  people  kin
+  things  hrniec | sporák | nôž | tanier
+  want    hladný : verb=robiť patient=none:zemiaková_kaša ; uses hrniec | sporák | zemiak
+  want    hladný : verb=lúpať patient=none:zemiak+pl ; uses nôž | zemiak
+  trouble hrniec špinavý : oplachovať
+  trouble nôž špinavý : oplachovať
+  trouble sporák pokazený : opraviť
+  lack    zemiak : supermarket
+
+SITUATION kartoffelsalat : kitchen -- Kartoffelsalat mit Gurke
+  place   kuchyňa
+  people  kin | priateľ
+  things  misa | varecha | stôl
+  want    hladný : verb=robiť patient=none:zemiakový_šalát ; uses misa | varecha | uhorka | zemiak
+  trouble misa špinavý : oplachovať
+  trouble varecha špinavý : oplachovať
+  lack    uhorka : supermarket
+  lack    zemiak : supermarket
+
+SITUATION brühe : kitchen -- Brühe mit Zwiebeln
+  place   kuchyňa
+  people  kin
+  things  hrniec | pokrievka | sporák | nôž
+  want    hladný : verb=variť patient=none:vývar ; uses hrniec | sporák
+  want    hladný : verb=sekať patient=none:cibuľa+pl ; uses nôž | cibuľa
+  trouble hrniec špinavý : oplachovať
+  trouble sporák pokazený : opraviť
+  trouble nôž špinavý : oplachovať
+  lack    cibuľa : supermarket
+
+SITUATION tomatensoße : kitchen -- Nudeln mit Tomatensoße
+  place   kuchyňa
+  people  kin | priateľ
+  things  hrniec | sporák | stôl
+  want    hladný : verb=variť patient=none:paradajková_omáčka ; uses hrniec | sporák | cesnak | bazalka
+  want    hladný : verb=variť patient=none:cestoviny+pl ; uses hrniec | sporák
+  trouble hrniec špinavý : oplachovať
+  trouble sporák pokazený : opraviť
+  lack    cesnak : supermarket
+  lack    bazalka : supermarket
+
+SITUATION lachs : kitchen -- Fisch zum Abendessen
+  place   kuchyňa
+  people  kin
+  things  panvica | sporák | tanier
+  want    hladný : verb=smažiť patient=none:losos ; uses panvica | sporák | losos
+  want    hladný : verb=smažiť patient=indef:pstruh ; uses panvica | sporák | pstruh
+  trouble panvica špinavý : oplachovať
+  trouble sporák pokazený : opraviť
+  lack    losos : supermarket
+  lack    pstruh : supermarket
+
+SITUATION mikrowelle : kitchen -- das Essen von gestern in der Mikrowelle
+  place   kuchyňa
+  people  kin | priateľ
+  things  mikrovlnka | tanier | chladnička | mraznička
+  want    hladný : verb=zohriať patient=def:jedlo ; uses mikrovlnka | tanier
+  want    hladný : verb=rozmraziť patient=indef:kurča ; uses mikrovlnka | kurča
+  trouble mikrovlnka pokazený : opraviť
+  trouble tanier špinavý : oplachovať
+  lack    kurča : supermarket
+
+SITUATION muffins : kitchen -- Muffins mit Blaubeeren
+  place   kuchyňa
+  people  kin
+  things  rúra_na_pečenie | mixér | misa | cesto
+  want    chuť : verb=piecť patient=none:muffin+pl ; uses rúra_na_pečenie | mixér | kakao | čučoriedka
+  want    chuť : verb=zamiešať patient=def:cesto ; uses mixér | misa
+  trouble mixér pokazený : opraviť
+  trouble rúra_na_pečenie pokazený : opraviť
+  trouble misa špinavý : oplachovať
+  lack    kakao : supermarket
+  lack    čučoriedka : supermarket
+
+SITUATION brot-backen : kitchen -- Vollkornbrot selbst backen
+  place   kuchyňa
+  people  kin | priateľ
+  things  rúra_na_pečenie | misa | cesto | stôl
+  want    chuť : verb=piecť patient=none:celozrnný_chlieb ; uses rúra_na_pečenie | droždie | múka
+  want    chuť : verb=miesiť patient=def:cesto ; uses misa
+  trouble rúra_na_pečenie pokazený : opraviť
+  trouble misa špinavý : oplachovať
+  lack    droždie : supermarket
+  lack    múka : supermarket
+
+SITUATION pudding : kitchen -- Pudding mit Sahne
+  place   kuchyňa
+  people  kin
+  things  hrniec | sporák | varecha
+  want    chuť : verb=variť patient=none:puding ; uses hrniec | sporák | varecha | smotana
+  want    chuť : verb=topiť_sa patient=none:čokoláda ; uses hrniec | sporák | čokoláda
+  trouble hrniec špinavý : oplachovať
+  trouble varecha špinavý : oplachovať
+  trouble sporák pokazený : opraviť
+  lack    smotana : supermarket
+  lack    čokoláda : supermarket
+
+SITUATION butterbrot : kitchen -- Butterbrot mit Konfitüre oder Frischkäse
+  place   kuchyňa
+  people  kin
+  things  nôž | tanier
+  want    hladný : verb=robiť patient=indef:chlieb_s_maslom ; uses nôž | čerstvý_syr
+  want    hladný : verb=jesť patient=none:hrianka ; uses tanier | džem
+  trouble nôž špinavý : oplachovať
+  trouble tanier špinavý : oplachovať
+  lack    čerstvý_syr : supermarket
+  lack    džem : supermarket
+
+SITUATION müsli : kitchen -- Müsli mit Fruchtsaft
+  place   kuchyňa
+  people  kin | priateľ
+  things  miska | lyžica | sklenica
+  want    hladný : verb=jesť patient=none:müsli ; uses miska | lyžica | müsli | med
+  want    smädný : verb=piť patient=none:ovocný_džús ; uses sklenica | ovocný_džús
+  trouble miska špinavý : oplachovať
+  trouble lyžica špinavý : oplachovať
+  trouble sklenica špinavý : oplachovať
+  lack    müsli : supermarket
+  lack    med : supermarket
+  lack    ovocný_džús : supermarket
+
+SITUATION süßigkeiten : kitchen -- Süßigkeiten aus der Dose
+  place   kuchyňa
+  people  kin
+  things  dóza | skriňa | misa
+  want    chuť : verb=jesť patient=none:cukrík+pl ; uses dóza | cukrík
+  want    chuť : verb=jesť patient=none:sladkosť+pl ; uses plechovka | sladkosť
+  want    chuť : verb=jesť patient=none:čipsy ; uses misa
+  trouble plechovka prázdny : naplniť
+  trouble misa špinavý : oplachovať
+  lack    cukrík : kiosk
+  lack    sladkosť : kiosk
+
+SITUATION avocado : kitchen -- Avocado mit Brokkoli und Spinat
+  place   kuchyňa
+  people  kin | priateľ
+  things  nôž | hrniec | sporák
+  want    hladný : verb=rozrezať patient=indef:avokádo ; uses nôž | avokádo
+  want    hladný : verb=variť patient=none:brokolica ; uses hrniec | sporák | brokolica
+  want    hladný : verb=variť patient=none:špenát ; uses hrniec | sporák | špenát
+  trouble nôž špinavý : oplachovať
+  trouble hrniec špinavý : oplachovať
+  trouble sporák pokazený : opraviť
+  lack    avokádo : supermarket
+  lack    brokolica : supermarket
+  lack    špenát : supermarket
+
+SITUATION kürbis : kitchen -- ein Kürbis vom Markt
+  place   kuchyňa
+  people  kin
+  things  nôž | rúra_na_pečenie | stôl
+  want    hladný : verb=lúpať patient=indef:tekvica ; uses nôž | tekvica
+  want    hladný : verb=piecť patient=indef:tekvica ; uses rúra_na_pečenie | tekvica
+  trouble nôž špinavý : oplachovať
+  trouble rúra_na_pečenie pokazený : opraviť
+  lack    tekvica : trh
+
+SITUATION orangensaft : kitchen -- frischer Saft
+  place   kuchyňa
+  people  kin | priateľ
+  things  krčah | sklenica | chladnička
+  want    smädný : verb=piť patient=none:pomarančový_džús ; uses krčah | sklenica | pomarančový_džús
+  want    smädný : verb=piť patient=none:minerálka ; uses sklenica | minerálka
+  trouble krčah špinavý : oplachovať
+  trouble sklenica špinavý : oplachovať
+  lack    pomarančový_džús : supermarket
+  lack    minerálka : supermarket
+
+SITUATION esstisch : kitchen -- ein Gericht am Esstisch essen
+  place   jedáleň_(v_byte)
+  people  kin
+  things  jedálenský_stôl | príbor | obrúsok | tanier | stolička_(nábytok)
+  want    hladný : verb=jesť patient=indef:hlavné_jedlo ; uses príbor
+  trouble príbor špinavý : oplachovať
+  trouble jedálenský_stôl špinavý : zotrieť
+
+SITUATION steak : kitchen -- ein Steak zum Abendessen
+  place   kuchyňa
+  people  kin | priateľ
+  things  panvica | sporák | tanier
+  want    hladný : verb=smažiť patient=indef:steak ; uses panvica | sporák | steak
+  trouble panvica špinavý : oplachovať
+  trouble sporák pokazený : opraviť
+  lack    steak : mäsiarstvo
+
+SITUATION pommes : kitchen -- Pommes mit Sauce
+  place   kuchyňa
+  people  kin
+  things  rúra_na_pečenie | tanier
+  want    hladný : verb=robiť patient=none:hranolky ; uses rúra_na_pečenie | zemiak
+  want    hladný : verb=jesť patient=none:hranolky ; uses tanier | omáčka
+  trouble rúra_na_pečenie pokazený : opraviť
+  trouble tanier špinavý : oplachovať
+  lack    omáčka : supermarket
+  lack    zemiak : supermarket
+
+SITUATION obstschale : kitchen -- Obst vom Markt
+  place   kuchyňa
+  people  kin
+  things  škrupina | nôž | tanier | melón
+  want    hladný : verb=jesť patient=none:čerešňa_(plod)+pl ; uses škrupina | čerešňa_(plod)
+  want    hladný : verb=jesť patient=indef:broskyňa ; uses tanier | broskyňa
+  want    chuť : verb=rozrezať patient=def:melón ; uses nôž
+  trouble škrupina špinavý : oplachovať
+  trouble nôž špinavý : oplachovať
+  trouble tanier špinavý : oplachovať
+  lack    čerešňa_(plod) : trh
+  lack    broskyňa : trh
+
+SITUATION tropenfrüchte : kitchen -- Mango, Ananas und Kiwi
+  place   kuchyňa
+  people  kin | priateľ
+  things  nôž | čajová_lyžička | tanier
+  want    chuť : verb=jesť patient=indef:mango ; uses nôž | mango
+  want    chuť : verb=rozrezať patient=indef:ananás ; uses nôž | ananás
+  want    hladný : verb=jesť patient=indef:kivi ; uses čajová_lyžička | kivi
+  trouble nôž špinavý : oplachovať
+  trouble čajová_lyžička špinavý : oplachovať
+  lack    mango : supermarket
+  lack    ananás : supermarket
+  lack    kivi : supermarket
+
+SITUATION beeren : kitchen -- Beeren vom Markt
+  place   kuchyňa
+  people  kin
+  things  škrupina | polievková_lyžica
+  want    chuť : verb=jesť patient=none:malina+pl ; uses škrupina
+  want    chuť : verb=jesť patient=none:černica+pl ; uses škrupina
+  want    hladný : verb=jesť patient=none:tvaroh ; uses škrupina | polievková_lyžica | tvaroh
+  trouble škrupina špinavý : oplachovať
+  trouble polievková_lyžica špinavý : oplachovať
+  lack    tvaroh : supermarket
+
+SITUATION marmelade : kitchen -- Marmelade aus Aprikosen
+  place   kuchyňa
+  people  kin
+  things  hrniec | sporák | varecha
+  want    chuť : verb=variť patient=none:marmeláda ; uses hrniec | sporák | marhuľa | cukor
+  trouble hrniec špinavý : oplachovať
+  trouble sporák pokazený : opraviť
+  trouble varecha špinavý : oplachovať
+  lack    marhuľa : trh
+  lack    cukor : supermarket
+
+SITUATION gemüse-vorbereiten : kitchen -- Gemüse für den Eintopf vorbereiten
+  place   kuchyňa
+  people  kin | priateľ
+  things  nôž | strúhadlo | misa
+  want    hladný : verb=trieť patient=none:mrkva+pl ; uses strúhadlo | mrkva
+  want    hladný : verb=sekať patient=none:kapusta ; uses nôž | kapusta
+  want    hladný : verb=namočiť patient=none:fazuľa+pl ; uses misa | fazuľa
+  trouble strúhadlo špinavý : oplachovať
+  trouble nôž špinavý : oplachovať
+  trouble misa špinavý : oplachovať
+  lack    mrkva : trh
+  lack    kapusta : trh
+  lack    fazuľa : supermarket
+
+SITUATION pilze : kitchen -- Champignons mit Paprika
+  place   kuchyňa
+  people  kin
+  things  panvica | sporák | nôž
+  want    hladný : verb=smažiť patient=none:šampiňón+pl ; uses panvica | sporák
+  want    hladný : verb=smažiť patient=none:paprika ; uses panvica | sporák | paprika
+  trouble panvica špinavý : oplachovať
+  trouble sporák pokazený : opraviť
+  lack    paprika : trh
+
+SITUATION eier-trennen : kitchen -- Eier: Eiweiß, Eigelb und Rührei
+  place   kuchyňa
+  people  kin
+  things  mixér | metlička | misa | panvica | sporák
+  want    hladný : verb=robiť patient=none:praženica ; uses panvica | sporák | vajce
+  want    chuť : verb=šľahať patient=none:bielok ; uses mixér | misa | vajce
+  want    chuť : verb=premiešať patient=none:žĺtok ; uses metlička | vajce
+  trouble mixér pokazený : opraviť
+  trouble metlička špinavý : oplachovať
+  trouble panvica špinavý : oplachovať
+  trouble sporák pokazený : opraviť
+  lack    vajce : supermarket
+
+SITUATION waffeln : kitchen -- Waffeln mit Sirup
+  place   kuchyňa
+  people  kin | priateľ
+  things  misa | cesto | panvica | sporák
+  want    chuť : verb=piecť patient=none:oblátka+pl ; uses misa | sirup
+  want    chuť : verb=piecť patient=none:palacinka ; uses panvica | sporák
+  trouble panvica špinavý : oplachovať
+  trouble sporák pokazený : opraviť
+  trouble misa špinavý : oplachovať
+  lack    sirup : supermarket
+
+SITUATION kaffeebohnen : kitchen -- Kaffee aus Bohnen
+  place   kuchyňa
+  people  kin
+  things  kávovar | šálka
+  want    unavený : verb=robiť patient=none:káva ; uses kávovar | šálka | kávové_zrno
+  trouble kávovar pokazený : opraviť
+  trouble šálka špinavý : oplachovať
+  lack    kávové_zrno : supermarket
+
+SITUATION trinkwasser : kitchen -- Wasser aus dem Hahn
+  place   kuchyňa
+  people  kin
+  things  vodovodný_kohútik | sklenica | drez
+  want    smädný : verb=piť patient=none:voda ; uses vodovodný_kohútik | sklenica
+  trouble vodovodný_kohútik pokazený : opraviť by klampiar
+  trouble sklenica špinavý : oplachovať
+
+SITUATION nüsse : kitchen -- Nüsse und Oliven zum Knabbern
+  place   kuchyňa
+  people  kin | priateľ
+  things  misa | tanier
+  want    chuť : verb=jesť patient=none:orech+pl ; uses misa | orech
+  want    chuť : verb=jesť patient=none:oliva+pl ; uses tanier | oliva
+  trouble misa špinavý : oplachovať
+  trouble tanier špinavý : oplachovať
+  lack    oliva : supermarket
+  lack    orech : supermarket
+
+SITUATION gebäck : kitchen -- Kuchen zum Kaffee
+  place   kuchyňa
+  people  kin
+  things  tanier | stôl
+  want    chuť : verb=jesť patient=none:koláč ; uses tanier | koláč
+  trouble tanier špinavý : oplachovať
+  lack    koláč : pekáreň
+
+SITUATION brei : kitchen -- Brei und Apfelmus
+  place   kuchyňa
+  people  kin
+  things  lyžica | škrupina | stôl
+  want    hladný : verb=jesť patient=none:kaša ; uses lyžica | škrupina | kaša
+  want    hladný : verb=jesť patient=none:jablkové_pyré ; uses lyžica | jablkové_pyré
+  trouble lyžica špinavý : oplachovať
+  trouble škrupina špinavý : oplachovať
+  lack    kaša : supermarket
+  lack    jablkové_pyré : supermarket
+
+SITUATION obst-zwei : kitchen -- Birnen, Pflaumen und Weintrauben
+  place   kuchyňa
+  people  kin | priateľ
+  things  nôž | škrupina | tanier
+  want    hladný : verb=jesť patient=indef:hruška ; uses nôž | hruška
+  want    chuť : verb=jesť patient=none:hrozno+pl ; uses škrupina
+  want    chuť : verb=jesť patient=none:slivka+pl ; uses tanier
+  trouble nôž špinavý : oplachovať
+  trouble škrupina špinavý : oplachovať
+  trouble tanier špinavý : oplachovať
+  lack    hruška : trh
+
+SITUATION würzen : kitchen -- das Essen würzen und salzen
+  place   kuchyňa
+  people  kin
+  things  sporák | hrniec | polievka | lyžica
+  want    hladný : verb=pripraviť_(jedlo) patient=indef:pokrm ; uses sporák | hrniec
+  want    hladný : verb=soliť patient=def:polievka ; uses lyžica | soľ
+  want    hladný : verb=ochutiť patient=def:polievka ; uses lyžica | čili
+  trouble sporák pokazený : opraviť
+  trouble hrniec špinavý : oplachovať
+  trouble lyžica špinavý : oplachovať
+  lack    soľ : supermarket
+  lack    čili : supermarket
+
+SITUATION thunfisch : kitchen -- Thunfisch aus der Dose
+  place   kuchyňa
+  people  kin | priateľ
+  things  vidlička | tanier | plechovka
+  want    hladný : verb=jesť patient=none:tuniak ; uses vidlička | tanier | tuniak
+  trouble vidlička špinavý : oplachovať
+  trouble tanier špinavý : oplachovať
+  lack    tuniak : supermarket
+
+SITUATION melone-kühlen : kitchen -- Melone und Spargel vorbereiten
+  place   kuchyňa
+  people  kin
+  things  chladnička | nôž | tanier
+  want    hladný : verb=rozrezať patient=indef:dyňa ; uses nôž | dyňa
+  want    hladný : verb=lúpať patient=none:špargľa ; uses nôž | špargľa
+  trouble nôž špinavý : oplachovať
+  lack    dyňa : trh
+  lack    špargľa : trh

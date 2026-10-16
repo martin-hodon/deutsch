@@ -1,0 +1,20 @@
+# MIND: feelings, thinking, wanting -- what a feeling or a state makes one do, and what an action leaves behind
+V usmievať sa : needs rád
+V postrádať : needs sám
+V túžiť : needs sám
+V zľaknúť sa : gives strach nervózny
+V uvoľniť sa : needs nervózny ; gives pokojný
+V utiecť : needs strach
+V utiecť : needs strach
+V váhať : needs strach
+V stroskotať : gives smutný
+V namáhať sa : gives unavený
+V sústrediť sa : needs bdelý
+V lenivieť : needs unavený
+V presadiť sa : needs silný
+V pýtať sa seba : needs zvedavý
+V objaviť : needs zvedavý
+V pozorovať : needs zvedavý
+V pripraviť (vopred) : gives pripravený
+V ísť von : needs chuť
+V spadnúť : gives zranený

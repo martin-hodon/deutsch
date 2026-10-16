@@ -1,0 +1,146 @@
+N adresa : information
+N mesto : settlement
+AN mestský : place, institution, activity ; attr
+N mestečko : settlement
+N veľkomesto : settlement
+N hlavné mesto : settlement
+N centrum mesta : place
+N staré mesto : place
+N okraj mesta : place ; an
+N mestská časť : place
+N štvrť : place
+N mestské hradby : building, climbable
+N dedina : settlement
+N metropola : settlement
+N predmestie : settlement
+N osada : settlement
+N osadník : person
+V usadiť sa : person -child > location place
+V usadiť sa : group > location place
+N slum : place
+V obývať : person -professional > patient {dom|vila|chata|hrad|vidiecky dom|rezidencia|byt|izba}
+V obývať : animal > patient {ostrov|dedina|mesto|krajina (štát)|jaskyňa}
+N obyvateľ : role
+N obyvateľka : role
+N územie mesta : region
+N časť obce : place
+N areál : region
+N ulica : road ; auf
+N hlavná ulica : road ; auf
+N pouličná lampa : device, switchable, repairable
+N park : landscape, enterable
+N chodník : road ; auf
+N ulička : road
+N fontána : artifact
+N pamätník : artifact
+N trávnik : landscape, sittable ; auf
+N kosačka : device, switchable, repairable
+N detské ihrisko : place ; auf
+N alej : road
+N bulvár : road
+N obrubník : artifact
+N kruhový objazd : road
+N blok domov : building
+N nadjazd : road ; auf
+N priehrada : building
+N reklamná tabuľa : artifact
+N bazár : shop
+N graffiti : picture
+N asfalt : material
+V dláždiť : person > patient road
+N námestie : place ; auf
+N okoloidúci : role
+N budova : building, enterable
+N budova súdu : building, enterable
+N stavba : building, enterable
+N stavenisko : place ; auf
+N stavebný robotník : professional
+N veža : building, enterable, climbable
+N palác : building, enterable
+N pevnosť : building, enterable
+N mrakodrap : building, enterable
+N radnica : building, enterable
+N hostinec : building, enterable
+N reštaurácia : building, enterable
+N kaviareň : building, enterable
+N krčma : building, enterable
+N bar : building, enterable
+N ruina : building, enterable
+N zoologická záhrada : place, enterable
+N akvárium : building, enterable
+N aréna : building, enterable
+N kupola : building
+N eskalátor : device, switchable, repairable
+V renovovať : {remeselník|maliar|majiteľ|vlastník|muž|žena|otec|matka|rodina} > patient {dom|vila|stodola|maštaľ|chata|hrad|škola|kostol|hotel|stanica|vidiecky dom}
+V renovovať : {remeselník|maliar|majiteľ|vlastník|muž|žena|otec|matka|rodina} > patient room
+N renovácia : event
+V zbúrať : {robotník|firma|majiteľ|vlastník|muž|obec|mesto} > patient building
+N demolácia : event
+N hala : building, enterable
+N inštitúcia : institution
+N sanácia : event
+N novostavba : building, enterable
+N prestavba : event
+N výstavba : event
+N pozemok : place ; auf
+N sála : room, enterable
+N chodec : role
+N pešia zóna : road
+N obyvateľstvo : group
+N starosta : professional
+N starostka : professional
+N primátor : professional
+AN vidiecky : place
+N znečistenie : state
+V znečistiť : person -child -professional > patient {ulica|ulička|cesta (komunikácia)|miesto (priestor)}
+V znečistiť : {obyvateľstvo|továreň|firma|priemysel|koncern} > patient {jazero|rieka|more|potok|rybník}
+V znečistiť : {obyvateľstvo|továreň|firma|priemysel|koncern} > patient landscape -{pas}
+V znečistiť : {obyvateľstvo|továreň|firma|priemysel|koncern} > patient {ulica|ulička|cesta (komunikácia)|miesto (priestor)}
+N smog : phenomenon
+V recyklovať : person > patient {fľaša|plechovka|sklenica|vrecko|kartón|obal}
+V recyklovať : group > patient {fľaša|plechovka|sklenica|vrecko|kartón|obal}
+V recyklovať : person > patient {papier|sklenica|plast|kov}
+V recyklovať : group > patient {papier|sklenica|plast|kov}
+N recyklácia : activity
+AN bezdomovský : person
+N bezdomovec : person
+N hasiči : institution
+N hasič : professional
+N hasičská stanica : building, enterable
+V žobrať : person > theme thing
+V žobrať : animal > theme food
+N žobrák : person
+N mestská rada : institution
+N ateliér : room, enterable
+N aula : room, enterable
+N pivovar : building, institution, enterable
+N hrad : building, enterable, climbable
+N dóm : building, institution, enterable
+N zmrzlináreň : shop, enterable
+N letné kúpalisko : place, enterable
+N prístavné mesto : settlement
+N krytá plaváreň : building, enterable
+N rodná krajina : country
+N rodné mesto : settlement
+N jedáleň (v práci) : room, enterable
+N advokátska kancelária : building, institution, enterable
+N pút : event, attendable
+N koncertná sála : room, enterable
+N skladová hala : building, lockable, enterable
+N susedná krajina : country
+N cestička : road ; auf
+N policajná stanica : building, institution, enterable
+N slepá ulica : road ; auf
+N sauna : building, enterable
+N okraj cesty : place ; an
+N podchod : road
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN stavebný : activity, artifact, building-part, institution ; attr
+AN urbanistický : idea, activity, problem, institution ; attr
+AN vnútromestský : road, place, activity, problem ; attr
+N miesto konania : place
+V osídliť : person > patient {ostrov|krajina (štát)|oblasť|pobrežie|územie}
+V osídliť : group > patient {ostrov|krajina (štát)|oblasť|pobrežie|územie}
+V osídľovať : person > patient {ostrov|krajina (štát)|oblasť|pobrežie|územie}
+V osídľovať : group > patient {ostrov|krajina (štát)|oblasť|pobrežie|územie}

@@ -1,0 +1,47 @@
+# AMBIENCE (tools/world.py): what a thing of a place sounds, smells, looks like -- told as the scene opens (Der
+# Kühlschrank summte, und die Kerze flackerte.), only of the things that are there (the place's sheet, the situation),
+# never of the thing that will break or be wanted (no "the toaster hummed" before it breaks)
+#
+#   SOUND | SMELL | SIGHT Noun : clause [; omen STATE]     the clause in the format of sentences/tests.txt, no tense; no subj=: the
+#                                           thing itself
+SOUND chladnička : verb=bzučať
+SOUND mačka : verb=priasť
+SOUND pes : verb=štekať
+SOUND vták : verb=štebotať
+SOUND rádio : verb=hrať manner=tichý_(nehlučný)
+SOUND televízor : verb=bežať
+SOUND telefón : verb=zvoniť
+SOUND stroj : verb=bzučať
+SOUND počítač : verb=bzučať
+SOUND hodiny : verb=tikať
+SOUND rieka : verb=šumieť
+SOUND potok : verb=šumieť
+SOUND more : verb=šumieť
+# (a smell: of the room -- Es duftete nach frischem Brot -- the thing need not be introduced for it)
+SMELL káva : verb=voňať subj=3sg.n theme=none:káva
+SMELL chlieb : verb=voňať subj=3sg.n theme=none:chlieb+adj:čerstvý
+SMELL koláč : verb=voňať subj=3sg.n theme=none:koláč
+SMELL kvetina : verb=voňať subj=3sg.n theme=none:kvetina+pl
+SMELL polievka : verb=čuchať subj=3sg.n theme=none:polievka
+SIGHT sviečka : verb=blikať
+SIGHT oheň : verb=horieť
+SIGHT slnko : verb=svietiť
+
+# OMENS (; omen STATE): told only of the thing that will be in that state -- the trouble's first sign, never filler
+SOUND vodovodný_kohútik : verb=kvapkať ; omen pokazený
+SOUND sprcha : verb=kvapkať ; omen pokazený
+SIGHT lampa : verb=blikať ; omen pokazený
+SIGHT svetlo : verb=blikať ; omen pokazený
+SIGHT lampáš : verb=blikať ; omen pokazený
+SIGHT televízor : verb=blikať subj=def:obrazovka ; omen pokazený
+SIGHT počítač : verb=blikať subj=def:obrazovka ; omen pokazený
+SIGHT monitor : verb=blikať subj=def:obrazovka ; omen pokazený
+SMELL sporák : verb=čuchať subj=3sg.n theme=none:dym ; omen pokazený
+SMELL pec : verb=čuchať subj=3sg.n theme=none:dym ; omen pokazený
+SMELL rúra_na_pečenie : verb=čuchať subj=3sg.n theme=none:dym ; omen pokazený
+SMELL hriankovač : verb=čuchať subj=3sg.n theme=none:dym ; omen pokazený
+SOUND auto : verb=koktať subj=def:motor ; omen pokazený
+SOUND traktor : verb=koktať subj=def:motor ; omen pokazený
+SOUND motocykel : verb=koktať subj=def:motor ; omen pokazený
+SOUND stroj : verb=koktať ; omen pokazený
+SIGHT okno : verb=svietiť subj=def:slnko pp=through:def:okno

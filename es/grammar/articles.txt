@@ -1,0 +1,15 @@
+# definite-article
+1 ART el {el} [el] = ten (určitý člen mužského rodu)
+1 ART los {los} [los] = ten (určitý člen mužského rodu)
+1 P el mismo {el mismo} [el ˈmismo] = ten istý
+2 P el que {el que} [el ke] = ten (kto)
+1 ART la {la} [la] = tá (určitý člen ženského rodu a množného čísla)
+1 ART las {las} [las] = tá (určitý člen ženského rodu a množného čísla)
+1 ART lo {lo} [lo] = to (určitý člen stredného rodu)
+
+# indefinite-article
+1 ART un {un} [un] = jeden
+1 ART una {una} [ˈuna] = jeden
+2 ART algún {algún} [alˈɣun] = nejaký
+2 ART ningún {ningún} [niŋˈɡun] = žiadny
+2 ART unos {unos} [ˈunos] = nejaký

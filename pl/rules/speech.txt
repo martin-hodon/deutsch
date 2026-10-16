@@ -1,0 +1,20 @@
+# HOW POLISH SOUNDS (engine/speak.js loadProsody): the format is de/rules/speech.txt's.
+rhythm = syllable      -- Polish keeps its vowels full and its syllables about even; the stress is on the second-last syllable of every word
+even = 0.5
+long = 1               -- no vowel length (a ː is not written in Polish IPA)
+stress = 1.2           -- the stressed vowel a little longer
+unstressed = 1         -- unstressed vowels keep their quality (no reduction)
+final = 1.2            -- the last vowel of what is said drawn out
+pause = 35             -- ms between words
+slow = 1.15            -- a little slower than conversation (the listener's own tempo is set in the trainer)
+accent = 1.08          -- a modest pitch rise on the stressed syllable
+range = 0.15
+aspiration = 0.15      -- p t k are not aspirated
+
+# WEAK WORDS: said without stress in a phrase (speak.js phrase); more than `run` syllables without a beat get one back
+run = 3
+weak = i a w we na z ze do o od za po przez dla u przy bez nad pod przed między
+weak = nie się to ten ta te tej tego tym jest są był była było byli być będzie będą
+weak = ja ty on ona ono my wy oni one mnie mi cię ci go mu jej ją je ich im nas nam was wam nim niej nią nimi tobie
+weak = mój moja moje twój twoja twoje jego swój swoja swoje nasz nasza nasze wasz wasza wasze
+weak = że żeby czy bo ale lub albo gdy kiedy jak co kto który która które

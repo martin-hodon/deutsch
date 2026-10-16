@@ -1,0 +1,67 @@
+# coordinating
+1 CON et {et} [e] = a
+2 PHR et cetera {et cetera} [ɛt sɛteˈʁa] = a tak ďalej
+2 PHR et ainsi de suite {et ainsi de suite} [e ɛ̃si də ˈsɥit] = a tak ďalej
+1 CON ou {ou} [u] = alebo
+2 CON soit {soit} [swa] = buď
+1 CON mais {mais} [mɛ] = ale
+2 CON car {car} [kaʁ] = lebo
+1 CON mais {mais} [mɛ] = nýbrž
+2 CON ainsi que {ainsi que} [ɛ̃si ˈkə] = ako aj
+3 CON aussi bien que {aussi bien que} [osi bjɛ̃ ˈkə] = ako… tak aj
+2 CON ni {ni} [ni] = ani
+3 CON ou plutôt {ou plutôt} [u plyˈto] = respektíve
+
+# subordinating
+1 CON que {que} [kə] = že
+2 CON de sorte que {de sorte que} [də sɔʁt ˈkə] = takže
+2 CON si bien que {si bien que} [si bjɛ̃ ˈkə] = takže
+2 CON pour que {pour que} [puʁ ˈkə] (+ subj) = aby
+1 CON parce que {parce que} [paʁs ˈkə] = pretože
+2 CON puisque {puisque} [pɥisk] = keďže
+3 CON d'autant que {d'autant que} [dotɑ̃ ˈkə] = najmä keďže
+1 CON si {si} [si] = ak
+3 CON dans la mesure où {dans la mesure où} [dɑ̃ la məzyʁ ˈu] = pokiaľ
+2 CON tant que {tant que} [tɑ̃ ˈkə] = dokiaľ
+2 CON dès que {dès que} [dɛ ˈkə] = len čo
+3 CON aussitôt que {aussitôt que} [osito ˈkə] = len čo
+2 CON chaque fois que {chaque fois que} [ʃak fwa ˈkə] = vždy keď
+1 CON si {si} [si] = či
+2 CON bien que {bien que} [bjɛ̃ ˈkə] (+ subj) = hoci
+3 CON quoique {quoique} [kwaˈkə] (+ subj) = hoci
+2 PHR comme si {comme si} [kɔm ˈsi] = akoby
+1 CON quand {quand} [kɑ̃] = keď
+2 CON lorsque {lorsque} [lɔʁsk] = keď
+1 CON comme {comme} [kɔm] = ako
+1 CON que {que} [kə] = ako
+2 CON avant que {avant que} [avɑ̃ ˈkə] (+ subj) = predtým než
+2 CON avant que {avant que} [avɑ̃ ˈkə] (+ subj) = skôr než
+2 CON après que {après que} [apʁɛ ˈkə] = potom čo
+3 CON du fait que {du fait que} [dy fɛ ˈkə] = tým že
+2 PHR afin de {afin de} [afɛ̃ ˈdə] = aby
+2 CON afin que {afin que} [afɛ̃ ˈkə] (+ subj) = aby
+
+# connecting-adverbs
+1 AV donc {donc} [dɔ̃k] = preto
+2 AV par conséquent {par conséquent} [paʁ kɔ̃seˈkɑ̃] = preto
+1 AV donc {donc} [dɔ̃k] = takže
+1 AV alors {alors} [aˈlɔʁ] = takže
+2 AV pourtant {pourtant} [puʁˈtɑ̃] = napriek tomu
+1 AV quand même {quand même} [kɑ̃ ˈmɛm] = napriek tomu
+2 AV malgré tout {malgré tout} [malɡʁe ˈtu] = predsa
+2 AV tout de même {tout de même} [tu də ˈmɛm] = predsa
+2 AV cependant {cependant} [səpɑ̃ˈdɑ̃] = však
+3 AV toutefois {toutefois} [tutəˈfwa] = však
+2 AV sinon {sinon} [siˈnɔ̃] = inak (v opačnom prípade)
+1 AV de plus {de plus} [də ˈplys] = okrem toho
+2 AV en outre {en outre} [ɑ̃n ˈutʁ] = okrem toho
+1 AV en plus {en plus} [ɑ̃ ˈplys] = navyše
+2 AV par ailleurs {par ailleurs} [paʁ aˈjœʁ] = navyše
+1 AV donc {donc} [dɔ̃k] = teda
+2 AV ainsi {ainsi} [ɛ̃ˈsi] = teda
+2 AV en effet {en effet} [ɑ̃n eˈfɛ] = totiž
+3 AV en conséquence {en conséquence} [ɑ̃ kɔ̃seˈkɑ̃s] = podľa toho
+3 AV certes {certes} [sɛʁt] = síce
+2 AV d'une part {d'une part} [dyn ˈpaʁ] = na jednej strane
+2 CON plus {plus} [plys] = plus
+3 CON à moins que {à moins que} [a mwɛ̃ ˈkə] (+ subj) = ak nie

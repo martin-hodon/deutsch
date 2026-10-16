@@ -1,0 +1,23 @@
+# definite-article
+1 ART il {il} [il] = ten (určitý člen mužského rodu)
+1 ART lo {lo} [lo] = ten (určitý člen mužského rodu)
+1 P lo stesso {lo stesso} [lo ˈstesːo] = ten istý
+3 P il medesimo {il medesimo} [il meˈdeːzimo] = ten istý
+1 P quello {quello} [ˈkwɛlːo] = ten (kto)
+3 P colui {colui} [koˈluːi] = ten (kto)
+1 ART la {la} [la] = tá (určitý člen ženského rodu a množného čísla)
+1 ART le {le} [le] = tá (určitý člen ženského rodu a množného čísla)
+1 ART i {i} [i] = tá (určitý člen ženského rodu a množného čísla)
+1 ART gli {gli} [ʎi] = tá (určitý člen ženského rodu a množného čísla)
+2 ART lo {lo} [lo] = to (určitý člen stredného rodu)
+
+# indefinite-article
+1 ART un {un} [un] = jeden
+1 ART uno {uno} [ˈuːno] = jeden
+1 ART una {una} [ˈuːna] = jeden
+1 ART qualche {qualche} [ˈkwalke] = nejaký
+2 ART alcuni {alcuni} [alˈkuːni] = nejaký
+2 ART qualsiasi {qualsiasi} [kwalˈsiːasi] = nejaký
+1 ART nessun {nessun} [neˈsːun] = žiadny
+1 ART nessuno {nessuno} [neˈsːuːno] = žiadny
+1 ART nessuna {nessuna} [neˈsːuːna] = žiadny

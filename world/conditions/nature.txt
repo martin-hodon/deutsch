@@ -1,0 +1,19 @@
+# CONDITIONS OF THE NATURE GROUP: heating and cooling, wetting, airing, and a few animal and weather reactions
+V loviť ryby : needs hladný ; gives has:ryba
+V revať : needs zúrivý
+V vrčať : needs zúrivý
+V priasť : needs rád
+V chladiť : needs A:teplý A:horúci ; gives A:studený
+V ochladiť : needs A:horúci ; gives A:studený
+V zmraziť : gives A:studený
+V ohrievať : needs A:studený ; gives A:teplý
+V ohriať : needs A:studený ; gives A:teplý
+V zohriať : needs A:studený ; gives A:teplý
+V zohriať : needs A:studený A:teplý ; gives A:horúci
+V rozmraziť : needs A:studený ; gives A:teplý
+V zvlhčiť : needs A:suchý ; gives A:mokrý
+V premočiť : needs A:suchý ; gives A:mokrý
+V namočiť : needs A:špinavý ; gives A:mokrý
+V zaplaviť : gives A:mokrý
+V vetrať : gives A:čerstvý
+V spustošiť : needs A:celý ; gives A:pokazený

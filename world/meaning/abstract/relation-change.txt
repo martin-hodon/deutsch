@@ -1,0 +1,1539 @@
+V skrátiť : {autor|novinár|redaktor|učiteľ|žiak|študent|profesor|politik} > patient {text|reč|správa (o udalosti)}
+V skrátiť : {krajčír|holič|matka|babka|predavač} > patient {rock|nohavice|vlasy}
+V skrátiť : institution > patient {rozpočet|plat|dotácia|dôchodok}
+V skrátiť : {šéf|manažér|riaditeľ|minister financií|politik} > patient {rozpočet|plat|dotácia|dôchodok}
+N dôležitosť : quality
+AN definitívny : rule, information
+V chýbať : person > recipient person
+V chýbať : money > recipient person
+V chýbať : {čas (trvanie)|trpezlivosť} > recipient person
+V chýbať : ability > recipient person
+V chýbať : es > share money
+V chýbať : es > share {čas (trvanie)|trpezlivosť|pokoj}
+V chýbať : es > share {chlieb|voda|mlieko|ryža|soľ|cukor}
+V chýbať : es > share {informácia|upozornenie|dôkaz|vedomosti|skúsenosť}
+N rozšírenie : event
+V byť : thing -{výdavok} > location room
+V byť : {auto|voz|bicykel|motocykel|nákladné auto|traktor|autobus|kolobežka} > location {garáž|mesto|dielňa|dedina|hala}
+V byť : {loď|čln|trajekt} > location {prístav}
+V byť : furniture -{banka|zásuvka (v nábytku)} > location room
+V byť : furniture -{zásuvka (v nábytku)} > location {dom|hotel|zámok|byt|škola|nemocnica|múzeum|kláštor}
+V byť : animal > location place -water-body -{miesto (v priestore)}
+V byť : plant -{izbová rastlina} > location {záhrada|les|pole|park|lúka}
+V byť : building -{jadrová elektráreň} > location settlement -{hlavné mesto}
+V byť : building > location region
+V byť : building > location country
+V byť : entity > adj
+V byť : person -child > pred professional
+V byť : das > pred thing
+V byť : das > pred relative
+V byť : das > pred building
+V byť : das > pred animal
+V byť : person > age
+V byť : es > clock
+V byť : es > fixed {dôležitý|krásny|dobrý|jasný|možný}, that
+V byť : es > fixed {ťažký|ľahký|dôležitý|krásny|dobrý}, inf
+N bytie : state
+V mať (vlastniť) : person > patient thing -text -{pero (vtáka)}
+V mať (vlastniť) : person > patient {bicykel|kolobežka}
+V mať (vlastniť) : person -child > patient {auto|motocykel|čln|voz|traktor}
+V mať (vlastniť) : person > patient furniture -{sedadlo}
+V mať (vlastniť) : person > patient relative
+V mať (vlastniť) : animal > patient {strach|radosť|zlosť|hlad|smäd|chuť (túžba)|ponáhľanie}
+V mať (vlastniť) : animal > patient illness
+V mať (vlastniť) : {firma|podnik|obec|mesto|škola|nemocnica} > patient {autobus|auto|nákladné auto|traktor|sanitka|trajekt|čln}
+V mať (vlastniť) : institution > patient {počítač|stroj|kamera|tlačiareň|server}
+V mať (vlastniť) : {firma|podnik|škola|univerzita|obec|kostol|mesto} > patient {knižnica|plaváreň|múzeum|hala|kancelária|tábor}
+V mať (vlastniť) : institution > patient {spolupracovník|člen|zamestnanec|zákazník}
+V mať (vlastniť) : {firma|podnik|škola|spolok|obec|mesto|vláda} > patient rule
+V mať (vlastniť) : person > bare {strach}, cause {pes|pavúk|skúška|tma|búrka}
+V mať (vlastniť) : person > bare {právo|šťastie|smola|čas (trvanie)|hlad|smäd|horúčka}
+V mať (vlastniť) : person > bare {chuť (túžba)}, inf
+V vlastniť : person -child > patient {mobil|počítač|kamera|hodiny|gitara|klavír|televízor|kniha|zbraň}
+V vlastniť : person -child > patient {auto|bicykel|motocykel|čln|kolobežka|autobus|nákladné auto|traktor|voz}
+V vlastniť : person -child > patient furniture
+V vlastniť : person -child > patient {dom|vila|hotel|reštaurácia|továreň|dvor|zámok|byt|garáž|statok|chata|kaviareň|obchod}
+V vlastniť : {firma|podnik|koncern|rodina} > patient {hotel|reštaurácia|továreň|dom|obchod|kaviareň}
+V vlastniť : person -child > patient pet
+V patriť (komu) : thing -document -text -weapon -{mzda} > recipient {priateľ|priateľka|sused|susedka|matka|otec|učiteľ|žena|muž|chlapec|dievča|kolega|brat|sestra|dieťa}
+V patriť (komu) : vehicle -{raketa|tank} > recipient {firma|rodina|matka|otec|priateľ|sused|brat|sestra|učiteľ}
+V patriť (komu) : furniture -{sedadlo} > recipient {priateľ|priateľka|sused|susedka|matka|otec|učiteľ|žena|muž|chlapec|dievča|kolega|brat|sestra|dieťa}
+V patriť (komu) : building > recipient {firma|mesto|obec|štát|rodina|spolok|matka|otec|priateľ|sused}
+V patriť (komu) : {kôň|pes|mačka|krava|prasa|ovca|somár|kura|koza} > recipient {rodina|matka|otec|priateľ|sused|brat|sestra|dieťa}
+V patriť (komu) : animal > inf
+V patriť (komu) : building-part > inf
+AN prislúchajúci : document, tool, building-part ; attr
+N príslušnosť : state
+N absencia : state
+V netrafiť : person > patient {cieľ|účel|téma}
+V netrafiť : person > patient person
+V netrafiť : person > patient vehicle
+N existencia : state
+AN existenčný : problem, state, feeling ; attr
+N bytosť : being, quality
+AN prítomný (na mieste) : agent, animal
+N prítomnosť : state
+AN neprítomný : agent, animal
+N neprítomnosť : state
+N vec : thing
+N predmet : thing
+N veci : thing
+N nič : abstract
+N situácia : state
+N stav : state
+N podmienka : rule
+V podmieňovať : {počasie|choroba|vek} > patient {rozhodnutie|výsledok|priebeh}
+AN podmienený : rule, information, state ; attr
+AN bezpodmienečný : feeling, activity, relation
+N okolnosť : state
+N prípad : event
+N náhoda : event
+AN náhodný : event, idea
+V volať sa : es > that
+V volať sa : person > name
+V platiť : rule
+V platiť : rule > purpose {občan|zákazník|spolupracovník|žiak|nájomník|návštevník|zamestnanec|dieťa}
+V platiť : person > as {expert|expertka|odborník|špecialista|favorit|génius|vzor (idol)|hrdina}
+V vzniknúť : {hádka|vojna|chaos|hluk|zápcha}
+V vzniknúť : {problém|ťažkosť|nedorozumenie|škoda|hádka}
+V vzniknúť : {strach|zlosť|nenávisť|láska|radosť|nedôvera|dôvera|sympatie}
+V vzniknúť : building
+V vzniknúť : {hádka|konflikt} > source {nedorozumenie|závisť}
+V vzniknúť : {zlosť|nenávisť|nedôvera} > source {sklamanie|strach|závisť}
+V vzniknúť : building > source {drevo|kameň|tehla|betón}
+V uskutočniť sa : {platba|odpoveď|reakcia|dodávka|hlasovanie|dohoda}
+V panovať : {kráľ|kráľovná|cisár|vládca|diktátor|princ} > topic country
+V panovať : {kráľ|kráľovná|cisár|vládca|diktátor|princ} > topic region
+V panovať : {kráľ|kráľovná|cisár|vládca|diktátor|princ} > topic {mesto|dedina|ostrov}
+V panovať : {mier|pokoj|ticho|vojna|chaos|poriadok|chlad|horúčava|strach|panika}
+V činiť : {cena|náklady|súčet|suma|poplatok|nájom|mzda|zisk|strata} > patient currency
+V činiť : {hmotnosť|dĺžka|výška|vzdialenosť|podiel|teplota} > patient measure
+V fungovať : device
+V fungovať : {plán|nápad|metóda|systém}
+V fungovať : institution
+V stať sa : entity > adj
+V stať sa : person -{protivník|protivníčka} > pred professional
+N stávanie sa : process
+N životná dráha : process
+V meniť : person -child > patient {plán|názor|rozhodnutie|názor|úmysel}
+V meniť : {vláda|úrad|parlament|spolok|škola|firma|obec} > patient {pravidlo|zákon|predpis|zákaz|úprava}
+V meniť : person -child > patient document -{akcia (cenný papier)|pas|osud}
+V meniť : person -child > patient {text|list (písomnosť)|veta|odsek|zmluva}
+N zmena : process
+V zmeniť : agent > patient {mesto|krajina (prírodná)|kraj|dedina|izba|dom}
+V zmeniť : {vojna|cesta (cestovanie)|zážitok|skúsenosť|choroba|láska|pôrod} > patient person
+V zmeniť : agent > patient {situácia|stav|poloha|život}
+V zmeniť : person > patient {názor|názor|postoj}
+V zmeniť : agent > patient {plán|koncept}
+AN nezmenený : thing, place, state, rule
+V pozmeniť : agent > patient rule
+V pozmeniť : agent > patient {plán|uznesenie|rozhodnutie}
+V pozmeniť : agent > patient text
+V pozmeniť : agent > patient document
+V začať : event +attendable
+V začať : {hra|zápas|turnaj|preteky|súťaž}
+V začať : {leto|zima|jar|jeseň|rok|týždeň|mesiac (časť roka)|semester|školský rok}
+V začať : {vojna|hádka|vyučovanie|práca|dážď}
+V začať : person > inf
+V začať : agent > instrument {práca|vyučovanie|tréning|odborná príprava|štúdium}
+N začiatok : moment
+N koniec : moment
+V skončiť sa : event +attendable
+V skončiť sa : {hra|zápas|turnaj|preteky|súťaž}
+V skončiť sa : {vojna|hádka|vyučovanie|práca|dážď}
+V skončiť sa : period
+V skončiť sa : road
+V ukončiť : person -child > patient {práca|štúdium|odborná príprava|tréning}
+V ukončiť : person -child > patient {hádka|vojna}
+V ukončiť : {vláda|armáda|polícia} > patient {hádka|vojna}
+V ukončiť : person -child > patient game
+V ukončiť : person -child > patient event +attendable
+V ukončiť : person -child > patient {priateľstvo|manželstvo|vzťah|partnerstvo}
+V ukončiť : institution > patient {spojenectvo|partnerstvo}
+V dokončiť : agent > patient {dielo|umelecké dielo|román|báseň|obraz}
+AN nekonečný : time, quantity, place, state
+V pokračovať : agent > patient {cesta (cestovanie)|práca|rozhovor|štúdium|odborná príprava|tréning|hra}
+V zostať : entity > adj
+V zostať : person > location {dom|hotel|nemocnica|väzenie|škola|škôlka|byt|kláštor|chata|stan|zámok}
+V zostať : pet > location {dom|byt}
+V zostať : animal > location room -{toaleta}
+V zostať : animal > location settlement
+V zostať : animal > location country
+V zostať : person > location {rodina|priateľ|priateľka|rodičia|matka|otec|babka|dedko|brat|sestra}
+V zostať : pet > location {rodina|priateľ|priateľka|rodičia|matka|otec|babka|dedko|brat|sestra}
+V zostať : person > inf.bare {sedieť|stáť (v stoji)|ležať}
+V nedostaviť sa : {dážď|sneh|úspech|odpoveď|reakcia|účinok|platba|pomoc}
+V udiať sa : incident -{neúspech}
+V udiať sa : {chyba|zázrak}
+V udiať sa : incident -{neúspech} > recipient person
+V udiať sa : {chyba|defekt} > recipient person
+N udalosť : event
+V znížiť : agent > patient {množstvo|počet|číslo (matematické)|cena|náklady|hmotnosť|riziko}
+V znížiť : agent > patient {práca|náklady|tréning|tempo}
+N redukcia : event
+V rozšíriť : {roľník|majiteľ|architekt|vlastník} > patient building
+V rozšíriť : {firma|podnik|obec|mesto|škola|univerzita|spolok|prevádzka} > patient {budova|továreň|dielňa|hala|hotel|nemocnica|škola|kostol|stanica}
+V rozšíriť : person > patient {vedomosti|vedomosť|poznatok|obzor}
+V rozšíriť : {firma|obchod|hotel|škola|reštaurácia} > patient {ponuka|výber}
+V zmenšiť sa : quantity
+V zmenšiť sa : clothing
+V zmenšiť sa : water-body
+V zmenšiť sa : settlement
+V vyvíjať : agent > patient {plán|nápad|koncepcia|stratégia|teória}
+V vyvíjať : {firma|podnik|výrobca|univerzita|koncern|inžinier|vývojár|výskumník|technik} > patient device
+V vyvíjať : {firma|podnik|výrobca|univerzita|koncern|armáda} > patient vehicle
+V vyvíjať : {firma|podnik|výrobca|inžinier|vývojár|technik} > patient instrument
+V vyvíjať : {vývojár|programátor|firma|podnik|študent|výrobca} > patient software
+N vývoj : process
+N vývojár : professional
+V zlepšiť : agent > patient ability
+V zlepšiť : agent -child -{veľvyslanectvo} > patient {situácia|poloha|zdravie|stav|život}
+V zlepšiť : agent > patient {kvalita|výkon|výsledok|nálada|viditeľnosť}
+V zlepšiť : agent > patient {vzťah|priateľstvo|kontakt|pomer|spolupráca}
+V zlepšiť : {firma|výrobca|inžinier|vývojár|technik} > patient device
+N zlepšenie : process
+V zhoršiť : agent -child > patient {situácia|poloha|zdravie|stav|život}
+V zhoršiť : agent -child > patient {výkon|výsledok|nálada}
+V zhoršiť : {firma|podnik|výrobca|škandál|chyba|klamstvo|kríza} > patient {kvalita|povesť}
+V zhoršiť : {hmla|dážď|dym|sneh} > patient {viditeľnosť}
+V zhoršiť : person -child > patient {vzťah|priateľstvo|pomer|kontakt|manželstvo}
+N zhoršenie : process
+N pokrok : process
+AN pokrokový : person, institution, idea
+V stvoriť : agent > patient artifact
+V stvoriť : agent > patient {umelecké dielo|svet|dielo|báseň|pieseň|film}
+V zničiť : person > patient {auto|čln|bicykel|motocykel}
+V zničiť : person > patient {váza|okno|hračka|mobil|počítač|stan|zrkadlo|lampa|plot|múr}
+V zničiť : person > patient furniture -{sedadlo}
+V zničiť : person > patient {úroda|záhrada|záhon|kvetina}
+V zničiť : {víchor|oheň|blesk|krúpy} > patient {auto|čln|loď|bicykel}
+V zničiť : {víchor|oheň|blesk|krúpy} > patient building
+V zničiť : incident > patient {úroda|most|strecha|auto|čln|záhrada}
+V zničiť : incident > patient building
+V zničiť : person > patient {priateľstvo|vzťah|manželstvo|dôvera}
+N zničenie : event
+V nahradiť : {firma|podnik|továreň|prevádzka|výrobca|mechanik|dielňa} > patient {motor|batéria|pneumatika|žiarovka|počítač|tlačiareň|stroj}
+V nahradiť : agent > patient {zmluva|pas|preukaz|vízum|vodičský preukaz|povolenie}, substitute {zmluva|pas|preukaz|vízum|vodičský preukaz|povolenie}
+V nahradiť : {firma|spolok|škola|politická strana|šéf|riaditeľ|vláda} > patient {tréner|učiteľ|riaditeľ|šéf|minister|kolega}, substitute {tréner|učiteľ|kolega}
+N náhrada : abstract
+N príčina : abstract
+V spôsobiť : {dážď|hmla|ľad|víchor} > patient incident
+V spôsobiť : person > patient incident
+V spôsobiť : person > patient {problém|škoda|mrzutosť|hádka|chaos|zápcha}
+V spôsobiť : device > patient sound
+V spôsobiť : device > patient {problém|škoda}
+V spôsobiť : incident > patient {problém|škoda|chaos}
+V spôsobiť : {stres|chlad|horúčava|hluk|dym} > patient illness
+V spôsobiť : substance > patient illness
+V spôsobiť : animal > patient illness
+N účinok : abstract
+V pôsobiť : medicine > theme {pacient|dieťa|človek|chorý|zviera}
+V pôsobiť : drink > theme person
+V pôsobiť : {hudba|film|pieseň|báseň} > theme person
+V pôsobiť : person > theme {dieťa|mladistvý|človek|divák|čitateľ (osoba)}
+V pôsobiť : medicine
+V pôsobiť : animal > adj
+V pôsobiť : {izba|miestnosť|dom|riešenie|nápad|plán|výsledok} > adj
+N dôvod : idea
+V založiť : agent -child -group -professional > patient {firma|podnik|spolok|politická strana|banka|škola}
+V založiť : {kráľ|kráľovná|cisár|vládca|ľud} > patient settlement
+N založenie : event
+V odôvodniť : {učiteľ|výskumník|vláda|pokrm|sudca|šéf|riaditeľ|politik|expert|úrad|lekár|advokát} > patient {rozhodnutie|názor|uznesenie|názor}
+V odôvodniť : {učiteľ|výskumník|vláda|pokrm|sudca|šéf|riaditeľ|politik|expert|úrad|lekár|advokát} > patient {tvrdenie|domnienka|rozsudok|požiadavka (žiadanie)}
+AV zásadne : sentence
+N zdôvodnenie : information
+N vplyv : abstract
+V ovplyvniť : {správa (oznam)|reklama|propaganda} > patient {človek|dieťa|volič|čitateľ (osoba)|divák|zákazník|mladistvý}
+V ovplyvniť : {počasie|horúčava|chlad|hluk} > patient animal
+V ovplyvniť : {hudba|film|pieseň} > patient {dieťa|človek|poslucháč|divák|mladistvý|zviera}
+V ovplyvniť : person > patient {dieťa|priateľ|volič|čitateľ (osoba)|divák|mladistvý}
+V ovplyvniť : person -child > patient {priebeh|výsledok|voľba|vývoj}
+V ovplyvniť : celestial > patient {počasie|klíma|príliv}
+V ovplyvniť : person > patient {klíma|počasie}
+AN vplyvný : agent
+V prispôsobiť : person > patient clothing -{topánka}
+V prispôsobiť : person > patient {program|aplikácia|softvér}
+V prispôsobiť : person -child > patient {cena|plán|tempo}
+V prispôsobiť : {vláda|úrad|obec|mesto|administratíva|parlament|firma|škola} > patient {pravidlo|zákon|predpis}
+N prispôsobenie : event
+V modifikovať : agent > patient artifact
+V modifikovať : agent > patient {plán|koncept|koncepcia}
+V premeniť : agent > patient {princ|húsenica|striga}, result {žaba|motýľ|vták|mačka}
+V premeniť : agent > patient {olovo|ľad|drevo|uhlie}, result {zlato|voda|popol|diamant}
+N premena : process
+V predĺžiť : person -child > patient {lehota|dovolenka|pobyt|zmluva|vízum|odborná príprava}
+V predĺžiť : {úrad|vláda|administratíva|firma} > patient {lehota|zmluva|vízum}
+V predĺžiť : {mesto|obec|úrad|vláda|administratíva} > patient road
+N predĺženie : event
+V komprimovať : agent > patient {údaje|súbor|informácia}
+V komprimovať : agent > patient gas
+V splynúť : substance > companion substance
+V splynúť : institution > companion institution
+V zmiešať : person > patient substance, instrument substance
+AN zmiešaný : substance, group
+V vystriedať : {tréner|riaditeľ|minister|šéf|kolega|prezident|kancelár|predseda} > patient {tréner|riaditeľ|minister|šéf|kolega|prezident|kancelár|predseda}
+V vystriedať : person > patient {stráž|vrstva}
+N vystriedanie : event
+V obnoviť (pôvodný stav) : person -professional > patient {poriadok|mier|pokoj|zdravie|dôvera}
+V obnoviť (pôvodný stav) : {vláda|polícia|štát|úrad|armáda} > patient {poriadok|mier|pokoj}
+V obnoviť (pôvodný stav) : institution > patient building -{jadrová elektráreň}
+N obnovenie : event
+V obnoviť (nahradiť novým) : person > patient {zmluva|pas|preukaz|vízum|vodičský preukaz|povolenie}
+V obnoviť (nahradiť novým) : {remeselník|školník|roľník|firma} > patient building-part
+V obnoviť (nahradiť novým) : person > patient {batéria|pneumatika|kúrenie}
+V obnoviť (nahradiť novým) : {firma|podnik|prevádzka|úrad|mesto|obec|spolok} > patient {zmluva|povolenie}
+N obnova : event
+AN obnoviteľný : fuel, material
+V odriecť : {žena|muž|priateľ|priateľka|kolega|sused|matka|otec|brat|sestra|študent|žiak} > recipient {priateľ|priateľka|hosť|kolega|šéf|šéfka|sused|učiteľ}
+V odriecť : agent -child -{luhár|predchodca} > patient event +attendable
+N odmietnutie : information
+V zachovať : agent > patient {dieťa|človek|priateľ|zviera}, cause {nebezpečenstvo|škoda|nešťastie|núdza}
+V zachovať : person > patient {pokoj|tajomstvo|pamiatka|spomienka|poklad|fotka|list (písomnosť)|kľúč}
+V uchovať : person > patient {kľúč|list (písomnosť)|fotka|šperk|peniaze|dokument|liek|hračka|poklad}
+V uchovať : person > patient food
+V zavrhnúť : agent > patient {plán|nápad|myšlienka|návrh|teória}
+V zavrhnúť : agent > patient rule
+V odstrániť : person > patient {štít|štítok|nálepka|plagát|klinec|skrutka|pokrievka|kábel|obraz}
+V odstrániť : person > patient {prach|špina|škvrna|farba|hrdza|sneh}
+N odstránenie : event
+V vyvolať : {dážď|víchor|zemetrasenie} > patient incident
+V vyvolať : person > patient {hádka|panika|vojna|debata}
+V vyvolať : incident > patient {strach|zlosť|panika|smútok}
+V vyvolať : {film|pieseň|báseň|kniha} > patient {strach|radosť|zlosť|panika|smútok}
+V vyvolať : {správa (oznam)|hlásenie|informácia} > patient {strach|panika|zlosť|radosť|smútok}
+V vyvolať : person > patient {strach|radosť|zlosť|panika|smútok}
+N spúšť : abstract
+V určiť : {lekár|expert|výskumník|vedec} > patient {vek|druh|hodnota}
+V určiť : {obchodník|predavač|majiteľ|firma|obchod} > patient {cena}
+V určiť : {rodičia|otec|matka|učiteľ} > topic {dieťa}
+V určiť : {kráľ|diktátor|vládca|vláda} > topic {ľud|človek}
+V určiť : {starosta|vláda|kráľ|štát} > topic settlement
+AN určitý : moment, person, thing ; attr
+N určenie : rule
+V definovať : agent > patient {pojem|cieľ|rola|úloha}
+N ukončenie : moment
+N priebeh : event
+N pokles : process
+N dopad : abstract
+N dôsledok : abstract
+N reakcia : event
+N úvod : event
+N incident : incident
+N dobudovanie : event
+N vyrovnanie : event
+V zaznamenať : agent > patient {údaje|súvislosť|číslo (matematické)}
+V zabrániť : agent > patient {nehoda|dopravná nehoda|katastrofa|požiar|výbuch|nešťastie}
+V zabrániť : person > patient {vojna|hádka|násilie}
+V zabrániť : {vláda|armáda} > patient {vojna|násilie}
+V zabrániť : {polícia|obec} > patient {hádka|násilie}
+V zabrániť : agent > patient {chyba|nedorozumenie|škoda|konflikt}
+N katastrofa : incident
+V vyhotoviť : agent -group > patient document
+V vyhotoviť : agent -group > patient text
+V vyhotoviť : {vývojár|programátor|firma|študent} > patient software
+V vyhotoviť : person -child > patient picture
+V reagovať : person > theme person
+V reagovať : person > theme incident
+V reagovať : person > theme {správa (oznam)|otázka|kritika|list (písomnosť)}
+V reagovať : animal > theme sound
+V sprísniť : institution > patient {pravidlo|zákon|predpis|zákaz|trest|kontrola}
+V sprísniť : institution > patient {problém|hádka|kríza|konflikt|poloha}
+V vymeniť : person > patient clothing
+V vymeniť : person > patient {pneumatika|batéria|žiarovka|zámok|rukoväť|koleso}
+V vymeniť : person > patient {škola|mesto|krajina (štát)|miesto bydliska|pracovisko|univerzita|nemocnica}
+N zvrat : event
+N transformácia : process
+N nešťastie : incident
+N dianie : event
+N nástupníctvo : event
+N súčasť : quantity
+N príznak : information
+N úsek : quantity
+N hľadisko : idea
+N obsah : information
+N priorita : idea
+N výnimka : idea
+N priechod : road, enterable
+AN rovnaký : thing, quantity, person
+N rovnosť : state
+AN ľahostajný : person
+V podobať sa : person > recipient {otec|matka|brat|sestra|strýko|teta|dedko|babka|starý otec|stará mama}
+AN nerovnaký : thing, quantity, person
+N rozdiel (odlišnosť) : quality
+AN podobný : person, animal, thing, idea
+N podobnosť : quality
+N kontrast : quality
+AN iný : person, thing, place ; attr
+AV inak (iným spôsobom) : manner
+AV na druhej strane : connective
+N časť : quantity
+V deliť : person > patient {izba|byt|stôl|posteľ|auto|taxík|kniha|mobil}, companion {priateľ|priateľka|dieťa|sused|sestra|brat|kolega}
+V deliť : {rodina|manželský pár|tím|trieda} > patient {izba|byt|stôl|posteľ|auto|taxík|kniha|mobil}, companion {priateľ|priateľka|dieťa|sused|sestra|brat|kolega}
+V deliť : person > patient {chlieb|koláč|čokoláda|pizza|jedlo|jablko|torta}, companion {priateľ|priateľka|dieťa|sused|sestra|brat|kolega}
+V deliť : {rodina|manželský pár|tím|trieda} > patient {chlieb|koláč|čokoláda|pizza|jedlo|jablko|torta}, companion {priateľ|priateľka|dieťa|sused|sestra|brat|kolega}
+AV čiastočne : degree
+V rozdať : person > patient {darček|hračka|leták|papierik}
+V rozdať : person > patient baked-goods
+V rozdať : person > patient sweets -{sirup}
+N podiel : quantity
+V zúčastniť sa : agent -{veľvyslanectvo} > share {projekt|rokovanie|diskusia|akcia (činnosť)}
+V zúčastniť sa : person > share {práca|hra|hádka|súťaž|preteky|demonštrácia|voľba}
+V zúčastniť sa : {vojak|armáda|krajina (štát)|štát} > share {vojna}
+N opak : quality
+N druh : abstract
+AN novodobý : device, idea, activity, illness
+N typ : abstract
+N kategória : abstract
+N spôsob : abstract
+N prostriedok : idea
+V sprostredkovať : agent > recipient person, patient {vedomosti|vedomosť|dojem|skúsenosť}
+N príklad : idea
+AV napríklad : connective
+AN vzorový : person, activity, institution
+AN bezprecedentný : event, state, activity
+N poradie : abstract
+N séria : quantity
+N skupina : group
+V zoskupiť : person > patient thing
+V zoskupiť : person > patient person
+N veta : writing
+N nasadenie : activity
+N zásada : rule
+N systém : abstract
+AN systematický : activity, idea, person
+N úroveň : quality
+N štandard : rule
+V spojiť : person > patient {slúchadlo|mobil|tlačiareň|kamera|laptop}, companion {mobil|počítač|laptop|televízor}
+V spojiť : road > patient settlement, companion settlement
+V spojiť : road > patient country, companion country
+N spojenie : relation
+AN záväzný : rule, text
+V pripevniť : person > patient thing, location building
+V oddeliť : person > patient {dieťa|zviera|teľa|jahňa|pes}, source {matka|rodičia|stádo|rodina}
+N rozchod : event
+V kombinovať : person > patient {nohavice|košeľa|bunda|rock|šaty|šál|čiapka|blúzka|sveter}
+V kombinovať : person > patient {nápad|metóda|farba|prvok}
+N kombinácia : abstract
+V obsahovať : container > patient consumable -meat
+V obsahovať : text > patient {informácia|upozornenie|chyba|obraz|veta}
+N zdržanie sa hlasovania : event
+V závisieť : event +attendable > basis {počasie|vietor|dážď}
+V závisieť : {práca|úspech|výsledok|plán} > basis person
+V závisieť : {cena|zisk|spotreba|výnos} > basis {množstvo|dopyt|kvalita}
+V závisieť : {zdravie} > basis {výživa|spánok (stav)|práca}
+V závisieť : {úspech|šťastie} > basis {práca|náhoda}
+AN závislý (od niečoho) : person, institution
+N závislosť (vzťah) : state
+N vzťah : relation
+V odoberať : person > patient {noviny|časopis|časopis}
+V odoberať : person > patient {plat|mzda|dôchodok|štipendium}
+N súvislosť : abstract
+N rozmanitosť : quality
+AN rozmanitý : information, landscape, activity, food
+N verzia : abstract
+N alternatíva : idea
+AN alternatívny : idea, activity ; attr
+N črta : quality
+V všimnúť si : person > patient {chyba|rozdiel (odlišnosť)|zmena|klamstvo|nebezpečenstvo}
+V všimnúť si : person > that
+N aspekt : idea
+N detail : information
+N prvok : abstract
+N faktor : abstract
+N prameň : water-body, information ; an
+AN pôvodný : idea, thing, place
+N základ : abstract
+N jadro : abstract, plant-part
+N rámec : idea
+N model : idea
+N taktika : idea
+AN taktický : idea, activity
+N postup : activity
+N proces : event
+N technika : activity
+N stratégia : idea
+AN strategický : idea, activity
+N režim (nastavenie) : idea
+N formát : quality
+V formátovať : agent > patient text
+V formátovať : agent > patient device
+N postupnosť : event
+N porovnanie : activity
+V zodpovedať : {výsledok|výkon|ponuka|kvalita} > recipient {očakávanie|želanie|predstava}
+V zodpovedať : {dej|práca|správanie} > recipient rule
+V zodpovedať : device > recipient {norma|predpis|pravidlo|zákon|požiadavka (kritérium)}
+V zodpovedať : {tvrdenie|údaj|správa (o udalosti)} > recipient {pravda|fakt}
+AN zodpovedajúci : activity, information, rule ; attr
+V interagovať : agent > companion agent
+N interakcia : relation
+N protiklad : abstract
+N zaobchádzanie : abstract
+N účasť : state
+N účastník : role
+N účastníčka : role
+N pripojenie : abstract
+N nárok : idea
+N potreba : quantity
+N príspevok : information
+N záujem : feeling
+N šanca : state
+N potenciál : quality
+N realita : state
+N funkcia : quality
+N koncepcia : idea
+N variant : abstract
+N odpor : activity
+N zámer : idea
+N iniciatíva : activity
+N angažovanosť : quality
+N realizácia : activity
+N zavedenie : event
+N obmedzenie : rule
+N kríza : state
+N dispozícia : rule
+V disponovať : agent > patient vehicle
+V disponovať : agent > patient {skúsenosť|vedomosti|imanie|schopnosť}
+V disponovať : {vláda|úrad|pokrm|mesto|obec|administratíva|ministerstvo} > patient {zákaz|usporiadanie|opatrenie|úprava|zákon|pravidlo}
+V týkať sa : {zákon|pravidlo|predpis|zákaz} > patient person
+V týkať sa : {problém|otázka|rozhodnutie} > patient person
+V týkať sa : illness > patient person
+V týkať sa : incident > patient person
+V týkať sa : {zákon|pravidlo|predpis|zákaz} > patient institution
+AN postihnutý : person, group
+N postihnutý : role
+V prevziať : agent > patient {práca|úloha|zodpovednosť|vedenie|vedenie|náklady}
+V prevziať : {firma|koncern|podnik|banka|investor|podnikateľ|majiteľ|vlastník} > patient {firma|podnik|spolok|obchod|banka}
+V prijať (do skupiny) : {rodina|hostiteľ|hotel|hostinský|sused|obec} > patient {hosť|dieťa|utečenec}
+V prijať (do skupiny) : {nemocnica|lekár|klinika} > patient {pacient}
+V prijať (do skupiny) : {škola|učiteľ|univerzita} > patient {žiak|študent}
+V prijať (do skupiny) : {spolok|firma|politická strana} > patient {člen|spolupracovník}
+V prijať (do skupiny) : {spevák|speváčka|hudobník|umelec|umelkyňa|herec|herečka} > patient {pieseň|film|hudba|video|zásielka}
+V prijať (do skupiny) : agent > patient {práca|tréning|kontakt|rozhovor|rokovanie}
+N prijatie : event, picture
+V vzdať sa : person > theme {mäso|cukor|čokoláda|alkohol|káva|koláč}
+V vzdať sa : person > theme drink
+V vzdať sa : agent > theme money
+V vzdať sa : agent > theme {práca|cesta (cestovanie)|dovolenka|šport}
+V vzdať sa : agent > theme game
+V použiť : person > patient {náradie|nôž|kladivo|slúchadlo|počítač|mobil|dron|kľúč|stroj}
+V použiť : person > patient {obraz|fotka|karta|plagát}
+V použiť : person > patient material
+V nasadiť (do služby) : agent > patient {náradie}
+V nasadiť (do služby) : agent > patient {robot|stroj|počítač|kamera}
+V nasadiť (do služby) : {vojak|policajt|polícia|armáda|lovec} > patient weapon
+V nasadiť (do služby) : agent > patient {peniaze}
+V nasadiť (do služby) : {tréner|šéf|šéfka|firma|vláda|polícia|riaditeľ|armáda|veliteľ} > patient {spolupracovník|vojak|policajt|učiteľ|hráč}
+V zasadiť sa : person > purpose {dieťa|priateľ|priateľka|sused|kolega|matka|rodina}
+V zasadiť sa : person > purpose {mier|právo|spravodlivosť|sloboda|zmena}
+AN zúčastnený : agent
+V profitovať : agent > source {vedomosti|skúsenosť|upozornenie|rada}
+V profitovať : {firma|podnik|krajina (štát)|robotník|zákazník|občan|obec} > source {rast|vývoj|pokrok|zlepšenie|rozšírenie}
+V profitovať : agent > source {zákon|úprava|nariadenie}
+V profitovať : agent > source {tréning|reforma|vyučovanie|šport|cesta (cestovanie)}
+V splniť : {firma|úrad|škola|spolok|obec|tím} > patient {predpis|pravidlo|norma|povinnosť|podmienka|požiadavka (kritérium)}
+V splniť : person > patient {želanie|sen|očakávanie|nádej}
+V splniť : {dym|para|plyn|vôňa|pach|hluk|hudba|hmla} > patient room
+V rozostaviť : person > patient furniture -{sedadlo}
+V rozostaviť : {obec|mesto|spolok} > patient {štít|pamätník}
+V rozostaviť : {lovec|lesník|roľník} > patient {pasca}
+V rozostaviť : agent > patient {mužstvo|tím|zoznam|kandidát}
+V zaregistrovať : agent > patient person
+V zaregistrovať : agent > patient incident
+V zaregistrovať : agent > patient process
+V vytvoriť : {vláda|polícia|obec|mesto|učiteľ|učiteľka|matka|otec|šéf} > patient {mier|poriadok|pokoj|jasnosť|miesto (priestor)|práca|dôvera}
+V zvládnuť : person > patient {práca|úloha|trať|odborná príprava}
+V zvládnuť : person -professional > patient {skúška|test|kurz|maturita}
+V zvládnuť : person > patient {vlak|autobus|let|lietadlo|železnica}
+V opustiť : animal > patient building
+V opustiť : animal > patient room
+V opustiť : animal > patient settlement
+V opustiť : animal > patient country
+V opustiť : person > patient {partner|partnerka|priateľ|priateľka|manžel|manželka|muž|žena|rodina}
+V zachrániť : person > patient beast -{zver}
+V zachrániť : person > patient {dieťa|priateľ|priateľka|brat|sestra|zranený|pacient|obeť}
+V zachrániť : person > patient {fotka|kniha|obraz|šperk|peniaze|dokument|laptop}
+V zachrániť : person > patient {dom|kostol|budova|hrad}
+V zaopatriť : {matka|otec|rodičia|babka|dedko|mama|otec|ošetrovateľ|ošetrovateľka|zdravotná sestra} > patient {dieťa|pacient|zranený|chorý|bábätko}, instrument {jedlo|voda|šťava|chlieb|potrava|liek}
+V zaopatriť : {matka|otec|rodičia|babka|dedko|mama|otec|ošetrovateľ|ošetrovateľka|zdravotná sestra} > patient {dieťa|pacient|zranený|chorý|bábätko}
+V zaopatriť : {roľník|veterinár|pastier} > patient {zviera|kôň}, instrument {voda|krmivo|liek}
+V zaopatriť : {roľník|veterinár|pastier} > patient {zviera|kôň}
+N zásobovanie : activity
+V zablokovať : {polícia|úrad|mesto|obec|vláda|administratíva} > patient road
+V zablokovať : {polícia|úrad|mesto|obec|vláda|administratíva} > patient {budova|stanica|most|miesto (priestor)|múzeum|štadión}
+V zahájiť : {mesto|obec|firma|podnik|koncern|univerzita|kostol|spolok} > patient building
+V zahájiť : {starosta|starostka|prezident|riaditeľ|minister|kráľ} > patient {slávnosť|výstava|koncert|omša|trh|turnaj|zasadnutie}
+V zahájiť : person -child > patient {účet (bankový)|debata|výstava}
+V zahájiť : {banka|múzeum|galéria} > patient {účet (bankový)|výstava}
+N otvorenie : event, attendable
+N prístup : abstract
+N odstup : quantity
+N okolie : place
+N predpolie : position
+N rozsah : quantity
+N ťažisko : idea
+N východisko : idea
+N náskok : quantity
+N zaostávanie : quantity
+V dať : person > recipient person, patient {darček|kniha|list (písomnosť)|kľúč|peniaze|kvetina|hračka|balík}
+V dať : {polícia|úrad|úrad|vláda|banka|firma} > recipient {zákazník|občan|uchádzač|pacient|návštevník}, patient {odpoveď|informácia|rada|upozornenie}
+V dať : es > patient food
+V dať : es > patient event +attendable
+V dať : es > patient {dážď|búrka|hádka|zápcha|vojna}
+V dať : person > recipient person, patient {odpoveď|rada|pomoc}
+V dať : es > patient {problém|dážď|káva|koláč|miesto (priestor)|práca}
+N výsledok : information
+V vyplynúť : {problém|ťažkosť} > source {situácia|poloha|stav}
+V vyplynúť : {poznatok|výsledok|otázka} > source {štúdia|pozorovanie|vyšetrenie}
+V vyplynúť : {škoda|situácia|problém} > source incident
+V vyplynúť : {súčet|suma|cena|hmotnosť|výsledok} > source {množstvo|číslo (matematické)|počet|súčet|cena}
+V vyplynúť : person > recipient {polícia|nepriateľ|protivník|armáda|víťaz}
+V odovzdať : {žiak|študent|dieťa|chlapec|dievča|tínedžer} > patient {domáca úloha|slohová práca}, recipient {učiteľ|profesor}
+V odovzdať : person > patient {list (písomnosť)|pošta|papierik}, recipient {úradník|sused|susedka|kolega|šéf}
+V odovzdať : person > patient {žiadosť|formulár|žiadosť o prácu|vysvedčenie}, recipient {úradník|šéf|profesor}
+V odovzdať : person > patient {balík|kľúč|peniaze|bunda}, recipient {sused|susedka|kolega|priateľ}
+V odovzdať : agent > patient {vysvetlenie|hlas|názor|rozsudok}
+V udať : person > patient {dôvod|meno|adresa|vek|prameň}
+V udať : person > that
+V vziať : person > patient {dáždnik|taška|bunda|kabát|kľúč|mobil|kniha|kufor|batoh|okuliare|náradie|taxík|autobus|vlak|lietadlo}
+V vziať : person > patient {káva|čaj|šťava|voda|mlieko|pivo|víno}
+V vziať : person > patient medicine -{vakcína}
+V vziať : person > patient baked-goods
+V vziať : person > patient sweets
+V vziať : person > bare {miesto (priestor)}
+V vziať : person > bare {ohľad}, purpose {dieťa|sused|hosť|priateľ|pacient|matka|kolega}
+V ubúdať : quantity -{rekord}
+V ubúdať : animal -professional
+V ubúdať : person > recipient agent, patient {práca|bremeno|batožina|taška|kufor|balík|starosť}
+V pribúdať : {číslo (matematické)|množstvo|počet|cena|hmotnosť|hluk|doprava|dávka}
+V pribúdať : animal -professional
+V prijať (ponuku) : agent > patient {ponuka|návrh|pozvanie|žiadosť|plán}
+V prijať (ponuku) : person > patient {darček|balík|list (písomnosť)|peniaze|kvetina|hodiny}
+V prijať (ponuku) : person > that
+V predsavziať si : {firma|úrad|vláda|obec|lekár|lekárka|šéf|spolupracovník|úradník|učiteľ|inžinier} > patient {zmena|kontrola|vyšetrenie|meranie|výpočet}
+V strpieť : person > patient {porážka|strata|kritika|bolesť|nevýhoda}
+V dostať : person > patient thing
+V dostať : agent > patient {odpoveď|správa (oznam)|informácia|povolenie}
+V udržať : agent > patient relation
+V udržať : agent > patient {poriadok|mier|pokoj|disciplína}
+V udržať : agent > patient rule
+N obdržanie : event
+V priniesť : person > recipient {priateľ|dieťa|hosť|zákazník|sused|matka|otec|sestra|brat}, patient {darček|balík|kvetina|koláč|kniha|list (písomnosť)|jedlo|voda|káva|taška|kufor}
+V priniesť : person > patient {darček|balík|kvetina|koláč|kniha|list (písomnosť)|jedlo|voda|káva|taška|kufor}, inf
+V priniesť : person > patient {kufor|taška|bedňa|balík|batožina|stôl|stolička (nábytok)}, goal room -{toaleta}
+V priniesť so sebou : person > recipient {priateľ|dieťa|hosť|zákazník|sused|matka|otec|sestra|brat}, patient {koláč|kvetina|víno|kniha|chlieb|čokoláda|darček|káva}
+V priniesť so sebou : person > patient {priateľ|priateľka|dieťa|hosť|kolega}
+V stráviť : person > patient {večer|deň|víkend|odpoludnie|predpoludnie}, location {záhrada|park|mesto|kaviareň|knižnica|kuchyňa|les|hotel}
+V stráviť : person > patient {dovolenka|leto|zima|týždeň|mesiac (časť roka)}, location country
+V ubytovať : {hotel|hostiteľ|sprievodca|rodina|obec|škola|šéf|firma} > patient person, location {hotel|hostel|domov|byt|penzión|stan}
+V ubytovať : person > patient {batožina|náklad|kufor|nábytok|materiál}, location room
+V položiť : person > patient {kľúč|mobil|okuliare|taška|bunda|čiapka|šál}, goal {stôl|stolička (nábytok)|posteľ|gauč|polica}
+V položiť : person > patient {nôž|kľúč|mobil|okuliare}, goal {stôl|polica|skriňa}
+V položiť : person > patient {kľúč|mobil|okuliare|čiapka|šál|nôž|darček}, goal {taška|bedňa|kufor|škatuľa|kôš|batoh}
+V doložiť : person > patient baked-goods, instrument food
+V doložiť : agent > patient {tvrdenie|tvrdenie|domnienka|teória}
+V stanoviť : agent > patient {pravidlo|úprava|zákon|predpis|zákaz|cena}
+V stanoviť : person -child > patient {termín|dátum|časový bod|čas (na hodinách)|začiatok}
+V stanoviť : {úrad|ministerstvo|vláda|pokrm|administratíva|škola} > patient {termín|dátum|časový bod|začiatok}
+V premiestniť : person > patient thing
+V premiestniť : agent > patient event +attendable
+V ponechať si : person > patient {peniaze|darček|kľúč|mobil|okuliare|hodiny|prsteň|čiapka|šál}
+V ponechať si : person > patient {tajomstvo|meno|názor|vedomosti}
+V ponechať : person > patient thing
+V ponechať : agent > patient {stav|situácia|poloha}
+V stratiť : person > patient {mobil|okuliare|hodiny|prsteň|taška|kabát|čiapka|šál|dáždnik|kufor}
+V stratiť : person > patient {cestovný lístok|lístok|pas|preukaz|vodičský preukaz|kľúč|peniaze}
+V stratiť : agent -group > patient game -{videohra}
+V stratiť : {krajina (štát)|vláda|armáda|vojak} > patient {vojna}
+V stratiť : {vojak|boxer|bojovník} > patient {boj}
+V stratiť : {politická strana|politik|kandidát} > patient {voľba}
+V stratiť : {advokát|firma|spolok} > patient {proces}
+V stratiť : plant > patient plant-part
+AN stratený : object, place, animal, event
+V nájsť : person > patient {kľúč|peniaze|mobil|peňaženka|okuliare|taška|prsteň|reťaz|batožina|hodiny|kufor|kniha}
+V nájsť : person > patient {auto|bicykel|čln|motocykel|autobus}
+V nájsť : person > patient pet
+V nájsť : person > patient {priateľ|priateľka|lekár|dieťa|muž|žena|partner}
+V nájsť : person > patient {dom|hotel|byt|reštaurácia|stanica|chata}
+V nájsť : beast > patient {krmivo}
+V nájsť : {vták|veverička|myš|škrečok|medveď|zajac} > patient {orech|bobuľa|semeno}
+V nájsť : {pes|vlk|líška} > patient {kosť}
+V nájsť : person > that
+V nachádzať sa : thing -text -document -{výdavok} > location room
+V nachádzať sa : {auto|voz|bicykel|motocykel|nákladné auto|traktor|autobus|kolobežka} > location {garáž|mesto|dielňa|dedina|hala}
+V nachádzať sa : {loď|čln|trajekt} > location {prístav}
+V nachádzať sa : furniture -{banka|zásuvka (v nábytku)} > location room
+V nachádzať sa : furniture -{zásuvka (v nábytku)} > location {dom|hotel|zámok|byt|škola|nemocnica|múzeum|kláštor}
+V nachádzať sa : animal > location place -water-body -{miesto (v priestore)}
+V nachádzať sa : plant -{izbová rastlina} > location {záhrada|les|pole|park|lúka}
+V nachádzať sa : building -{jadrová elektráreň} > location settlement -{hlavné mesto}
+V nachádzať sa : building > location region
+V nachádzať sa : building > location country
+V konať sa : event +attendable
+V konať sa : celebration
+V konať sa : {hra|zápas|turnaj|súťaž|preteky|šport|tréning}
+V konať sa : {voľba|proces|zhromaždenie|test}
+N nález : thing
+V hľadať : person > patient {kľúč|mobil|okuliare|taška|kniha|fľaša|kufor|peňaženka|náradie|bunda|čiapka|lopta}
+V hľadať : person > patient {auto|bicykel|čln|motocykel|autobus}
+V hľadať : person > patient pet
+V hľadať : person -child > patient {muž|žena|osoba|lekár|svedok|páchateľ|zlodej|podozrivý}
+V hľadať : person > patient {miesto (priestor)|cesta (komunikácia)|východ (výstup)|vchod|parkovisko|byt|hotel|izba}
+V hľadať : person > theme {kľúč|mobil|okuliare|taška|kniha|fľaša|kufor|peňaženka|náradie|bunda|čiapka|lopta}
+V hľadať : person > theme {auto|bicykel|čln|motocykel|autobus}
+V hľadať : person > theme {dieťa|pes|mačka|priateľ|lekár|svedok|páchateľ}
+V hľadať : person > theme {cesta (komunikácia)|východ (výstup)|vchod|byt|miesto (priestor)|izba}
+V hľadať : beast > patient {krmivo}
+V hľadať : {vták|veverička|myš|škrečok|medveď|zajac} > patient {orech|bobuľa|semeno}
+V hľadať : {pes|vlk|líška|mačka} > patient {kosť|mäso}
+V hľadať : {vták|kura} > patient {červ}
+V hľadať : beast > theme {krmivo}
+V hľadať : {vták|veverička|myš|škrečok|medveď|zajac} > theme {orech|bobuľa|semeno}
+V hľadať : {pes|vlk|líška|mačka} > theme {kosť|mäso}
+V hľadať : {vták|kura} > theme {červ}
+N hľadanie : activity
+V zbierať : person > patient {poštová známka|minca|kameň|mušľa|hračka}
+V zbierať : {včela} > patient {nektár|peľ|med}
+V zbierať : {mravec|veverička|škrečok} > patient {orech|semeno|zrno|krmivo}
+V zbierať : {vták} > patient {krmivo|semeno|bobuľa}
+V zbierať : person > patient {huba|bobuľa|malina|plod|bylina}
+N zbierka : quantity
+V zhromaždiť : {učiteľ|učiteľka|matka|otec|rodičia|tréner} > patient {dieťa|žiak|tím|rodina}
+V zhromaždiť : {šéf|riaditeľ|rebrík|tréner} > patient {spolupracovník|člen|tím}
+V zhromaždiť : {hostiteľ|priateľ|priateľka|matka|otec} > patient {hosť|priateľ|rodina}
+V zhromaždiť : {škola|firma|spolok} > patient {žiak|spolupracovník|člen}
+N zhromaždenie : event, attendable
+V pridať : person > patient seasoning, inf
+V pridať : person > patient {komentár|poznámka|informácia|poznámka}
+V dodať : {firma|obchodník|dodávateľ|továreň|výrobca|obchod|predavač} > patient thing -document -text -money, recipient {zákazník|obchodník|firma|škola|reštaurácia|obchod}
+V dodať : agent > patient {údaje|dôkaz|výsledok|dôvod}
+N dodávka : event
+V ponúknuť : person > recipient {hosť|dieťa|zákazník|priateľ|návštevník|sused}, patient {káva|čaj|jedlo|miesto (priestor)|pomoc}
+V ponúknuť : {firma|banka|hotel|obchod|reštaurácia} > recipient {zákazník|hosť|návštevník}, patient {pomoc}
+V ponúknuť : {kostol|škola|obec|spolok} > recipient {dieťa|utečenec|návštevník|mladistvý}, patient {pomoc}
+V ponúknuť : place > patient {šport|zábava|miesto (priestor)|pokoj|ochrana|výhľad}
+N ponuka : information
+N poskytovateľ : institution
+V nechať : person > patient thing -document -text -money, location {dom|garáž|pivnica|kôlňa|tábor}
+V nechať : person > patient thing -document -text, location {izba|detská izba|obývačka|kuchyňa|spálňa}
+V nechať : person > patient {kôň|pes|mačka|krava|prasa}, location {maštaľ|hala|dom}
+V nechať : person > patient {dieťa|pes|mačka|chlapec|dievča}, location {izba|detská izba|obývačka|kuchyňa|spálňa}
+V nechať : person > patient {dieťa|pes|mačka}, location {dedina|mesto}
+V nechať : person -child > patient vehicle -{raketa|tank}, inf.obj
+V nechať : person -child > patient device, inf.obj
+V nechať : person -child > patient clothing, inf.obj
+V nechať : person -child > patient furniture -{sedadlo}, inf.obj
+V nechať : person > patient {fotka|vlasy}, inf.obj
+V nechať : person > patient person, inf.bare {spať|hrať|ísť (pešo)|prísť|čakať|pracovať}
+V pripustiť : agent > patient {pochybnosť|kritika|chyba|násilie}
+V pripustiť : {univerzita|vysoká škola|škola|úrad|politická strana|spolok|ministerstvo} > patient {kandidát|kandidátka|uchádzač|študent|študentka|účastník|účastníčka}
+V poslať : agent > recipient person, patient {balík|darček|list (písomnosť)|pohľadnica|fotka|kvetina|karta|správa (oznam)}
+V poslať : person > patient {dieťa|syn|dcéra|chlapec|dievča|žiak}, goal {škola|kostol|škôlka|obchod|pekáreň|supermarket|nemocnica}
+V poslať : person > patient {dieťa|syn|dcéra|chlapec|dievča|žiak}, goal {izba|detská izba|obývačka|kuchyňa|spálňa}
+V poslať : person > patient {dieťa|syn|dcéra|chlapec|dievča|žiak}, goal settlement
+V doniesť : person > patient clothing
+V doniesť : person > patient {kniha|kľúč|mobil|taška|náradie}
+V doniesť : person > patient consumable -{zver}
+V doniesť : person > patient {lekár|obvodný lekár|policajt|hasič|dieťa|pes}
+V doniesť : person > recipient person, patient consumable
+V doniesť : person > recipient person, patient {kniha|kľúč|mobil|taška|náradie}
+V vybaviť (výbavou) : {firma|podnik|majiteľ|vlastník|nájomník|architekt|dizajnér} > patient room, instrument furniture
+V vybaviť (výbavou) : {firma|podnik|úrad|armáda|polícia|šéf|škola} > patient {vojak|policajt|spolupracovník|robotník}, instrument {prilba|zbraň|uniforma|mobil|náradie}
+N akcia (činnosť) : activity
+N činnosť : activity
+AN aktívny : animal, institution
+V aktivovať : agent > patient device
+N kontrola : activity
+V kontrolovať : {polícia|úrad|úradník|policajt|vojak} > patient vehicle
+V kontrolovať : {polícia|policajt|úradník|revízor|sprievodca vo vlaku|úrad} > patient {pas|preukaz|cestovný lístok|vízum|vodičský preukaz|účet (na zaplatenie)|zmluva|dokument}
+V kontrolovať : {polícia|úrad|úradník|policajt|vojak} > patient container
+V kontrolovať : {veterinár|roľník|lesník} > patient beast
+V kontrolovať : {polícia|úrad|úradník|policajt|vojak} > patient building
+V kontrolovať : {armáda|vláda} > patient {mesto|región}
+V používať : person > patient tool
+V používať : person > patient device
+V používať : person > patient kitchenware
+V používať : person > patient furniture -{sedadlo}
+V používať : person > patient vehicle -{raketa|tank}
+V využiť : person > patient {mobil|počítač|výťah|auto|bicykel|telefón|náradie|varecha|autobus|vlak}
+V využiť : person > patient {príležitosť|šanca|čas (trvanie)|prestávka}
+N úžitok : quality
+N využívanie : activity
+N zásielka : creative-work, artifact
+N vysielač : device
+N odosielateľ : agent
+V dbať na : agent > patient {pravidlo|zákon|predpis|zákaz}
+V dbať na : person > patient {pravidlo|zákon|predpis|zákaz}
+V dbať na : animal > patient {upozornenie|varovanie|znak|signál}
+V dbať na : animal > patient person
+V stvárniť : person > patient picture
+V stvárniť : person > patient {plagát|karta|pozvanie|strana}
+V stvárniť : {architekt|dizajnér|umelec|majiteľ|nájomník|firma} > patient room
+V stvárniť : person -child > patient {záhrada|park|miesto (priestor)}
+V stvárniť : {mesto|obec} > patient {park|miesto (priestor)}
+V stvárniť : agent > patient celebration
+V stvárniť : agent > patient {vyučovanie|večer|program|voľný čas}
+V preniesť : agent > patient {údaje|správa (oznam)|signál|veľvyslanectvo}
+V preniesť : {televízia|rádio|vysielač} > patient game -{videohra}
+V preniesť : {televízia|rádio|vysielač} > patient {koncert|bohoslužba|reč}
+V vystaviť (nebezpečenstvu) : {matka|otec|rodičia|lekár|učiteľ|tréner|šéf} > patient {dieťa|pacient|pes|mačka|kôň}, cause {chlad|horúčava|nebezpečenstvo|hluk|vietor}
+V zaistiť : {polícia|palec (jednotka dĺžky)|úrad|policajt|úradník} > patient thing -document -text
+V zaistiť : {polícia|palec (jednotka dĺžky)|úrad|policajt|úradník} > patient vehicle -{raketa|tank}
+V zaistiť : agent > patient {drogy|dôkaz|stopa|jed}
+V zaistiť : agent > that
+V zastaviť : {policajt|polícia|vodič|rušňovodič|pilot|kapitán} > patient vehicle
+V zastaviť : agent > patient {práca|vojna|doprava|výroba}
+V zastaviť : {vláda|úrad|obec|mesto|administratíva|polícia|armáda|ministerstvo} > patient process
+V zariadiť : person -child > patient room
+V zariadiť : agent > patient {účet (bankový)|pracovná skupina|komisia}
+V klasifikovať : {úrad|polícia|pokrm|lekár|sudca|ministerstvo} > patient {podozrivý|pacient|páchateľ|obžalovaný}
+V klasifikovať : agent > patient {nebezpečenstvo|riziko|chyba|problém}
+V klasifikovať : agent > patient illness
+V klasifikovať : agent > patient crime
+N zaradenie : activity
+V obmedziť : agent > patient {doprava|obchodovanie|sloboda|pohyb|spotreba}
+AN obmedzený : activity, quality
+V zohľadniť : agent > patient {názor|želanie|návrh|kritika}
+V zohľadniť : agent > patient {upozornenie|skúsenosť|fakt|okolnosť|informácia}
+V zohľadniť : agent > patient {poloha|situácia|stav|vek}
+V zohľadniť : agent > patient {problém|riziko|chyba}
+V obrátiť : person -child > patient {list (rastliny)|strana|mäso|palacinka|matrac|auto|čln}
+V raziť : agent > patient {minca|medaila}
+V raziť : {vojna|zážitok|detstvo|skúsenosť|výchova} > patient {dieťa|mladistvý|človek|život|charakter}
+AN poznačený : place, person, period
+V niesť zodpovednosť za : {vodič|pilot|kapitán|firma|podnik|prevádzkovateľ|výrobca} > patient {nehoda|defekt|meškanie|škoda}
+V niesť zodpovednosť za : agent > patient {chyba|škoda|rozhodnutie}
+N použitie : activity
+V uplatniť : agent > patient {metóda|technika|princíp|postup}
+V uskutočniť : agent > patient {plán|nápad|návrh|koncepcia|projekt|uznesenie|reforma}
+V uskutočniť : agent > patient rule
+V prestaviť : person > patient furniture
+V prestaviť : agent -professional > patient {výživa|výroba|doprava|plán}
+N prechod : event
+V regulovať : person -child -professional > patient {problém|hádka|doprava}
+V regulovať : institution > patient {problém|hádka|doprava}
+V regulovať : rule > patient {doprava|obchodovanie|prístup|priebeh}
+N úprava : rule
+N pravidlo : rule
+V podať : agent > patient {žiadosť|inzerát|sťažnosť|žaloba|účet (na zaplatenie)|správa (o udalosti)}
+V predložiť : agent -child -group > recipient {šéf|učiteľ|minister|sudca|starosta|riaditeľ|pokrm|úrad}, patient text
+V predložiť : agent -child -group > recipient {šéf|učiteľ|minister|sudca|starosta|riaditeľ|pokrm|úrad}, patient {plán|návrh|dôkaz|koncepcia}
+N predloha : text
+V uľaviť : person -child > patient {matka|otec|rodičia|kolega|spolupracovník}
+V uľaviť : {firma|prevádzka|vláda|štát} > patient {spolupracovník|rodina|rodičia}
+V uľaviť : {diaľnica|tunel|most} > patient road
+N odľahčenie : event
+V zrušiť : {vláda|úrad|obec|mesto|administratíva|parlament|firma|škola} > patient {pravidlo|zákon|zákaz|daň|povinnosť|úprava|trest}
+N zrušenie : event
+V zaručiť : {polícia|vláda|štát|šéf|prevádzkovateľ|riaditeľ|minister} > patient {bezpečnosť|mier|poriadok|pokoj|ochrana}
+V akceptovať : agent > patient {návrh|ponuka|rozhodnutie|názor|pravidlo|vysvetlenie}
+V akceptovať : person > patient {partner|priateľ|sused|kolega}
+V začleniť : {škola|obec|firma|spolok|tím|trieda|rodina} > patient {utečenec|migrant|dieťa|žiak|žiačka|prisťahovalec}
+V začleniť : agent > patient device
+V udeliť : person -child > recipient {zákazník|občan|pacient|návštevník|dieťa|priateľ|kolega}, patient {informácia|rada|povolenie}
+V udeliť : person -child > recipient {žiak|dieťa|študent}, patient {vyučovanie|rada}
+V udeliť : person -child > recipient {spolupracovník|kolega}, patient {zákazka}
+V zhasiť : person > patient {oheň|požiar|svetlo|smäd}
+V zhasiť : person > patient {súbor|údaje|správa (oznam)|text}
+V zmeškať : person > patient event +attendable
+V zmeškať : person > patient {termín|šanca|príležitosť}
+V zmeškať : person > patient {autobus|vlak|železnica|let|lietadlo}
+V uchopiť : {polícia|policajt|komisár|vyšetrovateľ|detektív} > patient {zlodej|páchateľ|zločinec|vrah}
+V uchopiť : person > patient {lano|lopta|ruka}
+V uchopiť : person > patient {rozhodnutie|uznesenie|plán|myšlienka|odvaha}
+V mať v pláne : person > inf
+V mať v pláne : person > patient {cesta (cestovanie)|dovolenka|návšteva|výlet|sťahovanie}
+N odbúranie : process
+N obrázok : picture
+N odcestovanie : event
+N zabezpečenie : activity
+N spestrenie : event
+N odpočet : quantity
+N rozbeh : event
+N zakúpenie : activity
+N vyrovnanie sa s minulosťou : activity
+N pobyt : event
+N rozmach : process
+N výpadok : incident
+N vykonanie : activity
+N zameranie : quality
+N výrez : quantity
+N vzhľad : quality
+N vystúpenie (z organizácie) : event
+N outsider : person
+N spracovanie : activity
+N zdravotný stav : state
+N pristúpenie : event
+N upokojenie : process
+N uzdravenie : process
+N stav zásob : quantity
+N šarm : quality
+N prielom : event
+N uskutočnenie : activity
+N dynamika : quality
+N vlastnosť : quality
+N zadanie : activity
+N dodržiavanie : activity
+N ojedinelý prípad : state
+N likvidácia odpadu : activity
+N vznik : process
+N zachovanie : activity
+N zisťovanie : activity
+N vážny prípad : state
+N výnos : quantity
+N nadobudnutie : activity
+N sebaovládanie : state
+N ohrozenie : state
+N platnosť : state
+N spoločná črta : quality
+N tvorba : activity
+N priazeň : state
+N manipulácia : activity
+N honorár : money
+N odvrátená strana : idea
+N konsenzus : state
+N bremeno : idea
+N životný štýl : quality
+N smernica : rule
+N zmiernenie : process
+N mierka : measure
+N pridaná hodnota : quality
+N námaha : state
+N nový začiatok : event
+N úpadok : process
+N normálnosť : state
+N horná hranica : quantity
+N jav : phenomenon
+N podnet : abstract
+N zatvorenie : event
+N sebaurčenie : state
+N dôkladnosť : quality
+N voľnosť : quantity
+N sporný bod : problem
+N posilnenie : process
+N závažnosť : quality
+N zhon : state
+N zmena myslenia : process
+N obrovské množstvo : quantity
+N nepokoj : state
+N podsúvanie : information
+N prenasledovanie : activity
+N prenájom : activity
+N sprostredkovanie : activity
+N strava : food ; mass
+N zosilnenie : process
+N rozdelenie : activity
+N zastúpenie : activity
+N predvečer : moment
+N zámienka : idea
+N údržba : activity
+N zánik : process
+N ďalší vývoj : process
+N zlomový bod : moment
+N rekonštrukcia : process
+N skutočnosť : state
+N účinnosť : quality
+N blaho : state
+N platidlo : money
+N zrútenie : incident
+N súdržnosť : state
+N prírastok : quantity
+N pochybný prípad : state
+N zhoda : state
+N prevzatie : event
+N prenos : activity
+N dohľad : activity
+V užívať : person > patient {liek|tabletka}
+V strašiť : {búrka|víchor|oheň|hrom|tma} > patient animal
+V strašiť : {vojna|nehoda|správa (oznam)|skúška|hrozba|nebezpečenstvo} > patient animal
+V strašiť : animal -insect > patient animal
+V strašiť : animal -insect > cause {pes|vlk|medveď|had|pavúk|tiger|lev|žralok}
+V strašiť : animal -insect > cause {búrka|víchor|oheň|hrom|tma}
+V strašiť : animal -insect > cause {vojna|nehoda|skúška|budúcnosť|operácia}
+V strašiť : animal -insect > cause illness
+V trápiť : illness > patient animal
+V trápiť : {strach|starosť|pochybnosť|vina|žiarlivosť|ľútosť|hanba|clivota} > patient animal
+V trápiť : {problém|starosť|otázka|pochybnosť|vina} > patient person -professional -role
+V trápiť : person > patient mammal
+AN namáhavý : activity, event
+V nepodariť sa : {experiment|pokus|útek|test|skúška|skok|plán|prekvapenie} > recipient person -infant
+V nepodariť sa : dish +cookable > recipient person -infant
+V nepodariť sa : {obraz|fotka|pieseň|báseň|film|kresba} > recipient person -infant
+V lákať : person > patient animal
+V ukazovať : person > theme person
+V ukazovať : person > theme {obraz|tabuľa|dvere|okno|strom|hodiny|mobil}
+V ukazovať : person > theme {karta|dom|mesto|vrch|cesta (komunikácia)|miesto (v priestore)|trať|ostrov}
+V ukazovať : person > patient {znak|sen|stopa|upozornenie|báseň}
+V vypnúť : person -professional > patient device +switchable
+V navigovať : person > patient vehicle
+V navigovať : person
+V spracovať : {autor|redaktor|študent|asistent|tajomník|sekretárka|spolupracovník|spolupracovníčka|kolega|kolegyňa} > patient text
+V spracovať : {stolár|kováč|sochár|remeselník|robotník|majster} > patient material
+V spracovať : {tajomník|sekretárka|asistent|spolupracovník|spolupracovníčka|kolega|kolegyňa|zamestnanec} > patient {žiadosť|formulár|účet (na zaplatenie)|objednávka|dotaz}
+V spracovať : {študent|asistent|spolupracovník|spolupracovníčka|kolega|kolegyňa|vývojár} > patient software
+V zabaliť : person > patient thing
+V zjesť : animal -fish-animal -insect -professional > patient food -seasoning -{citrón|mlieko|vývar|ingrediencia|konzerva|omáčka|pokrm|potrava|smotana|potravina|omáčka|tuk}
+# added: Sendung in its second sense
+N vysielanie : creative-work
+# added: belegen in its second sense
+V obložiť : person > patient baked-goods, instrument food
+# added: verbinden in its second sense
+V obviazať : person > patient body-part, instrument thing
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN aplikovateľný : idea, rule, device, information
+AN bez šance : person, idea, activity
+AN bezdôvodný : feeling, activity, idea
+AN blažený : person, animal, feeling, state
+AN bohatý na udalosti : period, event
+AN funkčný : device, tool, vehicle, idea
+AN katastrofálny : event, state, problem
+AN meniaci sa : phenomenon, state, idea ; attr
+AN neplatný : document, rule, money
+AN neporovnateľný : quality, idea, thing
+AN nepostrádateľný : person, tool, device, information
+AN neurčitý : quantity, idea, information
+AN nezúčastnený : person, animal ; pred
+AN obratný : person, animal
+AN odolný : material, device, person
+AN opačný : direction, idea, position ; attr
+AN platný : document, rule, money
+AN podľa potreby : tool, device, quantity ; attr
+AN pomerný : quantity, idea ; attr
+AN počiatočný : state, moment, quantity ; attr
+AN premenlivý : state, idea, quality
+AN preťažený : person, device, vehicle, institution
+AN prijateľný : idea, rule, quantity, state
+AN protichodný : idea, information, feeling
+AN príčinný : relation, idea ; attr
+AN pôvabný : person, animal, flower, place
+AN rozložiteľný : material, substance, object
+AN rozšíriteľný : device, software, idea
+AN systémovo dôležitý : institution, device
+AN sériový : device, vehicle, artifact ; attr
+AN vecný : information, idea, text ; attr
+AN veľkoformátový : picture, text, document ; attr
+AN voliteľný : activity, device, quantity
+AN využiteľný : material, thing, idea
+AN zaťažiteľný : material, object, vehicle
+AN ziskový : activity, institution, idea
+AN ďalší : thing, person, period ; attr
+AN šarmantný : person, place, animal
+V artikulovať : person > patient {slovo|zvuk|veta}
+V asistovať : person > companion person
+V baliť : person > patient thing
+V baliť : person > patient clothing
+V bublať : liquid
+V bublať : {voda|polievka|potok|prameň}
+V certifikovať : institution > patient {výrobok|dokument|auto}
+V certifikovať : professional > patient {výrobok|dokument|auto}
+V chytiť sa : person > location {lano|vetva|plot|zábradlie}
+V chytiť sa : animal > location {vetva|plot}
+V chápať : person > patient {správa (oznam)|údaj|nápad}
+V chápať : person > patient person
+V chápať : person > that
+V cirkulovať : liquid
+V cirkulovať : {vzduch|krv|informácia|peniaze}
+V dať dokopy : person > patient thing
+V dať dokopy : person > patient person
+V degradovať : person > patient professional
+V degradovať : institution > patient professional
+V deponovať : person > patient {peniaze|dokument|vec}
+V dezinfikovať : person > patient {rana|ruka|nástroj|izba}
+V dešifrovať : person > patient {text|správa (o udalosti)|písmo}
+V dobehnúť : animal > patient animal
+V dobehnúť : person > patient person
+V dodať spolu : person > patient thing
+V dohnať : animal > patient animal
+V dohnať : person > patient person
+V dolaďiť : person > patient {stroj|plán|text|nástroj}
+V dominovať : person > location {skupina|trh|hra}
+V dominovať : institution > location {trh|región}
+V dopraviť : person > patient person, goal place
+V dopraviť : person > patient thing, goal place
+V dostať s námahou : person > patient thing
+V dostať späť : person > patient thing
+V dostať späť : person > patient money
+V drobiť sa : {chlieb|koláč|stena}
+V dunieť : {hrom|motor|bubon}
+V dávkovať : person > patient medicine
+V dávkovať : person > patient {soľ|cukor|korenie|voda}
+V emitovať : device > patient {svetlo|zvuk|teplo|plyn}
+V emitovať : institution > patient {peniaze|akcia (cenný papier)}
+V eskalovať : {konflikt|spor|situácia|násilie|kríza}
+V etablovať : person > patient {firma|škola|zvyk|pravidlo}
+V etablovať : institution > patient {firma|škola|zvyk|pravidlo}
+V generovať : device > patient {elektrina|teplo|zisk|údaj}
+V generovať : person > patient {nápad|zisk|údaj}
+V hemžiť sa : {mravec|ľudia|hmyz|ryba}
+V hojdať (sa) : person > patient {dieťa|kolíska}
+V hojdať (sa) : person
+V holdovať : person > theme {alkohol|jedlo}
+V honosiť sa : person > theme {dom|auto|úspech}
+V honosiť sa : institution > theme {úspech}
+V hompáľať sa : child
+V hrabať sa : animal > location {zem|piesok}
+V hrabať sa : person > location {zem|piesok}
+V hádzať : person > patient thing, goal place
+V hádzať : person > patient thing
+V infiltrovať : person > patient {skupina|organizácia|inštitúcia}
+V infiltrovať : institution > patient {skupina|organizácia|inštitúcia}
+V interpretovať : person > patient {text|údaj|skutočnosť|zákon}
+V izolovať : person > patient {pacient|zviera|budova|kábel}
+V jasať : person
+V klimatizovať : person > patient {izba|budova|auto}
+V kolísať : {cena|teplota|nálada}
+V kompenzovať : person > patient {strata|škoda}
+V kompenzovať : institution > patient {strata|škoda}
+V konzervovať : person > patient food
+V konzervovať : person > patient {drevo|obraz|budova}
+V konzultovať : person > patient {problém|situácia}, companion professional
+V konzultovať : person > patient {správa (oznam)|nápad}, companion person
+V kriminalizovať : {politik|parlament|vláda} > patient {krádež|hriech}
+V kvalifikovať : person > patient {krádež|hriech}, as crime
+V kvalifikovať sa : person > goal celebration
+V kvalifikovať sa : group > goal game
+V líčiť : person > patient body-part
+V líčiť : person > patient incident, recipient person
+V lúštiť : person > patient text
+V manipulovať : person > patient device
+V manipulovať : person > patient person -child
+V maximalizovať : {firma|manažér|podnikateľ} > patient money
+V minimalizovať : person > patient {riziko|strata|chyba|nebezpečenstvo}
+V mixovať : person > patient drink
+V mixovať : person > patient {pieseň}
+V modelovať : person > patient material
+V modelovať : person > patient process
+V montovať : person > patient device
+V montovať : person > patient furniture
+V mávať (predmetom) : person > patient thing
+V naberať : person > patient liquid, instrument {lyžica|naberačka|vedro}
+V naberať : person > patient quality
+V nacvičiť : person > patient {pieseň|báseň|hra}
+V nacvičiť : person > patient ability
+V nadobudnúť : person > patient ability
+V nadobudnúť : person > patient {nádej|viera|záujem}
+V nadobudnúť : person > patient building
+V nahradiť zameškané : person > patient {práca|úloha}
+V nalákať : person > patient person
+V nalákať : animal > patient animal
+V namáhať : person > patient body-part
+V namáhať : person > patient person
+V namáhať : person > patient device
+V napchať : person > patient container, instrument thing
+V napchať : person > patient body-part, instrument food
+V naplánovať : person > patient {stretnutie|oslava|dovolenka|výlet|plán}
+V naplánovať : institution > patient {stretnutie|oslava|plán}
+V napnúť : person > patient material
+V napnúť : person > patient instrument
+V napísať : person > patient text
+V napísať : person > patient {báseň|pieseň|hra}
+V napísať : person > patient document, recipient person
+V narábať : person > patient tool
+V narábať : person > patient weapon
+V narábať : person > patient device
+V natrhať : person > patient flower
+V natrhať : person > patient fruit
+V natrhať : person > patient vegetable
+V natrhať : person > patient paper
+V naštartovať : person > patient vehicle
+V naštartovať : person > patient device
+V naťahovať : person > patient fabric
+V naťahovať : person > patient body-part
+V naťahovať sa : person
+V naťahovať sa : animal
+V nepochopiť : person > patient {otázka|úloha}
+V nepochopiť : person > patient {vysvetlenie|odpoveď|pravidlo}
+V nepochopiť : person > patient rule
+V neutralizovať : person > patient liquid
+V neutralizovať : person > patient {riziko|nebezpečenstvo}
+V nezúčastniť sa : person > share attendable
+V niesť so sebou : person > patient thing
+V niesť so sebou : person > patient container
+V normalizovať : {vláda|politik|inštitúcia} > patient relation
+V normalizovať : es > patient relation
+V nájsť pri príchode : person > patient room
+V nájsť pri príchode : person > patient person, adj
+V nárokovať si : person > patient money
+V nárokovať si : person > patient building
+V nárokovať si : person > patient rule
+V obmieňať : person > patient dish
+V obmieňať : person > patient {úloha|hra}
+V obmieňať : person > patient {pieseň|báseň}
+V obťažovať : person > patient person
+V obťažovať : animal > patient animal
+V obťažovať : {hluk|hmyz} > patient person
+V ochromiť : {choroba|nehoda} > patient person
+V ochromiť : incident > patient process
+V ochromiť : {kríza|konflikt} > patient road
+V odcudziť : person > patient thing
+V odcudziť : person > patient money, source person
+V odpojiť : person > patient device
+V odpojiť : person > patient vehicle
+V odseknúť : person > patient plant-part, instrument {sekera|nôž|meč}
+V odseknúť : person > patient body-part, instrument weapon
+V odstaviť : person > patient vehicle
+V odstaviť : person > patient device
+V odstaviť : relative > patient infant
+V odstupňovať : person > patient quality
+V odstupňovať : person > patient process
+V odtrhnúť : person > patient plant-part
+V odtrhnúť : person > patient paper
+V odtrhnúť : person > patient building-part, source building
+V odvetiť : person > recipient person, that
+V odvetiť : person > recipient person, patient {odpoveď|vysvetlenie}
+V odvodiť : person > patient {pravidlo|plán}
+V odvodiť : person > patient {rozhodnutie|plán}, source {vysvetlenie|odpoveď}
+V odvďačiť sa : person > recipient person, instrument thing
+V odvďačiť sa : person > recipient person, instrument {oprava (poškodeného)|práca}
+V osirieť : child
+V osirieť : person
+V osvojiť si : person > patient ability
+V osvojiť si : person > patient language
+V osvojiť si : person > patient child
+V ovládať : person > patient language
+V ovládať : person > patient instrument
+V ovládať : person > patient vehicle
+V ovládať : person > patient device
+V ovládať : {kráľ|vláda|tyran} > patient country
+V ovládať na diaľku : person > patient device
+V ovládať na diaľku : person > patient toy
+V parafrázovať : person > patient text
+V parafrázovať : person > patient {odpoveď|vysvetlenie|pravidlo}
+V patriť (do skupiny) : person > goal group
+V patriť (do skupiny) : animal > goal group
+V patriť (do skupiny) : thing > goal group
+V patriť (niekam) : thing > goal room
+V patriť (niekam) : person > goal group
+V patriť (niekam) : animal > goal place
+V patriť k tomu : {riziko|úloha|pravidlo} > goal {práca|boj}
+V pašovať : person > patient weapon
+V pašovať : person > patient drink
+V pašovať : person > patient thing
+V plápolať : burnable
+V plápolať : fabric
+V pocítiť : person > patient feeling
+V pocítiť : person > patient illness
+V pocítiť : animal > patient feeling
+V podnecovať : person > patient feeling
+V podnecovať : person > patient {diskusia|boj|záujem}
+V podnecovať : person > patient person, inf
+V podnietiť : person > patient feeling
+V podnietiť : person > patient {diskusia|boj|záujem}
+V podnietiť : person > patient person, inf
+V podopierať : building-part > patient building-part
+V podopierať : person > patient building-part, instrument building-part
+V podvoliť sa : person > recipient person
+V podvoliť sa : person > theme {odpor|konflikt}
+V pohroziť : person > recipient person, instrument weapon
+V pohroziť : person > recipient person, that
+V pokaziť : person > patient device
+V pokaziť : person > patient celebration
+V pokaziť : person > patient meal
+V pokaziť : person > patient {plán|stretnutie}
+V položiť navrch : person > patient thing, goal furniture
+V postaviť proti : person > patient group, opponent group
+V postaviť proti : person > patient person, opponent person
+V postihnúť : incident > patient person
+V postihnúť : illness > patient animal
+V postihnúť : incident > patient settlement
+V postihnúť : rule > patient person
+V postriekať : person > patient plant, instrument liquid
+V postriekať : person > patient building-part, instrument liquid
+V postriekať : vehicle > patient person
+V posunúť dopredu : person > patient furniture
+V posunúť dopredu : person > patient {stretnutie|oslava|dovolenka|výlet}
+V posypať : person > patient food, instrument seasoning
+V posypať : person > patient road, instrument substance
+V používať rodovo citlivý jazyk : person
+V považovať za schopného : person > patient person, as ability
+V pozbierať : person > patient fruit
+V pozbierať : person > patient thing
+V pozbierať : person > patient vegetable
+V pozerať : person > theme picture
+V pozerať : person > theme {hra}
+V pozerať : person > theme animal
+V pozerať : animal > theme animal
+V poznamenať : person > patient {odpoveď|vysvetlenie|novinka}
+V poznamenať : person > that
+V pošpiniť : person > patient clothing
+V pošpiniť : person > patient building-part
+V pošpiniť : person > patient {vina|hriech}
+V požiadať : person > recipient person, theme money
+V požiadať : person > recipient person, theme {odpoveď|vysvetlenie}
+V požiadať : person > recipient person, inf
+V požiadať : person > recipient person, that
+V predchádzať : person > patient {riziko|konflikt|chyba|kríza|nebezpečenstvo}
+V predchádzať : person > patient illness
+V predchádzať : {stretnutie|oslava|výlet|dovolenka} > patient {stretnutie|oslava|výlet|dovolenka}
+V predchádzať : period > patient period
+V predniesť : person > patient {báseň|pieseň|prednáška}
+V predniesť : person > patient {otázka|plán|odpoveď}
+V predstihnúť : person > patient person
+V predstihnúť : vehicle > patient vehicle
+V predstihnúť : institution > patient institution
+V prehrabávať sa : person > path container
+V prehrabávať sa : person > path paper
+V prehĺbiť : person > patient landscape
+V prehĺbiť : person > patient relation
+V prejaviť : person > patient feeling
+V prejaviť : person > patient ability
+V prejsť (vzdialenosť) : person > patient measure
+V prejsť (vzdialenosť) : vehicle > patient measure
+V preklenúť : building-part > patient water-body
+V preklenúť : road > patient water-body
+V preklenúť : person > patient {konflikt|kríza}
+V prekryť : person > patient furniture, instrument fabric
+V prekryť : person > patient food, instrument container
+V prekrývať : fabric > patient furniture
+V prekrývať : picture > patient picture
+V premárniť : person > patient time
+V premárniť : person > patient money
+V premárniť : person > patient ability
+V prenechať : person > patient thing, recipient person
+V prenechať : person > patient building, recipient person
+V prenikať : liquid > path building-part
+V prenikať : gas > path building-part
+V prenikať : sound > path building-part
+V prepadnúť sa : building-part
+V prepadnúť sa : person > location landscape
+V prepojiť : person > patient device
+V prepojiť : road > patient settlement
+V prepojiť : person > patient software
+V prepustiť (na slobodu) : institution > patient person
+V prepustiť (na slobodu) : professional > patient person
+V prerezať : person > patient material, instrument tool
+V prerezať : person > patient fabric, instrument tool
+V prestavať : person > patient building
+V prestavať : person > patient room
+V prevalcovať : vehicle > patient road
+V prevalcovať : vehicle > patient animal
+V prevalcovať : group > patient group
+V prevalcovať : institution > patient institution
+V previazať : person > patient container, instrument fabric
+V previazať : person > patient body-part, instrument fabric
+V prevládať : quality
+V prevládať : feeling
+V prevládať : es > location region
+V prevládať : es > location settlement
+V prevrátiť : person > patient furniture
+V prevrátiť : person > patient vehicle
+V prevrátiť : person > patient container
+V prevrátiť sa : vehicle
+V prevrátiť sa : furniture
+V prevrátiť sa : container
+V prevrátiť sa : person
+V prevyšovať : tree > patient building
+V prevyšovať : building > patient building
+V prevyšovať : person > patient person
+V prevyšovať : quantity > patient quantity
+V prevyšovať : money > patient money
+V prezbrojiť : institution > patient group
+V prezbrojiť : institution
+V priam sršať : person > instrument feeling
+V priam sršať : person > instrument ability
+V priam sršať : fuel
+V priblížiť sa : person > goal building
+V priblížiť sa : person > goal settlement
+V priblížiť sa : animal > goal animal
+V priblížiť sa : vehicle > goal place
+V priblížiť sa : period
+V priblížiť sa : {búrka}
+V pricviknúť : person > patient body-part, location building-part
+V pricviknúť : person > patient clothing, location building-part
+V priložiť : person > patient document, goal document
+V priložiť : person > patient picture, goal document
+V priložiť : person > patient body-part, goal building-part
+V pripojiť sa : person > companion group
+V pripojiť sa : person > companion person
+V pripojiť sa : person > goal group
+V privatizovať : institution > patient building
+V privatizovať : institution > patient shop
+V privlastniť si : person > patient thing
+V privlastniť si : person > patient money
+V privlastniť si : person > patient {plán|úspech}
+V privodiť : {chyba|konflikt} > patient {kríza|strata}
+V privodiť : person > patient {kríza|strata|konflikt}
+V privodiť : person > patient incident
+V pustiť sa do : person > goal {práca|úloha|boj|diskusia}
+V pustiť sa do : person > goal {oprava (poškodeného)|oprava (chyby)}
+V pykať : person > cause crime
+V pykať : person > cause {chyba|vina|hriech}
+V pôsobiť ako : person > as professional
+V pôsobiť ako : person > as role
+V pôsobiť ako : medicine > as medicine
+V pôsobiť ako : substance > as medicine
+V pôsobiť proti : medicine > opponent illness
+V pôsobiť proti : person > opponent {riziko|konflikt|nebezpečenstvo}
+V reglementovať : institution > patient {práca|boj}
+V reglementovať : institution > patient process
+V rezignovať : person > theme ability
+V rezignovať : person > theme {nádej|viera|odpor|boj}
+V rezignovať : person
+V rotovať : device
+V rotovať : vehicle
+V rotovať : celestial
+V rotovať : person > patient group
+V rozbiť na kusy : person > patient breakable, instrument tool
+V rozbiť na kusy : person > patient stone
+V rozbiť na kusy : person > patient furniture
+V rozdeliť : person > patient food, recipient person
+V rozdeliť : person > patient money, recipient person
+V rozdeliť : person > patient group
+V rozdeliť : person > patient country
+V rozdeliť na dve časti : person > patient food
+V rozdeliť na dve časti : person > patient paper
+V rozdeliť na dve časti : person > patient group
+V rozdeliť na dve časti : water-body > patient settlement
+V rozdeliť na dve časti : road > patient landscape
+V rozjímať : person > topic {viera|nádej|vina|hriech}
+V rozjímať : person > topic {otázka|chyba}
+V rozjímať : person
+V rozlúsiť : person > patient {hádanka|kód|záhada}
+V rozmazať : person > patient {farba|písmo|kresba}
+V rozoslať : person > patient {list (písomnosť)|správa (o udalosti)}
+V rozoslať : institution > patient {list (písomnosť)}
+V rozprašovať : person > patient liquid
+V rozprášiť : person > patient liquid
+V rozpútať : person > patient {vojna|spor}
+V rozsypať : person > patient {soľ|cukor|ryža|múka}
+V roztlačiť : person > patient {auto|motocykel}
+V rozvrátiť : person > patient {štát|rodina|spoločnosť}
+V skolabovať : person
+V skolabovať : {systém|hospodárstvo}
+V skresliť : person > patient {fakt|správa (o udalosti)}
+V smerovať : person > goal place
+V smerovať : vehicle > goal place
+V spevniť : person > patient {múr|cesta (komunikácia)|most}
+V splatiť : person > patient money
+V spolufinancovať : institution > patient {projekt|stavba}
+V spolurozhodovať : person > inf
+V spomaliť : person > patient vehicle
+V spomaliť : vehicle
+V spomaľovať : person > patient {proces|vývoj|práca}
+V spustiť : person > patient {stroj|počítač|motor}
+V spútať : person > patient {zviera|väzeň}
+V striehnuť : animal > theme animal
+V striehnuť : person > theme person
+V strojnásobiť : person > patient {cena|zisk|príjem|výdavok}
+V taktovať : person > patient {hudba|skladba}
+V torpédovať : person > patient {plán|rokovanie|projekt}
+V tradovať : person > patient {príbeh|zvyk|rozprávka}
+V transformovať : person > patient {systém|spoločnosť|energia}
+V trepotať sa : bird
+V triediť : person > patient {odpad|pošta|ovocie|zelenina}
+V trimovať : person > patient {pes|živý plot}
+V ujasniť : person > patient {otázka|situácia|problém}
+V ukladať : person > patient {údaje|súbor|text}
+V ukradnúť : person > patient thing -document, source {obchod|dom}
+V ukradnúť : person > patient money
+V ukázať sa ako : {plán|nápad|rozhodnutie} > as {chyba|úspech}
+V uloviť : person > patient {zviera|ryba|zajac}
+V uložiť : person > patient thing, goal {skriňa|zásuvka (v nábytku)|polica}
+V umenšiť : person > patient {strata|riziko}
+V upchať : person > patient {diera|potrubie}
+V upevniť : person > patient {polica|lampa|obraz}
+V uprieť : person > patient {právo|nárok}, recipient person
+V upustiť od : person > patient {plán|zámer|myšlienka}
+V urobiť schopným : person > patient person, inf
+V utíšiť : person > patient {dieťa|bolesť}
+V uvaliť : institution > patient {trest|daň|sankcia}, recipient person
+V uzavrieť : person > patient {cesta (komunikácia)|hranica|dvere}
+V venovať : person > patient {kniha|pieseň|báseň}, recipient person
+V venovať : person > patient {čas (trvanie)|pozornosť}, recipient {dieťa|práca|rodina}
+V vložiť (dovnútra) : person > patient {list (písomnosť)|karta|minca}, goal {obálka|automat}
+V vniesť : person > patient {nápad|energia|pokoj}
+V vnútiť : person > patient {názor|vôľa}, recipient person
+V vplývať : thing > recipient person
+V vsiaknuť : liquid
+V vybojovať : person > patient {víťazstvo|sloboda}
+V vydať : person > patient {kniha|časopis|noviny}
+V vydať : institution > patient {zákon|nariadenie|pas}
+V vyformovať : person > patient {charakter|názor}
+V vyhodiť do vzduchu : person > patient {most|budova|auto}
+V vyhostiť : institution > patient person
+V vyhľadať : person > patient {lekár|advokát|učiteľ|priateľ}
+V vyhľadať : person > patient {informácia|slovo|adresa}
+V vykazovať : thing > patient {chyba|zmena}
+V vymôcť : person > patient {dohoda|povolenie|súhlas}
+V vynechať : person > patient {slovo|riadok|text}
+V vynútiť si : person > patient {pozornosť|rešpekt|súhlas}
+V vyostriť sa : {spor|situácia|konflikt}
+V vypracovať si : person > patient {postavenie|výhoda|povesť}
+V vypudiť : institution > patient person
+V vypátrať : person > patient {zločinec|zlodej}
+V vyradiť : person > patient {stroj|auto|počítač}
+V vyrovnať : person > patient {rozdiel (odlišnosť)|strata}
+V vysielať rádiom : person > patient {správa (o udalosti)|hudba}
+V vystavovať sa : person > patient {nebezpečenstvo|riziko|kritika}
+V vytasiť : person > patient weapon
+V vytesniť : person > patient {spomienka|strach|problém}
+V vytiahnuť : person > patient thing, source {taška|vrecko|zásuvka (v nábytku)}
+V vyzdvihnúť : person > patient {balík|list (písomnosť)|batožina}
+V vyznať sa : person > location {mesto|dedina|les}
+V vyčerpať : person > patient {zásoba|peniaze|sila}
+V vyšumieť : {nadšenie|radosť|nálada}
+V vzbudiť : person > patient {záujem|nádej|podozrenie|strach}
+V vziať so sebou : person > patient {taška|dáždnik|kniha|dieťa}
+V vziať späť : person > patient {slovo|ponuka|prísľub}
+V vzpierať : person > patient {bremeno}
+V vztýčiť : person > patient {vlajka|stĺp|pamätník}
+V víriť : {prach|voda|list (rastliny)|sneh}
+V zacementovať : person > patient {podlaha|cesta (komunikácia)|základ}
+V zadať : person > patient {úloha|práca}, recipient person
+V zadovážiť : person > patient thing, recipient person
+V zadrhávať : person
+V zafixovať : person > patient {obraz|polica|lampa}
+V zahaliť : person > patient {dieťa|socha|obraz}, instrument fabric
+V zakrývať : person > patient {okno|stôl|obraz}
+V zaliať : person > patient {rastlina|oheň|kvet}, instrument liquid
+V zametať : person > patient {podlaha|cesta (komunikácia)|dvor}
+V zameškať : person > patient {hodina|vlak|stretnutie}
+V zamieriť na : person > goal {mesto|dedina|dom}
+V zamieriť na : vehicle > goal {mesto|dedina|prístav}
+V zaobstarať si : person > patient thing
+V zaokrúhliť : person > patient {cena|číslo (matematické)|suma}
+V zaradiť : person > patient {kniha|dokument|súbor}
+V zatarasiť : person > patient {cesta (komunikácia)|dvere|chodba}
+V zatočiť : person > patient {kľúč|volant}
+V zatvrdnúť : {cement}
+V začať naplno : person
+V zažehnať : person > patient {nebezpečenstvo|hrozba}
+V zbabrať : person > patient {práca|úloha|skúška}
+V zbaviť : institution > patient person, source {právo|funkcia}
+V zbaviť sa : person > patient {odpad|starosť|zvyk}
+V zbombardovať : person > patient {mesto|most|budova}
+V zdemolovať : person > patient {dom|auto|izba}
+V zdokonaliť : person > patient {technika|výrobok|schopnosť}
+V zhodnotiť : person > patient {majetok|pozemok|dom}
+V zhodovať sa : {správa (o udalosti)|číslo (matematické)|podpis}
+V zhodovať sa : person > companion person, topic {názor|plán}
+V zistiť opýtaním : person > patient {cesta (komunikácia)|adresa|čas (trvanie)}
+V zložiť : person > patient thing, goal {stôl|zem|polica}
+V zmariť : person > patient {plán|pokus|úsilie}
+V znepríjemniť : person > patient {život|deň|večer}, recipient person
+V zostaviť : person > patient {zoznam|tím|plán}
+V zostať pozadu : person
+V zostať pozadu : vehicle
+V zoštvornásobiť : person > patient {cena|zisk|príjem|výdavok}
+V zrealizovať : person > patient {plán|projekt|nápad}
+V zriadiť : institution > patient {škola|nemocnica|úrad}
+V zruinovať : person > patient {firma|podnik|rodina}
+V zuhoľnatieť : {drevo|jedlo}
+V zušľachtiť : person > patient {ovocie|kov|charakter}
+V zveriť : person > patient {tajomstvo|dieťa|peniaze|kľúč}, recipient person
+V zveriť : person > patient {tajomstvo|dieťa}, recipient person
+V zvečniť : {umelec|maliar|sochár|spisovateľ|básnik} > patient {udalosť|osobnosť}
+V zvýhodniť : {učiteľ|šéf|rodič|rozhodca} > patient person
+V zvýhodniť : institution > patient person
+V zvýšiť nad mieru : person > patient {cena|daň|hodnota}
+V zásobiť : person > patient {obchod|kuchyňa|sklad|dom}, instrument consumable
+V zásobiť : institution > patient shop, instrument consumable
+V zásobovať : {obchodník|dodávateľ|pekár} > patient shop, instrument consumable
+V zásobovať : institution > patient settlement, instrument {voda|elektrina|jedlo}
+V získať : person > patient {úspech|výhoda|skúsenosť|vedomosť|práca|priateľ}
+V získať : person > patient money
+V získať : person > patient {cena|diplom}
+V ďalej rozvíjať : person > patient {nápad|plán|schopnosť|projekt|talent}
+V ďalej rozvíjať : institution > patient {projekt|plán|výrobok}
+V škálovať : person > patient {obrázok|model|fotka|výroba}
+V ťahať za nos : person > patient person

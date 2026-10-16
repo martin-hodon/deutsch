@@ -1,0 +1,692 @@
+# CULTURE GROUP: art, music, theatre, film, sport, religion, festivals, customs, fantasy figures (dictionary files humans/art-entertainment.txt, humans/religion-custom.txt)
+SETTING culture
+N umenie
+N umelec : artist
+N múzeum
+N výstava
+N obraz
+N hudba
+N hudobník : artist
+N pieseň
+V spievať
+N spevák : artist
+N koncert
+N divadlo
+N herec : artist
+N rola
+N film
+N kino
+V tancovať
+N tanec
+N príbeh
+N fanúšik : audience
+N záľuba
+N sranda
+N voľný čas
+N umelecké dielo
+N umelkyňa : artist
+N krása
+N štýl
+N galéria
+V vystaviť (na výstave)
+V maľovať
+N maliar : artist
+N maľba
+V kresliť
+N kresba
+N portrét
+N socha
+N socha
+N dizajn
+N plátno
+N paleta
+N hudobný nástroj
+N speváčka : artist
+N zbor
+N melódia
+N rytmus
+N nota
+N orchester
+N nástroj
+N klavír
+N gitara
+N husle
+N organ
+V pískať
+N opera
+N skladateľ : artist
+V skladať
+N žáner
+N džez
+N pop
+N rock
+N album
+N pieseň
+N divadelná hra
+N javisko
+N scéna
+N herečka : artist
+N komédia
+N tragédia
+V filmovať
+N obecenstvo : audience
+N potlesk
+V vystupovať : artist
+N vystúpenie (na pódiu)
+N predstavenie
+V predviesť
+N cirkus
+N klaun : artist
+N tanečník : artist
+N rozprávka
+N báseň
+N básnik : artist
+N román
+N spisovateľ : artist
+N autor : artist
+N autorka : artist
+N literatúra
+N nácvik
+N scenár (film)
+N dej
+N premiéra
+N pokračovanie
+N komik : artist
+N videohra
+N sezóna
+N bábika
+N zábava
+V zabávať
+N turné
+N celebrita : artist
+N sochár : artist
+N maliarstvo
+N nástenná maľba
+N kresliar : artist
+N skica
+V načrtnúť
+V vyrezávať
+N dizajnér : artist
+N ornament
+N mozaika
+N koláž
+N hrnčiarstvo
+N hrnčiar : artist
+V hrnčiarčiť
+N porcelán
+N maliarsky stojan
+N akvarel
+N uhlík na kreslenie
+N voskovka
+N fixka
+N kurátor : artist
+N štetec
+N logo
+N text piesne
+N uspávanka
+N huslista : artist
+N husle
+N bubon
+V bubnovať
+N flauta
+N trúbka
+N harfa
+N píšťala
+N skladba
+N dirigent : artist
+V dirigovať
+N refrén
+N akord
+N harmónia
+N bas
+N sólo
+N duet
+N symfónia
+N balada
+N rap
+N violončelo
+N saxofón
+N akordeón
+N trio
+N raper : artist
+N dráma
+N dráma
+N dramatik : artist
+N hraný film
+N dokumentárny film
+N kreslený film
+N režisér : artist
+N divák : audience
+V tleskať
+N marioneta
+N balet
+V písať básne
+N poézia
+N poviedka
+N verš
+N rým
+V rýmovať sa
+V skúšať
+N konkurz
+N zloduch
+N animácia
+V žonglovať
+N biografia
+N scenár (možný vývoj)
+N vstupenka
+N detektívka
+N komiks
+N inscenácia
+N kulisa
+N réžia
+N natáčanie
+N epizóda
+N šou
+N podívaná
+N hracia karta
+N stolová hra
+N majstrovské dielo
+N lotéria
+N poker
+N kasíno
+N lotéria
+N ručná práca
+N zberateľ : audience
+N tromf
+N duo
+N ikona
+N spev
+N mágia
+N striga
+N kúzlo
+N čarodejník
+N príšera
+N drak
+N legenda
+N mýtus
+N upír
+N osud
+N festival
+N strašidlo
+V čarovať
+N zariekadlo
+N čarovný prútik
+N víla
+N mytológia
+N démon
+N zombie
+N elf
+N trpaslík
+N škriatok
+N trol
+N morská panna
+N jednorožec
+N obor
+N bájna bytosť
+N báj
+N zástava
+SETTING home
+N obraz
+N klavír
+N hračka
+N videohra
+N bábika
+N šach
+N porcelán
+N ručná práca
+SETTING celebration
+V spievať
+V tancovať
+N tanec
+V zabávať
+V sláviť
+N Vianoce
+N Veľká noc
+N narodeniny
+N svadba
+N oslava
+N sviatok
+N slávnosť
+N festival
+N karneval
+N slávnostný sprievod
+N Štedrý večer
+N Santa Claus
+N vianočný stromček
+N Nový rok
+N Silvester
+N výročie
+N ohňostroj
+N vianočný trh
+N fašiangy
+N veľkonočný zajac
+N veľkonočné vajce
+N jubileum
+N výročie svadby
+N Mikuláš
+N Turíce
+N ramadán
+N snúbenci
+N dar
+N jasot
+N advent
+N slávnosť
+SETTING shop
+N sukňa
+N cena
+N hračka
+N vianočný trh
+SETTING media
+N film
+N príbeh
+V filmovať
+N autor
+N autorka
+N videohra
+N zábava
+N detektívka
+N komiks
+N natáčanie
+N epizóda
+N horoskop
+SETTING family
+N hra
+N záľuba
+N voľný čas
+N rozprávka
+N šarkan
+N hracia karta
+N stolová hra
+N lotéria
+N lotéria
+N tromf
+V sláviť
+N narodeniny
+N svadba
+N zvyk
+N tradícia
+N pohreb
+V pochovať
+N tabu
+V nadávať
+N rana osudu
+N zvykoslovie
+N výročie svadby
+N krst
+V krstiť
+N snúbenci
+N sústrasť
+N pamiatka
+SETTING sport
+N hra
+N hráč
+N šport
+N mužstvo
+N tréner
+N gól
+N futbal
+N štadión
+N lopta
+V vyhrať
+N fanúšik
+V pískať
+N domáci zápas
+N hrací deň
+N sezóna
+N reprezentant
+N hráčka
+N šach
+N športovec
+N tím
+V trénovať
+N tréning
+N súťaž
+N súťaž
+N zápas
+N preteky
+N majster
+N majstrovstvá
+N brankár
+N futbalista
+N basketbal
+N volejbal
+N tenis
+N hokej
+N plaváreň
+N fitnescentrum
+N rozhodca
+N medaila
+N pohár
+N turnaj
+N víťaz
+V staviť sa
+N stávka
+N liga
+N jedenástka
+N faul
+N maratón
+N finále
+N súboj
+N partia
+N trefa
+N reprezentácia
+N majster sveta
+N semifinále
+N comeback
+N profesionál
+N majstrovstvá sveta
+N dres
+N atlét
+N rekord
+N kolo
+N favorit
+V zvládnuť
+N brankár
+N ľadový hokej
+N box
+V boxovať
+N boxer
+N gymnastika
+V cvičiť (gymnastika)
+N telocvičňa
+V lyžovať
+N lyža
+N lyžiar
+V korčuľovať sa
+N korčuľa
+N kondícia
+N trofej
+N bejzbal
+N zápasenie
+V zápasiť
+N zápasník
+N bowling
+N štafeta
+N káder
+N pokutové územie
+N líder tabuľky
+N atlétka
+N hádzaná
+N stolný tenis
+N joga
+N kondícia
+N výdrž
+N ihrisko
+N remíza
+N porazený
+N osemfinále
+N štvrťfinále
+N finále
+N nováčik
+N záchrana v lige
+N stred poľa
+N stredopoliar
+N stredný obranca
+N defenzíva
+N nová posila
+N stĺp
+N prvý zápas
+N odveta
+N odvetné kolo
+N prípravný zápas
+N zápas vonku
+N základná skupina
+N nadstavený čas
+N záver zápasu
+N výkop
+N priamy kop
+N centr
+N protiútok
+N remíza
+N hlavný tréner
+N tréner národného tímu
+N športový riaditeľ
+N spoluhráč
+N tribúna
+N sústredenie (športovcov)
+N zimná prestávka
+N letná prestávka
+N oddychový čas
+N štartový výstrel
+N debut
+N líder tabuľky
+N obhajca titulu
+N rekordný majster
+N posledné miesto
+N triumf
+N jasot
+N zástava
+SETTING school
+V kresliť
+N kresba
+N nota
+N báseň
+N román
+N literatúra
+N odmena
+V odmeniť
+N biografia
+N gymnastika
+V cvičiť (gymnastika)
+N telocvičňa
+SETTING work
+N dizajn
+N tím
+SETTING religion
+N zbor
+N organ
+N boh
+N kostol
+N obeť
+V sláviť
+N Vianoce
+N Veľká noc
+N náboženstvo
+N bohoslužba
+N chrám
+N mešita
+N kláštor
+N kňaz
+N biskup
+N mních
+N pápež
+V modliť sa
+N modlitba
+N kliatba
+N duša
+N duch
+N peklo
+N diabol
+N anjel
+V obetovať
+N zázrak
+N biblia
+N ikona
+N kaplnka
+N spev
+N misia
+N Žid
+N Židovka
+N farár
+N mágia
+N striga
+N kúzlo
+N čarodejník
+N príšera
+N drak
+N osud
+N legenda
+N mýtus
+N upír
+N osud
+N zvyk
+N tradícia
+N rituál
+N obrad
+N sviatok
+N Štedrý večer
+N pohreb
+V pochovať
+N hrob
+N cintorín
+N rakva
+N zvon
+N tabu
+N bohyňa
+N božstvo
+N modla
+N svätec
+N svätyňa
+N katedrála
+N oltár
+N mníška
+N prorok
+V prorokovať
+N proroctvo
+V zbožňovať
+V žehnať
+N požehnanie
+V nadávať
+V prekliať
+N hriech
+N hriešnik
+V hrešiť
+N duchovný
+N strašidlo
+N nesmrteľnosť
+N pútnik
+V pútať sa
+N relikviár
+N synagóga
+N kult
+N kázeň
+V kázať
+N meditácia
+V meditovať
+N kadidlo
+N relikvia
+N ateista
+N mučeník
+N učeník
+N misionár
+N pustovník
+V konvertovať
+N vykúpenie
+V vykúpiť
+N vykupiteľ
+N vzkriesenie
+N karma
+N rehoľný sľub
+N kresťanstvo
+N islam
+N judaizmus
+N kresťan
+N moslim
+N katolík
+N pastor
+N raj
+N veriaci
+N omša
+V čarovať
+N zariekadlo
+N čarovný prútik
+N víla
+N povera
+N mytológia
+N znamenie
+N orákulum
+N amulet
+N talizman
+N horoskop
+N astrológia
+N astrológ
+N démon
+N zombie
+N elf
+N trpaslík
+N škriatok
+N trol
+N morská panna
+N jednorožec
+N obor
+N bájna bytosť
+N báj
+N zvykoslovie
+N fašiangy
+N veľkonočné vajce
+N krst
+V krstiť
+N náhrobok
+V zvoniť
+N Turíce
+N ramadán
+N sústrasť
+N dar
+N rád
+N pečať
+N advent
+SETTING nature
+N šarkan
+V lyžovať
+N kempovanie
+N kemping
+SETTING traffic
+N preteky
+SETTING craft
+N majster
+V vyrezávať
+N hrnčiarstvo
+N hrnčiar
+V hrnčiarčiť
+SETTING everyday
+N odmena
+V odmeniť
+V zvládnuť
+V čudovať sa
+SETTING water
+N plaváreň
+N morská panna
+SETTING kitchen
+N porcelán
+SETTING travel
+N vstupenka
+N kempovanie
+N kemping
+N kasíno
+N chrám
+N Žid
+N Židovka
+N pútnik
+V pútať sa
+N pamiatka
+SETTING weather
+V korčuľovať sa
+SETTING health
+N kondícia
+N joga
+N kondícia
+N duša
+N meditácia
+V meditovať
+N rana osudu
+SETTING town
+N kostol
+N slávnostný sprievod
+N cintorín
+SETTING law
+N obeť
+SETTING military
+N misia
+N rád
+N zástava
+SETTING bank
+N osud
+SETTING sky
+N astrológia
+N astrológ
+SETTING office
+N pečať
+SETTING politics
+N zástava
+SETTING sport
+N stav zápasu

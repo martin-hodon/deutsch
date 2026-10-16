@@ -1,0 +1,47 @@
+# ITALIAN LETTERS TO SOUNDS (engine/sounds.js): a word the dictionary has not -- a verb form, a plural, an agreeing
+# adjective -- read from its spelling (the spelling is regular: c/g before e, i are tʃ/dʒ, sc before e, i is ʃ, gl + i is
+# ʎ, gn is ɲ, a double consonant is long, h is silent, s between vowels is voiced). The stress: an accented letter's
+# (à è é ì ò ù), else on the second-last syllable (the Spanish rule: a word ending in a vowel) -- the forms in -ano / -ono
+# (parlano, dormono) come out wrong (parˈlano), as does any other antepenult stress. e and o are the closed vowels
+# (the open ɛ ɔ only where the dictionary says so).
+class vowel = a e i o u à è é ì ò ù
+stress = accent
+
+letters sc(?=[eiéèì]) = ʃ
+letters sch = sk
+letters gli(?=[aeouàèéòù]) = ʎ
+letters gli = ʎi
+letters gn = ɲ
+letters ch = k
+letters gh = ɡ
+letters ci(?=[aouàòù]) = tʃ
+letters gi(?=[aouàòù]) = dʒ
+letters c(?=[eiéèì]) = tʃ
+letters g(?=[eiéèì]) = dʒ
+letters qu = kw
+letters cc(?=[eiéèì]) = ttʃ
+letters gg(?=[eiéèì]) = ddʒ
+letters zz = tts
+letters ([bcdfgklmnprstvz])\1 = $1ː
+letters c = k
+letters g = ɡ
+letters z = ts
+letters h =
+letters s(?=[aeiouàèéìòù]) = z after /[aeiouàèéìòù]/
+letters s(?=[bdgvlmnr]) = z
+letters s = s
+letters à = ˈa
+letters è = ˈɛ
+letters é = ˈe
+letters ì = ˈi
+letters ò = ˈɔ
+letters ù = ˈu
+letters i(?=[aeouàèéòù]) = j
+letters u(?=[aeioàèéìò]) = w
+letters [aeiou] = $
+letters [pbtdfvmnlr] = $
+letters j = j
+letters k = k
+letters w = v
+letters x = ks
+letters y = i

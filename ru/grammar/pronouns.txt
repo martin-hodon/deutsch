@@ -1,0 +1,54 @@
+# personal
+1 P я {я} [ja] = ja
+1 P ты {ты} [tɨ] = ty
+1 P он {он} [on] = on
+1 P она {она} [ɐˈna] = ona
+1 P оно {оно} [ɐˈno] = ono
+1 P мы {мы} [mɨ] = my
+1 P они {они} [ɐˈnʲi] = oni
+1 P вы {вы} [vɨ] = vy (neformálne množné číslo)
+1 P вы {вы} [vɨ] = vy (zdvorilé oslovenie)
+
+# possessive
+1 P мой {мой} [moj] = môj
+1 P твой {твой} [tvoj] = tvoj
+1 P его {его} [jɪˈvo] = jeho
+1 P её {её} [jɪˈjo] = jej
+1 P наш {наш} [naʂ] = náš
+1 P ваш {ваш} [vaʂ] = váš (neformálne)
+1 P ваш {ваш} [vaʂ] = Váš (zdvorilé oslovenie)
+
+# reflexive-and-reciprocal
+1 P себя {себя} [sʲɪˈbʲa] = sa (zvratné zámeno)
+1 P сам {сам} [sam] = sám
+1 P друг друга {друг друга} [druk ˈdruɡə] = navzájom
+
+# demonstrative
+1 P этот {этот} [ˈɛtət] = tento
+1 AV на этот раз {на этот раз} [nɐ ˈɛtət ras] = tentoraz
+1 P тот {тот} [tot] = tamten
+1 P такой {такой} [tɐˈkoj] = taký
+1 PHR такой {такой} [tɐˈkoj] = taký
+2 P данный {данный} [ˈdanːɨj] = tento
+
+# interrogative-and-relative
+1 P кто {кто} [kto] = kto
+1 P что {что} [ʂto] = čo
+1 P какой {какой} [kɐˈkoj] = ktorý
+1 P который {который} [kɐˈtorɨj] = ktorý
+1 PHR какой {какой} [kɐˈkoj] = aký
+
+# indefinite
+3 P один {один} [ɐˈdʲin] = sa (neurčitý podmet)
+1 P кто-то {кто-то} [ˈktotə] = niekto
+1 P никто {никто} [nʲɪˈkto] = nikto
+1 P все {все} [fsʲe] = každý človek
+2 P некоторый {некоторый} [ˈnʲekətərɨj] = niektorý
+1 P оба {оба} [ˈobə] = obaja
+1 P любой {любой} [lʲuˈboj] = akýkoľvek
+1 P несколько {несколько} [ˈnʲeskəlʲkə] = niekoľkí
+1 PHR немного {не|много} [nʲɪmˈnoɡə] = trochu
+1 P никакой {никакой} [nʲɪkɐˈkoj] = žiadny
+
+# language-specific closed words (no Slovak word: a description)
+1 P свой {свой} [svoj] = svoj

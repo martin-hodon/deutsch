@@ -1,0 +1,159 @@
+N rastlina : plant, plantable
+AN rastlinný : consumable, material ; attr
+N izbová rastlina : plant, plantable
+N úžitková rastlina : crop, plantable
+N liečivá rastlina : plant, plantable
+N strom : tree, plantable, climbable
+N ovocný strom : tree, plantable, climbable
+N jabloň : tree, plantable, climbable
+N čerešňa (strom) : tree, plantable, climbable
+N ihličnatý strom : tree, plantable, climbable
+N listnatý strom : tree, plantable, climbable
+N koruna stromu : plant-part
+N peň : plant-part, sittable
+N kvetina : flower, plantable
+N kytica : thing
+N slnečnica : flower, plantable
+N sedmokráska : flower
+N nechtík : flower, plantable
+N masliačik : flower
+N tráva : plant, plantable
+V pásť sa : {krava|teľa|hovädo|býk|vôl|ovca|jahňa|koza|kôň|žrebec|kobyla|žriebä|poník|somár|srna|jeleň|zajac|králik|zebra|antilopa|gazela|žirafa|los|byvol|bizón|klokan|ťava|hus}
+N steblo trávy : plant-part
+N ker : plant, plantable
+N krovie : plant
+N bylina : plant, plantable
+N burina : plant
+N mach : plant
+N papraď : plant, plantable
+N úponok : plant-part
+N vinič : plant, plantable
+N trstina : plant
+N kaktus : plant, plantable
+N bambus : plant, plantable
+N brečtan : plant, plantable
+N ďatelina : plant, plantable
+N žihľava : plant
+N riasa : plant
+N morská riasa : plant
+N les : landscape, enterable
+N dažďový prales : landscape, enterable
+N prales : landscape, enterable
+N lesík : landscape, enterable
+N lesný požiar : incident
+N háj : landscape, enterable
+N džungľa : landscape, enterable
+N lúka : landscape, sittable ; auf
+N kvetnatá lúka : landscape, sittable ; auf
+N vegetácia : plant
+N živý plot : plant, cuttable, plantable
+N huba : fungus, food, cuttable, cookable
+N hríb : fungus, food, cuttable, cookable
+N muchotrávka červená : fungus
+N plesňová huba : fungus
+N pleseň : fungus
+V plesnivieť : food
+N koreň : plant-part
+N stonka : plant-part
+N stopka : plant-part
+N kmeň : plant-part
+V pochádzať : animal > source country
+V pochádzať : plant > source country
+V pochádzať : food > source country
+V pochádzať : food > source region
+V pochádzať : thing > source country
+V pochádzať : {slovo|meno|výraz|pojem} > source language
+V pochádzať : language > source language
+V pochádzať : {pieseň|film|báseň|príbeh} > source person
+V pochádzať : text > source person
+N konár : plant-part
+N vetva : plant-part
+N list (rastliny) : plant-part
+N lupienok : plant-part
+N ďatelinový list : plant-part
+V listovať : person > location text
+N lístie : plant-part
+N kôra : plant-part
+N puk : plant-part
+N kvet : plant-part
+V kvitnúť : flower
+V kvitnúť : tree
+V kvitnúť : {ker|živý plot|ker|rastlina|izbová rastlina|kaktus}
+V rozkvitnúť : flower
+V rozkvitnúť : {ker|živý plot|ker|rastlina|izbová rastlina|kaktus}
+V odkvitnúť : flower
+V odkvitnúť : {ker|živý plot|ker|rastlina|izbová rastlina|kaktus}
+N obdobie kvitnutia : period
+N semeno : plant-part, plantable
+N tŕň : plant-part
+AN tŕnitý : plant
+N hloh : plant, plantable
+N šťava : drink ; mass
+N ovocný džús : drink
+N peľ : substance
+N nektár : liquid
+V vyrážať : plant
+N výhonok : plant-part
+V vädnúť : plant
+V zvädnúť : plant
+N klíčok : plant-part
+V klíčiť : plant-part
+N struk : plant-part
+N živica : substance
+N dužina : food
+N cibuľa : vegetable, cuttable, cookable, plantable
+N jarná cibuľka : vegetable, cuttable, cookable, plantable
+N hľuza : plant-part, cookable, plantable
+N šiška : plant-part
+N bodliak : plant
+N imelo : plant
+N dub : tree, plantable, climbable
+N žaluď : plant-part
+N breza : tree, plantable, climbable
+N javor : tree, plantable, climbable
+N javor horský : tree, plantable, climbable
+N vŕba : tree, plantable, climbable
+N smútočná vŕba : tree, plantable, climbable
+N jedľa : tree, plantable, climbable
+N smrek : tree, plantable, climbable
+N buk : tree, plantable, climbable
+N jaseň : tree, plantable, climbable
+N brest : tree, plantable, climbable
+N topoľ : tree, plantable, climbable
+N gaštan : tree, plantable, climbable
+N céder : tree, plantable, climbable
+N cyprus : tree, plantable, climbable
+N lipa : tree, plantable, climbable
+N palma : tree, plantable, climbable
+N cezmína : plant, plantable
+N osika : tree, plantable, climbable
+N borievka : plant, plantable
+N ruža : flower, plantable
+N pivonka : flower, plantable
+N šípka : fruit
+N tulipán : flower, plantable
+N ľalia : flower, plantable
+N fialka : flower, plantable
+N mak : flower, plantable
+N orchidea : flower, plantable
+N karafiát : flower, plantable
+N narcis : flower, plantable
+N púpava : flower
+N levanduľa : flower, plantable
+N orgován : plant, plantable
+N jazmín : plant, plantable
+N magnólia : tree, plantable, climbable
+N hyacint : flower, plantable
+N pelargónia : flower, plantable
+N chryzantéma : flower, plantable
+N prvosienka : flower, plantable
+N snežienka : flower, plantable
+N záhon : place
+N plod : fruit, washable, cuttable
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN ovocný : food, drink, sweets, tree
+V osadiť rastlinami : person > patient {záhrada|pole}
+V ovíjať sa : plant > theme tree
+V ovíjať sa : plant > theme building-part
+V vykoreniť : person > patient plant

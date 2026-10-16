@@ -1,0 +1,144 @@
+# THE GRAMMAR (sentences/README.md): how a German sentence is put together -- a weighted context-free grammar over the
+# FIELDS of the German clause, read by trainer/grammar.js. What fills the fields is a clause's PLAN (trainer/
+# sentences.js: the verb and its frame, the subject and objects meaning-checked, the tense, the negation...); the
+# forms come from the morphology. A line:
+#
+#     LHS -> symbol symbol ...   {weight}        (alternatives: more lines with the same LHS; weight 1 if left out;
+#                                                 {1/2/3}: a weight for each COMPLEXITY, simple to rich)
+#
+# a symbol is
+#     Name        another rule
+#     role        lowercase: a part of the plan -- `subj`, `vfin`, `obj.A`... -- written where it stands; a role used
+#                 once in a clause is not repeated (moved to the front, asked for by a question word, it is not in
+#                 the middle field too); a role the plan does not have is left out
+#     w.word      that dictionary word itself, spoken (w.entweder, w.je)
+#     "text"      itself: punctuation
+#
+# AGREEMENT is carried by the roles: the subject's person and number make the finite verb's form; a noun phrase's
+# case (its role), gender and number make its determiner's, adjectives' and noun's forms; the declension (strong,
+# weak, mixed) follows from the determiner; a relative pronoun takes its noun's gender and number and its own case.
+
+# ---- THE SYLLABUS ----------------------------------------------------------------------------------------------------
+# The grammar in the order it is learnt (the levels A1-B2 of the Common European Framework, as German courses teach
+# them), each feature with its stage: a sentence made at a stage (loadSentences({ stage: "A2.1" })) uses only the
+# features up to it; a rule below tagged @feature only once that feature is unlocked. What a feature means is the
+# planner's (trainer/sentences.js asks has(feature)); the examples are sentences the rules build (sentences/tests.txt).
+#
+# A1.1 -- the first sentences: a statement, a question, the present
+# A1.2 -- objects, commands, modals
+# A2.1 -- the perfect, the dative, the first subordinate clauses
+# A2.2 -- the past of sein and haben, polite forms, more questions
+# B1.1 -- every tense, relative clauses, infinitives
+# B1.2 -- the passive, paired conjunctions, the past Konjunktiv II
+# B2.1 -- every passive, reported speech, the double infinitive, participles
+# B2.2 -- the written language: extended attributes, nominal style
+
+# the rules that are CLAUSES: each has a plan of its own (a verb, its subject and objects, a tense...)
+CLAUSES: MAIN INVERTED SUB REL YESNO WH IMP ZU REP DROP ZUADV JE DESTO CONDV WERREL
+
+# the rules that must write something: the front field is never empty (no object to front: the subject goes there)
+FILLED: FRONT
+
+# the WORDS that fill a role of their own: the conjunctions joining two main clauses (`coord`), starting a subordinate
+# clause (`conj`; `conj.past`: only with a clause in the past -- als), and an object clause's (by its frame: dass, ob)
+# (and aber only for a contrast the planner can make: one of the two clauses negated; no oder, denn: they want a
+#  link no rule knows)
+# (denn: like weil -- a state that explains; and the two-word ones for a dropped subject: Er kauft Brot und trinkt Kaffee)
+# ... a ROUTINE: when, before, as soon as, if, while, until (Bevor ich gehe, ...; Ich warte, bis er kommt)
+# (wenn first -- A2; the others with B1)
+# ... B2: the manner (indem), the result (sodass), what does not happen (ohne dass, anstatt dass), as if (als ob + Konj. II)
+# ... since (a sentence about now: Seit er hier wohnt, ...), a purpose (damit er schlafen kann)
+# ... an infinitive's (Ich spare, um ein Auto zu kaufen; Er geht, ohne zu grüßen)
+# ... a clause saying a state: explaining a negated or routine main clause (Er kommt nicht, weil er krank ist), or
+# against any (Er arbeitet, obwohl er müde ist)
+# ... the past only (als), and nachdem: its clause earlier than the main one (pluperfect in the past: Nachdem er
+# gegessen hatte, ging er; perfect now: Nachdem er gegessen hat, geht er)
+# PREPOSITIONS that take a name, not a noun with an article, for a place (nach Berlin, nach Polen -- "in die Stadt",
+# not "nach der Stadt")
+WORDS prep.names: nach
+# ... and those that take no country or town (zu: to a person, a building -- not "zur Ukraine": in die Ukraine)
+WORDS prep.no-towns: zu
+# DEGREE words before an adjective (ein sehr großes Haus, Er ist zu müde) -- and the adjectives no degree goes with
+# MODAL PARTICLES, as spoken: in a command (Komm doch mal!), a question (Was machst du denn?), a statement (Das ist
+# ja schön), about what will be (Das wird schon gehen)
+WORDS part.imp: mal {2} | doch mal {2} | doch {1} | bitte {2}
+WORDS part.bitte: bitte
+WORDS part.question: denn
+WORDS part.statement: ja {2} | doch {1} | eben {0.5} | halt {0.5}
+WORDS part.future: schon
+# NEGATIONS beyond nicht: no longer (present, past), not yet (present, perfect), not at all
+WORDS neg.longer: nicht mehr
+WORDS neg.yet: noch nicht
+WORDS neg.all: gar nicht
+# PAIRED conjunctions for two objects (sowohl Kaffee als auch Tee; weder Brot noch Milch; nicht nur ..., sondern auch ...;
+# entweder ... oder ...)
+# verbs whose perfect takes the infinitive, not the participle, after another infinitive (hat das Auto reparieren lassen)
+WORDS verb.ersatz: lassen | sehen | hören | helfen
+# NAMES: people, as subjects and owners (Anna kommt; Peters Auto)
+# ... and the fixed place phrases (spoken as written here)
+# (... and no zu-infinitive of them: not "beginnt zu stürzen", "versucht, sich zu befinden")
+# the verbs whose prepositional object may be a da-word and a clause (Ich freue mich darauf, dass du kommst; Er denkt
+# daran, das Licht auszumachen) -- not "zögert damit, dass die Hütte liegt"
+
+# (the sentence's shapes -- S -> MAIN "," SUB "." ... -- are the world's: world/shapes.txt)
+
+# ---- the clause types, field by field -------------------------------------------------------------------------------
+# main clause: one part in front, the finite verb second, the rest of the verb at the end
+MAIN -> FRONT vfin MIDDLE vrest clause
+# after a subordinate clause in front: the verb first (Weil es regnet, bleibe ich zu Hause.)
+INVERTED -> vfin MIDDLE vrest clause
+# subordinate clause: the conjunction, the finite verb last (..., dass er den Apfel gegessen hat)
+SUB -> conj MIDDLE vrest vfin clause
+# relative clause, in a noun phrase: the relative pronoun is the role it stands for (..., der den Apfel isst, ...)
+REL -> "," relpron MIDDLE vrest vfin ","
+# questions: yes/no -- the verb first; a question word -- in front, the verb second
+YESNO -> vfin MIDDLE vrest clause
+WH -> wh vfin MIDDLE vrest clause
+# imperative: the verb first (the polite form keeps its subject: Essen Sie ...)
+IMP -> vfin MIDDLE vrest clause
+# a zu-infinitive, an object of the clause before: no subject of its own, the zu-infinitive last
+# (Er versucht, das Buch zu lesen; Sie erlaubt ihm, früher anzufangen); with um, ohne, statt: an adverbial one
+ZU -> MIDDLE vzu
+ZUADV -> conj MIDDLE vzu
+# reported speech: a main clause's order, its verb in the Konjunktiv I (Er sagt, er sei krank)
+REP -> FRONT vfin MIDDLE vrest clause
+# a second main clause with the first one's subject left out (Er kauft Brot und trinkt Kaffee)
+DROP -> vfin MIDDLE vrest clause
+# je ... desto: a comparative in front of each (Je länger er arbeitet, desto müder wird er)
+JE -> w.je jecomp MIDDLE vrest vfin
+DESTO -> w.desto pred vfin MIDDLE vrest
+# a condition without wenn: the verb first (Hätte ich Zeit, würde ich kommen)
+CONDV -> vfin MIDDLE vrest
+# wer ..., (der) ...: who does it, (he) ... -- the main clause after it with der as its subject (Wer Hunger hat, der isst)
+WERREL -> relpron MIDDLE vrest vfin
+
+# the front field: the subject mostly, sometimes a time or a comment, now and then the object
+FRONT -> subj                                {7}
+FRONT -> adv.time                            {2}
+FRONT -> adv.sentence                        {1}
+FRONT -> adv.conn                            {4}
+FRONT -> front.A                             {1}
+FRONT -> adv.gen                             {1}   @cause-phrases
+FRONT -> front.pp                            {0}
+FRONT -> adv.manner                          {0}
+FRONT -> adv.role                            {0}
+# (weight 0: never drawn -- only a story's front=pp / front=manner / front=role asks for them: Mit einem Löffel ...,
+#  Langsam ..., Als Koch ...)
+
+# (part: a modal particle -- doch, ja, mal, denn, bitte; fixed: a fixed word -- es tut mir leid; adv.gen: a reason or a
+#  concession with the genitive -- wegen des Regens, trotz der Kälte)
+# (obj.D.new, obj.A.new: an object that is NEW -- indefinite, with kein, with no article -- after the time and the place:
+#  Ich kaufe heute keinen Apfel; Man spricht hier Deutsch; Ich gebe dem Kind ein Buch -- a known one before them)
+# the middle field, in its usual order: the subject (after pronoun objects when it is a noun: Passiert uns ein Unfall?),
+# the pronoun objects (accusative before dative: gibt es ihm; the
+# reflexive among them: stellt es sich vor), a comment (außerdem, leider), the noun objects (dative before accusative;
+# a second accusative after the first: lehrt die Kinder Deutsch, nennt den Mann einen Lügner), then time,
+# the negation, frequency (nicht immer), manner, the prepositional object and place (`nicht` before what it negates), last a
+# predicative adjective (Der Apfel ist nicht rot)
+MIDDLE -> pron.A.pre pron.D.pre refl.pre subj pron.A refl pron.D adv.sentence adv.conn adv.role part obj.D obj.A obj.A2 obj.G adv.time adv.gen adv.place adv.manner.pre obj.D.new obj.A.new neg adv.freq adv.manner obj.bare pobj pred fixed
+
+# ---- phrases ---------------------------------------------------------------------------------------------------------
+# (attr: an owner after the noun -- das Auto meines Vaters, ein Freund von mir)
+NP -> det adj noun attr rel
+# a prepositional phrase: the preposition takes the noun phrase's definite article in where German folds them (im, zum)
+PP -> prep det adj noun attr rel

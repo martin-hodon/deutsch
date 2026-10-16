@@ -1,0 +1,57 @@
+# coordinating
+1 CON and {and} [ænd] = a
+1 PHR and so on {and so on} [ænd ˈsəʊ ˈɒn] = a tak ďalej
+1 CON or {or} [ɔː] = alebo
+1 CON either {either} [ˈaɪðə] = buď
+1 CON but {but} [bʌt] = ale
+2 CON for {for} [fɔː] = lebo
+1 CON but rather {but rather} [bʌt ˈrɑːðə] = nýbrž
+2 CON as well as {as well as} [əz ˈwel əz] = ako aj
+2 CON both {both} [bəʊθ] = ako… tak aj
+2 CON neither {neither} [ˈnaɪðə] = ani
+2 CON or rather {or rather} [ɔː ˈrɑːðə] = respektíve
+# subordinating
+1 CON that {that} [ðæt] = že
+2 CON so that {so that} [ˈsəʊ ðæt] = takže
+2 CON in order that {in order that} [ɪn ˈɔːdə ðæt] = aby
+1 CON because {because} [bɪˈkɒz] = pretože
+1 CON since {since} [sɪns] = keďže
+2 CON especially since {especially since} [ɪˈspeʃəlɪ sɪns] = najmä keďže
+1 CON if {if} [ɪf] = ak
+2 CON as far as {as far as} [əz ˈfɑː əz] = pokiaľ
+1 CON as long as {as long as} [əz ˈlɒŋ əz] = dokiaľ
+1 CON as soon as {as soon as} [əz ˈsuːn əz] = len čo
+2 CON whenever {whenever} [wenˈevə] = vždy keď
+1 CON whether {whether} [ˈweðə] = či
+1 CON although {although} [ɔːlˈðəʊ] = hoci
+1 CON though {though} [ðəʊ] = hoci
+1 PHR as if {as if} [əz ˈɪf] = akoby
+1 CON when {when} [wen] = keď
+1 CON as {as} [æz] = ako
+1 CON than {than} [ðæn] = ako
+1 CON before {before} [bɪˈfɔː] = predtým než
+2 CON before {before} [bɪˈfɔː] = skôr než
+1 CON after {after} [ˈɑːftə] = potom čo
+2 CON by {by} [baɪ] (-ing) = tým že
+1 PHR in order to {in order to} [ɪn ˈɔːdə tə] = aby
+# connecting-adverbs
+1 AV therefore {therefore} [ˈðeəfɔː] = preto
+1 AV so {so} [səʊ] = takže
+1 AV nevertheless {nevertheless} [nevəðəˈles] = napriek tomu
+2 AV still {still} [stɪl] = predsa
+1 AV however {however} [haʊˈevə] = však
+1 AV otherwise {otherwise} [ˈʌðəwaɪz] = inak (v opačnom prípade)
+1 AV besides {besides} [bɪˈsaɪdz] = okrem toho
+2 AV moreover {moreover} [mɔːrˈəʊvə] = navyše
+2 AV thus {thus} [ðʌs] = teda
+2 AV namely {namely} [ˈneɪmlɪ] = totiž
+2 AV accordingly {accordingly} [əˈkɔːdɪŋlɪ] = podľa toho
+2 AV admittedly {admittedly} [ədˈmɪtɪdlɪ] = síce
+1 AV on the one hand {on the one hand} [ɒn ðə ˈwʌn ˈhænd] = na jednej strane
+2 CON plus {plus} [plʌs] = plus
+
+# more
+1 CON unless {unless} [ənˈles] = ak nie
+
+# language-specific closed words (no Slovak word: a description)
+1 CON that is {that is} [ðæt ˈɪz] = čiže

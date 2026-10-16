@@ -1,0 +1,58 @@
+# personal
+1 P ich {ich} [ɪç] = ja
+1 P du {du} [duː] = ty
+1 P er {er} [eːɐ] = on
+1 P sie {sie} [ziː] = ona, oni, ony
+1 P es {es} [ɛs] = ono, to
+1 P wir {wir} [viːɐ] = my
+1 P ihr {ihr} [iːɐ] = vy (neformálne množné číslo)
+1 P Sie {Sie} [ziː] = vy (zdvorilé oslovenie)
+
+# possessive
+1 P mein {mein} [maɪn] = môj
+1 P dein {dein} [daɪn] = tvoj
+1 P sein {sein} [zaɪn] = jeho, svoj
+1 P ihr {ihr} [iːɐ] = jej, ich
+1 P unser {unser} [ˈʊnzɐ] = náš
+1 P euer {euer} [ˈɔʏɐ] = váš (neformálne)
+1 P Ihr {Ihr} [iːɐ] = Váš (zdvorilé oslovenie)
+
+# reflexive-and-reciprocal
+1 P sich {sich} [zɪç] = sa (zvratné zámeno), si
+1 P selbst {selbst} [zɛlpst] = sám, samotný, dokonca
+- 2 P selber {selber} [ˈzɛlbɐ] = sám
+2 P einander {einander} [aɪˈnandɐ] = navzájom, jeden druhého
+
+# demonstrative
+1 P dieser {dieser} [ˈdiːzɐ] = tento
+- 2 AV diesmal {dies|mal} [ˈdiːsmaːl] = tentoraz, tentokrát
+2 P jener {jener} [ˈjeːnɐ] = tamten, onen
+2 P solcher {solcher} [ˈzɔlçɐ] = taký
+- 1 PHR so ein {so ein} [zoː ˈaɪn] = taký
+2 P solch {solch} [zɔlç] = taký
+1 P dies {dies} [diːs] = tento
+
+# interrogative-and-relative
+1 P wer {wer} [veːɐ] = kto
+- 2 P irgendwer {irgend|wer} [ˈɪʁɡəntveːɐ] = niekto, ktokoľvek
+1 P was {was} [vas] = čo
+1 P welcher {welcher} [ˈvɛlçɐ] = ktorý, aký
+- 1 PHR was für ein {was für ein} [vas fyːɐ ˈaɪn] = aký
+
+# indefinite
+1 P man {man} [man] = sa (neurčitý podmet), človek
+1 P jemand {jemand} [ˈjeːmant] = niekto
+- 2 P irgendjemand {irgend|jemand} [ˈɪʁɡəntjeːmant] = niekto, ktokoľvek
+1 P niemand {niemand} [ˈniːmant] = nikto
+3 P jedermann {jeder|mann} [ˈjeːdɐman] = každý človek, každý
+2 P mancher {mancher} [ˈmançɐ] = niektorý, mnohý
+2 P beide {beide} [ˈbaɪdə] = obaja, obidva
+3 P jeglicher {jeglicher} [ˈjeːɡlɪçɐ] = akýkoľvek, každý
+3 P etliche {etliche} [ˈɛtlɪçə] = niekoľkí, mnohí
+3 P sämtliche {sämtliche} [ˈzɛmtlɪçə] = všetci, všetky
+2 PHR ein bisschen {ein bisschen} [aɪn ˈbɪsçən] = trochu, troška
+3 P keinerlei {keiner|lei} [ˈkaɪnɐlaɪ] = žiadny, nijaký
+
+# language-specific closed words (no Slovak word: a description)
+1 P dessen {dessen} [ˈdɛsən] = ktorého (vzťažné zámeno)
+1 P deren {deren} [ˈdeːʁən] = ktorého (vzťažné zámeno)

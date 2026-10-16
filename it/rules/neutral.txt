@@ -1,0 +1,171 @@
+# HOW ITALIAN SAYS THE WORLD'S CLOSED WORDS (world/CLAUSES.md) -- as en/rules/neutral.txt: `KIND neutral = Italian`,
+# alternatives `|` (the first by default; `{2}` likelier when the realizer chooses freely; [place] [person] [surface]
+# ...: the alternative for such a noun). A pronoun: subject/direct object/indirect object/possessive (the masculine
+# singular: il mio)/after a preposition/reflexive/its person (0 io .. 5 loro). Read by it/realize.js.
+
+pron 1sg = io/mi/mi/mio/me/mi/0
+pron 2sg = tu/ti/ti/tuo/te/ti/1
+pron 3sg.m = lui/lo/gli/suo/lui/si/2
+pron 3sg.f = lei/la/le/suo/lei/si/2
+pron 3sg.n = esso/lo/gli/suo/esso/si/2
+pron 1pl = noi/ci/ci/nostro/noi/ci/3
+pron 2pl = voi/vi/vi/vostro/voi/vi/4
+pron 3pl = loro/li/gli/loro/loro/si/5
+pron 3pl.f = loro/le/gli/loro/loro/si/5
+pron formal = Lei/La/Le/Suo/Lei/si/2
+pron one = si/lo/gli/proprio/sé/si/2
+pron someone = qualcuno/lo/gli/suo/qualcuno/si/2
+pron noone = nessuno/lo/gli/suo/nessuno/si/2
+pron something = qualcosa/lo/gli/suo/qualcosa/si/2
+pron nothing = niente/lo/gli/suo/niente/si/2
+pron everything = tutto/lo/gli/suo/tutto/si/2
+pron this = questo/lo/gli/suo/questo/si/2
+pron that-one = lui/lo/gli/suo/lui/si/2
+pron who = chi/lo/gli/suo/chi/si/2
+
+det def = il/la/i/le
+det indef = un/una/dei/delle
+det this = questo/questa/questi/queste
+det every = ogni/ogni/tutti i/tutte le
+det all = tutto il/tutta la/tutti i/tutte le
+det some = qualche/qualche/alcuni/alcune
+det both = entrambi i/entrambe le/entrambi i/entrambe le
+det many = molto/molta/molti/molte
+det much = molto/molta/molti/molte
+det little = poco/poca/pochi/poche
+det several = diversi/diverse/diversi/diverse
+det few = poco/poca/pochi/poche
+det which = quale/quale/quali/quali
+det no = nessun/nessuna/nessuni/nessune
+
+coord and = e
+coord but = ma
+coord or = o
+coord for = infatti
+coord either = o
+coord admittedly = è vero che
+coord as-well-as = così come
+
+link because = perché {3} | siccome {1}
+link although = anche se
+link if = se
+link if-unreal = se
+link when = quando
+link when-past = quando
+link before = prima che
+link after = dopo che
+link as-soon-as = appena
+link in-case = in caso
+link while = mentre
+link until = finché non
+link as-long-as = finché
+link since = da quando
+link so-that = perché
+link by-doing = 
+link with-result = così che
+link without-that = senza che
+link instead-that = invece che
+link as-if = come se
+link that = che
+link whether = se
+link purpose = per
+link without = senza
+link instead = invece di
+
+# the links after which the verb is in the congiuntivo (perché venga); `if-unreal` and `as-if`: its imperfetto
+mood subj = before|so-that|without-that|instead-that|in-case
+mood subjimpf = if-unreal|as-if
+
+rel in = in
+rel into = in | a [place]
+rel on = su
+rel onto = su
+rel at = a | accanto a [surface]
+rel to-side = a
+rel to = a | da [person]
+rel from = da
+rel off = da
+rel under = sotto
+rel under-to = sotto
+rel above = sopra
+rel above-to = sopra
+rel behind = dietro
+rel behind-to = dietro
+rel front = davanti a
+rel front-to = davanti a
+rel beside = accanto a
+rel beside-to = accanto a
+rel between = tra
+rel through = attraverso
+rel along = lungo
+rel around = intorno a
+rel near = da [person] | vicino a
+rel with = con
+rel without = senza
+rel by = in
+rel for = per
+rel about = di
+rel like = come
+rel against = contro
+rel opposite = di fronte a
+rel smell-of = di
+rel after = dopo
+rel before = prima di
+rel out-of = da
+rel because-of = a causa di
+rel despite = nonostante
+rel during = durante
+rel instead-of = invece di
+
+time on-day = 
+time in-period = in
+time at-hour = alle
+time date = il
+time last = scorso
+time next = prossimo
+time every = ogni
+time since = da
+time ago = fa
+time in-time = fra
+
+wh who = chi
+wh whom = chi
+wh what = cosa
+wh when = quando
+wh where = dove
+wh whence = da dove
+wh whither = dove
+wh why = perché
+wh how = come
+wh how-old = quanti anni
+wh how-late = che ore sono
+wh how-often = quante volte
+wh which = quale
+wh what-kind = che tipo di
+wh how-many = quanti
+
+neg yes = non
+neg no-more = non più
+neg not-yet = non ancora
+neg not-at-all = non ... affatto
+
+# WORD LISTS (Italian words): nouns with no article after a preposition (a casa, a scuola); adjectives before the noun
+# (with the short form before a masculine singular: un buon libro, un bel giorno; `-` none); family members said with the
+# possessive and no article (mia madre); verbs whose passive takes venire
+list noart = casa|scuola|letto|teatro|chiesa|messa|giardino|cucina|città|ufficio|montagna|campagna|centro|bagno|camera|classe|piazza|spiaggia|biblioteca|palestra|farmacia|ospedale|banca|vacanza|macchina|treno|aereo|autobus|bicicletta
+list before = buono:buon|bello:bel|grande:gran|piccolo:-|nuovo:-|vecchio:-|giovane:-|primo:-|ultimo:-|altro:-|stesso:-|lungo:-|brutto:-|povero:-|vero:-|unico:-
+list family = madre|padre|fratello|sorella|figlio|figlia|marito|moglie|nonno|nonna|zio|zia|cugino|cugina|nipote|suocero|suocera
+list venire = 
+# verbs whose passato prossimo takes essere whatever the dictionary says (the motion and change verbs; every reflexive takes it by rule)
+list essere = essere|stare|andare|venire|arrivare|partire|tornare|ritornare|uscire|entrare|salire|scendere|cadere|restare|rimanere|nascere|morire|diventare|succedere|accadere|piacere|dispiacere|sembrare|parere|costare|durare|bastare|servire|mancare|esistere|riuscire|crescere|invecchiare|scappare|fuggire|apparire|sparire|scomparire|correre|volare|passare
+# time words standing first (Oggi non compro ...; Qui si parla ...); time words of the past and of the future; verbs said
+# in the imperfetto in the past (a state or a scene: era, c'era, viveva, brillava); adverbs not made with -mente
+list front = oggi|ieri|ora|adesso|poi|allora|qui|presto|dopo|poco dopo|infine|finalmente|prima
+list past = ieri|l'altro ieri|recentemente|prima|allora|una volta
+list future = domani|dopodomani|presto|poi|più tardi|stasera
+list impf = essere|stare|avere|esserci|vivere|abitare|conoscere|sapere|volere|potere|dovere|piovere|nevicare|brillare|ronzare|odorare|aspettare|avere bisogno|sibilare|galleggiare|sembrare|somigliare|assomigliare|profumare|puzzare|luccicare|scintillare|bollire|sfrigolare|stagnare|credere|pensare|piacere|servire|mancare|fare male|costare|pesare|misurare|portare|solere|esistere|restare|splendere|luccicare|amare|temere|sperare
+list adverb = buono:bene|cattivo:male|veloce:velocemente|rapido:rapidamente|contento:volentieri|allegro:volentieri|concentrato:con concentrazione|attento:attentamente|molto:molto|poco:poco|presto:presto|tardi:tardi|lento:lentamente|forte:forte|piano:piano
+list mid = sempre|mai|ancora|già|quasi|anche|spesso|a volte|di solito|solo|appena
+# the weather said with fare (Fa freddo) -- an adjective: its noun; the weather verbs for the plan's rain verbs
+list weather = freddo:freddo|caldo:caldo|caloroso:caldo|fresco:fresco|bello:bel tempo|brutto:brutto tempo
+list rain = pršať:piovere|snežiť:nevicare|krúpiť:grandinare

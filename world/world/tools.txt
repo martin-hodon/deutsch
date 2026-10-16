@@ -1,0 +1,17 @@
+# TOOLS (tools/world.py): what one mends a thing with -- by the mending verb of a trouble (situations: trouble X
+# kaputt : reparieren). A helper takes one: Ihr Bruder reparierte den Toaster mit einem Schraubenzieher. / Er holte
+# einen Lappen und putzte den Tisch. Only where any thing is mended with it: not reparieren (a camera is not mended
+# with a hammer -- story bench 12), and not the verb's own tool (bürsten mit einer Bürste).
+#     TOOL verb : Noun | Noun ; for cat | cat   (for: only with things of those kinds -- a fork for meat)
+TOOL čistiť : handra | utierka
+TOOL oplachovať : hubka
+TOOL umývať : mydlo
+TOOL sušiť : uterák | utierka
+TOOL šiť : ihla | niť
+# the steps of the PROCEDURES (procedures.txt): what one does them with -- said only when the situation or the place
+# has it (Mit einem Löffel probierte sie die Suppe.)
+TOOL premiešať : varecha | lyžica
+TOOL ochutnať : lyžica ; for dish | sweets | drink
+TOOL ochutnať : vidlička ; for meat | vegetable | grain | baked-goods
+TOOL krájať : nôž
+TOOL otočiť : obracačka

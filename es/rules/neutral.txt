@@ -1,0 +1,166 @@
+# HOW SPANISH SAYS THE WORLD'S CLOSED WORDS (world/CLAUSES.md) -- as en/rules/neutral.txt: `KIND neutral = Spanish`,
+# alternatives `|` (the first by default; `{2}` likelier when the realizer chooses freely; [place] [person] [surface]
+# ...: the alternative for such a noun). A pronoun: subject/direct object/indirect object/possessive (before the
+# noun)/after a preposition/reflexive/its person (0 yo .. 5 ellos). Read by es/realize.js.
+
+pron 1sg = yo/me/me/mi/mí/me/0
+pron 2sg = tú/te/te/tu/ti/te/1
+pron 3sg.m = él/lo/le/su/él/se/2
+pron 3sg.f = ella/la/le/su/ella/se/2
+pron 3sg.n = ello/lo/le/su/ello/se/2
+pron 1pl = nosotros/nos/nos/nuestro/nosotros/nos/3
+pron 2pl = vosotros/os/os/vuestro/vosotros/os/4
+pron 3pl = ellos/los/les/su/ellos/se/5
+pron 3pl.f = ellas/las/les/su/ellas/se/5
+pron formal = usted/lo/le/su/usted/se/2
+pron one = uno/lo/le/su/uno/se/2
+pron someone = alguien/lo/le/su/alguien/se/2
+pron noone = nadie/lo/le/su/nadie/se/2
+pron something = algo/lo/le/su/algo/se/2
+pron nothing = nada/lo/le/su/nada/se/2
+pron everything = todo/lo/le/su/todo/se/2
+pron this = eso/lo/le/su/eso/se/2
+pron that-one = él/lo/le/su/él/se/2
+pron who = quien/lo/le/su/quien/se/2
+
+det def = el/la/los/las
+det indef = un/una/unos/unas
+det this = este/esta/estos/estas
+det every = cada/cada/todos los/todas las
+det all = todo el/toda la/todos los/todas las
+det some = algún/alguna/algunos/algunas
+det both = ambos/ambas/ambos/ambas
+det many = mucho/mucha/muchos/muchas
+det much = mucho/mucha/muchos/muchas
+det little = poco/poca/pocos/pocas
+det several = varios/varias/varios/varias
+det few = poco/poca/pocos/pocas
+det which = qué/qué/qué/qué
+det no = ningún/ninguna/ningunos/ningunas
+
+coord and = y
+coord but = pero
+coord or = o
+coord for = pues
+coord either = o
+coord admittedly = es cierto que
+coord as-well-as = así como
+
+link because = porque {3} | como {1}
+link although = aunque
+link if = si
+link if-unreal = si
+link when = cuando
+link when-past = cuando
+link before = antes de que
+link after = después de que
+link as-soon-as = en cuanto
+link in-case = por si
+link while = mientras
+link until = hasta que
+link as-long-as = mientras
+link since = desde que
+link so-that = para que
+link by-doing = 
+link with-result = de modo que
+link without-that = sin que
+link instead-that = en vez de que
+link as-if = como si
+link that = que
+link whether = si
+link purpose = para
+link without = sin
+link instead = en vez de
+
+# the links after which the verb is in the subjunctive (para que venga); `if-unreal` and `as-if`: its imperfect
+mood subj = before|so-that|without-that|instead-that|in-case|until-future|as-soon-as-future|when-future
+mood subjimpf = if-unreal|as-if
+
+rel in = en
+rel into = en | a [place]
+rel on = en | sobre [surface]
+rel onto = en | sobre [surface]
+rel at = en | junto a [surface]
+rel to-side = a
+rel to = a
+rel from = de
+rel off = de
+rel under = debajo de
+rel under-to = debajo de
+rel above = encima de
+rel above-to = por encima de
+rel behind = detrás de
+rel behind-to = detrás de
+rel front = delante de
+rel front-to = delante de
+rel beside = al lado de
+rel beside-to = al lado de
+rel between = entre
+rel through = por
+rel along = a lo largo de
+rel around = alrededor de
+rel near = en casa de [person] | en
+rel with = con
+rel without = sin
+rel by = en
+rel for = para
+rel about = sobre
+rel like = como
+rel against = contra
+rel opposite = enfrente de
+rel smell-of = a
+rel after = después de
+rel before = antes de
+rel out-of = de
+rel because-of = a causa de
+rel despite = a pesar de
+rel during = durante
+rel instead-of = en vez de
+
+time on-day = el
+time in-period = en
+time at-hour = a las
+time date = el
+time last = pasado
+time next = próximo
+time every = cada
+time since = desde hace
+time ago = hace
+time in-time = dentro de
+
+wh who = quién
+wh whom = a quién
+wh what = qué
+wh when = cuándo
+wh where = dónde
+wh whence = de dónde
+wh whither = adónde
+wh why = por qué
+wh how = cómo
+wh how-old = cuántos años
+wh how-late = qué hora
+wh how-often = con qué frecuencia
+wh which = qué
+wh what-kind = qué tipo de
+wh how-many = cuántos
+
+neg yes = no
+neg no-more = ya no
+neg not-yet = todavía no
+neg not-at-all = no ... en absoluto
+
+# WORD LISTS (Spanish words): adjectives said with estar (a state, not what one is); nouns with no article after a
+# preposition (en casa); adjectives before the noun, shortened (buen, gran); stative verbs (no progressive)
+list estar = molesto|dorado|cansado|enfermo|contento|triste|enfadado|roto|abierto|cerrado|lleno|vacío|listo|sucio|limpio|preparado|ocupado|libre|nervioso|preocupado|enamorado|sentado|muerto|vivo|caliente|frío|mojado|seco|despierto|dormido|harto|tranquilo|sorprendido|decepcionado|aburrido|furioso|satisfecho|hambriento|sediento|feliz|solo|embarazada|pegado|apagado|encendido|estropeado
+list noart = casa|clase|misa
+list before = bueno:buen|malo:mal|grande:gran|primero:primer|tercero:tercer|ninguno:ningún|alguno:algún
+# time words standing first (Hoy no compro ...; Aquí se habla ...); time words of the past and of the future; verbs said
+# in the imperfecto in the past (a state or a scene: era, estaba, vivía, brillaba); adverbs not made with -mente
+list front = hoy|ayer|ahora|luego|entonces|aquí|pronto|después|poco después|finalmente|primero
+list past = ayer|anteayer|recientemente|antes|entonces|una vez
+list future = mañana|pasado mañana|pronto|luego|más tarde|esta noche
+list impf = ser|estar|tener|haber|vivir|conocer|saber|querer|poder|deber|llover|nevar|brillar|zumbar|oler|esperar|necesitar|sisear|flotar|parecer|parecerse|creer|pensar|gustar|hacer falta|doler|faltar|costar|pesar|medir|llevar|soler|existir|quedar|lucir|relucir
+list adverb = bueno:bien|malo:mal|rápido:rápido|contento:con gusto|alegre:con gusto|concentrado:con concentración|cuidadoso:con cuidado|mucho:mucho|poco:poco|temprano:temprano|tarde:tarde|lento:lentamente
+list mid = siempre|nunca|todavía|ya|casi|también|a menudo|a veces|normalmente|solo
+# the weather said with hacer (Hace frío) -- an adjective: its noun
+list weather = frío:frío|caliente:calor|caluroso:calor|cálido:calor|fresco:fresco

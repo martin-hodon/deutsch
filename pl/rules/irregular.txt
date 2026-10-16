@@ -1,0 +1,2046 @@
+# POLISH IRREGULAR FORMS (pl/morph.js): `word : part | part ...` -- a verb's pres (the six: ja ty on my wy oni), past (the
+# ł-forms: m f n virile-pl other-pl), fut (być), imp (ty wy), ppp; a noun's gen dat ins loc (one case), stem (the oblique
+# stem), pl (nominative plural), gpl dpl ipl lpl; an adjective's comp and adv.
+być : pres jestem jesteś jest jesteśmy jesteście są | past był była było byli były | fut będę będziesz będzie będziemy będziecie będą | imp bądź bądźcie
+mieć : pres mam masz ma mamy macie mają | past miał miała miało mieli miały | imp miej miejcie
+chcieć : pres chcę chcesz chce chcemy chcecie chcą | past chciał chciała chciało chcieli chciały | imp chciej chciejcie
+wiedzieć : pres wiem wiesz wie wiemy wiecie wiedzą | past wiedział wiedziała wiedziało wiedzieli wiedziały | imp wiedz wiedzcie
+powiedzieć : pres powiem powiesz powie powiemy powiecie powiedzą | past powiedział powiedziała powiedziało powiedzieli powiedziały | imp powiedz powiedzcie | ppp powiedziany
+jeść : pres jem jesz je jemy jecie jedzą | past jadł jadła jadło jedli jadły | imp jedz jedzcie | ppp jedzony
+zjeść : pres zjem zjesz zje zjemy zjecie zjedzą | past zjadł zjadła zjadło zjedli zjadły | imp zjedz zjedzcie | ppp zjedzony
+iść : pres idę idziesz idzie idziemy idziecie idą | past szedł szła szło szli szły | imp idź idźcie
+pójść : pres pójdę pójdziesz pójdzie pójdziemy pójdziecie pójdą | past poszedł poszła poszło poszli poszły | imp pójdź pójdźcie
+przyjść : pres przyjdę przyjdziesz przyjdzie przyjdziemy przyjdziecie przyjdą | past przyszedł przyszła przyszło przyszli przyszły | imp przyjdź przyjdźcie
+wyjść : pres wyjdę wyjdziesz wyjdzie wyjdziemy wyjdziecie wyjdą | past wyszedł wyszła wyszło wyszli wyszły | imp wyjdź wyjdźcie
+wejść : pres wejdę wejdziesz wejdzie wejdziemy wejdziecie wejdą | past wszedł weszła weszło weszli weszły | imp wejdź wejdźcie
+jechać : pres jadę jedziesz jedzie jedziemy jedziecie jadą | past jechał jechała jechało jechali jechały | imp jedź jedźcie
+pojechać : pres pojadę pojedziesz pojedzie pojedziemy pojedziecie pojadą | past pojechał pojechała pojechało pojechali pojechały | imp pojedź pojedźcie
+móc : pres mogę możesz może możemy możecie mogą | past mógł mogła mogło mogli mogły
+pomóc : pres pomogę pomożesz pomoże pomożemy pomożecie pomogą | past pomógł pomogła pomogło pomogli pomogły | imp pomóż pomóżcie
+brać : pres biorę bierzesz bierze bierzemy bierzecie biorą | imp bierz bierzcie | ppp brany
+wziąć : pres wezmę weźmiesz weźmie weźmiemy weźmiecie wezmą | past wziął wzięła wzięło wzięli wzięły | imp weź weźcie | ppp wzięty
+dać : pres dam dasz da damy dacie dadzą | imp daj dajcie | ppp dany
+dawać : pres daję dajesz daje dajemy dajecie dają | imp dawaj dawajcie
+spać : pres śpię śpisz śpi śpimy śpicie śpią | imp śpij śpijcie
+stać : pres stoję stoisz stoi stoimy stoicie stoją | imp stój stójcie
+bać : pres boję boisz boi boimy boicie boją | imp bój bójcie
+pływać : pres pływam pływasz pływa pływamy pływacie pływają
+używać : pres używam używasz używa używamy używacie używają
+nazywać : pres nazywam nazywasz nazywa nazywamy nazywacie nazywają | imp nazywaj nazywajcie
+płakać : pres płaczę płaczesz płacze płaczemy płaczecie płaczą | imp płacz płaczcie
+skakać : pres skaczę skaczesz skacze skaczemy skaczecie skaczą
+pokazać : pres pokażę pokażesz pokaże pokażemy pokażecie pokażą | imp pokaż pokażcie
+kazać : pres każę każesz każe każemy każecie każą
+kłaść : pres kładę kładziesz kładzie kładziemy kładziecie kładą | past kładł kładła kładło kładli kładły | imp kładź kładźcie
+nieść : pres niosę niesiesz niesie niesiemy niesiecie niosą | past niósł niosła niosło nieśli niosły | imp nieś nieście
+znaleźć : pres znajdę znajdziesz znajdzie znajdziemy znajdziecie znajdą | past znalazł znalazła znalazło znaleźli znalazły | imp znajdź znajdźcie | ppp znaleziony
+usiąść : pres usiądę usiądziesz usiądzie usiądziemy usiądziecie usiądą | past usiadł usiadła usiadło usiedli usiadły | imp usiądź usiądźcie
+siedzieć : pres siedzę siedzisz siedzi siedzimy siedzicie siedzą | imp siedź siedźcie
+umrzeć : pres umrę umrzesz umrze umrzemy umrzecie umrą | past umarł umarła umarło umarli umarły
+ciąć : pres tnę tniesz tnie tniemy tniecie tną | past ciął cięła cięło cięli cięły | imp tnij tnijcie | ppp cięty
+zapomnieć : pres zapomnę zapomnisz zapomni zapomnimy zapomnicie zapomną | imp zapomnij zapomnijcie
+rozumieć : pres rozumiem rozumiesz rozumie rozumiemy rozumiecie rozumieją | imp rozum rozumcie
+śmiać : pres śmieję śmiejesz śmieje śmiejemy śmiejecie śmieją | past śmiał śmiała śmiało śmiali śmiały | imp śmiej śmiejcie
+grać : pres gram grasz gra gramy gracie grają | imp graj grajcie
+wstać : pres wstanę wstaniesz wstanie wstaniemy wstaniecie wstaną | imp wstań wstańcie
+zostać : pres zostanę zostaniesz zostanie zostaniemy zostaniecie zostaną | imp zostań zostańcie
+sprzedać : pres sprzedam sprzedasz sprzeda sprzedamy sprzedacie sprzedadzą | imp sprzedaj sprzedajcie
+człowiek : pl ludzie | gpl ludzi | dpl ludziom | ipl ludźmi | lpl ludziach | loc człowieku | ins człowiekiem
+dziecko : pl dzieci | gpl dzieci | dpl dzieciom | ipl dziećmi | lpl dzieciach | loc dziecku
+ręka : pl ręce | gpl rąk | lpl rękach | loc ręce | dat ręce
+oko : pl oczy | gpl oczu | dpl oczom | ipl oczami | lpl oczach
+ucho : pl uszy | gpl uszu | dpl uszom | ipl uszami | lpl uszach
+pies : stem ps | pl psy | dat psu | loc psie
+kot : dat kotu
+rok : pl lata | gpl lat | dpl latom | ipl latami | lpl latach | loc roku
+pieniądz : pl pieniądze | gpl pieniędzy | dpl pieniądzom | ipl pieniędzmi | lpl pieniądzach
+przyjaciel : pl przyjaciele | gpl przyjaciół | dpl przyjaciołom | ipl przyjaciółmi | lpl przyjaciołach
+syn : pl synowie | gpl synów | dat synowi | loc synu
+ojciec : stem ojc | pl ojcowie | gpl ojców | dat ojcu | loc ojcu
+pan : pl panowie | gpl panów | dat panu | loc panu
+chłopiec : stem chłopc | pl chłopcy | gpl chłopców | dat chłopcu | loc chłopcu
+Bóg : gen Boga | dat Bogu | loc Bogu
+imię : stem imieni | pl imiona | gpl imion | dpl imionom | ipl imionami | lpl imionach
+zwierzę : stem zwierzęci | pl zwierzęta | gpl zwierząt | dpl zwierzętom | ipl zwierzętami | lpl zwierzętach
+muzeum : pl muzea | gpl muzeów | dpl muzeom | ipl muzeami | lpl muzeach
+miasto : loc mieście | gpl miast
+las : loc lesie
+świat : loc świecie
+lato : loc lecie
+kwiat : loc kwiecie
+obiad : loc obiedzie
+sąsiad : pl sąsiedzi | loc sąsiedzie
+anioł : pl anioły | loc aniele
+dom : gen domu | loc domu
+sól : stem sol | gen soli
+noc : gen nocy | pl noce | gpl nocy
+rzecz : gen rzeczy | pl rzeczy | gpl rzeczy
+kościół : stem kościoł | gen kościoła | loc kościele | pl kościoły
+sen : stem sn | gen snu | pl sny
+ser : gen sera
+chleb : gen chleba
+nóż : stem noż | gen noża | pl noże | gpl noży
+stół : stem stoł | gen stołu | loc stole
+sklep : gen sklepu
+samochód : stem samochod | gen samochodu | loc samochodzie
+telefon : gen telefonu
+komputer : gen komputera
+kolega : pl koledzy | gpl kolegów | dpl kolegom | loc koledze | dat koledze
+mężczyzna : pl mężczyźni | gpl mężczyzn | loc mężczyźnie | dat mężczyźnie
+dobry : comp lepszy | adv dobrze
+zły : comp gorszy | adv źle
+duży : comp większy | adv dużo
+mały : comp mniejszy | adv mało
+wielki : comp większy
+wysoki : comp wyższy | adv wysoko
+niski : comp niższy | adv nisko
+lekki : comp lżejszy | adv lekko
+ciężki : comp cięższy | adv ciężko
+długi : comp dłuższy | adv długo
+krótki : comp krótszy | adv krótko
+drogi : comp droższy | adv drogo
+tani : comp tańszy | adv tanio
+szeroki : comp szerszy | adv szeroko
+wąski : comp węższy | adv wąsko
+gorący : comp gorętszy | adv gorąco
+bliski : comp bliższy | adv blisko
+daleki : comp dalszy | adv daleko
+miękki : comp miększy | adv miękko
+głęboki : comp głębszy | adv głęboko
+wesoły : comp weselszy | adv wesoło
+ciepły : comp cieplejszy | adv ciepło
+zimny : comp zimniejszy | adv zimno
+stary : comp starszy | adv staro
+młody : comp młodszy | adv młodo
+szybki : comp szybszy | adv szybko
+wolny : comp wolniejszy | adv wolno
+mądry : comp mądrzejszy | adv mądrze
+piękny : comp piękniejszy | adv pięknie
+ładny : comp ładniejszy | adv ładnie
+łatwy : comp łatwiejszy | adv łatwo
+trudny : comp trudniejszy | adv trudno
+późny : comp późniejszy | adv późno
+wczesny : comp wcześniejszy | adv wcześnie
+ciekawy : comp ciekawszy | adv ciekawie
+zostać : pres zostanę zostaniesz zostanie zostaniemy zostaniecie zostaną | past został została zostało zostali zostały
+zamknąć : ppp zamknięty
+Niemcy : gpl Niemiec | lpl Niemczech
+Włochy : gpl Włoch
+Węgry : gpl Węgier | lpl Węgrzech
+Czechy : gpl Czech
+zdjąć : pres zdejmę zdejmiesz zdejmie zdejmiemy zdejmiecie zdejmą | imp zdejmij zdejmijcie
+# ---- helper lines (adjs.out) ----
+wspaniały : comp wspanialszy | adv wspaniale
+doskonały : comp doskonalszy | adv doskonale
+wytrwały : comp wytrwalszy | adv wytrwale
+trwały : comp trwalszy | adv trwale
+stały : comp stalszy | adv stale
+zrozumiały : comp zrozumialszy | adv zrozumiale
+niezrozumiały : adv niezrozumiale
+wytrzymały : comp wytrzymalszy | adv wytrzymale
+długotrwały : comp długotrwalszy | adv długotrwale
+krótkotrwały : adv krótkotrwale
+dojrzały : adv dojrzale
+niedojrzały : adv niedojrzale
+nieśmiały : comp nieśmialszy | adv nieśmiało
+śmiały : comp śmielszy | adv śmiało
+niedbały : adv niedbale
+nagły : adv nagle
+ciągły : adv ciągle
+zwykły : adv zwykle
+niezwykły : adv niezwykle
+ścisły : adv ściśle
+zwięzły : adv zwięźle
+wściekły : adv wściekle
+przewlekły : adv przewlekle
+rozległy : adv rozlegle
+odległy : adv odlegle
+niebywały : adv niebywale
+wyrozumiały : adv wyrozumiale
+czuły : adv czule
+nieczuły : adv nieczule
+powolny : adv powoli
+malutki : comp mniejszy
+cienki : comp cieńszy
+niewielki : comp mniejszy | adv niewiele
+biały : comp bielszy | adv biało
+blady : comp bledszy
+miły : comp milszy | adv miło
+jasny : comp jaśniejszy | adv jasno
+ciasny : comp ciaśniejszy | adv ciasno
+nowoczesny : comp nowocześniejszy | adv nowocześnie
+częsty : comp częstszy | adv często
+prosty : comp prostszy
+gęsty : comp gęstszy
+czysty : comp czystszy
+tłusty : comp tłustszy
+żółty : comp żółtszy
+czerstwy : comp czerstwszy
+szczery : comp szczerszy | adv szczerze
+ponury : comp ponurszy
+szary : comp szarszy
+nagi : comp bardziej nagi
+wrogi : comp bardziej wrogi
+lepszy : adv lepiej
+gorszy : adv gorzej
+wyższy : adv wyżej
+słabszy : adv słabiej
+późniejszy : adv później
+wcześniejszy : adv wcześniej
+dalszy : adv dalej
+dzisiejszy : adv dziś
+tutejszy : adv tutaj
+niedrogi : comp tańszy | adv niedrogo
+głupi : adv głupio
+taki : adv tak
+inny : adv inaczej
+dużo : comp więcej
+wiele : comp więcej
+mało : comp mniej
+niewiele : comp mniej
+jedyny : adv jedynie
+nieprzerwany : adv nieprzerwanie
+umiarkowany : adv umiarkowanie
+nieskończony : adv nieskończenie
+nieograniczony : adv nieograniczenie
+znakomity : adv znakomicie
+niesamowity : adv niesamowicie
+całkowity : adv całkowicie
+pracowity : adv pracowicie
+jednolity : adv jednolicie
+przyzwoity : adv przyzwoicie
+oczywisty : adv oczywiście
+uroczysty : adv uroczyście
+przejrzysty : adv przejrzyście
+uparty : adv uparcie
+otwarty : adv otwarcie
+kolejny : adv kolejno
+odpowiedni : adv odpowiednio
+nieodpowiedni : adv nieodpowiednio
+bezpośredni : adv bezpośrednio
+poprzedni : adv poprzednio
+pośredni : adv pośrednio
+średni : adv średnio
+ostatni : adv ostatnio
+ciemny : adv ciemno
+chłodny : adv chłodno
+duszny : adv duszno
+parny : adv parno
+mroźny : adv mroźno
+pochmurny : adv pochmurno
+głodny : adv głodno
+luźny : adv luźno
+brudny : adv brudno
+wilgotny : adv wilgotno
+głośny : adv głośno
+mocny : adv mocno
+ludzki : adv po ludzku
+męski : adv po męsku
+właściwy : adv właściwie
+niewłaściwy : adv niewłaściwie
+prawdziwy : adv prawdziwie
+kłopotliwy : adv kłopotliwie
+szkodliwy : adv szkodliwie
+uczciwy : adv uczciwie
+nieuczciwy : adv nieuczciwie
+złośliwy : adv złośliwie
+możliwy : adv możliwie
+niemożliwy : adv niemożliwie
+obrzydliwy : adv obrzydliwie
+szczęśliwy : adv szczęśliwie
+nieszczęśliwy : adv nieszczęśliwie
+bojaźliwy : adv bojaźliwie
+leniwy : adv leniwie
+chciwy : adv chciwie
+cierpliwy : adv cierpliwie
+niecierpliwy : adv niecierpliwie
+sprawiedliwy : adv sprawiedliwie
+niesprawiedliwy : adv niesprawiedliwie
+życzliwy : adv życzliwie
+tchórzliwy : adv tchórzliwie
+krzykliwy : adv krzykliwie
+troskliwy : adv troskliwie
+wrażliwy : adv wrażliwie
+nieciekawy : adv nieciekawie
+austriacki : adv po austriacku
+szwajcarski : adv po szwajcarsku
+francuski : adv po francusku
+włoski : adv po włosku
+hiszpański : adv po hiszpańsku
+portugalski : adv po portugalsku
+brytyjski : adv po brytyjsku
+angielski : adv po angielsku
+irlandzki : adv po irlandzku
+holenderski : adv po holendersku
+belgijski : adv po belgijsku
+luksemburski : adv po luksembursku
+duński : adv po duńsku
+szwedzki : adv po szwedzku
+norweski : adv po norwesku
+fiński : adv po fińsku
+islandzki : adv po islandzku
+polski : adv po polsku
+czeski : adv po czesku
+słowacki : adv po słowacku
+węgierski : adv po węgiersku
+słoweński : adv po słoweńsku
+chorwacki : adv po chorwacku
+serbski : adv po serbsku
+rumuński : adv po rumuńsku
+bułgarski : adv po bułgarsku
+grecki : adv po grecku
+turecki : adv po turecku
+ukraiński : adv po ukraińsku
+rosyjski : adv po rosyjsku
+litewski : adv po litewsku
+łotewski : adv po łotewsku
+estoński : adv po estońsku
+chiński : adv po chińsku
+japoński : adv po japońsku
+indyjski : adv po indyjsku
+izraelski : adv po izraelsku
+irański : adv po irańsku
+iracki : adv po iracku
+syryjski : adv po syryjsku
+egipski : adv po egipsku
+katarski : adv po katarsku
+afgański : adv po afgańsku
+pakistański : adv po pakistańsku
+brazylijski : adv po brazylijsku
+kanadyjski : adv po kanadyjsku
+meksykański : adv po meksykańsku
+argentyński : adv po argentyńsku
+południowoafrykański : adv po południowoafrykańsku
+europejski : adv po europejsku
+azjatycki : adv po azjatycku
+afrykański : adv po afrykańsku
+amerykański : adv po amerykańsku
+australijski : adv po australijsku
+# ---- helper lines (verbs-0.out, verbs-2.out) ----
+utrudnić : imp utrudnij utrudnijcie
+opróżnić : imp opróżnij opróżnijcie
+wzmocnić : imp wzmocnij wzmocnijcie
+zatrudnić : imp zatrudnij zatrudnijcie
+uwolnić : imp uwolnij uwolnijcie
+rozluźnić : imp rozluźnij rozluźnijcie
+zwolnić : imp zwolnij zwolnijcie
+wyjaśnić : imp wyjaśnij wyjaśnijcie
+uzupełnić : imp uzupełnij uzupełnijcie
+napełnić : imp napełnij napełnijcie
+spowolnić : imp spowolnij spowolnijcie
+umocnić : imp umocnij umocnijcie
+uzasadnić : imp uzasadnij uzasadnijcie
+uaktywnić : imp uaktywnij uaktywnijcie
+zapewnić : imp zapewnij zapewnijcie
+uwzględnić : imp uwzględnij uwzględnijcie
+spełnić : imp spełnij spełnijcie
+wypełnić : imp wypełnij wypełnijcie
+ulotnić : imp ulotnij ulotnijcie
+spóźnić : imp spóźnij spóźnijcie
+zaokrąglić : imp zaokrąglij zaokrąglijcie
+położyć : imp połóż połóżcie
+włożyć : imp włóż włóżcie
+nałożyć : imp nałóż nałóżcie
+odłożyć : imp odłóż odłóżcie
+złożyć : imp złóż złóżcie
+dołożyć : imp dołóż dołóżcie
+założyć : imp załóż załóżcie
+ułożyć : imp ułóż ułóżcie
+wyłożyć : imp wyłóż wyłóżcie
+mnożyć : imp mnóż mnóżcie
+pomnożyć : imp pomnóż pomnóżcie
+tworzyć : imp twórz twórzcie
+stworzyć : imp stwórz stwórzcie
+przetworzyć : imp przetwórz przetwórzcie
+łowić : imp łów łówcie
+złowić : imp złów złówcie
+pozwolić : imp pozwól pozwólcie
+wyzwolić : imp wyzwól wyzwólcie
+zastanowić : imp zastanów zastanówcie
+postanowić : imp postanów postanówcie
+odnowić : imp odnów odnówcie
+zgodzić : imp zgódź zgódźcie
+otworzyć : imp otwórz otwórzcie | ppp otwarty
+podwoić : pres podwoję podwoisz podwoi podwoimy podwoicie podwoją | imp podwój podwójcie | ppp podwojony
+przyswoić : pres przyswoję przyswoisz przyswoi przyswoimy przyswoicie przyswoją | imp przyswój przyswójcie | ppp przyswojony
+uspokoić : pres uspokoję uspokoisz uspokoi uspokoimy uspokoicie uspokoją | imp uspokój uspokójcie | ppp uspokojony
+nadawać : imp nadawaj nadawajcie
+rozdawać : imp rozdawaj rozdawajcie
+oddawać : imp oddawaj oddawajcie
+podawać : imp podawaj podawajcie
+zadawać : imp zadawaj zadawajcie
+wydawać : imp wydawaj wydawajcie
+dodawać : imp dodawaj dodawajcie
+wdawać : imp wdawaj wdawajcie
+przyznawać : imp przyznawaj przyznawajcie
+stawać : imp stawaj stawajcie
+zostawać : imp zostawaj zostawajcie
+pozostawać : imp pozostawaj pozostawajcie
+dostawać : imp dostawaj dostawajcie
+zastawać : imp zastawaj zastawajcie
+powstawać : imp powstawaj powstawajcie
+powstać : pres powstanę powstaniesz powstanie powstaniemy powstaniecie powstaną | imp powstań powstańcie
+pozostać : pres pozostanę pozostaniesz pozostanie pozostaniemy pozostaniecie pozostaną | imp pozostań pozostańcie
+zastać : pres zastanę zastaniesz zastanie zastaniemy zastaniecie zastaną | imp zastań zastańcie
+dostać : pres dostanę dostaniesz dostanie dostaniemy dostaniecie dostaną | imp dostań dostańcie
+stać się : pres stanę staniesz stanie staniemy staniecie staną | imp stań stańcie
+wpływać : pres wpływam wpływasz wpływa wpływamy wpływacie wpływają
+przybywać : pres przybywam przybywasz przybywa przybywamy przybywacie przybywają
+odbywać : pres odbywam odbywasz odbywa odbywamy odbywacie odbywają
+zdobywać : pres zdobywam zdobywasz zdobywa zdobywamy zdobywacie zdobywają
+pozbywać : pres pozbywam pozbywasz pozbywa pozbywamy pozbywacie pozbywają
+zakrywać : pres zakrywam zakrywasz zakrywa zakrywamy zakrywacie zakrywają
+ukrywać : pres ukrywam ukrywasz ukrywa ukrywamy ukrywacie ukrywają
+pokrywać : pres pokrywam pokrywasz pokrywa pokrywamy pokrywacie pokrywają
+odrywać : pres odrywam odrywasz odrywa odrywamy odrywacie odrywają
+zdobyć : pres zdobędę zdobędziesz zdobędzie zdobędziemy zdobędziecie zdobędą | imp zdobądź zdobądźcie | ppp zdobyty
+ubyć : pres ubędę ubędziesz ubędzie ubędziemy ubędziecie ubędą | imp ubądź ubądźcie
+przybyć : pres przybędę przybędziesz przybędzie przybędziemy przybędziecie przybędą | imp przybądź przybądźcie
+odbyć : pres odbędę odbędziesz odbędzie odbędziemy odbędziecie odbędą | imp odbądź odbądźcie
+pozbyć : pres pozbędę pozbędziesz pozbędzie pozbędziemy pozbędziecie pozbędą | imp pozbądź pozbądźcie
+wiązać : pres wiążę wiążesz wiąże wiążemy wiążecie wiążą | imp wiąż wiążcie
+związać : pres zwiążę zwiążesz zwiąże zwiążemy zwiążecie zwiążą | imp zwiąż zwiążcie
+powiązać : pres powiążę powiążesz powiąże powiążemy powiążecie powiążą | imp powiąż powiążcie
+rozwiązać : pres rozwiążę rozwiążesz rozwiąże rozwiążemy rozwiążecie rozwiążą | imp rozwiąż rozwiążcie
+obwiązać : pres obwiążę obwiążesz obwiąże obwiążemy obwiążecie obwiążą | imp obwiąż obwiążcie
+wskazać : pres wskażę wskażesz wskaże wskażemy wskażecie wskażą | imp wskaż wskażcie
+wykazać : pres wykażę wykażesz wykaże wykażemy wykażecie wykażą | imp wykaż wykażcie
+przekazać : pres przekażę przekażesz przekaże przekażemy przekażecie przekażą | imp przekaż przekażcie
+okazać : pres okażę okażesz okaże okażemy okażecie okażą | imp okaż okażcie
+pisać : pres piszę piszesz pisze piszemy piszecie piszą | imp pisz piszcie | ppp pisany
+napisać : pres napiszę napiszesz napisze napiszemy napiszecie napiszą | imp napisz napiszcie | ppp napisany
+zapisać : pres zapiszę zapiszesz zapisze zapiszemy zapiszecie zapiszą | imp zapisz zapiszcie | ppp zapisany
+przypisać : pres przypiszę przypiszesz przypisze przypiszemy przypiszecie przypiszą | imp przypisz przypiszcie | ppp przypisany
+nazwać : pres nazwę nazwiesz nazwie nazwiemy nazwiecie nazwą | imp nazwij nazwijcie | ppp nazwany
+zalać : pres zleję zlejesz zleje zlejemy zlejecie zleją | imp zalej zalejcie | ppp zalany
+wysłać : pres wyślę wyślesz wyśle wyślemy wyślecie wyślą | imp wyślij wyślijcie | ppp wysłany
+przesłać : pres prześlę prześlesz prześle prześlemy prześlecie prześlą | imp prześlij prześlijcie | ppp przesłany
+rozesłać : pres roześlę roześlesz roześle roześlemy roześlecie roześlą | imp roześlij roześlijcie | ppp rozesłany
+zerwać : pres zerwę zerwiesz zerwie zerwiemy zerwiecie zerwą | imp zerwij zerwijcie
+oderwać : pres oderwę oderwiesz oderwie oderwiemy oderwiecie oderwą | imp oderwij oderwijcie
+rozsypać : pres rozsypię rozsypiesz rozsypie rozsypiemy rozsypiecie rozsypią | imp rozsyp rozsypcie | ppp rozsypany
+posypać : pres posypię posypiesz posypie posypiemy posypiecie posypią | imp posyp posypcie | ppp posypany
+osypać : pres osypię osypiesz osypie osypiemy osypiecie osypią | imp osyp osypcie | ppp osypany
+łapać : pres łapię łapiesz łapie łapiemy łapiecie łapią | imp łap łapcie | ppp łapany
+złapać : pres złapię złapiesz złapie złapiemy złapiecie złapią | imp złap złapcie | ppp złapany
+kopać : pres kopię kopiesz kopie kopiemy kopiecie kopią | imp kop kopcie | ppp kopany
+wykopać : pres wykopię wykopiesz wykopie wykopiemy wykopiecie wykopią | imp wykop wykopcie | ppp wykopany
+podkopać : pres podkopię podkopiesz podkopie podkopiemy podkopiecie podkopią | imp podkop podkopcie | ppp podkopany
+grzebać : pres grzebię grzebiesz grzebie grzebiemy grzebiecie grzebią | imp grzeb grzebcie | ppp grzebany
+pogrzebać : pres pogrzebię pogrzebiesz pogrzebie pogrzebiemy pogrzebiecie pogrzebią | imp pogrzeb pogrzebcie | ppp pogrzebany
+rąbać : pres rąbię rąbiesz rąbie rąbiemy rąbiecie rąbią | imp rąb rąbcie | ppp rąbany
+porąbać : pres porąbię porąbiesz porąbie porąbiemy porąbiecie porąbią | imp porąb porąbcie | ppp porąbany
+czerpać : pres czerpię czerpiesz czerpie czerpiemy czerpiecie czerpią | imp czerp czerpcie | ppp czerpany
+wyczerpać : pres wyczerpię wyczerpiesz wyczerpie wyczerpiemy wyczerpiecie wyczerpią | imp wyczerp wyczerpcie | ppp wyczerpany
+kołysać : pres kołyszę kołyszesz kołysze kołyszemy kołyszecie kołyszą | imp kołysz kołyszcie | ppp kołysany
+zakołysać : pres zakołyszę zakołyszesz zakołysze zakołyszemy zakołyszecie zakołyszą | imp zakołysz zakołyszcie | ppp zakołysany
+trzepotać : pres trzepoczę trzepoczesz trzepocze trzepoczemy trzepoczecie trzepoczą | imp trzepocz trzepoczcie
+zatrzepotać : pres zatrzepoczę zatrzepoczesz zatrzepocze zatrzepoczemy zatrzepoczecie zatrzepoczą | imp zatrzepocz zatrzepoczcie
+bulgotać : pres bulgoczę bulgoczesz bulgocze bulgoczemy bulgoczecie bulgoczą | imp bulgocz bulgoczcie
+zabulgotać : pres zabulgoczę zabulgoczesz zabulgocze zabulgoczemy zabulgoczecie zabulgoczą | imp zabulgocz zabulgoczcie
+migotać : pres migoczę migoczesz migocze migoczemy migoczecie migoczą | imp migocz migoczcie
+zamigotać : pres zamigoczę zamigoczesz zamigocze zamigoczemy zamigoczecie zamigoczą | imp zamigocz zamigoczcie
+rozmazać : pres rozmażę rozmażesz rozmaże rozmażemy rozmażecie rozmażą | imp rozmaż rozmażcie | ppp rozmazany
+nabrać : pres nabiorę nabierzesz nabierze nabierzemy nabierzecie nabiorą | imp nabierz nabierzcie
+zebrać : pres zbiorę zbierzesz zbierze zbierzemy zbierzecie zbiorą | imp zbierz zbierzcie
+odebrać : pres odbiorę odbierzesz odbierze odbierzemy odbierzecie odbiorą | imp odbierz odbierzcie
+zabrać : pres zabiorę zabierzesz zabierze zabierzemy zabierzecie zabiorą | imp zabierz zabierzcie
+przyciąć : pres przytnę przytniesz przytnie przytniemy przytniecie przytną | imp przytnij przytnijcie
+zaciąć : pres zetnę zetniesz zetnie zetniemy zetniecie zetną | imp zetnij zetnijcie
+zgiąć : pres zegnę zegniesz zegnie zegniemy zegniecie zegną | imp zegnij zegnijcie
+napiąć : pres napnę napniesz napnie napniemy napniecie napną | imp napnij napnijcie
+objąć : pres obejmę obejmiesz obejmie obejmiemy obejmiecie obejmą | imp obejmij obejmijcie
+znieść : pres zniosę zniesiesz zniesie zniesiemy zniesiecie zniosą | past zniósł zniosła zniosło znieśli zniosły | imp znieś znieście | ppp zniesiony
+przynieść : pres przyniosę przyniesiesz przyniesie przyniesiemy przyniesiecie przyniosą | past przyniósł przyniosła przyniosło przynieśli przyniosły | imp przynieś przynieście | ppp przyniesiony
+wnieść : pres wniosę wniesiesz wniesie wniesiemy wniesiecie wniosą | past wniósł wniosła wniosło wnieśli wniosły | imp wnieś wnieście | ppp wniesiony
+przenieść : pres przeniosę przeniesiesz przeniesie przeniesiemy przeniesiecie przeniosą | past przeniósł przeniosła przeniosło przenieśli przeniosły | imp przenieś przenieście | ppp przeniesiony
+podnieść : pres podniosę podniesiesz podniesie podniesiemy podniesiecie podniosą | past podniósł podniosła podniosło podnieśli podniosły | imp podnieś podnieście | ppp podniesiony
+dowieźć : pres dowiozę dowieziesz dowiezie dowieziemy dowieziecie dowiozą | past dowiózł dowiozła dowiozło dowieźli dowiozły | imp dowieź dowieźcie | ppp dowieziony
+kraść : pres kradnę kradniesz kradnie kradniemy kradniecie kradną | past kradł kradła kradło kradli kradły | imp kradnij kradnijcie | ppp kradziony
+ukraść : pres ukradnę ukradniesz ukradnie ukradniemy ukradniecie ukradną | past ukradł ukradła ukradło ukradli ukradły | imp ukradnij ukradnijcie | ppp ukradziony
+obejść : pres obejdę obejdziesz obejdzie obejdziemy obejdziecie obejdą | past obszedł obeszła obeszło obeszli obeszły | imp obejdź obejdźcie
+podejść : pres podejdę podejdziesz podejdzie podejdziemy podejdziecie podejdą | past podszedł podeszła podeszło podeszli podeszły | imp podejdź podejdźcie
+odejść : pres odejdę odejdziesz odejdzie odejdziemy odejdziecie odejdą | past odszedł odeszła odeszło odeszli odeszły | imp odejdź odejdźcie
+zamieść : pres zamiotę zamieciesz zamiecie zamieciemy zamieciecie zamiotą | past zamiótł zamiotła zamiotło zamietli zamiotły | imp zamieć zamiećcie | ppp zamieciony
+dobiec : pres dobiegnę dobiegniesz dobiegnie dobiegniemy dobiegniecie dobiegną | past dobiegł dobiegła dobiegło dobiegli dobiegły | imp dobiegnij dobiegnijcie
+obiec : pres obiegnę obiegniesz obiegnie obiegniemy obiegniecie obiegną | past obiegł obiegła obiegło obiegli obiegły | imp obiegnij obiegnijcie
+zapobiec : pres zapobiegnę zapobiegniesz zapobiegnie zapobiegniemy zapobiegniecie zapobiegną | past zapobiegł zapobiegła zapobiegło zapobiegli zapobiegły | imp zapobiegnij zapobiegnijcie
+oprzeć : pres oprę oprzesz oprze oprzemy oprzecie oprą | past oparł oparła oparło oparli oparły | imp oprzyj oprzyjcie | ppp oparty
+podeprzeć : pres podeprę podeprzesz podeprze podeprzemy podeprzecie podeprą | past podparł podparła podparło podparli podparły | imp podeprzyj podeprzyjcie | ppp podparty
+wesprzeć : pres wesprę wesprzesz wesprze wesprzemy wesprzecie wesprą | past wsparł wsparła wsparło wsparli wsparły | imp wesprzyj wesprzyjcie | ppp wsparty
+odpowiedzieć : pres odpowiem odpowiesz odpowie odpowiemy odpowiecie odpowiedzą | past odpowiedział odpowiedziała odpowiedziało odpowiedzieli odpowiedziały | imp odpowiedz odpowiedzcie
+dowiedzieć : pres dowiem dowiesz dowie dowiemy dowiecie dowiedzą | past dowiedział dowiedziała dowiedziało dowiedzieli dowiedziały | imp dowiedz dowiedzcie
+zrozumieć : imp zrozum zrozumcie | ppp zrozumiany
+obejrzeć : imp obejrzyj obejrzyjcie | ppp obejrzany
+przejrzeć : imp przejrzyj przejrzyjcie | ppp przejrzany
+patrzeć : past patrzył patrzyła patrzyło patrzyli patrzyły
+popatrzeć : past popatrzył popatrzyła popatrzyło popatrzyli popatrzyły
+twardnieć : pres twardnieję twardniejesz twardnieje twardniejemy twardniejecie twardnieją | imp twardnij twardnijcie
+stwardnieć : pres stwardnieję stwardniejesz stwardnieje stwardniejemy stwardniejecie stwardnieją | imp stwardnij stwardnijcie
+zabraknąć : past zabrakł zabrakła zabrakło zabrakli zabrakły
+wezwać : pres wezwę wezwiesz wezwie wezwiemy wezwiecie wezwą | imp wezwij wezwijcie
+wyzwać : pres wyzwę wyzwiesz wyzwie wyzwiemy wyzwiecie wyzwą | imp wyzwij wyzwijcie
+pozwać : pres pozwę pozwiesz pozwie pozwiemy pozwiecie pozwą | imp pozwij pozwijcie
+porwać : pres porwę porwiesz porwie porwiemy porwiecie porwą | imp porwij porwijcie
+przerwać : pres przerwę przerwiesz przerwie przerwiemy przerwiecie przerwą | imp przerwij przerwijcie
+rwać : pres rwę rwiesz rwie rwiemy rwiecie rwą | imp rwij rwijcie
+rozerwać : pres rozerwę rozerwiesz rozerwie rozerwiemy rozerwiecie rozerwą | imp rozerwij rozerwijcie
+wyrwać : pres wyrwę wyrwiesz wyrwie wyrwiemy wyrwiecie wyrwą | imp wyrwij wyrwijcie
+przerywać : pres przerywam przerywasz przerywa przerywamy przerywacie przerywają
+wyzywać : pres wyzywam wyzywasz wyzywa wyzywamy wyzywacie wyzywają
+pozywać : pres pozywam pozywasz pozywa pozywamy pozywacie pozywają
+porywać : pres porywam porywasz porywa porywamy porywacie porywają
+wyrywać : pres wyrywam wyrywasz wyrywa wyrywamy wyrywacie wyrywają
+rozrywać : pres rozrywam rozrywasz rozrywa rozrywamy rozrywacie rozrywają
+wgrywać : pres wgrywam wgrywasz wgrywa wgrywamy wgrywacie wgrywają
+zużywać : pres zużywam zużywasz zużywa zużywamy zużywacie zużywają
+nadużywać : pres nadużywam nadużywasz nadużywa nadużywamy nadużywacie nadużywają
+przeżywać : pres przeżywam przeżywasz przeżywa przeżywamy przeżywacie przeżywają
+przemywać : pres przemywam przemywasz przemywa przemywamy przemywacie przemywają
+wypływać : pres wypływam wypływasz wypływa wypływamy wypływacie wypływają
+spływać : pres spływam spływasz spływa spływamy spływacie spływają
+zapowiedzieć : pres zapowiem zapowiesz zapowie zapowiemy zapowiecie zapowiedzą | imp zapowiedz zapowiedzcie | ppp zapowiedziany
+ostrzec : pres ostrzegę ostrzeżesz ostrzeże ostrzeżemy ostrzeżecie ostrzegą | past ostrzegł ostrzegła ostrzegło ostrzegli ostrzegły | imp ostrzeż ostrzeżcie | ppp ostrzeżony
+przysiąc : pres przysięgnę przysięgniesz przysięgnie przysięgniemy przysięgniecie przysięgną | past przysiągł przysięgła przysięgło przysięgli przysięgły | imp przysięgnij przysięgnijcie
+kłamać : pres kłamię kłamiesz kłamie kłamiemy kłamiecie kłamią | imp kłam kłamcie
+skłamać : pres skłamię skłamiesz skłamie skłamiemy skłamiecie skłamią | imp skłam skłamcie
+odesłać : pres odeślę odeślesz odeśle odeślemy odeślecie odeślą | imp odeślij odeślijcie
+opisać : pres opiszę opiszesz opisze opiszemy opiszecie opiszą | imp opisz opiszcie
+przepisać : pres przepiszę przepiszesz przepisze przepiszemy przepiszecie przepiszą | imp przepisz przepiszcie
+podpisać : pres podpiszę podpiszesz podpisze podpiszemy podpiszecie podpiszą | imp podpisz podpiszcie
+wypisać : pres wypiszę wypiszesz wypisze wypiszemy wypiszecie wypiszą | imp wypisz wypiszcie
+nakazać : pres nakażę nakażesz nakaże nakażemy nakażecie nakażą | imp nakaż nakażcie
+zakazać : pres zakażę zakażesz zakaże zakażemy zakażecie zakażą | imp zakaż zakażcie
+zawiązać : pres zawiążę zawiążesz zawiąże zawiążemy zawiążecie zawiążą | imp zawiąż zawiążcie
+przywiązać : pres przywiążę przywiążesz przywiąże przywiążemy przywiążecie przywiążą | imp przywiąż przywiążcie
+napomnieć : pres napomnę napomnisz napomni napomnimy napomnicie napomną | imp napomnij napomnijcie | ppp napomniany
+udowodnić : imp udowodnij udowodnijcie
+uzgodnić : imp uzgodnij uzgodnijcie
+unieważnić : imp unieważnij unieważnijcie
+oznajmić : imp oznajmij oznajmijcie
+zaciemnić : imp zaciemnij zaciemnijcie
+odciąć : pres odetnę odetniesz odetnie odetniemy odetniecie odetną | imp odetnij odetnijcie
+wyciąć : pres wytnę wytniesz wytnie wytniemy wytniecie wytną | imp wytnij wytnijcie
+przypiąć : pres przypnę przypniesz przypnie przypniemy przypniecie przypną | imp przypnij przypnijcie
+podjąć : pres podejmę podejmiesz podejmie podejmiemy podejmiecie podejmą | imp podejmij podejmijcie
+odjąć : pres odejmę odejmiesz odejmie odejmiemy odejmiecie odejmą | imp odejmij odejmijcie
+wyżąć : pres wyżmę wyżmiesz wyżmie wyżmiemy wyżmiecie wyżmą | imp wyżmij wyżmijcie
+uprzeć : pres uprę uprzesz uprze uprzemy uprzecie uprą | past uparł uparła uparło uparli uparły | imp uprzyj uprzyjcie
+zataić : pres zataję zataisz zatai zataimy zataicie zatają | imp zataj zatajcie | ppp zatajony
+stroić : pres stroję stroisz stroi stroimy stroicie stroją | imp strój strójcie | ppp strojony
+nastroić : pres nastroję nastroisz nastroi nastroimy nastroicie nastroją | imp nastrój nastrójcie | ppp nastrojony
+oswoić : pres oswoję oswoisz oswoi oswoimy oswoicie oswoją | imp oswój oswójcie | ppp oswojony
+rozbroić : pres rozbroję rozbroisz rozbroi rozbroimy rozbroicie rozbroją | imp rozbrój rozbrójcie | ppp rozbrojony
+uzbroić : pres uzbroję uzbroisz uzbroi uzbroimy uzbroicie uzbroją | imp uzbrój uzbrójcie | ppp uzbrojony
+modlić : imp módl módlcie
+pomodlić : imp pomódl pomódlcie
+chrzcić : pres chrzczę chrzcisz chrzci chrzcimy chrzcicie chrzczą | imp chrzcij chrzcijcie | ppp chrzczony
+ochrzcić : pres ochrzczę ochrzcisz ochrzci ochrzcimy ochrzcicie ochrzczą | imp ochrzcij ochrzcijcie | ppp ochrzczony
+żebrać : pres żebrzę żebrzesz żebrze żebrzemy żebrzecie żebrzą | imp żebrz żebrzcie
+zezwolić : imp zezwól zezwólcie
+nadużyć : pres nadużyję nadużyjesz nadużyje nadużyjemy nadużyjecie nadużyją | imp nadużyj nadużyjcie | ppp nadużyty
+zużyć : pres zużyję zużyjesz zużyje zużyjemy zużyjecie zużyją | imp zużyj zużyjcie | ppp zużyty
+okraść : pres okradnę okradniesz okradnie okradniemy okradniecie okradną | past okradł okradła okradło okradli okradły | imp okradnij okradnijcie | ppp okradziony
+napaść : pres napadnę napadniesz napadnie napadniemy napadniecie napadną | past napadł napadła napadło napadli napadły | imp napadnij napadnijcie
+wkraść : pres wkradnę wkradniesz wkradnie wkradniemy wkradniecie wkradną | past wkradł wkradła wkradło wkradli wkradły | imp wkradnij wkradnijcie
+więzić : ppp więziony
+uwięzić : ppp uwięziony
+poddawać : imp poddawaj poddawajcie
+poddać : pres poddam poddasz podda poddamy poddacie poddadzą | imp poddaj poddajcie | ppp poddany
+sprzedawać : imp sprzedawaj sprzedawajcie
+wstawać : pres wstaję wstajesz wstaje wstajemy wstajecie wstają | imp wstawaj wstawajcie
+przelać : pres przeleję przelejesz przeleje przelejemy przelejecie przeleją | imp przelej przelejcie
+podgrzać : pres podgrzeję podgrzejesz podgrzeje podgrzejemy podgrzejecie podgrzeją | imp podgrzej podgrzejcie
+rozgrzać : pres rozgrzeję rozgrzejesz rozgrzeje rozgrzejemy rozgrzejecie rozgrzeją | imp rozgrzej rozgrzejcie
+przegrzać : pres przegrzeję przegrzejesz przegrzeje przegrzejemy przegrzejecie przegrzeją | imp przegrzej przegrzejcie
+odwozić : imp odwóź odwóźcie
+odwieźć : pres odwiozę odwieziesz odwiezie odwieziemy odwieziecie odwiozą | past odwiózł odwiozła odwiozło odwieźli odwiozły | imp odwieź odwieźcie | ppp odwieziony
+wjechać : pres wjadę wjedziesz wjedzie wjedziemy wjedziecie wjadą | imp wjedź wjedźcie
+dojechać : pres dojadę dojedziesz dojedzie dojedziemy dojedziecie dojadą | imp dojedź dojedźcie
+wsiąść : pres wsiądę wsiądziesz wsiądzie wsiądziemy wsiądziecie wsiądą | past wsiadł wsiadła wsiadło wsiedli wsiadły | imp wsiądź wsiądźcie
+przesiąść : pres przesiądę przesiądziesz przesiądzie przesiądziemy przesiądziecie przesiądą | past przesiadł przesiadła przesiadło przesiedli przesiadły | imp przesiądź przesiądźcie
+kleić : pres kleję kleisz klei kleimy kleicie kleją | imp klej klejcie | ppp klejony
+skleić : pres skleję skleisz sklei skleimy skleicie skleją | imp sklej sklejcie | ppp sklejony
+przykleić : pres przykleję przykleisz przyklei przykleimy przykleicie przykleją | imp przyklej przyklejcie | ppp przyklejony
+wyć : pres wyję wyjesz wyje wyjemy wyjecie wyją | imp wyj wyjcie
+zawyć : pres zawyję zawyjesz zawyje zawyjemy zawyjecie zawyją | imp zawyj zawyjcie
+ulec : pres ulegnę ulegniesz ulegnie ulegniemy ulegniecie ulegną | past uległ uległa uległo ulegli uległy | imp ulegnij ulegnijcie
+wyciec : pres wycieknę wyciekniesz wycieknie wyciekniemy wyciekniecie wyciekną | past wyciekł wyciekła wyciekło wyciekli wyciekły | imp wycieknij wycieknijcie
+biec : pres biegnę biegniesz biegnie biegniemy biegniecie biegną | past biegł biegła biegło biegli biegły | imp biegnij biegnijcie
+pobiec : pres pobiegnę pobiegniesz pobiegnie pobiegniemy pobiegniecie pobiegną | past pobiegł pobiegła pobiegło pobiegli pobiegły | imp pobiegnij pobiegnijcie
+ubiec : pres ubiegnę ubiegniesz ubiegnie ubiegniemy ubiegniecie ubiegną | past ubiegł ubiegła ubiegło ubiegli ubiegły | imp ubiegnij ubiegnijcie
+trząść : pres trzęsę trzęsiesz trzęsie trzęsiemy trzęsiecie trzęsą | past trząsł trzęsła trzęsło trzęśli trzęsły | imp trzęś trzęście
+zatrząść : pres zatrzęsę zatrzęsiesz zatrzęsie zatrzęsiemy zatrzęsiecie zatrzęsą | past zatrząsł zatrzęsła zatrzęsło zatrzęśli zatrzęsły | imp zatrzęś zatrzęście
+zatłuc : pres zatłukę zatłuczesz zatłucze zatłuczemy zatłuczecie zatłuką | past zatłukł zatłukła zatłukło zatłukli zatłukły | imp zatłucz zatłuczcie | ppp zatłuczony
+gryźć : pres gryzę gryziesz gryzie gryziemy gryziecie gryzą | past gryzł gryzła gryzło gryźli gryzły | imp gryź gryźcie | ppp gryziony
+ugryźć : pres ugryzę ugryziesz ugryzie ugryziemy ugryziecie ugryzą | past ugryzł ugryzła ugryzło ugryźli ugryzły | imp ugryź ugryźcie | ppp ugryziony
+trzeć : pres trę trzesz trze trzemy trzecie trą | past tarł tarła tarło tarli tarły | imp trzyj trzyjcie | ppp tarty
+potrzeć : pres potrę potrzesz potrze potrzemy potrzecie potrą | past potarł potarła potarło potarli potarły | imp potrzyj potrzyjcie | ppp potarty
+wetrzeć : pres wetrę wetrzesz wetrze wetrzemy wetrzecie wetrą | past wetarł wetarła wetarło wetarli wetarły | imp wetrzyj wetrzyjcie | ppp wetarty
+otrzeć : pres otrę otrzesz otrze otrzemy otrzecie otrą | past otarł otarła otarło otarli otarły | imp otrzyj otrzyjcie | ppp otarty
+drzeć : pres drę drzesz drze drzemy drzecie drą | past darł darła darło darli darły | imp drzyj drzyjcie | ppp darty
+podrzeć : pres podrę podrzesz podrze podrzemy podrzecie podrą | past podarł podarła podarło podarli podarły | imp podrzyj podrzyjcie | ppp podarty
+pożreć : pres pożrę pożresz pożre pożremy pożrecie pożrą | past pożarł pożarła pożarło pożarli pożarły | imp pożryj pożryjcie | ppp pożarty
+wymrzeć : pres wymrę wymrzesz wymrze wymrzemy wymrzecie wymrą | past wymarł wymarła wymarło wymarli wymarły
+obumrzeć : pres obumrę obumrzesz obumrze obumrzemy obumrzecie obumrą | past obumarł obumarła obumarło obumarli obumarły
+wyrosnąć : pres wyrosnę wyrośniesz wyrośnie wyrośniemy wyrośniecie wyrosną | past wyrósł wyrosła wyrosło wyrośli wyrosły | imp wyrośnij wyrośnijcie
+drapać : pres drapię drapiesz drapie drapiemy drapiecie drapią | imp drap drapcie
+podrapać : pres podrapię podrapiesz podrapie podrapiemy podrapiecie podrapią | imp podrap podrapcie
+szarpać : pres szarpię szarpiesz szarpie szarpiemy szarpiecie szarpią | imp szarp szarpcie
+szczypać : pres szczypię szczypiesz szczypie szczypiemy szczypiecie szczypią | imp szczyp szczypcie
+klepać : pres klepię klepiesz klepie klepiemy klepiecie klepią | imp klep klepcie
+poklepać : pres poklepię poklepiesz poklepie poklepiemy poklepiecie poklepią | imp poklep poklepcie
+skubać : pres skubię skubiesz skubie skubiemy skubiecie skubią | imp skub skubcie
+kapać : pres kapię kapiesz kapie kapiemy kapiecie kapią | imp kap kapcie
+zakopać : pres zakopię zakopiesz zakopie zakopiemy zakopiecie zakopią | imp zakop zakopcie
+głaskać : pres głaszczę głaszczesz głaszcze głaszczemy głaszczecie głaszczą | imp głaszcz głaszczcie
+pogłaskać : pres pogłaszczę pogłaszczesz pogłaszcze pogłaszczemy pogłaszczecie pogłaszczą | imp pogłaszcz pogłaszczcie
+chłostać : pres chłoszczę chłoszczesz chłoszcze chłoszczemy chłoszczecie chłoszczą | imp chłoszcz chłoszczcie
+wychłostać : pres wychłoszczę wychłoszczesz wychłoszcze wychłoszczemy wychłoszczecie wychłoszczą | imp wychłoszcz wychłoszczcie
+deptać : pres depczę depczesz depcze depczemy depczecie depczą | imp depcz depczcie
+zdeptać : pres zdepczę zdepczesz zdepcze zdepczemy zdepczecie zdepczą | imp zdepcz zdepczcie
+świstać : pres świszczę świszczesz świszcze świszczemy świszczecie świszczą | imp świszcz świszczcie
+plątać : pres plączę plączesz plącze plączemy plączecie plączą | imp plącz plączcie
+zaplątać : pres zaplączę zaplączesz zaplącze zaplączemy zaplączecie zaplączą | imp zaplącz zaplączcie
+wplątać : pres wplączę wplączesz wplącze wplączemy wplączecie wplączą | imp wplącz wplączcie
+lizać : pres liżę liżesz liże liżemy liżecie liżą | imp liż liżcie
+pochować : pres pochowam pochowasz pochowa pochowamy pochowacie pochowają
+gnić : pres gniję gnijesz gnije gnijemy gnijecie gniją | imp gnij gnijcie
+zgnić : pres zgniję zgnijesz zgnije zgnijemy zgnijecie zgniją | imp zgnij zgnijcie
+przespać : pres prześpię prześpisz prześpi prześpimy prześpicie prześpią | imp prześpij prześpijcie
+wyspać : pres wyśpię wyśpisz wyśpi wyśpimy wyśpicie wyśpią | imp wyśpij wyśpijcie
+topnieć : pres topnieję topniejesz topnieje topniejemy topniejecie topnieją | imp topniej topniejcie
+stopnieć : pres stopnieję stopniejesz stopnieje stopniejemy stopniejecie stopnieją | imp stopniej stopniejcie
+istnieć : pres istnieję istniejesz istnieje istniejemy istniejecie istnieją | imp istniej istniejcie
+starzeć : pres starzeję starzejesz starzeje starzejemy starzejecie starzeją | imp starzej starzejcie
+zestarzeć : pres zestarzeję zestarzejesz zestarzeje zestarzejemy zestarzejecie zestarzeją | imp zestarzej zestarzejcie
+niszczeć : pres niszczeję niszczejesz niszczeje niszczejemy niszczejecie niszczeją | imp niszczej niszczejcie
+zniszczeć : pres zniszczeję zniszczejesz zniszczeje zniszczejemy zniszczejecie zniszczeją | imp zniszczej zniszczejcie
+grzmieć : pres grzmię grzmisz grzmi grzmimy grzmicie grzmią | imp grzmij grzmijcie
+zagrzmieć : pres zagrzmię zagrzmisz zagrzmi zagrzmimy zagrzmicie zagrzmią | imp zagrzmij zagrzmijcie
+tajać : pres taję tajesz taje tajemy tajecie tają | imp taj tajcie
+stajać : pres staję stajesz staje stajemy stajecie stają | imp staj stajcie
+# ---- helper lines (verbs-1.out) ----
+zajść : pres zajdę zajdziesz zajdzie zajdziemy zajdziecie zajdą | past zaszedł zaszła zaszło zaszli zaszły | imp zajdź zajdźcie
+przejść : pres przejdę przejdziesz przejdzie przejdziemy przejdziecie przejdą | past przeszedł przeszła przeszło przeszli przeszły | imp przejdź przejdźcie
+dojść : pres dojdę dojdziesz dojdzie dojdziemy dojdziecie dojdą | past doszedł doszła doszło doszli doszły | imp dojdź dojdźcie
+zejść : pres zejdę zejdziesz zejdzie zejdziemy zejdziecie zejdą | past zszedł zeszła zeszło zeszli zeszły | imp zejdź zejdźcie
+wysiąść : pres wysiądę wysiądziesz wysiądzie wysiądziemy wysiądziecie wysiądą | past wysiadł wysiadła wysiadło wysiedli wysiadły | imp wysiądź wysiądźcie
+paść : pres padnę padniesz padnie padniemy padniecie padną | past padł padła padło padli padły | imp padnij padnijcie
+wpaść : pres wpadnę wpadniesz wpadnie wpadniemy wpadniecie wpadną | past wpadł wpadła wpadło wpadli wpadły | imp wpadnij wpadnijcie
+upaść : pres upadnę upadniesz upadnie upadniemy upadniecie upadną | past upadł upadła upadło upadli upadły | imp upadnij upadnijcie
+odpaść : pres odpadnę odpadniesz odpadnie odpadniemy odpadniecie odpadną | past odpadł odpadła odpadło odpadli odpadły | imp odpadnij odpadnijcie
+wypaść : pres wypadnę wypadniesz wypadnie wypadniemy wypadniecie wypadną | past wypadł wypadła wypadło wypadli wypadły | imp wypadnij wypadnijcie
+spaść : pres spadnę spadniesz spadnie spadniemy spadniecie spadną | past spadł spadła spadło spadli spadły | imp spadnij spadnijcie
+opaść : pres opadnę opadniesz opadnie opadniemy opadniecie opadną | past opadł opadła opadło opadli opadły | imp opadnij opadnijcie
+wznieść : pres wzniosę wzniesiesz wzniesie wzniesiemy wzniesiecie wzniosą | past wzniósł wzniosła wzniosło wznieśli wzniosły | imp wznieś wznieście
+unieść : pres uniosę uniesiesz uniesie uniesiemy uniesiecie uniosą | past uniósł uniosła uniosło unieśli uniosły | imp unieś unieście | ppp uniesiony
+ponieść : pres poniosę poniesiesz poniesie poniesiemy poniesiecie poniosą | past poniósł poniosła poniosło ponieśli poniosły | imp ponieś ponieście | ppp poniesiony
+przewieźć : pres przewiozę przewieziesz przewiezie przewieziemy przewieziecie przewiozą | past przewiózł przewiozła przewiozło przewieźli przewiozły | imp przewieź przewieźcie | ppp przewieziony
+nawieźć : pres nawiozę nawieziesz nawiezie nawieziemy nawieziecie nawiozą | past nawiózł nawiozła nawiozło nawieźli nawiozły | imp nawieź nawieźcie | ppp nawieziony
+uwieść : pres uwiodę uwiedziesz uwiedzie uwiedziemy uwiedziecie uwiodą | past uwiódł uwiodła uwiodło uwiedli uwiodły | imp uwiedź uwiedźcie | ppp uwiedziony
+odwieść : pres odwiodę odwiedziesz odwiedzie odwiedziemy odwiedziecie odwiodą | past odwiódł odwiodła odwiodło odwiedli odwiodły | imp odwiedź odwiedźcie | ppp odwiedziony
+zawieść : pres zawiodę zawiedziesz zawiedzie zawiedziemy zawiedziecie zawiodą | past zawiódł zawiodła zawiodło zawiedli zawiodły | imp zawiedź zawiedźcie | ppp zawiedziony
+pleść : pres plotę pleciesz plecie pleciemy pleciecie plotą | past plótł plotła plotło pletli plotły | imp pleć plećcie | ppp pleciony
+upleść : pres uplotę upleciesz uplecie upleciemy upleciecie uplotą | past uplótł uplotła uplotło upletli uplotły | imp upleć uplećcie | ppp upleciony
+ugnieść : pres ugniotę ugnieciesz ugniecie ugnieciemy ugnieciecie ugniotą | past ugniótł ugniotła ugniotło ugnietli ugniotły | imp ugnieć ugniećcie | ppp ugnieciony
+rozgnieść : pres rozgniotę rozgnieciesz rozgniecie rozgnieciemy rozgnieciecie rozgniotą | past rozgniótł rozgniotła rozgniotło rozgnietli rozgniotły | imp rozgnieć rozgniećcie | ppp rozgnieciony
+wynaleźć : pres wynajdę wynajdziesz wynajdzie wynajdziemy wynajdziecie wynajdą | past wynalazł wynalazła wynalazło wynaleźli wynalazły | imp wynajdź wynajdźcie | ppp wynaleziony
+uciec : pres ucieknę uciekniesz ucieknie uciekniemy uciekniecie uciekną | past uciekł uciekła uciekło uciekli uciekły | imp ucieknij ucieknijcie
+wściec : pres wścieknę wściekniesz wścieknie wściekniemy wściekniecie wściekną | past wściekł wściekła wściekło wściekli wściekły | imp wścieknij wścieknijcie
+dotrzeć : pres dotrę dotrzesz dotrze dotrzemy dotrzecie dotrą | past dotarł dotarła dotarło dotarli dotarły | imp dotrzyj dotrzyjcie
+dostrzec : pres dostrzegę dostrzeżesz dostrzeże dostrzeżemy dostrzeżecie dostrzegą | past dostrzegł dostrzegła dostrzegło dostrzegli dostrzegły | imp dostrzeż dostrzeżcie | ppp dostrzeżony
+przestrzec : pres przestrzegę przestrzeżesz przestrzeże przestrzeżemy przestrzeżecie przestrzegą | past przestrzegł przestrzegła przestrzegło przestrzegli przestrzegły | imp przestrzeż przestrzeżcie | ppp przestrzeżony
+poprzeć : pres poprę poprzesz poprze poprzemy poprzecie poprą | past poparł poparła poparło poparli poparły | imp poprzyj poprzyjcie | ppp poparty
+piec : pres piekę pieczesz piecze pieczemy pieczecie pieką | past piekł piekła piekło piekli piekły | imp piecz pieczcie | ppp pieczony
+upiec : pres upiekę upieczesz upiecze upieczemy upieczecie upieką | past upiekł upiekła upiekło upiekli upiekły | imp upiecz upieczcie | ppp upieczony
+opiec : pres opiekę opieczesz opiecze opieczemy opieczecie opieką | past opiekł opiekła opiekło opiekli opiekły | imp opiecz opieczcie | ppp opieczony
+tłuc : pres tłukę tłuczesz tłucze tłuczemy tłuczecie tłuką | past tłukł tłukła tłukło tłukli tłukły | imp tłucz tłuczcie | ppp tłuczony
+utłuc : pres utłukę utłuczesz utłucze utłuczemy utłuczecie utłuką | past utłukł utłukła utłukło utłukli utłukły | imp utłucz utłuczcie | ppp utłuczony
+strzyc : pres strzygę strzyżesz strzyże strzyżemy strzyżecie strzygą | past strzygł strzygła strzygło strzygli strzygły | imp strzyż strzyżcie | ppp strzyżony
+ostrzyc : pres ostrzygę ostrzyżesz ostrzyże ostrzyżemy ostrzyżecie ostrzygą | past ostrzygł ostrzygła ostrzygło ostrzygli ostrzygły | imp ostrzyż ostrzyżcie | ppp ostrzyżony
+mleć : pres mielę mielesz miele mielemy mielecie mielą | past mełł mełła mełło mełli mełły | imp miel mielcie | ppp mielony
+zemleć : pres zemielę zemielesz zemiele zemielemy zemielecie zemielą | past zemełł zemełła zemełło zemełli zemełły | imp zemiel zemielcie | ppp zemielony
+wspiąć : pres wespnę wespniesz wespnie wespniemy wespniecie wespną
+zapiąć : pres zapnę zapniesz zapnie zapniemy zapniecie zapną
+pociąć : pres potnę potniesz potnie potniemy potniecie potną
+przeciąć : pres przetnę przetniesz przetnie przetniemy przetniecie przetną
+rosnąć : pres rosnę rośniesz rośnie rośniemy rośniecie rosną | past rósł rosła rosło rośli rosły
+urosnąć : pres urosnę urośniesz urośnie urośniemy urośniecie urosną | past urósł urosła urosło urośli urosły
+wybrać : pres wybiorę wybierzesz wybierze wybierzemy wybierzecie wybiorą | imp wybierz wybierzcie
+ubrać : pres ubiorę ubierzesz ubierze ubierzemy ubierzecie ubiorą | imp ubierz ubierzcie
+przebrać : pres przebiorę przebierzesz przebierze przebierzemy przebierzecie przebiorą | imp przebierz przebierzcie
+rozebrać : pres rozbiorę rozbierzesz rozbierze rozbierzemy rozbierzecie rozbiorą | imp rozbierz rozbierzcie
+obrać : pres obiorę obierzesz obierze obierzemy obierzecie obiorą | imp obierz obierzcie
+pobrać : pres pobiorę pobierzesz pobierze pobierzemy pobierzecie pobiorą | imp pobierz pobierzcie
+wyjechać : pres wyjadę wyjedziesz wyjedzie wyjedziemy wyjedziecie wyjadą | imp wyjedź wyjedźcie
+przyjechać : pres przyjadę przyjedziesz przyjedzie przyjedziemy przyjedziecie przyjadą | imp przyjedź przyjedźcie
+siać : pres sieję siejesz sieje siejemy siejecie sieją
+zasiać : pres zasieję zasiejesz zasieje zasiejemy zasiejecie zasieją
+wysiać : pres wysieję wysiejesz wysieje wysiejemy wysiejecie wysieją
+lać : pres leję lejesz leje lejemy lejecie leją
+polać : pres poleję polejesz poleje polejemy polejecie poleją
+nalać : pres naleję nalejesz naleje nalejemy nalejecie naleją
+rozlać : pres rozleję rozlejesz rozleje rozlejemy rozlejecie rozleją
+podlać : pres podleję podlejesz podleje podlejemy podlejecie podleją
+ogrzać : pres ogrzeję ogrzejesz ogrzeje ogrzejemy ogrzejecie ogrzeją
+nagrzać : pres nagrzeję nagrzejesz nagrzeje nagrzejemy nagrzejecie nagrzeją
+zaśmiać : pres zaśmieję zaśmiejesz zaśmieje zaśmiejemy zaśmiejecie zaśmieją
+wyśmiać : pres wyśmieję wyśmiejesz wyśmieje wyśmiejemy wyśmiejecie wyśmieją
+chwiać : pres chwieję chwiejesz chwieje chwiejemy chwiejecie chwieją
+zachwiać : pres zachwieję zachwiejesz zachwieje zachwiejemy zachwiejecie zachwieją
+zapłakać : pres zapłaczę zapłaczesz zapłacze zapłaczemy zapłaczecie zapłaczą
+czesać : pres czeszę czeszesz czesze czeszemy czeszecie czeszą
+uczesać : pres uczeszę uczeszesz uczesze uczeszemy uczeszecie uczeszą
+odpisać : pres odpiszę odpiszesz odpisze odpiszemy odpiszecie odpiszą
+popisać : pres popiszę popiszesz popisze popiszemy popiszecie popiszą
+skazać : pres skażę skażesz skaże skażemy skażecie skażą
+zobowiązać : pres zobowiążę zobowiążesz zobowiąże zobowiążemy zobowiążecie zobowiążą
+łaskotać : pres łaskoczę łaskoczesz łaskocze łaskoczemy łaskoczecie łaskoczą
+załaskotać : pres załaskoczę załaskoczesz załaskocze załaskoczemy załaskoczecie załaskoczą
+płukać : pres płuczę płuczesz płucze płuczemy płuczecie płuczą
+spłukać : pres spłuczę spłuczesz spłucze spłuczemy spłuczecie spłuczą
+klaskać : pres klaszczę klaszczesz klaszcze klaszczemy klaszczecie klaszczą
+gwizdać : pres gwiżdżę gwiżdżesz gwiżdże gwiżdżemy gwiżdżecie gwiżdżą
+szeptać : pres szepczę szepczesz szepcze szepczemy szepczecie szepczą
+orać : pres orzę orzesz orze orzemy orzecie orzą
+zorać : pres zorzę zorzesz zorze zorzemy zorzecie zorzą
+sypać : pres sypię sypiesz sypie sypiemy sypiecie sypią | imp syp sypcie
+wychować : pres wychowam wychowasz wychowa wychowamy wychowacie wychowają | imp wychowaj wychowajcie
+przydać : pres przydam przydasz przyda przydamy przydacie przydadzą | imp przydaj przydajcie
+udać : pres udam udasz uda udamy udacie udadzą | imp udaj udajcie
+przestać : pres przestanę przestaniesz przestanie przestaniemy przestaniecie przestaną | imp przestań przestańcie
+przedostać : pres przedostanę przedostaniesz przedostanie przedostaniemy przedostaniecie przedostaną | imp przedostań przedostańcie
+przydawać : imp przydawaj przydawajcie
+przedostawać : imp przedostawaj przedostawajcie
+udawać : imp udawaj udawajcie
+zdawać : imp zdawaj zdawajcie
+przestawać : imp przestawaj przestawajcie
+doznawać : imp doznawaj doznawajcie
+poznawać : imp poznawaj poznawajcie
+rozpoznawać : imp rozpoznawaj rozpoznawajcie
+uznawać : imp uznawaj uznawajcie
+zeznawać : imp zeznawaj zeznawajcie
+przebywać : pres przebywam przebywasz przebywa przebywamy przebywacie przebywają | imp przebywaj przebywajcie
+odkrywać : pres odkrywam odkrywasz odkrywa odkrywamy odkrywacie odkrywają | imp odkrywaj odkrywajcie
+nagrywać : pres nagrywam nagrywasz nagrywa nagrywamy nagrywacie nagrywają | imp nagrywaj nagrywajcie
+wygrywać : pres wygrywam wygrywasz wygrywa wygrywamy wygrywacie wygrywają | imp wygrywaj wygrywajcie
+spożywać : pres spożywam spożywasz spożywa spożywamy spożywacie spożywają | imp spożywaj spożywajcie
+upływać : pres upływam upływasz upływa upływamy upływacie upływają | imp upływaj upływajcie
+przebyć : pres przebędę przebędziesz przebędzie przebędziemy przebędziecie przebędą | imp przebądź przebądźcie | ppp przebyty
+obyć : pres obędę obędziesz obędzie obędziemy obędziecie obędą | imp obądź obądźcie
+spożyć : pres spożyję spożyjesz spożyje spożyjemy spożyjecie spożyją | imp spożyj spożyjcie | ppp spożyty
+maleć : pres maleję malejesz maleje malejemy malejecie maleją | imp malej malejcie
+zmaleć : pres zmaleję zmalejesz zmaleje zmalejemy zmalejecie zmaleją | imp zmalej zmalejcie
+zdrowieć : pres zdrowieję zdrowiejesz zdrowieje zdrowiejemy zdrowiejecie zdrowieją | imp zdrowiej zdrowiejcie
+wyzdrowieć : pres wyzdrowieję wyzdrowiejesz wyzdrowieje wyzdrowiejemy wyzdrowiejecie wyzdrowieją | imp wyzdrowiej wyzdrowiejcie
+szaleć : pres szaleję szalejesz szaleje szalejemy szalejecie szaleją | imp szalej szalejcie
+oszaleć : pres oszaleję oszalejesz oszaleje oszalejemy oszalejecie oszaleją | imp oszalej oszalejcie
+zdumieć : pres zdumieję zdumiejesz zdumieje zdumiejemy zdumiejecie zdumieją | imp zdumiej zdumiejcie | ppp zdumiony
+brzmieć : pres brzmię brzmisz brzmi brzmimy brzmicie brzmią | imp brzmij brzmijcie
+zabrzmieć : pres zabrzmię zabrzmisz zabrzmi zabrzmimy zabrzmicie zabrzmią | imp zabrzmij zabrzmijcie
+pachnieć : pres pachnę pachniesz pachnie pachniemy pachniecie pachną | imp pachnij pachnijcie
+kaszleć : pres kaszlę kaszlesz kaszle kaszlemy kaszlecie kaszlą
+drżeć : imp drżyj drżyjcie
+przypomnieć : pres przypomnę przypomnisz przypomni przypomnimy przypomnicie przypomną | imp przypomnij przypomnijcie
+wspomnieć : pres wspomnę wspomnisz wspomni wspomnimy wspomnicie wspomną | imp wspomnij wspomnijcie | ppp wspomniany
+spojrzeć : imp spójrz spójrzcie
+zajrzeć : imp zajrzyj zajrzyjcie
+przyjrzeć : imp przyjrzyj przyjrzyjcie
+widzieć : ppp widziany
+przewidzieć : ppp przewidziany
+słyszeć : ppp słyszany
+usłyszeć : ppp usłyszany
+opowiedzieć : pres opowiem opowiesz opowie opowiemy opowiecie opowiedzą | imp opowiedz opowiedzcie | ppp opowiedziany
+kroić : pres kroję kroisz kroi kroimy kroicie kroją | imp krój krójcie | ppp krojony
+pokroić : pres pokroję pokroisz pokroi pokroimy pokroicie pokroją | imp pokrój pokrójcie | ppp pokrojony
+doić : pres doję doisz doi doimy doicie doją | imp dój dójcie | ppp dojony
+wydoić : pres wydoję wydoisz wydoi wydoimy wydoicie wydoją | imp wydój wydójcie | ppp wydojony
+goić : pres goję goisz goi goimy goicie goją | imp gój gójcie
+zagoić : pres zagoję zagoisz zagoi zagoimy zagoicie zagoją | imp zagój zagójcie
+niepokoić : pres niepokoję niepokoisz niepokoi niepokoimy niepokoicie niepokoją | imp niepokój niepokójcie | ppp niepokojony
+zaniepokoić : pres zaniepokoję zaniepokoisz zaniepokoi zaniepokoimy zaniepokoicie zaniepokoją | imp zaniepokój zaniepokójcie | ppp zaniepokojony
+zaspokoić : pres zaspokoję zaspokoisz zaspokoi zaspokoimy zaspokoicie zaspokoją | imp zaspokój zaspokójcie | ppp zaspokojony
+przyzwyczaić : pres przyzwyczaję przyzwyczaisz przyzwyczai przyzwyczaimy przyzwyczaicie przyzwyczają | imp przyzwyczaj przyzwyczajcie | ppp przyzwyczajony
+czcić : pres czczę czcisz czci czcimy czcicie czczą | imp czcij czcijcie | ppp czczony
+uczcić : pres uczczę uczcisz uczci uczcimy uczcicie uczczą | imp uczcij uczcijcie | ppp uczczony
+mścić : imp mścij mścijcie
+pomścić : imp pomścij pomścijcie
+popełnić : imp popełnij popełnijcie
+wyróżnić : imp wyróżnij wyróżnijcie
+opóźnić : imp opóźnij opóźnijcie
+rozpowszechnić : imp rozpowszechnij rozpowszechnijcie
+ujawnić : imp ujawnij ujawnijcie
+udostępnić : imp udostępnij udostępnijcie
+odróżnić : imp odróżnij odróżnijcie
+rozróżnić : imp rozróżnij rozróżnijcie
+drażnić : imp drażnij drażnijcie
+podrażnić : imp podrażnij podrażnijcie
+tęsknić : imp tęsknij tęsknijcie
+zatęsknić : imp zatęsknij zatęsknijcie
+bębnić : imp bębnij bębnijcie
+zabębnić : imp zabębnij zabębnijcie
+śnić : imp śnij śnijcie
+odsłonić : ppp odsłonięty
+solić : imp sól sólcie
+posolić : imp posól posólcie
+rozłożyć : imp rozłóż rozłóżcie
+pozdrowić : imp pozdrów pozdrówcie
+utworzyć : imp utwórz utwórzcie
+odtworzyć : imp odtwórz odtwórzcie
+pogodzić : imp pogódź pogódźcie
+# ---- helper lines (nouns-2.out) ----
+sędzia : gen sędziego | dat sędziemu | acc sędziego | loc sędzim | gpl sędziów
+adwokatka : gpl adwokatek
+zbrodnia : gen zbrodni | dat zbrodni | loc zbrodni | gpl zbrodni
+przestępstwo : gpl przestępstw
+zabójca : gpl zabójców
+złodziej : gpl złodziei
+złodziejka : gpl złodziejek
+morderstwo : gpl morderstw
+zabójstwo : gpl zabójstw
+oszustwo : gpl oszustw
+więzień : stem więźni | pl więźniowie | gpl więźniów
+policjantka : gpl policjantek
+dowód : stem dowod
+grzywna : gpl grzywien
+pozew : stem pozw
+skarga : gpl skarg
+oskarżony : gen oskarżonego | dat oskarżonemu | acc oskarżonego | ins oskarżonym | loc oskarżonym | gpl oskarżonych | dpl oskarżonym | ipl oskarżonymi | lpl oskarżonych
+łapówka : gpl łapówek
+mafia : gen mafii | dat mafii | loc mafii | gpl mafii
+powstaniec : stem powstańc
+wskazówka : gpl wskazówek
+śledztwo : gpl śledztw
+nieznajomy : gen nieznajomego | dat nieznajomemu | acc nieznajomego | ins nieznajomym | loc nieznajomym | gpl nieznajomych | dpl nieznajomym | ipl nieznajomymi | lpl nieznajomych
+obcy : gen obcego | dat obcemu | acc obcego | ins obcym | loc obcym | gpl obcych | dpl obcym | ipl obcymi | lpl obcych
+podejrzany : gen podejrzanego | dat podejrzanemu | acc podejrzanego | ins podejrzanym | loc podejrzanym | gpl podejrzanych | dpl podejrzanym | ipl podejrzanymi | lpl podejrzanych
+powód : stem powod
+krzywda : gpl krzywd
+nadzór : stem nadzor
+technologia : gen technologii | dat technologii | loc technologii | gpl technologii
+robot : gen robota
+pompa : gpl pomp
+dźwignia : gen dźwigni | dat dźwigni | loc dźwigni | gpl dźwigni
+koparka : gpl koparek
+akumulator : gen akumulatora
+kabel : stem kabl | gen kabla
+przewód : stem przewod
+gniazdko : gpl gniazdek
+ładowarka : gpl ładowarek
+laser : gen lasera
+prąd : gen prądu | dat prądowi | ins prądem | loc prądzie | gpl prądów
+latarka : gpl latarek
+wiatrak : gen wiatraka
+wat : gen wata
+laptop : gen laptopa
+monitor : gen monitora
+klawisz : gen klawisza
+wyświetlacz : gen wyświetlacza
+drukarka : gpl drukarek
+skaner : gen skanera
+plik : gen pliku
+dane : gpl danych | dpl danym | ipl danymi | lpl danych
+przeglądarka : gpl przeglądarek
+e-mail : gen e-maila
+mejl : gen mejla
+serwer : gen serwera
+dron : gen drona
+smartfon : gen smartfona
+smartwatch : gen smartwatcha
+fotka : gpl fotek
+fotografia : gen fotografii | dat fotografii | loc fotografii | gpl fotografii
+telewizor : gen telewizora
+pilot : gen pilota
+lornetka : gpl lornetek
+radio : gpl radiów
+słuchawki : gpl słuchawek
+kalkulator : gen kalkulatora
+chip : gen chipa
+procesor : gen procesora
+pendrive : gen pendrive'a | dat pendrive'owi | ins pendrive'em | loc pendrivie | gpl pendrive'ów | dpl pendrive'om | ipl pendrive'ami | lpl pendrive'ach
+kursor : gen kursora
+router : gen routera
+piksel : gen piksela
+platforma : gpl platform
+wyszukiwarka : gpl wyszukiwarek
+segregator : gen segregatora
+okienko : gpl okienek
+pieniądze : gpl pieniędzy | ipl pieniędzmi
+gotówka : gpl gotówek
+drobne : gpl drobnych | dpl drobnym | ipl drobnymi | lpl drobnych
+reszta : gpl reszt
+kieszonkowe : gen kieszonkowego | dat kieszonkowemu | ins kieszonkowym | loc kieszonkowym
+cent : gen centa
+bogactwo : gpl bogactw
+finanse : gpl finansów
+dolar : gen dolara
+kwota : gpl kwot
+premia : gen premii | dat premii | loc premii | gpl premii
+funt : gen funta
+rubel : stem rubl | gen rubla
+kupujący : gen kupującego | dat kupującemu | acc kupującego | ins kupującym | loc kupującym | gpl kupujących | dpl kupującym | ipl kupującymi | lpl kupujących
+sprzedawczyni : acc sprzedawczynię
+ulga : gpl ulg
+marka : gpl marek
+klientka : gpl klientek
+klienci : gpl klientów | dpl klientom | ipl klientami | lpl klientach
+surowiec : stem surowc | gen surowca
+śmigłowiec : stem śmigłowc | gen śmigłowca
+handlowiec : stem handlowc
+kupiec : stem kupc
+targowisko : gpl targowisk
+stoisko : gpl stoisk
+piekarnia : gen piekarni | dat piekarni | loc piekarni | gpl piekarni
+gospodarka : gpl gospodarek
+firma : gpl firm
+dochód : stem dochod
+bankructwo : gpl bankructw
+czek : stem czek
+księgowy : gen księgowego | dat księgowemu | acc księgowego | ins księgowym | loc księgowym | gpl księgowych | dpl księgowym | ipl księgowymi | lpl księgowych
+obrót : stem obrot
+branża : gpl branż
+gałąź : stem gałęź
+łódź : stem łodź
+giełda : gpl giełd
+rezerwa : gpl rezerw
+czynsz : gpl czynszów
+wóz : stem woz
+ciężarówka : gpl ciężarówek
+taksówka : gpl taksówek
+pociąg : gen pociągu | dat pociągowi | ins pociągiem | loc pociągu | gpl pociągów
+wózek : gen wózka | dat wózkowi | ins wózkiem | loc wózku | gpl wózków
+powóz : stem powoz
+sanki : gpl sanek
+łódka : gpl łódek
+żaglówka : gpl żaglówek
+barka : gpl barek
+kajak : gen kajaka
+helikopter : gen helikoptera
+karetka : gpl karetek
+przewóz : stem przewoz
+furgonetka : gpl furgonetek
+opona : gpl opon
+hamulec : gen hamulca
+diesel : stem diesl | gen diesla
+żagiel : stem żagl | gen żagla
+reflektor : gen reflektora
+zderzak : gen zderzaka
+śmigło : gpl śmigieł
+kolej : gen kolei | dat kolei | loc kolei | gpl kolei
+dworzec : stem dworc | gen dworca
+korek : gen korka
+lotnisko : gpl lotnisk
+molo : gpl mol
+stocznia : gen stoczni | dat stoczni | loc stoczni | gpl stoczni
+jezdnia : gen jezdni | dat jezdni | loc jezdni | gpl jezdni
+szosa : gpl szos
+jazda : dat jeździe | loc jeździe
+wjazd : loc wjeździe
+odjazd : loc odjeździe
+wyjazd : loc wyjeździe
+zjazd : loc zjeździe
+objazd : loc objeździe
+pojazd : loc pojeździe
+plecak : gen plecaka
+pamiątka : gpl pamiątek
+śpiwór : stem śpiwor
+kanar : gen kanara
+przesiadka : gpl przesiadek
+wojna : gpl wojen
+walka : gpl walk
+wróg : stem wrog
+groźba : gpl gróźb
+obrona : gpl obron
+podbój : stem podboj
+zwycięstwo : gpl zwycięstw
+odwrót : stem odwrot
+bohaterka : gpl bohaterek
+tortury : gpl tortur
+armia : gen armii | dat armii | loc armii | gpl armii
+wojsko : gpl wojsk
+dowódca : gpl dowódców
+jednostka : gpl jednostek
+marsz : gpl marszów
+flota : gpl flot
+bomba : gpl bomb
+miecz : gen miecza
+zbroja : gen zbroi | dat zbroi | loc zbroi | gpl zbroi
+obóz : stem oboz
+bezrobotny : gen bezrobotnego | dat bezrobotnemu | acc bezrobotnego | ins bezrobotnym | loc bezrobotnym | gpl bezrobotnych | dpl bezrobotnym | ipl bezrobotnymi | lpl bezrobotnych
+pracujący : gen pracującego | dat pracującemu | acc pracującego | ins pracującym | loc pracującym | gpl pracujących | dpl pracującym | ipl pracującymi | lpl pracujących
+zawód : stem zawod
+szefowa : gen szefowej | dat szefowej | acc szefową | loc szefowej | gpl szefowych | dpl szefowym | ipl szefowymi | lpl szefowych
+koleżanka : gpl koleżanek
+grafik : gen grafiku
+przywódca : gpl przywódców
+sekretarka : gpl sekretarek
+praktyki : gpl praktyk
+przedsiębiorstwo : gpl przedsiębiorstw
+pracownicy : gpl pracowników | dpl pracownikom | ipl pracownikami | lpl pracownikach
+przełożony : gen przełożonego | dat przełożonemu | acc przełożonego | ins przełożonym | loc przełożonym | gpl przełożonych | dpl przełożonym | ipl przełożonymi | lpl przełożonych
+fachowiec : stem fachowc
+protokół : stem protokoł
+akta : gpl akt
+pieczątka : gpl pieczątek
+wyrób : stem wyrob
+młotek : gen młotka
+klucz : gen klucza
+wiertarka : gpl wiertarek
+szczypce : gpl szczypiec
+kombinerki : gpl kombinerek
+hak : gen haka
+naklejka : gpl naklejek
+kontener : gen kontenera
+ostrze : gpl ostrzy
+pręt : gen pręta
+drewno : gpl drew
+sklejka : gpl sklejek
+pień : stem pni | gen pnia
+belka : gpl belek
+cegła : gpl cegieł
+plastik : gen plastiku
+blacha : gen blachy | gpl blach
+sznurek : gen sznurka
+narzędzie : gpl narzędzi
+kopalnia : gen kopalni | dat kopalni | loc kopalni | gpl kopalni
+rzemiosło : gpl rzemiosł
+rurociąg : gen rurociągu | dat rurociągowi | ins rurociągiem | loc rurociągu | gpl rurociągów
+generator : gen generatora
+buldożer : gen buldożera
+zawór : stem zawor
+służba : gpl służb
+samiec : stem samc
+zając : gen zająca | dat zającowi | ins zającem | loc zającu | gpl zajęcy
+wiewiórka : gpl wiewiórek
+lew : stem lw
+małpa : gpl małp
+zebra : gpl zebr
+wielbłąd : gen wielbłąda | dat wielbłądowi | ins wielbłądem | loc wielbłądzie | gpl wielbłądów
+foka : gpl fok
+wydra : gpl wydr
+bóbr : stem bobr
+antylopa : gpl antylop
+bawół : stem bawoł
+szczenię : stem szczenięci | pl szczenięta | gpl szczeniąt | dpl szczeniętom | ipl szczeniętami | lpl szczeniętach
+koń : ipl końmi
+źrebię : stem źrebięci | pl źrebięta | gpl źrebiąt | dpl źrebiętom | ipl źrebiętami | lpl źrebiętach
+cielę : stem cielęci | pl cielęta | gpl cieląt | dpl cielętom | ipl cielętami | lpl cielętach
+bydlę : stem bydlęci | pl bydlęta | gpl bydląt | dpl bydlętom | ipl bydlętami | lpl bydlętach
+wół : stem woł
+świnia : gen świni | dat świni | loc świni
+prosię : stem prosięci | pl prosięta | gpl prosiąt | dpl prosiętom | ipl prosiętami | lpl prosiętach
+owca : gpl owiec
+jagnię : stem jagnięci | pl jagnięta | gpl jagniąt | dpl jagniętom | ipl jagniętami | lpl jagniętach
+osioł : stem osł | loc ośle
+orzeł : stem orł
+wrona : gpl wron
+wróbel : stem wróbl | gen wróbla | dat wróblowi | ins wróblem | loc wróblu
+żuraw : stem żurawi
+kurczak : gen kurczaka
+kurczę : stem kurczęci | pl kurczęta | gpl kurcząt | dpl kurczętom | ipl kurczętami | lpl kurczętach
+gołąb : stem gołębi
+paw : stem pawi
+sroka : gpl srok
+czapla : gpl czapli
+sokół : stem sokoł
+jastrząb : stem jastrzębi
+karp : stem karpi
+pstrąg : gen pstrąga | dat pstrągowi | ins pstrągiem | loc pstrągu | gpl pstrągów
+rozgwiazda : dat rozgwieździe | loc rozgwieździe
+muszla : gpl muszli
+ropucha : gen ropuchy | gpl ropuch
+kobra : gpl kobr
+jaszczurka : gpl jaszczurek
+żółw : stem żółwi
+mucha : gen muchy | gpl much
+osa : gpl os
+mrówka : gpl mrówek
+chrząszcz : gen chrząszcza | dat chrząszczowi | ins chrząszczem | loc chrząszczu
+biedronka : gpl biedronek
+pająk : gen pająka | dat pająkowi | ins pająkiem | loc pająku | gpl pająków
+ćma : gpl ciem
+ogon : gen ogona
+pazur : gen pazura
+szpon : gen szpona
+łapka : gpl łapek
+róg : stem rog
+dziób : stem dziob | gen dzioba
+płetwa : gpl płetw
+skorupka : gpl skorupek
+pysk : gen pyska
+wataha : dat watasze | loc watasze
+rój : stem roj | gen roju
+klatka : gpl klatek
+kolejka : gpl kolejek
+wędrówka : gpl wędrówek
+wędrowiec : stem wędrowc
+zjeżdżalnia : gen zjeżdżalni | dat zjeżdżalni | loc zjeżdżalni | gpl zjeżdżalni
+połów : stem połow
+wstrząs : gen wstrząsu | dat wstrząsowi | ins wstrząsem | loc wstrząsie | gpl wstrząsów
+bójka : gpl bójek
+kopniak : gen kopniaka
+policzek : gen policzka
+migawka : gpl migawek
+ciało : loc ciele
+brew : stem brwi
+rzęsa : gpl rzęs
+warga : gpl warg
+ząb : stem zęb | pl zęby | gen zęba
+szczęka : gpl szczęk
+podbródek : gen podbródka | dat podbródkowi | ins podbródkiem | loc podbródku | gpl podbródków
+wąsy : gpl wąsów
+szyja : gen szyi | dat szyi | loc szyi | gpl szyj
+ramię : stem ramieni | pl ramiona | gpl ramion | dpl ramionom | ipl ramionami | lpl ramionach
+łokieć : stem łokć | gen łokcia
+nadgarstek : gen nadgarstka
+palec : gen palca
+paznokieć : stem paznokć | gen paznokcia
+kciuk : gen kciuka
+gwóźdź : stem gwoźdź | gen gwoździa
+plecy : gpl pleców | dpl plecom | ipl plecami | lpl plecach
+brzuch : gen brzucha
+łydka : gpl łydek
+pięta : gpl pięt
+kostka : gpl kostek
+pacha : gen pachy | gpl pach
+pępek : gen pępka
+tyłek : gen tyłka
+pośladek : gen pośladka
+mózg : gen mózgu | dat mózgowi | ins mózgiem | loc mózgu | gpl mózgów
+żołądek : gen żołądka | dat żołądkowi | ins żołądkiem | loc żołądku | gpl żołądków
+nerka : gpl nerek
+mięsień : stem mięśni | gen mięśnia
+narząd : gen narządu | dat narządowi | ins narządem | loc narządzie | gpl narządów
+tętno : gpl tętn
+tkanka : gpl tkanek
+zmarły : gen zmarłego | dat zmarłemu | acc zmarłego | ins zmarłym | loc zmarłym | gpl zmarłych | dpl zmarłym | ipl zmarłymi | lpl zmarłych
+poród : stem porod
+wiek : gen wieku
+trup : gen trupa
+łyk : gen łyku
+głód : stem głod
+czereśnia : gen czereśni | dat czereśni | loc czereśni | gpl czereśni
+iglak : gen iglaka
+stokrotka : gpl stokrotek
+zarośla : gpl zarośli
+mech : stem mch
+dżungla : gpl dżungli
+szypułka : gpl szypułek
+korzeń : gen korzenia
+liść : gen liścia
+liście : gpl liści
+kora : gpl kor
+pąk : gen pąka | dat pąkowi | ins pąkiem | loc pąku | gpl pąków
+nasiono : gpl nasion
+kolec : gen kolca
+grządka : gpl grządek
+dąb : stem dęb
+palma : gpl palm
+orchidea : gen orchidei | dat orchidei | loc orchidei | gpl orchidei
+ląd : gen lądu | dat lądowi | ins lądem | loc lądzie | gpl lądów
+góry : gpl gór
+pustynia : gen pustyni | dat pustyni | loc pustyni
+jaskinia : gen jaskini | dat jaskini | loc jaskini
+zbocze : gpl zboczy
+bagno : gpl bagien
+dół : stem doł
+rów : stem row
+rynna : gpl rynien
+kamień : gen kamienia
+środowisko : gpl środowisk
+cząstka : gpl cząstek
+popiół : stem popioł | loc popiele
+węgiel : stem węgl | gen węgla
+ogień : stem ogni | gen ognia
+ognisko : gpl ognisk
+płomień : gen płomienia
+iskra : gpl iskier
+żarówka : gpl żarówek
+światło : loc świetle
+cień : gen cienia
+energia : gen energii | dat energii | loc energii | gpl energii
+elektrownia : gen elektrowni | dat elektrowni | loc elektrowni | gpl elektrowni
+echo : gpl ech
+widmo : gpl widm
+księżyc : gen księżyca
+pełnia : gen pełni | dat pełni | loc pełni | gpl pełni
+gwiazda : dat gwieździe | loc gwieździe
+gwiazdozbiór : stem gwiazdozbior
+obserwatorium : gpl obserwatoriów
+Mars : gen Marsa
+Jowisz : gen Jowisza
+Saturn : gen Saturna
+Uran : gen Urana
+Neptun : gen Neptuna
+Merkury : gen Merkurego | dat Merkuremu | acc Merkurego | ins Merkurym | loc Merkurym
+wszechświat : loc wszechświecie
+powódź : stem powodź
+Atlantyk : gen Atlantyku
+Bałtyk : gen Bałtyku
+jezioro : gpl jezior
+morze : gpl mórz
+strumień : gen strumienia
+zatoka : gpl zatok
+lodowiec : stem lodowc | gen lodowca
+delta : gpl delt
+bańka : gpl baniek
+bąbel : stem bąbl | gen bąbla | dat bąblowi | ins bąblem | loc bąblu
+lód : stem lod
+kra : gpl kier
+wybrzeże : gpl wybrzeży
+półwysep : stem półwysp
+przylądek : gen przylądka | dat przylądkowi | ins przylądkiem | loc przylądku | gpl przylądków
+deszcz : gpl deszczów
+mżawka : gpl mżawek
+wiatr : stem wiatr | loc wietrze
+piorun : gen pioruna
+mgła : gpl mgieł
+prognoza : gpl prognoz
+spaliny : gpl spalin
+chłód : stem chłod
+mróz : stem mroz
+rosa : gpl ros
+duchota : gpl duchot
+wiosna : gpl wiosen
+biegun : gen bieguna
+tłuszcz : gpl tłuszczów
+krew : stem krw | gen krwi | ins krwią
+Wenus : gen Wenus | dat Wenus | acc Wenus | ins Wenus | loc Wenus
+majątek : gen majątku | dat majątkowi | ins majątkiem | loc majątku | gpl majątków
+gniazdo : loc gnieździe
+komórka : gpl komórek
+dziedzictwo : gpl dziedzictw
+tratwa : gpl tratw
+sektor : gen sektora
+motocykl : gen motocykla
+łańcuch : gen łańcucha
+nos : gen nosa
+kręgosłup : gen kręgosłupa
+kaktus : gen kaktusa
+bambus : gen bambusa
+tulipan : gen tulipana
+grzyb : gen grzyba
+kasztan : gen kasztana
+zwłoki : gpl zwłok
+# ---- helper lines (nouns-1.out) ----
+dorosły : gen dorosłego | dat dorosłemu | acc dorosłego | ins dorosłym | loc dorosłym | pl dorośli | gpl dorosłych | dpl dorosłym | apl dorosłych | ipl dorosłymi | lpl dorosłych
+niemowlę : stem niemowlęci | pl niemowlęta | gpl niemowląt | dpl niemowlętom | ipl niemowlętami | lpl niemowlętach
+seniorka : gpl seniorek
+emerytka : gpl emerytek
+młodzieniec : stem młodzieńc
+singiel : stem singl
+małżeństwo : gpl małżeństw
+mąż : pl mężowie | gpl mężów | dpl mężom | ipl mężami | lpl mężach | loc mężu | dat mężowi
+żona : gpl żon
+rozwód : dpl rozwodom | ipl rozwodami | lpl rozwodach
+zaręczyny : gpl zaręczyn
+narzeczony : gen narzeczonego | dat narzeczonemu | acc narzeczonego | ins narzeczonym | loc narzeczonym | pl narzeczeni | gpl narzeczonych | dpl narzeczonym | apl narzeczonych | ipl narzeczonymi | lpl narzeczonych
+randka : gpl randek
+partnerka : gpl partnerek
+partnerstwo : gpl partnerstw
+znajomy : gen znajomego | dat znajomemu | acc znajomego | ins znajomym | loc znajomym | pl znajomi | gpl znajomych | dpl znajomym | apl znajomych | ipl znajomymi | lpl znajomych
+gość : ipl gośćmi
+gospodyni : acc gospodynię
+sąsiadka : gpl sąsiadek
+sąsiedztwo : gpl sąsiedztw
+odwiedziny : gpl odwiedzin
+odwiedzający : gen odwiedzającego | dat odwiedzającemu | acc odwiedzającego | ins odwiedzającym | loc odwiedzającym | pl odwiedzający | gpl odwiedzających | dpl odwiedzającym | apl odwiedzających | ipl odwiedzającymi | lpl odwiedzających
+odwiedzająca : gen odwiedzającej | dat odwiedzającej | acc odwiedzającą | ins odwiedzającą | loc odwiedzającej | pl odwiedzające | gpl odwiedzających | dpl odwiedzającym | ipl odwiedzającymi | lpl odwiedzających
+towarzystwo : gpl towarzystw
+przeprosiny : gpl przeprosin
+kłótnia : gen kłótni | dat kłótni | loc kłótni | gpl kłótni
+spór : dpl sporom | ipl sporami | lpl sporach
+łaska : gpl łask
+szykany : gpl szykan
+kłamstwo : gpl kłamstw
+posłaniec : stem posłańc
+ulubieniec : stem ulubieńc
+kumpel : stem kumpl
+uczta : gpl uczt
+przystawka : gpl przystawek
+ciastko : gpl ciastek
+piknik : gen pikniku
+kelnerka : gpl kelnerek
+kuchnia : gen kuchni | dat kuchni | loc kuchni | gpl kuchni
+wegetarianin : gpl wegetarian
+wegetarianka : gpl wegetarianek
+szczypta : gpl szczypt
+weganin : gpl wegan
+ciasto : loc cieście
+rosół : dpl rosołom | ipl rosołami | lpl rosołach
+owsianka : gpl owsianek
+twaróg : dpl twarogom | ipl twarogami | lpl twarogach
+maślanka : gpl maślanek
+jajko : gpl jajek
+jajo : gpl jaj
+żółtko : gpl żółtek
+ocet : stem oct
+cukier : stem cukr
+miód : dpl miodom | ipl miodami | lpl miodach
+burger : gen burgera
+hamburger : gen hamburgera
+kanapka : gpl kanapek
+pizza : gpl pizz
+grzanka : gpl grzanek
+toster : gen tostera
+knedel : stem knedl | gen knedla
+drożdże : gpl drożdży
+skórka : gpl skórek
+okruszek : gen okruszka
+parówka : gpl parówek
+szynka : gpl szynek
+stek : stem stek | gen steku
+sznycel : stem sznycl | gen sznycla
+krewetka : gpl krewetek
+śliwka : gpl śliwek
+wiśnia : gen wiśni | dat wiśni | loc wiśni | gpl wiśni
+winogrono : gpl winogron
+brzoskwinia : gen brzoskwini | dat brzoskwini | loc brzoskwini
+truskawka : gpl truskawek
+borówka : gpl borówek
+orzech : gen orzecha
+fistaszek : gen fistaszka
+rodzynek : gen rodzynka
+limonka : gpl limonek
+ziemniak : gen ziemniaka
+kartofel : stem kartofl | gen kartofla
+frytki : gpl frytek
+pomidor : gen pomidora
+ogórek : gen ogórka | dat ogórkowi | ins ogórkiem | loc ogórku | gpl ogórków
+kalafior : gen kalafiora
+burak : gen buraka
+rzodkiewka : gpl rzodkiewek
+fasola : gpl fasoli
+dynia : gen dyni | dat dyni | loc dyni
+sałatka : gpl sałatek
+seler : gen selera
+oliwka : gpl oliwek
+cukinia : gpl cukinii
+por : gen pora
+pieczarka : gpl pieczarek
+cukierek : gen cukierka
+budyń : gpl budyniów
+napój : dpl napojom | ipl napojami | lpl napojach
+soja : gen soi | dat soi | loc soi
+wódka : gpl wódek
+muffinka : gpl muffinek
+wafel : stem wafl | gen wafla
+pączek : gen pączka | dat pączkowi | ins pączkiem | loc pączku | gpl pączków
+galaretka : gpl galaretek
+kucharka : gpl kucharek
+grill : gen grilla
+mieszanka : gpl mieszanek
+konewka : gpl konewek
+widelec : gen widelca
+sztućce : gpl sztućców
+filiżanka : gpl filiżanek
+spodek : gen spodka
+kubek : gen kubka
+szklanka : gpl szklanek
+garnek : gen garnka
+patelnia : gen patelni | dat patelni | loc patelni | gpl patelni
+łopatka : gpl łopatek
+kuchenka : gpl kuchenek
+mikrofalówka : gpl mikrofalówek
+lodówka : gpl lodówek
+zamrażarka : gpl zamrażarek
+dzbanek : gen dzbanka
+butelka : gpl butelek
+konserwa : gpl konserw
+pokrywka : gpl pokrywek
+korkociąg : gen korkociągu | dat korkociągowi | ins korkociągiem | loc korkociągu | gpl korkociągów
+serwetka : gpl serwetek
+słomka : gpl słomek
+tarka : gpl tarek
+durszlak : gen durszlaka
+zmywarka : gpl zmywarek
+blender : gen blendera
+mikser : gen miksera
+chory : gen chorego | dat choremu | acc chorego | ins chorym | loc chorym | pl chorzy | gpl chorych | dpl chorym | apl chorych | ipl chorymi | lpl chorych
+szpital : gen szpitala
+pielęgniarka : gpl pielęgniarek
+pandemia : gen pandemii | dat pandemii | loc pandemii | gpl pandemii
+epidemia : gen epidemii | dat epidemii | loc epidemii | gpl epidemii
+ból : gen bólu | dat bólowi | ins bólem | loc bólu | gpl bólów
+kaszel : stem kaszl
+alergia : gen alergii | dat alergii | loc alergii
+rak : gen raka | dat rakowi
+nowotwór : dpl nowotworom | ipl nowotworami | lpl nowotworach
+ranny : gen rannego | dat rannemu | acc rannego | ins rannym | loc rannym | pl ranni | gpl rannych | dpl rannym | apl rannych | ipl rannymi | lpl rannych
+blizna : gpl blizn
+opuchlizna : gpl opuchlizn
+wysypka : gpl wysypek
+mdłości : gpl mdłości | dpl mdłościom | ipl mdłościami | lpl mdłościach
+nudności : gpl nudności | dpl nudnościom | ipl nudnościami | lpl nudnościach
+trudności : gpl trudności | dpl trudnościom | ipl trudnościami | lpl trudnościach
+dolegliwości : gpl dolegliwości | dpl dolegliwościom | ipl dolegliwościami | lpl dolegliwościach
+trądzik : gen trądziku
+biegunka : gpl biegunek
+lek : stem lek | gen leku
+lekarstwo : gpl lekarstw
+tabletka : gpl tabletek
+bandaż : gen bandaża
+plaster : stem plastr | gen plastra
+zastrzyk : gen zastrzyku
+szczepionka : gpl szczepionek
+terapia : gen terapii | dat terapii | loc terapii | gpl terapii
+diagnoza : gpl diagnoz
+antybiotyk : gen antybiotyku
+jałmużna : gpl jałmużn
+narkoza : gpl narkoz
+kwarantanna : gpl kwarantann
+opiekunka : gpl opiekunek
+lekarka : gpl lekarek
+pacjentka : gpl pacjentek
+przychodnia : gen przychodni | dat przychodni | loc przychodni | gpl przychodni
+aptekarka : gpl aptekarek
+farmaceutka : gpl farmaceutek
+nosze : gpl noszy
+położna : gen położnej | dat położnej | acc położną | ins położną | loc położnej | pl położne | gpl położnych | dpl położnym | ipl położnymi | lpl położnych
+poczekalnia : gen poczekalni | dat poczekalni | loc poczekalni | gpl poczekalni
+wyleczony : gen wyleczonego | dat wyleczonemu | acc wyleczonego | ins wyleczonym | loc wyleczonym | pl wyleczeni | gpl wyleczonych | dpl wyleczonym | apl wyleczonych | ipl wyleczonymi | lpl wyleczonych
+trucizna : gpl trucizn
+odtrutka : gpl odtrutek
+papieros : gen papierosa
+niepalący : gen niepalącego | dat niepalącemu | acc niepalącego | ins niepalącym | loc niepalącym | pl niepalący | gpl niepalących | dpl niepalącym | apl niepalących | ipl niepalącymi | lpl niepalących
+wirus : gen wirusa
+nałóg : dpl nałogom | ipl nałogami | lpl nałogach
+narkotyk : gen narkotyku
+konopie : gpl konopi
+samobójstwo : gpl samobójstw
+wieżowiec : stem wieżowc
+szeregowiec : stem szeregowc
+dwór : dpl dworom | ipl dworami | lpl dworach
+kawalerka : gpl kawalerek
+wynajem : stem wynajm
+wynajmujący : gen wynajmującego | dat wynajmującemu | acc wynajmującego | ins wynajmującym | loc wynajmującym | pl wynajmujący | gpl wynajmujących | dpl wynajmującym | apl wynajmujących | ipl wynajmującymi | lpl wynajmujących
+dachówka : gpl dachówek
+okno : gpl okien
+drzwi : gpl drzwi | dpl drzwiom | ipl drzwiami | lpl drzwiach
+klamka : gpl klamek
+wizjer : gen wizjera
+judasz : gen judasza
+próg : dpl progom | ipl progami | lpl progach
+stopień : stem stopni | gen stopnia
+schodek : gen schodka
+kominek : gen kominka
+podwórko : gpl podwórek
+dziedziniec : stem dziedzińc
+szopa : gpl szop
+podjazd : loc podjeździe
+płytka : gpl płytek
+kafelek : gen kafelka
+ściek : gen ścieku
+wodociąg : gen wodociągu | dat wodociągowi | ins wodociągiem | loc wodociągu | gpl wodociągów
+kaloryfer : gen kaloryfera
+kocioł : stem kotł
+rygiel : stem rygl | gen rygla
+zasuwka : gpl zasuwek
+willa : gpl willi
+klapka : gpl klapek
+pokój : dpl pokojom | ipl pokojami | lpl pokojach
+sypialnia : gen sypialni | dat sypialni | loc sypialni | gpl sypialni
+jadalnia : gen jadalni | dat jadalni | loc jadalni | gpl jadalni
+spiżarnia : gen spiżarni | dat spiżarni | loc spiżarni | gpl spiżarni
+łazienka : gpl łazienek
+meble : gpl mebli
+mebel : stem mebl | gen mebla
+biurko : gpl biurek
+ławka : gpl ławek
+fotel : gen fotela
+sofa : gpl sof
+materac : gen materaca
+zasłona : gpl zasłon
+lampa : gpl lamp
+wieszak : gen wieszaka
+hamak : gen hamaka
+śmieci : gpl śmieci | dpl śmieciom | ipl śmieciami | lpl śmieciach
+dzwonek : gen dzwonka
+latarnia : gen latarni | dat latarni | loc latarni | gpl latarni
+zegar : gen zegara
+zegarek : gen zegarka
+prysznic : gen prysznica
+wanna : gpl wanien
+mop : gen mopa
+szczotka : gpl szczotek
+grzebień : stem grzebieni | gen grzebienia
+gąbka : gpl gąbek
+golarka : gpl golarek
+nożyczki : gpl nożyczek
+worek : gen worka
+kosz : gen kosza
+skrzynia : gen skrzyni | dat skrzyni | loc skrzyni
+odkurzacz : gen odkurzacza
+ścierka : gpl ścierek
+torebka : gpl torebek
+siatka : gpl siatek
+woreczek : gen woreczka
+kij : gen kija
+skrzynka : gpl skrzynek
+pralka : gpl pralek
+umywalka : gpl umywalek
+koc : gen koca
+uczeń : stem uczni | gpl uczniów
+uczelnia : gen uczelni | dat uczelni | loc uczelni | gpl uczelni
+przedszkole : gpl przedszkoli
+nauczycielka : gpl nauczycielek
+studia : gpl studiów
+studentka : gpl studentek
+przegląd : gen przeglądu | dat przeglądowi | ins przeglądem | loc przeglądzie | gpl przeglądów
+stołówka : gpl stołówek
+seminarium : gpl seminariów
+stypendium : gpl stypendiów
+laboratorium : gpl laboratoriów
+kryterium : gpl kryteriów
+gumka : gpl gumek
+akademia : gen akademii | dat akademii | loc akademii | gpl akademii
+tornister : gen tornistra | stem tornistr
+klasówka : gpl klasówek
+świadectwo : gpl świadectw
+powtórka : gpl powtórek
+wiersz : gen wiersza
+linijka : gpl linijek
+cyfra : gpl cyfr
+żłobek : gen żłobka
+naukowiec : stem naukowc
+ekonomia : gen ekonomii | dat ekonomii | loc ekonomii
+metoda : gpl metod
+wzór : dpl wzorom | ipl wzorami | lpl wzorach
+zmienna : gen zmiennej | dat zmiennej | acc zmienną | ins zmienną | loc zmiennej | pl zmienne | gpl zmiennych | dpl zmiennym | ipl zmiennymi | lpl zmiennych
+promień : stem promieni | gen promienia
+chemia : gen chemii | dat chemii | loc chemii
+biologia : gen biologii | dat biologii | loc biologii
+geografia : gen geografii | dat geografii | loc geografii
+filozofia : gen filozofii | dat filozofii | loc filozofii
+psychologia : gen psychologii | dat psychologii | loc psychologii
+astronomia : gen astronomii | dat astronomii | loc astronomii
+geologia : gen geologii | dat geologii | loc geologii
+zoologia : gen zoologii | dat zoologii | loc zoologii
+socjologia : gen socjologii | dat socjologii | loc socjologii
+archeologia : gen archeologii | dat archeologii | loc archeologii
+ekologia : gen ekologii | dat ekologii | loc ekologii
+kolba : gpl kolb
+mówca : gpl mówców
+nastrój : dpl nastrojom | ipl nastrojami | lpl nastrojach
+krzyk : gen krzyku
+okrzyk : gen okrzyku
+wzmianka : gpl wzmianek
+plotka : gpl plotek
+obelga : gpl obelg
+prośba : gpl próśb
+przerwa : gpl przerw
+wymóg : dpl wymogom | ipl wymogami | lpl wymogach
+notatka : gpl notatek
+wyzwisko : gpl wyzwisk
+przekleństwo : gpl przekleństw
+anegdota : gpl anegdot
+stanowisko : gpl stanowisk
+głupstwo : gpl głupstw
+wybryk : gen wybryku
+nazwisko : gpl nazwisk
+przezwisko : gpl przezwisk
+pismo : gpl pism
+nagłówek : gen nagłówka | dat nagłówkowi | ins nagłówkiem | loc nagłówku | gpl nagłówków
+czcionka : gpl czcionek
+ortografia : gen ortografii | dat ortografii | loc ortografii | gpl ortografii
+pisownia : gen pisowni | dat pisowni | loc pisowni | gpl pisowni
+nazwa : gpl nazw
+przecinek : gen przecinka
+znaczek : gen znaczka
+poczta : gpl poczt
+pocztówka : gpl pocztówek
+ołówek : gen ołówka | dat ołówkowi | ins ołówkiem | loc ołówku | gpl ołówków
+kredka : gpl kredek
+kopia : gen kopii | dat kopii | loc kopii | gpl kopii
+księgarnia : gen księgarni | dat księgarni | loc księgarni | gpl księgarni
+skrót : gen skrótu | dat skrótowi | ins skrótem | loc skrócie | gpl skrótów | dpl skrótom | ipl skrótami | lpl skrótach
+poprawka : gpl poprawek
+niemiecki : gen niemieckiego | dat niemieckiemu | ins niemieckim | loc niemieckim | adv po niemiecku
+wiadomości : gpl wiadomości | dpl wiadomościom | ipl wiadomościami | lpl wiadomościach
+aktualności : gpl aktualności | dpl aktualnościom | ipl aktualnościami | lpl aktualnościach
+media : gpl mediów
+dziennikarka : gpl dziennikarek
+motto : gpl mott
+ulotka : gpl ulotek
+szczegół : gen szczegółu | dat szczegółowi | ins szczegółem | loc szczególe | gpl szczegółów
+czasopismo : gpl czasopism
+prezenterka : gpl prezenterek
+studio : gpl studiów
+wydawnictwo : gpl wydawnictw
+religia : gen religii | dat religii | loc religii
+bóg : dat bogu | dpl bogom | ipl bogami | lpl bogach
+bogini : acc boginię
+nabożeństwo : gpl nabożeństw
+bożek : gen bożka
+święty : gen świętego | dat świętemu | acc świętego | ins świętym | loc świętym | pl święci | gpl świętych | dpl świętym | apl świętych | ipl świętymi | lpl świętych | comp świętszy | adv święcie
+świątynia : gen świątyni | dat świątyni | loc świątyni
+katedra : gpl katedr
+ksiądz : stem księdz | dat księdzu | pl księża | gpl księży | dpl księżom | ipl księżmi | lpl księżach
+modlitwa : gpl modlitw
+błogosławieństwo : gpl błogosławieństw
+klątwa : gpl klątw
+duch : gen ducha
+duchowny : gen duchownego | dat duchownemu | acc duchownego | ins duchownym | loc duchownym | pl duchowni | gpl duchownych | dpl duchownym | apl duchownych | ipl duchownymi | lpl duchownych
+piekło : gpl piekieł
+diabeł : stem diabł | gen diabła | loc diable
+ikona : gpl ikon
+synagoga : gpl synagog
+Żydówka : gpl Żydówek
+proboszcz : gpl proboszczów
+chrześcijanin : gpl chrześcijan
+muzułmanin : gpl muzułmanów
+wierzący : gen wierzącego | dat wierzącemu | acc wierzącego | ins wierzącym | loc wierzącym | pl wierzący | gpl wierzących | dpl wierzącym | apl wierzących | ipl wierzącymi | lpl wierzących
+msza : gpl mszy
+magia : gen magii | dat magii | loc magii
+potwór : gen potwora | dpl potworom | ipl potworami | lpl potworach
+smok : gen smoka
+przesąd : gen przesądu | dat przesądowi | ins przesądem | loc przesądzie | gpl przesądów
+mitologia : gen mitologii | dat mitologii | loc mitologii
+astrologia : gen astrologii | dat astrologii | loc astrologii
+wyrocznia : gen wyroczni | dat wyroczni | loc wyroczni | gpl wyroczni
+jednorożec : gen jednorożca
+ceremonia : gen ceremonii | dat ceremonii | loc ceremonii | gpl ceremonii
+pochód : dpl pochodom | ipl pochodami | lpl pochodach
+Mikołaj : gen Mikołaja
+choinka : gpl choinek
+pisanka : gpl pisanek
+Sylwester : stem Sylwestr | gen Sylwestra
+urodziny : gpl urodzin
+chrzest : stem chrzt
+grób : dpl grobom | ipl grobami | lpl grobach
+trumna : gpl trumien
+osiedle : gpl osiedli
+wieś : stem ws | gen wsi | pl wsie | gpl wsi | ins wsią | dpl wsiom | ipl wsiami | lpl wsiach
+mieszkanka : gpl mieszkanek
+mieszkaniec : stem mieszkańc
+ojczyzna : gpl ojczyzn
+fontanna : gpl fontann
+kosiarka : gpl kosiarek
+aleja : gen alei | dat alei | loc alei | gpl alei
+przechodzień : stem przechodni | gpl przechodniów
+budowla : gpl budowli
+budowlaniec : stem budowlańc
+ratusz : gen ratusza
+kawiarnia : gen kawiarni | dat kawiarni | loc kawiarni | gpl kawiarni
+akwarium : gpl akwariów
+kąpielisko : gpl kąpielisk
+pieszy : gen pieszego | dat pieszemu | acc pieszego | ins pieszym | loc pieszym | pl piesi | gpl pieszych | dpl pieszym | apl pieszych | ipl pieszymi | lpl pieszych
+burmistrz : gpl burmistrzów
+burmistrzyni : acc burmistrzynię
+bezdomny : gen bezdomnego | dat bezdomnemu | acc bezdomnego | ins bezdomnym | loc bezdomnym | pl bezdomni | gpl bezdomnych | dpl bezdomnym | apl bezdomnych | ipl bezdomnymi | lpl bezdomnych
+strażacy : gpl strażaków | dpl strażakom | ipl strażakami | lpl strażakach
+ludzie : gpl ludzi | dpl ludziom | ipl ludźmi | lpl ludziach
+naród : dpl narodom | ipl narodami | lpl narodach
+społeczeństwo : gpl społeczeństw
+wspólnota : gpl wspólnot
+obywatelka : gpl obywatelek
+obywatelstwo : gpl obywatelstw
+cudzoziemiec : stem cudzoziemc
+obcokrajowiec : stem obcokrajowc
+cudzoziemka : gpl cudzoziemek
+niewolnictwo : gpl niewolnictw
+sługa : dat słudze | loc słudze | gpl sług
+służący : gen służącego | dat służącemu | acc służącego | ins służącym | loc służącym | pl służący | gpl służących | dpl służącym | apl służących | ipl służącymi | lpl służących
+ranga : gpl rang
+opinia : gpl opinii
+wódz : dpl wodzom | ipl wodzami | lpl wodzach
+bogaty : gen bogatego | dat bogatemu | acc bogatego | ins bogatym | loc bogatym | pl bogaci | gpl bogatych | dpl bogatym | apl bogatych | ipl bogatymi | lpl bogatych | comp bogatszy
+ocalały : gen ocalałego | dat ocalałemu | acc ocalałego | ins ocalałym | loc ocalałym | pl ocalali | gpl ocalałych | dpl ocalałym | apl ocalałych | ipl ocalałymi | lpl ocalałych
+ciężarna : gen ciężarnej | dat ciężarnej | acc ciężarną | ins ciężarną | loc ciężarnej | pl ciężarne | gpl ciężarnych | dpl ciężarnym | ipl ciężarnymi | lpl ciężarnych
+twórca : gpl twórców
+książę : stem księci | dat księciu | pl książęta | gpl książąt | dpl książętom | ipl książętami | lpl książętach
+księżna : gen księżnej | dat księżnej | acc księżną | ins księżną | loc księżnej | pl księżne | gpl księżnych | dpl księżnym | ipl księżnymi | lpl księżnych
+państwo : gpl państw
+rząd : gen rządu | dat rządowi | ins rządem | loc rządzie | gpl rządów
+prezydentka : gpl prezydentek
+król : gen króla | dat królowi | ins królem | loc królu | gpl królów
+królowa : gen królowej | dat królowej | acc królową | ins królową | loc królowej | pl królowe | gpl królowych | dpl królowym | ipl królowymi | lpl królowych
+królestwo : gpl królestw
+cesarstwo : gpl cesarstw
+imperium : gpl imperiów
+minister : stem ministr
+ministerstwo : gpl ministerstw
+kandydatka : gpl kandydatek
+korona : gpl koron
+terytorium : gpl terytoriów
+monarchia : gen monarchii | dat monarchii | loc monarchii
+obowiązek : gen obowiązku | dat obowiązkowi | ins obowiązkiem | loc obowiązku | gpl obowiązków
+kampania : gpl kampanii
+kolonia : gpl kolonii
+reforma : gpl reform
+poseł : stem posł
+posłanka : gpl posłanek
+związek : gen związku | dat związkowi | ins związkiem | loc związku | gpl związków
+unia : gpl unii
+urząd : dpl urzędom | ipl urzędami | lpl urzędach
+zarząd : gen zarządu | dat zarządowi | ins zarządem | loc zarządzie | gpl zarządów
+przewodniczący : gen przewodniczącego | dat przewodniczącemu | acc przewodniczącego | ins przewodniczącym | loc przewodniczącym | pl przewodniczący | gpl przewodniczących | dpl przewodniczącym | apl przewodniczących | ipl przewodniczącymi | lpl przewodniczących
+zasób : dpl zasobom | ipl zasobami | lpl zasobach
+kotlet : gen kotleta
+melon : gen melona
+arbuz : gen arbuza
+ananas : gen ananasa
+banan : gen banana
+grejpfrut : gen grejpfruta
+bakłażan : gen bakłażana
+szparag : gen szparaga
+szampan : gen szampana
+drink : gen drinka
+dzban : gen dzbana
+obrus : gen obrusa
+guz : gen guza
+komin : gen komina
+tost : gen tosta
+pulpet : gen pulpeta
+filet : gen fileta
+daktyl : gen daktyla
+krakers : gen krakersa
+marchewka : gpl marchewek
+początkujący : gen początkującego | dat początkującemu | acc początkującego | ins początkującym | loc początkującym | pl początkujący | gpl początkujących | dpl początkującym | apl początkujących | ipl początkującymi | lpl początkujących
+# ---- helper lines (nouns-0.out) ----
+podróbka : gpl podróbek
+norma : gpl norm
+niebezpieczeństwo : gpl niebezpieczeństw
+bezpieczeństwo : gpl bezpieczeństw
+korekta : gpl korekt
+prawdopodobieństwo : gpl prawdopodobieństw
+porządek : gen porządku | dat porządkowi | ins porządkiem | loc porządku | gpl porządków
+ciężarek : gen ciężarka
+milion : gen miliona
+miliard : gen miliarda
+tuzin : gen tuzina
+średnia : gen średniej | dat średniej | acc średnią | loc średniej | gpl średnich | dpl średnim | ipl średnimi | lpl średnich
+niedobór : stem niedobor
+środek : gen środka
+metr : gen metra
+centymetr : gen centymetra
+kilometr : gen kilometra
+milimetr : gen milimetra
+litr : gen litra
+tona : gpl ton
+dawka : gpl dawek
+kawałek : gen kawałka
+istota : gpl istot
+koniec : stem końc | gen końca
+rozwój : stem rozwoj
+zastępstwo : gpl zastępstw
+początek : gen początku | dat początkowi | ins początkiem | loc początku | gpl początków
+katastrofa : gpl katastrof
+odcinek : gen odcinka
+wyjątek : gen wyjątku | dat wyjątkowi | ins wyjątkiem | loc wyjątku | gpl wyjątków
+niepokój : stem niepokoj
+zjawisko : gpl zjawisk
+podobieństwo : gpl podobieństw
+przeciwieństwo : gpl przeciwieństw
+sposób : stem sposob
+cecha : gen cechy | gpl cech
+ramy : gpl ram
+strategia : gen strategii | dat strategii | loc strategii
+szansa : gpl szans
+opór : stem opor
+obrazek : gen obrazka
+wynik : gen wyniku
+zbiór : stem zbior
+kontrola : gpl kontroli
+wygląd : gen wyglądu | dat wyglądowi | ins wyglądem | loc wyglądzie | gpl wyglądów
+bodziec : stem bodźc | gen bodźca
+dobro : gpl dóbr
+ochrona : gpl ochron
+wymówka : gpl wymówek
+forma : gpl form
+trójkąt : gen trójkąta | dat trójkątowi | ins trójkątem | loc trójkącie | gpl trójkątów
+prostokąt : gen prostokąta | dat prostokątowi | ins prostokątem | loc prostokącie | gpl prostokątów
+walec : gen walca
+stożek : gen stożka
+krzyż : gen krzyża
+linia : gpl linii
+pasek : gen paska
+kropka : gpl kropek
+kąt : gen kąta | dat kątowi | ins kątem | loc kącie | gpl kątów
+ramka : gpl ramek
+sylwetka : gpl sylwetek
+rowek : gen rowka
+powierzchnia : gen powierzchni | dat powierzchni | loc powierzchni | gpl powierzchni
+prosta : gen prostej | dat prostej | acc prostą | loc prostej | gpl prostych | dpl prostym | ipl prostymi | lpl prostych
+warstwa : gpl warstw
+kolumna : gpl kolumn
+węzeł : stem węzł | gen węzła | loc węźle
+strona : gpl stron
+spód : stem spod
+przód : stem przod
+pustka : gpl pustek
+próżnia : gen próżni | dat próżni | loc próżni | gpl próżni
+przegródka : gpl przegródek
+wschód : stem wschod
+zachód : stem zachod
+powrót : stem powrot
+kierownictwo : gpl kierownictw
+przywództwo : gpl przywództw
+postój : stem postoj
+kwadrans : gen kwadransa
+dzień : stem dni | pl dni | gen dnia | loc dniu | gpl dni | dpl dniom | ipl dniami | lpl dniach
+tydzień : stem tygodni | pl tygodnie | gen tygodnia | loc tygodniu | gpl tygodni
+miesiąc : pl miesiące | gen miesiąca | dat miesiącowi | ins miesiącem | loc miesiącu | gpl miesięcy
+dziesięciolecie : gpl dziesięcioleci
+stulecie : gpl stuleci
+epoka : gpl epok
+ranek : gen ranka
+wieczór : stem wieczor
+piątek : gen piątku | dat piątkowi | ins piątkiem | loc piątku | gpl piątków
+tempo : gpl temp
+styczeń : stem styczni | gen stycznia
+luty : gen lutego | dat lutemu | ins lutym | loc lutym
+marzec : stem marc | gen marca
+kwiecień : stem kwietni | gen kwietnia
+czerwiec : stem czerwc | gen czerwca
+lipiec : stem lipc | gen lipca
+sierpień : stem sierpni | gen sierpnia
+wrzesień : stem wrześni | gen września
+grudzień : stem grudni | gen grudnia
+żal : gpl żalów
+troska : gpl trosk
+spokój : stem spokoj
+niespodzianka : gpl niespodzianek
+nadzieja : gen nadziei | dat nadziei | loc nadziei | gpl nadziei
+tęsknota : gpl tęsknot
+pociecha : gen pociechy | gpl pociech
+nostalgia : gen nostalgii | dat nostalgii | loc nostalgii
+pogląd : gen poglądu | dat poglądowi | ins poglądem | loc poglądzie | gpl poglądów
+wyobraźnia : gen wyobraźni | dat wyobraźni | loc wyobraźni | gpl wyobraźni
+szaleństwo : gpl szaleństw
+pozór : stem pozor
+prawda : gpl prawd
+błąd : dpl błędom | ipl błędami | lpl błędach
+rozsądek : gen rozsądku | dat rozsądkowi | ins rozsądkiem | loc rozsądku
+zagadka : gpl zagadek
+rozrywka : gpl rozrywek
+głupota : gpl głupot
+głupiec : stem głupc
+szaleniec : stem szaleńc
+wpadka : gpl wpadek
+trik : gen triku
+kryjówka : gpl kryjówek
+smród : stem smrod
+dotyk : gen dotyku
+odcień : gen odcienia
+wybór : stem wybor
+cel : gpl celów
+ochota : gpl ochot
+pierwszeństwo : gpl pierwszeństw
+nawyk : gen nawyku
+lenistwo : gpl lenistw
+okrucieństwo : gpl okrucieństw
+tchórz : gen tchórza | dat tchórzowi | ins tchórzem | loc tchórzu
+tchórzostwo : gpl tchórzostw
+wzgląd : dpl względom | ipl względami | lpl względach
+gospodarstwo : gpl gospodarstw
+farma : gpl farm
+pług : gen pługa
+nawóz : stem nawoz
+grabie : gpl grabi
+traktor : gen traktora
+młyn : gen młyna
+szklarnia : gen szklarni | dat szklarni | loc szklarni | gpl szklarni
+gnój : stem gnoj
+kosa : gpl kos
+jęczmień : gen jęczmienia
+owies : stem ows | gen owsa
+widły : gpl wideł
+sadzonka : gpl sadzonek
+stajnia : gen stajni | dat stajni | loc stajni | gpl stajni
+hodowla : gpl hodowli
+rzeźnia : gen rzeźni | dat rzeźni | loc rzeźni | gpl rzeźni
+drób : stem drobi
+jeździec : stem jeźdźc
+ogród : stem ogrod
+myśliwy : gen myśliwego | dat myśliwemu | ins myśliwym | loc myśliwym | gpl myśliwych | dpl myśliwym | ipl myśliwymi | lpl myśliwych
+pułapka : gpl pułapek
+przynęta : gpl przynęt
+wędka : gpl wędek
+wąż : stem węż | dat wężowi | gpl węży
+artystka : gpl artystek
+styl : gpl stylów
+mural : gpl muralów
+posąg : gen posągu | dat posągowi | ins posągiem | loc posągu | gpl posągów
+płótno : gpl płócien
+flamaster : stem flamastr | gen flamastra
+pędzel : stem pędzl | gen pędzla
+logo : gpl log
+kołysanka : gpl kołysanek
+piosenkarka : gpl piosenkarek
+chór : gen chóru | dat chórowi | ins chórem | loc chórze | gpl chórów
+orkiestra : gpl orkiestr
+skrzypce : gpl skrzypiec
+bęben : stem bębn | gen bębna
+trąbka : gpl trąbek
+harfa : gpl harf
+gwizdek : gen gwizdka
+utwór : stem utwor
+harmonia : gpl harmonii
+piosenka : gpl piosenek
+aktorka : gpl aktorek
+kreskówka : gpl kreskówek
+taniec : stem tańc | gen tańca
+bajka : gpl bajek
+autorka : gpl autorek
+scenariusz : gen scenariusza
+biografia : gen biografii | dat biografii | loc biografii | gpl biografii
+widowisko : gpl widowisk
+gra : gpl gier
+zabawka : gpl zabawek
+lalka : gpl lalek
+latawiec : stem latawc | gen latawca
+sportowiec : stem sportowc
+zespół : stem zespoł
+mecz : gpl meczów
+mistrz : gpl mistrzów
+mistrzostwa : gpl mistrzostw
+gol : gen gola
+hokej : gen hokeja
+pływalnia : gen pływalni | dat pływalni | loc pływalni | gpl pływalni
+siłownia : gen siłowni | dat siłowni | loc siłowni | gpl siłowni
+poker : gen pokera
+koszulka : gpl koszulek
+boisko : gpl boisk
+przegrany : gen przegranego | dat przegranemu | ins przegranym | loc przegranym | gpl przegranych | dpl przegranym | ipl przegranymi | lpl przegranych
+słupek : gen słupka
+uszczelka : gpl uszczelek
+próbka : gpl próbek
+sukienka : gpl sukienek
+szatnia : gen szatni | dat szatni | loc szatni | gpl szatni
+podkoszulek : gen podkoszulka
+spodnie : gpl spodni
+majtki : gpl majtek
+kąpielówki : gpl kąpielówek
+rajstopy : gpl rajstop
+spodenki : gpl spodenek
+płaszcz : gen płaszcza
+szlafrok : gen szlafroka
+kurtka : gpl kurtek
+kardigan : gen kardigana
+sweter : stem swetr | gen swetra
+kamizelka : gpl kamizelek
+biustonosz : gen biustonosza
+fartuch : gen fartucha
+strój : stem stroj
+pielucha : gen pieluchy | gpl pieluch
+but : gen buta
+trampki : gpl trampek
+kapeć : stem kapci | gen kapcia
+kozak : gen kozaka
+sandał : gen sandała
+sznurówka : gpl sznurówek
+skarpetka : gpl skarpetek
+pończocha : gen pończochy | gpl pończoch
+kapelusz : gen kapelusza
+czapka : gpl czapek
+kaptur : gen kaptura
+pas : gen pasa
+parasol : gen parasola
+portfel : gen portfela
+suwak : gen suwaka
+rękaw : gen rękawa
+koronka : gpl koronek
+rąbek : gen rąbka | dat rąbkowi | ins rąbkiem | loc rąbku | gpl rąbków
+chustka : gpl chustek
+szal : gen szala
+len : stem ln | gen lnu
+nitka : gpl nitek
+igła : gpl igieł
+szpilka : gpl szpilek
+wsuwka : gpl wsuwek
+szew : stem szw | gen szwu
+krawiec : stem krawc
+manekin : gen manekina
+pierścionek : gen pierścionka
+pierścień : gen pierścienia
+bransoletka : gpl bransoletek
+wisiorek : gen wisiorka
+Niemiec : stem Niemc
+Szwajcarka : gpl Szwajcarek
+Hiszpanka : gpl Hiszpanek
+Portugalka : gpl Portugalek
+Brytyjka : gpl Brytyjek
+Angielka : gpl Angielek
+Irlandka : gpl Irlandek
+Holender : stem Holendr
+Holenderka : gpl Holenderek
+Belgia : gen Belgii | dat Belgii | loc Belgii
+Belgijka : gpl Belgijek
+Luksemburg : gen Luksemburga
+Dunka : gpl Dunek
+Szwedka : gpl Szwedek
+Norwegia : gen Norwegii | dat Norwegii | loc Norwegii
+Finka : gpl Finek
+Islandka : gpl Islandek
+Polka : gpl Polek
+Węgier : stem Węgr
+Węgierka : gpl Węgierek
+Słoweniec : stem Słoweńc
+Słowenka : gpl Słowenek
+Chorwatka : gpl Chorwatek
+Serbia : gen Serbii | dat Serbii | loc Serbii
+Serbka : gpl Serbek
+Rumunka : gpl Rumunek
+Bułgarka : gpl Bułgarek
+Grek : stem Grek
+Greczynka : gpl Greczynek
+Turczynka : gpl Turczynek
+Ukrainiec : stem Ukraińc
+Ukrainka : gpl Ukrainek
+Rosjanin : pl Rosjanie | gpl Rosjan | dpl Rosjanom | ipl Rosjanami | lpl Rosjanach
+Rosjanka : gpl Rosjanek
+Litwinka : gpl Litwinek
+Estonka : gpl Estonek
+USA : gpl USA | dpl USA | ipl USA | lpl USA
+Chiny : gpl Chin
+Chinka : gpl Chinek
+Japonka : gpl Japonek
+Izrael : gen Izraela
+Izraelka : gpl Izraelek
+Iranka : gpl Iranek
+Irakijka : gpl Irakijek
+Syryjka : gpl Syryjek
+Egipcjanin : pl Egipcjanie | gpl Egipcjan | dpl Egipcjanom | ipl Egipcjanami | lpl Egipcjanach
+Egipcjanka : gpl Egipcjanek
+Afganka : gpl Afganek
+Pakistanka : gpl Pakistanek
+Brazylijka : gpl Brazylijek
+Kanadyjka : gpl Kanadyjek
+Meksyk : gen Meksyku
+Meksykanin : pl Meksykanie | gpl Meksykan | dpl Meksykanom | ipl Meksykanami | lpl Meksykanach
+Meksykanka : gpl Meksykanek
+Argentynka : gpl Argentynek
+Europejka : gpl Europejek
+Azjatka : gpl Azjatek
+Afrykanin : pl Afrykanie | gpl Afrykan | dpl Afrykanom | ipl Afrykanami | lpl Afrykanach
+Afrykanka : gpl Afrykanek
+Amerykanin : pl Amerykanie | gpl Amerykan | dpl Amerykanom | ipl Amerykanami | lpl Amerykanach
+Amerykanka : gpl Amerykanek
+Australijka : gpl Australijek
+rodzice : gpl rodziców
+dziadkowie : dpl dziadkom | ipl dziadkami | lpl dziadkach
+dziadzio : gen dziadzia | dat dziadziowi | acc dziadzia | ins dziadziem | loc dziadziu | gpl dziadziów
+teść : gpl teściów
+matka : gpl matek
+babunia : gen babuni | dat babuni | loc babuni
+macocha : gen macochy | gpl macoch
+teściowa : gen teściowej | dat teściowej | acc teściową | loc teściowej | gpl teściowych | dpl teściowym | ipl teściowymi | lpl teściowych
+zięć : gpl zięciów
+córka : gpl córek
+synowa : gen synowej | dat synowej | acc synową | loc synowej | gpl synowych | dpl synowym | ipl synowymi | lpl synowych
+brat : pl bracia | dat bratu | loc bracie | gpl braci | dpl braciom | ipl braćmi | lpl braciach
+siostra : gpl sióstr
+ciotka : gpl ciotek
+kuzynka : gpl kuzynek
+siostrzeniec : stem siostrzeńc
+wdowiec : stem wdowc
+sierota : gpl sierot
+krewny : gen krewnego | dat krewnemu | ins krewnym | loc krewnym | gpl krewnych | dpl krewnym | ipl krewnymi | lpl krewnych
+krewni : gpl krewnych | dpl krewnym | ipl krewnymi | lpl krewnych
+chrzestny : gen chrzestnego | dat chrzestnemu | ins chrzestnym | loc chrzestnym | gpl chrzestnych | dpl chrzestnym | ipl chrzestnymi | lpl chrzestnych
+chrzestna : gen chrzestnej | dat chrzestnej | acc chrzestną | loc chrzestnej | gpl chrzestnych | dpl chrzestnym | ipl chrzestnymi | lpl chrzestnych
+szwagier : stem szwagr
+niania : gen niani | dat niani | loc niani
+dziewczynka : gpl dziewczynek

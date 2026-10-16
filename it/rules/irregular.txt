@@ -1,0 +1,305 @@
+# ITALIAN IRREGULAR VERBS (it/morph.js): `verb : part | part ...` -- pres (all six: io tu lui noi voi loro; `-` a regular
+# one), pres1 (the io form alone: the subjunctive is made of it -- faccia, venga), futstem (avr-: avrò, avrei), pp,
+# impfstem (fac-: facevo, facendo, facessi), pret (the six of the passato remoto) or pretstem (ebb-: ebbi ebbe ebbero,
+# the others regular), imp (tu voi), subj (the six of the congiuntivo presente), model isc, like BASE (a prefixed verb:
+# rifare like fare -> rifaccio).
+essere : pres sono sei è siamo siete sono | impf ero eri era eravamo eravate erano | futstem sar | pp stato | subj sia sia sia siamo siate siano | subjimpf fossi fossi fosse fossimo foste fossero | pret fui fosti fu fummo foste furono | imp sii siate
+avere : pres ho hai ha abbiamo avete hanno | futstem avr | pretstem ebb | subj abbia abbia abbia abbiamo abbiate abbiano | imp abbi abbiate
+andare : pres vado vai va andiamo andate vanno | futstem andr | imp va' andate
+fare : pres faccio fai fa facciamo fate fanno | impfstem fac | futstem far | pp fatto | pretstem fec | imp fa' fate | subjimpf facessi facessi facesse facessimo faceste facessero
+dire : pres dico dici dice diciamo dite dicono | impfstem dic | futstem dir | pp detto | pretstem diss | imp di' dite
+stare : pres sto stai sta stiamo state stanno | futstem star | pret stetti stesti stette stemmo steste stettero | subj stia stia stia stiamo stiate stiano | subjimpf stessi stessi stesse stessimo steste stessero | imp sta' state
+dare : pres do dai dà diamo date danno | futstem dar | pret diedi desti diede demmo deste diedero | subj dia dia dia diamo diate diano | subjimpf dessi dessi desse dessimo deste dessero | imp da' date
+venire : pres vengo vieni viene veniamo venite vengono | futstem verr | pp venuto | pretstem venn
+tenere : pres tengo tieni tiene teniamo tenete tengono | futstem terr | pretstem tenn
+volere : pres voglio vuoi vuole vogliamo volete vogliono | futstem vorr | pretstem voll
+potere : pres posso puoi può possiamo potete possono | futstem potr
+dovere : pres devo devi deve dobbiamo dovete devono | futstem dovr
+sapere : pres so sai sa sappiamo sapete sanno | futstem sapr | pretstem sepp | subj sappia sappia sappia sappiamo sappiate sappiano | imp sappi sappiate
+vedere : futstem vedr | pp visto | pretstem vid
+vivere : futstem vivr | pp vissuto | pretstem viss
+bere : pres bevo bevi beve beviamo bevete bevono | impfstem bev | futstem berr | pp bevuto | pretstem bevv
+uscire : pres esco esci esce usciamo uscite escono
+sedere : pres siedo siedi siede sediamo sedete siedono
+morire : pres muoio muori muore moriamo morite muoiono | pp morto | futstem morir
+piacere : pres piaccio piaci piace piacciamo piacete piacciono | pp piaciuto | pretstem piacqu
+rimanere : pres rimango rimani rimane rimaniamo rimanete rimangono | futstem rimarr | pp rimasto | pretstem rimas
+salire : pres salgo sali sale saliamo salite salgono
+scegliere : pres scelgo scegli sceglie scegliamo scegliete scelgono | pp scelto | pretstem scels
+togliere : pres tolgo togli toglie togliamo togliete tolgono | pp tolto | pretstem tols
+cogliere : pres colgo cogli coglie cogliamo cogliete colgono | pp colto | pretstem cols
+porre : pres pongo poni pone poniamo ponete pongono | impfstem pon | futstem porr | pp posto | pretstem pos
+trarre : pres traggo trai trae traiamo traete traggono | impfstem tra | futstem trarr | pp tratto | pretstem trass
+produrre : pres produco produci produce produciamo producete producono | impfstem produc | futstem produrr | pp prodotto | pretstem produss
+tradurre : like produrre
+condurre : like produrre
+ridurre : like produrre
+prendere : pp preso | pretstem pres
+mettere : pp messo | pretstem mis
+scrivere : pp scritto | pretstem scriss
+leggere : pp letto | pretstem less
+chiudere : pp chiuso | pretstem chius
+aprire : pp aperto
+offrire : pp offerto
+coprire : pp coperto
+soffrire : pp sofferto
+rispondere : pp risposto | pretstem rispos
+chiedere : pp chiesto | pretstem chies
+perdere : pp perso | pretstem pers
+decidere : pp deciso | pretstem decis
+correre : pp corso | pretstem cors
+rompere : pp rotto | pretstem rupp
+vincere : pp vinto | pretstem vins
+spegnere : pres spengo spegni spegne spegniamo spegnete spengono | pp spento | pretstem spens
+nascere : pp nato | pretstem nacqu
+conoscere : pp conosciuto | pretstem conobb
+crescere : pp cresciuto | pretstem crebb
+piangere : pp pianto | pretstem pians
+ridere : pp riso | pretstem ris
+muovere : pp mosso | pretstem moss
+accendere : pp acceso | pretstem acces
+scendere : pp sceso | pretstem sces
+succedere : pp successo | pretstem success
+discutere : pp discusso | pretstem discuss
+cadere : futstem cadr | pretstem cadd
+giungere : pp giunto | pretstem giuns
+dipingere : pp dipinto | pretstem dipins
+spingere : pp spinto | pretstem spins
+stringere : pp stretto | pretstem strins
+cuocere : pres cuocio cuoci cuoce cuociamo cuocete cuociono | pp cotto | pretstem coss
+dirigere : pp diretto | pretstem diress
+proteggere : pp protetto | pretstem protess
+distruggere : pp distrutto | pretstem distruss
+raggiungere : like giungere
+rifare : like fare
+disfare : like fare
+ridire : like dire
+divenire : like venire
+avvenire : like venire
+intervenire : like venire
+prevenire : like venire
+convenire : like venire
+contenere : like tenere
+ottenere : like tenere
+mantenere : like tenere
+sostenere : like tenere
+ritenere : like tenere
+appartenere : like tenere
+trattenere : like tenere
+riuscire : like uscire
+comprendere : like prendere
+sorprendere : like prendere
+riprendere : like prendere
+apprendere : like prendere
+permettere : like mettere
+promettere : like mettere
+ammettere : like mettere
+smettere : like mettere
+trasmettere : like mettere
+commettere : like mettere
+descrivere : like scrivere
+iscrivere : like scrivere
+rileggere : like leggere
+eleggere : like leggere
+richiudere : like chiudere
+riaprire : like aprire
+scoprire : like coprire
+ricoprire : like coprire
+rivedere : like vedere
+prevedere : like vedere
+provvedere : like vedere
+sopravvivere : like vivere
+convivere : like vivere
+accorrere : like correre
+percorrere : like correre
+soccorrere : like correre
+occorrere : like correre
+interrompere : like rompere
+corrompere : like rompere
+convincere : like vincere
+rinascere : like nascere
+riconoscere : like conoscere
+sorridere : like ridere
+commuovere : like muovere
+promuovere : like muovere
+rimuovere : like muovere
+discendere : like scendere
+indurre : like produrre
+sedurre : like produrre
+introdurre : like produrre
+costringere : like stringere
+respingere : like spingere
+raccogliere : like cogliere
+accogliere : like cogliere
+# ---- helper lines (verbs-0.out) ----
+contraffare : like fare
+nuocere : pres noccio nuoci nuoce nociamo nuocete nocciono | pp nociuto | pretstem nocqu
+correggere : pp corretto | pretstem corress
+restringere : like stringere
+rendere : pp reso | pretstem res
+riprodurre : like produrre
+riporre : like porre
+valere : pres valgo vali vale valiamo valete valgono | futstem varr | pp valso | pretstem vals
+prevalere : like valere
+equivalere : like valere
+possedere : pres possiedo possiedi possiede possediamo possedete possiedono
+sorgere : pp sorto | pretstem sors
+concludere : pp concluso | pretstem conclus
+includere : pp incluso | pretstem inclus
+comprimere : pp compresso | pretstem compress
+esprimere : pp espresso | pretstem express
+fondere : pp fuso | pretstem fus
+diffondere : pp diffuso | pretstem diffus
+redigere : pp redatto | pretstem redass
+distorcere : pp distorto | pretstem distors
+torcere : pp torto | pretstem tors
+dividere : pp diviso | pretstem divis
+condividere : like dividere
+suddividere : like dividere
+dipendere : pp dipeso | pretstem dipes
+accorgere : pp accorto | pretstem accors
+corrispondere : like rispondere
+disporre : like porre
+assumere : pp assunto | pretstem assuns
+arrendere : pp arreso | pretstem arres
+soddisfare : like fare
+travolgere : pp travolto | pretstem travols
+svolgere : pp svolto | pretstem svols
+sconvolgere : pp sconvolto | pretstem sconvols
+avvolgere : pp avvolto | pretstem avvols
+capovolgere : pp capovolto | pretstem capovols
+risolvere : pp risolto | pretstem risols
+coincidere : pp coinciso | pretstem coincis
+incidere : pp inciso | pretstem incis
+emettere : like mettere
+dismettere : like mettere
+omettere : like mettere
+trascorrere : like correre
+deporre : like porre
+imporre : like porre
+esporre : like porre
+proporre : like porre
+comporre : like porre
+sovrapporre : like porre
+opporre : like porre
+contrapporre : like porre
+aggiungere : like giungere
+richiedere : like chiedere
+concedere : pp concesso | pretstem concess
+espellere : pp espulso | pretstem espuls
+estrarre : like trarre
+sottrarre : like trarre
+tendere : pp teso | pretstem tes
+stendere : pp steso | pretstem stes
+distendere : pp disteso | pretstem distes
+attendere : pp atteso | pretstem attes
+pretendere : pp preteso | pretstem pretes
+fraintendere : pp franteso | pretstem fraintes
+nascondere : pp nascosto | pretstem nascos
+attingere : pp attinto | pretstem attins
+affliggere : pp afflitto | pretstem afflis
+astenere : like tenere
+dedurre : like produrre
+ricondurre : like produrre
+spargere : pp sparso | pretstem spars
+cospargere : like spargere
+estinguere : pp estinto | pretstem estins
+disperdere : pp disperso | pretstem dispers
+assistere : pp assistito
+riavere : like avere
+ergere : pp eretto | pretstem ers
+invadere : pp invaso | pretstem invas
+prescrivere : like scrivere
+deludere : pp deluso | pretstem delus
+rimpiangere : like piangere
+# ---- helper lines (verbs-1.out) ----
+sopraffare : like fare
+intrattenere : like tenere
+offendere : pp offeso | pretstem offes
+esigere : pp esatto
+deridere : like ridere
+disilludere : pp disilluso | pretstem disillus
+dissuadere : pp dissuaso | pretstem dissuas
+alludere : pp alluso | pretstem allus
+supporre : like porre
+confondere : pp confuso | pretstem confus
+escludere : pp escluso | pretstem esclus
+connettere : pp connesso | pretstem conness
+presumere : pp presunto | pretstem presuns
+presupporre : like porre
+distrarre : like trarre
+scorgere : pp scorto | pretstem scors
+parere : pres paio pari pare paiamo parete paiono | futstem parr | pp parso | pretstem pars
+apparire : pres appaio appari appare appariamo apparite appaiono | pp apparso | pretstem apparv
+comparire : pres compaio compari compare compariamo comparite compaiono | pp comparso | pretstem comparv
+scomparire : like comparire
+intravedere : like vedere
+distinguere : pp distinto | pretstem distins
+udire : pres odo odi ode udiamo udite odono | futstem udr
+intendere : pp inteso | pretstem intes
+oppore : pres oppongo opponi oppone opponiamo opponete oppongono | impfstem oppon | futstem opporr | pp opposto | pretstem oppos
+impore : pres impongo imponi impone imponiamo imponete impongono | impfstem impon | futstem imporr | pp imposto | pretstem impos
+mungere : pp munto | pretstem muns
+ritrarre : like trarre
+scommettere : like mettere
+tingere : pp tinto | pretstem tins
+fingere : pp finto | pretstem fins
+friggere : pp fritto | pretstem friss
+intromettere : like mettere
+rimettere : like mettere
+storcere : pp storto | pretstem stors
+compromettere : like mettere
+riflettere : pp riflesso | pretstem rifless
+radere : pp raso | pretstem ras
+contraddire : like dire | imp contraddici contraddite
+rivolgere : pp rivolto | pretstem rivols
+persuadere : pp persuaso | pretstem persuas
+difendere : pp difeso | pretstem difes
+tacere : pres taccio taci tace tacciamo tacete tacciono | pp taciuto | pretstem tacqu
+sottoscrivere : like scrivere
+riassumere : pp riassunto | pretstem riassuns
+predire : like dire | imp predici predite
+benedire : like dire | imp benedici benedite
+maledire : like dire | imp maledici maledite
+redimere : pp redento | pretstem redens
+assolvere : pp assolto | pretstem assols
+opprimere : pp oppresso | pretstem oppress
+reprimere : pp represso | pretstem repress
+sottomettere : like mettere
+uccidere : pp ucciso | pretstem uccis
+compiangere : like piangere
+annettere : pp annesso | pretstem anness
+sospendere : pp sospeso | pretstem sospes
+scorrere : like correre
+disconnettere : pp disconnesso | pretstem disconness
+spendere : pp speso | pretstem spes
+ripercuotere : pp ripercosso | pretstem ripercoss
+espandere : pp espanso | pretstem espans
+sconfiggere : pp sconfitto | pretstem sconfiss
+esplodere : pp esploso | pretstem esplos
+intraprendere : like prendere
+dimettere : like mettere
+giacere : pres giaccio giaci giace giacciamo giacete giacciono | pp giaciuto | pretstem giacqu
+risalire : like salire
+estendere : pp esteso | pretstem estes
+emergere : pp emerso | pretstem emers
+immergere : pp immerso | pretstem immers
+fuoriuscire : like uscire
+irrompere : like rompere
+scadere : like cadere
+ricorrere : like correre
+detrarre : like trarre
+sottopore : pres sottopongo sottoponi sottopone sottoponiamo sottoponete sottopongono | impfstem sottopon | futstem sottoporr | pp sottoposto | pretstem sottopos
+scuotere : pp scosso | pretstem scoss
+appendere : pp appeso | pretstem appes
+coinvolgere : pp coinvolto | pretstem coinvols
+pungere : pp punto | pretstem puns
+riprodure : pres riproduco riproduci riproduce riproduciamo riproducete riproducono | impfstem riproduc | futstem riprodurr | pp riprodotto | pretstem riproduss
+schiudere : pp schiuso | pretstem schius
+mordere : pp morso | pretstem mors
+rodere : pp roso | pretstem ros
+evolvere : pp evoluto
+provenire : like venire
+sciogliere : pres sciolgo sciogli scioglie sciogliamo sciogliete sciolgono | pp sciolto | pretstem sciols
+dissolvere : pp dissolto | pretstem dissols
+ardere : pp arso | pretstem ars

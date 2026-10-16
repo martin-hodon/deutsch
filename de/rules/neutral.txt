@@ -1,0 +1,151 @@
+# HOW GERMAN SAYS THE WORLD'S CLOSED WORDS (world/CLAUSES.md): pronouns, determiners, coordinators, links, relations,
+# time phrases, question words -- one line each: `KIND neutral = German`, alternatives `|` (the first by default; a
+# weight `{2}` makes one likelier when the realizer chooses freely). Read by de/realize.js.
+#
+# a relation's alternatives may name the nouns they are for: [auf] [an] (a place one is ON / AT: world/meaning flags),
+# [name] (a town or a country said without an article: nach Wien), [person] (zu ihr, von ihr), [time] (nach dem Essen)
+
+pron 1sg = ich
+pron 2sg = du
+pron 3sg.m = er
+pron 3sg.f = sie
+pron 3sg.n = es
+pron 1pl = wir
+pron 2pl = ihr
+pron 3pl = sie.pl
+pron formal = Sie
+pron one = man
+pron someone = jemand
+pron noone = niemand
+pron something = etwas
+pron nothing = nichts
+pron everything = alles
+pron this = das
+pron that-one = der
+pron who = wer
+
+det def = def
+det indef = indef
+det none = none
+det no = kein
+det this = dies
+det every = jed
+det all = all
+det some = manch
+det both = beid
+det many = viel
+det several = einig
+det few = wenig
+det which = welch
+det much = viel.mass
+det little = wenig.mass
+
+coord and = und
+coord but = aber
+coord or = oder
+coord for = denn
+coord either = entweder
+coord admittedly = zwar
+coord as-well-as = sowie
+
+link because = weil {3} | da {1}
+link although = obwohl
+link if = wenn
+link if-unreal = wenn
+link when = wenn
+link when-past = als
+link before = bevor
+link after = nachdem
+link as-soon-as = sobald
+link in-case = falls
+link while = während
+link until = bis
+link as-long-as = solange
+link since = seit | seitdem
+link so-that = damit
+link by-doing = indem
+link with-result = sodass
+link without-that = ohne dass
+link instead-that = anstatt dass
+link as-if = als ob {2} | als wenn {1}
+link that = dass
+link whether = ob
+link purpose = um
+link without = ohne
+link instead = statt
+
+rel in = in.D
+rel into = in.A
+rel on = auf.D
+rel onto = auf.A
+rel at = an.D
+rel to-side = an.A
+rel to = zu | nach [name] | in.A [country]
+rel from = aus | von [person]
+rel off = von
+rel under = unter.D
+rel under-to = unter.A
+rel above = über.D
+rel above-to = über.A
+rel behind = hinter.D
+rel behind-to = hinter.A
+rel front = vor.D
+rel front-to = vor.A
+rel beside = neben.D
+rel beside-to = neben.A
+rel between = zwischen.D
+rel through = durch
+rel along = entlang
+rel around = um
+rel near = bei
+rel with = mit
+rel without = ohne
+rel by = mit
+rel for = für
+rel about = über.A
+rel like = wie
+rel against = gegen
+rel opposite = gegenüber
+rel smell-of = nach
+rel after = nach
+rel before = vor.D
+rel out-of = aus | vor [feeling]
+rel because-of = wegen
+rel despite = trotz
+rel during = während
+rel instead-of = statt
+
+time on-day = am
+time in-period = im
+time at-hour = um
+time date = date
+time last = letzte
+time next = nächste
+time every = jed
+time since = seit
+time ago = vor
+time in-time = in
+
+wh who = wer
+wh whom = wen
+wh what = was
+wh when = wann
+wh where = wo
+wh whence = woher
+wh whither = wohin
+wh why = warum
+wh how = wie
+wh how-old = wie alt
+wh how-late = wie spät
+wh how-often = wie oft
+wh which = welch
+wh what-kind = was für
+wh how-many = wie viele
+
+neg yes = nicht
+neg no-more = nicht mehr
+neg not-yet = noch nicht
+neg not-at-all = gar nicht
+
+mood hypo = subj2
+mood reported = subj1

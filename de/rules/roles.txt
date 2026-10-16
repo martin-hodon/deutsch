@@ -1,0 +1,36 @@
+# HOW GERMAN MARKS A ROLE (world/roles.txt) when a word does not say otherwise in de/rules/frames.txt -- the case
+# alone (A, D, G; A= an accusative saying what the object is; A0 a bare accusative; N= a predicate nominative) or a
+# preposition and its case; a clause or an infinitive by its German name.
+#
+#   ROLE marking
+patient     A
+second      A
+recipient   D
+as          als A
+bare        A0
+pred        N=
+theme       auf A
+topic       über A
+cause       vor D
+basis       von D
+purpose     für A
+companion   mit D
+opponent    gegen A
+instrument  mit D
+share       an D
+result      zu D
+substitute  durch A
+location    in D
+goal        in A
+source      aus D
+path        durch A
+that        dass
+whether     ob
+inf         zu
+inf.subj    zu.subj
+inf.bare    inf
+inf.obj     inf.obj
+adj         adj
+name        name
+age         age
+clock       clock

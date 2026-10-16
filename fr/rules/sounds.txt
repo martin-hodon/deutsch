@@ -1,0 +1,73 @@
+# FRENCH LETTERS TO SOUNDS (engine/sounds.js): a word the dictionary has not -- a verb form, a feminine, a plural --
+# read from its spelling, roughly: the nasal vowels, the silent endings (-e, -es, -ent, -s, -t, -d), the final syllable
+# stressed. A dictionary word is always said as the dictionary has it; these rules fill the gaps.
+class vowel = a e i o u y é è ê â î ô û ë ï
+class cons = b c d f g h j k l m n p q r s t v w x z ç
+stress = final
+
+# endings (the end of the word: $)
+letters ent$ =
+letters es$ =
+letters e$ =
+letters ez$ = e
+letters er$ = e
+letters ers$ = e
+letters ais$|ait$|aient$|aie$|aies$ = ɛ
+letters ons$ = ɔ̃
+letters ont$ = ɔ̃
+letters et$ = ɛ
+letters ts$|ds$|ps$|xs$ =
+letters [stdxzpg]$ =
+# nasal vowels (before a consonant that is not n or m, or at the end)
+letters oin(?![aeiouyé]|[nm]) = wɛ̃
+letters (ain|aim|ein|eim|in|im|yn|ym)(?![aeiouyé]|[nm]) = ɛ̃
+letters (an|am|en|em)(?![aeiouyé]|[nm]) = ɑ̃
+letters (on|om)(?![aeiouyé]|[nm]) = ɔ̃
+letters (un|um)(?![aeiouyé]|[nm]) = œ̃
+# vowel groups
+letters eau|eaux|au|aux = o
+letters ou = u
+letters oi = wa
+letters ai|ei = ɛ
+letters eu|œu|œ = ø
+letters é|ée|ées|és = e
+letters è|ê|ë = ɛ
+letters â = a
+letters î|ï = i
+letters ô = o
+letters û = y
+letters aill = aj
+letters eill = ɛj
+letters ouill = uj
+letters ill = ij
+letters y(?=[aeiou]) = j
+letters y = i
+letters u = y
+letters i(?=[aeouéè]) = j
+letters e(?=[^aeiouyé][^aeiouyé]) = ɛ
+letters e = ə
+letters [aio] = $
+# consonants (a doubled one is one sound)
+letters ([bdfklmnprstz])\1 = $1
+letters ch = ʃ
+letters gn = ɲ
+letters ph = f
+letters th = t
+letters qu = k
+letters q = k
+letters ç = s
+letters c(?=[eiyéèê]) = s
+letters c = k
+letters ge(?=[aou]) = ʒ
+letters g(?=[eiyéèê]) = ʒ
+letters gu(?=[eiyéèê]) = ɡ
+letters g = ɡ
+letters j = ʒ
+letters ss = s
+letters s(?=[aeiouyéèê]) = z after /{vowel}/
+letters s = s
+letters x = ks
+letters h =
+letters r = ʁ
+letters w = w
+letters [bdfklmnptvz] = $

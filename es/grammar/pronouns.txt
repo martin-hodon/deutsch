@@ -1,0 +1,66 @@
+# personal
+1 P yo {yo} [ʝo] = ja
+1 P tú {tú} [tu] = ty
+1 P él {él} [el] = on
+1 P ella {ella} [ˈeʎa] = ona
+3 P ello {ello} [ˈeʎo] = ono
+1 P nosotros {nosotros} [noˈsotɾos] = my
+1 P vosotros {vosotros} [boˈsotɾos] = vy (neformálne množné číslo)
+1 P usted {usted} [usˈteð] = vy (zdvorilé oslovenie)
+
+# possessive
+1 P mi {mi} [mi] = môj
+2 P mío {mío} [ˈmio] = môj
+1 P tu {tu} [tu] = tvoj
+2 P tuyo {tuyo} [ˈtuʝo] = tvoj
+1 P su {su} [su] = jeho
+2 P suyo {suyo} [ˈsuʝo] = jeho
+1 P su {su} [su] = jej
+1 P nuestro {nuestro} [ˈnwestɾo] = náš
+1 P vuestro {vuestro} [ˈbwestɾo] = váš (neformálne)
+1 P su {su} [su] = Váš (zdvorilé oslovenie)
+
+# reflexive-and-reciprocal
+1 P se {se} [se] = sa (zvratné zámeno)
+1 P mismo {mismo} [ˈmismo] = sám
+2 P uno a otro {uno a otro} [ˈuno a ˈotɾo] = navzájom
+2 P el uno al otro {el uno al otro} [el ˈuno al ˈotɾo] = navzájom
+
+# demonstrative
+1 P este {este} [ˈeste] = tento
+1 AV esta vez {esta vez} [ˈesta βeθ] = tentoraz
+1 P ese {ese} [ˈese] = tamten
+2 P aquel {aquel} [aˈkel] = tamten
+1 P tal {tal} [tal] = taký
+1 PHR tal {tal} [tal] = taký
+2 PHR semejante {semejante} [semeˈxante] = taký
+1 P esto {esto} [ˈesto] = tento
+1 P eso {eso} [ˈeso] = tamten
+
+# interrogative-and-relative
+1 P quién {quién} [kjen] = kto
+1 P qué {qué} [ke] = čo
+1 P cuál {cuál} [kwal] = ktorý
+1 PHR qué tipo de {qué tipo de} [ke ˈtipo ðe] = aký
+2 PHR qué clase de {qué clase de} [ke ˈklase ðe] = aký
+
+# indefinite
+1 P se {se} [se] = sa (neurčitý podmet)
+2 P uno {uno} [ˈuno] = sa (neurčitý podmet)
+1 P alguien {alguien} [ˈalɣjen] = niekto
+1 P nadie {nadie} [ˈnaðje] = nikto
+1 P todo el mundo {todo el mundo} [ˈtoðo el ˈmundo] = každý človek
+1 P alguno {alguno} [alˈɣuno] = niektorý
+1 P los dos {los dos} [los ˈðos] = obaja
+2 P ambos {ambos} [ˈambos] = obaja
+2 P cualquiera {cualquiera} [kwalˈkjeɾa] = akýkoľvek
+1 P varios {varios} [ˈbaɾjos] = niekoľkí
+1 PHR un poco {un poco} [um ˈpoko] = trochu
+1 P ninguno {ninguno} [niŋˈɡuno] = žiadny
+2 P cualquier {cualquier} [kwalˈkjeɾ] = akýkoľvek
+
+# language-specific closed words (no Slovak word: a description)
+1 P ellos {ellos} [ˈeʎos] = oni
+1 P ellas {ellas} [ˈeʎas] = oni
+1 P le {le} [le] = zámeno nepriameho predmetu (le)
+1 P les {les} [les] = zámeno nepriameho predmetu (le)

@@ -1,0 +1,276 @@
+V zabiť : animal -professional > patient beast
+V zabiť : weapon > patient beast -livestock -pet
+V zabiť : {rakovina|chrípka|pandémia|infekcia|epidémia|mor|vírus} > patient {človek|zviera|pacient}
+V zabiť : {jed|plyn|dym|kyselina|pesticíd|ortuť} > patient {zviera|rastlina|hmyz|potkan|myš}
+V hniť : food
+V hniť : wood
+V hniť : plant
+V pochovať : person > patient beast
+V pochovať : person > patient {poklad|kosť|mŕtvola|hádka|nádej}
+V pochovať : {lavína|zosuv pôdy|suť} > patient building
+V pochovať : {lavína|zosuv pôdy|suť} > patient settlement
+V žiť : living -professional
+V žiť : animal > location settlement
+V žiť : animal > location region
+V žiť : animal > location country
+V žiť : beast > location {les|lúka|pole|vrch|pohorie|džungľa|púšť|savana|močiar|dolina|ostrov}
+V žiť : fish-animal > location water-body
+V žiť : {žaba|bobor|vydra|kačica|labuť} > location {rybník|jazero|rieka|potok}
+V žiť : {krokodíl} > location {rieka|jazero}
+V žiť : {veľryba|delfín|tuleň} > location {more}
+V žiť : person > location {dom|byt|vila|zámok|hotel|kláštor|izba}
+V žiť : beast > location {jaskyňa|maštaľ|hniezdo}
+V žiť : person -child > source {dôchodok|mzda|plat|peniaze|sociálna pomoc|podpora v nezamestnanosti|prídavok na dieťa|sprepitné|nájom}
+N život : state
+AN živý : living
+N živý tvor : living
+V zažiť : person > patient incident
+V zažiť : person > patient celebration
+V zažiť : person > patient {dobrodružstvo|vojna|prekvapenie|zázrak}
+N zážitok : event
+V prežiť : living
+V prežiť : animal -professional > patient {nehoda|výbuch|vojna|útok|pád|požiar|katastrofa|choroba|zima|pád}
+V oživiť : agent > patient place
+V oživiť : agent > patient {obchodovanie|hospodárstvo|trh|rozhovor}
+V oživiť : agent > patient relation
+AN bezvládny : animal, body-part
+AN mŕtvy : living
+N smrť : event
+AN smrteľný (smrtiaci) : illness, weapon, substance, event
+N mŕtvy : object
+V zomrieť : living
+V zomrieť : {obeť|zranený|pacient|vojak}
+V zomrieť : animal -professional > cause {choroba|rakovina|chrípka|infekcia|mor|srdcový infarkt|zápal pľúc|ochorenie|epidémia|vírus}
+V zomrieť : {obeť|zranený|pacient|vojak} > cause {choroba|rakovina|chrípka|infekcia|srdcový infarkt|zápal pľúc|ochorenie}
+AN smrteľný (podliehajúci smrti) : living
+V vymrieť : beast
+V vymrieť : {rastlina|orchidea}
+V vymrieť : language
+AN vymretý : living, language
+V odumrieť : living
+V odumrieť : body-part
+V zahynúť : animal > location incident
+V zahynúť : animal > location {vojna|útok|prepad}
+AN zosnulý : person
+N zosnulý : object
+N pôrod : event
+V porodiť : animal > patient animal
+AN narodený : animal
+V rásť : plant
+V rásť : {šteňa|žriebä|teľa|jahňa|kuriatko|mačiatko|prasiatko}
+V rásť : child
+V rásť : fungus
+V rásť : {množstvo|číslo (matematické)|počet|obrat|zisk|cena|príjem|obyvateľstvo}
+N rast : process
+V vyrastať : animal > location settlement
+V vyrastať : animal > location region
+V vyrastať : animal > location country
+V vyrastať : person > location {dom|byt|vila|zámok|kláštor}
+V vyrastať : beast > location {jaskyňa|maštaľ|hniezdo}
+AN starý : {muž|žena|dedko|babka|starý otec|stará mama|priateľ|priateľka|sused|susedka|pán|dáma|učiteľ|učiteľka|manželský pár|človek}, mammal, bird, tree, building, artifact, settlement, {priateľstvo|manželstvo|vzťah|známosť}, {chlieb|syr|víno}, -{novostavba|balík|okenná tabuľa}
+N vek : quality
+V starnúť : living
+V zastarať : artifact
+V zastarať : {metóda|technika|vedomosti|názor}
+AN staromódny : artifact, idea, person
+AN prastarý : person, animal, tree, building, artifact, settlement, stone, rule
+AN mladý : animal, tree, {rastlina|ker|ker}, -insect, -{šteňa|žriebä|teľa|jahňa|kuriatko|mačiatko|prasiatko|bábätko|dojča}
+AN zrelý : fruit, vegetable, {človek|muž|žena}
+N zrelosť : state
+V dozrievať : fruit
+V dozrievať : crop
+V dozrievať : dairy
+AN nezrelý : fruit, vegetable, person
+N mŕtvola : object
+V existovať : {pravidlo|zákon|zákaz}
+V existovať : {priateľstvo|manželstvo|vzťah|kontakt}
+V existovať : language
+V existovať : {problém|nebezpečenstvo|pochybnosť|šanca}
+V rozmnožovať sa : animal
+N rozmnožovanie : event
+V páriť sa : animal > companion animal
+N párenie : event
+V vyliahnuť sa : animal
+V vyliahnuť sa : person > goal clothing
+N potomok : animal
+N dorast : group
+AN tehotná : person, mammal
+N tehotenstvo : state
+V prijať (hosťa) : person -professional > patient {hosť|návštevník|priateľ|príbuzný}
+V prijať (hosťa) : institution > patient {hosť|zákazník|návštevník|pacient|dieťa}
+V prijať (hosťa) : {rádio|mobil|telefón|televízor|počítač|anténa|príjemca|satelit} > patient {signál|správa (oznam)|vlna}
+N recepcia : event, attendable
+N príjemca : role
+N počatie : event
+V chátrať : {dom|zámok|hrad|kostol|ruina|veža|kláštor|chata|stodola}
+V chátrať : building-part
+V chátrať : person > result {zúfalstvo|panika|zlosť|smútok|vášeň|nenávisť|blud|depresia|melanchólia}
+N rozpad : process
+V dýchať : animal -professional
+N dych : state
+V vdychovať : animal -professional > patient gas
+V vydychovať : animal -professional > patient gas
+N dýchanie : activity
+AN bez dychu : person, animal
+V spať : animal -insect -professional
+V spať : person -professional > location {posteľ|pohovka|gauč|matrac|pôda|banka|trávnik|kreslo}
+V spať : pet > location {posteľ|pohovka|gauč|matrac|pôda|kreslo}
+V spať : livestock > location {seno|slama|pôda}
+N spánok (stav) : state
+AN ospalý : animal, -insect
+V zaspať : animal -fish-animal -insect -professional
+V prespať : person > patient event +attendable
+V prespať : person > patient {termín|vlak}
+V vyspať sa : person
+AN bdelý : person, {pes|mačka} ; pred
+V zobudiť sa : animal -fish-animal -insect
+V prebudiť sa : animal -fish-animal -insect
+V budiť : person > patient person
+V budiť : person -professional > patient pet
+V odpočívať : animal -insect -professional
+V odpočívať : person > location {pohovka|gauč|posteľ|banka|kreslo}
+V odpočívať : {strecha|strop} > location {múr|stena|základy}
+V odpočívať : building > location {kopec|skala|základy|vrch}
+V oddýchnuť si : animal -insect -professional
+AN unavený : animal, -insect, -fish-animal
+N únava : state
+V unaviť : {práca|tréning|cesta (cestovanie)|túra} > patient animal
+V unaviť : illness > patient animal
+V unaviť : sound > patient animal
+V unaviť : animal
+AN neúnavný : person, animal
+AN vyčerpaný : animal
+V vysiliť : {práca|tréning|cesta (cestovanie)|túra} > patient animal
+V vysiliť : illness > patient animal
+V vysiliť : {horúčava|chlad|víchor} > patient animal
+N vyčerpanie : state
+V zívať : animal
+V chvieť sa : person > cause {strach|zlosť|chlad|horúčava|vzrušenie|radosť|starosť|napínavosť|zdesenie|mrzutosť|hlad|slabosť|vyčerpanie|strach|nervozita|netrpezlivosť|hnev}
+V chvieť sa : {pes|šteňa|mačka|mačiatko|kôň|králik|srna} > cause {strach|chlad|vzrušenie|radosť|hlad|strach}
+V chvieť sa : {pôda|zem|stena|okno|sklenica|dvere|hlas|ruka|svetlo|vzduch}
+V tráviť : animal > patient food
+N trávenie : event
+V prehĺtať : animal > patient {tabletka|pilulka|voda|slina}
+V prehĺtať : animal > patient medicine
+N dúšok : quantity
+N štikútavka : illness
+V zadúšať sa : animal > cause consumable
+V žuť : animal > patient {žuvačka|mäso|steak|chlieb|tráva|orech|potrava|jablko}
+V žuť : mammal > theme toy
+V žuť : mammal > theme clothing
+V žuť : animal > theme {kosť|pero (písacie)|ceruzka|žuvačka|drevo|lano}
+N žuvačka : sweets
+V hrýzť : beast > patient animal
+V hrýzť : animal > goal {jablko|hruška|banán|broskyňa|jahoda|citrón|hrozno|čerešňa (plod)}
+V hrýzť : animal > goal {mrkva|uhorka|paprika|paradajka|reďkovka}
+V hrýzť : animal > goal meat
+V hrýzť : animal > goal baked-goods
+V hrýzť : animal > goal sweets
+N uhryznutie : event
+V odhryznúť : person > patient {jablko|hruška|banán|chlieb|žemľa|klobása|kus|čokoláda|sušienka|uhorka|mrkva|syr}
+AN hryzavý : animal
+V pľuť : animal
+V pľuť : animal > patient {voda|krv|víno}
+V vypľuť : animal > patient {voda|žuvačka|víno|krv}
+V mrkať : animal
+V chrápať : animal
+N tlkot srdca : event
+N búšenie srdca : state
+V začervenať sa : person
+N červeň : quality
+V slintať : animal
+V dychčať : {pes|suka|ovčiak|šteňa|vlk|líška}
+V ťažko dýchať : animal
+V škrtiť : animal
+V škrtiť : animal > patient animal
+V uškrtiť : animal > patient animal
+V driemať : animal
+V jesť : animal -fish-animal -insect -professional > patient food -seasoning -{bufet|jedlo|jedlo|omáčka|pokrm|konzerva|omáčka|potravina|žĺtok|marmeláda|ingrediencia|potrava|tuk}
+V jesť : {hosť|hostiteľ} > patient food -seasoning -{bufet|jedlo|jedlo|omáčka|pokrm|konzerva|omáčka|potravina|žĺtok|marmeláda|ingrediencia|potrava|tuk}
+V jesť : animal -fish-animal -insect -professional
+V jesť : {hosť|hostiteľ}
+V piť : person -professional > patient drink -{pitná voda|nápoj}
+V piť : beast -fish-animal -insect > patient {voda|mlieko}
+V piť : {hosť|hostiteľ} > patient drink -{pitná voda|nápoj}
+V piť : animal -fish-animal -insect -professional
+V piť : {hosť|hostiteľ}
+V utopiť sa : person
+V utopiť sa : {zviera|pes|mačka|myš|králik|kôň|krava}
+V vypiť : person -professional > patient {víno|pivo|šťava|mlieko|voda|káva|čaj|sklenica|fľaša}
+V vypiť : {hosť|hostiteľ} > patient {víno|pivo|šťava|mlieko|voda|káva|čaj|sklenica|fľaša}
+N hlad : feeling
+AN hladný : animal, -fish-animal, -insect
+V hladovať : animal
+V zomrieť od hladu : {dieťa|človek|zviera|pes|mačka|vták}
+N hladomor : event
+N smäd : feeling
+AN smädný : animal, -fish-animal, -insect
+V zomrieť od smädu : {dieťa|človek|zviera|pes|mačka|vták}
+N chuť do jedla : feeling
+V kŕmiť : person -professional > patient beast, instrument {krmivo|seno|chlieb|tráva|mrkva|jablko|mäso|mlieko}
+V kŕmiť : person > patient child, instrument {kaša|mlieko|chlieb|ovocie|zelenina|polievka|ryža}
+N kŕmenie : event
+V sať : animal > theme body-part
+V sať : animal > patient {mlieko|krv|šťava|nektár|voda}
+V dojčiť : animal > patient animal
+N potrava : food
+V živiť : person > patient child
+V živiť : person > patient relative
+V živiť : animal > source {zelenina|ovocie|mäso|ryba|tráva|ryža|chlieb|hmyz|orech}
+N výživa : activity
+V konzumovať : person > patient {alkohol|káva|mäso|cukor|drogy}
+V srkať : animal > patient drink
+V lízať : mammal > patient {tanier|lyžica|labka|rana}
+V lízať : person > theme {ľad|prst|lyžica}
+V lízať : {pes|mačka|teľa|krava|kôň|ovca} > theme {ruka|prst|tvár|rana|labka}
+V olízať : animal > patient thing
+V olízať : animal > patient body-part
+V olízať : animal > patient animal
+V hlodať : {myš|potkan|bobor|škrečok|veverička|králik|morča|pes|zajac|termit} > theme wood
+V hlodať : {myš|potkan|bobor|škrečok|veverička|králik|morča|pes|zajac|termit} > theme body-part
+V hlodať : {myš|potkan|bobor|škrečok|veverička|králik|morča|pes|zajac|termit} > theme plant
+V hlodať : {myš|potkan|bobor|škrečok|veverička|králik|morča|pes|zajac|termit} > theme thing
+V chrúmať : animal > theme food
+V chrúmať : animal > patient food
+N inštinkt : quality
+AN inštinktívny : activity
+N reflex : event
+N puberta : period
+V vyvíjať sa : child > inf
+V vyvíjať sa : {húsenica} > inf
+V vyvíjať sa : {larva|bábika} > inf
+V vyvíjať sa : {žubrienka} > inf
+V vyvíjať sa : {šteňa} > inf
+V vyvíjať sa : {kuriatko} > inf
+V vyvíjať sa : {žriebä} > inf
+V vyvíjať sa : {mačiatko} > inf
+V vyvíjať sa : {hádka|nečas|protest} > inf
+V vyvíjať sa : {priateľstvo|sympatie|vzťah} > inf
+V vyvíjať sa : child
+V vyvíjať sa : plant
+V zvliekať kožu : reptile
+V zvliekať kožu : insect
+N zvliekanie kože : event
+V prosperovať : living
+V prosperovať : institution
+N látková výmena : process
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN silný ako medveď : person, animal
+N ekosystém : place
+V dozrieť : fruit
+V dozrieť : crop
+V ožiť : animal
+V ožiť : plant
+V ožiť : place
+V udusiť : person > patient animal
+V udusiť : person > patient person
+V uhynúť : animal
+V uhynúť : plant
+V vyprchať : liquid
+V vyprchať : feeling
+V vyžiť sa : person > theme {šport|hra|práca}
+V zakoreniť sa : plant
+V zmĺknuť : person
+V zmĺknuť : animal
+V zmĺknuť : sound

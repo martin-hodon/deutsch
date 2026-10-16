@@ -1,0 +1,72 @@
+# accusative
+1 PRE для {для} [dlʲa] (Р) = pre
+1 PRE за {за} [za] (В) = pre
+1 PRE вокруг {вокруг} [vɐˈkruk] (Р) = okolo
+2 AV тем более {тем более} [tʲem ˈbolʲɪjɪ] = tým viac
+1 PRE без {без} [bʲes] (Р) = bez
+1 AV всё равно {всё равно} [fsʲo rɐvˈno] = tak či tak
+2 AV так или иначе {так или иначе} [tak ˈilʲɪ ˈinətɕɪ] = tak či tak
+1 PRE против {против} [ˈprotʲɪf] (Р) = proti
+1 PRE на {на} [na] (В) = na (za jednotku)
+1 PRE за {за} [za] (В) = na (za jednotku)
+1 PRE через {через} [ˈtɕerʲɪs] (В) = prostredníctvom
+3 PRE посредством {посредством} [pɐˈsrʲetstvəm] (Р) = prostredníctvom
+
+# dative
+1 PRE из {из} [is] (Р) = z
+1 PRE при {при} [prʲi] (П) = pri
+1 PRE с {с} [s] (Т) = s
+1 PRE от {от} [ot] (Р) = od (pôvod)
+1 PRE к {к} [k] (Д) = k
+2 PRE ради {ради} [ˈradʲɪ] (Р) = pre dobro
+1 PRE с {с} [s] (Р) = od (začiatok)
+1 PRE кроме {кроме} [ˈkromʲɪ] (Р) = okrem
+2 PRE вопреки {вопреки} [vəprʲɪˈkʲi] (Д) = v rozpore s
+2 PRE в соответствии с {в соответствии с} [f səɐtˈvʲetstvʲɪɪ s] (Т) = v súlade s
+2 PRE согласно {согласно} [sɐˈɡlasnə] (Д) = v súlade s
+1 PRE вместе с {вместе с} [ˈvmʲestʲɪ s] (Т) = spolu s
+2 PRE благодаря {благодаря} [bləɡədɐˈrʲa] (Д) = vďaka
+1 PRE со {со} [sə] (Т) = s
+1 PRE со {со} [sə] (Р) = od (začiatok)
+
+# genitive
+1 PRE из-за {из-за} [ˈizːə] (Р) = kvôli
+1 PRE несмотря на {несмотря на} [nʲɪsmɐˈtrʲa na] (В) = napriek
+2 PRE вопреки {вопреки} [vəprʲɪˈkʲi] (Д) = napriek
+1 PRE вместо {вместо} [ˈvmʲestə] (Р) = namiesto
+1 AV вместо этого {вместо этого} [ˈvmʲestə ˈɛtəvə] = namiesto toho
+1 PRE внутри {внутри} [vnuˈtrʲi] (Р) = vnútri
+2 PRE вне {вне} [vnʲe] (Р) = mimo
+2 PRE за пределами {за пределами} [zɐ prʲɪˈdʲeləmʲɪ] (Р) = mimo
+3 PRE по эту сторону {по эту сторону} [pɐ ˈɛtu ˈstorənu] (Р) = na tejto strane
+1 PRE на основании {на основании} [nɐ ɐsnɐˈvanʲɪɪ] (Р) = na základe
+2 PRE вследствие {вследствие} [ˈfslʲetstvʲɪjɪ] (Р) = následkom
+1 PRE в результате {в результате} [v rʲɪzulʲˈtatʲɪ] (Р) = následkom
+2 PRE по случаю {по случаю} [pɐ ˈslutɕɪju] (Р) = pri príležitosti
+2 PRE что касается {что касается} [ʂto kɐˈsajɪtsə] (Р) = pokiaľ ide o
+3 PRE ввиду {ввиду} [vvʲɪˈdu] (Р) = vzhľadom na
+2 PRE учитывая {учитывая} [uˈtɕitɨvəjə] (В) = vzhľadom na
+1 PRE в пользу {в пользу} [f ˈpolʲzu] (Р) = v prospech
+1 PRE с помощью {с помощью} [s ˈpoməɕːju] (Р) = pomocou
+2 PRE с целью {с целью} [s ˈtselʲju] (Р) = za účelom
+1 PRE со стороны {со стороны} [sə stərɐˈnɨ] (Р) = zo strany
+2 PRE посреди {посреди} [pəsrʲɪˈdʲi] (Р) = uprostred
+2 PRE в стороне от {в стороне от} [f stərɐˈnʲe ot] (Р) = stranou
+1 PRE недалеко от {недалеко от} [nʲɪdəlʲɪˈko ot] (Р) = neďaleko
+1 PRE в течение {в течение} [f tʲɪˈtɕenʲɪjɪ] (Р) = v priebehu
+1 PRE во время {во время} [vɐ ˈvrʲemʲə] (Р) = v priebehu
+2 PRE включая {включая} [fklʲuˈtɕajə] (В) = vrátane
+2 PRE по поводу {по поводу} [pɐ ˈpovədu] (Р) = pokiaľ ide o
+
+# two-way
+1 PRE на {на} [na] (П) = na (v kontakte)
+1 PRE у {у} [u] (Р) = na (v kontakte)
+1 PRE на {на} [na] (П) = na (navrchu)
+1 PRE в {в} [v] (В, П) = v
+2 PHR независимо от {независимо от} [nʲɪzɐˈvʲisʲɪmə ot] (Р) = bez ohľadu na
+1 PRE во {во} [və] (В, П) = v
+
+# language-specific closed words (no Slovak word: a description)
+1 PRE о {о} [ɐ] (П) = o
+1 PRE об {об} [ɐp] (П) = o
+1 PRE про {про} [pro] (В) = o

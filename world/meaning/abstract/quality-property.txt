@@ -1,0 +1,943 @@
+AN veľký : furniture, vehicle, device, building, building-part, container, kitchenware, instrument, tool, toy, weapon, picture, stone, room, road, {pláž|miesto (priestor)|záhrada|park|les|jazero|ostrov|zoologická záhrada|štadión|pole|lúka}, animal, plant, -crop, problem, feeling, {požiar|katastrofa|nehoda|výbuch|erupcia sopky|zemetrasenie|záplava}, celebration, {hádka|prekvapenie|cesta (cestovanie)|koncert|úspech|stretnutie|demonštrácia|projekt|šanca|pomoc|hra|darček|balík}, -{pôda|mačiatko|poník|zápalka|výročie|vonkajšia stena}
+N veľkosť : quality
+AN veľkolepý : person, thing, building, place, activity, event, creative-work
+V zväčšiť : person > patient {fotka|obraz|kresba|dom|izba|záhrada}
+V zväčšiť : {firma|podnik|spolok|vláda|politická strana} > patient {zisk|náskok|tím|skupina|ponuka}
+V zväčšiť : person > patient {odstup|náskok}
+AN malý : furniture, vehicle, device, building, building-part, instrument, container, kitchenware, toy, tool, picture, {nohavice|rock|šaty|bunda|košeľa|topánka|klobúk|čiapka|utierka|prsteň|lopta|kameň|maska}, room, road, {zátoka|ostrov|dolina|kopec|pláž|záhrada|miesto (priestor)|les|jazero|rybník|lúka}, animal, -{zver}, plant, -crop, problem, {nehoda|defekt|chyba|nepríjemnosť|požiar}, {stretnutie|koncert|kurz|test|skúška|večierok|slávnosť|oslava|pokus|cesta (cestovanie)|prestávka|výlet|krok}, -{pôda|jadrová elektráreň|bylina}
+N maličkosť : idea
+V zmenšiť : person > patient thing
+V zmenšiť : agent > patient quantity
+AN obrovský : object, place, -country, animal, plant, -crop, quantity, problem
+AN obrovitý : object, place, -country, animal, plant, -crop, quantity
+AN gigantický : object, place, -country, animal, plant, -crop, quantity
+AN enormný : quantity, problem, feeling, event
+AN nesmierny : quantity, problem, feeling, event
+AN maličký : object, place, -country, animal, plant, -crop
+AN dlhý : period, {slávnosť|festival|oslava|návšteva|cesta (cestovanie)|jazda|dovolenka|prestávka|hádka|diskusia|demonštrácia|projekt|práca|túra|prechádzka|odborná príprava|zasadnutie}, {nohavice|rock|šaty|kabát|bunda|šál|opasok|rukavica|pančucha|oblečenie}, road, {stôl|pohovka|banka|polica|posteľ|skriňa|záves}, {rieka|potok|kanál}, {auto|vlak|autobus|loď|čln|nákladné auto|voz}, {list (písomnosť)|text|kniha|román|správa (o udalosti)|reč|zoznam}, reptile
+N dĺžka : quality
+AN pomalý : {slimák|korytnačka|leňochod|krava|somár|medveď}, {auto|vlak|autobus|loď|čln|traktor|bicykel|voz|nákladné auto}, {jazda|prechádzka|tanec|doprava|vývoj|rast}
+AN zdĺhavý : activity
+AN krátky : {prestávka|lehota|čas (trvanie)|chvíľa|okamih|okamih|hodina|minúta|sekunda|týždeň|zima|leto|návšteva|cesta (cestovanie)|dovolenka|krok|trest|rozhovor|stretnutie|hra}, {nohavice|rock|bunda|šaty|rukáv|vlasy}, {text|list (písomnosť)|správa (oznam)|scenár (film)|článok|báseň|veta|príbeh|film|reč|odpoveď|prednáška}, road, weapon
+AN široký : road, {rieka|potok|kanál|prúd|jazero}, {pláž|dolina|rovina|zátoka}, building-part, furniture, {plece|hruď|čelo|ruka|chrbát|ústa|nos}
+N šírka : quality
+AN úzky : road, {rieka|potok|kanál|priekopa}, {pláž|dolina|zátoka|ostrov}, building-part, furniture, {tvár|ruka|plece|nos|pera|prst|noha (chodidlo)}
+AN hlboký : place, container, feeling, sound
+N hĺbka : quality
+AN plytký : water-body, container
+AN hrubý (hrúbka) : paper, fabric, clothing, tree, mammal, {brucho|krk|prst|paža|noha (končatina)|pera|členok}, {kniha|zošit|spis|noviny}, dish, {stena|múr|vrstva|hmla}
+AN tenký : paper, fabric, clothing, tree, mammal, {brucho|krk|prst|paža|noha (končatina)|pera|členok}, {kniha|zošit|spis|noviny}, dish, {stena|múr|vrstva|hmla}
+AN vysoký : {dom|budova|veža|výšková budova|zámok|kostol}, tree, {vrch|pohorie|kopec|skala}, {cena|nájom|číslo (matematické)|súčet|suma|plat|daň|náklady|poplatok|dôchodok|príjem|obrat|zisk|úroky|väčšina|počet|dopyt|splátka|hodnota|rýchlosť}
+N výška : quality
+AN urastený : person, animal, plant
+V zvýšiť : {banka|centrálna banka|obec|vláda|zemský snem|mestská rada|firma|podnik|spolok} > patient {rozpočet|cena|daň|plat}
+V zvýšiť : {prenajímateľ|šéf|manažér|riaditeľ|podnikateľ|zamestnávateľ} > patient {cena|nájom|plat}
+V zvýšiť : person > patient {rýchlosť|tlak|riziko}
+N zvýšenie : process
+N vyvrcholenie : moment
+AN nízky : quantity, state, idea
+AN ťažký : {stôl|skriňa|pohovka|posteľ|polica|komoda}, {nákladné auto|nákladné auto|tank|traktor|autobus|vlak|auto}, {kufor|batoh|taška|bedňa|balík|vrece|vedro|batožina|kameň}, metal, {pes|medveď|býk|kôň|slon|nosorožec|byvol|hroch}, problem, illness, -{bolesť|nedorozumenie}
+AN ľahký : {bunda|kabát|nohavice|šaty|košeľa|šál|sveter}, {kufor|batoh|taška|čln|batožina}, fabric, wood, metal, {otázka|test|skúška}, {chrípka|prechladnutie|horúčka|kašeľ|alergia|zranenie}, {práca|cvičenie|úloha|šport|túra|jedlo}
+N ľahkosť : quality
+N hmotnosť : quality
+N objem : quality
+AN rozľahlý : place
+AN štíhly : person, animal
+AN bucľatý : person, animal
+AN zavalitý : person, animal
+AN kompaktný : thing, building
+AN priestranný : place
+AN strmý : landscape, road
+AN tesný (sotva postačujúci) : quantity, time, money, clothing
+AN dobrý : {dieťa|dievča|chlapec}, {otec|matka|rodičia|brat|sestra|syn|dcéra|strýko|teta|starý otec|stará mama|babka|dedko|manžel|manželka}, {človek|priateľ|priateľka|sused|susedka|partner|známy}, {lekár|zubár|lekárnik|učiteľ|profesor|tréner|kuchár|pilot|kapitán|rybár|lovec|pekár|záhradník|roľník|policajt|vojak|hasič|atlét|autor|novinár|výskumník|vedec|expert|vývojár|odborník|sudca|obchodník|obchodník|robotník|spolupracovník|kolega|hovorca|šéf|manažér|riaditeľ|starosta|farár|rebrík|kancelár|prezident}, {pes|kôň}, {náradie|kladivo|píla|sekera|nožnice|pero (písacie)}, {počítač|mobil|telefón|televízor|rádio|kamera|laptop|tlačiareň|lampa|hodiny|stroj}, furniture, {obraz|fotka|maľba|kresba}, instrument, {zbraň|puška|meč|pištoľ|oblúk}, {kniha|román|noviny|list (písomnosť)|správa (o udalosti)|článok|text|komentár|zošit}, {kabát|bunda|topánka|čižma|oblek}, {prsteň|reťaz|náramok}, {panvica|hrniec|nôž}, {auto|bicykel|motocykel}, {jedlo|polievka|šalát|torta|koláč|chlieb|pečená klobása|víno|syr|zákusok|krmivo|raňajky}, {izba|kuchyňa|obývačka|spálňa}, {mesto|dedina}, {ulica|cesta (komunikácia)|diaľnica}, {kraj|región}, shop, {hotel|reštaurácia|kaviareň|škola|klinika|nemocnica|kino|divadlo|múzeum|knižnica|galéria}, game, {práca|cesta (cestovanie)|jazda|výkon|vedenie|dovolenka|tréning|cvičenie}, attendable, {nápad|plán|návrh|riešenie|rozhodnutie|sen|koncepcia}, {informácia|správa (oznam)|hlásenie|informácia|odpoveď|skúsenosť|pozdrav|tip|rada|hodnotenie|prameň}, creative-work
+AN lepší : person, -national, pet, livestock, tool, device, furniture, picture, instrument, weapon, text, clothing, jewelry, kitchenware, {auto|bicykel|motocykel}, food, {izba|kuchyňa|kúpeľňa|obývačka|spálňa}, {mesto|dedina}, road, region, shop, {hotel|reštaurácia|kaviareň|škola|klinika|nemocnica|kino|divadlo|múzeum|knižnica|galéria}, activity, -crime, attendable, idea, {informácia|správa (oznam)|hlásenie|informácia|odpoveď|skúsenosť|pozdrav|tip|rada|hodnotenie|prameň|vedomosti}, creative-work, -role, -{milionár|aktivista}
+AN zlý : {človek|sused|kamarát|profesionál|otec|matka|brat|sestra|manžel|manželka|starý otec|učiteľ|učiteľka|autor|autorka|tréner|manažér|hudobník|krajčír|hovorca|hovorkyňa|podnikateľ|lekár|lekárka|kuchár|novinár}, tool, device, furniture, picture, instrument, weapon, {kniha|text|noviny|článok|preklad}, clothing, {prsteň|reťaz|náramok}, kitchenware, {auto|bicykel|motocykel}, {jedlo|polievka|šalát|chlieb|koláč|mäso|víno|vajce|maslo|mlieko|syr|ovocie|zelenina|ryba|klobása}, {hotel|reštaurácia|kaviareň|škola|klinika|nemocnica|kino|divadlo|byt|izba}, road, shop, {práca|cesta (cestovanie)|jazda|výkon|vedenie|dovolenka|tréning|cvičenie}, attendable, {nápad|plán|návrh|riešenie|rozhodnutie|uznesenie|koncepcia|myšlienka}, {správa (oznam)|hlásenie|informácia|informácia|odpoveď|rada|signál|prameň|hodnotenie|skúsenosť}, creative-work, -{očakávanie|satelit|bomba|hodiny}
+AN výborný : person, thing, food, activity, event, creative-work
+AN strašný : event, problem, feeling, illness, sound, place, person
+AN úžasný : person, thing, food, place, building, activity, event, creative-work, phenomenon
+AN skvelý : person, thing, food, place, building, activity, event, creative-work, phenomenon
+AN dokonalý : thing, activity, event, person, creative-work
+N dokonalosť : quality
+AN nesprávny : {odpoveď|informácia|údaj|adresa|tvrdenie|tvrdenie|rozhodnutie|nápad|predpoklad|riešenie|časový bod|okamih}, {slovo|meno|číslo (matematické)|veta|písmeno|dátum|telefónne číslo}, {cesta (komunikácia)|ulica}
+V falšovať : person > patient artifact
+N falzifikát : artifact
+AN sfalšovaný : artifact
+AN nefalšovaný : consumable, material, information
+AN správny : {odpoveď|informácia|údaj|adresa|tvrdenie|tvrdenie|rozhodnutie|nápad|predpoklad|riešenie|časový bod|okamih}, {slovo|meno|číslo (matematické)|veta|písmeno|dátum|telefónne číslo}, {cesta (komunikácia)|ulica}
+AN dôležitý : {muž|žena|človek|osoba|priateľ|priateľka|politik|minister|starosta|riaditeľ|šéf|prezident|expert|vedec|svedok}, {dokument|zmluva|list (písomnosť)|papier|žiadosť|listina|pas|preukaz}, {správa (oznam)|informácia|informácia|hlásenie|varovanie|signál|stopa|fakt|tajomstvo|rozhodnutie|nápad|plán}, attendable, celebration, {voľba|operácia|projekt|krok|úloha|termín|služba (v práci)|deň}, {problém|otázka}, {firma|podnik|organizácia|politická strana|vláda|banka|úrad}, -{ohňostroj|slávnostný sprievod|rozlúčka|nedorozumenie|chyba|karneval}
+AN nedôležitý : {muž|žena|človek|osoba|priateľ|priateľka|politik|minister|starosta|riaditeľ|šéf|prezident|expert|vedec|svedok}, {dokument|zmluva|list (písomnosť)|papier|žiadosť}, {správa (oznam)|informácia|informácia|hlásenie|detail|rozhodnutie|nápad|plán}, {otázka|problém|termín|úloha|projekt|krok}, {firma|podnik|organizácia|politická strana|úrad}
+AN životne dôležitý : consumable, substance, body-part, device
+AN hlavný : problem, idea ; attr
+N hlavná vec : idea
+AN významný : person, institution, event, creative-work, idea, building
+AN nepatrný : quantity, problem, state
+AN potrebný : activity, information
+N nevyhnutnosť : quality
+AN zbytočný : activity, problem, quantity
+AN užitočný : artifact, activity, information
+AN neužitočný : artifact, activity, information
+AN cenný : thing, material, information, creative-work, idea, person
+AN kvalitný : artifact, food
+AN menejcenný : artifact, food
+AN drahocenný : thing
+N kvalita : quality
+N výhoda : quality
+AN výhodný : activity, idea, state
+N nevýhoda : quality
+AN nevýhodný : activity, idea, state
+AN normálny : person, thing, state, event, period, activity, quantity
+N norma : rule
+AN obyčajný : person, thing, period, event, activity, food
+AN nezvyčajný : person, animal, thing, event, idea, activity, food
+AN mimoriadny : person, animal, thing, event, creative-work, activity, quality
+AN zvyknutý : place, road, activity, state
+AN čudný : person, thing, sound, event, feeling, idea
+AN typický : person, animal, thing, food, event, activity, building
+AV obzvlášť : degree
+N zvláštnosť : quality
+AN častý : event
+AN zriedkavý : event, animal, plant, thing, illness
+N zriedkavosť : quality
+AN jedinečný : person, thing, place, creative-work, event
+AN jednoduchý : {problém|otázka|úloha|práca|cvičenie|plán|nápad|riešenie|pravidlo|pokrm|recept|metóda|postup|test|odpoveď|vysvetlenie|návod|dôkaz}
+V zjednodušiť : agent > patient {práca|postup|priebeh|proces|úloha}
+V zjednodušiť : institution > patient {zákon|pravidlo|postup|úprava|nariadenie}
+V zjednodušiť : person > patient {text|recept|návod|správa (o udalosti)|veta|formulár}
+N jednoduchosť : quality
+AN zložitý : problem, activity, rule, idea, device
+AN komplikovaný : problem, activity, rule, idea, device
+N ťažkosť : problem
+AN praktický : artifact, activity
+V hodiť sa : person > purpose {práca|povolanie|úrad|úloha|šport}
+V hodiť sa : {náradie|prístroj|stroj|auto|bicykel|materiál} > purpose {práca|šport|cesta (cestovanie)|hra}
+V hodiť sa : place > purpose celebration
+V hodiť sa : place > purpose {šport|dovolenka|práca}
+V hodiť sa : {drevo|kameň|kov|oceľ|betón|tehla} > purpose {dom|stena|múr|pôda|strecha|most|nábytok}
+AN vhodný : person, thing, place, material, moment
+AN nevhodný : person, thing, place, material, moment
+N spôsobilosť : quality
+N nebezpečenstvo : state
+AN nebezpečný : {pes|had|medveď|vlk|lev|tiger|žralok|krokodíl|pavúk|škorpión|hroch|býk|osa}, weapon, {nôž|píla|sekera|náradie|nožnice}, {auto|motocykel|nákladné auto|čln}, road, {rieka|more|prúdenie}, region, {mesto|štvrtina}, {práca|cesta (cestovanie)|misia|operácia|jazda|akcia (činnosť)|expedícia|túra}, {šport|hra|box}, {víchor|búrka|oheň|lavína|povodeň|horúčava|žiarenie}, illness, -{bolesť}, {jed|zmes|para|dym|kyselina|plyn}
+V ohroziť : {lovec|jed|vojna|hluk|doprava} > patient beast
+V ohroziť : {víchor|horúčava|chlad|oheň|lavína} > patient animal
+V ohroziť : {vojna|hádka|násilie|nenávisť} > patient {mier|bezpečnosť|poriadok|pokoj}
+V ohroziť : {hluk|stres|dym|alkohol|jed|horúčava} > patient {zdravie}
+AN bezpečný : {mesto|dedina|štvrtina}, {dom|budova|škola|škôlka|nemocnica}, road, {auto|vlak|lietadlo}, {byt|miesto (priestor)|miesto (v priestore)|kraj}, {informácia|prameň|dôkaz|vedomosti|prísľub}
+N bezpečnosť : state
+V zabezpečiť : {polícia|vojak|armáda|oddiel|stráž|vláda} > patient {hranica|oblasť|terén|vchod|dom|mesto}
+V zabezpečiť : person -professional > patient {auto|bicykel|motocykel}
+V zabezpečiť : {kapitán|rybár} > patient {čln|loď}
+V zabezpečiť : person > patient building-part
+V zabezpečiť : {vláda|štát|armáda|polícia|politik} > patient {mier|poriadok|existencia|budúcnosť}
+V zabezpečiť : {policajt|vyšetrovateľ|detektív|komisár|expert|technik|programátor|spolupracovník} > patient {údaje|dôkaz|stopa}
+V zabezpečiť : person > patient {výsledok|úspech}
+AV iste : sentence
+N riziko : state
+AN riskantný : activity
+V riskovať : person > patient {peniaze|imanie|plat}
+V riskovať : {firma|podnik|banka} > patient {peniaze|imanie}
+V riskovať : person > patient {život|zdravie|existencia|budúcnosť}
+V riskovať : {vláda|štát|krajina (štát)|firma|podnik} > patient {mier|existencia|budúcnosť}
+V riskovať : person > patient {hádka|mrzutosť|chyba|strata}
+V riskovať : {vláda|štát|krajina (štát)|armáda} > patient {vojna|strata}
+N škoda : state
+V škodiť : {stres|hluk|alkohol|hádka} > recipient {človek|dieťa|bábätko|pacient|telo}
+V škodiť : {horúčava|chlad|mráz|dážď|počasie} > recipient {rastlina|úroda|strom|kvetina|zviera|dieťa|človek}
+V škodiť : {jed|alkohol|dym|prach|plyn|hluk} > recipient {človek|dieťa|zviera|rastlina|ryba|telo}
+V škodiť : {hádka|hluk|vojna|stres} > recipient {zdravie|mier|povesť}
+AN škodlivý : substance, activity, phenomenon, insect
+V poškodiť : person > patient vehicle
+V poškodiť : person > patient furniture
+V poškodiť : person > patient building-part
+V poškodiť : person > patient thing +breakable
+V poškodiť : {víchor|krúpy|oheň|voda} > patient vehicle
+V poškodiť : {víchor|krúpy|oheň|voda} > patient building
+V poškodiť : incident > patient vehicle
+V poškodiť : incident > patient building
+AN pozoruhodný : person, thing, event, creative-work, idea, building, activity
+AN vynikajúci : person, thing, food, activity, creative-work
+AN nadradený : agent
+V rozmýšľať : person > patient {plán|nápad|riešenie|návrh|výhovorka|darček|cesta (cestovanie)}
+V rozmýšľať : person > whether
+N úvaha : idea
+AN primeraný : quantity, money, activity, idea
+V stačiť : money > purpose {nájom|cesta (cestovanie)|dovolenka|kúpa|jedlo}
+V stačiť : {čas (trvanie)|hodina|deň|týždeň|minúta} > purpose {práca|prestávka|úloha|cesta (cestovanie)}
+V stačiť : food > purpose group
+V stačiť : {zásoba|množstvo|materiál|súčet} > purpose {deň|týždeň|mesiac (časť roka)|rok|zima|víkend}
+AN dostatočný : quantity, money, food, time, information
+AN podstatný : quality, idea, information
+AN rozhodujúci : moment, event, problem, information, idea
+AN naliehavý : problem, activity
+AN triviálny : problem, information
+AN závažný : problem, state
+AN intenzívny : activity, feeling, phenomenon, sound, quality
+AN extrémny : phenomenon, activity, feeling, quantity, event
+AN absolútny : quantity, state, rule
+V korigovať : person > patient text
+V korigovať : {učiteľ|profesor|tréner|šéf|otec|matka} > patient {žiak|študent|dieťa|spolupracovník}
+N oprava (chyby) : activity
+AN presný : device, information, measure, person
+AN efektívny : activity, device, idea
+N efektívnosť : quality
+AN účinný : activity, device, idea
+AN výnosný : activity
+AN uskutočniteľný : activity, idea
+AN zreteľný : sound, information, quantity, picture
+AN pozitívny : information, feeling, event, idea
+AN úplný (nič nechýba) : thing, text, quantity, information
+AN jediný : person, thing, idea, place, moment ; attr
+AN oficiálny : document, institution, event, information, language, rule
+AN relatívny : quantity, state, idea
+AN historický : building, event, period, document, person, place, moment ; attr
+AN globálny : problem, phenomenon, institution ; attr
+AN súkromný : building, room, vehicle, event, information, institution, document
+AN sociálny : problem, institution, relation, group ; attr
+AN takzvaný : person, idea ; attr
+AN bývalý : person, institution, building, country, professional ; attr
+AN údajný : person, information, crime ; attr
+AN prudký : feeling, phenomenon, event
+AN značný : quantity, problem, state
+AN klasický : creative-work, building, instrument, picture, clothing ; attr
+N klasik : creative-work
+AN špeciálny : thing, event, activity, food, idea
+AN osobitný : person, thing, event, moment, food, place ; attr
+AN regionálny : consumable, text, event, institution ; attr
+AN miestny : institution, text, event, shop ; attr
+AN všeobecný : rule, information, idea, state ; attr
+AN humanitárny : problem, event, institution, activity ; attr
+AN kontroverzný : person, idea, event
+AN dôsledný : person, activity
+AN prístupný : place, information
+AN predbežný : information, rule, document, state
+AN predčasný : event ; attr
+AN stredný : quantity, quality ; attr
+AN hustý : landscape, plant, phenomenon, body-part, fabric, material
+N transparentnosť : quality
+AN nový : vehicle, device, furniture, clothing, tool, toy, kitchenware, instrument, building-part, {prsteň|reťaz|náramok|kniha|román}, building, -{novostavba}, room, {mesto|dedina}, pet, livestock, {rastlina|izbová rastlina|kvetina}, {správa (oznam)|informácia|hlásenie|novinka|riešenie|metóda|nápad|plán|návrh|koncepcia}, {stretnutie|koncert|kurz}, {práca|život|práca|hádka}, {rok|týždeň|mesiac (časť roka)|deň|sezóna|semester|školský rok}, {firma|podnik|prevádzka|vysoká škola|ústav|vláda|politická strana|banka}
+N novinka : information
+AV opätovne : frequency
+AN plný : container, room, shop, {reštaurácia|kaviareň|kostol|divadlo|kino|štadión|hotel|múzeum}, {mesto|dedina}, road, {autobus|vlak|železnica|auto|loď|čln|lietadlo|električka|nákladné auto|dron}
+AN úplný (celkový) : state, feeling
+AN prázdny : container, room, {dom|budova|hala|kostol|škola|hotel|tábor|kino|divadlo|štadión}, road, {miesto (priestor)|mesto|autobus|vlak|železnica}
+V vyprázdniť : person > patient container +fillable
+AN otvorený : {dvere|okno|gól}, container, {izba|miestnosť|sála|kuchyňa}, {otázka|účet (na zaplatenie)}, {človek|dieťa}
+V otvoriť : person > patient container +openable
+V otvoriť : person > patient building-part +openable
+V otvoriť : person > patient device +openable
+V otvoriť : person > patient body-part +openable
+V otvoriť : person -professional > patient text +openable
+V otvoriť : {obchod|múzeum|banka|reštaurácia|kaviareň|škola|kostol|pekáreň|supermarket}
+AN zrejmý : problem, information, quality, state
+AN zatvorený : shop, building, building-part, container
+AN čistý (bez špiny) : clothing, fabric, furniture, vehicle, room, container, kitchenware, building-part, {voda|olej|tekutina}, {ruka|noha (chodidlo)|tvár|koža (orgán)|vlasy}, {pes|mačka|kôň}, -{kontajner}
+N čistota : quality
+V očistiť : person > patient object +cleanable
+V očistiť : person > patient room +cleanable
+V očistiť : person > patient building +cleanable
+AN špinavý : clothing, fabric, furniture, vehicle, room, container, kitchenware, building-part, {voda|olej|tekutina}, {ruka|noha (chodidlo)|tvár|koža (orgán)|vlasy}, pet, livestock
+AN suchý : material, clothing, {chlieb|žemľa|koláč|syr|mäso|klobása|sušienka|ryža|ovocie}, {koža (orgán)|vlasy|ruka|pera|hrdlo|ústa}, {les|lúka|pôda|pole|krajina (štát)|púšť|step|kraj}, phenomenon, -sound, plant, -{olej}
+V sušiť : person > patient {bielizeň|uterák|košeľa|nohavice|pančuchové nohavice|ponožka|kabát|bunda|topánka}
+V sušiť : person > patient {ruka|vlasy|noha (chodidlo)|tvár|hlava}
+V sušiť : {bielizeň|uterák|oblečenie|farba|vlasy|topánka|nohavice}
+V sušiť : {kvetina|tráva|bylina|list (rastliny)}
+V sušiť : fabric
+V sušiť : {pôda|lúka|roľa|pole|močiar}
+N suchosť : state
+AN mokrý : {piesok|drevo|papier|zem|farba|betón|cement}, clothing, furniture, road, {les|lúka|pôda|pole|pláž}, {ruka|vlasy|noha (chodidlo)|tvár|koža (orgán)|paža|hlava|nos}, plant, mammal, bird
+AN vlhký : {piesok|drevo|papier|zem|farba|betón|cement}, clothing, room, building-part, gas, phenomenon, {ruka|vlasy|noha (chodidlo)|tvár|koža (orgán)|paža|hlava|nos}, plant, beast
+AN silný : {býk|medveď|kôň|vôl|lev|vlk|pes|slon|tiger|gorila}, {motor|stroj|robot|magnet|žeriav (stroj)}, {zbraň|puška}, {káva|čaj|pálenka|alkohol|pivo|víno}, feeling, {vietor|dážď|víchor|prúdenie|horúčava|chlad|mráz|krúpy|hmla|svetlo}, {sila|vôľa|pamäť (schopnosť)}, -{rešpekt|počasie|radosť|chuť (túžba)}
+V posilniť : {šport|tréning|spánok (stav)|polievka|vitamín|liek} > patient {človek|dieťa|telo|imunitný systém|srdce|chrbát|sval}
+V posilniť : {tréning|cvičenie|šport|odborná príprava|skúsenosť} > patient {sila|výdrž|sebadôvera|pamäť (schopnosť)}
+V posilniť : person -child -professional > patient {vzťah|priateľstvo|manželstvo|pripútanosť}
+V posilniť : {úspech|víťazstvo|chvála|správa (oznam)|pomoc|podpora} > patient {dôvera|optimizmus|nádej|odvaha|sebadôvera}
+V posilniť : {tréner|učiteľ|šéf|priateľ|politik|vláda} > patient {dôvera|optimizmus|odvaha|sebadôvera}
+V zosilniť : {murár|stavebný robotník|remeselník|robotník|vojak} > patient {múr|stena|hrádza|most|plot}
+V zosilniť : institution > patient {tím|armáda|oddiel}
+V zosilniť : {kríza|vojna|hádka|kritika} > patient feeling
+V zosilniť : {reproduktor|mikrofón|ozvena|vietor} > patient sound
+V zosilniť : {vietor|horúčava} > patient {oheň|požiar|smäd}
+AN slabý : {zviera|kôň|pes}, {káva|čaj|pivo|alkohol|pálenka}, {nádej|pocit|pochybnosť|záujem|pocit}, phenomenon, {vôľa|pamäť (schopnosť)}, sound
+N slabosť : quality
+V oslabiť : agent > patient animal
+V oslabiť : illness > patient animal
+V oslabiť : agent > patient institution
+V oslabiť : agent > patient ability
+AN mocný : agent
+AN rýchly : {kôň|pes|zajac|gepard|srna|líška|vlk|mačka|lev|tiger}, {sokol|orol|lastovička|holub|jastrab}, {žralok|pstruh|tuniak}, vehicle, {práca|pomoc|podpora|hľadanie|rozhovor|jazda|dodávka|odpoveď|reakcia|rozhodnutie|beh|tanec|riešenie}
+N rýchlosť : quality
+AN hlasný : sound, {kohút|papagáj|havran|čajka|straka}, {pes|somár|prasa|lev|žaba|opica}, {motor|stroj|reproduktor|budík|rádio|televízor}
+N hlasitosť : quality
+AN bezhlasný : animal, vehicle, device, activity
+AN tichý (nehlučný) : sound, {mačka|myš|sova|líška|zajac|srna}, device, {motor|stroj|auto|hlas}
+AN mäkký : material, clothing, furniture, {chlieb|žemľa|syr|mäso|steak|vajce|sušienka|koláč|ovocie|maslo|banán}, {koža (orgán)|vlasy|srsť|srdce}
+AN tvrdý : {drevo|kameň|železo|oceľ|kov|betón|skala|diamant}, furniture, {pôda|schod}, {chlieb|žemľa|syr|mäso|hovädzie mäso|steak|vajce|sušienka|ovocie|tekvica|zemiak|orech}, -{prasa|olej}
+N tvrdosť : quality
+AN húževnatý : person, animal
+AN pripravený : agent
+N pripravenosť : state
+V zamestnávať : institution > patient person -child
+V zamestnávať : {šéf|podnikateľ|zamestnávateľ|riaditeľ} > patient person -child
+V zamestnávať : person > topic {problém|otázka|úloha|téma}
+V zamestnávať : person > topic {šport|hudba|umenie|politika|výskum}
+V zamestnávať : person > topic {plán|nápad|myšlienka|teória}
+V zamestnávať : person > topic {príbeh|správa (oznam)|údaje|vedomosti}
+AN zaneprázdnený : person
+N zamestnanie : activity
+AN voľný : place, person, animal, period, furniture
+V oslobodiť : {lekár|lekárka|terapeut|priateľ|priateľka|pomocník|matka|otec|učiteľ} > patient {človek|dieťa|pacient|priateľ|zviera}, source {problém|starosť|strach|bolesť}
+V oslobodiť : person > patient {zviera|vták|pes|mačka|rukojemník|väzeň}, source building
+V oslobodiť : {vojak|armáda|oddiel|hrdina|rytier} > patient settlement, source {nepriateľ|posádka|tyran|diktátor|útlak}
+V oslobodiť : person > patient thing +washable, source {špina|prach|sneh|ľad|hrdza|špina}
+AN celý : food, period, place, group, quantity ; attr
+AN pokazený : artifact, -{vreckovka|perla}
+V pokaziť sa : device
+V pokaziť sa : vehicle
+V pokaziť sa : furniture
+V pokaziť sa : kitchenware
+V pokaziť sa : toy
+V pokaziť sa : tool
+V pokaziť sa : building-part +breakable
+AN tesný (priestorovo) : place, clothing, relation, container
+N tesnosť : quality
+AN uvoľnený (nepevný) : thing, body-part, plant-part
+V uvoľniť : person > patient thing
+N uvoľnenie : process
+AN stabilný : thing, building, relation, state, material
+N stabilita : quality
+V stabilizovať : {vláda|banka|štát|úrad|ministerstvo|administratíva|parlament|armáda|polícia} > patient {poloha|situácia|stav|hospodárstvo}
+V stabilizovať : person > patient building-part
+V stabilizovať : {vláda|banka|štát|úrad|ministerstvo|administratíva|parlament|armáda|polícia} > patient {cena|kurz|hodnota|mena}
+V stabilizovať : person -child -professional > patient {vzťah|manželstvo}
+AN krehký : thing
+AN flexibilný : person, material, rule
+N flexibilita : quality
+AN čistý (nezmiešaný) : substance, fabric, feeling
+V čistiť : person > patient object +cleanable
+V čistiť : person > patient room +cleanable
+N čistenie : activity
+AN krásny : {žena|muž|dievča|chlapec|dieťa|človek|dáma|princezná|bábätko}, mammal, bird, pet, plant, -crop, clothing, jewelry, picture, furniture, toy, kitchenware, instrument, {dom|vila|zámok|hrad|kostol|hotel|kaviareň|reštaurácia|divadlo|múzeum|stanica|radnica|palác|veža|chata}, room, settlement, road, landscape, creative-work, celebration, {hra|futbal}, {cesta (cestovanie)|dovolenka|výlet|prechádzka|túra|prestávka|tanec|jazda|výstava}, {počasie|západ slnka|východ slnka|dúha}, period, -{toaleta|sopka}
+AN nádherný : {žena|muž|dievča|chlapec|dieťa|človek|dáma|princezná|bábätko}, mammal, bird, pet, plant, -crop, clothing, jewelry, picture, furniture, toy, kitchenware, instrument, {dom|vila|zámok|hrad|kostol|hotel|kaviareň|reštaurácia|divadlo|múzeum|stanica|radnica|palác|veža|chata}, room, settlement, road, landscape, creative-work, celebration, {cesta (cestovanie)|dovolenka|výlet|prechádzka|túra|prestávka|tanec|jazda|výstava}, {počasie|západ slnka|východ slnka|dúha}, period, -{toaleta}
+AN škaredý : beast, clothing, furniture, picture, building, room, settlement, road
+AN pravdivý : information
+AN pravdepodobný : event, information
+N pravdepodobnosť : quality
+AN nepravdepodobný : event, information
+AN pravý : material, jewelry, money, document, feeling, person
+AN možný : idea, problem, event, activity
+N možnosť : idea
+AN nemožný : idea, problem, event, activity
+V umožniť : money > recipient person, patient {cesta (cestovanie)|štúdium|odborná príprava|dovolenka|kúpa}
+V umožniť : {počítač|mobil|telefón|laptop|stroj} > recipient person, patient {práca|komunikácia}
+V umožniť : ability > recipient person, patient {práca|šport|štúdium|úspech|vzostup}
+V umožniť : {zákon|pravidlo|zmluva|povolenie|povolenie|dohovor} > recipient person, patient {obchodovanie|cesta (cestovanie)|prístup|účasť|práca}
+AV čo najviac : degree
+AN istý : person, quantity
+N istota : state
+AN jasný : liquid, information, rule, sound, picture, idea, phenomenon
+V objasniť : {advokát|sudca|policajt|lekár|poradca|expert} > patient {otázka|problém|hádka|nedorozumenie|prípad}
+V objasniť : {polícia|pokrm|úrad|ministerstvo|prokuratúra} > patient {prípad|otázka|hádka|problém}
+N jasnosť : quality
+N presnosť : quality
+AN autentický : food, creative-work, person, document, picture, place
+AN umelý : thing, material, consumable, water-body, body-part, plant
+AN spoľahlivý : person, device
+N spoľahlivosť : quality
+AN robustný : thing
+AN strnulý : body-part, material, thing
+V doplniť : person -child > patient {text|správa (o udalosti)|zoznam|poznámka|list (písomnosť)|návod|formulár}
+V doplniť : person -child > patient {údaj|komentár|informácia|veta|poznámka}
+V doplniť : person > patient {zbierka|zoznam|menu|ponuka}
+AN doplňujúci : information, activity, rule
+N doplnenie : event
+N poriadok : state
+AN poriadny : person, place, activity, clothing, meal
+AN neporiadny : person, place, activity, clothing, text
+V zoradiť : person > patient {papier|kniha|karta|fotka|spis|list (písomnosť)}
+AN upratný : place
+AN hrubý (nehladký) : material, clothing, furniture, body-part, beast
+V zjemniť : person > patient thing
+AN rafinovaný : food, material, activity, device
+AN náhly : event, phenomenon, feeling, sound
+AN príručný : artifact
+AN nemotorný : person, animal
+AN záludný : problem, activity
+AN vlastný : thing, idea, room, relative ; attr
+AN nejasný : information, idea, problem, state, picture
+AN hotový : artifact, building, dish, activity, creative-work
+AN pravidelný : event, activity
+AN príslušný : country, institution, state ; attr
+AN činný : person
+AN dostupný : thing, information, money, place, person, software
+AN celoštátny : event, activity, institution, rule, text ; attr
+AN jedno : problem, idea, activity
+AN konkrétny : idea, information, activity, problem, quantity
+AN existujúci : thing, money, information, quantity
+AN bezprostredný : place, event, state
+AN doterajší : information, event, state ; attr
+AN vtedajší : professional, state, institution, event ; attr
+AN terajší : state, problem, professional ; attr
+AN tohtoročný : event, activity, celebration, text ; attr
+AN dlhoročný : person, relation, activity, ability ; attr
+AN rodom z : person ; attr
+AN zastupujúci : person ; attr
+AN udržateľný : activity, idea, material, clothing
+N udržateľnosť : quality
+AN neustály : sound, problem, activity
+AN rozličný : thing, problem
+AN negatívny : information, feeling, event, idea
+AN totálny : event, state, problem
+AN obvyklý : activity, event, quantity, rule
+AN citeľný : phenomenon, event, state, quantity
+AN ojedinelý : phenomenon, event
+AN odkázaný : agent
+AN šikovný : person
+AN vo forme : person, animal
+AN super : person, thing, food, place, building, activity, event, creative-work, phenomenon
+AN domáci (miestny) : living
+AN zaujímavý : {človek|muž|žena|autor|umelec|učiteľ|zviera}, {kniha|noviny|článok|list (písomnosť)|správa (o udalosti)|román|časopis|inzerát|časopis}, picture, {správa (oznam)|informácia|výsledok|príbeh|novinka|chýr|tajomstvo|hlásenie|objav}, {podujatie|výstava|prednáška|konferencia|stretnutie|rozhovor|diskusia|rokovanie|prezentácia|prípad|lekcia|cesta (cestovanie)|projekt}, {budova|zámok|múzeum|kostol}, settlement, creative-work, {nápad|plán|návrh|teória|myšlienka|názor|koncepcia|otázka}, -{údaj|chvála|klamstvo|heslo|želanie}
+AN zajedno : agent
+AN priamy : road, vehicle, relation, event
+N chaos : state
+AN neznámy : person, place, thing, animal, information, plant
+AN nedostatočný : thing, activity, information, quality
+AN podrobný : information
+V zúžiť : building
+V zúžiť : building-part
+V zúžiť : tree
+V zúžiť : road
+AN beznádejný : person, state
+AN nepríjemný : event, problem, person
+AN otrasný : event, crime, illness, sound
+AN odporný : food, person, animal, place, phenomenon
+AN zlomyseľný : person, activity
+AN pochopiteľný : idea, event, state
+AN chytrý : person, animal, -national
+AN lesklý : object, material, liquid, celestial, beast
+AN neúmyselný : activity
+AN márny : activity, idea
+AN ctižiadostivý : child, -infant, {človek|muž|žena|žiak|študent|športovec|futbalista|politik|šéf|šéfka|výskumník|profesor|autor|autorka|prezident}
+AN jemný : animal, phenomenon
+AN chrumkavý : food
+AN doslovný : language, information
+AN duchovný : person, institution, creative-work
+AN nákladný : artifact, activity
+AN lákavý : food
+# added: dicht in its second sense
+AN tesný (nepriepustný) : container, building-part, material, fabric
+# added: Gewicht in its second sense
+N závažie : artifact, thing
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN administratívny : {práca|budova|chyba|poplatok|postup|úloha|úrad} ; attr
+AN agilný : person, institution, {tím|projekt}
+AN akrobatický : {cvičenie|výkon|skok|tanec}, {umelec|športovec} ; attr
+AN akustický : sound, {signál|gitara|vlna|efekt} ; attr
+AN akútny : illness, problem, {nedostatok|bolesť|ohrozenie}
+AN alpský : landscape, {dedina|vzduch|lúka|jazero|počasie|zima|chata} ; attr
+AN analógový : {hodiny|fotoaparát|signál|zariadenie|rádio|telefón|záznam|televízor}
+AN anonymný : person, {list (písomnosť)|autor|darca|hrob|telefonát}
+AN apokalyptický : event, incident, {vízia|nálada|film}
+AN atraktívny : person, place, building, {ponuka|cena|práca|vzhľad|plat|miesto (priestor)|cieľ}
+AN autonómny : institution, country, region, {vozidlo|systém|robot|rozhodnutie|auto}
+AN banálny : problem, idea, {otázka|odpoveď|chyba|príbeh|dôvod|vtip|poznámka}
+AN barbarský : {zvyk|trest|čin|zaobchádzanie}, crime, national
+AN bez pána : pet, livestock, {pes|mačka|kôň|vec|batožina}
+AN bez väčších následkov : incident, {nehoda|pád|chyba|hádka|stretnutie|zranenie} ; pred
+AN bezbariérový : building, room, {vstup|prístup|chodník|toaleta|autobus|byt}, road
+AN bezemisný : vehicle, {pohon|auto|doprava|motor|výroba|elektráreň}
+AN bezmedzný : feeling, {láska|radosť|dôvera|smútok|obdiv|nenávisť|túžba|pole}
+AN bezpríznakový : illness, {priebeh|prípad|nosič}
+AN bezvýznamný : person, problem, idea, {detail|chyba|poznámka|suma|úloha|rola}
+AN bezútešný : state, feeling, place, {počasie|pohľad|situácia|budúcnosť|deň|život|zima}
+AN bezšvový : fabric, clothing, {prechod|spojenie|podlaha|plocha}
+AN bežný : thing, activity, event, person, problem, {deň|slovo|postup|cena|chyba|prípad|spôsob}
+AN bilaterálny : {rozhovor|dohoda|vzťah|rokovanie|obchod|zmluva|stretnutie|spolupráca}, relation
+AN bisexuálny : person ; pred
+AN bizarný : person, animal, {nápad|tvar|situácia|stavba|zvyk|sen|oblečenie|príbeh}, building, event
+AN blond : {vlasy|dievča|chlapec|žena|muž|dieťa}, child
+AN blízko bydliska : shop, {škola|park|obchod|nemocnica|škôlka|zastávka|ihrisko|lekáreň|pošta|reštaurácia} ; pred
+AN bohatý (hojný) : {úroda|zbierka|ponuka|výber|zásoba|zdroj|obed|raňajky|program|vegetácia|obsah}, food, meal
+AN brutálny : person, crime, event, {sila|útok|boj|násilie|hra|film|trest|pravda|vojna|vražda}
+AN bujný : plant, tree, flower, {vegetácia|tráva|fantázia|vlasy|les|záhrada}
+AN celkom nový : thing, vehicle, device, building, clothing, furniture, tool ; attr
+AN celodenný : {výlet|túra|program|práca|návšteva|kurz|zasadnutie|cesta (cestovanie)|stretnutie|dovolenka|lístok}
+AN celoročný : {práca|prevádzka|program|zamestnanie|hotel|pobyt|lístok|ponuka|kurz|škola}
+AN cenovo dostupný : {byt|auto|ubytovanie|ponuka|jedlo|oblečenie|hotel|reštaurácia|lístok|telefón|počítač}
+AN chabý : {výsledok|výkon|dôkaz|obrana|nápad|výhovorka|zdravie|úroda|svetlo|dôvod|zárobok|argument}, state
+AN chaotický : {situácia|stav|trh|doprava|izba|kuchyňa|život|vedenie|obdobie|systém|stretnutie|projekt}, room, group, event
+AN chirurgický : {operácia|nástroj|nôž|tím|rukavica|rez|maska|ihla}
+AN chvályhodný : {nápad|čin|úsilie|cieľ|rozhodnutie|výkon|iniciatíva|odvaha|správanie|úspech|projekt}, activity
+AN chytľavý : {melódia|pieseň|text|slogan|rytmus|hudba|reklama|choroba}
+AN cielený : {úder|útok|kampaň|pomoc|podpora|otázka|opatrenie|výber|reklama|výstrel|prieskum}
+AN civilný : person, {obyvateľstvo|lietadlo|obeť|oblek|obrana|letectvo|život|sektor|osoba|oblečenie|použitie|manželstvo}, -professional
+AN decentný : person, clothing, {správanie|oblečenie|farba|vzhľad|hudba|hlas|úsmev}
+AN defenzívny : person, {hra|taktika|postoj|jazda|stratégia|obrana|zbraň|prístup|hráč|správanie}, game
+AN dementný : person, animal ; pred
+AN demografický : {údaj|vývoj|štatistika|zmena|prieskum|skupina|trend|problém|rast|štúdia}
+AN demonštratívny : {gesto|správanie|súhlas|protest|pohľad|úsmev}
+AN depresívny : person, {nálada|počasie|pocit|film|pieseň|správa (oznam)|pohľad|obraz|myšlienka|atmosféra|stav}, place, feeling
+AN desivý : {zvuk|film|príbeh|pocit|pohľad|ticho|sen|myšlienka|noc|tma|hlas|zážitok|ticho}, sound, place, animal, person, building
+AN dlhodobejší : {plán|pobyt|zmluva|riešenie|vzťah|cieľ|prognóza|investícia|projekt|dohoda|dôsledok|úspech|výhľad|stratégia}
+AN dodatočný : {náklad|poplatok|informácia|vysvetlenie|zárobok|príjem|zmena|otázka|čas (trvanie)|práca|cvičenie|platba|pomoc|opatrenie|hodina|poznámka}
+AN dominantný : person, animal, {postavenie|farba|vplyv|osobnosť|rola|trieda|pozícia|črta|hlas|manžel}, institution, country
+AN doživotný : {trest|väzenie|vzťah|záruka|príjem|priateľstvo|člen|dôchodok|zákaz|lístok|manželstvo}
+AN drastický : {zmena|opatrenie|pokles|zvýšenie|krok|dôsledok|rozhodnutie|zníženie|rez|trest|riešenie|zásah|nárast}
+AN drobný : {zmena|chyba|poškodenie|predmet|zranenie|pomoc|úprava|obchodník|dážď|písmo|pokles|detail}, insect, plant-part
+AN drvivý : {väčšina|porážka|víťazstvo|dôkaz|kritika|dojem|úder|sila|dôkaz}
+AN duálny : {štúdium|systém|pohon|palivo|úloha|použitie|rola}
+AN dvojciferný : quantity, {číslo (matematické)|suma|cena|percento|počet|hodnota|rast|nárast|vek|teplota|zisk|inflácia}
+AN dych vyrážajúci : {výhľad|pohľad|výkon|kontrast|rýchlosť|scéna|krása|obraz|výhľad} ; attr
+AN dynamický : person, {rast|systém|rytmus|hra|tanec|zmena|obraz|firma|tím|hudba|trh|vývoj}, institution, game
+AN dávno známy : {fakt|pravda|problém|recept|príbeh|človek|pieseň|zvyk|melódia|metóda|kamarát|trik|chyba|výsledok} ; attr
+AN dôrazný : {hlas|žiadosť|varovanie|odpoveď|protest|odmietnutie|zákaz|upozornenie|tón|hrozba}, person
+AN ekologicky uvedomelý : person, group, institution, {firma|spotrebiteľ|rodina|škola|mesto|škola|občan}
+AN empatický : person, animal, {pozorovateľ|učiteľ|lekár|sused|priateľ|poslucháč|lekárka|reakcia|odpoveď|prístup}
+AN endemický : plant, animal, {druh|choroba|ryba|vták|rastlina|kvet|ostrov|hmyz|kvet}
+AN energetický : {kríza|spotreba|nápoj|trh|zdroj|sektor|firma|politika|účinnosť|plocha|bilancia|dodávka|odvetvie|úspora}
+AN ergonomický : {klávesnica|myš|nábytok|pracovisko|tvar|rukoväť|stôl|poloha|kreslo|matrac|rukoväť}
+AN erotický : {film|román|obraz|fotka|pocit|scéna|kniha|príbeh|tanec|bielizeň|fantázia|báseň|literatúra|masáž|zážitok}
+AN esenciálny : {olej|súčasť|prvok|podmienka|potreba|črta|vlastnosť|krok|vitamín}
+AN estetický : {zážitok|hodnota|pôžitok|dojem|cit|operácia|vnímanie|dizajn|zmysel|kritérium}
+AN excesívny : {spotreba|násilie|cena|výdavok|zaťaženie|hluk|tlak|zisk}
+AN exkluzívny : {hotel|klub|reštaurácia|obchod|právo|ponuka|rozhovor|čiapka|oblek|zážitok|auto|vydanie|prístup|miesto (priestor)|zlato}, shop
+AN exotický : animal, plant, fruit, flower, food, dish, place, country, {zver|vták|kultúra|ostrov|dovolenka|oblečenie}
+AN explicitný : {pokyn|zákaz|obsah|text|film|scéna|slovo|súhlas|cieľ|zmienka|výklad|vyjadrenie}
+AN externý : {zdroj|firma|pomoc|zamestnanec|poradca|vplyv|dôvod|kontrola|spolupracovník|zariadenie|tlak}, institution
+AN extravagantný : person, clothing, {životný štýl|farba|oblek|klobúk|nápad|dar|večera|auto|dom|nákup|šperk|výdavok|vila}, jewelry
+AN fascinujúci : person, animal, plant, place, event, {príbeh|kniha|film|pohľad|svet|výsledok|obraz|objav|myšlienka|hra|predstava}, phenomenon, creative-work
+AN fiktívny : person, place, {postava|príbeh|mesto|meno|svet|dej|adresa|firma|údaj|udalosť}, creative-work
+AN filigránsky : jewelry, {práca|čipka|postava|ruka|stavba|výrobok|krása}, picture
+AN finálny : {zápas|výsledok|verzia|fáza|rozhodnutie|hra|cieľ|kolo|stav|cena|zhrnutie|skúška|hodnotenie|vydanie}
+AN fosílny : fuel, {palivo|energia|zvyšok|nález|rastlina|stopa|zdroj|zver}
+AN frenetický : {tempo|potlesk|jasot|hudba|tanec|výkon|pátranie|rytmus|beh|práca|nadšenie|hľadanie}
+AN fyzický : {práca|cvičenie|kontakt|bolesť|sila|trest|kondícia|zdravie|zápas|prítomnosť|útok|vzhľad|vlastnosť|svet}, person
+AN fér : person, game, {hra|zápas|cena|obchod|dohoda|rozhodnutie|zaobchádzanie|ponuka|súťaž|súboj|rozhodca|pravidlo|odmena|kompromis}
+AN geografický : {poloha|oblasť|mapa|názov|dĺžka|šírka|oblasť|úloha|hranica|atlas|vzdialenosť|stred|pôvod}
+AN grafický : {dizajn|program|karta|kresba|návrh|tablet|zobrazenie|prvok|obraz|zobrazenie|román|dizajnér|umelec|plocha}
+AN grafovo-technický : {zobrazenie|riešenie|návrh|nástroj|úprava|obsah|prvok|spracovanie|vzorec} ; attr
+AN groteskný : person, animal, {obraz|situácia|maska|scéna|postava|tvar|predstava|nápad}, building
+AN hektický : {deň|tempo|obdobie|týždeň|práca|život|atmosféra|činnosť|ráno|cesta (cestovanie)|zasadnutie}, period, event
+AN heterosexuálny : person ; pred
+AN hlavný zodpovedný : person, professional, {vedúci|riaditeľ|autor|lekár|tréner|šéf|redaktor|učiteľ}, institution ; attr
+AN hodný života : {život|svet|mesto|miesto (priestor)|existencia|budúcnosť|byt|obdobie|stav|kraj|región}, place ; attr
+AN holý : person, animal, body-part, tree, landscape, {skala|stena|vták|strom|hlava|ruka|noha (končatina)|vlasy|zem|pole|vrch|konár|podlaha|pravda|fakt}
+AN homosexuálny : person ; pred
+AN honosný : building, room, {vila|zámok|palác|hostina|označenie|oblek|svadba|prijatie|dom|kostol|vchod|schody|portál|rodina|oslava|oblečenie}
+AN hravý : child, animal, pet, {mačiatko|šteňa|dieťa|nálada|hudba|tón|melódia|spôsob|farba|vietor|slovo|dizajn|hra|duša}, person
+AN hrbolatý : road, landscape, {cesta (komunikácia)|pole|podlaha|povrch|chodník|jazda|zem|stena|kameň|terén|kopec|kôra|nos|nárazník}
+AN hrôzostrašný : event, incident, sound, place, building, animal, {pohľad|zločin|film|príbeh|scéna|hluk|zvuk|výkrik|nehoda|obraz|vražda|vojna|zážitok|myšlienka|tvár|maska}
+AN humánny : person, institution, {prístup|zaobchádzanie|riešenie|správanie|spôsob|trest|politika|zákon|opatrenie|medicína|vedenie|veda}
+AN hybridný : plant, animal, {auto|pohon|vozidlo|zbraň|vojna|rastlina|vyučovanie|pracovisko|model|systém|zariadenie|kôň|motor|kvet|telefón}
+AN identický : {dvojča|kópia|text|výsledok|výraz|obsah|tvar|verzia|vybavenie|dom|obraz|cena|slovo|pocit|tabuľka}, person, relative
+AN ideologický : {boj|spor|základ|vplyv|propaganda|vodca|postoj|názor|konflikt|pozadie|zdôvodnenie|spôsob|prístup|systém}
+AN idylický : place, landscape, {dedina|jazero|záhrada|pobrežie|život|obraz|svet|leto|pohľad|chata|domov|pláž|ráno|nedeľa|večer}
+AN ikonický : picture, building, {symbol|obraz|kus|pieseň|pamiatka|postava|film|dizajn|pozícia|scéna|stavba|logo|hlas|auto|fotka|miesto (priestor)}, creative-work
+AN imaginárny : {priateľ|svet|postava|číslo (matematické)|čiara|nepriateľ|osoba|príbeh|jednotka|hranica|zver|bytosť|ostrov|hrozba}, being
+AN impozantný : building, person, animal, tree, landscape, {pohľad|výška|stavba|hrad|postava|zámok|chrám|výkon|kulisa|dojem|veža|sila|zbierka|socha|múr}
+AN individuálny : person, {prístup|stratégia|učenie|záujem|riešenie|plán|tréning|slovo|potreba|vyučovanie|zodpovednosť|sloboda|cesta (cestovanie)}, activity
+AN informatívny : text, picture, {tabuľa|správa (oznam)|hodnota|prednáška|brožúra|plagát|odpoveď|rozhovor|leták|prehľad|dokument|program|článok|stretnutie|film|názov|cieľ}
+AN inkluzívny : institution, group, {škola|spoločnosť|politika|prístup|trieda|tím|miesto (priestor)|pracovisko|ponuka|kultúra|dizajn}
+AN intelektuálny : person, {úroveň|schopnosť|práca|záujem|majetok|výkon|rozhovor|hra|debata|činnosť|vlastníctvo}
+AN interdisciplinárny : {štúdium|tím|výskum|projekt|prístup|program|spolupráca|konferencia|metóda|práca|kurz|centrum}
+AN interný : {záležitosť|dokument|systém|poplatok|zdroj|informácia|smernica|predpis|škola|komunikácia|pravidlo|postup|spor|konflikt|kontrola|e-mail|škola|poradca}
+AN invazívny : plant, animal, insect, {druh|metóda|rastlina|liečba|choroba|operácia|vyšetrenie|zver|nádor|rakovina|baktéria|vplyv|chrobák}, illness
+AN irelevantný : idea, information, {otázka|fakt|detail|argument|poznámka|informácia|údaj|zmienka|dokument|dôkaz|príklad|zdroj|výsledok|odpoveď|faktor|námietka}
+AN jednokoľajný : {železnica|trať|vozidlo|motocykel|vlak|električka|cesta (komunikácia)|spojenie|úsek|vedenie|most|stroj|lanovka}, road, vehicle
+AN jednomyseľný : {rozhodnutie|súhlas|hlasovanie|názor|schválenie|výsledok|odmietnutie|uznesenie|podpora|záver|odpoveď|porota|potlesk|zhoda|výber}, group
+AN juhovýchodný : direction, {Európa|vietor|pobrežie|svah|strana|okraj|hranica|oblasť|Ázia|časť|svah|smer|kraj|cesta (komunikácia)|ostrov|krídlo|pohorie|región} ; attr
+AN juhozápadný : direction, {Európa|vietor|pobrežie|svah|strana|okraj|hranica|oblasť|Ázia|časť|svah|smer|kraj|cesta (komunikácia)|ostrov|krídlo|pohorie|región} ; attr
+AN každoročný : event, celebration, {konferencia|stretnutie|festival|oslava|trh|sviatok|prehliadka|správa (oznam)|poplatok|dovolenka|zasadnutie|kontrola|nárast|poistenie|výlet|zbierka|súťaž|prehliadka|hodnotenie|vydanie|zvyk}, game
+AN klamlivý : {dojem|reklama|pocit|zdanie|informácia|nádej|označenie|obraz|tvar|správa (oznam)|jednoduchosť|ticho|úsmev|istota|rozhodnutie|odpoveď|odhad}, information, idea
+AN klesajúci : quantity, process, money
+AN klimaticky neutrálny : institution, building, activity ; attr
+AN kognitívny : ability, process ; attr
+AN kolektívny : activity, event, rule, idea ; attr
+AN komerčný : activity, institution, shop, document ; attr
+AN konkurencieschopný : institution, shop, device, vehicle
+AN kontinuálny : process, activity, sound
+AN konvenčný : idea, rule, activity, weapon ; attr
+AN kreatívny : person, activity, idea, creative-work
+AN krivý : road, tool, furniture, tree, body-part
+AN kričivý : clothing, picture, text
+AN kryptický : text, information, idea, language
+AN kulinársky : activity, event, text ; attr
+AN kuriózny : event, incident, idea, activity
+AN kvalitatívny : idea, process, information ; attr
+AN latentný : illness, problem, feeling, ability
+AN legendárny : person, being, place, building, event, creative-work
+AN legitímny : idea, rule, institution, document
+AN lesbický : person, relation, event ; attr
+AN letmý : moment, event, activity ; attr
+AN lukratívny : activity, event, document, shop
+AN lyrický : creative-work, sound, language
+AN malebný : place, building, landscape, settlement, water-body
+AN matný : material, picture, fabric, metal, stone
+AN medzinárodnoprávny : rule, document, idea ; attr
+AN menový : rule, institution, process, money ; attr
+AN mentálny : state, ability, illness, process ; attr
+AN metodický : activity, document, text, information ; attr
+AN mimoriadne nebezpečný : beast, weapon, phenomenon, illness, substance, road, activity
+AN mimosúdny : process, activity, event ; attr
+AN minimalistický : building, room, furniture, picture, creative-work ; attr
+AN mizerný : state, event, food, quantity, money, shop
+AN mnohonásobný : person, quantity, event ; attr
+AN mnohotvárny : person, place, activity, creative-work
+AN mnohovrstevnatý : problem, relation, idea, creative-work, food
+AN mobilný : device, vehicle, building, institution
+AN monotónny : sound, activity, landscape, creative-work
+AN monumentálny : building, building-part, picture, creative-work
+AN mystický : being, place, event, phenomenon, creative-work
+AN na plný úväzok : activity, role ; pred
+AN na vlastnú zodpovednosť : activity, event ; pred
+AN nadmerný : quantity, feeling, sound, activity
+AN nadriadený : person, institution
+AN nadzemný : building, building-part, road, room
+AN nadčasový : creative-work, clothing, picture, idea
+AN najlepší možný : idea, activity, state, information
+AN najmodernejší : device, vehicle, building, tool, weapon
+AN najväčší možný : quantity, feeling, problem
+AN napnutý : material, fabric, body-part, state, relation
+AN nasaditeľný : weapon, device, vehicle, group
+AN neatraktívny : person, place, building, activity, creative-work
+AN nedbanlivý : person, activity
+AN nedotknutý : landscape, place, food, plant, document
+AN nedôveryhodný : person, institution, information, text, document
+AN neefektívny : activity, device, process, idea
+AN neformálny : clothing, event, language, relation, activity
+AN nekontrolovaný : process, feeling, phenomenon, incident, activity
+AN nekonvenčný : person, idea, activity, creative-work, clothing
+AN nemysliteľný : idea, event, activity, incident
+AN nenáhlivý : activity, event, moment
+AN nenápadný : person, animal, clothing, building, sound
+AN neobmedzený : quantity, ability, idea, time
+AN neobsadený : room, building, building-part, furniture, vehicle
+AN neobývateľný : building, room, place, region
+AN neodôvodnený : feeling, idea, problem, rule, quantity
+AN neoficiálny : document, information, event, language, institution
+AN neoprávnený : activity, event, rule, idea
+AN neotrasiteľný : feeling, idea, ability
+AN nepochopiteľný : idea, event, activity, information, text
+AN nepodstatný : idea, information, problem, event
+AN neporušený : building, building-part, landscape, container, document
+AN nepotvrdený : information, idea, event, document
+AN nepoužiteľný : tool, device, artifact, information, road
+AN nepravidelný : activity, event, sound, process, language
+AN nepredvídaný : event, incident, problem, state
+AN neprekonateľný : problem, quantity, feeling, ability
+AN nepresný : information, text, tool, device, quantity
+AN nepretržitý : process, activity, sound, phenomenon
+AN nepriamy : information, road, idea, process
+AN neprimeraný : quantity, activity, feeling, idea
+AN neprípustný : activity, idea, event, rule
+AN neprístupný rozumu : person, animal, feeling
+AN nerozpoznaný : ability, illness, problem, idea
+AN neslávne známy : person, place, building, event, incident
+AN nespochybnený : person, idea, ability, institution
+AN nestabilný : thing, building, relation, state, material
+AN nestály : phenomenon, relation, state, feeling, quantity
+AN netesný : container, building-part, vehicle, building
+AN netypický : person, animal, thing, food, event, activity, building
+AN neuspokojivý : state, information, activity, event, quantity
+AN neutrálny : person, institution, country, idea, information
+AN nevybavený : document, activity, event, problem
+AN nevyhnutný : idea, event, activity, rule, problem
+AN nevyspytateľný : person, animal, being, phenomenon, feeling
+AN nevážny : illness, problem, incident, state
+AN nevýznamný : person, place, event, idea, information
+AN nezadržateľný : process, phenomenon, group, feeling
+AN nezameniteľný : sound, person, creative-work, building, food
+AN nezanedbateľný : quantity, problem, idea, state
+AN nezaplatený : document, money, activity
+AN nezaplatiteľný : person, feeling, information, idea
+AN nezaujímavý : person, place, event, activity, creative-work, text
+AN neznesiteľný : person, animal, sound, phenomenon, feeling, illness
+AN neznížený : quantity, money, state
+AN nezrozumiteľný : text, language, sound, information
+AN nezvestný : person, animal, vehicle, thing
+AN nezáväzný : idea, information, event, document, relation
+AN neúnosný : state, feeling, problem, phenomenon, quantity
+AN neúplný : text, document, information, idea, creative-work
+AN neúprosný : person, phenomenon, rule, institution, feeling
+AN neúčinný : medicine, tool, device, activity, rule, idea
+AN nečakaný : event, incident, information, state
+AN neľúbivý : person, activity, information
+AN neškodný : animal, plant, food, substance, medicine
+AN nešportový : activity, event, person
+AN nežiaduci : person, event, state, information, feeling
+AN ničivý : phenomenon, incident, weapon, feeling, activity
+AN nominálny : quantity, money, idea ; attr
+AN modulárny : building, furniture, device, software, vehicle, kitchenware
+AN nepriaznivý : phenomenon, state, event, information, quantity, idea
+AN notorický : person, -child ; attr
+AN nádejný : person, idea, creative-work, event
+AN náležitý : information, activity, idea ; attr
+AN nápadný : person, thing, building, clothing, event, state
+AN nápomocný : person, tool, device, information, idea
+AN náročný : activity, problem, creative-work, event, person, -child
+AN názorný : information, creative-work, picture, idea
+AN nízkoprahový : activity, event ; attr
+AN objemný : object, container, text, quantity
+AN obludný : being, beast, event, idea, problem
+AN ofenzívny : person, activity, institution, idea
+AN obojstranný : relation, event, idea, clothing, paper
+AN obranyschopný : institution, group, country, building, person
+AN obsahový : idea, problem, information, creative-work ; attr
+AN obťažný : person, insect, problem, activity, sound
+AN odhalený : person, thing, building-part, idea, crime
+AN odporúčaniahodný : creative-work, food, activity, shop, idea
+AN ohrozujúci život : illness, incident, state, problem
+AN ohybný : material, fabric, tool, body-part
+AN okrajový : problem, idea, information, place
+AN okázalý : person, clothing, jewelry, building, celebration, activity
+AN operatívny : activity, institution, idea, information, group
+AN oprávnený hrať : person ; attr
+AN optický : device, phenomenon, idea, tool ; attr
+AN optimálny : activity, idea, state, quantity, period
+AN opätovný : event, activity, problem ; attr
+AN orientovaný na budúcnosť : idea, activity, institution, creative-work
+AN osudný : event, incident, idea, moment ; attr
+AN otravný : person, beast, insect, sound, activity, problem
+AN očakávateľný : event, problem, information, state
+AN pamiatkovo chránený : building, place ; attr
+AN pamätihodný : event, place, building, moment
+AN paušálny : money, idea ; attr
+AN pekný : person, animal, flower, clothing, building, place, creative-work, thing
+AN personálny : idea, problem, activity ; attr
+AN perspektívny : person, idea, activity, institution, plant
+AN pichľavý : plant, thing, material, animal
+AN pikantný : food, dish, seasoning
+AN plagátový : picture, text ; attr
+AN plne elektrický : vehicle, device ; attr
+AN plnochuťový : food, drink, dairy ; attr
+AN plnoletý : person, -child
+AN plný atmosféry : place, event, creative-work, building ; pred
+AN plošný : idea, activity, quantity ; attr
+AN podmienený vekom : state, idea, ability ; pred
+AN podnikateľský : activity, idea, institution ; attr
+AN podpriemerný : person, quantity, creative-work, food, state
+AN poetický : creative-work, person, place, idea, writing
+AN poklidný : place, period, person, event
+AN populistický : person, idea, institution, writing ; attr
+AN populárny : person, creative-work, place, game, food, idea
+AN postupný : process, activity, event ; attr
+AN potenciálny : problem, person, idea, event ; attr
+AN potešiteľný : event, information, idea, state
+AN poučný : creative-work, text, event, information, activity
+AN povrchný : person, idea, information, relation
+AN povzbudzujúci : information, event, creative-work, state, person
+AN pravicovo extrémny : person, institution, idea ; attr
+AN pravicovo radikálny : person, institution, idea ; attr
+AN pravoslávny : person, building, celebration, institution ; attr
+AN predchádzajúci : event, period, moment, information ; attr
+AN predvianočný : period, event, celebration ; attr
+AN predvídateľný : event, process, person, creative-work, problem
+AN prehnaný : idea, information, quantity, feeling, activity
+AN prekvapujúci : event, information, state, idea, person
+AN prekypujúci : person, feeling, state ; pred
+AN prelomový : event, idea, moment, creative-work ; attr
+AN premrštený : idea, quantity, money, feeling ; attr
+AN premyslený : idea, activity, person, creative-work
+AN preplnený : place, container, building, road, room
+AN prepychový : building, room, clothing, vehicle, jewelry, shop
+AN presne padnúci : clothing, wearable ; attr
+AN preventívny : activity, idea ; attr
+AN prevládajúci : state, idea, feeling, phenomenon ; attr
+AN prezieravý : person, idea, activity
+AN priebežný : activity, process, information ; attr
+AN primeraný deťom : creative-work, activity, food, event, text ; pred
+AN primeraný druhu : state, activity ; pred
+AN primárny : idea, problem, information ; attr
+AN privysoký : quantity, building, tree, money ; pred
+AN profesionálny : person, activity, device, creative-work, institution
+AN programový : idea, activity, software ; attr
+AN progresívny : person, idea, institution, illness, process
+AN prominentný : person, institution ; attr
+AN pronikavý : sound, idea, phenomenon, person
+AN prostredný : object, place, person, position ; attr
+AN protirečivý : information, idea, feeling, person
+AN provizórny : building, idea, thing, road
+AN provokatívny : person, idea, creative-work, picture, clothing
+AN pružný : material, person, idea, object
+AN príjemný : person, place, food, phenomenon, event, creative-work, feeling
+AN prírode blízky : activity, place, person, food ; pred
+AN prírodný : material, phenomenon, landscape, food, event ; attr
+AN prítomný (v mysli) : idea, feeling, information ; pred
+AN päťmiestny : quantity, vehicle, room ; attr
+AN pútavý : creative-work, text, person, event, idea
+AN queer : person, institution, event, creative-work
+AN radikálny : person, idea, institution, process
+AN rapídny : process, quantity, event ; attr
+AN realizovateľný : idea, activity, event
+AN redakčný : text, institution, activity ; attr
+AN regulačný : activity, idea, institution ; attr
+AN relevantný : information, idea, problem, event
+AN relevantný pre bezpečnosť : information, device, activity, idea, building-part
+AN reprezentatívny : building, object, person, creative-work, idea
+AN reálny : person, event, problem, idea, place, thing
+AN rečnícky : ability, idea, writing ; attr
+AN reštriktívny : rule, idea, activity ; attr
+AN riadny : person, event, activity, thing, problem
+AN riedky : liquid, food, drink, material, plant
+AN rizikový : activity, idea, event, state
+AN rovnocenný : person, idea, event, institution
+AN rovnomerný : process, quantity, phenomenon, sound
+AN rovnoprávny : person, institution, relation
+AN rozhádaný : person, group, institution
+AN rozjímavý : person, creative-work, period, moment
+AN roztomilý : person, animal, thing, creative-work
+AN rustikálny : building, furniture, food, place, clothing
+AN ručný : tool, artifact, activity, device ; attr
+AN rádioaktívny : material, substance, thing, phenomenon
+AN s rovnakým počtom bodov : person, group, institution ; pred
+AN s ťažkými následkmi : incident, activity, idea, process ; pred
+AN samostatný : person, institution, room, building, state
+AN samoživiteľský : person ; attr
+AN scestný : idea, information, rule
+AN schátraný : building, vehicle, furniture, building-part, device
+AN sebakritický : person, institution ; pred
+AN sebestačný : person, institution, country, settlement
+AN sekundárny : problem, idea, quality, information
+AN selektívny : person, process, idea, information
+AN senzačný : event, creative-work, activity, information, person
+AN seriózny : person, institution, information, problem, creative-work
+AN severozápadný : place, direction ; attr
+AN skrytý : thing, place, feeling, problem, information
+AN skľučujúci : information, state, problem, event, creative-work
+AN slabší : person, animal, plant, quality, state
+AN slobodný (bez partnera) : person ; pred
+AN smerodajný : person, institution, information, rule
+AN sociálno-politický : problem, idea, event, process ; attr
+AN solídny : object, person, institution, idea
+AN sporný : idea, problem, person, information, rule
+AN spôsobený chorobou : state, incident, process ; pred
+AN statický : object, process, idea
+AN statný : person, building, tree, beast
+AN stoický : person, feeling ; attr
+AN stojí za to : activity, event, creative-work, idea ; pred
+AN stredne ťažký : problem, activity, text, illness
+AN striedavý : phenomenon, process, state
+AN stuhnutý : person, body-part, fabric, liquid ; pred
+AN stály : person, state, feeling, quantity
+AN subjektívny : idea, information, feeling
+AN surreálny : creative-work, picture, event, state
+AN suverénny : person, country, institution
+AN svahovitý : landscape, road, region ; attr
+AN svižný : person, beast, activity, process
+AN svojrázny : person, creative-work, idea, place
+AN svojvoľný : person, institution, idea, rule
+AN syntetický : material, fabric, substance, medicine
+AN systémový : problem, idea, process, rule ; attr
+AN sídliaci : institution, person ; attr
+AN súdobý : creative-work, idea, event, person ; attr
+AN súdržný : group, text, idea
+AN súkromnohospodársky : person, institution ; attr
+AN sýtoružový : object, flower, clothing, fabric
+AN sľubný : idea, person, event, creative-work, state
+AN takýto : person, object, event, idea ; attr
+AN tanečný : event, activity, creative-work ; attr
+AN tepelný : process, phenomenon, device ; attr
+AN toxický : substance, plant, fungus, relation
+AN tragický : event, incident, person, creative-work
+AN transparentný : material, institution, process, rule
+AN trblietavý : material, fabric, jewelry, water-body
+AN trefný : idea, information, writing
+AN trápny : event, state, information, person
+AN tunajší : person, place, institution ; attr
+AN turbulentný : event, process, phenomenon, period
+AN tvrdo sporný : event, activity, game ; attr
+AN týkajúci sa tejto veci : information, idea, problem ; attr
+AN ukvapený : person, idea, activity
+AN ultimátny : idea, activity, event
+AN umiernený : person, idea, quantity, phenomenon
+AN univerzálny : tool, device, idea, rule
+AN uprázdnený : place, room, building, position
+AN upršaný : period, phenomenon, place
+AN uspokojivý : information, state, process, creative-work
+AN v bezpečí : person, animal, thing ; pred
+AN v plnom rozsahu : activity, process, idea ; pred
+AN vehementný : person, feeling, idea
+AN verejnoprospešný : institution, activity ; attr
+AN vertikálny : object, building-part, road, landscape
+AN veľkoplošný : picture, place, process ; attr
+AN virtuózny : person, activity, creative-work
+AN vitálny : person, animal, plant, idea
+AN vizuálny : picture, creative-work, information ; attr
+AN vlásočný : quantity, idea, process ; attr
+AN vnímavý : person, animal
+AN vratký : furniture, building-part, object, state
+AN vrtkavý : person, phenomenon, feeling
+AN vydatný : meal, food, phenomenon, quantity
+AN vyhnuteľný : problem, incident, event
+AN vypočítateľný : person, process, quantity
+AN vypredaný : event, shop, text
+AN vysoko zložitý : problem, device, process, idea
+AN vzdorovitý : child, animal, person
+AN vzájomne dohodnutý : idea, rule, moment ; attr
+AN väčšinový : idea, feeling, quantity ; attr
+AN výbušný : substance, person, state
+AN výdatný : meal, food, phenomenon
+AN výhradný : rule, idea ; attr
+AN výpovedný : information, writing, creative-work
+AN výrazný : quality, person, body-part, picture
+AN výstredný : person, creative-work, clothing
+AN všadeprítomný : phenomenon, idea, problem, being
+AN všetok : quantity, information, thing
+AN zakorenený : person, idea, rule, tree
+AN zapríčinený zranením : state, problem, process ; pred
+AN zavrhnutiahodný : activity, idea, crime, person
+AN zavádzajúci : information, picture, idea, writing
+AN zbehlý : person
+AN zdraviu škodlivý : substance, food, activity, phenomenon
+AN zjazdný : road, landscape ; pred
+AN zmierlivý : person, idea, writing
+AN znepokojujúci : information, state, event, sound
+AN znesiteľný : state, feeling, quantity, phenomenon
+AN zničujúci : incident, phenomenon, information, idea
+AN znášanlivý : person, beast, relation
+AN zvládnuteľný : problem, activity, quantity, process
+AN zvláštny : person, event, sound, state, thing
+AN zvýšený : quantity, state, idea
+AN zákerný : person, illness, idea
+AN základný : idea, rule, information, quality
+AN závratný : quantity, process, building, idea
+AN úbohý : person, beast, state, creative-work
+AN úchvatný : landscape, building, creative-work, event, person
+AN ústavný : rule, institution, problem ; attr
+AN územný : institution, problem, idea ; attr
+AN čelný : building-part, object, incident ; attr
+AN čiastočný : state, process, quantity
+AN čudácky : person, idea, creative-work
+AN ďalekosiahly : idea, incident, process
+AN ľubovoľný : idea, thing, person, place ; attr
+AN šetrný : person, device, activity
+AN šetrný k životnému prostrediu : device, vehicle, activity, material
+AN šitý na mieru : clothing, wearable
+AN škodlivý pre životné prostredie : substance, activity, device, fuel
+AN špecifický : problem, idea, quality, information
+AN špekulatívny : idea, activity, information
+AN špičkový : device, professional, institution, activity
+AN štvormiestny : vehicle, furniture, room
+AN štylistický : writing, text, problem ; attr
+AN žalostný : state, person, animal, feeling
+AN životopisný : text, creative-work, information ; attr
+AN životu nebezpečný : activity, illness, place, substance
+AV neuveriteľne : degree
+V destabilizovať : institution > patient {región|štát|vláda|situácia}
+V destabilizovať : incident > patient {región|štát|vláda|situácia}
+V prekvitať : {obchod|kultúra|mesto|umenie|firma}
+V preriediť : person > patient {les|vlasy}
+V skrášliť : person > patient {izba|dom|záhrada|mesto|miestnosť}
+V slabnúť : animal
+V slabnúť : {vietor|búrka|hlas|bolesť|záujem}
+V spresniť : person > patient {údaj|správa (oznam)|nápad}
+V spresniť : person > patient {plán|otázka|odpoveď|výraz}
+V stagnovať : {hospodárstvo|obchod|mesto|firma}
+V sťažiť : incident > patient {práca|cesta (cestovanie)|život}
+V sťažiť : {riziko|situácia} > patient {práca|cesta (cestovanie)|život}
+V vyčistiť : person > patient cleanable
+V zhustiť : person > patient {omáčka|polievka|sirup}
+V znevýhodniť : rule > patient person
+V znevýhodniť : institution > patient person
+V zoslabiť : illness > patient animal
+V zoslabiť : incident > patient animal

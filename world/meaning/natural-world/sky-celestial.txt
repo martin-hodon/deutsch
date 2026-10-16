@@ -1,0 +1,66 @@
+AN vodorovný : object, furniture
+N slnko : celestial
+N východ slnka : phenomenon
+N západ slnka : phenomenon
+N slnečné svetlo : phenomenon
+N slnečný lúč : phenomenon
+N zatmenie Slnka : event, celestial
+N slnečná sústava : celestial
+N mesiac (na oblohe) : celestial ; auf
+N spln : celestial
+N nov : celestial
+N polmesiac : celestial
+N mesačné svetlo : phenomenon
+N mesačný svit : phenomenon
+N východ mesiaca : phenomenon
+N zatmenie Mesiaca : event, celestial
+AN lunárny : celestial, phenomenon ; attr
+N hviezda : celestial
+N súhvezdie : celestial
+N znamenie zverokruhu : idea
+N padajúca hviezda : celestial
+N hvezdáreň : building, enterable
+N svetlo hviezd : phenomenon
+AN hviezdnatý : period, place
+N planéta : celestial ; auf
+N trpasličia planéta : celestial ; auf
+N Mars : celestial ; auf
+N Venuša : celestial ; auf
+N Jupiter : celestial ; auf
+N Saturn : celestial ; auf
+N Merkúr : celestial ; auf
+N Urán : celestial ; auf
+N Neptún : celestial ; auf
+N kométa : celestial
+N meteor : celestial
+N meteorit : celestial
+N asteroid : celestial ; auf
+N galaxia : celestial
+N vesmír : celestial
+N obežná dráha : place
+N Mliečna cesta : celestial
+N obloha : place ; an
+N nebeské teleso : celestial
+N svetová strana : direction
+N hviezdna obloha : place ; an
+AN nebeský : being, celestial, state, phenomenon
+N nebeská klenba : place ; an
+N obzor : place ; an
+N zenit : place
+N súmrak : period
+N ranný súmrak : period
+N večerný súmrak : period
+V brieždiť sa : es
+N svitanie : period
+N šero : phenomenon
+N lúč : phenomenon
+AN žiarivý : celestial, phenomenon, person
+N atmosféra : state
+N polárna žiara : phenomenon
+N kosák : tool
+N kosáčik Mesiaca : celestial
+N supernova : celestial
+N svetelný rok : measure
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN atmosférický : phenomenon, gas, celestial

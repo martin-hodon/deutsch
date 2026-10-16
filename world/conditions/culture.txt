@@ -1,0 +1,18 @@
+# CULTURE GROUP conditions: performing, sport, religion
+V spievať : needs rád
+V vyhrať : gives rád
+V trénovať : needs zdravý ; gives unavený silný
+V cvičiť (gymnastika) : needs zdravý ; gives unavený
+V boxovať : needs zdravý ; gives unavený
+V zápasiť : needs zdravý ; gives unavený
+V lyžovať : needs zdravý ; gives unavený rád
+V korčuľovať sa : needs zdravý ; gives unavený rád
+V staviť sa : needs peniaze
+V maľovať : needs čas
+V skladať : needs čas
+V písať básne : needs čas
+V tleskať : needs rád
+V sláviť : needs rád ; gives unavený
+V modliť sa : needs strach ; gives pokojný
+V meditovať : gives pokojný
+V pútať sa : gives unavený

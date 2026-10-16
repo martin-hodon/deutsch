@@ -1,0 +1,237 @@
+# units
+N čas (trvanie)
+AN časový : adverb časovo
+N obdobie
+N časové rozpätie
+N časový bod
+AV súčasne
+AN včasný : adverb včas
+AV kedykoľvek
+AV dočasne
+AN bezodkladný : adverb bezodkladne
+AN krátkodobý
+N okamih
+AN momentálny : adverb momentálne
+PHR práve teraz
+N chvíľa
+N sekunda
+N minúta
+AN minútový
+N hodina
+N štvrťhodina
+AN hodinový
+AN hodiny trvajúci
+N deň
+AN denný : adverb denne
+PHR jedného dňa
+AV cez deň
+N denná doba
+AN celé dni trvajúci
+AN denne aktuálny
+N noc
+AN nočný
+N polnoc
+PHR cez noc
+AV v noci
+V prenocovať
+N nocľah
+N týždeň
+AN týždenný : adverb týždenne
+N víkend
+N deň v týždni
+AN týždne trvajúci
+N mesiac (časť roka)
+AN mesačný : adverb mesačne
+AN mesiace trvajúci
+N rok
+AN ročný
+N desaťročie
+N storočie
+N tisícročie
+AN dlhé roky trvajúci
+AN desaťročia trvajúci
+AN maloletý
+V premlčať sa
+AN štvrťročný : adverb štvrťročne
+N dátum
+V datovať
+N éra
+N fáza
+N etapa
+N epocha
+N cyklus
+AN cyklický : adverb cyklicky
+N lehota
+AN strednodobý
+V obmedziť na určitý čas
+AN na dobu neurčitú
+N frekvencia
+N polrok
+N začiatok roka
+N prelom roka
+N miestny čas
+N školský rok
+N rok života
+N miesto narodenia
+N pracovný deň
+N koniec roka
+N jesenné prázdniny
+N veľkonočné prázdniny
+N zmena času
+
+# day-parts-and-week
+N ráno
+AV ráno
+N poludnie
+N odpoludnie
+N predpoludnie
+AV napoludnie
+AV popoludní
+N večer
+AV večer
+N koniec pracovnej doby
+N pondelok
+N utorok
+N streda
+N štvrtok
+N piatok
+N sobota
+N nedeľa
+AV dnes
+AN dnešný
+PHR dnes večer
+PHR krátko nato
+PHR dnes ráno
+PHR dnes v noci
+AV v dnešnej dobe
+AV včera
+AV predvčerom
+PHR včera večer
+AV zajtra
+AV pozajtra
+N sezóna
+AN sezónny : adverb sezónne
+N ranná hodina
+
+# relative-time
+AV potom
+AV čoskoro
+AV skôr
+AN skorý : adverb skoro
+AN neskorý : adverb neskoro
+AV najneskôr
+AN raný
+AV kedysi
+AN dochvíľny : adverb dochvíľne
+N dochvíľnosť
+AV už
+AV ešte
+PHR ešte raz
+AV znova
+AN opakujúci sa
+AV opäť
+AV nikdy
+AV vždy
+PHR stále
+PHR stále znova
+PHR navždy
+AV predsa len
+PHR kedykoľvek
+AV často
+AV častejšie
+AV občas
+N príležitosť
+AN bez príčiny
+AV zvyčajne
+AV náhle
+AV hneď
+AV postupne
+PHR postupne
+PRE pred
+AV predtým
+AN dočasný : adverb dočasne
+PRE po
+PRE počas
+CON zatiaľ čo
+PRE do
+CON kým
+PRE od (dosiaľ)
+CON odkedy
+AV medzitým
+N budúcnosť
+AN budúci
+AN životaschopný
+AN futuristický
+N minulosť
+AN minulý
+N súčasnosť
+AN súčasný : adverb súčasne
+AN aktuálny : adverb aktuálne
+AV momentálne
+AV nedávno
+PHR nedávno
+PHR čoskoro
+PHR v poslednom čase
+AN moderný : adverb moderne
+V modernizovať
+AN antický
+N staroveká doba
+AN večný : adverb večne
+N večnosť
+AV konečne
+N nekonečno
+V trvať (časovo)
+N trvanie
+AN trvalý : adverb trvalo
+V pretrvávať
+AN konštantný : adverb konštantne
+N tempo
+V čakať
+V vyčkať
+V vytrvať
+V zotrvať
+N prestávka
+AV bez prestávky
+V robiť prestávku
+N interval
+N kalendár
+N rutina
+AN rutinovaný
+AN rutinný : adverb rutinne
+AN periodický : adverb periodicky
+AV odteraz
+AV spočiatku
+AV nakoniec
+AN splatný
+AN oneskorený
+AN promptný : adverb promptne
+N minulý rok
+N predchádzajúci deň
+N štvrťrok
+N všedný deň
+AN každodenný : adverb každodenne
+N polčas
+N termín
+N predchádzajúci týždeň
+N predchádzajúci mesiac
+N doba platnosti
+N krátkosť
+
+# months
+N január
+N február
+N marec
+N apríl
+N máj
+N jún
+N júl
+N august
+N september
+N október
+N november
+N december
+
+# more
+AN nedávny : adverb nedávno
+AN nadchádzajúci
+AN po sebe nasledujúci

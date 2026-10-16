@@ -1,0 +1,149 @@
+# plant-general
+N rastlina
+AN rastlinný
+N izbová rastlina
+N úžitková rastlina
+N liečivá rastlina
+V osadiť rastlinami
+N strom
+N ovocný strom
+N jabloň
+N čerešňa (strom)
+N ihličnatý strom
+N listnatý strom
+N koruna stromu
+N peň
+N kvetina
+N kytica
+N slnečnica
+N sedmokráska
+N nechtík
+N masliačik
+N tráva
+V pásť sa
+N steblo trávy
+N ker
+N krovie
+N bylina
+N burina
+N mach
+N papraď
+N úponok
+V ovíjať sa
+N vinič
+N trstina
+N kaktus
+N bambus
+N brečtan
+N ďatelina
+N žihľava
+N riasa
+N morská riasa
+N les
+N dažďový prales
+N prales
+N lesík
+N lesný požiar
+N háj
+N džungľa
+N lúka
+N kvetnatá lúka
+N vegetácia
+N živý plot
+N huba
+N hríb
+N muchotrávka červená
+N plesňová huba
+N pleseň
+V plesnivieť
+
+# plant-parts
+N koreň
+V vykoreniť
+N stonka
+N stopka
+N kmeň
+V pochádzať
+N konár
+N vetva
+N list (rastliny)
+N lupienok
+N ďatelinový list
+V listovať
+N lístie
+N kôra
+N puk
+N kvet
+V kvitnúť
+V rozkvitnúť
+V odkvitnúť
+N obdobie kvitnutia
+N semeno
+N tŕň
+AN tŕnitý
+N hloh
+N šťava
+N ovocný džús
+N peľ
+N nektár
+V vyrážať
+N výhonok
+V vädnúť
+V zvädnúť
+N klíčok
+V klíčiť
+N struk
+N živica
+N dužina
+N cibuľa
+N jarná cibuľka
+N hľuza
+N šiška
+N bodliak
+N imelo
+N plod
+AN ovocný
+N záhon
+
+# tree-flower-kinds
+N dub
+N žaluď
+N breza
+N javor
+N javor horský
+N vŕba
+N smútočná vŕba
+N jedľa
+N smrek
+N buk
+N jaseň
+N brest
+N topoľ
+N gaštan
+N céder
+N cyprus
+N lipa
+N palma
+N cezmína
+N osika
+N borievka
+N ruža
+N pivonka
+N šípka
+N tulipán
+N ľalia
+N fialka
+N mak
+N orchidea
+N karafiát
+N narcis
+N púpava
+N levanduľa
+N orgován
+N jazmín
+N magnólia
+N hyacint
+N pelargónia
+N chryzantéma
+N prvosienka
+N snežienka

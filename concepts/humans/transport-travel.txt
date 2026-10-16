@@ -1,0 +1,299 @@
+# vehicles
+N auto
+AN bez áut
+N autobus
+N voz
+N osobné auto
+N nákladné auto
+N kočík
+N taxík
+N vlak
+N koleso
+N bicykel
+N motocykel
+N cyklistický chodník
+V bicyklovať
+N kára
+N koč
+N sánky
+N loď
+N vesmírna loď
+PHR na palube
+N čln
+N plachetnica
+N ponorka
+N bárka
+N nákladný čln
+N trajekt
+N jachta
+N plť
+N kajak
+N lietadlo
+N vrtuľník
+N helikoptéra
+N raketa
+N kolobežka
+N moped
+N prúdové lietadlo
+N lokomotíva
+N karavána
+N záchranka
+N záchranársky vrtuľník
+N motocyklista
+N smer jazdy
+N spolucestujúci
+N zrážka
+N kolízia
+N preprava
+V prepravovať
+V odviezť
+N poznávacia značka
+N motorové vozidlo
+N zimná pneumatika
+N dodávkové auto
+
+# vehicle-parts
+N pneumatika
+N defekt pneumatiky
+N motor
+N kapota
+V motorizovať
+N brzda
+V brzdiť
+V zabrzdiť
+N pedál
+N benzín
+N pohonná látka
+N nafta
+N nádrž
+V tankovať
+N čerpacia stanica
+N veslo
+V veslovať
+N plachta
+V plaviť sa na plachetnici
+N kotva
+V kotviť
+V zakotviť
+N sťažeň
+N paluba
+N svetlomet
+N predné sklo
+N nárazník
+N palubná doska
+N klaksón
+N výfuk
+N tachometer
+N bezpečnostný pás
+N vrtuľa
+N pádlo
+N bója
+N plynový pedál
+N zadná časť
+
+# infrastructure
+N cesta (komunikácia)
+N zachádzka
+N železnica
+N električka
+N metro
+N diaľnica
+N stanica
+N nástupište
+N pristávacia dráha
+N hlavná stanica
+N koľaj
+N tunel
+N most
+N križovatka
+N priechod pre chodcov
+N doprava
+N cestná premávka
+N dopravný prostriedok
+AN dopravnopolitický
+N zápcha
+N semafor
+N zastávka
+N prístav
+N letisko
+N mólo
+N maják
+V parkovať
+N parkovisko
+N dok
+N lodenica
+N mýto
+N terminál
+N vozovka
+N mobilita
+N spolková cesta
+N prímestská železnica
+N jednosmerná ulica
+N obchádzka
+N parkovací dom
+N dopravná značka
+N odťahová služba
+N cesta domov
+N odpočívadlo
+N protismerná premávka
+N maximálna rýchlosť
+N telefónna búdka
+N priemyselná oblasť
+N kostolná veža
+N športové ihrisko
+N koľajnica
+N rampa
+N závora
+N oddych
+N cesta mimo mesta
+N nájazd
+N uzávera
+V asfaltovať
+
+# travel
+N jazda
+N vodič
+N spolujazdec
+N vozidlo
+N cyklista
+N cestovný poriadok
+N cestovné
+N jazdný pruh
+N odjazd
+N výjazd
+N cesta tam
+N cesta späť
+N plavba výletnou loďou
+V cúvať
+N motorista
+N motoristka
+N vodička
+V zraziť
+V vojsť
+V uviaznuť
+N cesta (cestovanie)
+V cestovať
+V odcestovať
+N cestovná kancelária
+N sprievodca
+N cestovný pas
+N námorná cesta
+N výlet
+N let
+N odlet
+N spiatočný let
+N letecká spoločnosť
+N dobrodružstvo
+AN dobrodružný : adverb dobrodružne
+N dobrodruh
+N turista
+N cestovný ruch
+AN turistický
+N cestujúci
+N posádka
+N pilot
+N námorník
+N kapitán
+N sprievodca vo vlaku
+N astronaut
+N lístok
+N meškanie
+V meškať
+N batožina
+N príručná batožina
+N kufor
+N batožinový priestor
+N batoh
+N vízum
+N kompas
+N vodičský preukaz
+N hotel
+N hostel
+N kabína
+N suvenír
+V pristáť
+N pristátie
+V štartovať
+N štart
+N zahraničie
+PHR v zahraničí
+V dochádzať
+N dochádzajúci
+N navigácia
+N trasa
+N trasa cesty
+V nastúpiť (do vozidla)
+V prestúpiť
+N nástup
+N výstup
+V zrýchliť
+N zrýchlenie
+V predbehnúť
+V odtiahnuť
+N nehoda
+N dopravná nehoda
+V mať nehodu
+N defekt
+N náklad
+N nákladná loď
+N kuriér
+N kokpit
+V prezrieť si
+N prehliadka
+N symbol mesta
+N prázdniny
+N rekreačné stredisko
+V rezervovať
+V zarezervovať
+N rezervácia
+V zaúčtovať
+V odúčtovať
+N chodba
+N padák
+N pas
+N ubytovanie
+N prázdninový byt
+N penzión
+N karavan
+N spací vak
+N preukaz
+N občiansky preukaz
+N bezpečnostná kontrola
+N cestovný lístok
+N revízor
+N prestup
+N plavba
+N prospekt
+N mapa
+N turistický chodník
+N konečná stanica
+N medzipristátie
+N cieľ cesty
+N vstup do krajiny
+V vstúpiť do krajiny
+N zájazdový autobus
+N linkový autobus
+N obytné auto
+N miesto na sedenie
+N miesto na státie
+N krém na opaľovanie
+N ruské koleso
+N miestna doprava
+N dovolenkár
+N účastník cestnej premávky
+N nasťahovanie
+V zájsť
+V cestovať spolu
+AN stredomorský
+
+# corpus-verbs
+V precestovať
+V navštevovať
+
+# driving
+V manévrovať
+V jazdiť
+
+# more
+N letectvo
+N tranzit

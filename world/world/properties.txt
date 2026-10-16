@@ -1,0 +1,19 @@
+# PROPERTIES (tools/world.py): what a place, a thing or the weather can be like, and the words for it -- each value
+# an adjective of the dictionary (its valence: sentences/valence.txt). The places (places/*.txt), the weather
+# (weather.txt) and the rules (rules.txt) use these names and values only; a story says them ("Die Küche war hell.").
+#     PROPERTY name : low < ... < high ; of what it is said of     (a scale)
+#     PROPERTY name : a | b | c ; of ...                            (kinds, no order)
+PROPERTY temperature : studený < chladný < teplý < horúci ; of place weather drink food
+PROPERTY wetness : suchý < vlhký < mokrý ; of place weather thing
+PROPERTY light : tmavý < svetlý ; of place weather
+PROPERTY loudness : tichý_(pokojný) < pokojný < hlasný ; of place
+PROPERTY size : malý < veľký ; of place thing
+PROPERTY space : tesný_(priestorovo) < široký ; of place
+PROPERTY age : nový < moderný < starý ; of place thing
+PROPERTY cleanliness : špinavý < čistý_(bez_špiny) ; of place thing
+PROPERTY crowd : prázdny < plný ; of place
+PROPERTY beauty : škaredý < krásny ; of place thing
+PROPERTY comfort : neútulný < útulný ; of place
+PROPERTY order : neporiadny < poriadny ; of place
+PROPERTY danger : bezpečný < nebezpečný ; of place
+PROPERTY colour : sivý | zelený | modrý | biely | pestrý | žltý | červený | hnedý ; of place thing

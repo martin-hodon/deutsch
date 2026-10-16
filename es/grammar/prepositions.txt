@@ -1,0 +1,77 @@
+# accusative
+1 PRE para {para} [ˈpaɾa] = pre
+1 PRE por {por} [poɾ] = pre
+2 PRE alrededor de {alrededor de} [alreðeˈðoɾ ðe] = okolo
+2 PRE en torno a {en torno a} [en ˈtoɾno a] = okolo
+2 AV tanto más {tanto más} [ˈtanto mas] = tým viac
+1 PRE sin {sin} [sin] = bez
+1 AV de todas formas {de todas formas} [de ˈtoðas ˈfoɾmas] = tak či tak
+1 PRE contra {contra} [ˈkontɾa] = proti
+1 PRE por {por} [poɾ] = na (za jednotku)
+2 PRE mediante {mediante} [meˈðjante] = prostredníctvom
+2 PRE a través de {a través de} [a tɾaˈβes ðe] = prostredníctvom
+
+# dative
+1 PRE de {de} [de] = z
+2 PRE junto a {junto a} [ˈxunto a] = pri
+2 PRE cerca de {cerca de} [ˈθeɾka ðe] = pri
+1 PRE con {con} [kon] = s
+1 PRE de {de} [de] = od (pôvod)
+1 PRE a {a} [a] = k
+1 PRE hacia {hacia} [ˈasja] = k
+2 PRE por el bien de {por el bien de} [poɾ el ˈβjen ðe] = pre dobro
+1 PRE desde {desde} [ˈdesðe] = od (začiatok)
+1 PRE a partir de {a partir de} [a paɾˈtiɾ ðe] = od (začiatok)
+2 PRE excepto {excepto} [eksˈθepto] = okrem
+2 PRE salvo {salvo} [ˈsalβo] = okrem
+3 PRE contrariamente a {contrariamente a} [kontɾaɾjaˈmente a] = v rozpore s
+2 PRE en contra de {en contra de} [eŋ ˈkontɾa ðe] = v rozpore s
+1 PRE según {según} [seˈɣun] = v súlade s
+2 PRE de acuerdo con {de acuerdo con} [de aˈkweɾðo kon] = v súlade s
+2 PRE junto con {junto con} [ˈxunto kon] = spolu s
+1 PRE gracias a {gracias a} [ˈɡɾaθjas a] = vďaka
+
+# genitive
+2 PRE a causa de {a causa de} [a ˈkawsa ðe] = kvôli
+2 PRE debido a {debido a} [deˈβiðo a] = kvôli
+1 PRE a pesar de {a pesar de} [a peˈsaɾ ðe] = napriek
+2 PRE pese a {pese a} [ˈpese a] = napriek
+1 PRE en lugar de {en lugar de} [en luˈɣaɾ ðe] = namiesto
+1 PRE en vez de {en vez de} [em ˈbeθ ðe] = namiesto
+2 AV en su lugar {en su lugar} [en su luˈɣaɾ] = namiesto toho
+2 AV en vez de eso {en vez de eso} [em ˈbeθ ðe ˈeso] = namiesto toho
+1 PRE dentro de {dentro de} [ˈdentɾo ðe] = vnútri
+1 PRE fuera de {fuera de} [ˈfweɾa ðe] = mimo
+3 PRE a este lado de {a este lado de} [a ˈeste ˈlaðo ðe] = na tejto strane
+2 PRE con base en {con base en} [kom ˈbase en] = na základe
+3 PRE sobre la base de {sobre la base de} [ˈsoβɾe la ˈbase ðe] = na základe
+3 PRE a consecuencia de {a consecuencia de} [a konseˈkwenθja ðe] = následkom
+3 PRE con motivo de {con motivo de} [kom moˈtiβo ðe] = pri príležitosti
+2 PRE en cuanto a {en cuanto a} [en ˈkwanto a] = pokiaľ ide o
+2 PRE respecto a {respecto a} [resˈpekto a] = pokiaľ ide o
+3 PRE en vista de {en vista de} [em ˈbista ðe] = vzhľadom na
+2 PRE ante {ante} [ˈante] = vzhľadom na
+2 PRE a favor de {a favor de} [a faˈβoɾ ðe] = v prospech
+2 PRE con ayuda de {con ayuda de} [kon aˈʝuða ðe] = pomocou
+2 PRE mediante {mediante} [meˈðjante] = pomocou
+3 PRE con el fin de {con el fin de} [kon el fin ðe] = za účelom
+2 PRE por parte de {por parte de} [poɾ ˈpaɾte ðe] = zo strany
+1 PRE en medio de {en medio de} [em ˈmeðjo ðe] = uprostred
+3 PRE al margen de {al margen de} [al ˈmaɾxen ðe] = stranou
+2 PRE lejos de {lejos de} [ˈlexos ðe] = stranou
+1 PRE cerca de {cerca de} [ˈθeɾka ðe] = neďaleko
+1 PRE durante {durante} [duˈɾante] = v priebehu
+3 PRE en el transcurso de {en el transcurso de} [en el tɾansˈkuɾso ðe] = v priebehu
+2 PRE incluido {incluido} [inkluˈiðo] = vrátane
+2 PRE incluyendo {incluyendo} [inkluˈʝendo] = vrátane
+
+# two-way
+1 PRE en {en} [en] = na (v kontakte)
+1 PRE a {a} [a] = na (v kontakte)
+1 PRE sobre {sobre} [ˈsoβɾe] = na (navrchu)
+1 PRE en {en} [en] = na (navrchu)
+2 PRE encima de {encima de} [enˈθima ðe] = na (navrchu)
+1 PRE en {en} [en] = v
+
+# more
+2 PHR independientemente de {independientemente de} [independjenteˈmente ðe] = bez ohľadu na

@@ -1,0 +1,8 @@
+# POLISH'S WORD FOR A CONCEPT where the realizer should not take the first commonest one -- `POS concept = word`.
+# Read by pl/realize.js (engine/lexicon.js).
+N kus = kawałek
+V skúsiť = próbować
+AN dokonalý = idealny
+V mať rád = lubić
+V obnoviť (pôvodný stav) = odnawiać
+AN ťažký = trudny

@@ -1,0 +1,111 @@
+# landforms
+N krajina (štát)
+N krajina (prírodná)
+N pevnina
+N vysočina
+N trávnatá krajina
+N pôda
+N zem
+N zemetrasenie
+N zosuv pôdy
+AN pozemský
+N kontinent
+AN kontinentálny
+N vrch
+N pohorie
+N vysoké pohorie
+N predhorie
+N horský hrebeň
+AN hornatý
+N horolezec
+N kopec
+N násyp
+AN kopcovitý
+N dolina
+N rovina
+N náhorná plošina
+N nížina
+N púšť
+AN pustý
+V spustošiť
+N duna
+N jaskyňa
+N útes (skalnatý)
+N vrchol
+V vrcholiť
+N samit
+N svah
+N zráz
+N roklina
+N sopka
+AN sopečný
+N erupcia sopky
+N kráter
+N tiesňava
+N výmoľ
+N trhlina v ľadovci
+N step
+N tundra
+N savana
+N prérie
+N terén
+N močiar
+N jama
+N priekopa
+N divočina
+N pologuľa
+N žľab
+V stekať
+N rašelinisko
+N vresovisko
+N pohan
+N sklon
+V nakláňať
+N priepasť (v teréne)
+N kraj
+N národný park
+N prírodná rezervácia
+
+# surface-materials
+N skala
+N skalný blok
+N skalný výčnelok
+N skalný hrot
+N skalná stena
+AN skalnatý
+N kameň
+N kamienok
+N hornina
+AN kamenistý
+N piesok
+N pohyblivý piesok
+AN piesočnatý
+N blato
+AN blatistý
+N prach
+AN prašný
+V prášiť
+N íl
+N tón
+N štrk
+N láva
+
+# geo-events
+N vypuknutie
+V vypuknúť
+N lavína
+N príroda
+AV samozrejme
+AN prirodzený : adverb prirodzene
+N prírodná katastrofa
+N ochrana prírody
+N svet
+N životné prostredie
+AV celosvetovo
+N svetová vojna
+AN svetoznámy
+AN otvorený svetu
+
+# earth
+V triasť sa
+N podlaha

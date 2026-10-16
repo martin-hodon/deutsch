@@ -1,0 +1,211 @@
+N sila : quality
+V znieť : sound > adj
+V znieť : {správa (oznam)|odpoveď|príbeh} > adj
+V znieť : {nápad|plán|návrh} > adj
+V znieť : {pieseň|hudba|melódia} > adj
+V znieť : {muž|žena|dieťa|priateľ|priateľka|dievča|chlapec} > adj
+V riadiť : {učiteľ|tréner|šéf|rebrík|riaditeľ|manažér|matka|otec} > patient group -{vedenie}
+V riadiť : person -child > patient institution
+V riadiť : metal > patient {prúd|teplo|elektrina|horúčava}
+N hmota : substance
+AN materiálny : thing, material, money, state ; attr
+N substancia : substance
+N vzduch : gas
+V vetrať : person > patient room
+V vetrať : person
+AN vzdušný : clothing, place, food
+N plyn : gas
+AN plynný : substance
+N zemný plyn : fuel, burnable
+AN tekutý : substance
+N tekutina : liquid
+N pevná látka : material
+N kyslík : gas
+N vodík : gas
+N dusík : gas
+N atóm : substance
+AN atómový : weapon, device, building, substance, phenomenon
+N atómová bomba : weapon
+N jadrová elektráreň : building, enterable
+N molekula : substance
+N častica : substance
+N dym : gas
+V dymiť : {oheň|krb|komín|cigareta}
+V dymiť : building
+V dymiť : vehicle
+V dymiť : device
+N sadze : substance
+N popol : substance
+N popolník : container, fillable
+N minerál : stone
+N kov : metal
+N železo : metal
+AN železný : artifact, rule
+N zlato : metal
+AN zlatý : artifact, period
+N striebro : metal
+AN strieborný : artifact, period
+N meď : metal
+N olovo : metal
+N zinok : metal
+N ortuť : metal
+N síra : substance
+N bronz : metal
+N mosadz : metal
+N hrdza : substance
+AN hrdzavý : artifact, metal
+V hrdzavieť : artifact
+V hrdzavieť : metal
+N uhlie : fuel, burnable
+N uhlík : substance
+N oxid uhličitý : gas
+N drevené uhlie : fuel, burnable
+N ropa : fuel, burnable
+N kryštál : stone
+N diamant : stone
+N mramor : stone
+N žula : stone
+N kremeň : stone
+N ruda : stone
+N decht : substance
+N vosk : material
+N hustota : quality
+N masa : substance
+AN roztopený : material
+V vypariť sa : liquid
+V rozpustiť : {muž|žena|dieťa|matka|otec|kuchár} > patient {cukor|soľ|tabletka}
+V rozpustiť : agent > patient institution
+V rozpustiť : {cukor|soľ|tabletka}
+N rozpustenie : event
+N rozpúšťadlo : liquid
+V absorbovať : material > patient substance
+V absorbovať : fabric > patient substance
+V absorbovať : plant > patient substance
+V absorbovať : animal > patient substance
+V horieť : building
+V horieť : thing +burnable
+V horieť : tree
+V horieť : {ker|les}
+V horieť : vehicle
+V horieť : es
+AN horľavý : substance, material, fabric, thing, furniture, building-part
+N požiar : incident
+V spáliť : person > patient thing +burnable
+V spáliť : person > patient wood +burnable
+V spáliť : person > patient fuel +burnable
+V spáliť : person > patient {ruka|prst|koža (orgán)|jazyk (orgán)}
+V spáliť : thing +burnable
+V spáliť : tree
+N palivo : fuel, burnable
+N oheň : phenomenon, burnable
+N táborák : phenomenon, burnable
+N zapaľovač : tool
+N plameň : phenomenon
+N iskra : phenomenon
+V žeraviť sa : metal
+V žeraviť sa : fuel
+V žeraviť sa : device
+V žeraviť sa : {oheň|láva|žeravé uhlie|slnko}
+N žeravé uhlie : phenomenon
+AN žeravý : metal, fuel, device, phenomenon, stone, celestial
+N žiarovka : device, thing, breakable
+N svetlo : phenomenon, switchable
+V svietiť : {lampa|lampáš|sviečka|obrazovka|svetlomet|displej|baterka}
+V svietiť : {slnko|mesiac (na oblohe)|hviezda}
+V svietiť : {blesk|oheň|svetlo}
+AN svietivý : device, celestial, phenomenon, flower, clothing, body-part
+V osvetliť : device > patient place
+V osvetliť : device > patient building
+V osvetliť : device > patient landscape
+V osvetliť : celestial > patient place
+V osvetliť : celestial > patient building
+V osvetliť : celestial > patient landscape
+V osvetliť : {blesk|oheň|plameň} > patient place
+V osvetliť : {blesk|oheň|plameň} > patient building
+V osvetliť : {blesk|oheň|plameň} > patient landscape
+N osvetlenie : phenomenon, switchable
+N tieň : phenomenon
+AN tienistý : place
+AN tmavý : room, road, {dom|budova}, {les|jaskyňa|dolina}, clothing, fabric, furniture, {pivo|káva|čaj|víno|čokoláda}, material, {vlasy|oko|koža (orgán)}, flower, fruit
+N tma : state
+V zatemniť : person > patient place
+AN svetlý : room, building, clothing, fabric, furniture, {pivo}, material, {vlasy|oko|koža (orgán)}, flower, celestial, -{slnko}, {svetlo|deň|ráno|oheň|blesk}
+N jas : quality
+N odraz : phenomenon
+V zrkadliť sa : water-body > patient {mesiac (na oblohe)|slnko}
+V zrkadliť sa : water-body > patient landscape
+V zrkadliť sa : water-body > patient building
+V zrkadliť sa : {mesiac (na oblohe)|slnko} > location water-body
+V zrkadliť sa : building > location water-body
+N záblesk : phenomenon
+N energia : phenomenon
+N elektráreň : building, enterable
+N gravitácia : phenomenon
+N magnet : device, thing
+AN magnetický : metal, material, device, thing, phenomenon
+N tlak : phenomenon
+N trenie : phenomenon
+N žiarenie : phenomenon
+V žiariť : {slnko|hviezda|mesiac (na oblohe)|galaxia}
+V žiariť : {lampa|laser|svetlomet|baterka|sviečka|lampáš}
+V žiariť : {svetlo|oheň|tvár|úsmev}
+V žiariť : person > cause {radosť|šťastie|hrdosť|nadšenie}
+V vyžarovať : celestial > patient {svetlo|teplo|horúčava|energia}
+V vyžarovať : device > patient {svetlo|teplo|žiarenie|signál}
+V vyžarovať : substance > patient {teplo|žiarenie|pach|chlad}
+V vyžarovať : person > patient feeling
+V vyžarovať : person > patient {pokoj|sebadôvera|vyrovnanosť|teplo}
+N impulz : feeling
+V vyslať : device > patient {signál|správa (oznam)|vlna}
+V vyslať : celestial > patient {svetlo|teplo|žiarenie}
+V vyslať : device > patient {svetlo|žiarenie|tón}
+V vyslať : animal > patient {tón|pach|signál}
+N prúd : phenomenon, water-body
+V prúdiť : liquid
+V prúdiť : {vzduch|para|dym|plyn}
+V prúdiť : {ľudia|množstvo|obecenstvo|návštevník}
+N výpadok prúdu : incident
+N energetický obrat : process
+N efekt : process
+N šum : sound
+N zvuk : sound
+N hluk : sound
+V hlučať : animal
+N tresk : sound
+AN tichý (pokojný) : place, period, person
+N ticho : state
+N ozvena : sound
+N vibrácia : phenomenon
+V vibrovať : device
+V vibrovať : thing
+V vibrovať : vehicle
+V vibrovať : furniture
+N emisia : process
+# added: brennen in its second sense
+V vypaľovať : person > patient artifact
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN energeticky náročný : device, vehicle, building, activity, process
+AN energeticky účinný : device, vehicle, building, process
+AN masový : event, celebration, crime, activity
+AN razantný : person, activity, process, event
+AN vyčerpávajúci : activity, process, event, period
+AN úderný : weapon, tool, group
+N spektrum : quantity
+V elektrifikovať : person > patient {železnica|dom|dedina}
+V filtrovať : person > patient liquid
+V filtrovať : device > patient liquid
+V kontaminovať : substance > patient water-body
+V kontaminovať : person > patient food
+V rafinovať : person > patient {olej|cukor}
+V vyhorieť : building
+V vyhorieť : person
+V vyschnúť : water-body
+V vyschnúť : plant
+V vyschnúť : liquid
+V vystreliť : person > patient weapon
+V vystreliť : weapon
+V zapáliť : person > patient fuel
+V zapáliť : person > patient {oheň|dom|sviečka}
+V zhorieť : building
+V zhorieť : document

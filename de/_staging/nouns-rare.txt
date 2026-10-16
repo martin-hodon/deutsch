@@ -1,0 +1,533 @@
+@ humans/home-dwelling.txt # building-parts
+3 N der Estrich {Estrich} [ˈɛstʁɪç], Estriche = poter
+3 N der Fußboden {Fuß|boden} [ˈfuːsboːdən], Fußböden = podlaha
+3 N das Laminat {Laminat} [lamiˈnaːt], Laminate = laminát, laminátová podlaha
+3 N der Erker {Erker} [ˈɛʁkɐ], Erker = arkier
+3 N der Giebel {Giebel} [ˈɡiːbəl], Giebel = štít
+3 N die Mansarde {Mansarde} [manˈzaʁdə], Mansarden = podkrovná izba, manzarda
+3 N der Windfang {Wind|fang} [ˈvɪntfaŋ], Windfänge = závetrie, vstupná predsieň
+3 N der Notausgang {Not|ausgang} [ˈnoːtaʊsɡaŋ], Notausgänge = núdzový východ
+3 N das Gartenhaus {Garten|haus} [ˈɡaʁtənhaʊs], Gartenhäuser = záhradný domček
+3 N das Parterre {Parterre} [paʁˈtɛʁ], Parterres = prízemie
+@ humans/home-dwelling.txt # rooms
+3 N der Abstellraum {Abstell|raum} [ˈapʃtɛlʁaʊm], Abstellräume = komora, sklad
+3 N die Waschküche {Wasch|küche} [ˈvaʃkʏçə], Waschküchen = práčovňa
+@ humans/home-dwelling.txt # household-objects
+3 N der Föhn {Föhn} [føːn], Föhne = fén
+3 N das Verlängerungskabel {Verlängerungs|kabel} [fɛɐˈlɛŋɡəʁʊŋskaːbəl], Verlängerungskabel = predlžovací kábel
+3 N die Gardine {Gardine} [ɡaʁˈdiːnə], Gardinen = záclona
+3 N der Waschlappen {Wasch|lappen} [ˈvaʃlapən], Waschlappen = žinka
+3 N die Kanne {Kanne} [ˈkanə], Kannen = kanvica, džbán
+3 N der Schraubendreher {Schrauben|dreher} [ˈʃʁaʊbəndʁeːɐ], Schraubendreher = skrutkovač
+3 N der Umzugswagen {Umzugs|wagen} [ˈʊmtsuːksvaːɡən], Umzugswagen = sťahovacie auto
+3 N der Untermieter {Unter|mieter} [ˈʊntɐmiːtɐ], Untermieter = podnájomník
+@ humans/food-cooking.txt # food-general
+3 N die Messerspitze {Messer|spitze} [ˈmɛsɐʃpɪtsə], Messerspitzen = špička noža
+3 N die Unverträglichkeit {Un|verträglich|keit} [ˈʊnfɛɐtʁɛːklɪçkaɪt], Unverträglichkeiten = neznášanlivosť
+3 N der Zusatzstoff {Zusatz|stoff} [ˈtsuːzatsʃtɔf], Zusatzstoffe = prídavná látka
+3 N der Konservierungsstoff {Konservierungs|stoff} [kɔnzɛʁˈviːʁʊŋsʃtɔf], Konservierungsstoffe = konzervant
+3 N der Ballaststoff {Ballast|stoff} [ˈbalastʃtɔf], Ballaststoffe = vláknina
+3 N das Kohlenhydrat {Kohlen|hydrat} [ˈkoːlənhydʁaːt], Kohlenhydrate = sacharid
+3 N der Mineralstoff {Mineral|stoff} [mineˈʁaːlʃtɔf], Mineralstoffe = minerálna látka
+3 N die Cornflakes {Cornflakes} [ˈkɔʁnfleɪks], PL = kukuričné lupienky
+3 N das Kotelett {Kotelett} [ˈkɔtlɛt], Koteletts = kotleta
+3 N der Eintopf {Ein|topf} [ˈaɪntɔpf], Eintöpfe = hustá polievka, jednohrnec
+3 N der Haferbrei {Hafer|brei} [ˈhaːfɐbʁaɪ], Haferbreie = ovsená kaša
+3 N die Margarine {Margarine} [maʁɡaˈʁiːnə], - = margarín
+3 N das Marzipan {Marzipan} [ˈmaʁtsipaːn], Marzipane = marcipán
+3 N die Semmel {Semmel} [ˈzɛməl], Semmeln = žemľa
+3 N der Schnittlauch {Schnitt|lauch} [ˈʃnɪtlaʊx], - = pažítka
+3 N der Kümmel {Kümmel} [ˈkʏməl], - = rasca
+3 N der Lorbeer {Lorbeer} [ˈlɔʁbeːɐ], Lorbeeren = vavrín
+@ humans/food-cooking.txt # kitchen-tools
+3 N der Schöpflöffel {Schöpf|löffel} [ˈʃœpflœfəl], Schöpflöffel = naberačka
+3 N das Nudelholz {Nudel|holz} [ˈnuːdəlhɔlts], Nudelhölzer = valček
+3 N das Backblech {Back|blech} [ˈbakblɛç], Backbleche = plech na pečenie
+3 N das Schneidebrett {Schneide|brett} [ˈʃnaɪdəbʁɛt], Schneidebretter = doska na krájanie
+3 N das Brotmesser {Brot|messer} [ˈbʁoːtmɛsɐ], Brotmesser = nôž na chlieb
+3 N die Pfeffermühle {Pfeffer|mühle} [ˈpfɛfɐmyːlə], Pfeffermühlen = mlynček na korenie
+3 N der Salzstreuer {Salz|streuer} [ˈzaltsʃtʁɔʏɐ], Salzstreuer = soľnička
+3 N die Butterdose {Butter|dose} [ˈbʊtɐdoːzə], Butterdosen = maselnička
+3 N die Zuckerdose {Zucker|dose} [ˈtsʊkɐdoːzə], Zuckerdosen = cukornička
+3 N der Eierbecher {Eier|becher} [ˈaɪɐbɛçɐ], Eierbecher = téglik na vajíčko
+3 N die Thermoskanne {Thermos|kanne} [ˈtɛʁmɔskanə], Thermoskannen = termoska
+3 N die Kaffeekanne {Kaffee|kanne} [ˈkafekanə], Kaffeekannen = kanvica na kávu
+3 N das Weinglas {Wein|glas} [ˈvaɪnɡlaːs], Weingläser = pohár na víno
+3 N das Sektglas {Sekt|glas} [ˈzɛktɡlaːs], Sektgläser = pohár na šampanské
+3 N der Zahnstocher {Zahn|stocher} [ˈtsaːnʃtɔxɐ], Zahnstocher = špáradlo
+@ humans/trade-money.txt # buying-selling
+3 N der Einkaufskorb {Einkaufs|korb} [ˈaɪnkaʊfskɔʁp], Einkaufskörbe = nákupný košík
+3 N die Anprobe {An|probe} [ˈanpʁoːbə], Anproben = skúška, skúšanie
+3 N die Umkleidekabine {Um|kleide|kabine} [ˈʊmklaɪdəkabiːnə], Umkleidekabinen = skúšobná kabínka
+3 N das Sonderangebot {Sonder|angebot} [ˈzɔndɐanɡəboːt], Sonderangebote = akciová ponuka
+3 N der Schlussverkauf {Schluss|verkauf} [ˈʃlʊsfɛɐkaʊf], Schlussverkäufe = výpredaj
+3 N das Preisschild {Preis|schild} [ˈpʁaɪsʃɪlt], Preisschilder = cenovka
+3 N die Pfandflasche {Pfand|flasche} [ˈpfantflaʃə], Pfandflaschen = zálohová fľaša
+3 N die Versandkosten {Versand|kosten} [fɛɐˈzantkɔstən], PL = poštovné, náklady na dopravu
+3 N der Kundenservice {Kunden|service} [ˈkʊndənzœʁvɪs], - = služby zákazníkom
+@ humans/trade-money.txt # places-of-trade
+3 N die Fleischerei {Fleischerei} [flaɪʃəˈʁaɪ], Fleischereien = mäsiarstvo
+3 N der Blumenladen {Blumen|laden} [ˈbluːmənlaːdən], Blumenläden = kvetinárstvo
+3 N der Schreibwarenladen {Schreibwaren|laden} [ˈʃʁaɪpvaːʁənlaːdən], Schreibwarenläden = papiernictvo
+@ humans/trade-money.txt # money
+3 N das Sparkonto {Spar|konto} [ˈʃpaːɐkɔnto], Sparkonten = sporiaci účet
+3 N der Kontoauszug {Konto|auszug} [ˈkɔntoaʊstsuːk], Kontoauszüge = výpis z účtu
+3 N die Geheimzahl {Geheim|zahl} [ɡəˈhaɪmtsaːl], Geheimzahlen = PIN, tajné číslo
+3 N der Bankautomat {Bank|automat} [ˈbaŋkaʊtomaːt], Bankautomaten = bankomat
+3 N die Banknote {Bank|note} [ˈbaŋknoːtə], Banknoten = bankovka
+3 N die Ratenzahlung {Raten|zahlung} [ˈʁaːtəntsaːlʊŋ], Ratenzahlungen = splátky
+3 N der Restbetrag {Rest|betrag} [ˈʁɛstbətʁaːk], Restbeträge = zvyšná suma
+3 N der Gesamtbetrag {Gesamt|betrag} [ɡəˈzamtbətʁaːk], Gesamtbeträge = celková suma
+3 N die Anzahlung {An|zahlung} [ˈantsaːlʊŋ], Anzahlungen = záloha, akontácia
+3 N die Zahlungsfrist {Zahlungs|frist} [ˈtsaːlʊŋsfʁɪst], Zahlungsfristen = lehota splatnosti
+3 N der Schadensfall {Schadens|fall} [ˈʃaːdənsfal], Schadensfälle = poistná udalosť
+@ humans/work-industry.txt # work-general
+3 N die Probezeit {Probe|zeit} [ˈpʁoːbətsaɪt], Probezeiten = skúšobná doba
+3 N die Kündigungsfrist {Kündigungs|frist} [ˈkʏndɪɡʊŋsfʁɪst], Kündigungsfristen = výpovedná lehota
+3 N die Nachtschicht {Nacht|schicht} [ˈnaxtʃɪçt], Nachtschichten = nočná zmena
+3 N die Gleitzeit {Gleit|zeit} [ˈɡlaɪttsaɪt], - = pružný pracovný čas
+3 N die Krankmeldung {Krank|meldung} [ˈkʁaŋkmɛldʊŋ], Krankmeldungen = ohlásenie choroby
+3 N das Arbeitsamt {Arbeits|amt} [ˈaʁbaɪtsamt], Arbeitsämter = úrad práce
+3 N die Umschulung {Um|schulung} [ˈʊmʃuːlʊŋ], Umschulungen = rekvalifikácia
+3 N die Fertigkeit {Fertig|keit} [ˈfɛʁtɪçkaɪt], Fertigkeiten = zručnosť
+3 N die Begabung {Begabung} [bəˈɡaːbʊŋ], Begabungen = nadanie, talent
+3 N die Kauffrau {Kauf|frau} [ˈkaʊffʁaʊ], Kauffrauen = obchodníčka
+3 N der Freiberufler {Frei|berufler} [ˈfʁaɪbəʁuːflɐ], Freiberufler = slobodné povolanie, živnostník
+3 N der Fleischer {Fleischer} [ˈflaɪʃɐ], Fleischer = mäsiar
+3 N der Tischler {Tischler} [ˈtɪʃlɐ], Tischler = stolár
+3 N der Schlosser {Schlosser} [ˈʃlɔsɐ], Schlosser = zámočník
+3 N der Monteur {Monteur} [mɔnˈtøːɐ], Monteure = montér
+3 N der Zöllner {Zöllner} [ˈtsœlnɐ], Zöllner = colník
+3 N der Pförtner {Pförtner} [ˈpfœʁtnɐ], Pförtner = vrátnik
+3 N der Reiseleiter {Reise|leiter} [ˈʁaɪzəlaɪtɐ], Reiseleiter = sprievodca (turistov)
+3 N die Reinigungskraft {Reinigungs|kraft} [ˈʁaɪnɪɡʊŋskʁaft], Reinigungskräfte = upratovačka
+3 N der Hausmann {Haus|mann} [ˈhaʊsman], Hausmänner = muž v domácnosti
+3 N die Bedienungsanleitung {Bedienungs|anleitung} [bəˈdiːnʊŋsanlaɪtʊŋ], Bedienungsanleitungen = návod na obsluhu
+3 N das Handbuch {Hand|buch} [ˈhantbuːx], Handbücher = príručka
+3 N der Aktenordner {Akten|ordner} [ˈaktənɔʁdnɐ], Aktenordner = zakladač
+3 N die Mappe {Mappe} [ˈmapə], Mappen = zložka, aktovka
+3 N die Büroklammer {Büro|klammer} [byˈʁoːklamɐ], Büroklammern = kancelárska spona
+3 N der Bürostuhl {Büro|stuhl} [byˈʁoːʃtuːl], Bürostühle = kancelárska stolička
+3 N der Kopierer {Kopierer} [kopiˈʁiːʁɐ], Kopierer = kopírka
+3 N der Locher {Locher} [ˈlɔxɐ], Locher = dierkovač
+3 N der Tacker {Tacker} [ˈtakɐ], Tacker = zošívačka
+3 N der Filzstift {Filz|stift} [ˈfɪltsʃtɪft], Filzstifte = fixka
+3 N der Füller {Füller} [ˈfʏlɐ], Füller = plniace pero
+3 N der Spitzer {Spitzer} [ˈʃpɪtsɐ], Spitzer = strúhadlo na ceruzky
+3 N der Beamer {Beamer} [ˈbiːmɐ], Beamer = projektor
+3 N das Whiteboard {White|board} [ˈvaɪtbɔʁt], Whiteboards = tabuľa (biela)
+@ humans/knowledge-education.txt # school
+3 N der Klassenlehrer {Klassen|lehrer} [ˈklasənleːʁɐ], Klassenlehrer = triedny učiteľ
+3 N der Klassenkamerad {Klassen|kamerad} [ˈklasənkamaʁaːt], Klassenkameraden = spolužiak
+3 N der Schulfreund {Schul|freund} [ˈʃuːlfʁɔʏnt], Schulfreunde = školský kamarát
+3 N der Ranzen {Ranzen} [ˈʁantsən], Ranzen = školská aktovka
+3 N die Federmappe {Feder|mappe} [ˈfeːdɐmapə], Federmappen = peračník
+3 N das Schulbuch {Schul|buch} [ˈʃuːlbuːx], Schulbücher = školská učebnica
+3 N das Arbeitsbuch {Arbeits|buch} [ˈaʁbaɪtsbuːx], Arbeitsbücher = pracovný zošit
+3 N der Pausenhof {Pausen|hof} [ˈpaʊzənhoːf], Pausenhöfe = školský dvor
+3 N die Schulferien {Schul|ferien} [ˈʃuːlfeːʁiən], PL = školské prázdniny
+3 N der Stundenplan {Stunden|plan} [ˈʃtʊndənplaːn], Stundenpläne = rozvrh hodín
+3 N die Nachhilfe {Nach|hilfe} [ˈnaːxhɪlfə], - = doučovanie
+3 N das Diktat {Diktat} [dɪkˈtaːt], Diktate = diktát
+3 N die Vokabel {Vokabel} [voˈkaːbəl], Vokabeln = slovíčko
+3 N das Lexikon {Lexikon} [ˈlɛksikɔn], Lexika = encyklopédia, slovník
+3 N die Erdkunde {Erd|kunde} [ˈeːɐtkʊndə], - = zemepis
+3 N die Addition {Addition} [adiˈtsjoːn], Additionen = sčítanie
+3 N das Rechnen {Rechnen} [ˈʁɛçnən], - = počítanie
+3 N der Rauminhalt {Raum|inhalt} [ˈʁaʊmɪnhalt], Rauminhalte = objem
+@ humans/health-medicine.txt # health-illness
+3 N die Brandwunde {Brand|wunde} [ˈbʁantvʊndə], Brandwunden = popálenina
+3 N der Sonnenbrand {Sonnen|brand} [ˈzɔnənbʁant], Sonnenbrände = spálenie od slnka
+3 N der Sonnenstich {Sonnen|stich} [ˈzɔnənʃtɪç], Sonnenstiche = úpal
+3 N der Insektenstich {Insekten|stich} [ɪnˈzɛktənʃtɪç], Insektenstiche = bodnutie hmyzom
+3 N der Krampf {Krampf} [kʁampf], Krämpfe = kŕč
+3 N die Karies {Karies} [ˈkaːʁiɛs], - = zubný kaz
+@ humans/health-medicine.txt # treatment
+3 N die Arznei {Arznei} [aʁtsˈnaɪ], Arzneien = liek
+3 N die Augentropfen {Augen|tropfen} [ˈaʊɡəntʁɔpfən], PL = očné kvapky
+3 N der Hustensaft {Husten|saft} [ˈhuːstənzaft], Hustensäfte = sirup proti kašľu
+3 N das Nasenspray {Nasen|spray} [ˈnaːzənʃpʁeː], Nasensprays = nosový sprej
+3 N die Packungsbeilage {Packungs|beilage} [ˈpakʊŋsbaɪlaːɡə], Packungsbeilagen = písomná informácia pre používateľa
+3 N der Verbandskasten {Verbands|kasten} [fɛɐˈbantskastən], Verbandskästen = lekárnička
+3 N das Fieberthermometer {Fieber|thermometer} [ˈfiːbɐtɛʁmomeːtɐ], Fieberthermometer = teplomer
+3 N die Verschreibung {Ver|schreibung} [fɛɐˈʃʁaɪbʊŋ], Verschreibungen = predpísanie lieku
+3 N die Füllung {Füllung} [ˈfʏlʊŋ], Füllungen = plomba, náplň
+3 N die Zahnspange {Zahn|spange} [ˈtsaːnʃpaŋə], Zahnspangen = zubná strojček
+3 N die Kontaktlinse {Kontakt|linse} [kɔnˈtaktlɪnzə], Kontaktlinsen = kontaktná šošovka
+3 N das Hörgerät {Hör|gerät} [ˈhøːɐɡəʁɛːt], Hörgeräte = načúvací aparát
+3 N die Gymnastik {Gymnastik} [ɡʏmˈnastɪk], - = gymnastika, cvičenie
+3 N der Kaiserschnitt {Kaiser|schnitt} [ˈkaɪzɐʃnɪt], Kaiserschnitte = cisársky rez
+3 N der Schnuller {Schnuller} [ˈʃnʊlɐ], Schnuller = cumlík
+@ humans/health-medicine.txt # medical-people-places
+3 N der Augenarzt {Augen|arzt} [ˈaʊɡənaʁtst], Augenärzte = očný lekár
+3 N der Frauenarzt {Frauen|arzt} [ˈfʁaʊənaʁtst], Frauenärzte = gynekológ
+@ humans/art-entertainment.txt # games-sport
+3 N der Bauklotz {Bau|klotz} [ˈbaʊklɔts], Bauklötze = stavebná kocka
+3 N der Sandkasten {Sand|kasten} [ˈzantkastən], Sandkästen = pieskovisko
+3 N die Schaukel {Schaukel} [ˈʃaʊkəl], Schaukeln = hojdačka
+@ humans/transport-travel.txt # travel
+3 N die Jugendherberge {Jugend|herberge} [ˈjuːɡənthɛʁbɛʁɡə], Jugendherbergen = mládežnícka ubytovňa
+3 N das Einzelzimmer {Einzel|zimmer} [ˈaɪntsəltsɪmɐ], Einzelzimmer = jednolôžková izba
+3 N das Doppelzimmer {Doppel|zimmer} [ˈdɔpəltsɪmɐ], Doppelzimmer = dvojlôžková izba
+3 N die Halbpension {Halb|pension} [ˈhalpɑ̃zjoːn], - = polpenzia
+3 N die Vollpension {Voll|pension} [ˈfɔlpɑ̃zjoːn], - = plná penzia
+3 N die Rezeption {Rezeption} [ʁetsɛpˈtsjoːn], Rezeptionen = recepcia
+3 N der Zimmerservice {Zimmer|service} [ˈtsɪmɐzœʁvɪs], - = izbová služba
+3 N die Reisetasche {Reise|tasche} [ˈʁaɪzətaʃə], Reisetaschen = cestovná taška
+3 N die Passkontrolle {Pass|kontrolle} [ˈpaskɔntʁɔlə], Passkontrollen = pasová kontrola
+3 N die Bordkarte {Bord|karte} [ˈbɔʁtkaʁtə], Bordkarten = palubný lístok
+3 N das Flugticket {Flug|ticket} [ˈfluːktɪkɛt], Flugtickets = letenka
+3 N der Fahrkartenautomat {Fahr|karten|automat} [ˈfaːɐkaʁtənaʊtomaːt], Fahrkartenautomaten = automat na lístky
+3 N der Entwerter {Entwerter} [ɛntˈveːɐtɐ], Entwerter = označovač lístkov
+3 N der Schwarzfahrer {Schwarz|fahrer} [ˈʃvaʁtsfaːʁɐ], Schwarzfahrer = čierny pasažier
+3 N die Platzkarte {Platz|karte} [ˈplatskaʁtə], Platzkarten = miestenka
+3 N die Rundfahrt {Rund|fahrt} [ˈʁʊntfaːɐt], Rundfahrten = okružná jazda
+3 N der Stadtplan {Stadt|plan} [ˈʃtatplaːn], Stadtpläne = plán mesta
+3 N der Wegweiser {Weg|weiser} [ˈveːkvaɪzɐ], Wegweiser = ukazovateľ smeru
+3 N das Fundbüro {Fund|büro} [ˈfʊntbyʁoː], Fundbüros = úschovňa nájdených vecí
+3 N die Wartehalle {Warte|halle} [ˈvaʁtəhalə], Wartehallen = čakáreň
+@ humans/transport-travel.txt # infrastructure
+3 N der Parkschein {Park|schein} [ˈpaʁkʃaɪn], Parkscheine = parkovací lístok
+3 N die Parkuhr {Park|uhr} [ˈpaʁkuːɐ], Parkuhren = parkovacie hodiny
+3 N der Strafzettel {Straf|zettel} [ˈʃtʁaːftsɛtəl], Strafzettel = pokuta (lístok)
+@ humans/transport-travel.txt # vehicles
+3 N der Mietwagen {Miet|wagen} [ˈmiːtvaːɡən], Mietwagen = požičané auto
+3 N die Fahrschule {Fahr|schule} [ˈfaːɐʃuːlə], Fahrschulen = autoškola
+3 N das Navigationsgerät {Navigations|gerät} [naviɡaˈtsjoːnsɡəʁɛːt], Navigationsgeräte = navigácia
+@ humans/transport-travel.txt # vehicle-parts
+3 N die Kupplung {Kupplung} [ˈkʊplʊŋ], Kupplungen = spojka
+3 N der Gurt {Gurt} [ɡʊʁt], Gurte = pás
+@ cognitive/mind-thought.txt # thinking
+3 N das Gegenargument {Gegen|argument} [ˈɡeːɡənaʁɡumɛnt], Gegenargumente = protiargument
+3 N die Widerlegung {Wider|legung} [ˈviːdɐleːɡʊŋ], Widerlegungen = vyvrátenie
+3 N die Beweisführung {Beweis|führung} [bəˈvaɪsfyːʁʊŋ], Beweisführungen = dokazovanie
+3 N die Erörterung {Er|örterung} [ɛɐˈœʁtəʁʊŋ], Erörterungen = rozbor, diskusia
+3 N die Einbildung {Ein|bildung} [ˈaɪnbɪldʊŋ], Einbildungen = predstava, namýšľanie
+3 N der Besserwisser {Besser|wisser} [ˈbɛsɐvɪsɐ], Besserwisser = všeználek
+3 N die Regelmäßigkeit {Regel|mäßig|keit} [ˈʁeːɡəlmɛːsɪçkaɪt], Regelmäßigkeiten = pravidelnosť
+3 N die Gesetzmäßigkeit {Gesetz|mäßig|keit} [ɡəˈzɛtsmɛːsɪçkaɪt], Gesetzmäßigkeiten = zákonitosť
+@ cognitive/mind-thought.txt # problems
+3 N der Fehlschlag {Fehl|schlag} [ˈfeːlʃlaːk], Fehlschläge = neúspech
+3 N das Durcheinander {Durcheinander} [dʊʁçaɪˈnandɐ], - = neporiadok, zmätok
+3 N die Unmöglichkeit {Un|möglich|keit} [ˈʊnmøːklɪçkaɪt], - = nemožnosť
+@ cognitive/mind-thought.txt # knowing
+3 N die Erkundigung {Erkundigung} [ɛɐˈkʊndɪɡʊŋ], Erkundigungen = informovanie sa, informácia
+@ cognitive/emotion.txt # basic-feelings
+3 N die Geborgenheit {Geborgen|heit} [ɡəˈbɔʁɡənhaɪt], - = bezpečie, istota
+3 N das Gelächter {Gelächter} [ɡəˈlɛçtɐ], - = smiech
+3 N die Unlust {Un|lust} [ˈʊnlʊst], - = nechuť
+3 N die Gleichgültigkeit {Gleich|gültig|keit} [ˈɡlaɪçɡʏltɪçkaɪt], - = ľahostajnosť
+@ cognitive/emotion.txt # love-hate
+3 N die Abneigung {Ab|neigung} [ˈapnaɪɡʊŋ], Abneigungen = odpor, nechuť
+@ cognitive/will-character.txt # will-intent
+3 N das Ermessen {Ermessen} [ɛɐˈmɛsən], - = voľná úvaha, uváženie
+@ humans/society-law-politics.txt # state-politics
+3 N die Aufenthaltserlaubnis {Aufenthalts|erlaubnis} [ˈaʊfɛnthaltsɛɐlaʊpnɪs], Aufenthaltserlaubnisse = povolenie na pobyt
+3 N die Auswanderung {Aus|wanderung} [ˈaʊsvandəʁʊŋ], Auswanderungen = vysťahovalectvo
+3 N das Gesetzbuch {Gesetz|buch} [ɡəˈzɛtsbuːx], Gesetzbücher = zákonník
+3 N der Paragraph {Paragraph} [paʁaˈɡʁaːf], Paragraphen = paragraf
+3 N der Sozialstaat {Sozial|staat} [zoˈtsjaːlʃtaːt], Sozialstaaten = sociálny štát
+@ humans/society-law-politics.txt # law-justice
+3 N der/die Beklagte {Beklagte} [bəˈklaːktə], Beklagte = žalovaný, žalovaná
+3 N das Sorgerecht {Sorge|recht} [ˈzɔʁɡəʁɛçt], - = právo starostlivosti
+@ humans/society-law-politics.txt # society
+3 N der/die Behinderte {Behinderte} [bəˈhɪndɐtə], Behinderte = telesne postihnutý, postihnutá
+3 N der/die Blinde {Blinde} [ˈblɪndə], Blinde = nevidiaci
+@ humans/language-communication.txt # media-news
+3 N der Leserbrief {Leser|brief} [ˈleːzɐbʁiːf], Leserbriefe = list čitateľa
+3 N die Titelseite {Titel|seite} [ˈtiːtəlzaɪtə], Titelseiten = titulná strana
+3 N die Reklame {Reklame} [ʁeˈklaːmə], Reklamen = reklama
+3 N die Falschmeldung {Falsch|meldung} [ˈfalʃmɛldʊŋ], Falschmeldungen = nepravdivá správa
+@ humans/religion-custom.txt # religion
+3 N der Buddhismus {Buddhismus} [bʊˈdɪsmʊs], - = budhizmus
+3 N der Hinduismus {Hinduismus} [hɪnduˈɪsmʊs], - = hinduizmus
+3 N der Buddhist {Buddhist} [bʊˈdɪst], Buddhisten = budhista
+3 N der Hindu {Hindu} [ˈhɪndu], Hindus = hinduista
+3 N der Protestant {Protestant} [pʁotɛsˈtant], Protestanten = protestant
+3 N der Imam {Imam} [iˈmaːm], Imame = imám
+3 N der Rabbiner {Rabbiner} [ʁaˈbiːnɐ], Rabbiner = rabín
+3 N der Koran {Koran} [koˈʁaːn], - = korán
+3 N die Wallfahrt {Wall|fahrt} [ˈvalfaːɐt], Wallfahrten = púť
+@ humans/religion-custom.txt # customs-celebrations
+3 N der Adventskranz {Advents|kranz} [ˈatvɛntskʁants], Adventskränze = adventný veniec
+3 N die Fastenzeit {Fasten|zeit} [ˈfastəntsaɪt], - = pôst
+3 N der Erntedank {Ernte|dank} [ˈɛʁntədaŋk], - = dožinky
+3 N die Konfirmation {Konfirmation} [kɔnfɪʁmaˈtsjoːn], Konfirmationen = konfirmácia
+3 N die Kommunion {Kommunion} [kɔmuˈnjoːn], Kommunionen = prvé sväté prijímanie
+3 N der Trauzeuge {Trau|zeuge} [ˈtʁaʊtsɔʏɡə], Trauzeugen = svedok na svadbe
+3 N die Hochzeitsreise {Hochzeits|reise} [ˈhɔxtsaɪtsʁaɪzə], Hochzeitsreisen = svadobná cesta
+3 N die Sitte {Sitte} [ˈzɪtə], Sitten = zvyk, mrav
+3 N der Händedruck {Hände|druck} [ˈhɛndədʁʊk], Händedrücke = stisk ruky
+@ abstract/relation-change.txt # relations
+3 N der Abdruck {Ab|druck} [ˈapdʁʊk], Abdrücke = odtlačok
+3 N das Abbild {Ab|bild} [ˈapbɪlt], Abbilder = obraz, podoba
+3 N die Eigenart {Eigen|art} [ˈaɪɡənaːɐt], Eigenarten = zvláštnosť, osobitosť
+3 N die Einzahl {Ein|zahl} [ˈaɪntsaːl], - = jednotné číslo
+3 N die Festigkeit {Fest|ig|keit} [ˈfɛstɪçkaɪt], - = pevnosť
+@ abstract/relation-change.txt # action-and-use
+3 N das Benehmen {Be|nehmen} [bəˈneːmən], - = správanie
+3 N die Gewähr {Gewähr} [ɡəˈvɛːɐ], - = záruka
+3 N die Gefälligkeit {Gefällig|keit} [ɡəˈfɛlɪçkaɪt], Gefälligkeiten = láskavosť, službička
+3 N das Entgegenkommen {Entgegen|kommen} [ɛntˈɡeːɡənkɔmən], - = vyhovenie, ústretovosť
+@ cognitive/will-character.txt # character-traits
+3 N die Freundlichkeit {Freund|lich|keit} [ˈfʁɔʏntlɪçkaɪt], - = priateľskosť
+3 N die Tapferkeit {Tapfer|keit} [ˈtapfɐkaɪt], - = odvaha, statočnosť
+3 N die Hemmung {Hemmung} [ˈhɛmʊŋ], Hemmungen = zábrana
+3 N die Heuchelei {Heuchelei} [hɔʏçəˈlaɪ], Heucheleien = pokrytectvo
+3 N der Dickkopf {Dick|kopf} [ˈdɪkkɔpf], Dickköpfe = tvrdohlavec
+3 N der Eigensinn {Eigen|sinn} [ˈaɪɡənzɪn], - = svojhlavosť
+3 N die Sturheit {Stur|heit} [ˈʃtuːɐhaɪt], - = tvrdohlavosť
+3 N die Trägheit {Träg|heit} [ˈtʁɛːkhaɪt], - = lenivosť, zotrvačnosť
+3 N die Macke {Macke} [ˈmakə], Macken = čudáctvo, vada
+3 N die Marotte {Marotte} [maˈʁɔtə], Marotten = rozmar, čudáctvo
+3 N der Humbug {Humbug} [ˈhʊmbʊk], - = táranie, nezmysel
+3 N der Schwachsinn {Schwach|sinn} [ˈʃvaxzɪn], - = nezmysel
+3 N die Verzeihung {Verzeihung} [fɛɐˈtsaɪʊŋ], - = odpustenie, prepáčenie
+3 N die Vergebung {Vergebung} [fɛɐˈɡeːbʊŋ], - = odpustenie
+3 N der Tadel {Tadel} [ˈtaːdəl], - = pokarhanie
+3 N die Abmachung {Ab|machung} [ˈapmaxʊŋ], Abmachungen = dohoda
+3 N die Einwilligung {Ein|willigung} [ˈaɪnvɪlɪɡʊŋ], Einwilligungen = súhlas
+@ humans/family-social.txt # kinship
+3 N der Halbbruder {Halb|bruder} [ˈhalpbʁuːdɐ], Halbbrüder = nevlastný brat
+3 N die Schwägerin {Schwägerin} [ˈʃvɛːɡəʁɪn], Schwägerinnen = švagriná
+3 N der Familienname {Familien|name} [faˈmiːliənnaːmə], Familiennamen = priezvisko
+@ humans/family-social.txt # people-stages
+3 N der Greis {Greis} [ɡʁaɪs], Greise = starec
+3 N die Greisin {Greisin} [ˈɡʁaɪzɪn], Greisinnen = starenka
+@ humans/family-social.txt # marriage-social-bonds
+3 N die Mitbewohnerin {Mit|bewohnerin} [ˈmɪtbəvoːnəʁɪn], Mitbewohnerinnen = spolubývajúca
+@ humans/family-social.txt # social-interaction
+3 N die Anrede {An|rede} [ˈanʁeːdə], Anreden = oslovenie
+@ abstract/time.txt # units
+3 N das Geburtsdatum {Geburts|datum} [ɡəˈbʊʁtsdaːtʊm], Geburtsdaten = dátum narodenia
+3 N das Geburtsjahr {Geburts|jahr} [ɡəˈbʊʁtsjaːɐ], Geburtsjahre = rok narodenia
+3 N die Stoppuhr {Stopp|uhr} [ˈʃtɔpuːɐ], Stoppuhren = stopky
+@ humans/settlement-city.txt # buildings
+3 N die Imbissbude {Imbiss|bude} [ˈɪmbɪsbuːdə], Imbissbuden = stánok s rýchlym občerstvením
+3 N das Studentenwohnheim {Studenten|wohnheim} [ʃtuˈdɛntənvoːnhaɪm], Studentenwohnheime = študentský domov
+3 N die Baracke {Baracke} [baˈʁakə], Baracken = barak
+3 N das Schuhgeschäft {Schuh|geschäft} [ˈʃuːɡəʃɛft], Schuhgeschäfte = obchod s obuvou
+3 N der Warteraum {Warte|raum} [ˈvaʁtəʁaʊm], Warteräume = čakáreň
+@ humans/settlement-city.txt # city-life
+3 N der Jahrmarkt {Jahr|markt} [ˈjaːɐmaʁkt], Jahrmärkte = jarmok
+@ humans/technology.txt # computing-communication-devices
+3 N die Vorwahl {Vor|wahl} [ˈfoːɐvaːl], Vorwahlen = predvoľba
+3 N der Anrufbeantworter {Anruf|beantworter} [ˈanʁuːfbəantvɔʁtɐ], Anrufbeantworter = záznamník
+3 N die Fehlermeldung {Fehler|meldung} [ˈfeːlɐmɛldʊŋ], Fehlermeldungen = chybové hlásenie
+3 N der Benutzername {Benutzer|name} [bəˈnʊtsɐnaːmə], Benutzernamen = používateľské meno
+3 N das Kennwort {Kenn|wort} [ˈkɛnvɔʁt], Kennwörter = heslo
+3 N der Stick {Stick} [ʃtɪk], Sticks = USB kľúč
+3 N die Speicherkarte {Speicher|karte} [ˈʃpaɪçɐkaʁtə], Speicherkarten = pamäťová karta
+3 N das Ladekabel {Lade|kabel} [ˈlaːdəkaːbəl], Ladekabel = nabíjací kábel
+3 N die Sicherheitskopie {Sicherheits|kopie} [ˈzɪçɐhaɪtskopiː], Sicherheitskopien = záloha dát
+@ humans/technology.txt # electricity-energy
+3 N die Sonnenenergie {Sonnen|energie} [ˈzɔnənenɛʁɡiː], - = slnečná energia
+@ humans/work-industry.txt # materials
+3 N der Leim {Leim} [laɪm], Leime = lepidlo
+3 N der Mörtel {Mörtel} [ˈmœʁtəl], - = malta
+3 N der Lehm {Lehm} [leːm], - = hlina
+3 N der Kalk {Kalk} [kalk], - = vápno
+@ natural-world/water.txt # water-features
+3 N der Tümpel {Tümpel} [ˈtʏmpəl], Tümpel = mláka, jazierko
+@ natural-world/land-terrain.txt # landforms
+3 N der Steinschlag {Stein|schlag} [ˈʃtaɪnʃlaːk], Steinschläge = padanie kameňov
+@ natural-world/weather-climate.txt # weather
+3 N der Treibhauseffekt {Treibhaus|effekt} [ˈtʁaɪphaʊsɛfɛkt], - = skleníkový efekt
+3 N die Luftverschmutzung {Luft|verschmutzung} [ˈlʊftfɛɐʃmʊtsʊŋ], - = znečistenie ovzdušia
+@ life/body.txt # head-face
+3 N die Locke {Locke} [ˈlɔkə], Locken = kučera
+3 N der Zopf {Zopf} [tsɔpf], Zöpfe = vrkoč, cop
+3 N die Glatze {Glatze} [ˈɡlatsə], Glatzen = plešina
+3 N der Pickel {Pickel} [ˈpɪkəl], Pickel = pupienok
+3 N das Muttermal {Mutter|mal} [ˈmʊtɐmaːl], Muttermale = materské znamienko
+@ humans/clothing.txt # garments
+3 N der Pyjama {Pyjama} [pyˈdʒaːma], Pyjamas = pyžama
+3 N der Büstenhalter {Büsten|halter} [ˈbʏstənhaltɐ], Büstenhalter = podprsenka
+@ humans/clothing.txt # footwear-accessories
+3 N der Sportschuh {Sport|schuh} [ˈʃpɔʁtʃuː], Sportschuhe = športová obuv
+3 N die Brieftasche {Brief|tasche} [ˈbʁiːftaʃə], Brieftaschen = peňaženka
+@ humans/clothing.txt # materials-making
+3 N das Karo {Karo} [ˈkaːʁo], Karos = kocka (vzor)
+@ humans/art-entertainment.txt # games-sport
+3 N das Judo {Judo} [ˈdʒuːdo], - = džudo
+3 N das Karate {Karate} [kaˈʁaːtə], - = karate
+3 N die Olympiade {Olympiade} [olʏmˈpjaːdə], Olympiaden = olympiáda
+3 N das Kartenspiel {Karten|spiel} [ˈkaʁtənʃpiːl], Kartenspiele = kartová hra
+3 N das Puzzle {Puzzle} [ˈpazəl], Puzzles = puzzle, skladačka
+3 N das Kreuzworträtsel {Kreuz|wort|rätsel} [ˈkʁɔʏtsvɔʁtʁɛːtsəl], Kreuzworträtsel = krížovka
+3 N der Zeitvertreib {Zeit|vertreib} [ˈtsaɪtfɛɐtʁaɪp], Zeitvertreibe = zábava, kratochvíľa
+@ life/animals.txt # animal-parts-life
+3 N der Maulkorb {Maul|korb} [ˈmaʊlkɔʁp], Maulkörbe = náhubok
+@ life/animals.txt # insects-small
+3 N die Laus {Laus} [laʊs], Läuse = voš
+@ life/animals.txt # birds
+3 N der Wellensittich {Wellen|sittich} [ˈvɛlənzɪtɪç], Wellensittiche = andulka
+@ humans/art-entertainment.txt # art-general
+3 N das Poster {Poster} [ˈpoːstɐ], Poster = plagát
+3 N der Bilderrahmen {Bilder|rahmen} [ˈbɪldɐʁaːmən], Bilderrahmen = rám na obraz
+3 N das Fotoalbum {Foto|album} [ˈfoːtoalbʊm], Fotoalben = fotoalbum
+@ humans/transport-travel.txt # travel
+3 N das Abteil {Ab|teil} [apˈtaɪl], Abteile = oddelenie (vo vlaku)
+3 N die Zugverbindung {Zug|verbindung} [ˈtsuːkfɛɐbɪndʊŋ], Zugverbindungen = vlakové spojenie
+3 N der Speisewagen {Speise|wagen} [ˈʃpaɪzəvaːɡən], Speisewagen = jedálenský vozeň
+3 N der Zugführer {Zug|führer} [ˈtsuːkfyːʁɐ], Zugführer = vedúci vlaku
+3 N der Schnellzug {Schnell|zug} [ˈʃnɛltsuːk], Schnellzüge = rýchlik
+3 N die Monatskarte {Monats|karte} [ˈmoːnatskaʁtə], Monatskarten = mesačný lístok
+3 N die Dienstreise {Dienst|reise} [ˈdiːnstʁaɪzə], Dienstreisen = služobná cesta
+3 N die Geschäftsreise {Geschäfts|reise} [ɡəˈʃɛftsʁaɪzə], Geschäftsreisen = obchodná cesta
+3 N die Pauschalreise {Pauschal|reise} [paʊˈʃaːlʁaɪzə], Pauschalreisen = zájazd
+3 N die Zollkontrolle {Zoll|kontrolle} [ˈtsɔlkɔntʁɔlə], Zollkontrollen = colná kontrola
+3 N das Motorboot {Motor|boot} [ˈmoːtoːɐboːt], Motorboote = motorový čln
+3 N der Sessellift {Sessel|lift} [ˈzɛsəllɪft], Sessellifte = sedačková lanovka
+3 N die Skipiste {Ski|piste} [ˈʃiːpɪstə], Skipisten = lyžiarska zjazdovka
+3 N der Liegestuhl {Liege|stuhl} [ˈliːɡəʃtuːl], Liegestühle = lehátko
+3 N der Sonnenschirm {Sonnen|schirm} [ˈzɔnənʃɪʁm], Sonnenschirme = slnečník
+3 N der Wanderschuh {Wander|schuh} [ˈvandɐʃuː], Wanderschuhe = turistická obuv
+3 N die Wanderkarte {Wander|karte} [ˈvandɐkaʁtə], Wanderkarten = turistická mapa
+3 N die Luftmatratze {Luft|matratze} [ˈlʊftmatʁatsə], Luftmatratzen = nafukovací matrac
+3 N die Zuckerwatte {Zucker|watte} [ˈtsʊkɐvatə], - = cukrová vata
+3 N der Vergnügungspark {Vergnügungs|park} [fɛɐˈɡnyːɡʊŋspaʁk], Vergnügungsparks = zábavný park
+3 N die Seifenblase {Seifen|blase} [ˈzaɪfənblaːzə], Seifenblasen = mydlová bublina
+@ humans/transport-travel.txt # infrastructure
+3 N die Nebenstraße {Neben|straße} [ˈneːbənʃtʁaːsə], Nebenstraßen = vedľajšia cesta
+3 N das Parkverbot {Park|verbot} [ˈpaʁkfɛɐboːt], Parkverbote = zákaz parkovania
+3 N das Straßenschild {Straßen|schild} [ˈʃtʁaːsənʃɪlt], Straßenschilder = ulična tabuľa
+3 N das Telefonbuch {Telefon|buch} [teleˈfoːnbuːx], Telefonbücher = telefónny zoznam
+3 N das Stadttor {Stadt|tor} [ˈʃtattoːɐ], Stadttore = mestská brána
+@ humans/transport-travel.txt # vehicles
+3 N das Dreirad {Drei|rad} [ˈdʁaɪʁaːt], Dreiräder = trojkolka
+3 N der Gepäckträger {Gepäck|träger} [ɡəˈpɛktʁɛːɡɐ], Gepäckträger = nosič batožiny
+@ humans/home-dwelling.txt # building-parts
+3 N die Fensterbank {Fenster|bank} [ˈfɛnstɐbaŋk], Fensterbänke = parapet
+3 N das Schlüsselloch {Schlüssel|loch} [ˈʃlʏsəlɔx], Schlüssellöcher = kľúčová dierka
+3 N der Rollladen {Roll|laden} [ˈʁɔlaːdən], Rollläden = roleta
+3 N der Lichtschalter {Licht|schalter} [ˈlɪçtʃaltɐ], Lichtschalter = vypínač svetla
+3 N die Lüftung {Lüftung} [ˈlʏftʊŋ], Lüftungen = vetranie
+@ humans/home-dwelling.txt # household-objects
+3 N das Nasenbluten {Nasen|bluten} [ˈnaːzənbluːtən], - = krvácanie z nosa
+3 N der Morgenmantel {Morgen|mantel} [ˈmɔʁɡənmantəl], Morgenmäntel = ranný plášť
+3 N der Teekessel {Tee|kessel} [ˈteːkɛsəl], Teekessel = kanvica na čaj
+3 N die Tischlampe {Tisch|lampe} [ˈtɪʃlampə], Tischlampen = stolová lampa
+3 N die Topfpflanze {Topf|pflanze} [ˈtɔpfpflantsə], Topfpflanzen = izbová rastlina
+@ humans/food-cooking.txt # kitchen-tools
+3 N der Suppenteller {Suppen|teller} [ˈzʊpəntɛlɐ], Suppenteller = tanier na polievku
+3 N das Waschpulver {Wasch|pulver} [ˈvaʃpʊlfɐ], Waschpulver = prací prášok
+3 N das Spülmittel {Spül|mittel} [ˈʃpyːlmɪtəl], Spülmittel = prostriedok na riad
+3 N die Weinflasche {Wein|flasche} [ˈvaɪnflaʃə], Weinflaschen = fľaša vína
+3 N die Weinkarte {Wein|karte} [ˈvaɪnkaʁtə], Weinkarten = vínny lístok
+3 N die Schlagsahne {Schlag|sahne} [ˈʃlaːkzaːnə], - = šľahačka
+3 N der Milchkaffee {Milch|kaffee} [ˈmɪlçkafe], Milchkaffees = káva s mliekom
+@ humans/knowledge-education.txt # school
+3 N die Klassenarbeit {Klassen|arbeit} [ˈklasənaʁbaɪt], Klassenarbeiten = písomka
+3 N die Gruppenarbeit {Gruppen|arbeit} [ˈɡʁʊpənaʁbaɪt], Gruppenarbeiten = skupinová práca
+3 N der Elternabend {Eltern|abend} [ˈɛltɐnaːbənt], Elternabende = rodičovské združenie
+3 N die Schulpflicht {Schul|pflicht} [ˈʃuːlpflɪçt], - = povinná školská dochádzka
+3 N die Fußnote {Fuß|note} [ˈfuːsnoːtə], Fußnoten = poznámka pod čiarou
+@ humans/work-industry.txt # work-general
+3 N die Kaffeepause {Kaffee|pause} [ˈkafepaʊzə], Kaffeepausen = prestávka na kávu
+3 N der Nebenjob {Neben|job} [ˈneːbəndʒɔp], Nebenjobs = vedľajšia práca
+3 N die Prüfungsangst {Prüfungs|angst} [ˈpʁyːfʊŋsaŋst], - = strach zo skúšky
+3 N der Stundenlohn {Stunden|lohn} [ˈʃtʊndənloːn], Stundenlöhne = hodinová mzda
+@ humans/health-medicine.txt # medical-people-places
+3 N der Hautarzt {Haut|arzt} [ˈhaʊtaʁtst], Hautärzte = dermatológ
+3 N der Oberarzt {Ober|arzt} [ˈoːbɐaʁtst], Oberärzte = primár
+3 N der Operationssaal {Operations|saal} [opəʁaˈtsjoːnszaːl], Operationssäle = operačná sála
+3 N die Zahnarztpraxis {Zahnarzt|praxis} [ˈtsaːnaʁtstpʁaksɪs], Zahnarztpraxen = zubná ambulancia
+3 N der Schüttelfrost {Schüttel|frost} [ˈʃʏtəlfʁɔst], - = triaška
+3 N die Schnittwunde {Schnitt|wunde} [ˈʃnɪtvʊndə], Schnittwunden = rezná rana
+3 N die Platzangst {Platz|angst} [ˈplatsaŋst], - = klaustrofóbia
+3 N die Schutzbrille {Schutz|brille} [ˈʃʊtsbʁɪlə], Schutzbrillen = ochranné okuliare
+3 N das Mundwasser {Mund|wasser} [ˈmʊntvasɐ], Mundwässer = ústna voda
+3 N die Nagelschere {Nagel|schere} [ˈnaːɡəlʃeːʁə], Nagelscheren = nožničky na nechty
+3 N die Sicherheitsnadel {Sicherheits|nadel} [ˈzɪçɐhaɪtsnaːdəl], Sicherheitsnadeln = zatváracia špendlík
+@ humans/language-communication.txt # media-news
+3 N das Fax {Fax} [faks], Faxe = fax
+3 N das Festnetz {Fest|netz} [ˈfɛstnɛts], - = pevná linka
+3 N das Fernsehprogramm {Fernseh|programm} [ˈfɛʁnzeːpʁoɡʁam], Fernsehprogramme = televízny program
+3 N der Fernsehturm {Fernseh|turm} [ˈfɛʁnzeːtʊʁm], Fernsehtürme = televízna veža
+3 N die Ansichtskarte {Ansichts|karte} [ˈanzɪçtskaʁtə], Ansichtskarten = pohľadnica
+3 N der Steckbrief {Steck|brief} [ˈʃtɛkbʁiːf], Steckbriefe = zatykač (list), profil
+3 N die Preisliste {Preis|liste} [ˈpʁaɪslɪstə], Preislisten = cenník
+3 N der Notizblock {Notiz|block} [noˈtiːtsblɔk], Notizblöcke = poznámkový blok
+3 N die Pinnwand {Pinn|wand} [ˈpɪnvant], Pinnwände = nástenka
+@ humans/family-social.txt # kinship
+3 N die Patentante {Paten|tante} [ˈpaːtəntantə], Patentanten = krstná mama
+3 N das Einzelkind {Einzel|kind} [ˈaɪntsəlkɪnt], Einzelkinder = jedináčik
+3 N die Familienfeier {Familien|feier} [faˈmiːliənfaɪɐ], Familienfeiern = rodinná oslava
+3 N der Faulpelz {Faul|pelz} [ˈfaʊlpɛlts], Faulpelze = lenivec
+@ humans/trade-money.txt # buying-selling
+3 N die Kundenkarte {Kunden|karte} [ˈkʊndənkaʁtə], Kundenkarten = zákaznícka karta
+3 N das Fachgeschäft {Fach|geschäft} [ˈfaxɡəʃɛft], Fachgeschäfte = špecializovaný obchod
+3 N der Dauerauftrag {Dauer|auftrag} [ˈdaʊɐaʊftʁaːk], Daueraufträge = trvalý príkaz
+@ humans/technology.txt # computing-communication-devices
+3 N das Internetcafé {Internet|café} [ˈɪntɐnɛtkafeː], Internetcafés = internetová kaviareň
+@ humans/clothing.txt # footwear-accessories
+3 N der Gummistiefel {Gummi|stiefel} [ˈɡʊmiʃtiːfəl], Gummistiefel = gumáky
+3 N die Regenjacke {Regen|jacke} [ˈʁeːɡənjakə], Regenjacken = pršiplášť
+3 N die Schuhgröße {Schuh|größe} [ˈʃuːɡʁøːsə], Schuhgrößen = veľkosť obuvi
+@ humans/family-social.txt # social-interaction
+3 N die Plauderei {Plauderei} [plaʊdəˈʁaɪ], Plaudereien = rozhovor, kecanie
+3 N der Zank {Zank} [tsaŋk], - = hádka, škriepka
+@ humans/religion-custom.txt # customs-celebrations
+3 N das Wappen {Wappen} [ˈvapən], Wappen = erb
+@ humans/home-dwelling.txt # building-parts
+3 N das Fachwerk {Fach|werk} [ˈfaxvɛʁk], Fachwerke = hrazdená konštrukcia
+@ humans/work-industry.txt # tools
+3 N der Hobel {Hobel} [ˈhoːbəl], Hobel = hobľovačka
+3 N die Walze {Walze} [ˈvaltsə], Walzen = valec
+3 N die Spange {Spange} [ˈʃpaŋə], Spangen = spona, sponka
+3 N der Strick {Strick} [ʃtʁɪk], Stricke = povraz, lano
+3 N die Fessel {Fessel} [ˈfɛsəl], Fesseln = pút, putá
+@ life/animals.txt # mammals-domestic
+3 N der Hirt {Hirt} [hɪʁt], Hirten = pastier
+@ humans/art-entertainment.txt # games-sport
+3 N die Niete {Niete} [ˈniːtə], Nieten = prehra, nula (lós), nit
+@ abstract/relation-change.txt # change-events
+3 N das Verderben {Ver|derben} [fɛɐˈdɛʁbən], - = zahubenie, skaza
+@ abstract/relation-change.txt # relations
+3 N die Rangfolge {Rang|folge} [ˈʁaŋfɔlɡə], Rangfolgen = poradie
+3 N die Nebensache {Neben|sache} [ˈneːbənzaxə], Nebensachen = vedľajšia vec
+3 N die Vollständigkeit {Voll|ständig|keit} [ˈfɔlʃtɛndɪçkaɪt], - = úplnosť
+3 N das Verzeichnis {Ver|zeichnis} [fɛɐˈtsaɪçnɪs], Verzeichnisse = zoznam, register
+3 N die Voraussage {Voraus|sage} [foˈʁaʊszaːɡə], Voraussagen = predpoveď
+@ abstract/relation-change.txt # action-and-use
+3 N die Verwechslung {Verwechslung} [fɛɐˈvɛkslʊŋ], Verwechslungen = zámena
+3 N die Vorrichtung {Vor|richtung} [ˈfoːɐʁɪçtʊŋ], Vorrichtungen = zariadenie
+3 N die Vergünstigung {Vergünstigung} [fɛɐˈɡʏnstɪɡʊŋ], Vergünstigungen = zvýhodnenie, zľava
+3 N die Fürsorge {Für|sorge} [ˈfyːɐzɔʁɡə], - = starostlivosť
+3 N die Nachsicht {Nach|sicht} [ˈnaːxzɪçt], - = zhovievavosť
+@ cognitive/mind-thought.txt # thinking
+3 N der Wortlaut {Wort|laut} [ˈvɔʁtlaʊt], - = znenie
+3 N die Unfähigkeit {Un|fähig|keit} [ˈʊnfɛːɪçkaɪt], - = neschopnosť
+@ cognitive/emotion.txt # self-social-feelings
+3 N die Verärgerung {Verärgerung} [fɛɐˈɛʁɡəʁʊŋ], - = rozčúlenie
+3 N die Schadenfreude {Schaden|freude} [ˈʃaːdənfʁɔʏdə], - = škodoradosť
+@ cognitive/will-character.txt # will-intent
+3 N die Kaufentscheidung {Kauf|entscheidung} [ˈkaʊfɛntʃaɪdʊŋ], Kaufentscheidungen = rozhodnutie o kúpe
+@ humans/society-law-politics.txt # society
+3 N das Mitspracherecht {Mit|sprache|recht} [ˈmɪtʃpʁaːxəʁɛçt], - = právo spolurozhodovať
+@ humans/society-law-politics.txt # law-justice
+3 N die Vollmacht {Voll|macht} [ˈfɔlmaxt], Vollmachten = splnomocnenie
+3 N die Bescheinigung {Bescheinigung} [bəˈʃaɪnɪɡʊŋ], Bescheinigungen = potvrdenie
+3 N der Vermerk {Vermerk} [fɛɐˈmɛʁk], Vermerke = poznámka, záznam
+3 N der Störfall {Stör|fall} [ˈʃtøːɐfal], Störfälle = porucha, havária
+@ humans/trade-money.txt # economy-finance
+3 N der Ladenschluss {Laden|schluss} [ˈlaːdənʃlʊs], - = zatváracia doba
+@ humans/language-communication.txt # speaking
+3 N der Tratsch {Tratsch} [tʁatʃ], - = klebety
+3 N das Geschwätz {Geschwätz} [ɡəˈʃvɛts], - = táranie
+3 N die Ermahnung {Er|mahnung} [ɛɐˈmaːnʊŋ], Ermahnungen = napomenutie
+3 N die Bekanntmachung {Bekannt|machung} [bəˈkantmaxʊŋ], Bekanntmachungen = oznámenie
+@ humans/home-dwelling.txt # household-objects
+3 N der Papierkorb {Papier|korb} [paˈpiːɐkɔʁp], Papierkörbe = kôš na papier
+@ humans/work-industry.txt # work-general
+3 N die Berufswahl {Berufs|wahl} [bəˈʁuːfsvaːl], - = voľba povolania
+@ humans/knowledge-education.txt # school
+3 N der Bildungsabschluss {Bildungs|abschluss} [ˈbɪldʊŋsapʃlʊs], Bildungsabschlüsse = dosiahnuté vzdelanie
+@ humans/transport-travel.txt # travel
+3 N die Fahrgemeinschaft {Fahr|gemeinschaft} [ˈfaːɐɡəmaɪnʃaft], Fahrgemeinschaften = spolujazda
+3 N der Bummel {Bummel} [ˈbʊməl], Bummel = prechádzka, korzovanie
+@ humans/family-social.txt # marriage-social-bonds
+3 N der Familienstand {Familien|stand} [faˈmiːliənʃtant], - = rodinný stav
+@ natural-world/weather-climate.txt # weather
+3 N die Umweltverschmutzung {Umwelt|verschmutzung} [ˈʊmvɛltfɛɐʃmʊtsʊŋ], - = znečistenie životného prostredia

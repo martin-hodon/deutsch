@@ -1,0 +1,170 @@
+# whole
+N telo
+AN telesný
+N časť tela
+V stelesňovať
+
+# head-face
+N hlava
+N pokožka hlavy
+N tvár
+N výraz tváre
+N oko
+N obočie
+N očné viečko
+N očná guľa
+N mihalnica
+N zrenica
+N dúhovka
+N sietnica
+N ucho
+N ušný lalôčik
+N nos
+N nozdra
+N ústa
+AN ústny : adverb ústne
+N kútik úst
+N pera
+N zub
+N ďasno
+N stolička (zub)
+N zubná sklovina
+N jazyk (orgán)
+N čeľusť
+N líce
+N lícna kosť
+N brada (časť tváre)
+N čelo
+N spánok (časť hlavy)
+N vlasy
+AN chlpatý
+N strih
+N brada (porast)
+AN bradatý
+N fúzy
+N krk
+N hrdlo
+N hrtan
+N lebka
+N jamka (v lícu)
+N peha
+N podnebie
+N účes
+N tetovanie
+
+# limbs-torso
+N plece
+V vziať na plecia
+N paža
+N predlaktie
+N nadlaktie
+N lakeť
+N ruka
+N zápästie
+N dlaň
+N chrbát ruky
+AN rukopisný
+N päsť
+N prst
+N necht
+N špička prsta
+N ukazovák
+N odtlačok prsta
+N palec (prst)
+N klinec
+V pribíjať
+N hruď
+N hrudník
+N prsia
+N chrbát
+N chrbtica
+N brucho
+N pás
+N bok
+N noha (končatina)
+N stehno
+N predkolenie
+N holenná kosť
+N kľúčna kosť
+N koleno
+N jabĺčko
+N lýtko
+N noha (chodidlo)
+N chodidlo
+AN v dosahu pešo
+N päta
+N prst na nohe
+N členok
+N kĺb prsta
+N končatina
+N úd
+N podpazušie
+N pupok
+N slabina
+N trup
+N šija
+N zadok
+
+# internal-tissue
+N mozog
+N srdce
+AN srdečný : adverb srdečne
+N pľúca
+N žalúdok
+N pečeň
+N oblička
+N črevo
+N krv
+V krvácať
+AN krvavý : adverb krvavo
+N tepna
+N nerv
+N nervová sústava
+N kosť
+N kostná dreň
+N zlomenina
+N kostra
+N rebro
+N stavec
+N kĺb
+N sval
+AN svalnatý
+N svalová horúčka
+N koža (orgán)
+N farba pleti
+N mäso
+AN bezmäsitý
+N tuk
+AN tučný
+AN vráskavý
+N orgán
+N organizmus
+N bunka
+N gén
+AN genetický : adverb geneticky
+N pot
+V potiť sa
+AN potivý
+N slza
+N slina
+N vráska
+N šľacha
+N väzivo
+N chrupavka
+N žľaza
+N štítna žľaza
+N podžalúdková žľaza
+N hormón
+N pulz
+N tkanivo
+N slezina
+N maternica
+N priedušnica
+N pór (v koži)
+N hlien
+N membrána
+N krčná mandľa
+N pigment
+N žila
+N žlč
+N páska

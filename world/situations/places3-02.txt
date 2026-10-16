@@ -1,0 +1,159 @@
+# SITUATIONS at the places Landeshauptstadt .. Stadtteil (round 3, file 02), varied wants and things; rain-caused troubles (nass) where the rain really stops the action.
+# (skipped: none -- every place has an everyday story; Meer is told with its own wants (Möwen, Segel) beside Strand/Küste)
+
+SITUATION landeshauptstadt-museum : town -- in der Landeshauptstadt ins Museum gehen
+  place   hlavné_mesto_spolkovej_krajiny
+  people  priateľ | kin
+  things  múzeum | most | park | ulica
+  want    chuť : verb=navštíviť patient=def:múzeum ; uses karta
+  want    hladný : verb=jesť patient=indef:pečená_klobása
+  lack    karta : pokladňa
+  lack    pečená_klobása : občerstvenie
+
+SITUATION landhaus-kamin : home -- im Landhaus Feuer machen
+  place   vidiecky_dom
+  people  kin | priateľ
+  things  krb | drevo | pohovka | panvica
+  want    chuť : verb=robiť patient=none:oheň ; uses krb | drevo
+  want    hladný : verb=robiť patient=none:praženica ; uses panvica | vajce
+  trouble krb špinavý : čistiť
+  trouble drevo mokrý : sušiť
+  trouble panvica špinavý : oplachovať
+  lack    vajce : statok
+
+SITUATION leuchtturm-schiffe : water -- am Leuchtturm Schiffe beobachten
+  place   maják
+  people  priateľ | kin
+  things  svetlo | schody | more | loď
+  own     ďalekohľad | blok
+  want    chuť : verb=pozorovať patient=none:loď+pl ; uses ďalekohľad
+  want    chuť : verb=kresliť patient=indef:loď ; uses blok
+  trouble ďalekohľad špinavý : čistiť
+  trouble blok mokrý : sušiť
+
+SITUATION meer-möwen : water -- am Meer Möwen füttern
+  place   more
+  people  kin | priateľ
+  things  voda | vlna | čln | plachta | čajka
+  want    chuť : verb=kŕmiť patient=none:čajka+pl ; uses chlieb
+  want    chuť : verb=plaviť_sa_na_plachetnici ; uses plachta
+  trouble plachta pokazený : opraviť
+  lack    chlieb : pekáreň
+
+SITUATION mietwohnung-linsen : home -- in der Mietwohnung kochen und waschen
+  place   nájomný_byt
+  people  kin | sused | technik
+  things  kuchyňa | sporák | hrniec | práčka | balkón
+  want    hladný : verb=variť patient=none:šošovica+pl ; uses hrniec | sporák
+  want    špinavý : verb=umývať patient=none:bielizeň ; uses práčka
+  trouble hrniec špinavý : oplachovať
+  trouble sporák pokazený : opraviť by technik
+  trouble práčka pokazený : opraviť by technik
+  lack    šošovica : supermarket
+
+SITUATION mühle-mehl : nature -- an der Mühle Mehl holen
+  place   mlyn
+  people  mlynár | kin
+  things  koleso | potok | zrno | vrece
+  own     vedro
+  want    hladný : verb=doniesť patient=none:múka ; uses vrece
+  want    smädný : verb=doniesť patient=none:voda ; uses vedro
+  trouble vrece pokazený : opraviť by mlynár
+  trouble vedro pokazený : opraviť
+
+SITUATION oase-datteln : nature -- in der Oase Datteln ernten
+  place   oáza
+  people  priateľ | kin
+  things  palma | voda | stan | ťava
+  own     kôš
+  want    hladný : verb=žať patient=none:datľa+pl ; uses kôš
+  want    unavený : verb=spať ; uses stan
+  trouble kôš pokazený : opraviť
+  trouble stan pokazený : opraviť
+
+SITUATION quelle-becher : nature -- an der Quelle Wasser trinken
+  place   prameň
+  people  priateľ | kin
+  things  voda | kameň | tráva | potok
+  own     hrnček | kôš
+  want    smädný : verb=piť patient=none:voda ; uses hrnček
+  want    hladný : verb=žať patient=none:malina+pl ; uses kôš
+  trouble hrnček špinavý : oplachovať
+  trouble kôš pokazený : opraviť
+
+SITUATION rasen-gitarre : garden -- auf dem Rasen Gitarre spielen
+  place   trávnik
+  people  priateľ | kin
+  things  tráva | kvetina | strom | lavica
+  own     gitara
+  want    chuť : verb=hrať patient=none:gitara ; uses gitara
+  want    unavený : verb=oddýchnuť_si ; uses lavica
+  trouble gitara pokazený : opraviť
+  trouble lavica špinavý : čistiť
+
+SITUATION rathaus-antrag : town -- im Rathaus einen Antrag unterschreiben
+  place   radnica
+  people  priateľ | kin | školník
+  things  schody | sála | vypínač | lavica
+  want    ponáhľanie : verb=podpísať patient=indef:žiadosť ; uses pero_(písacie)
+  want    unavený : verb=oddýchnuť_si ; uses lavica
+  trouble lavica špinavý : čistiť by školník
+  lack    pero_(písacie) : vypínač doniesť
+
+SITUATION reihenhaus-nudeln : home -- im Reihenhaus in der Küche kochen
+  place   radový_dom
+  people  kin | sused | priateľ
+  things  kuchyňa | sporák | hrniec | dvere
+  want    hladný : verb=variť patient=none:cestoviny+pl ; uses hrniec | sporák
+  trouble sporák pokazený : opraviť
+  trouble hrniec špinavý : oplachovať
+  lack    cestoviny : supermarket
+
+SITUATION ruine-turm : nature -- in der Ruine den Turm erkunden
+  place   ruina
+  people  priateľ | kin
+  things  múr | kameň | veža | tráva | drevo
+  own     baterka | kamera
+  want    chuť : verb=preskúmať patient=def:veža ; uses baterka
+  want    chuť : verb=robiť patient=none:fotka+pl ; uses kamera
+  trouble baterka pokazený : opraviť
+  trouble kamera špinavý : čistiť
+
+SITUATION saal-flöte : culture -- im Saal Flöte spielen
+  place   sála
+  people  priateľ | kin
+  things  javisko | stôl | stolička_(nábytok) | tanier
+  own     flauta
+  want    chuť : verb=hrať patient=none:flauta ; uses flauta
+  want    hladný : verb=jesť patient=none:sušienka+pl ; uses tanier
+  trouble flauta špinavý : čistiť
+  trouble tanier špinavý : oplachovať
+  lack    sušienka : supermarket
+
+SITUATION schule-mikroskop : school -- in der Schule ein Experiment machen
+  place   škola
+  people  učiteľ | priateľ
+  things  trieda | tabuľa | stôl | mikroskop
+  want    chuť : verb=robiť patient=indef:experiment ; uses mikroskop
+  want    hladný : verb=jesť patient=indef:banán
+  trouble mikroskop špinavý : čistiť by učiteľ
+  lack    banán : kiosk
+
+SITUATION stadtrand-erdbeeren : nature -- am Stadtrand Erdbeeren ernten
+  place   okraj_mesta
+  people  priateľ | kin
+  things  pole | plot | strom | záhrada
+  own     kôš
+  want    hladný : verb=žať patient=none:jahoda+pl ; uses kôš
+  want    smädný : verb=piť patient=none:mlieko
+  trouble kôš pokazený : opraviť
+  lack    mlieko : statok
+
+SITUATION stadtteil-hähnchen : town -- im Stadtteil
+  place   mestská_časť
+  people  sused | kin | priateľ
+  things  obchod | park | ulica | autobus
+  want    hladný : verb=jesť patient=indef:kurča
+  want    ponáhľanie : verb=poslať patient=indef:list_(písomnosť) ; uses poštová_známka
+  lack    kurča : občerstvenie
+  lack    poštová_známka : pošta

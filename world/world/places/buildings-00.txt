@@ -1,0 +1,48 @@
+# Buildings and shops A-K (Anlage .. Kindergarten): one PLACE line each, skipped nouns below
+# skipped Anlage -- too general (a facility of any kind), no typical scene
+# skipped Gebäude -- too general, any building; the specific buildings are listed instead
+# skipped Institut -- an organisation more than a place
+PLACE lekáreň : in ; light svetlý ; loudness tichý_(pokojný) ; cleanliness čistý_(bez_špiny) ; things polica | liek | tabletka | pokladňa | pult | skriňa ; people lekárnik | zákazník
+PLACE akvárium : in ; light tmavý ; colour modrý ; crowd plný ; things ryba | voda | sklenica | tabuľa | rastlina | štít ; people návštevník | dieťa
+PLACE aréna : in ; size veľký ; loudness hlasný ; crowd plný ; things sedadlo | tribúna | gól | svetlo | zástava | schody ; people divák | hráč
+PLACE jadrová_elektráreň : out ; size veľký ; danger nebezpečný ; loudness hlasný ; things veža | plot | rúra | kábel | gól | stroj ; people robotník | inžinier
+PLACE stanica : in ; loudness hlasný ; crowd plný ; things vlak | koľaj | cestovný_lístok | nástupište | hodiny | lavica ; people cestujúci | sprievodca_vo_vlaku
+PLACE banka : in ; loudness pokojný ; cleanliness čistý_(bez_špiny) ; light svetlý ; things vypínač | peniaze | karta | stôl | počítač | dvere ; people zákazník | zamestnanec
+PLACE bar : in ; light tmavý ; loudness hlasný ; comfort útulný ; things pult | sklenica | fľaša | taburetka | nápoj | hudba ; people čašník | hosť
+PLACE stavba : out ; loudness hlasný ; cleanliness špinavý ; danger nebezpečný ; things žeriav_(stroj) | bager | tehla | piesok | prilba | rebrík ; people robotník | murár
+PLACE statok : out ; space široký ; loudness pokojný ; colour zelený ; things maštaľ | krava | prasa | kura | traktor | stodola | pole ; people roľník | roľníčka
+PLACE horská_chata : in ; temperature chladný ; comfort útulný ; loudness tichý_(pokojný) ; things pec | posteľ | stôl | drevo | okno | strop ; people pešký_turista | hostinský
+PLACE odborná_škola : in ; loudness hlasný ; crowd plný ; things trieda | tabuľa | kniha | stôl | stolička_(nábytok) | dielňa ; people žiak | učiteľ
+PLACE knižnica : in ; loudness tichý_(pokojný) ; order poriadny ; light svetlý ; things kniha | polica | stôl | počítač | noviny | lampa ; people knihovník | čitateľ_(osoba)
+PLACE veľvyslanectvo : in ; cleanliness čistý_(bez_špiny) ; loudness pokojný ; things zástava | štít | dvere | písací_stôl | pas | plot ; people veľvyslanec | úradník
+PLACE kníhkupectvo : in ; loudness tichý_(pokojný) ; comfort útulný ; things kniha | polica | pokladňa | stôl | časopis | lampa ; people predavač | zákazník
+PLACE bunker : in ; light tmavý ; temperature chladný ; space tesný_(priestorovo) ; things stena | dvere | lampa | schody | posteľ | polica
+PLACE pekáreň : in ; temperature teplý ; light svetlý ; comfort útulný ; things chlieb | žemľa | koláč | pult | pec | pokladňa ; people pekár | predavačka
+PLACE kaviareň : in ; comfort útulný ; loudness pokojný ; things stôl | stolička_(nábytok) | káva | koláč | šálka | pult ; people čašník | hosť
+PLACE drogéria : in ; light svetlý ; cleanliness čistý_(bez_špiny) ; things polica | mydlo | šampón | zubná_kefka | pokladňa | kôš ; people predavačka | zákazník
+PLACE rodinný_dom : in ; comfort útulný ; loudness pokojný ; size malý ; things záhrada | dvere | okno | strecha | garáž | schody ; people rodina
+PLACE nákupné_centrum : in ; size veľký ; loudness hlasný ; crowd plný ; things obchod | eskalátor | pokladňa | lavica | reštaurácia | vrecko ; people zákazník | predavač
+PLACE továreň : in ; loudness hlasný ; cleanliness špinavý ; size veľký ; things stroj | hala | páska | gól | bedňa | komín ; people robotník | šéf
+PLACE prázdninový_byt : in ; comfort útulný ; size malý ; things posteľ | kuchyňa | balkón | stôl | pohovka | kľúč ; people hosť
+PLACE hasičská_stanica : in ; order poriadny ; things auto | hadica | prilba | rebrík | dvere | poplach ; people hasič
+PLACE fitnescentrum : in ; loudness hlasný ; temperature teplý ; light svetlý ; things prístroj | zrkadlo | závažie | uterák | hudba | fľaša ; people tréner
+PLACE letisko : in ; loudness hlasný ; crowd plný ; size veľký ; things lietadlo | kufor | vypínač | pas | informačná_tabuľa | taška ; people pilot | cestujúci | úradník
+PLACE galéria : in ; loudness tichý_(pokojný) ; light svetlý ; beauty krásny ; things obraz | stena | socha | lavica | svetlo | dvere ; people umelec | návštevník
+PLACE garáž : in ; light tmavý ; cleanliness špinavý ; things auto | bicykel | náradie | gól | polica | olej
+PLACE hostinec : in ; comfort útulný ; loudness hlasný ; things stôl | pivo | stolička_(nábytok) | jedálny_lístok | pult | jedlo ; people hostinský | hosť | čašník
+PLACE väzenie : in ; light tmavý ; space tesný_(priestorovo) ; danger nebezpečný ; things bunka | mreža | múr | dvere | posteľ | kľúč ; people policajt
+PLACE obchod : in ; light svetlý ; crowd plný ; things polica | pokladňa | tovar | vrecko | výklad | cena ; people predavač | zákazník
+PLACE skleník : in ; temperature horúci ; wetness vlhký ; colour zelený ; things rastlina | paradajka | sklenica | zem | kvetina | krhla ; people záhradník
+PLACE základná_škola : in ; loudness hlasný ; colour pestrý ; things trieda | tabuľa | zošit | stôl | stolička_(nábytok) | hračka ; people žiak | učiteľka | dieťa
+PLACE gymnázium : in ; loudness hlasný ; crowd plný ; things trieda | tabuľa | kniha | stôl | stolička_(nábytok) | počítač ; people žiak | učiteľ
+PLACE hala : in ; size veľký ; space široký ; loudness hlasný ; things dvere | pôda | stena | svetlo | strecha | gól
+PLACE hlavná_stanica : in ; loudness hlasný ; crowd plný ; size veľký ; things vlak | koľaj | cestovný_lístok | nástupište | hodiny | informačná_tabuľa ; people cestujúci | sprievodca_vo_vlaku
+PLACE dom : in ; comfort útulný ; things dvere | okno | strecha | schody | záhrada | izba ; people rodina
+PLACE výšková_budova : in ; size veľký ; space tesný_(priestorovo) ; things výťah | okno | balkón | schody | dvere | poschodie ; people sused
+PLACE vysoká_škola : in ; loudness pokojný ; crowd plný ; things prednáškova_sála | kniha | počítač | stôl | knižnica | študentská_jedáleň ; people študent | profesor
+PLACE hotel : in ; cleanliness čistý_(bez_špiny) ; comfort útulný ; things izba | posteľ | raňajky | kľúč | kufor | výťah ; people hosť | čašník
+PLACE chata : in ; size malý ; space tesný_(priestorovo) ; comfort útulný ; things pec | stôl | posteľ | drevo | okno | dvere
+PLACE kaplnka : in ; loudness tichý_(pokojný) ; light tmavý ; size malý ; things oltár | sviečka | lavica | kríž | okno | obraz ; people farár
+PLACE obchodný_dom : in ; size veľký ; crowd plný ; loudness hlasný ; things eskalátor | pokladňa | polica | oblečenie | vrecko | výťah ; people predavač | zákazník
+PLACE materská_škola : in ; loudness hlasný ; colour pestrý ; things hračka | stôl | stolička_(nábytok) | lopta | obraz | záhrada ; people dieťa | učiteľka
+PLACE kino : in ; light tmavý ; loudness hlasný ; things film | sedadlo | plátno | popcorn | karta | dvere ; people návštevník

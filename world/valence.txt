@@ -1,0 +1,138 @@
+# VALENCE (sentences/README.md): what is GOOD or BAD -- pleasant, wished for, right / unpleasant, feared, wrong -- for
+# the one concerned. The generator keeps a sentence's parts agreeing: a reason with its action (Weil er froh ist, lacht
+# er -- not "Weil er traurig ist, lacht er"), a concession against it (Obwohl er krank ist, arbeitet er -- not "Obwohl
+# er traurig ist, weint er"), a comment with its clause (leider: a bad thing), an adjective with its noun (not "ein
+# schöner Unfall"), a verb of liking with what it likes (freut sich über das Geschenk -- not "über den Unfall").
+# Only words whose valence is clear in nearly every use; all others are neutral and agree with anything.
+#     AN good : schön | hübsch        (adjectives; N nouns, V verbs, AV comment adverbs the same)
+#     LIKE : sich freuen | lieben     (verbs of liking what they are about; DISLIKE: of disliking it)
+#     CARRY : haben | bekommen        (a clause of these is as good as its object: einen Unfall haben)
+
+AV good : našťastie | dúfajme
+AV bad : bohužiaľ
+CARRY : mať (vlastniť) | dostať | dostať | zažiť
+
+# ---- adjectives
+# AN good: general quality
+AN good : dobrý | lepší | veľkolepý | výborný | úžasný | skvelý | dokonalý | super | vynikajúci | fantastický | geniálny | brilantný
+AN good : výborný | dokonalý | ideálny | žiaduci | krásny | nádherný | nádherný | rozkošný
+AN good : cenný | drahocenný | kvalitný | užitočný | výhodný | výnosný | pozitívny | správny | bezchybný | bezchybný | spoľahlivý | vydarený
+AN good : zmysluplný | riešiteľný | bezproblémový | pôsobivý | elegantný | štýlový | harmonický | zábavný | vtipný | zábavný
+# AN good: feelings
+AN good : šťastný | rád | veselý | potešený | radostný | veselý | spokojný | uľavený | nadšený | uvoľnený (bez napätia) | útulný | vďačný
+AN good : hrdý | zamilovaný | láskavý | nežný | optimistický | optimistický | romantický | útulný | pohodlný | pohodlný | oddychový
+# AN good: people
+AN good : priateľský | milý | srdečný | zdvorilý | ochotný pomôcť | pohostinný | taktný | tolerantný | ohľaduplný | veľkorysý | nezištný | solidárny
+AN good : úprimný | úprimný | verný | spravodlivý | cnostný | slušný | čestný | svedomitý | odvážny | usilovný | trpezlivý | vtipný
+AN good : múdry | inteligentný | talentovaný | vzdelaný | schopný | skúsený | zodpovedný | produktívny | úspešný | obľúbený | slávny | víťazný
+AN good : hrdinský | dobročinný | milostivý | spriatelený | nevinný | družný | živý
+# AN good: food, body, place, weather, money
+AN good : chutný | chutný | šťavnatý | chrumkavý | lákavý | vkusný | jedlý | čistý (bez špiny) | hygienický | voňavý
+AN good : zdravý | liečiteľný | bezbolestný | nezranený | úrodný | mierumilovný | dovolený | legálny | bezplatný | lacný | lacný | zámožný
+AN good : luxusný | slávnostný | sviatočný | slnečný | bez oblakov | žiarivý | nebeský
+AN bad : zlý | strašný | zlý | hrozný | otrasný | ohavný | odporný | nesprávny | chybný | nedostatočný
+AN bad : menejcenný | neužitočný | bezcenný | nezmyselný | márny | nevýhodný | škodlivý | nebezpečný | riskantný | negatívny | problematický | poľutovaniahodný
+AN bad : škaredý | pokazený | špinavý | škvrnitý | hrdzavý | sfalšovaný | nudný | smiešny | nepríjemný | nepohodlný | neútulný | nečitateľný
+# AN bad: feelings
+AN bad : nešťastný | smutný | zúrivý | nahnevaný | rozladený | bojazlivý | zdesený | ustarostený | sklamaný | zúfalý | beznádejný | znudený
+AN bad : panický | vystresovaný | stresujúci | nespokojný | napätý | stiesnený | frustrovaný | rozhorčený | biedny | pochmúrny | bezmocný | osamelý
+AN bad : žiarlivý | závistlivý | urazený | otrasený | bezradný | zmätený | skľúčený | zatrpknutý | apatický | vyčerpaný | so závratom | nevoľný
+# AN bad: people
+AN bad : nemilý | nezdvorilý | neverný | netaktný | neobľúbený | nepriateľský | nepriateľský | zlomyseľný | nehanebný | krutý | mrzutý | lakomý
+AN bad : sebecký | arogantný | chamtivý | ľahkomyseľný | bezohľadný | bezškrupulózny | nečestný | nespravodlivý | neslušný | nerozumný | lenivý | zbabelý
+AN bad : hlúpy | nedbalý | neposlušný | zaujatý | bez zmyslu pre humor | cynický | agresívny | bezcitný | neúspešný | neschopný | vinný | podozrivý
+AN bad : kriminálny | skorumpovaný | bezmocný | chudobný | chudobný | zbankrotovaný | nezamestnaný | bezdomovský | oneskorený | zajatý
+# AN bad: illness, danger, death, law, weather
+AN bad : chorý | nezdravý | bolestivý | nákazlivý | prechladnutý | zranený | chromý | ochrnutý | v mdlobách | v bezvedomí | nespavý | nevyliečiteľný
+AN bad : jedovatý | závislý (na droge) | hrozivý | krvavý | smrteľný (smrtiaci) | mŕtvy | bezvládny | zosnulý | vymretý | neúrodný | nechutný
+AN bad : zakázaný | nelegálny | trestný | šmykľavý | daždivý
+
+# ---- nouns
+# ---- N good: qualities, states, outcomes
+N good : výhoda | úžitok | pridaná hodnota | úspech | triumf | víťazstvo | prielom | šanca | príležitosť | dokonalosť | bezpečnosť | čistota
+N good : poriadok | sila | spoľahlivosť | priazeň | blaho | súdržnosť | konsenzus | jednota | dohoda | spolupráca | spolupráca | integrácia
+N good : akceptácia | opora | spoľahlivosť | zdravie | uzdravenie | liečenie | zotavenie | záchrana | ochrana | pomoc | podpora | dobročinnosť
+N good : mier | prímerie | prímerie | spojenectvo | sloboda | nezávislosť | spravodlivosť | rovnoprávnosť | sloboda prejavu | nevinnosť | zproštenie viny | oslobodenie
+N good : bohatstvo | blahobyt | luxus | kvalita života | život | pôrod | kondícia | chuť do jedla | pohodlie | útulnosť | sviežosť | imunita
+N good : hygiena | úrodnosť | splnenie | povýšenie | zvýšenie platu | záchrana v lige | ochrana prírody | ochrana životného prostredia | ochrana klímy | vzdelanie | objav | comeback
+# ---- N good: character, abilities
+N good : zručnosť | talent | inteligencia | múdrosť | múdrosť | sebadôvera | uznanie | porozumenie | kreativita | humor | odvaha | čestnosť
+N good : úprimnosť | usilovnosť | trpezlivosť | skromnosť | veľkorysosť | vernosť | zdvorilosť | cnosť | optimizmus | ochota pomáhať | nezištnosť | slušnosť
+N good : integrita | fair play | lojalita | otvorenosť | dôkladnosť | povesť | česť | sláva | sláva | dôstojnosť | tolerancia | obľúbenosť
+N good : šarm | krása | nádhera | elegancia | harmónia | lesk | vôňa | výhoda | požehnanie | zázrak | vykúpenie | milosť
+# ---- N good: feelings
+N good : šťastie | blaženosť | radosť | úľava | nádej | nadšenie | potešenie | pôžitok | okúzlenie | spokojnosť | extáza | vyrovnanosť
+N good : optimizmus | láska | zamilovanosť | náklonnosť | náklonnosť | obdiv | uznanie | nežnosť | hrdosť | vďačnosť | vďaka | útecha
+N good : smiech | úsmev | sympatie | radosť z očakávania | obľuba | spriaznenosť | pokoj | relaxácia | sranda | rešpekt | dôvera | solidarita
+# ---- N good: events, celebrations, social
+N good : slávnosť | oslava | slávnosť | festival | karneval | fašiangy | večierok | banket | narodeniny | jubileum | svadba | sobáš
+N good : zásnuby | Vianoce | Veľká noc | ohňostroj | vianočný trh | jasot | potlesk | korunovácia | priateľstvo | pohostinnosť | romanca | privítanie
+N good : opätovné stretnutie | zmierenie | objatie | bozk | dobrodružstvo | výlet | slnečné svetlo | dúha | mesačný svit
+# ---- N bad: problems, harm
+N bad : nevýhoda | nebezpečenstvo | ohrozenie | škoda | hmotná škoda | poškodenie | slabosť | ťažkosť | problém | dilema | prekážka | prekážka
+N bad : neúspech | neúspech | zlyhanie | porážka | strata | smola | nepríjemnosť | chyba | nesprávne rozhodnutie | nedorozumenie | zmätok | blud
+N bad : opovážlivosť | nátlak | zaťaženie | preťaženie | preťaženie | nedostatok | úzke miesto | nedostatok odborníkov | oneskorenie | meškanie | omeškanie | výpadok
+N bad : porucha | neistota | nepochopenie | neistota | chaos | neporiadok | kríza | núdzový stav | nepokoj | zrútenie | zničenie | prenasledovanie
+N bad : odmietnutie | pohoršenie | sporný bod | pochybnosť | obava | vada | neresť | hriech | potupa | poníženie | šikana | klam
+# ---- N bad: accidents, disasters
+N bad : katastrofa | prírodná katastrofa | nešťastie | nešťastie | nehoda | dopravná nehoda | incident | defekt | defekt pneumatiky | zrážka | kolízia | pád
+N bad : pád | výbuch | požiar | lesný požiar | zemetrasenie | zosuv pôdy | erupcia sopky | lavína | povodeň | záplava | cunami | nečas
+N bad : snehová búrka | hurikán | orkán | tornádo | tajfún | cyklón | sucho | poľadovica | vlna chladu | výpadok prúdu | zápcha | znečistenie
+N bad : smog | hluk | hluk | smrad | ohrozenie života | hladomor | hlad | smäd | chudoba | plytvanie | bankrot | platobná neschopnosť
+N bad : inflácia | recesia | škrt | zvýšenie ceny | nezamestnanosť | prepustenie | výpoveď | vyhorenie | únava | vyčerpanie | smrť | úmrtie
+# ---- N bad: crime, conflict, war
+N bad : vojna | občianska vojna | svetová vojna | útočná vojna | vojnový zločin | bitka (vojenská) | konflikt | nepriateľstvo | hrozba | útok | útok | atentát
+N bad : invázia | vpád | prepad | zálusk | paľba | bombardovanie | kapitulácia | braní rukojemníkov | blokáda | sabotáž | mučenie | násilie
+N bad : agresia | boj o moc | hádka | bitka (výtržnosť) | políček | spor | nezhoda | pomsta | odplata | rivalita | nedôvera | výtržnosť
+N bad : zločin | kriminalita | trestný čin | delikt | krádež | vražda | zabitie | usmrtenie | podvod | lúpež | vlámanie | únos
+N bad : vydieranie | podplácanie | korupcia | podpaľačstvo | vandalizmus | ublíženie na zdraví | zneužitie | napadnutie | ohováranie | zrada | vlastizrada | sprisahanie
+N bad : škandál | tyrania | útlak | cenzúra | anarchia | diskriminácia | nespravodlivosť | bezprávie | porušenie | vina | trest | potrestanie
+N bad : pokuta | trest odňatia slobody | trest odňatia slobody | väzba | vyšetrovacia väzba | zajatie | zatknutie | zatknutie | odsúdenie | obžaloba | poprava | otroctvo
+N bad : izolácia (oddelenie) | vylúčenie
+# ---- N bad: illness, pain, injury
+N bad : choroba | ochorenie | infekcia | nákaza | epidémia | pandémia | epidémia | mor | bolesť | bolesť hlavy | bolesť zubov | bolesť brucha
+N bad : bolesť hrdla | bolesti chrbta | ťažkosti | ochorenie | horúčka | kašeľ | prechladnutie | nádcha | senná nádcha | chrípka | alergia | rakovina
+N bad : nádor | cukrovka | astma | akné | migréna | depresia | závislosť (choroba) | otrava | zápal | zápal pľúc | mozgová príhoda | srdcový infarkt
+N bad : rana | zranenie | pomliaždenina | opuch | zlomenina | vymknutie | natiahnutie (svalu) | škrabanec | svalová horúčka | otras mozgu | ochrnutie | vyrážka
+N bad : závrat | nevoľnosť | mdloba | nespavosť | hnačka | kóma | nadváha | obezita | núdzový prípad
+# ---- N bad: character
+N bad : hlúposť | cynizmus | lenivosť | netrpezlivosť | krutosť | nedbalosť | lakomstvo | egoizmus | arogancia | ľahkomyseľnosť | márnivosť | pesimizmus
+N bad : zbabelosť | drzosť | zloba | chamtivosť | svojvôľa | zanedbanie | apatia
+# ---- N bad: feelings
+N bad : smútok | smútok | žiaľ | zlosť | hnev | mrzutosť | strach | strach | zdesenie | starosť | šok | zľaknutie
+N bad : hrôza | hrôza | panika | sklamanie | zúfalstvo | nuda | stres | napätie | frustrácia | frustrácia | rozhorčenie | zúrivosť
+N bad : núdza | trápenie | utrpenie | bieda | melanchólia | zdesenie | žiarlivosť | nenávisť | závisť | znechutenie | pohŕdanie | posmech
+N bad : hnus | nepriateľstvo | zlomyseľnosť | zášť | trápenie z lásky | hanba | rozpaky | osamelosť | clivota | ľútosť | nervozita | výsmech
+N bad : nepríjemný pocit | nevôľa | nespokojnosť
+
+# ---- verbs
+# V good: winning, joy, celebration
+V good : vyhrať | zvíťaziť | sláviť | smiať sa | usmievať sa | vychutnávať si | tešiť sa | baviť | nadchnúť | tleskať | podariť sa | zvládnuť
+# V good: love, care, kindness
+V good : ľúbiť | mať rád | zamilovať sa | obdivovať | vážiť si | chváliť | rešpektovať | dôverovať | uctiť | objať | bozkávať | hladkať
+V good : pomôcť | podporovať | chrániť | ochrániť | zachrániť | oslobodiť | utešiť | upokojiť | povzbudiť | inšpirovať | posilniť | podporovať
+V good : darovať (darček) | darovať (na dobročinnosť) | ďakovať | poďakovať sa | blahoželať | privítať | pozvať | odpustiť | odpustiť | zmieriť sa | odmeniť | zapôsobiť
+# V good: health, wellbeing, growth
+V good : vyliečiť | uzdraviť sa | zahojiť sa | zotaviť sa | uvoľniť sa | uľahčiť | osviežiť | zlepšiť | prežiť | oživiť | prosperovať | kvitnúť
+V good : rozkvitnúť | oženiť sa | zasnúbiť sa | žehnať | vykúpiť | profitovať | oplatiť sa | voňať | ozdobiť | páčiť sa | dúfať | uznať
+# V bad: loss, failure, harm
+V bad : stratiť | stroskotať | nepodariť sa | zmeškať | netrafiť | škodiť | poškodiť | ohroziť | zničiť | zhoršiť | oslabiť | pokaziť sa
+V bad : rozbiť | zrútiť sa z výšky | zrútiť sa | spustošiť | znečistiť | zaplaviť | falšovať | márniť | meškať | kapitulovať | zakaliť | chátrať
+V bad : zvädnúť | vädnúť | hniť | hniť | plesnivieť | hrdzavieť | smrdieť | schudobnieť | žobrať
+# V bad: negative feelings
+V bad : plakať | smútiť | trpieť | utrpieť | sklamať | šokovať | trápiť | strašiť | robiť si starosti | obávať sa | báť sa | zľaknúť sa
+V bad : strhnúť sa | poplašiť | nudiť sa | hanbiť sa | oľutovať | ľutovať | nenávidieť | pohŕdať | hnusiť sa | závidieť | dráždiť | hnevať
+V bad : rozčuľovať | rušiť | zmiasť | postrádať | odradiť | unaviť | vysiliť | zazlievať
+# V bad: conflict, wrongdoing
+V bad : hádať sa | klamať | kradnúť | uraziť | vysmiať | ponížiť | šikanovať | podvádzať | zradiť | oklamať | urážať | nadávať
+V bad : nadávať | prekliať | kričať na | odsúdiť | obviniť | obžalovať | zažalovať | potrestať | podozrievať | hrešiť | ignorovať | prekážať
+V bad : ohrozovať | zaútočiť | prepadnúť | bombardovať | sabotovať | zaťažiť | potláčať | zotročiť | okradnúť | lúpiť | vydierať | podplatiť
+V bad : uniesť | zatknúť | dať políčok | zabiť úderom | zastreliť | vraždiť | zavraždiť | zabiť | zabiť | popraviť | otráviť | škrtiť
+V bad : uškrtiť
+# V bad: illness, injury, death
+V bad : zraniť | vymknúť si | paralyzovať | ochorieť | prechladnúť | nakaziť | nakaziť | bolieť | bolieť | krvácať | zvracať | zvracať
+V bad : zadúšať sa | mrznúť | hladovať | zomrieť od hladu | zomrieť od smädu | utopiť sa | mať nehodu | zomrieť | vymrieť | odumrieť | zahynúť
+LIKE : tešiť sa | ľúbiť | mať rád | vychutnávať si | obdivovať | chváliť | poďakovať sa | ďakovať | vážiť si | sláviť | privítať | blahoželať
+LIKE : zamilovať sa | tleskať | rešpektovať | dôverovať | uctiť | uznať | uprednostňovať | želať si | dúfať | túžiť
+DISLIKE : nenávidieť | hnevať | báť sa | obávať sa | pohŕdať | hnusiť sa | sťažovať sa | sťažovať sa | kritizovať | ľutovať | oľutovať | závidieť
+DISLIKE : odsúdiť | urážať | nadávať | prekliať | zazlievať | smútiť | trpieť | robiť si starosti | hanbiť sa

@@ -1,0 +1,312 @@
+AN útulný : room, building, event
+N izba : room, lockable, cleanable, enterable
+N dom : building, lockable, cleanable, enterable
+N domov : place
+N výšková budova : building, enterable
+N obytný dom : building, cleanable, enterable
+N rodinný dom : building, cleanable, enterable
+N radový dom : building, cleanable, enterable
+N vidiecky dom : building, cleanable, enterable
+N panský dom : building, enterable
+N obydlie : building, enterable
+N číslo domu : information
+N gazdinká : role
+N domáca práca : activity
+N domácnosť : group
+N chata : building, lockable, cleanable, enterable
+N horská chata : building, lockable, cleanable, enterable
+V bývať : person > location building
+V bývať : person > location {byt|podkrovie}
+V bývať : person > location region
+V bývať : person > location settlement
+V bývať : animal > location {rodičia|babka|dedko|teta|strýko|dcéra|syn|priateľ}
+V bývať : person > location country
+N byt : room, lockable, cleanable, enterable
+N nájomný byt : room, lockable, cleanable, enterable
+N byt vo vlastníctve : room, lockable, cleanable, enterable
+N garsónka : room, lockable, cleanable, enterable
+N miesto bydliska : place
+N bydlisko : position
+N spoločná domácnosť : group
+N nájom : quantity
+N nájomník : role
+N prenajímateľ : role
+V prenajať : {prenajímateľ|vlastník|majiteľ|firma|rodičia|obec|roľník} > patient {dom|vila|chata|chata|statok|zámok|budova}, recipient {študent|nájomník|rodina|turista|firma|pár}
+V prenajať : {prenajímateľ|vlastník|majiteľ|firma|rodičia|obec|roľník} > patient {izba|byt|kancelária|garáž|obchod|sála|pivnica}, recipient {študent|nájomník|rodina|turista|firma|pár}
+V prenajať : {prenajímateľ|vlastník|majiteľ|firma|rodičia|obec|roľník} > patient {plocha|krajina (štát)|záhrada}, recipient {študent|nájomník|rodina|turista|firma|pár}
+V prenajať : {prenajímateľ|vlastník|majiteľ|firma|roľník} > patient vehicle, recipient {študent|nájomník|rodina|turista|firma|pár}
+N nájomná zmluva : document, text
+N strecha : building-part, repairable, climbable ; auf
+N povala : room, lockable, cleanable, enterable ; auf
+N odkvap : building-part, repairable, cleanable
+N strešná škridla : building-part, repairable, breakable
+N stena : building-part, cleanable
+N vonkajšia stena : building-part, cleanable
+N priečka : building-part
+N strop : building-part
+N paplón : artifact, thing, washable, foldable
+N vlnená deka : artifact, thing, washable, foldable
+N prešívaná prikrývka : artifact, thing, washable, foldable
+N okno : building-part, repairable, openable, lockable, breakable, cleanable
+N okenica : building-part, openable, lockable
+N parapet : building-part, cleanable
+N okenná tabuľa : building-part, breakable, cleanable, repairable
+N strešné okno : building-part, openable, lockable, breakable, cleanable
+N dvere : building-part, repairable, openable, lockable
+N vchodové dvere : building-part, repairable, openable, lockable
+N dvere bytu : building-part, repairable, openable, lockable
+N kľučka : building-part
+N guľová kľučka : building-part
+N kukátko : building-part
+N zárubňa : building-part
+N prah : building-part
+N schod : building-part
+N schodík pred dverami : building-part
+N schody : building-part, repairable, cleanable, climbable
+N schodisko : room, cleanable, enterable
+N podesta : building-part, cleanable
+N zábradlie : building-part, repairable
+N zábradlie schodiska : building-part
+N výťah : device, repairable, enterable
+N poschodie : place
+N prízemie : place
+N horné poschodie : place
+N suterén : place
+N podkrovie : place
+N komín : building-part, repairable, cleanable, climbable
+N kominár : professional
+N krb : building-part, repairable, cleanable
+N pivnica : room, lockable, cleanable, enterable
+N vínna pivnica : room, lockable, cleanable, enterable
+N balkón : place, cleanable, enterable ; auf
+N terasa : place, cleanable, enterable ; auf
+N strešná terasa : place, cleanable, enterable ; auf
+N veranda : place, cleanable, enterable ; auf
+N dvor : place, cleanable, enterable ; auf
+N átrium : place, cleanable, enterable ; auf
+N zadný dvor : place, cleanable, enterable ; auf
+N kôlňa : building, lockable, cleanable, enterable
+N garáž : building, lockable, cleanable, enterable
+N podzemná garáž : building, lockable, cleanable, enterable
+N príjazd : road, cleanable
+N vchod : place
+N východ (výstup) : place
+N tapeta : paper
+V tapetovať : person > patient room
+N fasáda : building-part, repairable, cleanable
+N základy : building-part
+N dlaždica : artifact, thing, repairable, breakable, cleanable
+N parkety : building-part, cleanable
+N odtok : artifact, repairable
+N kanalizácia : artifact
+N vodovod : artifact, repairable
+V kúriť : person
+V kúriť : person > patient {dom|byt|vila|chata}
+V kúriť : person > patient room
+N kúrenie : device, repairable, switchable
+N radiátor : device, repairable, cleanable, switchable
+N kotol (kúrenia) : device, repairable, switchable
+N pánt : artifact, repairable
+N zástrčka (na dverách) : artifact
+N podlahová doska : artifact
+N markíza : artifact
+N baldachýn : artifact
+N poštová schránka : artifact, repairable, openable, lockable
+N vila : building, lockable, cleanable, enterable
+N rezidencia : building, enterable
+N spálňa : room, lockable, cleanable, enterable
+N kúpeľňa : room, lockable, cleanable, enterable
+N obývačka : room, lockable, cleanable, enterable
+N jedáleň (v byte) : room, lockable, cleanable, enterable
+N detská izba : room, lockable, cleanable, enterable
+N hosťovská izba : room, lockable, cleanable, enterable
+N toaleta : room, lockable, cleanable, enterable
+N toaletný papier : paper
+N špajza : room, lockable, cleanable, enterable
+N vestibul : room, cleanable, enterable
+N apartmán : room, cleanable, enterable
+N bungalov : building, cleanable, enterable
+N penthouse : room, cleanable, enterable
+N obytný priestor : place
+N nábytok : furniture, repairable
+N kus nábytku : furniture
+N stôl : furniture, repairable, cleanable
+N písací stôl : furniture, cleanable
+N jedálenský stôl : furniture, cleanable
+N nočný stolík : furniture, cleanable
+N stolička (nábytok) : furniture, repairable, cleanable, sittable
+N hojdacie kreslo : furniture, repairable, sittable
+N taburetka : furniture, cleanable, sittable
+N podnožka : furniture, sittable
+N sedací puf : furniture, sittable
+N lavica : furniture, cleanable, sittable
+N banka : institution, building, enterable
+N kreslo : furniture, repairable, cleanable, sittable
+N pohovka : furniture, repairable, cleanable, sittable
+N gauč : furniture, cleanable, sittable
+N posteľ : furniture, sittable
+N manželská posteľ : furniture, sittable
+N poschodová posteľ : furniture, sittable
+N čelo postele : furniture
+N matrac : furniture
+N posteľná plachta : artifact, thing, washable, foldable
+N skriňa : furniture, repairable, openable, lockable, cleanable
+N šatník : furniture, repairable, openable, lockable, cleanable
+N vstavaná skriňa : furniture, openable, lockable
+N polica : furniture, cleanable, fillable
+N polica na knihy : furniture, cleanable
+N zásuvka (v nábytku) : furniture, openable, lockable, fillable
+N komoda : furniture, openable, lockable, cleanable
+N pracovná doska : furniture, cleanable
+N zrkadlo : artifact, thing, hangable, breakable, cleanable
+N odraz v zrkadle : picture
+N koberec : artifact, washable, cleanable
+N záves : artifact, washable, hangable
+N lampa : device, hangable, repairable, breakable, switchable
+N tienidlo : artifact, breakable
+N luster : device, hangable, repairable, breakable, switchable
+N vankúš : artifact, thing, washable
+N podhlavník : artifact, thing
+N obliečka na vankúš : artifact, thing, washable
+N čalúnenie : artifact
+N uterák : artifact, thing, washable, foldable, hangable
+N osuška : artifact, thing, washable, foldable, hangable
+N vešiak : tool
+N kolíska : furniture
+N hojdacia sieť : furniture, hangable
+N kľúč : tool
+N zväzok kľúčov : tool
+N zámok : artifact, thing, repairable
+V zamknúť : person -child > patient object +lockable
+V zamknúť : person -child > patient building +lockable
+V zamknúť : person -child > patient {izba|kancelária|pivnica|pracovňa|kúpeľňa|spálňa}
+N vodovodný kohútik : artifact, repairable, openable, cleanable
+N rohožka : artifact, washable, cleanable
+N behúň : artifact
+N odpad : substance, burnable ; mass
+N odpadkový kôš : container, cleanable, fillable
+N popolnica : container, openable, cleanable, fillable
+N zvoz odpadu : institution
+N termostat : device, repairable
+N rukoväť : artifact
+N zvonček : device, repairable
+V zvoniť : {telefón|mobil|budík|zvon}
+V zvoniť : person
+V zvoniť : es
+N sviečka : artifact, thing, burnable
+N svietnik : artifact, thing
+N lampáš : device, thing, hangable, repairable, switchable
+N hodiny : device, thing, hangable, repairable
+N náramkové hodinky : device, wearable, repairable
+N čas (na hodinách) : moment
+N budík : device, thing, repairable, switchable
+N vedro : container, fillable
+N sprcha : artifact, repairable, cleanable, switchable
+V sprchovať sa : person -professional
+N vaňa : artifact, repairable, cleanable, fillable
+N metla : tool
+N mop : tool
+N kefa : tool, washable
+N zubná kefka : tool, washable
+N kefa na vlasy : tool, washable
+V kefovať : person > patient clothing
+V kefovať : person > patient animal
+V kefovať : person > patient body-part
+V kefovať : person > patient furniture
+N hrebeň : tool, washable
+V česať : person > patient {vlasy|brada (porast)}
+V česať : person > patient {kôň|pes|mačka|ovca|poník|králik}
+N mydlo : substance ; mass
+N hubka : tool, washable
+N šampón : substance
+N zubná pasta : substance
+V holiť : person > patient body-part
+V holiť : {holič|ošetrovateľ|zdravotná sestra|lekár|otec} > patient {muž|otec|brat|zákazník|pacient}
+N holiaci strojček : device, thing, repairable, switchable
+N nožnice : tool
+N vrece : container, openable, fillable
+N kôš : container, fillable
+N truhlica : container, openable, lockable, fillable
+N váza : container, washable, breakable, fillable
+N upratovačka : professional
+N čistiaci prostriedok : substance
+V umývať : person > patient object +washable
+V umývať : person > patient food +washable
+V umývať : person > patient animal +washable
+V umývať : person > patient body-part +washable
+N bielizeň : clothing, washable, foldable, hangable
+N posteľná bielizeň : artifact, washable, foldable, hangable
+N práčka : device, repairable, openable, switchable
+N prací prostriedok : substance
+N umývadlo : artifact, repairable, cleanable, fillable
+V umyť : person > patient kitchenware +washable
+V umyť : person
+V oplachovať : person > patient kitchenware +washable
+V oplachovať : person > patient {sklenica|šálka|hrnček|fľaša|riad}
+V oplachovať : person > patient {šalát|zelenina|ovocie|ryža}
+N drez : furniture, cleanable
+V vyzdobiť : person > patient room
+V vyzdobiť : person > patient {dom|obchod|kostol|sála}
+V vyzdobiť : person > patient {stôl|polica}
+V vyzdobiť : person > patient {torta|koláč|šalát|pokrm|tanier}
+N výzdoba : artifact
+V upratať : person > patient room
+V upratať : person > patient {záhrada|písací stôl|stôl|skriňa|hračka|náradie}
+V upratať : person
+N neporiadok : state
+N škvrna : concrete
+AN škvrnitý : clothing, fabric, furniture, building-part, animal
+AN pohodlný : {stolička (nábytok)|kreslo|pohovka|posteľ|taburetka}, clothing, {auto|autobus|vlak}, {izba|obývačka|spálňa|byt|dom}
+AN nepohodlný : furniture, clothing, vehicle, room, building
+N pohodlnosť : quality
+N pohodlie : quality
+AN neútulný : room, building, event
+N útulnosť : quality
+N stará zástavba : building, lockable, cleanable, enterable
+N usadlosť : place, enterable
+N pracovňa : room, lockable, cleanable, enterable
+N vybavenie : quality
+N vrecúško : container, openable, fillable
+N majiteľ domu : person
+N vchod do domu : building-part
+N náklady na kúrenie : quantity
+N komora : room, lockable, enterable
+N bedňa : container, openable, fillable
+N klapka : building-part, openable
+N handra : artifact, thing, washable, foldable
+N balón (nafukovací) : toy
+N múr : building-part, climbable, repairable
+N viacbytový dom : building, lockable, cleanable, enterable
+N vedľajšie náklady : quantity
+N platňa : artifact, thing
+N omietka : material
+N poistka : artifact, repairable
+N vysávač : device, switchable, repairable
+N palica : tool
+N sušička : device, switchable, repairable
+N vrecko : container, openable, fillable, foldable
+N sťahovanie : event
+N bytový blok : building, lockable, enterable
+N stan : building, enterable
+# added: Bad in its second sense
+N kúpeľ : activity
+# added: Decke in its second sense
+N deka : artifact, thing, foldable, washable
+# added: Hausarbeit in its second sense
+N seminárna práca : text
+# added: Wäsche in its second sense
+N pranie : artifact, thing, washable, foldable, hangable
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN bytom : {zariadenie|budova|dom}
+AN dekoratívny : object, room, plant, flower, -vehicle
+AN domáci (rodinný) : {atmosféra|starostlivosť|lekár}, event
+AN neobývaný : building, room, {dom|byt|chata|ostrov}
+AN voľne stojaci : building, furniture, {dom|vaňa|skriňa}
+V byť domovom pre : place > patient animal
+V navýšiť : person > patient {cena|kapacita|rozpočet|plat}
+V odrážať : {zrkadlo|voda|stena} > patient {svetlo|zvuk|obraz|slnko}
+V podložiť : person > patient thing, instrument thing
+V rozkúriť : person > patient {pec|krb}
+V vykurovať : person > patient building
+V vykurovať : person > patient room

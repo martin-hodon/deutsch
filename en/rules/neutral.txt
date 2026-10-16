@@ -1,0 +1,164 @@
+# HOW ENGLISH SAYS THE WORLD'S CLOSED WORDS (world/CLAUSES.md) -- as de/rules/neutral.txt: `KIND neutral = English`,
+# alternatives `|` (the first by default; `{2}` likelier when the realizer chooses freely; [place] [person] [name]
+# [vehicle] [day] [period] [surface]: the alternative for such a noun). A pronoun: subject/object/possessive
+# determiner/possessive pronoun/reflexive. Read by en/realize.js.
+
+pron 1sg = I/me/my/mine/myself
+pron 2sg = you/you/your/yours/yourself
+pron 3sg.m = he/him/his/his/himself
+pron 3sg.f = she/her/her/hers/herself
+pron 3sg.n = it/it/its/its/itself
+pron 1pl = we/us/our/ours/ourselves
+pron 2pl = you/you/your/yours/yourselves
+pron 3pl = they/them/their/theirs/themselves
+pron formal = you/you/your/yours/yourself
+pron one = you/you/your/yours/yourself
+pron someone = someone/someone/someone's/someone's/themselves
+pron noone = no one/no one/no one's/no one's/themselves
+pron something = something/something/its/its/itself
+pron nothing = nothing/nothing/its/its/itself
+pron everything = everything/everything/its/its/itself
+pron this = that/that/its/its/itself
+pron that-one = he/him/his/his/himself
+pron who = whoever/whomever/whose/whose/themselves
+
+det def = the
+det indef = a
+det none =
+det no = no
+det this = this
+det every = every
+det all = all
+det some = some
+det both = both
+det many = many
+det much = much
+det little = little
+det several = several
+det few = few
+det which = which
+
+coord and = and
+coord but = but
+coord or = or
+coord for = because
+coord either = either
+coord admittedly = admittedly
+coord as-well-as = as well as
+
+link because = because {3} | as {1}
+link although = although {2} | even though {1}
+link if = if
+link if-unreal = if
+link when = when
+link when-past = when
+link before = before
+link after = after
+link as-soon-as = as soon as
+link in-case = in case
+link while = while
+link until = until
+link as-long-as = as long as
+link since = since
+link so-that = so that
+link by-doing = by
+link with-result = so that
+link without-that = without
+link instead-that = instead of
+link as-if = as if
+link that = that
+link whether = whether
+link purpose = to {3} | in order to {1}
+link without = without
+link instead = instead of
+
+rel in = in
+rel into = into
+rel on = on | at [place]
+rel onto = onto | on [surface]
+rel at = at | on [surface]
+rel to-side = against | to [place]
+rel to = to | home [home]
+rel from = from | out of [container]
+rel off = off | from [person]
+rel under = under
+rel under-to = under
+rel above = above | over [surface]
+rel above-to = over
+rel behind = behind
+rel behind-to = behind
+rel front = in front of
+rel front-to = in front of
+rel beside = next to
+rel beside-to = next to
+rel between = between
+rel through = through
+rel along = along
+rel around = around
+rel near = at | with [person]
+rel with = with
+rel without = without
+rel by = by
+rel for = for
+rel about = about
+rel like = like
+rel against = against
+rel opposite = opposite
+rel smell-of = of
+rel after = after
+rel before = before
+rel out-of = out of | with [feeling]
+rel because-of = because of
+rel despite = despite
+rel during = during
+rel instead-of = instead of
+
+time on-day = on | in the [period]
+time in-period = in
+time at-hour = at
+time date = on
+time last = last
+time next = next
+time every = every
+time since = for
+time ago = ago
+time in-time = in
+
+wh who = who
+wh whom = who
+wh what = what
+wh when = when
+wh where = where
+wh whence = where ... from
+wh whither = where
+wh why = why
+wh how = how
+wh how-old = how old
+wh how-late = what time
+wh how-often = how often
+wh which = which
+wh what-kind = what kind of
+wh how-many = how many
+
+neg yes = not
+neg no-more = no longer
+neg not-yet = not yet
+neg not-at-all = not at all
+
+# WORD LISTS the grammar asks (English words): nouns with no article after a preposition (to work, at school, in
+# bed); verbs not said in the progressive; verbs said in the progressive in the present (it is raining); adverbs in the
+# middle (after the first auxiliary, before a lexical verb); adverbs standing first (then, now -- before a pronoun
+# subject); time words of the past (the perfect is said in the simple past) and of the future (the present is said in
+# the progressive); degree words (very pleased); a participle that is an adjective in the state passive
+list noart = work|school|bed|church|hospital|university|college|prison|class|sea|town
+list stative = be|have|know|like|love|want|need|believe|understand|belong|cost|seem|mean|own|hate|prefer|remember|forget|contain|matter|see|hear|smell|taste|wish|agree|depend|exist|fit|weigh|suppose|realise|recognise|resemble|deserve
+list prog = wait|rain|snow|talk|look forward
+list mid = therefore|thus|soon|always|often|never|usually|sometimes|already|still|just|nearly|almost|also|only|really|rarely|seldom|ever|hardly|even|probably|certainly|now
+list front = shortly afterwards|then|now|suddenly|afterwards|finally|first|meanwhile
+list past = yesterday|recently|the day before yesterday|last night|once|formerly|then
+list future = tomorrow|today|tonight|soon|the day after tomorrow|later|this evening
+list degree = very|so|too|quite|really|rather|extremely|a bit|fairly|pretty
+list statepp = opened:open|closed:closed|broken:broken
+list toadj = difficult|easy|hard|impossible|simple|pleasant|important|nice
+list comp = much:more/most|many:more/most|little:less/least|bad:worse/worst|far:further/furthest|well:better/best|good:better/best
+list adverb = good:well|fast:fast|hard:hard|late:late|early:early|much:a lot|daily:daily|long:long|glad:gladly|focused:with concentration

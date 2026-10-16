@@ -1,0 +1,20 @@
+# CAST (tools/world.py): the recurring people of the stories, one ACTOR per name of grammar.txt (WORDS name.m / name.f).
+#   ACTOR Name : f|m ; job Noun ; traits a | b ; likes x | y ; dislikes z ; home Noun
+# job and home: dictionary nouns (job in the form of the gender); traits: only TRAIT words, likes/dislikes: only TASTE
+# words (people.txt), never the same word in both; the sheet must fit together (a sportlich person likes laufen ...).
+ACTOR Peter : m ; job pekár ; traits usilovný | pokojný ; likes chlieb | koláč | piecť | zima ; dislikes horúčava | ryba ; home dedina
+ACTOR Thomas : m ; job mechanik ; traits športový | netrpezlivý | odvážny ; likes bežať | mäso | leto | pes ; dislikes zelenina | dážď ; home mesto
+ACTOR Michael : m ; job lekár ; traits múdry | vážny | úprimný ; likes čaj | noviny | sneh | pes ; dislikes pizza | horúčava ; home dom
+ACTOR Paul : m ; job študent ; traits zvedavý | nesmelý ; likes hudba | pizza | film | jeseň ; dislikes chlad | šalát ; home byt
+ACTOR Lukas : m ; job rybár ; traits trpezlivý | pokojný ; likes chytať_ryby | ryba | káva | vietor ; dislikes ľad | telefonovať ; home dedina
+ACTOR Max : m ; job žiak ; traits zábavný | lenivý | odvážny ; likes ľad | čokoláda | pozerať_televíziu | pes ; dislikes zelenina | čítať ; home dom
+ACTOR Jan : m ; job kuchár ; traits poriadny | nervózny | múdry ; likes variť | polievka | syr | mačka ; dislikes chlad | spať ; home mesto
+ACTOR Felix : m ; job roľník ; traits usilovný | úprimný | zdvorilý ; likes kôň | mlieko | slnko | jar ; dislikes dážď | noviny ; home statok
+ACTOR Anna : f ; job predavačka ; traits priateľský | ochotný_pomôcť | veselý ; likes kvetina | šťava | tancovať | jar ; dislikes chlad | ryba ; home mesto
+ACTOR Maria : f ; job gazdinká ; traits pokojný | trpezlivý | zdvorilý ; likes čaj | koláč | vták | noviny ; dislikes horúčava | pizza ; home dedina
+ACTOR Lisa : f ; job učiteľka ; traits priateľský | zvedavý ; likes káva | dážď | čítať | mačka ; dislikes horúčava | ryba ; home byt
+ACTOR Sophie : f ; job študentka ; traits veselý | bojazlivý | múdry ; likes čokoláda | maľovať | kniha | zima ; dislikes vietor | polievka ; home byt
+ACTOR Laura : f ; job lekárka ; traits usilovný | vážny | športový ; likes plávať | ovocie | šalát | leto ; dislikes pozerať_televíziu | koláč ; home dom
+ACTOR Julia : f ; job speváčka ; traits zvedavý | poriadny | nesmelý ; likes spievať | kvetina | jeseň | čaj ; dislikes telefonovať | mäso ; home byt
+ACTOR Sarah : f ; job žiačka ; traits zábavný | netrpezlivý | športový ; likes ľad | kôň | bežať | hudba ; dislikes zelenina | sneh ; home dedina
+ACTOR Lena : f ; job kuchárka ; traits priateľský | nervózny | odvážny ; likes cestovať | fotografovať | pizza | slnko ; dislikes dážď | spať ; home mesto

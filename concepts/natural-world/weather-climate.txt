@@ -1,0 +1,147 @@
+# weather
+N počasie
+N predpoveď počasia
+N správa o počasí
+N nečas
+N dážď
+V pršať
+AN daždivý
+N dúha
+N mrholenie
+N lejak
+N sneh
+V snežiť
+N snehová vločka
+N snehová búrka
+N dážď so snehom
+N snehová fujavica
+AN zasnežený
+N krúpy
+V krúpiť
+N prehánka
+N dažďová prehánka
+N vietor
+AN veterný
+N smršť
+N bezvetrie
+N vánok
+N poryv vetra
+N víchor
+AN búrlivý : adverb búrlivo
+N búrka
+N hrom
+V hrmieť
+N blesk
+V blýskať sa
+N hurikán
+N orkán
+N tornádo
+N tajfún
+N cyklón
+N monzún
+N oblak
+AN oblačný
+N oblačnosť
+AN bez oblakov
+N hmla
+AN hmlistý
+N cencúľ
+N predpoveď
+AN nepredvídateľný : adverb nepredvídateľne
+AN zamračený
+V pokryť
+N vlhkosť
+N vlhkosť vzduchu
+V zvlhčiť
+AN slnečný : adverb slnečno
+N meteorologická služba
+N poľadovica
+N námraza
+N globálne otepľovanie
+N výfukové plyny
+N ochrana životného prostredia
+N závan
+N silný dážď
+N denná teplota
+
+# temperature
+N teplota
+AN horúci : adverb horúco
+N horúčava
+N vlna horúčav
+V zohriať
+AN prchký
+V prehriať
+AN studený : adverb studeno
+N chlad
+N vlna chladu
+AN chladnokrvný : adverb chladnokrvne
+AN ľadovo studený
+AN teplý : adverb teplo
+N teplo
+V ohrievať
+V ohriať
+N otepľovanie
+AN vlažný : adverb vlažne
+AN chladný : adverb chladno
+V chladiť
+V ochladiť
+N chládok
+AN podchladený
+AN mierny : adverb mierne
+V mrznúť
+N mráz
+AN mrazivý : adverb mrazivo
+V triasť sa od zimy
+V zamrznúť
+V zmraziť
+N bod mrazu
+V topiť sa
+V tajať
+N rosa
+V rozmraziť
+N obleva
+AN ľadový : adverb ľadovo
+N dusno
+V páliť
+AN pálivý
+AN dusný : adverb dusno
+AN kalný
+N zákal
+V zakaliť
+AN vyschnutý
+N sucho
+
+# seasons-climate
+N ročné obdobie
+N jar
+AN jarný
+N leto
+AN letný
+AN horúci letný
+N jeseň
+AN jesenný
+N zima
+AN zimný
+V prezimovať
+N klíma
+N zmena klímy
+N klimatizácia
+N ochrana klímy
+AN klimatický
+N mikroklíma
+AN šetrný ku klíme
+AN škodlivý pre klímu
+AN tropický
+AN subtropický
+N tropy
+N rovník
+N pól
+AN polárny
+N severný pól
+N južný pól
+N zrážky
+N meteorológia
+N meteorológ
+AN meteorologický
+AN ekologický : adverb ekologicky

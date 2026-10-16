@@ -1,0 +1,2 @@
+@ grammar/particles-adverbs.txt # modal-particles
+1 PAR bitte {bitte} [ˈbɪtə] = prosím

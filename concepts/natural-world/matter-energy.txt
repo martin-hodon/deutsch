@@ -1,0 +1,153 @@
+# states-substances
+N hmota
+AN materiálny
+N substancia
+N vzduch
+V vetrať
+AN vzdušný
+N plyn
+AN plynný
+N zemný plyn
+AN tekutý
+N tekutina
+N pevná látka
+N kyslík
+N vodík
+N dusík
+N atóm
+AN atómový
+N atómová bomba
+N jadrová elektráreň
+N molekula
+N častica
+N dym
+V dymiť
+N sadze
+N popol
+N popolník
+N minerál
+N kov
+N železo
+AN železný
+N zlato
+AN zlatý
+N striebro
+AN strieborný
+N meď
+N olovo
+N zinok
+N ortuť
+N síra
+N bronz
+N mosadz
+N hrdza
+AN hrdzavý
+V hrdzavieť
+N uhlie
+N uhlík
+N oxid uhličitý
+N drevené uhlie
+N ropa
+N kryštál
+N diamant
+N mramor
+N žula
+N kremeň
+N ruda
+N decht
+N vosk
+N hustota
+N masa
+AN masový
+AN roztopený
+V vypariť sa
+V rozpustiť
+N rozpustenie
+N rozpúšťadlo
+V absorbovať
+V kontaminovať
+V vyschnúť
+
+# fire-light
+V horieť
+AN horľavý
+N požiar
+V spáliť
+N palivo
+V vyhorieť
+V zhorieť
+N oheň
+N táborák
+N zapaľovač
+V vystreliť
+V zapáliť
+N plameň
+N iskra
+V žeraviť sa
+N žeravé uhlie
+AN žeravý
+N žiarovka
+N svetlo
+V svietiť
+AN svietivý
+V osvetliť
+N osvetlenie
+N tieň
+AN tienistý
+AN tmavý : adverb tmavo
+N tma
+V zatemniť
+AN svetlý : adverb svetlo
+N jas
+N odraz
+V zrkadliť sa
+N záblesk
+
+# energy-forces
+N energia
+AN energeticky náročný
+AN energeticky účinný
+N sila
+N elektráreň
+N gravitácia
+AN úderný
+AN vyčerpávajúci : adverb vyčerpávajúco
+N magnet
+AN magnetický
+N tlak
+AN razantný : adverb razantne
+N trenie
+N žiarenie
+V žiariť
+V vyžarovať
+N impulz
+V vyslať
+V riadiť
+N prúd
+V prúdiť
+N výpadok prúdu
+N energetický obrat
+N efekt
+N emisia
+
+# sound
+N šum
+N zvuk
+V znieť
+N hluk
+V hlučať
+N tresk
+AN tichý (pokojný) : adverb ticho
+N ticho
+N ozvena
+N vibrácia
+V vibrovať
+
+# corpus-verbs
+V filtrovať
+V rafinovať
+V elektrifikovať
+V vypaľovať
+
+# more
+N spektrum

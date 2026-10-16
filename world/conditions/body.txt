@@ -1,0 +1,57 @@
+# BODY GROUP conditions: health, body, life processes, movements, social feelings
+V oženiť sa : needs zamilovaný
+V zasnúbiť sa : needs zamilovaný
+V bozkávať : needs zamilovaný
+V objať : needs zamilovaný rád
+V flirtovať : needs zamilovaný
+V dať políčok : needs zúrivý
+V biť : needs zúrivý
+V kopnúť : needs zúrivý
+V pomstiť : needs zúrivý ; gives pokojný
+V zmieriť sa : gives pokojný
+V tlieskať : needs rád
+V hladovať : needs chudobný ; gives hladný slabý
+V prechladnúť : needs mokrý ; gives chorý ; involuntary
+V nakaziť : gives A:chorý
+V nakaziť : gives A:chorý
+V otráviť : gives A:chorý
+V uzdraviť sa : needs chorý ; gives zdravý
+V vyliečiť : needs A:chorý
+V ošetrovať : needs A:chorý
+V diagnostikovať : needs A:chorý
+V röntgenovať : needs A:chorý
+V sterilizovať : needs A:špinavý ; gives A:čistý
+V bolieť : needs chorý zranený
+V trpieť : needs chorý zranený ; involuntary
+V kýchať : needs chorý
+V zvracať : needs chorý ; involuntary
+V zvracať : needs chorý
+V krvácať : needs zranený ; involuntary
+V fajčiť : needs chuť
+V krívať : needs zranený
+V potácať sa : needs unavený slabý chorý ; involuntary
+V chvieť sa : needs strach nervózny ; involuntary
+V začervenať sa : needs zamilovaný nervózny ; involuntary
+V zaspať : needs unavený ; involuntary
+V vyspať sa : needs unavený ; gives bdelý
+V zobudiť sa : gives bdelý ; involuntary
+V prebudiť sa : gives bdelý
+V odpočívať : needs unavený
+V driemať : needs unavený
+V zívať : needs unavený ; involuntary
+V unaviť : gives unavený
+V vysiliť : gives unavený slabý
+V zjesť : needs hladný ; gives sýty
+V vypiť : needs smädný
+V bežať : needs zdravý ; gives unavený
+V behať : needs zdravý ; gives unavený
+V šprintovať : needs zdravý ; gives unavený
+V liezť : needs zdravý silný ; gives unavený
+V putovať : needs zdravý čas ; gives unavený
+V prechádzať sa : needs čas
+V potápať sa : needs zdravý
+V dvíhať : needs silný
+V niesť : needs silný
+V vliecť : needs silný ; gives unavený
+V vyžmýkať : needs A:mokrý ; gives A:suchý
+V poutierať : needs A:mokrý ; gives A:suchý

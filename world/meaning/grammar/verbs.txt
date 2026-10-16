@@ -1,0 +1,5 @@
+N zručnosť : ability
+V môcť : agent > patient language
+V musieť : agent
+V mať (povinnosť) : agent
+V smieť : agent

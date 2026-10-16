@@ -1,0 +1,186 @@
+# numbers
+NUM nula
+NUM jeden
+AV raz
+AN jednotlivý : adverb jednotlivo
+N jednotka
+AN jednotný : adverb jednotne
+NUM dva
+NUM druhý
+AV dvakrát
+NUM dvadsať
+NUM tri
+NUM tretí
+NUM trinásť
+NUM tridsať
+AN trojnásobný : adverb trojnásobne
+N tretina
+NUM štyri
+NUM štvrtý
+NUM štrnásť
+NUM štyridsať
+AN štvornásobný : adverb štvornásobne
+N štvrtina
+NUM päť
+NUM piaty
+NUM pätnásť
+NUM päťdesiat
+NUM šesť
+NUM šiesty
+NUM šestnásť
+NUM šesťdesiat
+NUM sedem
+NUM siedmy
+NUM sedemnásť
+NUM sedemdesiat
+NUM osem
+NUM ôsmy
+NUM osemnásť
+NUM osemdesiat
+NUM deväť
+NUM deviaty
+NUM devätnásť
+NUM deväťdesiat
+NUM desať
+NUM desiaty
+NUM jedenásť
+NUM jedenásty
+NUM dvanásť
+NUM sto
+NUM stý
+AN stopercentný : adverb stopercentne
+NUM tisíc
+N milión
+AN miliónkrát
+N miliarda
+NUM prvý
+AV po prvé
+AV prvýkrát
+AN posledný
+AV napokon
+
+# amount
+AN veľa
+P mnohí
+PHR väčšina
+V znásobiť
+AV viac
+P niekoľko
+AN viacnásobný : adverb viacnásobne
+AV niekoľkokrát
+N väčšina
+V rozmnožiť
+AN málo
+P málo
+AV menej
+PHR najmenej
+N menšina
+P všetci
+P všetok
+P každý
+AV pokaždé
+P žiaden
+P niektorí
+AN polovičný
+N polovica
+V rozpoliť
+AN polovičatý
+AN dvojitý
+V zdvojnásobiť
+N pár
+PHR niekoľko
+N párik
+N tucet
+AV dosť
+AV iba
+AN celkový : adverb celkovo
+AV celkovo
+N súčet
+N priemer (priemerná hodnota)
+AN priemerný : adverb priemerne
+PHR v priemere
+AN nadpriemerný : adverb nadpriemerne
+AN hojný : adverb hojne
+AN prídavný
+N prísada
+N zvyšok
+AN zvyšný
+N kopa
+V hromadiť
+N stoh
+V stohovať
+V tlačiť
+N zväzok
+V zviazať
+N šarža
+N prebytok
+N nedostatok
+N hojnosť
+V naplniť
+N hrsť
+AN rôzny : adverb rôzne
+N balík
+N štvorcový meter
+N plus
+N veľké množstvo
+N promile
+N percentuálny bod
+V dražiť
+N kapacita
+N pätina
+N zníženie
+N rezerva
+N celkový počet
+N maximálna hodnota
+V uschovať
+
+# counting-measuring
+N číslo (matematické)
+V počítať
+N počet
+AN početný : adverb početne
+AN nespočetný : adverb nespočetne
+N čitateľ (zlomku)
+V vložiť (na účet)
+V vypočítať
+N výpočet
+V merať
+N meranie
+N miera
+N opatrenie
+V vážiť
+N váha
+V prevažovať
+N množstvo
+N kvantita
+AN kvantitatívny : adverb kvantitatívne
+N stupeň
+AN vysokostupňový
+N percento
+N splátka
+N meter
+N centimeter
+N kilometer
+N milimeter
+N gram
+N kilogram
+N kilo
+N liter
+N tona
+N míľa
+N palec (jednotka dĺžky)
+N dávka
+N porcia
+N kus
+N stupnica
+N limit
+N maximum
+AN maximálny : adverb maximálne
+N minimum
+AN minimálny : adverb minimálne
+NUM jeden a pol
+NUM dva a pol
+N kubický meter
+
+# more
+N bilión

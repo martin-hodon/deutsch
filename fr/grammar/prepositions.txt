@@ -1,0 +1,79 @@
+# accusative
+1 PRE pour {pour} [puʁ] = pre
+2 PRE autour de {autour de} [otuʁ ˈdə] = okolo
+2 AV d'autant plus {d'autant plus} [dotɑ̃ ˈplys] = tým viac
+1 PRE sans {sans} [sɑ̃] = bez
+1 AV de toute façon {de toute façon} [də tut faˈsɔ̃] = tak či tak
+1 PRE contre {contre} [kɔ̃tʁ] = proti
+1 PRE par {par} [paʁ] = na (za jednotku)
+2 PRE via {via} [vja] = prostredníctvom
+3 PRE par le biais de {par le biais de} [paʁ lə bjɛz ˈdə] = prostredníctvom
+
+# dative
+1 PRE de {de} [də] = z
+1 PRE chez {chez} [ʃe] = pri
+1 PRE près de {près de} [pʁɛ ˈdə] = pri
+1 PRE avec {avec} [aˈvɛk] = s
+1 PRE de {de} [də] = od (pôvod)
+1 PRE à {à} [a] = k
+1 PRE vers {vers} [vɛʁ] = k
+3 PRE pour l'amour de {pour l'amour de} [puʁ lamuʁ ˈdə] = pre dobro
+2 PRE dès {dès} [dɛ] = od (začiatok)
+1 PRE à partir de {à partir de} [a paʁtiʁ ˈdə] = od (začiatok)
+1 PRE à part {à part} [a ˈpaʁ] = okrem
+2 PRE sauf {sauf} [sof] = okrem
+2 PRE excepté {excepté} [ɛksɛpˈte] = okrem
+2 PRE contrairement à {contrairement à} [kɔ̃tʁɛʁmɑ̃ ˈa] = v rozpore s
+3 PRE conformément à {conformément à} [kɔ̃fɔʁmemɑ̃ ˈa] = v súlade s
+1 PRE avec {avec} [aˈvɛk] = spolu s
+1 PRE grâce à {grâce à} [ɡʁas ˈa] = vďaka
+2 PRE auprès de {auprès de} [oˈpʁɛ də] = pri
+
+# genitive
+1 PRE à cause de {à cause de} [a koz ˈdə] = kvôli
+1 PRE malgré {malgré} [malˈɡʁe] = napriek
+1 PRE au lieu de {au lieu de} [o ljø ˈdə] = namiesto
+1 PRE à la place de {à la place de} [a la plas ˈdə] = namiesto
+2 AV au lieu de cela {au lieu de cela} [o ljø də səˈla] = namiesto toho
+1 AV à la place {à la place} [a la ˈplas] = namiesto toho
+2 PRE à l'intérieur de {à l'intérieur de} [a lɛ̃teʁjœʁ ˈdə] = vnútri
+1 PRE dans {dans} [dɑ̃] = vnútri
+2 PRE en dehors de {en dehors de} [ɑ̃ dəɔʁ ˈdə] = mimo
+2 PRE hors de {hors de} [ɔʁ ˈdə] = mimo
+3 PRE en deçà de {en deçà de} [ɑ̃ dəsa ˈdə] = na tejto strane
+2 PRE sur la base de {sur la base de} [syʁ la baz ˈdə] = na základe
+2 PRE en raison de {en raison de} [ɑ̃ ʁɛzɔ̃ ˈdə] = na základe
+2 PRE à la suite de {à la suite de} [a la sɥit ˈdə] = následkom
+2 PRE à l'occasion de {à l'occasion de} [a lɔkazjɔ̃ ˈdə] = pri príležitosti
+2 PRE en ce qui concerne {en ce qui concerne} [ɑ̃ sə ki kɔ̃ˈsɛʁn] = pokiaľ ide o
+2 PRE concernant {concernant} [kɔ̃sɛʁˈnɑ̃] = pokiaľ ide o
+2 PRE compte tenu de {compte tenu de} [kɔ̃t təny ˈdə] = vzhľadom na
+2 PRE vu {vu} [vy] = vzhľadom na
+2 PRE en faveur de {en faveur de} [ɑ̃ favœʁ ˈdə] = v prospech
+2 PRE au profit de {au profit de} [o pʁɔfi ˈdə] = v prospech
+2 PRE à l'aide de {à l'aide de} [a lɛd ˈdə] = pomocou
+3 PRE au moyen de {au moyen de} [o mwajɛ̃ ˈdə] = pomocou
+2 PRE dans le but de {dans le but de} [dɑ̃ lə byt ˈdə] = za účelom
+3 PRE en vue de {en vue de} [ɑ̃ vy ˈdə] = za účelom
+2 PRE de la part de {de la part de} [də la paʁ ˈdə] = zo strany
+1 PRE au milieu de {au milieu de} [o miljø ˈdə] = uprostred
+3 PRE à l'écart de {à l'écart de} [a lekaʁ ˈdə] = stranou
+1 PRE près de {près de} [pʁɛ ˈdə] = neďaleko
+2 PRE non loin de {non loin de} [nɔ̃ lwɛ̃ ˈdə] = neďaleko
+1 PRE pendant {pendant} [pɑ̃ˈdɑ̃] = v priebehu
+2 PRE au cours de {au cours de} [o kuʁ ˈdə] = v priebehu
+2 PRE y compris {y compris} [i kɔ̃ˈpʁi] = vrátane
+2 PRE au sein de {au sein de} [o sɛ̃ ˈdə] = vnútri
+2 PRE hors {hors} [ɔʁ] = mimo
+2 PRE quant à {quant à} [kɑ̃t ˈa] = pokiaľ ide o
+2 PRE à propos de {à propos de} [a pʁɔpo ˈdə] = pokiaľ ide o
+
+# two-way
+1 PRE sur {sur} [syʁ] = na (v kontakte)
+1 PRE sur {sur} [syʁ] = na (navrchu)
+1 PRE dans {dans} [dɑ̃] = v
+1 PRE en {en} [ɑ̃] = v
+1 PRE à {à} [a] = v
+
+# more
+3 PHR indépendamment de {indépendamment de} [ɛ̃depɑ̃damɑ̃ ˈdə] = bez ohľadu na

@@ -1,0 +1,11 @@
+# modal-verbs
+1 V can {can} [kæn], could/- = môcť
+2 N skill {skill} [skɪl], skills = zručnosť
+1 V must {must} [mʌst], -/- = musieť
+1 V should {should} [ʃʊd], -/- = mať (povinnosť)
+1 V may {may} [meɪ], might/- = smieť
+1 V be allowed to {be allowed to} [bi əˈlaʊd tuː], was allowed to/been allowed to = smieť
+1 V have to {have to} [ˈhæv tuː], had to/had to = musieť
+
+# language-specific closed words (no Slovak word: a description)
+1 V could {could} [kʊd], -/- = mohol by (možnosť)

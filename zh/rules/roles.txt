@@ -1,0 +1,23 @@
+# HOW CHINESE MARKS A ROLE (world/roles.txt) when a word does not say otherwise in zh/rules/frames.txt: `direct` the
+# object after the verb; `pre X` a coverb phrase before the verb (给他 写信, 在家 吃饭, 跟朋友 一起去); `post X` after the verb
+# (到北京); alternatives `|` by the noun's kind: [surface] [place] [container] [person] [vehicle] [thing]
+patient     direct
+second      direct
+recipient   pre 给
+as          post 当
+bare        direct
+theme       direct
+topic       pre 关于
+cause       direct
+basis       pre 根据
+purpose     pre 为了
+companion   pre 和…一起
+opponent    pre 跟
+instrument  pre 用 | pre 坐 [vehicle]
+share       direct
+result      post 成
+substitute  pre 用…代替
+location    pre 在…里 | pre 在…上 [surface] | pre 在 [place] | pre 在…那里 [person]
+goal        post 到 | post 到…那里 [person]
+source      pre 从 | pre 从…那里 [person]
+path        pre 穿过

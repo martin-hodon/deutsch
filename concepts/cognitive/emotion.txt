@@ -1,0 +1,294 @@
+# basic-feelings
+N pocit
+N súcit
+AN bezcitný : adverb bezcitne
+AN citový : adverb citovo
+N emócia
+AN emocionálny : adverb emocionálne
+AN náladový
+N šťastie
+AN šťastný : adverb šťastne
+AN nešťastný : adverb nešťastne
+AV našťastie
+N blaženosť
+PHR veľa šťastia
+N radosť
+V tešiť sa
+AN potešený
+AN radostný : adverb radostne
+AN rád : adverb rado
+AN veselý : adverb veselo
+AN smutný : adverb smutno
+N smútok
+V smútiť
+N žiaľ
+N zlosť
+AN zúrivý : adverb zúrivo
+N hnev
+AN nahnevaný
+V ozlobiť
+N strach
+AN bojazlivý : adverb bojazlivo
+N zdesenie
+AN zdesený
+AN hrozný : adverb hrozne
+N starosť
+V robiť si starosti
+V postarať sa
+AN ustarostený
+V obstarať
+AN dôkladný : adverb dôkladne
+AN pokojný : adverb pokojne
+N pokoj
+V upokojiť
+AN nepokojný : adverb nepokojne
+N úľava
+V uľahčiť
+AN uľavený
+N prekvapenie
+V prekvapiť
+AN prekvapivý : adverb prekvapivo
+AN prekvapený
+N šok
+V šokovať
+N sklamanie
+V sklamať
+AN sklamaný
+N zúfalstvo
+AN zúfalý : adverb zúfalo
+N nádej
+V dúfať
+AV dúfajme
+AN plný nádeje
+V nudiť sa
+AN znudený
+AN nudný : adverb nudne
+N nuda
+V rozčuľovať
+AN vzrušený
+AN vzrušujúci : adverb vzrušujúco
+N vzrušenie
+N nadšenie
+V nadchnúť
+AN nadšený
+AN nervózny : adverb nervózne
+V hnevať
+N mrzutosť
+AN rozladený
+V nahnevať
+N panika
+AN panický : adverb panicky
+V ľutovať
+AN poľutovaniahodný
+N potešenie
+V vychutnávať si
+N pôžitok
+N stres
+AN stresujúci
+AN vystresovaný
+N okúzlenie
+AN rozkošný : adverb rozkošne
+AN spokojný : adverb spokojne
+N spokojnosť
+AN nespokojný : adverb nespokojne
+N zľaknutie
+N hrôza
+V zľaknúť sa
+V strhnúť sa
+AN odstrašujúci
+V poplašiť
+V uvoľniť sa
+AN uvoľnený (bez napätia)
+N relaxácia
+AN napätý
+N napätie
+AN napínavý
+AN stiesnený
+V dráždiť
+AN frustrovaný
+V frustrovať
+N rozhorčenie
+AN rozhorčený
+V pobúriť
+N zúrivosť
+N núdza
+PHR v najhoršom prípade
+N trápenie
+AN biedny : adverb biedne
+N bieda
+AN pochmúrny : adverb pochmúrne
+N melanchólia
+AN melancholický : adverb melancholicky
+AN sentimentálny : adverb sentimentálne
+N extáza
+V premôcť
+AN ohromujúci : adverb ohromujúco
+V omráčiť
+V ohromiť
+AN ohromený
+N bázeň
+AN otrasený
+V rušiť
+V rozrušiť
+V baviť
+AN bezmocný : adverb bezmocne
+AN neistý : adverb neisto
+N neistota
+AN vyrovnaný
+N vyrovnanosť
+N apatia
+AN apatický : adverb apaticky
+V zazlievať
+N horlivosť
+AN horlivý : adverb horlivo
+N žiarlivosť
+AN žiarlivý : adverb žiarlivo
+N utrpenie
+PHR je mi ľúto
+V obávať sa
+N optimizmus
+N napínavosť
+AN zvedavý : adverb zvedavo
+V báť sa
+AN nebojácny : adverb nebojácne
+N nespokojnosť
+N nervozita
+N úcta
+V potešiť
+V strachovať sa
+V žasnúť
+V udivovať
+V fascinovať
+V zneistiť
+V rozmaznávať
+V doprajať
+V vzrušiť
+V zúriť
+V vyhýbať sa
+V znepokojiť
+V okrídliť
+V dotierať
+V vystrašiť
+V traumatizovať
+AN eufórický : adverb euforicky
+
+# love-hate
+V ľúbiť
+N láska
+AN láskavý : adverb láskavo
+AN zamilovaný
+V zamilovať sa
+N zamilovanosť
+AV radšej
+V mať rád
+V nenávidieť
+N nenávisť
+N vášeň
+AN vášnivý : adverb vášnivo
+V postrádať
+N závisť
+AN závistlivý : adverb závistlivo
+V závidieť
+N znechutenie
+V hnusiť sa
+N pohŕdanie
+V pohŕdať
+V obdivovať
+N obdiv
+V vážiť si
+N túžba
+V túžiť
+V žiadať
+N nežnosť
+AN nežný : adverb nežne
+N empatia
+N posmech
+N hnus
+AN ohavný : adverb ohavne
+N nepriateľstvo
+N zlomyseľnosť
+N zášť
+N trápenie z lásky
+N zloba
+N sympatie
+N náklonnosť
+N obľuba
+
+# self-social-feelings
+N hanba
+V hanbiť sa
+AN nehanebný : adverb nehanebne
+AN hanebný : adverb hanebne
+AN rozpačitý
+N rozpaky
+AN hrdý : adverb hrdo
+N hrdosť
+AN vďačný : adverb vďačne
+N vďačnosť
+AN nevďačný : adverb nevďačne
+AN osamelý : adverb osamelo
+N osamelosť
+V utešiť
+N útecha
+N nostalgia
+AN nostalgický : adverb nostalgicky
+N clivota
+AN clivý
+N ľútosť
+V oľutovať
+N identita
+N nepríjemný pocit
+N nevôľa
+N spriaznenosť
+N lojalita
+N otvorenosť
+N jednota
+N fair play
+N opovážlivosť
+N vyznanie
+
+# expressions
+V smiať sa
+N smiech
+AN smiešny : adverb smiešne
+V vysmiať
+V usmievať sa
+N úsmev
+V posmievať sa
+V plakať
+V vzdychať
+N vzdych
+PHR zamračiť sa
+N výsmech
+N žart
+N frustrácia
+AN frustrujúci
+N radosť z očakávania
+N náraz
+V sporiť sa
+V túžobne očakávať
+V uctievať
+V triumfovať
+V prechovávať
+AN strašidelný : adverb strašidelne
+V otriezviť
+V škľabiť sa
+V pohrávať sa (s myšlienkou)
+V harmonizovať
+V nariekať
+V stonať
+V odstrašiť
+AN vrúcny : adverb vrúcne
+
+# feelings
+V hýriť
+V rozhnevať sa
+V blamovať sa
+AN tiesnivý : adverb tiesnivo
+AN blahodarný : adverb blahodarne
+AN opojný : adverb opojne
+AN lichotivý : adverb lichotivo
+V dvoriť sa
+
+# more
+AN milovaný

@@ -1,0 +1,1588 @@
+# HOUSEHOLD: food and cooking, house and furnishing, clothes, plants and trees, farming (words of the household dictionary files)
+SETTING everyday
+N čas (na hodinách)
+V pochádzať
+SETTING home
+N domov
+N nájom
+N strecha
+N stena
+N strop
+N vchodové dvere
+N schody
+N prízemie
+N poschodie
+N pivnica
+N vchod
+N kúrenie
+N spálňa
+N kúpeľňa
+N obývačka
+N nábytok
+N skriňa
+N zrkadlo
+N odpad
+N hodiny
+N obytný dom
+N rodinný dom
+N radový dom
+N vidiecky dom
+N číslo domu
+N domácnosť
+N domáca práca
+N gazdinká : family
+N miesto bydliska
+N bydlisko
+N spoločná domácnosť
+N nájomník
+N prenajímateľ
+V prenajať
+N nájomný byt
+N nájomná zmluva
+N povala
+N vonkajšia stena
+N paplón
+N vlnená deka
+N parapet
+N okenná tabuľa
+N dvere bytu
+N kľučka
+N prah
+N schod
+N schodisko
+N zábradlie
+N výťah
+N výťah
+N poschodie
+N horné poschodie
+N suterén
+N podkrovie
+N poschodie
+N krb
+N balkón
+N dvor
+N átrium
+N garáž
+N príjazd
+N tapeta
+V kúriť
+N radiátor
+N poštová schránka
+N vila
+N rezidencia
+N okenná tabuľa
+N vchod do domu
+N domov
+N jedáleň (v byte)
+N detská izba
+N hosťovská izba
+N chodba
+N chodba
+N pracovňa
+N kus nábytku
+N písací stôl
+N jedálenský stôl
+N kreslo
+N gauč
+N manželská posteľ
+N matrac
+N šatník
+N polica
+N polica na knihy
+N zásuvka (v nábytku)
+N koberec
+N záves
+N vankúš
+N podhlavník
+N kolíska
+N zámok
+V zamknúť
+N odpadkový kôš
+N popolnica
+N rukoväť
+V zvoniť
+N sviečka
+N budík
+N vedro
+N metla
+N nožnice
+N dáždnik
+N kôš
+N vysávač
+N sušička
+N sťahovanie
+N vedľajšie náklady
+N bedňa
+N platňa
+N upratovačka
+N bielizeň
+N práčka
+V vyzdobiť
+N neporiadok
+N škvrna
+N pohodlie
+N panský dom
+N obydlie
+N byt vo vlastníctve
+N odkvap
+N strešná škridla
+N priečka
+N prešívaná prikrývka
+N okenica
+N strešné okno
+N guľová kľučka
+N kukátko
+N zárubňa
+N schodík pred dverami
+N podesta
+N zábradlie schodiska
+N komín
+N vínna pivnica
+N strešná terasa
+N veranda
+N kôlňa
+V tapetovať
+N parkety
+N vodovod
+N kotol (kúrenia)
+N pánt
+N zástrčka (na dverách)
+N podlahová doska
+N markíza
+N baldachýn
+N vybavenie
+N stará zástavba
+N viacbytový dom
+N klapka
+N usadlosť
+N penthouse
+N obytný priestor
+N komora
+N nočný stolík
+N hojdacie kreslo
+N taburetka
+N podnožka
+N sedací puf
+N poschodová posteľ
+N čelo postele
+N posteľná plachta
+N vstavaná skriňa
+N komoda
+N tienidlo
+N luster
+N obliečka na vankúš
+N čalúnenie
+N čalúnenie
+N hojdacia sieť
+N zväzok kľúčov
+N rohožka
+N behúň
+N termostat
+N zvonček
+N svietnik
+N náramkové hodinky
+N mop
+N kefa
+N truhlica
+N váza
+N poistka
+N handra
+N vrecúško
+N majiteľ domu
+N náklady na kúrenie
+N čistiaci prostriedok
+N posteľná bielizeň
+N prací prostriedok
+N škatuľa
+N pohodlnosť
+N útulnosť
+N žehlička
+V žehliť
+V poskladať
+V pliesť
+N izbová rastlina
+N kvetináč
+N garsónka
+SETTING kitchen
+N jedlo
+N pokrm
+N žemľa
+N ryža
+N olej
+N hruška
+N pomaranč
+N citrón
+N banán
+N jahoda
+N paradajka
+N nápoj
+N fľaša
+N jedlo
+N potravina
+N snack
+N štipka
+N nátierka
+N omáčka
+N chlieb s maslom
+N celozrnný chlieb
+N cesto
+N pečivo
+N cestoviny
+N vývar
+N kaša
+N zemiaková kaša
+N müsli
+N čerstvý syr
+N tvaroh
+N smotana
+N jogurt
+N žĺtok
+N bielok
+N volské oko
+N praženica
+N olivový olej
+N ocot
+N omáčka
+N paradajková omáčka
+N korenie
+V ochutiť
+N čierne korenie
+V soliť
+N med
+N marmeláda
+N džem
+N horčica
+N kečup
+N majonéza
+N sendvič
+N hrianka
+N hriankovač
+N omeleta
+N knedľa
+N škorica
+N droždie
+N sirup
+N kôrka
+N omrvinka
+N bazalka
+N mäta
+N čili
+N kari
+N paprika
+N šošovica
+N hovädzie mäso
+N bravčové mäso
+N kurča
+N klobása
+N pečená klobása
+N párok
+N šunka
+N slanina
+N steak
+N rezeň
+N mäsová guľka
+N fašírka
+N jablkový džús
+N jablkové pyré
+N slivka
+N čerešňa (plod)
+N hrozno
+N hrozno
+N pomarančový džús
+N broskyňa
+N marhuľa
+N bobuľa
+N malina
+N čučoriedka
+N čučoriedka
+N černica
+N dyňa
+N melón
+N ananás
+N mango
+N kivi
+N orech
+N avokádo
+N hranolky
+N uhorka
+N mrkva
+N mrkva
+N cesnak
+N kapusta
+N kyslá kapusta
+N brokolica
+N fazuľa
+N kávové zrno
+N hrach
+N kukurica
+N tekvica
+N zemiakový šalát
+N špenát
+N oliva
+N špargľa
+N šampiňón
+N palacinka
+N torta
+N sušienka
+N čokoláda
+N cukrík
+N sladkosť
+N puding
+N vanilka
+N kávovar
+N limonáda
+N kakao
+N minerálka
+N muffin
+N oblátka
+N popcorn
+N čipsy
+N rýchlovarná kanvica
+N pečienka
+N gril
+V grilovať
+V miešať
+N zmes
+V zamiešať
+V premiešať
+V liať
+V naliať
+V sypať
+V rozrezať
+V sekať
+N mleté mäso
+V miesiť
+V pripraviť (jedlo)
+N ingrediencia
+N príbor
+N polievková lyžica
+N čajová lyžička
+N misa
+N hrnček
+N panvica na vyprážanie
+N pec
+N rúra na pečenie
+N mikrovlnka
+N podnos
+N krčah
+N plechovka
+N konzerva
+N pokrievka
+N obrúsok
+N umývačka riadu
+N mixér
+N varecha
+N chuť (na jazyku)
+N kyselina
+N dezert
+V piknikovať
+N koláčik
+N kola
+N slnečnicový olej
+N bylinky
+N večera
+N cestoviny
+N kvások
+N lístkové cesto
+N mliečny kokteil
+N cmar
+N šťava z pečene
+N klinček
+V hriankovať
+N knedľa
+N rozmarín
+N tymian
+N šalvia
+N sezam
+N pohánka
+N tofu
+N taco
+N jahňacie mäso
+N teľacie mäso
+N klobása s kari omáčkou
+N kreveta
+N morské plody
+N filé
+N kaviár
+N saláma
+N kebab
+N döner kebab
+N suši
+N granátové jablko
+N slivka
+N pomaranč
+N citrónová šťava
+N marhuľa
+N egreš
+N brusnica
+N ríbezľa
+N kanadská brusnica
+N cukrová dyňa
+N vlašský orech
+N lieskový orech
+N arašid
+N kokosový orech
+N muškátový orech
+N figa
+N datľa
+N hrozienko
+N limetka
+N grapefruit
+N sladký zemiak
+N nakladaná uhorka
+N karfiol
+N ružičkový kel
+N červená kapusta
+N cvikla
+N reďkovka
+N sójový bôb
+N baklažán
+N hlávkový šalát
+N ovocný šalát
+N zeler
+N petržlen
+N kôpor
+N zázvor
+N cuketa
+N pór (zelenina)
+N tvarohový koláč
+N perník
+N paštéta
+N nealkoholický nápoj
+N čajník
+N espresso
+N croissant
+N donut
+N krekr
+N praclík
+N karamel
+N želé
+N kuchárska kniha
+V priviesť do varu
+V vrieť
+N prášok do pečiva
+V opražiť
+V fritovať
+V variť do mäkka
+V pražiť
+V dusiť
+V poliať
+V rozliať
+N krájané mäso
+V tĺcť
+N príprava (jedla)
+N tanierik pod šálku
+N zavárací pohár
+N chňapka
+N obracačka
+N mraznička
+N otvárač na fľaše
+N otvárač konzerv
+N korok
+N vývrtka
+N obrus
+N metlička
+N naberačka
+N strúhadlo
+N cedidlo
+N sito
+N umývačka riadu
+N kuchynský nôž
+N sviežosť
+V osviežiť
+N maškrta
+N riad
+N utierka na riad
+N drez
+N pracovná doska
+N špajza
+N jedálenský stôl
+N odpadkový kôš
+V umyť
+N vodovodný kohútik
+N hubka
+N cibuľa
+N ovocný džús
+N poleva
+N huba
+N hríb
+SETTING bathroom
+N kúpeľňa
+N toaleta
+N zrkadlo
+N uterák
+N vaňa
+N zubná kefka
+N hrebeň
+V česať
+N mydlo
+V holiť
+N bielizeň
+N práčka
+N toaletný papier
+N osuška
+N umývadlo
+N odtok
+N dlaždica
+N šampón
+N zubná pasta
+N holiaci strojček
+N kefa
+N kefa na vlasy
+V kefovať
+N hubka
+N vodovodný kohútik
+N odraz v zrkadle
+N plienka
+N oblečenie
+N šaty
+V obliecť
+V vyzliecť
+N tričko
+N nohavice
+N bunda
+N topánka
+N ponožka
+N taška
+N kus oblečenia
+N šatňa
+N košeľa
+N blúzka
+N spodky
+N plavky (pánske)
+N pančuchové nohavice
+N rifle
+N šortky
+N kabát
+N sveter
+N oblek
+N kravata
+N opasok
+N vrecko nohavíc
+N gombík
+N rukáv
+N tielko
+N nočná košeľa
+N mikina
+N traktorky
+N traky
+N legíny
+N župan
+N pletený kardigán
+N vesta
+N pyžamo
+N plavky (jednodielne)
+N spodná bielizeň
+N podprsenka
+N bikiny
+N zástera
+N tenisky
+N papuča
+N sandál
+N podrážka
+N šnúrka do topánok
+N pančucha
+N kapucňa
+N gombíková dierka
+V zapnúť (gombíky)
+N zips
+N golier
+N manžeta
+N remeň
+N lem
+N klobúk
+N čiapka
+N šál
+N rukavica
+N čižma
+N palčiak
+N čelenka
+N vešiak
+N outfit
+N tunika
+N plášť
+N kimono
+N spona
+N šatka na krk
+SETTING garden
+N záhrada
+N záhradník
+N záhradníctvo
+V záhradkáriť
+N ovocný sad
+N záhon
+N krhla
+V liať
+V poliať
+V sadiť
+V siať
+V hnojiť
+N hnojivo
+N kompost
+V kompostovať
+N hrable
+N motyka
+N rýľ
+N fúrik
+N strašiak
+N sadenica
+N záhradná hadica
+N hadica
+N burina
+N živý plot
+N ker
+N ker
+N ruža
+N tulipán
+N narcis
+N hyacint
+N pelargónia
+N pivonka
+N ľalia
+N fialka
+N karafiát
+N levanduľa
+N orgován
+N jazmín
+N magnólia
+N prvosienka
+N snežienka
+N chryzantéma
+N sedmokráska
+N nechtík
+N púpava
+N orchidea
+N mak
+N kvetina
+N slnečnica
+N jabloň
+N ovocný strom
+N čerešňa (strom)
+N gaštan
+N rastlina
+N tráva
+N lúka
+N kvetnatá lúka
+N kvet
+V kvitnúť
+V rozkvitnúť
+V odkvitnúť
+V zvädnúť
+V vädnúť
+V klíčiť
+V vyrážať
+N semeno
+N klíčok
+N výhonok
+N puk
+N koreň
+N cibuľa
+N jarná cibuľka
+N mach
+N brečtan
+N úponok
+N vinič
+N lavica
+N hojdacia sieť
+N gril
+V grilovať
+V sekať
+N plot
+V oplotiť
+N kôlňa
+N zadný dvor
+N dvor
+N veranda
+N skleník
+N zavlažovanie
+V zavlažovať
+V kosiť
+N kosa
+V orezať
+N úľ
+N búda
+N bylina
+N kvetináč
+N hnoj
+N ďatelina
+N žihľava
+N bodliak
+N bambus
+N kaktus
+N papraď
+SETTING family
+N gazdinká
+N kolíska
+N plienka
+N sviečka
+N piknik
+V piknikovať
+N hosťovská izba
+N detská izba
+N koláčik
+N perník
+SETTING town
+N vchod
+N východ (výstup)
+N výšková budova
+N obytný dom
+N číslo domu
+N miesto bydliska
+N výťah
+N výťah
+N podzemná garáž
+N poštová schránka
+N fasáda
+N pohostinstvo
+N odpad
+N zvoz odpadu
+N kanalizácia
+N bytový blok
+N stará zástavba
+N viacbytový dom
+N markíza
+N lampáš
+N toaleta
+N lavica
+N hodiny
+N múr
+N adresa
+N vila
+N bydlisko
+N výkladná figurína
+SETTING restaurant
+N nápoj
+N jedlo
+N hlavné jedlo
+N pokrm
+N predjedlo
+N snack
+N občerstvenie
+N príloha (jedla)
+N bufet
+N omáčka
+N omáčka
+N steak
+N rezeň
+N hranolky
+N pečená klobása
+N sendvič
+N burger
+N cestoviny
+N omeleta
+N volské oko
+N praženica
+N limonáda
+N minerálka
+N červené víno
+N biele víno
+N vodka
+N pálenka
+N alkohol
+N kokteil
+N pečienka
+N podnos
+N krčah
+N obrúsok
+N príbor
+N chuť (na jazyku)
+N dezert
+N hostina
+N banket
+N kola
+N mliečny kokteil
+N taco
+N klobása s kari omáčkou
+N kreveta
+N morské plody
+N filé
+N kaviár
+N kebab
+N döner kebab
+N suši
+N nealkoholický nápoj
+N čajník
+N espresso
+N jablkové víno
+N šumivé víno
+N šampanské
+N whisky
+N rum
+N likér
+N menu
+N pohostinstvo
+V osviežiť
+V naliať
+N tanierik pod šálku
+N otvárač na fľaše
+N vývrtka
+N obrus
+N slamka
+N riad
+N vínna pivnica
+N vegetarián : guest
+N vegetariánka : guest
+N vegán : guest
+V rozliať
+N torta
+N paštéta
+N praclík
+N donut
+N croissant
+N čipsy
+N popcorn
+N kávovar
+N tvarohový koláč
+N kyslá kapusta
+N zemiakový šalát
+N ovocný šalát
+N kurča
+N hovädzie mäso
+N jahňacie mäso
+N teľacie mäso
+N bravčové mäso
+N ovocný džús
+SETTING shop
+N žemľa
+N ryža
+N olej
+N hruška
+N pomaranč
+N citrón
+N banán
+N jahoda
+N paradajka
+N fľaša
+N potravina
+N klobása
+N šunka
+N slanina
+N kurča
+N hovädzie mäso
+N bravčové mäso
+N jahňacie mäso
+N teľacie mäso
+N mleté mäso
+N krájané mäso
+N jablkový džús
+N pomarančový džús
+N slivka
+N čerešňa (plod)
+N hrozno
+N hrozno
+N broskyňa
+N marhuľa
+N malina
+N čučoriedka
+N dyňa
+N melón
+N ananás
+N mango
+N kivi
+N orech
+N avokádo
+N uhorka
+N mrkva
+N mrkva
+N cesnak
+N kapusta
+N brokolica
+N fazuľa
+N hrach
+N kukurica
+N tekvica
+N špenát
+N oliva
+N špargľa
+N šampiňón
+N sladkosť
+N čokoláda
+N sušienka
+N cukrík
+N konzerva
+N plechovka
+N saláma
+N tofu
+N sviežosť
+N maškrta
+N sirup
+N med
+N marmeláda
+N džem
+N granátové jablko
+N figa
+N datľa
+N hrozienko
+N limetka
+N grapefruit
+N sladký zemiak
+N karfiol
+N reďkovka
+N baklažán
+N hlávkový šalát
+N zeler
+N cuketa
+N pór (zelenina)
+N zázvor
+N kola
+N limonáda
+N minerálka
+N červené víno
+N biele víno
+N vodka
+N pálenka
+N šumivé víno
+N šampanské
+N whisky
+N rum
+N likér
+N nealkoholický nápoj
+N cestoviny
+N cestoviny
+N müsli
+N jogurt
+N tvaroh
+N čerstvý syr
+N smotana
+N kaviár
+N kreveta
+N morské plody
+N filé
+N perník
+N koláčik
+N croissant
+N donut
+N krekr
+N praclík
+N popcorn
+N čipsy
+N vrecko
+N kôš
+N vrecúško
+N škatuľa
+N oblečenie
+N šaty
+V obliecť
+N tričko
+N nohavice
+N bunda
+N topánka
+N ponožka
+N okuliare
+N taška
+V pasovať
+N prsteň
+N kus oblečenia
+N košeľa
+N blúzka
+N spodky
+N plavky (pánske)
+N pančuchové nohavice
+N rifle
+N šortky
+N kabát
+N sveter
+N oblek
+N kravata
+N rukavica
+N čižma
+N klobúk
+N čiapka
+N šál
+N opasok
+N slnečné okuliare
+N kabelka
+N gombík
+N látka
+N utierka
+N vreckovka
+N šatka na hlavu
+N vlna
+N bavlna
+N koža (materiál)
+N šatňa
+N krajčír : staff
+N móda
+N trend
+N šperk
+N perla
+N prívesok
+N večerné šaty
+N tielko
+N nočná košeľa
+N mikina
+N traktorky
+N traky
+N legíny
+N župan
+N pršiplášť
+N pletený kardigán
+N vesta
+N pyžamo
+N plavky (jednodielne)
+N spodná bielizeň
+N podprsenka
+N bikiny
+N outfit
+N tenisky
+N papuča
+N sandál
+N parochňa
+N peňaženka
+N peňaženka
+N dáždnik
+N dáždnik
+N hodváb
+N ľan
+N textília
+N denim
+N nylon
+N flís
+N zamat
+N satén
+N kašmír
+N flanel
+N výkladná figurína
+N elegancia
+N klenot
+N klenotník : staff
+N náušnica
+N náhrdelník
+N náramok
+N náramkové hodinky
+N šampón
+N zubná pasta
+N mydlo
+N holiaci strojček
+N zubná kefka
+N prací prostriedok
+N čistiaci prostriedok
+N uterák
+N hrebeň
+N kefa na vlasy
+N balón (nafukovací)
+N uniforma
+N vlásenka
+N čelenka
+N šnúrka do topánok
+N plienka
+N cibuľa
+N ovocný džús
+N čipka
+N korzet
+N šatka
+N šatka na krk
+N kytica
+N huba
+SETTING bank
+N nájom
+N banka
+N peňaženka
+N peňaženka
+N vedľajšie náklady
+N náklady na kúrenie
+N byt vo vlastníctve
+SETTING office
+N adresa
+N bydlisko
+N nájomná zmluva
+N číslo domu
+N miesto bydliska
+SETTING travel
+N chata
+N horská chata
+N vidiecky dom
+N vila
+N hosťovská izba
+N manželská posteľ
+N penthouse
+N bungalov
+N chata
+N apartmán
+N vestibul
+N stan
+N zámok
+N pohodlie
+N vybavenie
+N panský dom
+N pršiplášť
+N slnečné okuliare
+SETTING traffic
+N garáž
+N podzemná garáž
+N príjazd
+SETTING health
+N senná nádcha
+N okuliare
+SETTING doctor
+N maska
+N liečivá rastlina
+SETTING sport
+N jazdec
+N sedlo
+N tenisky
+N plavky (pánske)
+N legíny
+N šortky
+N mikina
+SETTING work
+N pracovňa
+N písací stôl
+N uniforma
+N oblek
+N kravata
+N nájomná zmluva
+SETTING craft
+N vonkajšia stena
+N tapeta
+N fasáda
+N základy
+N okenná tabuľa
+N rukoväť
+N vedro
+N nožnice
+N platňa
+N klapka
+N poistka
+N omietka
+N múr
+N podlahová doska
+N pánt
+N vodovod
+N kanalizácia
+N kotol (kúrenia)
+N kominár
+N odkvap
+N strešná škridla
+N strešné okno
+N okenica
+N priečka
+N dlaždica
+N guľová kľučka
+N zárubňa
+V tapetovať
+N ihla
+N niť
+N šijací stroj
+V šiť
+N látka
+N vlna
+N bavlna
+N koža (materiál)
+N priadza
+N náprstok
+N záplata
+N šev
+V krajčíriť
+V tkať
+N tkáčsky stav
+V vyšívať
+N výšivka
+V pliesť
+N krajčír
+N vreckový nôž
+N vrece
+V farbiť
+V miešať
+N motyka
+N rýľ
+N zástrčka (na dverách)
+N zámok
+N hodváb
+N ľan
+N textília
+N denim
+N nylon
+N flís
+N zamat
+N satén
+N kašmír
+N flanel
+N spona
+N žehlička
+N bedňa
+N špendlík
+N čipka
+N korzet
+SETTING farm
+N poľnohospodárstvo
+N poľnohospodár
+N poľnohospodárka
+N roľníčka
+N roľník
+N statok
+N roľa
+N úroda
+V žať
+V siať
+V sadiť
+V pestovať
+N pestovanie
+N hnojivo
+N traktor
+N mlyn
+N zavlažovanie
+N skleník
+V kosiť
+N hnoj
+N pesticíd
+N hektár
+N obilie
+N zrno
+N pšenica
+N seno
+N slama
+N dobytok
+N stádo
+N hovädzí dobytok
+N pastier
+N maštaľ
+N stodola
+V pásť (sa)
+N plot
+N sedlo
+V chovať
+N hydina
+N krmivo
+N vinica
+N pestovanie plodín
+N poľná plodina
+N osivo
+V vysiať
+V vysadiť
+N pluh
+V orať
+V hnojiť
+N hrable
+N motyka
+N veterný mlyn
+N vodný mlyn
+N mlynár
+V mlieť
+V zavlažovať
+N kombajn
+N kompost
+V kompostovať
+N parcela
+N úrodnosť
+N plantáž
+N ranč
+N kosa
+N fúrik
+N strašiak
+N silo
+N rýľ
+N raž
+N jačmeň
+N ovos
+N ovsené vločky
+N repka olejka
+N repa
+N cukrová repa
+N vidly
+N sadenica
+N bala
+N kŕdeľ
+N ovčiar
+V oplotiť
+V osedlať
+N podkova
+N úľ
+N včelár
+N chov
+N chovateľ
+N chov dobytka
+V zabíjať
+N bitúnok
+N koryto
+V dojiť
+V strihať
+N vemeno
+N jazdec
+N ovocný sad
+N vinohradník
+V orezať
+N hadica
+N vrece
+V pásť sa
+N hľuza
+N búda
+N ovocný strom
+N jabloň
+N lúka
+N dužina
+N záhradníctvo
+N plod
+N vlna
+SETTING factory
+N textília
+N tkáčsky stav
+N denim
+N nylon
+N flís
+N zamat
+N satén
+N kašmír
+N flanel
+V farbiť
+N mlyn
+N kombajn
+N silo
+N bitúnok
+N traktor
+N priadza
+N šijací stroj
+N zmes
+SETTING science
+N kyselina
+N peľ
+N zmes
+N pleseň
+SETTING media
+V listovať
+N sieť (rybárska)
+N adresa
+N trend
+SETTING culture
+V listovať
+N ľudový odev
+N kimono
+N parochňa
+N elegancia
+N móda
+N výšivka
+N maska
+N vestibul
+N korzet
+SETTING celebration
+N hostina
+N banket
+N šumivé víno
+N šampanské
+N kokteil
+N sviečka
+N lampáš
+N balón (nafukovací)
+V vyzdobiť
+N výzdoba
+V ozdobiť
+N večerné šaty
+N kytica
+N prsteň
+N závoj
+N ľudový odev
+N maska
+N náušnica
+N náhrdelník
+N náramok
+N šperk
+N klenot
+N vianočný stromček
+N svietnik
+N torta
+N perník
+N koláčik
+N sladkosť
+N popcorn
+N alkohol
+N biele víno
+N červené víno
+N likér
+N elegancia
+N perla
+N prívesok
+N ruža
+SETTING nature
+N strom
+N les
+N list (rastliny)
+N rastlina
+N kvetina
+N lúka
+N tráva
+N ker
+N krovie
+N ker
+N bylina
+N dažďový prales
+N lesný požiar
+N živý plot
+N huba
+N koreň
+N kmeň
+N konár
+N vetva
+N kôra
+N kvet
+V kvitnúť
+N semeno
+N tŕň
+N plod
+N dub
+N vŕba
+N jedľa
+N smrek
+N buk
+N lipa
+N palma
+N ruža
+N tulipán
+N úžitková rastlina
+N liečivá rastlina
+N ihličnatý strom
+N listnatý strom
+N koruna stromu
+N peň
+N sedmokráska
+N nechtík
+N masliačik
+N steblo trávy
+N mach
+N papraď
+N úponok
+N vinič
+N trstina
+N kaktus
+N bambus
+N brečtan
+N ďatelina
+N žihľava
+N prales
+N lesík
+N háj
+N džungľa
+N kvetnatá lúka
+N vegetácia
+N hríb
+N muchotrávka červená
+N plesňová huba
+N pleseň
+V plesnivieť
+N stonka
+N stopka
+N lupienok
+N ďatelinový list
+N lístie
+N puk
+V rozkvitnúť
+V odkvitnúť
+N obdobie kvitnutia
+N hloh
+N peľ
+N nektár
+V vyrážať
+N výhonok
+V vädnúť
+V zvädnúť
+N klíčok
+V klíčiť
+N struk
+N živica
+N hľuza
+N šiška
+N bodliak
+N imelo
+N žaluď
+N breza
+N javor
+N javor horský
+N smútočná vŕba
+N jaseň
+N brest
+N topoľ
+N gaštan
+N céder
+N cyprus
+N cezmína
+N osika
+N borievka
+N pivonka
+N šípka
+N ľalia
+N fialka
+N mak
+N orchidea
+N karafiát
+N narcis
+N púpava
+N levanduľa
+N orgován
+N jazmín
+N magnólia
+N hyacint
+N pelargónia
+N chryzantéma
+N prvosienka
+N snežienka
+N bobuľa
+N malina
+N čučoriedka
+N čučoriedka
+N černica
+N brusnica
+N ríbezľa
+N egreš
+N vlašský orech
+N lieskový orech
+N kokosový orech
+N chata
+N horská chata
+N stan
+N piknik
+V piknikovať
+N vreckový nôž
+N palica
+N lovec
+N pasca
+N burina
+V pásť sa
+N izbová rastlina
+SETTING water
+N riasa
+N morská riasa
+N trstina
+N sieť (rybárska)
+N rybár
+V chytať ryby
+N rybárčenie
+N udica
+N udičkár
+N rybolov
+N rybárska sieť
+N rybárska loď
+N návnada
+V lákať
+N plavky (pánske)
+N plavky (jednodielne)
+N bikiny
+N perla
+SETTING weather
+N dáždnik
+N pršiplášť
+N dáždnik
+N čiapka
+N šál
+N rukavica
+N palčiak
+N čižma
+N kabát
+N kapucňa
+N senná nádcha
+N pletený kardigán
+N slnečné okuliare
+N vlnená deka
+SETTING politics
+N poľnohospodárstvo
+N rezidencia
+N plantáž
+SETTING law
+N nájomná zmluva
+SETTING military
+N uniforma
+N stan
+SETTING religion
+N sviečka
+N závoj
+N vianočný stromček
+N baldachýn
+N svietnik

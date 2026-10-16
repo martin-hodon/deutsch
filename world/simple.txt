@@ -1,0 +1,54 @@
+# SIMPLE SENTENCES (engine/simple.js): short sentences that show ONE WORD -- the vocabulary exercises' examples. No
+# story, no scene, no syllabus: a pattern from this file, a verb's frame from world/meaning filled with the commonest
+# nouns that fit, said by the language's realizer (<lang>/realize.js). Each line: the part of speech of the word shown,
+# then a clause in the format of world/CLAUSES.md (`TYPE key=value ...`; the sentence is `1 .` -- `1 ?` for YESNO and
+# WH, `1 !` for IMP) with HOLES the generator fills:
+#
+#   $FRAME    a verb and its frame, filled: `verb=X subj=... patient=...` -- for a verb (V) the verb shown, its frame
+#             one of its own; for a noun (N) a verb whose frame has a slot the noun fits, the noun in it; for an
+#             adjective (AN) a noun it describes in such a slot, the adjective on it (+adj:X); for an adverb (AV) an
+#             everyday verb of a person -- the frame's other slots filled with common nouns of their categories (a
+#             person subject mostly a pronoun), without clauses, names, ages or the clock
+#   $N $AN $AV  the word shown, as its concept
+#   $NOUN     (AN) a common noun the adjective describes;  $ADJ  (N) a common adjective that describes the noun
+#   $AVKEY    (AV) the adverb's kind as the clause key: time=, freq=, manner=, place=, sentence=
+#   {a|b|c}   one of these, drawn at random
+#
+# A line's weight: `{n}` at its end (1 when none). A pattern that cannot be filled for a word (no frame without a
+# clause, no adjective for it) is skipped; the next is tried. `only ...` after the type restricts the line: `only
+# person` the frame's subject must be a person (a yes/no question asks "you").
+
+# ---- a VERB: its frame, in the plain tenses, with a time, a frequency, a negation, a modal, as a question ----------
+V   MAIN $FRAME tense=present                              {4}
+V   MAIN $FRAME tense=past time={včera|last:týždeň}      {2}
+V   MAIN $FRAME tense=perfect time=dnes                    {1}
+V   MAIN $FRAME tense=present freq={často|vždy|niekedy}    {2}
+V   MAIN $FRAME tense=present neg=yes                      {1}
+V   MAIN $FRAME tense=present modal={chcieť|musieť|môcť}   {2}
+V   MAIN $FRAME tense=future time=zajtra                   {1}
+V   YESNO only person $FRAME tense=present                 {2}
+
+# ---- a NOUN: in a verb's frame; what it is; an adjective on it; where it is ---------------------------------------------
+N   MAIN $FRAME tense=present                              {4}
+N   MAIN $FRAME tense=past time=včera                      {2}
+N   MAIN $FRAME tense=present freq=často                   {1}
+N   MAIN $FRAME tense=present modal={chcieť|musieť}        {1}
+N   MAIN only thing verb=byť subj=this pred=indef:$N tense=present              {2}
+N   MAIN only thing verb=byť subj=def:$N pred=adj:$ADJ tense=present            {3}
+N   MAIN only thing verb=byť subj=def:$N+pl pred=adj:$ADJ tense=present         {1}
+N   WH   only thing wh=where verb=byť subj=def:$N tense=present                 {1}
+N   WH   only person wh=where verb=byť subj=def:$N tense=present                {1}
+N   MAIN only person verb=byť subj=def:$N pred=adj:$ADJ tense=present           {2}
+
+# ---- an ADJECTIVE: of a noun it describes, as the predicate or on the noun in a frame ------------------------------------
+AN  MAIN verb=byť subj=def:$NOUN pred=adj:$AN tense=present                     {4}
+AN  MAIN verb=byť subj=def:$NOUN pred=adj:$AN+deg:veľmi tense=present           {1}
+AN  MAIN verb=byť subj=def:$NOUN pred=adj:$AN tense=past                        {1}
+AN  MAIN verb=byť subj=this pred=indef:$NOUN+adj:$AN tense=present              {2}
+AN  MAIN $FRAME tense=present                                                   {3}
+AN  MAIN $FRAME tense=past time=včera                                           {1}
+AN  YESNO verb=byť subj=def:$NOUN pred=adj:$AN tense=present                    {1}
+
+# ---- an ADVERB: on an everyday verb --------------------------------------------------------------------------------------
+AV  MAIN $FRAME $AVKEY=$AV tense=present                                        {4}
+AV  MAIN $FRAME $AVKEY=$AV tense=past                                           {1}

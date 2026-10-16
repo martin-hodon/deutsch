@@ -1,0 +1,295 @@
+AN zraniteľný : animal, -insect
+AN zdravý : relative, child, {muž|žena|pacient|sused|susedka|priateľ|priateľka|partner|partnerka|známy}, pet, livestock, plant, fruit, vegetable, dairy, grain, {šalát|polievka|šťava|čaj|mlieko|nápoj}
+N zdravie : state
+AN nezdravý : living, food, activity, -insect, -fungus
+V uzdraviť sa : animal > source illness
+AN chorý : relative, child, {muž|žena|pacient|sused|susedka|priateľ|priateľka|partner|partnerka|známy}, pet, livestock, tree, flower
+N choroba : illness
+V ochorieť : animal > share {chrípka|infekcia|rakovina|prechladnutie|cukrovka|astma}
+N ochorenie : illness
+N chorý : role
+N nemocnica : building, institution, enterable
+N zdravotná sestra : professional
+N sanitka : vehicle, repairable, drivable, enterable
+N infekcia : illness
+V nakaziť : living > patient animal
+V nakaziť : animal > instrument illness
+AN nákazlivý : illness, feeling
+N nákaza : event
+N epidémia : illness
+N pandémia : illness, event
+N bolesť : illness
+V bolieť : body-part
+V bolieť : {rana|zranenie|jazva|zápal|zlomenina}
+AN bolestivý : illness, activity
+AN bezbolestný : illness, activity
+N bolesť hlavy : illness
+N bolesť zubov : illness
+N bolesť brucha : illness
+N bolesť hrdla : illness
+N liek proti bolesti : medicine
+N horúčka : illness
+V kašľať : animal
+N kašeľ : illness
+V kýchať : animal
+V prechladnúť : person
+N prechladnutie : illness
+AN prechladnutý : person
+N nádcha : illness
+N chrípka : illness
+N alergia : illness
+AN alergický : person
+N rakovina : illness
+N rana : illness
+V zraniť : animal -professional > patient animal
+V zraniť : incident > patient animal
+V zraniť : weapon > patient animal -professional
+V zraniť : {nôž|klinec|sklenica|kameň} > patient animal -professional
+V zraniť : person -professional > patient animal
+N zranenie : illness
+AN zranený : animal
+N zranený : role
+N pomliaždenina : illness
+N jazva : state
+V napúchať : body-part
+N opuch : illness
+N zlom : illness
+N vyrážka : illness
+N symptóm : state
+AN slepý : animal
+AN chromý : animal
+N ochrnutie : illness
+V paralyzovať : illness > patient animal
+V paralyzovať : feeling > patient animal
+V paralyzovať : incident > patient animal
+AN ochrnutý : animal
+V prekážať : {hmla|štrajk|nehoda} > patient {doprava|práca|pokrok}
+V prekážať : illness > patient {práca|pohyb}
+V prekážať : person > patient {práca|doprava|pokrok}
+AN zdravotne postihnutý : person
+N postihnutie : state
+N závrat : illness
+AN so závratom : person
+AN nevoľný : person, state
+N nevoľnosť : illness
+V zvracať : {pacient|pacientka|dieťa|bábätko|pes|mačka|človek|muž|žena|cestujúci}
+N mdloba : state
+AN v mdlobách : person
+AN v bezvedomí : animal
+V trpieť : animal > share {choroba|infekcia|chrípka|rakovina|astma|cukrovka|alergia|horúčka}
+V trpieť : animal > cause {choroba|ochorenie|alergia|horúčka|pandémia}
+V trpieť : animal > cause {osamelosť|chudoba|hlad|stres}
+V trpieť : animal > cause {horúčava|chlad|hluk|sucho}
+V trpieť : animal > cause {strach|nuda|žiarlivosť|clivota|vina}
+V utrpieť : animal > patient illness
+AN nespavý : person, period
+N nespavosť : illness
+N porucha : problem
+AN chronický : illness, state
+AN imúnny : animal
+N imunita : state
+N imunitný systém : body-part
+N zápal : illness
+N zápal pľúc : illness
+N akné : illness
+N nádor : illness
+N migréna : illness
+N záchvat : illness
+N mozgová príhoda : illness
+N kóma : state
+N otras mozgu : illness
+V vymknúť si : person > patient body-part
+N vymknutie : illness
+N cukrovka : illness
+N astma : illness
+N mor : illness
+AN obézny : animal
+N obezita : illness
+AN nezranený : animal
+N izolácia (oddelenie) : state
+N medicína : activity, medicine ; mass
+AN lekársky : device, activity, substance ; attr
+N lekár : professional
+N liek : medicine
+N tabletka : medicine
+N pilulka : medicine
+N masť : medicine
+N obväz : artifact, thing
+N náplasť : artifact, thing
+N injekcia : tool
+V očkovať : {lekár|lekárka|obvodný lekár|veterinár|zdravotná sestra|ošetrovateľ} > patient {pacient|dieťa|bábätko|pes|mačka|kôň|ovca}, opponent {choroba|chrípka}
+N očkovanie : activity
+N vakcína : medicine
+V vyliečiť : person > patient {choroba|ochorenie|infekcia|chrípka|rakovina|prechladnutie|alergia|zápal|rana|zranenie}
+V vyliečiť : medicine > patient animal
+V vyliečiť : {rana|zranenie|zlomenina|infekcia|zápal|prechladnutie}
+N liečenie : event
+AN liečiteľný : illness
+AN nevyliečiteľný : illness
+V zahojiť sa : illness
+V liečiť : {veterinár} > patient beast
+V liečiť : {lekár|lekárka|zdravotná sestra|ošetrovateľ|ošetrovateľka|zubár|terapeut|záchranár|chirurg} > patient {pacient|dieťa|chorý|zranený|človek|žena|muž}
+N liečba : activity
+V zotaviť sa : animal > source illness
+V zotaviť sa : person > source incident
+V zotaviť sa : person > source {operácia|cesta (cestovanie)|práca|šok}
+N zotavenie : state
+AN oddychový : activity, period, place
+N operácia : event
+V operovať : {lekár|lekárka|chirurg|zubár} > patient {pacient|pacientka|človek|muž|žena|dieťa}
+V operovať : {veterinár} > patient {pes|mačka|kôň}
+V vyšetriť : {lekár|lekárka|obvodný lekár|zubár} > patient {pacient|dieťa|muž|žena}
+V vyšetriť : {lekár|lekárka|obvodný lekár} > patient {pacient|dieťa|muž|žena}, theme {chrípka|rakovina|infekcia|alergia|cukrovka|horúčka}
+V vyšetriť : {veterinár} > patient {pes|mačka|kôň|ovca|krava}, theme {chrípka|rakovina|infekcia|alergia|cukrovka|horúčka}
+V vyšetriť : {lekár|lekárka|obvodný lekár|veterinár|zdravotná sestra} > patient {krv|slina}, theme {chrípka|rakovina|infekcia|alergia|cukrovka}
+N vyšetrenie : event
+N preventívna prehliadka : event
+N diagnóza : information
+V diagnostikovať : professional > patient illness
+N terapia : activity
+N terapeut : professional
+N antibiotikum : medicine
+N masáž : activity
+V masírovať : person > patient animal
+N röntgen : activity
+V röntgenovať : professional > patient animal
+N röntgenová snímka : picture
+N transplantácia : event
+N darca : role
+N milodar : abstract
+N darca orgánu : person
+N narkóza : state
+N ultrazvuk : phenomenon
+N sadra : material
+N stetoskop : tool
+N karanténa : state
+N antiseptikum : medicine
+AN sterilný : tool, device, container, room
+V sterilizovať : person > patient artifact
+V ošetrovať : {zdravotná sestra|ošetrovateľ|ošetrovateľka} > patient {pacient|chorý|zranený|dieťa|bábätko}
+V ošetrovať : {dcéra|syn|žena|muž|susedka|vnuk} > patient {stará mama|starý otec|babka|dedko|matka|otec|chorý}
+V ošetrovať : person > patient pet
+V ošetrovať : {poľnohospodár|poľnohospodárka|roľník|roľníčka|veterinár} > patient livestock
+V ošetrovať : person > patient plant
+V ošetrovať : person > patient {priateľstvo|kontakt|vzťah}
+N ošetrovanie : activity
+N záchrana : event
+N lekárka : professional
+N zubár : professional
+N veterinár : professional
+N obvodný lekár : professional
+N lekár záchrannej služby : professional
+N chirurg : professional
+N pacient : role
+N pacientka : role
+N klinika : building, institution, enterable
+AN klinický : activity, state ; attr
+N lekáreň : shop, enterable
+N lekárnik : professional
+N núdzový prípad : event
+N záchranár : professional
+N teplomer : device, thing, breakable
+N invalidný vozík : device, repairable, sittable
+N barla : tool
+N nosidlá : artifact
+N pôrodná asistentka : professional
+N psychiater : professional
+N psychiatria : institution
+N oddelenie (nemocničné) : room, enterable ; auf
+N ordinácia : activity, building, enterable
+N jednotka intenzívnej starostlivosti : room, enterable ; auf
+N zdravotný úrad : institution
+N klinické centrum : building, institution, enterable
+N hygiena : state
+AN hygienický : food, room, tool, kitchenware, container ; attr
+N jed : substance
+AN jedovatý : substance, plant, food
+V otráviť : person > patient animal
+V otráviť : substance > patient animal
+N otrava : illness
+N protijed : medicine
+N tabak : substance, burnable
+N cigareta : artifact, thing, burnable
+V fajčiť : {muž|žena|priateľ|priateľka|otec|dedko|strýko|sused|kolega|kolegyňa}
+V fajčiť : {muž|žena|priateľ|priateľka|otec|dedko|strýko|sused|kolega|kolegyňa} > patient {cigareta|píšťala}
+N fajčiar : role
+N nefajčiar : person
+AN opitý : person
+AN triezvy : person
+N diéta : activity
+N vitamín : substance
+N vírus : living
+N baktéria : living
+N závislosť (choroba) : illness
+AN závislý (na droge) : person
+N kalória : measure
+N droga : substance
+N domov dôchodcov : building, institution, enterable
+N lekárnička : professional
+N výsledok vyšetrenia : information
+N ťažkosti : illness
+N krvný tlak : quality
+N krvná skupina : quality
+N odber krvi : event
+N krvácanie : illness
+N konope : substance ; mass
+N depresia : illness
+N drogy : substance
+N hnačka : illness
+N odborný lekár : professional
+N uzdravený : person
+N zdravotníctvo : institution
+N srdcový infarkt : illness, incident
+N očkovací preukaz : document
+N detský lekár : professional
+N kozmetika : substance ; mass
+N zdravotná poisťovňa : institution
+N zdravotné poistenie : institution
+N liečebný pobyt : event
+N ohrozenie života : state
+N vedľajší účinok : process
+N pohotovosť : room, institution, enterable
+N opatrovateľská služba : institution
+N domov pre seniorov (ošetrovateľský) : building, institution, enterable
+N ošetrovateľka : professional
+N rehabilitácia : activity
+N záchranná služba : institution
+N bolesti chrbta : illness
+N ordinačné hodiny : event, attendable
+N bodnutie : event
+N čakáreň : room, cleanable, enterable
+N nadváha : state
+V zmierniť : agent > patient {bolesť|trest|následok|núdza}
+# added: Stich in its second sense
+N steh : thing
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN ambulantný : {pacient|liečba|operácia}
+AN bez porúch : device, vehicle
+AN epidemiologický : information, {štúdia|situácia|vývoj|údaje}
+AN infekčný : illness, {pacient|choroba}
+AN intenzívnej medicíny : {oddelenie (nemocničné)|pacient|lekár}
+AN kozmetický : {operácia|krém na opaľovanie}
+AN náchylný : animal, plant ; pred
+AN odkázaný na opateru : person, -professional ; pred
+AN príznačný : illness, quality, idea, activity ; pred
+AN psychiatrický : {pacient|liečba|nemocnica|oddelenie (nemocničné)|lekár}
+AN psychický : state, illness, feeling, {zdravie|problém}
+AN sexuálny : activity, relation, {život|zdravie|orientácia}
+AN stacionárny : {liečba|pacient|oddelenie (nemocničné)}
+AN terapeutický : activity, {účinok|metóda|postup|rozhovor}
+AN traumatický : incident, event, {zážitok|skúsenosť}
+AN vysoko nákazlivý : illness, {choroba|vírus|infekcia}
+AN vírusový : illness, {infekcia|choroba|ochorenie}
+AN zdravotnícko-politický : {rozhodnutie|opatrenie|debata|téma}
+AN zdravotný : state, {stav|problém|poistenie|starostlivosť|sestra|riziko|zariadenie|kniha}
+N kokaín : substance
+N potrat : event
+N samovražda : crime
+V aplikovať : person > patient {masť|liek|náplasť|metóda|pravidlo}
+V imunizovať : person -child > patient animal
+V mať horúčku : animal
+V narušiť : person > patient {pokoj|poriadok|zdravie|spánok (stav)|rovnováha}
+V praktizovať : person > patient {medicína|náboženstvo|joga|šport}
+V resuscitovať : person > patient person
+V zdecimovať : illness > patient {armáda|stádo}

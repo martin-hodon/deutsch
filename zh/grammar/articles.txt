@@ -1,0 +1,13 @@
+# definite-article
+3 ART 这 {这} [zhè] = ten (určitý člen mužského rodu)
+1 P 同一个 {同一个} [tóngyī ge] = ten istý
+1 P 那个人 {那个人} [nàge rén] = ten (kto)
+3 ART 这 {这} [zhè] = tá (určitý člen ženského rodu a množného čísla)
+3 ART 这 {这} [zhè] = to (určitý člen stredného rodu)
+
+# indefinite-article
+1 ART 一 {一} [yī] = jeden
+2 ART 一些 {一些} [yīxiē] = nejaký
+2 ART 某 {某} [mǒu] = nejaký
+1 ART 没有 {没有} [méiyǒu] = žiadny
+1 ART 一个 {一个} [yī ge] = jeden

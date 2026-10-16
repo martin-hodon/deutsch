@@ -1,0 +1,146 @@
+# seeing
+V vidieť
+N zrak
+N viditeľnosť
+N výhľad
+AN viditeľný : adverb viditeľne
+AN neviditeľný : adverb neviditeľne
+AN priehľadný
+AN nepriehľadný
+V vyzerať
+V prehliadnuť
+N pamätihodnosť
+AN stojaci za videnie
+V pozerať sa
+V prizerať
+V nakuknúť
+V prekuknúť
+V obzrieť sa
+V pozorovať
+N pozorovanie
+N pozorovateľ
+AN badateľný : adverb badateľne
+V zízať
+V zízať na
+N pohľad
+V pozrieť
+V pozrieť na
+N prehľad
+V zazrieť
+V obzrieť sa späť
+V zdať sa
+V objaviť sa
+AN zdanlivý : adverb zdanlivo
+N svit
+V zmiznúť
+V ukryť
+N skrýša
+V odhaliť
+N odhalenie
+V uchmatnúť
+V trblietať sa
+V zazerať
+V objaviť
+N objav
+N objaviteľ
+V odkryť
+AN neobjavený
+V odlíšiť
+N rozlišovanie
+V ignorovať
+AN rozmazaný
+AN bujarý : adverb bujaro
+V blikať
+V lesknúť sa
+N lesk
+N nahliadnutie
+N rozruch
+V opatriť
+V dohliadať na
+V zažiariť
+V škúliť
+V mihotať sa
+
+# hearing
+V počuť
+V počúvať
+V vypočuť si
+V prestať
+V prepočuť
+N sluch
+AN počuteľný : adverb počuteľne
+V mrmlať
+V rachotiť
+V načúvať
+V zaznieť
+V šumieť
+
+# other-senses
+V čuchať
+N pach
+N vôňa
+V voňať
+AN voňavý
+V smrdieť
+N smrad
+V chutiť
+V dotknúť sa
+N dotyk
+V cítiť
+V byť na dotyk
+V cítiť sa dobre
+N zmysel
+AN nezmyselný : adverb nezmyselne
+AN zmysluplný : adverb zmysluplne
+N nezmysel
+AN zmyselný : adverb zmyselne
+V vnímať
+N vnímanie
+AN vnímateľný : adverb vnímateľne
+V svrbieť
+AN citlivý : adverb citlivo
+AN jemnocitný : adverb jemnocitne
+AN hluchý
+V ňuchať
+N aróma
+AN aromatický
+V štekliť
+V vetriť
+V ovoniavať
+
+# colors
+N farba
+AN farebný
+AN bezfarebný
+N odtieň
+AN orgovánový
+AN slonovinový
+AN jantárový
+AN pestrofarebný
+AN červený
+AN červenkastý
+AN purpurový
+AN šarlátový
+AN modrý
+AN svetlomodrý
+AN tmavomodrý
+AN modrastý
+AN zelený
+AN svetlozelený
+AN tmavozelený
+AN zelenkastý
+AN žltý
+AN žltkastý
+AN čierny
+AN biely
+AN hnedý
+AN sivý
+AN ružový
+AN fialový
+AN oranžový
+AN pestrý : adverb pestro
+AN bledý
+N bledosť
+V vyblednúť
+AN tyrkysový
+AN béžový

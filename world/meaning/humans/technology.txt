@@ -1,0 +1,235 @@
+N škatuľa : container, openable, fillable
+N e-mail : information, software
+N jadrová energia : phenomenon
+N technológia : abstract
+AN technologický : device, activity, information ; attr
+AN technický : device, problem, activity, information ; attr
+N stroj : device, switchable, repairable
+AN strojový : activity, process ; attr
+N prístroj : device, switchable, repairable
+N domáci spotrebič : device, switchable, repairable
+N mechanizmus : device
+AN mechanický : device, activity, process ; attr
+N robot : device, switchable, repairable
+N automat : device
+AN automatický : device, building-part, activity ; attr
+V automatizovať : agent > patient {práca|výroba|proces|doprava}
+N automatizácia : activity
+N vynález : idea
+N vynálezca : professional
+N pumpa : device, switchable, repairable
+V pumpovať : person > patient substance
+V pumpovať : device > patient substance
+V zapínať : {firma|podnik|koncern|obchodník|obchod} > patient {reklama|inzerát}
+N vypínač : device
+V zapnúť (prístroj) : person -professional > patient device +switchable
+N obvod : device
+N páka : tool
+N ozubené koleso : artifact, thing
+N gadget : device, thing, switchable
+N senzor : device, thing
+N patent : document, text
+N inovácia : idea
+AN inovatívny : artifact, idea, institution
+N batéria : thing
+N akumulátor : device, thing
+N drôt : artifact, thing, cuttable
+AN bezdrôtový : device
+N kábel : artifact, thing, cuttable
+V strčiť : person > patient {pas|kľúč|peniaze|karta|zástrčka (elektrická)|mobil|list (písomnosť)}, goal {taška|kufor|batoh|kôš|bedňa}
+N zástrčka (elektrická) : artifact, thing
+N zásuvka (elektrická) : artifact
+V naložiť : {robotník|vodič|muž|žena|otec|matka|chlapec} > patient {kufor|bedňa|balík|batožina|tovar|náklad|kontajner}
+V naložiť : person > patient {program|aplikácia|súbor|softvér|hra}
+N nabíjačka : device, thing, switchable
+V nabiť : {muž|žena|matka|otec|dieťa|chlapec|dievča|priateľ|študent|kolega} > patient {mobil|akumulátor|batéria|laptop|tablet|smartfón|kamera}
+V stiahnuť : person > patient software
+V stiahnuť : person > patient {film|pieseň|video}
+V nahrať (na server) : person > patient software
+V nahrať (na server) : person > patient {obraz|video|fotka}
+N laser : device, switchable
+AN jadrový : device, weapon, phenomenon, substance ; attr
+AN elektrický : device, artifact ; attr
+AN elektronický : device, artifact ; attr
+N elektronika : abstract
+N elektrina : phenomenon
+N baterka : device, thing, switchable
+N počítač : device, switchable, repairable
+N laptop : device, thing, openable, switchable, repairable
+N tablet : device, thing, switchable, repairable
+N obrazovka : device, switchable, repairable
+N monitor : device, switchable, repairable
+N dotyková obrazovka : device, switchable
+N tlačidlo : artifact
+N klávesnica : device
+V vytlačiť : person -professional > patient picture -{prijatie}
+V vytlačiť : person -professional > patient text
+N tlačiareň : device, switchable, repairable
+N skener : device, thing, switchable
+V skenovať : person > patient text
+V skenovať : person > patient picture
+N program : software
+V programovať : person > patient software
+V programovať : person > patient game
+V programovať : person
+N programátor : professional
+N softvér : software
+N hardvér : device
+N aplikácia : software
+N súbor : software
+N priečinok : information
+N údaje : information
+N databáza : information
+N ochrana údajov : rule
+N kód : software
+N heslo : information
+N používateľ : role
+N internet : abstract
+N wifi : abstract
+N sieť (počítačová) : abstract
+N webová stránka : software
+N webkamera : device, thing, switchable
+N prehliadač : software
+N odkaz : software
+V kliknúť : person -professional > theme software
+V kliknúť : person -professional > theme {odkaz|tlačidlo|gombík}
+N kliknutie : event
+AV online : other
+AN digitálny : information, device, software ; attr
+N digitalizácia : activity
+N umelá inteligencia : abstract
+N signál : information
+N server : device, switchable
+N satelit : device
+N dron : vehicle, drivable, repairable
+N telefón : device, switchable, repairable
+V telefonovať : person -professional > companion person
+V telefonovať : person -professional
+N mobil : device, thing, switchable, repairable
+N smartfón : device, thing, switchable, repairable
+N smart hodinky : device, thing, switchable, repairable
+N kamera : device, thing, switchable, repairable
+N fotka : picture, hangable
+N fotograf : professional
+V fotografovať : {turista|fotograf|muž|žena|dieťa|priateľ|študent|otec|matka|návštevník} > patient animal
+V fotografovať : {turista|fotograf|muž|žena|dieťa|priateľ|študent|otec|matka|návštevník} > patient {dom|kostol|zámok|hrad|veža|múzeum|hotel|stanica}
+V fotografovať : {turista|fotograf|muž|žena|dieťa|priateľ|študent|otec|matka|návštevník} > patient landscape
+V fotografovať : {turista|fotograf|muž|žena|dieťa|priateľ|študent|otec|matka|návštevník} > patient vehicle
+N fotografia : picture
+N fotoaparát : device, thing, switchable, repairable
+N video : creative-work
+N televízor : device, switchable, repairable
+N televízia : activity
+V pozerať televíziu : person
+N diaľkový ovládač : device, thing
+N ďalekohľad : device, thing
+N rádio : device, thing, switchable, repairable
+N mikrofón : device, thing, switchable
+N reproduktor : device, thing, switchable
+N slúchadlo : device, thing
+N kalkulačka : device, thing, switchable
+N čip : device, thing
+N procesor : device, thing
+N USB : device, thing
+N kurzor : picture
+N rozhranie : abstract
+N algoritmus : idea
+N spam : information, software
+N hacker : person
+N blog : software, information
+N podcast : creative-work
+N router : device, thing, switchable
+N bluetooth : abstract
+N GPS : device, thing
+N pixel : measure
+V rolovať : person
+V zotrieť : person -professional > patient {stôl|pôda|okno|okenná tabuľa|polica|skriňa|zrkadlo}
+V priblížiť : person
+V ohlásiť : person > patient {nehoda|požiar|defekt}
+V ohlásiť : person > patient {krádež|vlámanie|podvod|lúpež|vražda}
+V ohlásiť : person > patient {chyba|strata|škoda}
+V ohlásiť : person > that
+N hlásenie : information
+V prihlásiť sa : person -professional > location {škola|univerzita|spolok|fitnescentrum|úrad|firma|knižnica|klub}
+V prihlásiť sa : person > purpose event +attendable
+V odhlásiť sa : person -professional > location {škola|univerzita|spolok|fitnescentrum|úrad|firma|knižnica|klub}
+N prihlásenie : activity
+V prihlásiť : person -professional > patient {dieťa|syn|dcéra|žiak|pacient|hosť|účastník|študent}
+V prihlásiť : person > patient vehicle
+N profil : information
+N emoji : picture
+AN virtuálny : information, place, event, activity ; attr
+V aktualizovať : person > patient {program|aplikácia|softvér|webová stránka|súbor|operačný systém}
+V aktualizovať : person > patient {údaje|karta|zoznam}
+V aktualizovať : person > patient {mobil|počítač|laptop|smartfón|tablet}
+N aktualizácia : event
+N záložná kópia : information
+N radar : device
+N projektor : device, thing, switchable
+N používateľka : role
+N platforma : abstract
+N infraštruktúra : abstract
+N telefónne číslo : information
+N pamäť (počítača) : device
+N príloha (dokumentu) : software
+N volajúci : person
+N anténa : artifact, repairable
+N bager : vehicle, drivable, repairable
+N operačný systém : software
+N počítačová hra : game, software, playable
+N displej : device, breakable, repairable
+N stiahnutie : event
+N dodávateľ energie : institution
+N zásobovanie energiou : activity
+N pevný disk : device, repairable
+N hasiaci prístroj : artifact, thing
+N internetová stránka : software
+N kilowatthodina : measure
+N konštrukcia : artifact, repairable
+N lupa : tool
+N mobilný telefón : device, thing, switchable, repairable
+N notebook : device, thing, switchable, repairable, openable
+N portál : software
+N poštová priehradka : container, openable, lockable
+N registrácia : activity
+N rúra : artifact, repairable
+N solárny článok : device
+N účet za elektrinu : document, text
+N zásobovanie elektrinou : activity
+N vyhľadávač : software
+N watt : measure
+N veterná turbína : device, repairable
+# added: Ordner in its second sense
+N zakladač : artifact, thing, openable
+# added: Schalter in its second sense
+N okienko : building-part, openable
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN fotografický : device, picture, activity ; attr
+AN hydraulický : device, process ; attr
+AN konštruktívny : idea, activity, problem
+AN kybernetický : activity, crime, device ; attr
+AN s batériovým pohonom : device, vehicle, toy ; attr
+AN telefonický : information, activity, event ; attr
+AN škálovateľný : software, device, idea
+N konektivita : quality
+N polovodič : device, thing
+N tweet : text, information
+V deaktivovať : person > patient device +switchable
+V demontovať : person > patient {stroj|prístroj|motor|auto|nábytok}
+V digitalizovať : person > patient {dokument|kniha|archív|fotka}
+V fotiť : person > patient {človek|zviera|budova|krajina (prírodná)}
+V konfigurovať : person > patient {počítač|prístroj|program|sieť (počítačová)}
+V personalizovať : person > patient {program|webová stránka|dar|prístroj}
+V potlačiť : person > patient {hluk|zvuk|signál|smiech}
+V prepojiť odkazom : person > patient {webová stránka|dokument|súbor}
+V rekonštruovať : person > patient {budova|udalosť|stroj|dom}
+V simulovať : device > patient {proces|let|nehoda|situácia}
+V skontrolovať : person > patient {prístroj|stroj|dokument|doklad|auto}
+V skrývať sa za tým : person
+V tikať : {hodiny|bomba|budík}
+V vyprofilovať sa : person > as professional
+V zastrčiť : person > patient {zástrčka (elektrická)|kábel|kľúč}, goal {zásuvka (elektrická)}
+V zašifrovať : person > patient {správa (oznam)|e-mail|súbor|dokument}
+V znovu aktivovať : person > patient device +switchable
+V zostrojiť : person > patient {stroj|prístroj|robot|most}

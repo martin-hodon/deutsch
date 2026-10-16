@@ -1,0 +1,176 @@
+# HOW POLISH SAYS THE WORLD'S CLOSED WORDS (world/CLAUSES.md) -- as en/rules/neutral.txt: `KIND neutral = Polish`,
+# alternatives `|` ([place] [person] [surface] ...: the alternative for such a noun). A pronoun: nominative/genitive/
+# dative/accusative/instrumental/locative/its possessive (declined by pl/morph.js pronAdj)/its person (0 ja .. 5 oni);
+# the short object forms (go, mu, mi, cię) -- after a preposition the realizer makes them long (niego, niemu, mnie).
+# A relation or a role marking: `preposition+CASE` (CASE: M B D C N Ms), a CASE alone for a bare case. Read by pl/realize.js.
+
+pron 1sg = ja/mnie/mi/mnie/mną/mnie/mój/0
+pron 2sg = ty/cię/ci/cię/tobą/tobie/twój/1
+pron 3sg.m = on/go/mu/go/nim/nim/jego/2
+pron 3sg.f = ona/jej/jej/ją/nią/niej/jej/2
+pron 3sg.n = ono/go/mu/je/nim/nim/jego/2
+pron 1pl = my/nas/nam/nas/nami/nas/nasz/3
+pron 2pl = wy/was/wam/was/wami/was/wasz/4
+pron 3pl = oni/ich/im/ich/nimi/nich/ich/5
+pron 3pl.f = one/ich/im/je/nimi/nich/ich/5
+pron formal = pan/pana/panu/pana/panem/panu/pański/2
+pron one = -/-/-/-/-/-/swój/2
+pron someone = ktoś/kogoś/komuś/kogoś/kimś/kimś/czyjś/2
+pron noone = nikt/nikogo/nikomu/nikogo/nikim/nikim/niczyj/2
+pron something = coś/czegoś/czemuś/coś/czymś/czymś/-/2
+pron nothing = nic/niczego/niczemu/nic/niczym/niczym/-/2
+pron everything = wszystko/wszystkiego/wszystkiemu/wszystko/wszystkim/wszystkim/-/2
+pron this = to/tego/temu/to/tym/tym/-/2
+pron that-one = ten/tego/temu/tego/tym/tym/jego/2
+pron who = kto/kogo/komu/kogo/kim/kim/czyj/2
+
+# the determiners: a declined word (ten każdy wszystek który żaden: pl/morph.js), or a quantity word with the genitive
+det def =
+det indef =
+det this = ten
+det every = każdy
+det all = wszystek
+det some = kilka+D
+det both = oba
+det many = dużo+D
+det much = dużo+D
+det little = mało+D
+det several = kilka+D
+det few = mało+D
+det which = który
+det no = żaden
+
+coord and = i
+coord but = ale
+coord or = albo
+coord for = bo
+coord either = albo
+coord admittedly = co prawda
+coord as-well-as = a także
+
+link because = bo {2} | ponieważ {2} | dlatego że {1}
+link although = chociaż
+link if = jeśli
+link if-unreal = gdyby
+link when = kiedy
+link when-past = kiedy
+link before = zanim
+link after = po tym jak
+link as-soon-as = jak tylko
+link in-case = na wypadek gdyby
+link while = podczas gdy
+link until = aż
+link as-long-as = dopóki
+link since = od kiedy
+link so-that = żeby
+link by-doing = tym że
+link with-result = tak że
+link without-that = bez tego żeby
+link instead-that = zamiast żeby
+link as-if = jakby
+link that = że
+link whether = czy
+link purpose = żeby
+link without = nie
+link instead = zamiast
+
+# the clause's verb in the past ł-form with by on the link: żebym przyszedł, gdyby przyszedł, jakby wiedział
+mood by = so-that|if-unreal|as-if|in-case|without-that|instead-that
+
+rel in = w+Ms | na+Ms [surface]
+rel into = do+D | na+B [surface]
+rel on = na+Ms
+rel onto = na+B
+rel at = u+D [person] | przy+Ms
+rel to-side = do+D
+rel to = do+D | na+B [surface]
+rel from = z+D | od+D [person]
+rel off = z+D
+rel under = pod+N
+rel under-to = pod+B
+rel above = nad+N
+rel above-to = nad+B
+rel behind = za+N
+rel behind-to = za+B
+rel front = przed+N
+rel front-to = przed+B
+rel beside = obok+D
+rel beside-to = obok+D
+rel between = między+N
+rel through = przez+B
+rel along = wzdłuż+D
+rel around = wokół+D
+rel near = u+D [person] | koło+D
+rel with = z+N | N [thing]
+rel without = bez+D
+rel by = N
+rel for = dla+D
+rel about = o+Ms
+rel like = jak+M
+rel against = przeciw+C
+rel opposite = naprzeciwko+D
+rel smell-of = N
+rel after = po+Ms
+rel before = przed+N
+rel out-of = z+D
+rel because-of = z powodu+D
+rel despite = pomimo+D
+rel during = podczas+D
+rel instead-of = zamiast+D
+rel until = do+D
+rel of = D
+
+time on-day = w+B
+time in-period = w+Ms
+time at-hour = o+Ms
+time date = D
+time last = zeszły
+time next = przyszły
+time every = każdy+B
+time since = od+D
+time ago = B temu
+time in-time = za+B
+
+wh who = kto
+wh whom = kogo
+wh what = co
+wh when = kiedy
+wh where = gdzie
+wh whence = skąd
+wh whither = dokąd
+wh why = dlaczego
+wh how = jak
+wh how-old = ile lat
+wh how-late = która jest godzina
+wh how-often = jak często
+wh which = który
+wh what-kind = jaki
+wh how-many = ile
+
+neg yes = nie
+neg no-more = już nie
+neg not-yet = jeszcze nie
+neg not-at-all = wcale nie
+
+# WORD LISTS: time words of the past and the future; those standing first; verbs of a state (the imperfective past in a
+# past clause even for one event); the weather (dzisiaj jest zimno: an adjective's adverb); irregular adverbs of
+# adjectives; the numbers' values (the cases after a number: 1 nom, 2-4 nom pl, 5+ gen pl); the hours as ordinals
+# (jest ósma, o ósmej); the parts of the day said alone (wieczorem, rano, w nocy)
+list past = wczoraj|przedwczoraj|niedawno|wcześniej|wtedy|dawno|kiedyś
+list future = jutro|pojutrze|wkrótce|potem|później|dziś wieczorem
+list front = teraz|potem|następnie|wtedy|wkrótce|tu|tutaj|nagle|wreszcie|dzisiaj|dziś|wczoraj|jutro
+list state = być|mieszkać|żyć|wiedzieć|znać|kochać|lubić|chcieć|móc|myśleć|kosztować|bać się|czekać|mieć nadzieję|wydawać się|podobać się|spać|siedzieć|stać|leżeć|pracować|uczyć się|chorować|mieć|musieć|umieć|rozumieć|potrzebować|słyszeć|widzieć|czuć|padać|smakować|pachnieć|wyglądać|znaczyć|należeć|zależeć
+list weather = zimny:zimno|ciepły:ciepło|gorący:gorąco|chłodny:chłodno|dobry:ładnie|zły:brzydko|słoneczny:słonecznie|wietrzny:wietrznie|suchy:sucho|mokry:mokro|piękny:pięknie|ładny:ładnie
+list adverb = dobry:dobrze|zły:źle|duży:dużo|mały:mało|liczny:licznie|wczesny:wcześnie|późny:późno|głośny:głośno|cichy:cicho|częsty:często|rzadki:rzadko|daleki:daleko|bliski:blisko|długi:długo|lekki:łatwo|łatwy:łatwo|chętny:chętnie|szybki:szybko|wolny:powoli|powolny:powoli
+list num = jeden:1|dva:2|tri:3|štyri:4|päť:5|šesť:6|sedem:7|osem:8|deväť:9|desať:10|jedenásť:11|dvanásť:12|trinásť:13|štrnásť:14|pätnásť:15|šestnásť:16|sedemnásť:17|osemnásť:18|devätnásť:19|dvadsať:20|tridsať:30|štyridsať:40|päťdesiat:50|šesťdesiat:60|sedemdesiat:70|osemdesiat:80|deväťdesiat:90|sto:100
+list hour = jeden:pierwsza|dva:druga|tri:trzecia|štyri:czwarta|päť:piąta|šesť:szósta|sedem:siódma|osem:ósma|deväť:dziewiąta|desať:dziesiąta|jedenásť:jedenasta|dvanásť:dwunasta
+list daypart = rano:rano|wieczór:wieczorem|noc:w nocy|południe:w południe|popołudnie:po południu|dzień:w dzień|przedpołudnie:przed południem
+# verbs whose command is imperfective (przychodź!); the weather verbs with their noun (pada deszcz); adjectives said as
+# a verb's past (zmęczyłem się); verbs whose past stays imperfective for an event with a span; time words said after the
+# subject, not first; the phase verbs, whose infinitive is imperfective (zaczął mieszać)
+list imp-impf = mówić|iść|jechać|patrzeć|słuchać|czytać|uważać|pisać|pracować|uczyć się|spać|jeść|pić
+list rain = pršať:-|snežiť:śnieg|krúpiť:grad
+list verbadj = zakochany:zakochać się|przestraszony:przestraszyć się|zdziwiony:zdziwić się
+list durative = krzyczeć|płakać|śmiać się|śpiewać|tańczyć|grać|spacerować|pracować|spać|biec|pływać|rozmawiać|patrzeć|słuchać|uczyć się|siedzieć|stać|leżeć|mieszkać|czekać|czytać|pisać|myśleć|szukać|gotować|rysować|podróżować|odpoczywać|marzyć|chorować|oddychać|milczeć|hałasować|palić się|płynąć|świecić|wiać
+list mid = jeszcze|już|też|także|nawet|tylko|prawie|zawsze|często|czasem|rzadko|nigdy|zwykle
+list phase = zaczynać|zacząć|kontynuować|kończyć|skończyć|przestawać|przestać|rzucać|rzucić

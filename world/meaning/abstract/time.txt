@@ -1,0 +1,222 @@
+AN trvalý : state, relation, problem
+N čas (trvanie) : time
+AN časový : event, activity, quantity ; attr
+N obdobie : period
+N časové rozpätie : period
+N časový bod : moment
+N éra : period
+AV súčasne : time
+AN včasný : event, activity, information
+AV kedykoľvek : time
+AV dočasne : time
+N okamih : moment
+AN momentálny : state, problem
+N chvíľa : period
+N sekunda : period
+N minúta : period
+N hodina : period
+N štvrťhodina : period
+AN hodinový : event, activity, text, money ; attr
+AN hodiny trvajúci : event ; attr
+N deň : period
+AN denný : event, activity, text, money ; attr
+AV cez deň : time
+N denná doba : period
+N noc : period
+AN nočný : event, activity, sound ; attr
+N polnoc : moment
+AV v noci : time
+V prenocovať : person -professional > location {priateľ|priateľka|brat|sestra|babka|dedko|teta|strýko|bratranec|sesternica|sused|susedka|známy|kamarát|kolega}
+V prenocovať : person -professional > location {hotel|penzión|stan|chata|byt|dom|zámok}
+N nocľah : event
+N týždeň : period
+AN týždenný : event, activity, text, money ; attr
+N víkend : period
+N deň v týždni : period
+N mesiac (časť roka) : period
+AN mesačný : event, activity, text, money ; attr
+AN mesiace trvajúci : event ; attr
+N rok : period
+AN ročný : event, activity, text, money ; attr
+N desaťročie : period
+N storočie : period
+N tisícročie : period
+AN dlhé roky trvajúci : event ; attr
+N dátum : moment
+N fáza : period
+N etapa : period
+N epocha : period
+N cyklus : event
+AN cyklický : event, phenomenon, activity ; attr
+N lehota : period
+N frekvencia : quantity
+N polrok : period
+N začiatok roka : moment
+N prelom roka : moment
+N miestny čas : time
+N ráno : period
+AV ráno : time
+N poludnie : period
+N odpoludnie : period
+N predpoludnie : period
+AV napoludnie : time
+AV popoludní : time
+N večer : period
+AV večer : time
+N koniec pracovnej doby : period
+N pondelok : period
+N utorok : period
+N streda : period
+N štvrtok : period
+N piatok : period
+N sobota : period
+N nedeľa : period
+AV dnes : time present past perfect future
+AN dnešný : period, group, state ; attr
+AV v dnešnej dobe : time present
+AV včera : time past perfect
+AV predvčerom : time past perfect
+AV zajtra : time present future
+AV pozajtra : time present future
+N sezóna : period
+AN sezónny : consumable, event, activity, clothing ; attr
+AV potom : time
+AV čoskoro : time present future
+AV skôr : other
+AN skorý : event, information, activity, state ; attr
+AN neskorý : time, event, person
+AV najneskôr : other
+AN raný : time, event, person
+AV kedysi : time past perfect
+AN dochvíľny : person, vehicle
+N dochvíľnosť : quality
+AV už : time
+AV ešte : time
+AV znova : time
+AN opakujúci sa : event ; attr
+AV opäť : time
+AV nikdy : frequency
+AV vždy : frequency
+AV predsa len : connective
+AV často : frequency
+AV častejšie : frequency
+AV občas : frequency
+N príležitosť : idea
+AV zvyčajne : frequency
+AV náhle : manner
+AV hneď : time future
+AV postupne : manner
+AV predtým : time
+AN dočasný : state, event, problem
+AV medzitým : time present perfect
+N budúcnosť : time
+AN budúci : professional, group, event, idea ; attr
+N minulosť : time
+AN minulý : period, event
+N súčasnosť : time
+AN súčasný : state, problem, period
+AN aktuálny : information, text, event, problem, state
+AV momentálne : time present
+AV nedávno : time past perfect
+AN moderný : device, vehicle, furniture, clothing, building, {umenie|hudba|literatúra|architektúra|metóda|koncepcia|technika|štýl|dizajn}, {priemysel|škola|univerzita|firma|klinika}, -{sedadlo}
+V modernizovať : agent > patient artifact
+V modernizovať : agent > patient institution
+AN antický : artifact, place
+N staroveká doba : period
+AN večný : feeling, relation, state
+N večnosť : time
+AV konečne : time
+N nekonečno : quality
+V trvať (časovo) : event +attendable
+V trvať (časovo) : game
+V trvať (časovo) : {cesta (cestovanie)|vojna|práca|odborná príprava|štúdium|hádka}
+V trvať (časovo) : es
+N trvanie : quality
+AN konštantný : quantity, state, phenomenon
+N tempo : quality
+V čakať : person -professional -{celebrita|majster sveta} > theme relative
+V čakať : person -professional > theme {priateľ|priateľka|kolega|kolegyňa|sused|susedka|známy|lekár|učiteľ|zákazník|hosť}
+V čakať : person -professional > theme {autobus|vlak|taxík|električka|lietadlo|loď}
+V čakať : person -professional > theme {koncert|stretnutie|zasadnutie|skúška|hra|preteky|večierok|termín}
+V čakať : person -professional -{celebrita|majster sveta} > theme {leto|zima|jar|jeseň|víkend|prázdniny|koniec pracovnej doby|Vianoce|poludnie}
+V čakať : person -professional > theme {odpoveď|správa (oznam)|telefonát|rozsudok|výsledok}
+V vyčkať : person
+N prestávka : period
+AV bez prestávky : manner
+N interval : period
+N kalendár : thing, hangable
+N rutina : activity
+AN rutinovaný : person
+AN periodický : event ; attr
+AV odteraz : time present future
+AV spočiatku : time past perfect
+AV nakoniec : time
+AN splatný : document, money, activity, event
+AN oneskorený : document, money, activity, event
+AN promptný : information, activity, event
+N minulý rok : period
+N predchádzajúci deň : period
+N štvrťrok : period
+N všedný deň : period
+N polčas : period
+N termín : moment
+N január : period
+N február : period
+N marec : period
+N apríl : period
+N máj : period
+N jún : period
+N júl : period
+N august : period
+N september : period
+N október : period
+N november : period
+N december : period
+N miesto narodenia : place
+N jesenné prázdniny : period
+N koniec roka : moment
+N krátkosť : quality
+N doba platnosti : period
+N rok života : period
+N ranná hodina : period
+N veľkonočné prázdniny : period
+N školský rok : period
+N predchádzajúci mesiac : period
+N predchádzajúci týždeň : period
+N pracovný deň : period
+N zmena času : event
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN bez príčiny : feeling, event, {strach|smiech|hnev|radosť|nepokoj}, state ; pred
+AN bezodkladný : activity, event, {pomoc|odpoveď|platba|zásah|krok|opatrenie|liečba}
+AN celé dni trvajúci : event, activity, {dážď|búrka|rokovanie|hľadanie|spor}, state ; attr
+AN denne aktuálny : information, {novinka|cena|kurz|prehľad|počasie}
+AN desaťročia trvajúci : event, activity, relation, {spor|vojna|výskum|úsilie|vláda|priateľstvo|vzťah|boj|sucho} ; attr
+AN futuristický : building, vehicle, device, creative-work, {mesto|dizajn|vízia|oblek}
+AN každodenný : activity, event, problem, {práca|chlieb|rutina|život|hygiena|strava|cvičenie|starosť|jedlo}
+AN krátkodobý : event, idea, state, {plán|zmluva|pobyt|pôžička|riešenie|cieľ|pomoc|dohoda|výhľad|projekt|stav}
+AN maloletý : child, person, -professional
+AN minútový : event, activity, sound, {ticho|prestávka|oneskorenie|potlesk|rozhovor|zastavenie}, period ; attr
+AN na dobu neurčitú : {zmluva|pobyt|vízum|povolenie|zákaz|pôžička|trest|zamestnanie|prestávka}, document, rule ; pred
+AN nadchádzajúci : event, celebration, period, {týždeň|rok|sezóna|zima|leto|jar|jeseň|zmena|stretnutie|koncert|zápas}
+AN nedávny : event, incident, activity, information, {zmena|stretnutie|rozhodnutie|návšteva|koncert|film|prípad|minulosť|vývoj}
+AN po sebe nasledujúci : event, period, activity, {deň|týždeň|rok|víťazstvo|zápas|rozhodnutie|krok}, game ; attr
+AN rutinný : activity, event, {práca|kontrola|operácia|úloha|postup|vyšetrenie|činnosť|postupnosť|proces}
+AN strednodobý : idea, event, activity, {plán|cieľ|zmluva|stratégia|pôžička|prognóza|rozpočet|úloha|riešenie|výhľad|projekt|prognóza}
+AN týždne trvajúci : event, activity, state, {dážď|choroba|rokovanie|hľadanie|spor|štrajk|sucho|vyšetrovanie|zima} ; attr
+AN štvrťročný : document, {zisk|bilancia|platba|rozpočet|predaj|zasadnutie|prehľad|plat|poplatok|výsledok|obrat|odmena}
+AN životaschopný : animal, plant, idea, institution, {plán|riešenie|projekt|model|kompromis|systém|firma|podnik|odvetvie|nápad|stratégia|návrh}
+V datovať : person > patient {dokument|obraz|nález|kameň|pamiatka|zmluva|text}
+V datovať : {historik|archeológ|vedec|znalec} > patient {nález|obraz|budova|kosť|pamiatka|kameň}
+V obmedziť na určitý čas : institution > patient {povolenie|zákaz|ponuka|zmluva|vízum|platnosť}
+V obmedziť na určitý čas : person > patient {zmluva|ponuka|povolenie|zákaz|prístup}
+V premlčať sa : {trestný čin|zločin|nárok|vina|delikt}
+V pretrvávať : {problém|choroba|bolesť|ticho|zvyk}
+V pretrvávať : {problém|choroba|bolesť|zima|ticho|zvyk|tradícia|nedôvera|pochybnosť|mráz|hmla|sucho|nepokoj}
+V robiť prestávku : person
+V robiť prestávku : {robotník|žiak|študent|spevák|učiteľ|lekár}
+V vytrvať : person > topic {práca|úsilie|cvičenie|boj|štúdium|plán}
+V vytrvať : person
+V zotrvať : person > location place
+V zotrvať : {zviera|vták|návštevník|hosť} > location place
+V zotrvať : {stav|situácia|ticho|zima|problém|nálada}

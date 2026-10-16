@@ -1,0 +1,399 @@
+# RICH SITUATIONS, home / craft / leisure (round 8): wishes with a procedure (lesen, fahren, spielen, fotografieren, gießen, ernten, hören, waschen, schlafen, malen, schreiben ...) and troubles with a mending procedure by kind of thing (format: everyday.txt)
+
+SITUATION rh-lesen-abend : home -- abends ein Buch auf dem Sofa
+  place   obývačka
+  people  kin
+  own     okuliare
+  things  pohovka | lampa | kniha | stôl | koberec
+  want    chuť : verb=čítať patient=indef:kniha ; uses okuliare | lampa | kniha
+  trouble lampa pokazený : opraviť
+  trouble okuliare špinavý : čistiť
+
+SITUATION rh-lesen-zeitung : home -- die Zeitung am Morgen
+  place   jedáleň_(v_byte)
+  people  kin | priateľ
+  own     okuliare
+  things  stôl | stolička_(nábytok) | noviny | lampa
+  want    chuť : verb=čítať patient=def:noviny ; uses okuliare | lampa | noviny
+  trouble okuliare špinavý : čistiť
+  trouble lampa pokazený : opraviť
+  trouble stolička_(nábytok) pokazený : opraviť
+
+SITUATION rh-lesen-ferienhaus : travel -- ein Roman im Ferienhaus
+  place   chata
+  people  kin | priateľ
+  own     okuliare
+  things  pohovka | lampa | okno | stôl | román
+  want    chuť : verb=čítať patient=indef:román ; uses okuliare | lampa | román
+  trouble lampa pokazený : opraviť by prenajímateľ
+  trouble okuliare pokazený : nahradiť
+  trouble pohovka mokrý : sušiť
+
+SITUATION rh-fahrrad-hof : home -- eine Runde mit dem Fahrrad
+  place   dvor
+  people  kin | priateľ
+  things  bicykel | plot | gól | strom | pumpa
+  want    chuť : verb=ísť_(dopravou) patient=none:bicykel ; uses bicykel | pumpa
+  want    ponáhľanie : verb=ísť_(dopravou) patient=poss:bicykel ; uses bicykel
+  trouble bicykel pokazený : opraviť
+  trouble bicykel špinavý : čistiť
+
+SITUATION rh-roller-vorort : town -- mit dem Roller zur Schule
+  place   predmestie
+  people  kin
+  things  kolobežka | ulica | strom | dom
+  want    ponáhľanie : verb=ísť_(dopravou) patient=none:kolobežka ; uses kolobežka
+  trouble kolobežka pokazený : opraviť
+  trouble kolobežka špinavý : čistiť
+
+SITUATION rh-auto-garage : home -- das Auto startet nicht
+  place   garáž
+  people  kin | sused
+  things  auto | batéria | náradie | polica | gól
+  want    ponáhľanie : verb=ísť_(dopravou) patient=def:auto ; uses auto | batéria
+  trouble batéria prázdny : nabiť
+  trouble auto pokazený : opraviť by mechanik
+  trouble auto špinavý : umývať
+
+SITUATION rh-gitarre-wohnzimmer : home -- abends Gitarre spielen
+  place   obývačka
+  people  kin | priateľ
+  things  pohovka | gitara | taburetka | lampa | okno
+  want    chuť : verb=hrať patient=none:gitara ; uses gitara | taburetka
+  trouble gitara pokazený : opraviť by remeselník
+  trouble taburetka pokazený : opraviť
+  trouble lampa pokazený : opraviť
+
+SITUATION rh-floete-garten : garden -- Flöte spielen unter dem Baum
+  place   záhrada
+  people  kin
+  own     flauta
+  things  strom | lavica | tráva | kvetina
+  want    chuť : verb=hrať patient=none:flauta ; uses flauta | lavica
+  trouble flauta pokazený : opraviť
+  trouble flauta špinavý : čistiť
+  trouble lavica mokrý : sušiť
+
+SITUATION rh-fotos-terrasse : home -- Fotos von den Blumen
+  place   terasa
+  people  kin | priateľ
+  own     kamera
+  things  stôl | stolička_(nábytok) | kvetina | dvere
+  want    chuť : verb=robiť patient=none:fotka+pl ; uses kamera | akumulátor | kvetina
+  want    chuť : verb=fotografovať patient=def:kvetina+pl ; uses kamera
+  trouble kamera prázdny : nabiť
+  trouble kamera pokazený : opraviť
+  trouble kamera mokrý : sušiť
+
+SITUATION rh-foto-berghuette : travel -- der Berg im Morgenlicht
+  place   horská_chata
+  people  priateľ | kin
+  own     kamera
+  things  okno | stôl | lavica | dvere
+  want    chuť : verb=fotografovať patient=def:vrch ; uses kamera | akumulátor
+  trouble kamera prázdny : nabiť
+  trouble kamera pokazený : opraviť
+  trouble kamera mokrý : sušiť
+
+SITUATION rh-giessen-garten : garden -- die Blumen brauchen Wasser
+  place   záhrada
+  people  kin | záhradník
+  own     krhla
+  things  kvetina | vodovodný_kohútik | tráva | lavica | plot
+  want    chuť : verb=liať patient=none:kvetina+pl ; uses krhla | vodovodný_kohútik | kvetina
+  trouble krhla prázdny : naplniť
+  trouble krhla pokazený : opraviť
+  trouble vodovodný_kohútik pokazený : opraviť by klampiar
+
+SITUATION rh-giessen-balkon : home -- Pflanzen auf dem Balkon
+  place   balkón
+  people  kin | sused
+  things  rastlina | kvetina | stôl | stolička_(nábytok) | vodovodný_kohútik
+  own     krhla
+  want    chuť : verb=liať patient=none:rastlina+pl ; uses krhla | rastlina
+  trouble krhla prázdny : naplniť
+  trouble krhla pokazený : opraviť
+  trouble stolička_(nábytok) mokrý : sušiť
+
+SITUATION rh-ernten-obstgarten : farm -- Äpfel und Birnen im Obstgarten
+  place   ovocný_sad
+  people  kin | priateľ
+  own     kôš
+  things  strom | tráva | rebrík | plot | lavica
+  want    hladný : verb=žať patient=none:jablko+pl ; uses kôš | rebrík | jablko
+  want    chuť : verb=žať patient=none:hruška+pl ; uses kôš | hruška
+  trouble kôš pokazený : opraviť
+  trouble rebrík pokazený : opraviť by roľník
+  trouble kôš mokrý : sušiť
+
+SITUATION rh-ernten-garten : garden -- Tomaten und Erdbeeren
+  place   záhrada
+  people  kin
+  own     kôš
+  things  paradajka | jahoda | záhon | tráva | lavica
+  want    hladný : verb=žať patient=none:paradajka+pl ; uses kôš | paradajka
+  want    hladný : verb=žať patient=none:jahoda+pl ; uses kôš | jahoda
+  trouble kôš pokazený : opraviť
+  trouble kôš špinavý : čistiť
+
+SITUATION rh-radio-wohnzimmer : home -- Musik am Abend
+  place   obývačka
+  people  kin | priateľ
+  things  rádio | pohovka | stôl | batéria | okno
+  want    chuť : verb=počuť patient=none:hudba ; uses rádio | batéria
+  trouble rádio pokazený : opraviť
+  trouble batéria prázdny : nabiť
+
+SITUATION rh-radio-schuppen : craft -- Nachrichten bei der Arbeit
+  place   kôlňa
+  people  kin
+  things  rádio | náradie | polica | stôl | taburetka
+  want    chuť : verb=počuť patient=none:správy ; uses rádio
+  trouble rádio pokazený : opraviť
+  trouble taburetka pokazený : opraviť
+
+SITUATION rh-waesche-keller : home -- schmutzige Wäsche im Keller
+  place   pivnica
+  people  kin
+  things  práčka | mydlo | polica | schody | svetlo
+  own     bielizeň
+  want    špinavý : verb=umývať patient=none:bielizeň ; uses práčka | mydlo | bielizeň
+  trouble práčka pokazený : opraviť by technik
+  trouble svetlo pokazený : opraviť
+
+SITUATION rh-waesche-wohnung : home -- die Jacke und die Hosen waschen
+  place   byt
+  people  kin | priateľ
+  things  práčka | sušička | mydlo | okno | dvere
+  want    špinavý : verb=umývať patient=poss:bunda ; uses práčka | mydlo
+  want    špinavý : verb=umývať patient=poss:nohavice+pl ; uses práčka
+  trouble práčka pokazený : opraviť by školník
+  trouble sušička pokazený : opraviť
+
+SITUATION rh-schlafen-schlafzimmer : home -- spät am Abend ins Bett
+  place   spálňa
+  people  kin
+  things  posteľ | vankúš | strop | lampa | skriňa | budík
+  want    unavený : verb=spať ; uses posteľ | lampa | vankúš
+  trouble posteľ pokazený : opraviť
+  trouble lampa pokazený : opraviť
+  trouble budík pokazený : nahradiť
+
+SITUATION rh-schlafen-zelt : travel -- die erste Nacht im Zelt
+  place   stan
+  people  priateľ | kin
+  things  spací_vak | lampa | strop | taška
+  want    unavený : verb=spať ; uses stan | spací_vak
+  trouble stan pokazený : šiť
+  trouble spací_vak mokrý : sušiť
+  trouble lampa pokazený : nahradiť
+
+SITUATION rh-ausruhen-balkon : home -- nach der Arbeit auf dem Balkon
+  place   balkón
+  people  kin | sused
+  things  stolička_(nábytok) | stôl | kvetina | rastlina | zábradlie
+  want    unavený : verb=oddýchnuť_si ; uses stolička_(nábytok)
+  trouble stolička_(nábytok) pokazený : opraviť
+  trouble stolička_(nábytok) mokrý : sušiť
+  trouble stolička_(nábytok) špinavý : čistiť
+
+SITUATION rh-ausruhen-sofa : home -- sich ausruhen und Musik hören
+  place   obývačka
+  people  kin | priateľ
+  things  pohovka | strop | vankúš | rádio | lampa
+  want    unavený : verb=oddýchnuť_si ; uses pohovka | vankúš
+  want    chuť : verb=počuť patient=none:hudba ; uses rádio
+  trouble pohovka pokazený : opraviť
+  trouble rádio pokazený : opraviť
+  trouble strop mokrý : sušiť
+
+SITUATION rh-malen-wohnzimmer : craft -- ein Bild für die Wand
+  place   obývačka
+  people  kin | priateľ
+  things  stôl | štetec | farba | papier | paleta | lampa
+  want    chuť : verb=maľovať patient=indef:obraz ; uses štetec | farba | papier | paleta
+  trouble štetec špinavý : oplachovať
+  trouble štetec pokazený : nahradiť
+  trouble paleta špinavý : čistiť
+  trouble papier mokrý : sušiť
+
+SITUATION rh-landschaft-malen : craft -- eine Landschaft auf der Leinwand
+  place   povala
+  people  kin
+  things  plátno | štetec | farba | paleta | okno | lampa
+  want    chuť : verb=maľovať patient=indef:krajina_(prírodná) ; uses plátno | paleta | štetec | farba
+  trouble štetec špinavý : oplachovať
+  trouble plátno mokrý : sušiť
+  trouble lampa pokazený : opraviť
+
+SITUATION rh-zeichnen-park : nature -- die Brücke im Park zeichnen
+  place   park
+  people  kin | priateľ
+  own     blok | ceruzka
+  things  lavica | strom | most | rybník
+  want    chuť : verb=kresliť patient=def:most ; uses blok | ceruzka
+  trouble ceruzka pokazený : nahradiť
+  trouble blok mokrý : sušiť
+  trouble lavica mokrý : sušiť
+
+SITUATION rh-postkarte-hotel : travel -- Postkarten aus dem Urlaub
+  place   hotel
+  people  kin | priateľ
+  own     pero_(písacie)
+  things  stôl | stolička_(nábytok) | pohľadnica | poštová_známka | lampa | okno
+  want    dovolenka : verb=písať patient=none:pohľadnica+pl ; uses pero_(písacie) | pohľadnica | poštová_známka
+  trouble pero_(písacie) pokazený : nahradiť
+  trouble lampa pokazený : opraviť by školník
+  lack    poštová_známka : poštový_úrad
+
+SITUATION rh-brief-arbeitszimmer : home -- ein Brief an die Großmutter
+  place   pracovňa
+  people  kin
+  things  písací_stôl | stolička_(nábytok) | papier | guľôčkové_pero | poštová_známka | lampa
+  want    chuť : verb=písať patient=indef:list_(písomnosť) ; uses guľôčkové_pero | papier | poštová_známka
+  trouble guľôčkové_pero pokazený : nahradiť
+  trouble lampa pokazený : opraviť
+  trouble stolička_(nábytok) pokazený : opraviť
+  lack    poštová_známka : poštový_úrad
+
+SITUATION rh-fernglas-huette : nature -- Vögel von der Hütte aus
+  place   chata
+  people  priateľ | kin
+  own     ďalekohľad
+  things  okno | lavica | stôl | dvere
+  want    zvedavý : verb=pozorovať patient=none:vták+pl ; uses ďalekohľad | okno
+  trouble ďalekohľad špinavý : čistiť
+  trouble ďalekohľad pokazený : opraviť
+  trouble ďalekohľad mokrý : sušiť
+
+SITUATION rh-film-wohnzimmer : media -- ein Film am Abend
+  place   obývačka
+  people  kin | priateľ
+  things  televízor | diaľkový_ovládač | pohovka | lampa | strop
+  want    chuť : verb=vidieť patient=indef:film ; uses televízor | pohovka | diaľkový_ovládač
+  trouble televízor pokazený : opraviť by technik
+  trouble diaľkový_ovládač pokazený : opraviť
+  trouble pohovka špinavý : čistiť
+
+SITUATION rh-dusche-bad : bathroom -- nach dem Garten unter die Dusche
+  place   kúpeľňa
+  people  kin
+  things  sprcha | mydlo | uterák | zrkadlo | umývadlo
+  want    špinavý : verb=sprchovať_sa ; uses sprcha | mydlo | uterák
+  trouble sprcha pokazený : opraviť by klampiar
+  trouble uterák mokrý : sušiť
+  trouble sprcha špinavý : čistiť
+
+SITUATION rh-haende-bad : bathroom -- die Hände nach dem Basteln
+  place   kúpeľňa
+  people  kin
+  things  umývadlo | vodovodný_kohútik | mydlo | uterák | zrkadlo
+  want    špinavý : verb=umývať patient=poss:ruka+pl ; uses vodovodný_kohútik | mydlo | uterák
+  trouble vodovodný_kohútik pokazený : opraviť by klampiar
+  trouble uterák mokrý : sušiť
+  trouble umývadlo špinavý : čistiť
+
+SITUATION rh-pflanzen-garten : garden -- eine Rose und Tulpen setzen
+  place   záhrada
+  people  kin | záhradník
+  own     rýľ
+  things  ruža | tulipán | zem | kvetináč | krhla | lavica
+  want    chuť : verb=sadiť patient=indef:ruža ; uses rýľ | ruža
+  want    chuť : verb=sadiť patient=none:tulipán+pl ; uses kvetináč | zem | tulipán
+  trouble rýľ pokazený : opraviť
+  trouble kvetináč pokazený : lepiť
+  trouble krhla prázdny : naplniť
+
+SITUATION rh-fuettern-stall : farm -- das Pferd im Stall füttern
+  place   maštaľ
+  people  kin | roľník
+  own     vedro
+  things  kôň | seno | slama | vodovodný_kohútik
+  want    chuť : verb=kŕmiť patient=def:kôň ; uses vedro | seno
+  trouble vedro pokazený : opraviť
+  trouble seno mokrý : sušiť
+  trouble vedro prázdny : naplniť
+
+SITUATION rh-fuettern-teich : nature -- Enten am Teich füttern
+  place   park
+  people  kin | priateľ
+  things  rybník | kačica | lavica | strom | chlieb
+  want    chuť : verb=kŕmiť patient=none:kačica+pl ; uses chlieb | kačica
+  trouble lavica mokrý : sušiť
+  lack    chlieb : pekáreň
+
+SITUATION rh-bauen-werkstatt : craft -- ein Tisch aus Brettern
+  place   dielňa
+  people  kin | priateľ
+  things  píla | kladivo | doska | klinec | náradie | stôl
+  want    chuť : verb=stavať patient=indef:stôl ; uses píla | kladivo | doska | klinec
+  trouble píla pokazený : opraviť
+  trouble kladivo pokazený : opraviť
+  trouble píla špinavý : čistiť
+  lack    klinec : obchod
+
+SITUATION rh-bauen-regal : craft -- ein Regal für die Bücher
+  place   garáž
+  people  kin
+  things  píla | kladivo | doska | rebrík | polica
+  want    chuť : verb=stavať patient=indef:polica ; uses píla | kladivo | doska
+  trouble kladivo pokazený : opraviť
+  trouble píla pokazený : opraviť
+  trouble rebrík pokazený : opraviť
+
+SITUATION rh-ausflug-rucksack : travel -- ein Ausflug mit dem Rucksack
+  place   byt
+  people  kin | priateľ
+  own     batoh
+  things  bunda | skriňa | dvere | okno
+  want    chuť : verb=robiť patient=indef:výlet ; uses batoh | bunda
+  trouble batoh pokazený : šiť
+  trouble bunda pokazený : šiť
+  trouble bunda mokrý : sušiť
+
+SITUATION rh-drucker-arbeitszimmer : home -- Fotos ausdrucken
+  place   pracovňa
+  people  kin | priateľ
+  things  tlačiareň | počítač | papier | písací_stôl | stolička_(nábytok)
+  want    chuť : verb=vytlačiť patient=indef:fotka ; uses tlačiareň | papier | počítač
+  trouble tlačiareň pokazený : opraviť by technik
+  trouble počítač pokazený : opraviť
+  lack    papier : obchod
+
+SITUATION rh-handy-kinderzimmer : home -- Musik vom Handy
+  place   detská_izba
+  people  kin
+  things  posteľ | stôl | slúchadlo | zásuvka_(elektrická) | lampa
+  own     mobil
+  want    chuť : verb=počuť patient=none:hudba ; uses mobil | slúchadlo
+  trouble mobil prázdny : nabiť
+  trouble slúchadlo pokazený : nahradiť
+  trouble mobil mokrý : sušiť
+
+SITUATION rh-nachricht-handy : home -- eine Nachricht an die Freundin
+  place   obývačka
+  people  kin | priateľ
+  own     mobil
+  things  pohovka | zásuvka_(elektrická) | stôl | lampa
+  want    chuť : verb=písať patient=indef:správa_(oznam) ; uses mobil
+  trouble mobil prázdny : nabiť
+  trouble mobil pokazený : opraviť
+  trouble mobil špinavý : čistiť
+
+SITUATION rh-tablet-sofa : media -- ein Film auf dem Tablet
+  place   obývačka
+  people  kin | priateľ
+  own     tablet
+  things  pohovka | strop | lampa | zásuvka_(elektrická)
+  want    chuť : verb=vidieť patient=indef:film ; uses tablet | pohovka
+  trouble tablet prázdny : nabiť
+  trouble tablet pokazený : opraviť
+
+SITUATION rh-stuhl-spiel : home -- Karten am Tisch
+  place   jedáleň_(v_byte)
+  people  kin | priateľ
+  things  stôl | stolička_(nábytok) | lampa | okno
+  want    chuť : verb=hrať patient=none:karta+pl ; uses stôl | stolička_(nábytok)
+  trouble stôl pokazený : opraviť
+  trouble stolička_(nábytok) pokazený : opraviť
+  trouble lampa pokazený : opraviť

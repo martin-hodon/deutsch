@@ -1,0 +1,39 @@
+# THE FORMS EXERCISE for Polish: a sentence with one word left out, its right form among wrong ones of the same word --
+# the format: de/rules/forms.txt. The cells: engine/paradigm.js (V.pres.* the imperfective's present, V.fut.* the
+# perfective's, V.past.<g>.<person>, V.pfpast.<g>.<person>, V.cond.<g>.<person>, V.imp.*, N.<case>.<num>, AN.<case>.<g>).
+
+present: czas teraźniejszy
+  ask   V.pres.*
+  wrong V.pres.* ~V.pres.= V.fut.=
+
+past: czas przeszły (aspekt)
+  when  tense=past|perfect
+  ask   V.past.*.* V.pfpast.*.*
+  wrong V.past.*.* V.pfpast.*.* ~V.pfpast.=.= ~V.past.=.=
+
+future: czas przyszły
+  when  tense=future
+  ask   V.fut.*
+  wrong V.fut.* V.pres.= ~V.fut.=
+
+conditional: tryb warunkowy
+  when  mood=hypo
+  ask   V.cond.*.*
+  wrong V.cond.*.* V.past.=.=
+
+imperative: tryb rozkazujący
+  when  type=IMP
+  ask   V.imp.*
+  wrong V.imp.* V.pres.2sg V.pres.2pl
+
+cases: przypadki
+  ask   N.*.*
+  wrong N.*.=
+
+plural: liczba mnoga
+  ask   N.*.pl
+  wrong N.*.sg N.*.pl
+
+adjective: zgoda przymiotnika
+  ask   AN.*.*
+  wrong AN.*.*

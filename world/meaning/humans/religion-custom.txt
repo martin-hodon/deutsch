@@ -1,0 +1,228 @@
+N náboženstvo : idea
+AN nábožný : person, building, activity
+N boh : being ; bare
+N bohyňa : being
+AN božský : agent, state, event
+N božstvo : being
+N bohoslužba : celebration, attendable
+N modla : artifact
+AN svätý : person, place, text, event
+N svätec : person
+N svätyňa : place
+N kostol : building, institution, enterable
+AN cirkevný : institution, building, event, person ; attr
+N chrám : building, enterable
+N mešita : building, enterable
+N katedrála : building, enterable
+N kláštor : building, institution, enterable
+N oltár : furniture
+N kňaz : professional
+N biskup : professional
+N mních : professional
+N mníška : professional
+N pápež : professional
+N prorok : person
+V prorokovať : person > recipient person, patient {smrť|budúcnosť|nešťastie|vojna|koniec}
+V prorokovať : person > that
+N proroctvo : information
+V modliť sa : person -{striga|čarodejník|spoločník}
+V modliť sa : person -{striga|čarodejník|spoločník} > inf
+V modliť sa : person -{striga|čarodejník|spoločník} > purpose {dieťa|matka|otec|rodičia|brat|sestra|priateľ|priateľka|sused|susedka|chorý|rodina}
+N modlitba : creative-work
+V zbožňovať : person > patient agent
+V žehnať : person > patient person
+V žehnať : person > patient animal
+V žehnať : person > patient food
+V žehnať : person > patient building
+N požehnanie : state
+N kliatba : information
+V prekliať : person > patient person
+V prekliať : person > patient place
+V prekliať : person > patient being
+N hriech : activity
+N hriešnik : person
+V hrešiť : person
+N duša : abstract
+N duch : being, idea
+AN duševný : person, activity, idea
+N duchovný : professional
+N peklo : place
+N diabol : being
+N anjel : being
+N obeť : role
+V obetovať : {kňaz|roľník|kráľ|pútnik|mních|človek} > recipient {boh|bohyňa|božstvo|modla}, patient beast
+V obetovať : {kňaz|roľník|kráľ|pútnik|mních|človek} > recipient {boh|bohyňa|božstvo|modla}, patient food
+V obetovať : {kňaz|roľník|kráľ|pútnik|mních|človek} > recipient {boh|bohyňa|božstvo|modla}, patient money
+V obetovať : {kňaz|roľník|kráľ|pútnik|mních|človek} > recipient {boh|bohyňa|božstvo|modla}, patient drink
+V obetovať : {kňaz|roľník|kráľ|pútnik|mních|človek} > patient beast
+V obetovať : {kňaz|roľník|kráľ|pútnik|mních|človek} > patient food
+V obetovať : {kňaz|roľník|kráľ|pútnik|mních|človek} > patient money
+V obetovať : {kňaz|roľník|kráľ|pútnik|mních|človek} > patient drink
+N zázrak : event
+V čudovať sa : person > topic {správanie|výsledok|náhoda}
+V čudovať sa : person > topic person
+V čudovať sa : person > topic {správa (oznam)|odpoveď|otázka}
+N strašidlo : being
+AN nesmrteľný : agent, person
+N nesmrteľnosť : state
+N biblia : text, openable
+AN biblický : person, text, event ; attr
+N ikona : picture, hangable
+N pútnik : person
+V pútať sa : person > goal settlement
+V pútať sa : person > goal country
+V pútať sa : person > inf
+N relikviár : artifact
+N kaplnka : building, group
+N synagóga : building, enterable
+N kult : activity
+N kázeň : event, attendable
+V kázať : person
+V kázať : person > recipient person, patient {mier|láska|viera}
+N spev : creative-work
+N meditácia : activity
+V meditovať : person
+V meditovať : person > topic {otázka|život|smrť|zmysel}
+N kadidlo : substance, burnable
+N relikvia : artifact, thing
+N ateista : person
+N mučeník : person
+N učeník : person
+N misia : activity
+N misionár : professional
+N pustovník : person
+V konvertovať : person > inf
+N vykúpenie : event
+V vykúpiť : agent > patient person
+N vykupiteľ : agent
+N vzkriesenie : event
+N karma : idea
+N rehoľný sľub : information
+N Žid : national
+N Židovka : national
+AN židovský : person, building, text, celebration
+AN katolícky : person, building, text, celebration
+N farár : professional
+N mágia : activity
+AN magický : thing, place, event, state
+N striga : being
+N kúzlo : event
+N čarodejník : professional
+V čarovať : person
+V čarovať : person > patient thing
+V čarovať : person > patient animal
+V čarovať : person > patient food
+V čarovať : person > patient flower
+N zariekadlo : text
+N čarovný prútik : tool
+N víla : being
+N príšera : being
+N drak : being
+N osud : document, state
+N rana osudu : event
+N povera : idea
+AN poverčivý : person
+N legenda : creative-work
+N mýtus : creative-work
+N mytológia : creative-work
+N znamenie : information
+N orákulum : information
+N amulet : jewelry
+N talizman : artifact, thing
+N horoskop : text
+N astrológia : idea
+N astrológ : professional
+N démon : being
+N upír : being
+N zombie : person
+N elf : person
+N trpaslík : person
+N škriatok : being
+N trol : person
+N morská panna : person
+N jednorožec : mammal, rideable
+N obor : person
+N bájna bytosť : being
+N báj : creative-work
+N zvyk : activity
+N zvykoslovie : activity
+N tradícia : idea
+AN tradičný : activity, celebration, food, artifact
+N rituál : activity
+N obrad : celebration, attendable
+V sláviť : person -{obeť|striga|čarodejník} > patient celebration -{obrad|oslava}
+V sláviť : person -{obeť|striga|čarodejník} > patient {víťazstvo|Vianoce|Veľká noc|jubileum}
+V sláviť : person -professional -{obeť|striga|človek}
+N oslava : celebration, attendable
+N sviatok : period
+AN slávnostný : celebration, event
+N slávnosť : celebration, attendable
+AN sviatočný : celebration, meal, clothing, room
+N festival : celebration, attendable
+N karneval : celebration, attendable
+N fašiangy : celebration, attendable
+N slávnostný sprievod : event, attendable
+N Vianoce : celebration ; bare
+N Štedrý večer : period
+N Santa Claus : being
+N vianočný stromček : tree
+N Veľká noc : celebration ; bare
+N veľkonočný zajac : mammal
+N veľkonočné vajce : food
+N Nový rok : celebration
+N Silvester : celebration ; bare
+N narodeniny : celebration
+N výročie : celebration
+N jubileum : celebration
+N svadba : celebration, attendable
+N výročie svadby : celebration
+N krst : celebration, attendable
+V krstiť : person > patient person
+N pohreb : event, attendable
+N hrob : place
+N náhrobok : stone
+N cintorín : place ; auf
+N rakva : artifact, openable
+N zvon : instrument
+N ohňostroj : event, attendable
+N tabu : idea
+N vianočný trh : event, attendable
+N advent : period
+N pamiatka : thing
+N sústrasť : feeling
+N snúbenci : group
+N kresťan : national
+N kresťanstvo : idea
+N zástava : artifact, thing, hangable, foldable
+N dar : thing
+N veriaci : person
+N islam : idea
+N jasot : sound
+N judaizmus : idea
+N katolík : person
+N omša : celebration, attendable
+N moslim : national
+N Mikuláš : celebration
+N rád : group
+N raj : place
+N pastor : professional
+N Turíce : celebration ; bare
+N ramadán : period
+N pečať : artifact, thing
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN ekumenický : event, institution, idea ; attr
+AN evanjelický : person, institution, building, event ; attr
+AN kresťanský : person, institution, building, event, idea, celebration ; attr
+AN očarujúci : person, place, creative-work, event
+AN podivuhodný : event, place, creative-work, ability, animal
+AN vianočný : celebration, food, event, period, creative-work ; attr
+V nadšene vítať : person > patient {hosť|návšteva|vodca|hrdina|víťaz|kráľ}
+V očariť : person > patient person
+V očariť : place > patient person
+V spečatiť : person > patient {dohoda|zmluva|osud}
+V udiviť : person > patient person
+V vysvätiť : professional > patient {kostol|chrám|oltár|kňaz|biskup|manželstvo}
+V vyžrebovať : person > patient {víťaz}
+V zaklínať : person > patient {duch|boh|moc|démon|smrť}
+V zapečatiť : person > patient {dom|zmluva|dohoda|dvere}

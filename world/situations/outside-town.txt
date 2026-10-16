@@ -1,0 +1,153 @@
+# SITUATIONS of the outside town places: Altstadt, Bahnsteig, Dorf, Flohmarkt, Hafen, Innenstadt, Stadtzentrum,
+# Markt, Wochenmarkt, Marktplatz, Parkplatz, Stadion, Campus, Innenhof (format: everyday.txt; places: world/places/outside-*.txt)
+# Skipped: Baustelle (no everyday want of a visitor); Kreuzung (the dictionary has no am/auf for it: a story would say "in der Kreuzung")
+
+SITUATION altstadt : town -- durch die Altstadt gehen
+  place   staré_mesto
+  people  priateľ | kin
+  things  ulička | kostol | fontána | dom | kaviareň
+  own     kamera | fľaša
+  want    chuť : verb=robiť patient=none:fotka+pl ; uses kamera
+  want    smädný : verb=piť patient=none:voda ; uses fľaša
+  want    hladný : verb=jesť patient=none:ľad
+  trouble kamera pokazený : opraviť
+  trouble kamera mokrý : sušiť
+  trouble fľaša prázdny : naplniť
+  lack    ľad : zmrzlináreň
+
+SITUATION bahnsteig : traffic -- auf dem Bahnsteig warten
+  place   nástupište
+  people  priateľ | kin
+  things  vlak | koľaj | lavica | hodiny | štít
+  own     okuliare
+  want    unavený : verb=oddýchnuť_si ; uses lavica
+  want    smädný : verb=piť patient=none:šťava
+  want    chuť : verb=čítať patient=indef:noviny ; uses okuliare
+  trouble lavica špinavý : čistiť
+  trouble okuliare špinavý : čistiť
+  lack    šťava : kiosk
+  lack    noviny : kiosk
+
+SITUATION dorf : town -- ein Tag im Dorf
+  place   dedina
+  people  sused | priateľ | kin
+  things  dom | kostol | ulica | fontána | záhrada
+  own     bicykel | fľaša
+  want    chuť : verb=ísť_(dopravou) patient=none:bicykel ; uses bicykel
+  want    smädný : verb=piť patient=none:voda ; uses fľaša
+  trouble bicykel pokazený : opraviť by mechanik
+  trouble fľaša prázdny : naplniť
+  want    hladný : verb=jesť patient=none:chlieb
+  lack    chlieb : pekáreň
+
+SITUATION flohmarkt : town -- auf dem Flohmarkt
+  place   bleší_trh
+  people  priateľ | kin
+  things  stôl | stánok | kniha | riad | hračka
+  own     strop
+  want    chuť : verb=predať patient=none:hračka ; uses strop
+  want    smädný : verb=piť patient=none:šťava
+  trouble strop mokrý : sušiť
+  trouble strop špinavý : čistiť
+  lack    šťava : kiosk
+
+SITUATION hafen : water -- im Hafen
+  place   prístav
+  people  rybár | priateľ | kin
+  things  loď | čln | žeriav_(stroj) | lano | čajka
+  want    chuť : verb=ísť_(dopravou) patient=none:čln ; uses čln
+  want    hladný : verb=jesť patient=none:ryba
+  trouble čln pokazený : opraviť by rybár
+  lack    ryba : trh
+
+SITUATION innenstadt : town -- in der Innenstadt
+  place   centrum_mesta
+  people  priateľ | kin
+  things  obchod | ulica | námestie | kaviareň | autobus
+  own     bicykel
+  want    hladný : verb=jesť patient=none:koláč
+  want    ponáhľanie : verb=ísť_(dopravou) patient=none:bicykel ; uses bicykel
+  trouble bicykel pokazený : opraviť by mechanik
+  lack    koláč : pekáreň
+
+SITUATION stadtzentrum : town -- im Stadtzentrum
+  place   centrum_mesta
+  people  priateľ | kin
+  things  ulica | obchod | kostol | námestie | kaviareň | autobus
+  own     kamera
+  want    chuť : verb=robiť patient=none:fotka+pl ; uses kamera
+  trouble kamera pokazený : opraviť
+  trouble kamera mokrý : sušiť
+
+SITUATION markt : shop -- auf dem Markt einkaufen
+  place   trh
+  people  kin | priateľ
+  things  stánok | ovocie | zelenina | syr
+  own     kôš
+  want    hladný : verb=kúpiť patient=none:ovocie ; uses kôš
+  trouble kôš pokazený : opraviť
+
+SITUATION wochenmarkt : shop -- samstags auf dem Wochenmarkt
+  place   trhovisko | stánok
+  people  predavač | kin | priateľ
+  things  stánok | ovocie | zelenina | syr | kvetina
+  want    smädný : verb=piť patient=none:šťava
+  want    hladný : verb=jesť patient=none:syr
+  lack    šťava : stánok
+  lack    syr : stánok
+
+SITUATION marktplatz : town -- auf dem Marktplatz
+  place   námestie
+  people  priateľ | kin
+  things  fontána | stánok | kostol | lavica | dom
+  own     fľaša
+  want    unavený : verb=oddýchnuť_si ; uses lavica
+  want    smädný : verb=piť patient=none:voda ; uses fľaša
+  trouble lavica mokrý : sušiť
+  trouble lavica špinavý : čistiť
+  trouble fľaša prázdny : naplniť
+
+SITUATION parkplatz : traffic -- auf dem Parkplatz
+  place   parkovisko
+  people  priateľ | kin
+  things  štít | automat | plot | strom
+  own     auto
+  want    ponáhľanie : verb=ísť_(dopravou) patient=poss:auto ; uses auto | automat
+  trouble auto pokazený : opraviť by mechanik
+  trouble automat pokazený : opraviť by technik
+
+SITUATION stadion : sport -- im Stadion
+  place   štadión
+  people  priateľ | kin
+  things  futbal | gól | trávnik | tribúna | zástava
+  own     kamera
+  want    smädný : verb=piť patient=none:voda
+  want    chuť : verb=robiť patient=none:fotka+pl ; uses kamera
+  want    hladný : verb=jesť patient=none:párok
+  trouble kamera pokazený : opraviť
+  lack    voda : kiosk
+  lack    párok : stánok
+
+SITUATION campus : school -- auf dem Campus
+  place   kampus
+  people  priateľ | kin
+  things  budova | lúka | lavica | knižnica | strom
+  own     bicykel
+  want    ponáhľanie : verb=ísť_(dopravou) patient=none:bicykel ; uses bicykel
+  want    unavený : verb=oddýchnuť_si ; uses lavica
+  trouble bicykel pokazený : opraviť by mechanik
+  trouble lavica mokrý : sušiť
+  trouble lavica špinavý : čistiť
+
+SITUATION innenhof : home -- im Innenhof
+  place   átrium
+  people  kin | sused
+  things  fontána | strom | lavica | kvetina | gril | drevo | krhla
+  want    hladný : verb=grilovať patient=none:párok ; uses gril | drevo
+  want    unavený : verb=oddýchnuť_si ; uses lavica
+  want    chuť : verb=liať patient=none:kvetina+pl ; uses krhla
+  trouble drevo mokrý : sušiť
+  trouble gril špinavý : čistiť
+  trouble lavica mokrý : sušiť
+  trouble krhla prázdny : naplniť
+  lack    párok : mäsiarstvo

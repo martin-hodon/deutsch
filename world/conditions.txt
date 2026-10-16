@@ -1,0 +1,42 @@
+# THE CONDITIONS (sentences/README.md): what an action NEEDS and what it GIVES -- states (settings.txt: hungrig, müde,
+# krank, geld ...), the object's state (A:kaputt), or something had (has:Rechnung; has:A -- the action's object). Clause
+# links follow from them: weil -- what the action needs (Er isst, weil er Hunger hat); obwohl -- its opposite (Obwohl
+# er satt ist, isst er); deshalb -- what it gives (Er hat gearbeitet, und deshalb ist er müde); nachdem / bevor -- one
+# action's gift is the other's need; um ... zu -- what one gives is what the other needs (Er spart, um ... zu kaufen).
+#     V word [= slovak] : needs atom atom ; gives atom atom      (several atoms after needs: any one of them)
+V jesť : needs hladný ; gives sýty
+V raňajkovať : needs hladný ; gives sýty
+V piť : needs smädný
+V objednať : needs hladný smädný
+V spať : needs unavený ; gives bdelý
+V oddýchnuť si : needs unavený
+V vstať : needs bdelý
+V pracovať : needs zdravý ; gives unavený peniaze
+V zarobiť : gives peniaze
+V šetriť : gives peniaze
+V kúpiť : needs peniaze ; gives has:A
+V nakupovať : needs peniaze
+V zaplatiť : needs peniaze has:účet_(na_zaplatenie)
+V rezervovať : gives has:stôl
+V bežať : needs zdravý ; gives unavený
+V plávať : needs zdravý ; gives unavený
+V tancovať : gives unavený rád
+V hrať : needs čas ; gives rád
+V čítať : needs čas
+V pozerať televíziu : needs čas
+V navštíviť : needs čas
+V zavolať : needs čas
+V smiať sa : needs rád
+V plakať : needs smutný
+V vyšetriť : needs A:chorý
+V liečiť : needs A:chorý
+V operovať : needs A:chorý
+V predpísať : gives has:A
+V užívať : needs chorý ; gives zdravý
+V zotaviť sa : needs unavený ; gives zdravý
+V kašľať : needs chorý ; involuntary
+V opraviť : needs A:pokazený ; gives A:celý
+V umývať : needs A:špinavý ; gives A:čistý
+V čistiť : needs A:špinavý ; gives A:čistý
+V oplachovať : needs A:špinavý ; gives A:čistý
+V variť : needs hladný

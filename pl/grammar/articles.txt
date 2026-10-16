@@ -1,0 +1,12 @@
+# definite-article
+1 ART ten {ten} [tɛn] = ten (určitý člen mužského rodu)
+1 P ten sam {ten sam} [tɛn sam] = ten istý
+1 P ten, kto {ten, kto} [tɛn ktɔ] = ten (kto)
+1 ART ta {ta} [ta] = tá (určitý člen ženského rodu a množného čísla)
+1 ART te {te} [tɛ] = tá (určitý člen ženského rodu a množného čísla)
+1 ART to {to} [tɔ] = to (určitý člen stredného rodu)
+
+# indefinite-article
+1 ART jeden {jeden} [ˈjɛdɛn] = jeden
+1 ART jakiś {jakiś} [ˈjakiɕ] = nejaký
+1 ART żaden {żaden} [ˈʐadɛn] = žiadny

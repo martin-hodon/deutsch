@@ -1,0 +1,292 @@
+# kinship
+N rodina
+AN rodinný
+AN priateľský k rodinám
+N rodičia
+N rodič
+N starí rodičia
+N otec
+AN otcovský : adverb otcovsky
+N starý otec
+N dedko
+N nevlastný otec
+N svokor
+N matka
+N mama
+AN materinský
+N stará mama
+N babka
+N nevlastná matka
+N svokra
+N syn
+N zať
+N dcéra
+N synova
+N dieťa
+N malé dieťa
+N detstvo
+AN detský
+N brat
+N sestra
+N súrodenci
+N dvojča
+N vnuk
+N vnučka
+N strýko
+N teta
+N bratranec
+N sesternica
+N synovec
+N neter
+N nevesta
+N ženích
+N vdova
+N vdovec
+N sirota
+N predok
+AN príbuzný
+N príbuzný
+N príbuzenstvo
+V adoptovať
+N adopcia
+N generácia
+N krstný otec
+N krstná matka
+N poručník
+V vychovať
+N výchova
+N vychovávateľ
+N blízky
+N vnúča
+N švagor
+
+# people-stages
+N osoba
+AN osobný : adverb osobne
+N človek
+AN ľudský : adverb ľudsky
+N ľudstvo
+AN neľudský : adverb neľudsky
+AN nehumánny : adverb nehumánne
+AN spôsobený človekom
+N muž
+AN mužský
+N žena
+AN ženský
+N bábätko
+N opatrovateľ detí
+N chlapec
+N dievča
+N mládež
+AN mladistvý
+N mladistvý
+N tínedžer
+AN dospelý
+N dospelý
+N pán
+N dáma
+N dojča
+N novorodenec
+N najstarší
+N starý mládenec
+N senior
+N seniorka
+N chlap
+N mládenec
+N single
+AN homofóbny
+
+# marriage-social-bonds
+V oženiť sa
+N sobáš
+AN ženatý
+PHR požiadať o ruku
+N manželstvo
+N manžel
+N manželka
+N manželský partner
+N manželský pár
+N rozvod
+AN rozvedený
+PHR rozviesť sa
+V zasnúbiť sa
+N zásnuby
+N snúbenec
+V dohodnúť si stretnutie
+N dohodnuté stretnutie
+N milenec
+N priateľ
+N priateľka
+N priateľstvo
+AN priateľský : adverb priateľsky
+AN nemilý : adverb nemilo
+AN spriatelený
+N partner
+N partnerka
+N partnerstvo
+AN partnerský
+N známy
+N známosť
+N hosť
+N hostiteľ
+AN pohostinný : adverb pohostinne
+N pohostinnosť
+N hostiteľka
+V hosťovať
+N sused
+N susedka
+N susedstvo
+AN cudzí
+N medové týždne
+N romanca
+AN romantický : adverb romanticky
+V flirtovať
+N rival
+N rivalita
+N rovesník
+AN dobrovoľný : adverb dobrovoľne
+N dobrovoľník
+N spolubývajúci
+N životný partner
+N životná partnerka
+N flirt
+
+# social-interaction
+V stretnúť
+N stretnutie
+N miesto stretnutia
+V dorazit
+V navštíviť
+N návšteva
+N návštevník
+N návštevníčka
+V pozvať
+N pozvanie
+V pozdraviť
+N pozdrav
+V privítať
+N privítanie
+INT vitajte
+PHR privítať
+V predstaviť
+N rozlúčka
+V rozlúčiť sa
+V sprevádzať
+N spoločník
+N sprievod
+AN nesprevádzaný
+N večierok
+V blahoželať
+V pomôcť
+N pomoc
+N pomocník
+AN ochotný pomôcť
+V podporovať
+N podpora
+V starať sa
+V chrániť
+N ochrana
+V ochrániť
+AN hodný ochrany
+N darček
+V darovať (darček)
+V ďakovať
+N vďaka
+V poďakovať sa
+V vďačiť
+V ospravedlniť sa
+N ospravedlnenie
+V odpustiť
+V objať
+N objatie
+V bozkávať
+N bozk
+V rešpektovať
+N rešpekt
+V dôverovať
+N dôvera
+N nedôvera
+V zradiť
+N zradca
+AN verný : adverb verne
+N vernosť
+AN neverný : adverb neverne
+AN zdvorilý : adverb zdvorilo
+N zdvorilosť
+AN nezdvorilý : adverb nezdvorilo
+AV spolu
+V spolupracovať
+N spolupráca
+AN sám
+N hádka
+N pomsta
+V pomstiť
+V páčiť sa
+N láskavosť
+AN dobročinný
+N dobročinnosť
+N milosť
+AN milostivý : adverb milostivo
+AN nemilosrdný : adverb nemilosrdne
+N opätovné stretnutie
+V znova vidieť
+INT dovidenia
+N etiketa
+N solidarita
+AN solidárny : adverb solidárne
+V solidarizovať sa
+N šibalstvo
+V doberať si
+V šikanovať
+N šikana
+V povzbudiť
+V poslúchať
+N poslušnosť
+V zmieriť sa
+N zmierenie
+V oklamať
+N klam
+V predstierať
+N takt
+AN taktný : adverb taktne
+AN netaktný : adverb netaktne
+AN obľúbený
+N obľúbenosť
+AN neobľúbený
+N kompromis
+AN nekompromisný : adverb nekompromisne
+N dôstojnosť
+AN nedôstojný : adverb nedôstojne
+AN dôstojný človeka
+N pokora
+V ponížiť
+N poníženie
+N napodobenina
+V inšpirovať
+N inšpirácia
+V tolerovať
+N tolerancia
+AN tolerantný : adverb tolerantne
+V miešať sa
+V provokovať
+N provokácia
+V stretnúť sa
+AN vzájomný : adverb vzájomne
+V dohodnúť sa
+V snažiť sa
+N úsilie
+N posol
+N miláčik
+N kamarát
+N idiot
+N potupa
+N hostinský
+V obdarovať
+V izolovať sa
+
+# contact
+V túliť sa
+
+# more
+V spoliehať sa
+AN transrodový

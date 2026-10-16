@@ -1,0 +1,52 @@
+# THE BODY (tools/world.py): how a state SHOWS -- said instead of naming it ("Ihr Magen knurrte." for "Sie hatte
+# Hunger."; "Sie atmete tief aus." for "Sie war erleichtert."), as an author shows rather than tells.
+#
+#   SIGN state : clause          the clause in the format of sentences/tests.txt, no tense:
+#                                 no subj=      the person does it (Sie gähnte.)
+#                                 subj=Noun     a part of her body (Ihr Magen knurrte.)
+#                                 A=Noun        a part of her body as the object, with der (Sie schüttelte den Kopf.)
+#   state: a STATE of settings.txt or an adjective of a feeling (the stories' feelings, sentences/stories.txt)
+
+SIGN hladný : verb=vrčať subj=žalúdok
+SIGN smädný : verb=byť subj=ústa pred=adj:suchý
+SIGN unavený : verb=zívať
+SIGN nervózny : verb=chvieť_sa subj=ruka+pl
+SIGN sklamaný : verb=vzdychať
+SIGN sklamaný : verb=triasť patient=hlava
+SIGN rozladený : verb=triasť patient=hlava
+SIGN uľavený : verb=vydychovať manner=hlboký
+SIGN spokojný : verb=usmievať_sa
+SIGN rád : verb=usmievať_sa
+SIGN šťastný : verb=žiariť
+# waiting: how impatience shows (WAIT, while another mends what she needs)
+SIGN netrpezlivý : verb=vidieť pp=onto:def:hodiny
+SIGN netrpezlivý : verb=vzdychať
+# more ways each state shows (architect round 4: each word checked in the dictionary)
+SIGN rozladený : verb=zovrieť patient=päsť+pl
+SIGN rozladený : verb=tĺcť pp=with:def:noha_(chodidlo)
+SIGN rozladený : verb=stať_sa subj=tvár pred=adj:červený
+SIGN rozladený : verb=nadávať
+SIGN sklamaný : verb=znížiť patient=hlava
+SIGN sklamaný : verb=zízať theme=def:pôda
+SIGN sklamaný : verb=vzdychať manner=hlboký
+SIGN rád : verb=bzučať patient=indef:pieseň
+SIGN rád : verb=pískať patient=indef:pieseň
+SIGN rád : verb=smiať_sa
+SIGN spokojný : verb=prikývnuť
+SIGN spokojný : verb=bzučať patient=indef:melódia
+SIGN šťastný : verb=svietiť subj=oko+pl
+SIGN šťastný : verb=tlieskať pp=into:def:ruka+pl
+SIGN šťastný : verb=smiať_sa manner=hlasný
+SIGN hrdý : verb=pozrieť_si patient=own:dielo
+SIGN unavený : verb=byť subj=oko+pl pred=adj:ťažký
+SIGN unavený : verb=vystrieť patient=ruka+pl
+SIGN hladný : verb=vrčať subj=žalúdok manner=hlasný
+SIGN smädný : verb=byť subj=hrdlo pred=adj:suchý
+SIGN smädný : verb=byť subj=pera+pl pred=adj:suchý
+SIGN sýty : verb=byť subj=brucho pred=adj:plný
+SIGN sýty : verb=hladiť pp=above-to:own:brucho
+SIGN nervózny : verb=klopať subj=srdce manner=hlasný
+SIGN nervózny : verb=byť subj=koleno+pl pred=adj:mäkký
+SIGN nervózny : verb=potiť_sa
+SIGN netrpezlivý : verb=bubnovať pp=with:def:prst+pl
+SIGN netrpezlivý : verb=ťukať pp=with:def:noha_(chodidlo)

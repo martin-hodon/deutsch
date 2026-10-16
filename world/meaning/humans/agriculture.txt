@@ -1,0 +1,146 @@
+N poľnohospodárstvo : activity
+N poľnohospodár : professional
+N poľnohospodárka : professional
+AN poľnohospodársky : activity, place, artifact ; attr
+N roľník : professional
+N statok : building ; auf
+N roľníčka : professional
+N roľa : landscape ; auf
+N pestovanie plodín : activity
+N poľná plodina : crop, plantable
+N úroda : event
+V žať : {roľník|poľnohospodár|záhradník|muž|žena|dedko|babka|otec|matka} > patient crop
+V žať : {roľník|poľnohospodár|záhradník|muž|žena|dedko|babka|otec|matka} > patient fruit
+V žať : {roľník|poľnohospodár|záhradník|muž|žena|dedko|babka|otec|matka} > patient vegetable
+V siať : {roľník|poľnohospodár|záhradník|muž|žena|matka|otec|robotník} > patient crop +plantable
+V siať : {roľník|poľnohospodár|záhradník|muž|žena|matka|otec|robotník} > patient vegetable +plantable
+V siať : {roľník|poľnohospodár|záhradník|muž|žena|matka|otec|robotník}
+N osivo : crop, plantable
+V vysiať : person > patient crop +plantable
+V vysiať : person > patient vegetable +plantable
+V sadiť : {roľník|poľnohospodár|záhradník|muž|žena|dedko|babka|otec|matka} > patient tree +plantable
+V sadiť : {roľník|poľnohospodár|záhradník|muž|žena|dedko|babka|otec|matka} > patient flower +plantable
+V sadiť : {roľník|poľnohospodár|záhradník|muž|žena|dedko|babka|otec|matka} > patient vegetable +plantable
+V vysadiť : person > patient plant +plantable
+V vysadiť : person > patient vegetable +plantable
+N pluh : tool, repairable
+V orať : person > patient landscape
+V pestovať : person > patient crop
+V pestovať : person > patient vegetable
+N pestovanie : activity
+N hnojivo : substance
+V hnojiť : person > patient landscape
+V hnojiť : person > patient plant
+N hrable : tool
+N motyka : tool, body-part
+N traktor : vehicle, repairable, drivable
+N mlyn : building
+N veterný mlyn : building
+N vodný mlyn : building
+N mlynár : professional
+V mlieť : person > patient grain
+V mlieť : person > patient seasoning
+N zavlažovanie : activity
+V zavlažovať : person > patient landscape
+V zavlažovať : person > patient plant
+N skleník : building, lockable, cleanable, enterable
+V kosiť : person -professional > patient {trávnik|lúka|tráva|pole}
+V kosiť : {záhradník|poľnohospodár|roľník|roľníčka} > patient {trávnik|lúka|tráva|pole}
+V kosiť : {poľnohospodár|poľnohospodárka|roľník|roľníčka|robotník} > patient {obilie|pšenica|raž|jačmeň|ovos}
+N kombajn : vehicle, repairable, drivable
+N kompost : substance
+V kompostovať : person > patient plant-part
+N hnoj : substance
+N pesticíd : substance
+N hektár : measure
+N parcela : place ; auf
+AN úrodný : landscape, animal, plant
+N úrodnosť : quality
+AN neúrodný : landscape, animal
+N plantáž : place ; auf
+N ranč : place ; auf
+N kosa : tool
+N fúrik : vehicle, repairable, fillable
+N strašiak : artifact
+N silo : building, fillable
+N rýľ : tool
+N obilie : crop, plantable
+N zrno : crop, plantable
+N pšenica : crop, plantable
+N raž : crop, plantable
+N jačmeň : crop, plantable
+N ovos : crop, plantable
+N ovsené vločky : grain
+N repka olejka : crop, plantable
+N repa : crop, plantable
+N cukrová repa : crop, plantable
+N seno : food
+N vidly : tool
+N senná nádcha : illness
+N slama : material, burnable
+N sadenica : plant, plantable
+N bala : thing
+N dobytok : livestock
+N stádo : group
+N kŕdeľ : group
+N hovädzí dobytok : livestock
+N pastier : professional
+N ovčiar : professional
+N maštaľ : building, lockable, cleanable, enterable
+N stodola : building, lockable, enterable
+V pásť (sa) : {krava|ovca|koza|kôň|hovädo|býk|somár}
+N plot : artifact, repairable
+V oplotiť : person > patient place
+N sedlo : artifact, thing, repairable
+V osedlať : person > patient mammal
+N riad : kitchenware, artifact, washable, breakable ; mass
+N utierka na riad : artifact, thing, washable
+N podkova : artifact, thing
+N úľ : artifact
+N včelár : professional
+V chovať : {roľník|poľnohospodár|chovateľ|otec|muž|žena|rodina} > patient {kôň|pes|hovädo|ovca|prasa|krava|kura|koza|včela|mačka}
+V chovať : person -child > patient flower
+N chov : activity
+N chovateľ : professional
+N chov dobytka : activity
+V zabíjať : person > patient livestock
+N bitúnok : building
+N hydina : livestock, meat
+N krmivo : food
+N koryto : container, fillable
+V dojiť : person > patient livestock
+V strihať : person > patient livestock
+V strihať : person > patient body-part
+N vemeno : body-part
+N búda : building
+N záhrada : place, enterable
+N záhradník : professional
+N záhradníctvo : building, institution, enterable
+V záhradkáriť : person
+N ovocný sad : landscape
+N vinica : landscape
+N vinohradník : professional
+N lovec : professional
+N pasca : artifact
+N sieť (rybárska) : tool, repairable
+N rybárska sieť : tool, hangable, repairable
+N návnada : food
+V chytať ryby : {rybár|muž|žena|dieťa|otec|dedko|chlapec|priateľ} > patient {ryba|losos|pstruh|kapor|šťuka|úhor}
+V chytať ryby : {rybár|muž|žena|dieťa|otec|dedko|chlapec|priateľ}
+N rybárčenie : activity
+N udica : tool
+N udičkár : person
+N rybár : professional
+N rybolov : activity
+N rybárska loď : vehicle, repairable, drivable, enterable
+V orezať : person > patient plant
+V orezať : person > patient person
+N hadica : tool
+N záhradná hadica : tool
+N jazdec : person
+# added: Stall in its second sense
+N chlev : building, enterable, lockable, cleanable
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+V kultivovať : person > patient {pole|záhrada|pôda}
+V zosieťovať : person > patient {počítač|dedina|firma}

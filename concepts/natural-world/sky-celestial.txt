@@ -1,0 +1,69 @@
+# celestial-bodies
+N slnko
+N východ slnka
+N západ slnka
+N slnečný lúč
+N slnečné svetlo
+N zatmenie Slnka
+N slnečná sústava
+N mesiac (na oblohe)
+N spln
+N nov
+N polmesiac
+N mesačné svetlo
+N mesačný svit
+N východ mesiaca
+N zatmenie Mesiaca
+AN lunárny
+N hviezda
+N súhvezdie
+N znamenie zverokruhu
+N padajúca hviezda
+N hvezdáreň
+N svetlo hviezd
+AN hviezdnatý
+N planéta
+N trpasličia planéta
+N Mars
+N Venuša
+N Jupiter
+N Saturn
+N Merkúr
+N Urán
+N Neptún
+N kométa
+N meteor
+N meteorit
+N asteroid
+N galaxia
+N obežná dráha
+N Mliečna cesta
+PHR čierna diera
+PHR hmlovina
+N vesmír
+
+# sky-phenomena
+N obloha
+N nebeské teleso
+N svetová strana
+N hviezdna obloha
+AN nebeský
+N nebeská klenba
+N obzor
+AN vodorovný : adverb vodorovne
+N zenit
+N súmrak
+N ranný súmrak
+N večerný súmrak
+V brieždiť sa
+N svitanie
+N šero
+N lúč
+AN žiarivý : adverb žiarivo
+N atmosféra
+AN atmosférický
+N polárna žiara
+N kosák
+N kosáčik Mesiaca
+N supernova
+N svetelný rok

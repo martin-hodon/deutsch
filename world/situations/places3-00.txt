@@ -1,0 +1,159 @@
+# SITUATIONS at the places Arbeitsplatz .. Großstadt (round 3, file 00). Skipped: Bau (a burrow/den, no everyday story),
+# Gefängnis (no natural everyday story: nothing one may do there on a wish, no helper who mends things on the spot).
+
+SITUATION arbeitsplatz-brief : office -- am Arbeitsplatz einen Brief drucken
+  place   pracovisko
+  people  kolega | technik
+  things  písací_stôl | počítač | tlačiareň | papier | telefón
+  want    ponáhľanie : verb=vytlačiť patient=indef:list_(písomnosť) ; uses tlačiareň | počítač
+  trouble tlačiareň pokazený : opraviť
+  trouble počítač pokazený : opraviť by technik
+
+SITUATION arbeitsplatz-mittag : office -- in der Mittagspause am Arbeitsplatz
+  place   pracovisko
+  people  kolega
+  things  písací_stôl | stolička_(nábytok) | lyžica | vidlička
+  want    hladný : verb=jesť patient=indef:jogurt ; uses lyžica
+  want    hladný : verb=jesť patient=indef:šalát ; uses vidlička
+  trouble lyžica špinavý : oplachovať
+  trouble vidlička špinavý : oplachovať
+  lack    jogurt : supermarket
+  lack    šalát : supermarket
+
+SITUATION bach-eier : water -- am Bach Eier braten
+  place   potok
+  people  priateľ | kin
+  things  voda | kameň | tráva | drevo
+  own     panvica
+  want    hladný : verb=smažiť patient=none:vajce+pl ; uses panvica | drevo
+  trouble panvica špinavý : oplachovať
+  trouble drevo mokrý : sušiť
+
+SITUATION bach-fahrrad : water -- am Bach das Fahrrad waschen
+  place   potok
+  people  kin | priateľ
+  things  voda | kameň | tráva | most
+  own     bicykel | vedro | kefa
+  want    špinavý : verb=umývať patient=poss:bicykel ; uses vedro | kefa
+  trouble vedro prázdny : naplniť
+
+SITUATION bad-haare : home -- im Bad die Haare waschen
+  place   kúpeľňa
+  people  kin | klampiar
+  things  umývadlo | zrkadlo | uterák | mydlo | vodovodný_kohútik
+  want    špinavý : verb=umývať patient=poss:vlasy ; uses vodovodný_kohútik | uterák
+  trouble vodovodný_kohútik pokazený : opraviť by klampiar
+  lack    šampón : supermarket
+
+SITUATION bad-zähne : home -- im Bad die Zähne putzen
+  place   kúpeľňa
+  people  kin | klampiar
+  things  umývadlo | zrkadlo | vodovodný_kohútik
+  want    špinavý : verb=čistiť patient=none:zub+pl ; uses zubná_kefka | zubná_pasta | umývadlo
+  trouble umývadlo pokazený : opraviť by klampiar
+  lack    zubná_pasta : supermarket
+  lack    zubná_kefka : supermarket
+
+SITUATION berufsschule-werkstatt : school -- in der Werkstatt der Berufsschule
+  place   odborná_škola
+  people  učiteľ | priateľ | remeselník
+  things  dielňa | kladivo | píla | stôl
+  want    chuť : verb=stavať patient=indef:stolička_(nábytok) ; uses kladivo | píla
+  trouble kladivo pokazený : opraviť by remeselník
+  trouble píla pokazený : opraviť by remeselník
+
+SITUATION bühne-lied : culture -- auf der Bühne ein Lied singen
+  place   javisko
+  people  herec | spevák | technik
+  things  mikrofón | reproduktor | záves | stolička_(nábytok)
+  want    chuť : verb=spievať patient=indef:pieseň ; uses mikrofón
+  trouble mikrofón pokazený : opraviť by technik
+
+SITUATION bühne-tanz : culture -- auf der Bühne tanzen
+  place   javisko
+  people  spevák | priateľ | technik
+  things  reproduktor | záves
+  want    chuť : verb=tancovať ; uses reproduktor
+  trouble reproduktor pokazený : opraviť by technik
+
+SITUATION deck-ruhe : water -- auf Deck im Stuhl ausruhen
+  place   paluba
+  people  priateľ | kin
+  things  stolička_(nábytok) | sťažeň | voda
+  want    unavený : verb=oddýchnuť_si ; uses stolička_(nábytok)
+  trouble stolička_(nábytok) mokrý : sušiť
+  trouble stolička_(nábytok) špinavý : čistiť
+
+SITUATION einfamilienhaus-pfannkuchen : home -- im Haus Pfannkuchen braten
+  place   kuchyňa
+  people  kin
+  things  panvica | sporák | stôl
+  want    hladný : verb=smažiť patient=none:palacinka ; uses panvica | sporák
+  trouble panvica špinavý : oplachovať
+  trouble sporák pokazený : opraviť
+  lack    múka : supermarket
+  lack    mlieko : supermarket
+
+SITUATION einzimmer-reis : home -- in der kleinen Wohnung Reis kochen
+  place   garsónka
+  people  priateľ | kin | elektrikár
+  things  posteľ | stôl | skriňa | sporák | hrniec
+  want    hladný : verb=variť patient=none:ryža ; uses hrniec | sporák
+  trouble hrniec špinavý : oplachovať
+  trouble sporák pokazený : opraviť by elektrikár
+  lack    ryža : supermarket
+
+SITUATION einzimmer-bild : home -- in der kleinen Wohnung ein Bild aufhängen
+  place   garsónka
+  people  priateľ | kin
+  things  posteľ | stôl | skriňa | okno | kladivo
+  want    chuť : verb=zavesiť patient=indef:obraz ; uses kladivo | klinec
+  trouble kladivo pokazený : opraviť
+  lack    klinec : supermarket
+
+SITUATION flur-jacke : home -- im Flur schnell die Jacke anziehen
+  place   chodba
+  people  kin
+  things  dvere | vešiak | topánka | zrkadlo | bunda
+  want    ponáhľanie : verb=obliecť patient=poss:bunda ; uses bunda
+  trouble bunda pokazený : šiť
+  trouble bunda špinavý : kefovať
+
+SITUATION garderobe-mantel : home -- an der Garderobe den Mantel anziehen
+  place   vešiak
+  people  kin | priateľ
+  things  bunda | kabát | topánka | čiapka | taška
+  want    ponáhľanie : verb=obliecť patient=poss:kabát ; uses kabát
+  trouble kabát špinavý : kefovať
+  trouble kabát pokazený : šiť
+
+SITUATION gebirge-ski : nature -- im Gebirge Ski fahren
+  place   pohorie
+  people  priateľ | kin
+  things  vrch | sneh | cesta_(komunikácia) | strom
+  own     lyža
+  want    chuť : verb=ísť_(dopravou) patient=none:lyža ; uses lyža
+  trouble lyža pokazený : opraviť
+
+SITUATION gebirge-tee : nature -- im Gebirge Tee trinken
+  place   pohorie
+  people  priateľ | kin
+  things  vrch | kameň | sneh | cesta_(komunikácia)
+  own     čajník | hrnček
+  want    smädný : verb=piť patient=none:čaj ; uses čajník | hrnček
+  trouble hrnček prázdny : naplniť
+
+SITUATION großstadt-taxi : town -- in der Großstadt ein Taxi rufen
+  place   veľkomesto
+  people  priateľ | kin
+  things  ulica | auto | autobus | obchod
+  own     mobil
+  want    ponáhľanie : verb=volať patient=indef:taxík ; uses mobil
+  trouble mobil prázdny : nabiť
+
+SITUATION großstadt-döner : town -- in der Großstadt einen Döner essen
+  place   veľkomesto
+  people  priateľ | kin
+  things  ulica | park | obchod | autobus
+  want    hladný : verb=jesť patient=indef:döner_kebab
+  lack    döner_kebab : občerstvenie

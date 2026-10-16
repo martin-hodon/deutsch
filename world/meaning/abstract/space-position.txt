@@ -1,0 +1,496 @@
+V dosiahnuť : person > patient settlement
+V dosiahnuť : person > patient {stanica|námestie|vrchol|prístav|letisko|breh}
+V dosiahnuť : person > patient person
+V dosiahnuť : person > patient {cieľ|kompromis|riešenie|úspech|výsledok}
+V dosiahnuť : person > patient {vek|rýchlosť}
+V dosiahnuť : person > patient {vyvrcholenie|vrchol}
+V zahŕňať : text > patient {kapitola|úsek|článok}
+V zahŕňať : {spolok|politická strana|tím|trieda} > patient {člen|žiak}
+V zahŕňať : {mesto|dedina|obec} > patient {obyvateľ}
+V zahŕňať : {škola} > patient {žiak|učiteľ}
+V zahŕňať : region > patient settlement
+N pôvod : state
+N nárast : process
+AN kolmý : thing, furniture
+N miesto (v priestore) : place
+N lokalita : position
+N pozícia : position
+V umiestniť : person > patient thing
+N poloha : position, state
+V skladovať : person > patient thing
+V skladovať : person > patient food
+V skladovať : thing > location place
+V skladovať : food > location place
+V skladovať : substance > location place
+N miesto (bod) : position
+N postavenie : state
+V postaviť : person > patient {váza|lampa|hodiny|sklenica|fľaša|šálka|sviečka|kvetina|tanier|kufor|taška|vec}, goal {izba|kuchyňa|chodba|obývačka|spálňa|pivnica}
+V postaviť : person > patient {kniha|váza|lampa|hodiny|sklenica|fľaša|šálka|sviečka|kvetina|tanier|kufor|taška|vec}, goal {polica|skriňa}
+V postaviť : person > recipient person -infant, patient {otázka}
+V zistiť : person > patient {chyba|rozdiel (odlišnosť)|výsledok|fakt|zmena|problém}
+V zistiť : person > that
+V znázorniť : {rečník|expert|výskumník|autor|učiteľ|minister|hovorca} > patient {plán|stanovisko|názor|teória|koncepcia}
+V znázorniť : {rečník|expert|výskumník|autor|učiteľ|minister|hovorca} > patient {výsledok|údaje|vývoj|poloha|situácia}
+V znázorniť : {herec|herečka} > patient {kráľ|hrdina|lekár|učiteľ|postava}
+V znázorniť : {rečník|expert|výskumník|autor|učiteľ|minister|hovorca} > patient {problém|ťažkosť|chyba}
+V znázorniť : picture > patient person
+V znázorniť : picture > patient landscape
+V znázorniť : picture > patient animal
+V znázorniť : picture > patient building
+AV miestami : place
+N strana : position
+N horná strana : place
+N spodná strana : place
+N predná strana : place
+N zadná strana : place
+AV bokom : direction
+AN bočný : object, place
+AV nabok : direction
+N stred : position
+AV uprostred : other
+N centrum : place
+AN centrálny : place
+N ústredie : institution
+AV vnútri : other
+N vnútro : place, quality
+AN vnútorný : body-part, room, feeling, state ; attr
+AV vonku : place
+AV zvonka : other
+N vonkajšok : quality, place
+AN vonkajší : body-part, quality
+AV tu : place
+AV tam (miesto) : place
+AN tamojší : institution, place, state ; attr
+AV všade : place
+AV niekde : place
+AV nikde : place
+AV na ceste : place
+N podložie : place, material
+AN podzemný : place
+AV nad tým : other
+AV na druhú stranu : direction
+AV vzadu : other
+N pozadie : position
+V zanechať : agent > patient {správa (oznam)|upozornenie|stopa|oznámenie}
+V zanechať : agent > patient money
+V zanechať : agent > patient {chaos|škoda|neporiadok|dlhy}
+V zanechať : person > patient relative
+AV vedľa : other
+AV odvedľa : place
+AV popri tom : other
+N protistrana : person
+V stáť oproti : building > location place
+V stáť oproti : furniture > location furniture
+V stáť oproti : thing > location thing
+V stáť oproti : agent > opponent person
+V stáť oproti : agent > opponent {problém|výzva (problém)|ťažkosť|nebezpečenstvo|otázka}
+V stáť oproti : agent > opponent institution
+AV dokola : direction
+AV dookola : place
+N sféra : position
+N zóna : position
+N miesto (priestor) : place ; auf
+N hranica : place ; an
+AN susediaci : place
+N pohraničie : region
+V ohraničiť : {plot|múr|stena|živý plot|mreža} > patient {záhrada|pozemok|vŕba|pole|dvor}
+V ohraničiť : {vláda|úrad|obväz|parlament|pokrm|škola} > patient {číslo (matematické)|množstvo|počet|cena|rozpočet|rýchlosť}
+V ohraničiť : {zákon|pravidlo|predpis|nariadenie|zákaz} > patient {obchodovanie|doprava|poľovačka|vývoz}
+V ohraničiť : {vláda|úrad|obväz|parlament|pokrm|škola|poslanecký klub} > patient {čas (trvanie)|trvanie}
+AN bezhraničný : feeling, state, place
+V vymedziť : person > patient {pojem|téma|koncepcia|metóda}, source {pojem|téma|koncepcia|metóda}
+V vymedziť : person > patient institution, source institution
+V vymedziť : person > patient group, source group
+V vymedziť : person > patient place, source place
+AN rozsiahly : text, activity, information, quantity
+AN komplexný : information, ability, activity, rule
+V obklopovať : building-part > patient building
+V obklopovať : water-body > patient place
+V obklopovať : landscape > patient building
+V obklopovať : plant > patient building
+N základňa : place, idea
+V zakladať sa : {teória|plán|návrh|rozhodnutie|rozsudok} > basis {údaje|štúdia|skúsenosť|fakt|výsledok}
+V zakladať sa : {zákon|pravidlo|zvyk} > basis {nápad|tradícia|skúsenosť|princíp}
+V zakladať sa : {film|pieseň|príbeh|román} > basis {príbeh|pravda|legenda}
+V zakladať sa : game > basis {pravidlo|zákon}
+N výklenok : place
+N sektor : abstract
+N usporiadanie : state, rule
+N pole : landscape ; auf
+N rozpätie : quantity
+N dosah : quantity
+N prázdnota : state
+N vákuum : state
+N priehradka : container, activity, openable, fillable
+AN odborný : ability, information, problem ; attr
+N štrbina : place
+N dutina : place
+N miestnosť : room, enterable, cleanable, lockable
+N oblasť : region
+N veľká časť : quantity
+N ohnisko : idea
+N číslo (poradové) : quantity
+N popredie : position
+N smer : direction
+V nasmerovať : person > patient {zbraň|kamera|lampa|ďalekohľad}, goal animal
+V nasmerovať : person > patient {zbraň|kamera|lampa|ďalekohľad}, goal building
+V nasmerovať : person > patient {otázka|list (písomnosť)|prosba|správa (oznam)|výčitka|varovanie}, recipient person
+V zarovnať : person > patient {stôl|stolička (nábytok)|polica|anténa|kamera}
+V zarovnať : person > recipient person, patient {pozdrav|správa (oznam)|vďaka|blahoželanie}
+N vzdialenosť : quantity
+AN vzdialený : place, relative, celestial
+N diaľka : position
+AN blízky : place, relative, time
+N blízkosť : position
+AN najbližší : place, period, event, person ; attr
+V približovať sa : animal > goal {dom|dedina|mesto|les|rieka|gól|breh|vrch|jazero}
+V približovať sa : animal > goal animal
+V približovať sa : vehicle > goal settlement
+V približovať sa : vehicle > goal {stanica|prístav|letisko|križovatka|breh}
+V približovať sa : {kométa|asteroid|meteor} > goal {zem|slnko|mesiac (na oblohe)}
+N priblíženie : process
+AN ďaleký : place, clothing
+N šírava : position
+AN prevažný : activity, rule, state
+AV vľavo : other
+AV vpravo : other
+AV hore : other
+AV dole : other
+AV nahor (smerom) : direction
+AV nadol : direction
+AV vzad : direction
+N sever : direction
+AN severný : place ; attr
+N juh : direction
+AN južný : place ; attr
+N východ (svetová strana) : direction
+AN východný : place ; attr
+N západ : direction
+AN západný : place ; attr
+AV preč : direction
+AV skrz : direction
+AV úplne : degree
+N onen svet : place
+AN oddelený : room, road, person, group
+AV inde : place
+AN odľahlý : place
+AN rovnobežný : road, thing
+N rovnobežka : direction
+N beh : activity
+N stopa : information
+V hýbať : person > patient {kameň|bedňa|lopta|konár}
+V hýbať : animal > patient {hlava|paža|noha (končatina)|ruka|prst|noha (chodidlo)|ústa}
+V hýbať : {rozlúčka|svadba|pôrod|smrť|reč|pohľad} > patient person -professional -child
+V hýbať : {správa (oznam)|list (písomnosť)|príbeh|správa (o udalosti)|osud} > patient person -professional -child
+V hýbať : {pieseň|film|báseň|hudba|príbeh} > patient person -professional -child
+N pohyb : event
+AN pohyblivý : thing, animal, body-part
+V prinútiť : person > patient person, inf
+V ísť (pešo) : person
+V ísť (pešo) : person > goal {dom|izba|kuchyňa|kancelária|kostol|škola|kino|múzeum|reštaurácia|obchod|pivnica|kaviareň|hotel|radnica|nemocnica|divadlo|knižnica|supermarket}
+V ísť (pešo) : person > inf
+V ísť (pešo) : person > inf.bare {plávať|nakupovať|prechádzať sa|tancovať|behať|putovať|jesť|spať}
+V ísť (pešo) : es > topic {peniaze|čas (trvanie)|práca|rodina|problém|láska|budúcnosť}
+V ísť (pešo) : es > recipient person, fixed {dobrý|zlý}
+V odísť : person
+V odísť : person > source building
+V odísť : person > source room
+V odísť : person > source settlement
+V vyjsť von : animal > source building
+V vyjsť von : animal > source room
+V vyjsť von : animal > goal place
+V prejsť okolo : animal > path {auto|strom|stôl|plot|dvere}
+V prejsť okolo : animal > path animal
+V prejsť okolo : animal > path place
+V ísť von : person -child -professional
+V ísť von : {svetlo|lampa|lampáš|sviečka|oheň|televízor|rádio|kúrenie|motor}
+V zaoberať sa : person > theme {návrh|ponuka|želanie|prosba}
+V zaoberať sa : person > theme {problém|otázka|kritika|poznámka}
+V zaoberať sa : person > theme person
+V ísť späť : animal
+V ísť späť : {číslo (matematické)|cena|podiel|množstvo|počet|hodnota|náklady}
+V zakročiť : {polícia|vláda|úrad|štát|armáda|obec} > opponent crime
+V zapadnúť : celestial
+V zapadnúť : vehicle
+V chopiť sa : person -child > patient {problém|úloha|téma|výzva (problém)}
+V zaobchádzať : person > instrument money
+V zaobchádzať : person > companion animal
+V zaobchádzať : person > theme {problém|kritika|stres|ťažkosť|chyba}
+V zaobchádzať : person > instrument {počítač|mobil|stroj|náradie|nôž}
+V obísť : agent > patient rule
+V obísť : agent > patient place
+V obísť : agent > patient {problém|zákaz|zápcha}
+V spáchať : person -child -professional > patient {zločin|vražda|krádež|podvod}
+V spáchať : person > patient {chyba}
+V spáchať : person > patient celebration
+V prísť : person > source country -{ríša|kontinent|krajina (štát)}
+V prísť : person > source settlement
+V prísť : person > source {dom|škola|kostol|kino|väzenie|nemocnica|múzeum|hotel|stanica|radnica|reštaurácia}
+V prísť : beast -insect -fish-animal > source {les|jaskyňa|dolina|džungľa|púšť}
+V prísť : {dieťa|chlapec|dievča|pešký turista} > source {les|dolina}
+V prísť : person > inf
+V prísť : person
+V dôjsť : animal
+V dôjsť : vehicle +drivable
+V dôjsť : es > basis {kvalita|veľkosť|cena|rýchlosť|farba}
+V dôjsť : es > basis person
+V dôjsť : es > basis {cvičenie|tréning|spolupráca|rýchlosť}
+V dôjsť : es > basis {počasie|skúsenosť|vedomosti|čas (trvanie)|výsledok|odpoveď}
+N príchod : event
+V vyskytovať sa : beast
+V vyskytovať sa : plant
+V vyskytovať sa : metal
+V vyskytovať sa : {slovo|písmeno|veta|chyba}
+V vyskytovať sa : entity > recipient person, adj
+V vrátiť sa : animal -insect > goal settlement
+V vrátiť sa : animal -insect > goal country
+V vrátiť sa : animal -insect > inf
+N návrat : event
+V vstúpiť : person > goal {dom|kostol|škola|materská škola|múzeum|obchod|reštaurácia|hotel|kancelária|radnica|nemocnica}
+V vstúpiť : person > goal {izba|miestnosť|sála|kuchyňa|obývačka|spálňa|hala|chodba}
+V vstúpiť : {nehoda|smrť|ticho|kríza|mráz}
+N vstup : event
+V vstúpiť na : person > patient place +enterable
+V vstúpiť na : {pes|mačka|kôň} > patient place +enterable
+V prejsť cez : person > patient road -{tunel}
+V prejsť cez : person > patient {rieka|hranica|miesto (priestor)|more|pohorie}
+V odbočiť : {auto|autobus|nákladné auto|električka|motocykel|vodič|cyklista}
+V padnúť : {sklenica|šálka|tanier|lopta|kameň|kľúč|fľaša|lyžica|váza|list (rastliny)}
+V padnúť : {kniha|noviny}
+V padnúť : person -{rodičia|starí rodičia}
+V padnúť : {jablko|hruška|slivka|čerešňa (plod)|orech|pomaranč|citrón}
+V padnúť : {dážď|sneh|krúpy|tma}
+V upútať : person > recipient person
+V upútať : {chyba|rozdiel (odlišnosť)|zmena} > recipient person
+V upútať : {veľkosť|farba|tvar|pokoj|ticho|pach} > recipient person
+V napadnúť : {nápad|riešenie|meno|odpoveď|plán|slovo} > recipient person
+V zrušiť sa : {vyučovanie|koncert|tréning|hra|zasadnutie|oslava}
+V zrušiť sa : device
+V stúpať : {číslo (matematické)|cena|podiel|množstvo|počet|hodnota|náklady|teplota}
+V stúpať : {voda|dym|para|hmla|oblak}
+V stúpať : animal > goal landscape +climbable
+V stúpať : animal > goal tree -{vianočný stromček}
+V stúpať : person -professional > goal {stolička (nábytok)|stôl|banka|rebrík|taburetka|posteľ}
+V stúpať : person > goal vehicle +rideable
+V stúpať : person > goal {loď|čln|plachetnica|traktor}
+V zostúpiť : animal
+V vystúpiť : animal -insect > source {auto|osobné auto|autobus|vlak|čln|lietadlo|taxík|nákladné auto|dopravný prostriedok}
+N vzostup : process
+N zostup : process
+V klesať : {číslo (matematické)|cena|podiel|množstvo|počet|hodnota|náklady|teplota}
+V klesať : {loď|čln}
+V potopiť : person > patient {loď|čln|poklad|kotva}
+V hnať : {roľník|pastier|ovčiar} > patient {krava|ovca|prasa|kôň|somár|dobytok|stádo}
+V hnať : person > patient {šport|obchodovanie|politika}
+V hnať : {čln|drevo|list (rastliny)|oblak|ľad}
+V hnať : person > bare {šport}
+V prevádzkovať : agent > patient building
+V prevádzkovať : agent > patient {obchodovanie|poľnohospodárstvo|výskum|politika|obchod|reklama|šport}
+V nasledovať : animal > recipient animal
+V nasledovať : {búrka|dážď|víchor|vojna|hádka} > theme {horúčava|sucho|voľba|mier|pokoj}
+V nasledovať : {záver|výsledok|poznatok} > source {údaje|štúdia|dôkaz|upozornenie}
+V nasledovať : {problém|škoda|hádka|vina} > source {nehoda|vojna|kríza|chyba}
+N následok : event
+AN nasledujúci : writing, text, period, event, information ; attr
+V dodržať : person > patient rule
+V prenasledovať : {policajt|polícia|lovec|pes|vlk} > patient {zlodej|páchateľ|zajac|líška|srna|zločinec}
+V prenasledovať : person > patient {hra|proces|vývoj|voľba|preteky}
+N nástupca : role
+N nástupkyňa : role
+V viesť : person > patient {pes|kôň|krava|somár|dieťa|hosť|turista|návštevník|pacient|zákazník}
+V viesť : {ulica|cesta (komunikácia)|cestička|diaľnica|ulička} > inf
+V viesť : {šéf|riaditeľ|manažér|konateľ|konateľka|podnikateľ|starosta|starostka|minister} > patient {firma|podnik|prevádzka|obchod|úrad|škola|spolok|politická strana|úrad|zdravotný úrad}
+N vedenie : activity
+V vykonať : agent > patient {plán|zákazka|práca|oprava (poškodeného)|pohyb}
+V vykonať : person > patient {pes|kôň}
+V zaviesť : {podnik|firma|prevádzka|koncern|vláda|škola|mesto|predstavenstvo} > patient {pravidlo|zákon|zákaz|daň|povinnosť|štandard|opatrenie}
+V zaviesť : {podnik|firma|prevádzka|koncern|výrobca} > patient {výrobok|prístroj|systém|softvér}
+V viesť späť : {expert|výskumník|policajt|vyšetrovateľ} > patient {nehoda|požiar|hádka|pád}, cause {chyba|únava|stres|nedorozumenie}
+V viesť späť : {expert|výskumník|lekár} > patient illness, cause {stres|únava|nehoda|chlad|horúčava}
+AN pretrvávajúci : phenomenon, state
+N zastavenie : event
+V zdržať : person -child -professional > patient person -professional
+AN dosiahnuteľný : place, person
+V kvapiť : animal > goal settlement
+V kvapiť : animal > goal country
+N ponáhľanie : state
+AN súrny : activity, person
+V ponáhľať sa : person
+V postúpiť (vpred) : group
+V postúpiť (vpred) : person
+V rozložiť : person > patient thing
+V rozložiť : {oheň|hmla|tma|epidémia|choroba|chýr}
+N šírenie : process
+V šíriť : person > patient {správa (oznam)|chýr|klamstvo|pravda|propaganda|informácia}
+V šíriť : animal > patient illness
+V posunúť : person > patient furniture
+V posunúť : person > patient {bedňa|kartón|kufor}
+V posunúť : person > patient {obraz|zrkadlo}
+V posunúť : person > patient event +attendable
+V posunúť : person > patient {termín|cesta (cestovanie)|dovolenka}
+N posun : process
+V točiť sa : animal
+V točiť sa : {koleso|veterná turbína|zem|kľúč}
+N otočenie : event
+V otočiť : person > patient {karta|minca|doska|obraz|sklenica}
+V utiecť : beast > cause beast
+V utiecť : person -professional > cause {vojna|oheň|polícia|povodeň|víchor|násilie}
+V utiecť : person -professional > source country -{štát|ríša|kontinent|krajina (štát)}
+V utiecť : person -professional > source {mesto|dedina|hlavné mesto}
+V utiecť : person -professional > source {dom|byt|väzenie|hotel|budova|kostol|škola}
+V potulovať sa : animal
+V unášať sa : thing
+V spadnúť : person -professional
+V spadnúť : {kôň|krava|pes|somár|srna|jeleň}
+V spadnúť : {ľud|armáda|opozícia|revolúcia|povstanie} > patient {vláda|prezident|starosta|minister|kráľ|diktátor}
+N pád : incident
+V zrútiť sa z výšky : {lietadlo|vrtuľník|dron|raketa|počítač}
+V zrútiť sa z výšky : {horolezec|pešký turista|lyžiar|pilot}
+V zrútiť sa : building
+AN roztržitý : person
+V vznášať sa : thing
+V vznášať sa : vehicle
+V vznášať sa : bird
+V vznášať sa : {hmla|dym|para|vôňa|oblak}
+V naraziť : {auto|nákladné auto|autobus|motocykel|bicykel|vlak|električka} > goal {strom|stena|plot}
+V naraziť : {auto|nákladné auto|autobus|motocykel|bicykel|vlak|električka} > goal building
+V naraziť : {lopta|kameň|guľa|krúpy} > goal {pôda|stena|stôl}
+V naraziť : animal > goal {stena|strom|plot}
+N severovýchod : direction
+N juhozápad : direction
+V vyraziť : {vlak|autobus|loď|električka|trajekt|auto|taxík}
+V vyraziť : person
+# added: ausführen in its second sense
+V vyviesť : person > patient pet
+# added: erreichen in its second sense
+V stihnúť : person > patient vehicle
+# added: fahren, its own concept (split from ísť: gehen is ísť (pešo))
+V ísť (dopravou) : person -{pilot|kapitán} > instrument vehicle -{lietadlo|vrtuľník|helikoptéra|prúdové lietadlo|raketa|vesmírna loď}
+V ísť (dopravou) : person > goal settlement
+V ísť (dopravou) : person > goal {Nemecko|Rakúsko|Švajčiarsko|Francúzsko|Taliansko|Španielsko|Poľsko|Švédsko|Nórsko|Dánsko|Česko|Maďarsko|Holandsko|Grécko}
+V ísť (dopravou) : vehicle > goal settlement
+V ísť (dopravou) : {vlak|autobus|nákladné auto|auto|loď} > goal {Nemecko|Rakúsko|Švajčiarsko|Francúzsko|Taliansko|Španielsko|Poľsko|Švédsko|Nórsko|Dánsko|Česko|Maďarsko|Holandsko|Grécko}
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN cezhraničný : {obchod|spolupráca|doprava|zločin|problém}, event, activity ; attr
+AN decentralizovaný : institution, {moc|systém|štát}
+AN jednopruhový : road
+AN jednostranný : {rozhodnutie|pohľad|vzťah|dohoda|výhoda}, relation, information
+AN nedosiahnuteľný : place, {cieľ|sen|vrchol|hodnota}
+AN priechodný : road, landscape, {les|most}
+AN priestorový : {obraz|pocit|zvuk|model|plán|pohľad}
+AN severovýchodný : place, direction, {vietor|časť}, region ; attr
+AN veľkopriestorový : room, building
+AN všestranný : person, device, tool, {talent|vzdelanie}
+V blúdiť : animal > path place
+V blúdiť : person > path landscape
+V dostať sa tam : person > goal place
+V hraničiť : country > companion country
+V hraničiť : region > companion region
+V hraničiť : {pozemok|záhrada|les} > companion {rieka|pozemok}
+V kolidovať : vehicle > opponent vehicle
+V kolidovať : {záujem|plán|termín|pravidlo} > companion {záujem|plán|termín|pravidlo}
+V križovať : road > path road
+V križovať : vehicle > path {more|oceán|jazero}
+V križovať : person > path {mesto|more}
+V krútiť sa : person
+V krútiť sa : {zviera|vták|lietadlo}
+V kývať sa : {strom|loď|stôl|most|lampa}
+V kývať sa : person
+V otvoriť sa : openable
+V otvoriť sa : {obchod|výstava|škola|múzeum|reštaurácia}
+V plynúť : {deň|rok|hodina}
+V plynúť : {rieka|potok|voda}
+V poháňať : {motor|vietor|para|elektrina} > patient vehicle
+V poháňať : {motor|elektrina|voda} > patient device
+V poháňať : person > patient {zviera|kôň|vôl}
+V pokračovať v : person > patient game
+V pokračovať v : person > patient {práca|štúdium|hra}
+V pokročiť : {práca|projekt|štúdium|vývoj}
+V pokročiť : person > goal place
+V poradiť si : person > theme {problém|situácia|úloha|ťažkosť}
+V poradiť si : person > instrument {trpezlivosť}
+V postúpiť (vyššie) : person > goal {trieda|liga|kolo|funkcia}
+V postúpiť (vyššie) : group > goal {liga|kolo|trieda}
+V posúvať dopredu : person > patient {projekt|plán|vec|rokovanie|práca}
+V posúvať dopredu : person > patient {stôl|skriňa}
+V potopiť sa : vehicle
+V potopiť sa : {kameň|kotva|predmet|hračka} > goal {voda|more|jazero}
+V potopiť sa : person > goal water-body
+V prebiť sa : person > path {sneh|les}
+V prebiť sa : person > path {ťažkosť|problém|obdobie}
+V preháňať : person
+V preháňať : person > patient {príbeh|cena|hodnota|nebezpečenstvo}
+V prejsť (na iné) : person > goal {téma|úloha|činnosť|bod}
+V prejsť (na iné) : person > goal {téma|úloha}
+V preniknúť : {voda|dym|svetlo|zvuk} > path {stena|strecha|zem|oblek}
+V preniknúť : person > goal {budova|miestnosť|zem|tajomstvo}
+V presunúť : person > patient {skriňa|stôl|kufor|vec|nábytok}, goal place
+V presunúť : person > patient {termín|stretnutie}, goal {termín}
+V presťahovať sa : person > goal {mesto|dedina|dom|byt|izba}
+V presťahovať sa : group > goal {mesto|dedina|dom}
+V previezť : person > patient {tovar|osoba|zviera|batožina}, goal place
+V previezť : {kuriér|vodič|lietadlo|loď} > patient {tovar|osoba|batožina}, goal place
+V pribudnúť : {obyvateľ|dom|auto|škola|problém|úloha|zákazník}
+V pribudnúť : {vráska|kilo|rok}
+V pricestovať : person > goal {mesto|dedina|stanica|letisko}
+V pricestovať : person > source {mesto}, goal place
+V pripisovať : person > patient {chyba|vina|význam|úspech}, goal person
+V pripisovať : person > patient {chyba|vina|význam|úspech}, goal {okolnosť|náhoda|príčina}
+V pritiahnuť : person > patient {dvere|lano|kôň|vec}
+V pritiahnuť : {výstava|festival|pláž|film|koncert} > patient person
+V prísť na návštevu : person > goal {priateľ|rodina|príbuzný|babka|dedko}
+V prísť na návštevu : person > goal {dom|mesto|byt}
+V prísť sem : person
+V prísť sem : {pes|mačka|kôň|dieťa}
+V prísť vhod : {pomoc|peniaze|nástroj|rada|dážď|nápad|informácia} > recipient person
+V rovnať sa : quantity > companion quantity
+V rovnať sa : {súčet|hodnota|cena} > companion {súčet|hodnota|cena}
+V skapať : animal
+V skapať : plant
+V sledovať : person > patient {vývoj|situácia|cena|počasie|výsledok}
+V sledovať : institution > patient {trh|vývoj|situácia|pohyb}
+V súvisieť : {problém|udalosť|rozhodnutie|choroba|zmena|dôsledok} > companion {problém|udalosť|rozhodnutie|choroba|zmena|príčina}
+V týčiť sa : {veža|strom|budova|skala|komín|kopec}
+V týčiť sa : {stĺp|múr}
+V uhradiť : person > patient {škoda|náklady|poplatok}
+V uhradiť : institution > patient {škoda|náklady|poplatok}
+V uniknúť : animal > source {klietka|zajatie|nebezpečenstvo|hrozba}
+V uniknúť : person > source {väzenie|nebezpečenstvo|zajatie|polícia|požiar}
+V uviesť v premiére : {režisér|divadlo|kino|spisovateľ} > patient {film|pieseň|hra}
+V uviesť v premiére : institution > patient {film|hra|opera|divadelná hra}
+V venovať sa : person > topic {šport|hudba|záhrada|práca|štúdium|umenie|rodina|dieťa}
+V venovať sa : person > recipient {dieťa|žiak|pacient|zviera}
+V vniknúť : person > goal {dom|budova|obchod|byt|banka|trezor}
+V vniknúť : {zlodej|zločinec} > goal {dom|byt|banka|obchod}
+V vtiahnuť : {armáda|vojak} > goal {mesto|región}
+V vtiahnuť : {skupina|armáda} > goal {mesto|región}
+V vyhnať : person > patient {zviera|pes|cudzinec|návštevník|hosť}, source {dom|záhrada}
+V vyhnať : institution > patient {obyvateľ|cudzinec|občan|národ}, source {mesto}
+V vyhovieť : person > recipient person
+V vyhovieť : person > patient {žiadosť|norma}
+V vypadnúť : person > source {súťaž|liga|turnaj|hra}
+V vypadnúť : {predmet|kľúč|karta|oko} > source {taška|vrecko|kabát}
+V vyplývať : {záver|výsledok|problém|dôsledok|chyba} > source {rozhodnutie|situácia|zmena|príčina}
+V vystopovať : {polícia|lovec|detektív|pes} > patient {zviera|zločinec|zlodej|stopa}
+V vystopovať : {polícia|detektív} > patient {podozrivý|zločinec|zlodej|pôvod}
+V zaobísť sa : person > theme {pomoc|peniaze|auto|jedlo|pomocník}
+V zaobísť sa : person > share {pomoc|peniaze|auto|jedlo|cukor}
+V zlúčiť : institution > patient institution
+V zlúčiť : {firma|banka|škola|spolok|strana} > companion {firma|banka|škola|spolok|strana}
+V znepokojovať : {situácia|myšlienka|zvuk|ticho|výsledok|pocit} > patient person
+V znepokojovať : {situácia|zdravie|počasie} > patient animal
+V zvaliť sa : person
+V zvaliť sa : {strom|múr|stena|stĺp|skriňa|tehla}
+V zviesť : person > patient person
+V zviesť : {muž|žena|obchodník|politik} > patient {dievča|žena|muž|zákazník}
+V ísť tam : person > goal place
+V ísť tam : animal > goal place
+V ísť vpredu : person > path road
+V ísť vpredu : {vodca|vedúci|kapitán|sprievodca} > companion group
+V ďalej sledovať : person > patient {vývoj|situácia|príbeh|film}
+V ďalej sledovať : person > patient {cieľ|sen|plán|kariéra}
+V šmýkať sa : person
+V šmýkať sa : {had|jašterica|auto|lyžiar|sánky}
+V štvať : person > patient person, opponent person
+V štvať : {politik|propaganda} > patient {ľud|obyvateľ}, opponent {cudzinec|menšina|vláda}

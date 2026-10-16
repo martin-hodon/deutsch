@@ -1,0 +1,206 @@
+# religion
+N náboženstvo
+AN nábožný : adverb nábožne
+N boh
+N bohyňa
+AN božský : adverb božsky
+N božstvo
+N bohoslužba
+N modla
+AN svätý
+N svätec
+N svätyňa
+PHR Sväté písmo
+N kostol
+AN cirkevný
+N chrám
+N mešita
+N katedrála
+N kláštor
+N oltár
+N kňaz
+N biskup
+N mních
+N mníška
+N pápež
+N prorok
+V prorokovať
+N proroctvo
+V modliť sa
+N modlitba
+V zbožňovať
+V žehnať
+N požehnanie
+N kliatba
+V prekliať
+N hriech
+N hriešnik
+V hrešiť
+N duša
+N duch
+AN duševný
+N duchovný
+N peklo
+N diabol
+N anjel
+N obeť
+V obetovať
+N zázrak
+V čudovať sa
+V udiviť
+AN podivuhodný : adverb podivuhodne
+N strašidlo
+AN nesmrteľný
+N nesmrteľnosť
+N biblia
+AN biblický
+N ikona
+N pútnik
+V pútať sa
+N relikviár
+N kaplnka
+N synagóga
+N kult
+N kázeň
+V kázať
+N spev
+N meditácia
+V meditovať
+N kadidlo
+N relikvia
+N ateista
+N mučeník
+N učeník
+N misia
+N misionár
+N pustovník
+V konvertovať
+N vykúpenie
+V vykúpiť
+N vykupiteľ
+N vzkriesenie
+N karma
+N rehoľný sľub
+N Žid
+N Židovka
+AN židovský
+AN katolícky
+N farár
+N kresťanstvo
+N islam
+N judaizmus
+N kresťan
+AN kresťanský
+N moslim
+N katolík
+N pastor
+N raj
+N veriaci
+N omša
+AN evanjelický
+AN ekumenický
+
+# magic-fate
+N mágia
+AN magický
+N striga
+N kúzlo
+N čarodejník
+V čarovať
+N zariekadlo
+N čarovný prútik
+V očariť
+AN očarujúci : adverb očarujúco
+N víla
+N príšera
+N drak
+N rana osudu
+N povera
+AN poverčivý
+N legenda
+N mýtus
+N mytológia
+N znamenie
+N orákulum
+N amulet
+N talizman
+N horoskop
+N astrológia
+N astrológ
+N démon
+N upír
+N zombie
+N elf
+N trpaslík
+N škriatok
+N trol
+N morská panna
+N jednorožec
+N obor
+N bájna bytosť
+N báj
+N osud
+V vyžrebovať
+V zaklínať
+
+# customs-celebrations
+N zvyk
+N zvykoslovie
+N tradícia
+AN tradičný : adverb tradične
+N rituál
+N obrad
+V sláviť
+N oslava
+N sviatok
+AN slávnostný : adverb slávnostne
+N slávnosť
+AN sviatočný : adverb sviatočne
+N festival
+N karneval
+N fašiangy
+N slávnostný sprievod
+N Vianoce
+N Štedrý večer
+N Santa Claus
+N vianočný stromček
+AN vianočný
+N Veľká noc
+N veľkonočný zajac
+N veľkonočné vajce
+N Nový rok
+N Silvester
+N narodeniny
+N výročie
+N jubileum
+N svadba
+N výročie svadby
+N krst
+V krstiť
+N pohreb
+N hrob
+N náhrobok
+N cintorín
+N rakva
+N zvon
+N ohňostroj
+N tabu
+N vianočný trh
+N Mikuláš
+N Turíce
+N ramadán
+N snúbenci
+N sústrasť
+N pamiatka
+N dar
+N jasot
+V nadšene vítať
+N rád
+N pečať
+V spečatiť
+V zapečatiť
+N zástava
+N advent
+
+# customs
+V vysvätiť

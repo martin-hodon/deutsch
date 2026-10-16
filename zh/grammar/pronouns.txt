@@ -1,0 +1,84 @@
+# personal
+1 P 我 {我} [wǒ] = ja
+1 P 你 {你} [nǐ] = ty
+1 P 他 {他} [tā] = on
+1 P 她 {她} [tā] = ona
+1 P 它 {它} [tā] = ono
+1 P 我们 {我们} [wǒmen] = my
+1 P 你们 {你们} [nǐmen] = vy (neformálne množné číslo)
+1 P 您 {您} [nín] = vy (zdvorilé oslovenie)
+1 P 咱们 {咱们} [zánmen] = my
+
+# possessive
+1 P 我的 {我的} [wǒde] = môj
+1 P 你的 {你的} [nǐde] = tvoj
+1 P 他的 {他的} [tāde] = jeho
+1 P 她的 {她的} [tāde] = jej
+1 P 我们的 {我们的} [wǒmende] = náš
+1 P 你们的 {你们的} [nǐmende] = váš (neformálne)
+1 P 您的 {您的} [nínde] = Váš (zdvorilé oslovenie)
+2 P 其 {其} [qí] = jeho
+
+# reflexive-and-reciprocal
+1 P 自己 {自己} [zìjǐ] = sa (zvratné zámeno)
+1 P 自己 {自己} [zìjǐ] = sám
+3 P 本身 {本身} [běnshēn] = sám
+2 P 彼此 {彼此} [bǐcǐ] = navzájom
+2 P 对方 {对方} [duìfāng] = navzájom
+3 P 自身 {自身} [zìshēn] = sám
+2 P 本人 {本人} [běnrén] = sám
+
+# demonstrative
+1 P 这 {这} [zhè] = tento
+1 P 这个 {这个} [zhège] = tento
+1 AV 这次 {这次} [zhècì] = tentoraz
+1 AV 这回 {这回} [zhèhuí] = tentoraz
+1 P 那 {那} [nà] = tamten
+1 P 那个 {那个} [nàge] = tamten
+1 P 这种 {这种} [zhèzhǒng] = taký
+1 P 这样的 {这样的} [zhèyàng de] = taký
+1 PHR 这么一个 {这么一个} [zhème yī gè] = taký
+2 PHR 这样一个 {这样一个} [zhèyàng yī gè] = taký
+2 P 此 {此} [cǐ] = tento
+1 P 这些 {这些} [zhèxiē] = tento
+1 P 那些 {那些} [nàxiē] = tamten
+2 AV 此次 {此次} [cǐcì] = tentoraz
+
+# interrogative-and-relative
+1 P 谁 {谁} [shéi] = kto
+1 P 什么 {什么} [shénme] = čo
+1 P 哪个 {哪个} [nǎge] = ktorý
+1 P 哪 {哪} [nǎ] = ktorý
+1 PHR 什么样的 {什么样的} [shénmeyàng de] = aký
+1 PHR 哪种 {哪种} [nǎzhǒng] = aký
+2 P 何 {何} [hé] = čo
+2 P 啥 {啥} [shá] = čo
+1 P 哪些 {哪些} [nǎxiē] = ktorý
+1 PHR 什么样 {什么样} [shénmeyàng] = aký
+
+# indefinite
+1 P 人们 {人们} [rénmen] = sa (neurčitý podmet)
+1 P 有人 {有人} [yǒurén] = sa (neurčitý podmet)
+1 P 有人 {有人} [yǒurén] = niekto
+1 P 没人 {没人} [méirén] = nikto
+1 P 每个人 {每个人} [měi gè rén] = každý človek
+1 P 大家 {大家} [dàjiā] = každý človek
+1 P 一些 {一些} [yīxiē] = niektorý
+1 P 两个都 {两个都} [liǎng gè dōu] = obaja
+2 P 两者 {两者} [liǎngzhě] = obaja
+2 P 任何 {任何} [rènhé] = akýkoľvek
+1 P 几个 {几个} [jǐ gè] = niekoľkí
+1 PHR 一点 {一点} [yīdiǎn] = trochu
+2 PHR 稍微 {稍微} [shāowēi] = trochu
+1 P 没有 {没有} [méiyǒu] = žiadny
+1 P 有的 {有的} [yǒude] = niektorý
+1 PHR 一点点 {一点点} [yīdiǎndiǎn] = trochu
+1 PHR 有点儿 {有点儿} [yǒudiǎnr] = trochu
+
+# language-specific closed words (no Slovak word: a description)
+1 P 他们 {他们} [tāmen] = oni
+1 P 别人 {别人} [biéren] = iní ľudia (别人)
+1 P 咱 {咱} [zán] = my
+1 P 她们 {她们} [tāmen] = oni
+1 P 它们 {它们} [tāmen] = oni
+2 P 人家 {人家} [rénjia] = iní ľudia (别人)

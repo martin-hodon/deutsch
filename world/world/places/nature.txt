@@ -1,0 +1,48 @@
+# Nature places: landscapes and waters (outside); one PLACE line each, skipped nouns below
+PLACE roľa : out ; wetness vlhký ; size veľký ; loudness tichý_(pokojný) ; things zem | traktor | pluh | zrno | cesta_(komunikácia) | obloha ; people roľník
+PLACE potok : out ; loudness pokojný ; wetness mokrý ; colour modrý ; things voda | kameň | most | ryba | tráva | strom
+PLACE vrch : out ; temperature chladný ; space široký ; danger nebezpečný ; things kameň | cesta_(komunikácia) | sneh | strom | obloha | oblak ; people pešký_turista
+PLACE zátoka : out ; loudness pokojný ; colour modrý ; things voda | čln | piesok | vlna | pláž | loď
+PLACE rovina : out ; space široký ; loudness tichý_(pokojný) ; things tráva | obloha | pole | cesta_(komunikácia) | strom | oblak
+PLACE pole : out ; space široký ; loudness tichý_(pokojný) ; colour zelený ; things tráva | zrno | kvetina | cesta_(komunikácia) | traktor | strom ; people roľník
+PLACE rieka : out ; wetness mokrý ; loudness pokojný ; things voda | most | čln | breh | ryba | loď
+PLACE pohorie : out ; temperature chladný ; space široký ; danger nebezpečný ; things vrch | kameň | sneh | cesta_(komunikácia) | strom | oblak ; people pešký_turista
+PLACE terén : out ; space široký ; things cesta_(komunikácia) | plot | tráva | strom | kameň | gól
+PLACE vrchol : out ; temperature studený ; space široký ; danger nebezpečný ; things sneh | kameň | kríž | oblak | obloha | vrch ; people pešký_turista
+PLACE ľadovec : out ; temperature studený ; colour biely ; danger nebezpečný ; things ľad | sneh | vrch | kameň | voda | obloha ; weather studený {3} | sneh {3} | slnečný {2}
+PLACE záliv : out ; wetness mokrý ; colour modrý ; things voda | loď | čln | pobrežie | vlna | obloha
+PLACE polostrov : out ; wetness vlhký ; colour zelený ; things more | pláž | voda | pobrežie | strom | dom
+PLACE svah : out ; danger nebezpečný ; colour zelený ; things tráva | strom | kameň | cesta_(komunikácia) | kvetina | kopec
+PLACE jaskyňa : out ; light tmavý ; temperature chladný ; wetness vlhký ; things kameň | stena | voda | netopier | oheň | vchod
+PLACE kopec : out ; colour zelený ; space široký ; things tráva | strom | cesta_(komunikácia) | kvetina | dom | ovca
+PLACE ostrov : out ; space široký ; loudness pokojný ; things more | piesok | pláž | palma | čln | strom
+PLACE kanál : out ; wetness mokrý ; loudness pokojný ; things voda | čln | most | loď | breh | cesta_(komunikácia)
+PLACE pobrežie : out ; space široký ; wetness vlhký ; things more | pláž | piesok | vlna | loď | čajka ; weather veterný {3} | slnečný {3} | dážď {2}
+PLACE more : out ; space široký ; colour modrý ; wetness mokrý ; things voda | vlna | loď | čln | ryba | čajka ; weather slnečný {4} | veterný {3} | búrka {1}
+PLACE ústie : out ; wetness mokrý ; space široký ; things rieka | more | voda | čln | loď | breh
+PLACE Severné_more : out ; temperature chladný ; space široký ; colour sivý ; things voda | vlna | loď | pláž | čajka | piesok ; weather veterný {4} | chladný {3} | hmlistý {1}
+PLACE Baltské_more : out ; temperature chladný ; space široký ; colour modrý ; things voda | vlna | pláž | loď | čajka | piesok ; weather slnečný {3} | veterný {2} | teplý {2}
+PLACE oceán : out ; space široký ; colour modrý ; danger nebezpečný ; things voda | vlna | loď | ryba | ostrov | obloha
+PLACE park : out ; colour zelený ; loudness pokojný ; beauty krásny ; things strom | lavica | cesta_(komunikácia) | kvetina | tráva | rybník ; people dieťa
+PLACE pas : out ; temperature studený ; space tesný_(priestorovo) ; danger nebezpečný ; things vrch | ulica | sneh | kameň | cesta_(komunikácia) | auto
+PLACE mláka : out ; wetness mokrý ; size malý ; cleanliness špinavý ; things voda | dážď | topánka | ulica | kameň
+PLACE prameň : out ; wetness mokrý ; loudness pokojný ; cleanliness čistý_(bez_špiny) ; things voda | kameň | vrch | tráva | strom | potok
+PLACE trávnik : out ; colour zelený ; wetness vlhký ; things tráva | kvetina | strom | lavica | záhrada | lopta
+PLACE dažďový_prales : out ; temperature horúci ; wetness mokrý ; light tmavý ; colour zelený ; things strom | rastlina | opica | vták | rieka | list_(rastliny) ; weather dážď {6} | horúci {3} | búrka {2}
+PLACE jazero : out ; wetness mokrý ; loudness pokojný ; colour modrý ; things voda | čln | breh | ryba | strom
+PLACE pláž : out ; light svetlý ; temperature teplý ; colour žltý ; things piesok | more | vlna | slnko | mušľa | dáždnik | uterák ; weather slnečný {6} | horúci {3} | teplý {2} | veterný {1}
+PLACE močiar : out ; wetness mokrý ; light tmavý ; cleanliness špinavý ; danger nebezpečný ; things voda | blato | rastlina | žaba | komár | strom
+PLACE dolina : out ; colour zelený ; loudness pokojný ; things vrch | rieka | lúka | dedina | cesta_(komunikácia) | strom
+PLACE rybník : out ; wetness mokrý ; loudness pokojný ; size malý ; things voda | ryba | kačica | žaba | lavica | strom
+PLACE breh : out ; wetness vlhký ; loudness pokojný ; things voda | piesok | tráva | čln | strom
+PLACE sopka : out ; temperature horúci ; danger nebezpečný ; colour sivý ; things vrch | oheň | dym | kameň | popol | obloha
+PLACE les : out ; light tmavý ; temperature chladný ; loudness tichý_(pokojný) ; colour zelený ; things strom | list_(rastliny) | huba | cesta_(komunikácia) | zviera | vták
+PLACE vodopád : out ; loudness hlasný ; wetness mokrý ; beauty krásny ; things voda | kameň | vrch | rieka | strom | most
+PLACE vinica : out ; light svetlý ; colour zelený ; things víno | hrozno | kopec | cesta_(komunikácia) | slnko | dom ; people vinohradník ; weather slnečný {5} | teplý {3} | horúci {2}
+PLACE lúka : out ; colour zelený ; loudness pokojný ; beauty krásny ; things tráva | kvetina | včela | motýľ | krava | strom
+PLACE púšť : out ; temperature horúci ; wetness suchý ; light svetlý ; loudness tichý_(pokojný) ; things piesok | duna | ťava | kaktus | kameň | slnko ; weather slnečný {6} | horúci {4} | veterný {1}
+# skipped Eisberg -- a thing in the sea, not a place one is in
+# skipped Festland -- abstract region (the mainland as opposed to islands)
+# skipped Gewässer -- collective term, no concrete place
+# skipped Landschaft -- abstract (a view / region), not a place one is in
+# skipped Strom -- meaning here is "current" (prúd), not a place

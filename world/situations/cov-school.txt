@@ -1,0 +1,224 @@
+# Coverage situations, settings school / science / language / media / culture (round 3): pens, school things, study verbs, media things and culture words said where the story says them.
+
+SITUATION schreibstunde : school -- im Klassenzimmer schreiben
+  place   učebňa
+  people  učiteľ | priateľ
+  things  tabuľa | stôl | zošit
+  own     guľôčkové_pero
+  want    chuť : verb=zapísať patient=indef:veta ; uses guľôčkové_pero | zošit
+  trouble guľôčkové_pero prázdny : nahradiť
+
+SITUATION geometrie : school -- im Gymnasium rechnen
+  place   gymnázium
+  people  priateľ | učiteľ
+  things  trieda | tabuľa | stôl | zošit
+  own     kalkulačka | pravítko
+  want    chuť : verb=vypočítať patient=def:plocha ; uses kalkulačka | pravítko
+  trouble kalkulačka pokazený : nahradiť
+  trouble pravítko pokazený : nahradiť
+
+SITUATION kurs-lernen : school -- in der Volkshochschule einen Text lernen
+  place   ľudová_škola
+  people  učiteľ | priateľ
+  things  tabuľa | stôl | stolička_(nábytok) | kniha | zošit
+  own     ceruzka
+  want    chuť : verb=podčiarknuť patient=def:text ; uses ceruzka | kniha
+  want    chuť : verb=zhrnúť patient=def:odsek ; uses zošit | ceruzka
+  trouble ceruzka pokazený : nahradiť
+
+SITUATION grundschule-malen : school -- in der Grundschule mit Buntstiften
+  place   základná_škola
+  people  učiteľka | priateľ
+  things  trieda | stôl | zošit | stolička_(nábytok) | guma_(na_gumovanie)
+  own     pastelka
+  want    chuť : verb=maľovať patient=indef:dom ; uses pastelka | papier
+  trouble pastelka pokazený : nahradiť
+  lack    papier : obchod
+
+SITUATION würfelspiel : school -- am Tisch ein Spiel mit Würfeln
+  place   jedáleň_(v_byte)
+  people  kin | priateľ
+  things  stôl | stolička_(nábytok)
+  want    chuť : verb=hrať patient=indef:hra ; uses kocka | stôl
+  lack    kocka : obchodný_dom
+
+SITUATION schulzimmer-kleben : school -- zu Hause ein Foto kleben
+  place   izba
+  people  kin | priateľ
+  things  stôl | stolička_(nábytok) | papier | školská_taška
+  want    chuť : verb=lepiť patient=indef:fotka ; uses lepidlo | papier
+  trouble lepidlo prázdny : nahradiť
+
+SITUATION referat : school -- im Klassenzimmer ein Referat üben
+  place   učebňa
+  people  učiteľ | priateľ
+  things  tabuľa | stôl | projektor
+  own     laptop
+  want    nervózny : verb=opakovať patient=def:referát ; uses projektor | laptop
+  trouble projektor pokazený : opraviť by školník
+  trouble laptop prázdny : nabiť
+
+SITUATION bibliothek-kopie : school -- in der Bibliothek lesen und kopieren
+  place   knižnica
+  people  knihovník | priateľ
+  things  polica | stôl | lampa | tlačiareň
+  own     okuliare
+  want    chuť : verb=čítať patient=indef:kniha ; uses lampa | okuliare
+  want    chuť : verb=kopírovať patient=indef:strana ; uses tlačiareň | papier
+  trouble tlačiareň pokazený : opraviť by knihovník
+  trouble lampa pokazený : opraviť by školník
+  trouble okuliare špinavý : čistiť
+  lack    papier : obchod
+
+SITUATION uni-anmeldung : school -- auf dem Campus anmelden
+  place   kampus
+  people  študent | priateľ
+  things  počítač | stôl
+  own     preukaz
+  want    čas : verb=zapísať_sa ; uses počítač | preukaz
+  trouble počítač pokazený : opraviť by technik
+
+SITUATION labor-probe : science -- im Labor eine Probe untersuchen
+  place   laboratórium
+  people  výskumník | kolega
+  things  mikroskop | počítač | senzor | sklenica | stôl
+  want    chuť : verb=analyzovať patient=indef:vzorka ; uses mikroskop | počítač
+  want    chuť : verb=zistiť patient=def:hodnota ; uses senzor | počítač
+  trouble mikroskop špinavý : čistiť
+  trouble senzor pokazený : nahradiť by technik
+  trouble počítač pokazený : opraviť by technik
+
+SITUATION wiese-rakete : science -- auf der Wiese eine Rakete starten
+  place   lúka
+  people  priateľ | kin
+  things  tráva
+  own     raketa | pumpa | lupa
+  want    chuť : verb=štartovať patient=def:raketa ; uses raketa | pumpa
+  want    chuť : verb=objaviť patient=indef:chrobák ; uses lupa
+  trouble raketa pokazený : lepiť
+  trouble pumpa pokazený : opraviť
+  trouble lupa špinavý : čistiť
+
+SITUATION sprachlabor : language -- im Klassenzimmer Sprachen üben
+  place   učebňa
+  people  učiteľ | priateľ
+  things  stôl | zošit
+  own     slúchadlo
+  want    chuť : verb=vypočuť_si patient=indef:dialóg ; uses slúchadlo
+  want    chuť : verb=tvoriť patient=none:veta+pl ; uses zošit
+  trouble slúchadlo pokazený : nahradiť
+
+SITUATION arbeitszimmer-brief : language -- einen Brief aus dem Ausland lesen
+  place   pracovňa
+  people  kin | priateľ
+  things  písací_stôl | lampa | slovník | zošit | list_(písomnosť)
+  own     ceruzka
+  want    chuť : verb=preložiť patient=def:list_(písomnosť) ; uses slovník | lampa
+  want    chuť : verb=formulovať patient=indef:veta ; uses zošit | ceruzka
+  trouble lampa pokazený : opraviť
+  trouble ceruzka pokazený : nahradiť
+
+SITUATION arbeitszimmer-tastatur : media -- am Computer Briefe schreiben
+  place   pracovňa
+  people  kin | priateľ
+  things  písací_stôl | počítač | klávesnica | lampa
+  want    chuť : verb=písať patient=indef:e-mail ; uses počítač | klávesnica
+  want    chuť : verb=písať patient=indef:list_(písomnosť) ; uses klávesnica
+  trouble klávesnica pokazený : opraviť
+  trouble klávesnica špinavý : čistiť
+  trouble počítač pokazený : opraviť
+
+SITUATION büro-rechner : media -- im Büro am Rechner
+  place   kancelária
+  people  kolega | technik
+  things  písací_stôl | počítač | monitor | stolička_(nábytok)
+  want    chuť : verb=písať patient=indef:program ; uses počítač | monitor
+  want    chuť : verb=prepracovať patient=def:správa_(o_udalosti) ; uses počítač | monitor
+  trouble monitor pokazený : nahradiť by technik
+  trouble počítač pokazený : opraviť by technik
+
+SITUATION park-smartphone : media -- im Park mit dem Smartphone
+  place   park
+  people  priateľ | kin
+  things  lavica | strom
+  own     smartfón
+  want    chuť : verb=nahrať_(v_štúdiu) patient=indef:video ; uses smartfón
+  want    chuť : verb=stiahnuť patient=indef:pieseň ; uses smartfón
+  trouble smartfón prázdny : nabiť
+  trouble smartfón mokrý : sušiť
+
+SITUATION wohnzimmer-tablet : media -- abends mit dem Tablet
+  place   obývačka
+  people  kin | priateľ
+  things  pohovka | televízor | diaľkový_ovládač | lampa
+  own     tablet | slúchadlo
+  want    chuť : verb=pozrieť_si patient=indef:video ; uses tablet | slúchadlo
+  want    chuť : verb=zapnúť_(prístroj) patient=def:televízor ; uses diaľkový_ovládač
+  trouble tablet prázdny : nabiť
+  trouble slúchadlo pokazený : nahradiť
+  trouble diaľkový_ovládač pokazený : nahradiť
+
+SITUATION studio-sendung : media -- im Studio eine Sendung machen
+  place   štúdio
+  people  kolega | technik
+  things  kamera | mikrofón | lampa | kábel | reproduktor
+  want    chuť : verb=nahrať_(v_štúdiu) patient=indef:vysielanie ; uses mikrofón | kamera
+  want    chuť : verb=nahrať_(v_štúdiu) patient=indef:pieseň ; uses mikrofón | kábel
+  trouble mikrofón pokazený : nahradiť by technik
+  trouble kábel pokazený : nahradiť by technik
+  trouble kamera pokazený : opraviť by technik
+
+SITUATION wiese-drohne : media -- auf der Wiese mit der Drohne
+  place   lúka
+  people  priateľ | kin
+  things  tráva | strom
+  own     dron
+  want    chuť : verb=filmovať patient=def:lúka ; uses dron
+  trouble dron pokazený : opraviť
+  trouble dron prázdny : nabiť
+
+SITUATION zimmer-geige : culture -- Geige üben und ein Lied schreiben
+  place   izba
+  people  kin | priateľ
+  things  stolička_(nábytok) | klavír | okno
+  own     husle
+  want    chuť : verb=cvičiť_(nácvik) patient=none:husle ; uses husle
+  want    chuť : verb=skladať patient=indef:pieseň ; uses klavír | papier
+  trouble husle pokazený : opraviť
+  lack    papier : obchod
+
+SITUATION marktplatz-denkmal : culture -- auf dem Marktplatz das Denkmal ansehen
+  place   námestie
+  people  priateľ | kin
+  things  pamätník | lavica | fontána
+  own     kamera
+  want    chuť : verb=prezrieť_si patient=def:pamätník ; uses mapa
+  want    chuť : verb=fotografovať patient=def:pamätník ; uses kamera
+  trouble kamera mokrý : sušiť
+  lack    mapa : kiosk
+
+SITUATION bühne-aufführung : culture -- auf der Bühne ein Stück aufführen
+  place   javisko
+  people  herec | priateľ
+  things  záves | svetlo | svetlomet | stolička_(nábytok)
+  want    chuť : verb=predviesť patient=indef:divadelná_hra ; uses svetlomet | záves
+  trouble svetlomet pokazený : nahradiť by technik
+  trouble záves pokazený : opraviť by technik
+
+SITUATION park-leinwand : culture -- im Park eine Landschaft malen
+  place   park
+  people  priateľ | kin
+  things  lavica | strom
+  own     plátno | paleta | štetec
+  want    chuť : verb=maľovať patient=indef:krajina_(prírodná) ; uses plátno | paleta | štetec
+  trouble plátno mokrý : sušiť
+  trouble štetec špinavý : umývať
+
+SITUATION galerie-ausstellung : culture -- in der Galerie ausstellen
+  place   galéria
+  people  umelec | návštevník
+  things  stena | socha | svetlo | rám | socha
+  want    chuť : verb=vystaviť_(na_výstave) patient=none:obraz+pl ; uses rám | stena
+  want    chuť : verb=vystaviť_(na_výstave) patient=def:socha ; uses svetlo
+  trouble rám pokazený : nahradiť
+  trouble svetlo pokazený : opraviť by technik

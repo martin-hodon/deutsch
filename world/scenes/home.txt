@@ -1,0 +1,36 @@
+# HOME: living, sleeping, cleaning, spending the evening
+SETTING home
+N byt
+N dom
+N izba
+N posteľ
+N pohovka
+N televízor
+N okno
+N dvere
+N kľúč
+N lampa
+N kúpeľňa
+N sprcha
+N matka : family
+N otec : family
+N brat : family
+N sestra : family
+N kniha
+N noviny
+V spať
+V vstať
+V sprchovať sa
+V čistiť
+V upratať
+V pozerať televíziu
+V čítať
+V hrať
+V bývať
+V otvoriť
+V zavrieť
+V umývať
+V opraviť
+V oddýchnuť si
+V zavolať
+V navštíviť

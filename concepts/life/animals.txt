@@ -1,0 +1,284 @@
+# animal-general
+N zviera
+N domáce zviera
+N šelma
+N divé zviera
+N cicavec
+N hospodárske zviera
+N sob
+N leňochod
+N mul
+N vtákopysk
+AN zvierací
+N zver
+AN divoký : adverb divoko
+AN krotký : adverb krotko
+V skrotiť
+N korisť
+V ukoristiť
+N beštia
+N samec
+N samica
+N útulok pre zvieratá
+N škodca
+N štvornožec
+
+# mammals-wild
+N medveď
+N ľadový medveď
+N macko
+N mýval
+N vlk
+N vlčica
+N líška
+N jeleň
+N srna
+N zajac
+N králik
+N veverička
+N jež
+N myš
+N netopier
+N potkan
+N lev
+N levica
+N tiger
+N slon
+N chobot
+N opica
+N žirafa
+N zebra
+N ťava
+N klokan
+N los
+N veľryba
+N delfín
+N tuleň
+N leopard
+N vydra
+N bobor
+N krt
+N jazvec
+N lasica
+N antilopa
+N byvol
+N bizón
+N panda
+N gorila
+N gepard
+N škrečok
+N mrož
+N rys
+N šimpanz
+N hyena
+N šakal
+N panter
+N puma
+N gazela
+N fretka
+N koala
+N surikata
+
+# mammals-domestic
+N pes
+N suka
+N ovčiak
+N šteňa
+N mačka
+N mačiatko
+N kocúr
+N kôň
+N hroch
+N morský koník
+N žrebec
+N kobyla
+N žriebä
+N poník
+N krava
+N teľa
+N hovädo
+N býk
+N vôl
+N prasa
+N diviak
+N dikobraz
+N morča
+N prasiatko
+N ovca
+N jahňa
+N koza
+N somár
+N plemeno
+N ohrada
+N sliepka
+
+# birds
+N vták
+N sťahovavý vták
+N spevavec
+N dravec
+N kanárik
+N orol
+N sova
+N vrana
+N havran
+N vrabec
+N lastovička
+N bocian
+N žeriav (vták)
+N kačica
+N hus
+N kura
+N kuriatko
+N kohút
+N moriak
+N holub
+N labuť
+N papagáj
+N páv
+N tučniak
+N pštros
+N slávik
+N kukučka
+N ďateľ
+N čajka
+N straka
+N červienka
+N bažant
+N plameniak
+N pelikán
+N volavka
+N sokol
+N sup
+N kos
+N pinka
+N škovránok
+N prepelica
+N oriešok
+N jastrab
+
+# fish-reptiles-amphibians
+N ryba
+V loviť ryby
+N zlatá rybka
+N tuniak
+N sépia
+N žralok
+N losos
+N kapor
+N pstruh
+N šťuka
+N úhor
+N treska
+N sleď
+N sumec
+N raja
+N krab
+N homár
+N chobotnica
+N medúza
+N morská hviezdica
+N mušľa
+N ustrica
+N žaba
+N ropucha
+N žubrienka
+N mlok
+N salamandra
+N had
+N jedovatý had
+V vinúť sa
+N vretenica
+N kobra
+N pytón
+N jašterica
+N gekón
+N leguán
+N chameleón
+N korytnačka
+N krokodíl
+N aligátor
+
+# insects-small
+N hmyz
+N havaď
+N mucha
+N komár
+N včela
+N včela medonosná
+N osa
+N sršeň
+N čmeliak
+N mravec
+N termit
+N motýľ
+N húsenica
+N chrobák
+N lienka
+N vážka
+N svrček
+N kobylka
+N saranča
+N šváb
+N blcha
+N kliešť
+N pavúk
+N pavučina
+N škorpión
+N stonožka
+N červ
+N slimák
+N slizniak
+N ulita
+N moľa
+N larva
+
+# animal-parts-life
+N chvost
+N krídlo
+N pero (vtáka)
+N operenie
+N srsť
+N kožušina
+N pazúr
+N labka
+N kopyto
+N roh (zvieraťa)
+N nosorožec
+N parohy
+N kel
+N zobák
+N šupina
+N plutva
+N žiabra
+N tykadlo
+N škrupina
+N hniezdo
+N osteň
+AN ostnatý
+N hriva
+N fúz
+N papuľa
+V štekať
+V vyť
+V revať
+V vrčať
+V priasť
+V mňaukať
+V syčať
+V bzučať
+V štebotať
+V bučať
+V kvákať
+V chrochtať
+V kdákať
+V kikiríkať
+N svorka (zvierat)
+N roj
+N klietka
+N vodítko
+N miska
+N fronta
+
+# more
+N biologický druh

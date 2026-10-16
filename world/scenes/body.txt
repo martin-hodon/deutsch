@@ -1,0 +1,1308 @@
+# BODY GROUP: family and social life, health and medicine, the body, body movements, life processes
+
+SETTING everyday
+N osoba
+N pán
+N dáma
+N chlapec
+N dievča
+N chlap
+N mládenec
+N ľudstvo
+N mládež
+N mladistvý
+N tínedžer
+N dospelý
+N senior
+N seniorka
+N najstarší
+N rovesník
+N pomocník
+N dobrovoľník
+N idiot
+N neznámy
+N pomoc
+N vďaka
+V ďakovať
+V poďakovať sa
+V ospravedlniť sa
+N ospravedlnenie
+V páčiť sa
+N láskavosť
+V odpustiť
+V odpustiť
+V rešpektovať
+N rešpekt
+V dôverovať
+N dôvera
+N nedôvera
+V zradiť
+N zradca
+N vernosť
+N zdvorilosť
+N etiketa
+N takt
+N hádka
+N šibalstvo
+V podporovať
+N podpora
+V starať sa
+V chrániť
+N ochrana
+V ochrániť
+V povzbudiť
+V zmieriť sa
+N zmierenie
+V oklamať
+N klam
+N kompromis
+N dôstojnosť
+V inšpirovať
+N inšpirácia
+V tolerovať
+N tolerancia
+V miešať sa
+V provokovať
+N provokácia
+V stretnúť sa
+N stretnutie
+V dohodnúť sa
+N dohoda
+V snažiť sa
+N úsilie
+N pomsta
+V pomstiť
+N obľúbenosť
+N pokora
+V ponížiť
+N poníženie
+V napodobňovať
+N napodobenina
+N potupa
+V poslúchať
+N poslušnosť
+V doberať si
+V šikanovať
+N šikana
+N rival
+N rivalita
+N milosť
+N rozlúčka
+V rozlúčiť sa
+V pozdraviť
+N pozdrav
+V privítať
+N privítanie
+N spoločník
+N sprievod
+V sprevádzať
+N známy
+N známosť
+N kamarát
+N kamarát
+N priateľstvo
+V stretnúť
+N stretnutie
+N miesto stretnutia
+V dorazit
+N príchod
+V znova vidieť
+N opätovné stretnutie
+V predstaviť
+V zastaviť sa
+V sadnúť si
+V ležať
+V držať
+V niesť
+V ukázať
+V visieť
+V zavesiť
+V otáčať
+V začať
+V byť k dispozícii
+V ťahať
+V tlačiť
+V stlačiť
+V dvíhať
+V chytiť
+N krok
+V vyskočiť
+V kĺzať sa
+V gúľať sa
+V potknúť sa
+V pridržať
+V zadržať
+V zodvihnúť
+V zdvihnúť
+V odložiť
+V uprednostniť
+V stiahnuť sa
+V triasť
+V otriasť
+N dojem
+V zapôsobiť
+V trhať
+V roztrhnúť
+V prikývnuť
+N tip
+V čupieť
+V skrčiť sa
+V čupieť
+V vzpriamiť
+V kráčať
+V vykračovať
+V ustúpiť
+V prekrúcať
+V prikývnuť
+V trhnúť sa
+V striasť sa
+N pokrčenie plecami
+V šťuchnúť
+V šťuchnúť
+V zovrieť
+V lúskať
+V pokynúť k sebe
+V zamávať
+V odmávnuť
+N náznak
+V vyčítať
+N výčitka
+V prispieť
+V zniesť
+V znášať
+V chopiť
+V odchýliť sa
+N odchýlka
+V plížiť sa
+V pošmyknúť sa
+V zošmyknúť sa
+V nadvihnúť
+V namáhavo zdvihnúť
+V žmurkať
+V štipnúť
+V uhnúť
+V žiť
+N život
+N zážitok
+V zažiť
+N vek
+N živý tvor
+V existovať
+V prežiť
+N rozpad
+V chátrať
+V vyvíjať sa
+V oživiť
+N zrelosť
+V utrpieť
+V prekážať
+N sedadlo
+N trať
+SETTING home
+N rodičia : family
+N otec : family
+N dedko : family
+N mama : family
+N babka : family
+N syn : family
+N dcéra : family
+N súrodenci : family
+N rodič : family
+N starí rodičia : family
+N starý otec : family
+N stará mama : family
+N vnuk : family
+N strýko : family
+N teta : family
+N bratranec : family
+N sesternica : family
+N príbuzný : family
+N vnučka : family
+N synovec : family
+N neter : family
+N nevlastný otec : family
+N svokor : family
+N nevlastná matka : family
+N svokra : family
+N zať : family
+N synova : family
+N vnúča : family
+N švagor : family
+N dvojča : family
+N miláčik : family
+N manžel : family
+N manželka : family
+N manželský partner : family
+N životný partner : family
+N životná partnerka : family
+N spolubývajúci : family
+N hostiteľ : family
+N hostiteľka : family
+N sirota : family
+N bábätko : family
+N malé dieťa : family
+N dojča : family
+N novorodenec : family
+N vychovávateľ : family
+N opatrovateľ detí : guest
+N návštevník : guest
+N návštevníčka : guest
+N sused : guest
+N susedka : guest
+N izba
+N návšteva
+N sedadlo
+V opierať
+V oprieť sa dozadu
+V opierať
+N operadlo
+V liezť po štyroch
+V rozvaliť sa
+V nasťahovať sa
+V vyhodiť
+V zavesiť
+V klopať
+V zaklopať
+V zakryť
+V zrolovať
+V vyžmýkať
+V ovinúť
+N susedstvo
+N darček
+V zobudiť sa
+V zaspať
+V prespať
+V prebudiť sa
+V budiť
+V vyspať sa
+V driemať
+V chrápať
+V zívať
+V odpočívať
+N únava
+N vyčerpanie
+V unaviť
+V vysiliť
+N spánok (stav)
+N zápalka
+SETTING family
+N rodičia
+N otec
+N dedko
+N mama
+N babka
+N syn
+N dcéra
+N súrodenci
+N rodič
+N starí rodičia
+N starý otec
+N stará mama
+N vnuk
+N strýko
+N teta
+N bratranec
+N sesternica
+N príbuzný
+N vnučka
+N synovec
+N neter
+N nevlastný otec
+N svokor
+N nevlastná matka
+N svokra
+N zať
+N synova
+N vnúča
+N švagor
+N dvojča
+N miláčik
+N manžel
+N manželka
+N manželský partner
+N životný partner
+N životná partnerka
+N malé dieťa
+N bábätko
+N dojča
+N novorodenec
+N sirota
+N krstný otec
+N krstná matka
+N poručník
+N vychovávateľ
+N detstvo
+N generácia
+N výchova
+V vychovať
+V vychovať
+V adoptovať
+N adopcia
+N predok
+N príbuzenstvo
+N blízky
+N potomok
+N dorast
+N starý mládenec
+N single
+N sobáš
+V oženiť sa
+N manželstvo
+N manželský pár
+N rozvod
+V zasnúbiť sa
+N zásnuby
+N snúbenec
+N nevesta
+N ženích
+N vdova
+N vdovec
+N partner
+N partnerka
+N partnerstvo
+N medové týždne
+N hostiteľ
+N hostiteľka
+N pohostinnosť
+N návšteva
+N návštevník
+N návštevníčka
+V pozvať
+N pozvanie
+N darček
+V darovať (darček)
+V dohodnúť si stretnutie
+N dohodnuté stretnutie
+N sused
+N susedka
+N klub
+V objať
+N objatie
+V bozkávať
+N bozk
+V flirtovať
+N flirt
+N romanca
+N milenec
+N pripútanosť
+V liezť po štyroch
+V ovinúť
+V hladkať
+N puberta
+V vyrastať
+V kŕmiť
+V sať
+N opatrovateľ detí
+N spolubývajúci
+N láskavosť
+N pôrod
+N tehotenstvo
+V prijať (hosťa)
+N pomoc
+SETTING celebration
+N večierok
+N darček
+V darovať (darček)
+V blahoželať
+V pozvať
+N pozvanie
+N nevesta
+N ženích
+N sobáš
+N zásnuby
+N hostiteľ
+N hostiteľka
+N krstný otec
+N krstná matka
+N návšteva
+N návštevník
+N návštevníčka
+N šibalstvo
+SETTING town
+N sused
+N susedka
+N susedstvo
+N neznámy
+N šmykľavka
+V korzovať
+V prechádzať sa
+N prechádzka
+N hostinský
+N posol
+SETTING restaurant
+N hostinský : staff
+V zobrať si
+V zjesť
+V vypiť
+N chuť do jedla
+N hlad
+N smäd
+V žuť
+V prehĺtať
+N dúšok
+V poutierať
+SETTING office
+N posol : staff
+V stáť v rade
+N škrtnutie
+V prečiarknuť
+V predložiť
+N zdravotný úrad
+N zdravotná poisťovňa
+N zdravotné poistenie
+N prístup
+N inzerát
+SETTING shop
+V stáť v rade
+V zobrať si
+V konzumovať
+N spotreba
+N spotrebiteľ
+N kozmetika
+V zabaliť
+N nosič
+SETTING kitchen
+V zjesť
+V vypiť
+N chuť do jedla
+N hlad
+N smäd
+V žuť
+V prehĺtať
+N dúšok
+N potrava
+N potravina
+N tuk
+N diéta
+N kalória
+N vitamín
+V stlačiť
+V rozdrviť
+V trieť
+V poutierať
+N rez
+V odrezať
+N ostrie
+V triasť
+V vyhodiť
+N zápalka
+V tráviť
+N trávenie
+V hrýzť
+V odhryznúť
+N uhryznutie
+V chrúmať
+V srkať
+V lízať
+N žuvačka
+N štikútavka
+V zadúšať sa
+V zobrať si
+V živiť
+N výživa
+V pľuť
+V vypľuť
+N slina
+V olízať
+V hlodať
+SETTING bathroom
+N vlasy
+N zub
+N necht
+N strih
+N účes
+N brada (porast)
+N fúzy
+V trieť
+V votrieť
+V pootočiť
+V vyžmýkať
+V vytrhať
+V odrezať
+N hygiena
+N kozmetika
+N pot
+V potiť sa
+N ďasno
+N zubná sklovina
+N stolička (zub)
+N bolesť zubov
+SETTING garden
+V kopať
+V vykopať
+V zakopať
+V šklbať
+V prosperovať
+V rásť
+V dozrievať
+N zrelosť
+V odumrieť
+V hniť
+SETTING nature
+V putovať
+N túra
+N pešký turista
+V prechádzať sa
+N prechádzka
+V liezť
+V loviť
+N poľovačka
+V zahnať
+V plaziť sa
+V chňapnúť
+V chňapnúť
+V škrabať
+N škrabanec
+V hladkať
+N bodnutie
+N jed
+V rásť
+N rast
+V vymrieť
+V rozmnožovať sa
+N rozmnožovanie
+V páriť sa
+N párenie
+V vyliahnuť sa
+V hniť
+V slintať
+V dychčať
+V zomrieť od smädu
+V zvliekať kožu
+N zvliekanie kože
+V dojčiť
+V odumrieť
+V prosperovať
+V poskakovať
+V poskakovať
+V olízať
+V hlodať
+SETTING farm
+V loviť
+N poľovačka
+V zahnať
+V cválať
+N cval
+V klusať
+N klus
+V zhodiť
+V chytiť späť
+V priviazať
+V potľapkať
+N kŕmenie
+V kŕmiť
+V dojčiť
+V prosperovať
+N zrelosť
+V dozrievať
+V kopať
+N veterinár
+SETTING water
+V plávať
+N plavec
+V potápať sa
+V vynoriť sa
+V ponoriť sa
+N potápač
+V brodiť sa
+N úlovok
+V strhnúť so sebou
+V utopiť sa
+SETTING sport
+V bežať
+V skákať
+V plávať
+V bežať
+V behať
+V hodiť
+N hod
+V chytať
+V zachytiť
+V biť
+N úder
+V kopnúť
+N kop
+N skok
+V poskakovať
+V poskakovať
+V liezť
+V balansovať
+N rovnováha
+N rovnováha
+V preskočiť
+V šprintovať
+N šprint
+N šprintér
+N útočník (v športe)
+V vtrhnúť
+N trať
+V ohnúť
+V vystrieť
+V vystrieť
+V nastúpiť (do radu)
+V otvoriť
+V tlieskať
+N plavec
+V kmitať
+N elán
+V cválať
+N cval
+V klusať
+N klus
+N natiahnutie (svalu)
+V zovrieť
+V trhať
+N držanie tela
+V vymknúť si
+N vymknutie
+N sval
+N svalová horúčka
+N pot
+V dýchať
+N dych
+N dýchanie
+V vdychovať
+V vydychovať
+V ťažko dýchať
+V dychčať
+N klub
+N rivalita
+V skrútiť
+N pomliaždenina
+SETTING travel
+V lietať
+V odletieť
+V preletieť
+N letec
+V putovať
+N túra
+N pešký turista
+N nosič
+V mávať (rukou)
+V prekročiť
+V odsťahovať sa
+V prisťahovať sa
+N recepcia
+V predložiť
+N medové týždne
+N pohostinnosť
+N zotavenie
+N liečebný pobyt
+SETTING traffic
+V uhnúť
+N trať
+N sedadlo
+V vliecť
+V mávať (rukou)
+V zahynúť
+SETTING doctor
+N zubár : staff
+N veterinár : staff
+N obvodný lekár : staff
+N lekárnik : staff
+N lekárnička : staff
+N pôrodná asistentka : staff
+N ošetrovateľ : staff
+N ošetrovateľka : staff
+N lekár záchrannej služby : staff
+N chirurg : staff
+N záchranár : staff
+N terapeut : staff
+N psychiater : staff
+N odborný lekár : staff
+N detský lekár : staff
+N lekár : staff
+V očkovať : staff
+V vyliečiť : staff
+V ošetrovať : staff
+V diagnostikovať : staff
+V masírovať : staff
+V röntgenovať : staff
+V sterilizovať : staff
+V porodiť : staff
+N chorý : patient
+N zranený : patient
+N uzdravený : patient
+N lekáreň
+N sanitka
+N liek proti bolesti
+N obväz
+N náplasť
+N očkovanie
+N vakcína
+N liečba
+N operácia
+N diagnóza
+N terapia
+N výsledok vyšetrenia
+N medicína
+N klinika
+N núdzový prípad
+N oddelenie (nemocničné)
+N jednotka intenzívnej starostlivosti
+N zdravotný úrad
+N zdravotná poisťovňa
+N ordinačné hodiny
+N odber krvi
+N krvný tlak
+N masť
+N pilulka
+N liek
+N preventívna prehliadka
+N antibiotikum
+N masáž
+N röntgen
+N röntgenová snímka
+N transplantácia
+N darca orgánu
+N darca
+N milodar
+N narkóza
+N ultrazvuk
+N sadra
+N stetoskop
+N antiseptikum
+N liečebný pobyt
+N rehabilitácia
+N teplomer
+N barla
+N nosidlá
+N klinické centrum
+N zdravotné poistenie
+N pohotovosť
+N domov pre seniorov (ošetrovateľský)
+N domov dôchodcov
+N opatrovateľská služba
+N záchranná služba
+N očkovací preukaz
+N nemocnica
+N zdravotníctvo
+N protijed
+N vedľajší účinok
+N karanténa
+N ošetrovanie
+N záchrana
+N invalidný vozík
+N bolesť hlavy
+N bolesť brucha
+N bolesť hrdla
+N bolesti chrbta
+N bolesť zubov
+N bolesť
+N rana
+N krv
+N srdce
+N zlomenina
+N zásah
+N rez
+V poklepať
+V potrieť
+V poutierať
+V votrieť
+N pôrod
+N tehotenstvo
+N tlkot srdca
+N chrbtica
+N maternica
+N uzdravenie
+N liečenie
+N zotavenie
+N choroba
+N symptóm
+N zlom
+N zranenie
+N infekcia
+N otrava
+N smrť
+N otras mozgu
+N srdcový infarkt
+N mozgová príhoda
+N kóma
+N zápal pľúc
+N psychiatria
+SETTING health
+N zdravie
+N choroba
+N bolesť
+N ochorenie
+N infekcia
+N pandémia
+N bolesť hlavy
+N bolesť brucha
+N bolesť hrdla
+N bolesti chrbta
+N bolesť zubov
+N nádcha
+N alergia
+N rakovina
+N rana
+N zranenie
+N zlom
+N symptóm
+N postihnutie
+N nevoľnosť
+N ochorenie
+N porucha
+N záchvat
+N izolácia (oddelenie)
+N hnačka
+N ohrozenie života
+N vírus
+N závislosť (choroba)
+N droga
+N drogy
+N konope
+N nákaza
+N epidémia
+N epidémia
+N pomliaždenina
+N jazva
+N opuch
+N vyrážka
+N ochrnutie
+N závrat
+N mdloba
+N nespavosť
+N imunita
+N imunitný systém
+N zápal
+N zápal pľúc
+N akné
+N nádor
+N migréna
+N mozgová príhoda
+N kóma
+N otras mozgu
+N vymknutie
+N cukrovka
+N astma
+N mor
+N obezita
+N krvná skupina
+N krvácanie
+N srdcový infarkt
+N depresia
+N nadváha
+N ťažkosti
+N bodnutie
+N baktéria
+N kalória
+N diéta
+N vitamín
+N cigareta
+N tabak
+N jed
+N hygiena
+N otrava
+N kozmetika
+N uzdravenie
+N zotavenie
+N liečenie
+N fajčiar
+N nefajčiar
+N uzdravený
+N chorý
+N zranený
+V ochorieť
+V nakaziť
+V nakaziť
+V bolieť
+V prechladnúť
+V zraniť
+V kýchať
+V paralyzovať
+V napúchať
+V zvracať
+V zvracať
+V trpieť
+V vymknúť si
+V zahojiť sa
+V uzdraviť sa
+V fajčiť
+V otráviť
+V krvácať
+N vedľajší účinok
+N zdravotníctvo
+N telo
+N časť tela
+N tvár
+N výraz tváre
+N oko
+N ucho
+N nos
+N ústa
+N zub
+N vlasy
+N plece
+N paža
+N ruka
+N prst
+N hruď
+N chrbát
+N noha (končatina)
+N koleno
+N noha (chodidlo)
+N mozog
+N srdce
+N krv
+N kosť
+N koža (orgán)
+N obočie
+N mihalnica
+N zrenica
+N pera
+N jazyk (orgán)
+N čeľusť
+N líce
+N brada (časť tváre)
+N čelo
+N brada (porast)
+N lebka
+N lakeť
+N zápästie
+N dlaň
+N päsť
+N necht
+N ukazovák
+N palec (prst)
+N hrudník
+N bok
+N stehno
+N lýtko
+N päta
+N prst na nohe
+N prst na nohe
+N členok
+N končatina
+N úd
+N pupok
+N trup
+N pľúca
+N žalúdok
+N pečeň
+N oblička
+N črevo
+N žila
+N nerv
+N nervová sústava
+N zlomenina
+N kostra
+N kĺb
+N sval
+N farba pleti
+N tuk
+N orgán
+N pot
+N slza
+N vráska
+N väzivo
+N hormón
+N pulz
+N tkanivo
+N pokožka hlavy
+N očné viečko
+N očná guľa
+N dúhovka
+N sietnica
+N ušný lalôčik
+N nozdra
+N kútik úst
+N ďasno
+N stolička (zub)
+N zubná sklovina
+N lícna kosť
+N spánok (časť hlavy)
+N fúzy
+N hrdlo
+N hrtan
+N jamka (v lícu)
+N peha
+N podnebie
+N účes
+N tetovanie
+N predlaktie
+N nadlaktie
+N chrbát ruky
+N špička prsta
+N prsia
+N chrbtica
+N pás
+N zadok
+N predkolenie
+N holenná kosť
+N kľúčna kosť
+N jabĺčko
+N chodidlo
+N kĺb prsta
+N podpazušie
+N podpazušie
+N pupok
+N slabina
+N šija
+N zadok
+N postava
+N tepna
+N kostná dreň
+N rebro
+N stavec
+N chrbtica
+N svalová horúčka
+N slina
+N šľacha
+N chrupavka
+N žľaza
+N štítna žľaza
+N podžalúdková žľaza
+N slezina
+N maternica
+N priedušnica
+N pór (v koži)
+N hlien
+N krčná mandľa
+N žila
+N žlč
+N strih
+N odtlačok prsta
+N hlad
+N smäd
+V hladovať
+V zomrieť od hladu
+N chuť do jedla
+N potrava
+N potravina
+V živiť
+N výživa
+V tráviť
+N trávenie
+N štikútavka
+V zadúšať sa
+N látková výmena
+N inštinkt
+N reflex
+N puberta
+V starnúť
+N dych
+N dýchanie
+V dýchať
+V vdychovať
+V vydychovať
+N tlkot srdca
+N búšenie srdca
+V mrkať
+V začervenať sa
+N červeň
+V slintať
+V škrtiť
+V uškrtiť
+V chvieť sa
+N únava
+N vyčerpanie
+V unaviť
+V vysiliť
+V zívať
+V driemať
+V chrápať
+V vyspať sa
+V odpočívať
+N spánok (stav)
+V zaspať
+V zobudiť sa
+N smrť
+V zomrieť
+N mŕtvy
+N mŕtvola
+N zosnulý
+N mŕtvola
+V zahynúť
+V škrabať
+N škrabanec
+N držanie tela
+V zniesť
+V znášať
+V krívať
+V potácať sa
+V štipnúť
+V trhať
+N natiahnutie (svalu)
+V skrútiť
+V potiť sa
+N uhryznutie
+V hrýzť
+V odhryznúť
+N dúšok
+V votrieť
+N zásah
+V zomrieť od smädu
+V zabiť
+N psychiatria
+SETTING science
+N bunka
+N gén
+N organizmus
+N hormón
+N tkanivo
+N pigment
+N membrána
+N kostra
+N látková výmena
+N inštinkt
+N reflex
+N rast
+V vyvíjať sa
+V rozmnožovať sa
+N rozmnožovanie
+V páriť sa
+N párenie
+N počatie
+N odchýlka
+V odchýliť sa
+N otras
+V kmitať
+N kmitanie
+N rovnováha
+N rovnováha
+V unikať
+N ručička
+N potomok
+SETTING law
+N odtlačok prsta
+V zasiahnuť
+V chopiť
+V zasiahnuť
+V ujsť
+V votrieť sa
+V nahlásiť
+N inzerát
+N bitka (výtržnosť)
+V udrieť
+V zabiť úderom
+V odsunúť
+V dať políčok
+N políček
+N poručník
+N droga
+N drogy
+N konope
+N milosť
+V škrtiť
+V uškrtiť
+V zabiť
+V otráviť
+N otrava
+N mŕtvola
+SETTING politics
+V zasiahnuť
+V zasiahnuť
+V odsunúť
+N solidarita
+N kompromis
+V odstúpiť
+N odstúpenie
+V zastupovať
+V zdvihnúť
+V odsťahovať sa
+V prisťahovať sa
+N hladomor
+N spotreba
+N spotrebiteľ
+V konzumovať
+N ľudstvo
+SETTING military
+V vtrhnúť
+V dobyť útokom
+V nastúpiť (do radu)
+V zabiť úderom
+V stiahnuť sa
+N letec
+V zabiť
+V prežiť
+SETTING work
+N zástupca : worker
+V zastupovať
+V prispieť
+V navrhnúť (projektovať)
+N spolupráca
+V spolupracovať
+SETTING craft
+V navrhnúť (projektovať)
+V vliecť
+V vybiť
+V zavesiť
+V viazať
+V zviazať dokopy
+V hladiť
+V poškriabať
+V rozovrieť
+V zbúrať
+V namáhavo zdvihnúť
+V nadvihnúť
+V zabaliť
+V odvinúť
+V navinúť
+N klinec
+V pribíjať
+V vystrihnúť
+N ostrie
+V poklepať
+V trhať
+N zásah
+SETTING school
+V zdôrazniť
+V odpočítať
+V otvoriť
+N škrtnutie
+V prečiarknuť
+V vystrihnúť
+N výchova
+N ručička
+N vychovávateľ : teacher
+SETTING media
+V zdôrazniť
+N prístup
+V nahlásiť
+N inzerát
+V ťukať
+V ťuknúť
+V začuť
+N momentka
+N recepcia
+N príjemca
+V zastarať
+V prijať (hosťa)
+SETTING language
+V začuť
+SETTING culture
+V uklonit sa
+V tlieskať
+V šklbať
+N tetovanie
+N dojem
+V zapôsobiť
+N klub
+V zakryť
+SETTING religion
+V kľačať
+V pokľaknúť
+N smrť
+V zomrieť
+N mŕtvy
+N zosnulý
+V pochovať
+N pohreb
+N mŕtvola
+N krstný otec
+N krstná matka
+N dobročinnosť
+N milosť
+N pokora
+N pomsta
+SETTING bank
+V odpočítať
+SETTING weather
+V pošmyknúť sa
+V strhnúť so sebou
+V zhluknúť sa
+V chvieť sa
+SETTING sky
+V preletieť
+V lietať

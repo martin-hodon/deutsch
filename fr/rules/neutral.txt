@@ -1,0 +1,162 @@
+# HOW FRENCH SAYS THE WORLD'S CLOSED WORDS (world/CLAUSES.md) -- as en/rules/neutral.txt: `KIND neutral = French`,
+# alternatives `|` ([place] [person] [surface] ...: the alternative for such a noun). A pronoun: subject/direct
+# object/indirect object/possessive (m, f, pl)/stressed/reflexive/its person (0 je .. 5 ils). Read by fr/realize.js.
+
+pron 1sg = je/me/me/mon,ma,mes/moi/me/0
+pron 2sg = tu/te/te/ton,ta,tes/toi/te/1
+pron 3sg.m = il/le/lui/son,sa,ses/lui/se/2
+pron 3sg.f = elle/la/lui/son,sa,ses/elle/se/2
+pron 3sg.n = il/le/lui/son,sa,ses/lui/se/2
+pron 1pl = nous/nous/nous/notre,notre,nos/nous/nous/3
+pron 2pl = vous/vous/vous/votre,votre,vos/vous/vous/4
+pron 3pl = ils/les/leur/leur,leur,leurs/eux/se/5
+pron 3pl.f = elles/les/leur/leur,leur,leurs/elles/se/5
+pron formal = vous/vous/vous/votre,votre,vos/vous/vous/4
+pron one = on/le/lui/son,sa,ses/soi/se/2
+pron someone = quelqu'un/le/lui/son,sa,ses/lui/se/2
+pron noone = personne/le/lui/son,sa,ses/lui/se/2
+pron something = quelque chose/le/lui/son,sa,ses/lui/se/2
+pron nothing = rien/le/lui/son,sa,ses/lui/se/2
+pron everything = tout/le/lui/son,sa,ses/lui/se/2
+pron this = ça/le/lui/son,sa,ses/ça/se/2
+pron that-one = il/le/lui/son,sa,ses/lui/se/2
+pron who = qui/le/lui/son,sa,ses/qui/se/2
+
+det def = le/la/les/les
+det indef = un/une/des/des
+det part = du/de la/des/des
+det this = ce/cette/ces/ces
+det every = chaque/chaque/tous les/toutes les
+det all = tout le/toute la/tous les/toutes les
+det some = quelque/quelque/quelques/quelques
+det both = les deux/les deux/les deux/les deux
+det many = beaucoup de/beaucoup de/beaucoup de/beaucoup de
+det much = beaucoup de/beaucoup de/beaucoup de/beaucoup de
+det little = peu de/peu de/peu de/peu de
+det several = plusieurs/plusieurs/plusieurs/plusieurs
+det few = peu de/peu de/peu de/peu de
+det which = quel/quelle/quels/quelles
+det no = aucun/aucune/aucuns/aucunes
+
+coord and = et
+coord but = mais
+coord or = ou
+coord for = car
+coord either = soit
+coord admittedly = certes
+coord as-well-as = ainsi que
+
+link because = parce que {3} | comme {1}
+link although = bien que
+link if = si
+link if-unreal = si
+link when = quand
+link when-past = quand
+link before = avant que
+link after = après que
+link as-soon-as = dès que
+link in-case = au cas où
+link while = pendant que
+link until = jusqu'à ce que
+link as-long-as = tant que
+link since = depuis que
+link so-that = pour que
+link by-doing = en
+link with-result = si bien que
+link without-that = sans que
+link instead-that = au lieu que
+link as-if = comme si
+link that = que
+link whether = si
+link purpose = pour
+link without = sans
+link instead = au lieu de
+
+mood subj = although|before|so-that|without-that|instead-that|until
+mood impf = if-unreal|as-if
+
+rel in = dans | à [place]
+rel into = dans | à [place]
+rel on = sur | à [place]
+rel onto = sur
+rel at = à | sur [surface]
+rel to-side = à
+rel to = à | chez [person]
+rel from = de
+rel off = de
+rel under = sous
+rel under-to = sous
+rel above = au-dessus de
+rel above-to = par-dessus
+rel behind = derrière
+rel behind-to = derrière
+rel front = devant
+rel front-to = devant
+rel beside = à côté de
+rel beside-to = à côté de
+rel between = entre
+rel through = à travers
+rel along = le long de
+rel around = autour de
+rel near = chez [person] | à
+rel with = avec
+rel without = sans
+rel by = en
+rel for = pour
+rel about = sur
+rel like = comme
+rel against = contre
+rel opposite = en face de
+rel smell-of = le
+rel after = après
+rel before = avant
+rel out-of = de
+rel because-of = à cause de
+rel despite = malgré
+rel during = pendant
+rel instead-of = au lieu de
+
+time on-day = le
+time in-period = en
+time at-hour = à
+time date = le
+time last = dernier
+time next = prochain
+time every = chaque
+time since = depuis
+time ago = il y a
+time in-time = dans
+
+wh who = qui
+wh whom = qui
+wh what = que
+wh when = quand
+wh where = où
+wh whence = d'où
+wh whither = où
+wh why = pourquoi
+wh how = comment
+wh how-old = quel âge
+wh how-late = quelle heure
+wh how-often = combien de fois
+wh which = quel
+wh what-kind = quel genre de
+wh how-many = combien de
+
+neg yes = ne pas
+neg no-more = ne plus
+neg not-yet = ne pas encore
+neg not-at-all = ne pas du tout
+
+# WORD LISTS (French words): adjectives before the noun; time words standing first; time words of the past and the
+# future; verbs said in the imparfait in the past; adverbs not made with -ment; the weather (il fait froid)
+list before = beau|bon|grand|petit|jeune|vieux|nouveau|joli|gros|mauvais|long|haut|meilleur|premier|dernier|autre
+list front = maintenant|alors|ensuite|puis|bientôt|ici|soudain|enfin|peu après
+list past = hier|avant-hier|récemment|autrefois|alors
+list future = demain|après-demain|bientôt|plus tard|ce soir|aujourd'hui
+list impf = habiter|bouillir|être|avoir|vivre|connaître|savoir|vouloir|pouvoir|devoir|pleuvoir|neiger|briller|bourdonner|sentir|attendre|falloir|sembler|paraître|croire|penser|aimer|ressembler|coûter|peser|exister|rester|siffler|flotter
+list adverb = profond:profondément|précis:précisément|énorme:énormément|aveugle:aveuglément|précoce:tôt|nombreux:beaucoup|bon:bien|mauvais:mal|rapide:vite|lent:lentement|gentil:gentiment|content:volontiers|concentré:avec concentration|prudent:prudemment|soigneux:avec soin|meilleur:mieux
+list weather = froid:froid|chaud:chaud|frais:frais|beau:beau|mauvais:mauvais
+list mid = souvent|toujours|jamais|déjà|encore|presque|aussi|bien|vraiment|parfois
+# the verbs conjugated with être in the passé composé (and every reflexive one)
+list etre = aller|venir|partir|arriver|entrer|sortir|rester|tomber|naître|mourir|devenir|revenir|retourner|monter|descendre|rentrer|parvenir|intervenir

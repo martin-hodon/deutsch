@@ -1,0 +1,138 @@
+# SITUATIONS of the settings work, craft, farm, factory, school, science (see everyday.txt for the format)
+
+SITUATION werkstatt : craft -- in der Werkstatt etwas bauen
+  place   dielňa
+  people  kolega | priateľ
+  things  píla | kladivo | doska | klinec
+  want    chuť : verb=stavať patient=indef:polica ; uses píla | kladivo
+  want    chuť : verb=stavať patient=indef:stôl ; uses píla | doska
+  trouble píla pokazený : opraviť
+  trouble kladivo pokazený : opraviť
+
+SITUATION streichen : craft -- die Wand streichen
+  place   izba
+  people  kin | priateľ
+  things  stena | dvere | vedro
+  own     štetec
+  want    chuť : verb=natrieť patient=def:stena ; uses štetec | farba
+  want    chuť : verb=natrieť patient=def:dvere ; uses štetec | farba
+  trouble štetec špinavý : umývať
+  lack    farba : obchod
+
+SITUATION bäckerei : craft -- früh in der Bäckerei
+  place   pekáreň
+  people  kolega
+  things  pec | múka | stôl
+  want    hladný : verb=piecť patient=none:chlieb ; uses pec | stôl
+  want    hladný : verb=piecť patient=none:žemľa ; uses pec
+  trouble pec pokazený : opraviť
+  trouble stôl špinavý : čistiť
+
+SITUATION schneiderei : craft -- ein Kleid nähen
+  place   dielňa
+  people  kolega | kin
+  things  šijací_stroj | látka | ihla | nožnice
+  want    chuť : verb=šiť patient=indef:šaty ; uses šijací_stroj | látka
+  trouble šijací_stroj pokazený : opraviť
+  trouble látka špinavý : umývať
+
+SITUATION bauernhof : farm -- auf dem Bauernhof
+  place   statok
+  people  kin | sused
+  things  traktor | krava | kôň | vedro | pole | maštaľ
+  want    chuť : verb=ísť_(dopravou) patient=none:traktor ; uses traktor
+  want    smädný : verb=piť patient=none:voda ; uses vedro
+  trouble traktor pokazený : opraviť by mechanik
+  trouble vedro prázdny : naplniť
+  trouble vedro špinavý : oplachovať
+
+SITUATION ernte : farm -- Obst ernten
+  place   ovocný_sad
+  people  kin | sused
+  things  strom | jablko | rebrík
+  want    hladný : verb=žať patient=none:ovocie ; uses rebrík
+  want    hladný : verb=žať patient=none:jablko+pl ; uses rebrík
+  trouble rebrík pokazený : opraviť
+
+SITUATION gemüsefeld : farm -- Gemüse ernten
+  place   pole
+  people  kin | sused
+  things  kára
+  want    hladný : verb=žať patient=none:zelenina ; uses kára
+  want    hladný : verb=žať patient=none:zemiak+pl ; uses kára
+  trouble kára pokazený : opraviť
+
+SITUATION stall : farm -- im Stall bei den Tieren
+  place   maštaľ
+  people  kin | sused
+  things  krava | kôň | vedro | mlieko | seno
+  want    chuť : verb=kŕmiť patient=def:kôň ; uses seno | vedro
+  want    smädný : verb=piť patient=none:mlieko ; uses vedro
+  trouble vedro pokazený : opraviť
+  trouble vedro špinavý : oplachovať
+
+SITUATION fabrik : factory -- in der Fabrik arbeiten
+  place   továreň
+  people  kolega
+  things  stroj | bedňa | počítač | kávovar
+  own     fľaša
+  want    unavený : verb=variť patient=none:káva ; uses kávovar
+  want    smädný : verb=piť patient=none:voda ; uses fľaša
+  trouble kávovar pokazený : opraviť
+  trouble fľaša prázdny : naplniť
+
+SITUATION lager : factory -- im Lager der Firma
+  place   sklad
+  people  kolega
+  things  bedňa | polica | váha | počítač | vysokozdvižný_vozík
+  want    ponáhľanie : verb=prepravovať patient=none:bedňa+pl ; uses vysokozdvižný_vozík
+  want    ponáhľanie : verb=vážiť patient=indef:balík ; uses váha
+  trouble váha pokazený : opraviť
+  trouble vysokozdvižný_vozík pokazený : opraviť by mechanik
+
+SITUATION mensa : school -- in der Mensa in der Pause
+  place   študentská_jedáleň
+  people  priateľ
+  things  stôl | podnos | tanier | sklenica | lyžica
+  want    hladný : verb=jesť patient=indef:polievka ; uses tanier | lyžica
+  want    smädný : verb=piť patient=none:voda ; uses sklenica
+  trouble tanier špinavý : oplachovať
+  trouble lyžica špinavý : oplachovať
+  trouble sklenica prázdny : naplniť
+
+SITUATION turnhalle : school -- Sport in der Turnhalle
+  place   telocvičňa
+  people  priateľ | učiteľ
+  things  lopta | sieť_(rybárska) | gól
+  want    chuť : verb=hrať patient=none:futbal ; uses lopta | gól
+  want    chuť : verb=hrať patient=none:volejbal ; uses lopta | sieť_(rybárska)
+  trouble gól pokazený : opraviť by školník
+  trouble sieť_(rybárska) pokazený : opraviť by školník
+
+SITUATION hausaufgaben : school -- am Schreibtisch lesen und schreiben
+  place   izba
+  people  kin | priateľ
+  things  písací_stôl | zošit | lampa | počítač
+  want    chuť : verb=písať patient=indef:text ; uses počítač
+  want    chuť : verb=čítať patient=indef:kniha ; uses lampa
+  trouble počítač pokazený : opraviť
+  trouble lampa pokazený : opraviť
+  lack    kniha : knižnica požičať
+
+SITUATION labor : science -- im Labor forschen
+  place   laboratórium
+  people  kolega
+  things  mikroskop | teplomer | sklenica | voda
+  want    chuť : verb=vyšetriť patient=indef:list_(rastliny) ; uses mikroskop
+  want    chuť : verb=merať patient=def:teplota ; uses teplomer | sklenica
+  trouble mikroskop pokazený : opraviť
+  trouble sklenica špinavý : oplachovať
+
+SITUATION computerlabor : science -- am Computer rechnen
+  place   laboratórium
+  people  kolega
+  things  počítač | tlačiareň | stôl | lampa
+  want    chuť : verb=riešiť patient=indef:úloha ; uses počítač
+  want    chuť : verb=vytlačiť patient=indef:obraz ; uses tlačiareň
+  trouble počítač pokazený : opraviť
+  trouble tlačiareň pokazený : opraviť

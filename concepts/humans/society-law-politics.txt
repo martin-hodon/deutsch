@@ -1,0 +1,652 @@
+# society
+N ľudia
+N ľud
+N medzinárodné právo
+N národ
+AN národný
+AN medzinárodný
+N národnosť
+N spoločnosť
+AN spoločenský
+AN spoločensko-politický
+AN celospoločenský
+N spoločenstvo
+AN spoločný : adverb spoločne
+N verejnosť
+AN verejný : adverb verejne
+AN pútavý pre verejnosť
+N kultúra
+AN kultúrny
+N civilizácia
+AN civilizovaný
+N člen
+N členstvo
+N občan
+N občianka
+AN občiansky
+N štátne občianstvo
+N cudzinec
+N cudzinka
+AN zahraničný
+N otrok
+N otrokyňa
+V zotročiť
+N otroctvo
+V slúžiť
+N sluha
+V odslúžiť si
+N status
+N hodnosť
+AN vysokopostavený
+AN prednostný : adverb prednostne
+V umiestniť sa
+N česť
+V uctiť
+AN čestný : adverb čestne
+AN dobrovoľnícky
+N sláva
+AN slávny
+N povesť
+N vodca
+V stáť na čele
+N šľachta
+N šľachtic
+AN šľachtický
+N organizácia
+V organizovať
+AN organizovaný
+AN organizačný
+AN organický
+N konferencia
+V zjednotiť
+N klub
+N aktivista
+N aktivistka
+N civilista
+N aktér
+N aktérka
+N ocenenie
+N úmrtie
+V angažovať sa
+AN angažovaný
+N bohatý
+N žiadateľ o azyl
+N pozostalý
+N preživší
+N tehotná (žena)
+N študujúci
+N smútočný obrad
+N pôvodca
+N podporovateľ
+N vydavateľ
+N prisťahovalectvo
+N participácia
+N bojkot
+V bojkotovať
+N hlas proti
+N znalec
+N živobytie
+N kvalita života
+N antisemitizmus
+N nacista
+N oligarcha
+N daňový poplatník
+N domáci pán
+N vojvoda
+N vojvodkyňa
+N imidž
+N akceptácia
+N expertka
+N poplach
+N evakuácia
+N odvolanie poplachu
+N vyprostenie
+AN fašistický
+AN autokratický
+V emigrovať
+
+# state-politics
+N štát
+AN štátny
+V znárodniť
+N vlasť
+N vláda
+V vládnuť
+N vladár
+N predseda vlády
+N prezident
+N prezidentka
+N prezidentstvo
+N prezidentské voľby
+N kráľ
+N kráľovná
+AN kráľovský
+N kráľovstvo
+N princ
+N korunný princ
+N princezná
+N cisár
+N cisárovná
+N cisárstvo
+N minister
+N ministerka
+N ministerstvo
+N premiér
+N minister zahraničných vecí
+N ministerka zahraničných vecí
+N minister vnútra
+N minister financií
+N minister hospodárstva
+N minister zdravotníctva
+N premiérka
+N parlament
+AN parlamentný
+N kandidát
+V kandidovať
+N kandidatúra
+N kandidátka
+N politika
+N politik
+N politička
+AN politický
+AN geopolitický
+AN vnútropolitický
+AN zahraničnopolitický
+AN bezpečnostnopolitický
+AN energeticko-politický
+AN klimaticko-politický
+AN finančnopolitický
+AN vzdelávacej politiky
+N politická strana
+AN bezpartijný
+AN straníckopolitický
+AN vnútrostranícky
+AN medzistranícky
+AN nadstranícky
+N moc
+N mocnár
+AN premocný
+N trón
+N následník trónu
+N koruna
+V korunovať
+N korunovácia
+N vlajka
+N hymna
+N štátna hymna
+N územie
+N región
+AN nadregionálny
+N provincia
+N ríša
+N republika
+N demokracia
+AN demokratický : adverb demokraticky
+AN sociálnodemokratický
+N monarchia
+N diktátor
+N diktatúra
+N revolúcia
+AN revolučný
+V zrevolucionizovať
+N protest
+V protestovať
+N demonštrácia
+V demonštrovať
+N demonštrant
+N sloboda
+AN slobodný (o spoločnosti) : adverb slobodne
+AN nezávislý : adverb nezávisle
+N nezávislosť
+N právo
+AN právny
+V oprávniť
+AN trestnoprávny
+AN právoplatný
+AN protiprávny : adverb protiprávne
+AN v rozpore s medzinárodným právom
+AN občianskoprávny
+AN z hľadiska ochrany údajov
+N povinnosť
+AN podliehajúci hláseniu
+N veľvyslanectvo
+N veľvyslanec
+N veľvyslankyňa
+N diplomat
+N diplomacia
+AN diplomatický : adverb diplomaticky
+N úradník
+N úradníčka
+N ústava
+N ústavný súd
+AN protiústavný
+AN ústavnoprávny
+N guvernér
+N kampaň
+N kolónia
+N korupcia
+AN skorumpovaný
+N reforma
+V reformovať
+N senát
+N senátor
+N kongres
+N poslanec
+N kancelár
+N kancelárka
+N spolkový kancelár
+N kabinet
+N administratíva
+V spravovať
+N mestská správa
+N byrokracia
+AN byrokratický
+N režim (politický)
+N tyran
+N tyrania
+V potláčať
+N útlak
+N propaganda
+N cenzúra
+V cenzurovať
+N škandál
+AN škandalózny : adverb škandalózne
+N zrada
+N vlastizrada
+N sprisahanie
+N exil
+N útek
+N utečenec
+N prisťahovalec
+V vysťahovať sa
+N vysťahovalec
+N petícia
+N hlasovací lístok
+N referendum
+N anketa
+N dekrét
+N veto
+N koalícia
+AN liberálny
+AN konzervatívny
+N kapitalizmus
+N socializmus
+AN socialistický
+N komunizmus
+N anarchia
+N patriot
+N zákaz vychádzania
+N spolková vláda
+N zemská vláda
+N Spolkový snem
+N Spolková rada
+N zemský snem
+N zväz
+AN jednotný v celom štáte
+N únia
+N obec
+N obecná rada
+AN komunálny
+AN medziobecný
+N okres
+N kantón
+AN kantonálny
+N úrad
+AN úradný : adverb úradne
+N komisia
+N žiadosť
+N hlasovanie
+N sankcia
+V sankcionovať
+N zasadnutie
+N predstavenstvo
+N predseda
+N spolok
+N nadácia
+N protivník
+N protivníčka
+N násilie
+AN mohutný : adverb mohutne
+AN násilný : adverb násilne
+N podujatie
+V zorganizovať
+N organizátor
+N opozícia
+N predvolebná kampaň
+N funkčné obdobie
+N spolková krajina
+N spolkový prezident
+AN kooperatívny
+N integrácia
+N predpis
+N spor
+N prevádzkovateľ
+N zaťaženie
+V zaťažiť
+AN zaťažený
+N zdroj
+AN šetriaci zdroje
+N spolková republika
+N slobodný štát
+N hlava štátu
+N hlavné mesto spolkovej krajiny
+N landrat
+N demokrat
+N poslanecký klub
+N výbor
+N grémium
+N združenie
+N nariadenie
+N povolenie
+V povoliť
+N dohovor
+N migrant
+N rasizmus
+N zúčastnený
+AN jednohlasný : adverb jednohlasne
+N vedomosť
+N azyl
+N štátna príslušnosť
+N naturalizácia
+N migrácia
+N volebné právo
+N základný zákon
+N zákonodarstvo
+N konjunktúra
+AN konjunkturálny
+N daňový úrad
+N daňové priznanie
+N matrika
+N cudzinecká polícia
+N vládca
+N rovnoprávnosť
+N sloboda prejavu
+N ľudské právo
+N diskriminácia
+V diskriminovať
+N dobrovoľná funkcia
+N pomocná organizácia
+N štátna hranica
+N poriadkový úrad
+N zatykač
+N spotrebiteľská poradňa
+N pamätný deň
+N straníckly zjazd
+N predseda strany
+N ľudová strana
+N sociálny demokrat
+N volebný obvod
+N druhé kolo volieb
+N opätovné zvolenie
+N koaličná zmluva
+N ministerstvo zahraničných vecí
+N ministerstvo vnútra
+N ministerstvo zdravotníctva
+N ministerstvo obrany
+N minister obrany
+N krajinský úrad
+N súdny dvor
+N vyšetrovací výbor
+N generálny tajomník
+N krajinský hajtman
+N Národná rada
+N členský štát
+N spolkový štát
+N neutralita
+N suverenita
+AN rasistický
+AN antisemitský
+V iniciovať
+V koordinovať
+V evakuovať
+V tematizovať
+V rozmiestniť
+V odobrať sa
+V mobilizovať
+AN komunistický
+AN republikánsky
+AN feministický
+AN teroristický
+AN islamistický
+AN moslimský
+AN etnický
+AN inštitucionálny
+V reprezentovať
+V zvolať
+V prideliť
+V podriadiť sa
+V spolupôsobiť
+AN extrémistický
+AN pravicovo-extrémistický
+AN sexistický
+V odvolať voľbou
+V delegovať
+V zneužiť
+V výtržníčiť
+V propagovať
+V poučiť
+V sídliť
+AN právnoštátny
+
+# law-justice
+N zákon
+AN zákonný : adverb zákonne
+N zákonodarca
+N návrh zákona
+N sudca
+N sudkyňa
+AN sudcovský
+N porota
+N advokát
+N advokátka
+N prokurátor
+N prokuratúra
+N spravodlivosť
+N nespravodlivosť
+N zločin
+N zločinec
+AN kriminálny
+N kriminalita
+AN zločinecký
+V kradnúť
+N zlodej
+N zlodejka
+N krádež
+V okradnúť
+N vražda
+N vrah
+V vraždiť
+V zavraždiť
+N podvod
+V podvádzať
+N podvodník
+AN podvodný : adverb podvodne
+N väzenie
+N väzeň
+N zajatie
+N väzba
+V zatknúť
+N zatknutie
+N polícia
+N policajt
+N policajtka
+AN policajný
+AN policajne známy
+N detektív
+N dôkaz
+V dokázať
+N svedok
+N svedkyňa
+N svedecká výpoveď
+V dosvedčiť
+N vina
+AN vinný
+AN nevinný : adverb nevinne
+N nevinnosť
+V zavinit
+N trest
+V potrestať
+N potrestanie
+N pokuta
+AN trestný
+V odsedieť si
+AN trestaný
+V zakázať
+N zákaz
+AN zakázaný
+V dovoliť
+AN dovolený
+AN nepovolený
+V dohodnúť
+N dohoda
+N zmluva
+AN zmluvný
+N prísaha
+V zaprisahať
+V zdediť
+N dedičstvo
+N dedič
+V zanechať v dedičstve
+V zdediť po niekom
+N vlastníctvo
+N vlastník
+N majetok
+N majiteľ
+N podozrenie
+AN podozrivý : adverb podozrivo
+V podozrievať
+N podozrivý
+AN podozrivý z činu
+AN legálny : adverb legálne
+AN nelegálny : adverb nelegálne
+V legalizovať
+N odvolanie
+N kaucia
+V vypočúvať
+N výsluch
+N alibi
+V sťažovať sa
+N žaloba
+V zažalovať
+V obžalovať
+N obžaloba
+N obžalovaný
+V oplakávať
+N poprava
+V popraviť
+V podplatiť
+N podplácanie
+N úplatok
+N vydieranie
+V vydierať
+N vyděrač
+N vandalizmus
+N vandal
+N ublíženie na zdraví
+V uniesť
+N únos
+N únosca
+N lúpež
+V lúpiť
+N zbojník
+N banda
+N mafia
+N povstanie
+N povstalec
+N upozornenie
+V upozorniť
+N páchateľ
+N páchateľka
+V vyšetrovať
+N vyšetrovanie
+N vyšetrovateľ
+N neznámy
+N krajský súd
+N miesto činu
+N justícia
+N okresný súd
+N vyšetrovacia väzba
+N trestný čin
+N zneužitie
+AN zneužívajúci
+N kriminálna polícia
+N tiesňové volanie
+N posudok
+N delikt
+N vlámanie
+N zabitie
+N ohováranie
+N zproštenie viny
+N podmienečný trest
+N revízia
+V revidovať
+N žalobca
+N ručenie
+N náhrada škody
+N závet
+N výživné
+N bezprávie
+N komisár
+AN poverený
+N hliadka
+N porušenie
+N pokarhanie
+N právny nárok
+N poškodenie
+N omeškanie
+N prednosť v jazde
+N oslobodenie
+N dozor
+N napadnutie
+AN dotieravý : adverb dotieravo
+N preťaženie
+N dostupnosť
+N trest odňatia slobody
+N trestné konanie
+N odsúdenie
+N pátranie
+N obvinený
+N podpaľačstvo
+N schválenie
+N vylúčenie
+N usmrtenie
+N vlamač
+N hmotná škoda
+N hovorca polície
+AN právnický
+V zhabať
+V ospravedlniť
+V prehľadať
+V vymenovať
+V nominovať
+V anektovať
+V uväzniť
+V znásilniť
+V odložiť
+V suspendovať
+AN súdny
+AN povinný : adverb povinne
+AN dôverný : adverb dôverne
+V deklarovať
+V osvedčiť
+V zamietnuť
+V nariadiť
+V obviňovať
+V legitimizovať
+V anulovať
+V stanoviť termín
+AN prebiehajúci (súdne)
+
+# politics
+V radikalizovať
+V ratifikovať
+
+# more
+AN volebný
+AN zákonodarný
+N elita
+N súkromie
+N začlenenie
+N kontroverzia
+N výsada
+N presadzovanie záujmov

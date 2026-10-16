@@ -1,0 +1,42 @@
+# SPANISH LETTERS TO SOUNDS (engine/sounds.js): a word the dictionary has not -- a verb form, a plural -- read from its
+# spelling (Castilian: c/z before e, i are θ; ll is ʎ; the voiced stops between vowels are β ð ɣ, as in es/dict.tsv).
+# The first rule that matches at a place wins: the longer spellings stand first.
+class vowel = a e i o u á é í ó ú ü
+stress = accent
+
+letters ch = tʃ
+letters ll = ʎ
+letters rr = r
+letters ñ = ɲ
+letters qu(?=[eiéí]) = k
+letters gü = ɡw
+letters gu(?=[eiéí]) = ɡ
+letters g(?=[eiéí]) = x
+letters g = ɣ after /{vowel}/
+letters g = ɡ
+letters c(?=[eiéí]) = θ
+letters c = k
+letters z = θ
+letters j = x
+letters x = ks
+letters h =
+letters b = β after /{vowel}/
+letters b = b
+letters v = β after /{vowel}/
+letters v = b
+letters d = ð after /{vowel}/
+letters d = d
+letters r = r after /^/
+letters r = ɾ
+letters y(?=[aeiouáéíóú]) = ʝ
+letters y = i
+letters ü = w
+letters á = ˈa
+letters é = ˈe
+letters í = ˈi
+letters ó = ˈo
+letters ú = ˈu
+letters i(?=[aeouáéóú]) = j
+letters u(?=[aeioáéíó]) = w
+letters [aeiou] = $
+letters [pfmnlstk] = $

@@ -1,0 +1,280 @@
+# will-intent
+V chcieť
+N vôľa
+N sila vôle
+AN neochotný : adverb neochotne
+AN nedobrovoľný : adverb nedobrovoľne
+V želať si
+N želanie
+N blahoželanie
+AN žiaduci
+V potrebovať
+N spotreba
+AN použiteľný
+V uprednostňovať
+V voliť
+N voľba
+V vybrať
+V vybrať z účtu
+N výber
+N volič
+AN vyberavý
+V rozhodnúť
+N rozhodnutie
+V rozhodnúť sa
+AN odhodlaný
+N odhodlanie
+N uznesenie
+N úmysel
+AN úmyselný : adverb úmyselne
+V mať v úmysle
+N účel
+N cieľ
+V mieriť
+AN cieľavedomý : adverb cieľavedome
+AN bezcieľny : adverb bezcieľne
+AN účelný : adverb účelne
+N plán
+V plánovať
+N plánovanie
+AN plánovaný
+AN plánovateľný
+V pripraviť (vopred)
+N príprava (na niečo)
+V skúsiť
+N pokus
+N pokušenie
+V namáhať sa
+V podariť sa
+AN vydarený
+N úspech
+AN úspešný : adverb úspešne
+AN neúspešný : adverb neúspešne
+V stroskotať
+N zlyhanie
+V vyhnúť sa
+N predchádzanie
+V odmietnuť
+V váhať
+AN váhavý : adverb váhavo
+V oneskoriť
+N odvážny čin
+N ctižiadostivosť
+V motivovať
+N disciplína
+AN disciplinovaný
+N záväzok
+V zaviazať
+AN zaviazaný
+N zdržanlivosť
+AN zdržanlivý : adverb zdržanlivo
+N chamtivosť
+AN chamtivý : adverb chamtivo
+AN dychtivý : adverb dychtivo
+N žiadostivosť
+N chuť (túžba)
+AN slastný : adverb slastne
+V nútiť
+AN núdzny
+N predsavzatie
+N pohnútka
+N pohon
+N nutkanie
+N zrieknutie sa
+N prednosť
+N svojvôľa
+N splnenie
+N čin
+N rozkaz
+N samostatnosť
+N protihodnota
+N boj o moc
+N odplata
+N zanedbanie
+N kreativita
+V usilovať sa
+V usilovať sa o
+V odvážiť sa
+V dychtiť
+V špecializovať sa
+V osvedčiť sa
+V konať
+V zanedbať
+V inscenovať
+V uspokojiť sa
+V vzpierať sa
+V uspokojiť
+AN schopný konať
+V otužiť
+
+# character-traits
+N charakter
+AN charakteristický : adverb charakteristicky
+V charakterizovať
+N osobnosť
+N návyk
+V zvyknúť si
+N zlozvyk
+N správanie
+V správať sa
+N postoj
+AN lenivý : adverb lenivo
+N lenivosť
+V lenivieť
+AN usilovný : adverb usilovne
+N usilovnosť
+N trpezlivosť
+AN trpezlivý : adverb trpezlivo
+AN netrpezlivý : adverb netrpezlivo
+N netrpezlivosť
+AN úprimný : adverb úprimne
+N čestnosť
+AN nečestný : adverb nečestne
+N úprimnosť
+AN milý : adverb milo
+AN krutý : adverb kruto
+N krutosť
+AN prísny : adverb prísne
+N prísnosť
+AN tvrdohlavý : adverb tvrdohlavo
+AN opatrný : adverb opatrne
+N opatrnosť
+AN nenútený : adverb nenútene
+AN nedbalý : adverb nedbalo
+N nedbalosť
+N zvedavosť
+AN vážny : adverb vážne
+N vážnosť
+AN zábavný : adverb zábavne
+N humor
+AN bez zmyslu pre humor
+AN skromný : adverb skromne
+N skromnosť
+AN veľkorysý : adverb veľkoryso
+N veľkorysosť
+AN lakomý : adverb lakomo
+N lakomstvo
+N skupáň
+AN sebecký : adverb sebecky
+N egoizmus
+N egoista
+AN nesmelý : adverb nesmelo
+N plachosť
+AN arogantný : adverb arogantne
+N arogancia
+AN ľahkomyseľný : adverb ľahkomyseľne
+N ľahkomyseľnosť
+AN obozretný : adverb obozretne
+N obozretnosť
+AN impulzívny : adverb impulzívne
+AN spontánny : adverb spontánne
+AN unáhlený : adverb unáhlene
+N chvat
+AN družný
+N družnosť
+AN márnivý
+N márnivosť
+N šibal
+AN šibalský : adverb šibalsky
+AN neposlušný : adverb neposlušne
+N predsudok
+N zaujatosť
+AN zaujatý
+AN nezaujatý
+AN spravodlivý : adverb spravodlivo
+AN nespravodlivý : adverb nespravodlivo
+N cnosť
+AN cnostný : adverb cnostne
+N neresť
+N vada
+N povaha
+AN mrzutý : adverb mrzuto
+AN optimistický : adverb optimisticky
+N optimista
+AN pesimistický : adverb pesimisticky
+N pesimizmus
+N pesimista
+AN realistický : adverb realisticky
+AN nerealistický : adverb nerealisticky
+N realizmus
+N odvaha
+AN odvážny : adverb odvážne
+V odradiť
+AN skľúčený
+N rozpustilosť
+N zbabelec
+N zbabelosť
+AN smelý : adverb smelo
+N smelosť
+N svedomie
+N ohľad
+AN bezohľadný : adverb bezohľadne
+AN ohľaduplný : adverb ohľaduplne
+AN pokorný : adverb pokorne
+AN slušný : adverb slušne
+N slušnosť
+AN neslušný : adverb neslušne
+AN zlostný : adverb zlostne
+N drzosť
+AN príkry : adverb príkro
+N temperament
+AN temperamentný : adverb temperamentne
+N integrita
+AN vytrvalý : adverb vytrvalo
+N vytrvalosť
+AN agresívny : adverb agresívne
+N agresia
+AN pasívny : adverb pasívne
+N pasivita
+AN asertívny : adverb asertívne
+V presadiť sa
+N presadzovacia schopnosť
+AN nezištný : adverb nezištne
+N nezištnosť
+N vzor (idol)
+AN vzorný : adverb vzorne
+N ochota pomáhať
+N morálka
+AN morálny : adverb morálne
+N pohoršenie
+N autorita
+AN autoritársky
+N nádhera
+N pud
+AN sympatický : adverb sympaticky
+AN čulý : adverb čulo
+AN energický : adverb energicky
+AN pragmatický : adverb pragmaticky
+AN nebyrokratický
+AN sebaurčený
+AN intímny : adverb intímne
+AN celostný
+AN statočný : adverb statočne
+AN poslušný : adverb poslušne
+AN drzý : adverb drzo
+AN ostražitý : adverb ostražito
+AN úctivý : adverb úctivo
+AN dôverčivý : adverb dôverčivo
+AN bezstarostný : adverb bezstarostne
+AN charizmatický
+AN bezškrupulózny : adverb bezškrupulózne
+AN blahosklonný : adverb blahosklonne
+AN bezbranný
+AN svedomitý : adverb svedomito
+AN ironický : adverb ironicky
+
+# character
+AN zbabelý : adverb zbabelo
+AN lojálny : adverb lojálne
+AN proaktívny : adverb proaktívne
+AN detinský : adverb detinsky
+AN diskrétny : adverb diskrétne
+AN chápavý : adverb chápavo
+AN starostlivý : adverb starostlivo
+AN ambivalentný : adverb ambivalentne
+AN neskrývaný : adverb neskrývane
+V vyberať
+
+# more
+V zaslúžiť si
+N odolnosť

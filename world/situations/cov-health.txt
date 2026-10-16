@@ -1,0 +1,148 @@
+# Coverage situations, settings health, doctor, sport, farm (round 3): body care, sport and farm words said where the story says them.
+# skipped as unfit (no strong motive, no single object+verb, odd for a learner story): Leiche, Tote, Verstorbene, sterben, töten, Zigarette, rauchen, bluten, sich übergeben,
+#   verhungern, erkranken, sich erkälten, Spritze, impfen, operieren, behandeln, verschreiben, heilen, retten, stabilisieren, Krankenwagen, aufnehmen, wirken, wehtun, schmerzen, leiden,
+#   schaden, verletzen, ertragen, vertragen, kratzen, zittern, Fett, Nahrung, Nahrungsmittel, ernähren, abnehmen, zunehmen, wetten, herausfordern, siegen, stattfinden, steigern, riskieren,
+#   verlängern, antreten, teilnehmen, stürmen, kämpfen, Erzeugnis, Geflügel, Rind, jagen, weiden, aufschlagen, auffangen, beugen, klatschen, treten, stoßen, rennen, hüpfen, klettern
+# format limits: entspannen / sich aufwärmen / sich stärken / sich strecken are not reflexive in the dictionary (sich entspannen has no verb entry), reiten and aufpumpen have no verb entry,
+#   atmen/einatmen/ausatmen need an adverb (tief atmen) the want cannot say, fühlen/aufwachen have no strong object+verb want
+
+SITUATION praxis-verband : doctor -- in der Praxis den Arm verbinden
+  place   ordinácia
+  people  lekár | kin
+  things  stolička_(nábytok) | stôl | posteľ | obväz
+  want    zranený : verb=obviazať patient=poss:ruka ; uses obväz
+  trouble obväz špinavý : nahradiť by lekár
+
+SITUATION schlafzimmer-tabletten : health -- krank im Schlafzimmer Medizin einnehmen
+  place   spálňa
+  people  kin
+  things  posteľ | sklenica | lyžica | okno | lampa
+  want    chorý : verb=užívať patient=none:tabletka+pl ; uses sklenica | voda
+  want    chorý : verb=užívať patient=none:medicína ; uses lyžica
+  trouble sklenica špinavý : oplachovať
+  trouble lyžica špinavý : oplachovať
+  lack    medicína : lekáreň
+
+SITUATION kinderzimmer-knie : health -- das Knie nach dem Fallen
+  place   detská_izba
+  people  kin
+  things  posteľ | lopta | hračka | deka
+  want    chorý : verb=obviazať patient=poss:koleno ; uses náplasť
+  want    chorý : verb=zotaviť_sa ; uses posteľ | deka
+  trouble posteľ pokazený : opraviť
+  lack    náplasť : lekáreň
+
+SITUATION garten-anbau : farm -- im Garten Gemüse anbauen
+  place   záhrada
+  people  kin | záhradník
+  things  záhon | zem | rýľ | nožnice | ruža | zelenina
+  want    chuť : verb=pestovať patient=none:zelenina ; uses rýľ | semeno
+  want    chuť : verb=ošetrovať patient=def:ruža+pl ; uses nožnice
+  trouble rýľ pokazený : opraviť
+  trouble nožnice pokazený : opraviť
+  lack    semeno : záhradníctvo
+
+SITUATION stadion-pokal : sport -- den Pokal gewinnen
+  place   štadión
+  people  priateľ | kin
+  things  gól | trávnik | tribúna | zástava | pohár | lopta
+  want    chuť : verb=vyhrať patient=def:pohár ; uses lopta
+  trouble lopta pokazený : nahradiť
+
+SITUATION turnhalle-dehnen : sport -- in der Turnhalle die Beine strecken
+  place   telocvičňa
+  people  priateľ | kin
+  things  lavica | lano | lopta | sieť_(rybárska)
+  want    chuť : verb=vystrieť patient=poss:noha_(končatina)+pl ; uses lavica
+  trouble lavica špinavý : čistiť
+  trouble lavica pokazený : opraviť by školník
+
+SITUATION turnhalle-spiel : sport -- in der Turnhalle das Spiel pfeifen
+  place   telocvičňa
+  people  učiteľ | priateľ
+  things  píšťala | lopta | gól | sieť_(rybárska)
+  want    chuť : verb=pískať patient=def:hra ; uses píšťala
+  trouble píšťala pokazený : nahradiť
+
+SITUATION spielplatz-seil : sport -- auf dem Spielplatz Seil springen
+  place   detské_ihrisko
+  people  kin | priateľ
+  things  šmykľavka | piesok | lavica | strom
+  own     lano
+  want    chuť : verb=skákať patient=none:lano ; uses lano
+  trouble lano pokazený : nahradiť
+
+SITUATION park-ball : sport -- im Park den Ball werfen
+  place   park
+  people  kin | priateľ
+  things  lúka | strom | cesta_(komunikácia) | rybník
+  own     lopta
+  want    chuť : verb=hodiť patient=def:lopta ; uses lopta
+  trouble lopta pokazený : nahradiť
+
+SITUATION fluss-rudern : sport -- auf dem Fluss rudern
+  place   rieka
+  people  priateľ | kin
+  things  čln | veslo | breh | most
+  want    chuť : verb=veslovať ; uses čln | veslo
+  trouble veslo pokazený : opraviť
+
+SITUATION wiese-reiten : sport -- auf der Wiese das Pferd satteln
+  place   lúka
+  people  kin | priateľ
+  things  kôň | sedlo | tráva | strom
+  want    chuť : verb=osedlať patient=def:kôň ; uses sedlo
+  trouble sedlo špinavý : čistiť
+
+SITUATION bauernhof-tiere : farm -- die Tiere auf dem Bauernhof füttern
+  place   statok
+  people  roľník | roľníčka | kin
+  things  jahňa | prasa | vedro | fľaša | chlev
+  want    chuť : verb=kŕmiť patient=def:jahňa ; uses fľaša
+  want    chuť : verb=kŕmiť patient=def:prasa ; uses vedro
+  trouble fľaša prázdny : naplniť
+  trouble vedro prázdny : naplniť
+  trouble vedro pokazený : nahradiť by roľník
+
+SITUATION bauernhof-huehner : farm -- Eier und Federn im Hühnerhof sammeln
+  place   statok
+  people  roľníčka | kin
+  things  kura | chlev | plot | pero_(vtáka)
+  own     kôš
+  want    hladný : verb=zbierať patient=none:vajce+pl ; uses kôš
+  want    chuť : verb=zbierať patient=none:pero_(vtáka)+pl ; uses kôš
+  trouble kôš pokazený : opraviť
+
+SITUATION acker-saat : farm -- im Frühling Getreide säen
+  place   roľa
+  people  roľník | kin
+  things  zem | traktor | pluh
+  want    chuť : verb=siať patient=none:pšenica ; uses pluh | semeno
+  want    chuť : verb=pestovať patient=none:obilie ; uses traktor
+  trouble pluh pokazený : opraviť by roľník
+  trouble traktor pokazený : opraviť by mechanik
+  lack    semeno : obchod
+
+SITUATION feld-mähen : farm -- auf dem Feld mähen
+  place   pole
+  people  roľník | kin
+  things  pšenica | tráva | kosa | traktor
+  want    chuť : verb=kosiť patient=def:pšenica ; uses kosa
+  want    chuť : verb=kosiť patient=def:tráva ; uses kosa
+  trouble kosa pokazený : opraviť by roľník
+
+SITUATION gewächshaus-zucht : farm -- im Gewächshaus Tomaten züchten
+  place   skleník
+  people  záhradník | kin
+  things  rastlina | paradajka | zem | krhla
+  want    chuť : verb=pestovať patient=none:paradajka+pl ; uses zem | semeno | krhla
+  trouble zem suchý : polievať
+  trouble krhla pokazený : opraviť
+  lack    semeno : záhradníctvo
+
+SITUATION fitness-training : sport -- im Fitnessstudio trainieren
+  place   fitnescentrum
+  people  tréner | priateľ
+  things  prístroj | závažie | zrkadlo | hudba
+  want    chuť : verb=trénovať ; uses prístroj
+  trouble prístroj pokazený : opraviť by technik

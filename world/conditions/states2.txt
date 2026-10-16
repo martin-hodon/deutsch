@@ -1,0 +1,93 @@
+# SECOND PASS: conditions that use the newer states (eile, mut, zweifel, stolz, neidisch, begeistert, zufrieden,
+# unzufrieden, schuldig, ehrgeizig, faul, gläubig, schwanger, arbeitslos, allein, bereit, fertig, schwach ...) and the
+# object states A:verletzt, A:gesund, A:neu, A:alt, A:stark, A:schwach. A verb that already has a condition in another
+# file gets these atoms in addition (merged).
+# eile: hurrying
+V bežať : needs ponáhľanie
+V bežať : needs ponáhľanie
+V zrýchliť : needs ponáhľanie
+# mut / zweifel
+V odvážiť sa : needs odvaha
+V riskovať : needs odvaha
+V zachrániť : needs odvaha
+V ochrániť : needs odvaha
+V protirečiť : needs odvaha
+V brániť : needs odvaha
+
+V váhať : needs pochybnosť
+V rozmýšľať : needs pochybnosť
+V preveriť : needs pochybnosť
+V pýtať sa seba : needs pochybnosť
+# guilt
+V priznať : needs vinný
+V priznať : needs vinný
+V oľutovať : needs vinný
+V ospravedlniť sa : needs vinný
+V hanbiť sa : needs vinný
+# faith
+V modliť sa : needs veriaci
+V zbožňovať : needs veriaci
+V obetovať : needs veriaci
+V kázať : needs veriaci
+V krstiť : needs veriaci
+V žehnať : needs veriaci
+# work and ambition
+V uchádzať sa : needs nezamestnaný
+V dať výpoveď : needs nespokojný ; gives nezamestnaný
+V trénovať : needs ctižiadostivý
+V cvičiť (nácvik) : needs ctižiadostivý
+V snažiť sa : needs ctižiadostivý
+V namáhať sa : needs ctižiadostivý
+V študovať : needs ctižiadostivý
+V učiť sa : needs ctižiadostivý
+V súťažiť : needs ctižiadostivý
+V lenivieť : needs lenivý
+# pride, envy, delight, satisfaction
+V chváliť sa : needs hrdý
+V tleskať : needs nadšený
+V tlieskať : needs nadšený
+V vyhrať : gives hrdý
+V zvíťaziť : gives hrdý
+V chváliť : needs spokojný
+V poďakovať sa : needs spokojný
+V vychutnávať si : gives spokojný
+V sťažovať sa : needs nespokojný
+V sťažovať sa : needs nespokojný
+V kritizovať : needs nespokojný
+V nadávať : needs nespokojný
+V štrajkovať : needs nespokojný
+V protestovať : needs nespokojný
+# loneliness
+V zavolať : needs sám
+V navštíviť : needs sám
+# readiness and finishing
+V začať : needs pripravený
+V štartovať : needs pripravený
+V podať : needs hotový
+V odovzdať : needs hotový
+# pregnancy
+V porodiť : needs tehotná
+# strength and weakness of the subject
+V oddýchnuť si : needs slabý
+V zotaviť sa : needs zranený slabý
+V prespať : needs unavený ; involuntary
+# wealth
+V darovať (na dobročinnosť) : needs bohatý
+# the object's health: hurting, bandaging, healing
+V zraniť : gives A:zranený
+V vyliečiť : needs A:zranený ; gives A:zdravý
+V ošetrovať : needs A:zranený
+V operovať : needs A:zranený
+V liečiť : needs A:zranený
+V vyšetriť : needs A:zranený
+# the object's strength
+V oslabiť : needs A:silný ; gives A:slabý
+V posilniť : needs A:slabý ; gives A:silný
+# the object's age
+V obnoviť (nahradiť novým) : needs A:starý ; gives A:nový
+V modernizovať : needs A:starý ; gives A:nový
+V nahradiť : needs A:pokazený A:starý ; gives A:nový
+V vyhodiť : needs A:pokazený A:starý
+V renovovať : needs A:starý
+# bathing
+V sprchovať sa : needs špinavý ; gives čistý

@@ -1,0 +1,11 @@
+# definite-article
+1 ART der {der} [deːɐ] = ten (určitý člen mužského rodu)
+- 2 P derselbe {derselbe} [deːɐˈzɛlbə] = ten istý
+- 2 P derjenige {derjenige} [ˈdeːɐjeːnɪɡə] = ten (kto), ten (ktorý)
+1 ART die {die} [diː] = tá (určitý člen ženského rodu a množného čísla)
+1 ART das {das} [das] = to (určitý člen stredného rodu)
+
+# indefinite-article
+1 ART ein {ein} [aɪn] = jeden, nejaký (neurčitý člen)
+- 2 ART irgendein {irgend|ein} [ˈɪʁɡəntaɪn] = nejaký, akýkoľvek
+1 ART kein {kein} [kaɪn] = žiadny, nijaký (záporný člen)

@@ -1,0 +1,1488 @@
+# THE WORK GROUP: work, industry, technology, knowledge, education, language and communication words
+
+SETTING school
+N škola
+N žiak : pupil
+N univerzita
+N trieda
+N učiteľ : teacher
+N učiteľka : teacher
+N vyučovanie
+V učiť sa
+N úloha
+N matika
+N základná škola
+N vysoká škola
+N gymnázium
+N žiačka : pupil
+N univerzita
+N materská škola
+N učebňa
+N lekcia
+N kurz
+V učiť : teacher
+N učebnica
+N profesor : teacher
+V študovať : pupil
+N študent : pupil
+N štúdium
+N študentka : pupil
+N vzdelanie
+V vyškoliť : teacher
+N odborná príprava
+V vyučovať : teacher
+V cvičiť (nácvik)
+N cvičenie
+N domáca úloha
+V preveriť
+N skúška
+N test
+V testovať
+N semester
+N tabuľa
+N prednáška
+V zapísať sa
+V absolvovať
+N fakulta
+N kampus
+N študentský domov
+N prednáškova sála
+N študentská jedáleň
+N kvíz
+N seminár
+N guma (na gumovanie)
+N certifikát
+N akadémia
+N škôlka
+N odborná škola
+N školská taška
+N prednáška
+N ľudová škola
+N experiment
+N kvalifikácia
+N matematika
+N fyzika
+N chémia
+N biológia
+N geografia
+N filozofia
+N knižnica
+N pravítko
+N ústav
+N riaditeľ školy : teacher
+N učenie
+N učebný plán
+N doučovateľ : teacher
+N školné
+N ďalšie vzdelávanie
+V naučiť sa
+N skúšajúci : teacher
+N diplom
+N zápis
+N absolvent : pupil
+N mentor : teacher
+N dekan : teacher
+N záverečná práca
+N štipendium
+N gramotnosť
+N vysokoškolák
+N hlavná škola
+N reálna škola
+N jednotná škola
+N odborná vysoká škola
+N spolužiak : pupil
+N letné prázdniny
+N maturita
+N písomná práca
+N referát
+N vysvedčenie
+N listina
+N opakovanie
+N riadok
+N číslica
+N informatika
+N etika
+N rozdiel (číselný)
+N školský dvor
+N jazykový kurz
+N školský deň
+N začiatočník
+N detské jasle
+N študijný odbor
+N prírodná veda
+V experimentovať
+N desatinné číslo
+N geometria
+N algebra
+N aritmetika
+N knihovník
+N encyklopédia
+N atlas
+N glóbus
+N otázka
+N odpoveď
+V vysvetliť
+V opakovať
+V písať
+N papier
+N materinský jazyk
+N cudzí jazyk
+V vyzvať (k vystúpeniu)
+V odpovedať na
+N vysvetlenie
+V chváliť : teacher
+N chvála
+V vysvetliť
+N slovná zásoba
+V zapísať
+V odpísať
+V opísať
+N guľôčkové pero
+V čítať nahlas
+N kapitola
+V zhrnúť
+N zhrnutie
+N poznámka
+V poznamenať si
+N pero (písacie)
+N ceruzka
+N pastelka
+N zošit
+V kopírovať
+N písmeno
+V hláskovať
+N slovník
+V podčiarknuť
+V označiť
+N nemčina
+V odrecitovať
+N rukopis (písmo)
+N pravopis
+N lektúra
+N slohová práca
+N atrament
+N krieda
+N zápisník
+N knižnica
+N značenie
+N škatuľka
+N prihlásenie
+N lupa
+N kalkulačka
+N projektor
+N schopnosť
+N stáž
+N prezentácia
+V prezentovať
+N školník
+N návod
+V vypracovať
+V starať sa o
+N starostlivosť
+V lepiť
+N učeň : pupil
+N obedňajšia prestávka
+N ďalšie vzdelávanie
+N papierik
+N blok
+N lepidlo
+N starostlivosť o deti
+N pedagóg : teacher
+N lepidlo
+SETTING language
+V učiť sa
+V tvoriť
+V formulovať
+N formulácia
+N definícia
+N gramotnosť
+N opakovanie
+N riadok
+N jazykový kurz
+N lingvistika
+N jazyk (reč)
+N rozhovor
+V rozprávať
+V rozprávať sa
+N hlas
+V vysvetliť
+V opakovať
+N slovo
+V nazvať
+V znamenať
+V písať
+N znak
+N hovorca
+N výrok
+V vysloviť
+N výslovnosť
+V prebrať
+V protirečiť
+N rozpor
+N materinský jazyk
+N cudzí jazyk
+N hovorkyňa
+N tvrdenie
+N prísľub
+N rozprávač
+N reč
+N rečník
+N dialóg
+V rozprávať sa
+N prízvuk
+V šepkať
+V vyhlásiť
+V spýtať sa
+N otáznik
+V odpovedať na
+N vysvetlenie
+V spomenúť
+V vyjadriť
+N výraz
+V prerušiť
+V komunikovať
+N komunikácia
+V citovať
+N citát
+V tvrdiť
+N tvrdenie
+V zdôrazniť
+N poznámka
+N gesto
+V vyjadriť
+V diskutovať
+N diskusia
+N vyjadrenie
+V vysvetliť
+N slovná zásoba
+N príslovie
+N fráza
+N krstné meno
+N priezvisko
+N význam
+V ukazovať
+V naznačiť
+V preložiť
+N preklad
+N prekladateľ
+N písmo
+V zapísať
+V odpísať
+V opísať
+N opis
+N nadpis
+N text
+N odsek
+V zhrnúť
+N zhrnutie
+V označiť
+N označenie
+N interpunkčné znamienko
+N symbol
+N písmeno
+V hláskovať
+N slovník
+N sloveso
+N prídavné meno
+N abeceda
+N gramatika
+N zátvorka
+V skrátiť
+N nemčina
+V odrecitovať
+N rčenie
+N monológ
+N zvolanie
+V debatovať
+N zmienka
+N dôraz
+V koktať
+V mrmlať
+N nadávka
+N anekdota
+N dorozumenie
+N poslucháč
+N náznak
+N rukopis (písmo)
+N typ písma
+N pravopis
+N čiarka
+N podstatné meno
+N množné číslo
+N predpona
+N prípona
+N synonymum
+N antonymum
+N nárečie
+N slang
+N slabika
+N samohláska
+N spoluhláska
+N interpunkcia
+N spojovník
+N skratka
+N kaligrafia
+N register
+V tlmočiť
+N tlmočník
+SETTING work
+N úloha
+V vyškoliť
+N odborná príprava
+V vykonávať
+N certifikát
+N odborná škola
+N prednáška
+N metóda
+N kvalifikácia
+N ďalšie vzdelávanie
+N mentor
+N učňovské miesto
+N referencia
+V prebrať
+N prísľub
+N dotaz
+V navrhnúť (ponúknuť)
+N návrh
+V presvedčiť
+V chváliť : boss
+N chvála
+V požadovať
+N požiadavka (žiadanie)
+N požiadavka (kritérium)
+N výzva (problém)
+V kontaktovať
+N prekladateľ
+N koncept
+V prepracovať
+N prepracovanie
+N memorandum
+N e-mail
+N inovácia
+N patent
+V programovať
+N programátor : worker
+N práca
+V pracovať
+N práca
+N povolanie
+N šéf : boss
+N kolega : worker
+N dovolenka
+N projekt
+N robotník : worker
+N zamestnávateľ : boss
+N zamestnanec : worker
+N spolupracovník : worker
+N pracovisko
+N pracovný čas
+N nezamestnanosť
+V spracovať
+N spolupracovníčka : worker
+N nezamestnaný
+N kariéra
+N šéfka : boss
+N kolegyňa : worker
+N personál
+V zamestnať : boss
+N zamestnanec : worker
+V prepustiť (z práce) : boss
+N prepustenie
+N dôchodca
+N schopnosť
+N zodpovednosť
+N časový plán
+N porada
+N pracovný pohovor
+V uchádzať sa : worker
+N žiadosť o prácu
+N životopis
+N manažér : boss
+N riaditeľ : boss
+N vedúci : boss
+N sekretárka : worker
+N asistent : worker
+N expert
+N štrajk
+N odbory
+N povýšenie
+V povýšiť : boss
+N stáž
+N mzda
+N nadčasy
+N práca na čiastočný úväzok
+N práca na plný úväzok
+N podnikateľ : boss
+N podnik
+N start-up
+N zamestnanci
+N oddelenie (útvar)
+N koncern
+N prezentácia
+V prezentovať
+N program rokovania
+V dať výpoveď : worker
+N výpoveď
+N činnosť
+N predchodca
+N vedúca : boss
+N odborník
+N odborník
+N organizátor
+N zakladateľ
+N prevádzka
+N pracovná zmluva
+N pokyn
+V vypracovať
+V starať sa o
+N starostlivosť
+N služba (v práci)
+N služba (poskytovaná)
+N zamestnanec : worker
+N samostatne zárobkovo činná osoba
+N pracujúci : worker
+N učeň
+V brigádovať
+N odpočinok
+N uchádzač
+N tajomník : worker
+V štrajkovať
+N stážista : worker
+N minimálna mzda
+N nadriadený : boss
+N vyhorenie
+N zakladateľka
+N podnikový výbor
+N zamestnanecký pomer
+N odstupné
+N zvýšenie platu
+N deň dovolenky
+N obedňajšia prestávka
+N PN
+N úrad práce
+N porada
+N zápisnica
+N diár
+N ďalšie vzdelávanie
+N učeň
+N učeň
+N majiteľ : boss
+N súkromný život
+N živnosť
+N hosťujúci pracovník
+N rodičovská dovolenka
+N špecialista
+N pracovná podmienka
+N pracovná skupina
+N vedúci pracovník : boss
+N vedenie firmy
+N skrátený pracovný čas
+N nedostatok odborníkov
+N delegácia
+N valné zhromaždenie
+N dozorná rada
+N predsedníctvo
+N výberové konanie
+N platba
+N produktivita
+N obchodný model
+SETTING family
+N materská škola
+N škôlka
+N detské jasle
+V rozprávať
+V rozprávať sa
+V hádať sa
+N kontakt
+V nadávať
+N kompliment
+N prezývka
+V čítať nahlas
+N motto
+N klebety
+V urážať
+N nadávka
+V chváliť sa
+N nezhoda
+N fotka
+N rodičovská dovolenka
+N starostlivosť o deti
+SETTING politics
+N vzdelanie
+N štatistika
+N ekonómia
+N reč
+N rečník
+N apel
+V vyhlásiť
+V vyzvať (k vystúpeniu)
+N debata
+V presvedčiť
+V požadovať
+N požiadavka (žiadanie)
+V diskutovať
+N diskusia
+N stanovisko
+V konfrontovať
+N tlačová konferencia
+V debatovať
+V vyhlásiť
+N príhovor
+N leták
+N tlačová správa
+N výsledok volieb
+N jadrová energia
+N jadrová energia
+N zásobovanie energiou
+N zásobovanie elektrinou
+N dodávateľ energie
+N digitalizácia
+N infraštruktúra
+N nezamestnanosť
+N nezamestnaný
+N dôchodca
+N štrajk
+N odbory
+N minimálna mzda
+N hosťujúci pracovník
+N dôchodkové poistenie
+N sociálny pracovník
+N skrátený pracovný čas
+N nedostatok odborníkov
+N delegácia
+N predsedníctvo
+SETTING sport
+V cvičiť (nácvik)
+N cvičenie
+N začiatočník
+V vyprovokovať
+N výzva (problém)
+N smart hodinky
+N výstroj
+N lano
+V vybaviť (výbavou)
+N lanovka
+SETTING home
+N domáca úloha
+N denník (zápisky)
+N telefón
+N rádio
+N prístroj
+V zapínať
+N vypínač
+V zapnúť (prístroj)
+V vypnúť
+N batéria
+N akumulátor
+N kábel
+N zásuvka (elektrická)
+N nabíjačka
+V nabiť
+N baterka
+N televízia
+N diaľkový ovládač
+V zotrieť
+N domáci spotrebič
+N škatuľa
+N zástrčka (elektrická)
+N elektrina
+N účet za elektrinu
+N zásobovanie elektrinou
+N kilowatthodina
+N watt
+N anténa
+N prístroj
+N počítačová hra
+N hasiaci prístroj
+N školník
+N rebrík
+N bedňa
+N plast
+N hák
+N lepiaca páska
+N palivové drevo
+N špagát
+SETTING office
+V preveriť
+V preveriť
+N preskúmanie
+N listina
+N archív
+V archivovať
+N informácia
+N zoznam
+N papier
+N dotaz
+V spýtať sa
+N sťažnosť
+V vyzvať (požiadať)
+V informovať
+V potvrdiť
+N potvrdenie
+N poradenstvo
+N poradca : staff
+V odkázať
+N záležitosť
+N stanovisko
+V požiadať o
+N odporúčanie
+N informácia
+N krstné meno
+N priezvisko
+V podpísať
+N podpis
+N guľôčkové pero
+N poznámka
+V poznamenať si
+N obálka
+N dokument
+N kópia
+V kopírovať
+N zátvorka
+V označiť
+N brožúra
+V oznámiť
+N oznámenie
+N údaj
+N prehľad
+N výzva (požiadanie)
+N žiadosť
+V podpísať
+N atrament
+V zdokumentovať
+N dokumentácia
+N zápisník
+N značenie
+N register
+V informovať
+N memorandum
+N záznam
+N úradné rozhodnutie
+N škatuľka
+V vytlačiť
+N tlačiareň
+V vytlačiť
+V ohlásiť
+V prihlásiť sa
+V odhlásiť sa
+N prihlásenie
+V prihlásiť
+N skener
+V skenovať
+N registrácia
+N časový plán
+N sekretárka : staff
+N program rokovania
+N formulár
+N služba (v práci)
+N tajomník : staff
+N úrad práce
+N zápisnica
+N diár
+N notár : staff
+N predpis
+N podklad
+N spis
+N pečiatka
+N papierik
+N blok
+N daňový poradca : staff
+N sociálny pracovník : staff
+N výberové konanie
+SETTING factory
+V preveriť
+N preskúmanie
+N technológia
+N stroj
+N prístroj
+N robot
+N senzor
+N batéria
+V naložiť
+N čip
+N mechanizmus
+V automatizovať
+N automatizácia
+N pumpa
+V pumpovať
+N obvod
+N páka
+N ozubené koleso
+N elektronika
+N veterná turbína
+N zásobovanie energiou
+N dodávateľ energie
+N hasiaci prístroj
+N výrobok
+N robotník
+N inžinier
+N koncern
+N technik
+N prevádzka
+V vyrábať
+N výroba
+V rozobrať
+N súčiastka
+V vyrobiť
+N výroba
+N výrobca
+N sud
+N kontajner
+N materiál
+N plast
+N plast
+N oceľ
+N kartón
+N priemysel
+N továreň
+V obsluhovať
+N vyťaženosť
+N súčasť
+N výrobca
+N produktivita
+V zvárať
+N prototyp
+N šrot
+N guma (materiál)
+N cín
+N lepenka
+N zliatina
+N plech
+N baňa
+N baník
+N baníctvo
+N žeriav (stroj)
+N rafinéria
+N lom
+N potrubie
+N generátor
+N turbína
+N dopravný pás
+N vysokozdvižný vozík
+N ventil
+N os
+N obsluha
+N logistika
+SETTING doctor
+N test
+N laboratórium
+N mikroskop
+V koktať
+N PN
+N ošetrovateľ : staff
+SETTING science
+V testovať
+N veda
+N vedec
+V bádať
+N výskum
+N výskumník
+N laboratórium
+N experiment
+N teória
+N metóda
+N analýza
+V vynájsť
+N vzorec
+N definícia
+N pomer
+N štúdia
+N prognóza
+N vyhodnotenie
+N princíp
+N kritérium
+N matematika
+N fyzika
+N fyzik
+N chémia
+N biológia
+N filozofia
+N psychológia
+N štatistika
+N ústav
+N tabuľka
+N číslica
+N rozdiel (číselný)
+N prírodná veda
+N ekonómia
+V preskúmať
+V experimentovať
+N hypotéza
+N obhliadka
+N expedícia
+N rovnica
+N premenná
+N desatinné číslo
+N polomer
+N priemer (kruhu)
+N teoréma
+N graf
+N grafické znázornenie
+N diagram
+N exemplár
+N referencia
+N historik
+N rešerš
+N matematik
+N chemik
+N biológ
+N filozof
+N psychológ
+N astronómia
+N astronóm
+N geometria
+N geológia
+N botanika
+N zoológia
+N sociológia
+N lingvistika
+N archeológia
+N archeológ
+N genetika
+N ekológia
+N algebra
+N aritmetika
+N mikroskop
+N teleskop
+N baňka
+N lievik
+N hranol
+V vypytovať sa
+V pozostávať
+V odkázať
+N prieskum
+V zdokumentovať
+N údaje
+N robot
+N vynález
+N senzor
+N inovácia
+N jadrová energia
+N umelá inteligencia
+N mechanizmus
+N vynálezca
+N obvod
+N lupa
+N laser
+N elektrina
+N jadrová energia
+N solárny článok
+N kilowatthodina
+N watt
+N algoritmus
+N expert
+N špecialista
+N prototyp
+N cín
+N zliatina
+SETTING culture
+N kvíz
+N akadémia
+N knižnica
+N exemplár
+N historik
+N architektúra
+N archeológia
+N archeológ
+N knihovník
+N encyklopédia
+N archív
+N hlas
+N rozprávač : artist
+N dialóg
+N vtip
+V citovať
+N citát
+V kritizovať : audience
+N kritika
+N gesto
+N zobrazenie
+N čitateľ (osoba) : audience
+N kapitola
+N názov
+N podtitul
+N denník (zápisky)
+N kníhkupectvo
+N koncept
+N plagát
+V zverejniť
+N zverejnenie
+N štúdio
+N monológ
+N kritik : audience
+N anekdota
+N poslucháč : audience
+N autorské čítanie
+N lektúra
+N knižnica
+N kaligrafia
+N rukopis (text)
+N vydavateľstvo
+N autor
+N poslucháč : audience
+N vydanie
+N kamera
+N fotograf : artist
+V fotografovať
+N reproduktor
+N slúchadlo
+N fotografia
+N fotoaparát
+N mikrofón
+N projektor
+N dielo
+V tesať
+SETTING everyday
+N fakt
+V informovať sa
+N pomer
+V objasniť
+N objasnenie
+N fakt
+V sľúbiť
+V byť správny
+V kričať
+V volať
+N otázka
+N odpoveď
+V klamať
+V prosiť
+N téma
+N meno
+N sľub
+V osloviť
+V prehovoriť
+V súhlasiť
+N súhlas
+N nálada
+N výkrik
+V kričať na
+V hádať sa
+V priznať
+V varovať
+N varovanie
+V navrhnúť (ponúknuť)
+N návrh
+N klamstvo
+N luhár
+V uraziť
+N urážka
+N prosba
+N prerušenie
+V kritizovať
+N rada
+V nadávať
+N chýr
+V vyhovoriť
+V urážať
+V chváliť sa
+V úpenlivo prosiť
+N somarina
+N nezmysel
+N výtržnosť
+N odôvodnenie
+N nezhoda
+N záver
+V strčiť
+N skúsenosť
+V robiť
+V robiť
+V dozvedieť sa
+V oplatiť sa
+V otvoriť
+V zatvoriť
+V zúčastniť sa
+V dohodnúť
+V vybaviť (záležitosť)
+V podniknúť
+V napodobniť
+SETTING law
+V objasniť
+N objasnenie
+N tvrdenie
+V vypytovať sa
+V popierať
+V priznať
+V priznať
+V uraziť
+N urážka
+V vyzvať (požiadať)
+V vyhrážať sa
+V tvrdiť
+N tvrdenie
+V konfrontovať
+N prieskum
+N priznanie
+V prisahať
+V obviniť
+N obvinenie
+N výzva (požiadanie)
+N odôvodnenie
+N obvinenie
+N patent
+N hacker
+N pracovná zmluva
+N notár
+N predpis
+N spis
+SETTING weather
+N prognóza
+SETTING travel
+N geografia
+N letné prázdniny
+V preskúmať
+N obhliadka
+N atlas
+N glóbus
+V potvrdiť
+N potvrdenie
+N informácia
+N pohľadnica
+N brožúra
+N prehľad
+V tlmočiť
+N tlmočník
+V fotografovať
+N fotoaparát
+N ďalekohľad
+N dovolenka
+SETTING media
+N tabuľka
+N informatika
+N rešerš
+V archivovať
+N telefonát
+N informácia
+N téma
+N list (písomnosť)
+N správa (oznam)
+N správy
+N hovorca
+N hovorkyňa
+V avizovať
+N ohlásenie
+N komentár
+V komentovať
+V informovať
+N informácia
+V komunikovať
+N komunikácia
+N kontakt
+V kontaktovať
+N kritika
+N chýr
+N zobrazenie
+N nadpis
+N čitateľ (osoba)
+N text
+N názov
+N podtitul
+V prepracovať
+N časopis
+N článok
+V informovať
+N správa (o udalosti)
+N médiá
+N tlač
+N tlačová konferencia
+N interview
+N kanál
+V zverejniť
+N zverejnenie
+N redakcia
+N novinár
+N slogan
+N titulok
+V oznámiť
+N oznámenie
+N časopis
+N moderátor
+N moderátorka
+N štúdio
+N e-mail
+V vyhlásiť
+N klebety
+N kritik
+N telefonát
+N typ písma
+N dokumentácia
+N prepracovanie
+N rukopis (text)
+N telegram
+V informovať
+N spravodajstvo
+V robiť rozhovor
+N redaktor
+N žurnalistika
+N novinárka
+N leták
+N spravodajská agentúra
+N tlačová správa
+N reportáž
+N rozhlas
+N reklamný spot
+N vydavateľstvo
+N záznam
+N rozhlasová stanica
+N denník (noviny)
+N autor
+N výsledok volieb
+N poslucháč
+N vydanie
+N počítač
+N program
+N aplikácia
+N údaje
+N internet
+N e-mail
+N telefón
+N mobil
+N kamera
+N fotka
+N video
+N rádio
+N technológia
+V zapínať
+V zapnúť (prístroj)
+V vypnúť
+N akumulátor
+N kábel
+N nabíjačka
+V nabiť
+V stiahnuť
+N laptop
+N tablet
+N obrazovka
+N monitor
+N tlačidlo
+N klávesnica
+V vytlačiť
+N tlačiareň
+V vytlačiť
+N softvér
+N súbor
+N priečinok
+N kód
+N heslo
+N používateľ
+N wifi
+N sieť (počítačová)
+N webová stránka
+N odkaz
+V kliknúť
+N umelá inteligencia
+N signál
+N satelit
+N dron
+V telefonovať
+N smartfón
+N fotograf
+N televízia
+N diaľkový ovládač
+N reproduktor
+N slúchadlo
+N čip
+N podcast
+V ohlásiť
+N hlásenie
+V prihlásiť sa
+V odhlásiť sa
+N profil
+V aktualizovať
+N používateľ
+N používateľka
+N platforma
+N telefónne číslo
+N pamäť (počítača)
+N počítač
+N gadget
+N displej
+N zástrčka (elektrická)
+V nahrať (na server)
+N elektronika
+N dotyková obrazovka
+N skener
+V skenovať
+V programovať
+N programátor
+N hardvér
+N databáza
+N ochrana údajov
+N webová stránka
+N webkamera
+N prehliadač
+N kliknutie
+N digitalizácia
+N server
+N smart hodinky
+N fotografia
+N mikrofón
+N procesor
+N USB
+N kurzor
+N rozhranie
+N algoritmus
+N spam
+N hacker
+N blog
+N upozornenie
+N router
+N bluetooth
+N GPS
+N pixel
+V rolovať
+V priblížiť
+N emoji
+N aktualizácia
+N záložná kópia
+N notebook
+N mobilný telefón
+N telefónne číslo
+N volajúci
+N poštová priehradka
+N príloha (dokumentu)
+N registrácia
+N operačný systém
+N pevný disk
+N vyhľadávač
+N anténa
+N prístroj
+N počítačová hra
+N portál
+N internetová stránka
+N stiahnutie
+V nainštalovať
+N reportér
+SETTING craft
+N učenie
+N architektúra
+N páka
+N bager
+N konštrukcia
+N rúra
+N drôt
+V stavať
+N drevo
+V spracovať
+N inžinier
+N mechanik
+N tesár
+N elektrikár
+N architekt
+N technik
+N murár
+N obuvník
+N návod
+N návod na použitie
+V vybudovať
+V rozobrať
+V zmontovať
+N súčiastka
+V vybudovať
+V dobudovať
+N oprava (poškodeného)
+N výstroj
+N stavebné práce
+V zrekonštruovať
+N kladivo
+N sekera
+N píla
+N skrutka
+N lano
+N reťaz
+N rebrík
+V lepiť
+N bedňa
+N materiál
+N doska
+N betón
+N oceľ
+N náradie
+N dielňa
+N remeslo
+N remeselník
+V nainštalovať
+N klampiar
+N kováč
+N kováčska dielňa
+V kovať
+N učeň
+N učeň
+N stolár
+N lepidlo
+N výstavba
+N dokončenie
+N stavebný plán
+V zvárať
+V vybaviť (výbavou)
+V búchať kladivom
+V pílit
+N motorová píla
+V skrutkovať
+N skrutkovač
+N maticový kľúč
+N svorka (náradie)
+N vrták
+V vŕtať
+N vŕtačka
+N kliešte
+N lopata
+V lopatiť
+N krompáč
+N kladka
+N hák
+N lepidlo
+N lepiaca páska
+N čap
+N dláto
+V tesať
+V ostriť
+N brúsny papier
+N páčidlo
+N nákovka
+N čepeľ
+N suť
+N prút
+N tyč
+N preglejka
+N kmeň stromu
+N trám
+N tehla
+N cement
+N lepenka
+N lak
+V lakovať
+N izolácia (stavebná)
+V zatepliť
+N plech
+N špagát
+N box na náradie
+N žeriav (stroj)
+N lešenie
+N buldozér
+N ventil
+N inštalácia
+N inštalatér
+SETTING bank
+N školné
+N list (písomnosť)
+N pošta
+N poradenstvo
+N poradca
+V podpísať
+N podpis
+N poštová známka
+N poštár
+N obálka
+N pohľadnica
+N poštový úrad
+N poštár
+V podpísať
+N PSČ
+N telegram
+N účet za elektrinu
+N poštová priehradka
+N mzda
+N pobočka
+N daňový poradca
+N životné poistenie
+N dôchodkové poistenie
+N platba
+SETTING religion
+N etika
+N symbol
+V prisahať
+V úpenlivo prosiť
+SETTING nature
+V preskúmať
+N expedícia
+N botanika
+N zoológia
+N ekológia
+N baterka
+N solárny článok
+N veterná turbína
+N ďalekohľad
+N drevo
+N sekera
+N lesník
+N motorová píla
+N palivové drevo
+N kmeň stromu
+N lom
+SETTING sky
+N astronómia
+N astronóm
+N teleskop
+N satelit
+SETTING kitchen
+N lievik
+V zotrieť
+N domáci spotrebič
+N čepeľ
+SETTING traffic
+N znak
+N automat
+V naložiť
+N signál
+N GPS
+N radar
+N mechanik
+N stavebné práce
+N kontajner
+N taxikár
+N vodič autobusu
+N rušňovodič
+N lanovka
+N nálepka
+N šrot
+N buldozér
+N os
+N logistika
+SETTING shop
+N zoznam
+V sťažovať sa : customer
+N sťažnosť
+N kníhkupectvo
+N slogan
+N katalóg
+N štítok
+N reklamný spot
+N automat
+N gadget
+N škatuľa
+N kalkulačka
+N výrobok
+N pobočka
+N holič : staff
+N obuvník : staff
+N návod na použitie
+N kartón
+N služba (poskytovaná)
+N vybavovanie
+N majiteľ
+N nálepka
+SETTING restaurant
+V sťažovať sa : guest
+V obsluhovať : staff
+N obsluha : staff
+SETTING celebration
+N vtip
+N príhovor
+N organizátor
+SETTING town
+N plagát
+N infraštruktúra
+SETTING military
+N dron
+N radar
+SETTING farm
+V pumpovať
+N sud
+N lesník
+SETTING health
+N vyhorenie
+SETTING garden
+N lopata
+V lopatiť
+N krompáč

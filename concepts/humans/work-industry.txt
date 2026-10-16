@@ -1,0 +1,342 @@
+# work-general
+N práca
+V pracovať
+N robotník
+N zamestnávateľ
+N spolupracovník
+N pracovisko
+N pracovný čas
+N nezamestnanosť
+AN nezamestnaný
+N spolupracovníčka
+N nezamestnaný
+N zamestnanec
+N samostatne zárobkovo činná osoba
+N pracujúci
+N učeň
+V brigádovať
+N kariéra
+N povolanie
+AN pracovný
+AN zamestnaný
+AN na voľnej nohe
+AN popri zamestnaní
+N šéf
+N šéfka
+N kolega
+N kolegyňa
+AN kolegiálny : adverb kolegiálne
+N personál
+V zamestnať
+V prepustiť (z práce)
+N prepustenie
+PHR odísť do dôchodku
+N dôchodca
+N odpočinok
+N dovolenka
+N schopnosť
+AN schopný : adverb schopne
+AN neschopný
+N skúsenosť
+V dozvedieť sa
+AN skúsený
+AN neskúsený
+N zodpovednosť
+AN zodpovedný : adverb zodpovedne
+AN nezodpovedný : adverb nezodpovedne
+N časový plán
+N pracovný pohovor
+V uchádzať sa
+N žiadosť o prácu
+N uchádzač
+N životopis
+N manažér
+N riaditeľ
+N vedúci
+N tajomník
+N sekretárka
+N asistent
+N expert
+N štrajk
+V štrajkovať
+N odbory
+AN odborový
+N povýšenie
+V povýšiť
+N inžinier
+N mechanik
+N tesár
+N klampiar
+N elektrikár
+N kováč
+N kováčska dielňa
+V kovať
+N architekt
+N stáž
+N stážista
+N mzda
+N minimálna mzda
+V oplatiť sa
+N nadčasy
+N práca na čiastočný úväzok
+N práca na plný úväzok
+N podnikateľ
+N podnik
+V podniknúť
+N start-up
+N zamestnanci
+N oddelenie (útvar)
+N pobočka
+N koncern
+N prezentácia
+V prezentovať
+N projekt
+N program rokovania
+N nadriadený
+N technik
+N školník
+N murár
+N holič
+N obuvník
+V dať výpoveď
+N výpoveď
+N vyhorenie
+N vybavovanie
+N predchodca
+N vedúca
+N odborník
+N zakladateľ
+N zakladateľka
+N prevádzka
+AN podnikový
+N podnikový výbor
+N pracovná zmluva
+N zamestnanecký pomer
+N odstupné
+N zvýšenie platu
+N deň dovolenky
+N obedňajšia prestávka
+N PN
+N úrad práce
+N porada
+N zápisnica
+N diár
+N reportér
+N notár
+N lesník
+N stolár
+N taxikár
+N vodič autobusu
+N rušňovodič
+N pokyn
+N návod
+N návod na použitie
+N podklad
+N spis
+N formulár
+N pečiatka
+N papierik
+N blok
+N lepidlo
+N súkromný život
+N daňový poradca
+N živnosť
+AN živnostenský
+N hosťujúci pracovník
+N životné poistenie
+N dôchodkové poistenie
+N rodičovská dovolenka
+N ošetrovateľ
+N sociálny pracovník
+N špecialista
+N starostlivosť o deti
+N pracovná podmienka
+N pracovná skupina
+N vedúci pracovník
+N vedenie firmy
+N skrátený pracovný čas
+N nedostatok odborníkov
+N delegácia
+N valné zhromaždenie
+N dozorná rada
+N predsedníctvo
+N výberové konanie
+N vyťaženosť
+N dokončenie
+N pedagóg
+V poslať do dôchodku
+V manažovať
+V koučovať
+V povolať
+V žiť z
+V reklamovať
+
+# making-doing
+V robiť
+V zatvoriť
+V napodobniť
+N výrobok
+V vyrábať
+N výroba
+AN produktívny : adverb produktívne
+N produktivita
+V stavať
+V vybudovať
+V rozobrať
+V zmontovať
+N súčiastka
+N stavebný plán
+V dobudovať
+V zastavať
+V zabudovať
+V postaviť podľa vzoru
+V opraviť
+N oprava (poškodeného)
+V zvárať
+V vyrobiť
+N výrobca
+N výstroj
+N prototyp
+N stavebné práce
+V vypracovať
+V vybaviť (záležitosť)
+V starať sa o
+N starostlivosť
+V zrekonštruovať
+V zhotoviť
+V kutiť
+AN remeselný
+V presadzovať
+V zintenzívniť
+V adaptovať
+V štandardizovať
+V implementovať
+V plne vyťažiť
+V vyplniť
+V nasadiť (na hlavu)
+V odvolať
+V roztiahnuť
+V nadviazať
+V rozdúchať
+V mutovať
+V lisovať
+V priškrtiť
+V vypustiť
+V ozeleniť
+V zohnať
+V pilovať
+V vypreparovať
+
+# tools
+N kladivo
+V búchať kladivom
+N sekera
+N píla
+V pílit
+N motorová píla
+N skrutka
+V skrutkovať
+N skrutkovač
+N maticový kľúč
+N svorka (náradie)
+N vrták
+V vŕtať
+N vŕtačka
+N kliešte
+N lopata
+V lopatiť
+N krompáč
+N lano
+N kladka
+N lanovka
+N reťaz
+N rebrík
+N hák
+V lepiť
+N lepiaca páska
+N nálepka
+V prilepiť
+N čap
+N dláto
+V tesať
+V ostriť
+N brúsny papier
+N páčidlo
+N nákovka
+N sud
+N kontajner
+N čepeľ
+N šrot
+N suť
+N prút
+N tyč
+
+# materials
+N materiál
+N drevo
+AN drevený
+N palivové drevo
+N preglejka
+N doska
+N kmeň stromu
+N trám
+N tehla
+N cement
+N betón
+N plast
+AN plastický
+N guma (materiál)
+N oceľ
+N cín
+N lepenka
+N kartón
+N zliatina
+N lak
+V lakovať
+N izolácia (stavebná)
+V zatepliť
+N plech
+N špagát
+
+# industry-places
+N dielo
+N náradie
+N box na náradie
+N dielňa
+N baňa
+N remeslo
+N remeselník
+N baník
+N baníctvo
+N priemysel
+AN priemyselný
+N továreň
+N žeriav (stroj)
+N rafinéria
+N lom
+N potrubie
+N lešenie
+N generátor
+N turbína
+N dopravný pás
+N vysokozdvižný vozík
+N buldozér
+N ventil
+N os
+N služba (v práci)
+V obsluhovať
+N obsluha
+N služba (poskytovaná)
+AN služobný
+V nainštalovať
+N inštalácia
+N inštalatér
+N logistika
+N obchodný model
+
+# work
+V vyčleniť
+
+# more
+N prax
+N verejnoprospešný podnik

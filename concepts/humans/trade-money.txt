@@ -1,0 +1,342 @@
+# money
+N peniaze
+N hotovosť
+N bankovka
+N drobné
+N vrátené drobné
+N sprepitné
+N vreckové
+N bankomat
+AN bezhotovostný
+N minca
+N mena
+N euro
+N cent
+N poklad
+N imanie
+N majetková hodnota
+AN majetný
+V byť schopný
+AN bohatý (majetný) : adverb bohato
+N bohatstvo
+N blahobyt
+AN zámožný
+AN chudobný : adverb chudobne
+N chudoba
+V schudobnieť
+N dlhy
+V dlhovať
+N dlžník
+N pôžička
+V požičať
+N hypotéka
+N rozpočet
+N fond
+N kapitál
+N financie
+AN finančný : adverb finančne
+V financovať
+N financovanie
+N milionár
+N dolár
+N suma
+N bežný účet
+N úrok
+N DPH
+N veriteľ
+N platba vopred
+N upomienka
+N tržba
+N úspora
+N podpora v nezamestnanosti
+N prídavok na dieťa
+N príspevok na bývanie
+N prémia
+V oceniť
+N poistná zmluva
+N výmenný kurz
+N cennosť
+N libra
+N rubeľ
+N odovzdanie
+N zvýšenie ceny
+N dodatočné náklady
+V podviesť
+
+# buying-selling
+V kúpiť
+V predať
+N predaj
+N predavač
+N kúpa
+N kupujúci
+V nakupovať
+N nákup
+N nákupné centrum
+N predavačka
+V kúpiť si
+V zaplatiť
+N platba
+V vrátiť peniaze
+N vklad
+AN finančne dostupný
+V vyplatiť
+N náklady
+V stáť (mať cenu)
+AN bezplatný : adverb bezplatne
+AN spoplatnený
+N hodnota
+AN hodný
+AN bezcenný
+N cenný papier
+AN plnohodnotný
+AN lacný : adverb lacno
+AN drahý : adverb draho
+N zdraženie
+V zdražiť
+N zľava
+N výhodná kúpa
+N účet (na zaplatenie)
+V rátať
+N potvrdenka
+V kvitovať
+V objednať
+N objednávka
+V objednať vopred
+N značka
+N zákazník
+N zákazníčka
+N zákazníci
+V poskytnúť
+V dovoliť si
+N výkon
+AN výkonný
+N vrátenie peňazí
+V vrátiť
+N aukcia
+N luxus
+AN luxusný : adverb luxusne
+V prenajať si
+V vymeniť si
+N výmena
+V spotrebovať
+N spotrebiteľ
+N spotrebiteľka
+N tovar
+N surovina
+N poukaz
+N záruka
+N transakcia
+N pokladňa
+N pokladník
+V inkasovať
+N čiarový kód
+N marketing
+N sponzor
+V sponzorovať
+N aukčná ponuka
+N nákupný vozík
+N nákupný zoznam
+N pokladničný doklad
+N výklad
+N reklamácia
+N vrátenie
+N zodpovednosť za vady
+N záloha
+N balenie
+N balíček
+N obal
+N zásoba
+N internetový obchod
+N nábytkárstvo
+N predpredaj
+N príplatok
+N úroková sadzba
+N doručenie
+N sortiment
+N cieľová skupina
+N udelenie
+N dodávateľský reťazec
+V pohostiť
+V zlacniť
+V stornovať
+V patentovať
+V odoslať
+
+# places-of-trade
+N trh
+N supermarket
+N bleší trh
+N trhovisko
+V komercializovať
+N stánok
+AN neochvejný : adverb neochvejne
+N pekár
+N pekáreň
+N mäsiar
+N mäsiarstvo
+N kiosk
+N pult
+N gastronómia
+AN gastronomický
+N otváracia doba
+N obchodný dom
+N drogéria
+N diskont
+
+# economy-finance
+N obchodovanie
+N obchodník
+V obchodovať
+V rokovať
+N rokovanie
+N výmenný obchod
+N veľkoobchod
+N maloobchod
+N dopyt
+N hospodárstvo
+AN hospodársky
+V obhospodarovať
+AN národohospodársky
+AN hospodársko-politický
+AN celohospodársky
+N obchod
+N obchod s potravinami
+N konateľ
+N konateľka
+AN obchodný
+AN poverený vedením
+N firma
+V vystupovať pod firmou
+N kancelária
+N zisk
+N príjem
+N plat
+N bonus
+N dôchodok
+N poplatok
+V zarobiť
+N zárobok
+AN nezaslúžený : adverb nezaslúžene
+V minúť (peniaze)
+N výdavok
+V šetriť
+AN sporivý
+N sporiteľňa
+V ušetriť
+V márniť
+N plytvanie
+N úroky
+N účet (bankový)
+N stav účtu
+N úver
+N karta
+N kreditná karta
+V investovať
+N investícia
+N investor
+N poistenie
+V poistiť
+N daň
+N volant
+AN daňový
+V zdaniť
+V platiť daň
+AN podliehajúci dani
+N vývoz
+V vyvážať
+N dovoz
+V dovážať
+N inflácia
+AN inflačný
+N bankrot
+AN zbankrotovaný
+N reklama
+V robiť reklamu
+N prevod
+V previesť
+N inkaso
+N šek
+N akcia (cenný papier)
+N akcionár
+N maklér
+N dodávateľ
+N konkurent
+N konkurencia
+V súťažiť
+N monopol
+N recesia
+N colná sadzba
+N kvóta
+N schodok
+N príjmy
+N sociálna pomoc
+N dotácia
+V darovať (na dobročinnosť)
+N účtovník
+N účtovníctvo
+N predplatné
+V predplatiť si
+N provízia
+N odškodnenie
+V odškodniť
+N trezor
+N inventár
+N zariadenie
+N obrat
+N bilancia
+V bilancovať
+N odvetvie
+N zákazka
+V poveriť
+N burza
+N centrálna banka
+N analytik
+N agentúra
+N manažment
+N trh práce
+N mínus
+N obchodný rok
+N nehnuteľnosť
+N zvýšenie cien
+N škrt
+N rezervný fond
+N paušál
+N cena nájmu
+N ojazdené auto
+N pomôcka
+N opora
+N míľnik
+N platobná neschopnosť
+AN platobne neschopný
+N ekonóm
+N kľúčová úroková sadzba
+N menová politika
+N výnosnosť
+N výťažok
+N úzke miesto
+AN ekonomický : adverb ekonomicky
+V prejaviť sa
+V prinášať
+V zlikvidovať
+V obohatiť
+AN stredostavovský
+V dotovať
+V sčítať
+V limitovať
+V rozpočtovať
+V zastropovať
+V diverzifikovať
+V konsolidovať
+V expandovať
+V zlúčiť sa
+V uskladniť
+
+# trade
+V licencovať
+
+# more
+AN fiškálny
+N získavanie prostriedkov
+N kryptomena
+N ziskovosť

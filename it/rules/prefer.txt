@@ -1,0 +1,12 @@
+# ITALIAN'S WORD FOR A CONCEPT where the realizer should not take the first commonest one -- `POS concept = word`.
+# Read by it/realize.js.
+N učiteľ = insegnante
+N učiteľka = insegnante
+AN pokazený = rotto
+N kus = pezzo
+AN ľahký = facile
+V obnoviť (pôvodný stav) = restaurare
+V volať = gridare
+N kaviareň = caffè
+V ležať = stare
+AN zlatý = dorato

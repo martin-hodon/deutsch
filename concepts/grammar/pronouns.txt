@@ -1,0 +1,59 @@
+# personal
+P ja
+P ty
+P on
+P ona
+P ono
+P my
+P vy (neformálne množné číslo)
+P vy (zdvorilé oslovenie)
+
+# possessive
+P môj
+P tvoj
+P jeho
+P jej
+P náš
+P váš (neformálne)
+P Váš (zdvorilé oslovenie)
+
+# reflexive-and-reciprocal
+P sa (zvratné zámeno)
+P sám
+P navzájom
+
+# demonstrative
+P tento
+AV tentoraz
+P tamten
+P taký
+PHR taký
+
+# interrogative-and-relative
+P kto
+P čo
+P ktorý
+PHR aký
+
+# indefinite
+P sa (neurčitý podmet)
+P niekto
+P nikto
+P každý človek
+P niektorý
+P obaja
+P akýkoľvek
+P niekoľkí
+PHR trochu
+P žiadny
+
+# language-specific closed words (no Slovak word: a description)
+P oni -- they, them: osobné zámeno množného čísla (oni, ony)
+P ich -- ich dom: their
+P ktokoľvek -- ktokoľvek: anyone
+P čí -- čí, ktorého: whose
+P iní ľudia (别人) -- ostatní, nie ja
+P ktorého (vzťažné zámeno) -- Genitiv des Relativpronomens: der Mann, dessen Auto; die Frau, deren Kind
+P zámeno nepriameho predmetu (le) -- le, les: Les dije la verdad
+P to (ukazovacie zámeno) -- vec bez rodu: ciò che = to, čo; ciò è vero
+P svoj -- privlastňovacie zvratné zámeno: vlastný podmetu, swój dom

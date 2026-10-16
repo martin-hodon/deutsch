@@ -1,0 +1,123 @@
+# SITUATIONS of landscapes, waters and open places (format: everyday.txt); rain-caused troubles (nass) where the rain really stops the action
+# (skipped: Bach, Teich, Quelle, Wasserfall, Rasen -- the dictionary has no am/auf for them, a story would say "im Bach", "im Rasen"; Meer -- no scene a learner tells that Strand/Küste do not tell)
+
+SITUATION gipfel : nature -- auf dem Gipfel Fotos machen
+  place   vrchol
+  people  priateľ | kin
+  things  sneh | kameň | oblak
+  own     kamera | batoh
+  want    chuť : verb=robiť patient=none:fotka+pl ; uses kamera
+  trouble kamera mokrý : sušiť
+  trouble kamera pokazený : opraviť
+
+# (drachen: "einen Drachen steigen lassen" -- two verbs, the format has one)
+SITUATION küste : water -- an der Küste
+  place   pobrežie
+  people  kin | priateľ
+  things  more | piesok | vlna | čajka
+  own     vedro
+  want    smädný : verb=piť patient=none:limonáda
+  want    chuť : verb=zbierať patient=none:mušľa+pl ; uses vedro
+  trouble vedro pokazený : opraviť
+  lack    limonáda : kiosk
+
+SITUATION bucht : water -- in der Bucht am Feuer
+  place   zátoka
+  people  priateľ | kin
+  things  čln | piesok | drevo | oheň
+  want    hladný : verb=grilovať patient=none:ryba+pl ; uses drevo
+  trouble drevo mokrý : sušiť
+
+SITUATION insel : water -- eine Nacht auf der Insel
+  place   ostrov
+  people  priateľ | kin
+  things  palma | piesok | strom | čln
+  own     stan | spací_vak
+  want    unavený : verb=spať ; uses stan | spací_vak
+  trouble spací_vak mokrý : sušiť
+  trouble stan pokazený : opraviť
+
+SITUATION höhle : nature -- in der Höhle
+  place   jaskyňa
+  people  priateľ | kin
+  things  kameň | stena | vchod
+  own     baterka | batoh
+  want    chuť : verb=preskúmať patient=def:jaskyňa ; uses baterka
+  trouble baterka pokazený : opraviť
+
+SITUATION tal : nature -- mit dem Fahrrad durch das Tal
+  place   dolina
+  people  priateľ | kin
+  things  vrch | rieka | lúka | cesta_(komunikácia)
+  own     bicykel | prilba
+  want    chuť : verb=ísť_(dopravou) patient=none:bicykel ; uses bicykel
+  trouble bicykel pokazený : opraviť
+
+SITUATION ufer : water -- am Ufer angeln
+  place   breh
+  people  priateľ | kin
+  things  voda | tráva | čln | strom
+  own     udica
+  want    chuť : verb=chytať_ryby ; uses udica
+  trouble udica pokazený : opraviť
+
+SITUATION wüste : nature -- eine Wanderung in der Wüste
+  place   púšť
+  people  priateľ | kin
+  things  piesok | duna | kaktus | slnko
+  own     fľaša | batoh
+  want    smädný : verb=piť patient=none:voda ; uses fľaša
+  lack    voda : oáza doniesť
+
+SITUATION zoo : sport -- im Zoo
+  place   zoologická_záhrada
+  people  kin | priateľ
+  things  klietka | zviera | opica | lev | cesta_(komunikácia) | lavica
+  want    smädný : verb=piť patient=none:šťava
+  want    hladný : verb=jesť patient=none:párok
+  want    unavený : verb=oddýchnuť_si ; uses lavica
+  trouble lavica mokrý : sušiť
+  trouble lavica špinavý : čistiť
+  lack    šťava : kiosk
+  lack    párok : kiosk
+
+SITUATION spielplatz : sport -- mit Kindern auf dem Spielplatz
+  place   detské_ihrisko
+  people  kin | priateľ
+  things  šmykľavka | piesok | lavica | strom
+  want    smädný : verb=piť patient=none:šťava
+  want    unavený : verb=oddýchnuť_si ; uses lavica
+  trouble lavica mokrý : sušiť
+  trouble lavica špinavý : čistiť
+  lack    šťava : kiosk
+
+SITUATION terrasse : garden -- auf der Terrasse grillen
+  place   terasa
+  people  kin | priateľ
+  things  stôl | stolička_(nábytok) | záhrada | gril | uhlie
+  want    hladný : verb=grilovať patient=none:párok ; uses gril | uhlie
+  want    unavený : verb=oddýchnuť_si ; uses stolička_(nábytok)
+  trouble gril pokazený : opraviť
+  trouble uhlie mokrý : sušiť
+  trouble stolička_(nábytok) mokrý : sušiť
+  trouble stolička_(nábytok) špinavý : čistiť
+  lack    párok : supermarket
+
+SITUATION weinberg : farm -- im Weinberg
+  place   vinica
+  people  vinohradník | kin
+  things  hrozno | kopec | cesta_(komunikácia) | dom
+  own     kôš | fľaša
+  want    chuť : verb=žať patient=none:hrozno+pl ; uses kôš
+  want    smädný : verb=piť patient=none:šťava ; uses fľaša
+  trouble kôš pokazený : opraviť by vinohradník
+  trouble fľaša prázdny : naplniť by vinohradník
+
+SITUATION acker : farm -- Kartoffeln auf dem Acker
+  place   roľa
+  people  roľník | kin
+  things  zem | traktor | zrno | cesta_(komunikácia)
+  own     rýľ | kôš
+  want    chuť : verb=žať patient=none:zemiak+pl ; uses rýľ | kôš
+  trouble rýľ pokazený : opraviť by roľník
+  trouble kôš pokazený : opraviť

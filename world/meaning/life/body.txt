@@ -1,0 +1,168 @@
+N telo : body-part, washable
+AN telesný : activity, state ; attr
+N časť tela : body-part
+N hlava : body-part, washable
+N pokožka hlavy : body-part
+N tvár : body-part, washable
+N výraz tváre : state
+N oko : body-part, openable
+N obočie : body-part
+N očné viečko : body-part
+N očná guľa : body-part
+N mihalnica : body-part
+N zrenica : body-part
+N dúhovka : body-part
+N sietnica : body-part
+N ucho : body-part
+N ušný lalôčik : body-part
+N nos : body-part, breakable
+N nozdra : body-part
+N ústa : body-part, openable
+AN ústny : information, event ; attr
+N kútik úst : body-part
+N pera : body-part
+N zub : body-part, cleanable, breakable
+N ďasno : body-part
+N stolička (zub) : body-part, cleanable, breakable
+N zubná sklovina : body-part
+N jazyk (orgán) : body-part
+N čeľusť : body-part, breakable
+N líce : body-part
+N lícna kosť : body-part
+N brada (časť tváre) : body-part
+N čelo : body-part
+N spánok (časť hlavy) : body-part
+N vlasy : body-part, washable, cuttable
+AN chlpatý : animal, body-part
+N strih : activity
+N brada (porast) : body-part, washable, cuttable
+AN bradatý : person
+N fúzy : body-part, cuttable
+N krk : body-part
+N hrdlo : body-part
+N hrtan : body-part
+N lebka : body-part, breakable
+N jamka (v lícu) : body-part
+N peha : body-part
+N podnebie : body-part
+N plece : body-part
+N paža : body-part, breakable
+N predlaktie : body-part, breakable
+N nadlaktie : body-part, breakable
+N lakeť : body-part
+N ruka : body-part, washable, breakable
+N zápästie : body-part, breakable
+N dlaň : body-part
+N chrbát ruky : body-part
+N päsť : body-part
+N prst : body-part, breakable
+N necht : body-part, cuttable
+N špička prsta : body-part
+N ukazovák : body-part
+N odtlačok prsta : information
+N palec (prst) : body-part
+N klinec : tool, body-part
+V pribíjať : person > patient {doska|plagát|štít}
+N hruď : body-part
+N hrudník : body-part
+N prsia : body-part
+N chrbát : body-part
+N chrbtica : body-part
+N brucho : body-part
+N pás : body-part
+N bok : body-part
+N zadok : body-part
+N noha (končatina) : body-part, breakable
+N stehno : body-part, breakable
+N predkolenie : body-part, breakable
+N holenná kosť : body-part, breakable
+N kľúčna kosť : body-part, breakable
+N koleno : body-part
+N jabĺčko : body-part
+N lýtko : body-part
+N noha (chodidlo) : body-part, washable, breakable
+N chodidlo : body-part
+N päta : body-part
+N prst na nohe : body-part, breakable
+N členok : body-part, breakable
+N kĺb prsta : body-part
+N končatina : body-part
+N úd : body-part
+N podpazušie : body-part
+N pupok : body-part
+N slabina : body-part
+N trup : body-part
+N mozog : body-part
+N srdce : body-part
+AN srdečný : person, information, event
+N pľúca : body-part
+N žalúdok : body-part
+N pečeň : body-part
+N oblička : body-part
+N črevo : body-part
+N krv : liquid
+V krvácať : animal -professional > source {nos|pera|rana|prst|ruka|noha (končatina)|hlava|ďasno|paža}
+V krvácať : {nos|pera|rana|ďasno}
+AN krvavý : animal, body-part, meat, weapon, tool, clothing, fabric, event
+N žila : body-part
+N tepna : body-part
+N nerv : body-part
+N nervová sústava : body-part
+N kosť : body-part, breakable
+N kostná dreň : body-part
+N zlomenina : illness
+N kostra : body-part
+N rebro : body-part, breakable
+N stavec : body-part, breakable
+N kĺb : body-part
+N sval : body-part
+AN svalnatý : animal, body-part
+N svalová horúčka : illness
+N koža (orgán) : body-part
+N farba pleti : quality
+N mäso : meat, cuttable, cookable
+N tuk : food, substance
+AN tučný : food, animal
+AN vráskavý : animal, body-part
+N orgán : body-part
+N organizmus : living
+N bunka : substance
+N gén : information
+AN genetický : illness, information, quality ; attr
+N pot : liquid
+V potiť sa : person -professional
+V potiť sa : {kôň|opica|krava|býk|vôl}
+N slza : liquid
+N slina : liquid
+N vráska : body-part
+N šľacha : body-part
+N väzivo : body-part
+N chrupavka : body-part
+N žľaza : body-part
+N štítna žľaza : body-part
+N podžalúdková žľaza : body-part
+N hormón : substance
+N pulz : state
+N tkanivo : substance
+N slezina : body-part
+N maternica : body-part
+N priedušnica : body-part
+N pór (v koži) : body-part
+N hlien : substance
+N membrána : body-part
+N krčná mandľa : body-part
+N pigment : substance
+N účes : quality
+N žlč : body-part
+N šija : body-part
+N tetovanie : picture
+# added: Band in its second sense
+N páska : artifact, thing
+
+# ---- added 2026-10-13 by helpers from the glosses: rough -- world/lists.txt focus-only, said only when asked for
+AN bezmäsitý : food, dish, meal
+AN potivý : person, animal, body-part
+AN rukopisný : document, text, writing
+AN v dosahu pešo : place, building, shop, settlement
+V stelesňovať : person > patient quality
+V vziať na plecia : person > patient {zodpovednosť|povinnosť|úloha}

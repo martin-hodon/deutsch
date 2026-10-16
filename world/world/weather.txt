@@ -1,0 +1,20 @@
+# THE WEATHER (tools/world.py): each kind, how it is said (a clause in the tests.txt format: verb= subj= pred=), and
+# what it makes an outside place (properties.txt); the SEASONS and how likely each weather is in them.
+#     WEATHER name : the clause ; property value ; ... ; noun N ; bad   (N: what one likes or not of it -- people.txt
+#     TASTE; bad: one is out in it only when it causes the story's trouble -- the rain that wets her book)
+#     SEASON Noun : weather {weight} | weather ...
+WEATHER slnečný : verb=svietiť subj=def:slnko ; light svetlý ; wetness suchý ; noun slnko
+WEATHER horúci : verb=byť subj=3sg.n pred=adj:horúci ; temperature horúci ; light svetlý ; wetness suchý ; noun horúčava
+WEATHER teplý : verb=byť subj=3sg.n pred=adj:teplý ; temperature teplý
+WEATHER chladný : verb=byť subj=3sg.n pred=adj:chladný ; temperature chladný
+WEATHER studený : verb=byť subj=3sg.n pred=adj:studený ; temperature studený ; noun chlad
+WEATHER dážď : verb=pršať subj=3sg.n ; wetness mokrý ; light tmavý ; temperature chladný ; noun dážď ; bad
+WEATHER sneh : verb=snežiť subj=3sg.n ; temperature studený ; wetness mokrý ; colour biely ; noun sneh
+WEATHER veterný : verb=byť subj=3sg.n pred=adj:veterný ; temperature chladný ; noun vietor
+WEATHER hmlistý : verb=byť subj=3sg.n pred=adj:hmlistý ; light tmavý ; wetness vlhký ; colour sivý ; noun hmla ; bad
+WEATHER oblačný : verb=byť subj=def:obloha pred=adj:sivý ; light tmavý ; colour sivý
+WEATHER búrka : verb=hrmieť subj=3sg.n ; wetness mokrý ; light tmavý ; loudness hlasný ; noun búrka ; bad
+SEASON jar : slnečný {3} | teplý {2} | chladný {2} | dážď {3} | veterný {1} | oblačný {1}
+SEASON leto : slnečný {4} | horúci {4} | teplý {2} | búrka {1} | dážď {1}
+SEASON jeseň : dážď {4} | veterný {3} | hmlistý {2} | chladný {2} | oblačný {2} | slnečný {1}
+SEASON zima : sneh {4} | studený {4} | hmlistý {1} | oblačný {2} | slnečný {1}

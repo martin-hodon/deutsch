@@ -1,0 +1,50 @@
+# THE FORMS EXERCISE: a sentence with one word left out, its right form among wrong ones of the same word -- the
+# format: de/rules/forms.txt
+
+present: presente
+  not   V.pret.=
+  ask   V.pres.*
+  wrong V.pres.* ~V.pres.= V.pret.=
+
+preterite: pretérito indefinido
+  when  tense=past
+  not   V.pres.=
+  ask   V.pret.*
+  wrong ~V.pret.= V.impf.= V.pret.*
+
+imperfect: pretérito imperfecto
+  when  tense=past
+  steer freq=yes
+  ask   V.impf.*
+  wrong V.pret.= V.impf.* V.pres.=
+
+future: futuro
+  when  tense=future
+  ask   V.fut.*
+  wrong V.cond.= V.fut.* V.pres.=
+
+conditional: condicional
+  when  mood=hypo
+  ask   V.cond.*
+  wrong V.fut.= V.cond.* V.impf.=
+
+subjunctive: subjuntivo
+  steer link=so-that link=before mood=hypo
+  ask   V.subj.* V.subjimpf.*
+  wrong V.pres.= V.subj.* V.subjimpf.* V.pret.=
+
+participle: participio
+  ask   V.pp
+  wrong ~V.pp V.inf V.ger
+
+plural: plural
+  ask   N.pl
+  wrong ~N.pl N.sg
+
+adjective: concordancia del adjetivo
+  ask   AN.*.*
+  wrong AN.*.*
+
+article: artículos
+  ask   ART.*.*.*
+  wrong ART.=.*.*

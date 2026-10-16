@@ -1,0 +1,22 @@
+# HOW RUSSIAN SOUNDS (engine/speak.js loadProsody): the format is de/rules/speech.txt's.
+rhythm = stress        -- stress-timed: one strong stress a word, the unstressed vowels reduced (the IPA writes the reduction: ə ɐ ɪ)
+even = 0.35            -- the feet evened out part of the way
+long = 1.2             -- Russian has no vowel length; a ː marks only a long consonant (щ ɕː, тʲː) -- a little longer
+stress = 1.35          -- the stressed vowel is markedly longer than the others: Russian's stress is heard in length
+unstressed = 0.8       -- an unstressed vowel short (the reduced ones have their own shortness)
+final = 1.15           -- the last vowel of what is said, lengthened
+pause = 40             -- ms between words
+slow = 1.15            -- a little slower than conversation (the listener's own tempo is set in the trainer)
+accent = 1.1           -- the pitch on a stressed vowel: Russian's stress rides a clear pitch step
+range = 0.18           -- a statement falls over its length more than German
+aspiration = 0.2       -- п т к are not aspirated
+
+# WEAK WORDS: said without stress in a phrase (speak.js phrase); more than `run` syllables without a beat get one back
+run = 3
+weak = и а но в во на с со к ко у за по из о об от до для при над под без через про
+weak = я ты он она оно мы вы они меня тебя его её нас вас их мне тебе ему ей нам вам им мной тобой ним ней ними
+weak = мой моя моё мои твой твоя твоё твои наш наша наше наши ваш ваша ваше ваши свой своя своё свои
+weak = не ни ли бы же ведь вот уж
+weak = что чтобы если когда как потому так то это этот эта эти тот та те
+weak = был была было были есть будет буду будешь будем будете будут быть
+weak = может могу можешь можем можете могут должен должна должны надо нужно

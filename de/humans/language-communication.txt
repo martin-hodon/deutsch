@@ -1,0 +1,550 @@
+# speaking
+1 V sprechen {sprechen} [ˈʃpʁɛçən], spricht/sprach/gesprochen [ʃpʁɪçt/ʃpʁaːx/ɡəˈʃpʁɔxən], hat (mit D, über A) = hovoriť, rozprávať
+- 1 N die Sprache {Sprache} [ˈʃpʁaːxə], Sprachen = jazyk (reč), reč
+- 1 N das Gespräch {Ge|spräch} [ɡəˈʃpʁɛːç], Gespräche (mit D, über A) = rozhovor, hovor
+- 2 N der Sprecher {Sprecher} [ˈʃpʁɛçɐ], Sprecher = hovorca, hlásateľ
+- 2 N der Spruch {Spruch} [ʃpʁʊx], Sprüche = výrok, porekadlo
+- 1 V versprechen {ver|sprechen} [fɛɐˈʃpʁɛçən], verspricht/versprach/versprochen [fɛɐˈʃpʁɪçt/fɛɐˈʃpʁaːx/fɛɐˈʃpʁɔxən], hat (D A) = sľúbiť, sľubovať
+- 2 N das Versprechen {Ver|sprechen} [fɛɐˈʃpʁɛçən], Versprechen (geben, halten) = sľub
+- 2 V aussprechen {aus·sprechen} [ˈaʊsʃpʁɛçən], spricht aus/sprach aus/ausgesprochen [ʃpʁɪçt aʊs/ʃpʁaːx aʊs/ˈaʊsɡəʃpʁɔxən], hat (sich A, für A) = vysloviť, vyjadriť
+- 2 N die Aussprache {Aus|sprache} [ˈaʊsʃpʁaːxə], Aussprachen = výslovnosť
+- 2 V besprechen {be|sprechen} [bəˈʃpʁɛçən], bespricht/besprach/besprochen [bəˈʃpʁɪçt/bəˈʃpʁaːx/bəˈʃpʁɔxən], hat (A, mit D) = prebrať, prediskutovať
+- 2 V widersprechen {widersprechen} [ˈviːdɐʃpʁɛçən], widerspricht/widersprach/widersprochen [viːdɐˈʃpʁɪçt/viːdɐˈʃpʁaːx/viːdɐˈʃpʁɔxən], hat (D) = protirečiť, odporovať
+- 2 N der Widerspruch {Widerspruch} [ˈviːdɐʃpʁʊx], Widersprüche = rozpor, protirečenie, námietka
+- 2 N die Muttersprache {Mutter|sprache} [ˈmʊtɐʃpʁaːxə], Muttersprachen = materinský jazyk, materčina
+- 2 N die Fremdsprache {Fremd|sprache} [ˈfʁɛmtʃpʁaːxə], Fremdsprachen = cudzí jazyk
+- 2 AN zweisprachig {zwei|sprachig} [ˈtsvaɪʃpʁaːxɪç] = dvojjazyčný
+- 3 AN sprachlos {sprach|los} [ˈʃpʁaːxloːs] = bez slov, ohromený
+- 2 N die Sprecherin {Sprecherin} [ˈʃpʁɛçəʁɪn], Sprecherinnen = hovorkyňa
+- 2 V ansprechen {an·sprechen} [ˈanʃpʁɛçən], spricht an/sprach an/angesprochen [ʃpʁɪçt an/ʃpʁaːx an/ˈanɡəʃpʁɔxən], hat = osloviť, zaujať, spomenúť
+
+1 V sagen {sagen} [ˈzaːɡən], hat (D A) = povedať, hovoriť
+- 2 N die Aussage {Aus|sage} [ˈaʊszaːɡə], Aussagen = tvrdenie, výpoveď
+- 3 V aufsagen {auf·sagen} [ˈaʊfzaːɡən], hat (A) = odrecitovať, zarecitovať
+- 2 N die Zusage {Zu|sage} [ˈtsuːzaːɡə], Zusagen = prísľub, súhlas
+- 2 V ansagen {an·sagen} [ˈanzaːɡən], hat (A) = vyhlásiť, oznámiť
+- 2 V versagen {ver|sagen} [fɛɐˈzaːɡən], hat (D A) = zlyhať, odoprieť
+- 3 V aussagen {aus·sagen} [ˈaʊszaːɡən], hat (über A, gegen A) = vypovedať, tvrdiť
+
+1 V erzählen {er|zählen} [ɛɐˈtsɛːlən], hat (D A, von D, über A) = rozprávať, vyrozprávať
+- 2 N der Erzähler {Er|zähler} [ɛɐˈtsɛːlɐ], Erzähler = rozprávač
+
+1 V reden {reden} [ˈʁeːdən], hat (mit D, über A) = rozprávať sa, hovoriť
+- 2 N die Rede {Rede} [ˈʁeːdə], Reden (halten) = reč, prejav
+- 2 N der Redner {Redner} [ˈʁeːdnɐ], Redner = rečník
+- 2 V überreden {über|reden} [yːbɐˈʁeːdən], hat (A, zu D) = prehovoriť, nahovoriť
+- 3 V ausreden {aus·reden} [ˈaʊsʁeːdən], hat (D A) = vyhovoriť, dopovedať
+- 3 N die Redewendung {Rede|wendung} [ˈʁeːdəvɛndʊŋ], Redewendungen = rčenie, idióm
+- 3 AN redegewandt {rede|ge|wandt} [ˈʁeːdəɡəvant] = výrečný
+
+2 N der Dialog {Dialog} [diaˈloːk], Dialoge = dialóg, rozhovor
+- 3 N der Monolog {Monolog} [monoˈloːk], Monologe = monológ
+
+2 V plaudern {plaudern} [ˈplaʊdɐn], hat (mit D, über A) = rozprávať sa, besedovať
+
+1 N die Stimme {Stimme} [ˈʃtɪmə], Stimmen = hlas
+- 1 V stimmen {stimmen} [ˈʃtɪmən], hat (für A) = byť správny, sedieť, hlasovať
+- 1 V stimmen {stimmen} [ˈʃtɪmən], hat (für A) = ladiť
+- 2 V zustimmen {zu·stimmen} [ˈtsuːʃtɪmən], hat (D) = súhlasiť
+- 2 N die Zustimmung {Zu|stimmung} [ˈtsuːʃtɪmʊŋ], Zustimmungen = súhlas
+- 2 N die Stimmung {Stimmung} [ˈʃtɪmʊŋ], Stimmungen = nálada, atmosféra
+- 2 V abstimmen {ab·stimmen} [ˈapʃtɪmən], hat (über A, mit D) = hlasovať, zosúladiť
+- 3 V einstimmen {ein·stimmen} [ˈaɪnʃtɪmən], hat (sich A, in A) = naladiť sa, pripojiť sa (k spevu)
+
+2 N der Akzent {Akzent} [akˈtsɛnt], Akzente = prízvuk, akcent, dôraz
+
+1 V schreien {schreien} [ˈʃʁaɪən], schreit/schrie/geschrien [ʃʁaɪt/ʃʁiː/ɡəˈʃʁiːən], hat (vor D) = kričať, vykrikovať
+- 2 N der Schrei {Schrei} [ʃʁaɪ], Schreie = výkrik, krik
+- 2 V anschreien {an·schreien} [ˈanʃʁaɪən], schreit an/schrie an/angeschrien [ʃʁaɪt an/ʃʁiː an/ˈanɡəʃʁiːən], hat (A) = kričať na
+
+2 V flüstern {flüstern} [ˈflʏstɐn], hat = šepkať, šeptať
+
+1 V rufen {rufen} [ˈʁuːfən], ruft/rief/gerufen [ʁuːft/ʁiːf/ɡəˈʁuːfən], hat (A, nach D) = volať, zavolať
+- 1 V anrufen {an·rufen} [ˈanʁuːfən], ruft an/rief an/angerufen [ʁuːft an/ʁiːf an/ˈanɡəʁuːfən], hat (A) = zavolať, telefonovať
+- 1 N der Anruf {An|ruf} [ˈanʁuːf], Anrufe = telefonát, hovor
+- 2 N der Aufruf {Auf|ruf} [ˈaʊfʁuːf], Aufrufe = apel, výzva
+- 2 V ausrufen {aus·rufen} [ˈaʊsʁuːfən], ruft aus/rief aus/ausgerufen [ʁuːft aʊs/ʁiːf aʊs/ˈaʊsɡəʁuːfən], hat (A) = vyhlásiť, zvolať
+- 3 N der Ausruf {Aus|ruf} [ˈaʊsʁuːf], Ausrufe = zvolanie, výkrik
+- 2 V aufrufen {auf·rufen} [ˈaʊfʁuːfən], ruft auf/rief auf/aufgerufen [ʁuːft aʊf/ʁiːf aʊf/ˈaʊfɡəʁuːfən], hat = vyzvať (k vystúpeniu), vyvolať
+- 3 V herbeirufen {herbei·rufen} [hɛɐˈbaɪʁuːfən], ruft herbei/rief herbei/herbeigerufen [ʁuːft hɛɐˈbaɪ/ʁiːf hɛɐˈbaɪ/hɛɐˈbaɪɡəʁuːfən], hat (A) = privolať
+
+1 V fragen {fragen} [ˈfʁaːɡən], hat (A, nach D, sich A) = pýtať sa, spýtať sa
+- 1 N die Frage {Frage} [ˈfʁaːɡə], Fragen (nach D, stellen) = otázka
+- 2 N die Anfrage {An|frage} [ˈanfʁaːɡə], Anfragen = dotaz, dopyt, otázka
+- 2 V nachfragen {nach·fragen} [ˈnaːxfʁaːɡən], hat (bei D) = spýtať sa, dopytovať sa, doopýtať sa
+- 2 V befragen {be|fragen} [bəˈfʁaːɡən], hat (A, zu D) = vypytovať sa, opýtať sa
+- 2 N das Fragezeichen {Frage|zeichen} [ˈfʁaːɡətsaɪçən], Fragezeichen = otáznik
+- 3 AN fraglich {frag|lich} [ˈfʁaːklɪç] = pochybný, sporný
+- 2 V hinterfragen {hinter|fragen} [hɪntɐˈfʁaːɡən], hat (A) = spochybniť, prehodnotiť
+- 3 V anfragen {an·fragen} [ˈanfʁaːɡən], hat (bei D) = spýtať sa, dopytovať sa
+
+1 N die Antwort {Antwort} [ˈantvɔʁt], Antworten (auf A) = odpoveď
+- 1 V antworten {antworten} [ˈantvɔʁtən], hat (D, auf A) = odpovedať
+- 2 V beantworten {be|antworten} [bəˈantvɔʁtən], hat (A) = odpovedať na, zodpovedať
+
+2 N die Debatte {Debatte} [deˈbatə], Debatten (über A) = debata, rozprava
+- 3 V debattieren {debattieren} [debaˈtiːʁən], hat (über A, mit D) = debatovať, diskutovať
+
+2 V streiten {streiten} [ˈʃtʁaɪtən], streitet/stritt/gestritten [ˈʃtʁaɪtət/ʃtʁɪt/ɡəˈʃtʁɪtən], hat (sich A, mit D, über A) = hádať sa, škriepiť sa
+- 3 AN unbestritten {un|be|stritten} [ˈʊnbəʃtʁɪtən] = nesporný, nepopierateľný
+
+2 V leugnen {leugnen} [ˈlɔʏɡnən], hat (A) = popierať, poprieť
+
+2 V zugeben {zu·geben} [ˈtsuːɡeːbən], gibt zu/gab zu/zugegeben [ɡɪpt tsuː/ɡaːp tsuː/ˈtsuːɡəɡeːbən], hat (A) = priznať, pripustiť, pridať
+
+2 V gestehen {ge|stehen} [ɡəˈʃteːən], gesteht/gestand/gestanden [ɡəˈʃteːt/ɡəˈʃtant/ɡəˈʃtandən], hat (D A) = priznať, vyznať
+- 3 N das Geständnis {Ge|ständnis} [ɡəˈʃtɛntnɪs], Geständnisse = priznanie
+
+1 V erklären {er|klären} [ɛɐˈklɛːʁən], hat (D A, sich A) = vysvetliť, vyhlásiť
+- 2 N die Erklärung {Er|klärung} [ɛɐˈklɛːʁʊŋ], Erklärungen = vysvetlenie, vyhlásenie
+- 3 AN unerklärlich {un|erklär|lich} [ˈʊnɛɐklɛːɐlɪç] = nevysvetliteľný
+
+2 V erwähnen {er|wähnen} [ɛɐˈvɛːnən], hat (A) = spomenúť, zmieniť sa
+- 3 N die Erwähnung {Er|wähnung} [ɛɐˈvɛːnʊŋ], Erwähnungen = zmienka, spomenutie
+
+1 V wiederholen {wieder|holen} [viːdɐˈhoːlən], hat (A, sich A) = opakovať
+
+2 V ausdrücken {aus·drücken} [ˈaʊsdʁʏkən], hat (A, sich A) = vyjadriť, vymačkať
+- 2 N der Ausdruck {Aus|druck} [ˈaʊsdʁʊk], Ausdrücke = výraz, vyjadrenie
+- 3 AN ausdrücklich {aus|drücklich} [ˈaʊsdʁʏklɪç] = výslovný
+
+2 V ankündigen {an·kündigen} [ˈankʏndɪɡən], hat (A) = avizovať, oznámiť, ohlásiť
+- 2 N die Ankündigung {An|kündigung} [ˈankʏndɪɡʊŋ], Ankündigungen = ohlásenie, oznámenie
+- 3 V verkünden {ver|künden} [fɛɐˈkʏndən], hat (A) = vyhlásiť, zvestovať
+
+2 V warnen {warnen} [ˈvaʁnən], hat (A, vor D) = varovať
+- 2 N die Warnung {Warnung} [ˈvaʁnʊŋ], Warnungen (vor D) = varovanie
+
+2 V vorschlagen {vor·schlagen} [ˈfoːɐʃlaːɡən], schlägt vor/schlug vor/vorgeschlagen [ʃlɛːkt foːɐ/ʃluːk foːɐ/ˈfoːɐɡəʃlaːɡən], hat (D A) = navrhnúť (ponúknuť)
+- 2 N der Vorschlag {Vor|schlag} [ˈfoːɐʃlaːk], Vorschläge = návrh
+
+2 V überzeugen {über|zeugen} [yːbɐˈtsɔʏɡən], hat (A, von D, sich A) = presvedčiť
+
+2 V sich beschweren {sich be|schweren} [zɪç bəˈʃveːʁən], hat (über A, bei D) = sťažovať sa
+- 2 N die Beschwerde {Be|schwerde} [bəˈʃveːɐdə], Beschwerden = sťažnosť
+
+3 V schwören {schwören} [ˈʃvøːʁən], schwört/schwor/geschworen [ʃvøːɐt/ʃvoːɐ/ɡəˈʃvoːʁən], hat (A, auf A) = prisahať
+- 3 V einschwören {ein·schwören} [ˈaɪnʃvøːʁən], schwört ein/schwor ein/eingeschworen [ʃvøːɐt aɪn/ʃvoːɐ aɪn/ˈaɪnɡəʃvoːʁən], hat (auf A) = naladiť na, zaprisahať
+
+1 V lügen {lügen} [ˈlyːɡən], lügt/log/gelogen [lyːkt/loːk/ɡəˈloːɡən], hat = klamať, luhať
+- 2 N die Lüge {Lüge} [ˈlyːɡə], Lügen = klamstvo, lož
+- 2 N der Lügner {Lügner} [ˈlyːɡnɐ], Lügner = luhár, klamár
+
+3 N der Klatsch {Klatsch} [klatʃ], - = klebety, ohováranie
+
+2 N der Witz {Witz} [vɪts], Witze = vtip
+- 2 AN witzig {witzig} [ˈvɪtsɪç] = vtipný, zábavný
+
+2 V beleidigen {be|leidigen} [bəˈlaɪdɪɡən], hat (A) = uraziť, urážať
+- 2 N die Beleidigung {Be|leidigung} [bəˈlaɪdɪɡʊŋ], Beleidigungen = urážka
+- 2 AN beleidigt {be|leidigt} [bəˈlaɪdɪçt] = urazený
+
+2 V loben {loben} [ˈloːbən], hat (A, für A) = chváliť, pochváliť
+- 2 N das Lob {Lob} [loːp], - = chvála, pochvala
+
+3 V beschuldigen {be|schuldigen} [bəˈʃʊldɪɡən], hat (A G) = obviniť, obviňovať
+- 3 N die Beschuldigung {Be|schuldigung} [bəˈʃʊldɪɡʊŋ], Beschuldigungen = obvinenie
+
+2 N der Kommentar {Kommentar} [kɔmɛnˈtaːɐ], Kommentare (zu D) = komentár, poznámka
+- 2 V kommentieren {kommentieren} [kɔmɛnˈtiːʁən], hat (A) = komentovať
+
+1 V bitten {bitten} [ˈbɪtən], bittet/bat/gebeten [ˈbɪtət/baːt/ɡəˈbeːtən], hat (A, um A) = prosiť, požiadať
+- 2 N die Bitte {Bitte} [ˈbɪtə], Bitten (um A) = prosba
+
+2 V fordern {fordern} [ˈfɔʁdɐn], hat (A, von D) = požadovať, vyžadovať
+- 2 N die Forderung {Forderung} [ˈfɔʁdəʁʊŋ], Forderungen (nach D) = požiadavka (žiadanie), pohľadávka
+- 2 N die Anforderung {An|forderung} [ˈanfɔʁdəʁʊŋ], Anforderungen = požiadavka (kritérium), nárok
+- 2 V auffordern {auf·fordern} [ˈaʊffɔʁdɐn], hat (A, zu D) = vyzvať (požiadať)
+- 3 N die Aufforderung {Auf|forderung} [ˈaʊffɔʁdəʁʊŋ], Aufforderungen = výzva (požiadanie), požiadanie
+- 2 V herausfordern {heraus·fordern} [hɛˈʁaʊsfɔʁdɐn], hat (A) = vyprovokovať, vyzvať
+- 2 N die Herausforderung {Heraus|forderung} [hɛˈʁaʊsfɔʁdəʁʊŋ], Herausforderungen = výzva (problém), skúška
+- 2 V erfordern {er|fordern} [ɛɐˈfɔʁdɐn], hat (A) = vyžadovať
+- 2 V überfordern {über|fordern} [yːbɐˈfɔʁdɐn], hat (A) = preťažovať, klásť priveľké nároky
+- 3 V anfordern {an·fordern} [ˈanfɔʁdɐn], hat (A) = vyžiadať si
+- 3 V einfordern {ein·fordern} [ˈaɪnfɔʁdɐn], hat (A) = vymáhať, dožadovať sa
+
+2 V bestehen {be|stehen} [bəˈʃteːən], besteht/bestand/bestanden [bəˈʃteːt/bəˈʃtant/bəˈʃtandən], hat (auf D, aus D) = pozostávať, trvať na, obstáť
+
+2 V unterbrechen {unter|brechen} [ʊntɐˈbʁɛçən], unterbricht/unterbrach/unterbrochen [ʊntɐˈbʁɪçt/ʊntɐˈbʁaːx/ʊntɐˈbʁɔxən], hat (A) = prerušiť
+- 2 N die Unterbrechung {Unter|brechung} [ʊntɐˈbʁɛçʊŋ], Unterbrechungen = prerušenie
+
+2 V informieren {informieren} [ɪnfɔʁˈmiːʁən], hat (A, über A, sich A) = informovať, oznámiť
+- 1 N die Information {Information} [ɪnfɔʁmaˈtsjoːn], Informationen (über A) = informácia
+- 2 N die Info {Info} [ˈɪnfo], Infos = informácia, info
+
+2 V kommunizieren {kommunizieren} [kɔmuniˈtsiːʁən], hat (mit D) = komunikovať
+- 2 N die Kommunikation {Kommunikation} [kɔmunikaˈtsjoːn], - = komunikácia
+
+2 N der Kontakt {Kontakt} [kɔnˈtakt], Kontakte (zu D, haben) = kontakt, styk
+- 2 V kontaktieren {kontaktieren} [kɔntakˈtiːʁən], hat (A) = kontaktovať
+- 3 AN kontaktlos {kontakt|los} [kɔnˈtaktloːs] = bezkontaktný
+
+2 V drohen {drohen} [ˈdʁoːən], hat (D, mit D) = vyhrážať sa, hroziť
+- 3 AN bedrohlich {be|drohlich} [bəˈdʁoːlɪç] = hrozivý
+
+2 V zitieren {zitieren} [tsiˈtiːʁən], hat (A, aus D) = citovať
+- 2 N das Zitat {Zitat} [tsiˈtaːt], Zitate = citát, citácia
+
+1 N das Thema {Thema} [ˈteːma], Themen = téma
+- 3 AN thematisch {thematisch} [teˈmaːtɪʃ] = tematický
+
+2 V bestätigen {be|stätigen} [bəˈʃtɛːtɪɡən], hat (A, sich A) = potvrdiť
+- 2 N die Bestätigung {Be|stätigung} [bəˈʃtɛːtɪɡʊŋ], Bestätigungen = potvrdenie
+
+2 V behaupten {behaupten} [bəˈhaʊptən], hat (A, sich A) = tvrdiť, presadiť sa
+- 2 N die Behauptung {Behauptung} [bəˈhaʊptʊŋ], Behauptungen = tvrdenie
+
+2 V betonen {be|tonen} [bəˈtoːnən], hat (A) = zdôrazniť, akcentovať
+- 3 N die Betonung {Be|tonung} [bəˈtoːnʊŋ], Betonungen = dôraz, prízvuk
+
+2 V kritisieren {kritisieren} [kʁitiˈziːʁən], hat (A, für A) = kritizovať
+- 2 N die Kritik {Kritik} [kʁiˈtiːk], Kritiken (an D) = kritika
+- 3 N der Kritiker {Kritiker} [ˈkʁiːtikɐ], Kritiker = kritik
+- 2 AN kritisch {kritisch} [ˈkʁiːtɪʃ] = kritický
+
+2 N die Bemerkung {Be|merkung} [bəˈmɛʁkʊŋ], Bemerkungen = poznámka, pripomienka
+
+2 N der Rat {Rat} [ʁaːt], Räte = rada
+- 2 N die Beratung {Be|ratung} [bəˈʁaːtʊŋ], Beratungen = poradenstvo, porada
+- 2 N der Berater {Be|rater} [bəˈʁaːtɐ], Berater = poradca
+
+3 V stottern {stottern} [ˈʃtɔtɐn], hat = koktať
+3 V nuscheln {nuscheln} [ˈnʊʃəln], hat = mrmlať
+
+2 V schimpfen {schimpfen} [ˈʃɪmpfən], hat (auf A, über A, mit D) = nadávať, karhať
+- 3 V beschimpfen {be|schimpfen} [bəˈʃɪmpfən], hat (A) = urážať, nadávať, hanobiť
+- 3 N das Schimpfwort {Schimpf|wort} [ˈʃɪmpfvɔʁt], Schimpfwörter = nadávka, vulgarizmus
+
+3 V prahlen {prahlen} [ˈpʁaːlən], hat (mit D) = chváliť sa, vystatovať sa
+2 N das Kompliment {Kompliment} [kɔmpliˈmɛnt], Komplimente (machen) = kompliment
+3 V flehen {flehen} [ˈfleːən], hat (um A) = úpenlivo prosiť, prosíkať
+2 N die Geste {Geste} [ˈɡɛstə], Gesten = gesto
+2 N das Gerücht {Gerücht} [ɡəˈʁʏçt], Gerüchte = chýr, povesť, fáma
+3 N die Anekdote {Anekdote} [anɛkˈdoːtə], Anekdoten = anekdota
+3 AN prägnant {prägnant} [pʁɛˈɡnant] = výstižný, stručný
+2 AN fließend {fließend} [ˈfliːsənt] = plynulý, tečúci
+2 V äußern {äußern} [ˈɔʏsɐn], hat (A, sich A) = vyjadriť, prejaviť
+2 V verweisen {ver|weisen} [fɛɐˈvaɪzən], verweist/verwies/verwiesen [fɛɐˈvaɪst/fɛɐˈviːs/fɛɐˈviːzən], hat (auf A) = odkázať, poukázať
+2 V empfehlen {emp|fehlen} [ɛmˈpfeːlən], empfiehlt/empfahl/empfohlen [ɛmˈpfiːlt/ɛmˈpfaːl/ɛmˈpfoːlən], hat (D A) = odporučiť
+2 V diskutieren {diskutieren} [dɪskuˈtiːʁən], hat (über A) = diskutovať
+- 2 N die Diskussion {Diskussion} [dɪskʊˈsjoːn], Diskussionen (über A) = diskusia
+2 N das Anliegen {Anliegen} [ˈanliːɡən], Anliegen = záležitosť, požiadavka
+2 N die Stellungnahme {Stellung|nahme} [ˈʃtɛlʊŋnaːmə], Stellungnahmen (zu D) = stanovisko, vyjadrenie
+2 V konfrontieren {konfrontieren} [kɔnfʁɔnˈtiːʁən], hat (mit D) = konfrontovať
+2 V beantragen {be|antragen} [bəˈantʁaːɡən], hat = požiadať o, navrhnúť
+2 N die Empfehlung {Empfehlung} [ɛmˈpfeːlʊŋ], Empfehlungen = odporúčanie
+2 N die Äußerung {Äußerung} [ˈɔʏsəʁʊŋ], Äußerungen = vyjadrenie, výrok
+2 N die Auskunft {Aus|kunft} [ˈaʊskʊnft], Auskünfte = informácia, výpoveď
+2 V erläutern {er|läutern} [ɛɐˈlɔʏtɐn], hat (A) = vysvetliť, objasniť
+2 N die Befragung {Be|fragung} [bəˈfʁaːɡʊŋ], Befragungen = prieskum, výsluch
+2 N die Darstellung {Dar|stellung} [ˈdaːɐʃtɛlʊŋ], Darstellungen = zobrazenie, opis
+3 N die Ansprache {An|sprache} [ˈanʃpʁaːxə], Ansprachen = príhovor
+3 N der Quatsch {Quatsch} [kvatʃ], - = somarina, blbosť
+3 N der Blödsinn {Blöd|sinn} [ˈbløːtzɪn], - = nezmysel, hlúposť
+3 N der Unfug {Un|fug} [ˈʊnfuːk], - = výtržnosť, somarina
+3 N die Rechtfertigung {Recht|fertigung} [ˈʁɛçtfɛʁtɪɡʊŋ], Rechtfertigungen = odôvodnenie, ospravedlnenie
+3 N die Meinungsverschiedenheit {Meinungs|verschieden|heit} [ˈmaɪnʊŋsfɛɐʃiːdənhaɪt], Meinungsverschiedenheiten = nezhoda
+3 N die Verständigung {Verständigung} [fɛɐˈʃtɛndɪɡʊŋ], Verständigungen = dorozumenie
+3 N die Anschuldigung {An|schuldigung} [ˈanʃʊldɪɡʊŋ], Anschuldigungen = obvinenie
+3 N das Gesuch {Gesuch} [ɡəˈzuːx], Gesuche = žiadosť
+3 N der Zuhörer {Zu|hörer} [ˈtsuːhøːʁɐ], Zuhörer = poslucháč
+3 N das Telefonat {Telefonat} [telefoˈnaːt], Telefonate = telefonát
+2 V schildern {schildern} [ˈʃɪldɐn], hat (A) = vylíčiť, opísať
+2 V besagen {be|sagen} [bəˈzaːɡən], hat (A) = znamenať, hovoriť, uvádzať
+2 V bekräftigen {be|kräftigen} [bəˈkʁɛftɪɡən], hat (A) = potvrdiť, zdôrazniť
+2 V appellieren {appellieren} [apɛˈliːʁən], hat (an A) = apelovať
+2 V mahnen {mahnen} [ˈmaːnən], hat (A) = napomínať, upozorňovať, upomínať
+2 V plädieren {plädieren} [plɛˈdiːʁən], hat (für A) = zasadzovať sa, obhajovať
+2 V argumentieren {argumentieren} [aʁɡumɛnˈtiːʁən], hat = argumentovať
+2 V moderieren {moderieren} [modeˈʁiːʁən], hat (A) = moderovať
+2 V signalisieren {signalisieren} [zɪɡnaliˈziːʁən], hat (A) = signalizovať, naznačiť
+2 V übermitteln {über|mitteln} [yːbɐˈmɪtəln], hat (D A) = poslať, odovzdať
+2 V beziffern {be|ziffern} [bəˈtsɪfɐn], hat (A) = vyčísliť
+2 V sich verständigen {sich ver|ständigen} [zɪç fɛɐˈʃtɛndɪɡən], hat (auf A, mit D) = dohodnúť sa, dorozumieť sa
+2 V verständigen {ver|ständigen} [fɛɐˈʃtɛndɪɡən], hat (A) = upovedomiť, informovať
+2 V prognostizieren {prognostizieren} [pʁoɡnɔstiˈtsiːʁən], hat (A) = predpovedať, prognózovať
+3 V publizieren {publizieren} [publiˈtsiːʁən], hat (A) = publikovať, uverejniť
+3 V recherchieren {recherchieren} [ʁeʃɛʁˈʃiːʁən], hat = skúmať, zisťovať
+2 V verweigern {ver|weigern} [fɛɐˈvaɪɡɐn], hat (A) = odoprieť, odmietnuť
+2 V sich weigern {sich weigern} [zɪç ˈvaɪɡɐn], hat = odmietať, zdráhať sa
+2 V sich distanzieren {sich distanzieren} [zɪç dɪstanˈtsiːʁən], hat (von D) = dištancovať sa
+2 V sich wehren {sich wehren} [zɪç ˈveːʁən], hat (gegen A) = brániť sa, vzpierať sa
+2 V verdeutlichen {ver|deutlichen} [fɛɐˈdɔʏtlɪçən], hat (A) = znázorniť, objasniť
+3 V beteuern {beteuern} [bəˈtɔʏɐn], hat (A) = ubezpečovať, zaprisahať sa
+2 V bemängeln {be|mängeln} [bəˈmɛŋəln], hat (A) = vytýkať, kritizovať
+3 V monieren {monieren} [moˈniːʁən], hat (A) = vytknúť, reklamovať
+3 V kontern {kontern} [ˈkɔntɐn], hat (A) = oponovať, odvetiť
+2 V pochen {pochen} [ˈpɔxən], hat (auf A) = trvať (na niečom), trvať (na), klopať
+3 V dementieren {dementieren} [demɛnˈtiːʁən], hat (A) = dementovať, poprieť
+2 V schweigen {schweigen} [ˈʃvaɪɡən], schweigt/schwieg/geschwiegen [ʃvaɪkt/ʃviːk/ɡəˈʃviːɡən], hat (zu D) = mlčať
+3 V resümieren {resümieren} [ʁezyˈmiːʁən], hat (A) = zhrnúť, resumovať
+3 V konstatieren {konstatieren} [kɔnstaˈtiːʁən], hat (A) = konštatovať
+3 V erörtern {er|örtern} [ɛɐˈœʁtɐn], hat (A) = prediskutovať, rozoberať
+3 V illustrieren {illustrieren} [ɪlʊsˈtʁiːʁən], hat (A) = ilustrovať
+3 V signieren {signieren} [zɪɡˈniːʁən], hat (A) = podpísať, označiť podpisom
+3 V adressieren {adressieren} [adʁɛˈsiːʁən], hat (A, an A) = adresovať
+3 V anprangern {an·prangern} [ˈanpʁaŋɐn], hat (A) = verejne odsúdiť, pranierovať
+3 V kolportieren {kolportieren} [kɔlpɔʁˈtiːʁən], hat (A) = kolportovať, šíriť (chýry), roznášať
+3 V verharmlosen {ver|harmlosen} [fɛɐˈhaʁmloːzən], hat (A) = zľahčovať, bagatelizovať
+3 V meckern {meckern} [ˈmɛkɐn], hat (über A) = frflať, hundrať
+3 V vertuschen {ver|tuschen} [fɛɐˈtʊʃən], hat (A) = zahladiť, zamlčať, zakryť
+3 V verschweigen {ver|schweigen} [fɛɐˈʃvaɪɡən], verschweigt/verschwieg/verschwiegen [fɛɐˈʃvaɪkt/fɛɐˈʃviːk/fɛɐˈʃviːɡən], hat (D A) = zamlčať, zatajiť
+3 V entlocken {ent|locken} [ɛntˈlɔkən], hat (D A) = vylákať, vymámiť
+3 V diktieren {diktieren} [dɪkˈtiːʁən], hat (D A) = diktovať
+3 V betiteln {be|titeln} [bəˈtiːtəln], hat (A) = pomenovať, nazvať, oslovovať
+3 AN kommunikativ {kommunikativ} [kɔmunikaˈtiːf] = komunikatívny
+3 AN stumm {stumm} [ʃtʊm] = nemý, mlčanlivý
+3 V klarstellen {klar·stellen} [ˈklaːɐʃtɛlən], hat (A) = ujasniť, objasniť
+
+# language-writing
+1 N das Wort {Wort} [vɔʁt], Wörter = slovo
+- 2 N der Wortschatz {Wort|schatz} [ˈvɔʁtʃats], Wortschätze = slovná zásoba
+- 2 N das Sprichwort {Sprich|wort} [ˈʃpʁɪçvɔʁt], Sprichwörter = príslovie
+- 2 AN wörtlich {wört|lich} [ˈvœʁtlɪç] = doslovný
+
+2 N die Phrase {Phrase} [ˈfʁaːzə], Phrasen = fráza
+
+1 N der Name {Name} [ˈnaːmə], Namen = meno, názov
+- 1 V nennen {nennen} [ˈnɛnən], nennt/nannte/genannt [nɛnt/ˈnantə/ɡəˈnant], hat (A) = nazvať, nazývať, spomenúť
+- 2 N der Vorname {Vor|name} [ˈfoːɐnaːmə], Vornamen = krstné meno
+- 2 N der Nachname {Nach|name} [ˈnaːxnaːmə], Nachnamen = priezvisko
+- 2 N der Spitzname {Spitz|name} [ˈʃpɪtsnaːmə], Spitznamen = prezývka
+- 3 AN namentlich {namentlich} [ˈnaːməntlɪç] = menovitý, menný
+- 2 V benennen {be|nennen} [bəˈnɛnən], benennt/benannte/benannt [bəˈnɛnt/bəˈnantə/bəˈnant], hat (A) = pomenovať, určiť
+
+1 V bedeuten {be|deuten} [bəˈdɔʏtən], hat (A) = znamenať, mať význam
+- 2 N die Bedeutung {Be|deutung} [bəˈdɔʏtʊŋ], Bedeutungen = význam, dôležitosť
+- 2 V deuten {deuten} [ˈdɔʏtən], hat (auf A) = ukazovať, vykladať
+- 2 V andeuten {an·deuten} [ˈandɔʏtən], hat (A) = naznačiť
+- 3 N die Andeutung {An|deutung} [ˈandɔʏtʊŋ], Andeutungen = náznak
+
+2 V übersetzen {über|setzen} [yːbɐˈzɛtsən], hat (A, in A) = preložiť
+- 2 N die Übersetzung {Über|setzung} [yːbɐˈzɛtsʊŋ], Übersetzungen = preklad
+- 2 N der Übersetzer {Über|setzer} [yːbɐˈzɛtsɐ], Übersetzer = prekladateľ
+
+1 V schreiben {schreiben} [ˈʃʁaɪbən], schreibt/schrieb/geschrieben [ʃʁaɪpt/ʃʁiːp/ɡəˈʃʁiːbən], hat (D, an A, über A) = písať
+- 2 N die Schrift {Schrift} [ʃʁɪft], Schriften = písmo, spis
+- 2 V aufschreiben {auf·schreiben} [ˈaʊfʃʁaɪbən], schreibt auf/schrieb auf/aufgeschrieben [ʃʁaɪpt aʊf/ʃʁiːp aʊf/ˈaʊfɡəʃʁiːbən], hat (A) = zapísať, zaznamenať
+- 2 V abschreiben {ab·schreiben} [ˈapʃʁaɪbən], schreibt ab/schrieb ab/abgeschrieben [ʃʁaɪpt ap/ʃʁiːp ap/ˈapɡəʃʁiːbən], hat (A, von D) = odpísať, prepísať
+- 2 V beschreiben {be|schreiben} [bəˈʃʁaɪbən], beschreibt/beschrieb/beschrieben [bəˈʃʁaɪpt/bəˈʃʁiːp/bəˈʃʁiːbən], hat (A) = opísať, popísať
+- 2 N die Beschreibung {Be|schreibung} [bəˈʃʁaɪbʊŋ], Beschreibungen = opis, popis
+- 2 V unterschreiben {unter|schreiben} [ʊntɐˈʃʁaɪbən], unterschreibt/unterschrieb/unterschrieben [ʊntɐˈʃʁaɪpt/ʊntɐˈʃʁiːp/ʊntɐˈʃʁiːbən], hat (A) = podpísať
+- 2 N die Unterschrift {Unter|schrift} [ˈʊntɐʃʁɪft], Unterschriften = podpis
+- 2 N die Überschrift {Über|schrift} [ˈyːbɐʃʁɪft], Überschriften = nadpis
+- 3 N die Handschrift {Hand|schrift} [ˈhantʃʁɪft], Handschriften = rukopis (písmo), písmo
+- 3 N die Schriftart {Schrift|art} [ˈʃʁɪftaʁt], Schriftarten = typ písma, font
+- 3 N die Rechtschreibung {Recht|schreibung} [ˈʁɛçtʃʁaɪbʊŋ], - = pravopis
+- 2 N der Kugelschreiber {Kugel|schreiber} [ˈkuːɡəlʃʁaɪbɐ], Kugelschreiber = guľôčkové pero, pero
+- 2 V verschreiben {ver|schreiben} [fɛɐˈʃʁaɪbən], verschreibt/verschrieb/verschrieben [fɛɐˈʃʁaɪpt/fɛɐˈʃʁiːp/fɛɐˈʃʁiːbən], hat (D A) = predpísať
+- 2 V ausschreiben {aus·schreiben} [ˈaʊsʃʁaɪbən], schreibt aus/schrieb aus/ausgeschrieben [ʃʁaɪpt aʊs/ʃʁiːp aʊs/ˈaʊsɡəʃʁiːbən], hat (A) = vypísať, napísať celým slovom
+- 2 V vorschreiben {vor·schreiben} [ˈfoːɐʃʁaɪbən], schreibt vor/schrieb vor/vorgeschrieben [ʃʁaɪpt foːɐ/ʃʁiːp foːɐ/ˈfoːɐɡəʃʁiːbən], hat (D A) = predpisovať, nariaďovať
+- 3 V festschreiben {fest·schreiben} [ˈfɛstʃʁaɪbən], schreibt fest/schrieb fest/festgeschrieben [ʃʁaɪpt fɛst/ʃʁiːp fɛst/ˈfɛstɡəʃʁiːbən], hat (A) = zakotviť, stanoviť
+- 3 V anschreiben {an·schreiben} [ˈanʃʁaɪbən], schreibt an/schrieb an/angeschrieben [ʃʁaɪpt an/ʃʁiːp an/ˈanɡəʃʁiːbən], hat (A) = osloviť písomne, napísať
+
+1 V lesen {lesen} [ˈleːzən], liest/las/gelesen [liːst/laːs/ɡəˈleːzən], hat (A) = čítať
+- 2 N der Leser {Leser} [ˈleːzɐ], Leser = čitateľ (osoba)
+- 3 N die Lesung {Lesung} [ˈleːzʊŋ], Lesungen = autorské čítanie, čítanie, prednes
+- 2 V vorlesen {vor·lesen} [ˈfoːɐleːzən], liest vor/las vor/vorgelesen [liːst foːɐ/laːs foːɐ/ˈfoːɐɡəleːzən], hat (D A) = čítať nahlas, predčítať
+- 3 N die Lektüre {Lektüre} [lɛkˈtyːʁə], Lektüren = lektúra, čítanie
+- 3 AN unleserlich {un|leserlich} [ˈʊnleːzɐlɪç] = nečitateľný
+- 3 AN lesbar {les|bar} [ˈleːsbaːɐ] = čitateľný
+
+2 N der Text {Text} [tɛkst], Texte = text
+
+2 N der Absatz {Ab|satz} [ˈapzats], Absätze = odsek, podpätok
+
+2 N das Kapitel {Kapitel} [kaˈpiːtəl], Kapitel = kapitola
+
+2 N der Titel {Titel} [ˈtiːtəl], Titel = názov, titul
+- 2 N der Untertitel {Unter|titel} [ˈʊntɐtiːtəl], Untertitel = podtitul, titulky
+
+3 N der Aufsatz {Auf|satz} [ˈaʊfzats], Aufsätze = slohová práca, esej
+
+2 V zusammenfassen {zusammen·fassen} [tsuˈzamənfasən], hat (A) = zhrnúť, zosumarizovať
+- 2 N die Zusammenfassung {Zusammen|fassung} [tsuˈzamənfasʊŋ], Zusammenfassungen = zhrnutie, súhrn
+
+1 N das Zeichen {Zeichen} [ˈtsaɪçən], Zeichen = znak, značka, znamenie
+- 2 V bezeichnen {be|zeichnen} [bəˈtsaɪçnən], hat (A, als A) = označiť, nazvať
+- 2 N die Bezeichnung {Be|zeichnung} [bəˈtsaɪçnʊŋ], Bezeichnungen = označenie, názov
+- 3 V unterzeichnen {unter|zeichnen} [ʊntɐˈtsaɪçnən], hat (A) = podpísať
+- 2 N das Satzzeichen {Satz|zeichen} [ˈzatstsaɪçən], Satzzeichen = interpunkčné znamienko
+
+2 N das Symbol {Symbol} [zʏmˈboːl], Symbole = symbol
+- 3 AN symbolisch {symbolisch} [zʏmˈboːlɪʃ] = symbolický
+
+3 N das Komma {Komma} [ˈkɔma], Kommas = čiarka
+
+2 N die Notiz {Notiz} [noˈtiːts], Notizen = poznámka, záznam
+- 2 V notieren {notieren} [noˈtiːʁən], hat (A, sich D) = poznamenať si, zapísať
+
+1 N die Liste {Liste} [ˈlɪstə], Listen = zoznam, listina
+
+1 N der Brief {Brief} [bʁiːf], Briefe = list (písomnosť)
+- 2 N die Briefmarke {Brief|marke} [ˈbʁiːfmaʁkə], Briefmarken = poštová známka, známka
+- 2 N der Briefträger {Brief|träger} [ˈbʁiːftʁɛːɡɐ], Briefträger = poštár
+
+2 N der Umschlag {Um|schlag} [ˈʊmʃlaːk], Umschläge = obálka, obal
+
+1 N die Post {Post} [pɔst], - = pošta
+- 2 N die Postkarte {Post|karte} [ˈpɔstkaʁtə], Postkarten = pohľadnica
+- 2 N das Postamt {Post|amt} [ˈpɔstamt], Postämter = poštový úrad, pošta
+- 2 N der Postbote {Post|bote} [ˈpɔstboːtə], Postboten = poštár, listonoš
+- 3 N die Postleitzahl {Post|leit|zahl} [ˈpɔstlaɪttsaːl], Postleitzahlen = PSČ, smerovacie číslo
+
+2 N der Stift {Stift} [ʃtɪft], Stifte = pero (písacie), ceruzka
+- 2 N der Bleistift {Blei|stift} [ˈblaɪʃtɪft], Bleistifte = ceruzka
+- 2 N der Buntstift {Bunt|stift} [ˈbʊntʃtɪft], Buntstifte = pastelka, farebná ceruzka
+
+3 N die Tinte {Tinte} [ˈtɪntə], Tinten = atrament
+3 N die Kreide {Kreide} [ˈkʁaɪdə], Kreiden = krieda
+
+1 N das Papier {Papier} [paˈpiːɐ], Papiere = papier
+
+2 N das Heft {Heft} [hɛft], Hefte = zošit
+
+2 N das Dokument {Dokument} [dokuˈmɛnt], Dokumente = dokument, listina
+- 3 V dokumentieren {dokumentieren} [dokumɛnˈtiːʁən], hat (A) = zdokumentovať, dokladať
+- 3 N die Dokumentation {Dokumentation} [dokumɛntaˈtsjoːn], Dokumentationen = dokumentácia
+
+3 N das Etikett {Etikett} [etiˈkɛt], Etiketten = štítok, etiketa
+
+2 N die Kopie {Kopie} [koˈpiː], Kopien = kópia
+- 2 V kopieren {kopieren} [koˈpiːʁən], hat (A) = kopírovať
+
+1 N das Buch {Buch} [buːx], Bücher = kniha
+- 2 N der Buchstabe {Buch|stabe} [ˈbuːxʃtaːbə], Buchstaben = písmeno
+- 2 V buchstabieren {buch|stabieren} [buːxʃtaˈbiːʁən], hat (A) = hláskovať
+- 2 N das Wörterbuch {Wörter|buch} [ˈvœʁtɐbuːx], Wörterbücher = slovník
+- 2 N das Tagebuch {Tage|buch} [ˈtaːɡəbuːx], Tagebücher = denník (zápisky)
+- 3 N das Notizbuch {Notiz|buch} [noˈtiːtsbuːx], Notizbücher = zápisník
+- 3 N die Bücherei {Bücherei} [byːçɐˈʁaɪ], Büchereien = knižnica
+- 2 N die Buchhandlung {Buch|handlung} [ˈbuːxhandlʊŋ], Buchhandlungen = kníhkupectvo
+
+2 N das Verb {Verb} [vɛʁp], Verben = sloveso
+- 2 AN verbal {verbal} [vɛʁˈbaːl] = verbálny, slovný
+3 N das Substantiv {Substantiv} [ˈzʊpstantiːf], Substantive = podstatné meno
+2 N das Adjektiv {Adjektiv} [ˈatjɛktiːf], Adjektive = prídavné meno
+3 N der Plural {Plural} [pluˈʁaːl], Plurale = množné číslo
+3 N das Präfix {Präfix} [ˈpʁɛːfɪks], Präfixe = predpona
+3 N das Suffix {Suffix} [ˈzʊfɪks], Suffixe = prípona
+3 N das Synonym {Synonym} [zynoˈnyːm], Synonyme = synonymum
+3 N das Antonym {Antonym} [antoˈnyːm], Antonyme = antonymum
+3 N der Dialekt {Dialekt} [diaˈlɛkt], Dialekte = nárečie, dialekt
+3 N der Slang {Slang} [slɛŋ], - = slang, hantýrka
+
+2 N das Alphabet {Alphabet} [alfaˈbeːt], Alphabete = abeceda
+- 3 AN alphabetisch {alphabetisch} [alfaˈbeːtɪʃ] = abecedný
+
+3 N die Silbe {Silbe} [ˈzɪlbə], Silben = slabika
+3 N der Vokal {Vokal} [voˈkaːl], Vokale = samohláska
+3 N der Konsonant {Konsonant} [kɔnzoˈnant], Konsonanten = spoluhláska
+2 N die Grammatik {Grammatik} [ɡʁaˈmaːtɪk], Grammatiken = gramatika
+
+3 N die Interpunktion {Interpunktion} [ɪntɐpʊŋkˈtsjoːn], - = interpunkcia
+3 N der Bindestrich {Binde|strich} [ˈbɪndəʃtʁɪç], Bindestriche = spojovník
+2 N die Klammer {Klammer} [ˈklamɐ], Klammern = zátvorka, spona
+
+3 N die Abkürzung {Ab|kürzung} [ˈapkʏʁtsʊŋ], Abkürzungen = skratka
+- 2 V abkürzen {ab·kürzen} [ˈapkʏʁtsən], hat (A) = skrátiť
+
+3 N die Kalligraphie {Kalligraphie} [kaliɡʁaˈfiː], - = kaligrafia
+
+2 V unterstreichen {unter|streichen} [ʊntɐˈʃtʁaɪçən], unterstreicht/unterstrich/unterstrichen [ʊntɐˈʃtʁaɪçt/ʊntɐˈʃtʁɪç/ʊntɐˈʃtʁɪçən], hat (A) = podčiarknuť, zdôrazniť
+
+2 V markieren {markieren} [maʁˈkiːʁən], hat (A) = označiť, zvýrazniť
+- 3 N die Markierung {Markierung} [maʁˈkiːʁʊŋ], Markierungen = značenie, označenie, značka
+
+3 N der Index {Index} [ˈɪndɛks], Indizes = register, index
+
+2 N der Entwurf {Ent|wurf} [ɛntˈvʊʁf], Entwürfe = koncept, návrh
+
+2 V überarbeiten {über|arbeiten} [yːbɐˈaʁbaɪtən], hat (A, sich A) = prepracovať, upraviť
+- 3 N die Überarbeitung {Über|arbeitung} [yːbɐˈaʁbaɪtʊŋ], Überarbeitungen = prepracovanie, úprava
+
+3 N das Manuskript {Manuskript} [manuˈskʁɪpt], Manuskripte = rukopis (text)
+
+3 V dolmetschen {dolmetschen} [ˈdɔlmɛtʃən], hat = tlmočiť
+- 3 N der Dolmetscher {Dolmetscher} [ˈdɔlmɛtʃɐ], Dolmetscher = tlmočník
+
+3 N das Telegramm {Tele|gramm} [teleˈɡʁam], Telegramme = telegram
+2 N das Deutsch {Deutsch} [dɔʏtʃ], - = nemčina
+2 AN schriftlich {schrift|lich} [ˈʃʁɪftlɪç] = písomný
+3 AN sprachlich {sprach|lich} [ˈʃpʁaːxlɪç] = jazykový
+
+# media-news
+1 N die Nachricht {Nach|richt} [ˈnaːxʁɪçt], Nachrichten = správa (oznam)
+- 1 N die Nachrichten {Nach|richten} [ˈnaːxʁɪçtən], PL = správy, spravodajstvo
+- 3 V benachrichtigen {be|nachrichtigen} [bəˈnaːxʁɪçtɪɡən], hat (A, von D) = informovať, upovedomiť
+
+1 N die Zeitung {Zeitung} [ˈtsaɪtʊŋ], Zeitungen = noviny
+- 2 N die Zeitschrift {Zeit|schrift} [ˈtsaɪtʃʁɪft], Zeitschriften = časopis
+
+2 N der Artikel {Artikel} [aʁˈtiːkəl], Artikel = článok, člen
+
+2 V berichten {be|richten} [bəˈʁɪçtən], hat (über A, von D) = informovať, hlásiť
+- 2 N der Bericht {Be|richt} [bəˈʁɪçt], Berichte (über A) = správa (o udalosti), hlásenie
+- 3 N die Berichterstattung {Bericht|erstattung} [bəˈʁɪçtɐʃtatʊŋ], - = spravodajstvo, reportáž
+
+2 N die Medien {Medien} [ˈmeːdjən], PL = médiá
+- 2 AN medial {medial} [meˈdjaːl] = mediálny
+- 3 AN multimedial {multi|medial} [mʊltimeˈdi̯aːl] = multimediálny
+2 N die Presse {Presse} [ˈpʁɛsə], - = tlač
+- 2 N die Pressekonferenz {Presse|konferenz} [ˈpʁɛsəkɔnfeʁɛnts], Pressekonferenzen = tlačová konferencia
+
+2 N das Interview {Interview} [ˈɪntɐvjuː], Interviews = interview, rozhovor
+- 3 V interviewen {interviewen} [ɪntɐˈvjuːən], hat (A) = robiť rozhovor, interviewovať
+
+2 N das Plakat {Plakat} [plaˈkaːt], Plakate = plagát
+2 N der Kanal {Kanal} [kaˈnaːl], Kanäle = kanál, prieplav
+
+2 V veröffentlichen {ver|öffentlichen} [fɛɐˈœfəntlɪçən], hat (A) = zverejniť, publikovať, vydať
+- 2 N die Veröffentlichung {Ver|öffentlichung} [fɛɐˈœfəntlɪçʊŋ], Veröffentlichungen = zverejnenie, publikácia
+
+3 N der Redakteur {Redakteur} [ʁedakˈtøːɐ], Redakteure = redaktor
+- 2 N die Redaktion {Redaktion} [ʁedakˈtsjoːn], Redaktionen = redakcia
+
+2 N der Journalist {Journalist} [ʒʊʁnaˈlɪst], Journalisten = novinár, žurnalista
+- 3 N der Journalismus {Journalismus} [ʒʊʁnaˈlɪsmʊs], - = žurnalistika, novinárstvo
+- 3 N die Journalistin {Journalistin} [ʒʊʁnaˈlɪstɪn], Journalistinnen = novinárka
+
+2 N der Slogan {Slogan} [ˈsloːɡan], Slogans = slogan, heslo
+2 N das Motto {Motto} [ˈmɔto], Mottos = motto, heslo
+2 N die Schlagzeile {Schlag|zeile} [ˈʃlaːktsaɪlə], Schlagzeilen = titulok
+3 N das Memo {Memo} [ˈmeːmo], Memos = memorandum, poznámka
+3 N das Flugblatt {Flug|blatt} [ˈfluːkblat], Flugblätter = leták
+2 N die Broschüre {Broschüre} [bʁɔˈʃyːʁə], Broschüren = brožúra
+2 N der Katalog {Katalog} [kataˈloːk], Kataloge = katalóg
+2 V mitteilen {mit·teilen} [ˈmɪttaɪlən], hat (D A) = oznámiť, informovať
+- 2 N die Mitteilung {Mit|teilung} [ˈmɪttaɪlʊŋ], Mitteilungen = oznámenie, správa
+2 N die Angabe {An|gabe} [ˈanɡaːbə], Angaben = údaj, informácia
+3 N die Nachrichtenagentur {Nachrichten|agentur} [ˈnaːxʁɪçtənaɡɛntuːɐ], Nachrichtenagenturen = spravodajská agentúra, tlačová agentúra
+3 N die Pressemitteilung {Presse|mitteilung} [ˈpʁɛsəmɪttaɪlʊŋ], Pressemitteilungen = tlačová správa
+2 N das Magazin {Magazin} [maɡaˈtsiːn], Magazine = časopis, magazín
+2 N der Moderator {Moderator} [modeˈʁaːtoːɐ], Moderatoren = moderátor
+- 2 N die Moderatorin {Moderatorin} [modeʁaˈtoːʁɪn], Moderatorinnen = moderátorka
+2 N das Studio {Studio} [ˈʃtuːdio], Studios = štúdio
+2 N die Mail {Mail} [meɪl], Mails = e-mail, správa
+2 N die Übersicht {Über|sicht} [ˈyːbɐzɪçt], Übersichten = prehľad
+- 3 AN übersichtlich {über|sicht|lich} [ˈyːbɐzɪçtlɪç] = prehľadný
+- 3 AN unübersichtlich {un|übersichtlich} [ˈʊnyːbɐzɪçtlɪç] = neprehľadný, zložitý
+3 N das Fazit {Fazit} [ˈfaːtsɪt], Fazits/Fazite = záver, výsledok
+3 N die Reportage {Reportage} [ʁepɔʁˈtaːʒə], Reportagen = reportáž
+3 N der Rundfunk {Rund|funk} [ˈʁʊntfʊŋk], - = rozhlas
+3 N der Werbespot {Werbe|spot} [ˈvɛʁbəspɔt], Werbespots = reklamný spot
+3 N der Verlag {Verlag} [fɛɐˈlaːk], Verlage = vydavateľstvo
+3 N der Eintrag {Ein|trag} [ˈaɪntʁaːk], Einträge = záznam, zápis
+3 N der Bescheid {Bescheid} [bəˈʃaɪt], Bescheide = úradné rozhodnutie, rozhodnutie, správa
+3 N das Kästchen {Käst|chen} [ˈkɛstçən], Kästchen = škatuľka, políčko
+3 N der Radiosender {Radio|sender} [ˈʁaːdiozɛndɐ], Radiosender = rozhlasová stanica
+3 N die Tageszeitung {Tages|zeitung} [ˈtaːɡəstsaɪtʊŋ], Tageszeitungen = denník (noviny)
+3 N der Verfasser {Verfasser} [fɛɐˈfasɐ], Verfasser = autor, pôvodca
+3 N das Wahlergebnis {Wahl|ergebnis} [ˈvaːlɛɐɡeːpnɪs], Wahlergebnisse = výsledok volieb
+3 N der Hörer {Hörer} [ˈhøːʁɐ], Hörer = poslucháč, slúchadlo
+3 N die Edition {Edition} [ediˈtsjoːn], Editionen = vydanie
+3 V lancieren {lancieren} [lanˈsiːʁən], hat (A) = uviesť na trh, spustiť, nenápadne podsunúť
+2 V kursieren {kursieren} [kʊʁˈziːʁən], hat/ist = kolovať, cirkulovať
+2 V erweisen {er|weisen} [ɛɐˈvaɪzən], erweist/erwies/erwiesen [ɛɐˈvaɪst/ɛɐˈviːs/ɛɐˈviːzən], hat (A, sich A) = preukázať, ukázať sa
+2 V vorweisen {vor·weisen} [ˈfoːɐvaɪzən], weist vor/wies vor/vorgewiesen [vaɪst foːɐ/viːs foːɐ/ˈfoːɐɡəviːzən], hat (A) = predložiť, preukázať
+3 AN journalistisch {journalistisch} [ʒʊʁnaˈlɪstɪʃ] = novinársky
+3 V streamen {streamen} [ˈstʁiːmən], hat (A) = streamovať, prehrávať online
+2 V posten {posten} [ˈpoːstən], hat (A) = postnúť, zverejniť (príspevok)

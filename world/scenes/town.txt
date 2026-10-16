@@ -1,0 +1,1347 @@
+# TOWN group: countries and nationalities, towns and streets, buildings and building work, trade and money, transport and travel
+SETTING travel
+N Nemecko
+N Nemec
+N Rakúsko
+N Švajčiarsko
+N Francúzsko
+N Taliansko
+N Španielsko
+N Veľká Británia
+N Poľsko
+N Slovensko
+N Maďarsko
+N Ukrajina
+N Rusko
+N USA
+N Čína
+N Európa
+N Rakúšan
+N Rakúšanka
+N Švajčiar
+N Švajčiarka
+N Francúz
+N Francúzka
+N Talian
+N Talianka
+N Španiel
+N Španielka
+N Portugalsko
+N Portugalec
+N Portugalka
+N Brit
+N Britka
+N Anglicko
+N Angličan
+N Angličanka
+N Írsko
+N Ír
+N Írka
+N Holandsko
+N Holanďan
+N Holanďanka
+N Belgicko
+N Belgičan
+N Belgičanka
+N Dánsko
+N Dán
+N Dánka
+N Švédsko
+N Švéd
+N Švédka
+N Nórsko
+N Nór
+N Nórka
+N Fínsko
+N Fín
+N Fínka
+N Poliak
+N Poľka
+N Česko
+N Čech
+N Češka
+N Slovák
+N Slovenka
+N Maďar
+N Maďarka
+N Chorvátsko
+N Chorvát
+N Chorvátka
+N Srbsko
+N Srb
+N Srbka
+N Rumunsko
+N Rumun
+N Rumunka
+N Grécko
+N Grék
+N Grékyňa
+N Turecko
+N Turek
+N Turkyňa
+N Ukrajinec
+N Ukrajinka
+N Rus
+N Ruska
+N Číňan
+N Číňanka
+N Japonsko
+N Japonec
+N Japonka
+N India
+N Ind
+N Indka
+N Izrael
+N Izraelčan
+N Izraelčanka
+N Irán
+N Iránec
+N Iránka
+N Sýria
+N Sýrčan
+N Sýrčanka
+N Egypt
+N Egypťan
+N Egypťanka
+N Katar
+N Katarčan
+N Katarčanka
+N Brazília
+N Brazílčan
+N Brazílčanka
+N Kanada
+N Kanaďan
+N Kanaďanka
+N Mexiko
+N Mexičan
+N Mexičanka
+N Európan
+N Európanka
+N Ázia
+N Ázijčan
+N Ázijčanka
+N Afrika
+N Afričan
+N Afričanka
+N Amerika
+N Američan
+N Američanka
+N Austrália
+N Austrálčan
+N Austrálčanka
+N Luxembursko
+N Luxemburčan
+N Luxemburčanka
+N Island
+N Islanďan
+N Islanďanka
+N Slovinsko
+N Slovinec
+N Slovinka
+N Bulharsko
+N Bulhar
+N Bulharka
+N Litva
+N Litovčan
+N Litovčanka
+N Lotyšsko
+N Lotyš
+N Lotyška
+N Estónsko
+N Estónec
+N Estónka
+N Irak
+N Iračan
+N Iračanka
+N Saudská Arábia
+N Afganistan
+N Afganec
+N Afganka
+N Pakistan
+N Pakistanec
+N Pakistanka
+N Argentína
+N Argentínčan
+N Argentínčanka
+N Južná Afrika
+N Juhoafričan
+N Juhoafričanka
+N Antarktída
+N susedná krajina
+N rodná krajina
+N ruina
+N hrad
+N bazár
+N hostinec
+N suvenír
+N libra
+N dolár
+N rubeľ
+N euro
+N mena
+N výmenný kurz
+N colná sadzba
+N príplatok
+N kreditná karta
+N peňaženka
+N hotovosť
+N bankomat
+N cesta (cestovanie)
+N hotel
+N výlet
+N zahraničie
+N cestujúci
+N cestovná kancelária
+N sprievodca
+N cestovný pas
+N vízum
+N dobrodružstvo
+N turista : guest
+N cestovný ruch
+N batožina
+N kufor
+N batoh
+N vodca
+N pas
+N preukaz
+N občiansky preukaz
+N prehliadka
+N prázdniny
+N rezervácia
+N rezervácia
+N ubytovanie
+N prázdninový byt
+N chata
+N rekreačné stredisko
+N penzión
+N hostel
+N ubytovanie
+N tábor
+N spací vak
+N príručná batožina
+N kompas
+N trasa cesty
+N cieľ cesty
+N symbol mesta
+N prospekt
+N mapa
+N vstup do krajiny
+N dovolenkár : guest
+N krém na opaľovanie
+N námorná cesta
+N dobrodruh
+N oddych
+N plavba výletnou loďou
+N cesta tam
+N cesta späť
+N spiatočný let
+N odlet
+N let
+N jazda
+N cestovný lístok
+N lístok
+N letecká spoločnosť
+N medzipristátie
+N karavána
+N miesto na sedenie
+N miesto na státie
+N zájazdový autobus
+N kabína
+N námorník : staff
+N astronaut
+N padák
+N plavba
+N dopravný prostriedok
+N vlak
+N lietadlo
+N loď
+N auto
+N stanica
+N letisko
+N čln
+N prístav
+N plachetnica
+N cestujúci : guest
+N cestujúci : guest
+N pilot : staff
+N kapitán : staff
+N posádka : staff
+N sprievodca vo vlaku : staff
+N revízor : staff
+V cestovať
+V odcestovať
+V nastúpiť (do vozidla)
+V prestúpiť
+V vyraziť
+V pristáť
+V štartovať
+V prezrieť si
+V zarezervovať
+V meškať
+V dochádzať
+V plaviť sa na plachetnici
+V ísť (dopravou)
+SETTING politics
+N Nemecko
+N Rakúsko
+N Švajčiarsko
+N Francúzsko
+N Taliansko
+N Španielsko
+N Veľká Británia
+N Poľsko
+N Slovensko
+N Maďarsko
+N Ukrajina
+N Rusko
+N USA
+N Čína
+N Európa
+N Anglicko
+N Írsko
+N Holandsko
+N Belgicko
+N Turecko
+N Japonsko
+N Izrael
+N Irán
+N Sýria
+N Irak
+N Afganistan
+N Katar
+N Saudská Arábia
+N India
+N Česko
+N Grécko
+N starosta
+N starostka
+N primátor
+N mestská rada
+N hlavné mesto
+N radnica
+N palác
+N susedná krajina
+N obyvateľstvo
+N obyvateľ
+N osadník
+N slum
+V recyklovať
+N recyklácia
+N daň
+N DPH
+N dôchodok
+N inflácia
+N recesia
+N menová politika
+N hospodárstvo
+N vývoz
+N dovoz
+N colná sadzba
+N kvóta
+N sociálna pomoc
+N podpora v nezamestnanosti
+N prídavok na dieťa
+N podpora
+N ekonóm
+N trh práce
+N konkurencia
+N monopol
+N centrálna banka
+N centrálna banka
+N kľúčová úroková sadzba
+N rokovanie
+N schodok
+N mena
+N blahobyt
+N chudoba
+N bohatstvo
+N rozpočet
+N financie
+N škrt
+N dotácia
+N sponzor
+V financovať
+V rokovať
+V vyvážať
+V dovážať
+SETTING nature
+N Antarktída
+N park
+N zoologická záhrada
+N znečistenie
+V znečistiť
+N smog
+V recyklovať
+N recyklácia
+N odpad
+N priehrada
+N cestička
+N cesta (komunikácia)
+N turistický chodník
+N kompas
+N mapa
+N tábor
+N spací vak
+N karavána
+N chodník
+N zoologická záhrada
+N kára
+N plť
+SETTING town
+N mesto
+N dedina
+N ulica
+N budova
+N adresa
+N mestečko
+N veľkomesto
+N hlavné mesto
+N centrum mesta
+N staré mesto
+N okraj mesta
+N centrum mesta
+N mestská časť
+N štvrť
+N predmestie
+N okres
+N osada
+N obyvateľ
+N obyvateľka
+N obyvateľ
+N hlavná ulica
+N chodník
+N ulička
+N fontána
+N pamätník
+N námestie
+N veža
+N palác
+N radnica
+N ruina
+N chodec
+N pešia zóna
+N hasiči
+N hasič
+N hasičská stanica
+N obyvateľ
+N obyvateľka
+N mestské hradby
+N metropola
+N slum
+N územie mesta
+N časť obce
+N areál
+N rodné mesto
+N prístavné mesto
+N pouličná lampa
+N alej
+N bulvár
+N obrubník
+N blok domov
+N graffiti
+N okoloidúci
+N cestička
+N mrakodrap
+N kupola
+N hrad
+N bezdomovec
+N žobrák
+N odpadkový kôš
+N pút
+N obyvateľstvo
+N starosta
+N starostka
+N primátor
+N park
+N zoologická záhrada
+N detské ihrisko
+N hala
+N pevnosť
+N dóm
+N stánok
+N telefónna búdka
+N kostolná veža
+N priemyselná oblasť
+N odpad
+N znečistenie
+N smog
+N zmrzlináreň
+N jedáleň (v práci)
+N sála
+N sauna
+N chodník
+N okraj cesty
+N slepá ulica
+N kruhový objazd
+N podchod
+N nadjazd
+N asfalt
+V usadiť sa
+V obývať
+V usadiť sa
+N osadník
+V žobrať
+V znečistiť
+SETTING garden
+N trávnik
+N kosačka
+SETTING culture
+N zoologická záhrada
+N akvárium
+N aréna
+N ateliér
+N koncertná sála
+N graffiti
+N hrad
+N ruina
+N sála
+N pamätník
+N palác
+N dóm
+N predpredaj
+N poklad
+V požičať
+N predplatné
+N sponzor
+N ruské koleso
+N zoologická záhrada
+N dobrodružstvo
+N prehliadka
+N suvenír
+N sprievodca
+V prezrieť si
+N svetlomet
+SETTING family
+N detské ihrisko
+N pút
+N vreckové
+N prídavok na dieťa
+N kočík
+N poklad
+N sánky
+N ruské koleso
+N výlet
+N chata
+N cesta domov
+SETTING celebration
+N pút
+N sála
+N ruské koleso
+SETTING traffic
+N ulica
+N chodník
+N kruhový objazd
+N chodec
+N pešia zóna
+N nadjazd
+N podchod
+N slepá ulica
+N alej
+N bulvár
+N obrubník
+N asfalt
+N chodník
+N okraj cesty
+N pouličná lampa
+N hlavná ulica
+N cestička
+N okoloidúci
+N eskalátor
+N ojazdené auto
+N doručenie
+N kuriér
+N náklad
+V prepravovať
+N colná sadzba
+N mýto
+N auto
+N autobus
+N voz
+N vlak
+N koleso
+N bicykel
+N cesta (komunikácia)
+N železnica
+N diaľnica
+N stanica
+N doprava
+N letisko
+N jazda
+N vodič
+N vozidlo
+N let
+N nehoda
+N osobné auto
+N nákladné auto
+N nákladné auto
+N dodávkové auto
+N kočík
+N taxík
+N motocykel
+N volant
+N cyklistický chodník
+N trajekt
+N vrtuľník
+N kolobežka
+N cestujúci
+N zrážka
+N preprava
+N pneumatika
+N motor
+N brzda
+N benzín
+N pohonná látka
+N nafta
+N nádrž
+N čerpacia stanica
+N svetlomet
+N zachádzka
+N električka
+N metro
+N železnica
+N nástupište
+N hlavná stanica
+N koľaj
+N tunel
+N most
+N križovatka
+N cestná premávka
+N dopravný prostriedok
+N zápcha
+N semafor
+N zastávka
+N prístav
+N parkovisko
+N terminál
+N jednosmerná ulica
+N koľajnica
+N cesta mimo mesta
+N spolujazdec
+N cyklista
+N cestovný lístok
+N cestovný poriadok
+N jazdný pruh
+N odjazd
+N motorista
+N motoristka
+N odlet
+N spiatočný let
+N letecká spoločnosť
+N cestujúci
+N posádka
+N pilot
+N kapitán
+N lístok
+N meškanie
+N batožinový priestor
+N vodičský preukaz
+N štart
+N pristátie
+N dochádzajúci
+N navigácia
+N trasa
+N dopravná nehoda
+N defekt
+N chodba
+N cestovný lístok
+N lokomotíva
+N záchranka
+N motocyklista
+N vodič
+N smer jazdy
+N spolucestujúci
+N kolízia
+N poznávacia značka
+N motorové vozidlo
+N zimná pneumatika
+N dodávkové auto
+N defekt pneumatiky
+N kapota
+N pedál
+N predné sklo
+N nárazník
+N palubná doska
+N klaksón
+N výfuk
+N tachometer
+N bezpečnostný pás
+N vrtuľa
+N plynový pedál
+N zadná časť
+N pristávacia dráha
+N priechod pre chodcov
+N dopravná značka
+N mólo
+N dok
+N vozovka
+N mobilita
+N spolková cesta
+N prímestská železnica
+N obchádzka
+N parkovací dom
+N dopravná značka
+N pokuta
+N odťahová služba
+N chodník
+N cesta domov
+N odpočívadlo
+N protismerná premávka
+N maximálna rýchlosť
+N rampa
+N závora
+N nájazd
+N uzávera
+N cestovné
+N výjazd
+N cesta tam
+N cesta späť
+N vodička
+N nákladná loď
+N kokpit
+N bezpečnostná kontrola
+N revízor
+N prestup
+N nástup
+N výstup
+N zrýchlenie
+N konečná stanica
+N medzipristátie
+N zájazdový autobus
+N linkový autobus
+N obytné auto
+N karavan
+N miesto na sedenie
+N miesto na státie
+N miestna doprava
+N účastník cestnej premávky
+N telefónna búdka
+N moped
+N prúdové lietadlo
+N helikoptéra
+N záchranársky vrtuľník
+N koč
+N nákladný čln
+N veslo
+N nasťahovanie
+N karavána
+N lodenica
+N plavba
+N plavba výletnou loďou
+N sprievodca vo vlaku
+N cestujúci
+V ísť (dopravou)
+V nastúpiť (do vozidla)
+V prestúpiť
+V vyraziť
+V parkovať
+V tankovať
+V brzdiť
+V riadiť
+V zrýchliť
+V predbehnúť
+V dochádzať
+V pristáť
+V štartovať
+V cúvať
+V navigovať
+V odtiahnuť
+V mať nehodu
+V meškať
+V riadiť
+V cestovať
+N volant
+SETTING craft
+N stavba
+N stavenisko
+N stavebný robotník
+N novostavba
+N prestavba
+N výstavba
+N renovácia
+N demolácia
+N sanácia
+V renovovať
+V zbúrať
+V dláždiť
+N stavba
+N pozemok
+N inštitúcia
+N asfalt
+N mrakodrap
+N pevnosť
+N veža
+N kupola
+N budova
+N priehrada
+N pneumatika
+N motor
+N brzda
+N pedál
+N výfuk
+N volant
+N zariadenie
+N svetlomet
+N zimná pneumatika
+N kapota
+V odtiahnuť
+N defekt
+N defekt pneumatiky
+SETTING home
+N inštitúcia
+N pozemok
+N odpad
+N odpadkový kôš
+N novostavba
+N cena nájmu
+N nehnuteľnosť
+N príspevok na bývanie
+N zásoba
+N chodba
+N nasťahovanie
+V prenajať si
+V spotrebovať
+N prázdninový byt
+N karavan
+N obytné auto
+SETTING kitchen
+N odpad
+N odpadkový kôš
+N zásoba
+N balenie
+N záloha
+N obal
+SETTING restaurant
+N hostinec
+N krčma
+N bar
+N pohostinstvo
+N hostinec
+N zmrzlináreň
+N jedáleň (v práci)
+SETTING shop
+N eskalátor
+N reklamná tabuľa
+N bazár
+N stánok
+N nákup
+N obchod
+N trh
+N supermarket
+N obchod
+N predaj
+N kúpa
+N nákupné centrum
+N zľava
+N výhodná kúpa
+N značka
+N tovar
+N tovar
+N poukaz
+N záruka
+N pokladňa
+N nákupný vozík
+N nákupný zoznam
+N pokladničný doklad
+N zľava
+N reklamácia
+N výmena
+N záloha
+N balenie
+N balíček
+N obal
+N bleší trh
+N trhovisko
+N stánok
+N pekáreň
+N obchodný dom
+N drogéria
+N maloobchod
+N potvrdenka
+N zákazníci
+N čiarový kód
+N pokladničný doklad
+N doklad
+N výklad
+N vrátenie
+N internetový obchod
+N nábytkárstvo
+N mäsiarstvo
+N kiosk
+N pult
+N otváracia doba
+N diskont
+N obchod s potravinami
+N sortiment
+N luxus
+N hodnota
+N zvýšenie ceny
+N zvýšenie cien
+N zdraženie
+N cennosť
+N aukcia
+N aukčná ponuka
+N predpredaj
+N dopyt
+N vrátené drobné
+N náklady
+N peniaze
+N objednávka
+N doručenie
+N spotrebiteľ
+N spotrebiteľka
+N ojazdené auto
+N zákazník : customer
+N zákazníčka : customer
+N kupujúci : customer
+N predavač : staff
+N predavačka : staff
+N obchodník : staff
+N pekár : staff
+N mäsiar : staff
+N obchodník : staff
+N pokladník : staff
+N podnikateľ : staff
+V predať : staff
+V inkasovať : staff
+V dovoliť si : customer
+V vymeniť : customer
+V zaplatiť : customer
+V minúť (peniaze) : customer
+V vymeniť si
+V vymeniť
+V obchodovať
+V vrátiť
+V zaručiť
+V robiť reklamu
+V sponzorovať
+V márniť
+V požičať
+V požičať
+N peňaženka
+N minca
+N cent
+N euro
+N dolár
+N libra
+N mena
+N rubeľ
+N hotovosť
+N bankovka
+N drobné
+N karta
+N kreditná karta
+V spotrebovať
+N suvenír
+N prospekt
+N krém na opaľovanie
+N batožina
+N výmena
+N výmena
+N zodpovednosť za vady
+N výmenný obchod
+N veľkoobchod
+N dodatočné náklady
+SETTING media
+N reklamná tabuľa
+N telefónna búdka
+N reklama
+N cieľová skupina
+N predplatné
+V robiť reklamu
+V predplatiť si
+N internetový obchod
+N marketing
+N sponzor
+V sponzorovať
+N navigácia
+N prospekt
+SETTING water
+N prístavné mesto
+N akvárium
+N krytá plaváreň
+N letné kúpalisko
+N priehrada
+N loď
+N čln
+N plachetnica
+N trajekt
+N prístav
+N plachta
+N kotva
+N sťažeň
+N paluba
+N maják
+N mólo
+N dok
+N lodenica
+N bárka
+N nákladný čln
+N jachta
+N plť
+N kajak
+N ponorka
+N veslo
+N pádlo
+N bója
+N nákladná loď
+N námorná cesta
+N námorník
+N plavba
+N plavba výletnou loďou
+N most
+N krém na opaľovanie
+V veslovať
+V plaviť sa na plachetnici
+V kotviť
+N kapitán
+N posádka
+N kabína
+N vrtuľa
+SETTING sport
+N aréna
+N hala
+N sauna
+N krytá plaváreň
+N letné kúpalisko
+N športové ihrisko
+V súťažiť
+V veslovať
+V plaviť sa na plachetnici
+N kajak
+N kolobežka
+N bicykel
+N cyklista
+N štart
+N padák
+N cyklistický chodník
+SETTING factory
+N pivovar
+N skladová hala
+N hala
+N priemyselná oblasť
+N dodávateľ
+N dodávateľský reťazec
+N surovina
+N vývoz
+N dovoz
+N úzke miesto
+N inventár
+N zariadenie
+N náklad
+N obal
+N balenie
+N tovar
+N tovar
+N lodenica
+N rampa
+N motor
+N trezor
+N čiarový kód
+V vyvážať
+V dovážať
+V prepravovať
+SETTING school
+N aula
+V rátať
+N odovzdanie
+N prázdniny
+SETTING office
+N radnica
+N policajná stanica
+N daň
+N poplatok
+N upomienka
+N príspevok na bývanie
+N poistná zmluva
+N odovzdanie
+N udelenie
+N podpora
+N príplatok
+N sociálna pomoc
+N kancelária
+N cestovný pas
+N preukaz
+N občiansky preukaz
+N vízum
+V poistiť
+N vodičský preukaz
+N pas
+N vstup do krajiny
+N pokuta
+SETTING law
+N policajná stanica
+N budova súdu
+N advokátska kancelária
+N odškodnenie
+V odškodniť
+N pokuta
+N vodičský preukaz
+N poznávacia značka
+N dopravná značka
+N dopravná značka
+N nehoda
+N dopravná nehoda
+N kolízia
+N mýto
+N odťahová služba
+N účastník cestnej premávky
+N bezpečnostná kontrola
+SETTING work
+N jedáleň (v práci)
+N advokátska kancelária
+N firma
+N kancelária
+N plat
+N bonus
+N zárobok
+N zisk
+N obrat
+N bilancia
+N odvetvie
+N zákazka
+N manažment
+N agentúra
+N marketing
+N konkurent
+N konkurencia
+N trh práce
+N obchodný rok
+N dohoda
+N obchodovanie
+N cieľová skupina
+N surovina
+N vývoz
+N dovoz
+N reklama
+N gastronómia
+N rokovanie
+N účtovníctvo
+N monopol
+N úzke miesto
+N míľnik
+N kapitál
+N dopyt
+N výkon
+N príjem
+N podpora v nezamestnanosti
+N inventár
+N kuriér
+N provízia
+N investícia
+N investor
+N analytik : worker
+N sponzor
+N značka
+N tovar
+N tovar
+N dodávateľ : worker
+N dodávateľský reťazec
+N odovzdanie
+N fond
+N akcia (cenný papier)
+N burza
+N investor
+N konateľ : boss
+N konateľka : boss
+N účtovník : worker
+N maklér : worker
+N obchodník : worker
+N obchodník : worker
+N podnikateľ : boss
+V zarobiť
+V rokovať
+V obchodovať
+V investovať
+V súťažiť
+V poskytnúť
+V robiť reklamu
+V meškať
+V vyvážať
+V dovážať
+N veľkoobchod
+SETTING religion
+N dóm
+N kostolná veža
+V darovať (na dobročinnosť)
+SETTING bank
+N peniaze
+N euro
+N náklady
+N hotovosť
+N bankovka
+N peňaženka
+N drobné
+N vreckové
+N bankomat
+N minca
+N mena
+N cent
+N dolár
+N libra
+N rubeľ
+N imanie
+N bohatstvo
+N blahobyt
+N chudoba
+N dlhy
+N pôžička
+N rozpočet
+N kapitál
+N financie
+N milionár
+N suma
+N bežný účet
+N úrok
+N úroky
+N DPH
+N upomienka
+N platba
+N poplatok
+N výdavok
+N plat
+N príjem
+N príjmy
+N tržba
+N dôchodok
+N účet (bankový)
+N úver
+N karta
+N kreditná karta
+N investícia
+N poistenie
+N daň
+N prevod
+N akcia (cenný papier)
+N burza
+N centrálna banka
+N centrálna banka
+N kľúčová úroková sadzba
+N hypotéka
+N fond
+N financovanie
+N veriteľ
+N dlžník
+N platba vopred
+N úspora
+N rezervný fond
+N prémia
+N poistná zmluva
+N výmenný kurz
+N vklad
+N cenný papier
+N transakcia
+N stav účtu
+N inkaso
+N šek
+N akcionár
+N trezor
+N provízia
+N dotácia
+N sporiteľňa
+N investor
+N investor
+N výnosnosť
+N výťažok
+N zisk
+N bankrot
+N platobná neschopnosť
+N schodok
+N mínus
+N odškodnenie
+N plytvanie
+N cena nájmu
+N škrt
+N paušál
+N poklad
+N nehnuteľnosť
+N úroková sadzba
+N obrat
+N bilancia
+N účtovníctvo
+N príspevok na bývanie
+N prídavok na dieťa
+N podpora v nezamestnanosti
+N sociálna pomoc
+N potvrdenka
+N cennosť
+N doklad
+N vrátenie peňazí
+N pokladničný doklad
+N dodávateľský reťazec
+V zaplatiť
+V minúť (peniaze)
+V šetriť
+V požičať
+V požičať
+V požičať
+V vrátiť peniaze
+V rátať
+V zarobiť
+V darovať (na dobročinnosť)
+V vybrať z účtu
+V previesť
+V investovať
+V poistiť
+V financovať
+V odškodniť
+V vrátiť
+V márniť
+V prenajať si
+V dovoliť si
+V predplatiť si
+V schudobnieť
+N mýto
+N pokuta
+N cestovné
+V dlhovať
+N majetková hodnota
+N dodatočné náklady
+SETTING science
+N ekonóm
+N astronaut
+N raketa
+N vesmírna loď
+N kompas
+N tachometer
+N zrýchlenie
+SETTING sky
+N raketa
+N vesmírna loď
+N astronaut
+N lietadlo
+N vrtuľník
+N helikoptéra
+N prúdové lietadlo
+N vrtuľa
+N padák
+N pristávacia dráha
+V pristáť
+V štartovať
+N štart
+N pristátie
+SETTING military
+N raketa
+N padák
+N vrtuľník
+SETTING farm
+N kára
+N nákladné auto
+SETTING weather
+N sánky
+N zimná pneumatika
+N krém na opaľovanie
+N predné sklo
+SETTING doctor
+N záchranka
+N záchranársky vrtuľník
+N nehoda
+N dopravná nehoda
+N zrážka
+V mať nehodu
+N kolízia
+SETTING bathroom
+N krém na opaľovanie
+SETTING everyday
+V byť schopný
+N pomôcka
+N opora

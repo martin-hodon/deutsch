@@ -1,0 +1,572 @@
+# PROCEDURES (tools/world.py): what doing a wish IS, step by step -- told instead of one plain sentence ("Später briet
+# sie die Frikadellen."), so a story shows the work: Sie schaltete den Herd ein und stellte die Pfanne darauf. Vorsichtig
+# legte sie die Frikadellen in die heiße Pfanne. Die Frikadellen zischten. The trouble of the story hits the step that
+# uses its thing (Als sie den Herd einschalten wollte, ...), the steps after it wait until it is mended.
+#
+#   PROCEDURE verb : what of | what of ; here Noun | Noun/Noun
+#       verb: the wished action; `of`: categories of its object (categories.txt) or nouns; `here`: what must be there
+#       (the situation's things or uses, the place's things) -- Noun/Noun: either
+#     step    clause ; gives Noun:state        she does it (no subj=: the story's person)
+#     process clause ; gives ...               a thing does it (subj= the thing): Die Butter schmolz.
+#     key     clause                           the decisive step (at most one) -- of a cook, a craftsman: not a sip of
+#                                              water (Jetzt kam der entscheidende Augenblick.)
+#     close   clause                           her last touch, told as the end (Sie biss in den warmen Kuchen.)
+#     step?   (process?, key?)                 a detail: told only in complex stories
+#     ; senses   telling it, she has tasted / seen it (a verdict is earned)   ; moment   a key worth "Jetzt kam der
+#     entscheidende Augenblick"   ; fetch   left out when its thing is there already (holte ihr Fahrrad)
+#   The clauses are in the format of sentences/tests.txt without subject and tense: verb=, A=, D=, pp=prep:Noun,
+#   manner= ... A noun is a thing of the story (der Herd once it is there, ein Glas until then); `obj` is the wished
+#   thing; Noun/Noun the one the situation has; ~Noun: only where it is (else the line is left out); a value with its
+#   own article (indef:Schluck) is said as it stands; new:obj a new one (einen neuen Stift), own:Noun hers, bare:obj
+#   the wish's thing with no article and what is done to it (nach gebratenen Frikadellen). `gives`: an OBJSTATE the thing has after it (Pfanne:heiß) --
+#   then said with it (in die heiße Pfanne); the verbs' own conditions (conditions.txt gives A:...) count too.
+
+# eggs: cracked into the pan, not laid in it
+PROCEDURE smažiť : praženica | volské_oko ; here panvica/panvica_na_vyprážanie
+  step verb=zapnúť_(prístroj) patient=sporák
+  step verb=postaviť patient=panvica/panvica_na_vyprážanie pp=onto:sporák ; gives panvica/panvica_na_vyprážanie:horúci
+  step? verb=dať patient=none:maslo pp=into:panvica/panvica_na_vyprážanie
+  key verb=rozbiť patient=num.dva:vajce+pl pp=into:panvica/panvica_na_vyprážanie ; moment
+  process verb=syčať subj=def:vajce+pl pp=in:panvica/panvica_na_vyprážanie
+  step verb=premiešať patient=def:vajce+pl ; if praženica
+  step? verb=ochutnať patient=indef:kus ; senses
+
+PROCEDURE smažiť : meat | dish | vegetable ; here panvica/panvica_na_vyprážanie
+  step verb=zapnúť_(prístroj) patient=sporák
+  step verb=postaviť patient=panvica/panvica_na_vyprážanie pp=onto:sporák ; gives panvica/panvica_na_vyprážanie:horúci
+  step? verb=dať patient=none:olej pp=into:panvica/panvica_na_vyprážanie
+  key verb=položiť patient=obj goal=panvica/panvica_na_vyprážanie ; moment
+  process verb=syčať subj=obj pp=in:panvica/panvica_na_vyprážanie
+  process? verb=voňať subj=3sg.n theme=bare:obj
+  step verb=otočiť patient=obj
+  step? verb=ochutnať patient=indef:kus ; senses
+
+# Nudeln, Reis, Kartoffeln, Brokkoli: in kochendes Wasser
+PROCEDURE variť : grain | vegetable ; here hrniec
+  step verb=naplniť patient=hrniec instrument=voda
+  step verb=postaviť patient=hrniec pp=onto:sporák
+  process verb=variť subj=voda
+  key verb=dať patient=obj pp=into:voda
+  step? verb=premiešať patient=obj
+  step verb=liať patient=obj pp=into:indef:sito ; if grain
+
+# a soup, a sauce: made in the pot, stirred, tasted
+PROCEDURE variť : polievka | vývar | paradajková_omáčka ; here hrniec
+  step verb=postaviť patient=hrniec pp=onto:sporák
+  step? verb=krájať patient=zelenina
+  process verb=variť subj=obj
+  step verb=premiešať patient=obj
+  key verb=ochutnať patient=indef:porcia+adj:maličký ; senses
+
+# pudding, jam: sweet, stirred so it does not burn
+PROCEDURE variť : puding | marmeláda ; here hrniec
+  step verb=postaviť patient=hrniec pp=onto:sporák
+  process verb=variť subj=obj
+  step verb=premiešať patient=obj
+  key verb=ochutnať patient=indef:porcia+adj:maličký ; senses
+
+# tea, coffee: water from the kettle
+PROCEDURE variť : drink ; here rýchlovarná_kanvica
+  step verb=naplniť patient=rýchlovarná_kanvica instrument=voda
+  step verb=zapnúť_(prístroj) patient=rýchlovarná_kanvica
+  process? verb=bzučať subj=rýchlovarná_kanvica
+  process verb=variť subj=voda
+  key verb=liať patient=voda pp=into:~šálka
+  process? verb=pariť_sa subj=obj
+
+PROCEDURE piecť : baked-goods | pizza ; here pec/rúra_na_pečenie
+  step? verb=miesiť patient=cesto
+  process? verb=odpočívať subj=cesto time=krátky
+  step verb=zapnúť_(prístroj) patient=pec/rúra_na_pečenie ; gives pec/rúra_na_pečenie:horúci
+  key verb=tlačiť patient=obj pp=into:pec/rúra_na_pečenie ; moment
+  process verb=voňať subj=3sg.n theme=bare:obj
+  step verb=vziať patient=obj pp=from:pec/rúra_na_pečenie ; gives obj:teplý
+  close verb=hrýzť goal=obj
+
+# (a meal on a plate -- not a handful of nuts; the decisive moment is the cook's, not the eater's)
+PROCEDURE jesť : dish | meat ; here tanier
+  step verb=položiť patient=obj goal=tanier
+  process? verb=pariť_sa subj=obj pp=on:tanier ; if dish
+  step verb=ochutnať patient=obj ; senses
+  step verb=jesť patient=obj
+
+PROCEDURE piť : drink ; here sklenica
+  step verb=naplniť patient=sklenica instrument=obj
+  step verb=piť patient=indef:dúšok
+  close verb=postaviť patient=sklenica pp=onto:~stôl
+
+PROCEDURE čítať : text ; here okuliare
+  step? verb=zapnúť_(prístroj) patient=~lampa
+  step verb=vziať patient=okuliare
+  step verb=otvoriť patient=obj
+  step verb=čítať patient=obj manner=sústredený ; senses
+  close verb=udrieť patient=obj
+
+PROCEDURE piť : drink ; here fľaša
+  step verb=otvoriť patient=fľaša
+  step verb=piť patient=indef:dúšok pp=from:fľaša
+
+PROCEDURE piť : drink ; here šálka/hrnček
+  step verb=naplniť patient=šálka/hrnček instrument=obj
+  step verb=piť patient=indef:dúšok
+
+# a rest: on a bench, a chair, a sofa -- or to bed
+PROCEDURE oddýchnuť_si : - ; here lavica/stolička_(nábytok)/pohovka/gauč
+  step verb=sadnúť_si goal=lavica/stolička_(nábytok)/pohovka/gauč
+  step? verb=vystrieť patient=def:noha_(končatina)+pl
+  step verb=zavrieť patient=def:oko+pl
+
+PROCEDURE oddýchnuť_si : - ; here posteľ/manželská_posteľ
+  step verb=ísť_(pešo) goal=posteľ/manželská_posteľ
+  step verb=zavrieť patient=def:oko+pl
+  close verb=zaspať time=čoskoro
+
+PROCEDURE ísť_(dopravou) : bicykel | kolobežka | motocykel
+  step? verb=doniesť patient=obj ; fetch
+  step verb=sadnúť_si goal=obj
+  step verb=šliapnúť goal=def:pedál+pl ; if bicykel
+  step verb=ísť_(dopravou) patient=indef:kolo
+
+PROCEDURE ísť_(dopravou) : auto | traktor
+  step verb=nastúpiť_(do_vozidla) goal=obj
+  step verb=štartovať patient=def:motor
+  step verb=ísť_(dopravou) patient=indef:kolo
+
+PROCEDURE hrať : instrument
+  step verb=vziať patient=obj
+  step? verb=ladiť patient=obj ; if gitara
+  step verb=hrať patient=indef:pieseň
+
+PROCEDURE robiť : picture ; here kamera
+  step verb=vziať patient=kamera
+  step verb=zapnúť_(prístroj) patient=kamera
+  key verb=stlačiť goal=def:gombík
+  step verb=robiť patient=obj
+  close verb=pozrieť_si patient=obj
+
+# in a shop: from the shelf, to the till
+PROCEDURE kúpiť : entity ; here polica
+  step verb=vziať patient=obj pp=from:polica
+  step verb=ísť_(pešo) pp=to:~pokladňa
+  step verb=zaplatiť patient=obj
+
+# a snack in the hand: fruit, a pretzel, sweets (no plate)
+PROCEDURE jesť : fruit | sweets | baked-goods | vegetable
+  step? verb=umývať patient=obj ; if fruit
+  step verb=vziať patient=obj
+  step verb=jesť patient=obj
+
+PROCEDURE jesť : dish | meat | grain ; here škrupina/misa
+  step verb=naplniť patient=škrupina/misa instrument=obj
+  step verb=jesť patient=obj
+
+# at a market stand: chosen, weighed, paid
+PROCEDURE kúpiť : fruit | vegetable ; here stánok/váha
+  step verb=vybrať patient=obj
+  step verb=položiť patient=obj goal=~váha
+  step verb=zaplatiť patient=obj
+
+PROCEDURE kúpiť : meat | dish ; here pult
+  step verb=objednať patient=obj pp=at:pult
+  step verb=zaplatiť patient=obj
+
+PROCEDURE grilovať : meat | vegetable | dish ; here gril
+  step verb=položiť patient=uhlie+pl goal=gril
+  process verb=žeraviť_sa subj=uhlie+pl
+  process? verb=fajčiť subj=gril
+  key verb=položiť patient=obj goal=gril ; moment
+  process verb=syčať subj=obj
+  process? verb=voňať subj=3sg.n theme=bare:obj
+  step verb=otočiť patient=obj
+
+PROCEDURE liať : plant ; here krhla
+  step verb=naplniť patient=krhla instrument=voda
+  step verb=liať patient=obj
+
+PROCEDURE žať : fruit | vegetable ; here kôš
+  step verb=vziať patient=kôš
+  step verb=žať patient=obj
+  step verb=položiť patient=obj goal=kôš
+
+PROCEDURE počuť : entity ; here rádio
+  step verb=zapnúť_(prístroj) patient=rádio
+  step verb=počuť patient=obj
+
+PROCEDURE umývať : clothing | bielizeň ; here práčka
+  step verb=položiť patient=obj goal=práčka
+  step verb=zapnúť_(prístroj) patient=práčka
+  step verb=zavesiť patient=obj
+
+PROCEDURE spať : - ; here posteľ
+  step verb=ísť_(pešo) goal=posteľ
+  step? verb=vypnúť patient=~lampa
+  step verb=zavrieť patient=def:oko+pl
+  close verb=zaspať time=čoskoro
+
+PROCEDURE spať : - ; here stan | spací_vak
+  step verb=ísť_(pešo) goal=stan
+  step verb=zavrieť patient=def:oko+pl
+
+# ---- MENDING by kind of thing (before the generic blocks below: of procedures that fit equally, the first wins)
+# a bicycle, a scooter: a flat tyre (Fahrrad 10, Roller 2)
+#  Er sah den Reifen an und fand ein Loch. Vorsichtig klebte er einen Flicken auf das Loch. Dann pumpte er Luft in
+#  den Reifen. Bald war der Reifen wieder hart.
+PROCEDURE opraviť : bicykel | kolobežka | kočík
+  step verb=pozrieť_si patient=def:pneumatika ; senses
+  step verb=nájsť patient=indef:diera
+  key verb=lepiť patient=záplata pp=onto:def:diera
+  step verb=pumpovať patient=none:vzduch pp=into:def:pneumatika
+  step? verb=preveriť patient=def:brzda+pl
+  process verb=byť subj=def:pneumatika pred=adj:tvrdý time=znova
+
+# a car, a tractor, a motorbike, a boat: under the bonnet (Auto 7, Traktor 2, Motorrad, Boot 5)
+#  Er öffnete die Motorhaube und sah den Motor an. Bald fand er den Fehler. Er tauschte ein Kabel aus.
+#  Dann startete er den Motor. Der Motor lief wieder.
+PROCEDURE opraviť : auto | traktor | motocykel | nákladné_auto | autobus
+  step verb=otvoriť patient=def:kapota
+  step verb=pozrieť_si patient=def:motor ; senses
+  step verb=nájsť patient=def:chyba
+  key verb=vymeniť patient=kábel
+  step verb=štartovať patient=def:motor
+  process verb=bežať subj=def:motor time=znova
+PROCEDURE opraviť : čln | plachetnica
+  step verb=pozrieť_si patient=def:motor ; senses ; if čln
+  step verb=nájsť patient=indef:diera
+  key verb=lepiť patient=lepiaca_páska pp=onto:def:diera
+  process verb=byť subj=obj pred=adj:tesný_(nepriepustný) time=znova
+
+# a lamp, a light: the bulb (Lampe 13, Licht 4)
+#  Er holte eine neue Glühbirne. Er zog den Stecker aus der Steckdose. Vorsichtig drehte er die neue Glühbirne in
+#  die Lampe. Er schaltete die Lampe ein. Die Lampe leuchtete wieder.
+PROCEDURE opraviť : lampa | svetlo | lampáš | svetlomet
+  step verb=doniesť patient=žiarovka+adj:nový
+  step? verb=ťahať patient=def:zástrčka_(elektrická) pp=from:~zásuvka_(elektrická) ; if lampa
+  key verb=otáčať patient=žiarovka pp=into:obj
+  step verb=zapnúť_(prístroj) patient=obj
+  process? verb=blikať subj=obj time=krátky
+  process verb=svietiť subj=obj time=znova
+
+# a torch, a camera, a phone, a tablet: the battery
+#  Er öffnete die Taschenlampe. Er nahm die alten Batterien heraus [aus der Taschenlampe] und legte neue hinein.
+PROCEDURE opraviť : baterka | kamera | mobil | smartfón | tablet | laptop | dron | diaľkový_ovládač | budík
+  step verb=otvoriť patient=obj
+  step verb=vziať patient=def:akumulátor pp=from:obj ; if kamera | mobil | smartfón | tablet | laptop | dron
+  step verb=vziať patient=def:batéria+pl+adj:starý pp=from:obj ; if baterka | diaľkový_ovládač | budík
+  key verb=vložiť_(dovnútra) patient=akumulátor+adj:nový ; if kamera | mobil | smartfón | tablet | laptop | dron
+  key verb=položiť patient=batéria+pl+adj:nový goal=obj ; if baterka | diaľkový_ovládač | budík
+  step verb=zapnúť_(prístroj) patient=obj
+  process verb=svietiť subj=def:displej time=znova ; if kamera | mobil | smartfón | tablet
+  process verb=svietiť subj=obj time=znova ; if baterka
+  process verb=fungovať subj=obj time=znova ; if laptop | diaľkový_ovládač | budík | dron
+
+# a printer: the paper jam (Drucker 6)
+#  Er öffnete den Drucker. Vorsichtig zog er ein Blatt aus dem Drucker. Er schloss den Drucker und schaltete ihn ein.
+#  Der Drucker druckte wieder.
+PROCEDURE opraviť : tlačiareň
+  step verb=otvoriť patient=obj
+  key verb=ťahať patient=indef:list_(rastliny) pp=from:obj
+  step verb=zavrieť patient=obj
+  step verb=zapnúť_(prístroj) patient=obj
+  process verb=vytlačiť subj=obj time=znova
+
+# a grill, a stove of wood: no plug -- a loose leg
+PROCEDURE opraviť : gril | krb
+  step verb=pozrieť_si patient=obj ; senses
+  process verb=byť subj=indef:noha_(končatina) pred=adj:uvoľnený_(nepevný)
+  key verb=skrutkovať patient=def:noha_(končatina) pp=to-side:obj time=znova
+  process verb=byť subj=obj pred=adj:stabilný time=znova
+
+# any other machine on the mains: a loose cable (Herd 25, Computer 15, Kasse 12, Ofen 7, Backofen 6, Kaffeemaschine 4,
+# Radio 5, Fernseher 3, Waschmaschine 3, Automat 4, Mikrowelle, Toaster, Mixer, Wasserkocher, Monitor ...)
+#  Er zog den Stecker und sah das Kabel an. Er fand den Fehler. Vorsichtig befestigte er das Kabel. Dann steckte er
+#  den Stecker in die Steckdose und schaltete den Herd ein. Bald wurde der Herd heiß.
+PROCEDURE opraviť : device | switchable
+  step verb=ťahať patient=def:zástrčka_(elektrická)
+  step verb=pozrieť_si patient=def:kábel ; senses
+  step? verb=nájsť patient=def:chyba
+  key verb=pripevniť patient=def:kábel
+  step verb=strčiť patient=def:zástrčka_(elektrická) goal=~zásuvka_(elektrická)
+  step verb=zapnúť_(prístroj) patient=obj ; if switchable
+  process verb=stať_sa subj=obj pred=adj:horúci ; if sporák | pec | rúra_na_pečenie | gril | hriankovač | mikrovlnka
+  process verb=svietiť subj=def:obrazovka time=znova ; if počítač | televízor | monitor
+  process verb=fungovať subj=obj time=znova ; if pokladňa | rádio | kávovar | práčka | automat | mixér | rýchlovarná_kanvica | vysávač | sušička | projektor | reproduktor | šijací_stroj | eskalátor
+
+# a tap, a shower: the seal (Wasserhahn 6, Dusche 5) -- (its omen: Der Wasserhahn tropfte. ambience.txt)
+#  Er schraubte den Wasserhahn mit einem Schraubenzieher auf ... -> Er öffnete den Wasserhahn. Die Dichtung war alt.
+#  Er tauschte die Dichtung aus. Der Wasserhahn war wieder dicht.
+PROCEDURE opraviť : vodovodný_kohútik | sprcha | umývadlo | vaňa | hadica
+  step verb=otvoriť patient=obj
+  process verb=byť subj=def:tesnenie pred=adj:starý
+  key verb=vymeniť patient=def:tesnenie
+  process verb=byť subj=obj pred=adj:tesný_(nepriepustný) time=znova
+
+# a chair, a table, a bed: a loose leg (Bett 7, Stuhl, Tisch, Sessel, Bank, Sofa, Doppelbett 2)
+#  Er drehte den Stuhl um. Ein Bein war locker. Mit einem Schraubenzieher schraubte er das Bein wieder an den Stuhl.
+#  Der Stuhl war wieder stabil.
+PROCEDURE opraviť : stolička_(nábytok) | stôl | kreslo | taburetka | lavica | písací_stôl
+  step verb=otočiť patient=obj
+  process verb=byť subj=indef:noha_(končatina) pred=adj:uvoľnený_(nepevný)
+  key verb=skrutkovať patient=def:noha_(končatina) pp=to-side:obj time=znova
+  process verb=byť subj=obj pred=adj:stabilný time=znova
+PROCEDURE opraviť : posteľ | manželská_posteľ | pohovka | gauč | skriňa | polica | rebrík
+  step verb=pozrieť_si patient=obj ; senses
+  process verb=byť subj=indef:skrutka pred=adj:uvoľnený_(nepevný)
+  key verb=otáčať patient=def:skrutka pp=with:indef:skrutkovač
+  process verb=byť subj=obj pred=adj:stabilný time=znova
+
+# a tool on a handle: a loose handle (Hammer 7, Spaten 6, Schaufel 3, Axt 2, Besen ...)
+#  Der Stiel war locker. Er befestigte den Stiel mit einer Schraube. Der Hammer war wieder stabil.
+PROCEDURE opraviť : kladivo | rýľ | lopata | sekera | metla | hrable | kosa
+  process verb=byť subj=def:rukoväť pred=adj:uvoľnený_(nepevný)
+  key verb=pripevniť patient=def:rukoväť pp=with:skrutka
+  process verb=byť subj=obj pred=adj:stabilný time=znova
+# a blade on a pin, a saw (Schere 6, Säge 2, Zange, Messer)
+PROCEDURE opraviť : nožnice | kliešte | píla | nôž
+  process verb=byť subj=def:rukoväť pred=adj:uvoľnený_(nepevný) ; if píla | nôž
+  process verb=byť subj=indef:skrutka pred=adj:uvoľnený_(nepevný) ; if nožnice | kliešte
+  key verb=pripevniť patient=def:rukoväť pp=with:skrutka ; if píla | nôž
+  key verb=otáčať patient=def:skrutka pp=with:indef:skrutkovač ; if nožnice | kliešte
+  process verb=krájať subj=obj time=znova
+
+# a basket, a bag: the handle tied on (Korb 11, Karren 2)
+#  Ein Riemen war gerissen. Er band den Riemen mit einer Schnur an den Korb.
+PROCEDURE opraviť : kôš | kára | sánky
+  process verb=trhať subj=indef:remeň ; if kôš
+  key verb=viazať patient=def:remeň pp=with:špagát goal=obj ; if kôš
+  key verb=pripevniť patient=indef:doska pp=with:klinec+pl ; if kára | sánky
+  process verb=byť subj=obj pred=adj:stabilný time=znova
+# a bucket, a watering can: a hole taped (Eimer 4, Gießkanne 3)
+PROCEDURE opraviť : vedro | krhla | sud
+  step verb=nájsť patient=indef:diera
+  step? verb=sušiť patient=def:diera pp=with:~utierka/uterák/handra
+  key verb=lepiť patient=lepiaca_páska pp=onto:def:diera
+  process verb=byť subj=obj pred=adj:tesný_(nepriepustný) time=znova
+# a net, a rope, a fishing line, a lead: the ends tied (Netz 4, Angel 3, Leine 2, Seil)
+PROCEDURE opraviť : sieť_(rybárska) | udica | vodítko | lano | šarkan
+  step verb=hľadať patient=def:koniec+pl
+  key verb=zviazať_dokopy patient=def:koniec+pl
+  process verb=držať subj=obj time=znova
+
+# clothes, bags, a tent, a sail: sewn (nähen 7; reparieren of clothing / Zelt 5 / Rucksack 2 / Segel / Vorhang)
+#  Die Jacke hatte ein Loch am Ärmel. Sie holte Nadel und Faden und steckte den Faden durch die Nadel. Konzentriert
+#  nähte sie das Loch mit kleinen Stichen. Die Jacke war wieder ganz.
+PROCEDURE šiť | opraviť : clothing | taška | batoh | stan | plachta | záves | vlajka | spací_vak | vankúš | podhlavník
+  process verb=mať_(vlastniť) subj=obj patient=diera pp=at:def:rukáv ; if bunda | kabát | uniforma | košeľa | sveter | blúzka | šaty
+  process verb=mať_(vlastniť) subj=obj patient=diera ; if taška | batoh | stan | plachta | záves | vlajka | spací_vak | vankúš | podhlavník | rukavica | nohavice | ponožka | čižma
+  step verb=doniesť patient=ihla+pair(and,indef:niť)
+  step? verb=strčiť patient=niť pp=through:ihla
+  key verb=šiť patient=diera pp=with:none:steh+pl+adj:malý
+  step? verb=odrezať patient=niť pp=with:~nožnice
+  process verb=byť subj=obj pred=adj:celý time=znova
+
+# glued (kleben 5: Stiefel, Rakete, Rahmen, Karte, Blumentopf)
+#  Er holte den Kleber. Vorsichtig klebte er die Sohle an den Stiefel und drückte sie fest[an]. Der Kleber trocknete.
+PROCEDURE lepiť : entity
+  step verb=doniesť patient=lepidlo ; fetch
+  key verb=lepiť patient=def:podrážka pp=to-side:obj ; if čižma | topánka
+  key verb=lepiť patient=def:časť+pl pp=to-side:obj ; if raketa | rám | kvetináč | váza | hračka | model
+  key verb=lepiť patient=lepiaca_páska pp=onto:obj ; if karta | plagát | kniha | slovník
+  step verb=stlačiť patient=obj manner=opatrný
+  process verb=sušiť subj=lepidlo
+  process? verb=držať subj=obj time=znova
+
+# charged (aufladen 18) -- replaces the old block: no "das Handy war voll" (benches 20a/c/e: W); the cable said once
+#  Er holte ein Kabel und steckte es in das Handy. Dann steckte er den Stecker in die Steckdose. Ein kleines Licht
+#  leuchtete. Bald war der Akku voll.
+PROCEDURE nabiť : device | batéria | akumulátor
+  step verb=doniesť patient=kábel ; fetch
+  step verb=strčiť patient=kábel goal=obj ; if device
+  step verb=strčiť patient=def:zástrčka_(elektrická) goal=~zásuvka_(elektrická)
+  process? verb=svietiť subj=indef:svetlo+adj:malý
+  process verb=byť subj=def:akumulátor pred=adj:plný time=čoskoro ; if device
+  process verb=byť subj=obj pred=adj:plný time=čoskoro ; if batéria | akumulátor
+
+# replaced (ersetzen 43, austauschen 15, erneuern 3, umtauschen 3): the old one away, a new one in
+#  Er warf den leeren Kugelschreiber in den Mülleimer und holte einen neuen.
+PROCEDURE nahradiť | vymeniť | obnoviť_(nahradiť_novým) | vymeniť : entity
+  step? verb=vyhodiť patient=obj ; if tool | thing | paper | container | text
+  step verb=doniesť patient=new:obj
+  key verb=vložiť_(dovnútra) patient=new:obj ; if žiarovka | batéria | svetlomet | sedlo | senzor | zámok | monitor | akumulátor | kábel | rukoväť | pneumatika | koleso | okenná_tabuľa | okno | tuha
+  step verb=dať patient=new:obj ; if obväz | jedálny_lístok | noviny
+
+# filled (füllen 60): at the tap -- only where there is one (Flasche 20, Glas 10, Eimer 6, Gießkanne 5 ...)
+#  Er drehte den Wasserhahn auf und hielt die Flasche darunter [unter den Wasserhahn]. Das Wasser lief in die
+#  Flasche. Bald war die Flasche voll. Er schloss den Wasserhahn.
+PROCEDURE naplniť : fľaša | sklenica | krčah | čajník | vedro | krhla | panva ; here vodovodný_kohútik
+  step verb=pootočiť patient=vodovodný_kohútik
+  key verb=držať patient=obj pp=under-to:vodovodný_kohútik
+  process verb=bežať subj=def:voda goal=obj
+  step verb=zavrieť patient=vodovodný_kohútik
+# at a well, a pump, a stream outside (no tap)
+PROCEDURE naplniť : fľaša | vedro | krhla ; here fontána/pumpa/potok/rieka
+  key verb=namočiť patient=obj goal=def:voda
+  process verb=byť subj=obj pred=adj:plný time=čoskoro
+# a shelf, a counter: from the store room (Regal 8, Theke)
+#  Er holte eine Kiste aus dem Lager und öffnete sie. Er stellte die Waren ins Regal. Das Regal war wieder voll.
+PROCEDURE naplniť : polica | pult
+  step verb=doniesť patient=bedňa pp=from:def:sklad
+  step verb=otvoriť patient=bedňa
+  key verb=postaviť patient=def:tovar+pl goal=obj
+  process verb=byť subj=obj pred=adj:plný time=znova
+
+# dried (trocknen 41): by what the wet thing is
+# a seat, a table, a bench (Bank 5, Stuhl 3, Tisch)
+#  Er wischte das Wasser von der Bank. Mit einem Handtuch trocknete er sie. Bald war die Bank trocken.
+PROCEDURE sušiť : furniture | lavica
+  step verb=zotrieť patient=def:voda pp=off:obj
+  key verb=sušiť patient=obj pp=with:~uterák/utierka/handra
+  process verb=byť subj=obj pred=adj:suchý time=čoskoro
+# cloth: wrung, hung up, dried (Schlafsack 4, Decke 4, Wolldecke, Wäsche, Hängematte, Handtuch)
+#  Sie wrang die Decke aus und hängte sie an die Leine. Die Decke trocknete langsam.
+PROCEDURE sušiť : spací_vak | strop | vlnená_deka | bielizeň | hojdacia_sieť | uterák | clothing
+  step? verb=vyžmýkať patient=obj ; if strop | vlnená_deka | bielizeň | uterák | clothing
+  key verb=zavesiť patient=obj pp=to-side:~vodítko
+  process verb=sušiť subj=obj manner=pomalý
+# a phone, a camera: switched off, the battery out, dried on a cloth
+#  Er schaltete die Kamera aus und nahm den Akku heraus. Vorsichtig trocknete er die Kamera mit einem Tuch.
+PROCEDURE sušiť : device
+  step verb=vypnúť patient=obj
+  step verb=vziať patient=def:akumulátor pp=from:obj
+  key verb=sušiť patient=obj pp=with:~utierka/uterák
+  step verb=vložiť_(dovnútra) patient=def:akumulátor
+  step verb=zapnúť_(prístroj) patient=obj
+  process verb=fungovať subj=obj time=znova
+# wood, coal: beside the fire or the stove (Holz 6, Kohle 2, Heu)
+PROCEDURE sušiť : drevo | uhlie | seno
+  key verb=položiť patient=obj pp=beside-to:~oheň/pec/krb
+  process verb=sušiť subj=obj manner=pomalý
+# paper: on the heater (Block 3, Papier, Wörterbuch, Leinwand)
+PROCEDURE sušiť : paper | text | blok | plátno
+  step verb=sušiť patient=obj pp=with:~utierka/uterák
+  key verb=položiť patient=obj goal=~kúrenie
+  process verb=sušiť subj=obj manner=pomalý
+
+
+# ---- MENDING (the MEND of a story, step by step): keyed by the trouble's verb, `obj` the thing in the way, done by
+#      her or by the one who helps -- the steps of the wish wait until it is mended
+PROCEDURE opraviť : entity
+  step verb=pozrieť_si patient=obj ; senses
+  key verb=opraviť patient=obj
+  step verb=zapnúť_(prístroj) patient=obj ; if switchable
+  process verb=fungovať subj=obj time=znova ; if device | vehicle | switchable
+
+PROCEDURE oplachovať : entity
+  step verb=pootočiť patient=~vodovodný_kohútik
+  key verb=oplachovať patient=obj
+  step verb=sušiť patient=obj pp=with:~utierka/uterák
+  process? verb=lesknúť_sa subj=obj
+
+PROCEDURE čistiť : entity
+  step verb=doniesť patient=indef:handra ; fetch
+  key verb=čistiť patient=obj
+  process verb=lesknúť_sa subj=obj
+
+# ---- more wishes
+# malen 7: Er legte das Papier auf den Tisch und mischte Farben auf der Palette. Er tauchte den Pinsel in die Farbe.
+# Konzentriert malte er ein Haus. Dann betrachtete er das Bild.
+PROCEDURE maľovať : entity ; here štetec/pastelka
+  step verb=položiť patient=papier/plátno/blok goal=~stôl
+  step? verb=miešať patient=farba+pl pp=on:~paleta
+  step verb=namočiť patient=štetec goal=farba ; if picture | building | landscape | creative-work | entity
+  key verb=maľovať patient=obj manner=sústredený
+  close verb=pozrieť_si patient=def:obraz
+
+# zeichnen 4 (from life: the bridge, the waterfall, the ship)
+PROCEDURE kresliť : entity ; here blok/papier/tabuľa
+  step verb=vziať patient=ceruzka/pero_(písacie)/pastelka/krieda
+  step verb=pozrieť_si patient=obj ; if building | landscape | water-body | vehicle | plant | beast
+  key verb=kresliť patient=obj manner=sústredený
+  close verb=pozrieť_si patient=def:kresba
+
+# schreiben 7: at the computer / a card by hand
+PROCEDURE písať : text | e-mail | program | správa_(oznam) ; here počítač/laptop/počítač/mobil
+  step verb=zapnúť_(prístroj) patient=počítač/laptop/počítač/mobil
+  key verb=písať patient=obj manner=sústredený
+  step? verb=korigovať patient=indef:chyba
+  close verb=čítať patient=obj time=znova
+PROCEDURE písať : pohľadnica | list_(písomnosť) | karta ; here pero_(písacie)/guľôčkové_pero/ceruzka
+  step verb=vziať patient=pero_(písacie)/guľôčkové_pero/ceruzka
+  key verb=písať patient=obj
+  step verb=písať patient=def:adresa
+  close verb=lepiť patient=poštová_známka pp=onto:obj
+
+# beobachten 7: through the binoculars / the telescope
+#  Sie sah durch das Fernglas. Bald entdeckte sie Enten. Still beobachtete sie die Enten.
+PROCEDURE pozorovať : entity ; here ďalekohľad/teleskop
+  step verb=vziať patient=ďalekohľad ; if beast | vehicle
+  step verb=vidieť pp=through:ďalekohľad/teleskop
+  key verb=objaviť patient=obj
+  step verb=pozorovať patient=obj manner=tichý_(pokojný)
+
+# sehen / ansehen a film 7: the light off, on the sofa, the film begins
+PROCEDURE vidieť | pozrieť_si : film | video | divadelná_hra ; here televízor/laptop/počítač/tablet
+  step? verb=vypnúť patient=~svetlo/lampa
+  step verb=sadnúť_si goal=~pohovka/gauč/kreslo
+  step verb=zapnúť_(prístroj) patient=televízor/laptop/počítač/tablet
+  process verb=začať subj=obj
+  step verb=vidieť patient=obj
+PROCEDURE vidieť : film | divadelná_hra ; here sedadlo
+  step verb=sadnúť_si goal=sedadlo
+  process verb=začať subj=obj
+  step verb=vidieť patient=obj
+
+# duschen 6
+#  Sie drehte das Wasser auf. Bald war das Wasser warm. Mit der Seife wusch sie die Haare. Dann nahm sie das Handtuch.
+PROCEDURE sprchovať_sa : - ; here sprcha
+  step verb=pootočiť patient=def:voda
+  process verb=byť subj=def:voda pred=adj:teplý time=čoskoro
+  step verb=umývať patient=def:vlasy+pl
+  close verb=vziať patient=~uterák
+
+# pflanzen 5: a hole, the plant in, earth, water
+#  Mit dem Spaten grub er ein Loch. Vorsichtig pflanzte er die Rose in das Loch. Dann goss er die Rose.
+PROCEDURE sadiť : plant | flower | tree ; here rýľ/lopata
+  step verb=kopať patient=diera pp=with:rýľ/lopata
+  key verb=sadiť patient=obj pp=into:diera
+  step verb=liať patient=obj
+PROCEDURE sadiť : plant | flower ; here kvetináč
+  step verb=naplniť patient=kvetináč instrument=zem
+  key verb=sadiť patient=obj pp=into:kvetináč
+  step verb=liať patient=obj
+
+# füttern 5: ducks and gulls with bread; a horse, a pig from the bucket; a lamb with the bottle
+#  Er teilte das Brot in kleine Stücke und warf sie ins Wasser. Sofort kamen die Enten.
+PROCEDURE kŕmiť : bird ; here chlieb
+  step verb=deliť patient=chlieb pp=into:none:kus+pl+adj:malý
+  key verb=hodiť patient=def:kus+pl pp=into:~voda
+  process verb=prísť subj=obj time=hneď
+PROCEDURE kŕmiť : mammal ; here vedro/seno
+  step verb=naplniť patient=vedro instrument=krmivo ; if prasa
+  step verb=dať recipient=obj patient=seno ; if kôň | krava | somár | koza | ovca
+  step verb=dať recipient=obj patient=krmivo ; if prasa
+  process verb=žuť subj=obj manner=pomalý
+PROCEDURE kŕmiť : mammal ; here fľaša
+  step verb=naplniť patient=fľaša instrument=mlieko
+  key verb=dať recipient=obj patient=fľaša
+  process verb=piť subj=obj
+
+# fotografieren 5 (and a better key for `machen : picture`: drückte auf den Knopf)
+PROCEDURE fotografovať : entity ; here kamera
+  step verb=vziať patient=kamera
+  step? verb=hľadať patient=indef:miesto_(priestor)+adj:dobrý
+  key verb=stlačiť goal=def:gombík
+  close verb=pozrieť_si patient=def:fotka
+
+# bauen 6 (furniture): measured, sawn, nailed
+PROCEDURE stavať : furniture ; here píla/kladivo/doska
+  step verb=merať patient=doska+pl
+  step verb=pílit patient=def:doska+pl pp=with:~píla
+  key verb=zatĺkať patient=klinec+pl pp=into:def:drevo pp=with:~kladivo
+  close verb=pozrieť_si patient=obj
+
+# aufschneiden / hacken 9 (fruit, vegetables, ham at the board)
+PROCEDURE rozrezať : food ; here nôž
+  step? verb=umývať patient=obj ; if fruit | vegetable
+  step verb=položiť patient=obj goal=~doska/tanier
+  key verb=rozrezať patient=obj pp=with:nôž
+  close verb=ochutnať patient=indef:kus
+PROCEDURE sekať : drevo ; here sekera
+  step verb=položiť patient=obj goal=~peň
+  key verb=dvíhať patient=sekera
+  step verb=sekať patient=obj
+

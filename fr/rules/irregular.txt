@@ -1,0 +1,352 @@
+# FRENCH IRREGULAR VERBS: only what the rules in fr/morph.js get wrong (see the keys there).
+# 'like BASE': a prefixed verb conjugated as its base (the base must be its suffix).
+
+# auxiliaries and the very common
+être : pres suis es est sommes êtes sont | impfstem ét | futstem ser | subj sois sois soit soyons soyez soient | imptu sois | imp soyons soyez | pp été | ger étant
+avoir : pres ai as a avons avez ont | impfstem av | futstem aur | subj aie aies ait ayons ayez aient | imptu aie | imp ayons ayez | pp eu | ger ayant
+aller : pres vais vas va allons allez vont | futstem ir | subj aille ailles aille allions alliez aillent | imptu va | imp allons allez
+faire : pres fais fais fait faisons faites font | futstem fer | subjstem fass | pp fait
+défaire : like faire
+refaire : like faire
+contrefaire : like faire
+satisfaire : like faire
+dire : pres dis dis dit disons dites disent | pp dit
+redire : like dire
+contredire : pres contreddis contreddis contreddit contreddisons contreddisez contreddisent | pp contreddit
+prédire : pres préddis préddis préddit préddisons préddisez préddisent | pp préddit
+interdire : pres interddis interddis interddit interddisons interddisez interddisent | pp interddit
+maudire : pres maudis maudis maudit maudissons maudissez maudissent | pp maudit
+savoir : pres sais sais sait savons savez savent | futstem saur | subjstem sach | imptu sache | imp sachons sachez | pp su | ger sachant
+pouvoir : pres peux peux peut pouvons pouvez peuvent | futstem pourr | subjstem puiss | pp pu
+vouloir : pres veux veux veut voulons voulez veulent | futstem voudr | subjstem veuill | subjstem2 voul | imptu veuille | imp veuillons veuillez | pp voulu
+devoir : pres dois dois doit devons devez doivent | futstem devr | pp dû
+valoir : pres vaux vaux vaut valons valez valent | futstem vaudr | subjstem vaill | subjstem2 val | pp valu
+équivaloir : like valoir
+prévaloir : like valoir | subjstem préval
+falloir : pres - - faut - - - | impfstem fall | futstem faudr | subj - - faille - - - | pp fallu | ger -
+pleuvoir : pres - - pleut - - - | impfstem pleuv | futstem pleuvr | subj - - pleuve - - - | pp plu
+voir : pres vois vois voit voyons voyez voient | futstem verr | pp vu
+revoir : like voir
+entrevoir : like voir
+prévoir : like voir | futstem prévoir
+pourvoir : like voir | futstem pourvoir
+asseoir : pres assieds assieds assied asseyons asseyez asseyent | futstem assiér | pp assis
+croire : pres crois crois croit croyons croyez croient | pp cru
+boire : pres bois bois boit buvons buvez boivent | pp bu
+lire : pres lis lis lit lisons lisez lisent | pp lu
+élire : like lire
+écrire : pres écris écris écrit écrivons écrivez écrivent | pp écrit
+décrire : like écrire
+inscrire : pres inscris inscris inscrit inscrivons inscrivez inscrivent | pp inscrit
+prescrire : pres prescris prescris prescrit prescrivons prescrivez prescrivent | pp prescrit
+souscrire : pres souscris souscris souscrit souscrivons souscrivez souscrivent | pp souscrit
+rire : pres ris ris rit rions riez rient | pp ri
+sourire : like rire
+suivre : pres suis suis suit suivons suivez suivent | pp suivi
+poursuivre : like suivre
+vivre : pres vis vis vit vivons vivez vivent | pp vécu
+revivre : like vivre
+survivre : like vivre
+suffire : pres suffis suffis suffit suffisons suffisez suffisent | pp suffi
+taire : pres tais tais tait taisons taisez taisent | pp tu
+plaire : pres plais plais plaît plaisons plaisez plaisent | pp plu
+déplaire : like plaire
+coudre : pres couds couds coud cousons cousez cousent | pp cousu
+moudre : pres mouds mouds moud moulons moulez moulent | pp moulu
+résoudre : pres résous résous résout résolvons résolvez résolvent | pp résolu
+dissoudre : pres dissous dissous dissout dissolvons dissolvez dissolvent | pp dissous
+frire : pres fris fris frit - - - | futstem frir | pp frit
+traire : pres trais trais trait trayons trayez traient | pp trait
+distraire : like traire
+soustraire : like traire
+extraire : like traire
+fuir : pres fuis fuis fuit fuyons fuyez fuient | pp fui
+enfuir : like fuir
+bruire : pres bruis bruis bruit bruissons bruissez bruissent | pp bruit
+paître : pres pais pais paît paissons paissez paissent | pp pu
+éclore : pres éclos éclos éclôt éclosons éclosez éclosent | pp éclos
+haïr : pres hais hais hait haïssons haïssez haïssent | pp haï
+
+# -ndre / -ttre / -mpre / -tre
+prendre : pres prends prends prend prenons prenez prennent | pp pris
+comprendre : like prendre
+apprendre : like prendre
+surprendre : like prendre
+reprendre : like prendre
+entreprendre : like prendre
+méprendre : like prendre
+mettre : pres mets mets met mettons mettez mettent | pp mis
+admettre : like mettre
+commettre : like mettre
+omettre : like mettre
+émettre : like mettre
+permettre : like mettre
+promettre : like mettre
+remettre : like mettre
+soumettre : like mettre
+transmettre : like mettre
+démettre : like mettre
+battre : pres bats bats bat battons battez battent
+abattre : like battre
+combattre : like battre
+débattre : like battre
+rompre : pres romps romps rompt rompons rompez rompent
+interrompre : like rompre
+corrompre : like rompre
+vaincre : pres vaincs vaincs vainc vainquons vainquez vainquent | pp vaincu
+convaincre : like vaincre
+conclure : pres conclus conclus conclut concluons concluez concluent | pp conclu
+exclure : pres exclus exclus exclut excluons excluez excluent | pp exclu
+inclure : pres inclus inclus inclut incluons incluez incluent | pp inclus
+
+# -indre
+peindre : pres peins peins peint peignons peignez peignent | pp peint
+teindre : pres teins teins teint teignons teignez teignent | pp teint
+feindre : pres feins feins feint feignons feignez feignent | pp feint
+geindre : pres geins geins geint geignons geignez geignent | pp geint
+craindre : pres crains crains craint craignons craignez craignent | pp craint
+plaindre : pres plains plains plaint plaignons plaignez plaignent | pp plaint
+joindre : pres joins joins joint joignons joignez joignent | pp joint
+poindre : pres poins poins point poignons poignez poignent | pp point
+rejoindre : like joindre
+éteindre : like teindre
+atteindre : like teindre
+étreindre : pres étreins étreins étreint étreignons étreignez étreignent | pp étreint
+restreindre : pres restreins restreins restreint restreignons restreignez restreignent | pp restreint
+contraindre : pres contrains contrains contraint contraignons contraignez contraignent | pp contraint
+
+# -uire
+conduire : pres conduis conduis conduit conduisons conduisez conduisent | pp conduit
+construire : pres construis construis construit construisons construisez construisent | pp construit
+déduire : pres déduis déduis déduit déduisons déduisez déduisent | pp déduit
+détruire : pres détruis détruis détruit détruisons détruisez détruisent | pp détruit
+enduire : pres enduis enduis enduit enduisons enduisez enduisent | pp enduit
+introduire : pres introduis introduis introduit introduisons introduisez introduisent | pp introduit
+produire : pres produis produis produit produisons produisez produisent | pp produit
+reproduire : pres reproduis reproduis reproduit reproduisons reproduisez reproduisent | pp reproduit
+réduire : pres réduis réduis réduit réduisons réduisez réduisent | pp réduit
+séduire : pres séduis séduis séduit séduisons séduisez séduisent | pp séduit
+traduire : pres traduis traduis traduit traduisons traduisez traduisent | pp traduit
+reconstruire : pres reconstruis reconstruis reconstruit reconstruisons reconstruisez reconstruisent | pp reconstruit
+instruire : pres instruis instruis instruit instruisons instruisez instruisent | pp instruit
+cuire : pres cuis cuis cuit cuisons cuisez cuisent | pp cuit
+nuire : pres nuis nuis nuit nuisons nuisez nuisent | pp nui
+
+# -aître, -oître
+connaître : pres connais connais connaît connaissons connaissez connaissent | futstem connaîtr | pp connu
+paraître : pres parais parais paraît paraissons paraissez paraissent | futstem paraîtr | pp paru
+naître : pres nais nais naît naissons naissez naissent | futstem naîtr | pp né
+reconnaître : like connaître
+apparaître : like paraître
+disparaître : like paraître
+comparaître : like paraître
+croître : pres croîs croîs croît croissons croissez croissent | futstem croîtr | pp crû
+accroître : pres accrois accrois accroît accroissons accroissez accroissent | futstem accroîtr | pp accru
+
+# -oir
+recevoir : pres reçois reçois reçoit recevons recevez reçoivent | futstem recevr | pp reçu
+apercevoir : pres aperçois aperçois aperçoit apercevons apercevez aperçoivent | futstem apercevr | pp aperçu
+concevoir : pres conçois conçois conçoit concevons concevez conçoivent | futstem concevr | pp conçu
+décevoir : pres déçois déçois déçoit décevons décevez déçoivent | futstem décevr | pp déçu
+percevoir : pres perçois perçois perçoit percevons percevez perçoivent | futstem percevr | pp perçu
+promouvoir : pres promeus promeus promeut promouvons promouvez promeuvent | futstem promouvr | pp promu
+
+# -ir not like finir
+venir : pres viens viens vient venons venez viennent | futstem viendr | pp venu
+devenir : like venir
+revenir : like venir
+convenir : like venir
+intervenir : like venir
+parvenir : like venir
+prévenir : like venir
+provenir : like venir
+souvenir : like venir
+tenir : pres tiens tiens tient tenons tenez tiennent | futstem tiendr | pp tenu
+abstenir : like tenir
+appartenir : like tenir
+contenir : like tenir
+entretenir : like tenir
+maintenir : like tenir
+obtenir : like tenir
+retenir : like tenir
+soutenir : like tenir
+détenir : like tenir
+acquérir : pres acquiers acquiers acquiert acquérons acquérez acquièrent | futstem acquerr | pp acquis
+conquérir : pres conquiers conquiers conquiert conquérons conquérez conquièrent | futstem conquerr | pp conquis
+reconquérir : like conquérir
+mourir : pres meurs meurs meurt mourons mourez meurent | futstem mourr | pp mort
+courir : pres cours cours court courons courez courent | futstem courr | pp couru
+parcourir : like courir
+recourir : like courir
+secourir : like courir
+accourir : like courir
+vêtir : pres vêts vêts vêt vêtons vêtez vêtent | pp vêtu
+revêtir : like vêtir
+bouillir : pres bous bous bout bouillons bouillez bouillent
+partir : pres pars pars part partons partez partent
+sortir : pres sors sors sort sortons sortez sortent
+sentir : pres sens sens sent sentons sentez sentent
+mentir : pres mens mens ment mentons mentez mentent
+servir : pres sers sers sert servons servez servent
+dormir : pres dors dors dort dormons dormez dorment
+repentir : pres repens repens repent repentons repentez repentent
+repartir : like partir
+ressortir : like sortir
+ressentir : like sentir
+pressentir : like sentir
+consentir : like sentir
+démentir : like mentir
+desservir : like servir
+endormir : like dormir
+cueillir : pres cueille cueilles cueille cueillons cueillez cueillent | futstem cueiller | pp cueilli | imptu cueille
+accueillir : like cueillir
+recueillir : like cueillir
+assaillir : pres assaille assailles assaille assaillons assaillez assaillent | futstem assaillir | pp assailli | imptu assaille
+tressaillir : pres tressaille tressailles tressaille tressaillons tressaillez tressaillent | futstem tressaillir | pp tressailli | imptu tressaille
+ouvrir : pres ouvre ouvres ouvre ouvrons ouvrez ouvrent | pp ouvert | imptu ouvre
+couvrir : like ouvrir
+découvrir : like ouvrir
+recouvrir : like ouvrir
+offrir : pres offre offres offre offrons offrez offrent | pp offert | imptu offre
+souffrir : pres souffre souffres souffre souffrons souffrez souffrent | pp souffert | imptu souffre
+
+# -er: stem changes and irregular
+acheter : model è
+achever : model è
+élever : model è
+enlever : model è
+lever : model è
+relever : model è
+soulever : model è
+mener : model è
+emmener : model è
+amener : model è
+ramener : model è
+promener : model è
+surmener : model è
+peser : model è
+semer : model è
+parsemer : model è
+geler : model è
+congeler : model è
+décongeler : model è
+dégeler : model è
+surgeler : model è
+peler : model è
+racheter : model è
+modeler : model è
+harceler : model è
+marteler : model è
+ciseler : model è
+haleter : model è
+déceler : model è
+démanteler : model è
+crever : model è
+sevrer : model è
+assener : model è
+appeler : model ll
+rappeler : model ll
+épeler : model ll
+renouveler : model ll
+étinceler : model ll
+ruisseler : model ll
+ficeler : model ll
+museler : model ll
+dételer : model ll
+jeter : model tt
+projeter : model tt
+rejeter : model tt
+feuilleter : model tt
+breveter : model tt
+caqueter : model tt
+pelleter : model tt
+voleter : model tt
+étiqueter : model tt
+cacheter : model tt
+épousseter : model tt
+accéder : model é>è
+accélérer : model é>è
+aérer : model é>è
+altérer : model é>è
+céder : model é>è
+célébrer : model é>è
+compléter : model é>è
+considérer : model é>è
+coopérer : model é>è
+délibérer : model é>è
+désespérer : model é>è
+digérer : model é>è
+exagérer : model é>è
+espérer : model é>è
+générer : model é>è
+gérer : model é>è
+incarcérer : model é>è
+inférer : model é>è
+inquiéter : model é>è
+insérer : model é>è
+intégrer : model é>è
+interpréter : model é>è
+libérer : model é>è
+lécher : model é>è
+opérer : model é>è
+pécher : model é>è
+pénétrer : model é>è
+persévérer : model é>è
+posséder : model é>è
+précéder : model é>è
+préférer : model é>è
+prospérer : model é>è
+protéger : model é>è
+récupérer : model é>è
+refléter : model é>è
+régler : model é>è
+régner : model é>è
+répéter : model é>è
+révéler : model é>è
+sécher : model é>è
+siéger : model é>è
+assiéger : model é>è
+suggérer : model é>è
+tolérer : model é>è
+transférer : model é>è
+vénérer : model é>è
+imprégner : model é>è
+différer : model é>è
+référer : model é>è
+adhérer : model é>è
+énumérer : model é>è
+procéder : model é>è
+succéder : model é>è
+léguer : model é>è
+alléguer : model é>è
+empiéter : model é>è
+régénérer : model é>è
+aboyer : model y>i
+appuyer : model y>i
+balayer : model y>i
+bégayer : model y>i
+choyer : model y>i
+délayer : model y>i
+déployer : model y>i
+effrayer : model y>i
+employer : model y>i
+ennuyer : model y>i
+essayer : model y>i
+essuyer : model y>i
+étayer : model y>i
+flamboyer : model y>i
+foudroyer : model y>i
+frayer : model y>i
+nettoyer : model y>i
+noyer : model y>i
+octroyer : model y>i
+payer : model y>i
+rayer : model y>i
+rougeoyer : model y>i
+soudoyer : model y>i
+tournoyer : model y>i
+broyer : model y>i
+tutoyer : model y>i
+vouvoyer : model y>i
+envoyer : model y>i | futstem enverr
+renvoyer : like envoyer

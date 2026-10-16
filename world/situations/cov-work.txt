@@ -1,0 +1,236 @@
+# Coverage situations, settings craft / factory / work / office / bank (round 3): tools, parts, materials, and work words said where the story says them.
+
+SITUATION auto-werkstatt : craft -- in der Garage mit dem Mechaniker
+  place   garáž
+  people  mechanik
+  things  auto | motor | brzda | volant | svetlomet | batéria | náradie
+  want    ponáhľanie : verb=jazdiť patient=none:auto ; uses motor | brzda | volant | svetlomet | batéria
+  trouble motor pokazený : opraviť by mechanik
+  trouble brzda pokazený : opraviť by mechanik
+  trouble volant pokazený : obnoviť_(nahradiť_novým) by mechanik
+  trouble svetlomet pokazený : nahradiť by mechanik
+  trouble batéria prázdny : nabiť by mechanik
+
+SITUATION holz-hacken : craft -- Holz hacken und einen Zaun bauen
+  place   záhrada
+  people  kin | sused
+  things  drevo | doska
+  own     sekera | kladivo
+  want    chuť : verb=sekať patient=none:drevo ; uses sekera
+  want    chuť : verb=vybudovať patient=indef:plot ; uses kladivo | doska | klinec
+  trouble sekera pokazený : opraviť
+  trouble kladivo pokazený : opraviť
+  lack    klinec : obchod
+
+SITUATION wohnhaus-schloss : craft -- das Schloss und der Griff der Haustür
+  place   obytný_dom
+  people  školník | kin
+  things  dvere | zámok | rukoväť | pivnica
+  want    ponáhľanie : verb=zamknúť patient=def:dvere ; uses zámok
+  want    ponáhľanie : verb=otvoriť patient=def:dvere ; uses rukoväť
+  trouble zámok pokazený : nahradiť by školník
+  trouble rukoväť pokazený : obnoviť_(nahradiť_novým) by školník
+
+SITUATION möbel-aufbauen : craft -- Möbel aufbauen
+  place   detská_izba
+  people  kin | priateľ
+  things  doska | posteľ
+  own     skrutkovač
+  want    chuť : verb=vybudovať patient=indef:polica ; uses doska | skrutka | skrutkovač
+  want    chuť : verb=zmontovať patient=indef:skriňa ; uses skrutka | skrutkovač
+  trouble skrutkovač pokazený : nahradiť
+  lack    skrutka : obchod
+
+SITUATION zelt-lager : craft -- das Zelt auf dem Campingplatz
+  place   kemping
+  people  priateľ | kin
+  things  oheň | spací_vak
+  own     stan | kladivo | lano
+  want    chuť : verb=vybudovať patient=def:stan ; uses stan | kladivo | lano
+  trouble kladivo pokazený : opraviť
+  trouble lano pokazený : nahradiť
+
+SITUATION zimmer-renovieren : craft -- das Zimmer renovieren
+  place   izba
+  people  kin | priateľ
+  things  stena | tapeta | farba | rebrík | vedro | lepidlo
+  own     štetec
+  want    chuť : verb=renovovať patient=def:izba ; uses farba | rebrík | štetec
+  want    chuť : verb=lepiť patient=def:tapeta ; uses lepidlo | rebrík
+  trouble rebrík pokazený : opraviť
+  trouble štetec špinavý : umývať
+  lack    lepidlo : obchod
+
+SITUATION baustelle-mauer : craft -- auf der Baustelle eine Mauer bauen
+  place   stavenisko
+  people  murár | robotník
+  things  bager | žeriav_(stroj) | tehla | múr | suť | lopata | kára
+  want    chuť : verb=zbúrať patient=indef:múr ; uses bager
+  want    chuť : verb=vybudovať patient=indef:múr ; uses tehla | žeriav_(stroj)
+  want    chuť : verb=odstrániť patient=def:suť ; uses lopata | kára
+  trouble bager pokazený : opraviť by mechanik
+  trouble žeriav_(stroj) pokazený : opraviť by mechanik
+  trouble kára pokazený : opraviť by robotník
+
+SITUATION dachboden-ausbau : craft -- auf dem Dachboden ein Regal bauen
+  place   povala
+  people  kin | priateľ
+  things  rebrík | okno
+  own     kladivo
+  want    chuť : verb=stavať patient=indef:polica ; uses kladivo | drevo
+  trouble kladivo pokazený : opraviť
+  lack    drevo : obchod
+
+SITUATION strauß-binden : craft -- einen Blumenstrauß binden
+  place   záhrada
+  people  kin | sused
+  things  kvetina | strom
+  own     nožnice
+  want    chuť : verb=viazať patient=indef:kytica ; uses kvetina | špagát | nožnice
+  trouble nožnice pokazený : nahradiť
+  lack    špagát : obchod
+
+SITUATION ostereier : craft -- Ostereier färben
+  place   kuchyňa
+  people  kin
+  things  hrniec | stôl | sporák
+  want    chuť : verb=farbiť patient=none:vajce+pl ; uses farba | hrniec | sporák
+  trouble hrniec špinavý : oplachovať
+  trouble sporák pokazený : opraviť
+  lack    farba : obchod
+
+SITUATION töpfern : craft -- in der Werkstatt Ton formen
+  place   dielňa
+  people  kolega | priateľ
+  things  íl | stôl | pec | voda
+  want    chuť : verb=tvarovať patient=indef:škrupina ; uses íl | voda
+  want    chuť : verb=vypaľovať patient=indef:škrupina ; uses pec
+  trouble pec pokazený : opraviť
+  trouble íl suchý : zvlhčiť
+
+SITUATION berg-klettern : craft -- im Gebirge klettern
+  place   vrch
+  people  priateľ | kin
+  things  sneh | skala
+  own     lano
+  want    chuť : verb=liezť ; uses lano
+  trouble lano pokazený : nahradiť
+
+SITUATION fabrik-maschine : factory -- die Maschine in der Fabrik bedienen
+  place   továreň
+  people  robotník | šéf
+  things  stroj | páska | senzor | čip
+  want    chuť : verb=obsluhovať patient=def:stroj ; uses stroj | páska
+  trouble stroj pokazený : opraviť by mechanik
+  trouble páska pokazený : opraviť by mechanik
+
+SITUATION fabrik-lieferung : factory -- Waren aus der Fabrik liefern
+  place   továreň
+  people  robotník | kolega
+  things  gól | nákladné_auto | kartón | bedňa
+  want    ponáhľanie : verb=dodať patient=none:tovar ; uses nákladné_auto
+  trouble nákladné_auto pokazený : opraviť by mechanik
+
+SITUATION hafen-boot : factory -- mit dem Boot im Hafen
+  place   prístav
+  people  rybár | kin
+  things  loď | žeriav_(stroj) | kontajner | čln | lano
+  want    chuť : verb=ísť_(dopravou) patient=none:čln ; uses čln | lano
+  trouble čln pokazený : opraviť by rybár
+  trouble lano pokazený : nahradiť by rybár
+
+SITUATION obstgarten-fass : factory -- Bäume im Obstgarten gießen
+  place   ovocný_sad
+  people  kin | sused
+  things  strom | jablko | rebrík | sud
+  own     vedro
+  want    chuť : verb=liať patient=none:strom+pl ; uses sud | vedro
+  trouble sud prázdny : naplniť
+  trouble vedro prázdny : naplniť
+  trouble vedro pokazený : nahradiť
+
+SITUATION saft-kühlen : factory -- ein kaltes Getränk
+  place   kuchyňa
+  people  kin
+  things  chladnička | sklenica | šťava | ľad
+  want    smädný : verb=piť patient=none:šťava ; uses sklenica | šťava
+  trouble šťava teplý : chladiť
+  trouble sklenica špinavý : oplachovať
+
+SITUATION uniform-neu : work -- die neue Uniform anziehen
+  place   spálňa
+  people  kin
+  things  skriňa | posteľ | uniforma | kravata
+  want    chuť : verb=obliecť patient=poss:uniforma ; uses uniforma
+  trouble uniforma špinavý : umývať
+  trouble uniforma pokazený : šiť
+
+SITUATION arbeitszimmer-computer : work -- am Computer gestalten und entwerfen
+  place   pracovňa
+  people  kin | priateľ
+  things  písací_stôl | počítač | tlačiareň
+  own     pero_(písacie)
+  want    chuť : verb=spracovať patient=indef:fotka ; uses počítač
+  want    chuť : verb=nainštalovať patient=indef:hra ; uses počítač
+  want    chuť : verb=stvárniť patient=indef:plagát ; uses počítač | tlačiareň
+  want    chuť : verb=navrhnúť_(projektovať) patient=indef:dom ; uses pero_(písacie) | papier
+  trouble počítač pokazený : opraviť
+  trouble tlačiareň pokazený : opraviť
+  trouble pero_(písacie) prázdny : nahradiť
+  lack    papier : obchod
+
+SITUATION party-planen : work -- eine Party organisieren
+  place   obývačka
+  people  priateľ | kin
+  things  telefón | stôl | pohovka | počítač
+  want    chuť : verb=organizovať patient=indef:večierok ; uses telefón | počítač
+  trouble telefón pokazený : opraviť
+  trouble počítač pokazený : opraviť
+
+SITUATION einkäufe-machen : craft -- die Einkäufe im Supermarkt
+  place   supermarket
+  people  predavač | kin
+  things  nákupný_vozík | pokladňa | polica | vrecko
+  want    hladný : verb=kúpiť patient=none:ovocie ; uses vrecko | nákupný_vozík
+  want    hladný : verb=kúpiť patient=none:chlieb ; uses vrecko
+  trouble vrecko pokazený : nahradiť by predavač
+  trouble nákupný_vozík pokazený : nahradiť by predavač
+
+SITUATION büro-drucker : office -- im Büro ein Foto ausdrucken
+  place   kancelária
+  people  kolega | šéf
+  things  písací_stôl | počítač | tlačiareň | zakladač
+  want    chuť : verb=vytlačiť patient=indef:fotka ; uses tlačiareň | papier | počítač
+  trouble tlačiareň pokazený : opraviť by kolega
+  trouble počítač pokazený : opraviť by kolega
+  lack    papier : obchod
+
+SITUATION rathaus-ausweis : office -- am Schalter einen Ausweis beantragen
+  place   radnica
+  people  kin | priateľ
+  things  vypínač | formulár | hodiny
+  own     guľôčkové_pero
+  want    dovolenka : verb=požiadať_o patient=indef:preukaz ; uses formulár | guľôčkové_pero
+  trouble guľôčkové_pero prázdny : nahradiť
+
+SITUATION geldautomat : bank -- im Einkaufszentrum Geld abheben
+  place   nákupné_centrum
+  people  kin | priateľ
+  things  bankomat | eskalátor | pokladňa
+  own     kreditná_karta
+  want    dovolenka : verb=vybrať_z_účtu patient=none:peniaze ; uses bankomat | kreditná_karta
+  trouble bankomat pokazený : opraviť by technik
+
+SITUATION geldbörse-kaufhaus : bank -- im Kaufhaus eine Geldbörse kaufen
+  place   obchodný_dom
+  people  predavač
+  things  pokladňa | polica | eskalátor | vrecko
+  want    chuť : verb=kúpiť patient=indef:peňaženka ; uses pokladňa
+  trouble pokladňa pokazený : opraviť by predavač
+
+SITUATION bibliothek-leihen : bank -- in der Bibliothek ein Buch leihen
+  place   knižnica
+  people  knihovník | priateľ
+  things  polica | kniha | stôl
+  want    chuť : verb=požičať patient=indef:kniha ; uses preukaz
+  lack    preukaz : radnica doniesť
