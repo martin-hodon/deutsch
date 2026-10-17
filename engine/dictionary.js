@@ -10,7 +10,10 @@
 // Säugetier), the affordances (what one can do with it); a word that names a category lists its subcategories and its
 // direct members; a category opens a CATEGORY VIEW (hash `#de/cat/mammal`). A concept declared a GENERIC concept in a
 // context (tools/concepts.py `: of odjazd @ lietanie`) shows the generic's words; the generic word lists the words of its
-// contexts (Abfahrt: Abflug (lietanie)).
+// contexts (Abfahrt: Abflug (lietanie)). Two more views of the list: BY FREQUENCY (the words in the order of
+// <lang>/order.tsv, a hundred at a time, the search narrowing them) and MY LIST -- the words the learner put aside from
+// their cards (★ on the card; kept in localStorage "dictionary:list" as lang|id, across languages): what was hard, to
+// come back to.
 // CHINESE: an entry lists its CHARACTERS, each with its components and stroke count (engine/hanzi.js, zh/composition.txt);
 // a component opens a COMPONENT VIEW (hash `#zh/comp/木`): what it is made of, every character it is written in, the
 // words with it; `#zh/comp/` is the index of all components by stroke count (the 部件 toggle beside the search).
@@ -232,19 +235,72 @@ function showStats() {
     const w = el("div", "word-list"); for (const e of by[a].sort((x, y) => x.freq - y.freq || x.rank - y.rank).slice(0, 200)) w.append(el("span", "word-item", link(e))); d.append(w); list.append(d);
   }
 }
+// a result's row: the word, its part of speech, its meanings; `extra`: a rank, a typed form, a remove button
+function resultRow(e, ...extra) {
+  const row = el("button", "result", el("span", "result-word", shown(e)), el("span", "result-pos", e.pos), el("span", "result-sk", e.sk.slice(0, 3).join(", ")), ...extra);
+  row.onclick = () => openEntry(e);
+  return row;
+}
 function showResults() {
   if (stats && lang === "de") return showStats();
+  if (byRank) return showByRank();
+  if (listView) return showMyList();
   const list = $("results"); list.replaceChildren();
   const found = lookup(query), q = query.trim();
   const comp = lang === "zh" && [...q].length === 1 && dict.hanzi?.has(q) ? q : null;   // (a character or component typed: its component view too)
   $("no-results").hidden = !(q && !found.length && !comp);
   if (comp) list.append(componentRow(comp));
-  for (const e of found) {
-    const row = el("button", "result", el("span", "result-word", shown(e)), el("span", "result-pos", e.pos), el("span", "result-sk", e.sk.slice(0, 3).join(", ")));
-    if (formOf.has(e)) row.append(el("span", "result-form", `${query.trim()} · ${(formOf.get(e) || "form").replace(/^[A-Z]+\./, "")}`));
-    row.onclick = () => openEntry(e);
+  for (const e of found) list.append(resultRow(e, formOf.has(e) ? el("span", "result-form", `${query.trim()} · ${(formOf.get(e) || "form").replace(/^[A-Z]+\./, "")}`) : null));
+}
+
+// ---- BY FREQUENCY: the words in the order of the language's order.tsv (the commonest first), a hundred at a time -- the
+//      next hundred come by themselves as the list is scrolled to its end (a sentinel row watched by an IntersectionObserver)
+let byRank = false, listView = false, pageSize = 100;
+const PAGE = 100;
+let sentinel = null;
+function showByRank() {
+  const list = $("results"); list.replaceChildren(); $("no-results").hidden = true;
+  const all = (query.trim() ? lookup(query) : dict.entries).filter((e) => e.rank !== Infinity).sort((a, b) => a.rank - b.rank || a.order - b.order);
+  for (const e of all.slice(0, pageSize)) {
+    const row = resultRow(e, el("span", "result-rank", "#" + e.rank), rowStar(e));
+    row.querySelector(".result-pos").after(el("span", "result-ipa", e.pinyin ? `${e.pinyin} · [${e.ipa}]` : e.ipa ? `[${e.ipa}]` : ""));   // (the sound: the pinyin and IPA of Chinese, the IPA else)
     list.append(row);
   }
+  if (all.length > pageSize) {
+    const more = el("div", "more mute", `… ${all.length - pageSize}`); list.append(more);
+    sentinel?.disconnect();
+    sentinel = new IntersectionObserver((es) => { if (es.some((x) => x.isIntersecting)) { pageSize += PAGE; const y = window.scrollY; showByRank(); window.scrollTo(0, y); } }, { rootMargin: "400px" });
+    sentinel.observe(more);
+  }
+  if (!all.length) list.append(el("p", "mute", t("no-results")));
+}
+
+// (a ★ in a row of the list: the word put on my list or taken off it there and then, without opening its card)
+function rowStar(e) {
+  const b = el("span", "result-star", "");
+  const draw = () => { const on = inList(e); b.textContent = on ? "★" : "☆"; b.classList.toggle("on", on); b.title = t(on ? "remove-from-list" : "add-to-list"); };
+  b.onclick = (ev) => { ev.stopPropagation(); toggleList(e); draw(); }; draw();
+  return b;
+}
+
+// ---- MY LIST: the words put aside (★ on a card), lang|id each, kept in the browser ------------------------------------
+const LIST_KEY = "dictionary:list";
+const myList = () => { try { return JSON.parse(localStorage.getItem(LIST_KEY) ?? "[]"); } catch { return []; } };
+const keepList = (l) => { try { localStorage.setItem(LIST_KEY, JSON.stringify(l)); } catch { /* (storage blocked) */ } showListCount(); };
+const listKey = (e) => `${lang}|${e.id}`;
+const inList = (e) => myList().includes(listKey(e));
+const toggleList = (e) => { const l = myList(), k = listKey(e); keepList(l.includes(k) ? l.filter((x) => x !== k) : [...l, k]); };
+const showListCount = () => { const n = myList().filter((k) => k.startsWith(lang + "|")).length; $("mylist").textContent = `★ ${t("my-list")}` + (n ? ` (${n})` : ""); };
+function showMyList() {
+  const list = $("results"); list.replaceChildren(); $("no-results").hidden = true;
+  const keys = myList().filter((k) => k.startsWith(lang + "|")).map((k) => k.slice(lang.length + 1)), q = fold(query.trim());
+  const items = keys.map((id) => dict.entries.find((e) => e.id === id)).filter((e) => e && (!q || fold(e.word).includes(q) || fold(e.sk.join(" ")).includes(q)));
+  for (const e of items) {
+    const rm = el("span", "result-remove", "✕"); rm.title = t("remove-from-list");
+    rm.onclick = (ev) => { ev.stopPropagation(); toggleList(e); showMyList(); };
+    list.append(resultRow(e, rm));
+  }
+  if (!items.length) list.append(el("p", "mute", t("list-empty")));
 }
 
 // an entry's line: its word with the article, a link that opens it
@@ -455,7 +511,10 @@ async function openEntry(e, { push = true } = {}) {
   window.scrollTo(0, 0);
   // the head: the word, its sound and the button that says it, its part of speech, level and category, the meanings
   const say = el("button", "say", "🔊"); say.title = t("say-again"); say.onclick = () => voice.say(spoken(e, dict));
-  view.append(el("div", "entry-head", el("h2", "", shown(e)), say));
+  const star = el("button", "star", "");   // (my list: the word put aside, or taken off it)
+  const starText = () => { const on = inList(e); star.textContent = on ? "★" : "☆"; star.title = t(on ? "remove-from-list" : "add-to-list"); star.classList.toggle("on", on); };
+  star.onclick = () => { toggleList(e); starText(); }; starText();
+  view.append(el("div", "entry-head", el("h2", "", shown(e)), say, star));
   view.append(el("div", "entry-ipa", e.pinyin ? `${e.pinyin} · ${e.ipa}` : e.ipa ? `[${e.ipa}]` : ""));
   view.append(el("div", "entry-meta", `${e.pos} · FREQ ${e.freq} · ${e.category}` + (e.parts && e.parts.includes("|") ? ` · ${e.parts}` : "")));
   view.append(el("div", "entry-sk", e.sk.join(", ")));
@@ -526,6 +585,7 @@ async function useLang(l) {
   if (l === lang && dict) return;
   lang = l; $("lang").value = l; keepLearn(l);
   dict = await loadLang(l);
+  if ($("mylist")) showListCount();
   voice.prosody = await loadProsody(LANGS[l].speech);
   formsIndex(dict, l).then(() => { paradigms[l] ??= dict.pd; if (lang === l) showResults(); });   // (the forms -> words index, in the background: dem finds der)
   $("search").lang = l;
@@ -552,6 +612,10 @@ export async function start() {
   $("search").focus();
   $("listen").onclick = listen;
   $("stats").onclick = () => { stats = !stats; $("stats").classList.toggle("chosen", stats); showResults(); };
+  const views = () => { $("byrank").classList.toggle("chosen", byRank); $("mylist").classList.toggle("chosen", listView); if (open) { history.pushState(null, "", "#" + lang); showList(); } else showResults(); };
+  $("byrank").onclick = () => { byRank = !byRank; listView = false; pageSize = PAGE; views(); };
+  $("mylist").onclick = () => { listView = !listView; byRank = false; views(); };
+  showListCount();
   $("parts").onclick = () => showComponent("");   // (the index of components by strokes)
   $("title").onclick = () => (location.href = "trainer.html");   // (the title switches back to the trainer)
   const openHash = () => {

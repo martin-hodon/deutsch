@@ -172,6 +172,17 @@ button.go { background: var(--accent); border-color: var(--accent); color: #fff;
 button.go:disabled { opacity: .45; cursor: default; }
 button.next { margin-top: 10px; }
 
+/* ---- the dictionary's views: by frequency (the rank), my list (the ★ on a card, the ✕ in the list) --------------------- */
+.result-ipa { color: var(--mute); font-size: 14px; }
+.result-rank { color: var(--mute); font-size: 13px; margin-left: auto; }
+.result-star { color: var(--mute); padding: 0 4px 0 8px; font-size: 18px; line-height: 1; }
+.result-star.on, .result-star:hover { color: #d97706; }
+.result-remove { margin-left: auto; color: var(--mute); padding: 0 6px; font-size: 16px; }
+.result-remove:hover { color: var(--wrong); }
+.entry-head .star { border: 0; background: none; font-size: 24px; padding: 2px 6px; opacity: .55; line-height: 1; }
+.entry-head .star.on, .entry-head .star:hover { opacity: 1; color: #d97706; }
+.results .more { margin-top: 8px; }
+
 /* ---- the dictionary's categories: the way up to the root, the subcategories, a category's code when no word names it ---- */
 .cat-chain { display: flex; flex-wrap: wrap; gap: 2px 4px; align-items: baseline; margin: 4px 0; }
 .cat-sep { color: var(--mute); }

@@ -89,6 +89,11 @@ for it (Säugetier) instead of the code, and that word's own entry lists the cat
 members (the nouns in `mammal` itself, not under it: the lists stay short). A category opens a category view
 (`#de/cat/mammal`: its way up, its subcategories with their size, its direct members).
 
+**Two more views of the dictionary's list.** "By frequency" lists the language's words in the order of its
+`order.tsv` (the commonest first, a hundred at a time, the next hundred loading as the list is scrolled to its end, the search narrowing them). "My list" is the learner's own:
+the ★ on a word's card puts the word aside (localStorage `dictionary:list`, `lang|id` entries, kept across languages),
+the list shows them with a ✕ each -- what was hard, to come back to.
+
 ## The world, in concepts
 
 Every world file names concepts, never a language's words: categories (`N banán : fruit`), verb frames, settings,
