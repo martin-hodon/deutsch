@@ -3,24 +3,33 @@
 //   a word's EXAMPLES: short sentences that say that word (engine/simple.js, the word said for its concept)
 //   WORD ORDER: a sentence with a grammar structure (engine/structures.js) to put together again
 //   FORMS: a sentence with one word left out and its right form among wrong ones (engine/forms.js)
+//   THE OVERVIEW: every structure and every rule set of forms with an example sentence (the grammar page)
 //
 //   const pr = createPractice({ loadLang })        loadLang(lang) -> its dictionary (app.js's; es, fr with .morph)
 //   await pr.examples(entry, 3)                     -> [{ text, ipa, mark: [start, end] }]   (pr.canSay(entry): can it)
-//   await pr.order(lang, level, structure | "all") -> { words, slots, orders, text, ipa } | null   (words: the ones to
-//                                                     order, as written -- the first capitalised; slots: "w" for each of
-//                                                     them, "=word" a word GIVEN, the punctuation itself where it stands;
-//                                                     orders: every order the language says the same plan in with these
-//                                                     very words and marks -- each one right). A sentence of two clauses
-//                                                     gives one clause and asks the other; a sentence shows at most
-//                                                     MAX_RULES grammar structures (engine/structures.js) -- simple ones
+//   await pr.order(lang, level, structure | "all") -> { words, slots, orders, text, ipa, declared? } | null   (words: the
+//                                                     ones to order, as written -- the first capitalised; slots: "w" for
+//                                                     each of them, "=word" a word GIVEN, the punctuation itself where it
+//                                                     stands; orders: every order the language says the same plan in with
+//                                                     these very words and marks -- each one right). A sentence of two
+//                                                     clauses gives one clause and asks the other; a sentence shows at
+//                                                     most MAX_RULES grammar structures (engine/structures.js) -- simple
+//                                                     ones. The planner's sentences first (a word of the level, then any
+//                                                     level, then longer sentences); when none shows the structure, one
+//                                                     of its declared example plans (world/structures.txt): a structure
+//                                                     the language has always has a sentence (`declared`)
 //   await pr.forms(lang, level, rule | "all", irregular)  -> { prompt, hint, options, answer, rule, text, ipa } | null
-//   await pr.structures(), await pr.rules(lang)     -> what the exercises offer: [{ name, label, stage? }]
+//   await pr.structures(lang), await pr.rules(lang) -> what the exercises offer: [{ name, label, stage? }] -- the
+//                                                     structures the LANGUAGE has (a declared example plan it says)
+//   await pr.overview(lang, level)                  -> { structures: [{ name, stage, label, text, tokens: [{ w, pos }] }],
+//                                                     rules: [{ name, label, example: { text, prompt, answer, hint } | null }] }
 // THE LEVEL (FREQ 1, 2 or 3) is the level of what is practised: the word asked in forms, at least one word of a
 // word-order sentence; the sentence's other words are no rarer (a sentence of only the rarest words would be nonsense).
 import { loadSentences } from "./sentences.js";
 import { sayerFor } from "./say.js";
-import { structuresOf, structureList } from "./structures.js";
+import { structuresOf, structureList, loadStructures, IMPLIED } from "./structures.js";
 import { parseForms, formsQuestion, locate, planWords } from "./forms.js";
+import { formsIndex, fold } from "./wordforms.js";
 import { loadParadigms } from "./paradigm.js";
 import { loadMeaning } from "./meaning.js";
 import { createSimple } from "./simple.js";
@@ -112,30 +121,54 @@ export function createPractice({ loadLang }) {
   // taken from the text where it stands (Die, not die; a tile shows the capital where the sentence has it)
   const written = (said) => said.tokens.map((tk, i) => { if (!isWord(tk)) return tk; const at = locate(said, i); return at < 0 ? tk : { ...tk, w: said.text.slice(at, at + tk.w.length) }; });
 
+  // THE WORD-ORDER SENTENCE: the planner's sentences first -- with a word of the level, then of any level (the words need
+  // not be of the level when the structure is rare there), then among longer sentences --; when none shows the structure,
+  // one of its declared example plans (world/structures.txt): a structure the language has always has a sentence
+  const PHASES = [{ tries: 40, level: true, complexity: 2 }, { tries: 40, level: false, complexity: 2 }, { tries: 20, level: false, complexity: 3 }];
   async function order(lang, level, structure = "all") {
-    let g = await generator(lang, level);
-    await levels(lang);
-    for (let t = 0; t < TRIES.order; t++) {
-      // (a structure not found among the simpler sentences: among the complex ones -- two or three clauses)
-      if (t === TRIES.order / 2 && structure !== "all") g = await generator(lang, level, 3);
-      let s;
-      try { s = sentence(g, lang, { focus: focusOf(await levels(lang), level, null, g.gen) }); } catch { continue; }
-      if (!s || (structure !== "all" && !structuresOf(s.plan).has(structure)) || !ofLevel(s.plan, lang, level)) continue;
-      const rules = [...structuresOf(s.plan)].filter((r) => !BASE_RULES.has(r)), ids = s.plan.seq.filter((x) => s.plan.clauses[x]);
-      if (s.said.tokens.some((tk) => /^[„“"«»‘’]$/.test(tk.w))) continue;
-      if (structure === "all" ? rules.length > MAX_RULES || ids.length > 2
-        : rules.some((r) => r !== structure && !ADJUNCT_RULES.has(r)) || ids.length > (CLAUSE_RULES.has(structure) ? 2 : 1)) continue;   // (the structure in focus, the rest simple)
-      // (two clauses: one is given, the other -- drawn -- is to be ordered; a half too short to order leaves the whole
-      //  sentence open)
-      const toks = written(s.said).filter((tk) => tk.w), at = ids.length === 2 ? boundary(g, s, toks) : -1;
-      let half = at > 0 ? (Math.random() < .5 ? "first" : "second") : null;
-      let slots = slotsOf(toks, half, at), words = freeWords(slots, toks);
-      if (half && words.length < WORDS.min) { half = null; slots = slotsOf(toks); words = freeWords(slots, toks); }
-      if (words.length < WORDS.min || words.length > WORDS.max) continue;
-      return { words, slots, orders: orders(g, lang, s, words, half, slots, at), text: s.said.text, ipa: s.said.ipa };
+    await generator(lang, level);   // (first: it loads the German morphology the paradigms need)
+    const d = await levels(lang);
+    for (const ph of structure === "all" ? PHASES.slice(0, 2) : PHASES) {
+      const g = await generator(lang, level, ph.complexity);
+      for (let t = 0; t < ph.tries; t++) {
+        let s;
+        try { s = sentence(g, lang, { focus: focusOf(d, level, null, g.gen) }); } catch { continue; }
+        if (!s || (structure !== "all" && !structuresOf(s.plan).has(structure)) || (ph.level && !ofLevel(s.plan, lang, level))) continue;
+        const task = taskOf(g, lang, s, structure);
+        if (task) return task;
+      }
+    }
+    if (structure === "all") return null;
+    const g = await generator(lang, level);
+    for (const p of shuffled(await declared(lang, structure))) {
+      const s = sayPlan(g, p), task = s && taskOf(g, lang, s, structure, { declared: true });
+      if (task) return { ...task, declared: true };
     }
     return null;
   }
+  // the task of a sentence: its words to order, its slots, every right order -- null when it does not suit: a quote,
+  // more structures than the one in focus (beside it only the base, the adjuncts and what it implies -- IMPLIED --, a
+  // second clause only for a structure of clauses), too few or too many words. A declared plan shows its structure by
+  // declaration; it may be short (Ho mangiato.)
+  function taskOf(g, lang, s, structure, { declared = false } = {}) {
+    const rules = [...structuresOf(s.plan)].filter((r) => !BASE_RULES.has(r)), ids = s.plan.seq.filter((x) => s.plan.clauses[x]);
+    if (s.said.tokens.some((tk) => /^[„“"«»‘’]$/.test(tk.w))) return null;
+    if (!declared && (structure === "all" ? rules.length > MAX_RULES || ids.length > 2
+      : rules.some((r) => r !== structure && !ADJUNCT_RULES.has(r) && !(IMPLIED[structure] ?? []).includes(r)) || ids.length > (CLAUSE_RULES.has(structure) ? 2 : 1))) return null;   // (the structure in focus, the rest simple)
+    // (two clauses: one is given, the other -- drawn -- is to be ordered; a half too short to order leaves the whole
+    //  sentence open)
+    const toks = written(s.said).filter((tk) => tk.w), at = ids.length === 2 ? boundary(g, s, toks) : -1;
+    let half = at > 0 ? (Math.random() < .5 ? "first" : "second") : null;
+    let slots = slotsOf(toks, half, at), words = freeWords(slots, toks);
+    if (half && words.length < WORDS.min) { half = null; slots = slotsOf(toks); words = freeWords(slots, toks); }
+    if (words.length < (declared ? 2 : WORDS.min) || words.length > WORDS.max) return null;
+    return { words, slots, orders: orders(g, lang, s, words, half, slots, at), text: s.said.text, ipa: s.said.ipa };
+  }
+  const shuffled = (l) => l.map((x) => [Math.random(), x]).sort((a, b) => a[0] - b[0]).map((x) => x[1]);
+  // a declared example plan said in the language (null: its realizer cannot)
+  const sayPlan = (g, p) => { const plan = { seq: p.seq, clauses: p.clauses }; try { const said = g.say(plan); return said?.text ? { plan, said } : null; } catch { return null; } };
+  const structuresFile = () => cached("structures", () => loadStructures("world/structures.txt"));
+  const declared = async (lang, structure) => ((await structuresFile()).get(structure) ?? []).filter((p) => !p.not.includes(lang));
 
   // (a plan of the level: one of its words -- by its concept's commonest word in the language -- of that FREQ)
   const levelOf = new Map();
@@ -219,6 +252,52 @@ export function createPractice({ loadLang }) {
     return null;
   }
 
-  const structures = async () => structureList(await syllabus());
-  return { examples, canSay, order, forms, rules, structures, generator };
+  // the structures the language has: those of the syllabus with a declared example plan the language says
+  async function structures(lang) {
+    const [text, plans] = await Promise.all([syllabus(), structuresFile()]);
+    return structureList(text).filter((st) => (plans.get(st.name) ?? []).some((p) => !p.not.includes(lang)));
+  }
+
+  // THE OVERVIEW (the grammar page): every structure of the language with its example sentence, the words marked by part
+  // of speech; every rule set of forms with a sentence where a form it asks stands -- all from the declared example plans
+  async function overview(lang, level) {
+    return cached(`overview|${lang}`, async () => {
+      const g = await generator(lang, level), { d, pd } = await paradigms(lang), plans = await structuresFile();
+      await formsIndex(d, lang);
+      const said = [], structuresOut = [];
+      for (const st of await structures(lang)) {
+        await new Promise((r) => setTimeout(r));   // (the page gets its turn)
+        const s = (plans.get(st.name) ?? []).filter((p) => !p.not.includes(lang)).map((p) => sayPlan(g, p)).find(Boolean);
+        if (!s) continue;
+        said.push(s);
+        structuresOut.push({ ...st, text: s.said.text, tokens: tagged(s, d) });
+      }
+      const entriesOf = (pos, concept) => d.byConcept.get(`${pos}|${concept}`) ?? [], wordEntry = (w) => d.entries.find((e) => e.word === w && e.pos === "V") ?? null;
+      const rulesOut = [];
+      for (const r of await rules(lang)) {
+        let example = null;
+        for (const s of shuffled(said)) {
+          let q = null;
+          try { q = formsQuestion(s.said, s.plan, [r], { pd, entriesOf, wordEntry }); } catch { q = null; }
+          if (q) { example = { text: s.said.text, prompt: q.prompt, answer: q.answer, hint: q.hint }; break; }
+        }
+        rulesOut.push({ name: r.name, label: r.label, example });
+      }
+      return { structures: structuresOut, rules: rulesOut };
+    });
+  }
+  // the words of a sentence with their parts of speech: each looked up among the language's forms (engine/wordforms.js --
+  // the one index the reading page and the dictionary use), an entry of the plan's concepts first, else a closed-class word
+  const POS_FIRST = ["ART", "P", "PRE", "CON", "PAR", "NUM", "INT", "AV", "V", "AN", "N", "PHR"];
+  function tagged(s, d) {
+    const concepts = new Set(planWords(s.plan).map((w) => `${w.pos}|${w.concept}`));
+    return written(s.said).filter((tk) => tk.w).map((tk) => {
+      if (!isWord(tk)) return { w: tk.w };
+      const hits = (d.index.get(fold(tk.w)) ?? []).map((h) => h.e);
+      const e = hits.find((x) => concepts.has(`${x.pos}|${x.concept}`)) ?? hits.slice().sort((a, b) => POS_FIRST.indexOf(a.pos) - POS_FIRST.indexOf(b.pos))[0];
+      return { w: tk.w, pos: e?.pos ?? "" };
+    });
+  }
+
+  return { examples, canSay, order, forms, rules, structures, overview, generator };
 }

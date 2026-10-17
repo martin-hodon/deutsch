@@ -93,6 +93,7 @@
 3 N hem {hem} [hem], hems = lem
 3 N buckle {buckle} [ˈbʌkəl], buckles = spona
 3 N patch {patch} [pætʃ], patches = záplata
+2 V unbutton {un|button} [ʌnˈbʌtən] (sth) = rozopnúť
 # materials-making
 1 N material {material} [məˈtɪəriəl], materials = látka
 2 N fabric {fabric} [ˈfæbrɪk], fabrics = látka
@@ -161,3 +162,5 @@
 2 N mask {mask} [mɑːsk], masks = maska
 3 V disguise {disguise} [dɪsˈɡaɪz] (oneself, sth) = maskovať
 2 V mind {mind} [maɪnd] (sth) = dávať pozor
+1 AN dressed {dress|ed} [drest] = oblečený
+3 AN clothed {cloth|ed} [kləʊðd] = oblečený

@@ -170,6 +170,8 @@
 3 AN homogen {homogen} [homoˈɡeːn] = homogénny, jednotný
 3 AN essentiell {essentiell} [ɛsɛnˈtsi̯ɛl] = podstatný, základný
 3 AN nominal {nominal} [nomiˈnaːl] = menný, nominálny
+3 AN unlogisch {un|logisch} [ˈʊnloːɡɪʃ] = nelogický
+3 AN inkompetent {inkompetent} [ˈɪnkɔmpetɛnt] = nekompetentný
 
 # knowing
 1 V wissen {wissen} [ˈvɪsən], weiß/wusste/gewusst [vaɪs/vʊstə/ɡəˈvʊst], hat = vedieť
@@ -293,6 +295,7 @@
 3 V symbolisieren {symbolisieren} [zʏmboliˈziːʁən], hat (A) = symbolizovať
 3 V imitieren {imitieren} [imiˈtiːʁən], hat (A) = napodobňovať, imitovať
 3 V entlarven {ent|larven} [ɛntˈlaʁfən], hat (A) = demaskovať, odhaliť
+3 N die Unwissenheit {Un|wissenheit} [ˈʊnvɪsənhaɪt], - = nevedomosť
 
 # memory
 2 N das Gedächtnis {Gedächtnis} [ɡəˈdɛçtnɪs], Gedächtnisse = pamäť (schopnosť)
@@ -375,6 +378,7 @@
 3 V relativieren {relativieren} [ʁelatiˈviːʁən], hat (A) = relativizovať
 3 V polarisieren {polarisieren} [polaʁiˈziːʁən], hat = polarizovať
 3 V fundieren {fundieren} [fʊnˈdiːʁən], hat (A) = podložiť, založiť
+1 V recht haben {recht haben} [ʁɛçt ˈhaːbən], hat recht/hatte recht/recht gehabt [hat ʁɛçt/ˈhatə ʁɛçt/ʁɛçt ɡəˈhaːpt], hat = mať pravdu
 
 # more
 2 V betrachten {be|trachten} [bəˈtʁaxtən], hat (A als A) = považovať

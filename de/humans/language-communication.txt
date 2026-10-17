@@ -295,6 +295,10 @@
 3 AN kommunikativ {kommunikativ} [kɔmunikaˈtiːf] = komunikatívny
 3 AN stumm {stumm} [ʃtʊm] = nemý, mlčanlivý
 3 V klarstellen {klar·stellen} [ˈklaːɐʃtɛlən], hat (A) = ujasniť, objasniť
+2 N der Widerspruch {Widerspruch} [ˈviːdɐʃpʁʊx], Widersprüche = nesúhlas
+3 N die Leugnung {Leugnung} [ˈlɔʏɡnʊŋ], Leugnungen = popretie
+3 N das Flüstern {Flüstern} [ˈflʏstɐn], - = šepot
+2 V verteidigen {ver|teidigen} [fɛɐˈtaɪdɪɡən], hat (A) = obhajovať
 
 # language-writing
 1 N das Wort {Wort} [vɔʁt], Wörter = slovo
@@ -470,6 +474,7 @@
 2 N das Deutsch {Deutsch} [dɔʏtʃ], - = nemčina
 2 AN schriftlich {schrift|lich} [ˈʃʁɪftlɪç] = písomný
 3 AN sprachlich {sprach|lich} [ˈʃpʁaːxlɪç] = jazykový
+2 N der Singular {Singular} [ˈzɪŋɡulaːɐ], Singulare = jednotné číslo
 
 # media-news
 1 N die Nachricht {Nach|richt} [ˈnaːxʁɪçt], Nachrichten = správa (oznam)

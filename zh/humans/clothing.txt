@@ -201,7 +201,10 @@
 2 AN 优美 {优美} [yōuměi] = elegantný
 2 V 打扮 {打扮} [dǎban] = ozdobiť
 2 N 风度 {风度} [fēngdù], - = elegancia
+3 AN 穿着衣服 {穿着衣服} [chuānzhe yīfu] = oblečený
 
 # parts-fasteners
 2 V 扣 {扣} [kòu] = zapnúť (gombíky)
 1 N 皮包 {皮包} [píbāo], 个 = kabelka
+2 V 解开 {解开} [jiěkāi] = rozopnúť
+2 V 解扣子 {解|扣子} [jiěkòuzi] = rozopnúť

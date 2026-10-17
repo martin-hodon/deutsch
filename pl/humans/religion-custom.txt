@@ -117,6 +117,7 @@
 3 AV pobożnie {pobożnie} [pɔˈbɔʐɲɛ] = nábožne
 3 AV bosko {bosko} [ˈbɔskɔ] = božsky
 2 AV cudownie {cudownie} [tsuˈdɔvɲɛ] = podivuhodne
+3 N śmiertelność {śmiertelność} [ɕmʲɛrˈtɛlnɔɕtɕ], ż, - = smrteľnosť
 
 # magic-fate
 2 N magia {magia} [ˈmaɡʲa], ż, magie = mágia

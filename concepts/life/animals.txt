@@ -10,15 +10,15 @@ N leňochod
 N mul
 N vtákopysk
 AN zvierací
-N zver
+N zver : of zviera @ poľovníctvo
 AN divoký : adverb divoko
 AN krotký : adverb krotko
 V skrotiť
 N korisť
 V ukoristiť
 N beštia
-N samec
-N samica
+N samec : of muž @ zvieratá
+N samica : of žena @ zvieratá
 N útulok pre zvieratá
 N škodca
 N štvornožec
@@ -105,8 +105,10 @@ N dikobraz
 N morča
 N prasiatko
 N ovca
+N baran
 N jahňa
 N koza
+N cap
 N somár
 N plemeno
 N ohrada
@@ -127,7 +129,9 @@ N lastovička
 N bocian
 N žeriav (vták)
 N kačica
+N káčer
 N hus
+N gunár
 N kura
 N kuriatko
 N kohút
@@ -159,7 +163,7 @@ N jastrab
 
 # fish-reptiles-amphibians
 N ryba
-V loviť ryby
+V loviť ryby : of loviť @ rybárstvo
 N zlatá rybka
 N tuniak
 N sépia
@@ -238,27 +242,27 @@ N chvost
 N krídlo
 N pero (vtáka)
 N operenie
-N srsť
+N srsť : of vlasy @ zvieratá
 N kožušina
-N pazúr
-N labka
+N pazúr : of necht @ zvieratá
+N labka : of noha (končatina) @ zvieratá
 N kopyto
 N roh (zvieraťa)
 N nosorožec
 N parohy
 N kel
-N zobák
+N zobák : of ústa @ vtáky
 N šupina
 N plutva
 N žiabra
 N tykadlo
 N škrupina
-N hniezdo
+N hniezdo : of dom @ vtáky
 N osteň
 AN ostnatý
 N hriva
 N fúz
-N papuľa
+N papuľa : of ústa @ zvieratá
 V štekať
 V vyť
 V revať

@@ -42,6 +42,7 @@
 2 N cola {cola} [ˈkɔla], ż, - = kola
 2 N olej słonecznikowy {olej słonecznikowy} [ˈɔlɛj swɔnɛtʂɲiˈkɔvɨ], m, oleje słonecznikowe = slnečnicový olej
 2 N zioła {zioła} [ˈʑɔwa], lm, zioła = bylinky
+2 AN niejadalny {nie|jadalny} [ɲɛjaˈdalnɨ] = nejedlý
 
 # staples
 1 N chleb {chleb} [xlɛp], m, chleby = chlieb
@@ -172,6 +173,7 @@
 2 N doner kebab {doner kebab} [ˈdɔnɛr ˈkɛbap], m, doner kebaby = döner kebab
 2 N kebab {kebab} [ˈkɛbap], m, kebaby = döner kebab
 2 N sushi {sushi} [ˈsuʂi], n, -, ndm = suši
+1 V tyć {tyć} [tɨtɕ], przytyć = pribrať
 
 # fruits
 1 N owoc {owoc} [ˈɔvɔts], m, owoce = ovocie
@@ -486,3 +488,5 @@
 2 AV słodko {słodko} [ˈswɔtkɔ] = sladko
 2 AV świeżo {świeżo} [ˈɕfʲɛʐɔ] = čerstvo
 3 AV smacznie {smacznie} [ˈsmatʂɲɛ] = chutne
+1 AN gotowany {gotowany} [ɡɔtɔˈvanɨ] = varený
+3 AN niegustowny {nie|gustowny} [ɲɛɡuˈstɔvnɨ] = nevkusný

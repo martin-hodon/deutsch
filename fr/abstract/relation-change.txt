@@ -65,6 +65,7 @@
 2 N la présence {présence} [pʁeˈzɑ̃s], présences = prítomnosť
 3 AV inconditionnellement {inconditionnelle|ment} [ɛ̃kɔ̃disjɔnɛlˈmɑ̃] = bezpodmienečne
 2 AV au hasard {au hasard} [o aˈzaʁ] = náhodne
+2 V disparaître {dis|paraître} [dispaˈʁɛtʁ], irr, disparu = zaniknúť
 
 # change-events
 1 V devenir {de|venir} [dəvəˈniʁ], irr, devenu, être = stať sa
@@ -357,6 +358,11 @@
 2 AV infiniment {infini|ment} [ɛ̃finiˈmɑ̃] = nekonečne
 2 AV sans raison {sans raison} [sɑ̃ ʁɛˈzɔ̃] = bezdôvodne
 2 AV vaguement {vague|ment} [vaɡˈmɑ̃] = neurčite
+2 AN fini {fini} [fiˈni], finie = konečný
+1 AN final {final} [fiˈnal], finale, finals/finales = konečný
+2 N la diminution {diminution} [diminyˈsjɔ̃], diminutions = úbytok
+1 N la baisse {baisse} [bɛs], baisses = úbytok
+2 V s'agrandir {s'a|grandir} [saɡʁɑ̃ˈdiʁ] = zväčšiť sa
 
 # relations
 1 AN même {même} [mɛm] = rovnaký
@@ -670,6 +676,12 @@
 2 AV en conséquence {en conséquence} [ɑ̃ kɔ̃seˈkɑ̃s] = zodpovedajúco
 2 AV objectivement {objective|ment} [ɔbʒɛktivˈmɑ̃] = vecne
 3 AV fonctionnellement {fonctionnelle|ment} [fɔ̃ksjɔnɛlˈmɑ̃] = funkčne
+1 N le tout {tout} [tu], touts = celok
+2 N l'ensemble (m) {ensemble} [ɑ̃ˈsɑ̃bl], ensembles = celok
+2 N la limite inférieure {limite inférieure} [limit ɛ̃feʁˈjœʁ], limites inférieures = dolná hranica
+3 N le désintérêt {dés|intérêt} [dezɛ̃teˈʁɛ], désintérêts = nezáujem
+2 N l'indifférence (f) {in|différence} [ɛ̃difeˈʁɑ̃s], indifférences = nezáujem
+2 V multiplier {multiplier} [myltipliˈje] = násobiť
 
 # transfer-basic-verbs
 1 V donner {donner} [dɔˈne] = dať
@@ -791,6 +803,8 @@
 2 V rattraper {rattraper} [ʁatʁaˈpe] = dobehnúť
 1 V sortir {sortir} [sɔʁˈtiʁ], irr, sorti, être = vytiahnuť
 2 V retirer {retirer} [ʁətiˈʁe] = vytiahnuť
+1 AN trouvé {trouvé} [tʁuˈve], trouvée = nájdený
+3 AN déficitaire {déficitaire} [defisiˈtɛʁ] = stratový
 
 # action-and-use
 1 N l'action (f) {action} [akˈsjɔ̃], actions = akcia (činnosť)
@@ -1323,6 +1337,8 @@
 3 AV agilement {agile|ment} [aʒilˈmɑ̃] = obratne
 2 AV péniblement {pénible|ment} [penibləˈmɑ̃] = namáhavo
 3 AV gracieusement {gracieuse|ment} [ɡʁasjøzˈmɑ̃] = pôvabne
+2 V déballer {dé|baller} [debaˈle] = rozbaliť
+2 V s'éloigner {s'éloigner} [selwaˈɲe] (de) = vzdialiť sa
 
 # change
 2 V manifester {manifester} [manifɛsˈte] = prejaviť
@@ -1353,6 +1369,7 @@
 3 V garnir {garnir} [ɡaʁˈniʁ] = obložiť
 2 V panser {panser} [pɑ̃ˈse] = obviazať
 3 V bander {bander} [bɑ̃ˈde] = obviazať
+2 V ramollir {ra|mollir} [ʁamɔˈliʁ] = zmäknúť
 
 # more
 1 AN autre {autre} [otʁ] = ďalší

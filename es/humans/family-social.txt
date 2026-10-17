@@ -352,6 +352,12 @@
 3 N el posadero {posadero} [posaˈðeɾo], posaderos = hostinský
 2 V regalar {regalar} [reɣaˈlaɾ] (con) = obdarovať
 3 V aislarse {aislarse} [ajsˈlaɾse] = izolovať sa
+2 AN intolerante {in|tolerante} [intoleˈɾante] = netolerantný
+2 N la infidelidad {in|fidelidad} [iɱfiðeliˈðað], infidelidades = nevera
+3 N la deslealtad {des|lealtad} [deslealˈtað], deslealtades = nevera
+2 V ser fiel {ser fiel} [seɾ ˈfjel], irr (a) = byť verný
+1 V pelearse {pelearse} [peleˈaɾse] (con) = pohádať sa
+2 V discutir {discutir} [diskuˈtiɾ] (con) = pohádať sa
 
 # contact
 2 V abrazarse {abrazarse} [aβɾaˈθaɾse] = túliť sa

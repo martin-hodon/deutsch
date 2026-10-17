@@ -109,6 +109,8 @@
 3 AN autocratic {autocratic} [ˌɔːtəˈkrætɪk] = autokratický
 2 V emigrate {emigrate} [ˈemɪɡreɪt] = emigrovať
 1 AV publicly {public|ly} [ˈpʌblɪkli] = verejne
+3 N vote for {vote for} [ˈvəʊt fɔː], votes for = hlas za
+2 V immigrate {immigrate} [ˈɪmɪɡreɪt] (to) = imigrovať
 # state-politics
 1 N state {state} [steɪt], states = štát
 2 AN state {state} [steɪt] = štátny
@@ -454,6 +456,9 @@
 3 AN constitutional {constitu|tional} [ˌkɒnstɪˈtjuːʃnəl] = právnoštátny
 2 N escape {es|cape} [ɪˈskeɪp], escapes = útek
 3 V abuse {abuse} [əˈbjuːz] (sb, sth) = zneužiť
+2 AN non-violent {non-violent} [ˌnɒn ˈvaɪələnt] = nenásilný
+2 N subject {subject} [ˈsʌbdʒɪkt], subjects = poddaný
+3 V demobilise {de|mobilise} [diːˈməʊbɪlaɪz] (sth) = demobilizovať
 # law-justice
 1 N law {law} [lɔː], laws = zákon
 2 AN legal {legal} [ˈliːɡl] = zákonný
@@ -687,6 +692,8 @@
 2 V excuse {excuse} [ɪkˈskjuːz] (sb) = ospravedlniť
 3 N cheat {cheat} [tʃiːt], cheats = podvodník
 3 V probe {probe} [prəʊb] (sth) = vyšetrovať
+2 N defence {de|fence} [dɪˈfens], defences = obhajoba
+2 V approve {approve} [əˈpruːv] (sth) = schváliť
 # politics
 3 V radicalise {radicalise} [ˈrædɪkəlaɪz] (sb, sth) = radikalizovať
 2 V ratify {ratify} [ˈrætɪfaɪ] (sth) = ratifikovať

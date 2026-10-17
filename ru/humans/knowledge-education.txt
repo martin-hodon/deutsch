@@ -209,6 +209,7 @@
 3 AV экспериментально {экспериментально} [ɪkspʲɪrʲɪmʲɪnˈtalʲnə] = experimentálne
 2 AV теоретически {теоретически} [tʲɪərʲɪˈtʲitɕɪskʲɪ] = teoreticky
 3 AV несоразмерно {несоразмерно} [nʲɪsərɐzˈmʲernə] = neúmerne
+2 N синтез {синтез} [ˈsʲintʲɪs], м, синтезы = syntéza
 
 # fields-of-study
 1 N математика {математика} [mətʲɪˈmatʲɪkə], ж, - = matematika

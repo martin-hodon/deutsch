@@ -174,6 +174,10 @@
 2 N 名誉 {名誉} [míngyù], - = povesť
 2 N 名誉 {名誉} [míngyù], - = česť
 2 N 首脑 {首脑} [shǒunǎo], 位 = vodca
+2 N 赞成票 {赞成票} [zànchéngpiào], 张 = hlas za
+2 V 移民 {移|民} [yímín] = imigrovať
+3 V 移居 {移居} [yíjū] = imigrovať
+3 V 迁入 {迁入} [qiānrù] = imigrovať
 
 # state-politics
 1 N 国家 {国家} [guójiā], 个 = štát
@@ -651,6 +655,12 @@
 2 V 炒作 {炒作} [chǎozuò] = propagovať
 2 N 政策 {政策} [zhèngcè], 项 = politika
 2 N 职责 {职责} [zhízé], 项 = povinnosť
+3 AN 非暴力 {非暴力} [fēibàolì] = nenásilný
+2 AN 和平 {和平} [hépíng] = nenásilný
+3 N 臣民 {臣民} [chénmín], 个 = poddaný
+3 N 子民 {子民} [zǐmín], 个 = poddaný
+3 V 复员 {复员} [fùyuán] = demobilizovať
+3 V 遣散 {遣散} [qiǎnsàn] = demobilizovať
 
 # law-justice
 2 N 法律 {法律} [fǎlǜ], 条 = zákon
@@ -991,6 +1001,11 @@
 2 N 合约 {合约} [héyuē], 份 = zmluva
 2 N 民警 {民警} [mínjǐng], 名 = policajt
 2 V 追究 {追究} [zhuījiū] = vyšetrovať
+3 N 辩护 {辩护} [biànhù], - = obhajoba
+3 N 答辩 {答辩} [dábiàn], 次 = obhajoba
+2 V 批准 {批准} [pīzhǔn] = schváliť
+1 V 通过 {通过} [tōngguò] = schváliť
+3 V 认可 {认可} [rènkě] = schváliť
 
 # politics
 3 V 激进化 {激进化} [jījìnhuà] = radikalizovať

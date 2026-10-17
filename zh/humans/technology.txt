@@ -114,6 +114,8 @@
 2 N 度 {度} [dù], - = kilowatthodina
 3 N 瓦 {瓦} [wǎ], - = watt
 3 N 瓦特 {瓦特} [wǎtè], - = watt
+2 V 卸货 {卸|货} [xièhuò] = vyložiť
+3 V 卸 {卸} [xiè] = vyložiť
 
 # computing-communication-devices
 1 N 电脑 {电脑} [diànnǎo], 台 = počítač
@@ -287,6 +289,13 @@
 2 N 相片 {相片} [xiàngpiàn], 张 = fotografia
 2 N 留言 {留言} [liúyán], 条 = odkaz
 2 V 通话 {通|话} [tōnghuà] = telefonovať
+2 N 退出 {退出} [tuìchū], - = odhlásenie
+3 N 登出 {登出} [dēngchū], - = odhlásenie
+2 N 上传 {上传} [shàngchuán], - = nahratie
+2 AV 离线 {离线} [líxiàn] = offline
+2 AV 线下 {线下} [xiànxià] = offline
+2 V 缩小 {缩小} [suōxiǎo] = oddialiť
+3 V 拉远 {拉远} [lāyuǎn] = oddialiť
 
 # devices
 3 V 拆卸 {拆卸} [chāixiè] = demontovať

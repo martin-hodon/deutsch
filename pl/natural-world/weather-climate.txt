@@ -150,6 +150,8 @@
 2 AV mroźno {mroźno} [ˈmrɔʑnɔ] = mrazivo
 3 AV lodowato {lodowato} [lɔdɔˈvatɔ] = ľadovo
 3 AV duszno {duszno} [ˈduʂnɔ] = dusno
+2 N ochładzanie {ochładzanie} [ɔxwaˈdzaɲɛ], n, - = ochladzovanie
+2 N ochłodzenie {ochłodzenie} [ɔxwɔˈdzɛɲɛ], n, ochłodzenia = ochladzovanie
 
 # seasons-climate
 1 N pora roku {pora roku} [ˈpɔra ˈrɔku], ż, pory roku = ročné obdobie

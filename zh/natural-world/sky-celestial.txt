@@ -43,6 +43,7 @@
 2 N 宇宙 {宇宙} [yǔzhòu], 个 = vesmír
 2 N 太空 {太空} [tàikōng], - = vesmír
 2 N 月球 {月球} [yuèqiú], 个 = mesiac (na oblohe)
+3 N 月落 {月落} [yuèluò], - = západ mesiaca
 
 # sky-phenomena
 1 N 天空 {天空} [tiānkōng], 片 = obloha

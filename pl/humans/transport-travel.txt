@@ -336,6 +336,10 @@
 2 V wstępować {wstępować} [fstɛmˈpɔvatɕ], wstąpić (do + D) = zájsť
 3 V podróżować razem {podróżować razem} [pɔdruˈʐɔvatɕ ˈrazɛm], - = cestovať spolu
 3 AN śródziemnomorski {śródziemnomorski} [ɕrudʑɛmnɔˈmɔrski] = stredomorský
+2 N przylot {przylot} [ˈpʂɨlɔt], m, przyloty = prílet
+2 N spowolnienie {spowolnienie} [spɔvɔlˈɲɛɲɛ], n, spowolnienia = spomalenie
+2 N wyprowadzka {wy|prowadzka} [vɨprɔˈvatska], ż, wyprowadzki = vysťahovanie
+2 N wyjazd {wyjazd} [ˈvɨjast], m, wyjazdy = vycestovanie
 
 # corpus-verbs
 3 V przemierzać {przemierzać} [pʂɛˈmʲɛʐatɕ], przemierzyć = precestovať

@@ -591,6 +591,17 @@
 3 AV de forma prometedora {de·forma·prometedora} [de ˈfoɾma pɾometeˈðoɾa] = sľubne
 3 AV de forma aterradora {de·forma·aterradora} [de ˈfoɾma ateraˈðoɾa] = desivo
 3 AV de forma surrealista {de·forma·surrealista} [de ˈfoɾma sureaˈlista] = surreálne
+2 AN secundario {secundario} [sekunˈdaɾjo], secundaria = vedľajší
+2 AN subordinado {sub|ordinado} [suβoɾðiˈnaðo], subordinada = podriadený
+3 AN implícito {implícito} [imˈpliθito], implícita = implicitný
+2 AN creciente {creciente} [kɾeˈθjente] = stúpajúci
+2 AN ascendente {ascendente} [asθenˈdente] = stúpajúci
+2 AN cómico {cómico} [ˈkomiko], cómica = komický
+2 AN sumiso {sumiso} [suˈmiso], sumisa = submisívny
+2 AN poco práctico {poco práctico} [ˈpoko ˈpɾaktiko], poco práctica = nepraktický
+2 AN inaccesible {in|accesible} [inakθeˈsiβle] = neprístupný
+2 N la imperfección {im|perfección} [impeɾfekˈθjon], imperfecciones = nedokonalosť
+2 N la complejidad {complej|idad} [komplexiˈðað], complejidades = zložitosť
 
 # state-properties
 1 AN nuevo {nuevo} [ˈnweβo], nueva = nový
@@ -1068,6 +1079,17 @@
 2 AV duro {duro} [ˈduɾo] = tvrdo
 3 AV de forma generalizada {de·forma·generalizada} [de ˈfoɾma xeneɾaliˈθaða] = plošne
 3 AV con virtuosismo {con·virtuosismo} [kon biɾtwoˈsismo] = virtuózne
+3 AN minoritario {minoritario} [minoɾiˈtaɾjo], minoritaria = menšinový
+2 AN poco fiable {poco fiable} [ˈpoko ˈfjaβle] = nespoľahlivý
+3 AN poco confiable {poco confiable} [ˈpoko konˈfjaβle] = nespoľahlivý
+2 AN inexistente {in|existente} [ineksisˈtente] = neexistujúci
+2 N la blandura {blandura} [blanˈduɾa], blanduras = mäkkosť
+2 N la suavidad {suavidad} [swaβiˈðað], suavidades = mäkkosť
+2 N la lentitud {lentitud} [lentiˈtuð], - = pomalosť
+2 N la inestabilidad {in|estabilidad} [inestaβiliˈðað], inestabilidades = nestabilita
+2 AV lo menos posible {lo menos posible} [lo ˈmenos poˈsiβle] = čo najmenej
+2 V fortalecerse {fortalecerse} [foɾtaleˈθeɾse], c>zc = silnieť
+3 V robustecerse {robustecerse} [robusteˈθeɾse], c>zc = silnieť
 
 # corpus-adjectives
 2 AN bien pensado {bien pensado} [ˈbjen penˈsaðo] = premyslený
@@ -1270,3 +1292,4 @@
 2 AV increíblemente {increíblemente} [iŋkɾeiβleˈmente] = neuveriteľne
 2 AN elevado {elevado} [eleˈβaðo], elevada = zvýšený
 2 AN aumentado {aumentado} [awmenˈtaðo], aumentada = zvýšený
+2 AN reducido {reducido} [reˈðuθiðo], reducida = znížený

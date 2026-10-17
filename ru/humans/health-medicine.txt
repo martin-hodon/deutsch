@@ -162,6 +162,9 @@
 3 AN нуждающийся в уходе {нуждающийся в уходе} [nuʐˈdajuɕːɪjsʲə v uˈxodʲɪ] = odkázaný na opateru
 2 AV болезненно {болезненно} [bɐˈlʲeznʲɪnːə] = bolestivo
 3 AV безболезненно {безболезненно} [bʲɪzbɐˈlʲeznʲɪnːə] = bezbolestne
+3 AN зрячий {зрячий} [ˈzrʲatɕɪj] = vidiaci
+1 PHR прийти в себя {прийти в себя} [prʲɪjˈtʲi f sʲɪˈbʲa] = prebrať sa
+2 PHR прийти в сознание {прийти в сознание} [prʲɪjˈtʲi f səˈznanʲɪjə] = prebrať sa
 
 # treatment
 1 N медицина {медицина} [mʲɪdʲɪˈtsɨnə], ж, - = medicína

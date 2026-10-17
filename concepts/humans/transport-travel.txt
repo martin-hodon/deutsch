@@ -114,8 +114,8 @@ AN dopravnopolitický
 N zápcha
 N semafor
 N zastávka
-N prístav
-N letisko
+N prístav : of stanica @ lode
+N letisko : of stanica @ lietanie
 N mólo
 N maják
 V parkovať
@@ -180,7 +180,8 @@ N cestovný pas
 N námorná cesta
 N výlet
 N let
-N odlet
+N odlet : of odjazd @ lietanie
+N prílet : of príchod @ lietanie
 N spiatočný let
 N letecká spoločnosť
 N dobrodružstvo
@@ -191,9 +192,9 @@ N cestovný ruch
 AN turistický
 N cestujúci
 N posádka
-N pilot
+N pilot : of vodič @ lietanie
 N námorník
-N kapitán
+N kapitán : of veliteľ @ lode
 N sprievodca vo vlaku
 N astronaut
 N lístok
@@ -216,6 +217,7 @@ N pristátie
 V štartovať
 N štart
 N zahraničie
+N tuzemsko
 PHR v zahraničí
 V dochádzať
 N dochádzajúci
@@ -228,6 +230,7 @@ N nástup
 N výstup
 V zrýchliť
 N zrýchlenie
+N spomalenie
 V predbehnúť
 V odtiahnuť
 N nehoda
@@ -237,7 +240,7 @@ N defekt
 N náklad
 N nákladná loď
 N kuriér
-N kokpit
+N kokpit : of kabína @ lietadlá
 V prezrieť si
 N prehliadka
 N symbol mesta
@@ -270,6 +273,7 @@ N konečná stanica
 N medzipristátie
 N cieľ cesty
 N vstup do krajiny
+N vycestovanie
 V vstúpiť do krajiny
 N zájazdový autobus
 N linkový autobus
@@ -282,6 +286,7 @@ N miestna doprava
 N dovolenkár
 N účastník cestnej premávky
 N nasťahovanie
+N vysťahovanie
 V zájsť
 V cestovať spolu
 AN stredomorský

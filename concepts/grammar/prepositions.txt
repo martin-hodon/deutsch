@@ -60,3 +60,4 @@ PRE v prípade -- podmienka: v prípade potreby, w razie czego
 PRE voči -- vzťah k niekomu alebo niečomu: voči nemu, w stosunku
 PRE od (vzdialenosť) -- vzdialenosť od: 离这儿很近
 PRE menej ako
+PRE viac ako

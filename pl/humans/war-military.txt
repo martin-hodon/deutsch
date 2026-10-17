@@ -91,6 +91,7 @@
 3 AV wrogo {wrogo} [ˈvrɔɡɔ] = nepriateľsky
 3 AV zwycięsko {zwycięsko} [zvɨˈtɕɛ̃skɔ] = víťazne
 3 AV bohatersko {bohatersko} [bɔxaˈtɛrskɔ] = hrdinsky
+3 N deeskalacja {deeskalacja} [dɛɛskaˈlatsja], ż, - = deeskalácia
 
 # army
 1 N armia {armia} [ˈarmʲa], ż, armie = armáda
@@ -206,6 +207,8 @@
 3 V taranować {taranować} [taraˈnɔvatɕ], staranować = vraziť do
 3 V odpierać {odpierać} [ɔtˈpʲɛratɕ], odeprzeć = odraziť
 3 V zbroić się {zbroić się} [ˈzbrɔitɕ ɕɛ], uzbroić się = zbrojiť
+3 AN nieuzbrojony {nie|uzbrojony} [ɲɛuzbrɔˈjɔnɨ] = neozbrojený
+2 AN bezbronny {bez|bronny} [bɛzˈbrɔnnɨ] = neozbrojený
 
 # war
 3 V plądrować {plądrować} [plɔnˈdrɔvatɕ], splądrować = plieniť

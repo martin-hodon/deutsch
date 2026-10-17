@@ -20,7 +20,7 @@ through any other, Slovak the index everything is keyed by. (`../deutsch/` is th
                          sounds.txt its letter rules, adverbs.txt, irregular.txt, tests.txt), its realizer
                          (realize.js) and morphology (morph.js), ui.txt (the interface in that language), dict.tsv
                          (compiled), order.tsv (corpus ranks), listen.json + listen.bin (listening templates)
-      *.html             the pages: trainer, dictionary, reading, sentences/stories, speech benches
+      *.html             the pages: trainer.html (the Grammar page: words, morphology, syntax, overview), dictionary, reading, sentences/stories, speech benches
 
 What may depend on what: `world/` and `engine/` know no language; a language folder knows the world (its lines end
 in concept IDs) and the engine (its realizer implements the engine's interface); nothing in `engine/` imports a
@@ -65,6 +65,29 @@ measure word). Content concepts a single language's word lists needed (angličti
 
 Coverage is not 100 % by design: a language without a usual word for a sense says nothing (an adverb no one uses, a
 closed word of another language). `python3 tools/words.py LANG` reports what a language leaves unsaid.
+
+**Opposites.** `concepts/opposites.txt` pairs concepts that are opposites, one unordered pair per line, as a rule both of
+one part of speech: `AN chudobný <> bohatý`, `V kupovať <> predávať`, `N deň <> noc`, `PRE pred <> za` (the second side
+names its POS only when it differs: `PAR áno <> AV nie`). A concept may have several
+(`AN studený <> horúci`, `AN studený <> teplý`); the adjectives' pairs carry over to their declared adverbs (dobre <> zle).
+`concepts.opposites()` reads and checks the file (both IDs concepts, no pair twice); the compile writes each row's
+`opposite` column (the opposite concepts as `POS id`, ` | `-joined), and the dictionary page lists their words in the language
+under "opposites" among the related words. The relation is between concepts, so it is declared once for all languages.
+
+**A generic concept in a context.** A concept may be declared the same thing as a more general concept, said in a
+context: `N odlet : of odjazd @ lietanie`, `V žrať : of jesť @ zvieratá` (the generic's POS only when it differs;
+several grammar items `; `-separated: `: adverb rýchlo; of ...`). `concepts.generics()` reads them; the compile writes
+each row's `generic` column (`POS id @ context`); the dictionary page shows the generic's words under "in general ·
+context" and, on the generic word, the words of its contexts under "in a context" (Abfahrt: Abflug · lietanie). The
+relation is between concepts, declared once for all languages.
+
+**The category tree on the dictionary page.** A noun's concept has its categories (`world/categories.txt`,
+engine/meaning.js); the page shows each one with its parents up to the root (Affe: mammal ‹ beast ‹ animal ‹ living ‹
+concrete ‹ entity), the affordances apart ("one can": openable, washable -- the `AFFORDANCE` directive). A category may be
+NAMED by a concept (`mammal : beast = cicavec`, `openable : concrete = V otvoriť`): the page then shows the language's word
+for it (Säugetier) instead of the code, and that word's own entry lists the category's subcategories and its direct
+members (the nouns in `mammal` itself, not under it: the lists stay short). A category opens a category view
+(`#de/cat/mammal`: its way up, its subcategories with their size, its direct members).
 
 ## The world, in concepts
 
@@ -169,11 +192,11 @@ Sizes: dict.tsv rows de 12,705, en 13,016, es 13,972, fr 13,744, it 15,462, pl 1
 CON 39, INT 8, ART 6). Chinese covers HSK 1-6 except names, erhua variants and bound phrases (24 / 18 / 44 / 45 / 63 /
 104 of the six levels unsaid).
 
-## The trainer (trainer.html, engine/app.js)
+## The grammar page (trainer.html, engine/app.js; the tab is called Grammar)
 
 The page speaks THE LEARNER'S OWN LANGUAGE (engine/text.js: `<lang>/ui.txt`, `sk/ui.txt` -- Slovak by default, English
 the fallback for a missing key; chosen in the settings, "my language", with the vocabulary asked through it); the
-language LEARNED is chosen on one line with the EXERCISE -- **Words**, **Morphology**, **Syntax** -- and that exercise's
+language LEARNED is chosen on one line with the EXERCISE -- **Words**, **Morphology**, **Syntax**, **Overview** -- and that exercise's
 filters (the level, the word category's first level, the structure, the rule set, the verbs); the word modes (the
 vocabulary both ways, der/die/das, the plural, gender, aspect, measure word, articles) are tabs under it. Every choice
 is kept across visits (engine/storage.js: the name and the settings `view`, `pair` = { learn, other: my language },
@@ -200,12 +223,26 @@ shows once a browsing session; `trainer.html#panel-settings|stats|data` opens th
   wrong ones of the same word that other rules make: each language's rule sets in `<lang>/rules/forms.txt`, the forms
   from engine/paradigm.js (each language's own morph.js); the verbs switch (all / irregular) narrows it to forms the
   regular rule alone would make differently.
+- **The structures a language has, and a sentence for each** (`world/structures.txt`, engine/structures.js
+  `loadStructures`): one or two SIMPLE language-free example plans per structure of the syllabus, which every language's
+  realizer says; `-ru -zh` after a structure's name marks a plan a realizer cannot say (no such construction, or said
+  wrong). The Syntax exercise offers a language only the structures with a plan it says; it draws the planner's
+  sentences first -- a word of the level, then any level (`PHASES`: the words need not be of the level where the
+  structure is rare), then longer sentences -- and when none shows the structure, says a declared plan: a structure
+  always has a sentence (at German FREQ 1 the planner alone found one for 16 of 66). A structure's IMPLIED ones (a
+  polite request is a modal in the Konjunktiv II, a question; an indirect yes/no question a whether-clause) do not
+  count against it in focus.
+- **Overview** (engine/practice.js `overview`, ui.showOverview): in the card's place, the language's structures by
+  stage, each with its declared example sentence, every word in the colour of its part of speech (the word looked up in
+  the language's forms index, engine/wordforms.js -- the plan's own concepts first), then the rule sets of forms, each
+  with one of those sentences where a form it asks stands (the form marked, by engine/forms.js formsQuestion). A row
+  clicked opens that exercise on the structure or rule set.
 - **Recorded data** (⋯): every answer kept in the browser, newest first, by exercise, and the whole log as JSON.
 
 ## The header (engine/header.js)
 
 One header for the three pages, built at start: the title left (a click switches trainer <-> dictionary); in the upper
-right corner the page tabs Trainer | 📖 Dictionary | 📄 Reading and, under them, the learner's name and the ⋯ menu
+right corner the page tabs Grammar | 📖 Dictionary | 📄 Reading and, under them, the learner's name and the ⋯ menu
 (icon only): settings, statistics, recorded data -- the trainer's panels, from another page links into the trainer --
 and the sentence generator. ONE LANGUAGE across the pages: the pair setting is the only record of the language chosen;
 the dictionary and the reading page read it on start and write `learn` back when their select changes (storage.js
@@ -222,11 +259,26 @@ FREQ, category and parts, the Slovak meanings, the grammar details (gender, plur
 comparison, auxiliary, model, measure word, combinations), "the same word" as other parts of speech (work N · práca /
 V · fungovať), its MORPHOLOGY TABLE from engine/paradigm.js's cells laid out per language and part of speech
 (`LAYOUTS`, rows and columns in the language's own grammar words), RELATED WORDS as links: the concept's other words,
-the word family (`root`, derived adverbs included), the words sharing a component of its `parts` or its stem (laufen <>
-aus·laufen, Haus <> Haus|tür -- a component counts only when it is a word of the dictionary), the translations in the
-other seven languages (loaded when asked), three example sentences (spoken on click), and a 🎤 that recognises a word
-said (Listening). The address hash holds language and entry. German has a der · die · das mode (the toggle beside the
-search): the pattern's nouns counted and shared by article, then listed by article (*ung. -> die 99 %).
+its OPPOSITES (the `opposite` concepts' words: arm <> reich), the word family (`root`, derived adverbs included), the
+words sharing a component of its `parts` or its stem (laufen <> aus·laufen, Haus <> Haus|tür -- a component counts only
+when it is a word of the dictionary), the translations in the other seven languages (loaded when asked), three example
+sentences (spoken on click), and a 🎤 that recognises a word said (Listening). The address hash holds language and
+entry. German has a der · die · das mode (the toggle beside the search): the pattern's nouns counted and shared by
+article, then listed by article (*ung. -> die 99 %).
+
+**Chinese characters (engine/hanzi.js, zh/composition.txt).** The composition file gives each character its components
+in the order they are written (`的:白|勺`; `|` left to right, `/` top to bottom, `+` one over or inside the other), down
+to radical forms (扌 氵 亻) and strokes (the CJK stroke characters ㇐ ㇑ ㇒, or a stroke count for a part not broken up:
+`豕:7`, `⺀:2`). From it: a character's components and STROKE COUNT (the sum over the sequence as written -- 心 has ㇔
+three times) and, the other way, every character a component is written in, directly or inside one of its components
+(木 in 相, so in 想). A Chinese entry lists its CHARACTERS: each with its layout (every component a link), its stroke
+count and "in N characters · in N words". A component opens the COMPONENT VIEW (`#zh/comp/木`): its dictionary entries
+if it is a word, its composition one level down, the characters it is in (direct ones first and bold, those through a
+component lighter; glossed with pinyin and meaning when they are words), and the dictionary words containing it. A
+character or component typed in the search gets a "component" row above the words. The 部件 toggle beside the search
+(`#zh/comp/`) is the INDEX OF COMPONENTS by stroke count, the most used first (with how many characters have each) -- the
+way in for a learner who sees a character and knows only its parts. Composition covers ~2,350 characters (the commonest
+first); a character without a line has no characters section.
 
 ## Reading (reading.html, engine/reading.js)
 

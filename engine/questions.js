@@ -1,7 +1,7 @@
 // The kinds of question, for a pair of languages -- the one learned and the one it is learned with (modesFor). Each
 // mode has
 //   group              "words" (a word asked, spaced repetition) or "sentences" (a sentence made: engine/practice.js)
-//   kind               a sentence mode's exercise: "order" (word order) or "forms" (the form left out)
+//   kind               a sentence mode's exercise: "order" (word order), "forms" (the form left out) or "overview" (the examples)
 //   filter             the choice beside the level that narrows it: "category", "structure", "rule"
 //   fits(entry)        can this entry be asked this way
 //   label              what the tab says: a key of the learner's language (engine/text.js) or words as they are
@@ -134,6 +134,7 @@ export function modesFor(learn, other, dicts) {
     // morphology (a form left out); the labels are keys of the learner's language (engine/text.js)
     [`order:${learn}`]: { label: "syntax", group: "sentences", kind: "order", filter: "structure" },
     [`forms:${learn}`]: { label: "morphology", group: "sentences", kind: "forms", filter: "rule" },
+    [`overview:${learn}`]: { label: "overview", group: "sentences", kind: "overview", filter: null },   // (every structure and form with an example: no question)
   };
 }
 

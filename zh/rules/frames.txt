@@ -897,8 +897,8 @@
 一起玩 = hrať s : companion pre 和
 玩 = hrať s : companion pre 和
 录制 = nahrať (v štúdiu) : patient
-播放 = prehrať : patient
-输 = prehrať : patient [game]
+播放 = prehrať (nahrávku) : patient
+输 = prehrať (zápas) : patient [game]
 炫耀 = vystatovať sa : instrument direct
 显摆 = vystatovať sa : instrument direct
 奖励 = odmeniť : patient direct, purpose pre 因为

@@ -67,6 +67,9 @@
 3 N die Mehrkosten {Mehr|kosten} [ˈmeːɐkɔstən], PL = dodatočné náklady
 3 V abzocken {ab·zocken} [ˈaptsɔkən], hat (A) = podviesť, obrať o peniaze
 3 V honorieren {honorieren} [honoˈʁiːʁən], hat (A) = odmeniť, oceniť
+2 N die Preissenkung {Preis|senkung} [ˈpʁaɪszɛŋkʊŋ], Preissenkungen = zníženie ceny
+2 V reich werden {reich werden} [ʁaɪç ˈveːɐdən], wird reich/wurde reich/reich geworden [vɪʁt ʁaɪç/ˈvʊʁdə ʁaɪç/ʁaɪç ɡəˈvɔʁdən], ist = zbohatnúť
+2 V sich ausleihen {sich aus·leihen} [zɪç ˈaʊslaɪən], leiht aus/lieh aus/ausgeliehen [laɪt aʊs/liː aʊs/ˈaʊsɡəliːən], hat (A) = požičať si
 
 # buying-selling
 1 V kaufen {kaufen} [ˈkaʊfən], hat (A) = kúpiť
@@ -193,6 +196,8 @@
 3 V shoppen {shoppen} [ˈʃɔpən], hat = nakupovať, chodiť po nákupoch
 3 V offerieren {offerieren} [ɔfeˈʁiːʁən], hat (D A) = ponúknuť
 3 V versenden {ver|senden} [fɛɐˈzɛndən], versendet/versandte/versandt [fɛɐˈzɛndət/fɛɐˈzantə/fɛɐˈzant], hat (A) = odoslať, rozosielať
+3 N die Verbilligung {Ver|billigung} [fɛɐˈbɪlɪɡʊŋ], Verbilligungen = zlacnenie
+1 V verkaufen {ver|kaufen} [fɛɐˈkaʊfən], hat (A) = predávať
 
 # places-of-trade
 1 N der Laden {Laden} [ˈlaːdən], Läden = obchod
@@ -376,6 +381,8 @@
 3 V transferieren {transferieren} [tʁansfeˈʁiːʁən], hat (A) = previesť, presunúť
 3 V fusionieren {fusionieren} [fuzjoˈniːʁən], hat (mit D) = zlúčiť sa, fúzovať
 3 V einlagern {ein·lagern} [ˈaɪnlaːɡɐn], hat (A) = uskladniť
+3 N die Deflation {Deflation} [deflaˈtsjoːn], Deflationen = deflácia
+3 N der Abnehmer {Ab|nehmer} [ˈapneːmɐ], Abnehmer = odberateľ
 
 # trade
 3 V lizenzieren {lizenzieren} [litsɛnˈtsiːʁən], hat (A) = licencovať

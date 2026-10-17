@@ -76,6 +76,7 @@
 3 N die Attacke {Attacke} [aˈtakə], Attacken = útok
 2 V attackieren {attackieren} [atakˈiːʁən], hat (A) = zaútočiť, napadnúť
 3 V diskreditieren {diskreditieren} [dɪskʁediˈtiːʁən], hat (A) = zdiskreditovať
+3 N die Deeskalation {De|eskalation} [deɛskalaˈtsjoːn], Deeskalationen = deeskalácia
 
 # army
 2 N die Armee {Armee} [aʁˈmeː], Armeen = armáda
@@ -185,6 +186,7 @@
 3 V parieren {parieren} [paˈʁiːʁən], hat (A) = odraziť, odvrátiť, poslúchať
 2 V ausrücken {aus·rücken} [ˈaʊsʁʏkən], ist = vyraziť, vyrážať (hasiči), ujsť
 3 V rüsten {rüsten} [ˈʁʏstən], hat (sich A) = zbrojiť, vyzbrojiť
+3 AN unbewaffnet {un|bewaffnet} [ˈʊnbəvafnət] = neozbrojený
 
 # war
 3 V plündern {plündern} [ˈplʏndɐn], hat (A) = plieniť, drancovať

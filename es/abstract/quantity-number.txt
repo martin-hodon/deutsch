@@ -171,6 +171,9 @@
 2 AV en promedio {en·promedio} [en pɾoˈmeðjo] = priemerne
 3 AV por encima de la media {por·encima·de·la·media} [poɾ enˈθima de la ˈmeðja] = nadpriemerne
 1 AN demás {demás} [deˈmas] = zvyšný
+2 N el valor mínimo {valor mínimo} [baˈloɾ ˈminimo], valores mínimos = minimálna hodnota
+2 N el mínimo {mínimo} [ˈminimo], mínimos = minimálna hodnota
+2 V desatar {des|atar} [desaˈtaɾ] = rozviazať
 
 # counting-measuring
 1 N el número {número} [ˈnumeɾo], números = číslo (matematické)
@@ -228,6 +231,7 @@
 2 NUM dos y medio {dos y medio} [ˈdos i ˈmeðjo] = dva a pol
 2 N el metro cúbico {metro cúbico} [ˈmetɾo ˈkuβiko], metros cúbicos = kubický meter
 2 AV al máximo {al·máximo} [al ˈmaksimo] = maximálne
+2 N el denominador {denominador} [denominaˈðoɾ], denominadores = menovateľ
 
 # more
 3 N el billón {billón} [biˈʎon], billones = bilión

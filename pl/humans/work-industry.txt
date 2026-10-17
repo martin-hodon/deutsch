@@ -204,6 +204,10 @@
 3 AV koleżeńsko {koleżeńsko} [kɔlɛˈʐɛɲskɔ] = kolegiálne
 3 AV odpowiedzialnie {odpowiedzialnie} [ɔtpɔvʲɛˈdʑalɲɛ] = zodpovedne
 3 AV nieodpowiedzialnie {nieodpowiedzialnie} [ɲɛɔtpɔvʲɛˈdʑalɲɛ] = nezodpovedne
+2 N zatrudnienie {za|trudnienie} [zatrudˈɲɛɲɛ], n, - = zamestnanosť
+2 N podwładny {podwładny} [pɔdˈvwadnɨ], m, podwładni = podriadený
+3 N laik {laik} [ˈlajik], m, laicy = laik
+3 N degradacja {degradacja} [dɛɡraˈdatsja], ż, - = degradácia
 
 # making-doing
 1 V robić {robić} [ˈrɔbitɕ], zrobić = robiť
@@ -287,6 +291,8 @@
 3 V piłować {piłować} [pʲiˈwɔvatɕ], spiłować = pilovať
 3 V preparować {preparować} [prɛpaˈrɔvatɕ], wypreparować = vypreparovať
 3 AV produktywnie {produktywnie} [prɔdukˈtɨvɲɛ] = produktívne
+2 V burzyć {burzyć} [ˈbuʐɨtɕ], zburzyć (B) = búrať
+2 V wyburzać {wy|burzać} [vɨˈbuʐatɕ], wyburzyć (B) = búrať
 
 # tools
 1 N młotek {młotek} [ˈmwɔtɛk], m, młotki = kladivo

@@ -43,6 +43,7 @@
 3 PHR nebulosa {nebulosa} [neβuˈlosa] = hmlovina
 1 N el universo {universo} [uniˈβeɾso], universos = vesmír
 2 N el espacio {espacio} [esˈpaθjo], espacios = vesmír
+3 N la puesta de la luna {puesta de la luna} [ˈpwesta de la ˈluna], puestas de la luna = západ mesiaca
 
 # sky-phenomena
 1 N el cielo {cielo} [ˈθjelo], cielos = obloha

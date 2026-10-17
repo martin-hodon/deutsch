@@ -116,6 +116,10 @@
 3 AV miesięcznie {miesięcznie} [mʲɛˈɕɛntʂɲɛ] = mesačne
 3 AV kwartalnie {kwartalnie} [kfarˈtalɲɛ] = štvrťročne
 3 AV cyklicznie {cyklicznie} [tsɨˈklitʂɲɛ] = cyklicky
+2 AN długotrwały {długo|trwały} [dwuɡɔˈtrfawɨ] = dlhodobý
+3 AN długoterminowy {długo|terminowy} [dwuɡɔtɛrmʲiˈnɔvɨ] = dlhodobý
+2 AV na stałe {na stałe} [na ˈstawɛ] = natrvalo
+2 AV trwale {trwale} [ˈtrfalɛ] = natrvalo
 
 # day-parts-and-week
 1 N rano {rano} [ˈranɔ], n, - = ráno
@@ -153,6 +157,8 @@
 2 AN sezonowy {sezonowy} [sɛzɔˈnɔvɨ] = sezónny
 3 N godzina poranna {godzina poranna} [ɡɔˈdʑina pɔˈranːa], ż, godziny poranne = ranná hodina
 3 AV sezonowo {sezonowo} [sɛzɔˈnɔvɔ] = sezónne
+1 AV przed południem {przed południem} [pʂɛt pɔˈwudɲɛm] = predpoludním
+1 AV o północy {o północy} [ɔ puwˈnɔtsɨ] = o polnoci
 
 # relative-time
 1 AV potem {potem} [ˈpɔtɛm] = potom
@@ -319,6 +325,9 @@
 2 AV codziennie {codziennie} [tsɔˈdʑɛnːɲɛ] = každodenne
 1 AV znów {znów} [znuf] = opäť
 2 AV tuż {tuż} [tuʂ] = hneď
+2 N następny dzień {następny dzień} [naˈstɛmpnɨ dʑɛɲ], m, następne dni = nasledujúci deň
+2 AV najwcześniej {naj|wcześniej} [najˈftʂɛɕɲɛj] = najskôr
+2 AV wyjątkowo {wyjątkowo} [vɨjɔntˈkɔvɔ] = výnimočne
 
 # months
 1 N styczeń {styczeń} [ˈstɨtʂɛɲ], m, - = január

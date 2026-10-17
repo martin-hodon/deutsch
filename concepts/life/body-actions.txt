@@ -6,6 +6,7 @@ V stáť v rade
 V prestáť
 V byť isté
 V blížiť sa
+V vzďaľovať sa
 V stáť tam
 V vystáť
 V byť pripravený
@@ -51,6 +52,7 @@ N potápač
 V ponoriť (sa)
 V lietať
 V odletieť
+V priletieť
 V preletieť
 N letec
 V kráčať
@@ -129,6 +131,7 @@ V prispieť
 AN prenositeľný
 AN nosný
 V dvíhať
+V spúšťať
 V zodvihnúť
 V zdvihnúť
 V nadvihnúť
@@ -206,6 +209,7 @@ V klopať
 V zaklopať
 V visieť
 V zavesiť
+V zvesiť
 V zakryť
 V kmitať
 N elán

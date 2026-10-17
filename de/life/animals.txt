@@ -112,6 +112,8 @@
 3 N die Rasse {Rasse} [ˈʁasə], Rassen = plemeno, rasa
 3 N das Gehege {Gehege} [ɡəˈheːɡə], Gehege = ohrada
 3 N die Henne {Henne} [ˈhɛnə], Hennen = sliepka
+2 N der Widder {Widder} [ˈvɪdɐ], Widder = baran
+3 N der Ziegenbock {Ziegen|bock} [ˈtsiːɡənbɔk], Ziegenböcke = cap
 
 # birds
 1 N der Vogel {Vogel} [ˈfoːɡəl], Vögel = vták
@@ -158,6 +160,8 @@
 3 N die Wachtel {Wachtel} [ˈvaxtəl], Wachteln = prepelica
 3 N der Zaunkönig {Zaun|könig} [ˈtsaʊnkøːnɪç], Zaunkönige = oriešok
 3 N der Habicht {Habicht} [ˈhaːbɪçt], Habichte = jastrab
+3 N der Erpel {Erpel} [ˈɛʁpəl], Erpel = káčer
+3 N der Gänserich {Gänserich} [ˈɡɛnzəʁɪç], Gänseriche = gunár
 
 # fish-reptiles-amphibians
 1 N der Fisch {Fisch} [fɪʃ], Fische = ryba

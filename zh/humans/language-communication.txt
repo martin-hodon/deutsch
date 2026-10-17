@@ -406,6 +406,14 @@
 2 V 认同 {认同} [rèntóng] = súhlasiť
 2 N 通讯 {通讯} [tōngxùn], - = komunikácia
 2 N 议题 {议题} [yìtí], 个 = téma
+2 N 反对 {反对} [fǎnduì], - = nesúhlas
+1 N 不同意 {不同意} [bù tóngyì], - = nesúhlas
+3 N 异议 {异议} [yìyì], 个 = nesúhlas
+2 N 否认 {否认} [fǒurèn], - = popretie
+3 N 耳语 {耳语} [ěryǔ], - = šepot
+3 N 低语 {低语} [dīyǔ], 声 = šepot
+2 V 辩护 {辩护} [biànhù] = obhajovať
+3 V 捍卫 {捍卫} [hànwèi] = obhajovať
 
 # language-writing
 1 N 词 {词} [cí], 个 = slovo
@@ -613,6 +621,7 @@
 2 N 稿子 {稿子} [gǎozi], 份 = koncept
 2 N 简介 {简介} [jiǎnjiè], 份 = zhrnutie
 2 N 图书 {图书} [túshū], - = kniha
+3 N 单数 {单数} [dānshù], - = jednotné číslo
 
 # media-news
 1 N 消息 {消息} [xiāoxi], 条 = správa (oznam)

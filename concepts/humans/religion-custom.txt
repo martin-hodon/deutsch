@@ -52,6 +52,7 @@ AN podivuhodný : adverb podivuhodne
 N strašidlo
 AN nesmrteľný
 N nesmrteľnosť
+N smrteľnosť
 N biblia
 AN biblický
 N ikona
@@ -85,7 +86,7 @@ N Žid
 N Židovka
 AN židovský
 AN katolícky
-N farár
+N farár : of kňaz @ kresťanstvo
 N kresťanstvo
 N islam
 N judaizmus
@@ -96,7 +97,7 @@ N katolík
 N pastor
 N raj
 N veriaci
-N omša
+N omša : of bohoslužba @ katolicizmus
 AN evanjelický
 AN ekumenický
 

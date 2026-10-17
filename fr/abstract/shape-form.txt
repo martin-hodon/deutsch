@@ -193,3 +193,9 @@
 3 AV rudement {rude|ment} [ʁydˈmɑ̃] = drsne
 3 AV symétriquement {symétrique|ment} [simetʁikˈmɑ̃] = symetricky
 3 AV en diagonale {en diagonale} [ɑ̃ djaɡɔˈnal] = uhlopriečne
+2 AN asymétrique {a|symétrique} [asimeˈtʁik] = asymetrický
+3 AN bidimensionnel {bi|dimensionnel} [bidimɑ̃sjɔˈnɛl], bidimensionnelle = dvojrozmerný
+2 AN en deux dimensions {en deux dimensions} [ɑ̃ dø dimɑ̃ˈsjɔ̃] = dvojrozmerný
+3 N l'émoussement (m) {émousse|ment} [emusˈmɑ̃], émoussements = tuposť
+3 N l'asymétrie (f) {a|symétrie} [asimeˈtʁi], asymétries = asymetria
+1 N la courbe {courbe} [kuʁb], courbes = krivka

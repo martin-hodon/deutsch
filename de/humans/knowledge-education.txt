@@ -211,6 +211,7 @@
 3 N die Recherche {Recherche} [ʁeˈʃɛʁʃə], Recherchen = rešerš, prieskum, zisťovanie
 3 N die Architektur {Architektur} [aʁçitɛkˈtuːɐ], - = architektúra
 - 3 AN architektonisch {architektonisch} [aʁçitɛkˈtoːnɪʃ] = architektonický
+3 N die Synthese {Synthese} [zʏnˈteːzə], Synthesen = syntéza
 
 # fields-of-study
 2 N die Mathematik {Mathematik} [matemaˈtiːk], - = matematika

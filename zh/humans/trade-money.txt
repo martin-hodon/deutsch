@@ -86,6 +86,14 @@
 2 N 经费 {经费} [jīngfèi], 笔 = financie
 2 N 金钱 {金钱} [jīnqián], - = peniaze
 2 N 取款机 {取款机} [qǔkuǎnjī], 台 = bankomat
+2 N 降价 {降价} [jiàngjià], - = zníženie ceny
+3 N 价格下降 {价格下降} [jiàgé xiàjiàng], - = zníženie ceny
+2 V 发财 {发|财} [fācái] = zbohatnúť
+2 V 变富 {变富} [biànfù] = zbohatnúť
+3 V 致富 {致|富} [zhìfù] = zbohatnúť
+1 V 借 {借} [jiè] = požičať si
+2 V 借钱 {借|钱} [jièqián] = požičať si
+3 V 借入 {借入} [jièrù] = požičať si
 
 # buying-selling
 1 V 买 {买} [mǎi] = kúpiť
@@ -245,6 +253,12 @@
 2 N 商标 {商标} [shāngbiāo], 个 = značka
 2 AN 高档 {高档} [gāodàng] = luxusný
 2 N 商城 {商城} [shāngchéng], 个 = nákupné centrum
+2 N 降价 {降价} [jiàngjià], - = zlacnenie
+3 N 减价 {减价} [jiǎnjià], - = zlacnenie
+1 V 卖 {卖} [mài] = predávať
+2 V 出售 {出售} [chūshòu] = predávať
+2 V 销售 {销售} [xiāoshòu] = predávať
+1 V 卖东西 {卖|东西} [màidōngxi] = predávať
 
 # places-of-trade
 1 N 市场 {市场} [shìchǎng], 个 = trh
@@ -519,6 +533,11 @@
 2 V 捐助 {捐助} [juānzhù] = darovať (na dobročinnosť)
 2 N 名额 {名额} [míng'é], 个 = kvóta
 2 V 协商 {协商} [xiéshāng] = rokovať
+3 N 通缩 {通缩} [tōngsuō], - = deflácia
+3 N 通货紧缩 {通货紧缩} [tōnghuòjǐnsuō], - = deflácia
+2 N 买家 {买家} [mǎijiā], 位 = odberateľ
+2 N 客户 {客户} [kèhù], 个 = odberateľ
+3 N 采购商 {采购商} [cǎigòushāng], 家 = odberateľ
 
 # trade
 3 V 授权 {授|权} [shòuquán] = licencovať

@@ -42,6 +42,7 @@
 3 PHR туманность {туманность} [tuˈmanːəstʲ] = hmlovina
 2 N вселенная {вселенная} [fsʲɪˈlʲenːəjə], ж, вселенные = vesmír
 2 N космос {космос} [ˈkosməs], м, - = vesmír
+3 N заход луны {заход луны} [zɐˈxot luˈnɨ], м, заходы луны = západ mesiaca
 
 # sky-phenomena
 1 N небо {небо} [ˈnʲebə], с, небеса = obloha

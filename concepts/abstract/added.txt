@@ -12,12 +12,13 @@ AN lepkavý -- lepkavý, lepivý: 黏
 N moč -- moč: 尿
 AN zvislý -- zvislý, kolmý: 竖线
 AN plešatý -- plešatý, holohlavý: 他秃了
+AN vlasatý
 N struna -- struna hudobného nástroja: 琴弦
 N buchta -- parená alebo pečená kysnutá buchta, aj plnená
 N čínština -- čínsky jazyk
 N čínsky znak -- jeden znak čínskeho písma
 AN príjemný na počúvanie -- o hlase, hudbe, piesni
-N letenka
+N letenka : of lístok @ lietanie
 N školská budova -- budova, v ktorej sa vyučuje
 N tento rok
 N budúci rok
@@ -67,11 +68,13 @@ N čínska kapusta
 N ochrankár -- strážca bezpečnosti budovy alebo podniku
 N silná stránka
 AN začiatočnícky
+AN pokročilý
 N televízny seriál
 N televízna stanica
 N slabá stránka
 N člen tímu
 AN rozvinutý -- hospodársky alebo spoločensky vyspelý
+AN zaostalý
 AN vysokorýchlostný
 N rôzne časti krajiny -- všetky kraje a oblasti krajiny, 各地
 N kung-fu -- čínske bojové umenie
@@ -108,6 +111,7 @@ N elektrický zdroj -- zdroj elektrickej energie
 AN použitý -- už predtým používaný
 N faktúra -- doklad o kúpe
 N vysoká cena -- vysoká hodnota tovaru
+N nízka cena
 N rýchlovlak -- vysokorýchlostný vlak
 N jednotlivec -- jeden človek ako člen celku
 N kompaktný disk -- CD alebo DVD
@@ -119,6 +123,7 @@ N červená obálka -- obálka s peniazmi ako dar
 AN pevný -- tvrdý a stabilný
 N spoločenský styk -- stýkanie sa s ľuďmi
 N novovek -- obdobie nedávnej minulosti
+N stredovek
 N objektív -- šošovka fotoaparátu alebo kamery
 N vriaca voda -- vyvarená voda
 N hovorový jazyk -- hovorená reč
@@ -131,6 +136,7 @@ N vnútorné lekárstvo -- odbor lekárstva
 N tlstoch -- tučný človek
 N druhá mocnina -- číslo vynásobené samým sebou
 N koniec semestra -- posledné týždne školského obdobia
+N začiatok semestra
 N polovica semestra -- stred školského obdobia
 N mladosť -- obdobie mladého veku
 N chudobný človek -- chudobný človek
@@ -147,6 +153,7 @@ N vyučovacia hodina -- jednotka vyučovania
 N doktorand -- postgraduálny študent
 AN amatérsky -- nie profesionálny
 N koniec mesiaca -- posledné dni mesiaca
+N začiatok mesiaca
 N športové podujatie -- športové hry, súťaže, atletický deň
 N záverečný ceremoniál -- slávnostné zakončenie podujatia
 N sklo -- priehľadný materiál
@@ -189,6 +196,7 @@ N školský predmet -- odbor vedomostí, ktorý sa učí
 N akademický titul -- stupeň vysokoškolského vzdelania
 N učenec -- vzdelaný človek, bádateľ
 N druhé miesto -- v súťaži
+N prvé miesto
 N bedminton -- loptová hra s raketou a košíčkom
 N páperová bunda -- zimná bunda plnená perím
 N dažďová voda -- voda z dažďa
@@ -212,6 +220,7 @@ N dvojhra -- zápas jednotlivcov proti sebe
 AN pirátsky -- nelegálne kopírovaný
 N taoizmus -- čínske náboženstvo a filozofia
 N nízka teplota -- chlad
+N vysoká teplota
 N názov miesta -- meno obce alebo lokality
 N sviatok dračích lodí -- čínsky sviatok piateho dňa piateho mesiaca
 N dobrodinec -- človek, ktorý pomohol
@@ -224,6 +233,7 @@ N otec a dcéra -- otec s dcérou
 N otec a syn -- otec so synom
 AN dojímavý -- vzbudzujúci cit
 AN vyšší -- vyššieho stupňa
+AN nižší
 N špičková technológia -- najmodernejšia technika
 N spevácka hviezda -- slávny spevák
 N priemysel a obchod -- hospodárske odvetvia
@@ -236,9 +246,11 @@ N prvá pomoc -- ošetrenie pri nehode
 N sójová omáčka -- soy sauce, 酱油
 N ministerstvo školstva -- Ministry of Education
 AN krátkozraký -- 近视: krátkozrakosť
+AN ďalekozraký
 N skúšobná miestnosť -- miestnosť, kde sa píše skúška
 N skúšobná otázka -- otázka na skúške
 N ústna skúška -- oral exam
+N písomná skúška
 N rýchlik -- rýchly vlak
 N rubrika -- stály oddiel novín alebo vysielania
 N krajan -- človek z rovnakého kraja alebo národa
@@ -299,6 +311,7 @@ N výbušnina
 N spolubojovník
 N index
 N hlavná postava
+N vedľajšia postava
 AN vyhradený
 N voda z vodovodu
 N vlastné ja

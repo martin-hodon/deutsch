@@ -146,6 +146,8 @@
 2 AV publicznie {publicznie} [puˈblitʂɲɛ] = verejne
 3 AV priorytetowo {priorytetowo} [prʲiɔrɨtɛˈtɔvɔ] = prednostne
 2 AV uczciwie {uczciwie} [uˈtʂtɕivʲɛ] = čestne
+2 N głos za {głos za} [ɡwɔs za], m, głosy za = hlas za
+2 V imigrować {imigrować} [imʲiˈɡrɔvatɕ], - = imigrovať
 
 # state-politics
 1 N państwo {państwo} [ˈpaɲstfɔ], n, państwa = štát
@@ -543,6 +545,10 @@
 3 AV potężnie {potężnie} [pɔˈtɛ̃ʐɲɛ] = mohutne
 3 AV gwałtownie {gwałtownie} [ɡvawˈtɔvɲɛ] = násilne
 3 AV jednogłośnie {jednogłośnie} [jɛdnɔˈɡwɔɕɲɛ] = jednohlasne
+2 AN pokojowy {pokojowy} [pɔkɔˈjɔvɨ] = nenásilný
+3 AN bezprzemocowy {bez|przemocowy} [bɛspʂɛmɔˈtsɔvɨ] = nenásilný
+3 N poddany {poddany} [pɔdˈdanɨ], m, poddani = poddaný
+3 V demobilizować {demobilizować} [dɛmɔbʲiliˈzɔvatɕ], zdemobilizować (B) = demobilizovať
 
 # law-justice
 1 N prawo {prawo} [ˈpravɔ], n, prawa = zákon
@@ -836,6 +842,8 @@
 3 AV natarczywie {natarczywie} [natarˈtʂɨvʲɛ] = dotieravo
 3 AV obowiązkowo {obowiązkowo} [ɔbɔvʲɔ̃sˈkɔvɔ] = povinne
 3 AV poufnie {poufnie} [pɔˈufɲɛ] = dôverne
+2 N obrona {obrona} [ɔˈbrɔna], ż, obrony = obhajoba
+2 V zatwierdzać {zatwierdzać} [zaˈtfʲɛrdzatɕ], zatwierdzić (B) = schváliť
 
 # politics
 3 V radykalizować {radykalizować} [radɨkaliˈzɔvatɕ], zradykalizować (B) = radikalizovať

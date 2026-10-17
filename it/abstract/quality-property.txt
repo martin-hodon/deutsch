@@ -680,6 +680,16 @@
 1 AV male {male} [ˈmaːle] = zle
 2 AV erroneamente {erronea|mente} [erːoneaˈmente] = nesprávne
 2 AV in sicurezza {in·sicurezza} [in sikuˈrettsa] = bezpečne
+2 AN secondario {secondario} [sekonˈdaːrjo], secondaria = vedľajší
+3 AN subordinato {sub|ordinato} [subordiˈnaːto], subordinata (a) = podriadený
+3 AN implicito {implicito} [imˈpliːtʃito], implicita = implicitný
+2 AN crescente {crescente} [kreˈʃːɛnte] = stúpajúci
+2 AN comico {comico} [ˈkɔːmiko], comica, comici/comiche = komický
+3 AN sottomesso {sotto|messo} [sotːoˈmesːo], sottomessa = submisívny
+2 AN poco pratico {poco pratico} [ˈpɔːko ˈpraːtiko], poco pratica, poco pratici/poco pratiche = nepraktický
+2 AN inaccessibile {in|accessibile} [inattʃeˈsːiːbile] = neprístupný
+2 N l'imperfezione (f) {im|perfezione} [imperfeˈtsjoːne], imperfezioni = nedokonalosť
+2 N la complessità {complessità} [komplesːiˈta], complessità = zložitosť
 
 # state-properties
 1 AN nuovo {nuovo} [ˈnwɔːvo], nuova = nový
@@ -1170,6 +1180,14 @@
 1 AV forte {forte} [ˈfɔrte] = hlasno
 3 AV caro {caro} [ˈkaːro] = nákladne
 3 AV a piacere {a·piacere} [a pjaˈtʃeːre] = ľubovoľne
+3 AN minoritario {minoritario} [minoriˈtaːrjo], minoritaria = menšinový
+2 AN inaffidabile {in|affidabile} [inafːiˈdaːbile] = nespoľahlivý
+2 AN inesistente {in|esistente} [inezisˈtɛnte] = neexistujúci
+3 N la morbidezza {morbidezza} [morbiˈdettsa], - = mäkkosť
+2 N la lentezza {lentezza} [lenˈtettsa], - = pomalosť
+3 N l'instabilità (f) {in|stabilità} [instabiliˈta], instabilità = nestabilita
+2 AV il meno possibile {il meno possibile} [il ˈmeːno poˈsːiːbile] = čo najmenej
+2 V rafforzarsi {rafforzarsi} [rafːorˈtsarsi] = silnieť
 
 # corpus-adjectives
 2 AN ben pensato {ben pensato} [ben penˈsaːto], ben pensata = premyslený
@@ -1347,3 +1365,4 @@
 2 AV incredibilmente {incredibilmente} [iŋkredibilˈmente] = neuveriteľne
 2 AN elevato {elevato} [eleˈvaːto], elevata = zvýšený
 2 AN aumentato {aumentato} [aumenˈtaːto], aumentata = zvýšený
+2 AN ridotto {ridotto} [riˈdotːo], ridotta = znížený

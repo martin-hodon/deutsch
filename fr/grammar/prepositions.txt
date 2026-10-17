@@ -77,3 +77,6 @@
 
 # more
 3 PHR indépendamment de {indépendamment de} [ɛ̃depɑ̃damɑ̃ ˈdə] = bez ohľadu na
+
+# language-specific closed words (no Slovak word: a description)
+1 PRE plus de {plus de} [ply də] = viac ako

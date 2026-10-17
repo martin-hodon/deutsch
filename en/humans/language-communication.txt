@@ -246,6 +246,10 @@
 3 V compliment {compliment} [ˈkɒmplɪment] (sb, on) = chváliť
 3 V dispute {dispute} [dɪˈspjuːt] (sth) = spochybniť
 3 V voice {voice} [vɔɪs] (sth) = vyjadriť
+2 N disagreement {dis|agreement} [ˌdɪsəˈɡriːmənt], disagreements = nesúhlas
+2 N denial {denial} [dɪˈnaɪəl], denials = popretie
+2 N whisper {whisper} [ˈwɪspə], whispers = šepot
+2 V defend {defend} [dɪˈfend] (sb, sth) = obhajovať
 # language-writing
 1 N word {word} [wɜːd], words = slovo
 2 N vocabulary {vocabul|ary} [vəˈkæbjələri], vocabularies = slovná zásoba
@@ -382,6 +386,7 @@
 2 AN linguistic {linguistic} [lɪŋˈɡwɪstɪk] = jazykový
 3 V label {label} [ˈleɪbəl] (sth) = označiť
 2 AV in writing {in·writing} [ɪn ˈraɪtɪŋ] = písomne
+2 N singular {singular} [ˈsɪŋɡjʊlə], singulars = jednotné číslo
 # media-news
 2 N message {message} [ˈmesɪdʒ], messages = správa (oznam)
 1 N news {news} [njuːz], - = správy

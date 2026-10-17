@@ -167,3 +167,9 @@
 3 AN tridimensional {tridimensional} [tɾiðimensjoˈnal] = trojrozmerný
 3 AN sobredimensionado {sobredimensionado} [soβɾeðimensjoˈnaðo], sobredimensionada = nadrozmerný
 2 AV suavemente {suavemente} [swaβeˈmente] = hladko
+3 AN asimétrico {a|simétrico} [asiˈmetɾiko], asimétrica = asymetrický
+2 AN bidimensional {bi|dimensional} [biðimensjoˈnal] = dvojrozmerný
+3 N la falta de filo {falta de filo} [ˈfalta de ˈfilo], - = tuposť
+3 N el embotamiento {embota|miento} [embotaˈmjento], embotamientos = tuposť
+3 N la asimetría {a|simetría} [asimeˈtɾia], asimetrías = asymetria
+2 N la curva {curva} [ˈkuɾβa], curvas = krivka

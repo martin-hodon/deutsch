@@ -56,6 +56,7 @@
 3 AN epic {epic} [ˈepɪk] = epický
 3 V curate {curate} [kjʊəˈreɪt] = kurátorovať
 3 V outline {outline} [ˈaʊtlaɪn] (sth) = načrtnúť
+2 N ugliness {ugli|ness} [ˈʌɡlɪnəs], - = škaredosť
 # music
 1 N music {music} [ˈmjuːzɪk], - = hudba
 1 N musician {music|ian} [mjuˈzɪʃən], musicians = hudobník
@@ -209,6 +210,7 @@
 3 V restore {restore} [rɪˈstɔː] = reštaurovať
 3 V synchronise {synchron|ise} [ˈsɪŋkrənaɪz] = synchronizovať
 3 AN autobiographical {auto|biograph|ical} [ɔːtəbaɪəˈɡræfɪkəl] = autobiografický
+3 N final performance {final performance} [ˌfaɪnəl pəˈfɔːməns], final performances = derniéra
 # games-sport
 1 N game {game} [ɡeɪm], games = hra
 1 V play {play} [pleɪ] (with, against) = hrať
@@ -225,7 +227,7 @@
 3 V put on shows {put on shows} [pʊt ɒn ˈʃəʊz] = uvádzať predstavenia
 2 V play along {play·along} [pleɪ əˈlɒŋ] (with) = hrať s
 2 V record {record} [rɪˈkɔːd] = nahrať (v štúdiu)
-2 V play back {play·back} [pleɪ ˈbæk] = prehrať
+2 V play back {play·back} [pleɪ ˈbæk] = prehrať (nahrávku)
 3 AN playable {play|able} [ˈpleɪəbəl] = hrateľný
 2 V play on {play·on} [pleɪ ˈɒn] = hrať ďalej
 3 V show off {show·off} [ʃəʊ ˈɒf], showed off/shown off = vystatovať sa
@@ -390,6 +392,8 @@
 2 V complete {complete} [kəmˈpliːt] (sth) = skompletizovať
 2 V surf {surf} [sɜːf] = surfovať
 2 V exercise {exercise} [ˈeksəsaɪz] = cvičiť (gymnastika)
+2 N amateur {amateur} [ˈæmətə], amateurs = amatér
+1 V lose {lose} [luːz], lost/lost = prehrať (zápas)
 # corpus-verbs
 3 V play off {play·off} [pleɪ ˈɒf] (sb against sb) = poštvať proti sebe
 3 V deflect {deflect} [dɪˈflekt] (sth) = odkloniť

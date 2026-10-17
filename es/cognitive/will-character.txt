@@ -122,6 +122,7 @@
 3 AV a regañadientes {a·regañadientes} [a reɣaɲaˈðjentes] = neochotne
 2 AV sin rumbo {sin·rumbo} [sin ˈrumbo] = bezcieľne
 2 AV sin éxito {sin·éxito} [sin ˈeksito] = neúspešne
+2 N la generosidad {generos|idad} [xeneɾosiˈðað], generosidades = štedrosť
 
 # character-traits
 2 N el carácter {carácter} [kaˈɾakteɾ], caracteres = charakter
@@ -317,6 +318,12 @@
 3 AN diligente {diligente} [diliˈxente] = svedomitý
 3 AN irónico {irónico} [iˈɾoniko], irónica = ironický
 3 AV laboriosamente {laboriosamente} [laβoɾjosaˈmente] = usilovne
+2 AN inmoral {in|moral} [inmoˈɾal] = nemorálny
+3 AN amoral {a|moral} [amoˈɾal] = nemorálny
+2 AN indulgente {indulgente} [indulˈxente] = zhovievavý
+2 AN permisivo {permisivo} [peɾmiˈsiβo], permisiva = zhovievavý
+2 V perder la costumbre {perder la costumbre} [peɾˈðeɾ la kosˈtumbɾe], e>ie (de) = odvyknúť si
+3 V desacostumbrarse {desacostumbrarse} [desakostumˈbɾaɾse] (de) = odvyknúť si
 
 # character
 2 AN cobarde {cobarde} [koˈβaɾðe] = zbabelý

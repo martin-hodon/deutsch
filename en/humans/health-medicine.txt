@@ -138,6 +138,8 @@
 3 N ache {ache} [eɪk], aches = bolesť
 3 N stab {stab} [stæb], stabs = bodnutie
 3 V wound {wound} [wuːnd] (sb) = zraniť
+3 AN sighted {sight|ed} [ˈsaɪtɪd] = vidiaci
+2 PHR come round {come round} [kʌm ˈraʊnd] = prebrať sa
 # treatment
 2 N medicine {medicine} [ˈmedsən], - = medicína
 2 AN medical {medic|al} [ˈmedɪkəl] = lekársky

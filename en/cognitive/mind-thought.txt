@@ -166,6 +166,8 @@
 2 V view {view} [vjuː] (sth) = pozrieť si
 3 V picture {picture} [ˈpɪktʃə] (sth) = predstaviť si
 3 V reason {reason} [ˈriːzən] (that) = usudzovať
+2 AN illogical {il|logical} [ɪˈlɒdʒɪkəl] = nelogický
+2 AN incompetent {in|competent} [ɪnˈkɒmpɪtənt] = nekompetentný
 # knowing
 1 V know {know} [nəʊ], knew/known (sth, that) = vedieť
 1 N knowledge {knowledge} [ˈnɒlɪdʒ], - = vedomosti
@@ -290,6 +292,7 @@
 1 V copy {copy} [ˈkɒpɪ] = napodobňovať
 3 V expose {expose} [ɪkˈspəʊz] = demaskovať
 2 AV incorrectly {in|correct|ly} [ˌɪnkəˈrektli] = chybne
+2 N ignorance {ignor|ance} [ˈɪɡnərəns], - = nevedomosť
 # memory
 1 N memory {memory} [ˈmemərɪ], memories = pamäť (schopnosť)
 1 V remember {remember} [rɪˈmembə] (sth, -ing, to do) = spomínať si
@@ -362,6 +365,7 @@
 3 V polarise {polarise} [ˈpəʊləraɪz] = polarizovať
 3 V mistake {mistake} [mɪˈsteɪk], mistook/mistaken (for) = pomýliť si
 2 AV without problems {without·problems} [wɪðˈaʊt ˈprɒbləmz] = bezproblémovo
+1 V be right {be right} [bi ˈraɪt] (about) = mať pravdu
 
 # more
 2 AN incredible {in|credible} [ɪnˈkredəbəl] = neuveriteľný

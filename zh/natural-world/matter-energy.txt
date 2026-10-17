@@ -96,6 +96,9 @@
 2 N 矿 {矿} [kuàng], - = ruda
 3 N 炭 {炭} [tàn], - = drevené uhlie
 3 N 氧 {氧} [yǎng], - = kyslík
+3 AN 固态 {固态} [gùtài] = tuhý
+2 V 变湿 {变湿} [biànshī] = zvlhnúť
+3 V 受潮 {受|潮} [shòucháo] = zvlhnúť
 
 # fire-light
 2 V 燃烧 {燃烧} [ránshāo] = horieť
@@ -161,6 +164,9 @@
 3 V 倒映 {倒映} [dàoyìng] = zrkadliť sa
 3 V 反射 {反射} [fǎnshè] = zrkadliť sa
 3 N 微光 {微光} [wēiguāng], 缕 = záblesk
+2 V 灭火 {灭|火} [mièhuǒ] = hasiť
+3 V 扑灭 {扑灭} [pūmiè] = hasiť
+3 V 熄灭 {熄灭} [xīmiè] = hasiť
 
 # energy-forces
 2 N 能量 {能量} [néngliàng], 种 = energia

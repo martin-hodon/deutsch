@@ -7,6 +7,7 @@ N spolupracovník
 N pracovisko
 N pracovný čas
 N nezamestnanosť
+N zamestnanosť
 AN nezamestnaný
 N spolupracovníčka
 N nezamestnaný
@@ -21,7 +22,7 @@ AN pracovný
 AN zamestnaný
 AN na voľnej nohe
 AN popri zamestnaní
-N šéf
+N šéf : of nadriadený @ hovorovo
 N šéfka
 N kolega
 N kolegyňa
@@ -62,6 +63,7 @@ V štrajkovať
 N odbory
 AN odborový
 N povýšenie
+N degradácia
 V povýšiť
 N inžinier
 N mechanik
@@ -93,6 +95,7 @@ V prezentovať
 N projekt
 N program rokovania
 N nadriadený
+N podriadený
 N technik
 N školník
 N murár
@@ -105,6 +108,7 @@ N vybavovanie
 N predchodca
 N vedúca
 N odborník
+N laik
 N zakladateľ
 N zakladateľka
 N prevádzka
@@ -127,7 +131,7 @@ N lesník
 N stolár
 N taxikár
 N vodič autobusu
-N rušňovodič
+N rušňovodič : of vodič @ vlaky
 N pokyn
 N návod
 N návod na použitie
@@ -181,6 +185,7 @@ N výroba
 AN produktívny : adverb produktívne
 N produktivita
 V stavať
+V búrať
 V vybudovať
 V rozobrať
 V zmontovať

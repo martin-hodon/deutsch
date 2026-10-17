@@ -91,6 +91,7 @@
 3 V luccicare {luccicare} [luttʃiˈkaːre] = mihotať sa
 3 V scintillare {scintillare} [ʃintiˈlːaːre] = mihotať sa
 2 AV sensibilmente {sensibil|mente} [sensibilˈmente] = badateľne
+3 N la cecità {cecità} [tʃetʃiˈta], - = slepota
 
 # hearing
 1 V sentire {sentire} [senˈtiːre] = počuť
@@ -112,6 +113,7 @@
 3 V risuonare {risuonare} [rizwoˈnaːre] = zaznieť
 3 V frusciare {frusciare} [fruˈʃːaːre] = šumieť
 3 V scrosciare {scrosciare} [skroˈʃːaːre] = šumieť
+3 N la sordità {sordità} [sordiˈta], - = hluchota
 
 # other-senses
 2 V annusare {annusare} [anːuˈzaːre] = čuchať
@@ -163,6 +165,9 @@
 3 V subodorare {subodorare} [subodoˈraːre] = vetriť
 2 V annusare {annusare} [anːuˈzaːre] = ovoniavať
 3 V odorare {odorare} [odoˈraːre] = ovoniavať
+3 AN udente {udente} [uˈdɛnte] = počujúci
+2 N la puzza {puzza} [ˈputtsa], puzze = zápach
+3 N il tanfo {tanfo} [ˈtanfo], tanfi = zápach
 
 # colors
 1 N il colore {colore} [koˈloːre], colori = farba
@@ -213,3 +218,4 @@
 3 V scolorire {scolorire} [skoloˈriːre], isc, essere = vyblednúť
 2 AN turchese {turchese} [turˈkeːze] = tyrkysový
 2 AN beige {beige} [ˈbɛʒ] = béžový
+2 AN in bianco e nero {in bianco e nero} [in ˈbjaŋko e ˈneːro] = čiernobiely

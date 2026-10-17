@@ -190,6 +190,8 @@
 3 AV compétemment {compét|emment} [kɔ̃petaˈmɑ̃] = kompetentne
 2 AV objectivement {objective|ment} [ɔbʒɛktivˈmɑ̃] = objektívne
 3 AV éthiquement {éthique|ment} [etikˈmɑ̃] = eticky
+2 AN illogique {il|logique} [ilɔˈʒik] = nelogický
+2 AN incompétent {in|compétent} [ɛ̃kɔ̃peˈtɑ̃], incompétente = nekompetentný
 
 # knowing
 1 V savoir {savoir} [saˈvwaʁ], irr, su = vedieť
@@ -333,6 +335,7 @@
 3 AV posément {pos|ément} [pozeˈmɑ̃] = rozvážne
 3 AV sceptiquement {sceptique|ment} [sɛptikˈmɑ̃] = skepticky
 3 AV cyniquement {cynique|ment} [sinikˈmɑ̃] = cynicky
+2 N l'ignorance (f) {ignorance} [iɲɔˈʁɑ̃s], ignorances = nevedomosť
 
 # memory
 1 N la mémoire {mémoire} [meˈmwaʁ], mémoires = pamäť (schopnosť)
@@ -436,6 +439,7 @@
 2 AV secrètement {secrète|ment} [səkʁɛtˈmɑ̃] = tajne
 2 AV mystérieusement {mystérieuse|ment} [misteʁjøzˈmɑ̃] = tajomne
 2 AV inévitablement {inévitable|ment} [inevitabləˈmɑ̃] = neodvratne
+1 V avoir raison {avoir raison} [avwaʁ ʁɛˈzɔ̃], irr, eu = mať pravdu
 
 # more
 1 V considérer {considérer} [kɔ̃sideˈʁe] (comme) = považovať

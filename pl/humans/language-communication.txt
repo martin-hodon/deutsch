@@ -309,6 +309,11 @@
 3 AV krytycznie {krytycznie} [krɨˈtɨtʂɲɛ] = kriticky
 3 AV trafnie {trafnie} [ˈtrafɲɛ] = výstižne
 2 AV płynnie {płynnie} [ˈpwɨnːɲɛ] = plynulo
+2 N sprzeciw {sprzeciw} [ˈspʂɛtɕif], m, sprzeciwy = nesúhlas
+3 N niezgoda {nie|zgoda} [ɲɛˈzɡɔda], ż, niezgody = nesúhlas
+2 N zaprzeczenie {za|przeczenie} [zapʂɛˈtʂɛɲɛ], n, zaprzeczenia = popretie
+2 N szept {szept} [ʂɛpt], m, szepty = šepot
+1 V bronić {bronić} [ˈbrɔɲitɕ], obronić (D) = obhajovať
 
 # language-writing
 1 N słowo {słowo} [ˈswɔvɔ], n, słowa = slovo
@@ -468,6 +473,7 @@
 3 AV werbalnie {werbalnie} [vɛrˈbalɲɛ] = verbálne
 3 AV alfabetycznie {alfabetycznie} [alfabɛˈtɨtʂɲɛ] = abecedne
 3 AV pisemnie {pisemnie} [pʲiˈsɛmɲɛ] = písomne
+2 N liczba pojedyncza {liczba pojedyncza} [ˈlidʐba pɔjɛˈdɨntʂa], ż, liczby pojedyncze = jednotné číslo
 
 # media-news
 1 N wiadomość {wiadomość} [vʲaˈdɔmɔɕtɕ], ż, wiadomości = správa (oznam)

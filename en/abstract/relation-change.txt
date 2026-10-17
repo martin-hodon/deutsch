@@ -60,6 +60,8 @@
 2 V work {work} [wɜːk] = fungovať
 2 N presence {presence} [ˈprezəns], - = prítomnosť
 2 V function {function} [ˈfʌŋkʃən] = fungovať
+2 V die out {die·out} [daɪ ˈaʊt] = zaniknúť
+2 V disappear {dis|appear} [ˌdɪsəˈpɪə] = zaniknúť
 # change-events
 1 V become {become} [bɪˈkʌm], became/become = stať sa
 3 N becoming {be|coming} [bɪˈkʌmɪŋ], - = stávanie sa
@@ -293,6 +295,9 @@
 3 V log {log} [lɒɡ] (sth) = zaznamenať
 3 V spark {spark} [spɑːk] (sth) = vyvolať
 2 AV vaguely {vague|ly} [ˈveɪɡli] = neurčite
+2 AN finite {finite} [ˈfaɪnaɪt] = konečný
+2 N decrease {de|crease} [ˈdiːkriːs], decreases = úbytok
+2 V expand {expand} [ɪkˈspænd] = zväčšiť sa
 # relations
 1 AN same {same} [seɪm] = rovnaký
 2 AN equal {equal} [ˈiːkwəl] = rovnaký
@@ -556,6 +561,11 @@
 2 V feature {feature} [ˈfiːtʃə] = obsahovať
 1 PHR such as {such as} [ˈsʌtʃ əz] = napríklad
 2 PHR compared to {compared to} [kəmˈpeəd tuː] = v porovnaní s
+2 N whole {whole} [həʊl], wholes = celok
+3 N lower limit {lower limit} [ˌləʊə ˈlɪmɪt], lower limits = dolná hranica
+2 N lack of interest {lack of interest} [ˌlæk əv ˈɪntrəst], - = nezáujem
+2 N indifference {in|difference} [ɪnˈdɪfrəns], - = nezáujem
+2 V multiply {multiply} [ˈmʌltɪplaɪ] (sth) = násobiť
 # transfer-basic-verbs
 1 V give {give} [ɡɪv], gave/given (sb sth) = dať
 1 PHR there is {there is} [ðər ˈɪz] = je
@@ -682,6 +692,8 @@
 2 V text {text} [tekst] (sb) = poslať
 3 V bid {bid} [bɪd], bid/bid (for) = ponúknuť
 3 V mail {mail} [meɪl] (sth) = poslať
+1 AN found {found} [faʊnd] = nájdený
+3 AN loss-making {loss-making} [ˈlɒs ˌmeɪkɪŋ] = stratový
 # action-and-use
 1 N action {ac|tion} [ˈækʃən], actions = akcia (činnosť)
 2 N activity {ac|tiv|ity} [ækˈtɪvɪtɪ], activities = činnosť
@@ -1208,6 +1220,9 @@
 3 N split {split} [splɪt], splits = rozdelenie
 3 V badger {badg|er} [ˈbædʒə] (sb) = obťažovať
 3 V pride {pride} [praɪd] (oneself on) = honosiť sa
+2 V unwrap {un|wrap} [ʌnˈræp] (sth) = rozbaliť
+2 V unpack {un|pack} [ʌnˈpæk] (sth) = rozbaliť
+2 V move away {move·away} [muːv əˈweɪ] = vzdialiť sa
 # change
 2 V show {show} [ʃəʊ], showed/shown (sth) = prejaviť
 2 V express {ex|press} [ɪkˈspres] (sth) = prejaviť
@@ -1237,6 +1252,7 @@
 1 V cover {cover} [ˈkʌvə] (with) = obložiť
 3 V bandage {ban|dage} [ˈbændɪdʒ] (sth) = obviazať
 2 V tie up {tie·up} [taɪ ˈʌp] (sth) = obviazať
+2 V soften {soft|en} [ˈsɒfən] = zmäknúť
 
 # more
 1 AN another {an|other} [əˈnʌðə] = ďalší

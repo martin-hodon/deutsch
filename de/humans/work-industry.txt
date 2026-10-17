@@ -190,6 +190,10 @@
 3 V beordern {be|ordern} [bəˈɔʁdɐn], hat (A) = povolať, nariadiť
 3 V zehren {zehren} [ˈtseːʁən], hat (von D, an D) = žiť z, vyčerpávať
 3 V beanstanden {be|anstanden} [bəˈanʃtandən], hat (A) = reklamovať, vytýkať
+3 N die Erwerbstätigkeit {Erwerbs|tätigkeit} [ɛɐˈvɛʁpstɛːtɪçkaɪt], - = zamestnanosť
+3 N der/die Untergebene {Unter|gebene} [ˈʊntɐɡeːbənə], Untergebene = podriadený
+3 N der Laie {Laie} [ˈlaɪə], Laien = laik
+3 N die Degradierung {Degradierung} [deɡʁaˈdiːʁʊŋ], Degradierungen = degradácia
 
 # making-doing
 1 V machen {machen} [ˈmaxən], hat (A) = robiť, urobiť, spraviť
@@ -263,6 +267,7 @@
 3 V ergattern {er|gattern} [ɛɐˈɡatɐn], hat (A) = zohnať, získať
 3 V feilen {feilen} [ˈfaɪlən], hat (an D) = pilovať, vylepšovať
 3 V präparieren {präparieren} [pʁɛpaˈʁiːʁən], hat (A) = vypreparovať, pripraviť
+2 V abreißen {ab·reißen} [ˈapʁaɪsən], reißt ab/riss ab/abgerissen [ʁaɪst ap/ʁɪs ap/ˈapɡəʁɪsən], hat (A) = búrať
 
 # tools
 2 N der Hammer {Hammer} [ˈhamɐ], Hämmer = kladivo

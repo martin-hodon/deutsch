@@ -49,6 +49,8 @@
 1 N 可乐 {可乐} [kělè], 瓶 = kola
 3 N 葵花籽油 {葵花籽油} [kuíhuāzǐyóu], 瓶 = slnečnicový olej
 3 N 香草 {香草} [xiāngcǎo], 种 = bylinky
+2 AN 不能吃 {不能吃} [bù néng chī] = nejedlý
+3 AN 不可食用 {不可食用} [bù kě shíyòng] = nejedlý
 
 # staples
 1 N 面包 {面包} [miànbāo], 块 = chlieb
@@ -192,6 +194,9 @@
 2 N 寿司 {寿司} [shòusī], 份 = suši
 2 V 瘦 {瘦} [shòu] = schudnúť
 2 N 水产品 {水产品} [shuǐchǎnpǐn], 种 = morské plody
+1 V 变胖 {变胖} [biànpàng] = pribrať
+2 V 发胖 {发胖} [fāpàng] = pribrať
+2 V 长胖 {长胖} [zhǎngpàng] = pribrať
 
 # fruits
 1 N 水果 {水果} [shuǐguǒ], - = ovocie
@@ -525,3 +530,7 @@
 3 AV 甜甜地 {甜甜地} [tiántiánde] = sladko
 3 V 淋 {淋} [lín] = polievať
 2 N 味儿 {味儿} [wèir], 股 = chuť (na jazyku)
+1 AN 熟 {熟} [shú] = varený
+3 AN 煮熟 {煮熟} [zhǔshú] = varený
+3 AN 俗气 {俗气} [súqi] = nevkusný
+3 AN 庸俗 {庸俗} [yōngsú] = nevkusný

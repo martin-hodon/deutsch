@@ -53,6 +53,7 @@ AV práve
 AV nanajvýš
 AV prevažne
 AV čoraz viac
+AV čoraz menej
 AV približne
 
 # time
@@ -81,6 +82,7 @@ AV možno
 AV určite
 AV bohužiaľ
 AV rád
+AV nerád
 AV naozaj
 AV skutočne
 AV mimochodom
@@ -275,7 +277,9 @@ AV od detstva
 AV ako dlho
 AV pred chvíľou
 PHR pod nulou -- o teplote
+PHR nad nulou
 PHR dobrú noc
+PHR dobré ráno
 PHR šťastnú cestu
 PHR čo robiť
 PHR nemať inú možnosť -- musieť, môcť len
@@ -291,6 +295,7 @@ PHR nedá sa nič robiť -- nie je východisko
 PHR nečakal som -- nepredpokladal som
 PHR byť dobrý v -- mať v niečom zručnosť
 AV ako prvý -- o tom, kto začne ako prvý
+AV ako posledný
 AV nie nevyhnutne -- nemusí to tak byť
 PHR to je priveľa cti -- skromná odpoveď na pochvalu
 PHR skrátka -- zhrnutie jednou vetou
@@ -307,6 +312,7 @@ AV zo všetkých síl
 AV dňom i nocou
 PHR nechaj tak -- 算了
 AV zámerne
+AV náhodou
 AV po ceste
 AV naraz
 AV na chvíľu

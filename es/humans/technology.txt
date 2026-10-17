@@ -96,6 +96,7 @@
 2 N el proveedor de energía {proveedor de energía} [pɾoβeeˈðoɾ de eneɾˈxia], proveedores de energía = dodávateľ energie
 2 N el kilovatio hora {kilovatio hora} [kiloˈβatjo ˈoɾa], kilovatios hora = kilowatthodina
 2 N el vatio {vatio} [ˈbatjo], vatios = watt
+1 V descargar {des|cargar} [deskaɾˈɣaɾ] = vyložiť
 
 # computing-communication-devices
 2 N el ordenador {ordenador} [oɾðenaˈðoɾ], ordenadores = počítač
@@ -261,6 +262,13 @@
 3 V reactivar {re|activar} [reaktiˈβaɾ] = znovu aktivovať
 3 V configurar {configurar} [komfiɣuˈɾaɾ] = konfigurovať
 3 AN escalable {escalable} [eskaˈlaβle] = škálovateľný
+2 N el cierre de sesión {cierre de sesión} [ˈθjere de seˈsjon], cierres de sesión = odhlásenie
+2 N la subida {subida} [suˈβiða], subidas = nahratie
+2 N la carga {carga} [ˈkaɾɣa], cargas = nahratie
+2 AV sin conexión {sin conexión} [sin konekˈsjon] = offline
+2 AV offline {offline} [ofˈlain] = offline
+2 V alejar {alejar} [aleˈxaɾ] = oddialiť
+3 V distanciar {distanciar} [distanˈθjaɾ] = oddialiť
 
 # devices
 2 V desmontar {des|montar} [desmonˈtaɾ] = demontovať

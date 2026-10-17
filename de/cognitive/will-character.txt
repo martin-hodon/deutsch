@@ -132,6 +132,7 @@
 3 AN nachdrücklich {nach|drück|lich} [ˈnaːxdʁʏklɪç] = dôrazný, naliehavý
 3 AN handlungsfähig {handlungs|fähig} [ˈhandlʊŋsfɛːɪç] = schopný konať
 3 V ertüchtigen {er|tüchtigen} [ɛɐˈtʏçtɪɡən], hat (A) = otužiť, posilniť
+2 N die Großzügigkeit {Groß|zügigkeit} [ˈɡʁoːstsyːɡɪçkaɪt], - = štedrosť
 
 # character-traits
 2 N der Charakter {Charakter} [kaˈʁaktɐ], Charaktere = charakter, povaha
@@ -312,6 +313,9 @@
 3 AN wehrlos {wehr|los} [ˈveːɐloːs] = bezbranný
 3 AN verantwortungsbewusst {verantwortungs|bewusst} [fɛɐˈantvɔʁtʊŋsbəvʊst] = svedomitý, zodpovedný
 3 AN ironisch {ironisch} [iˈʁoːnɪʃ] = ironický
+3 AN unmoralisch {un|moralisch} [ˈʊnmoʁaːlɪʃ] = nemorálny
+3 AN nachsichtig {nach|sichtig} [ˈnaːxzɪçtɪç] = zhovievavý
+3 V sich abgewöhnen {sich ab·gewöhnen} [zɪç ˈapɡəvøːnən], hat (A) = odvyknúť si
 
 # character
 3 AN feig {feig} [faɪk] = zbabelý

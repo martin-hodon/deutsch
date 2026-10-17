@@ -132,6 +132,8 @@
 2 AV умеренно {умеренно} [uˈmʲerʲɪnːə] = mierne
 3 AV морозно {морозно} [mɐˈroznə] = mrazivo
 1 AV душно {душно} [ˈduʂnə] = dusno
+3 N похолодание {по|холодание} [pəxəlɐˈdanʲɪjə], с, похолодания = ochladzovanie
+3 N охлаждение {охлаждение} [ɐxlɐʐˈdʲenʲɪjə], с, охлаждения = ochladzovanie
 
 # seasons-climate
 2 N время года {время года} [ˈvrʲemʲə ˈɡodə], с, времена года = ročné obdobie

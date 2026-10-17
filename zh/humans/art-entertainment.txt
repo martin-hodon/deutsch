@@ -86,6 +86,8 @@
 2 N 文艺 {文艺} [wényì], - = umenie
 2 V 参展 {参|展} [cānzhǎn] = vystaviť (na výstave)
 2 N 艺人 {艺人} [yìrén], 位 = umelec
+1 N 丑 {丑} [chǒu], - = škaredosť
+3 N 丑陋 {丑陋} [chǒulòu], - = škaredosť
 
 # music
 1 N 音乐 {音乐} [yīnyuè], - = hudba
@@ -304,6 +306,8 @@
 1 N 全场 {全场} [quánchǎng], - = obecenstvo
 1 N 影视 {影视} [yǐngshì], - = film
 2 V 摄像 {摄像} [shèxiàng] = filmovať
+3 N 末场 {末场} [mòchǎng], 场 = derniéra
+3 N 谢幕演出 {谢幕演出} [xièmù yǎnchū], 场 = derniéra
 
 # games-sport
 1 N 游戏 {游戏} [yóuxì], 个 = hra
@@ -329,7 +333,7 @@
 2 V 参与 {参与} [cānyù] = hrať s
 2 V 录音 {录|音} [lùyīn] = nahrať (v štúdiu)
 2 V 录制 {录制} [lùzhì] = nahrať (v štúdiu)
-2 V 播放 {播放} [bōfàng] = prehrať
+2 V 播放 {播放} [bōfàng] = prehrať (nahrávku)
 3 AN 可玩 {可玩} [kěwán] = hrateľný
 2 V 继续玩 {继续玩} [jìxù wán] = hrať ďalej
 3 V 炫耀 {炫耀} [xuànyào] = vystatovať sa
@@ -551,8 +555,8 @@
 1 V 运动 {运动} [yùndòng] = cvičiť (gymnastika)
 2 N 锻炼 {锻炼} [duànliàn], - = tréning
 2 V 胜利 {胜利} [shènglì] = vyhrať
-2 V 败 {败} [bài] = prehrať
-1 V 输 {输} [shū] = prehrať
+2 V 败 {败} [bài] = prehrať (zápas)
+1 V 输 {输} [shū] = prehrať (zápas)
 2 V 赌 {赌} [dǔ] = hrať hazardne
 3 N 棋 {棋} [qí], 盘 = šach
 3 N 柱 {柱} [zhù], 根 = stĺp
@@ -576,6 +580,8 @@
 2 N 赛场 {赛场} [sàichǎng], 个 = ihrisko
 2 N 文娱 {文娱} [wényú], - = zábava
 2 N 柱子 {柱子} [zhùzi], 根 = stĺp
+3 N 业余爱好者 {业余爱好者} [yèyú àihàozhě], 位 = amatér
+3 N 业余选手 {业余选手} [yèyú xuǎnshǒu], 名 = amatér
 
 # corpus-verbs
 3 V 挑拨 {挑拨} [tiǎobō] = poštvať proti sebe

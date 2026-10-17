@@ -78,6 +78,7 @@
 2 AV autant {autant} [oˈtɑ̃] = rovnako
 2 AV tant {tant} [tɑ̃] = tak
 1 AV à la fois {à la fois} [a la ˈfwa] = zároveň
+2 AV de moins en moins {de moins en moins} [də mwɛ̃z ɑ̃ ˈmwɛ̃] = čoraz menej
 
 # time
 1 AV maintenant {maintenant} [mɛ̃təˈnɑ̃] = teraz
@@ -139,6 +140,8 @@
 3 AV l'un l'autre {l'un l'autre} [lœ̃ ˈlotʁ] = na seba
 1 AV dommage {dommage} [dɔˈmaʒ] = ľúto
 2 AV d'ailleurs {d'ailleurs} [dajˈœʁ] = mimochodom
+3 AV à contrecœur {à contrecœur} [a kɔ̃tʁəˈkœʁ] = nerád
+2 AV à regret {à regret} [a ʁəˈɡʁɛ] = nerád
 
 # place-direction
 1 AV ici {ici} [iˈsi] = sem
@@ -215,3 +218,7 @@
 1 PHR c'est {c'est} [sɛ] = to je (c'est)
 1 PHR il s'agit de {il s'agit de} [il saʒi ˈdə] = ide o
 1 PAR ne {ne} [nə] = záporová častica (ne)
+1 AV par hasard {par hasard} [paʁ aˈzaʁ] = náhodou
+2 AV en dernier {en dernier} [ɑ̃ dɛʁˈnje] = ako posledný
+2 PHR au-dessus de zéro {au-dessus de zéro} [odsy də zeˈʁo] = nad nulou
+1 PHR bonjour {bonjour} [bɔ̃ˈʒuʁ] = dobré ráno

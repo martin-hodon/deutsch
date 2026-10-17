@@ -35,6 +35,7 @@
 3 V sprawl {sprawl} [sprɔːl] = rozvaliť sa
 3 PHR walk on tiptoe {walk on tiptoe} [wɔːk ɒn ˈtɪptəʊ] = chodiť po špičkách
 3 V duck {duck} [dʌk] = skrčiť sa
+3 V recede {recede} [rɪˈsiːd] = vzďaľovať sa
 # locomotion
 1 V jump {jump} [dʒʌmp] (over, into) = skákať
 1 N jump {jump} [dʒʌmp], jumps = skok
@@ -122,6 +123,7 @@
 3 N hop {hop} [hɒp], hops = skok
 3 V prey {prey} [preɪ] (on) = loviť
 3 V retreat {re|treat} [rɪˈtriːt] = ustúpiť
+2 V fly in {fly·in} [flaɪ ˈɪn], flew in/flown in = priletieť
 # manipulation
 1 V hold {hold} [həʊld], held/held = držať
 1 V hold on {hold·on} [həʊld ˈɒn], held on/held on (to) = pridržať
@@ -379,6 +381,8 @@
 3 V flock {flock} [flɒk] = zhluknúť sa
 3 V stomach {stom|ach} [ˈstʌmək] (sth) = znášať
 3 V wolf down {wolf·down} [wʊlf ˈdaʊn] (sth) = hltať
+2 V take down {take·down} [teɪk ˈdaʊn], took down/taken down (sth) = zvesiť
+2 V lower {lower} [ˈləʊə] (sth) = spúšťať
 
 # more
 3 V engage {engage} [ɪnˈɡeɪdʒ] (sb in) = zapojiť

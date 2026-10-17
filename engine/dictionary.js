@@ -2,9 +2,18 @@
 // vocabulary data holds of it -- its sound (spoken on 🔊), meanings, grammar details, its MORPHOLOGY TABLE (the forms of
 // engine/paradigm.js laid out by language and part of speech: LAYOUTS below), its RELATED WORDS (the synonyms of its
 // concept, its word family -- the dictionary's `root` / `derived` lines --, the words sharing a component of its
-// `parts`: laufen <> ver|laufen, Haus <> Haus|tür), its translations in the other languages (loaded when asked) and
-// example sentences (engine/practice.js). Every related word is a link that opens its entry; the address hash keeps
-// the language and entry, so the browser's back button works.
+// `parts`: laufen <> ver|laufen, Haus <> Haus|tür, its OPPOSITES: the `opposite` concepts of concepts/opposites.txt), its
+// translations in the other languages (loaded when asked) and example sentences (engine/practice.js). Every related
+// word is a link that opens its entry; the address hash keeps the language and entry, so the browser's back button works.
+// A noun's CATEGORIES (world/categories.txt, engine/meaning.js): each one with its parents up to the root (Affe: mammal ‹
+// beast ‹ animal ‹ living ‹ concrete ‹ entity -- a category named by a concept shows that concept's word in the language,
+// Säugetier), the affordances (what one can do with it); a word that names a category lists its subcategories and its
+// direct members; a category opens a CATEGORY VIEW (hash `#de/cat/mammal`). A concept declared a GENERIC concept in a
+// context (tools/concepts.py `: of odjazd @ lietanie`) shows the generic's words; the generic word lists the words of its
+// contexts (Abfahrt: Abflug (lietanie)).
+// CHINESE: an entry lists its CHARACTERS, each with its components and stroke count (engine/hanzi.js, zh/composition.txt);
+// a component opens a COMPONENT VIEW (hash `#zh/comp/木`): what it is made of, every character it is written in, the
+// words with it; `#zh/comp/` is the index of all components by stroke count (the 部件 toggle beside the search).
 import { loadDictionary, shown, spoken } from "./data.js";
 import { LANGS } from "./langs.js";
 import { keptPair, keepLearn } from "./storage.js";
@@ -12,10 +21,12 @@ import { mountHeader } from "./header.js";
 import { loadParadigms } from "./paradigm.js";
 import { formsIndex } from "./wordforms.js";
 import { createVoice, loadProsody } from "./speak.js";
-import { loadText, t, applyText } from "./text.js";
+import { loadText, t, tn, applyText } from "./text.js";
 import { createPractice } from "./practice.js";
 import * as DE from "../de/morph.js";
 import { loadTemplates, recognizeAll, record } from "./listen.js";
+import { loadComposition, layoutItems } from "./hanzi.js";
+import { loadMeaning } from "./meaning.js";
 
 const $ = (id) => document.getElementById(id);
 const fold = (s) => s.toLocaleLowerCase().normalize("NFD").replace(/\p{M}/gu, "");
@@ -131,8 +142,10 @@ const loadLang = async (l) => {
   // the components of every word's parts (ver|laufen: ver, laufen) that are words themselves -> the words sharing them
   // Chinese: the pinyin as typed -- its letters without tone marks (nihao) and its tones as digits (3 3), so that nihao,
   // ni3hao3 and nǐhǎo all find 你好
-  if (l === "zh") for (const e of d.entries) e.py = pinyinKey(e.pinyin ?? "");
+  if (l === "zh") { for (const e of d.entries) e.py = pinyinKey(e.pinyin ?? ""); d.hanzi = await loadComposition("zh/composition.txt"); }
   d.byPart = new Map(); d.byStem = new Map();
+  d.bySpecific = new Map();   // pos|concept -> the entries whose concept is declared `of` it in a context (the `generic` column)
+  for (const e of d.entries) if (e.generic) { const k = e.generic.split(" @ ")[0].replace(" ", "|"); (d.bySpecific.get(k) ?? d.bySpecific.set(k, []).get(k)).push(e); }
   const words = new Set(d.entries.map((e) => e.word));
   for (const e of d.entries) {
     for (const c of components(e, l)) if (words.has(c) && c !== e.word) (d.byPart.get(c) ?? d.byPart.set(c, []).get(c)).push(e);
@@ -222,8 +235,10 @@ function showStats() {
 function showResults() {
   if (stats && lang === "de") return showStats();
   const list = $("results"); list.replaceChildren();
-  const found = lookup(query);
-  $("no-results").hidden = !(query.trim() && !found.length);
+  const found = lookup(query), q = query.trim();
+  const comp = lang === "zh" && [...q].length === 1 && dict.hanzi?.has(q) ? q : null;   // (a character or component typed: its component view too)
+  $("no-results").hidden = !(q && !found.length && !comp);
+  if (comp) list.append(componentRow(comp));
   for (const e of found) {
     const row = el("button", "result", el("span", "result-word", shown(e)), el("span", "result-pos", e.pos), el("span", "result-sk", e.sk.slice(0, 3).join(", ")));
     if (formOf.has(e)) row.append(el("span", "result-form", `${query.trim()} · ${(formOf.get(e) || "form").replace(/^[A-Z]+\./, "")}`));
@@ -235,6 +250,68 @@ function showResults() {
 // an entry's line: its word with the article, a link that opens it
 const link = (e) => { const a = el("a", "word-link", shown(e)); a.href = "#" + hashOf(e); a.onclick = (ev) => { ev.preventDefault(); openEntry(e); }; return a; };
 const hashOf = (e) => `${lang}/${encodeURIComponent(e.id)}`;
+// a list of words with a gloss each (the part of speech and the first meaning, or `gloss(x)`)
+const wordList = (items, gloss = (x) => `${x.pos} · ${x.sk[0]}`) => { const ul = el("div", "word-list"); for (const x of items) ul.append(el("span", "word-item", link(x), el("span", "word-gloss", " " + gloss(x)))); return ul; };
+
+// ---- CATEGORIES (world/categories.txt, engine/meaning.js): the tree a noun's concept is in ------------------------------
+const meanings = {};
+const meaningOf = async (l) => (meanings[l] ??= await loadMeaning("world/categories.txt", "world/meaning.tsv", await loadLang(l)));
+const catHash = (c) => `${lang}/cat/${encodeURIComponent(c)}`;
+// a category is shown by the word of the concept naming it (categories.txt `= POS id`) when the language has one, else by its name
+const catWord = (m, c) => { const n = m.conceptOf(c); return n ? (dict.byConcept.get(`${n.pos}|${n.concept}`) ?? [])[0] ?? null : null; };
+const catLabel = (m, c) => { const w = catWord(m, c); return w ? shown(w) : c; };
+function catLink(m, c) {
+  const a = el("a", "word-link cat-link" + (catWord(m, c) ? "" : " cat-code"), catLabel(m, c));
+  a.href = "#" + catHash(c); a.onclick = (ev) => { ev.preventDefault(); showCategory(c); };
+  return a;
+}
+// the way up to the root along the first parents (the other parents noted): mammal ‹ beast ‹ animal ‹ living ‹ concrete ‹ entity
+function chainUp(m, c) {
+  const row = el("div", "cat-chain");
+  for (let cur = c, n = 0; cur && n < 20; n++) {
+    row.append(catLink(m, cur));
+    const ps = m.parentsOf(cur);
+    if (ps.length > 1) row.append(el("span", "mute", ` (+ ${ps.slice(1).map((p) => catLabel(m, p)).join(", ")})`));
+    if (!ps.length) break;
+    row.append(el("span", "cat-sep", " ‹ ")); cur = ps[0];
+  }
+  return row;
+}
+const catList = (m, cs) => { const row = el("div", "cat-chain"); cs.forEach((c, i) => row.append(i ? ", " : "", catLink(m, c))); return row; };
+// a noun's section: each category up to the root; what one can do with it; a word naming a category: its subcategories, its members
+async function categoriesSection(e, view, section) {
+  const m = await meaningOf(lang);
+  if (open !== e) return;
+  const cats = m.catsOf(e), isa = cats.filter((c) => !m.isAffordance(c)), aff = cats.filter((c) => m.isAffordance(c)), own = m.categoryOf(e);
+  if (!isa.length && !aff.length && !own) return;
+  const s = section("categories");
+  for (const c of isa) s.append(chainUp(m, c));
+  if (aff.length) { const row = catList(m, aff); row.prepend(el("span", "mute", t("affordances") + ": ")); s.append(row); }
+  if (own) {
+    const kids = m.childrenOf(own), members = m.direct(own).filter((x) => x.concept !== e.concept).sort((a, b) => a.freq - b.freq || a.rank - b.rank);
+    if (kids.length) { s.append(el("h4", "", t("subcategories"))); s.append(catList(m, kids)); }
+    if (members.length) { s.append(el("h4", "", tn("category-words", members.length))); s.append(wordList(members.slice(0, 80))); if (members.length > 80) s.append(el("div", "mute", "…")); }
+  }
+}
+// THE CATEGORY VIEW (#de/cat/mammal): its way up, the word naming it, its subcategories with their size, its direct members
+async function showCategory(c, { push = true } = {}) {
+  open = null;
+  if (push) history.pushState(null, "", "#" + catHash(c));
+  $("results").hidden = true; $("no-results").hidden = true; $("search-help").hidden = true;
+  const view = $("entry"); view.hidden = false; view.replaceChildren();
+  const back = el("button", "back", "← " + t("back")); back.onclick = () => { history.pushState(null, "", "#" + lang); showList(); }; view.append(back);
+  window.scrollTo(0, 0);
+  const m = await meaningOf(lang), w = catWord(m, c);
+  view.append(el("div", "entry-head", el("h2", "", catLabel(m, c))));
+  view.append(el("div", "entry-meta", `${t("category")} · ${c}`));
+  if (w) { const row = el("div", "entry-same", el("span", "mute", t("dictionary-entry") + ": ")); const a = link(w); a.textContent = `${w.pos} · ${w.sk.slice(0, 2).join(", ")}`; row.append(a); view.append(row); }
+  const s = el("section", "entry-section", el("h3", "", t("categories"))); view.append(s);
+  s.append(chainUp(m, c));
+  const kids = m.childrenOf(c);
+  if (kids.length) { s.append(el("h4", "", t("subcategories"))); const row = el("div", "cat-chain"); kids.forEach((k, i) => row.append(i ? ", " : "", catLink(m, k), el("span", "mute", ` ${m.nouns(k).length}`))); s.append(row); }
+  const members = m.direct(c).sort((a, b) => a.freq - b.freq || a.rank - b.rank);
+  if (members.length) { const ms = el("section", "entry-section", el("h3", "", tn("category-words", members.length))); view.append(ms); ms.append(wordList(members.slice(0, 200))); if (members.length > 200) ms.append(el("div", "mute", "…")); }
+}
 const details = (e) => {
   const out = [];
   if (e.pos === "N" && e.gender) out.push(`${t("gender")}: ${e.gender}`);
@@ -250,6 +327,95 @@ const details = (e) => {
   if (e.comb?.length) out.push(`(${e.comb.join(", ")})`);
   return out;
 };
+
+// ---- CHINESE CHARACTERS: components and strokes (engine/hanzi.js) --------------------------------------------------------
+const isHan = (c) => /^[\u2e80-\u2fdf\u31c0-\u31ef\u3400-\u4dbf\u4e00-\u9fff\u{20000}-\u{2ffff}]$/u.test(c);
+const chars = (word) => [...new Set([...word].filter(isHan))];
+const compHash = (c) => `${lang}/comp/${encodeURIComponent(c)}`;
+// a component as a link that opens its view -- glossed with its first entry (pinyin · meaning) when it is a word
+const compLink = (c, { gloss = true } = {}) => {
+  const a = el("a", "word-link comp-link", c); a.href = "#" + compHash(c); a.onclick = (ev) => { ev.preventDefault(); showComponent(c); };
+  if (!gloss) return a;
+  const e = dict.entries.filter((x) => x.word === c).sort((x, y) => x.freq - y.freq || x.rank - y.rank)[0];
+  return el("span", "word-item", a, e ? el("span", "word-gloss", ` ${e.pinyin ?? ""} · ${e.sk[0]}`) : null);
+};
+// a component's layout as written (白 | 勺), each component a link
+const layoutView = (c) => {
+  const m = dict.hanzi.of(c), row = el("span", "layout");
+  if (!m?.layout) return row;
+  for (const it of layoutItems(m.layout)) row.append(it.part !== undefined ? compLink(it.part, { gloss: false }) : el("span", "mute", it.sep ? ` ${it.sep} ` : " "));
+  return row;
+};
+const strokesText = (c) => { const n = dict.hanzi.strokes(c); return n == null ? "" : tn("strokes", n); };
+// a result row for a component typed in the search: the glyph, "component", how many characters it is in
+function componentRow(c) {
+  const n = dict.hanzi.containing(c).length;
+  const row = el("button", "result", el("span", "result-word", c), el("span", "result-pos", t("component")), el("span", "result-sk", `${strokesText(c)}${n ? ` · ${tn("in-characters", n)}` : ""}`));
+  row.onclick = () => showComponent(c);
+  return row;
+}
+// the entry's characters: each with its components, stroke count and a link to its component view
+function charactersSection(e, view) {
+  const cs = chars(e.word).filter((c) => dict.hanzi.has(c));
+  if (!cs.length) return;
+  const s = el("section", "entry-section", el("h3", "", t("characters"))); view.append(s);
+  for (const c of cs) {
+    const n = dict.hanzi.containing(c).length, words = dict.entries.filter((x) => x.word !== c && x.word.includes(c)).length;
+    const row = el("div", "char-row", compLink(c, { gloss: e.word !== c }), layoutView(c), el("span", "mute", strokesText(c)));
+    const more = []; if (n) more.push(tn("in-characters", n)); if (words) more.push(tn("in-words", words));
+    if (more.length) { const a = el("a", "comp-more", more.join(" · ")); a.href = "#" + compHash(c); a.onclick = (ev) => { ev.preventDefault(); showComponent(c); }; row.append(a); }
+    s.append(row);
+  }
+}
+// THE COMPONENT VIEW: a character or component -- its entries, what it is made of, the characters it is in, the words with it
+function showComponent(c, { push = true } = {}) {
+  open = null;
+  if (push) history.pushState(null, "", "#" + compHash(c));
+  $("results").hidden = true; $("no-results").hidden = true; $("search-help").hidden = true;
+  const view = $("entry"); view.hidden = false; view.replaceChildren();
+  const back = el("button", "back", "← " + t("back")); back.onclick = () => { history.pushState(null, "", "#" + lang); showList(); }; view.append(back);
+  window.scrollTo(0, 0);
+  if (!c) return componentIndex(view);
+  const H = dict.hanzi, own = dict.entries.filter((x) => x.word === c).sort((x, y) => x.freq - y.freq || x.rank - y.rank);
+  view.append(el("div", "entry-head", el("h2", "glyph", c)));
+  view.append(el("div", "entry-meta", [t("component"), strokesText(c)].filter(Boolean).join(" · ")));
+  if (own.length) { const row = el("div", "entry-same", el("span", "mute", t("dictionary-entry") + ": ")); own.forEach((x, i) => { const a = link(x); a.textContent = `${x.pos} · ${x.pinyin ?? ""} · ${x.sk.slice(0, 2).join(", ")}`; row.append(i ? " · " : "", a); }); view.append(row); }
+  const m = H.of(c);
+  if (m?.layout) {
+    const s = el("section", "entry-section", el("h3", "", t("composition"))); view.append(s);
+    s.append(el("div", "char-row", layoutView(c)));
+    // each component one level down, with its own components
+    for (const p of m.parts) { const pm = H.of(p); if (pm?.layout || H.strokes(p) != null) s.append(el("div", "char-row sub", compLink(p), layoutView(p), el("span", "mute", strokesText(p)))); }
+  }
+  const direct = new Set(H.direct(c)), all = H.containing(c);
+  if (all.length) {
+    const s = el("section", "entry-section", el("h3", "", `${tn("in-characters", all.length)}`)); view.append(s);
+    const known = (x) => dict.entries.some((e) => e.word === x);
+    const rank = (x) => Math.min(...dict.entries.filter((e) => e.word === x).map((e) => e.rank), Infinity);
+    const sorted = [...all].sort((a, b) => (direct.has(b) ? 1 : 0) - (direct.has(a) ? 1 : 0) || (known(b) ? 1 : 0) - (known(a) ? 1 : 0) || rank(a) - rank(b));
+    const ul = el("div", "word-list chars"); for (const x of sorted.slice(0, 300)) { const it = compLink(x); if (!direct.has(x)) it.classList.add("via"); ul.append(it); } s.append(ul);
+    if (all.length > 300) s.append(el("div", "mute", "…"));
+  }
+  const words = dict.entries.filter((x) => x.word !== c && x.word.includes(c)).sort((a, b) => a.rank - b.rank || a.freq - b.freq);
+  if (words.length) {
+    const s = el("section", "entry-section", el("h3", "", tn("in-words", words.length))); view.append(s);
+    const ul = el("div", "word-list"); for (const x of words.slice(0, 80)) ul.append(el("span", "word-item", link(x), el("span", "word-gloss", ` ${x.pinyin ?? ""} · ${x.sk[0]}`))); s.append(ul);
+    if (words.length > 80) s.append(el("div", "mute", "…"));
+  }
+}
+// the index of components by stroke count: every component that is written in some character, the most used first
+function componentIndex(view) {
+  const H = dict.hanzi, by = new Map();
+  for (const c of H.components()) { const n = H.direct(c).length; if (!n) continue; const k = H.strokes(c) ?? "?"; (by.get(k) ?? by.set(k, []).get(k)).push([c, H.containing(c).length]); }
+  view.append(el("div", "entry-head", el("h2", "", t("components"))));
+  view.append(el("div", "entry-meta", t("components-help")));
+  for (const k of [...by.keys()].sort((a, b) => (a === "?") - (b === "?") || a - b)) {
+    const s = el("section", "entry-section", el("h3", "", k === "?" ? "?" : tn("strokes", k))); view.append(s);
+    const ul = el("div", "word-list chars");
+    for (const [c, n] of by.get(k).sort((a, b) => b[1] - a[1])) ul.append(el("span", "word-item", compLink(c, { gloss: false }), el("span", "word-gloss", ` ${n}`)));
+    s.append(ul);
+  }
+}
 
 // the microphone: a word said is matched against the language's templates (engine/listen.js); the nearest words are
 // listed as results, the best first -- click to open, or say it again
@@ -297,6 +463,7 @@ async function openEntry(e, { push = true } = {}) {
   if (det.length) view.append(el("div", "entry-details", det.join(" · ")));
   const same = dict.entries.filter((x) => x !== e && fold(x.word) === fold(e.word)).sort((a, b) => (a.pos === e.pos ? 1 : 0) - (b.pos === e.pos ? 1 : 0) || a.freq - b.freq);
   if (same.length) { const row = el("div", "entry-same", el("span", "mute", t("same-word") + ": ")); same.forEach((x, i) => { const a = link(x); a.textContent = `${x.pos} · ${x.sk.slice(0, 2).join(", ")}`; row.append(i ? " · " : "", a); }); view.append(row); }
+  if (lang === "zh" && dict.hanzi) charactersSection(e, view);
   // the morphology table
   const section = (title) => { const s = el("section", "entry-section", el("h3", "", t(title))); view.append(s); return s; };
   const forms = await formsOf(e);
@@ -312,13 +479,21 @@ async function openEntry(e, { push = true } = {}) {
   for (const c of comps) for (const x of dict.entries.filter((x) => x.word === c && x !== e)) mates.add(x);
   const st = stem(e, lang); if (st) for (const x of dict.byStem.get(st) ?? []) if (x !== e) mates.add(x);
   const sameRoot = [...mates].filter((x) => !syn.includes(x) && !family.includes(x)).sort((a, b) => a.rank - b.rank);
-  const list = (items) => { const ul = el("div", "word-list"); for (const x of items) ul.append(el("span", "word-item", link(x), el("span", "word-gloss", ` ${x.pos} · ${x.sk[0]}`))); return ul; };
-  if (syn.length || family.length || sameRoot.length) {
+  const opp = (e.opposite ? e.opposite.split(" | ") : []).flatMap((k) => dict.byConcept.get(k.replace(" ", "|")) ?? []).sort((a, b) => a.freq - b.freq || a.rank - b.rank);   // (the opposite concepts' words, `POS id`: concepts/opposites.txt)
+  // the generic concept this one is declared `of` in a context (the `generic` column: `POS id @ context`), and the other way
+  const gen = e.generic ? e.generic.split(" @ ") : null, genWords = gen ? (dict.byConcept.get(gen[0].replace(" ", "|")) ?? []).filter((x) => x !== e) : [];
+  const spec = (dict.bySpecific.get(`${e.pos}|${e.concept}`) ?? []).filter((x) => x !== e).sort((a, b) => a.freq - b.freq || a.rank - b.rank);
+  const list = wordList;
+  if (syn.length || opp.length || family.length || sameRoot.length || genWords.length || spec.length) {
     const s = section("related");
     if (syn.length) { s.append(el("h4", "", t("synonyms"))); s.append(list(syn)); }
+    if (genWords.length) { s.append(el("h4", "", t("generic") + (gen[1] ? ` · ${gen[1]}` : ""))); s.append(list(genWords)); }   // (the generic: Abflug -> Abfahrt, said of flying)
+    if (spec.length) { s.append(el("h4", "", t("in-context"))); s.append(list(spec, (x) => `${x.generic.split(" @ ")[1] ?? ""} · ${x.sk[0]}`)); }   // (Abfahrt -> Abflug (lietanie))
+    if (opp.length) { s.append(el("h4", "", t("opposites"))); s.append(list(opp)); }
     if (family.length) { s.append(el("h4", "", t("family"))); s.append(list(family.sort((a, b) => a.order - b.order))); }
     if (sameRoot.length) { s.append(el("h4", "", t("same-root"))); s.append(list(sameRoot.slice(0, 40))); }
   }
+  if (e.pos === "N") await categoriesSection(e, view, section);   // (world/categories.txt: what the concept is)
   // the translations: the concept's words in the other languages, loaded when asked
   const tr = section("translations");
   const btn = el("button", "", t("show-translations")); tr.append(btn);
@@ -354,12 +529,12 @@ async function useLang(l) {
   voice.prosody = await loadProsody(LANGS[l].speech);
   formsIndex(dict, l).then(() => { paradigms[l] ??= dict.pd; if (lang === l) showResults(); });   // (the forms -> words index, in the background: dem finds der)
   $("search").lang = l;
-  $("stats").hidden = l !== "de";
+  $("stats").hidden = l !== "de"; $("parts").hidden = l !== "zh";
   showResults();
 }
 function fromHash() {
-  const m = location.hash.match(/^#(\w+)\/(.+)$/);
-  if (!m || !LANGS[m[1]]?.dict) return null;
+  const m = location.hash.match(/^#(\w+)\/(.*)$/);
+  if (!m || !LANGS[m[1]]?.dict || !m[2]) return null;
   return { lang: m[1], id: decodeURIComponent(m[2]) };
 }
 
@@ -377,8 +552,18 @@ export async function start() {
   $("search").focus();
   $("listen").onclick = listen;
   $("stats").onclick = () => { stats = !stats; $("stats").classList.toggle("chosen", stats); showResults(); };
+  $("parts").onclick = () => showComponent("");   // (the index of components by strokes)
   $("title").onclick = () => (location.href = "trainer.html");   // (the title switches back to the trainer)
-  const openHash = () => { const hh = fromHash(); if (!hh) { if (open) showList(); return; } useLang(hh.lang).then(() => { const e = dict.entries.find((x) => x.id === hh.id); if (e) openEntry(e, { push: false }); }); };
+  const openHash = () => {
+    const hh = fromHash(); if (!hh) { if (open || !$("entry").hidden) showList(); return; }
+    useLang(hh.lang).then(() => {
+      const cm = hh.id.match(/^comp\/(.*)$/);
+      if (cm) { if (dict.hanzi) showComponent(cm[1], { push: false }); return; }
+      const cat = hh.id.match(/^cat\/(.*)$/);
+      if (cat) { showCategory(cat[1], { push: false }); return; }
+      const e = dict.entries.find((x) => x.id === hh.id); if (e) openEntry(e, { push: false });
+    });
+  };
   window.addEventListener("hashchange", openHash);
   if (h) openHash();
 }

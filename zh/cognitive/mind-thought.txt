@@ -248,6 +248,9 @@
 2 V 觉悟 {觉悟} [juéwù] = uvedomiť si
 2 AN 想不到 {想不到} [xiǎngbudào] = neočakávaný
 2 V 只顾 {只顾} [zhǐgù] = sústrediť sa
+2 AN 不合逻辑 {不合逻辑} [bù hé luóji] = nelogický
+3 AN 不称职 {不称职} [bù chènzhí] = nekompetentný
+3 AN 无能 {无能} [wúnéng] = nekompetentný
 
 # knowing
 1 V 知道 {知道} [zhīdào] = vedieť
@@ -476,6 +479,7 @@
 2 V 考核 {考核} [kǎohé] = hodnotiť
 2 V 看好 {看好} [kànhǎo] = veriť
 2 V 晓得 {晓得} [xiǎode] = vedieť
+2 N 无知 {无知} [wúzhī], - = nevedomosť
 
 # memory
 2 N 记性 {记性} [jìxing], - = pamäť (schopnosť)
@@ -620,6 +624,8 @@
 2 AV 不可避免地 {不可避免地} [bùkěbìmiǎnde] = neodvratne
 2 AV 悄悄 {悄悄} [qiāoqiāo] = tajne
 2 AV 偷偷 {偷偷} [tōutōu] = tajne
+1 V 说得对 {说得对} [shuō de duì] = mať pravdu
+2 V 有道理 {有道理} [yǒu dàolǐ] = mať pravdu
 
 # more
 2 V 看作 {看作} [kànzuò] = považovať

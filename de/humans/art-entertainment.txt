@@ -55,6 +55,7 @@
 3 V zieren {zieren} [ˈtsiːʁən], hat (A) = zdobiť
 3 AN episch {episch} [ˈeːpɪʃ] = epický
 3 V kuratieren {kuratieren} [kuʁaˈtiːʁən], hat (A) = kurátorovať
+3 N die Hässlichkeit {Hässlichkeit} [ˈhɛslɪçkaɪt], - = škaredosť
 
 # music
 1 N die Musik {Musik} [muˈziːk], - = hudba
@@ -210,6 +211,7 @@
 3 V restaurieren {restaurieren} [ʁɛstaʊˈʁiːʁən], hat (A) = reštaurovať, obnoviť
 3 V synchronisieren {synchronisieren} [zʏnkʁoniˈziːʁən], hat (A) = synchronizovať, dabovať
 3 AN autobiografisch {auto|bio|grafisch} [aʊtobioˈɡʁaːfɪʃ] = autobiografický
+3 N die Dernière {Dernière} [dɛʁˈnjɛːɐ], Dernièren = derniéra
 
 # games-sport
 1 N das Spiel {Spiel} [ʃpiːl], Spiele = hra, zápas
@@ -230,7 +232,7 @@
 - 3 V bespielen {be|spielen} [bəˈʃpiːlən], hat (A) = uvádzať predstavenia, hrať (na scéne alebo v priestore)
 - 2 V mitspielen {mit·spielen} [ˈmɪtʃpiːlən], hat (bei D) = hrať s, spoluúčinkovať, zahrať si
 - 3 V einspielen {ein·spielen} [ˈaɪnʃpiːlən], hat (A, sich A) = nahrať (v štúdiu), zarobiť (tržby), zohrať sa
-- 2 V abspielen {ab·spielen} [ˈapʃpiːlən], hat (A) = prehrať, odohrať
+- 2 V abspielen {ab·spielen} [ˈapʃpiːlən], hat (A) = prehrať (nahrávku), odohrať
 - 3 AN spielbar {spiel|bar} [ˈʃpiːlbaːɐ] = hrateľný
 - 3 V weiterspielen {weiter·spielen} [ˈvaɪtɐʃpiːlən], hat = hrať ďalej
 - 3 V sich aufspielen {sich auf·spielen} [zɪç ˈaʊfʃpiːlən], hat (als N) = vystatovať sa, naparovať sa
@@ -403,6 +405,8 @@
 3 V erspielen {er|spielen} [ɛɐˈʃpiːlən], hat (sich D) = vybojovať si, vyhrať si
 3 V komplettieren {komplettieren} [kɔmplɛˈtiːʁən], hat (A) = skompletizovať, doplniť
 3 V surfen {surfen} [ˈzœʁfən], hat = surfovať
+2 N der Amateur {Amateur} [amaˈtøːɐ], Amateure = amatér
+1 V verlieren {verlieren} [fɛɐˈliːʁən], verliert/verlor/verloren [fɛɐˈliːɐt/fɛɐˈloːɐ/fɛɐˈloːʁən], hat (A) = prehrať (zápas)
 
 # corpus-verbs
 3 V ausspielen {aus·spielen} [ˈaʊsʃpiːlən], hat (A gegen A) = poštvať proti sebe, vyložiť, vyhrať jedného proti druhému

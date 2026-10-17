@@ -1,0 +1,16 @@
+
+# concepts added for words of one language's word lists (HSK ...) that no concept said
+2 AN lower {lower} [ˈləʊə] = nižší
+2 AN advanced {ad|vanced} [ədˈvɑːnst] = pokročilý
+3 AN long-sighted {long-sighted} [ˌlɒŋ ˈsaɪtɪd] = ďalekozraký
+3 AN backward {backward} [ˈbækwəd] = zaostalý
+3 AN underdeveloped {under|developed} [ˌʌndədɪˈveləpt] = zaostalý
+3 AN long-haired {long-haired} [ˌlɒŋ ˈheəd] = vlasatý
+2 N low price {low price} [ˌləʊ ˈpraɪs], low prices = nízka cena
+2 N high temperature {high temperature} [ˌhaɪ ˈtemprɪtʃə], high temperatures = vysoká teplota
+2 N start of the semester {start of the semester} [ˌstɑːt əv ðə sɪˈmestə], starts of the semester = začiatok semestra
+2 N start of the month {start of the month} [ˌstɑːt əv ðə ˈmʌnθ], starts of the month = začiatok mesiaca
+2 N written exam {written exam} [ˌrɪtən ɪɡˈzæm], written exams = písomná skúška
+2 N minor character {minor character} [ˌmaɪnə ˈkærɪktə], minor characters = vedľajšia postava
+2 N Middle Ages {Middle Ages} [ˌmɪdəl ˈeɪdʒɪz], PL = stredovek
+2 N first place {first place} [ˌfɜːst ˈpleɪs], first places = prvé miesto

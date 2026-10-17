@@ -156,6 +156,7 @@
 3 AV сдержанно {сдержанно} [ˈzdʲerʐənːə] = zdržanlivo
 2 AV жадно {жадно} [ˈʐadnə] = chamtivo
 3 AV блаженно {блаженно} [blɐˈʐenːə] = slastne
+2 N щедрость {щедрость} [ˈɕːedrəstʲ], ж, - = štedrosť
 
 # character-traits
 1 N характер {характер} [xɐˈraktʲɪr], м, характеры = charakter
@@ -432,6 +433,10 @@
 3 AV благосклонно {благосклонно} [blɐɡɐˈsklonːə] = blahosklonne
 3 AV добросовестно {добросовестно} [dəbrɐˈsovʲɪsnə] = svedomito
 3 AV иронично {иронично} [ɪrɐˈnʲitɕnə] = ironicky
+2 AN аморальный {а|моральный} [ɐmɐˈralʲnɨj] = nemorálny
+3 AN безнравственный {без|нравственный} [bʲɪzˈnrafstvʲɪnːɨj] = nemorálny
+2 AN снисходительный {снисходительный} [snʲɪsxɐˈdʲitʲɪlʲnɨj] = zhovievavý
+2 V отвыкать {отвыкать} [ɐtvɨˈkatʲ], отвыкнуть (от + Р) = odvyknúť si
 
 # character
 2 AN трусливый {трусливый} [truˈslʲivɨj] = zbabelý

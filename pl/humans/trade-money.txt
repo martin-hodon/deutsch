@@ -75,6 +75,10 @@
 3 V naciągać {na|ciągać} [naˈtɕɔŋɡatɕ], naciągnąć = podviesť
 3 AV biednie {biednie} [ˈbʲɛdɲɛ] = chudobne
 3 AV finansowo {finansowo} [fʲinanˈsɔvɔ] = finančne
+2 N obniżka ceny {obniżka ceny} [ɔbˈɲiʂka ˈtsɛnɨ], ż, obniżki cen = zníženie ceny
+2 V bogacić się {bogacić się} [bɔˈɡatɕitɕ ɕɛ], wzbogacić się = zbohatnúť
+1 V pożyczać {pożyczać} [pɔˈʐɨtʂatɕ], pożyczyć (od + D) = požičať si
+2 V wypożyczać {wy|pożyczać} [vɨpɔˈʐɨtʂatɕ], wypożyczyć (od + D) = požičať si
 
 # buying-selling
 1 V kupować {kupować} [kuˈpɔvatɕ], kupić = kúpiť
@@ -211,6 +215,8 @@
 2 AV tanio {tanio} [ˈtaɲɔ] = lacno
 2 AV drogo {drogo} [ˈdrɔɡɔ] = draho
 3 AV luksusowo {luksusowo} [luksuˈsɔvɔ] = luxusne
+3 N potanienie {po|tanienie} [pɔtaˈɲɛɲɛ], n, potanienia = zlacnenie
+1 V sprzedawać {sprzedawać} [spʂɛˈdavatɕ], sprzedać (B) = predávať
 
 # places-of-trade
 1 N rynek {rynek} [ˈrɨnɛk], m, rynki = trh
@@ -445,6 +451,8 @@
 2 V składować {składować} [skwaˈdɔvatɕ], - = uskladniť
 3 AV niezasłużenie {niezasłużenie} [ɲɛzaswuˈʐɛɲɛ] = nezaslúžene
 3 AV ekonomicznie {ekonomicznie} [ɛkɔnɔˈmʲitʂɲɛ] = ekonomicky
+3 N deflacja {deflacja} [dɛˈflatsja], ż, - = deflácia
+2 N odbiorca {odbiorca} [ɔdˈbʲɔrtsa], m, odbiorcy = odberateľ
 
 # trade
 3 V licencjonować {licencjonować} [litsɛntsjɔˈnɔvatɕ], - = licencovať

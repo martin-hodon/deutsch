@@ -104,6 +104,8 @@
 3 N la hebilla {hebilla} [eˈβiʎa], hebillas = spona
 3 N el remiendo {remiendo} [reˈmjendo], remiendos = záplata
 2 N el parche {parche} [ˈpaɾtʃe], parches = záplata
+2 V desabrochar {des|abrochar} [desaβɾoˈtʃaɾ] = rozopnúť
+3 V desabotonar {des|abotonar} [desaβotoˈnaɾ] = rozopnúť
 
 # materials-making
 2 N la tela {tela} [ˈtela], telas = látka
@@ -179,3 +181,4 @@
 2 N la máscara {máscara} [ˈmaskaɾa], máscaras = maska
 2 V disfrazar {disfrazar} [disfɾaˈθaɾ] = maskovať
 3 V enmascarar {enmascarar} [emmaskaˈɾaɾ] = maskovať
+2 AN vestido {vestido} [besˈtiðo], vestida = oblečený

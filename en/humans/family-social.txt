@@ -318,6 +318,11 @@
 3 N encounter {encounter} [ɪnˈkaʊntə], encounters = stretnutie
 3 N safeguard {safe|guard} [ˈseɪfɡɑːd], safeguards = ochrana
 3 V shield {shield} [ʃiːld] (sb, from) = chrániť
+2 AN intolerant {in|tolerant} [ɪnˈtɒlərənt] (of) = netolerantný
+2 N infidelity {in|fidelity} [ˌɪnfɪˈdelɪtɪ], infidelities = nevera
+2 V be faithful {be faithful} [bi ˈfeɪθfəl] (to) = byť verný
+2 V quarrel {quarrel} [ˈkwɒrəl] (with, about) = pohádať sa
+2 V fall out {fall·out} [fɔːl ˈaʊt], fell out/fallen out (with) = pohádať sa
 # contact
 2 V cuddle {cuddle} [ˈkʌdəl] (up) = túliť sa
 

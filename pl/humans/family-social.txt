@@ -402,6 +402,11 @@
 3 AV niegodnie {niegodnie} [ɲɛˈɡɔdɲɛ] = nedôstojne
 2 AV wzajemnie {wzajemnie} [vzaˈjɛmɲɛ] = vzájomne
 2 AV wraz {wraz} [vras] = spolu
+3 AN nietolerancyjny {nie|tolerancyjny} [ɲɛtɔlɛranˈtsɨjnɨ] = netolerantný
+2 N niewierność {nie|wierność} [ɲɛˈvʲɛrnɔɕtɕ], ż, - = nevera
+2 N zdrada {zdrada} [ˈzdrada], ż, zdrady = nevera
+1 V być wiernym {być wiernym} [bɨtɕ ˈvʲɛrnɨm], - (C) = byť verný
+1 V kłócić się {kłócić się} [ˈkwutɕitɕ ɕɛ], pokłócić się = pohádať sa
 
 # contact
 2 V tulić się {tulić się} [ˈtulitɕ ɕɛ], przytulić się (do + D) = túliť sa

@@ -82,6 +82,7 @@ N teplo
 V ohrievať
 V ohriať
 N otepľovanie
+N ochladzovanie
 AN vlažný : adverb vlažne
 AN chladný : adverb chladno
 V chladiť

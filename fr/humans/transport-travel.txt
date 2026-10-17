@@ -327,6 +327,11 @@
 2 V s'arrêter {s'arrêter} [saʁɛˈte] = zájsť
 2 V voyager ensemble {voyager ensemble} [vwajaˈʒe ɑ̃ˈsɑ̃bl] = cestovať spolu
 2 AN méditerranéen {méditerranéen} [meditɛʁaneˈɛ̃], méditerranéenne = stredomorský
+1 N l'arrivée (f) {arrivée} [aʁiˈve], arrivées = prílet
+2 N le ralentissement {ralentisse|ment} [ʁalɑ̃tisˈmɑ̃], ralentissements = spomalenie
+2 N le déménagement {déménage|ment} [demenaʒˈmɑ̃], déménagements = vysťahovanie
+2 N la sortie du pays {sortie du pays} [sɔʁti dy pei], sorties du pays = vycestovanie
+2 N le territoire national {territoire national} [teʁitwaʁ nasjɔˈnal], territoires nationaux = tuzemsko
 
 # corpus-verbs
 2 V parcourir {par|courir} [paʁkuˈʁiʁ], irr, parcouru = precestovať

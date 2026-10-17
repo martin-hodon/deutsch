@@ -771,6 +771,20 @@
 3 AV beznadziejnie {beznadziejnie} [bɛznaˈdʑɛjɲɛ] = beznádejne
 3 AV pochopnie {pochopnie} [pɔˈxɔpɲɛ] = ukvapene
 1 AV po prostu {po prostu} [pɔ ˈprɔstu] = jednoducho
+2 AN poboczny {poboczny} [pɔˈbɔtʂnɨ] = vedľajší
+3 AN drugorzędny {drugo|rzędny} [druɡɔˈʐɛndnɨ] = vedľajší
+2 AN podrzędny {pod|rzędny} [pɔdˈʐɛndnɨ] = podriadený
+3 AN podległy {podległy} [pɔdˈlɛɡwɨ] = podriadený
+3 AN dorozumiany {do|rozumiany} [dɔruzuˈmʲanɨ] = implicitný
+3 AN implicytny {implicytny} [impliˈtsɨtnɨ] = implicitný
+2 AN rosnący {rosnący} [rɔsˈnɔntsɨ] = stúpajúci
+2 AN komiczny {komiczny} [kɔˈmʲitʂnɨ] = komický
+2 AN uległy {uległy} [uˈlɛɡwɨ] = submisívny
+2 AN niepraktyczny {nie|praktyczny} [ɲɛprakˈtɨtʂnɨ] = nepraktický
+2 AN niewygodny {nie|wygodny} [ɲɛvɨˈɡɔdnɨ] = nepraktický
+2 AN niedostępny {nie|dostępny} [ɲɛdɔˈstɛmpnɨ] = neprístupný
+2 N niedoskonałość {nie|doskonałość} [ɲɛdɔskɔˈnawɔɕtɕ], ż, niedoskonałości = nedokonalosť
+3 N złożoność {złożoność} [zwɔˈʐɔnɔɕtɕ], ż, - = zložitosť
 
 # state-properties
 1 AN nowy {nowy} [ˈnɔvɨ] = nový
@@ -1393,6 +1407,15 @@
 3 AV krzykliwie {krzykliwie} [kʂɨˈklivʲɛ] = kričivo
 3 AV niespiesznie {niespiesznie} [ɲɛˈspʲɛʂɲɛ] = nenáhlivo
 1 AN warto {warto} [ˈvartɔ] (+ inf) = stojí za to
+3 AN mniejszościowy {mniejszościowy} [mɲɛjʂɔɕˈtɕɔvɨ] = menšinový
+2 AN zawodny {zawodny} [zaˈvɔdnɨ] = nespoľahlivý
+2 AN nieistniejący {nie|istniejący} [ɲɛistɲɛˈjɔntsɨ] = neexistujúci
+2 N miękkość {miękkość} [ˈmʲɛŋkɔɕtɕ], ż, - = mäkkosť
+3 N powolność {powolność} [pɔˈvɔlnɔɕtɕ], ż, - = pomalosť
+3 N niestabilność {nie|stabilność} [ɲɛstaˈbʲilnɔɕtɕ], ż, - = nestabilita
+2 AV jak najmniej {jak najmniej} [jak ˈnajmɲɛj] = čo najmenej
+2 V wzmacniać się {wz|macniać się} [ˈvzmatsɲatɕ ɕɛ], wzmocnić się = silnieť
+2 V silnieć {silnieć} [ˈɕilɲɛtɕ], - = silnieť
 
 # corpus-adjectives
 2 AN przemyślany {przemyślany} [pʂɛmɨˈɕlanɨ] = premyslený
@@ -1642,3 +1665,4 @@
 2 AV niesamowicie {niesamowicie} [ɲɛsamɔˈvʲitɕɛ] = neuveriteľne
 2 AN podwyższony {podwyższony} [pɔdvɨʂˈʂɔnɨ] = zvýšený
 2 AN zwiększony {zwiększony} [zvʲɛŋkˈʂɔnɨ] = zvýšený
+2 AN obniżony {obniżony} [ɔbɲiˈʐɔnɨ] = znížený

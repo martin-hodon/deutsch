@@ -8,14 +8,14 @@ N starí rodičia
 N otec
 AN otcovský : adverb otcovsky
 N starý otec
-N dedko
+N dedko : of starý otec @ hovorovo
 N nevlastný otec
 N svokor
 N matka
-N mama
+N mama : of matka @ hovorovo
 AN materinský
 N stará mama
-N babka
+N babka : of stará mama @ hovorovo
 N nevlastná matka
 N svokra
 N syn
@@ -91,7 +91,7 @@ N najstarší
 N starý mládenec
 N senior
 N seniorka
-N chlap
+N chlap : of muž @ hovorovo
 N mládenec
 N single
 AN homofóbny
@@ -207,9 +207,11 @@ V dôverovať
 N dôvera
 N nedôvera
 V zradiť
+V byť verný
 N zradca
 AN verný : adverb verne
 N vernosť
+N nevera
 AN neverný : adverb neverne
 AN zdvorilý : adverb zdvorilo
 N zdvorilosť
@@ -243,6 +245,7 @@ V povzbudiť
 V poslúchať
 N poslušnosť
 V zmieriť sa
+V pohádať sa
 N zmierenie
 V oklamať
 N klam
@@ -267,6 +270,7 @@ N inšpirácia
 V tolerovať
 N tolerancia
 AN tolerantný : adverb tolerantne
+AN netolerantný
 V miešať sa
 V provokovať
 N provokácia
@@ -277,7 +281,7 @@ V snažiť sa
 N úsilie
 N posol
 N miláčik
-N kamarát
+N kamarát : of priateľ @ hovorovo
 N idiot
 N potupa
 N hostinský

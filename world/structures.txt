@@ -1,0 +1,419 @@
+# THE EXAMPLE PLANS OF THE GRAMMAR STRUCTURES (engine/structures.js loadStructures): for each structure of the syllabus
+# the word-order exercise offers, one or two SIMPLE plans in the language-free clause format (world/CLAUSES.md) that
+# show that structure and nothing beyond the base (present, objects, predicates), a time/place/manner word, and what
+# the structure implies (structures.js IMPLIED). Every language's realizer says them: the sentence a structure always
+# has in the Syntax exercise when the planner finds none, the examples of the grammar page's overview, and -- a plan
+# a realizer cannot say -- which structures a language does not have. A block: the structure's name on its own line,
+# its plan under it (S: the clause ids and marks; one clause line each); a `#` line is a note. The de.* choices are
+# German's, the other languages ignore them. `-ru -zh` after the name: languages whose realizer does not say this plan
+# (no such construction, or said wrong) -- they are not offered the structure through it.
+
+# A1.1
+present
+  S: 1 .
+  1 MAIN verb=bývať subj=1sg location=none:Nemecko
+present
+  S: 1 .
+  1 MAIN verb=pracovať subj=3sg.f time=dnes
+
+predicate
+  S: 1 .
+  1 MAIN verb=byť subj=def:dom pred=adj:veľký
+predicate
+  S: 1 .
+  1 MAIN verb=byť subj=1sg pred=none:učiteľ
+
+name-age-clock
+  S: 1 .
+  1 MAIN verb=volať_sa subj=1sg pred=name:Anna
+name-age-clock
+  S: 1 .
+  1 MAIN verb=byť subj=3sg.n pred=clock:osem
+
+yes-no
+  S: 1 ?
+  1 YESNO verb=prísť subj=2sg time=dnes
+yes-no
+  S: 1 ?
+  1 YESNO verb=piť subj=2sg patient=none:káva
+
+wh-basic
+  S: 1 ?
+  1 WH verb=bývať subj=2sg wh=where
+wh-basic
+  S: 1 ?
+  1 WH verb=prísť subj=2sg wh=whence
+
+negation
+  S: 1 .
+  1 MAIN verb=prísť subj=1sg neg=yes
+negation
+  S: 1 .
+  1 MAIN verb=pracovať subj=3sg.m time=dnes neg=yes
+
+coord
+  S: 1 , but 2 .
+  1 MAIN verb=byť subj=1sg pred=adj:unavený
+  2 MAIN verb=pracovať subj=1sg
+coord
+  S: 1 , and 2 .
+  1 MAIN verb=variť subj=3sg.f
+  2 MAIN verb=čítať subj=3sg.m
+
+# A1.2
+object
+  S: 1 .
+  1 MAIN verb=kúpiť subj=1sg patient=def:jablko
+object
+  S: 1 .
+  1 MAIN verb=čítať subj=3sg.f patient=indef:kniha
+
+no-det
+  S: 1 .
+  1 MAIN verb=kúpiť subj=1sg patient=no:jablko time=dnes
+no-det
+  S: 1 .
+  1 MAIN verb=mať_(vlastniť) subj=3sg.m patient=no:auto
+
+possessive
+  S: 1 .
+  1 MAIN verb=byť subj=this pred=poss.1sg:brat
+possessive
+  S: 1 .
+  1 MAIN verb=čítať subj=3sg.f patient=poss.3sg.f:kniha
+
+imperative
+  S: 1 !
+  1 IMP verb=prísť imp=2sg de.part=bitte time=zajtra
+imperative
+  S: 1 !
+  1 IMP verb=otvoriť imp=formal patient=def:okno
+
+modal
+  S: 1 .
+  1 MAIN verb=plávať subj=1sg modal=môcť
+modal
+  S: 1 .
+  1 MAIN verb=pracovať subj=3sg.m modal=musieť time=dnes
+
+place-basic
+  S: 1 .
+  1 MAIN verb=hrať subj=def:dieťa+pl place=in:def:záhrada
+place-basic
+  S: 1 .
+  1 MAIN verb=čakať subj=1sg place=at:def:dvere
+
+time-basic
+  S: 1 .
+  1 MAIN verb=pracovať subj=1sg time=on-day:pondelok
+time-basic
+  S: 1 .
+  1 MAIN verb=prísť subj=3sg.f time=at-hour:osem
+
+one-gladly-very
+  S: 1 .
+  1 MAIN verb=piť subj=1sg patient=none:káva manner=rád
+one-gladly-very -ru
+  S: 1 .
+  1 MAIN verb=hovoriť subj=one patient=none:nemčina place=tu
+
+pron-obj
+  S: 1 .
+  1 MAIN verb=vidieť subj=1sg patient=2sg
+pron-obj
+  S: 1 .
+  1 MAIN verb=poznať subj=3sg.f patient=3sg.m
+
+# A2.1
+perfect
+  S: 1 .
+  1 MAIN verb=jesť subj=1sg tense=perfect
+perfect
+  S: 1 .
+  1 MAIN verb=prísť subj=3sg.m tense=perfect time=včera
+
+recipient
+  S: 1 .
+  1 MAIN verb=pomôcť subj=1sg recipient=2sg
+recipient
+  S: 1 .
+  1 MAIN verb=dať subj=3sg.f recipient=def:dieťa patient=def:kniha
+
+direction
+  S: 1 .
+  1 MAIN verb=ísť_(pešo) subj=1sg pp=into:def:kuchyňa
+direction
+  S: 1 .
+  1 MAIN verb=položiť subj=3sg.m patient=def:kniha pp=onto:def:stôl
+
+adjective
+  S: 1 .
+  1 MAIN verb=kúpiť subj=1sg patient=indef:auto+adj:nový
+adjective
+  S: 1 .
+  1 MAIN verb=bývať subj=1pl location=indef:dom+adj:starý
+
+comparison
+  S: 1 .
+  1 MAIN verb=byť subj=def:dom pred=adj:veľký+comp+than(def:auto)
+comparison
+  S: 1 .
+  1 MAIN verb=byť subj=def:dom pred=adj:veľký+sup
+
+that-because-if
+  S: 1 , 2 .
+  1 MAIN verb=zostať subj=1sg time=dnes place=home
+  2 SUB link=because verb=byť subj=1sg pred=adj:chorý
+that-because-if
+  S: 1 .
+  1 MAIN verb=povedať subj=3sg.m clause=2
+  2 SUB link=that verb=prísť subj=3sg.m time=zajtra
+
+connectives
+  S: 1 . 2 .
+  1 MAIN verb=byť subj=1sg pred=adj:chorý
+  2 MAIN verb=zostať subj=1sg conn=preto place=home
+
+for
+  S: 1 , for 2 .
+  1 MAIN verb=zostať subj=1sg place=home
+  2 MAIN verb=byť subj=1sg pred=adj:chorý
+
+# A2.2
+polite
+  S: 1 ?
+  1 YESNO verb=otvoriť subj=formal patient=def:okno modal=môcť mood=hypo de.part=bitte
+polite
+  S: 1 ?
+  1 YESNO verb=prísť subj=formal modal=môcť mood=hypo de.part=bitte time=zajtra
+
+which
+  S: 1 ?
+  1 WH verb=čítať subj=2sg wh=which:A.def:kniha
+
+indefinite
+  S: 1 .
+  1 MAIN verb=vidieť subj=1sg patient=nothing
+indefinite
+  S: 1 .
+  1 MAIN verb=hľadať subj=3sg.f patient=something
+
+time-phrases
+  S: 1 .
+  1 MAIN verb=pracovať subj=1sg time=every:deň
+time-phrases
+  S: 1 .
+  1 MAIN verb=bývať subj=1sg location=none:Nemecko time=since:dva:rok
+
+when-past
+  S: 1 , 2 .
+  1 SUB link=when-past verb=byť subj=1sg pred=adj:mladý tense=past
+  2 MAIN verb=bývať subj=1sg location=none:Rakúsko tense=past
+
+quantifiers
+  S: 1 .
+  1 MAIN verb=hrať subj=all:dieťa place=in:def:záhrada
+quantifiers
+  S: 1 .
+  1 MAIN verb=pracovať subj=many:žena place=tu
+
+# B1.1
+past
+  S: 1 .
+  1 MAIN verb=bývať subj=1sg location=none:Nemecko tense=past
+past
+  S: 1 .
+  1 MAIN verb=prísť subj=3sg.m tense=past time=včera
+
+pluperfect
+  S: 1 , 2 .
+  1 SUB link=after verb=jesť subj=3sg.m tense=pluperfect
+  2 MAIN verb=odísť subj=3sg.m tense=past
+
+future
+  S: 1 .
+  1 MAIN verb=prísť subj=1sg time=zajtra tense=future
+future
+  S: 1 .
+  1 MAIN verb=pracovať subj=1pl tense=future
+
+relative
+  S: 1 .
+  1 MAIN verb=bývať subj=def:muž+rel(2) location=none:Nemecko
+  2 REL verb=poznať subj=1sg relrole=patient
+relative
+  S: 1 .
+  1 MAIN verb=byť subj=def:kniha+rel(2) pred=adj:nový
+  2 REL verb=čítať subj=3sg.f relrole=patient
+
+relative-prep
+  S: 1 .
+  1 MAIN verb=pracovať subj=def:žena+rel(2) place=tu
+  2 REL verb=hovoriť subj=1sg relrole=companion
+
+infinitive
+  S: 1 .
+  1 MAIN verb=skúsiť subj=1sg clause=2
+  2 INF verb=čítať ctrl=1sg patient=def:kniha
+
+purpose
+  S: 1 , 2 .
+  1 MAIN verb=šetriť subj=1sg patient=none:peniaze
+  2 INF link=purpose verb=kúpiť ctrl=1sg patient=indef:auto
+
+conditional
+  S: 1 , 2 .
+  1 SUB link=if-unreal verb=byť subj=1sg pred=adj:bohatý_(majetný) mood=hypo
+  2 MAIN verb=kúpiť subj=1sg patient=indef:dom mood=hypo
+
+indirect
+  S: 1 .
+  1 MAIN verb=vedieť subj=1sg clause=2
+  2 SUB wh=where verb=bývať subj=3sg.m
+indirect
+  S: 1 .
+  1 MAIN verb=vedieť subj=1sg clause=2
+  2 SUB link=whether verb=prísť subj=3sg.m time=zajtra
+
+although-so-that
+  S: 1 , 2 .
+  1 MAIN verb=pracovať subj=1sg
+  2 SUB link=although verb=byť subj=1sg pred=adj:unavený
+
+temporal -ru
+  S: 1 , 2 .
+  1 MAIN verb=čakať subj=1sg
+  2 SUB link=until verb=prísť subj=2sg
+temporal
+  S: 1 , 2 .
+  1 SUB link=before verb=odísť subj=1pl
+  2 MAIN verb=jesť subj=1pl
+
+owner
+  S: 1 .
+  1 MAIN verb=byť subj=this pred=def:auto+owner(def:otec)
+
+causative
+  S: 1 .
+  1 MAIN verb=nechať subj=1sg patient=def:auto inf=opraviť
+
+# B1.2
+passive -zh
+  S: 1 .
+  1 MAIN verb=otvoriť subj=def:dvere voice=passive
+passive
+  S: 1 .
+  1 MAIN verb=stavať subj=def:dom voice=passive by=def:muž
+
+paired
+  S: 1 .
+  1 MAIN verb=piť subj=3sg.m patient=none:káva+pair(neither-nor,none:čaj)
+paired
+  S: 1 .
+  1 MAIN verb=piť subj=1sg patient=none:káva+pair(both-and,none:čaj)
+
+cause-phrases
+  S: 1 .
+  1 MAIN verb=zostať subj=1pl because-of=def:dážď time=dnes place=home
+
+conditional-past
+  S: 1 , 2 .
+  1 SUB link=if-unreal verb=vedieť subj=1sg patient=this tense=perfect mood=hypo
+  2 MAIN verb=prísť subj=1sg time=skôr tense=perfect mood=hypo
+
+without-instead
+  S: 1 , 2 .
+  1 MAIN verb=odísť subj=3sg.m
+  2 INF link=without verb=povedať ctrl=3sg.m patient=indef:slovo
+
+quantifiers-more
+  S: 1 .
+  1 MAIN verb=hrať subj=both:dieťa+pl
+quantifiers-more
+  S: 1 .
+  1 MAIN verb=mať_(vlastniť) subj=1sg patient=some:kniha+pl
+
+subject-drop
+  S: 1 and 2 .
+  1 MAIN verb=kúpiť subj=3sg.m patient=none:chlieb
+  2 MAIN verb=piť drop=yes subj=3sg.m patient=none:káva
+
+indefinite-adj
+  S: 1 .
+  1 MAIN verb=kúpiť subj=1sg patient=something+adj:nový
+
+negation-more
+  S: 1 .
+  1 MAIN verb=pracovať subj=3sg.m neg=no-more
+negation-more
+  S: 1 .
+  1 MAIN verb=jesť subj=1sg neg=not-yet
+
+idioms
+  S: 1 .
+  1 MAIN verb=mať_(vlastniť) subj=1sg bare=none:hlad
+
+# B2.1
+passive-more
+  S: 1 .
+  1 MAIN verb=písať subj=def:list_(písomnosť) voice=passive modal=musieť time=dnes
+passive-more
+  S: 1 .
+  1 MAIN verb=otvoriť subj=def:dvere voice=state
+
+modal-perfect -zh
+  S: 1 .
+  1 MAIN verb=pracovať subj=1sg modal=musieť tense=perfect time=včera
+
+reported -pl -ru -zh
+  S: 1 .
+  1 MAIN verb=povedať subj=3sg.m clause=2
+  2 REP verb=byť subj=3sg.m pred=adj:chorý mood=reported
+
+relative-more
+  S: 1 .
+  1 MAIN verb=čakať subj=def:muž+rel(2)
+  2 REL verb=byť subj=none:auto relrole=owner pred=adj:nový
+
+clauses-b2 -zh
+  S: 1 , 2 .
+  1 MAIN verb=učiť_sa subj=3sg.m
+  2 SUB link=by-doing verb=čítať subj=3sg.m
+
+so-that-the-more -pl -ru -zh
+  S: 1 , 2 .
+  1 SUB link=the-more verb=pracovať subj=3sg.m jecomp=dlhý
+  2 MAIN link=the-more-so verb=stať_sa subj=3sg.m pred=adj:unavený+comp.bare
+
+participle
+  S: 1 .
+  1 MAIN verb=hrať subj=def:dieťa+pl+part(I,smiať_sa) place=in:def:záhrada
+
+be-to
+  S: 1 .
+  1 MAIN verb=byť subj=3sg.m raise=zdať_sa pred=adj:unavený
+be-to -ru -zh
+  S: 1 .
+  1 MAIN verb=riešiť subj=def:problém voice=seinzu manner=ťažký
+
+can-be-done -ru -zh
+  S: 1 .
+  1 MAIN verb=otvoriť subj=def:okno voice=sichlassen manner=ľahký
+
+future-perfect -pl -ru -zh
+  S: 1 .
+  1 MAIN verb=čítať subj=3sg.m patient=def:kniha time=zajtra tense=future2
+
+# B2.2
+nominal -ru
+  S: 1 .
+  1 MAIN verb=byť subj=def:@čítať pred=adj:dôležitý
+
+passive-subj2 -zh
+  S: 1 .
+  1 MAIN verb=zničiť subj=def:dom voice=passive tense=perfect mood=hypo
+
+free-relative
+  S: 1 , 2 .
+  1 WHOEVER verb=pracovať manner=veľa
+  2 MAIN verb=byť subj=that-one pred=adj:unavený

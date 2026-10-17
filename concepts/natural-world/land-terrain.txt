@@ -32,6 +32,7 @@ N duna
 N jaskyňa
 N útes (skalnatý)
 N vrchol
+N úpätie
 V vrcholiť
 N samit
 N svah

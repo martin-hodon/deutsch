@@ -96,6 +96,8 @@
 2 N la regione {regione} [reˈdʒoːne], regioni = kraj
 2 N il parco nazionale {parco nazionale} [ˈparko nattsjoˈnaːle], parchi nazionali = národný park
 2 N la riserva naturale {riserva naturale} [riˈzɛrva natuˈraːle], riserve naturali = prírodná rezervácia
+2 N il piede del monte {piede del monte} [ˈpjɛːde del ˈmonte], piedi del monte = úpätie
+3 N la pendice {pendice} [penˈdiːtʃe], pendici = úpätie
 
 # surface-materials
 2 N la roccia {roccia} [ˈrottʃa], rocce = skala

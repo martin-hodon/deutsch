@@ -231,6 +231,11 @@
 2 V campare {campare} [kamˈpaːre] (di) = žiť z
 2 V reclamare {reclamare} [reklaˈmaːre] = reklamovať
 2 V contestare {contestare} [kontesˈtaːre] = reklamovať
+2 N l'occupazione (f) {occupazione} [okːupaˈtsjoːne], occupazioni = zamestnanosť
+2 N il subordinato {subordinato} [subordiˈnaːto], subordinati = podriadený
+3 N il profano {profano} [proˈfaːno], profani = laik
+3 N il declassamento {declassamento} [deklasːaˈmento], declassamenti = degradácia
+3 N la degradazione {degradazione} [deɡradaˈtsjoːne], degradazioni = degradácia
 
 # making-doing
 1 V fare {fare} [ˈfaːre], irr, fatto = robiť
@@ -324,6 +329,8 @@
 2 V limare {limare} [liˈmaːre] = pilovať
 3 V sezionare {sezionare} [settsjoˈnaːre] = vypreparovať
 3 V dissezionare {dissezionare} [disːettsjoˈnaːre] = vypreparovať
+2 V demolire {demolire} [demoˈliːre], isc = búrať
+2 V abbattere {abbattere} [aˈbːatːere] = búrať
 
 # tools
 1 N il martello {martello} [marˈtɛlːo], martelli = kladivo

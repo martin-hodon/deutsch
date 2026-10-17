@@ -487,6 +487,14 @@
 2 AV 一同 {一同} [yìtóng] = spolu
 2 V 迎来 {迎来} [yínglái] = privítať
 2 V 支援 {支援} [zhīyuán] = podporovať
+3 AN 不宽容 {不宽容} [bù kuānróng] = netolerantný
+3 AN 偏狭 {偏狭} [piānxiá] = netolerantný
+3 N 不忠 {不忠} [bù zhōng], - = nevera
+3 N 背叛 {背叛} [bèipàn], - = nevera
+3 V 忠于 {忠于} [zhōngyú] = byť verný
+3 V 保持忠诚 {保持忠诚} [bǎochí zhōngchéng] = byť verný
+1 V 吵架 {吵|架} [chǎojià] = pohádať sa
+2 V 争吵 {争吵} [zhēngchǎo] = pohádať sa
 
 # contact
 3 V 依偎 {依偎} [yīwēi] = túliť sa

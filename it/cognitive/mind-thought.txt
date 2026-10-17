@@ -216,6 +216,8 @@
 3 AN eterogeneo {eterogeneo} [eteroˈdʒɛːneo], eterogenea = nejednotný
 3 AN omogeneo {omogeneo} [omoˈdʒɛːneo], omogenea = homogénny
 3 AN nominale {nominale} [nomiˈnaːle] = menný
+2 AN illogico {il|logico} [iˈlːɔːdʒiko], illogica, illogici/illogiche = nelogický
+2 AN incompetente {in|competente} [inkompeˈtɛnte] = nekompetentný
 
 # knowing
 1 V sapere {sapere} [saˈpeːre], irr = vedieť
@@ -379,6 +381,7 @@
 3 V smascherare {smascherare} [zmaskeˈraːre] = demaskovať
 2 AV erroneamente {errone|amente} [erroneaˈmente] = chybne
 1 AV con sicurezza {con·sicurezza} [kon sikuˈrettsa] = sebavedome
+2 N l'ignoranza (f) {ignoranza} [iɲːoˈrantsa], - = nevedomosť
 
 # memory
 1 N la memoria {memoria} [meˈmɔːrja], memorie = pamäť (schopnosť)
@@ -485,6 +488,7 @@
 3 V prioritizzare {prioritizzare} [prioritidˈdzaːre] = priorizovať
 3 V relativizzare {relativizzare} [relatividˈdzaːre] = relativizovať
 3 V polarizzare {polarizzare} [polaridˈdzaːre] = polarizovať
+1 V avere ragione {avere ragione} [aˈveːre raˈdʒoːne], irr = mať pravdu
 
 # more
 1 V considerare {considerare} [konsideˈraːre] = považovať

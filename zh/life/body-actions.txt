@@ -39,6 +39,8 @@
 1 V 起床 {起|床} [qǐchuáng] = vstať
 1 V 站住 {站住} [zhànzhù] = zastaviť sa
 2 V 停下 {停下} [tíngxià] = zastaviť sa
+2 V 远离 {远离} [yuǎnlí] = vzďaľovať sa
+3 V 渐行渐远 {渐行渐远} [jiànxíngjiànyuǎn] = vzďaľovať sa
 
 # locomotion
 1 V 跳 {跳} [tiào] = skákať
@@ -145,6 +147,8 @@
 2 V 登山 {登|山} [dēngshān] = liezť
 2 N 脚步 {脚步} [jiǎobù], 个 = krok
 2 V 奔跑 {奔跑} [bēnpǎo] = bežať
+1 V 飞来 {飞来} [fēilái] = priletieť
+2 V 飞到 {飞到} [fēidào] = priletieť
 
 # manipulation
 2 V 握 {握} [wò] = držať
@@ -494,3 +498,8 @@
 2 N 感想 {感想} [gǎnxiǎng], 个 = dojem
 2 V 展现 {展现} [zhǎnxiàn] = ukázať
 2 V 显出 {显出} [xiǎnchū] = ukázať
+2 V 取下 {取下} [qǔxià] = zvesiť
+2 V 摘下 {摘下} [zhāixià] = zvesiť
+1 V 放下 {放下} [fàngxià] = spúšťať
+2 V 降低 {降低} [jiàngdī] = spúšťať
+3 V 降下 {降下} [jiàngxià] = spúšťať

@@ -117,6 +117,8 @@
 3 AV pieusement {pieuse|ment} [pjøzˈmɑ̃] = nábožne
 3 AV divinement {divine|ment} [divinˈmɑ̃] = božsky
 2 AV merveilleusement {merveilleuse|ment} [mɛʁvɛjøzˈmɑ̃] = podivuhodne
+2 N la mortalité {mortalité} [mɔʁtaliˈte], mortalités = smrteľnosť
+2 N la condition mortelle {condition mortelle} [kɔ̃disjɔ̃ mɔʁˈtɛl], conditions mortelles = smrteľnosť
 
 # magic-fate
 2 N la magie {magie} [maˈʒi], - = mágia

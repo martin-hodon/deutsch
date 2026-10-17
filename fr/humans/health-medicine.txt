@@ -150,6 +150,9 @@
 2 AN dépendant {dépendant} [depɑ̃ˈdɑ̃], dépendante = odkázaný na opateru
 3 AV sainement {saine|ment} [sɛnˈmɑ̃] = zdravo
 2 AV douloureusement {douloureuse|ment} [dulurøzˈmɑ̃] = bolestivo
+2 AN voyant {voyant} [vwaˈjɑ̃], voyante = vidiaci
+2 PHR reprendre connaissance {reprendre connaissance} [ʁəpʁɑ̃dʁ kɔnɛˈsɑ̃s] = prebrať sa
+2 PHR revenir à soi {revenir à soi} [ʁəvəniʁ a ˈswa] = prebrať sa
 
 # treatment
 1 N la médecine {médecine} [medˈsin], - = medicína

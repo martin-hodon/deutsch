@@ -34,6 +34,8 @@
 3 AN erguido {erguido} [eɾˈɣiðo], erguida = vzpriamený
 3 V repantigarse {repantigarse} [repanˈtiɣaɾse] = rozvaliť sa
 2 PHR andar de puntillas {andar de puntillas} [anˈdaɾ de punˈtiʎas] = chodiť po špičkách
+1 V alejarse {alejarse} [aleˈxaɾse] (de) = vzďaľovať sa
+2 V distanciarse {distanciarse} [distanˈθjaɾse] (de) = vzďaľovať sa
 
 # locomotion
 1 V saltar {saltar} [salˈtaɾ] = skákať
@@ -111,6 +113,8 @@
 3 V andar a tientas {andar a tientas} [anˈdaɾ a ˈtjentas] = tápať
 3 V zumbar {zumbar} [θumˈbaɾ] = svišťať
 3 V hacer rodar {hacer rodar} [aˈθeɾ roˈðaɾ] = váľať
+2 V llegar en avión {llegar en avión} [ʎeˈɣaɾ en aˈβjon] = priletieť
+2 V aterrizar {aterrizar} [ateriˈθaɾ] = priletieť
 
 # manipulation
 1 V sujetar {sujetar} [suxeˈtaɾ] = držať
@@ -300,3 +304,6 @@
 2 V extender {extender} [eksteŋˈdeɾ], e>ie = natrieť
 1 V llevar {llevar} [ʎeˈβaɾ] = nosiť
 2 V pisar {pisar} [piˈsaɾ] = šliapnúť
+2 V descolgar {des|colgar} [deskolˈɣaɾ], o>ue = zvesiť
+1 V bajar {bajar} [baˈxaɾ] = spúšťať
+2 V descender {descender} [desθenˈdeɾ], e>ie = spúšťať

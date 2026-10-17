@@ -112,6 +112,7 @@ V stohovať
 V tlačiť
 N zväzok
 V zviazať
+V rozviazať
 N šarža
 N prebytok
 N nedostatok
@@ -132,6 +133,7 @@ N zníženie
 N rezerva
 N celkový počet
 N maximálna hodnota
+N minimálna hodnota
 V uschovať
 
 # counting-measuring
@@ -141,6 +143,7 @@ N počet
 AN početný : adverb početne
 AN nespočetný : adverb nespočetne
 N čitateľ (zlomku)
+N menovateľ
 V vložiť (na účet)
 V vypočítať
 N výpočet
@@ -164,7 +167,7 @@ N kilometer
 N milimeter
 N gram
 N kilogram
-N kilo
+N kilo : of kilogram @ hovorovo
 N liter
 N tona
 N míľa

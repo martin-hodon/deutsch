@@ -259,6 +259,8 @@
 2 AV 理论上 {理论上} [lǐlùnshang] = teoreticky
 2 V 查询 {查询} [cháxún] = informovať sa
 2 N 科研 {科研} [kēyán], - = výskum
+2 N 综合 {综合} [zōnghé], - = syntéza
+3 N 合成 {合成} [héchéng], - = syntéza
 
 # fields-of-study
 1 N 数学 {数学} [shùxué], 门 = matematika

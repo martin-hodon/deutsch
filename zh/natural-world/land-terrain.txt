@@ -100,6 +100,8 @@
 2 N 土地 {土地} [tǔdì], - = pôda
 2 N 风光 {风光} [fēngguāng], - = krajina (prírodná)
 2 N 高峰 {高峰} [gāofēng], 个 = vrchol
+2 N 山脚 {山脚} [shānjiǎo], 个 = úpätie
+3 N 山麓 {山麓} [shānlù], - = úpätie
 
 # surface-materials
 2 N 岩石 {岩石} [yánshí], 块 = skala

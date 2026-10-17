@@ -118,6 +118,8 @@
 3 N el recinto {recinto} [reˈθinto], recintos = ohrada
 3 N el cercado {cercado} [θeɾˈkaðo], cercados = ohrada
 2 N la gallina {gallina} [ɡaˈʎina], gallinas = sliepka
+2 N el carnero {carnero} [kaɾˈneɾo], carneros = baran
+3 N el macho cabrío {macho cabrío} [ˈmatʃo kaˈβɾio], machos cabríos = cap
 
 # birds
 1 N el pájaro {pájaro} [ˈpaxaɾo], pájaros = vták
@@ -169,6 +171,8 @@
 3 N el chochín {chochín} [tʃoˈtʃin], chochines = oriešok
 3 N el azor {azor} [aˈθoɾ], azores = jastrab
 3 N el gavilán {gavilán} [ɡaβiˈlan], gavilanes = jastrab
+2 N el pato macho {pato macho} [ˈpato ˈmatʃo], patos machos = káčer
+3 N el ganso macho {ganso macho} [ˈɡanso ˈmatʃo], gansos machos = gunár
 
 # fish-reptiles-amphibians
 1 N el pez {pez} [peθ], peces = ryba

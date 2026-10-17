@@ -169,6 +169,7 @@
 1 N architecture {architecture} [ˈɑːkɪtektʃə], - = architektúra
 2 AN architectural {architectur|al} [ˌɑːkɪˈtektʃrəl] = architektonický
 3 V phrase {phrase} [freɪz] (sth) = formulovať
+2 N synthesis {synthesis} [ˈsɪnθəsɪs], syntheses = syntéza
 # fields-of-study
 1 N mathematics {mathematics} [ˌmæθəˈmætɪks], - = matematika
 1 N maths {maths} [mæθs], - = matika

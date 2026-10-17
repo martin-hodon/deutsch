@@ -58,6 +58,7 @@
 3 V adornare {adornare} [adorˈnaːre] = zdobiť
 3 AN epico {epico} [ˈɛːpiko], epica, epici/epiche = epický
 3 V curare {curare} [kuˈraːre] = kurátorovať
+2 N la bruttezza {bruttezza} [bruˈtːettsa], - = škaredosť
 
 # music
 1 N la musica {musica} [ˈmuːzika], musiche = hudba
@@ -219,6 +220,7 @@
 3 V restaurare {restaurare} [restauˈraːre] = reštaurovať
 3 V sincronizzare {sincronizzare} [sinkronidˈdzaːre] = synchronizovať
 3 AN autobiografico {autobiografico} [autobioˈɡraːfiko], autobiografica, autobiografici/autobiografiche = autobiografický
+3 N l'ultima replica (f) {ultima replica} [ˈultima ˈrɛːplika], ultime repliche = derniéra
 
 # games-sport
 1 N il gioco {gioco} [ˈdʒɔːko], giochi = hra
@@ -238,7 +240,7 @@
 2 V giocare insieme {giocare insieme} [dʒoˈkaːre inˈsjɛːme] = hrať s
 2 V registrare {registrare} [redʒisˈtraːre] = nahrať (v štúdiu)
 3 V incidere {incidere} [inˈtʃiːdere], inciso = nahrať (v štúdiu)
-3 V riprodurre {riprodurre} [riproˈdurːe], irr, riprodotto = prehrať
+3 V riprodurre {riprodurre} [riproˈdurːe], irr, riprodotto = prehrať (nahrávku)
 3 AN giocabile {giocabile} [dʒoˈkaːbile] = hrateľný
 2 V continuare a giocare {continuare a giocare} [kontinuˈaːre a dʒoˈkaːre] = hrať ďalej
 2 V vantarsi {vantarsi} [vanˈtarsi] (di) = vystatovať sa
@@ -431,6 +433,8 @@
 2 V completare {completare} [kompleˈtaːre] = skompletizovať
 3 V surfare {surfare} [surˈfaːre] = surfovať
 3 V fare surf {fare surf} [ˈfaːre surf], irr, fatto = surfovať
+2 N il dilettante {dilettante} [dileˈtːante], dilettanti = amatér
+1 V perdere {perdere} [ˈpɛrdere], perso = prehrať (zápas)
 
 # corpus-verbs
 3 V mettere l'uno contro l'altro {mettere l'uno contro l'altro} [ˈmetːere ˈluːno ˈkontro ˈlaltro], irr, messo = poštvať proti sebe

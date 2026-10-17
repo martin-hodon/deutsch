@@ -196,6 +196,9 @@
 3 V verängstigen {ver|ängstigen} [fɛɐˈɛŋstɪɡən], hat (A) = vystrašiť, zastrašiť
 3 V traumatisieren {traumatisieren} [tʁaʊmatiˈziːʁən], hat (A) = traumatizovať
 3 AN euphorisch {euphorisch} [ɔɪˈfoːʁɪʃ] = eufórický
+3 N die Hoffnungslosigkeit {Hoffnungs|losigkeit} [ˈhɔfnʊŋsloːzɪçkaɪt], - = beznádej
+2 PHR im besten Fall {im besten Fall} [ɪm ˈbɛstən fal] = v najlepšom prípade
+2 V langweilen {lang|weilen} [ˈlaŋvaɪlən], hat (A) = nudiť
 
 # love-hate
 1 V lieben {lieben} [ˈliːbən], hat = ľúbiť, milovať
@@ -279,6 +282,8 @@
 3 N die Fairness {Fairness} [ˈfɛːɐnɛs], - = fair play
 3 N die Zumutung {Zu|mutung} [ˈtsuːmuːtʊŋ], Zumutungen = opovážlivosť, nezmysel
 3 N das Bekenntnis {Bekenntnis} [bəˈkɛntnɪs], Bekenntnisse = vyznanie
+3 N die Undankbarkeit {Un|dankbarkeit} [ˈʊndaŋkbaːɐkaɪt], - = nevďačnosť
+3 N die Verschlossenheit {Ver|schlossenheit} [fɛɐˈʃlɔsənhaɪt], - = uzavretosť
 
 # expressions
 1 V lachen {lachen} [ˈlaxən], hat (über A) = smiať sa
@@ -317,6 +322,8 @@
 3 V abschrecken {ab·schrecken} [ˈapʃʁɛkən], hat (A) = odstrašiť
 3 AN fürchterlich {fürchter|lich} [ˈfʏʁçtɐlɪç] = hrozný, strašný, strašlivý
 3 AN innig {innig} [ˈɪnɪç] = vrúcny, srdečný
+2 N das Weinen {Weinen} [ˈvaɪnən], - = plač
+3 V die Stirn runzeln {die Stirn runzeln} [diː ʃtɪʁn ˈʁʊntsəln], hat = mračiť sa
 
 # feelings
 3 V schwelgen {schwelgen} [ˈʃvɛlɡən], hat (in D) = hýriť, vychutnávať si

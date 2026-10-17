@@ -75,6 +75,8 @@
 3 N la disgregazione {disgregazione} [dizɡreɡaˈttsjoːne], disgregazioni = rozpad
 2 V marcire {marcire} [marˈtʃiːre], isc, essere = hniť
 2 V soffocare {soffocare} [sofːoˈkaːre] = udusiť
+1 N la nascita {nascita} [ˈnaʃːita], nascite = narodenie
+3 V ringiovanire {ringiovanire} [rindʒovaˈniːre], isc, essere = mladnúť
 
 # body-functions
 2 V respirare {respirare} [respiˈraːre] = dýchať
@@ -156,6 +158,10 @@
 2 V tacere {tacere} [taˈtʃeːre], irr = zmĺknuť
 2 AN forte come un toro {forte come un toro} [ˈfɔrte ˈkoːme un ˈtɔːro] = silný ako medveď
 3 AN forzuto {forzuto} [forˈtsuːto], forzuta = silný ako medveď
+2 N la veglia {veglia} [ˈveʎːa], veglie = bdenie
+3 V vegliare {vegliare} [veˈʎːaːre] = bdieť
+2 V stare sveglio {stare sveglio} [ˈstaːre ˈzveʎːo], irr, essere = bdieť
+2 V addormentare {addormentare} [adːormenˈtaːre] = uspať
 
 # nourishment
 1 V mangiare {mangiare} [manˈdʒaːre] = jesť
@@ -193,6 +199,7 @@
 3 V rosicchiare {rosicchiare} [roziˈkːjaːre] = hlodať
 3 V rodere {rodere} [ˈroːdere], roso = hlodať
 3 V sgranocchiare {sgranocchiare} [zɡranoˈkːjaːre] = chrúmať
+3 N la sazietà {sazietà} [satsjeˈta], - = sýtosť
 
 # senses-instinct
 2 N l'istinto (m) {istinto} [isˈtinto], istinti = inštinkt

@@ -111,6 +111,8 @@
 2 N breed {breed} [briːd], breeds = plemeno
 3 N enclosure {en|closure} [ɪnˈkləʊʒə], enclosures = ohrada
 2 N hen {hen} [hen], hens = sliepka
+2 N ram {ram} [ræm], rams = baran
+3 N billy goat {billy goat} [ˈbɪlɪ ɡəʊt], billy goats = cap
 # birds
 1 N bird {bird} [bɜːd], birds = vták
 3 N migratory bird {migratory bird} [ˈmaɪɡrətri ˈbɜːd], migratory birds = sťahovavý vták
@@ -155,6 +157,8 @@
 3 N quail {quail} [kweɪl], quail = prepelica
 3 N wren {wren} [ren], wrens = oriešok
 2 N hawk {hawk} [hɔːk], hawks = jastrab
+3 N drake {drake} [dreɪk], drakes = káčer
+3 N gander {gander} [ˈɡændə], ganders = gunár
 # fish-reptiles-amphibians
 1 N fish {fish} [fɪʃ], fish = ryba
 1 V fish {fish} [fɪʃ] = loviť ryby

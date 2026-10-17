@@ -50,3 +50,12 @@ rule (tools/adverbs.py: English -ly, German and Chinese the adjective itself, Sp
 compile derives a line from every adjective word of the parent concept (shown as a derived word of the adjective's
 family). `rules/adverbs.txt` silences the rule for an adjective whose derived word is wrong or means something else
 (`hard = -`: hardly is not hard's adverb); French, Russian and Polish have no rule, their adverbs are all written.
+
+## Composition of characters (composition.txt)
+
+`character:components` in the order they are written -- `的:白|勺`, `想:相/心`, `国:囗+玉` (`|` left to right, `/` top to
+bottom, `+` one over or inside the other; a space groups). A part not broken up has its stroke count (`豕:7`, `⺀:2`), `?`
+when unknown; the CJK stroke characters (㇐ ㇑ ㇒ ...) are strokes. engine/hanzi.js reads it for the dictionary: a
+character's components and stroke count, every character a component is in, the index of components by strokes
+(dictionary.html, 部件). Add a line for a character the dictionary has and the file lacks; keep its components characters
+of the file (or radical forms with a count line of their own) so that the stroke count comes out.

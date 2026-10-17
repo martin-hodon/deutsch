@@ -91,6 +91,7 @@
 2 N il fornitore di energia {fornitore di energia} [forniˈtoːre di enerˈdʒiːa], fornitori di energia = dodávateľ energie
 3 N il chilowattora {chilowattora} [kilowaˈtːoːra], chilowattora = kilowatthodina
 2 N il watt {watt} [vat], watt = watt
+1 V scaricare {scaricare} [skariˈkaːre] = vyložiť
 
 # computing-communication-devices
 1 N il computer {computer} [komˈpjuːter], computer = počítač
@@ -260,6 +261,11 @@
 3 V riattivare {riattivare} [riatːiˈvaːre] = znovu aktivovať
 2 V configurare {configurare} [konfiɡuˈraːre] = konfigurovať
 3 AN scalabile {scalabile} [skaˈlaːbile] = škálovateľný
+2 N il logout {logout} [ˈlɔɡaut], logout = odhlásenie
+2 N la disconnessione {dis|connessione} [diskonːeˈsːjoːne], disconnessioni = odhlásenie
+2 N il caricamento {caricamento} [karikaˈmento], caricamenti = nahratie
+2 AV offline {offline} [ofˈlain] = offline
+3 V rimpicciolire {rimpicciolire} [rimpittʃoˈliːre], isc = oddialiť
 
 # devices
 2 V smontare {smontare} [zmonˈtaːre] = demontovať

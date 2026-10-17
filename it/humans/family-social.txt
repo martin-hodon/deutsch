@@ -373,6 +373,11 @@
 3 N il locandiere {locandiere} [lokanˈdjɛːre], locandieri = hostinský
 1 V regalare {regalare} [reɡaˈlaːre] (a) = obdarovať
 2 V isolarsi {isolarsi} [izoˈlarsi] (da) = izolovať sa
+2 AN intollerante {in|tollerante} [intolːeˈrante] (di) = netolerantný
+2 N l'infedeltà (f) {in|fedeltà} [infedelˈta], infedeltà = nevera
+2 V essere fedele {essere fedele} [ˈɛsːere feˈdeːle], irr, essere (a) = byť verný
+1 V litigare {litigare} [litiˈɡaːre] (con) = pohádať sa
+3 V bisticciare {bisticciare} [bistitˈtʃaːre] (con) = pohádať sa
 
 # contact
 3 V coccolarsi {coccolarsi} [kokːoˈlarsi] = túliť sa

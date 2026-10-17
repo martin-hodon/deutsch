@@ -199,6 +199,7 @@
 3 AV expérimentalement {expérimentale|ment} [ɛkspeʁimɑ̃talˈmɑ̃] = experimentálne
 2 AV théoriquement {théorique|ment} [teɔʁikˈmɑ̃] = teoreticky
 3 AV démesurément {démesur|ément} [deməzyʁeˈmɑ̃] = neúmerne
+2 N la synthèse {synthèse} [sɛ̃ˈtɛz], synthèses = syntéza
 
 # fields-of-study
 1 N les mathématiques (f) {mathématiques} [matemaˈtik], PL = matematika

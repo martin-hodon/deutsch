@@ -72,6 +72,8 @@
 2 V pudrirse {pudrirse} [puˈðɾiɾse], pudrido = hniť
 3 V sofocar {sofocar} [sofoˈkaɾ] = udusiť
 3 V asfixiar {asfixiar} [asfikˈsjaɾ] = udusiť
+1 N el nacimiento {nacimiento} [naθiˈmjento], nacimientos = narodenie
+2 V rejuvenecer {rejuvenecer} [rexuβeneˈθeɾ], c>zc = mladnúť
 
 # body-functions
 1 V respirar {respirar} [respiˈɾaɾ] = dýchať
@@ -139,6 +141,11 @@
 3 V dormitar {dormitar} [doɾmiˈtaɾ] = driemať
 2 V callarse {callarse} [kaˈʎaɾse] = zmĺknuť
 2 AN fuerte como un oso {fuerte como un oso} [ˈfweɾte ˈkomo un ˈoso] = silný ako medveď
+2 N la vigilia {vigilia} [biˈxilja], vigilias = bdenie
+1 V estar despierto {estar despierto} [esˈtaɾ desˈpjeɾto], irr = bdieť
+3 V velar {velar} [beˈlaɾ] = bdieť
+1 V dormir {dormir} [doɾˈmiɾ], o>ue = uspať
+3 V adormecer {adormecer} [aðoɾmeˈθeɾ], c>zc = uspať
 
 # nourishment
 1 V comer {comer} [koˈmeɾ] = jesť
@@ -171,6 +178,7 @@
 3 V roer {roer} [roˈeɾ], irr = hlodať
 3 V mordisquear {mordisquear} [moɾðiskeˈaɾ] = chrúmať
 2 V picotear {picotear} [pikoteˈaɾ] = chrúmať
+3 N la saciedad {saciedad} [saθjeˈðað], - = sýtosť
 
 # senses-instinct
 2 N el instinto {instinto} [insˈtinto], instintos = inštinkt

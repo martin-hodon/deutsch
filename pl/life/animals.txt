@@ -121,6 +121,8 @@
 2 N zagroda {zagroda} [zaˈɡrɔda], ż, zagrody = ohrada
 2 N wybieg {wybieg} [ˈvɨbʲɛk], m, wybiegi = ohrada
 2 N kura {kura} [ˈkura], ż, kury = sliepka
+1 N baran {baran} [ˈbaran], m, barany = baran
+2 N kozioł {kozioł} [ˈkɔʑɔw], m, kozły = cap
 
 # birds
 1 N ptak {ptak} [ptak], m, ptaki = vták
@@ -167,6 +169,8 @@
 3 N przepiórka {przepiórka} [pʂɛˈpʲurka], ż, przepiórki = prepelica
 3 N strzyżyk {strzyżyk} [ˈstʂɨʐɨk], m, strzyżyki = oriešok
 2 N jastrząb {jastrząb} [ˈjastʂɔmp], m, jastrzębie = jastrab
+2 N kaczor {kaczor} [ˈkatʂɔr], m, kaczory = káčer
+2 N gąsior {gąsior} [ˈɡɔ̃ɕɔr], m, gąsiory = gunár
 
 # fish-reptiles-amphibians
 1 N ryba {ryba} [ˈrɨba], ż, ryby = ryba

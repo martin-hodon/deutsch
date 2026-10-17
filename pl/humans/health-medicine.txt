@@ -181,6 +181,9 @@
 3 AV niezdrowo {niezdrowo} [ɲɛˈzdrɔvɔ] = nezdravo
 3 AV boleśnie {boleśnie} [bɔˈlɛɕɲɛ] = bolestivo
 3 AV bezboleśnie {bezboleśnie} [bɛzbɔˈlɛɕɲɛ] = bezbolestne
+2 AN widzący {widzący} [vʲiˈdzɔntsɨ] = vidiaci
+2 PHR odzyskać przytomność {odzyskać przytomność} [ɔˈdzɨskatɕ pʂɨˈtɔmnɔɕtɕ] = prebrať sa
+2 PHR ocknąć się {ocknąć się} [ˈɔtsknɔɲtɕ ɕɛ] = prebrať sa
 
 # treatment
 2 N medycyna {medycyna} [mɛdɨˈtsɨna], ż, - = medicína

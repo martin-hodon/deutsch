@@ -412,8 +412,8 @@ V odkloniť : person > patient {voda|doprava|pozornosť}
 V pomaľovať : person > patient {stena|dom|obraz|stôl|stolička (nábytok)|plot}
 V portrétovať : {umelec|maliar|fotograf} > patient person
 V poštvať proti sebe : person > patient person
-V prehrať : person > patient game
-V prehrať : person > patient {pieseň|film|hudba}
+V prehrať (zápas) : person > patient game
+V prehrať (nahrávku) : person > patient {pieseň|film|hudba}
 V pózovať : person
 V reštaurovať : person > patient {obraz|kostol|zámok|hrad|socha|budova}
 V sfilmovať : person > patient {kniha|príbeh|scéna|udalosť}

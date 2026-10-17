@@ -131,6 +131,7 @@
 2 AV 刚好 {刚好} [gānghǎo] = práve
 2 AV 好似 {好似} [hǎosì] = akoby
 2 AV 恰好 {恰好} [qiàhǎo] = práve
+1 AV 越来越少 {越来越少} [yuèláiyuè shǎo] = čoraz menej
 
 # time
 1 AV 现在 {现在} [xiànzài] = teraz
@@ -240,6 +241,8 @@
 2 AV 随手 {随手} [suíshǒu] = mimochodom
 2 AV 不免 {不免} [bùmiǎn] = nevyhnutne
 2 AV 必将 {必将} [bìjiāng] = nevyhnutne
+1 AV 不愿意 {不愿意} [bù yuànyì] = nerád
+2 AV 勉强 {勉强} [miǎnqiǎng] = nerád
 
 # place-direction
 1 AV 这里 {这里} [zhèlǐ] = sem
@@ -496,3 +499,12 @@
 2 AV 早晚 {早晚} [zǎowǎn] = skôr či neskôr
 2 AV 照样 {照样} [zhàoyàng] = ako predtým
 1 PAR 着 {着} [zhe] = častica trvajúceho stavu (着)
+2 AV 碰巧 {碰巧} [pèngqiǎo] = náhodou
+2 AV 偶然 {偶然} [ǒurán] = náhodou
+3 AV 无意中 {无意中} [wúyìzhōng] = náhodou
+1 AV 最后 {最后} [zuìhòu] = ako posledný
+2 AV 最后一个 {最后一个} [zuìhòu yīgè] = ako posledný
+1 PHR 零上 {零上} [língshàng] = nad nulou
+1 PHR 早上好 {早上好} [zǎoshang hǎo] = dobré ráno
+2 PHR 早安 {早安} [zǎo'ān] = dobré ráno
+1 PHR 早 {早} [zǎo] = dobré ráno

@@ -38,12 +38,14 @@ N hlas
 V byť správny
 V súhlasiť
 N súhlas
+N nesúhlas
 N nálada
 V hlasovať
 V naladiť sa
 N prízvuk
 V kričať
 N výkrik
+N šepot
 V kričať na
 V šepkať
 V volať
@@ -70,6 +72,7 @@ V hádať sa
 AN nesporný : adverb nesporne
 V popierať
 N priznanie
+N popretie
 V vysvetliť
 N vysvetlenie
 AN nevysvetliteľný : adverb nevysvetliteľne
@@ -101,6 +104,7 @@ AN urazený
 V chváliť
 N chvála
 V obviniť
+V obhajovať
 N komentár
 V komentovať
 V prosiť
@@ -308,6 +312,7 @@ AN verbálny : adverb verbálne
 N podstatné meno
 N prídavné meno
 N množné číslo
+N jednotné číslo
 N predpona
 N prípona
 N synonymum
@@ -365,7 +370,7 @@ N žurnalistika
 N novinárka
 N slogan
 N motto
-N titulok
+N titulok : of nadpis @ noviny
 N memorandum
 N leták
 N brožúra

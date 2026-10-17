@@ -1,0 +1,15 @@
+
+# concepts added for words of one language's word lists (HSK ...) that no concept said
+2 AN niedriger {niedriger} [ˈniːdʁɪɡɐ] = nižší
+2 AN fortgeschritten {fort|geschritten} [ˈfɔʁtɡəʃʁɪtən] = pokročilý
+3 AN weitsichtig {weit|sichtig} [ˈvaɪtzɪçtɪç] = ďalekozraký
+3 AN rückständig {rück|ständig} [ˈʁʏkʃtɛndɪç] = zaostalý
+3 AN langhaarig {lang|haarig} [ˈlaŋhaːʁɪç] = vlasatý
+3 N der Niedrigpreis {Niedrig|preis} [ˈniːdʁɪçpʁaɪs], Niedrigpreise = nízka cena
+2 N die Hitze {Hitze} [ˈhɪtsə], - = vysoká teplota
+3 N der Semesterbeginn {Semester|beginn} [zeˈmɛstɐbəɡɪn], - = začiatok semestra
+3 N der Monatsanfang {Monats|anfang} [ˈmoːnatsanfaŋ], Monatsanfänge = začiatok mesiaca
+2 N die Klausur {Klausur} [klaʊˈzuːɐ], Klausuren = písomná skúška
+3 N die Nebenfigur {Neben|figur} [ˈneːbənfiɡuːɐ], Nebenfiguren = vedľajšia postava
+2 N das Mittelalter {Mittel|alter} [ˈmɪtəlaltɐ], - = stredovek
+3 N der Spitzenplatz {Spitzen|platz} [ˈʃpɪtsənplats], Spitzenplätze = prvé miesto

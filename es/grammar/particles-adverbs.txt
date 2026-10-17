@@ -70,6 +70,7 @@
 1 AV cada vez más {cada vez más} [ˈkaða βeθ mas] = čoraz viac
 2 AV aproximadamente {aproximadamente} [apɾoksimaðaˈmente] = približne
 1 AV más o menos {más o menos} [mas o ˈmenos] = približne
+1 AV cada vez menos {cada vez menos} [ˈkaða beθ ˈmenos] = čoraz menej
 
 # time
 1 AV ahora {ahora} [aˈoɾa] = teraz
@@ -134,6 +135,8 @@
 3 AV eventualmente {eventualmente} [eβentwalˈmente] = prípadne
 2 AV unos a otros {unos a otros} [ˈunos a ˈotɾos] = na seba
 1 AV lo siento {lo siento} [lo ˈsjento] = ľúto
+2 AV de mala gana {de mala gana} [de ˈmala ˈɡana] = nerád
+3 AV a regañadientes {a regañadientes} [a reɣaɲaˈðjentes] = nerád
 
 # place-direction
 1 AV aquí {aquí} [aˈki] = sem
@@ -203,3 +206,10 @@
 1 PHR miles de {miles de} [ˈmiles ðe] = tisíce (miles de)
 1 AV tampoco {tampoco} [tamˈpoko] = tiež nie (záporné aj)
 1 N la vez {vez} [beθ], veces = raz (príležitosť)
+2 AV por casualidad {por casualidad} [poɾ kaswaliˈðað] = náhodou
+3 AV por azar {por azar} [poɾ aˈθaɾ] = náhodou
+2 AV en último lugar {en último lugar} [en ˈultimo luˈɣaɾ] = ako posledný
+2 AV por último {por último} [poɾ ˈultimo] = ako posledný
+2 PHR sobre cero {sobre cero} [ˈsoβɾe ˈθeɾo] = nad nulou
+2 PHR por encima de cero {por encima de cero} [poɾ enˈθima de ˈθeɾo] = nad nulou
+1 PHR buenos días {buenos días} [ˈbwenos ˈdias] = dobré ráno

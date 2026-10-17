@@ -1,6 +1,6 @@
 {
- "version": "ae43289f3d",
- "made": "2026-10-16 20:14",
+ "version": "efd004638e",
+ "made": "2026-10-17 21:52",
  "files": [
   "de/dict.tsv",
   "de/frames.js",
@@ -38,6 +38,7 @@
   "engine/dictionary.js",
   "engine/forms.js",
   "engine/grammar.js",
+  "engine/hanzi.js",
   "engine/header.js",
   "engine/langs.js",
   "engine/lexicon.js",
@@ -154,8 +155,10 @@
   "world/shapes.txt",
   "world/simple.txt",
   "world/stories.txt",
+  "world/structures.txt",
   "world/syllabus.txt",
   "world/valence.txt",
+  "zh/composition.txt",
   "zh/dict.tsv",
   "zh/morph.js",
   "zh/order.tsv",

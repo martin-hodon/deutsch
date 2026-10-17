@@ -188,6 +188,8 @@
 1 AV zaledwie {za|ledwie} [zaˈlɛdvʲɛ] = iba
 2 AN sporo {sporo} [ˈspɔrɔ] = veľa
 1 AV łącznie {łącznie} [ˈwɔntʂɲɛ] = celkovo
+3 N wartość minimalna {wartość minimalna} [ˈvartɔɕtɕ mʲiɲiˈmalna], ż, wartości minimalne = minimálna hodnota
+2 V rozwiązywać {roz|wiązywać} [rɔzvʲɔ̃ˈzɨvatɕ], rozwiązać (B) = rozviazať
 
 # counting-measuring
 1 N liczba {liczba} [ˈlidʐba], ż, liczby = číslo (matematické)
@@ -241,6 +243,7 @@
 3 AV licznie {licznie} [ˈlitʂɲɛ] = početne
 3 AV ilościowo {ilościowo} [ilɔɕˈtɕɔvɔ] = kvantitatívne
 2 AV maksymalnie {maksymalnie} [maksɨˈmalɲɛ] = maximálne
+2 N mianownik {mianownik} [mʲaˈnɔvɲik], m, mianowniki = menovateľ
 
 # more
 3 N bilion {bilion} [ˈbʲiljɔn], m, biliony = bilión

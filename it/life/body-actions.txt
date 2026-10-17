@@ -39,6 +39,7 @@
 2 AN eretto {eretto} [eˈrɛtːo], eretta = vzpriamený
 2 V stravaccarsi {stravaccarsi} [stravaˈkːarsi] = rozvaliť sa
 1 PHR camminare in punta di piedi {camminare in punta di piedi} [kamːiˈnaːre in ˈpunta di ˈpjɛːdi] = chodiť po špičkách
+1 V allontanarsi {allontanarsi} [alːontaˈnarsi] (da) = vzďaľovať sa
 
 # locomotion
 1 V saltare {saltare} [salˈtaːre] = skákať
@@ -130,6 +131,7 @@
 3 V brancolare {brancolare} [brankoˈlaːre] = tápať
 2 V sfrecciare {sfrecciare} [sfretˈtʃaːre], essere = svišťať
 2 V rotolare {rotolare} [rotoˈlaːre] = váľať
+2 V arrivare in volo {arrivare in volo} [arːiˈvaːre in ˈvoːlo], essere = priletieť
 
 # manipulation
 1 V tenere {tenere} [teˈneːre], irr, tenuto = držať
@@ -351,3 +353,6 @@
 2 V spalmare {spalmare} [spalˈmaːre] = natrieť
 1 V portare {portare} [porˈtaːre] = nosiť
 2 V calpestare {calpestare} [kalpesˈtaːre] = šliapnúť
+2 V staccare {staccare} [staˈkːaːre] = zvesiť
+1 V abbassare {abbassare} [abːaˈsːaːre] = spúšťať
+2 V calare {calare} [kaˈlaːre] = spúšťať

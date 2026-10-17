@@ -367,6 +367,10 @@
 2 V 心疼 {心疼} [xīnténg] = ľutovať
 2 AN 踏实 {踏实} [tāshi] = pokojný
 2 AV 只管 {只管} [zhǐguǎn] = pokojne
+2 N 绝望 {绝望} [juéwàng], - = beznádej
+1 PHR 在最好的情况下 {在最好的情况下} [zài zuì hǎo de qíngkuàng xià] = v najlepšom prípade
+2 V 让人无聊 {让人无聊} [ràng rén wúliáo] = nudiť
+3 V 令人厌烦 {令人厌烦} [lìng rén yànfán] = nudiť
 
 # love-hate
 1 V 爱 {爱} [ài] = ľúbiť
@@ -529,6 +533,9 @@
 3 AV 孤独地 {孤独地} [gūdúde] = osamelo
 3 AV 怀旧地 {怀旧地} [huáijiùde] = nostalgicky
 3 V 哄 {哄} [hǒng] = utešiť
+3 N 忘恩负义 {忘恩负义} [wàng'ēnfùyì], - = nevďačnosť
+2 N 封闭 {封闭} [fēngbì], - = uzavretosť
+2 N 内向 {内向} [nèixiàng], - = uzavretosť
 
 # expressions
 1 V 笑 {笑} [xiào] = smiať sa
@@ -591,6 +598,11 @@
 1 AN 温暖 {温暖} [wēnnuǎn] = vrúcny
 3 AV 可笑地 {可笑地} [kěxiàode] = smiešne
 3 AV 诡异地 {诡异地} [guǐyìde] = strašidelne
+1 N 哭 {哭} [kū], - = plač
+2 N 哭声 {哭声} [kūshēng], 阵 = plač
+3 N 哭泣 {哭泣} [kūqì], - = plač
+2 V 皱眉 {皱|眉} [zhòuméi] = mračiť sa
+2 V 皱眉头 {皱|眉头} [zhòuméitou] = mračiť sa
 
 # feelings
 3 V 沉浸 {沉浸} [chénjìn] = hýriť

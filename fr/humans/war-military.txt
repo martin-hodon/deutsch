@@ -85,6 +85,7 @@
 3 AV pacifiquement {pacifique|ment} [pasifikˈmɑ̃] = mierumilovne
 3 AV victorieusement {victorieuse|ment} [viktɔʁjøzˈmɑ̃] = víťazne
 3 AV héroïquement {héroïque|ment} [eʁɔikˈmɑ̃] = hrdinsky
+3 N la désescalade {dés|escalade} [dezɛskaˈlad], désescalades = deeskalácia
 
 # army
 1 N l'armée (f) {armée} [aʁˈme], armées = armáda
@@ -199,6 +200,7 @@
 2 V percuter {percuter} [pɛʁkyˈte] (qch) = vraziť do
 2 V parer {parer} [paˈʁe] = odraziť
 2 V s'armer {s'armer} [saʁˈme] = zbrojiť
+2 AN désarmé {dés|armé} [dezaʁˈme], désarmée = neozbrojený
 
 # war
 2 V piller {piller} [piˈje] = plieniť

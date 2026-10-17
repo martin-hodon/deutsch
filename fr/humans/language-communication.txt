@@ -302,6 +302,11 @@
 3 AV critiquement {critique|ment} [kʁitikˈmɑ̃] = kriticky
 3 AV concisément {concis|ément} [kɔ̃sizeˈmɑ̃] = výstižne
 2 AV couramment {cour|amment} [kuʁaˈmɑ̃] = plynulo
+2 N le désaccord {dés|accord} [dezaˈkɔʁ], désaccords = nesúhlas
+2 N le déni {déni} [deˈni], dénis = popretie
+3 N la dénégation {dénégation} [denegaˈsjɔ̃], dénégations = popretie
+2 N le chuchotement {chuchote|ment} [ʃyʃɔtˈmɑ̃], chuchotements = šepot
+2 V défendre {dé|fendre} [deˈfɑ̃dʁ], irr, défendu (qn) = obhajovať
 
 # language-writing
 1 N le mot {mot} [mo], mots = slovo
@@ -458,6 +463,7 @@
 3 AV verbalement {verbale|ment} [vɛʁbalˈmɑ̃] = verbálne
 3 AV alphabétiquement {alphabétique|ment} [alfabetikˈmɑ̃] = abecedne
 2 AV par écrit {par·écrit} [paʁ eˈkʁi] = písomne
+1 N le singulier {singulier} [sɛ̃ɡyˈlje], singuliers = jednotné číslo
 
 # media-news
 1 N le message {message} [meˈsaʒ], messages = správa (oznam)

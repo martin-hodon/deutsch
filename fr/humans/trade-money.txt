@@ -72,6 +72,10 @@
 2 V arnaquer {arnaquer} [aʁnaˈke] = podviesť
 2 AV pauvrement {pauvre|ment} [povʁəˈmɑ̃] = chudobne
 2 AV financièrement {financière|ment} [finɑ̃sjɛʁˈmɑ̃] = finančne
+2 N la baisse de prix {baisse de prix} [bɛs də pʁi], baisses de prix = zníženie ceny
+2 N la réduction de prix {réduction de prix} [ʁedyksjɔ̃ də pʁi], réductions de prix = zníženie ceny
+2 V s'enrichir {s'en|richir} [sɑ̃ʁiˈʃiʁ] = zbohatnúť
+1 V emprunter {emprunter} [ɑ̃pʁœ̃ˈte] (qch à qn) = požičať si
 
 # buying-selling
 1 V acheter {acheter} [aʃˈte] = kúpiť
@@ -189,6 +193,8 @@
 2 AV pas cher {pas·cher} [pa ˈʃɛʁ] = lacno
 2 AV cher {cher} [ʃɛʁ] = draho
 3 AV luxueusement {luxueuse|ment} [lyksɥøzˈmɑ̃] = luxusne
+2 N la baisse des prix {baisse des prix} [bɛs de pʁi], baisses des prix = zlacnenie
+1 V vendre {vendre} [vɑ̃dʁ] = predávať
 
 # places-of-trade
 1 N le marché {marché} [maʁˈʃe], marchés = trh
@@ -391,6 +397,9 @@
 3 V fusionner {fusion|ner} [fyzjɔˈne] = zlúčiť sa
 2 V stocker {stocker} [stɔˈke] = uskladniť
 2 AV économiquement {économique|ment} [ekɔnɔmikˈmɑ̃] = ekonomicky
+2 N la déflation {dé|flation} [deflaˈsjɔ̃], déflations = deflácia
+1 N le client {client} [kliˈɑ̃], clients = odberateľ
+2 N l'acheteur (m) {acheteur} [aʃəˈtœʁ], acheteurs = odberateľ
 
 # trade
 3 V accorder une licence {accorder une licence} [akɔʁˈde yn liˈsɑ̃s] = licencovať

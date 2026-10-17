@@ -141,6 +141,9 @@
 2 N 岁月 {岁月} [suìyuè], - = čas (trvanie)
 2 N 黑夜 {黑夜} [hēiyè], 个 = noc
 2 N 时节 {时节} [shíjié], 个 = obdobie
+2 AN 长期 {长期} [chángqī] = dlhodobý
+2 AV 永久 {永久} [yǒngjiǔ] = natrvalo
+1 AV 永远 {永远} [yǒngyuǎn] = natrvalo
 
 # day-parts-and-week
 1 N 早上 {早上} [zǎoshang], - = ráno
@@ -190,6 +193,9 @@
 2 AV 昨日 {昨日} [zuórì] = včera
 1 N 星期日 {星期日} [xīngqīrì], - = nedeľa
 2 AV 明日 {明日} [míngrì] = zajtra
+1 AV 上午 {上午} [shàngwǔ] = predpoludním
+1 AV 半夜 {半夜} [bànyè] = o polnoci
+2 AV 午夜 {午夜} [wǔyè] = o polnoci
 
 # relative-time
 1 AV 然后 {然后} [ránhòu] = potom
@@ -411,6 +417,12 @@
 2 AV 事后 {事后} [shìhòu] = potom
 2 AV 眼看 {眼看} [yǎnkàn] = čoskoro
 2 AV 依次 {依次} [yīcì] = postupne
+1 N 第二天 {第二天} [dì'èr tiān], - = nasledujúci deň
+3 N 次日 {次日} [cìrì], - = nasledujúci deň
+2 N 后一天 {后一天} [hòu yītiān], - = nasledujúci deň
+1 AV 最早 {最早} [zuìzǎo] = najskôr
+3 AV 破例 {破例} [pòlì] = výnimočne
+3 AV 例外地 {例外地} [lìwàide] = výnimočne
 
 # months
 1 N 一月 {一月} [yīyuè], - = január

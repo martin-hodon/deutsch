@@ -146,6 +146,8 @@
 2 N 品种 {品种} [pǐnzhǒng], 个 = plemeno
 3 N 围栏 {围栏} [wéilán], 个 = ohrada
 2 N 母鸡 {母鸡} [mǔjī], 只 = sliepka
+2 N 公羊 {公羊} [gōngyáng], 只 = baran
+3 N 公山羊 {公山羊} [gōngshānyáng], 只 = cap
 
 # birds
 1 N 鸟 {鸟} [niǎo], 只 = vták
@@ -199,6 +201,8 @@
 3 N 鹪鹩 {鹪鹩} [jiāoliáo], 只 = oriešok
 3 N 苍鹰 {苍鹰} [cāngyīng], 只 = jastrab
 2 N 鸭 {鸭} [yā], 只 = kačica
+2 N 公鸭 {公鸭} [gōngyā], 只 = káčer
+3 N 公鹅 {公鹅} [gōng'é], 只 = gunár
 
 # fish-reptiles-amphibians
 2 N 鱼 {鱼} [yú], 条 = ryba

@@ -9,17 +9,20 @@
 //   m.frames(verb)              [{ subj: "animal" | "es", slots: [{ role: "patient"|"theme"|...|"that"|"inf"|"adj", cat }] }]
 //                               (a language marks the roles its way: de/frames.js)
 //   m.describes(adjective, noun), m.describesCat(adjective, "person"), m.adverbKind(entry), m.isA("fruit", "food")
+//   the graph itself (the dictionary's category tree): m.parentsOf(c), m.childrenOf(c), m.conceptOf(c) -> { pos, concept }
+//   of the concept naming it (categories.txt `= POS id`), m.categoryOf(entry), m.isAffordance(c), m.direct(c) -> its nouns
 
 export async function loadMeaning(categoriesUrl, tsvUrl, dict) {
   // the graph: each category's parents, then each one's ANCESTORS (itself included), once
-  const parents = new Map(), directive = {};
+  const parents = new Map(), names = new Map(), directive = {};
   for (const line of (await (await fetch(categoriesUrl)).text()).split("\n")) {
     const s = line.split("--")[0].trim();
     if (!s || s.startsWith("#")) continue;
     const d = s.match(/^([A-Z]+):\s*(.*)$/);   // (BUCKET, CLOSED: categories.txt's directives)
     if (d) { directive[d[1]] = d[2].split(/\s+/).filter(Boolean); continue; }
-    const [name, ps = ""] = s.split(":");
+    const [name, rest = ""] = s.split(":"), [ps, named] = rest.split("=");   // (`= POS id`: the concept naming the category)
     parents.set(name.trim(), ps.split(",").map((p) => p.trim()).filter(Boolean));
+    if (named?.trim()) { const m = named.trim().match(/^(?:([A-Z]+) )?(.+)$/); names.set(name.trim(), { pos: m[1] ?? "N", concept: m[2] }); }
   }
   const ancestors = new Map();
   const up = (c) => {
@@ -100,6 +103,14 @@ export async function loadMeaning(categoriesUrl, tsvUrl, dict) {
   return {
     isA, fits, nouns,
     categories: () => [...parents.keys()],
+    // the graph for the dictionary: a category's parents and children, the concept that names it (`= POS id`), whether it
+    // is an affordance (what one can do with a thing: the AFFORDANCE directive), the nouns in it directly (not under it)
+    parentsOf: (c) => parents.get(c) ?? [],
+    childrenOf: (c) => [...parents].filter(([, ps]) => ps.includes(c)).map(([k]) => k),
+    conceptOf: (c) => names.get(c) ?? null,
+    categoryOf: (e) => [...names].find(([, v]) => v.pos === e.pos && v.concept === e.concept)?.[0] ?? null,
+    isAffordance: (c) => (directive.AFFORDANCE ?? []).includes(c),
+    direct: (cat) => dict.entries.filter((e) => e.pos === "N" && (ann.get(e)?.cats ?? []).includes(cat)),
     catsOf: (e) => ann.get(e)?.cats ?? [],
     frames: (v) => ann.get(v)?.frames ?? [],
     // an adjective describes a noun when the noun fits one of the categories it is for

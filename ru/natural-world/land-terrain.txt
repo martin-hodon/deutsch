@@ -81,6 +81,7 @@
 2 N национальный парк {национальный парк} [nətsɨɐˈnalʲnɨj park], м, национальные парки = národný park
 2 N заповедник {заповедник} [zəpɐˈvʲednʲɪk], м, заповедники = prírodná rezervácia
 3 N заказник {заказник} [zɐˈkaznʲɪk], м, заказники = prírodná rezervácia
+2 N подножие {подножие} [pɐdˈnoʐɨjə], с, подножия = úpätie
 
 # surface-materials
 2 N скала {скала} [skɐˈla], ж, скалы = skala

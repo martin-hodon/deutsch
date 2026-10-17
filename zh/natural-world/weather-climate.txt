@@ -125,6 +125,8 @@
 3 AN 闷 {闷} [mēn] = dusný
 3 AN 烫 {烫} [tàng] = horúci
 2 N 热量 {热量} [rèliàng], - = teplo
+2 N 变冷 {变冷} [biànlěng], - = ochladzovanie
+2 N 降温 {降温} [jiàngwēn], - = ochladzovanie
 
 # seasons-climate
 2 N 季节 {季节} [jìjié], 个 = ročné obdobie

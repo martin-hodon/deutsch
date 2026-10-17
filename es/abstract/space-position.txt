@@ -142,6 +142,9 @@
 2 N el foco {foco} [ˈfoko], focos = ohnisko
 1 N el número {número} [ˈnumeɾo], números = číslo (poradové)
 3 N el primer plano {primer plano} [pɾiˈmeɾ ˈplano], primeros planos = popredie
+3 N la plenitud {plenitud} [pleniˈtuð], - = plnosť
+1 AV por dentro {por dentro} [poɾ ˈdentɾo] = zvnútra
+2 AV desde dentro {desde dentro} [ˈdesðe ˈdentɾo] = zvnútra
 
 # direction-distance
 1 N la dirección {dirección} [diɾekˈθjon], direcciones = smer
@@ -226,6 +229,8 @@
 2 AV remotamente {remotamente} [remotaˈmente] = vzdialene
 1 AV lejos {lejos} [ˈlexos] = ďaleko
 1 AV cerca {cerca} [ˈθeɾka] = blízko
+3 N el más acá {más acá} [mas aˈka], - = tento svet
+3 N el mundo terrenal {mundo terrenal} [ˈmundo teɾeˈnal], mundos terrenales = tento svet
 
 # motion
 1 V mover {mover} [moˈβeɾ], o>ue = hýbať
@@ -450,6 +455,11 @@
 2 V acercarse {acercarse} [aθeɾˈkaɾse] = pritiahnuť
 2 V avanzar {avanzar} [aβanˈθaɾ] = pritiahnuť
 2 V ascender {ascender} [asθenˈdeɾ], e>ie = postúpiť (vyššie)
+1 N la salida {salida} [saˈliða], salidas = odchod
+3 N la partida {partida} [paɾˈtiða], partidas = odchod
+2 V disminuir {disminuir} [dismiˈnwiɾ] = ubudnúť
+2 V reducirse {reducirse} [reðuˈθiɾse], c>zc = ubudnúť
+3 V decrecer {decrecer} [dekɾeˈθeɾ], c>zc = ubudnúť
 
 # travel
 1 V llegar {llegar} [ʎeˈɣaɾ] = pricestovať

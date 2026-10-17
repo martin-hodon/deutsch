@@ -110,6 +110,9 @@
 3 AV ежемесячно {ежемесячно} [jɪʐɪˈmʲesʲɪtɕnə] = mesačne
 3 AV ежеквартально {ежеквартально} [jɪʐɪkvɐrˈtalʲnə] = štvrťročne
 3 AV циклически {циклически} [tsɨˈklʲitɕɪskʲɪ] = cyklicky
+2 AN долгосрочный {долго|срочный} [dəlɡɐˈsrotɕnɨj] = dlhodobý
+2 AN длительный {длительный} [ˈdlʲitʲɪlʲnɨj] = dlhodobý
+1 AV навсегда {навсегда} [nəfsʲɪɡˈda] = natrvalo
 
 # day-parts-and-week
 1 N утро {утро} [ˈutrə], с, утра = ráno
@@ -145,6 +148,8 @@
 3 AN сезонный {сезонный} [sʲɪˈzonːɨj] = sezónny
 3 N утренний час {утренний час} [ˈutrʲɪnʲːɪj tɕas], м, утренние часы = ranná hodina
 3 AV сезонно {сезонно} [sʲɪˈzonːə] = sezónne
+2 AV до обеда {до обеда} [də ɐˈbʲedə] = predpoludním
+2 AV в полночь {в полночь} [f ˈpolnətɕ] = o polnoci
 
 # relative-time
 1 AV потом {потом} [pɐˈtom] = potom
@@ -288,6 +293,10 @@
 3 AV оперативно {оперативно} [ɐpʲɪrɐˈtʲivnə] = promptne
 3 AV повседневно {повседневно} [pəfsʲɪdˈnʲevnə] = každodenne
 1 AV ранее {ранее} [ˈranʲɪjɪ] = predtým
+2 N следующий день {следующий день} [ˈslʲedujuɕːɪj dʲenʲ], м, следующие дни = nasledujúci deň
+2 AV не раньше {не раньше} [nʲɪ ˈranʲʂɨ] = najskôr
+3 AV самое раннее {самое раннее} [ˈsaməjə ˈranʲːɪjɪ] = najskôr
+2 AV в виде исключения {в виде исключения} [v ˈvʲidʲɪ ɪsklʲuˈtɕenʲɪjə] = výnimočne
 
 # months
 1 N январь {январь} [jɪnˈvarʲ], м, - = január

@@ -213,6 +213,7 @@
 1 N la ricerca {ricerca} [riˈtʃerka], ricerche = rešerš
 1 N l'architettura (f) {architettura} [arkitetˈtuːra], architetture = architektúra
 2 AN architettonico {architettonico} [arkiteˈtːɔːniko], architettonica, architettonici/architettoniche = architektonický
+2 N la sintesi {sintesi} [ˈsintezi], sintesi = syntéza
 
 # fields-of-study
 1 N la matematica {matematica} [mateˈmaːtika], - = matematika

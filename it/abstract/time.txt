@@ -106,6 +106,9 @@
 2 N il cambio dell'ora {cambio dell'ora} [ˈkambjo deˈlːoːra], cambi dell'ora = zmena času
 1 AV in tempo {in·tempo} [in ˈtɛmpo] = včas
 2 AV giornalmente {giornal|mente} [dʒornalˈmente] = denne
+2 AN a lungo termine {a lungo termine} [a ˈluŋɡo ˈtɛrmine] = dlhodobý
+1 AV per sempre {per sempre} [per ˈsɛmpre] = natrvalo
+3 AV in modo permanente {in modo permanente} [in ˈmɔːdo permaˈnɛnte] = natrvalo
 
 # day-parts-and-week
 1 N la mattina {mattina} [maˈtːiːna], mattine = ráno
@@ -148,6 +151,9 @@
 1 N la stagione {stagione} [staˈdʒoːne], stagioni = sezóna
 2 AN stagionale {stagion|ale} [stadʒoˈnaːle] = sezónny
 2 N l'ora mattutina (f) {ora mattutina} [ˈoːra matːuˈtiːna], ore mattutine = ranná hodina
+1 AV di mattina {di mattina} [di maˈtːiːna] = predpoludním
+2 AV al mattino {al mattino} [al maˈtːiːno] = predpoludním
+1 AV a mezzanotte {a mezzanotte} [a meddzaˈnɔtːe] = o polnoci
 
 # relative-time
 1 AV poi {poi} [ˈpɔi] = potom
@@ -320,6 +326,10 @@
 1 AV tardi {tardi} [ˈtardi] = neskoro
 2 AV giornalmente {giornal|mente} [dʒornalˈmente] = každodenne
 1 AV ormai {ormai} [orˈmaːi] = už
+1 N il giorno dopo {giorno dopo} [ˈdʒorno ˈdoːpo], giorni dopo = nasledujúci deň
+2 N il giorno seguente {giorno seguente} [ˈdʒorno seˈɡwɛnte], giorni seguenti = nasledujúci deň
+2 AV al più presto {al più presto} [al pju ˈprɛsto] = najskôr
+2 AV eccezionalmente {eccezionalmente} [ettʃetsjonalˈmente] = výnimočne
 
 # months
 1 N il gennaio {gennaio} [dʒeˈnːaːjo], - = január

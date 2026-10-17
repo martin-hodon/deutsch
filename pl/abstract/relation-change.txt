@@ -58,6 +58,7 @@
 2 N obecność {obecność} [ɔˈbɛtsnɔɕtɕ], ż, obecności = prítomnosť
 3 AV bezwarunkowo {bezwarunkowo} [bɛzvaruŋˈkɔvɔ] = bezpodmienečne
 2 AV przypadkowo {przypadkowo} [pʂɨpatˈkɔvɔ] = náhodne
+2 V zanikać {zanikać} [zaˈɲikatɕ], zaniknąć = zaniknúť
 
 # change-events
 1 V stawać się {stawać się} [ˈstavatɕ ɕɛ], stać się = stať sa
@@ -308,6 +309,10 @@
 3 AV nieskończenie {nieskończenie} [ɲɛskɔɲˈtʂɛɲɛ] = nekonečne
 3 AV bezpodstawnie {bezpodstawnie} [bɛspɔtˈstavɲɛ] = bezdôvodne
 3 AV katastrofalnie {katastrofalnie} [katastrɔˈfalɲɛ] = katastrofálne
+2 AN skończony {s|kończony} [skɔɲˈtʂɔnɨ] = konečný
+3 N ubytek {ubytek} [uˈbɨtɛk], m, ubytki = úbytok
+2 V powiększać się {powiększać się} [pɔˈvʲɛŋkʂatɕ ɕɛ], powiększyć się = zväčšiť sa
+2 V zwiększać się {zwiększać się} [ˈzvʲɛŋkʂatɕ ɕɛ], zwiększyć się = zväčšiť sa
 
 # relations
 1 AN taki sam {taki sam} [ˈtaki sam] = rovnaký
@@ -599,6 +604,11 @@
 3 AV sprzecznie {sprzecznie} [ˈspʂɛtʂɲɛ] = protichodne
 3 AV rzeczowo {rzeczowo} [ʐɛˈtʂɔvɔ] = vecne
 3 AV funkcjonalnie {funkcjonalnie} [fuŋktsjɔˈnalɲɛ] = funkčne
+2 N całość {całość} [ˈtsawɔɕtɕ], ż, całości = celok
+2 N dolna granica {dolna granica} [ˈdɔlna ɡraˈɲitsa], ż, dolne granice = dolná hranica
+2 N obojętność {obojętność} [ɔbɔˈjɛntnɔɕtɕ], ż, - = nezáujem
+2 N brak zainteresowania {brak zainteresowania} [brak zaintɛrɛsɔˈvaɲa], m, - = nezáujem
+2 V mnożyć {mnożyć} [ˈmnɔʐɨtɕ], pomnożyć (B) = násobiť
 
 # transfer-basic-verbs
 1 V dawać {dawać} [ˈdavatɕ], dać (C) = dať
@@ -724,6 +734,9 @@
 2 V dobiegać {dobiegać} [dɔˈbʲɛɡatɕ], dobiec = dobehnúť
 1 V wyciągać {wyciągać} [vɨˈtɕɔŋɡatɕ], wyciągnąć = vytiahnuť
 3 AV znośnie {znośnie} [ˈznɔɕɲɛ] = prijateľne
+2 AN znaleziony {z|naleziony} [znalɛˈʑɔnɨ] = nájdený
+3 AN deficytowy {deficytowy} [dɛfitsɨˈtɔvɨ] = stratový
+3 AN nierentowny {nie|rentowny} [ɲɛrɛnˈtɔvnɨ] = stratový
 
 # action-and-use
 1 N akcja {akcja} [ˈaktsja], ż, akcje = akcia (činnosť)
@@ -1228,6 +1241,8 @@
 3 AV powabnie {powabnie} [pɔˈvabɲɛ] = pôvabne
 3 AV czarująco {czarująco} [tʂaruˈjɔntsɔ] = šarmantne
 3 AV błogo {błogo} [ˈbwɔɡɔ] = blažene
+2 V rozpakowywać {roz|pakowywać} [rɔspakɔˈvɨvatɕ], rozpakować (B) = rozbaliť
+2 V oddalić się {oddalić się} [ɔdˈdalitɕ ɕɛ], dk = vzdialiť sa
 
 # change
 2 V okazywać {okazywać} [ɔkaˈzɨvatɕ], okazać = prejaviť
@@ -1259,6 +1274,7 @@
 3 V obkładać {obkładać} [ɔpˈkwadatɕ], obłożyć (N) = obložiť
 2 V bandażować {bandażować} [bandaˈʐɔvatɕ], zabandażować = obviazať
 2 V obwiązywać {obwiązywać} [ɔbvʲɔ̃ˈzɨvatɕ], obwiązać = obviazať
+2 V mięknąć {mięknąć} [ˈmʲɛŋknɔɲtɕ], zmięknąć = zmäknúť
 
 # more
 1 AN kolejny {kolejny} [kɔˈlɛjnɨ] = ďalší

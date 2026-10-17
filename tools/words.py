@@ -13,7 +13,7 @@ import check, concepts, adverbs, pinyin
 
 POSES = {"N", "V", "AN", "AV", "PRE", "P", "CON", "ART", "NUM", "PAR", "INT", "PHR"}
 COLS = ["category", "root", "derived", "freq", "pos", "word", "article", "gender", "plural", "ipa", "parts", "forms", "comparison",
-        "feminine", "model", "aux", "comb", "sk", "pinyin", "classifier"]
+        "feminine", "model", "aux", "comb", "sk", "pinyin", "classifier", "opposite", "generic"]
 ARTICLES = {"en": None, "es": ("el", "la", "los", "las"), "fr": ("le", "la", "l'", "les"), "it": ("il", "lo", "la", "l'", "i", "gli", "le"), "ru": None, "pl": None, "zh": None}
 ES_MODELS = {"e>ie", "o>ue", "e>i", "u>ue", "i>ie", "c>zc", "i>í", "u>ú", "irr"}
 RU_GENDERS = {"м", "ж", "с", "мн"}
@@ -159,6 +159,24 @@ def derive_adverbs(lang, root, idx, rows, said, seen, cols):
             said.add(k)
 
 
+def mark_opposites(rows):
+    """every row's `opposite`: its concept's opposites as `POS id` (concepts/opposites.txt), ` | `-joined"""
+    opp = concepts.opposites()
+    for r in rows:
+        sk = r["sk"][0] if isinstance(r["sk"], list) else r["sk"]
+        r["opposite"] = " | ".join(opp.get((r["pos"], sk), []))
+
+
+
+def mark_generic(rows):
+    """each row's `generic`: `POS id @ context` of the generic concept its concept is declared `of` (concepts.generics())"""
+    gen = concepts.generics()
+    for r in rows:
+        sk = r["sk"][0] if isinstance(r["sk"], list) else r["sk"]
+        g = gen.get((r["pos"], sk))
+        r["generic"] = (g[0] + (f" @ {g[1]}" if g[1] else "")) if g else ""
+
+
 def main(lang):
     root = os.path.join(check.TOP, lang)
     idx, bad, n, said, seen, rows = concepts.read(), 0, 0, set(), {}, []
@@ -177,6 +195,8 @@ def main(lang):
             if not d["derived"]: family = d["word"]
             rows.append({**d, "category": cat, "root": family, "derived": int(d["derived"]), "comb": " | ".join(d["comb"])})
     derive_adverbs(lang, root, idx, rows, said, seen, COLS)
+    mark_opposites(rows)
+    mark_generic(rows)
     missing = sorted(set(k for k in idx) - said)
     for k in missing[:30]: print(f"no {lang} word for {k[0]} {k[1]} (concepts/{idx[k]['file']})")
     print(f"{n} {lang} lines; {len(said)} of {len(idx)} concepts said; {len(missing)} without; {bad} problems")

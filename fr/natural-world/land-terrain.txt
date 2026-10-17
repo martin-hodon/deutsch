@@ -70,6 +70,8 @@
 2 N la région {région} [ʁeˈʒjɔ̃], régions = kraj
 2 N le parc national {parc national} [paʁk nasjɔˈnal], parcs nationaux = národný park
 3 N la réserve naturelle {réserve naturelle} [ʁezɛʁv natyˈʁɛl], réserves naturelles = prírodná rezervácia
+2 N le pied {pied} [pje], pieds = úpätie
+3 N le piémont {piémont} [pjeˈmɔ̃], piémonts = úpätie
 
 # surface-materials
 2 N le rocher {rocher} [ʁɔˈʃe], rochers = skala

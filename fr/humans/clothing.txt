@@ -101,6 +101,7 @@
 3 N l'ourlet (m) {ourlet} [uʁˈlɛ], ourlets = lem
 2 N la boucle {boucle} [bukl], boucles = spona
 2 N la pièce {pièce} [pjɛs], pièces = záplata
+2 V déboutonner {dé|boutonner} [debutɔˈne] (qch) = rozopnúť
 
 # materials-making
 1 N le tissu {tissu} [tiˈsy], tissus = látka
@@ -177,3 +178,4 @@
 2 N le masque {masque} [mask], masques = maska
 2 V déguiser {déguiser} [deɡiˈze] (qn) = maskovať
 2 AV élégamment {élég|amment} [eleɡaˈmɑ̃] = elegantne
+1 AN habillé {habillé} [abiˈje], habillée = oblečený

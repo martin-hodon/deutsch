@@ -60,6 +60,7 @@ AN úžasný : adverb úžasne
 AN skvelý : adverb skvele
 AN dokonalý : adverb dokonale
 N dokonalosť
+N nedokonalosť
 AN nesprávny : adverb nesprávne
 V falšovať
 N falzifikát
@@ -71,6 +72,7 @@ AN nedôležitý
 AN životne dôležitý
 PAR hlavný (v zloženinách)
 AN hlavný : adverb hlavne
+AN vedľajší
 N hlavná vec
 AN významný : adverb významne
 AN nevýznamný
@@ -110,10 +112,12 @@ AN jedinečný : adverb jedinečne
 AN jednoduchý : adverb jednoducho
 V zjednodušiť
 N jednoduchosť
+N zložitosť
 AN zložitý : adverb zložito
 AN komplikovaný : adverb komplikovane
 N ťažkosť
 AN praktický : adverb prakticky
+AN nepraktický
 V hodiť sa
 AN vhodný : adverb vhodne
 AN nevhodný : adverb nevhodne
@@ -193,6 +197,7 @@ AN humanitárny
 AN kontroverzný : adverb kontroverzne
 AN dôsledný : adverb dôsledne
 AN prístupný
+AN neprístupný
 AN predbežný : adverb predbežne
 AN predčasný : adverb predčasne
 AN stredný
@@ -209,6 +214,7 @@ AN legendárny
 AN senzačný : adverb senzačne
 AN solídny : adverb solídne
 AN tragický : adverb tragicky
+AN komický
 AN príjemný : adverb príjemne
 AN nepríjemný : adverb nepríjemne
 AN prekvapujúci : adverb prekvapujúco
@@ -224,12 +230,14 @@ AN drastický : adverb drasticky
 AN umiernený : adverb umierene
 AN osudný : adverb osudne
 AN explicitný : adverb explicitne
+AN implicitný
 AN týkajúci sa tejto veci
 AN zvládnuteľný
 AN nepretržitý : adverb nepretržite
 AN opätovný : adverb opätovne
 AN nedbanlivý
 AN klesajúci
+AN stúpajúci
 AN kulinársky
 AN čelný
 AN kuriózny
@@ -262,6 +270,7 @@ AN pekný : adverb pekne
 AN chytrý : adverb chytro
 AN lukratívny
 AN dominantný
+AN submisívny
 AN neslávne známy
 AN bujný : adverb bujne
 AN dlhodobejší
@@ -351,6 +360,7 @@ AN pravicovo radikálny
 AN juhovýchodný
 AN nekontrolovaný : adverb nekontrolovane
 AN nadriadený
+AN podriadený
 AN zapríčinený zranením
 AN úchvatný : adverb úchvatne
 AN statný
@@ -423,9 +433,11 @@ N slabosť
 V oslabiť
 V zoslabiť
 V slabnúť
+V silnieť
 AN mocný : adverb mocne
 AN rýchly : adverb rýchlo
 N rýchlosť
+N pomalosť
 AN hlasný : adverb hlasno
 N hlasitosť
 AN bezhlasný : adverb bezhlasne
@@ -434,6 +446,7 @@ AN tichý (nehlučný) : adverb ticho
 AN mäkký : adverb mäkko
 AN tvrdý : adverb tvrdo
 N tvrdosť
+N mäkkosť
 AN húževnatý : adverb húževnato
 AN pripravený
 N pripravenosť
@@ -452,6 +465,7 @@ V uvoľniť
 N uvoľnenie
 AN stabilný : adverb stabilne
 N stabilita
+N nestabilita
 V stabilizovať
 V destabilizovať
 AN flexibilný : adverb flexibilne
@@ -475,6 +489,7 @@ N možnosť
 AN nemožný
 V umožniť
 AV čo najviac
+AV čo najmenej
 AN istý : adverb iste
 N istota
 AN jasný : adverb jasne
@@ -485,6 +500,7 @@ N presnosť
 AN autentický : adverb autenticky
 AN umelý : adverb umelo
 AN spoľahlivý : adverb spoľahlivo
+AN nespoľahlivý
 N spoľahlivosť
 AN robustný
 AN strnulý : adverb strnulo
@@ -517,6 +533,7 @@ AN uvoľnený (nepevný)
 AN jedno
 AN konkrétny : adverb konkrétne
 AN existujúci
+AN neexistujúci
 AN bezprostredný : adverb bezprostredne
 AN doterajší
 AN vtedajší
@@ -589,6 +606,7 @@ AN mnohonásobný : adverb mnohonásobne
 AN plošný : adverb plošne
 AN nepriamy : adverb nepriamo
 AN väčšinový
+AN menšinový
 AN sídliaci
 AN transparentný : adverb transparentne
 AN anonymný : adverb anonymne
@@ -856,3 +874,4 @@ N závažie
 # more
 AV neuveriteľne
 AN zvýšený
+AN znížený

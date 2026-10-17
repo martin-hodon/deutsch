@@ -79,6 +79,8 @@
 2 N la zona {zona} [ˈθona], zonas = kraj
 2 N el parque nacional {parque nacional} [ˈpaɾke naθjoˈnal], parques nacionales = národný park
 2 N la reserva natural {reserva natural} [reˈseɾβa natuˈɾal], reservas naturales = prírodná rezervácia
+2 N el pie {pie} [pje], pies = úpätie
+3 N la falda {falda} [ˈfalda], faldas = úpätie
 
 # surface-materials
 2 N la roca {roca} [ˈroka], rocas = skala

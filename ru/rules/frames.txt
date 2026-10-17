@@ -535,7 +535,7 @@
 играть = hrať s : companion с+Т
 играть = hrať sa : instrument с+Т
 играть = hrať sa : companion с+Т
-проигрывать = prehrať : patient [game]
+проигрывать = prehrať (zápas) : patient [game]
 награждать = odmeniť : patient В, purpose за+В
 боксировать = boxovať : opponent с+Т
 выигрывать = vyhrať : opponent у+Р

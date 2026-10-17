@@ -60,6 +60,7 @@
 3 V organiser une exposition {organiser une exposition} [ɔʁɡaniˈze yn ɛkspoziˈsjɔ̃] = kurátorovať
 3 AV artistiquement {artistique|ment} [aʁtistikˈmɑ̃] = umelecky
 2 AV habilement {habile|ment} [abilˈmɑ̃] = umne
+2 N la laideur {laideur} [lɛˈdœʁ], laideurs = škaredosť
 
 # music
 1 N la musique {musique} [myˈzik], - = hudba
@@ -219,6 +220,7 @@
 3 V synchroniser {synchroniser} [sɛ̃kʁoniˈze] = synchronizovať
 3 AN autobiographique {autobiographique} [otobjɔɡʁaˈfik] = autobiografický
 2 AV dramatiquement {dramatique|ment} [dʁamatikˈmɑ̃] = dramaticky
+3 N la dernière {dernière} [dɛʁˈnjɛʁ], dernières = derniéra
 
 # games-sport
 1 N le jeu {jeu} [ʒø], jeux = hra
@@ -236,8 +238,8 @@
 3 V programmer des spectacles {programmer des spectacles} [pʁɔɡʁaˈme de spɛkˈtakl] = uvádzať predstavenia
 2 V jouer avec {jouer avec} [ʒwe aˈvɛk] = hrať s
 2 V enregistrer {enregistrer} [ɑ̃ʁəʒisˈtʁe] = nahrať (v štúdiu)
-2 V passer {passer} [paˈse] = prehrať
-1 V lire {lire} [liʁ], irr, lu = prehrať
+2 V passer {passer} [paˈse] = prehrať (nahrávku)
+1 V lire {lire} [liʁ], irr, lu = prehrať (nahrávku)
 3 AN jouable {jouable} [ʒwabl] = hrateľný
 2 V continuer à jouer {continuer à jouer} [kɔ̃tiˈnɥe a ʒwe] = hrať ďalej
 3 V se vanter {se vanter} [sə vɑ̃ˈte] = vystatovať sa
@@ -416,6 +418,8 @@
 2 V arracher {arracher} [aʁaˈʃe] (qch) = vybojovať si
 2 V compléter {compléter} [kɔ̃pleˈte] (qch) = skompletizovať
 2 V surfer {surfer} [syʁˈfe] = surfovať
+2 N l'amateur (m) {amateur} [amaˈtœʁ], amateurs = amatér
+1 V perdre {perdre} [pɛʁdʁ], irr = prehrať (zápas)
 
 # corpus-verbs
 3 V dresser {dresser} [dʁeˈse] (qn contre qn) = poštvať proti sebe

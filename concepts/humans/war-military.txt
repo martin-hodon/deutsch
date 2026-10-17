@@ -64,6 +64,7 @@ N ofenzíva
 N front
 N vpád
 N eskalácia
+N deeskalácia
 N potieranie
 N paľba
 N atentát
@@ -125,6 +126,7 @@ N strelná zbraň
 V odzbrojiť
 V ozbrojiť
 AN ozbrojený
+AN neozbrojený
 N prímerie
 N puška
 N pištoľ

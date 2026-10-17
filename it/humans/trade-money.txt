@@ -76,6 +76,9 @@
 2 N i costi aggiuntivi {costi aggiuntivi} [ˈkɔsti addʒunˈtiːvi], PL = dodatočné náklady
 2 V truffare {truffare} [truˈfːaːre] = podviesť
 3 V fregare {fregare} [freˈɡaːre] = podviesť
+2 N la riduzione del prezzo {riduzione del prezzo} [riduˈtsjoːne del ˈprettso], riduzioni del prezzo = zníženie ceny
+2 V arricchirsi {arricchirsi} [arːiˈkːirsi], isc = zbohatnúť
+1 V prendere in prestito {prendere in prestito} [ˈprɛndere in ˈprɛstito], irr, preso (da) = požičať si
 
 # buying-selling
 1 V comprare {comprare} [komˈpraːre] = kúpiť
@@ -212,6 +215,8 @@
 1 V spedire {spedire} [speˈdiːre], isc = odoslať
 1 AV gratis {gratis} [ˈɡraːtis] = bezplatne
 2 AV caro {caro} [ˈkaːro] = draho
+2 N il ribasso {ribasso} [riˈbasːo], ribassi = zlacnenie
+1 V vendere {vendere} [ˈvendere] = predávať
 
 # places-of-trade
 1 N il mercato {mercato} [merˈkaːto], mercati = trh
@@ -439,6 +444,9 @@
 2 V fondersi {fondersi} [ˈfondersi], fuso (con) = zlúčiť sa
 2 V immagazzinare {immagazzinare} [imːaɡaddziˈnaːre] = uskladniť
 3 V stoccare {stoccare} [stoˈkːaːre] = uskladniť
+3 N la deflazione {deflazione} [deflaˈtsjoːne], - = deflácia
+2 N il cliente {cliente} [kliˈɛnte], clienti = odberateľ
+3 N l'acquirente (m) {acquirente} [akːwiˈrɛnte], acquirenti = odberateľ
 
 # trade
 3 V dare in licenza {dare in licenza} [ˈdaːre in liˈtʃɛntsa], irr, dato = licencovať

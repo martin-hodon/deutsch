@@ -65,3 +65,6 @@
 
 # more
 2 PHR unabhängig von {unabhängig von} [ˈʊnaphɛŋɪç fɔn] = bez ohľadu na
+
+# language-specific closed words (no Slovak word: a description)
+2 PRE über {über} [ˈyːbɐ], A = viac ako

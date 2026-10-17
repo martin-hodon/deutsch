@@ -109,6 +109,8 @@
 2 N l'orlo (m) {orlo} [ˈɔrlo], orli = lem
 3 N la fibbia {fibbia} [ˈfibːja], fibbie = spona
 3 N la toppa {toppa} [ˈtɔpːa], toppe = záplata
+2 V slacciare {slacciare} [zlatˈtʃaːre] = rozopnúť
+2 V sbottonare {sbottonare} [zbotːoˈnaːre] = rozopnúť
 
 # materials-making
 2 N il tessuto {tessuto} [teˈsːuːto], tessuti = látka
@@ -194,3 +196,4 @@
 1 N la maschera {maschera} [ˈmaskera], maschere = maska
 2 V mascherare {mascherare} [maskeˈraːre] = maskovať
 3 V camuffare {camuffare} [kamuˈfːaːre] = maskovať
+1 AN vestito {vestito} [veˈstiːto], vestita = oblečený

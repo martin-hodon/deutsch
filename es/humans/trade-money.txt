@@ -72,6 +72,11 @@
 3 N los costes adicionales {costes adicionales} [ˈkostes aðiθjoˈnales], PL = dodatočné náklady
 2 V estafar {estafar} [estaˈfaɾ] = podviesť
 3 V timar {timar} [tiˈmaɾ] = podviesť
+2 N la bajada de precio {bajada de precio} [baˈxaða de ˈpɾeθjo], bajadas de precio = zníženie ceny
+2 N la reducción de precio {reducción de precio} [reðukˈθjon de ˈpɾeθjo], reducciones de precio = zníženie ceny
+2 V enriquecerse {enriquecerse} [enrikeˈθeɾse], c>zc = zbohatnúť
+2 V pedir prestado {pedir prestado} [peˈðiɾ pɾesˈtaðo], e>i = požičať si
+2 V tomar prestado {tomar prestado} [toˈmaɾ pɾesˈtaðo] = požičať si
 
 # buying-selling
 1 V comprar {comprar} [komˈpɾaɾ] = kúpiť
@@ -210,6 +215,8 @@
 2 AV gratis {gratis} [ˈɡɾatis] = bezplatne
 2 AV barato {barato} [baˈɾato] = lacno
 2 AV caro {caro} [ˈkaɾo] = draho
+3 N el abaratamiento {abarata|miento} [aβaɾataˈmjento], abaratamientos = zlacnenie
+1 V vender {vender} [benˈdeɾ] = predávať
 
 # places-of-trade
 1 N el mercado {mercado} [meɾˈkaðo], mercados = trh
@@ -414,6 +421,9 @@
 3 V expandir {expandir} [ekspanˈdiɾ] = expandovať
 3 V fusionarse {fusionarse} [fusjoˈnaɾse] = zlúčiť sa
 2 V almacenar {almacenar} [almaθeˈnaɾ] = uskladniť
+3 N la deflación {deflación} [deflaˈθjon], deflaciones = deflácia
+2 N el comprador {comprador} [kompɾaˈðoɾ], compradores = odberateľ
+2 N el cliente {cliente} [ˈkljente], clientes = odberateľ
 
 # trade
 3 V licenciar {licenciar} [liθenˈθjaɾ] = licencovať

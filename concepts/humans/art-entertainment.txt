@@ -6,6 +6,7 @@ N umelecké dielo
 N umelkyňa
 AN umný : adverb umne
 N krása
+N škaredosť
 N štýl
 AN štýlový : adverb štýlovo
 V štylizovať
@@ -177,6 +178,7 @@ N scenár (film)
 N zloduch
 N dej
 N premiéra
+N derniéra
 N pokračovanie
 N animácia
 N komik
@@ -216,7 +218,8 @@ N hráčka
 V uvádzať predstavenia
 V hrať s
 V nahrať (v štúdiu)
-V prehrať
+V prehrať (zápas)
+V prehrať (nahrávku)
 AN hrateľný
 V hrať ďalej
 V vystatovať sa
@@ -231,7 +234,7 @@ N mužstvo
 AN olympijský
 PHR olympijské hry
 N tím
-N tréner
+N tréner : of učiteľ @ šport
 V trénovať
 N tréning
 N súťaž
@@ -284,7 +287,7 @@ N fanúšik
 N záľuba
 N zábava
 V zabávať
-N sranda
+N sranda : of zábava @ hovorovo
 N voľný čas
 N kempovanie
 N kemping
@@ -312,6 +315,7 @@ N majster sveta
 N semifinále
 N comeback
 N profesionál
+N amatér
 N majstrovstvá sveta
 N pokutové územie
 N dres
@@ -357,7 +361,7 @@ N protiútok
 N hlavný tréner
 N tréner národného tímu
 N športový riaditeľ
-N spoluhráč
+N spoluhráč : of kolega @ šport
 N tribúna
 N sústredenie (športovcov)
 N zimná prestávka

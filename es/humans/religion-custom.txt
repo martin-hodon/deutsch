@@ -115,6 +115,7 @@
 2 N la misa {misa} [ˈmisa], misas = omša
 3 AN evangélico {evangélico} [eβanˈxeliko], evangélica = evanjelický
 3 AN ecuménico {ecuménico} [ekuˈmeniko], ecuménica = ekumenický
+2 N la mortalidad {mortalidad} [moɾtaliˈðað], - = smrteľnosť
 
 # magic-fate
 2 N la magia {magia} [ˈmaxja], - = mágia

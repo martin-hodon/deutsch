@@ -78,6 +78,7 @@
 3 N energy supplier {energy supplier} [ˈenədʒɪ səˌplaɪə], energy suppliers = dodávateľ energie
 2 N kilowatt-hour {kilowatt-hour} [ˈkɪləwɒt ˌaʊə], kilowatt-hours = kilowatthodina
 2 N watt {watt} [wɒt], watts = watt
+2 V unload {un|load} [ʌnˈləʊd] (sth) = vyložiť
 # computing-communication-devices
 1 N computer {comput|er} [kəmˈpjuːtə], computers = počítač
 1 N laptop {lap|top} [ˈlæptɒp], laptops = laptop
@@ -222,6 +223,10 @@
 3 AN scalable {scal|able} [ˈskeɪləbəl] = škálovateľný
 3 V telephone {tele|phone} [ˈtelɪfəʊn] (sb) = telefonovať
 2 AV by phone {by·phone} [baɪ fəʊn] = telefonicky
+2 N logout {log|out} [ˈlɒɡaʊt], logouts = odhlásenie
+2 N upload {up|load} [ˈʌpləʊd], uploads = nahratie
+1 AV offline {off|line} [ˌɒfˈlaɪn] = offline
+2 V zoom out {zoom·out} [zuːm ˈaʊt] = oddialiť
 # devices
 2 V dismantle {dis|mantle} [dɪsˈmæntəl] = demontovať
 2 V take a photo {take a photo} [teɪk ə ˈfəʊtəʊ], took a photo/taken a photo = fotiť

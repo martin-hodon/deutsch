@@ -38,6 +38,8 @@
 2 AN droit {droit} [dʁwa], droite = vzpriamený
 2 V se vautrer {se vautrer} [sə voˈtʁe] = rozvaliť sa
 2 PHR marcher sur la pointe des pieds {marcher sur la pointe des pieds} [maʁˈʃe syʁ la pwɛ̃t de pje] = chodiť po špičkách
+2 V s'éloigner {s'éloigner} [selwaˈɲe] (de) = vzďaľovať sa
+2 V s'écarter {s'écarter} [sekaʁˈte] (de) = vzďaľovať sa
 
 # locomotion
 1 V sauter {sauter} [soˈte] = skákať
@@ -129,6 +131,7 @@
 3 V filer {filer} [fiˈle] = svišťať
 3 V siffler {siffler} [siˈfle] = svišťať
 2 V rouler {rouler} [ʁuˈle] = váľať
+2 V atterrir {atterrir} [atɛˈʁiʁ] = priletieť
 
 # manipulation
 1 V tenir {tenir} [təˈniʁ], irr, tenu = držať
@@ -396,3 +399,5 @@
 1 V porter {porter} [pɔʁˈte] = nosiť
 1 V marcher sur {marcher sur} [maʁˈʃe syʁ] (qch) = šliapnúť
 2 V piétiner {piétiner} [pjetiˈne] = šliapnúť
+2 V décrocher {dé|crocher} [dekʁɔˈʃe] (qch) = zvesiť
+1 V baisser {baisser} [bɛˈse] (qch) = spúšťať

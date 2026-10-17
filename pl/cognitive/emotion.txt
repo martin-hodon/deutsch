@@ -309,6 +309,11 @@
 2 AV ciekawie {ciekawie} [tɕɛˈkavʲɛ] = zvedavo
 3 AV nieustraszenie {nieustraszenie} [ɲɛustraˈʂɛɲɛ] = nebojácne
 3 AV euforycznie {euforycznie} [ɛufɔˈrɨtʂɲɛ] = euforicky
+2 N beznadzieja {bez|nadzieja} [bɛznaˈdʑɛja], ż, - = beznádej
+3 N beznadziejność {bez|nadziejność} [bɛznaˈdʑɛjnɔɕtɕ], ż, - = beznádej
+2 PHR w najlepszym razie {w najlepszym razie} [v najˈlɛpʂɨm ˈraʑɛ] = v najlepšom prípade
+2 PHR w najlepszym wypadku {w najlepszym wypadku} [v najˈlɛpʂɨm vɨˈpatku] = v najlepšom prípade
+1 V nudzić {nudzić} [ˈnudʑitɕ], znudzić (B) = nudiť
 
 # love-hate
 1 V kochać {kochać} [ˈkɔxatɕ], pokochać (B) = ľúbiť
@@ -437,6 +442,8 @@
 2 AV dumnie {dumnie} [ˈdumɲɛ] = hrdo
 2 AV samotnie {samotnie} [saˈmɔtɲɛ] = osamelo
 3 AV nostalgicznie {nostalgicznie} [nɔstalˈɡitʂɲɛ] = nostalgicky
+3 N niewdzięczność {nie|wdzięczność} [ɲɛˈvdʑɛntʂnɔɕtɕ], ż, - = nevďačnosť
+3 N zamkniętość {zamkniętość} [zamˈkɲɛntɔɕtɕ], ż, - = uzavretosť
 
 # expressions
 1 V śmiać się {śmiać się} [ɕmʲatɕ ɕɛ], zaśmiać się (z + D) = smiať sa
@@ -489,6 +496,8 @@
 2 AV śmiesznie {śmiesznie} [ˈɕmʲɛʂɲɛ] = smiešne
 3 AV upiornie {upiornie} [uˈpʲɔrɲɛ] = strašidelne
 3 AV żarliwie {żarliwie} [ʐarˈlivʲɛ] = vrúcne
+1 N płacz {płacz} [pwatʂ], m, płacze = plač
+2 V marszczyć brwi {marszczyć brwi} [ˈmarʂtʂɨtɕ brvʲi], zmarszczyć brwi = mračiť sa
 
 # feelings
 3 V pławić się {pławić się} [ˈpwavʲitɕ ɕɛ], - (w + Ms) = hýriť

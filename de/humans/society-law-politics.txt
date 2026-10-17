@@ -112,6 +112,8 @@
 3 AN autokratisch {autokratisch} [aʊtoˈkʁaːtɪʃ] = autokratický
 3 V emigrieren {emigrieren} [emiˈɡʁiːʁən], ist = emigrovať, vysťahovať sa
 3 V privilegieren {privilegieren} [pʁivileˈɡiːʁən], hat (A) = zvýhodniť, priznať výsady
+3 N die Jastimme {Ja|stimme} [ˈjaːʃtɪmə], Jastimmen = hlas za
+2 V einwandern {ein·wandern} [ˈaɪnvandɐn], ist = imigrovať
 
 # state-politics
 1 N der Staat {Staat} [ʃtaːt], Staaten = štát
@@ -461,6 +463,9 @@
 3 AN rechtsstaatlich {rechts|staat|lich} [ˈʁɛçtsʃtaːtlɪç] = právnoštátny
 3 AN zukunftsweisend {zukunfts|weisend} [ˈtsuːkʊnftsvaɪzənt] = perspektívny, prelomový
 3 AN unumstritten {un|um|stritten} [ˈʊnʊmʃtʁɪtən] = nesporný, nespochybnený
+3 AN gewaltfrei {gewalt|frei} [ɡəˈvaltfʁaɪ] = nenásilný
+3 N der Untertan {Unter|tan} [ˈʊntɐtaːn], Untertanen = poddaný
+3 V demobilisieren {demobilisieren} [demobiliˈziːʁən], hat (A) = demobilizovať
 
 # law-justice
 1 N das Gesetz {Ge|setz} [ɡəˈzɛts], Gesetze = zákon
@@ -691,6 +696,8 @@
 3 V annullieren {annullieren} [anʊˈliːʁən], hat (A) = anulovať, zrušiť
 3 V anberaumen {an·be|raumen} [ˈanbəʁaʊmən], hat (A) = stanoviť termín, určiť, stanoviť (termín)
 3 AN anhängig {an|hän|gig} [ˈanhɛŋɪç] = prebiehajúci (súdne), podaný
+3 N die Verteidigung {Ver|teidigung} [fɛɐˈtaɪdɪɡʊŋ], Verteidigungen = obhajoba
+2 V genehmigen {ge|nehmigen} [ɡəˈneːmɪɡən], hat (A) = schváliť
 
 # politics
 3 V bevölkern {be|völkern} [bəˈfœlkɐn], hat (A) = obývať, osídliť

@@ -176,6 +176,8 @@
 3 AN heterogéneo {heterogéneo} [eteɾoˈxeneo], heterogénea = nejednotný
 3 AN homogéneo {homogéneo} [omoˈxeneo], homogénea = homogénny
 3 AN nominal {nominal} [nomiˈnal] = menný
+2 AN ilógico {i|lógico} [iˈloxiko], ilógica = nelogický
+2 AN incompetente {in|competente} [iŋkompeˈtente] = nekompetentný
 
 # knowing
 1 V saber {saber} [saˈβeɾ], irr = vedieť
@@ -313,6 +315,7 @@
 2 V copiar {copiar} [koˈpjaɾ] = napodobňovať
 3 V desenmascarar {desenmascarar} [desemmaskaˈɾaɾ] = demaskovať
 3 AV con aplomo {con·aplomo} [kon aˈplomo] = sebavedome
+2 N la ignorancia {ignorancia} [iɣnoˈɾanθja], ignorancias = nevedomosť
 
 # memory
 1 N la memoria {memoria} [meˈmoɾja], memorias = pamäť (schopnosť)
@@ -393,6 +396,7 @@
 3 V relativizar {relativizar} [relatiβiˈθaɾ] = relativizovať
 2 V polarizar {polarizar} [polaɾiˈθaɾ] = polarizovať
 1 AV sin problemas {sin·problemas} [sin pɾoˈβlemas] = bezproblémovo
+1 V tener razón {tener razón} [teˈneɾ raˈθon], irr = mať pravdu
 
 # more
 2 V considerar {considerar} [konsiðeˈɾaɾ] = považovať

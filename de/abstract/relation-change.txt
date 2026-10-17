@@ -56,6 +56,7 @@
 3 V funktionieren {funktionieren} [fʊŋktsjoˈniːʁən], hat = fungovať
 2 N die Präsenz {Präsenz} [pʁɛˈzɛnts], - = prítomnosť
 3 N die Geltung {Geltung} [ˈɡɛltʊŋ], - = platnosť, vážnosť
+3 V erlöschen {er|löschen} [ɛɐˈlœʃən], erlischt/erlosch/erloschen [ɛɐˈlɪʃt/ɛɐˈlɔʃ/ɛɐˈlɔʃən], ist = zaniknúť
 
 # change-events
 1 V werden {werden} [ˈveːɐdən], wird/wurde/geworden [vɪʁt/ˈvʊʁdə/ɡəˈvɔʁdən], ist = stať sa, stávať sa
@@ -303,6 +304,9 @@
 3 V überfluten {über|fluten} [yːbɐˈfluːtən], hat (A) = zaplaviť
 3 V befallen {be|fallen} [bəˈfalən], befällt/befiel/befallen [bəˈfɛlt/bəˈfiːl/bəˈfalən], hat (A) = postihnúť, napadnúť
 3 V sich auskennen {sich aus·kennen} [zɪç ˈaʊskɛnən], kennt aus/kannte aus/ausgekannt [kɛnt aʊs/ˈkantə aʊs/ˈaʊsɡəkant], hat (mit D, in D) = vyznať sa
+2 AN endlich {endlich} [ˈɛntlɪç] = konečný
+3 N die Abnahme {Ab|nahme} [ˈapnaːmə], Abnahmen = úbytok
+2 V sich vergrößern {sich ver|größern} [zɪç fɛɐˈɡʁøːsɐn], hat = zväčšiť sa
 
 # relations
 1 AN gleich {gleich} [ɡlaɪç] = rovnaký, rovný, hneď
@@ -551,6 +555,10 @@
 3 V freistellen {frei·stellen} [ˈfʁaɪʃtɛlən], hat (A, von D) = uvoľniť, oslobodiť
 3 V übereinstimmen {überein·stimmen} [yːbɐˈaɪnʃtɪmən], hat (mit D) = zhodovať sa, súhlasiť
 3 V dazugehören {dazu·gehören} [daˈtsuːɡəhøːʁən], hat = patriť k tomu, patriť medzi
+2 N das Ganze {Ganze} [ˈɡantsə], - = celok
+3 N die Untergrenze {Unter|grenze} [ˈʊntɐɡʁɛntsə], Untergrenzen = dolná hranica
+3 N das Desinteresse {Des|interesse} [ˈdɛsɪntəʁɛsə], - = nezáujem
+2 V multiplizieren {multiplizieren} [mʊltipliˈtsiːʁən], hat (A mit D) = násobiť
 
 # transfer-basic-verbs
 1 V geben {geben} [ˈɡeːbən], gibt/gab/gegeben [ɡɪpt/ɡaːp/ɡəˈɡeːbən], hat (D A) = dať, dávať
@@ -614,7 +622,7 @@
 2 V behalten {be|halten} [bəˈhaltən], behält/behielt/behalten [bəˈhɛlt/bəˈhiːlt/bəˈhaltən], hat = ponechať si, zapamätať si
 - 3 V zurückbehalten {zurück·behalten} [tsuˈʁʏkbəhaltən], behält zurück/behielt zurück/zurückbehalten [bəˈhɛlt tsuˈʁʏk/bəˈhiːlt tsuˈʁʏk/tsuˈʁʏkbəhaltən], hat = zadržať
 - 2 V beibehalten {bei·behalten} [ˈbaɪbəhaltən], behält bei/behielt bei/beibehalten [bəˈhɛlt baɪ/bəˈhiːlt baɪ/ˈbaɪbəhaltən], hat = ponechať, zachovať
-1 V verlieren {verlieren} [fɛɐˈliːʁən], verliert/verlor/verloren [fɛɐˈliːɐt/fɛɐˈloːɐ/fɛɐˈloːʁən], hat = stratiť, prehrať
+1 V verlieren {verlieren} [fɛɐˈliːʁən], verliert/verlor/verloren [fɛɐˈliːɐt/fɛɐˈloːɐ/fɛɐˈloːʁən], hat = stratiť, prehrať (zápas)
 - 3 AN verloren {verloren} [fɛɐˈloːʁən] = stratený, zbytočný
 1 V finden {finden} [ˈfɪndən], findet/fand/gefunden [ˈfɪndət/fant/ɡəˈfʊndən], hat (sich A) = nájsť, myslieť si
 - 2 V befinden {be|finden} [bəˈfɪndən], befindet/befand/befunden [bəˈfɪndət/bəˈfant/bəˈfʊndən], hat (sich A) = nachádzať sa, byť
@@ -663,6 +671,8 @@
 - 3 V aufholen {auf·holen} [ˈaʊfhoːlən], hat (A) = dobehnúť, dohnať
 - 3 V herausholen {heraus·holen} [hɛˈʁaʊshoːlən], hat (A) = vytiahnuť, vyťažiť
 2 V ausstatten {aus·statten} [ˈaʊsʃtatən], hat (mit D) = vybaviť (výbavou)
+2 AN gefunden {ge|funden} [ɡəˈfʊndən] = nájdený
+3 AN defizitär {defizitär} [defitsiˈtɛːɐ] = stratový
 
 # action-and-use
 2 N die Aktion {Aktion} [akˈtsjoːn], Aktionen = akcia (činnosť)
@@ -813,7 +823,7 @@
 2 V fixieren {fixieren} [fɪˈksiːʁən], hat (A) = zafixovať, upevniť
 2 V speichern {speichern} [ˈʃpaɪçɐn], hat (A) = ukladať, uskladniť
 2 V generieren {generieren} [ɡeneˈʁiːʁən], hat (A) = generovať, vytvárať
-3 V verspielen {ver|spielen} [fɛɐˈʃpiːlən], hat (A) = premárniť, prehrať
+3 V verspielen {ver|spielen} [fɛɐˈʃpiːlən], hat (A) = premárniť, prehrať (zápas)
 2 V jubeln {jubeln} [ˈjuːbəln], hat = jasať, radovať sa
 2 V manipulieren {manipulieren} [manipuˈliːʁən], hat (A) = manipulovať
 3 V zertifizieren {zertifizieren} [tsɛʁtifiˈtsiːʁən], hat (A) = certifikovať
@@ -999,7 +1009,7 @@
 3 V flanieren {flanieren} [flaˈniːʁən], ist = korzovať, prechádzať sa
 3 V fackeln {fackeln} [ˈfakəln], hat = váhať
 3 V addieren {addieren} [aˈdiːʁən], hat (A) = sčítať, pripočítať
-3 V überspielen {über|spielen} [yːbɐˈʃpiːlən], hat (A) = prekryť, zakryť, prehrať
+3 V überspielen {über|spielen} [yːbɐˈʃpiːlən], hat (A) = prekryť, zakryť, prehrať (nahrávku)
 3 V verspeisen {verspeisen} [fɛɐˈʃpaɪzən], hat (A) = zjesť, skonzumovať
 3 V vereinheitlichen {vereinheitlichen} [fɛɐˈaɪnhaɪtlɪçən], hat (A) = zjednotiť, unifikovať
 3 V sich sträuben {sich sträuben} [ˈʃtʁɔʏbən], hat (gegen A) = vzpierať sa, ježiť sa
@@ -1036,6 +1046,8 @@
 3 V takten {takten} [ˈtaktən], hat (A) = taktovať, časovať
 3 V verderben {verderben} [fɛɐˈdɛʁbən], verdirbt/verdarb/verdorben [fɛɐˈdɪʁpt/fɛɐˈdaʁp/fɛɐˈdɔʁbən], hat/ist (A) = pokaziť, kaziť
 3 V missverstehen {miss|verstehen} [mɪsfɛɐˈʃteːən], missversteht/missverstand/missverstanden [mɪsfɛɐˈʃteːt/mɪsfɛɐˈʃtant/mɪsfɛɐˈʃtandən], hat (A) = nepochopiť, zle pochopiť
+2 V auspacken {aus·packen} [ˈaʊspakən], hat (A) = rozbaliť
+2 V sich entfernen {sich ent|fernen} [zɪç ɛntˈfɛʁnən], hat (von D) = vzdialiť sa
 
 # change
 3 V manifestieren {manifestieren} [manifɛsˈtiːʁən], hat (A, sich A) = prejaviť, manifestovať
@@ -1052,6 +1064,7 @@
 3 V verhärten {ver|härten} [fɛɐˈhɛʁtən], hat (sich A) = zatvrdnúť, stvrdnúť
 3 V bugsieren {bugsieren} [bʊkˈsiːʁən], hat (A) = dostať s námahou, dostať, dopraviť s námahou
 3 V umschreiben {um|schreiben} [ʊmˈʃʁaɪbən], umschreibt/umschrieb/umschrieben [ʊmˈʃʁaɪpt/ʊmˈʃʁiːp/ʊmˈʃʁiːbən], hat (A) = parafrázovať, opísať
+2 V weich werden {weich werden} [vaɪç ˈveːɐdən], wird weich/wurde weich/weich geworden [vɪʁt vaɪç/ˈvʊʁdə vaɪç/vaɪç ɡəˈvɔʁdən], ist = zmäknúť
 
 # more
 1 AN weiter {weiter} [ˈvaɪtɐ] = ďalší

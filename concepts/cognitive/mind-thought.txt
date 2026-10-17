@@ -43,6 +43,7 @@ V pochopiť
 PHR byť na pochode
 N logika
 AN logický : adverb logicky
+AN nelogický
 V usudzovať
 N rozumnosť
 AN rozumný : adverb rozumne
@@ -113,6 +114,7 @@ N obava
 N výhrada
 N kompetencia
 AN kompetentný : adverb kompetentne
+AN nekompetentný
 N kľúčové slovo
 N súčasník
 N nepochopenie
@@ -152,6 +154,7 @@ AN menný
 # knowing
 V vedieť
 N vedomosti
+N nevedomosť
 AN vedomý : adverb vedome
 N vedomie
 AN nevedomý : adverb nevedome
@@ -323,6 +326,7 @@ N smola
 N prekážka
 N aféra
 V mýliť sa
+V mať pravdu
 V pomýliť si
 V lokalizovať
 V priorizovať

@@ -136,6 +136,8 @@
 3 AN autocratico {autocratico} [autoˈkraːtiko], autocratica, autocratici/autocratiche = autokratický
 2 V emigrare {emigrare} [emiˈɡraːre], essere (in) = emigrovať
 2 AV insieme {insieme} [inˈsjɛːme] = spoločne
+2 N il voto favorevole {voto favorevole} [ˈvoːto favoˈreːvole], voti favorevoli = hlas za
+2 V immigrare {immigrare} [imːiˈɡraːre], essere = imigrovať
 
 # state-politics
 1 N lo stato {stato} [ˈstaːto], stati = štát
@@ -537,6 +539,9 @@
 2 V avere sede {avere sede} [aˈveːre ˈsɛːde], irr (a) = sídliť
 2 AN costituzionale {costituzionale} [kostituttsjoˈnaːle] = právnoštátny
 3 AN dello Stato di diritto {dello Stato di diritto} [delːo ˈstaːto di diˈritːo] = právnoštátny
+2 AN non violento {non violento} [non vjoˈlɛnto], non violenta = nenásilný
+2 N il suddito {suddito} [ˈsudːito], sudditi = poddaný
+3 V smobilitare {smobilitare} [zmobiliˈtaːre] = demobilizovať
 
 # law-justice
 1 N la legge {legge} [ˈleddʒe], leggi = zákon
@@ -848,6 +853,8 @@
 3 V programmare {programmare} [proɡraˈmːaːre] = stanoviť termín
 2 AN pendente {pendente} [penˈdɛnte] = prebiehajúci (súdne)
 2 AN in corso {in corso} [in ˈkorso] = prebiehajúci (súdne)
+1 N la difesa {difesa} [diˈfeːza], difese = obhajoba
+1 V approvare {approvare} [apːroˈvaːre] = schváliť
 
 # politics
 3 V radicalizzare {radicalizzare} [radikalidˈdzaːre] = radikalizovať

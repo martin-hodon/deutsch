@@ -300,6 +300,10 @@
 3 N die Stube {Stube} [ˈʃtuːbə], Stuben = izba
 3 V beschenken {be|schenken} [bəˈʃɛŋkən], hat (A, mit D) = obdarovať
 3 V sich abschotten {sich ab·schotten} [zɪç ˈapʃɔtən], hat (gegen A) = izolovať sa, uzavrieť sa
+3 AN intolerant {intolerant} [ˈɪntoleʁant] = netolerantný
+3 N die Untreue {Un|treue} [ˈʊntʁɔʏə], - = nevera
+2 V treu sein {treu sein} [tʁɔʏ zaɪn], ist treu/war treu/treu gewesen [ɪst tʁɔʏ/vaːɐ tʁɔʏ/tʁɔʏ ɡəˈveːzən], ist = byť verný
+1 V sich streiten {sich streiten} [zɪç ˈʃtʁaɪtən], streitet/stritt/gestritten [ˈʃtʁaɪtət/ʃtʁɪt/ɡəˈʃtʁɪtən], hat (mit D) = pohádať sa
 
 # contact
 3 V kuscheln {kuscheln} [ˈkʊʃəln], hat (sich A, mit D) = túliť sa, maznať sa

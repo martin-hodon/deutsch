@@ -137,6 +137,8 @@
 2 N foreground {fore|ground} [ˈfɔːɡraʊnd], foregrounds = popredie
 2 V range {range} [reɪndʒ] = zahŕňať
 3 AV unilaterally {unilateral|ly} [ˌjuːnɪˈlætərəli] = jednostranne
+2 N fullness {full|ness} [ˈfʊlnəs], - = plnosť
+2 AV from inside {from inside} [frəm ˌɪnˈsaɪd] = zvnútra
 # direction-distance
 1 N direction {direction} [dəˈrekʃən], directions = smer
 2 V direct {direct} [dəˈrekt] (sth, at, towards) = nasmerovať
@@ -214,6 +216,7 @@
 1 AV far {far} [fɑː] = ďaleko
 2 AV in parallel {in·parallel} [ɪn ˈpærəlel] = rovnobežne
 1 AV off {off} [ɒf] = preč
+2 N this world {this world} [ðɪs ˈwɜːld], - = tento svet
 # motion
 1 V move {move} [muːv] (sth) = hýbať
 1 N motion {motion} [ˈməʊʃən], motions = pohyb
@@ -421,6 +424,8 @@
 3 V dog {dog} [dɒɡ] (sb) = prenasledovať
 3 V shadow {shad|ow} [ˈʃædəʊ] (sb) = sledovať
 3 V tail {tail} [teɪl] (sb) = sledovať
+2 N departure {departure} [dɪˈpɑːtʃə], departures = odchod
+2 V decrease {de|crease} [dɪˈkriːs] = ubudnúť
 # travel
 1 V arrive {arrive} [əˈraɪv] = pricestovať
 # position

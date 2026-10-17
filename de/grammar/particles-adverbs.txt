@@ -66,6 +66,7 @@
 2 AV vermehrt {vermehrt} [fɛɐˈmeːɐt] = čoraz viac, vo zvýšenej miere
 2 AV circa {circa} [ˈtsɪʁka] = približne, asi
 2 AV desto {desto} [ˈdɛsto] = tým viac, tým (viac), o to
+2 AV immer weniger {immer weniger} [ˈɪmɐ ˈveːnɪɡɐ] = čoraz menej
 
 # time
 2 AV nun {nun} [nuːn] = teraz, no, tak
@@ -130,6 +131,7 @@
 2 AV aufeinander {auf|einander} [aʊfaɪˈnandɐ] = na seba, jeden na druhého
 2 AV leid {leid} [laɪt] = ľúto
 2 AV gerne {gerne} [ˈɡɛʁnə] = rád
+2 AV ungern {un|gern} [ˈʊnɡɛʁn] = nerád
 
 # place-direction
 1 AV her {her} [heːɐ] = sem, odtiaľ
@@ -197,3 +199,7 @@
 
 # language-specific closed words (no Slovak word: a description)
 1 PHR im Rahmen {im Rahmen} [ɪm ˈʁaːmən] (G, von D) = v rámci (im Rahmen)
+2 AV zufällig {zu|fällig} [ˈtsuːfɛlɪç] = náhodou
+3 AV als Letzter {als Letzter} [als ˈlɛtstɐ] = ako posledný
+2 PHR über null {über null} [ˈyːbɐ nʊl] = nad nulou
+1 PHR guten Morgen {guten Morgen} [ˈɡuːtən ˈmɔʁɡən] = dobré ráno

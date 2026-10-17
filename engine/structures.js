@@ -1,10 +1,15 @@
 // THE GRAMMAR STRUCTURES OF A PLAN: which features of the shared syllabus (world/syllabus.txt) a sentence's plan
 // (world/CLAUSES.md) uses -- read from the plan alone, so the same in every language. The word-order exercise asks for
-// a sentence with the structure chosen (the trainer: Sentences > Word order).
+// a sentence with the structure chosen (the grammar page: Syntax), the overview shows each structure with an example.
 //
-//   structuresOf(plan, lang) -> Set of feature names ("relative", "perfect", "that-because-if" ...)
-//   STRUCTURES: [{ name, label }] in the syllabus's order -- the ones a plan shows (a feature with no detector here,
-//   such as the articles every sentence has, is not offered)
+//   structuresOf(plan) -> Set of feature names ("relative", "perfect", "that-because-if" ...)
+//   structureList(syllabus) -> [{ name, stage, label }] in the syllabus's order -- the ones a plan shows (a feature with
+//   no detector here, such as the articles every sentence has, is not offered)
+//   IMPLIED[name] -> the structures a sentence with it cannot help showing too (polite: modal and conditional)
+//   await loadStructures(url) -> Map name -> [plan]: the declared EXAMPLE PLANS of world/structures.txt -- one or two
+//   simple language-free plans a structure, each language's realizer says them: the sentence every structure has when
+//   the planner finds none (engine/practice.js), the overview's examples, and which structures a language has at all
+import { parseTests } from "./realize.js";
 
 const LINKS = {
   basic: new Set(["that", "because", "when", "if", "whether"]),
@@ -16,7 +21,7 @@ const DIRECTED = /^(into|onto|to-side|under-to|above-to|behind-to|front-to|besid
 
 // each detector: (clauses, seq, values) -> true when the plan has it; label: what the learner picks
 const D = {
-  present: { label: "present tense", is: (cs) => cs.some((c) => tense(c) === "present" && c.type !== "INF") },
+  present: { label: "present tense", is: (cs) => cs.some((c) => (tense(c) ?? "present") === "present" && c.type !== "INF") },   // (no tense: the present)
   predicate: { label: "be + adjective or noun", is: (cs) => cs.some((c) => arg(c, "pred")) },
   "name-age-clock": { label: "names, age, the time", is: (cs) => cs.some((c) => /^(age|clock|name):/.test(arg(c, "pred") ?? "")) },
   "yes-no": { label: "yes/no questions", is: (cs) => cs.some((c) => c.type === "YESNO") },
@@ -97,5 +102,31 @@ export function structuresOf(plan) {
 export function structureList(syllabus) {
   const out = [];
   for (const m of syllabus.matchAll(/^FEATURE (\S+) (\S+)/gm)) if (D[m[2]]) out.push({ name: m[2], stage: m[1], label: D[m[2]].label });
+  return out;
+}
+
+// what a structure brings with it: a sentence showing the first shows these too (a polite request is a modal in the
+// Konjunktiv II; an indirect yes/no question is a subordinate clause with whether) -- not counted against it in focus
+export const IMPLIED = {
+  polite: ["modal", "conditional", "yes-no"], "time-phrases": ["quantifiers"], which: ["wh-basic"], indirect: ["that-because-if"], "when-past": ["past"],
+  pluperfect: ["temporal", "past", "perfect"], connectives: ["coord"], "subject-drop": ["coord"],
+  "relative-prep": ["relative"], "relative-more": ["relative"], "indefinite-adj": ["indefinite", "adjective"],
+  "negation-more": ["negation"], "so-that-the-more": ["comparison"], "modal-perfect": ["modal", "perfect"],
+  "passive-more": ["passive", "modal", "perfect"], "conditional-past": ["conditional", "perfect", "pluperfect"],
+  "passive-subj2": ["passive", "conditional", "perfect", "conditional-past", "passive-more"], paired: ["negation"],
+};
+
+// the declared example plans (world/structures.txt): `name [-lang ...]` lines, each with its plan under it, as the tests
+// are written; `-ru -zh`: a language that does not say this plan (its realizer has no such construction, or says it
+// wrong) -- `not` lists them, so that language is not offered the structure through this plan
+export async function loadStructures(url) {
+  const response = await fetch(url);
+  if (!response.ok) throw new Error(`${url}: ${response.status}`);
+  const out = new Map();
+  for (const t of parseTests(await response.text())) {
+    const [name, ...flags] = t.target.split(/\s+/);
+    if (!D[name]) throw new Error(`structures: no structure ${name}`);
+    (out.get(name) ?? out.set(name, []).get(name)).push({ seq: t.seq, clauses: t.clauses, note: t.note, not: flags.filter((f) => f.startsWith("-")).map((f) => f.slice(1)) });
+  }
   return out;
 }

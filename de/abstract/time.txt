@@ -83,6 +83,8 @@
 3 N die Herbstferien {Herbst|ferien} [ˈhɛʁpstfeːʁiən], PL = jesenné prázdniny
 3 N die Osterferien {Oster|ferien} [ˈoːstɐfeːʁiən], PL = veľkonočné prázdniny
 3 N die Zeitumstellung {Zeit|umstellung} [ˈtsaɪtʊmʃtɛlʊŋ], Zeitumstellungen = zmena času
+2 AN langfristig {lang|fristig} [ˈlaŋfʁɪstɪç] = dlhodobý
+2 AV auf Dauer {auf Dauer} [aʊf ˈdaʊɐ] = natrvalo
 
 # day-parts-and-week
 1 N der Morgen {Morgen} [ˈmɔʁɡən], Morgen = ráno
@@ -118,6 +120,8 @@
 2 N die Saison {Saison} [zɛˈzɔ̃], Saisons = sezóna
 - 3 AN saisonal {saisonal} [zɛzoˈnaːl] = sezónny
 3 N die Morgenstunde {Morgen|stunde} [ˈmɔʁɡənʃtʊndə], Morgenstunden = ranná hodina
+2 AV vormittags {vor|mittags} [ˈfoːɐmɪtaːks] = predpoludním
+2 AV um Mitternacht {um Mitternacht} [ʊm ˈmɪtɐnaxt] = o polnoci
 
 # relative-time
 1 AV jetzt {jetzt} [jɛtst] = teraz
@@ -236,6 +240,9 @@
 3 N die Laufzeit {Lauf|zeit} [ˈlaʊftsaɪt], Laufzeiten = doba platnosti, trvanie, platnosť
 3 N die Kürze {Kürze} [ˈkʏʁtsə], - = krátkosť, stručnosť
 2 AV am Ende {am Ende} [am ˈɛndə] = nakoniec
+2 N der Folgetag {Folge|tag} [ˈfɔlɡətaːk], Folgetage = nasledujúci deň
+2 AV frühestens {frühestens} [ˈfʁyːəstəns] = najskôr
+2 AV ausnahmsweise {ausnahms|weise} [ˈaʊsnaːmsvaɪzə] = výnimočne
 
 # months
 1 N der Januar {Januar} [ˈjanuaːɐ], - = január

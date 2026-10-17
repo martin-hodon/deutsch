@@ -1,6 +1,7 @@
 # seeing
 V vidieť
 N zrak
+N slepota
 N viditeľnosť
 N výhľad
 AN viditeľný : adverb viditeľne
@@ -68,6 +69,7 @@ V vypočuť si
 V prestať
 V prepočuť
 N sluch
+N hluchota
 AN počuteľný : adverb počuteľne
 V mrmlať
 V rachotiť
@@ -79,6 +81,7 @@ V šumieť
 V čuchať
 N pach
 N vôňa
+N zápach
 V voňať
 AN voňavý
 V smrdieť
@@ -101,6 +104,7 @@ V svrbieť
 AN citlivý : adverb citlivo
 AN jemnocitný : adverb jemnocitne
 AN hluchý
+AN počujúci
 V ňuchať
 N aróma
 AN aromatický
@@ -111,6 +115,7 @@ V ovoniavať
 # colors
 N farba
 AN farebný
+AN čiernobiely
 AN bezfarebný
 N odtieň
 AN orgovánový

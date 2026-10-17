@@ -65,6 +65,7 @@
 3 AV artystycznie {artystycznie} [artɨˈstɨtʂɲɛ] = umelecky
 3 AV zręcznie {zręcznie} [ˈzrɛntʂɲɛ] = umne
 3 AV stylowo {stylowo} [stɨˈlɔvɔ] = štýlovo
+2 N brzydota {brzydota} [bʐɨˈdɔta], ż, - = škaredosť
 
 # music
 1 N muzyka {muzyka} [muˈzɨka], ż, - = hudba
@@ -238,6 +239,7 @@
 3 V synchronizować {synchronizować} [sɨnxrɔɲiˈzɔvatɕ], zsynchronizować (B) = synchronizovať
 3 AN autobiograficzny {autobiograficzny} [autɔbʲɔɡraˈfʲitʂnɨ] = autobiografický
 3 AV dramatycznie {dramatycznie} [dramaˈtɨtʂɲɛ] = dramaticky
+3 N ostatnie przedstawienie {ostatnie przedstawienie} [ɔˈstatɲɛ pʂɛtstaˈvʲɛɲɛ], n, ostatnie przedstawienia = derniéra
 
 # games-sport
 1 N gra {gra} [ɡra], ż, gry = hra
@@ -257,7 +259,7 @@
 3 V wystawiać przedstawienia {wystawiać przedstawienia} [vɨˈstavʲatɕ pʂɛtstaˈvʲɛɲa], wystawić = uvádzať predstavenia
 2 V grać z {grać z} [ɡratɕ z], zagrać (N) = hrať s
 1 V nagrywać {nagrywać} [naˈɡrɨvatɕ], nagrać (B) = nahrať (v štúdiu)
-2 V odtwarzać {odtwarzać} [ɔtˈtfaʐatɕ], odtworzyć (B) = prehrať
+2 V odtwarzać {odtwarzać} [ɔtˈtfaʐatɕ], odtworzyć (B) = prehrať (nahrávku)
 3 AN grywalny {grywalny} [ɡrɨˈvalnɨ] = hrateľný
 2 V grać dalej {grać dalej} [ɡratɕ ˈdalɛj], - = hrať ďalej
 2 V popisywać się {popisywać się} [pɔpʲiˈsɨvatɕ ɕɛ], popisać się (N) = vystatovať sa
@@ -448,6 +450,8 @@
 2 V kompletować {kompletować} [kɔmplɛˈtɔvatɕ], skompletować (B) = skompletizovať
 2 V uzupełniać {uzupełniać} [uzuˈpɛwɲatɕ], uzupełnić (B) = skompletizovať
 2 V surfować {surfować} [surˈfɔvatɕ], - = surfovať
+2 N amator {amator} [aˈmatɔr], m, amatorzy = amatér
+1 V przegrywać {prze|grywać} [pʂɛˈɡrɨvatɕ], przegrać = prehrať (zápas)
 
 # corpus-verbs
 3 V skłócać {skłócać} [ˈskwutsatɕ], skłócić (B) = poštvať proti sebe

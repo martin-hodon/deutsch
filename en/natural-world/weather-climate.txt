@@ -119,6 +119,7 @@
 3 AN arid {arid} [ˈærɪd] = vyschnutý
 2 N drought {drought} [draʊt], droughts = sucho
 3 V microwave {micro|wave} [ˈmaɪkrəweɪv] (sth) = ohriať
+2 N cooling {cool|ing} [ˈkuːlɪŋ], - = ochladzovanie
 # seasons-climate
 1 N season {season} [ˈsiːzən], seasons = ročné obdobie
 1 N spring {spring} [sprɪŋ], springs = jar

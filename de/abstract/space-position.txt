@@ -121,6 +121,8 @@
 2 N der Fokus {Fokus} [ˈfoːkʊs], Fokusse = ohnisko, zameranie
 2 N die Nummer {Nummer} [ˈnʊmɐ], Nummern = číslo (poradové)
 2 N der Vordergrund {Vorder|grund} [ˈfɔʁdɐɡʁʊnt], Vordergründe = popredie
+3 N die Fülle {Fülle} [ˈfʏlə], - = plnosť
+2 AV von innen {von innen} [fɔn ˈɪnən] = zvnútra
 
 # direction-distance
 1 N die Richtung {Richtung} [ˈʁɪçtʊŋ], Richtungen = smer
@@ -186,6 +188,7 @@
 3 N der Nordosten {Nord|osten} [nɔʁtˈɔstən], - = severovýchod
 - 3 AN nordöstlich {nord|östlich} [nɔʁtˈœstlɪç] = severovýchodný
 3 N der Südwesten {Süd|westen} [zyːtˈvɛstən], - = juhozápad
+3 N das Diesseits {Dies|seits} [ˈdiːszaɪts], - = tento svet
 
 # motion
 2 V bewegen {be|wegen} [bəˈveːɡən], hat (sich A) = hýbať, pohybovať, dojať
@@ -350,6 +353,8 @@
 3 V queren {queren} [ˈkveːʁən], hat (A) = križovať, pretínať
 3 V anrücken {an·rücken} [ˈanʁʏkən], ist = pritiahnuť, prísť, nastúpiť
 3 V aufrücken {auf·rücken} [ˈaʊfʁʏkən], ist = postúpiť (vyššie), posunúť sa vyššie
+2 N die Abreise {Ab|reise} [ˈapʁaɪzə], Abreisen = odchod
+3 V schwinden {schwinden} [ˈʃvɪndən], schwindet/schwand/geschwunden [ˈʃvɪndət/ʃvant/ɡəˈʃvʊndən], ist = ubudnúť
 
 # travel
 2 V anreisen {an·reisen} [ˈanʁaɪzən], ist = pricestovať, prísť

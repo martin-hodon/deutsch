@@ -64,7 +64,7 @@ V čistiť si zuby -- umývať zuby kefkou
 V záležať -- na niekom alebo na niečom mi záleží
 V zavolať políciu -- oznámiť polícii
 V ísť na služobnú cestu -- cestovať kvôli práci
-V zvoliť -- vybrať hlasovaním do funkcie
+V zvoliť : of vybrať @ voľby -- vybrať hlasovaním do funkcie
 V byť nižší ako -- mať menšiu hodnotu než niečo
 V zdieľať -- deliť sa o niečo s inými
 V neodolať -- nevedieť sa ovládnuť

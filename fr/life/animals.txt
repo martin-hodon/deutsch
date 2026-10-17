@@ -124,6 +124,8 @@
 2 N la race {race} [ʁas], races = plemeno
 3 N l'enclos (m) {enclos} [ɑ̃ˈklo], enclos = ohrada
 1 N la poule {poule} [pul], poules = sliepka
+2 N le bélier {bélier} [beˈlje], béliers = baran
+2 N le bouc {bouc} [buk], boucs = cap
 
 # birds
 1 N l'oiseau (m) {oiseau} [waˈzo], oiseaux = vták
@@ -178,6 +180,8 @@
 3 N le troglodyte {troglodyte} [tʁɔɡlɔˈdit], troglodytes = oriešok
 3 N l'épervier (m) {épervier} [epɛʁˈvje], éperviers = jastrab
 3 N l'autour (m) {autour} [otuʁ], autours = jastrab
+1 N le canard {canard} [kaˈnaʁ], canards = káčer
+3 N le jars {jars} [ʒaʁ], jars = gunár
 
 # fish-reptiles-amphibians
 1 N le poisson {poisson} [pwaˈsɔ̃], poissons = ryba

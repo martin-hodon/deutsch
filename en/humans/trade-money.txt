@@ -65,6 +65,9 @@
 3 N extra costs {extra costs} [ˈekstrə ˈkɒsts], PL = dodatočné náklady
 3 V rip off {rip·off} [rɪp ˈɒf], ripped off/ripped off (sb) = podviesť
 3 V fund {fund} [fʌnd] (sth) = financovať
+2 N price reduction {price reduction} [ˈpraɪs rɪˌdʌkʃən], price reductions = zníženie ceny
+2 V get rich {get rich} [ɡet ˈrɪtʃ], got rich/got rich = zbohatnúť
+1 V borrow {borrow} [ˈbɒrəʊ] (from) = požičať si
 # buying-selling
 1 V buy {buy} [baɪ], bought/bought (sth) = kúpiť
 1 V sell {sell} [sel], sold/sold (sth) = predať
@@ -171,6 +174,8 @@
 3 V purchase {purchase} [ˈpɜːtʃəs] (sth) = kúpiť
 3 V ship {ship} [ʃɪp] (sth) = odoslať
 1 AV for free {for·free} [fɔː friː] = bezplatne
+2 N price cut {price cut} [ˈpraɪs kʌt], price cuts = zlacnenie
+1 V sell {sell} [sel], sold/sold (sth, to) = predávať
 # places-of-trade
 1 N market {market} [ˈmɑːkɪt], markets = trh
 1 N supermarket {super|market} [ˈsuːpəmɑːkɪt], supermarkets = supermarket
@@ -343,6 +348,9 @@
 2 N gain {gain} [ɡeɪn], gains = zisk
 2 N grant {grant} [ɡrɑːnt], grants = dotácia
 2 N pay {pay} [peɪ], - = plat
+3 N deflation {de|flation} [dɪˈfleɪʃən], - = deflácia
+2 N customer {customer} [ˈkʌstəmə], customers = odberateľ
+3 N buyer {buyer} [ˈbaɪə], buyers = odberateľ
 # trade
 3 V license {license} [ˈlaɪsəns] (sth) = licencovať
 

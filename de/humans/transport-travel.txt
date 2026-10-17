@@ -310,6 +310,11 @@
 3 V mitreisen {mit·reisen} [ˈmɪtʁaɪzən], ist = cestovať spolu
 3 AN mediterran {mediterran} [mediteˈʁaːn] = stredomorský
 3 V entstammen {ent|stammen} [ɛntˈʃtamən], ist (D) = pochádzať
+2 N die Ankunft {Ankunft} [ˈankʊnft], - = prílet
+3 N die Verlangsamung {Ver|langsamung} [fɛɐˈlaŋzaːmʊŋ], Verlangsamungen = spomalenie
+3 N der Auszug {Aus|zug} [ˈaʊstsuːk], Auszüge = vysťahovanie
+3 N die Ausreise {Aus|reise} [ˈaʊsʁaɪzə], Ausreisen = vycestovanie
+3 N das Inland {In|land} [ˈɪnlant], - = tuzemsko
 
 # corpus-verbs
 3 V bereisen {be|reisen} [bəˈʁaɪzən], hat (A) = precestovať

@@ -210,6 +210,12 @@
 2 V se plaindre {se plaindre} [sə ˈplɛ̃dʁ], irr, plaint (de) = reklamovať
 3 AV responsablement {responsable|ment} [ʁɛspɔ̃sabləˈmɑ̃] = zodpovedne
 3 AV irresponsablement {irresponsable|ment} [iʁɛspɔ̃sabləˈmɑ̃] = nezodpovedne
+2 N l'emploi (m) {emploi} [ɑ̃ˈplwa], emplois = zamestnanosť
+2 N le subordonné {sub|ordonné} [sybɔʁdɔˈne], subordonnés = podriadený
+3 N le subalterne {subalterne} [sybalˈtɛʁn], subalternes = podriadený
+2 N le profane {profane} [pʁɔˈfan], profanes = laik
+3 N le néophyte {néophyte} [neɔˈfit], néophytes = laik
+3 N la rétrogradation {rétrogradation} [ʁetʁoɡʁadaˈsjɔ̃], rétrogradations = degradácia
 
 # making-doing
 1 V faire {faire} [fɛʁ], irr, fait = robiť
@@ -294,6 +300,7 @@
 2 V se procurer {se procurer} [sə pʁɔkyˈʁe] = zohnať
 3 V limer {limer} [liˈme] = pilovať
 3 V disséquer {disséquer} [diseˈke] = vypreparovať
+2 V démolir {démolir} [demɔˈliʁ] = búrať
 
 # tools
 1 N le marteau {marteau} [maʁˈto], marteaux = kladivo

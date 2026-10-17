@@ -35,6 +35,7 @@ N vnútro
 AN vnútorný
 AV vonku
 AV zvonka
+AV zvnútra
 N vonkajšok
 AN vonkajší
 AV tu
@@ -90,6 +91,7 @@ N pole
 N rozpätie
 N dosah
 N prázdnota
+N plnosť
 N vákuum
 N priehradka
 AN odborný : adverb odborne
@@ -143,6 +145,7 @@ AV úplne
 PHR okolo
 PRE na druhej strane
 N onen svet
+N tento svet
 PHR vopred
 AN oddelený : adverb oddelene
 AV inde
@@ -190,10 +193,12 @@ V súvisieť
 V prísť
 V dôjsť
 N príchod
+N odchod
 V vyskytovať sa
 N pôvod
 V uhradiť
 V pribudnúť
+V ubudnúť
 V zaobísť sa
 V vyhovieť
 V prísť vhod
@@ -203,7 +208,7 @@ V poradiť si
 V prebiť sa
 V prísť na návštevu
 V pokročiť
-V skapať
+V skapať : of zomrieť @ hovorovo
 V dostať sa tam
 V rovnať sa
 V vrátiť sa

@@ -103,6 +103,7 @@
 3 N die Messe {Messe} [ˈmɛsə], Messen = omša, veľtrh
 2 AN evangelisch {evangelisch} [evaŋˈɡeːlɪʃ] = evanjelický
 3 AN ökumenisch {ökumenisch} [økuˈmeːnɪʃ] = ekumenický
+3 N die Sterblichkeit {Sterblichkeit} [ˈʃtɛʁplɪçkaɪt], - = smrteľnosť
 
 # magic-fate
 2 N die Magie {Magie} [maˈɡiː], - = mágia, čary

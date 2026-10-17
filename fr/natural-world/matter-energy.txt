@@ -69,6 +69,8 @@
 3 V polluer {polluer} [pɔˈlɥe] = kontaminovať
 2 V sécher {sécher} [seˈʃe] = vyschnúť
 3 V tarir {tarir} [taˈʁiʁ] = vyschnúť
+1 AN solide {solide} [sɔˈlid] = tuhý
+2 V s'humidifier {s'humidifier} [symidiˈfje] = zvlhnúť
 
 # fire-light
 1 V brûler {brûler} [bʁyˈle] = horieť
@@ -107,6 +109,7 @@
 2 V se refléter {se re|fléter} [sə ʁefleˈte] = zrkadliť sa
 2 N la lueur {lueur} [lɥœʁ], lueurs = záblesk
 3 N le scintillement {scintille|ment} [sɛ̃tijˈmɑ̃], scintillements = záblesk
+1 V éteindre {éteindre} [eˈtɛ̃dʁ], irr, éteint = hasiť
 
 # energy-forces
 2 N l'énergie (f) {énergie} [enɛʁˈʒi], énergies = energia

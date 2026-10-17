@@ -74,6 +74,9 @@
 2 V absorber {absorber} [aβsoɾˈβeɾ] = absorbovať
 2 V contaminar {contaminar} [kontamiˈnaɾ] = kontaminovať
 2 V secarse {secarse} [seˈkaɾse] = vyschnúť
+2 AN sólido {sólido} [ˈsoliðo], sólida = tuhý
+2 V humedecerse {humedecerse} [umeðeˈθeɾse], c>zc = zvlhnúť
+2 V mojarse {mojarse} [moˈxaɾse] = zvlhnúť
 
 # fire-light
 1 V arder {arder} [aɾˈðeɾ] = horieť
@@ -117,6 +120,8 @@
 2 N el reflejo {reflejo} [reˈflexo], reflejos = odraz
 2 V reflejarse {reflejarse} [refleˈxaɾse] = zrkadliť sa
 3 N el destello {destello} [desˈteʎo], destellos = záblesk
+1 V apagar {apagar} [apaˈɣaɾ] = hasiť
+2 V extinguir {extinguir} [ekstiŋˈɡiɾ] = hasiť
 
 # energy-forces
 1 N la energía {energía} [eneɾˈxia], energías = energia

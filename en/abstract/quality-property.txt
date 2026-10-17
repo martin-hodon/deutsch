@@ -542,6 +542,20 @@
 2 AV enough {enough} [ɪˈnʌf] = dostatočne
 3 AV picturesquely {picturesque|ly} [ˌpɪktʃəˈreskli] = malebne
 3 AV grotesquely {grotesque|ly} [ɡrəʊˈteskli] = groteskne
+2 AN secondary {second|ary} [ˈsekəndərɪ] = vedľajší
+2 AN minor {minor} [ˈmaɪnə] = vedľajší
+3 AN subordinate {sub|ordinate} [səˈbɔːdɪnət] = podriadený
+3 AN inferior {inferior} [ɪnˈfɪərɪə] = podriadený
+3 AN implicit {implicit} [ɪmˈplɪsɪt] = implicitný
+2 AN rising {ris|ing} [ˈraɪzɪŋ] = stúpajúci
+2 AN comic {comic} [ˈkɒmɪk] = komický
+3 AN comical {comic|al} [ˈkɒmɪkəl] = komický
+3 AN submissive {sub|missive} [səbˈmɪsɪv] = submisívny
+2 AN impractical {im|practical} [ɪmˈpræktɪkəl] = nepraktický
+2 AN inconvenient {in|convenient} [ˌɪnkənˈviːnɪənt] = nepraktický
+2 AN inaccessible {in|accessible} [ˌɪnəkˈsesəbəl] = neprístupný
+3 N imperfection {im|perfection} [ˌɪmpəˈfekʃən], imperfections = nedokonalosť
+2 N complexity {complex|ity} [kəmˈpleksɪtɪ], complexities = zložitosť
 # state-properties
 1 AN new {new} [njuː] = nový
 2 N news item {news item} [ˈnjuːz aɪtəm], news items = novinka
@@ -927,6 +941,14 @@
 2 AV fast {fast} [fɑːst] = rýchlo
 2 AV truthfully {truth|fully} [ˈtruːθfəli] = pravdivo
 2 AV in detail {in·detail} [ɪn ˈdiːteɪl] = podrobne
+3 AN minority {minority} [maɪˈnɒrɪtɪ] = menšinový
+2 AN unreliable {un|reliable} [ˌʌnrɪˈlaɪəbəl] = nespoľahlivý
+2 AN non-existent {non-existent} [ˌnɒn ɪɡˈzɪstənt] = neexistujúci
+2 N softness {soft|ness} [ˈsɒftnəs], - = mäkkosť
+2 N slowness {slow|ness} [ˈsləʊnəs], - = pomalosť
+3 N instability {in|stability} [ˌɪnstəˈbɪlɪtɪ], - = nestabilita
+2 AV as little as possible {as little as possible} [əz ˈlɪtəl əz ˈpɒsɪbəl] = čo najmenej
+2 V strengthen {strength|en} [ˈstreŋθən] = silnieť
 # corpus-adjectives
 3 AN well thought-out {well thought-out} [wel ˈθɔːt aʊt] = premyslený
 3 AN dual {dual} [ˈdjuːəl] = duálny
@@ -1063,3 +1085,4 @@
 2 AN underlying {under|lying} [ˌʌndəˈlaɪɪŋ] = základný
 3 AN nonprofit {non|profit} [ˌnɒnˈprɒfɪt] = verejnoprospešný
 3 AN elevated {elevated} [ˈelɪveɪtɪd] = zvýšený
+2 AN reduced {re|duced} [rɪˈdjuːst] = znížený

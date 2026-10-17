@@ -1,0 +1,16 @@
+
+# concepts added for words of one language's word lists (HSK ...) that no concept said
+2 AN inferiore {inferiore} [infeˈrjoːre] (a) = nižší
+2 AN avanzato {avanzato} [avanˈtsaːto], avanzata = pokročilý
+3 AN presbite {presbite} [ˈprɛzbite] = ďalekozraký
+3 AN arretrato {arretrato} [arːeˈtraːto], arretrata = zaostalý
+3 AN capelluto {capelluto} [kapeˈlːuːto], capelluta = vlasatý
+2 N il prezzo basso {prezzo basso} [ˈprettso ˈbasːo], prezzi bassi = nízka cena
+1 N la temperatura alta {temperatura alta} [temperaˈtuːra ˈalta], temperature alte = vysoká teplota
+2 N l'inizio del semestre (m) {inizio del semestre} [iˈnittsjo del seˈmɛstre], inizi del semestre = začiatok semestra
+2 N l'inizio del mese (m) {inizio del mese} [iˈnittsjo del ˈmeːze], inizi del mese = začiatok mesiaca
+2 N l'esame scritto (m) {esame scritto} [eˈzaːme ˈskritːo], esami scritti = písomná skúška
+2 N il personaggio secondario {personaggio secondario} [persoˈnaddʒo sekonˈdaːrjo], personaggi secondari = vedľajšia postava
+2 N il medioevo {medioevo} [medjoˈɛːvo], - = stredovek
+2 N l'età moderna (f) {età moderna} [eˈta moˈdɛrna], età moderne = novovek
+1 N il primo posto {primo posto} [ˈpriːmo ˈpɔsto], primi posti = prvé miesto

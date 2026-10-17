@@ -9,6 +9,7 @@ N plyn
 AN plynný
 N zemný plyn
 AN tekutý
+AN tuhý
 N tekutina
 N pevná látka
 N kyslík
@@ -67,9 +68,11 @@ N rozpúšťadlo
 V absorbovať
 V kontaminovať
 V vyschnúť
+V zvlhnúť
 
 # fire-light
 V horieť
+V hasiť
 AN horľavý
 N požiar
 V spáliť

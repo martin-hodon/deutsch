@@ -216,6 +216,8 @@
 3 AV kompetentnie {kompetentnie} [kɔmpɛˈtɛntɲɛ] = kompetentne
 3 AV obiektywnie {obiektywnie} [ɔbʲɛkˈtɨvɲɛ] = objektívne
 3 AV etycznie {etycznie} [ɛˈtɨtʂɲɛ] = eticky
+2 AN nielogiczny {nie|logiczny} [ɲɛlɔˈɡitʂnɨ] = nelogický
+3 AN niekompetentny {nie|kompetentny} [ɲɛkɔmpɛˈtɛntnɨ] = nekompetentný
 
 # knowing
 1 V wiedzieć {wiedzieć} [ˈvʲɛdʑɛtɕ], - (o + Ms) = vedieť
@@ -387,6 +389,7 @@
 3 AV przekonująco {przekonująco} [pʂɛkɔnuˈjɔntsɔ] = presvedčivo
 3 AV bezradnie {bezradnie} [bɛzˈradɲɛ] = bezradne
 3 AV spójnie {spójnie} [ˈspujɲɛ] = súvisle
+2 N niewiedza {nie|wiedza} [ɲɛˈvʲɛdza], ż, - = nevedomosť
 
 # memory
 1 N pamięć {pamięć} [ˈpamʲɛɲtɕ], ż, pamięci = pamäť (schopnosť)
@@ -497,6 +500,7 @@
 3 AV potajemnie {potajemnie} [pɔtaˈjɛmɲɛ] = tajne
 3 AV tajemniczo {tajemniczo} [tajɛmˈɲitʂɔ] = tajomne
 3 AV nieuchronnie {nieuchronnie} [ɲɛuˈxrɔnːɲɛ] = neodvratne
+1 V mieć rację {mieć rację} [mʲɛtɕ ˈratsjɛ], - = mať pravdu
 
 # more
 1 V uważać {uważać} [uˈvaʐatɕ], - (za + B) = považovať

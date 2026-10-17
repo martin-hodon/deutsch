@@ -70,6 +70,8 @@
 3 V wchłaniać {w|chłaniać} [ˈfxwaɲatɕ], wchłonąć = absorbovať
 3 V zanieczyszczać {za|nieczyszczać} [zaɲɛˈtʂɨʂtʂatɕ], zanieczyścić = kontaminovať
 2 V wysychać {wy|sychać} [vɨˈsɨxatɕ], wyschnąć = vyschnúť
+2 AN stały {stały} [ˈstawɨ] = tuhý
+3 V wilgotnieć {wilgotnieć} [vʲilˈɡɔtɲɛtɕ], zwilgotnieć = zvlhnúť
 
 # fire-light
 1 V palić się {palić się} [ˈpalitɕ ɕɛ], spalić się = horieť
@@ -111,6 +113,7 @@
 2 N błysk {błysk} [bwɨsk], m, błyski = záblesk
 2 AV ciemno {ciemno} [ˈtɕɛmnɔ] = tmavo
 2 AV jasno {jasno} [ˈjasnɔ] = svetlo
+1 V gasić {gasić} [ˈɡaɕitɕ], zgasić (B) = hasiť
 
 # energy-forces
 1 N energia {energia} [ɛˈnɛrɡja], ż, energie = energia

@@ -96,6 +96,7 @@
 1 AV sempre più {sempre più} [ˈsɛmpre ˈpju] = čoraz viac
 1 AV circa {circa} [ˈtʃirka] = približne
 1 AV più o meno {più o meno} [ˈpju o ˈmeːno] = približne
+1 AV sempre meno {sempre meno} [ˈsɛmpre ˈmeːno] = čoraz menej
 
 # time
 1 AV ora {ora} [ˈoːra] = teraz
@@ -176,6 +177,8 @@
 3 AV l'uno sull'altro {l'uno sull'altro} [ˈluːno suˈlːaltro] = na seba
 1 AV mi dispiace {mi dispiace} [mi disˈpjaːtʃe] = ľúto
 2 AV peccato {peccato} [peˈkːaːto] = ľúto
+3 AV malvolentieri {malvolentieri} [malvolenˈtjɛːri] = nerád
+2 AV a malincuore {a malincuore} [a maliŋˈkwɔːre] = nerád
 
 # place-direction
 1 AV qua {qua} [ˈkwa] = sem
@@ -259,3 +262,7 @@
 1 AV nemmeno {nemmeno} [neˈmːeːno] = ani len
 1 AV neanche {neanche} [neˈaŋke] = ani len
 2 AV neppure {neppure} [neˈpːuːre] = ani len
+1 AV per caso {per caso} [per ˈkaːzo] = náhodou
+1 AV per ultimo {per ultimo} [per ˈultimo] = ako posledný
+2 PHR sopra zero {sopra zero} [ˈsoːpra ˈdzɛːro] = nad nulou
+1 PHR buongiorno {buongiorno} [bwɔnˈdʒorno] = dobré ráno

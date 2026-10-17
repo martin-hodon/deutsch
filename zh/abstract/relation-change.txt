@@ -80,6 +80,8 @@
 2 V 持有 {持有} [chíyǒu] = vlastniť
 2 V 诞生 {诞生} [dànshēng] = vzniknúť
 2 V 运作 {运作} [yùnzuò] = fungovať
+2 V 消失 {消失} [xiāoshī] = zaniknúť
+3 V 消亡 {消亡} [xiāowáng] = zaniknúť
 
 # change-events
 1 V 变成 {变成} [biànchéng] = stať sa
@@ -487,6 +489,12 @@
 2 N 缘故 {缘故} [yuángù], 个 = dôvod
 2 V 再生 {再生} [zàishēng] = obnoviť (pôvodný stav)
 2 V 指定 {指定} [zhǐdìng] = určiť
+2 AN 有限 {有限} [yǒuxiàn] = konečný
+2 N 减少 {减少} [jiǎnshǎo], - = úbytok
+2 N 下降 {下降} [xiàjiàng], - = úbytok
+2 V 扩大 {扩大} [kuòdà] = zväčšiť sa
+1 V 变大 {变大} [biàndà] = zväčšiť sa
+3 V 增大 {增大} [zēngdà] = zväčšiť sa
 
 # relations
 1 AN 一样 {一样} [yīyàng] = rovnaký
@@ -939,6 +947,13 @@
 2 V 领取 {领取} [lǐngqǔ] = prevziať
 2 N 渠道 {渠道} [qúdào], 个 = prostriedok
 2 AN 同一 {同一} [tóngyī] = rovnaký
+2 N 整体 {整体} [zhěngtǐ], - = celok
+2 N 全部 {全部} [quánbù], - = celok
+3 N 下限 {下限} [xiàxiàn], 个 = dolná hranica
+2 N 冷漠 {冷漠} [lěngmò], - = nezáujem
+3 N 漠不关心 {漠不关心} [mòbùguānxīn], - = nezáujem
+2 V 乘 {乘} [chéng] = násobiť
+3 V 乘以 {乘以} [chéngyǐ] = násobiť
 
 # transfer-basic-verbs
 1 V 给 {给} [gěi] = dať
@@ -1132,6 +1147,8 @@
 2 V 丧失 {丧失} [sàngshī] = stratiť
 2 V 收藏 {收藏} [shōucáng] = zbierať
 2 N 收藏 {收藏} [shōucáng], 个 = zbierka
+3 AN 找到的 {找到的} [zhǎodào de] = nájdený
+3 AN 亏损 {亏损} [kuīsǔn] = stratový
 
 # action-and-use
 1 N 行动 {行动} [xíngdòng], 次 = akcia (činnosť)
@@ -1750,6 +1767,10 @@
 2 V 奉献 {奉献} [fèngxiàn] = venovať
 2 V 面向 {面向} [miànxiàng] = obrátiť
 2 N 外观 {外观} [wàiguān], - = vzhľad
+2 V 拆开 {拆开} [chāikāi] = rozbaliť
+1 V 打开 {打开} [dǎkāi] = rozbaliť
+2 V 远离 {远离} [yuǎnlí] = vzdialiť sa
+2 V 走远 {走远} [zǒuyuǎn] = vzdialiť sa
 
 # change
 2 V 表现 {表现} [biǎoxiàn] = prejaviť
@@ -1782,6 +1803,8 @@
 3 V 绑 {绑} [bǎng] = obviazať
 3 V 缠 {缠} [chán] = obviazať
 1 V 深入 {深入} [shēnrù] = prenikať
+2 V 变软 {变软} [biànruǎn] = zmäknúť
+3 V 软化 {软化} [ruǎnhuà] = zmäknúť
 
 # more
 1 AN 另外 {另外} [lìngwài] = ďalší

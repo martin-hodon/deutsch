@@ -24,11 +24,13 @@ AN zámožný
 AN chudobný : adverb chudobne
 N chudoba
 V schudobnieť
+V zbohatnúť
 N dlhy
 V dlhovať
 N dlžník
 N pôžička
 V požičať
+V požičať si
 N hypotéka
 N rozpočet
 N fond
@@ -60,6 +62,7 @@ N libra
 N rubeľ
 N odovzdanie
 N zvýšenie ceny
+N zníženie ceny
 N dodatočné náklady
 V podviesť
 
@@ -71,6 +74,7 @@ N predavač
 N kúpa
 N kupujúci
 V nakupovať
+V predávať
 N nákup
 N nákupné centrum
 N predavačka
@@ -93,6 +97,7 @@ AN plnohodnotný
 AN lacný : adverb lacno
 AN drahý : adverb draho
 N zdraženie
+N zlacnenie
 V zdražiť
 N zľava
 N výhodná kúpa
@@ -248,6 +253,7 @@ V vyvážať
 N dovoz
 V dovážať
 N inflácia
+N deflácia
 AN inflačný
 N bankrot
 AN zbankrotovaný
@@ -261,6 +267,7 @@ N akcia (cenný papier)
 N akcionár
 N maklér
 N dodávateľ
+N odberateľ
 N konkurent
 N konkurencia
 V súťažiť

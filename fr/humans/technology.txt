@@ -96,6 +96,7 @@
 3 N le kilowattheure {kilo|watt|heure} [kilɔwaˈtœʁ], kilowattheures = kilowatthodina
 3 N le watt {watt} [wat], watts = watt
 3 AV électroniquement {électronique|ment} [elɛktʁɔnikˈmɑ̃] = elektronicky
+2 V décharger {dé|charger} [deʃaʁˈʒe] (qch) = vyložiť
 
 # computing-communication-devices
 1 N l'ordinateur (m) {ordinateur} [ɔʁdinaˈtœʁ], ordinateurs = počítač
@@ -255,6 +256,10 @@
 3 AV numériquement {numérique|ment} [nymeʁikˈmɑ̃] = digitálne
 3 AV virtuellement {virtuelle|ment} [viʁtɥɛlˈmɑ̃] = virtuálne
 1 AV par téléphone {par·téléphone} [paʁ teleˈfɔn] = telefonicky
+2 N la déconnexion {dé|connexion} [dekɔnɛkˈsjɔ̃], déconnexions = odhlásenie
+3 N le téléversement {télé|versement} [televɛʁsəˈmɑ̃], téléversements = nahratie
+2 AV hors ligne {hors ligne} [ɔʁ liɲ] = offline
+3 V dézoomer {dé|zoomer} [dezuˈme] = oddialiť
 
 # devices
 2 V démonter {démonter} [demɔ̃ˈte] = demontovať

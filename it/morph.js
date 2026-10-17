@@ -20,11 +20,12 @@ const FUT = ["ò", "ai", "à", "emo", "ete", "anno"], COND = ["ei", "esti", "ebb
 // (a strong passato remoto -- ebbi, presi, scrissi --: the 1sg 3sg 3pl from its stem, the others regular)
 const STRONG = ["i", null, "e", null, null, "ero"];
 
-// the spelling keeps the sound: -care / -gare take an h before e and i (cerchi, pagherò); -ciare / -giare / -sciare and
-// -iare drop their i before e and i (cominci, mangerò, studi)
-function spell(stem, end) {
+// the spelling keeps the sound: -care / -gare take an h before e and i (cerchi, pagherò) -- an -are verb's; leggere,
+// conoscere keep their soft c / g (legge, conosce); -ciare / -giare / -sciare and -iare drop their i before e and i
+// (cominci, mangerò, studi)
+function spell(stem, end, cls = "are") {
   if (/^[ei]/.test(end)) {
-    if (/[cg]$/.test(stem)) return stem + "h" + end;
+    if (/[cg]$/.test(stem) && cls === "are") return stem + "h" + end;
     if (/i$/.test(stem) && (/^i/.test(end) || /(ci|gi|sci)$/.test(stem))) return stem.slice(0, -1) + end;   // (studi, studierò; mangerò)
   }
   return stem + end;
@@ -131,12 +132,12 @@ export async function loadMorphology(url) {
       if (p === 4) return conj(verb, "pres", 3, { model, regular }).replace(/iamo$/, "iate");
       if (first && /o$/.test(first)) return first.slice(0, -1) + "a" + (p === 5 ? "no" : "");   // (vada, faccia, venga -- whatever the class)
       if (isc && p !== 3 && p !== 4) return stem + ["isca", "isca", "isca", "", "", "iscano"][p];
-      return spell(stem, END[cls].subj[p]);
+      return spell(stem, END[cls].subj[p], cls);
     }
     if (tense !== "pres") return inf;
     if (!regular && p === 0 && ir.pres1) return ir.pres1;
     if (isc && p !== 3 && p !== 4) return stem + ["isco", "isci", "isce", "", "", "iscono"][p];
-    return spell(stem, END[cls].pres[p]);
+    return spell(stem, END[cls].pres[p], cls);
   }
   // the auxiliary of the passato prossimo: essere for the dictionary's `essere` verbs and every reflexive, else avere
   const aux = (e) => (e.aux === "essere" || /rsi$/.test(e.word ?? e) ? "essere" : "avere");

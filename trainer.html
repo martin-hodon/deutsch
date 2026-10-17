@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Trainer</title>
+<title>Grammar</title>
 <link rel="stylesheet" href="engine/style.css">
 </head>
 <body data-mode="article">
@@ -28,7 +28,7 @@
   <div class="controls">
     <label for="learn" class="mute" data-t="learning">learning:</label>
     <select id="learn" data-t-title="learning-title"></select>
-    <select id="kind" data-t-title="kind-title"><option value="words" data-t="words">Words</option><option value="forms" data-t="morphology">Morphology</option><option value="order" data-t="syntax">Syntax</option></select>
+    <select id="kind" data-t-title="kind-title"><option value="words" data-t="words">Words</option><option value="forms" data-t="morphology">Morphology</option><option value="order" data-t="syntax">Syntax</option><option value="overview" data-t="overview">Overview</option></select>
     <select id="level" data-t-title="freq-title">
       <option value="1">FREQ 1</option>
       <option value="2">FREQ 2</option>
@@ -66,6 +66,8 @@
     <div id="feedback"></div>
     <div id="examples"></div>
   </section>
+
+  <section id="overview" class="card overview" hidden></section>
 
   <section id="panel-settings" class="panel" hidden>
     <header><h3 data-t="settings">⚙ Settings</h3><button class="close" aria-label="close">✕</button></header>

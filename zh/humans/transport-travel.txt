@@ -442,6 +442,15 @@
 2 N 旅店 {旅店} [lǚdiàn], 家 = penzión
 2 N 线路 {线路} [xiànlù], 条 = trasa
 2 N 游人 {游人} [yóurén], 位 = turista
+2 N 降落 {降落} [jiàngluò], - = prílet
+2 N 抵达 {抵达} [dǐdá], - = prílet
+2 N 减速 {减速} [jiǎnsù], - = spomalenie
+2 N 搬出 {搬出} [bānchū], - = vysťahovanie
+3 N 迁出 {迁出} [qiānchū], - = vysťahovanie
+3 N 出境 {出境} [chūjìng], - = vycestovanie
+1 N 国内 {国内} [guónèi], - = tuzemsko
+2 N 本国 {本国} [běnguó], - = tuzemsko
+3 N 境内 {境内} [jìngnèi], - = tuzemsko
 
 # corpus-verbs
 2 V 走遍 {走遍} [zǒubiàn] = precestovať

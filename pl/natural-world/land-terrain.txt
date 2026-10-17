@@ -76,6 +76,7 @@
 2 N region {region} [ˈrɛɡʲɔn], m, regiony = kraj
 2 N park narodowy {park narodowy} [park narɔˈdɔvɨ], m, parki narodowe = národný park
 3 N rezerwat przyrody {rezerwat przyrody} [rɛˈzɛrvat pʂɨˈrɔdɨ], m, rezerwaty przyrody = prírodná rezervácia
+2 N podnóże {pod|nóże} [pɔdˈnuʐɛ], n, podnóża = úpätie
 
 # surface-materials
 1 N skała {skała} [ˈskawa], ż, skały = skala

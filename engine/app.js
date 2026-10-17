@@ -1,7 +1,7 @@
 // The trainer: welcome the learner, then ask a question, take the answer, log it, schedule, show feedback and
 // statistics, ask the next. Two groups of exercises: WORDS (a word asked by spaced repetition, srs.js) and GRAMMAR
 // (a sentence made for the language learned, engine/practice.js: its syntax -- the word order --, its morphology -- a
-// form left out). The page speaks the learner's own language (engine/text.js; Slovak until chosen in the settings), the
+// form left out --, and the overview of both with examples). The page speaks the learner's own language (engine/text.js; Slovak until chosen in the settings), the
 // exercises ask the words through it; the language learned is chosen above the exercises. On screen only what the
 // chosen exercise needs; the settings, statistics and the recorded data behind More.
 import { loadDictionary, details } from "./data.js";
@@ -140,7 +140,7 @@ function likeMode({ mode: m, pair: old, group }) {
 // the filters of the pair: the categories of its words, the structures, its rule sets of forms; the kept choices
 async function showFilters() {
   ui.showCategories(Object.keys(dict.byGroup).sort());   // (the first level only: abstract, humans, life ...)
-  structures = await practice.structures();
+  structures = await practice.structures(pair.learn);   // (the structures this language has)
   rules = (await practice.rules(pair.learn)).map((r) => ({ name: r.name, label: r.label }));
   ui.setSelected("level", view.level);
   showMarks();
@@ -162,7 +162,7 @@ function chooseMode(name) {
 // an exercise's name: this pair's mode's label, else one made from its key (an answer of another pair in the recorded
 // data: vocab:es-sk -> Español → Slovensky, order:fr -> Syntax (Français); irregular:en -- the irregular verbs once asked
 // as words, now the Morphology's "irregular verbs" switch)
-const KINDS = { order: "syntax", forms: "morphology", irregular: "irregular-verbs" };
+const KINDS = { order: "syntax", forms: "morphology", overview: "overview", irregular: "irregular-verbs" };
 const labelOfMode = (m) => {
   if (MODES[m]) return t(MODES[m].label);
   const [kind, rest = ""] = m.split(":"), [a, b] = rest.split("-"), name = (l) => LANGS[l]?.name ?? l;
@@ -176,6 +176,7 @@ function ask() {
   const kind = MODES[mode].kind;
   if (kind === "order") return askOrder();
   if (kind === "forms") return askForms();
+  if (kind === "overview") return showOverview();
   return askWord();
 }
 
@@ -270,6 +271,17 @@ async function askForms() {
   if (missing.delete(`${pair.learn}|forms|${level}|${rule}${irregular ? "|irregular" : ""}`)) showMarks();   // (found after all: no longer marked)
   current = { kind: "forms", question, key: `${mode}:${question.text}`, shownAt: performance.now(), answered: false };
   ui.showQuestion(`${t("morphology")} · ${labelOf(rules, question.rule)} · ${ui.levelLabel()}`, question, choose);
+  showProgress();
+}
+
+// THE OVERVIEW: every structure of the language and every rule set of forms with an example (engine/practice.js overview);
+// a row clicked opens that exercise on it
+async function showOverview() {
+  const data = await made(() => practice.overview(pair.learn, Number(ui.selected("level"))));
+  if (!data) return;
+  current = null;
+  const open = (m, id, name) => { ui.setSelected(id, name); view[id] = ui.selected(id); chooseMode(m); };
+  ui.showOverview(data, { onStructure: (name) => open(`order:${pair.learn}`, "structure", name), onRule: (name) => open(`forms:${pair.learn}`, "rule", name) });
   showProgress();
 }
 

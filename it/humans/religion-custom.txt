@@ -123,6 +123,7 @@
 2 AN protestante {protestante} [protesˈtante] = evanjelický
 3 AN evangelico {evangelico} [evanˈdʒɛːliko], evangelica, evangelici/evangeliche = evanjelický
 3 AN ecumenico {ecumenico} [ekuˈmɛːniko], ecumenica, ecumenici/ecumeniche = ekumenický
+2 N la mortalità {mortalità} [mortaliˈta], mortalità = smrteľnosť
 
 # magic-fate
 2 N la magia {magia} [maˈdʒiːa], magie = mágia

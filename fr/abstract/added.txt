@@ -1,0 +1,17 @@
+
+# concepts added for words of one language's word lists (HSK ...) that no concept said
+2 AN inférieur {inférieur} [ɛ̃feʁˈjœʁ], inférieure = nižší
+2 AN avancé {avancé} [avɑ̃ˈse], avancée = pokročilý
+3 AN hypermétrope {hyper|métrope} [ipɛʁmeˈtʁɔp] = ďalekozraký
+2 AN sous-développé {sous-dé|veloppé} [sudevlɔˈpe], sous-développée = zaostalý
+3 AN arriéré {arriéré} [aʁjeˈʁe], arriérée = zaostalý
+3 AN chevelu {chevelu} [ʃəvəˈly], chevelue = vlasatý
+2 N le prix bas {prix bas} [pʁi ba], prix bas = nízka cena
+2 N la température élevée {température élevée} [tɑ̃peʁatyʁ eleˈve], températures élevées = vysoká teplota
+2 N le début du semestre {début du semestre} [deby dy səmɛstʁ], débuts du semestre = začiatok semestra
+1 N le début du mois {début du mois} [deby dy mwa], débuts du mois = začiatok mesiaca
+2 N l'examen écrit (m) {examen écrit} [ɛɡzamɛ̃ eˈkʁi], examens écrits = písomná skúška
+2 N l'écrit (m) {écrit} [eˈkʁi], écrits = písomná skúška
+2 N le personnage secondaire {personnage secondaire} [pɛʁsɔnaʒ səɡɔ̃ˈdɛʁ], personnages secondaires = vedľajšia postava
+2 N le Moyen Âge {Moyen Âge} [mwa jɛ nɑʒ], - = stredovek
+2 N la première place {première place} [pʁəmjɛʁ plas], premières places = prvé miesto

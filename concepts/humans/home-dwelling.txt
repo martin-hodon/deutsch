@@ -156,7 +156,7 @@ N lavica
 N banka
 N kreslo
 N pohovka
-N gauč
+N gauč : of pohovka @ hovorovo
 N posteľ
 N manželská posteľ
 N poschodová posteľ

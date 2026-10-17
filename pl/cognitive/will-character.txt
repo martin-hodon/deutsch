@@ -155,6 +155,8 @@
 3 AV chciwie {chciwie} [ˈxtɕivʲɛ] = chamtivo
 3 AV łapczywie {łapczywie} [wapˈtʂɨvʲɛ] = dychtivo
 3 AV błogo {błogo} [ˈbwɔɡɔ] = slastne
+2 N hojność {hojność} [ˈxɔjnɔɕtɕ], ż, - = štedrosť
+3 N szczodrość {szczodrość} [ˈʂtʂɔdrɔɕtɕ], ż, - = štedrosť
 
 # character-traits
 1 N charakter {charakter} [xaˈraktɛr], m, charaktery = charakter
@@ -419,6 +421,10 @@
 3 AV łaskawie {łaskawie} [waˈskavʲɛ] = blahosklonne
 3 AV sumiennie {sumiennie} [suˈmʲɛnːɲɛ] = svedomito
 3 AV ironicznie {ironicznie} [irɔˈɲitʂɲɛ] = ironicky
+2 AN niemoralny {nie|moralny} [ɲɛmɔˈralnɨ] = nemorálny
+3 AN pobłażliwy {pobłażliwy} [pɔbwaʐˈlivɨ] = zhovievavý
+3 AN wyrozumiały {wy|rozumiały} [vɨrɔzuˈmʲawɨ] = zhovievavý
+2 V odzwyczajać się {od|zwyczajać się} [ɔdzvɨˈtʂajatɕ ɕɛ], odzwyczaić się (od + D) = odvyknúť si
 
 # character
 2 AN tchórzliwy {tchórzliwy} [txuʐˈlivɨ] = zbabelý

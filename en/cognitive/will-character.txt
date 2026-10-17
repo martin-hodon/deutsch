@@ -118,6 +118,7 @@
 2 N go {go} [ɡəʊ], goes = pokus
 2 N try {try} [traɪ], tries = pokus
 3 V attempt {attempt} [əˈtempt] (to do) = skúsiť
+2 N generosity {generos|ity} [ˌdʒenəˈrɒsɪtɪ], - = štedrosť
 # character-traits
 1 N character {character} [ˈkærɪktə], characters = charakter
 2 AN characteristic {characteristic} [kærɪktəˈrɪstɪk] (of) = charakteristický
@@ -285,6 +286,10 @@
 3 AV industriously {industrious|ly} [ɪnˈdʌstrɪəsli] = usilovne
 2 AV casually {casual|ly} [ˈkæʒuəli] = nenútene
 2 AV shyly {shy|ly} [ˈʃaɪli] = nesmelo
+2 AN immoral {im|moral} [ɪˈmɒrəl] = nemorálny
+3 AN lenient {lenient} [ˈliːnɪənt] = zhovievavý
+3 AN indulgent {indulgent} [ɪnˈdʌldʒənt] = zhovievavý
+3 V get out of the habit {get out of the habit} [ɡet aʊt əv ðə ˈhæbɪt], got out of the habit/got out of the habit (of -ing) = odvyknúť si
 # character
 1 AN cowardly {cowardly} [ˈkaʊədlɪ] = zbabelý
 2 AN loyal {loyal} [ˈlɔɪəl] = lojálny

@@ -92,6 +92,9 @@
 2 N el periodo de vacaciones de otoño {periodo de vacaciones de otoño} [peˈɾjoðo de bakaˈθjones de oˈtoɲo], periodos de vacaciones de otoño = jesenné prázdniny
 2 N el periodo de vacaciones de Semana Santa {periodo de vacaciones de Semana Santa} [peˈɾjoðo de bakaˈθjones de seˈmana ˈsanta], periodos de vacaciones de Semana Santa = veľkonočné prázdniny
 2 N el cambio de hora {cambio de hora} [ˈkambjo de ˈoɾa], cambios de hora = zmena času
+2 AN a largo plazo {a largo plazo} [a ˈlaɾɣo ˈplaθo] = dlhodobý
+1 AV para siempre {para siempre} [ˈpaɾa ˈsjempɾe] = natrvalo
+2 AV de forma permanente {de forma permanente} [de ˈfoɾma peɾmaˈnente] = natrvalo
 
 # day-parts-and-week
 1 N la mañana {mañana} [maˈɲana], mañanas = ráno
@@ -128,6 +131,8 @@
 2 N la temporada {temporada} [tempoˈɾaða], temporadas = sezóna
 2 AN estacional {estacional} [estaθjoˈnal] = sezónny
 3 N la hora matinal {hora matinal} [ˈoɾa matiˈnal], horas matinales = ranná hodina
+1 AV por la mañana {por la mañana} [poɾ la maˈɲana] = predpoludním
+1 AV a medianoche {a medianoche} [a meðjaˈnotʃe] = o polnoci
 
 # relative-time
 1 AV luego {luego} [ˈlweɣo] = potom
@@ -271,6 +276,9 @@
 2 N el mes anterior {mes anterior} [mes anteˈɾjoɾ], meses anteriores = predchádzajúci mesiac
 3 N la vigencia {vigencia} [biˈxenθja], vigencias = doba platnosti
 3 N la brevedad {brevedad} [bɾeβeˈðað], - = krátkosť
+2 N el día siguiente {día siguiente} [ˈdia siˈɣjente], días siguientes = nasledujúci deň
+2 AV como pronto {como pronto} [ˈkomo ˈpɾonto] = najskôr
+2 AV excepcionalmente {excepcional|mente} [ekθepθjonalˈmente] = výnimočne
 
 # months
 2 N enero (m) {enero} [eˈneɾo], - = január

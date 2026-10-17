@@ -736,6 +736,24 @@
 2 AN 首席 {首席} [shǒuxí] = hlavný
 2 AN 异常 {异常} [yìcháng] = nezvyčajný
 2 AV 足以 {足以} [zúyǐ] = dostatočne
+2 AN 次要 {次要} [cìyào] = vedľajší
+2 AN 下级 {下级} [xiàjí] = podriadený
+3 AN 隐含 {隐含} [yǐnhán] = implicitný
+3 AN 含蓄 {含蓄} [hánxù] = implicitný
+2 AN 上升 {上升} [shàngshēng] = stúpajúci
+3 AN 递增 {递增} [dìzēng] = stúpajúci
+3 AN 滑稽 {滑稽} [huájī] = komický
+2 AN 可笑 {可笑} [kěxiào] = komický
+3 AN 顺从 {顺从} [shùncóng] = submisívny
+3 AN 屈从 {屈从} [qūcóng] = submisívny
+2 AN 不实用 {不实用} [bù shíyòng] = nepraktický
+1 AN 不方便 {不方便} [bù fāngbiàn] = nepraktický
+2 AN 不开放 {不开放} [bù kāifàng] = neprístupný
+3 AN 难以接近 {难以接近} [nányǐ jiējìn] = neprístupný
+2 N 不完美 {不完美} [bù wánměi], - = nedokonalosť
+2 N 缺陷 {缺陷} [quēxiàn], 个 = nedokonalosť
+2 N 复杂 {复杂} [fùzá], - = zložitosť
+3 N 复杂性 {复杂性} [fùzáxìng], - = zložitosť
 
 # state-properties
 1 AN 新 {新} [xīn] = nový
@@ -1341,6 +1359,19 @@
 2 AN 精美 {精美} [jīngměi] = nádherný
 2 AN 踏实 {踏实} [tāshi] = spoľahlivý
 2 V 增进 {增进} [zēngjìn] = posilniť
+1 AN 少数 {少数} [shǎoshù] = menšinový
+1 AN 不可靠 {不可靠} [bù kěkào] = nespoľahlivý
+2 AN 不存在 {不存在} [bù cúnzài] = neexistujúci
+2 N 柔软 {柔软} [róuruǎn], - = mäkkosť
+3 N 软度 {软度} [ruǎndù], - = mäkkosť
+3 N 缓慢 {缓慢} [huǎnmàn], - = pomalosť
+3 N 慢速 {慢速} [mànsù], - = pomalosť
+2 N 不稳定 {不稳定} [bù wěndìng], - = nestabilita
+3 N 动荡 {动荡} [dòngdàng], - = nestabilita
+1 AV 尽量少 {尽量少} [jǐnliàng shǎo] = čo najmenej
+2 AV 尽可能少 {尽可能少} [jǐn kěnéng shǎo] = čo najmenej
+2 V 增强 {增强} [zēngqiáng] = silnieť
+1 V 变强 {变强} [biànqiáng] = silnieť
 
 # corpus-adjectives
 3 AN 周密 {周密} [zhōumì] = premyslený
@@ -1572,3 +1603,4 @@
 2 AN 较高 {较高} [jiàogāo] = zvýšený
 2 AN 升高 {升高} [shēnggāo] = zvýšený
 2 AV 不料 {不料} [bùliào] = neuveriteľne
+2 AN 较低 {较低} [jiàodī] = znížený

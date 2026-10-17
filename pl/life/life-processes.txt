@@ -75,6 +75,10 @@
 3 AV bezwładnie {bezwładnie} [bɛzˈvwadɲɛ] = bezvládne
 3 AV staromodnie {staromodnie} [starɔˈmɔdɲɛ] = staromódne
 2 AV młodo {młodo} [ˈmwɔdɔ] = mlado
+2 N narodziny {narodziny} [naˈrɔdʑɨnɨ], lm, narodziny = narodenie
+2 N urodzenie {urodzenie} [urɔˈdzɛɲɛ], n, urodzenia = narodenie
+3 V młodnieć {młodnieć} [ˈmwɔdɲɛtɕ], odmłodnieć = mladnúť
+2 V odmładzać się {od|mładzać się} [ɔdˈmwadzatɕ ɕɛ], odmłodzić się = mladnúť
 
 # body-functions
 1 V oddychać {od|dychać} [ɔdˈdɨxatɕ], odetchnąć = dýchať
@@ -138,6 +142,10 @@
 3 AN silny jak niedźwiedź {silny jak niedźwiedź} [ˈɕilnɨ jak ˈɲɛdʑvʲɛtɕ] = silný ako medveď
 3 AV ospale {ospale} [ɔˈspalɛ] = ospalo
 3 AV niestrudzenie {niestrudzenie} [ɲɛstruˈdzɛɲɛ] = neúnavne
+2 N czuwanie {czuwanie} [tʂuˈvaɲɛ], n, - = bdenie
+2 V czuwać {czuwać} [ˈtʂuvatɕ], - = bdieť
+1 V nie spać {nie spać} [ɲɛ spatɕ], - = bdieť
+2 V usypiać {usypiać} [uˈsɨpʲatɕ], uśpić (B) = uspať
 
 # nourishment
 1 V jeść {jeść} [jɛɕtɕ], zjeść = jesť
@@ -168,6 +176,8 @@
 3 V oblizywać {ob|lizywać} [ɔbliˈzɨvatɕ], oblizać = olízať
 3 V ogryzać {o|gryzać} [ɔˈɡrɨzatɕ], ogryźć = hlodať
 3 V chrupać {chrupać} [ˈxrupatɕ], schrupać = chrúmať
+3 N sytość {sytość} [ˈsɨtɔɕtɕ], ż, - = sýtosť
+2 V żreć {żreć} [ʐrɛtɕ], zeżreć (B) = žrať
 
 # senses-instinct
 2 N instynkt {instynkt} [ˈinstɨŋkt], m, instynkty = inštinkt

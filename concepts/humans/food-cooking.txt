@@ -3,8 +3,9 @@ N jedlo
 N obed
 N večera
 AN jedlý
+AN nejedlý
 N hostina
-N pokrm
+N pokrm : of jedlo @ formálne
 N hlavné jedlo
 N predjedlo
 N dezert
@@ -129,6 +130,7 @@ N klobása s kari omáčkou
 N šunka
 N slanina
 V schudnúť
+V pribrať
 N steak
 N rezeň
 N kreveta
@@ -385,6 +387,7 @@ N pohostinstvo
 N chuť (na jazyku)
 AN nechutný : adverb nechutne
 AN vkusný : adverb vkusne
+AN nevkusný
 AN sladký : adverb sladko
 AN kyslý
 N kyselina
@@ -394,6 +397,7 @@ AN čerstvý : adverb čerstvo
 N sviežosť
 V osviežiť
 AN surový
+AN varený
 AN chutný : adverb chutne
 N maškrta
 AN šťavnatý

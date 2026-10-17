@@ -210,6 +210,8 @@
 2 N 绝大多数 {绝大多数} [juédàduōshù], - = väčšina
 2 AN 种种 {种种} [zhǒngzhǒng] = rôzny
 2 P 诸位 {诸位} [zhūwèi] = všetci
+3 N 最小值 {最小值} [zuìxiǎozhí], 个 = minimálna hodnota
+2 V 解开 {解开} [jiěkāi] = rozviazať
 
 # counting-measuring
 1 N 数字 {数字} [shùzì], 个 = číslo (matematické)
@@ -274,6 +276,7 @@
 1 N 人数 {人数} [rénshù], - = počet
 2 V 测定 {测定} [cèdìng] = merať
 2 N 次数 {次数} [cìshù], - = počet
+2 N 分母 {分母} [fēnmǔ], 个 = menovateľ
 
 # more
 3 N 万亿 {万亿} [wànyì], - = bilión

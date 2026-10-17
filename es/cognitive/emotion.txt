@@ -269,6 +269,10 @@
 3 AV tediosamente {tediosamente} [teðjosaˈmente] = nudne
 2 AV gustosamente {gustosamente} [ɡustosaˈmente] = rado
 3 AV con pánico {con·pánico} [kon ˈpaniko] = panicky
+2 N la desesperanza {des|esperanza} [desespeˈɾanθa], - = beznádej
+2 N la desesperación {des|esperación} [desespeɾaˈθjon], desesperaciones = beznádej
+2 PHR en el mejor de los casos {en el mejor de los casos} [en el meˈxoɾ de los ˈkasos] = v najlepšom prípade
+1 V aburrir {aburrir} [aβuˈriɾ] = nudiť
 
 # love-hate
 1 V amar {amar} [aˈmaɾ] = ľúbiť
@@ -378,6 +382,9 @@
 3 N la desfachatez {desfachatez} [desfatʃaˈteθ], desfachateces = opovážlivosť
 2 N la confesión {confesión} [komfeˈsjon], confesiones = vyznanie
 2 N la declaración {declaración} [deklaɾaˈθjon], declaraciones = vyznanie
+3 N la ingratitud {in|gratitud} [iŋɡɾatiˈtuð], - = nevďačnosť
+2 N la reserva {reserva} [reˈseɾβa], reservas = uzavretosť
+3 N el retraimiento {retraimiento} [retɾaiˈmjento], retraimientos = uzavretosť
 
 # expressions
 1 V reírse {reírse} [reˈiɾse], e>i = smiať sa
@@ -422,6 +429,9 @@
 3 V ahuyentar {ahuyentar} [aujenˈtaɾ] = odstrašiť
 2 AN cálido {cálido} [ˈkaliðo], cálida = vrúcny
 2 AN caluroso {caluroso} [kaluˈɾoso], calurosa = vrúcny
+2 N el llanto {llanto} [ˈʎanto], llantos = plač
+3 N el lloro {lloro} [ˈʎoɾo], lloros = plač
+2 V fruncir el ceño {fruncir el ceño} [fɾunˈθiɾ el ˈθeɲo] = mračiť sa
 
 # feelings
 3 V regodearse {regodearse} [reɣoðeˈaɾse] = hýriť

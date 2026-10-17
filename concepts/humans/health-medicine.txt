@@ -57,6 +57,7 @@ N vyrážka
 N symptóm
 AN príznačný
 AN slepý
+AN vidiaci
 AN chromý
 N ochrnutie
 V paralyzovať
@@ -72,6 +73,7 @@ V zvracať
 N mdloba
 AN v mdlobách
 PHR omdlieť
+PHR prebrať sa
 AN v bezvedomí
 V trpieť
 V utrpieť
@@ -197,7 +199,7 @@ AN terapeutický
 N lekár
 N lekárka
 N zubár
-N veterinár
+N veterinár : of lekár @ zvieratá
 N obvodný lekár
 N lekár záchrannej služby
 N chirurg

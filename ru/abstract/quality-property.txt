@@ -699,6 +699,19 @@
 2 AV безнадёжно {безнадёжно} [bʲɪznɐˈdʲoʐnə] = beznádejne
 3 AV поспешно {поспешно} [pɐˈspʲeʂnə] = ukvapene
 3 AV опрометчиво {опрометчиво} [ɐprɐˈmʲetɕɪvə] = ukvapene
+2 AN второстепенный {второ|степенный} [ftərəstʲɪˈpʲenːɨj] = vedľajší
+2 AN подчинённый {под|чинённый} [pətːɕɪˈnʲonːɨj] = podriadený
+3 AN имплицитный {имплицитный} [ɪmplʲɪˈtsitnɨj] = implicitný
+2 AN растущий {растущий} [rɐˈstuɕːɪj] = stúpajúci
+3 AN повышающийся {повышающийся} [pəvɨˈʂajuɕːɪjsʲə] = stúpajúci
+2 AN комичный {комичный} [kɐˈmʲitɕnɨj] = komický
+3 AN комический {комический} [kɐˈmʲitɕɪskʲɪj] = komický
+2 AN покорный {покорный} [pɐˈkornɨj] = submisívny
+2 AN непрактичный {не|практичный} [nʲɪprɐkˈtʲitɕnɨj] = nepraktický
+1 AN неудобный {не|удобный} [nʲɪuˈdobnɨj] = nepraktický
+2 AN недоступный {не|доступный} [nʲɪdɐˈstupnɨj] = neprístupný
+3 N несовершенство {не|совершенство} [nʲɪsəvʲɪrˈʂɛnstvə], с, несовершенства = nedokonalosť
+2 N сложность {сложность} [ˈsloʐnəstʲ], ж, сложности = zložitosť
 
 # state-properties
 1 AN новый {новый} [ˈnovɨj] = nový
@@ -1305,6 +1318,15 @@
 3 AV человечно {человечно} [tɕɪlɐˈvʲetɕnə] = humánne
 3 AV неторопливо {неторопливо} [nʲɪtərɐˈplʲivə] = nenáhlivo
 3 AV неспешно {неспешно} [nʲɪˈspʲeʂnə] = nenáhlivo
+3 AN миноритарный {миноритарный} [mʲɪnərʲɪˈtarnɨj] = menšinový
+2 AN ненадёжный {не|надёжный} [nʲɪnɐˈdʲoʐnɨj] = nespoľahlivý
+2 AN несуществующий {не|существующий} [nʲɪsuɕːɪˈstvujuɕːɪj] = neexistujúci
+2 N мягкость {мягкость} [ˈmʲaxkəstʲ], ж, - = mäkkosť
+3 N медлительность {медлительность} [mʲɪdˈlʲitʲɪlʲnəstʲ], ж, - = pomalosť
+2 N нестабильность {не|стабильность} [nʲɪstɐˈbʲilʲnəstʲ], ж, - = nestabilita
+2 AV как можно меньше {как можно меньше} [kak ˈmoʐnə ˈmʲenʲʂɨ] = čo najmenej
+2 V крепнуть {крепнуть} [ˈkrʲepnutʲ], окрепнуть = silnieť
+2 V усиливаться {усиливаться} [uˈsʲilʲɪvətsə], усилиться = silnieť
 
 # corpus-adjectives
 2 AN продуманный {продуманный} [prɐˈdumənːɨj] = premyslený
@@ -1536,3 +1558,4 @@
 2 AV невероятно {невероятно} [nʲɪvʲɪrɐˈjatnə] = neuveriteľne
 3 AV неимоверно {неимоверно} [nʲɪɪmɐˈvʲernə] = neuveriteľne
 2 AN повышенный {повышенный} [pɐˈvɨʂɨnːɨj] = zvýšený
+3 AN пониженный {по|ниженный} [pɐˈnʲiʐɨnːɨj] = znížený

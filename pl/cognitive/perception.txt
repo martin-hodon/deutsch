@@ -97,6 +97,7 @@
 3 AV zauważalnie {zauważalnie} [zauvaˈʐalɲɛ] = badateľne
 2 AV pozornie {pozornie} [pɔˈzɔrɲɛ] = zdanlivo
 3 AV żywiołowo {żywiołowo} [ʐɨvʲɔˈwɔvɔ] = bujaro
+2 N ślepota {ślepota} [ɕlɛˈpɔta], ż, - = slepota
 
 # hearing
 1 V słyszeć {słyszeć} [ˈswɨʂɛtɕ], usłyszeć = počuť
@@ -116,6 +117,7 @@
 3 V szumieć {szumieć} [ˈʂumʲɛtɕ], - = šumieť
 3 V szeleścić {szeleścić} [ʂɛˈlɛɕtɕitɕ], zaszeleścić = šumieť
 3 AV słyszalnie {słyszalnie} [swɨˈʂalɲɛ] = počuteľne
+2 N głuchota {głuchota} [ɡwuˈxɔta], ż, - = hluchota
 
 # other-senses
 2 V wąchać {wąchać} [ˈvɔ̃xatɕ], powąchać = čuchať
@@ -170,6 +172,9 @@
 3 AV wyczuwalnie {wyczuwalnie} [vɨtʂuˈvalɲɛ] = vnímateľne
 3 AV wrażliwie {wrażliwie} [vraʐˈlivʲɛ] = citlivo
 2 AV delikatnie {delikatnie} [dɛliˈkatɲɛ] = jemnocitne
+2 AN słyszący {słyszący} [swɨˈʂɔntsɨ] = počujúci
+2 N smród {smród} [smrut], m, smrody = zápach
+3 N odór {odór} [ˈɔdur], m, odory = zápach
 
 # colors
 1 N kolor {kolor} [ˈkɔlɔr], m, kolory = farba
@@ -219,3 +224,4 @@
 3 AN turkusowy {turkusowy} [turkuˈsɔvɨ] = tyrkysový
 2 AN beżowy {beżowy} [bɛˈʐɔvɨ] = béžový
 2 AV kolorowo {kolorowo} [kɔlɔˈrɔvɔ] = pestro
+2 AN czarno-biały {czarno-biały} [tʂarnɔˈbʲawɨ] = čiernobiely

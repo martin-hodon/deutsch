@@ -1,0 +1,2011 @@
+# OPPOSITES (tools/concepts.py): two concepts that are opposites, one unordered pair per line, `POS a <> b` [` -- note`] --
+# the second side names its part of speech only when it differs (PAR áno <> AV nie). Every ID is a concept of the index,
+# written as there (with its gloss in parentheses). The
+# adjectives' pairs carry over to their declared adverbs (dobrý <> zlý: dobre <> zle). The dictionaries' `opposite` column
+# lists each concept's opposites; the dictionary page shows their words under "opposites".
+
+# AN
+AN hlučný <> tichý (nehlučný)
+AN chudý (o postave) <> tučný
+AN chudý (o postave) <> bucľatý
+AN chudý (o postave) <> obézny
+AN zvislý <> vodorovný
+AN plešatý <> vlasatý
+AN príjemný na počúvanie <> nepríjemný na počúvanie
+AN začiatočnícky <> pokročilý
+AN rozvinutý <> zaostalý
+AN ľudový <> úradný
+AN pevný <> vratký
+AN pevný <> uvoľnený (nepevný)
+AN rušný <> tichý (pokojný)
+AN rušný <> pustý
+AN pirátsky <> legálny
+AN vyšší <> nižší
+AN priaznivý <> nepriaznivý
+AN krátkozraký <> prezieravý
+AN krátkozraký <> ďalekozraký
+AN jednorazový <> opakujúci sa
+AN jednorazový <> viacnásobný
+AN veľký <> malý
+AN veľký <> maličký
+AN obrovský <> maličký
+AN obrovský <> malý
+AN obrovský <> drobný
+AN gigantický <> maličký
+AN enormný <> nepatrný
+AN dlhý <> krátky
+AN pomalý <> rýchly
+AN pomalý <> svižný
+AN pomalý <> rapídny
+AN zdĺhavý <> krátky
+AN doživotný <> dočasný
+AN široký <> úzky
+AN hlboký <> plytký
+AN hrubý (hrúbka) <> tenký
+AN vysoký <> nízky
+AN ťažký <> ľahký
+AN štíhly <> bucľatý
+AN štíhly <> zavalitý
+AN štíhly <> tučný
+AN priestranný <> tesný (priestorovo)
+AN priestranný <> stiesnený
+AN tesný (sotva postačujúci) <> drvivý
+AN dobrý <> zlý
+AN výborný <> mizerný
+AN výborný <> strašný
+AN úžasný <> hrozný
+AN skvelý <> hrozný
+AN dokonalý <> chybný
+AN nesprávny <> správny
+AN sfalšovaný <> nefalšovaný
+AN sfalšovaný <> pravý
+AN sfalšovaný <> autentický
+AN sfalšovaný <> originálny
+AN dôležitý <> nedôležitý
+AN dôležitý <> bezvýznamný
+AN hlavný <> vedľajší
+AN významný <> nevýznamný
+AN významný <> bezvýznamný
+AN potrebný <> zbytočný
+AN užitočný <> neužitočný
+AN užitočný <> zbytočný
+AN cenný <> bezcenný
+AN kvalitný <> menejcenný
+AN drahocenný <> bezcenný
+AN výhodný <> nevýhodný
+AN normálny <> čudný
+AN normálny <> bizarný
+AN obyčajný <> nezvyčajný
+AN obyčajný <> mimoriadny
+AN obyčajný <> čudný
+AN typický <> netypický
+AN častý <> zriedkavý
+AN častý <> ojedinelý
+AN jednoduchý <> zložitý
+AN jednoduchý <> komplikovaný
+AN jednoduchý <> komplexný
+AN jednoduchý <> vysoko zložitý
+AN praktický <> teoretický
+AN praktický <> nepraktický
+AN vhodný <> nevhodný
+AN nebezpečný <> bezpečný
+AN nebezpečný <> neškodný
+AN škodlivý <> neškodný
+AN škodlivý <> blahodarný
+AN vynikajúci <> mizerný
+AN nadradený <> podriadený
+AN primeraný <> neprimeraný
+AN primeraný <> neúmerný
+AN primeraný <> prehnaný
+AN primeraný <> premrštený
+AN dostatočný <> nedostatočný
+AN podstatný <> nepodstatný
+AN závažný <> triviálny
+AN efektívny <> neefektívny
+AN účinný <> neúčinný
+AN zreteľný <> nejasný
+AN zreteľný <> rozmazaný
+AN pozitívny <> negatívny
+AN úplný (nič nechýba) <> neúplný
+AN úplný (nič nechýba) <> medzerovitý
+AN oficiálny <> neoficiálny
+AN relatívny <> absolútny
+AN globálny <> miestny
+AN súkromný <> verejný
+AN bývalý <> budúci
+AN prudký <> postupný
+AN značný <> nepatrný
+AN regionálny <> nadregionálny
+AN regionálny <> celoštátny
+AN miestny <> celoštátny
+AN všeobecný <> špecifický
+AN všeobecný <> konkrétny
+AN všeobecný <> špeciálny
+AN všeobecný <> osobitný
+AN kontroverzný <> nesporný
+AN prístupný <> neprístupný
+AN predbežný <> definitívny
+AN predbežný <> finálny
+AN predčasný <> oneskorený
+AN hustý <> riedky
+AN atraktívny <> neatraktívny
+AN fér <> nespravodlivý
+AN tragický <> komický
+AN príjemný <> nepríjemný
+AN potešiteľný <> poľutovaniahodný
+AN náročný <> ľahký
+AN náročný <> jednoduchý
+AN bežný <> nezvyčajný
+AN bežný <> mimoriadny
+AN bežný <> zriedkavý
+AN umiernený <> radikálny
+AN umiernený <> extrémny
+AN umiernený <> prehnaný
+AN umiernený <> excesívny
+AN explicitný <> implicitný
+AN nedbanlivý <> svedomitý
+AN nedbanlivý <> opatrný
+AN klesajúci <> stúpajúci
+AN primárny <> sekundárny
+AN populárny <> neobľúbený
+AN homosexuálny <> heterosexuálny
+AN kolektívny <> individuálny
+AN komerčný <> verejnoprospešný
+AN autonómny <> závislý (od niečoho)
+AN výrazný <> nenápadný
+AN turbulentný <> pokojný
+AN konvenčný <> nekonvenčný
+AN analógový <> digitálny
+AN fascinujúci <> nudný
+AN pekný <> škaredý
+AN chytrý <> hlúpy
+AN dominantný <> submisívny
+AN seriózny <> nevážny
+AN pútavý <> nudný
+AN špičkový <> podpriemerný
+AN nadmerný <> nedostatočný
+AN nevyhnutný <> vyhnuteľný
+AN neobmedzený <> obmedzený
+AN stály <> nestály
+AN stály <> premenlivý
+AN stály <> vrtkavý
+AN stály <> dočasný
+AN celoročný <> sezónny
+AN bez väčších následkov <> s ťažkými následkmi
+AN uspokojivý <> neuspokojivý
+AN syntetický <> prírodný
+AN subjektívny <> objektívny
+AN vertikálny <> vodorovný
+AN hektický <> pokojný
+AN hektický <> nenáhlivý
+AN nadriadený <> podriadený
+AN statný <> chabý
+AN krehký <> robustný
+AN krehký <> odolný
+AN krehký <> pevný
+AN stuhnutý <> ohybný
+AN prepychový <> skromný
+AN znesiteľný <> neznesiteľný
+AN znesiteľný <> neúnosný
+AN okrajový <> centrálny
+AN sebestačný <> závislý (od niečoho)
+AN beznádejný <> nádejný
+AN beznádejný <> plný nádeje
+AN beznádejný <> sľubný
+AN odhalený <> skrytý
+AN ukvapený <> rozvážny
+AN ukvapený <> obozretný
+AN ukvapený <> premyslený
+AN zbehlý <> neskúsený
+AN podpriemerný <> nadpriemerný
+AN nový <> starý
+AN nový <> použitý
+AN plný <> prázdny
+AN plný <> dutý
+AN úplný (celkový) <> čiastočný
+AN otvorený <> zatvorený
+AN otvorený <> uzavretý
+AN zrejmý <> nejasný
+AN čistý (bez špiny) <> špinavý
+AN suchý <> mokrý
+AN suchý <> vlhký
+AN suchý <> šťavnatý
+AN suchý <> daždivý
+AN silný <> slabý
+AN silný <> chabý
+AN mocný <> bezmocný
+AN hlasný <> tichý (nehlučný)
+AN hlasný <> bezhlasný
+AN mäkký <> tvrdý
+AN mäkký <> chrumkavý
+AN zaneprázdnený <> voľný
+AN celý <> rozbitý
+AN celý <> polovičný
+AN stabilný <> nestabilný
+AN stabilný <> vratký
+AN čistý (nezmiešaný) <> zmiešaný
+AN krásny <> škaredý
+AN krásny <> ohavný
+AN pravdivý <> klamlivý
+AN pravdivý <> zavádzajúci
+AN pravdepodobný <> nepravdepodobný
+AN možný <> nemožný
+AN istý <> neistý
+AN jasný <> nejasný
+AN presný <> nepresný
+AN umelý <> prírodný
+AN umelý <> prirodzený
+AN spoľahlivý <> nespoľahlivý
+AN strnulý <> ohybný
+AN strnulý <> pružný
+AN strnulý <> flexibilný
+AN strnulý <> nenútený
+AN poriadny <> neporiadny
+AN upratný <> neporiadny
+AN hrubý (nehladký) <> hladký
+AN hrubý (nehladký) <> jemný
+AN pravidelný <> nepravidelný
+AN konkrétny <> abstraktný
+AN existujúci <> neexistujúci
+AN terajší <> vtedajší
+AN terajší <> bývalý
+AN totálny <> čiastočný
+AN obvyklý <> nezvyčajný
+AN šikovný <> nemotorný
+AN zaujímavý <> nezaujímavý
+AN zaujímavý <> nudný
+AN priamy <> nepriamy
+AN priamy <> krivý
+AN interný <> externý
+AN reálny <> fiktívny
+AN reálny <> imaginárny
+AN reálny <> virtuálny
+AN reálny <> nominálny
+AN riadny <> mimoriadny
+AN akútny <> chronický
+AN relevantný <> irelevantný
+AN nápadný <> nenápadný
+AN samostatný <> závislý (od niečoho)
+AN samostatný <> odkázaný
+AN predchádzajúci <> nasledujúci
+AN predchádzajúci <> nadchádzajúci
+AN fyzický <> mentálny
+AN fyzický <> psychický
+AN fyzický <> duševný
+AN ofenzívny <> defenzívny
+AN pochopiteľný <> nepochopiteľný
+AN dynamický <> statický
+AN tunajší <> tamojší
+AN plošný <> bodový
+AN plošný <> selektívny
+AN väčšinový <> menšinový
+AN anonymný <> menovitý
+AN prominentný <> neznámy
+AN profesionálny <> amatérsky
+AN mobilný <> stacionárny
+AN predvídateľný <> nepredvídateľný
+AN predvídateľný <> nevyspytateľný
+AN lesklý <> matný
+AN neporušený <> rozbitý
+AN neporušený <> pokazený
+AN náhly <> postupný
+AN provizórny <> trvalý
+AN provizórny <> definitívny
+AN skrytý <> viditeľný
+AN skrytý <> neskrývaný
+AN skrytý <> zrejmý
+AN preplnený <> prázdny
+AN esenciálny <> nepodstatný
+AN doslovný <> symbolický
+AN ručný <> strojový
+AN ručný <> automatický
+AN ručný <> mechanický
+AN neotrasiteľný <> vratký
+AN neotrasiteľný <> váhavý
+AN šetrný k životnému prostrediu <> škodlivý pre životné prostredie
+AN bezmedzný <> obmedzený
+AN okázalý <> nenápadný
+AN okázalý <> decentný
+AN okázalý <> skromný
+AN povzbudzujúci <> odstrašujúci
+AN povzbudzujúci <> skľučujúci
+AN slobodný (bez partnera) <> ženatý
+AN plnoletý <> maloletý
+AN stojí za to <> nestojí za to
+AN zavrhnutiahodný <> chvályhodný
+AN objemný <> kompaktný
+AN nešportový <> športový
+AN nepoužiteľný <> použiteľný
+AN nadzemný <> podzemný
+AN honosný <> skromný
+AN monotónny <> rozmanitý
+AN monotónny <> pestrý
+AN monotónny <> mnohotvárny
+AN filigránsky <> masívny
+AN vypočítateľný <> nevyspytateľný
+AN vypočítateľný <> nepredvídateľný
+AN vzdorovitý <> poslušný
+AN metodický <> chaotický
+AN kričivý <> decentný
+AN kričivý <> nenápadný
+AN humánny <> nehumánny
+AN humánny <> brutálny
+AN nenáhlivý <> súrny
+AN upršaný <> slnečný
+AN hrbolatý <> hladký
+AN hrbolatý <> rovný
+AN priebežný <> záverečný
+AN cenovo dostupný <> drahý
+AN univerzálny <> špecifický
+AN nezáväzný <> záväzný
+AN špekulatívny <> preukázateľný
+AN povrchný <> hlbokomyseľný
+AN povrchný <> dôkladný
+AN napnutý <> uvoľnený (nepevný)
+AN depresívny <> eufórický
+AN cielený <> náhodný
+AN progresívny <> konzervatívny
+AN zmierlivý <> nekompromisný
+AN zmierlivý <> bojovný
+AN sporný <> nesporný
+AN banálny <> hlbokomyseľný
+AN rozhádaný <> zajedno
+AN rozhádaný <> súdržný
+AN lákavý <> odstrašujúci
+AN lákavý <> odporný
+AN severozápadný <> juhovýchodný
+AN holý <> chlpatý
+AN obojstranný <> jednostranný
+AN tesný (nepriepustný) <> netesný
+AN tesný (nepriepustný) <> deravý
+AN zvýšený <> znížený
+AN jednotný <> nejednotný
+AN posledný <> NUM prvý
+AN veľa <> málo
+AN polovičatý <> dôkladný
+AN celkový <> čiastočný
+AN priemerný <> nadpriemerný
+AN priemerný <> podpriemerný
+AN kvantitatívny <> kvalitatívny
+AN maximálny <> minimálny
+AN prítomný (na mieste) <> neprítomný
+AN podmienený <> bezpodmienečný
+AN platný <> neplatný
+AN nezmenený <> meniaci sa
+AN definitívny <> dočasný
+AN nekonečný <> konečný
+AN pokrokový <> konzervatívny
+AN obnoviteľný <> fosílny
+AN určitý <> neurčitý
+AN počiatočný <> finálny
+AN počiatočný <> záverečný
+AN rovnaký <> iný
+AN rovnaký <> nerovnaký
+AN rovnaký <> rôzny
+AN rovnaký <> rozličný
+AN ľahostajný <> zainteresovaný
+AN ľahostajný <> horlivý
+AN ľahostajný <> nadšený
+AN ľahostajný <> zvedavý
+AN ľahostajný <> starostlivý
+AN systematický <> chaotický
+AN záväzný <> voliteľný
+AN neporovnateľný <> porovnateľný
+AN zodpovedajúci <> protichodný
+AN vecný <> emocionálny
+AN funkčný <> pokazený
+AN odolný <> náchylný
+AN nepostrádateľný <> zbytočný
+AN zúčastnený <> nezúčastnený
+AN prijateľný <> neprípustný
+AN ziskový <> stratový
+AN stratený <> nájdený
+AN aktívny <> pasívny
+AN obratný <> nemotorný
+AN formálny <> neformálny
+AN formálny <> nenútený
+AN hranatý <> okrúhly
+AN hranatý <> guľatý
+AN rovný <> krivý
+AN rovný <> šikmý
+AN rovný <> ohnutý
+AN rovný <> vlnitý
+AN ostrý <> rozmazaný
+AN ostrý <> tupý
+AN ostrý <> neostrý
+AN špicatý <> tupý
+AN dutý <> masívny
+AN drsný <> hladký
+AN drsný <> jemný
+AN drsný <> nežný
+AN plochý <> vypuklý
+AN plochý <> hornatý
+AN plochý <> kopcovitý
+AN plochý <> svahovitý
+AN nerovný <> hladký
+AN nerovný <> rovný
+AN symetrický <> asymetrický
+AN vydutý <> vypuklý
+AN trojrozmerný <> dvojrozmerný
+AN bočný <> čelný
+AN všestranný <> jednostranný
+AN centrálny <> decentralizovaný
+AN vnútorný <> vonkajší
+AN vzdialený <> blízky
+AN ďaleký <> blízky
+AN severný <> južný
+AN východný <> západný
+AN oddelený <> spoločný
+AN odľahlý <> blízky
+AN kolmý <> šikmý
+AN severovýchodný <> juhozápadný
+AN pohyblivý <> statický
+AN pretrvávajúci <> dočasný
+AN dosiahnuteľný <> nedosiahnuteľný
+AN priechodný <> neprechodný
+AN včasný <> oneskorený
+AN včasný <> neskorý
+AN krátkodobý <> dlhodobý
+AN denný <> nočný
+AN na dobu neurčitú <> dočasný
+AN skorý <> neskorý
+AN raný <> neskorý
+AN dochvíľny <> oneskorený
+AN minulý <> budúci
+AN súčasný <> bývalý
+AN súčasný <> minulý
+AN súčasný <> budúci
+AN moderný <> staromódny
+AN moderný <> tradičný
+AN moderný <> klasický
+AN moderný <> antický
+AN večný <> dočasný
+AN trvalý <> dočasný
+AN konštantný <> premenlivý
+AN rutinovaný <> neskúsený
+AN rutinný <> mimoriadny
+AN promptný <> oneskorený
+AN každodenný <> slávnostný
+AN každodenný <> sviatočný
+AN bezcitný <> citlivý
+AN bezcitný <> jemnocitný
+AN bezcitný <> empatický
+AN šťastný <> nešťastný
+AN šťastný <> smutný
+AN potešený <> sklamaný
+AN radostný <> smutný
+AN veselý <> smutný
+AN veselý <> mrzutý
+AN veselý <> skľúčený
+AN veselý <> pochmúrny
+AN veselý <> melancholický
+AN bojazlivý <> nebojácny
+AN bojazlivý <> odvážny
+AN bojazlivý <> smelý
+AN pokojný <> nepokojný
+AN pokojný <> nervózny
+AN pokojný <> nahnevaný
+AN pokojný <> zúrivý
+AN pokojný <> prchký
+AN zúfalý <> plný nádeje
+AN znudený <> nadšený
+AN vzrušujúci <> nudný
+AN spokojný <> sklamaný
+AN spokojný <> nespokojný
+AN spokojný <> frustrovaný
+AN uvoľnený (bez napätia) <> napätý
+AN uvoľnený (bez napätia) <> vystresovaný
+AN uvoľnený (bez napätia) <> nervózny
+AN napínavý <> nudný
+AN neistý <> sebavedomý
+AN vyrovnaný <> nervózny
+AN vyrovnaný <> náladový
+AN vyrovnaný <> prchký
+AN apatický <> nadšený
+AN apatický <> horlivý
+AN apatický <> energický
+AN apatický <> čulý
+AN apatický <> temperamentný
+AN láskavý <> krutý
+AN láskavý <> zlomyseľný
+AN vášnivý <> chladný
+AN hanebný <> chvályhodný
+AN hanebný <> čestný
+AN rozpačitý <> sebavedomý
+AN hrdý <> pokorný
+AN hrdý <> skromný
+AN vďačný <> nevďačný
+AN vrúcny <> chladný
+AN mysliteľný <> nemysliteľný
+AN pozorný <> roztržitý
+AN sústredený <> roztržitý
+AN predstaviteľný <> nepredstaviteľný
+AN analytický <> intuitívny
+AN logický <> intuitívny
+AN logický <> nelogický
+AN rozumný <> hlúpy
+AN rozumný <> nerozumný
+AN rozumný <> bláznivý
+AN rozumný <> šialený
+AN rozumný <> absurdný
+AN viacznačný <> jednoznačný
+AN zainteresovaný <> nezúčastnený
+AN kompetentný <> nekompetentný
+AN homogénny <> zmiešaný
+AN homogénny <> rozmanitý
+AN homogénny <> nejednotný
+AN vedomý <> nevedomý
+AN vedomý <> podvedomý
+AN známy <> neznámy
+AN známy <> cudzí
+AN zrozumiteľný <> nezrozumiteľný
+AN zrozumiteľný <> kryptický
+AN oboznámený <> nič netušiaci
+AN veriaci <> neveriaci
+AN dôveryhodný <> nedôveryhodný
+AN neuveriteľný <> vierohodný
+AN chybný <> správny
+AN chybný <> bezchybný
+AN racionálny <> iracionálny
+AN racionálny <> emocionálny
+AN skeptický <> dôverčivý
+AN skeptický <> presvedčený
+AN súvislý <> medzerovitý
+AN inteligentný <> hlúpy
+AN múdry <> hlúpy
+AN naivný <> prefíkaný
+AN naivný <> skúsený
+AN bystrý <> hlúpy
+AN problematický <> bezproblémový
+AN tajný <> verejný
+AN neodvratný <> vyhnuteľný
+AN viditeľný <> neviditeľný
+AN priehľadný <> nepriehľadný
+AN priehľadný <> kalný
+AN voňavý <> smradľavý
+AN zmysluplný <> nezmyselný
+AN hluchý <> počujúci
+AN farebný <> bezfarebný
+AN farebný <> čiernobiely
+AN pestrofarebný <> bezfarebný
+AN svetlomodrý <> tmavomodrý
+AN svetlozelený <> tmavozelený
+AN čierny <> biely
+AN neochotný <> dychtivý
+AN neochotný <> horlivý
+AN nedobrovoľný <> dobrovoľný
+AN žiaduci <> nežiaduci
+AN odhodlaný <> váhavý
+AN úmyselný <> neúmyselný
+AN úmyselný <> náhodný
+AN cieľavedomý <> bezcieľny
+AN plánovaný <> náhodný
+AN plánovaný <> spontánny
+AN plánovaný <> nepredvídaný
+AN vydarený <> neúspešný
+AN úspešný <> neúspešný
+AN chamtivý <> veľkorysý
+AN chamtivý <> nezištný
+AN lenivý <> usilovný
+AN trpezlivý <> netrpezlivý
+AN úprimný <> nečestný
+AN milý <> krutý
+AN milý <> nemilý
+AN milý <> príkry
+AN prísny <> zhovievavý
+AN nedbalý <> dôkladný
+AN nedbalý <> svedomitý
+AN nedbalý <> starostlivý
+AN nedbalý <> opatrný
+AN vážny <> nevážny
+AN vážny <> zábavný
+AN vážny <> smiešny
+AN vážny <> hravý
+AN zábavný <> nudný
+AN zábavný <> bez zmyslu pre humor
+AN lakomý <> veľkorysý
+AN sebecký <> nezištný
+AN nesmelý <> sebavedomý
+AN nesmelý <> smelý
+AN nesmelý <> asertívny
+AN arogantný <> skromný
+AN arogantný <> pokorný
+AN ľahkomyseľný <> rozvážny
+AN ľahkomyseľný <> obozretný
+AN ľahkomyseľný <> opatrný
+AN impulzívny <> rozvážny
+AN unáhlený <> rozvážny
+AN unáhlený <> premyslený
+AN unáhlený <> nenáhlivý
+AN márnivý <> skromný
+AN neposlušný <> poslušný
+AN zaujatý <> nezaujatý
+AN zaujatý <> neutrálny
+AN zaujatý <> objektívny
+AN spravodlivý <> nespravodlivý
+AN optimistický <> pesimistický
+AN realistický <> nerealistický
+AN bezohľadný <> ohľaduplný
+AN slušný <> neslušný
+AN slušný <> drzý
+AN agresívny <> mierumilovný
+AN morálny <> nemorálny
+AN autoritársky <> demokratický
+AN intímny <> verejný
+AN úctivý <> drzý
+AN bezstarostný <> ustarostený
+AN bezbranný <> obranyschopný
+AN zbabelý <> odvážny
+AN zbabelý <> statočný
+AN zbabelý <> smelý
+AN zbabelý <> nebojácny
+AN zbabelý <> hrdinský
+AN lojálny <> neverný
+AN proaktívny <> pasívny
+AN ambivalentný <> jednoznačný
+AN úrodný <> neúrodný
+AN módny <> staromódny
+AN módny <> nadčasový
+AN nahý <> oblečený
+AN otcovský <> materinský
+AN ľudský <> neľudský
+AN ľudský <> zvierací
+AN mužský <> ženský
+AN dospelý <> maloletý
+AN dospelý <> mladistvý
+AN dospelý <> detský
+AN dospelý <> detinský
+AN ženatý <> rozvedený
+AN priateľský <> nepriateľský
+AN spriatelený <> znepriatelený
+AN cudzí <> vlastný
+AN cudzí <> domáci (miestny)
+AN cudzí <> príbuzný
+AN verný <> neverný
+AN zdvorilý <> nezdvorilý
+AN zdvorilý <> drzý
+AN milostivý <> nemilosrdný
+AN milostivý <> neúprosný
+AN taktný <> netaktný
+AN obľúbený <> neobľúbený
+AN nedôstojný <> dôstojný človeka
+AN tolerantný <> netolerantný
+AN vzájomný <> jednostranný
+AN jedlý <> jedovatý
+AN jedlý <> nejedlý
+AN sýty <> hladný
+AN alkoholický <> nealkoholický
+AN okoralý <> čerstvý
+AN jasný ako krištáľ <> kalný
+AN vkusný <> nevkusný
+AN sladký <> kyslý
+AN sladký <> horký
+AN sladký <> slaný
+AN surový <> varený
+AN chutný <> nechutný
+AN zdravý <> chorý
+AN zdravý <> nezdravý
+AN bolestivý <> bezbolestný
+AN zranený <> nezranený
+AN zraniteľný <> odolný
+AN slepý <> vidiaci
+AN imúnny <> náchylný
+AN ambulantný <> stacionárny
+AN liečiteľný <> nevyliečiteľný
+AN opitý <> triezvy
+AN pohodlný <> nepohodlný
+AN útulný <> neútulný
+AN experimentálny <> teoretický
+AN skutočný <> fiktívny
+AN skutočný <> imaginárny
+AN skutočný <> virtuálny
+AN skutočný <> zdanlivý
+AN skutočný <> domnelý
+AN skutočný <> údajný
+AN skutočný <> potenciálny
+AN pochybný <> nesporný
+AN pochybný <> vierohodný
+AN vtipný <> bez zmyslu pre humor
+AN komunikatívny <> uzavretý
+AN čitateľný <> nečitateľný
+AN prehľadný <> neprehľadný
+AN nábožný <> neveriaci
+AN nesmrteľný <> smrteľný (podliehajúci smrti)
+AN mestský <> vidiecky
+AN národný <> medzinárodný
+AN civilizovaný <> barbarský
+AN zahraničný <> domáci (miestny)
+AN čestný <> nečestný
+AN čestný <> skorumpovaný
+AN slávny <> neznámy
+AN organizovaný <> chaotický
+AN autokratický <> demokratický
+AN vnútropolitický <> zahraničnopolitický
+AN nezávislý <> závislý (od niečoho)
+AN protiprávny <> zákonný
+AN protiprávny <> legálny
+AN protiústavný <> ústavný
+AN byrokratický <> nebyrokratický
+AN liberálny <> konzervatívny
+AN násilný <> mierumilovný
+AN násilný <> nenásilný
+AN zákonný <> nelegálny
+AN vinný <> nevinný
+AN zakázaný <> dovolený
+AN nepovolený <> dovolený
+AN legálny <> nelegálny
+AN súdny <> mimosúdny
+AN povinný <> voliteľný
+AN povinný <> dobrovoľný
+AN dôverný <> verejný
+AN majetný <> chudobný
+AN bohatý (majetný) <> chudobný
+AN bohatý (majetný) <> núdzny
+AN zámožný <> chudobný
+AN finančne dostupný <> drahý
+AN bezplatný <> spoplatnený
+AN plnohodnotný <> menejcenný
+AN lacný <> drahý
+AN lacný <> nákladný
+AN luxusný <> skromný
+AN bojovný <> mierumilovný
+AN obsadený <> neobsadený
+AN obsadený <> uprázdnený
+AN víťazný <> bez víťazstva
+AN vojenský <> civilný
+AN ozbrojený <> neozbrojený
+AN nezamestnaný <> zamestnaný
+AN schopný <> neschopný
+AN skúsený <> neskúsený
+AN zodpovedný <> nezodpovedný
+AN divoký <> krotký
+AN prenosný <> stacionárny
+AN telesný <> duševný
+AN telesný <> duchovný
+AN ústny <> písomný
+AN srdečný <> chladný
+AN vráskavý <> hladký
+AN živý <> mŕtvy
+AN živý <> zosnulý
+AN starý <> čerstvý
+AN starý <> mladý
+AN zrelý <> detinský
+AN zrelý <> nezrelý
+AN ospalý <> bdelý
+AN ospalý <> čulý
+AN unavený <> neúnavný
+AN pozemský <> nebeský
+AN svetoznámy <> neznámy
+AN materiálny <> duchovný
+AN vzdušný <> dusný
+AN tekutý <> tuhý
+AN tienistý <> slnečný
+AN tmavý <> svetlý
+AN energeticky náročný <> energeticky účinný
+AN vodotesný <> netesný
+AN vodotesný <> deravý
+AN daždivý <> slnečný
+AN búrlivý <> tichý (pokojný)
+AN oblačný <> bez oblakov
+AN oblačný <> slnečný
+AN zamračený <> slnečný
+AN zamračený <> bez oblakov
+AN horúci <> studený
+AN horúci <> chladný
+AN horúci <> ľadový
+AN horúci <> ľadovo studený
+AN horúci <> mrazivý
+AN chladnokrvný <> prchký
+AN teplý <> studený
+AN teplý <> chladný
+AN teplý <> mrazivý
+AN teplý <> ľadový
+AN mierny <> extrémny
+AN mierny <> prudký
+AN mierny <> drastický
+AN mierny <> prísny
+AN jarný <> jesenný
+AN letný <> zimný
+AN šetrný ku klíme <> škodlivý pre klímu
+AN tropický <> polárny
+
+# AV
+AV čo najviac <> čo najmenej
+AV prvýkrát <> naposledy
+AV viac <> menej
+AV vnútri <> vonku
+AV zvonka <> zvnútra
+AV tu <> tam (miesto)
+AV všade <> nikde
+AV nad tým <> pod tým
+AV vzadu <> vpredu
+AV vľavo <> vpravo
+AV hore <> dole
+AV nahor (smerom) <> nadol
+AV vzad <> vpred
+AV úplne <> čiastočne
+AV úplne <> vôbec nie
+AV dočasne <> natrvalo
+AV cez deň <> v noci
+AV ráno <> večer
+AV napoludnie <> o polnoci
+AV popoludní <> predpoludním
+AV včera <> zajtra
+AV predvčerom <> pozajtra
+AV čoskoro <> neskoro
+AV skôr <> neskôr
+AV najneskôr <> najskôr
+AV kedysi <> v dnešnej dobe
+AV už <> ešte
+AV vždy <> nikdy
+AV často <> zriedka
+AV zvyčajne <> výnimočne
+AV náhle <> postupne
+AV predtým <> potom
+AV odteraz <> doteraz
+AV spočiatku <> nakoniec
+AV našťastie <> bohužiaľ
+AV na jednej strane <> na druhej strane
+AV aj <> tiež nie (záporné aj)
+AV takisto <> tiež nie (záporné aj)
+AV rovnako <> inak (iným spôsobom)
+AV minimálne <> maximálne
+AV najviac <> PHR najmenej
+AV nanajvýš <> aspoň
+AV nanajvýš <> minimálne
+AV čoraz viac <> čoraz menej
+AV teraz <> vtedy
+AV dávno <> nedávno
+AV najprv <> nakoniec
+AV krátkodobo <> dlhodobo
+AV vopred <> dodatočne
+AV rád <> nerád
+AV nevyhnutne <> nie nevyhnutne
+AV sem <> tam (smer)
+AV dnu (k hovoriacemu) <> von
+AV nahor (k hovoriacemu) <> dolu (k hovoriacemu)
+AV dnu (od hovoriaceho) <> von
+AV nahor (od hovoriaceho) <> dolu (od hovoriaceho)
+AV späť <> vpred
+AV za to <> proti tomu
+AV pred tým <> za tým
+AV odkiaľ <> kam
+AV minule <> nabudúce
+AV ako prvý <> ako posledný
+AV s námahou <> ľahko
+AV zámerne <> mimovoľne
+AV zámerne <> náhodou
+AV naraz <> postupne
+AV spolu <> oddelene
+AV online <> offline
+
+# N
+N budúci rok <> minulý rok
+N slečna <> pani
+N dobrý človek <> zlý človek
+N staroba <> mladosť
+N staroba <> detstvo
+N slnečný deň <> zamračený deň
+N budúci týždeň <> predchádzajúci týždeň
+N silná stránka <> slabá stránka
+N za dva roky <> predminulý rok
+N studená voda <> horúca voda
+N studená voda <> vriaca voda
+N vidiek <> mesto
+N vidiek <> veľkomesto
+N forma <> obsah
+N vysoká cena <> nízka cena
+N jednotlivec <> skupina
+N jednotlivec <> dav
+N jednotlivec <> spoločnosť
+N morská voda <> sladká voda
+N zimné prázdniny <> letné prázdniny
+N novovek <> stredovek
+N koniec semestra <> začiatok semestra
+N chudobný človek <> bohatý
+N nasledujúci mesiac <> predchádzajúci mesiac
+N koniec mesiaca <> začiatok mesiaca
+N záverečný ceremoniál <> otvárací ceremoniál
+N próza <> poézia
+N próza <> verš
+N voliteľný predmet <> povinný predmet
+N druhé miesto <> prvé miesto
+N dvojhra <> štvorhra
+N nízka teplota <> vysoká teplota
+N morské dno <> hladina mora
+N ústna skúška <> písomná skúška
+N rýchlik <> osobný vlak
+N krajan <> cudzinec
+N vnútrozemie <> pobrežie
+N vnútrozemie <> pohraničie
+N vrchné oblečenie <> spodná bielizeň
+N hlavná postava <> vedľajšia postava
+N veľkosť <> maličkosť
+N dĺžka <> krátkosť
+N hĺbka <> výška
+N hĺbka <> povrch
+N zvýšenie <> zníženie
+N zvýšenie <> pokles
+N ľahkosť <> ťažkosť
+N dokonalosť <> nedokonalosť
+N kvalita <> kvantita
+N výhoda <> nevýhoda
+N norma <> výnimka
+N zvláštnosť <> normálnosť
+N jednoduchosť <> ťažkosť
+N jednoduchosť <> zložitosť
+N nebezpečenstvo <> bezpečnosť
+N bezpečnosť <> ohrozenie
+N riziko <> bezpečnosť
+N riziko <> istota
+N škoda <> úžitok
+N čistota <> špina
+N čistota <> znečistenie
+N suchosť <> vlhkosť
+N slabosť <> sila
+N rýchlosť <> pomalosť
+N tvrdosť <> mäkkosť
+N zamestnanie <> nezamestnanosť
+N stabilita <> nestabilita
+N istota <> neistota
+N istota <> pochybnosť
+N poriadok <> chaos
+N poriadok <> neporiadok
+N väčšina <> menšina
+N súčet <> rozdiel (číselný)
+N prebytok <> nedostatok
+N prebytok <> schodok
+N nedostatok <> prednosť
+N hojnosť <> nedostatok
+N hojnosť <> núdza
+N plus <> mínus
+N maximálna hodnota <> minimálna hodnota
+N čitateľ (zlomku) <> menovateľ
+N maximum <> minimum
+N náhoda <> úmysel
+N náhoda <> zákonitosť
+N prítomnosť <> absencia
+N prítomnosť <> neprítomnosť
+N redukcia <> rozšírenie
+N zlepšenie <> zhoršenie
+N pokrok <> úpadok
+N pokrok <> krok späť
+N pokrok <> zaostávanie
+N zničenie <> tvorba
+N zničenie <> zachovanie
+N príčina <> účinok
+N príčina <> dôsledok
+N príčina <> následok
+N založenie <> zrušenie
+N odmietnutie <> prijatie
+N odmietnutie <> súhlas
+N odmietnutie <> schválenie
+N odmietnutie <> akceptácia
+N začiatok <> koniec
+N začiatok <> ukončenie
+N ukončenie <> pokračovanie
+N úvod <> záver
+N rozmach <> úpadok
+N prírastok <> úbytok
+N nadobudnutie <> strata
+N vystúpenie (z organizácie) <> pristúpenie
+N vystúpenie (z organizácie) <> vstup
+N vznik <> zánik
+N odcestovanie <> príchod
+N odcestovanie <> návrat
+N prevzatie <> odovzdanie
+N zatvorenie <> otvorenie
+N zabezpečenie <> ohrozenie
+N rovnosť <> rozdiel (odlišnosť)
+N podobnosť <> rozdiel (odlišnosť)
+N podobnosť <> kontrast
+N podobnosť <> protiklad
+N časť <> celok
+N spojenie <> rozdelenie
+N závislosť (vzťah) <> nezávislosť
+N závislosť (vzťah) <> samostatnosť
+N prameň <> ústie
+N jadro <> povrch
+N účasť <> absencia
+N nárok <> povinnosť
+N záujem <> nezáujem
+N šanca <> riziko
+N realita <> fantázia
+N realita <> ilúzia
+N realita <> sen
+N odpor <> podpora
+N odpor <> poslušnosť
+N odpor <> súhlas
+N iniciatíva <> pasivita
+N angažovanosť <> pasivita
+N zavedenie <> zrušenie
+N zavedenie <> odstránenie
+N obmedzenie <> rozšírenie
+N obmedzenie <> voľnosť
+N obmedzenie <> sloboda
+N prijatie <> vylúčenie
+N náskok <> zaostávanie
+N konsenzus <> nezhoda
+N zhoda <> rozdiel (odlišnosť)
+N zhoda <> protiklad
+N zhoda <> nezhoda
+N zhoda <> rozpor
+N spoločná črta <> rozdiel (odlišnosť)
+N skutočnosť <> fantázia
+N skutočnosť <> ilúzia
+N skutočnosť <> sen
+N skutočnosť <> zdanie
+N horná hranica <> dolná hranica
+N obdržanie <> odovzdanie
+N nález <> strata
+N ponuka <> dopyt
+N poskytovateľ <> príjemca
+N odosielateľ <> príjemca
+N pravidlo <> výnimka
+N odľahčenie <> zaťaženie
+N odľahčenie <> bremeno
+N upokojenie <> vzrušenie
+N zmiernenie <> zosilnenie
+N zmiernenie <> eskalácia
+N uzdravenie <> ochorenie
+N uzdravenie <> choroba
+N námaha <> odpočinok
+N outsider <> favorit
+N zakúpenie <> predaj
+N výnos <> náklady
+N výnos <> strata
+N vydutie <> preliačina
+N priamka <> krivka
+N ostrosť <> tuposť
+N hladkosť <> nerovnosť
+N rad <> stĺpec
+N symetria <> asymetria
+N horná strana <> spodná strana
+N predná strana <> zadná strana
+N stred <> okraj
+N centrum <> okraj
+N ústredie <> pobočka
+N vnútro <> vonkajšok
+N pozadie <> popredie
+N prázdnota <> plnosť
+N blízkosť <> diaľka
+N blízkosť <> vzdialenosť
+N blízkosť <> odstup
+N sever <> juh
+N východ (svetová strana) <> západ
+N onen svet <> tento svet
+N severovýchod <> juhozápad
+N pohyb <> pokoj
+N príchod <> odjazd
+N príchod <> odchod
+N vstup <> výstup
+N vstup <> východ (výstup)
+N nárast <> pokles
+N vzostup <> zostup
+N vzostup <> pád
+N vzostup <> úpadok
+N vzostup <> pokles
+N nástupca <> predchodca
+N zastavenie <> rozbeh
+N deň <> noc
+N začiatok roka <> koniec roka
+N pracovný deň <> víkend
+N pracovný deň <> sviatok
+N ráno <> večer
+N poludnie <> polnoc
+N predpoludnie <> odpoludnie
+N dochvíľnosť <> oneskorenie
+N dochvíľnosť <> meškanie
+N budúcnosť <> minulosť
+N súčasnosť <> minulosť
+N súčasnosť <> budúcnosť
+N staroveká doba <> novovek
+N večnosť <> okamih
+N predchádzajúci deň <> nasledujúci deň
+N všedný deň <> víkend
+N všedný deň <> sviatok
+N šťastie <> nešťastie
+N šťastie <> smola
+N šťastie <> smútok
+N radosť <> smútok
+N radosť <> žiaľ
+N strach <> odvaha
+N strach <> smelosť
+N pokoj <> nepokoj
+N pokoj <> panika
+N pokoj <> nervozita
+N pokoj <> vzrušenie
+N sklamanie <> spokojnosť
+N zúfalstvo <> nádej
+N nádej <> beznádej
+N nuda <> vzrušenie
+N nuda <> zábava
+N nuda <> napínavosť
+N nadšenie <> znechutenie
+N nadšenie <> sklamanie
+N stres <> relaxácia
+N stres <> pokoj
+N stres <> uvoľnenie
+N spokojnosť <> nespokojnosť
+N spokojnosť <> frustrácia
+N napätie <> uvoľnenie
+N napätie <> relaxácia
+N napätie <> pokoj
+N núdza <> blahobyt
+N bieda <> bohatstvo
+N bieda <> blahobyt
+N neistota <> sebadôvera
+N neistota <> sebavedomie
+N vyrovnanosť <> nervozita
+N vyrovnanosť <> nepokoj
+N apatia <> horlivosť
+N apatia <> nadšenie
+N apatia <> vášeň
+N apatia <> angažovanosť
+N optimizmus <> pesimizmus
+N úcta <> pohŕdanie
+N láska <> nenávisť
+N obdiv <> pohŕdanie
+N obdiv <> posmech
+N nežnosť <> krutosť
+N nepriateľstvo <> spojenectvo
+N náklonnosť <> odpor
+N hanba <> hrdosť
+N hrdosť <> pokora
+N hrdosť <> skromnosť
+N vďačnosť <> nevďačnosť
+N lojalita <> zrada
+N otvorenosť <> uzavretosť
+N jednota <> rozdelenie
+N smiech <> plač
+N žart <> vážnosť
+N sen <> nočná mora
+N logika <> intuícia
+N šialenstvo <> rozum
+N argument <> námietka
+N originál <> falzifikát
+N originál <> kópia
+N originál <> napodobenina
+N obava <> nádej
+N vedomosti <> nevedomosť
+N porozumenie <> nepochopenie
+N porozumenie <> nedorozumenie
+N pravda <> klamstvo
+N pravda <> klam
+N pravda <> omyl
+N pochybnosť <> viera
+N pochybnosť <> presvedčenie
+N viera <> skepsa
+N skeptik <> veriaci
+N pamäť (schopnosť) <> zabudnutie
+N spomienka <> zabudnutie
+N inteligencia <> hlúposť
+N múdrosť <> hlúposť
+N bystrosť <> hlúposť
+N problém <> riešenie
+N zrak <> slepota
+N sluch <> hluchota
+N vôňa <> smrad
+N vôňa <> zápach
+N zmysel <> nezmysel
+N cieľ <> prostriedok
+N úspech <> neúspech
+N úspech <> zlyhanie
+N chamtivosť <> veľkorysosť
+N chamtivosť <> štedrosť
+N zanedbanie <> starostlivosť
+N lenivosť <> usilovnosť
+N trpezlivosť <> netrpezlivosť
+N čestnosť <> klam
+N úprimnosť <> klamstvo
+N úprimnosť <> klam
+N opatrnosť <> nedbalosť
+N opatrnosť <> ľahkomyseľnosť
+N humor <> vážnosť
+N skromnosť <> arogancia
+N skromnosť <> márnivosť
+N lakomstvo <> veľkorysosť
+N egoizmus <> nezištnosť
+N egoizmus <> solidarita
+N plachosť <> smelosť
+N plachosť <> družnosť
+N obozretnosť <> ľahkomyseľnosť
+N obozretnosť <> nedbalosť
+N cnosť <> neresť
+N cnosť <> hriech
+N vada <> prednosť
+N optimista <> pesimista
+N odvaha <> zbabelosť
+N zbabelec <> hrdina
+N smelosť <> zbabelosť
+N slušnosť <> drzosť
+N lovec <> korisť
+N krása <> škaredosť
+N komédia <> tragédia
+N spisovateľ <> čitateľ (osoba)
+N autor <> čitateľ (osoba)
+N zloduch <> hrdina
+N premiéra <> derniéra
+N domáci zápas <> zápas vonku
+N majster <> učeň
+N odmena <> trest
+N voľný čas <> práca
+N voľný čas <> pracovný čas
+N profesionál <> amatér
+N porazený <> víťaz
+N nováčik <> veterán
+N defenzíva <> ofenzíva
+N prvý zápas <> odveta
+N spoluhráč <> protivník
+N zimná prestávka <> letná prestávka
+N triumf <> porážka
+N rodič <> dieťa
+N starí rodičia <> vnúča
+N otec <> matka
+N starý otec <> stará mama
+N dedko <> babka
+N nevlastný otec <> nevlastná matka
+N svokor <> svokra
+N syn <> dcéra
+N zať <> nevesta
+N brat <> sestra
+N vnuk <> vnučka
+N strýko <> teta
+N bratranec <> sesternica
+N synovec <> neter
+N nevesta <> ženích
+N vdova <> vdovec
+N predok <> potomok
+N krstný otec <> krstná matka
+N muž <> žena
+N chlapec <> dievča
+N dospelý <> dieťa
+N dospelý <> mladistvý
+N pán <> dáma
+N pán <> pani
+N sobáš <> rozvod
+N manželstvo <> rozvod
+N manžel <> manželka
+N priateľ <> nepriateľ
+N priateľ <> priateľka
+N priateľstvo <> nepriateľstvo
+N známy <> cudzinec
+N známy <> neznámy
+N hosť <> hostiteľ
+N rival <> spojenec
+N stretnutie <> rozlúčka
+N pozdrav <> rozlúčka
+N privítanie <> rozlúčka
+N ochrana <> ohrozenie
+N rešpekt <> pohŕdanie
+N dôvera <> nedôvera
+N dôvera <> podozrenie
+N vernosť <> zrada
+N vernosť <> nevera
+N zdvorilosť <> drzosť
+N spolupráca <> rivalita
+N spolupráca <> konkurencia
+N hádka <> zmierenie
+N láskavosť <> krutosť
+N láskavosť <> zloba
+N láskavosť <> zlomyseľnosť
+N milosť <> trest
+N dôstojnosť <> poníženie
+N pokora <> arogancia
+N kamarát <> nepriateľ
+N predjedlo <> dezert
+N žĺtok <> bielok
+N zdravie <> choroba
+N zdravie <> ochorenie
+N chorý <> uzdravený
+N nespavosť <> spánok (stav)
+N darca <> príjemca
+N lekár <> pacient
+N lekárka <> pacientka
+N jed <> protijed
+N fajčiar <> nefajčiar
+N nájomný byt <> byt vo vlastníctve
+N nájomník <> prenajímateľ
+N nájomník <> majiteľ domu
+N nájomník <> vlastník
+N strecha <> základy
+N strop <> podlaha
+N prízemie <> horné poschodie
+N suterén <> podkrovie
+N pivnica <> povala
+N pivnica <> podkrovie
+N vchod <> východ (výstup)
+N kúrenie <> klimatizácia
+N učiteľ <> žiak
+N učiteľ <> študent
+N učiteľka <> žiačka
+N profesor <> študent
+N začiatočník <> expert
+N začiatočník <> profesionál
+N teória <> prax
+N analýza <> syntéza
+N fakt <> domnienka
+N hovorca <> hovorkyňa
+N materinský jazyk <> cudzí jazyk
+N rozprávač <> poslucháč
+N rečník <> poslucháč
+N dialóg <> monológ
+N súhlas <> rozpor
+N súhlas <> nesúhlas
+N výkrik <> šepot
+N otázka <> odpoveď
+N dotaz <> odpoveď
+N priznanie <> popretie
+N chvála <> kritika
+N kompliment <> urážka
+N kompliment <> nadávka
+N krstné meno <> priezvisko
+N množné číslo <> jednotné číslo
+N predpona <> prípona
+N synonymum <> antonymum
+N samohláska <> spoluhláska
+N boh <> bohyňa
+N boh <> diabol
+N svätec <> hriešnik
+N mních <> mníška
+N požehnanie <> kliatba
+N duša <> telo
+N peklo <> raj
+N anjel <> diabol
+N anjel <> démon
+N obeť <> útočník (agresor)
+N nesmrteľnosť <> smrteľnosť
+N veriaci <> ateista
+N trpaslík <> obor
+N tradícia <> inovácia
+N svadba <> rozvod
+N mesto <> dedina
+N centrum mesta <> okraj mesta
+N centrum mesta <> predmestie
+N rodná krajina <> zahraničie
+N výstavba <> demolácia
+N ľud <> šľachta
+N občan <> cudzinec
+N otrok <> pán
+N otroctvo <> sloboda
+N sluha <> pán
+N česť <> hanba
+N civilista <> vojak
+N úmrtie <> narodenie
+N pozostalý <> zosnulý
+N podporovateľ <> protivník
+N hlas proti <> hlas za
+N domáci pán <> nájomník
+N poplach <> odvolanie poplachu
+N vlasť <> zahraničie
+N vláda <> opozícia
+N vladár <> poddaný
+N kráľ <> kráľovná
+N princ <> princezná
+N cisár <> cisárovná
+N republika <> monarchia
+N demokracia <> diktatúra
+N sloboda <> útlak
+N právo <> povinnosť
+N právo <> bezprávie
+N cenzúra <> sloboda prejavu
+N prisťahovalec <> vysťahovalec
+N koalícia <> opozícia
+N kapitalizmus <> socializmus
+N kapitalizmus <> komunizmus
+N anarchia <> poriadok
+N protivník <> spojenec
+N spor <> zmierenie
+N spor <> dohoda
+N vedomosť <> nevedomosť
+N rovnoprávnosť <> diskriminácia
+N sudca <> sudkyňa
+N spravodlivosť <> nespravodlivosť
+N spravodlivosť <> bezprávie
+N vina <> nevinnosť
+N zákaz <> povolenie
+N majiteľ <> nájomník
+N obžaloba <> obhajoba
+N páchateľ <> obeť
+N žalobca <> obžalovaný
+N odsúdenie <> oslobodenie
+N odsúdenie <> zproštenie viny
+N súkromie <> verejnosť
+N začlenenie <> vylúčenie
+N zástrčka (elektrická) <> zásuvka (elektrická)
+N softvér <> hardvér
+N prihlásenie <> odhlásenie
+N stiahnutie <> nahratie
+N bohatstvo <> chudoba
+N blahobyt <> chudoba
+N dlžník <> veriteľ
+N úspora <> plytvanie
+N zvýšenie ceny <> zníženie ceny
+N predaj <> kúpa
+N predaj <> nákup
+N predavač <> kupujúci
+N predavač <> zákazník
+N vklad <> výber
+N zdraženie <> zlacnenie
+N zľava <> príplatok
+N spotrebiteľ <> výrobca
+N veľkoobchod <> maloobchod
+N zisk <> strata
+N príjem <> výdavok
+N vývoz <> dovoz
+N inflácia <> deflácia
+N dodávateľ <> odberateľ
+N konkurencia <> monopol
+N recesia <> konjunktúra
+N brzda <> plynový pedál
+N odjazd <> príjazd
+N výjazd <> nájazd
+N cesta tam <> cesta späť
+N odlet <> prílet
+N posádka <> cestujúci
+N pristátie <> štart
+N zahraničie <> tuzemsko
+N nástup <> výstup
+N zrýchlenie <> spomalenie
+N vstup do krajiny <> vycestovanie
+N miesto na sedenie <> miesto na státie
+N nasťahovanie <> vysťahovanie
+N vojna <> mier
+N nepriateľ <> spojenec
+N útok <> obrana
+N útočník (agresor) <> obranca
+N víťazstvo <> porážka
+N ústup <> postup
+N ofenzíva <> obrana
+N eskalácia <> deeskalácia
+N vojak <> vojačka
+N práca <> odpočinok
+N zamestnávateľ <> zamestnanec
+N nezamestnanosť <> zamestnanosť
+N nezamestnaný <> pracujúci
+N nezamestnaný <> zamestnanec
+N samostatne zárobkovo činná osoba <> zamestnanec
+N šéf <> zamestnanec
+N šéf <> šéfka
+N prepustenie <> prijatie
+N dôchodca <> pracujúci
+N vedúci <> vedúca
+N povýšenie <> degradácia
+N práca na čiastočný úväzok <> práca na plný úväzok
+N nadriadený <> podriadený
+N odborník <> laik
+N výroba <> spotreba
+N zviera <> človek
+N zviera <> rastlina
+N domáce zviera <> divé zviera
+N korisť <> dravec
+N samec <> samica
+N vlk <> vlčica
+N lev <> levica
+N pes <> suka
+N kocúr <> mačka
+N žrebec <> kobyla
+N býk <> krava
+N ovca <> baran
+N koza <> cap
+N kačica <> káčer
+N hus <> gunár
+N kohút <> sliepka
+N predlaktie <> nadlaktie
+N dlaň <> chrbát ruky
+N stehno <> predkolenie
+N tepna <> žila
+N život <> smrť
+N smrť <> narodenie
+N rast <> pokles
+N spánok (stav) <> bdenie
+N hlad <> sýtosť
+N ihličnatý strom <> listnatý strom
+N pevnina <> more
+N vysočina <> nížina
+N vrch <> dolina
+N kopec <> dolina
+N vrchol <> úpätie
+N divočina <> civilizácia
+N tekutina <> pevná látka
+N svetlo <> tma
+N svetlo <> tieň
+N jas <> tma
+N zvuk <> ticho
+N hluk <> ticho
+N východ slnka <> západ slnka
+N spln <> nov
+N východ mesiaca <> západ mesiaca
+N ranný súmrak <> večerný súmrak
+N svitanie <> súmrak
+N slaná voda <> sladká voda
+N prítok <> odtok
+N príliv <> odliv
+N ostrov <> pevnina
+N vietor <> bezvetrie
+N horúčava <> chlad
+N horúčava <> mráz
+N vlna horúčav <> vlna chladu
+N teplo <> chlad
+N otepľovanie <> ochladzovanie
+N mráz <> obleva
+N sucho <> povodeň
+N sucho <> vlhkosť
+N jar <> jeseň
+N leto <> zima
+N severný pól <> južný pól
+
+# V
+V zväčšiť <> zmenšiť
+V zvýšiť <> znížiť
+V zjednodušiť <> sťažiť
+V ohroziť <> ochrániť
+V poškodiť <> opraviť
+V zhustiť <> zriediť
+V zhustiť <> preriediť
+V otvoriť <> zavrieť
+V otvoriť <> zatvoriť
+V otvoriť <> uzavrieť
+V očistiť <> znečistiť
+V očistiť <> pošpiniť
+V sušiť <> zvlhčiť
+V sušiť <> namočiť
+V posilniť <> oslabiť
+V posilniť <> zoslabiť
+V zosilniť <> zoslabiť
+V zosilniť <> oslabiť
+V slabnúť <> silnieť
+V stabilizovať <> destabilizovať
+V vyčistiť <> znečistiť
+V umožniť <> zabrániť
+V objasniť <> zmiasť
+V zdvojnásobiť <> rozpoliť
+V zviazať <> rozviazať
+V naplniť <> vyprázdniť
+V vložiť (na účet) <> vybrať z účtu
+V vzniknúť <> zaniknúť
+V začať <> skončiť sa
+V začať <> ukončiť
+V začať <> prestať
+V pokračovať <> prestať
+V pokračovať <> prerušiť
+V zostať <> odísť
+V zostať pozadu <> dohnať
+V zostať pozadu <> dobehnúť
+V rozšíriť <> zúžiť
+V rozšíriť <> obmedziť
+V zmenšiť sa <> zväčšiť sa
+V zlepšiť <> zhoršiť
+V stvoriť <> zničiť
+V zničiť <> zachovať
+V založiť <> zrušiť
+V predĺžiť <> skrátiť
+V zabrániť <> dovoliť
+V sprísniť <> zmierniť
+V sprísniť <> uvoľniť
+V nadobudnúť <> stratiť
+V prepojiť <> odpojiť
+V podvoliť sa <> brániť sa
+V upevniť <> uvoľniť
+V minimalizovať <> maximalizovať
+V spútať <> oslobodiť
+V deliť <> násobiť
+V rozdať <> pozbierať
+V spojiť <> oddeliť
+V spojiť <> rozdeliť
+V všimnúť si <> prehliadnuť
+V všimnúť si <> ignorovať
+V prevziať <> odovzdať
+V prijať (do skupiny) <> vylúčiť
+V vzdať sa <> vytrvať
+V vzdať sa <> zotrvať
+V nasadiť (do služby) <> vyradiť zo služby
+V zúčastniť sa <> nezúčastniť sa
+V vytvoriť <> zničiť
+V zahájiť <> ukončiť
+V dať <> dostať
+V dať <> vziať
+V vziať <> vrátiť
+V ubúdať <> pribúdať
+V prijať (ponuku) <> odmietnuť
+V prijať (ponuku) <> odriecť
+V udržať <> stratiť
+V priniesť <> odniesť
+V zriadiť <> zrušiť
+V ponechať si <> vrátiť
+V stratiť <> dostať späť
+V nájsť <> stratiť
+V hľadať <> nájsť
+V zhromaždiť <> rozptýliť
+V pridať <> odstrániť
+V pridať <> odňať
+V pripustiť <> poprieť
+V poslať <> dostať
+V doniesť <> odniesť
+V vytiahnuť <> vložiť (dovnútra)
+V vytiahnuť <> zastrčiť
+V vytiahnuť <> strčiť
+V aktivovať <> deaktivovať
+V akceptovať <> odmietnuť
+V začleniť <> vylúčiť
+V udeliť <> odňať
+V zabaliť <> rozbaliť
+V montovať <> demontovať
+V napnúť <> uvoľniť
+V lákať <> odstrašiť
+V lákať <> odradiť
+V jasať <> smútiť
+V jasať <> nariekať
+V zvýhodniť <> znevýhodniť
+V trápiť <> utešiť
+V zahaliť <> odhaliť
+V uprieť <> doprajať
+V nalákať <> odstrašiť
+V vyčerpať <> doplniť
+V naštartovať <> zastaviť
+V predchádzať <> nasledovať
+V predstihnúť <> zostať pozadu
+V prevyšovať <> byť nižší ako
+V privatizovať <> znárodniť
+V kriminalizovať <> legalizovať
+V emitovať <> absorbovať
+V získať <> stratiť
+V spustiť <> zastaviť
+V zbaviť sa <> ponechať si
+V zaradiť <> vyradiť
+V priblížiť sa <> vzdialiť sa
+V zatvrdnúť <> zmäknúť
+V ohnúť <> vystrieť
+V prekonať <> podľahnúť
+V postaviť <> zbúrať
+V postaviť <> zdemolovať
+V ísť vpredu <> nasledovať
+V prísť <> nedostaviť sa
+V prísť <> odísť
+V pribudnúť <> ubudnúť
+V prísť sem <> ísť tam
+V vrátiť sa <> odísť
+V vstúpiť <> vystúpiť
+V vstúpiť <> opustiť
+V vstúpiť <> vyjsť von
+V stúpať <> klesať
+V vystúpiť <> zostúpiť
+V klesať <> rásť
+V potopiť sa <> vynoriť sa
+V dodržať <> porušiť
+V prenasledovať <> utiecť
+V viesť <> nasledovať
+V zaviesť <> zrušiť
+V zlúčiť <> rozdeliť
+V postúpiť (vpred) <> ustúpiť
+V postúpiť (vpred) <> stiahnuť sa
+V rozložiť <> poskladať
+V pritiahnuť <> odtiahnuť
+V pricestovať <> odcestovať
+V stihnúť <> zmeškať
+V stihnúť <> nestihnúť
+V tešiť sa <> smútiť
+V robiť si starosti <> byť bez obáv
+V upokojiť <> znepokojiť
+V upokojiť <> rozrušiť
+V upokojiť <> rozčuľovať
+V upokojiť <> vzrušiť
+V upokojiť <> vystrašiť
+V upokojiť <> nahnevať
+V uľahčiť <> sťažiť
+V sklamať <> potešiť
+V dúfať <> zúfalieť
+V dúfať <> obávať sa
+V nudiť sa <> zabávať sa
+V premôcť <> podľahnúť
+V baviť <> nudiť
+V obávať sa <> byť bez obáv
+V báť sa <> odvážiť sa
+V vyhýbať sa <> vyhľadať
+V ľúbiť <> nenávidieť
+V mať rád <> nenávidieť
+V závidieť <> doprajať
+V pohŕdať <> obdivovať
+V pohŕdať <> vážiť si
+V pohŕdať <> rešpektovať
+V smiať sa <> plakať
+V usmievať sa <> mračiť sa
+V preceňovať <> podceňovať
+V pochopiť <> nepochopiť
+V utvrdiť <> zneistiť
+V priznať <> poprieť
+V uznať <> poprieť
+V veriť <> pochybovať
+V pripojiť <> odpojiť
+V sprístupniť <> zablokovať
+V odsúdiť <> oslobodiť
+V validovať <> zneplatniť
+V spomínať si <> zabudnúť
+V vybaviť si <> zabudnúť
+V mýliť sa <> mať pravdu
+V objaviť sa <> zmiznúť
+V ukryť <> odhaliť
+V ukryť <> nájsť
+V ukryť <> objaviť
+V ignorovať <> zohľadniť
+V ignorovať <> dbať na
+V počuť <> prepočuť
+V voňať <> smrdieť
+V rozhodnúť sa <> váhať
+V podariť sa <> nepodariť sa
+V podariť sa <> stroskotať
+V podariť sa <> zlyhať
+V vyhnúť sa <> čeliť
+V zanedbať <> starať sa o
+V zanedbať <> postarať sa
+V vzpierať sa <> podvoliť sa
+V vzpierať sa <> podriadiť sa
+V vzpierať sa <> podrobiť sa
+V vzpierať sa <> poslúchať
+V zvyknúť si <> odvyknúť si
+V odradiť <> povzbudiť
+V odradiť <> motivovať
+V pamätať si <> zabudnúť
+V zapamätať si <> zabudnúť
+V odísť do zahraničia <> vrátiť sa do vlasti
+V narodiť sa <> zomrieť
+V narodiť sa <> porodiť
+V zamestnať sa <> dať výpoveď
+V dať zľavu <> zdražiť
+V zbankrotovať <> prosperovať
+V zvoliť <> odvolať voľbou
+V dvihnúť hlavu <> sklopiť hlavu
+V dostať bitku <> zbiť
+V prezradiť <> zamlčať
+V prezradiť <> zachovať tajomstvo
+V žať <> siať
+V vysadiť <> vykoreniť
+V vyhrať <> prehrať (zápas)
+V obliecť <> vyzliecť
+V zapnúť (gombíky) <> rozopnúť
+V maskovať <> demaskovať
+V oženiť sa <> PHR rozviesť sa
+V pozdraviť <> rozlúčiť sa
+V privítať <> rozlúčiť sa
+V pomôcť <> prekážať
+V pomôcť <> škodiť
+V odpustiť <> pomstiť
+V odpustiť <> potrestať
+V odpustiť <> zazlievať
+V dôverovať <> podozrievať
+V zradiť <> byť verný
+V spolupracovať <> súťažiť
+V páčiť sa <> hnusiť sa
+V zmieriť sa <> pohádať sa
+V stretnúť sa <> rozlúčiť sa
+V izolovať sa <> stýkať sa
+V schudnúť <> pribrať
+V uzdraviť sa <> ochorieť
+V nakaziť <> vyliečiť
+V zotaviť sa <> ochorieť
+V prenajať <> prenajať si
+V kúriť <> chladiť
+V zamknúť <> odomknúť
+V učiť <> učiť sa
+V vyučovať <> študovať
+V hovoriť <> mlčať
+V hovoriť <> počúvať
+V rozprávať <> mlčať
+V súhlasiť <> odmietnuť
+V súhlasiť <> protirečiť
+V súhlasiť <> oponovať
+V kričať <> šepkať
+V pýtať sa <> odpovedať
+V spýtať sa <> odpovedať
+V hádať sa <> dohodnúť sa
+V klamať <> povedať pravdu
+V chváliť <> kritizovať
+V chváliť <> urážať
+V chváliť <> nadávať
+V obviniť <> obhajovať
+V potvrdiť <> poprieť
+V potvrdiť <> vyvrátiť
+V potvrdiť <> dementovať
+V potvrdiť <> spochybniť
+V tvrdiť <> popierať
+V zdôrazniť <> zľahčovať
+V odoprieť <> poskytnúť
+V dištancovať sa <> solidarizovať sa
+V trvať (na niečom) <> upustiť od
+V trvať (na niečom) <> ustúpiť
+V písať <> čítať
+V oznámiť <> zamlčať
+V zbožňovať <> nenávidieť
+V žehnať <> prekliať
+V zotročiť <> oslobodiť
+V zjednotiť <> rozdeliť
+V bojkotovať <> podporovať
+V emigrovať <> imigrovať
+V potláčať <> podporovať
+V zaťažiť <> uľaviť
+V mobilizovať <> demobilizovať
+V zatknúť <> prepustiť (na slobodu)
+V dokázať <> vyvrátiť
+V potrestať <> odmeniť
+V zakázať <> povoliť
+V zakázať <> dovoliť
+V zdediť <> zanechať v dedičstve
+V vymenovať <> odvolať
+V uväzniť <> prepustiť (na slobodu)
+V uväzniť <> oslobodiť
+V zamietnuť <> schváliť
+V zapnúť (prístroj) <> vypnúť
+V naložiť <> zložiť
+V naložiť <> vyložiť
+V nabiť <> vybiť
+V stiahnuť <> nahrať (na server)
+V priblížiť <> oddialiť
+V prihlásiť sa <> odhlásiť sa
+V zašifrovať <> dešifrovať
+V znovu aktivovať <> deaktivovať
+V schudobnieť <> zbohatnúť
+V požičať <> vrátiť
+V požičať <> požičať si
+V kúpiť <> predať
+V nakupovať <> predávať
+V zaplatiť <> inkasovať
+V objednať <> stornovať
+V zlacniť <> zdražiť
+V zarobiť <> minúť (peniaze)
+V šetriť <> minúť (peniaze)
+V šetriť <> márniť
+V ušetriť <> premárniť
+V vyvážať <> dovážať
+V sčítať <> odpočítať
+V brzdiť <> zrýchliť
+V vojsť <> vyjsť von
+V pristáť <> odletieť
+V pristáť <> štartovať
+V nastúpiť (do vozidla) <> vystúpiť
+V zrýchliť <> spomaliť
+V zaúčtovať <> odúčtovať
+V ohrozovať <> chrániť
+V zaútočiť <> brániť
+V zaútočiť <> brániť sa
+V zvíťaziť <> prehrať (zápas)
+V poraziť <> podľahnúť
+V ozbrojiť <> odzbrojiť
+V zbrojiť <> odzbrojiť
+V pracovať <> odpočívať
+V zamestnať <> prepustiť (z práce)
+V povýšiť <> degradovať
+V stavať <> búrať
+V vybudovať <> zbúrať
+V zmontovať <> demontovať
+V zmontovať <> rozobrať
+V opraviť <> pokaziť
+V opraviť <> rozbiť
+V zintenzívniť <> zmierniť
+V nadviazať <> prerušiť
+V nainštalovať <> odstrániť
+V nainštalovať <> demontovať
+V stáť (v stoji) <> sedieť
+V stáť (v stoji) <> ležať
+V vstať <> sadnúť si
+V vstať <> padnúť
+V vstať <> pokľaknúť
+V zastaviť sa <> pokračovať
+V zastaviť sa <> ísť ďalej
+V blížiť sa <> vzďaľovať sa
+V sedieť <> ležať
+V plávať <> potopiť sa
+V ponoriť sa <> vynoriť sa
+V odletieť <> priletieť
+V prisťahovať sa <> odsťahovať sa
+V držať <> PHR pustiť
+V chytiť <> hodiť
+V zasiahnuť <> netrafiť
+V zasiahnuť <> minúť (strelu)
+V dvíhať <> spúšťať
+V zdvihnúť <> položiť
+V zdvihnúť <> spustiť
+V chytať <> hádzať
+V ťahať <> tlačiť
+V nasťahovať sa <> vysťahovať sa
+V nasťahovať sa <> odsťahovať sa
+V zahrnúť <> vylúčiť
+V zahrnúť <> vynechať
+V pokynúť k sebe <> odmávnuť
+V ukázať <> ukryť
+V zavesiť <> zvesiť
+V zakryť <> odkryť
+V navinúť <> odvinúť
+V zapojiť <> odpojiť
+V vykopať <> zakopať
+V prikývnuť <> krútiť hlavou
+V obnažiť <> zahaliť
+V žiť <> zomrieť
+V prežiť <> zahynúť
+V prežiť <> zomrieť
+V oživiť <> zabiť
+V starnúť <> mladnúť
+V chátrať <> prosperovať
+V chátrať <> prekvitať
+V vdychovať <> vydychovať
+V spať <> bdieť
+V zaspať <> zobudiť sa
+V zaspať <> prebudiť sa
+V budiť <> uspať
+V unaviť <> osviežiť
+V vysiliť <> posilniť
+V zmĺknuť <> prehovoriť
+V jesť <> hladovať
+V kvitnúť <> vädnúť
+V rozkvitnúť <> odkvitnúť
+V rozkvitnúť <> zvädnúť
+V vypariť sa <> kondenzovať
+V kontaminovať <> dezinfikovať
+V vyschnúť <> zvlhnúť
+V horieť <> hasiť
+V zapáliť <> zhasiť
+V osvetliť <> zatemniť
+V vyžarovať <> absorbovať
+V zohriať <> ochladiť
+V ohrievať <> chladiť
+V ohriať <> ochladiť
+V mrznúť <> topiť sa
+V zmraziť <> rozmraziť
+
+# PRE
+PRE pod <> nad
+PRE pred <> za
+PRE pred <> po
+PRE do <> z
+PRE pre <> proti
+PRE s <> bez
+PRE k <> od (pôvod)
+PRE od (začiatok) <> do
+PRE okrem <> vrátane
+PRE v rozpore s <> v súlade s
+PRE vnútri <> mimo
+PRE na tejto strane <> na druhej strane
+PRE na (navrchu) <> pod
+PRE menej ako <> viac ako
+
+# P
+P málo <> AN veľa
+P všetci <> nikto
+P každý <> žiaden
+P každý <> žiadny
+P niečo <> nič
+P všetko <> nič
+P on <> ona
+P jeho <> jej
+P tento <> tamten
+P niekto <> nikto
+P každý človek <> nikto
+
+# PAR
+PAR áno <> INT nie
+
+# CON
+CON ani <> AV aj
+CON aby <> aby nie
+CON ak <> ak nie
+CON predtým než <> potom čo
+CON skôr než <> potom čo
+
+# PHR
+PHR väčšina <> N menšina
+PHR v každom prípade <> v žiadnom prípade
+PHR vonku <> AV vnútri
+PHR v smere hodinových ručičiek <> proti smeru hodinových ručičiek
+PHR dnes ráno <> dnes večer
+PHR stále <> už nie
+PHR v najhoršom prípade <> v najlepšom prípade
+PHR treba <> netreba
+PHR dá sa <> nemožno
+PHR dá sa <> nejde to
+PHR pod nulou <> nad nulou
+PHR dobrú noc <> dobré ráno
+PHR privítať <> V rozlúčiť sa
+PHR omdlieť <> prebrať sa
+PHR v zahraničí <> AV doma
+
+# INT
+INT áno (dôrazne) <> nie

@@ -79,6 +79,7 @@ N vrecko nohavíc
 N gombík
 N gombíková dierka
 V zapnúť (gombíky)
+V rozopnúť
 N zips
 N golier
 N rukáv
@@ -140,6 +141,7 @@ N trend
 AN elegantný : adverb elegantne
 N elegancia
 AN nahý
+AN oblečený
 AV bosý
 N šperk
 V ozdobiť

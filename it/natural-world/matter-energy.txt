@@ -83,6 +83,9 @@
 2 V inquinare {inquinare} [iŋkwiˈnaːre] = kontaminovať
 2 V seccarsi {seccarsi} [seˈkːarsi] = vyschnúť
 3 V prosciugarsi {prosciugarsi} [proʃːuˈɡarsi] = vyschnúť
+2 AN solido {solido} [ˈsɔːlido], solida = tuhý
+2 V bagnarsi {bagnarsi} [baˈɲːarsi] = zvlhnúť
+3 V inumidirsi {inumidirsi} [inumiˈdirsi], isc = zvlhnúť
 
 # fire-light
 1 V bruciare {bruciare} [bruˈtʃaːre], essere = horieť
@@ -134,6 +137,8 @@
 2 N il bagliore {bagliore} [baˈʎːoːre], bagliori = záblesk
 2 N il lampo {lampo} [ˈlampo], lampi = záblesk
 3 N il luccichio {luccichio} [luttʃiˈkiːo], luccichii = záblesk
+1 V spegnere {spegnere} [ˈspeɲːere], irr, spento = hasiť
+3 V estinguere {estinguere} [esˈtiŋɡwere], irr, estinto = hasiť
 
 # energy-forces
 2 N l'energia (f) {energia} [enerˈdʒiːa], energie = energia

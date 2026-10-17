@@ -43,6 +43,7 @@
 2 N la cola {cola} [ˈkola], colas = kola
 2 N el aceite de girasol {aceite de girasol} [aˈθejte ðe xiɾaˈsol], aceites de girasol = slnečnicový olej
 2 N la hierba aromática {hierba aromática} [ˈjeɾβa aɾoˈmatika], hierbas aromáticas = bylinky
+3 AN no comestible {no comestible} [no komesˈtiβle] = nejedlý
 
 # staples
 1 N el pan {pan} [pan], panes = chlieb
@@ -163,6 +164,9 @@
 2 N el kebab {kebab} [keˈβaβ], kebabs = kebab
 2 N el döner kebab {döner kebab} [ˈdoneɾ keˈβaβ], döner kebabs = döner kebab
 2 N el sushi {sushi} [ˈsuʃi], sushis = suši
+1 V engordar {engordar} [eŋɡoɾˈðaɾ] = pribrať
+2 V ganar peso {ganar peso} [ɡaˈnaɾ ˈpeso] = pribrať
+2 V aumentar de peso {aumentar de peso} [aumenˈtaɾ de ˈpeso] = pribrať
 
 # fruits
 1 N la fruta {fruta} [ˈfɾuta], frutas = ovocie
@@ -469,3 +473,6 @@
 3 N el bote {bote} [ˈbote], botes = dóza
 2 V regar {regar} [reˈɣaɾ], e>ie = polievať
 2 AV recién {recién} [reˈθjen] = čerstvo
+2 AN cocido {cocido} [koˈθiðo], cocida = varený
+3 AN hervido {hervido} [eɾˈβiðo], hervida = varený
+2 AN de mal gusto {de mal gusto} [de mal ˈɡusto] = nevkusný

@@ -65,6 +65,8 @@
 - 2 N der Verfall {Ver|fall} [fɛɐˈfal], - = rozpad, úpadok
 3 V verrotten {ver|rotten} [fɛɐˈʁɔtən], ist = hniť, rozkladať sa
 3 V ersticken {ersticken} [ɛɐˈʃtɪkən], hat/ist (A) = udusiť, dusiť sa
+1 N die Geburt {Geburt} [ɡəˈbuːɐt], Geburten = narodenie
+3 V sich verjüngen {sich ver|jüngen} [zɪç fɛɐˈjʏŋən], hat = mladnúť
 
 # body-functions
 2 V atmen {atmen} [ˈaːtmən], hat = dýchať
@@ -126,6 +128,9 @@
 3 V schlummern {schlummern} [ˈʃlʊmɐn], hat = driemať, driemať v spánku
 3 V verstummen {ver|stummen} [fɛɐˈʃtʊmən], ist = zmĺknuť
 3 AN bärenstark {bären|stark} [ˈbɛːʁənʃtaʁk] = silný ako medveď, úžasný
+3 N das Wachsein {Wach|sein} [ˈvaxzaɪn], - = bdenie
+3 V wachen {wachen} [ˈvaxən], hat = bdieť
+3 V einschläfern {ein·schläfern} [ˈaɪnʃlɛːfɐn], hat (A) = uspať
 
 # nourishment
 1 V essen {essen} [ˈɛsən], isst/aß/gegessen [ɪst/aːs/ɡəˈɡɛsən], hat = jesť
@@ -161,6 +166,8 @@
 3 V nagen {nagen} [ˈnaːɡən], hat (an D) = hlodať, ohrýzať
 3 V knabbern {knabbern} [ˈknabɐn], hat (an D) = chrúmať, hrýzť, uhryzkávať
 3 V nähren {nähren} [ˈnɛːʁən], hat (A) = živiť, kŕmiť
+3 N die Sättigung {Sättigung} [ˈzɛtɪɡʊŋ], - = sýtosť
+2 V fressen {fressen} [ˈfʁɛsən], frisst/fraß/gefressen [fʁɪst/fʁaːs/ɡəˈfʁɛsən], hat (A) = žrať
 
 # senses-instinct
 2 N der Instinkt {Instinkt} [ɪnˈstɪŋkt], Instinkte = inštinkt

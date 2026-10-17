@@ -33,6 +33,7 @@
 2 AN wyprostowany {wyprostowany} [vɨprɔstɔˈvanɨ] = vzpriamený
 2 V rozwalać się {rozwalać się} [rɔzˈvalatɕ ɕɛ], rozwalić się = rozvaliť sa
 2 PHR chodzić na palcach {chodzić na palcach} [ˈxɔdʑitɕ na ˈpaltsax] = chodiť po špičkách
+2 V oddalać się {oddalać się} [ɔdˈdalatɕ ɕɛ], oddalić się = vzďaľovať sa
 
 # locomotion
 1 V skakać {skakać} [ˈskakatɕ], skoczyć = skákať
@@ -112,6 +113,7 @@
 2 V świstać {świstać} [ˈɕfʲistatɕ], świsnąć = svišťať
 2 V toczyć {toczyć} [ˈtɔtʂɨtɕ], potoczyć (B) = váľať
 3 V tarzać {tarzać} [ˈtaʐatɕ], - = váľať
+2 V przylatywać {przylatywać} [pʂɨlaˈtɨvatɕ], przylecieć = priletieť
 
 # manipulation
 1 V trzymać {trzymać} [ˈtʂɨmatɕ], potrzymać (B) = držať
@@ -345,3 +347,5 @@
 2 V nadeptywać {nadeptywać} [nadɛpˈtɨvatɕ], nadepnąć (na + B) = šliapnúť
 2 V deptać {deptać} [ˈdɛptatɕ], zdeptać (B) = šliapnúť
 3 AV imponująco {imponująco} [impɔnuˈjɔntsɔ] = pôsobivo
+2 V zdejmować {zdejmować} [zdɛjˈmɔvatɕ], zdjąć (B) = zvesiť
+1 V opuszczać {opuszczać} [ɔˈpuʂtʂatɕ], opuścić (B) = spúšťať

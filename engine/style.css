@@ -172,6 +172,33 @@ button.go { background: var(--accent); border-color: var(--accent); color: #fff;
 button.go:disabled { opacity: .45; cursor: default; }
 button.next { margin-top: 10px; }
 
+/* ---- the dictionary's categories: the way up to the root, the subcategories, a category's code when no word names it ---- */
+.cat-chain { display: flex; flex-wrap: wrap; gap: 2px 4px; align-items: baseline; margin: 4px 0; }
+.cat-sep { color: var(--mute); }
+.cat-code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 14px; font-weight: 400; color: var(--mute); }
+
+/* ---- the overview: structures and forms with examples, the words in the colours of their parts of speech ---------------- */
+:root { --pos-N: #1d4ed8; --pos-V: #dc2626; --pos-AN: #38bdf8; --pos-AV: #ea580c; --pos-ART: #6b7280; --pos-P: #7c3aed; --pos-PRE: #16a34a; --pos-CON: #ca8a04; --pos-NUM: #6b7280; --pos-PAR: #6b7280; --pos-INT: #6b7280; --pos-PHR: #6b7280; }   /* verb red, adverb orange, noun dark blue, adjective light blue, pronoun violet, preposition green, conjunction yellow, the rest grey */
+@media (prefers-color-scheme: dark) {
+  :root { --pos-N: #60a5fa; --pos-V: #f87171; --pos-AN: #7dd3fc; --pos-AV: #fb923c; --pos-ART: #9ca3af; --pos-P: #a78bfa; --pos-PRE: #4ade80; --pos-CON: #facc15; --pos-NUM: #9ca3af; --pos-PAR: #9ca3af; --pos-INT: #9ca3af; --pos-PHR: #9ca3af; }
+}
+.overview h3 { margin: 10px 0 4px; font-size: 18px; }
+.overview h3 + h3, .overview .ov-row + h3 { margin-top: 22px; }
+.overview h4 { margin: 14px 0 4px; font-size: 12px; color: var(--mute); text-transform: uppercase; letter-spacing: .05em; }
+.ov-help { margin: 0 0 8px; font-size: 14px; }
+.ov-legend { display: flex; flex-wrap: wrap; gap: 2px 12px; font-size: 13px; margin-bottom: 6px; }
+.ov-row { display: grid; grid-template-columns: minmax(130px, 36%) 1fr; gap: 2px 12px; align-items: baseline; width: 100%; padding: 6px 8px; border: 0; border-radius: 8px; background: none; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+.ov-row:hover { background: var(--bg); }
+.ov-label { color: var(--mute); font-size: 14px; }
+.ov-ex { font-size: 18px; line-height: 1.4; overflow-wrap: anywhere; }
+.ov-ex mark { background: none; color: var(--accent); font-weight: 700; }
+.ov-hint { font-size: 13px; }
+.pos-N { color: var(--pos-N); } .pos-V { color: var(--pos-V); } .pos-AN { color: var(--pos-AN); } .pos-AV { color: var(--pos-AV); }
+.pos-ART { color: var(--pos-ART); } .pos-P { color: var(--pos-P); } .pos-PRE { color: var(--pos-PRE); } .pos-CON { color: var(--pos-CON); }
+.pos-NUM { color: var(--pos-NUM); } .pos-PAR { color: var(--pos-PAR); } .pos-INT { color: var(--pos-INT); } .pos-PHR { color: var(--pos-PHR); }
+.ov-legend .pos { font-weight: 600; }
+@media (max-width: 600px) { .ov-row { grid-template-columns: 1fr; } .ov-ex { font-size: 17px; } }
+
 /* ---- a word's example sentences -------------------------------------------------------------------------------------- */
 #examples { margin-top: 8px; display: grid; gap: 6px; }
 #examples .example { padding: 6px 10px; border-left: 3px solid var(--accent); background: var(--bg); border-radius: 6px; cursor: pointer; }
@@ -260,6 +287,16 @@ body[data-group="sentences"] #prompt { font-size: 24px; line-height: 1.35; }
 .example { padding: 4px 0; cursor: pointer; }
 .example:hover { color: var(--accent); }
 .search-row .stats-toggle { flex: 0 0 auto; font-size: 14px; }
+/* Chinese characters: the glyph, a character's row (component link · layout · strokes · "in N characters"), the component lists */
+.entry-head h2.glyph { font-size: 56px; line-height: 1.1; }
+.char-row { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; padding: 4px 0; font-size: 20px; }
+.char-row .mute, .char-row .comp-more { font-size: 14px; }
+.char-row.sub { padding-left: 24px; font-size: 17px; }
+.char-row .layout .comp-link { font-weight: 500; }
+.comp-more { color: var(--accent); text-decoration: none; }
+.comp-more:hover { text-decoration: underline; }
+.word-list.chars .comp-link { font-size: 22px; }
+.word-list.chars .via .comp-link { font-weight: 400; opacity: .75; }
 .stats { margin: 8px 0 12px; }
 .stats-total { color: var(--mute); margin-bottom: 6px; }
 .stats-row { display: grid; grid-template-columns: 42px 1fr 90px; gap: 10px; align-items: center; margin: 4px 0; }

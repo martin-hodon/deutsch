@@ -64,6 +64,9 @@
 3 V ammontare {ammontare} [amːonˈtaːre], essere (a) = činiť
 1 V funzionare {funzionare} [funtsjoˈnaːre] = fungovať
 2 N la presenza {presenza} [preˈzɛntsa], presenze = prítomnosť
+2 V svanire {svanire} [zvaˈniːre], isc, essere = zaniknúť
+2 V scomparire {scomparire} [skomːpaˈriːre], irr, scomparso, essere = zaniknúť
+3 V estinguersi {estinguersi} [esˈtiŋɡwersi], estinto = zaniknúť
 
 # change-events
 1 V diventare {diventare} [divenˈtaːre], essere = stať sa
@@ -387,6 +390,10 @@
 2 V collassare {collassare} [kolːaˈsːaːre], essere = skolabovať
 2 V crollare {crollare} [kroˈlːaːre], essere = skolabovať
 2 V orientarsi {orientarsi} [orjenˈtarsi] = vyznať sa
+2 AN finito {finito} [fiˈniːto], finita = konečný
+2 N la diminuzione {diminuzione} [diminuˈtsjoːne], diminuzioni = úbytok
+2 N il calo {calo} [ˈkaːlo], cali = úbytok
+2 V ingrandirsi {ingrandirsi} [inɡranˈdirsi], isc = zväčšiť sa
 
 # relations
 1 AN uguale {uguale} [uˈɡwaːle] = rovnaký
@@ -714,6 +721,12 @@
 2 V essere d'accordo {essere d'accordo} [ˈɛsːere daˈkːɔrdo], irr, stato, essere (con) = zhodovať sa
 2 V coincidere {coincidere} [koinˈtʃiːdere], coinciso (con) = zhodovať sa
 2 V appartenere {appartenere} [apːarteˈneːre], irr, essere (a) = patriť k tomu
+1 N il tutto {tutto} [ˈtutːo], - = celok
+2 N l'insieme (m) {insieme} [inˈsjɛːme], insiemi = celok
+2 N il limite inferiore {limite inferiore} [ˈliːmite infeˈrjoːre], limiti inferiori = dolná hranica
+2 N il disinteresse {dis|interesse} [dizinteˈrɛsːe], - = nezáujem
+2 N l'indifferenza (f) {in|differenza} [indifːeˈrɛntsa], - = nezáujem
+2 V moltiplicare {moltiplicare} [moltipliˈkaːre] (per) = násobiť
 
 # transfer-basic-verbs
 1 V dare {dare} [ˈdaːre], irr = dať
@@ -853,6 +866,8 @@
 1 V tirare fuori {tirare fuori} [tiˈraːre ˈfwɔːri] = vytiahnuť
 2 V estrarre {estrarre} [esˈtrarːe], irr, estratto = vytiahnuť
 1 V stare {stare} [ˈstaːre], irr, essere = nachádzať sa
+2 AN ritrovato {ri|trovato} [ritroˈvaːto], ritrovata = nájdený
+2 AN in perdita {in perdita} [in ˈpɛrdita] = stratový
 
 # action-and-use
 1 N l'azione (f) {azione} [atˈtsjoːne], azioni = akcia (činnosť)
@@ -1389,6 +1404,9 @@
 2 V rovinare {rovinare} [roviˈnaːre] = pokaziť
 2 V fraintendere {fraintendere} [frainˈtɛndere], franteso = nepochopiť
 2 V capire male {capire male} [kaˈpiːre ˈmaːle], isc = nepochopiť
+2 V scartare {scartare} [skarˈtaːre] = rozbaliť
+3 V spacchettare {spacchettare} [spakːeˈtːaːre] = rozbaliť
+1 V allontanarsi {allontanarsi} [alːontaˈnarsi] (da) = vzdialiť sa
 
 # change
 2 V manifestare {manifestare} [manifesˈtaːre] = prejaviť
@@ -1419,6 +1437,7 @@
 2 V ricoprire {ricoprire} [rikoˈpriːre], ricoperto (di) = obložiť
 2 V fasciare {fasciare} [faˈʃːaːre] = obviazať
 2 V bendare {bendare} [benˈdaːre] = obviazať
+3 V ammorbidirsi {ammorbidirsi} [amːorbiˈdirsi], isc = zmäknúť
 
 # more
 1 AN altro {altro} [ˈaltro], altra = ďalší

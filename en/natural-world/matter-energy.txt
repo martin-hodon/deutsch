@@ -79,6 +79,8 @@
 3 V pollute {pol|lute} [pəˈluːt] (sth) = kontaminovať
 2 V dry up {dry·up} [draɪ ˈʌp] = vyschnúť
 2 V dry out {dry·out} [draɪ ˈaʊt] = vyschnúť
+2 AN solid {solid} [ˈsɒlɪd] = tuhý
+2 V get damp {get damp} [ɡet ˈdæmp], got damp/got damp = zvlhnúť
 # fire-light
 1 V burn {burn} [bɜːn], burnt/burnt = horieť
 1 V be on fire {be on fire} [bi ɒn ˈfaɪə] = horieť
@@ -130,6 +132,8 @@
 3 N glimmer {glim|mer} [ˈɡlɪmə], glimmers = záblesk
 3 N flash {flash} [flæʃ], flashes = záblesk
 3 N shimmer {shim|mer} [ˈʃɪmə], - = záblesk
+2 V extinguish {extinguish} [ɪkˈstɪŋɡwɪʃ] (sth) = hasiť
+2 V put out {put·out} [pʊt ˈaʊt], put out/put out (sth) = hasiť
 # energy-forces
 1 N energy {en|er|gy} [ˈenədʒɪ], energies = energia
 3 AN energy-intensive {energy-intensive} [ˈenədʒɪ ɪnˌtensɪv] = energeticky náročný

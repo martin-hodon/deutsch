@@ -39,6 +39,7 @@
 - 2 AN aufrecht {auf|recht} [ˈaʊfʁɛçt] = vzpriamený, rovný
 3 V sich lümmeln {sich lümmeln} [zɪç ˈlʏməln], hat = rozvaliť sa, zvaliť sa
 2 PHR auf Zehenspitzen gehen {auf Zehen|spitzen gehen} [aʊf ˈtseːənʃpɪtsən ˈɡeːən] = chodiť po špičkách
+3 V abrücken {ab·rücken} [ˈapʁʏkən], ist (von D) = vzďaľovať sa
 
 # locomotion
 1 V rennen {rennen} [ˈʁɛnən], rennt/rannte/gerannt [ʁɛnt/ˈʁantə/ɡəˈʁant], ist = bežať, utekať
@@ -118,6 +119,7 @@
 3 V sausen {sausen} [ˈzaʊzən], ist = svišťať, uháňať
 3 V wälzen {wälzen} [ˈvɛltsən], hat (A, sich A) = váľať, prevaľovať
 3 V stöhnen {stöhnen} [ˈʃtøːnən], hat = stonať
+2 V einfliegen {ein·fliegen} [ˈaɪnfliːɡən], fliegt ein/flog ein/eingeflogen [fliːkt aɪn/floːk aɪn/ˈaɪnɡəfloːɡən], ist = priletieť
 
 # manipulation
 1 V halten {halten} [ˈhaltən], hält/hielt/gehalten [hɛlt/hiːlt/ɡəˈhaltən], hat (für A, von D) = držať, zastaviť
@@ -327,3 +329,5 @@
 3 V anfassen {an·fassen} [ˈanfasən], hat (A) = dotknúť sa, chytiť
 3 V verschlingen {ver|schlingen} [fɛɐˈʃlɪŋən], verschlingt/verschlang/verschlungen [fɛɐˈʃlɪŋt/fɛɐˈʃlaŋ/fɛɐˈʃlʊŋən], hat (A) = hltať, pohltiť
 3 V sich auswachsen {sich aus·wachsen} [zɪç ˈaʊsvaksən], wächst aus/wuchs aus/ausgewachsen [vɛkst aʊs/vuːks aʊs/ˈaʊsɡəvaksən], hat (zu D) = vyvinúť sa, prerásť
+3 V abhängen {ab·hängen} [ˈaphɛŋən], hängt ab/hängte ab/abgehängt [hɛŋt ap/ˈhɛŋtə ap/ˈapɡəhɛŋt], hat (A) = zvesiť
+2 V senken {senken} [ˈzɛŋkən], hat (A) = spúšťať

@@ -92,6 +92,8 @@
 2 N nature reserve {nature reserve} [ˈneɪtʃə rɪˌzɜːv], nature reserves = prírodná rezervácia
 3 N tilt {tilt} [tɪlt], tilts = sklon
 3 V peak {peak} [piːk] = vrcholiť
+2 N foot {foot} [fʊt], feet (of) = úpätie
+3 N base {base} [beɪs], bases (of) = úpätie
 # surface-materials
 1 N rock {rock} [rɒk], rocks = skala
 3 N boulder {boul|der} [ˈbəʊldə], boulders = skalný blok

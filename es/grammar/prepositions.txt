@@ -75,3 +75,7 @@
 
 # more
 2 PHR independientemente de {independientemente de} [independjenteˈmente ðe] = bez ohľadu na
+
+# language-specific closed words (no Slovak word: a description)
+1 PRE más de {más de} [mas de] = viac ako
+1 PRE más que {más que} [mas ke] = viac ako

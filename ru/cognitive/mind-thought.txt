@@ -205,6 +205,8 @@
 3 AV этически {этически} [ɪˈtʲitɕɪskʲɪ] = eticky
 3 AV неоднородно {неоднородно} [nʲɪədnɐˈrodnə] = nejednotne
 3 AV однородно {однородно} [ɐdnɐˈrodnə] = homogénne
+2 AN нелогичный {не|логичный} [nʲɪlɐˈɡʲitɕnɨj] = nelogický
+3 AN некомпетентный {не|компетентный} [nʲɪkəmpʲɪˈtʲentnɨj] = nekompetentný
 
 # knowing
 1 V знать {знать} [znatʲ], - = vedieť
@@ -374,6 +376,8 @@
 3 AV растерянно {растерянно} [rɐˈsʲtʲerʲɪnːə] = bezradne
 3 AV связно {связно} [ˈsvʲaznə] = súvisle
 3 AV правдоподобно {правдоподобно} [prəvdəpɐˈdobnə] = vierohodne
+2 N незнание {не|знание} [nʲɪˈznanʲɪjə], с, - = nevedomosť
+3 N невежество {не|вежество} [nʲɪˈvʲeʐɨstvə], с, - = nevedomosť
 
 # memory
 1 N память {память} [ˈpamʲɪtʲ], ж, - = pamäť (schopnosť)
@@ -483,6 +487,7 @@
 2 AV тайно {тайно} [ˈtajnə] = tajne
 3 AV таинственно {таинственно} [tɐˈinstvʲɪnːə] = tajomne
 2 AV неизбежно {неизбежно} [nʲɪɪzˈbʲeʐnə] = neodvratne
+1 V быть правым {быть правым} [bɨtʲ ˈpravɨm], - = mať pravdu
 
 # more
 1 V считать {считать} [ɕːɪˈtatʲ], счесть (Т) = považovať

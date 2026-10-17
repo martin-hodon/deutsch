@@ -210,3 +210,9 @@
 2 N 漏洞 {漏洞} [lòudòng], 个 = diera
 2 N 漏洞 {漏洞} [lòudòng], 个 = medzera
 2 AN 平坦 {平坦} [píngtǎn] = plochý
+3 AN 不对称 {不对称} [bù duìchèn] = asymetrický
+3 AN 二维 {二维} [èrwéi] = dvojrozmerný
+3 AN 平面 {平面} [píngmiàn] = dvojrozmerný
+3 N 钝度 {钝度} [dùndù], - = tuposť
+3 N 不对称 {不对称} [bù duìchèn], - = asymetria
+2 N 曲线 {曲线} [qūxiàn], 条 = krivka

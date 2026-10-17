@@ -128,6 +128,10 @@
 2 N la razza {razza} [ˈrattsa], razze = plemeno
 2 N il recinto {recinto} [reˈtʃinto], recinti = ohrada
 1 N la gallina {gallina} [ɡaˈlːiːna], galline = sliepka
+2 N il montone {montone} [monˈtoːne], montoni = baran
+3 N l'ariete (m) {ariete} [aˈrjɛːte], arieti = baran
+2 N il caprone {caprone} [kaˈproːne], caproni = cap
+3 N il becco {becco} [ˈbekːo], becchi = cap
 
 # birds
 1 N l'uccello (m) {uccello} [utˈtʃɛlːo], uccelli = vták
@@ -176,6 +180,9 @@
 3 N la quaglia {quaglia} [ˈkwaʎːa], quaglie = prepelica
 3 N lo scricciolo {scricciolo} [ˈskrittʃolo], scriccioli = oriešok
 3 N l'astore (m) {astore} [asˈtoːre], astori = jastrab
+3 N il maschio dell'anatra {maschio dell'anatra} [ˈmaskjo deˈlːaːnatra], maschi dell'anatra = káčer
+3 N l'oco (m) {oco} [ˈɔːko], ochi = gunár
+3 N il maschio dell'oca {maschio dell'oca} [ˈmaskjo deˈlːɔːka], maschi dell'oca = gunár
 
 # fish-reptiles-amphibians
 1 N il pesce {pesce} [ˈpeʃːe], pesci = ryba

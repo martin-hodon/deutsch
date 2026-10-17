@@ -69,6 +69,7 @@ AN zaviazaný
 N zdržanlivosť
 AN zdržanlivý : adverb zdržanlivo
 N chamtivosť
+N štedrosť
 AN chamtivý : adverb chamtivo
 AN dychtivý : adverb dychtivo
 N žiadostivosť
@@ -114,6 +115,7 @@ V charakterizovať
 N osobnosť
 N návyk
 V zvyknúť si
+V odvyknúť si
 N zlozvyk
 N správanie
 V správať sa
@@ -135,6 +137,7 @@ AN milý : adverb milo
 AN krutý : adverb kruto
 N krutosť
 AN prísny : adverb prísne
+AN zhovievavý
 N prísnosť
 AN tvrdohlavý : adverb tvrdohlavo
 AN opatrný : adverb opatrne
@@ -236,6 +239,7 @@ AN vzorný : adverb vzorne
 N ochota pomáhať
 N morálka
 AN morálny : adverb morálne
+AN nemorálny
 N pohoršenie
 N autorita
 AN autoritársky

@@ -75,6 +75,8 @@
 2 V pourrir {pourrir} [puˈʁiʁ] = hniť
 2 V étouffer {étouffer} [etuˈfe] = udusiť
 2 AV vivement {vive|ment} [vivˈmɑ̃] = živo
+1 N la naissance {naissance} [nɛˈsɑ̃s], naissances = narodenie
+2 V rajeunir {ra|jeunir} [ʁaʒœˈniʁ] = mladnúť
 
 # body-functions
 1 V respirer {respirer} [ʁɛspiˈʁe] = dýchať
@@ -137,6 +139,9 @@
 2 V se taire {se taire} [sə ˈtɛʁ], irr, tu = zmĺknuť
 2 AN fort comme un bœuf {fort comme un bœuf} [fɔʁ kɔm œ̃ ˈbœf] = silný ako medveď
 3 AV infatigablement {infatigable|ment} [ɛ̃fatiɡabləˈmɑ̃] = neúnavne
+2 N la veille {veille} [vɛj], veilles = bdenie
+2 V veiller {veiller} [vɛˈje] = bdieť
+2 V endormir {en|dormir} [ɑ̃dɔʁˈmiʁ], irr, endormi = uspať
 
 # nourishment
 1 V manger {manger} [mɑ̃ˈʒe] = jesť
@@ -167,6 +172,7 @@
 2 V lécher {lécher} [leˈʃe] = olízať
 3 V ronger {ronger} [ʁɔ̃ˈʒe] = hlodať
 3 V grignoter {grignoter} [ɡʁiɲɔˈte] = chrúmať
+3 N la satiété {satiété} [satjeˈte], satiétés = sýtosť
 
 # senses-instinct
 2 N l'instinct (m) {instinct} [ɛ̃sˈtɛ̃], instincts = inštinkt

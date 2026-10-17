@@ -168,6 +168,9 @@
 1 AN molto contagioso {molto contagioso} [ˈmolto kontaˈdʒoːzo], molto contagiosa = vysoko nákazlivý
 2 AN altamente contagioso {altamente contagioso} [altaˈmente kontaˈdʒoːzo], altamente contagiosa = vysoko nákazlivý
 2 AN non autosufficiente {non autosufficiente} [non autosufːiˈtʃɛnte] = odkázaný na opateru
+3 AN vedente {vedente} [veˈdɛnte] = vidiaci
+2 PHR riprendere i sensi {riprendere i sensi} [riˈprɛndere i ˈsɛnsi] = prebrať sa
+2 PHR rinvenire {rinvenire} [rinveˈniːre] = prebrať sa
 
 # treatment
 1 N la medicina {medicina} [mediˈtʃiːna], medicine = medicína

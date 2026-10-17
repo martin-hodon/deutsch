@@ -147,6 +147,10 @@
 2 PRE pomiędzy {po|między} [pɔˈmʲɛndzɨ] (N, B) = medzi
 2 PRE poniżej {po|niżej} [pɔˈɲiʐɛj] (D) = pod
 1 PRE ponad {ponad} [ˈpɔnat] (B, N) = nad
+2 N pełnia {pełnia} [ˈpɛwɲa], ż, - = plnosť
+3 N pełność {pełność} [ˈpɛwnɔɕtɕ], ż, - = plnosť
+2 AV od środka {od środka} [ɔt ˈɕrɔtka] = zvnútra
+2 AV od wewnątrz {od wewnątrz} [ɔd ˈvɛvnɔntʂ] = zvnútra
 
 # direction-distance
 1 N kierunek {kierunek} [kjɛˈrunɛk], m, kierunki = smer
@@ -232,6 +236,7 @@
 2 AV oddzielnie {oddzielnie} [ɔdˈdʑɛlɲɛ] = oddelene
 3 AV prostopadle {prostopadle} [prɔstɔˈpadlɛ] = kolmo
 3 AV równolegle {równolegle} [ruvnɔˈlɛɡlɛ] = rovnobežne
+1 N ten świat {ten świat} [tɛn ɕfʲat], m, - = tento svet
 
 # motion
 2 V poruszać {poruszać} [pɔˈruʂatɕ], poruszyć (B) = hýbať
@@ -458,6 +463,9 @@
 2 V nadciągać {nadciągać} [nadˈtɕɔŋɡatɕ], nadciągnąć = pritiahnuť
 2 V awansować {awansować} [avanˈsɔvatɕ], - = postúpiť (vyššie)
 1 AV pilnie {pilnie} [ˈpʲilɲɛ] = súrne
+2 N odjazd {od|jazd} [ˈɔdjast], m, odjazdy = odchod
+2 N odejście {odejście} [ɔˈdɛjɕtɕɛ], n, odejścia = odchod
+2 V ubywać {ubywać} [uˈbɨvatɕ], ubyć = ubudnúť
 
 # travel
 1 V przyjeżdżać {przyjeżdżać} [pʂɨˈjɛʐdʐatɕ], przyjechać = pricestovať

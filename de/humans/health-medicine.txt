@@ -142,6 +142,8 @@
 3 AN hochansteckend {hoch|ansteckend} [ˈhoːxanʃtɛkənt] = vysoko nákazlivý
 3 AN pflegebedürftig {pflege|bedürftig} [ˈpfleːɡəbədʏʁftɪç] = odkázaný na opateru
 3 AN resistent {resistent} [ʁezɪsˈtɛnt] = odolný, rezistentný
+3 AN sehend {sehend} [ˈzeːənt] = vidiaci
+3 PHR zu sich kommen {zu sich kommen} [tsuː zɪç ˈkɔmən] = prebrať sa
 
 # treatment
 2 N die Medizin {Medizin} [mediˈtsiːn], Medizinen = medicína, liek

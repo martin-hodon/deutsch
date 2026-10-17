@@ -80,7 +80,7 @@ N pastier
 N ovčiar
 N maštaľ
 N stodola
-V pásť (sa)
+V pásť (sa) : of jesť @ zvieratá
 N plot
 V oplotiť
 N sedlo
@@ -102,7 +102,7 @@ N koryto
 V dojiť
 V strihať
 N vemeno
-N búda
+N búda : of dom @ psy
 N jazdec
 
 # garden-hunt-fish

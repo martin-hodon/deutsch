@@ -115,6 +115,9 @@
 3 AV mensuellement {mensuelle|ment} [mɑ̃sɥɛlˈmɑ̃] = mesačne
 3 AV trimestriellement {trimestrielle|ment} [tʁimɛstʁijɛlˈmɑ̃] = štvrťročne
 3 AV cycliquement {cyclique|ment} [siklikˈmɑ̃] = cyklicky
+2 AN à long terme {à long terme} [a lɔ̃ tɛʁm] = dlhodobý
+2 AV définitivement {définitive|ment} [definitivˈmɑ̃] = natrvalo
+1 AV pour toujours {pour toujours} [puʁ tuˈʒuʁ] = natrvalo
 
 # day-parts-and-week
 1 N le matin {matin} [maˈtɛ̃], matins = ráno
@@ -150,6 +153,9 @@
 3 AN saisonnier {saisonnier} [sɛzɔˈnje], saisonnière = sezónny
 3 N l'heure matinale (f) {heure matinale} [œʁ matiˈnal], heures matinales = ranná hodina
 3 AV saisonnièrement {saisonnière|ment} [sɛzɔnjɛʁˈmɑ̃] = sezónne
+1 AV le matin {le matin} [lə maˈtɛ̃] = predpoludním
+2 AV avant midi {avant midi} [avɑ̃ miˈdi] = predpoludním
+1 AV à minuit {à minuit} [a miˈnɥi] = o polnoci
 
 # relative-time
 1 AV ensuite {ensuite} [ɑ̃ˈsɥit] = potom
@@ -306,6 +312,10 @@
 3 AV journellement {journelle|ment} [ʒuʁnɛlˈmɑ̃] = každodenne
 2 PRE lors de {lors de} [lɔʁ ˈdə] = počas
 2 CON tandis que {tandis que} [tɑ̃di ˈkə] = zatiaľ čo
+1 N le lendemain {lendemain} [lɑ̃dəˈmɛ̃], lendemains = nasledujúci deň
+2 N le jour suivant {jour suivant} [ʒuʁ sɥiˈvɑ̃], jours suivants = nasledujúci deň
+2 AV au plus tôt {au plus tôt} [o ply to] = najskôr
+2 AV exceptionnellement {exceptionnelle|ment} [ɛksɛpsjɔnɛlˈmɑ̃] = výnimočne
 
 # months
 2 N janvier (m) {janvier} [ʒɑ̃ˈvje], - = január

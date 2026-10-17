@@ -91,6 +91,7 @@
 3 N der Saum {Saum} [zaʊm], Säume = lem
 3 N die Schnalle {Schnalle} [ˈʃnalə], Schnallen = spona, pracka
 3 N der Flicken {Flicken} [ˈflɪkən], Flicken = záplata
+3 V aufknöpfen {auf·knöpfen} [ˈaʊfknœpfən], hat (A) = rozopnúť
 
 # materials-making
 2 N der Stoff {Stoff} [ʃtɔf], Stoffe = látka
@@ -159,3 +160,4 @@
 2 N der Anhänger {An|hänger} [ˈanhɛŋɐ], Anhänger = prívesok, prívrženec, príves
 2 N die Maske {Maske} [ˈmaskə], Masken = maska
 - 3 V maskieren {maskieren} [masˈkiːʁən], hat (sich A) = maskovať, zamaskovať
+2 AN angezogen {an|gezogen} [ˈanɡətsoːɡən] = oblečený

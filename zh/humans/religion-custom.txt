@@ -168,6 +168,7 @@
 3 AV 奇妙地 {奇妙地} [qímiàode] = podivuhodne
 3 AV 虔诚地 {虔诚地} [qiánchéngde] = nábožne
 1 N 歌声 {歌声} [gēshēng], - = spev
+3 N 必死性 {必死性} [bìsǐxìng], - = smrteľnosť
 
 # magic-fate
 2 N 魔法 {魔法} [mófǎ], - = mágia

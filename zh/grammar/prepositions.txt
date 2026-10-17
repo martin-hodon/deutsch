@@ -118,3 +118,6 @@
 1 PRE 比 {比} [bǐ] = porovnávacia predložka (比)
 1 PRE 离 {离} [lí] = od (vzdialenosť)
 2 PRE 小于 {小于} [xiǎoyú] = menej ako
+2 PRE 大于 {大于} [dàyú] = viac ako
+2 PRE 多于 {多于} [duōyú] = viac ako
+1 PRE 超过 {超过} [chāoguò] = viac ako

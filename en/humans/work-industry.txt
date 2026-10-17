@@ -191,6 +191,10 @@
 3 V live off {live·off} [lɪv ˈɒf] (sth) = žiť z
 2 V complain {complain} [kəmˈpleɪn] (about) = reklamovať
 3 N raise {raise} [reɪz], raises = zvýšenie platu
+2 N employment {employ|ment} [ɪmˈplɔɪmənt], - = zamestnanosť
+2 N subordinate {sub|ordinate} [səˈbɔːdɪnət], subordinates = podriadený
+2 N layman {lay|man} [ˈleɪmən], laymen = laik
+3 N demotion {de|motion} [dɪˈməʊʃən], demotions = degradácia
 # making-doing
 1 V make {make} [meɪk], made/made = robiť
 1 V do {do} [duː], did/done = robiť
@@ -251,6 +255,8 @@
 3 V file {file} [faɪl] (sth) = pilovať
 3 V dissect {dissect} [daɪˈsekt] (sth) = vypreparovať
 3 N fix {fix} [fɪks], fixes = oprava (poškodeného)
+2 V demolish {demolish} [dɪˈmɒlɪʃ] (sth) = búrať
+3 V tear down {tear·down} [teə ˈdaʊn], tore down/torn down (sth) = búrať
 # tools
 1 N hammer {hammer} [ˈhæmə], hammers = kladivo
 2 V hammer {hammer} [ˈhæmə] = búchať kladivom

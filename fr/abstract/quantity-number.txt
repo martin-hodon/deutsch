@@ -176,6 +176,8 @@
 3 AV abondamment {abondamment} [abɔ̃daˈmɑ̃] = hojne
 2 AV différemment {différem|ment} [difeʁaˈmɑ̃] = rôzne
 2 AV davantage {davantage} [davɑ̃ˈtaʒ] = viac
+2 N la valeur minimale {valeur minimale} [valœʁ miniˈmal], valeurs minimales = minimálna hodnota
+3 V dénouer {dé|nouer} [denuˈe] = rozviazať
 
 # counting-measuring
 1 N le nombre {nombre} [nɔ̃bʁ], nombres = číslo (matematické)
@@ -230,6 +232,7 @@
 2 N le mètre cube {mètre cube} [mɛtʁ kyb], mètres cubes = kubický meter
 3 AV quantitativement {quantitative|ment} [kɑ̃titativˈmɑ̃] = kvantitatívne
 2 AV au maximum {au maximum} [o maksiˈmɔm] = maximálne
+3 N le dénominateur {dénominateur} [denɔminaˈtœʁ], dénominateurs = menovateľ
 
 # more
 3 N le billion {billion} [biˈljɔ̃], billions = bilión

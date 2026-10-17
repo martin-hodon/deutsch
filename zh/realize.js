@@ -154,11 +154,11 @@ export async function loadChinese(base, { meaning = null, vary = null } = {}) {
       const toks = phr.includes("…") ? phr.split("…").flatMap((x, i) => (i ? [...o.toks, ...(x ? [x] : [])] : x ? [x] : [])) : [phr, ...o.toks];
       (place === "post" ? after : before).push(...toks);
     }
-    if (neitherObj) { neg = neg ?? "不"; mid.push(...objs, "都"); objs.length = 0; }   // (咖啡和茶都不喝)
     if (ctx.dropSubj && objs.length === 1 && objs[0] === "它") objs.length = 0;   // (尝了尝: the thing said once)
     for (const x of all("pp")) { const i = x.indexOf(":"), r = x.slice(0, i); if (x.slice(i + 1) === "it" && A("clause")) continue; const p = relPhrase(r, x.slice(i + 1), ctx); (p.post ? after : before).push(...p.toks); }
     for (const v of all("by")) before.push("被", ...np(v, ctx).toks);
     const front = [], mid = [], end = [];
+    if (neitherObj) { neg = neg ?? "不"; mid.push(...objs, "都"); objs.length = 0; }   // (咖啡和茶都不喝)
     for (const v of all("role")) front.push("作为", ...np(v.replace(/^[a-z.]+:/, "none:"), ctx).toks, "，");
     for (const k of ["because-of", "despite", "during", "instead-of"]) for (const v of all(k)) front.push(...say("rel", k).split(" "), ...np(v, ctx).toks, ...(k === "during" ? ["期间"] : []));
     // the adverbs: time words first or after the subject (今天我... / 我今天...: after a pronoun subject), frequency and

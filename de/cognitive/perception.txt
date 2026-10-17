@@ -96,6 +96,7 @@
 3 V erstrahlen {er|strahlen} [ɛɐˈʃtʁaːlən], ist = zažiariť, rozžiariť sa
 3 V schielen {schielen} [ˈʃiːlən], hat (auf A) = škúliť, pozerať spod oka
 3 V flimmern {flimmern} [ˈflɪmɐn], hat = mihotať sa, blikať
+3 N die Blindheit {Blind|heit} [ˈblɪnthaɪt], - = slepota
 
 # hearing
 1 V hören {hören} [ˈhøːʁən], hat (A, von D, auf A) = počuť, počúvať
@@ -112,6 +113,7 @@
 3 V lauschen {lauschen} [ˈlaʊʃən], hat (D) = načúvať, počúvať
 3 V ertönen {ertönen} [ɛɐˈtøːnən], ist = zaznieť, ozvať sa
 3 V rauschen {rauschen} [ˈʁaʊʃən], hat/ist = šumieť, hučať
+3 N die Taubheit {Taub|heit} [ˈtaʊphaɪt], - = hluchota
 
 # other-senses
 2 V riechen {riechen} [ˈʁiːçən], riecht/roch/gerochen [ʁiːçt/ʁɔx/ɡəˈʁɔxən], hat (nach D, an D) = čuchať, voňať
@@ -160,6 +162,8 @@
 3 V kitzeln {kitzeln} [ˈkɪtsəln], hat (A) = štekliť
 3 V wittern {wittern} [ˈvɪtɐn], hat (A) = vetriť, zacítiť
 3 V schnuppern {schnuppern} [ˈʃnʊpɐn], hat (an D) = ovoniavať, čuchať
+3 AN hörend {hörend} [ˈhøːʁənt] = počujúci
+2 N der Gestank {Gestank} [ɡəˈʃtaŋk], - = zápach
 
 # colors
 1 N die Farbe {Farbe} [ˈfaʁbə], Farben = farba
@@ -207,3 +211,4 @@
 3 N die Schattierung {Schattierung} [ʃaˈtiːʁʊŋ], Schattierungen = odtieň, nuansa
 2 AN türkis {türkis} [tʏɐˈkiːs] = tyrkysový
 2 AN beige {beige} [beːʒ] = béžový
+2 AN schwarzweiß {schwarz|weiß} [ˈʃvaʁtsvaɪs] = čiernobiely

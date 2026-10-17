@@ -176,6 +176,7 @@
 1 AV con successo {con·successo} [kon sutˈtʃɛsːo] = úspešne
 1 AV senza successo {senza·successo} [ˈsɛntsa sutˈtʃɛsːo] = neúspešne
 3 AV senza meta {senza·meta} [ˈsɛntsa ˈmɛːta] = bezcieľne
+2 N la generosità {generosità} [dʒeneroziˈta], generosità = štedrosť
 
 # character-traits
 1 N il carattere {carattere} [kaˈratːere], caratteri = charakter
@@ -415,6 +416,10 @@
 2 AN diligente {diligente} [diliˈdʒɛnte] = svedomitý
 2 AN ironico {ironico} [iˈrɔːniko], ironica, ironici/ironiche = ironický
 2 AV benevolmente {benevol|mente} [benevolˈmente] = blahosklonne
+2 AN immorale {im|morale} [imːoˈraːle] = nemorálny
+3 AN indulgente {indulgente} [indulˈdʒɛnte] (con, verso) = zhovievavý
+3 V disabituarsi {dis|abituarsi} [dizabituˈarsi] (da) = odvyknúť si
+2 V perdere l'abitudine {perdere l'abitudine} [ˈpɛrdere labiˈtuːdine], irr, perso (di) = odvyknúť si
 
 # character
 2 AN vigliacco {vigliacco} [viˈʎːakːo], vigliacca = zbabelý

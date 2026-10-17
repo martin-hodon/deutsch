@@ -336,6 +336,11 @@
 3 AV solidairement {solidaire|ment} [sɔlidɛʁˈmɑ̃] = solidárne
 3 AV indignement {indigne|ment} [ɛ̃diɲəˈmɑ̃] = nedôstojne
 2 AV mutuellement {mutuelle|ment} [mytɥɛlˈmɑ̃] = vzájomne
+2 AN intolérant {in|tolérant} [ɛ̃tɔleˈʁɑ̃], intolérante = netolerantný
+2 N l'infidélité (f) {in|fidélité} [ɛ̃fideliˈte], infidélités = nevera
+1 V être fidèle {être fidèle} [ɛtʁ fiˈdɛl], irr, été (à) = byť verný
+2 V se disputer {se disputer} [sə dispyˈte] = pohádať sa
+2 V se brouiller {se brouiller} [sə bʁuˈje] = pohádať sa
 
 # contact
 2 V se blottir {se blottir} [sə blɔˈtiʁ] (contre) = túliť sa

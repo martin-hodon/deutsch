@@ -56,6 +56,7 @@
 1 AV about {about} [əˈbaʊt] = približne
 1 AV as well {as well} [əz ˈwel] = aj
 1 AV nearly {nearly} [ˈnɪəlɪ] = takmer
+2 AV less and less {less and less} [ˈles ən ˈles] = čoraz menej
 # time
 1 AV now {now} [naʊ] = teraz
 1 AV then {then} [ðen] = vtedy
@@ -101,6 +102,8 @@
 1 AV possibly {possibly} [ˈpɒsɪblɪ] = prípadne
 2 AV at each other {at each other} [ət ˈiːtʃ ˈʌðə] = na seba
 1 AV sorry {sorry} [ˈsɒrɪ] = ľúto
+2 AV unwillingly {un|willing|ly} [ʌnˈwɪlɪŋlɪ] = nerád
+2 AV reluctantly {reluctant|ly} [rɪˈlʌktəntlɪ] = nerád
 # place-direction
 1 AV here {here} [hɪə] = sem
 1 AV in {in} [ɪn] = dnu (k hovoriacemu)
@@ -154,3 +157,8 @@
 
 # language-specific closed words (no Slovak word: a description)
 1 PAR would {would} [wʊd] = by
+1 AV by chance {by chance} [baɪ ˈtʃɑːns] = náhodou
+2 AV accidentally {accidental|ly} [ˌæksɪˈdentəlɪ] = náhodou
+2 AV last {last} [lɑːst] = ako posledný
+2 PHR above zero {above zero} [əˈbʌv ˈzɪərəʊ] = nad nulou
+1 PHR good morning {good morning} [ɡʊd ˈmɔːnɪŋ] = dobré ráno

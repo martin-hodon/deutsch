@@ -206,3 +206,8 @@
 1 N la dimensione {dimensione} [dimenˈsjoːne], dimensioni = rozmer
 3 AN tridimensionale {tridimensionale} [tridimensjoˈnaːle] = trojrozmerný
 3 AN sovradimensionato {sovradimensionato} [sovradimensjoˈnaːto], sovradimensionata = nadrozmerný
+3 AN asimmetrico {a|simmetrico} [asiˈmːɛːtriko], asimmetrica, asimmetrici/asimmetriche = asymetrický
+3 AN bidimensionale {bi|dimensionale} [bidimensjoˈnaːle] = dvojrozmerný
+3 N l'ottusità (f) {ottusità} [otːuziˈta], - = tuposť
+2 N l'asimmetria (f) {a|simmetria} [asimːeˈtriːa], asimmetrie = asymetria
+1 N la curva {curva} [ˈkurva], curve = krivka

@@ -148,6 +148,8 @@
 1 AN a lot {a lot} [ə ˈlɒt] (of) = veľa
 1 P a few {a few} [ə ˈfjuː] = niekoľko
 1 AV quite {quite} [kwaɪt] = dosť
+2 N minimum value {minimum value} [ˌmɪnɪməm ˈvæljuː], minimum values = minimálna hodnota
+2 V untie {un|tie} [ʌnˈtaɪ] (sth) = rozviazať
 # counting-measuring
 1 N number {number} [ˈnʌmbə], numbers = číslo (matematické)
 2 V count {count} [kaʊnt] (on, sth) = počítať
@@ -199,6 +201,7 @@
 2 N cubic metre {cubic metre} [ˈkjuːbɪk ˈmiːtə], cubic metres = kubický meter
 3 N count {count} [kaʊnt], counts = počet
 3 AV maximally {maximal|ly} [ˈmæksɪməli] = maximálne
+3 N denominator {denominator} [dɪˈnɒmɪneɪtə], denominators = menovateľ
 
 # more
 2 AN plenty of {plenty of} [ˈplenti əv] = veľa

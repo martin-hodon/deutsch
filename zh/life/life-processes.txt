@@ -108,6 +108,10 @@
 1 V 生存 {生存} [shēngcún] = prežiť
 2 N 一辈子 {一辈子} [yībèizi], - = život
 2 N 岁数 {岁数} [suìshu], - = vek
+2 N 出生 {出生} [chūshēng], - = narodenie
+3 N 诞生 {诞生} [dànshēng], - = narodenie
+2 V 变年轻 {变年轻} [biàn niánqīng] = mladnúť
+3 V 返老还童 {返老还童} [fǎnlǎohuántóng] = mladnúť
 
 # body-functions
 2 V 呼吸 {呼吸} [hūxī] = dýchať
@@ -193,6 +197,9 @@
 2 V 静下来 {静下来} [jìngxiàlái] = zmĺknuť
 3 AN 力大如牛 {力大如牛} [lìdàrúniú] = silný ako medveď
 3 AV 不知疲倦地 {不知疲倦地} [bùzhīpíjuànde] = neúnavne
+2 N 清醒 {清醒} [qīngxǐng], - = bdenie
+1 V 醒着 {醒着} [xǐngzhe] = bdieť
+3 V 哄睡 {哄睡} [hǒngshuì] = uspať
 
 # nourishment
 1 V 吃 {吃} [chī] = jesť
@@ -234,6 +241,8 @@
 3 V 舔掉 {舔掉} [tiǎndiào] = olízať
 3 V 啃 {啃} [kěn] = hlodať
 3 V 啃咬 {啃咬} [kěnyǎo] = chrúmať
+2 N 饱 {饱} [bǎo], - = sýtosť
+3 N 饱腹感 {饱腹感} [bǎofùgǎn], - = sýtosť
 
 # senses-instinct
 3 N 本能 {本能} [běnnéng], 种 = inštinkt

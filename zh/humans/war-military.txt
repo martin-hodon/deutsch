@@ -122,6 +122,8 @@
 2 V 防治 {防治} [fángzhì] = bojovať proti
 2 V 夺取 {夺取} [duóqǔ] = dobyť
 2 V 争夺 {争夺} [zhēngduó] = bojovať
+2 N 缓和 {缓和} [huǎnhé], - = deeskalácia
+3 N 降级 {降级} [jiàngjí], - = deeskalácia
 
 # army
 2 N 军队 {军队} [jūnduì], 支 = armáda
@@ -288,6 +290,8 @@
 3 V 扩军 {扩|军} [kuòjūn] = zbrojiť
 3 V 备战 {备|战} [bèizhàn] = zbrojiť
 2 V 爆 {爆} [bào] = explodovať
+3 AN 手无寸铁 {手无寸铁} [shǒuwúcùntiě] = neozbrojený
+3 AN 非武装 {非武装} [fēiwǔzhuāng] = neozbrojený
 
 # war
 2 V 抢劫 {抢劫} [qiǎngjié] = plieniť

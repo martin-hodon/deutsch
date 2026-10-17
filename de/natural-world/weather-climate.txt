@@ -120,6 +120,7 @@
 - 3 V trüben {trüben} [ˈtʁyːbən], hat (sich A) = zakaliť, pokaziť
 3 AN dürr {dürr} [dʏʁ], dürrer/am dürrsten = vyschnutý, suchý
 - 2 N die Dürre {Dürre} [ˈdʏʁə], Dürren = sucho
+3 N die Abkühlung {Ab|kühlung} [ˈapkyːlʊŋ], Abkühlungen = ochladzovanie
 
 # seasons-climate
 1 N die Jahreszeit {Jahres|zeit} [ˈjaːʁəstsaɪt], Jahreszeiten = ročné obdobie

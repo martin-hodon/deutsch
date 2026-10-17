@@ -123,6 +123,7 @@
 2 N 眼光 {眼光} [yǎnguāng], 种 = pohľad
 2 V 注视 {注视} [zhùshì] = pozorovať
 2 V 不见 {不见} [bùjiàn] = zmiznúť
+3 N 失明 {失明} [shīmíng], - = slepota
 
 # hearing
 1 V 听见 {听见} [tīngjiàn] = počuť
@@ -152,6 +153,8 @@
 3 V 戒 {戒} [jiè] = prestať
 1 V 收听 {收听} [shōutīng] = počúvať
 2 V 听取 {听取} [tīngqǔ] = vypočuť si
+3 N 耳聋 {耳聋} [ěrlóng], - = hluchota
+3 N 失聪 {失聪} [shīcōng], - = hluchota
 
 # other-senses
 2 V 闻 {闻} [wén] = čuchať
@@ -219,6 +222,10 @@
 1 V 感受 {感受} [gǎnshòu] = cítiť
 2 N 味儿 {味儿} [wèir], 股 = vôňa
 2 V 看待 {看待} [kàndài] = vnímať
+3 AN 听得见 {听得见} [tīngdejiàn] = počujúci
+2 N 臭味 {臭味} [chòuwèi], 股 = zápach
+3 N 臭气 {臭气} [chòuqì], 股 = zápach
+3 N 异味 {异味} [yìwèi], 股 = zápach
 
 # colors
 1 N 颜色 {颜色} [yánsè], 种 = farba
@@ -289,3 +296,4 @@
 3 AN 蓝绿色 {蓝绿色} [lánlǜsè] = tyrkysový
 3 AN 米色 {米色} [mǐsè] = béžový
 3 AN 米黄色 {米黄色} [mǐhuángsè] = béžový
+2 AN 黑白 {黑白} [hēibái] = čiernobiely

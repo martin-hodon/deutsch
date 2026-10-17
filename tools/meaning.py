@@ -67,7 +67,7 @@ def categories():
         if not s or s.startswith("#"): continue
         if re.match(r"^[A-Z]+:", s): continue   # a directive (BUCKET, CLOSED): read by directives()
         name, _, parents = s.partition(":")
-        name = name.strip()
+        name = name.strip(); parents = parents.split("=")[0]   # (`= concept`: what names the category -- the dictionary's, engine/meaning.js)
         if not re.fullmatch(r"[a-z][a-z-]*", name): raise SystemExit(f"categories.txt:{n}: name {name!r} (lowercase, hyphens)")
         if name in cats: raise SystemExit(f"categories.txt:{n}: {name} twice")
         cats[name] = [p.strip() for p in parents.split(",") if p.strip()]; line_of[name] = n

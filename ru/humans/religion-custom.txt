@@ -118,6 +118,7 @@
 3 AV набожно {набожно} [ˈnabəʐnə] = nábožne
 3 AV божественно {божественно} [bɐˈʐestvʲɪnːə] = božsky
 2 AV чудесно {чудесно} [tɕuˈdʲesnə] = podivuhodne
+2 N смертность {смертность} [ˈsmʲertnəstʲ], ж, - = smrteľnosť
 
 # magic-fate
 2 N магия {магия} [ˈmaɡʲɪjə], ж, - = mágia

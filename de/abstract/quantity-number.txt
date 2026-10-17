@@ -144,6 +144,8 @@
 3 N die Gesamtzahl {Gesamt|zahl} [ɡəˈzamtsaːl], Gesamtzahlen = celkový počet
 3 N der Höchstwert {Höchst|wert} [ˈhøːçstveːɐt], Höchstwerte = maximálna hodnota
 3 V verwahren {ver|wahren} [fɛɐˈvaːʁən], hat (A) = uschovať, opatrovať
+3 N der Mindestwert {Mindest|wert} [ˈmɪndəstveːɐt], Mindestwerte = minimálna hodnota
+3 V losbinden {los·binden} [ˈloːsbɪndən], bindet los/band los/losgebunden [ˈbɪndət loːs/bant loːs/ˈloːsɡəbʊndən], hat = rozviazať
 
 # counting-measuring
 1 N die Zahl {Zahl} [tsaːl], Zahlen = číslo (matematické), počet
@@ -194,6 +196,7 @@
 2 NUM eineinhalb {ein|ein|halb} [ˈaɪnaɪnhalp] = jeden a pol
 2 NUM zweieinhalb {zwei|ein|halb} [ˈtsvaɪaɪnhalp] = dva a pol
 3 N der Kubikmeter {Kubik|meter} [kuˈbiːkmeːtɐ], Kubikmeter = kubický meter
+3 N der Nenner {Nenner} [ˈnɛnɐ], Nenner = menovateľ
 
 # more
 3 N die Billion {Billion} [bɪˈljoːn], Billionen = bilión

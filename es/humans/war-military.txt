@@ -72,6 +72,7 @@
 2 N el crimen de guerra {crimen de guerra} [ˈkɾimen de ˈɡera], crímenes de guerra = vojnový zločin
 2 N la tortura {tortura} [toɾˈtuɾa], torturas = mučenie
 3 V desacreditar {desacreditar} [desakɾeðiˈtaɾ] = zdiskreditovať
+3 N la desescalada {des|escalada} [desesˈkalaða], desescaladas = deeskalácia
 
 # army
 1 N el ejército {ejército} [eˈxeɾθito], ejércitos = armáda
@@ -179,6 +180,7 @@
 3 V embestir {embestir} [embesˈtiɾ], e>i = vraziť do
 3 V parar {parar} [paˈɾaɾ] = odraziť
 2 V armarse {armarse} [aɾˈmaɾse] = zbrojiť
+2 AN desarmado {des|armado} [desaɾˈmaðo], desarmada = neozbrojený
 
 # war
 3 V saquear {saquear} [sakeˈaɾ] = plieniť

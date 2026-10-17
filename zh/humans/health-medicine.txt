@@ -171,6 +171,9 @@
 2 N 伤员 {伤员} [shāngyuán], 名 = zranený
 2 V 遭到 {遭到} [zāodào] = utrpieť
 2 V 遭遇 {遭遇} [zāoyù] = utrpieť
+3 AN 看得见 {看得见} [kàndejiàn] = vidiaci
+1 PHR 醒过来 {醒过来} [xǐngguòlai] = prebrať sa
+3 PHR 苏醒 {苏醒} [sūxǐng] = prebrať sa
 
 # treatment
 2 N 医学 {医学} [yīxué], - = medicína

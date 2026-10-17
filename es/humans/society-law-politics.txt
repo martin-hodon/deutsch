@@ -125,6 +125,8 @@
 3 AN autocrático {autocrático} [awtoˈkɾatiko], autocrática = autokratický
 2 V emigrar {emigrar} [emiˈɣɾaɾ] = emigrovať
 2 AV conjuntamente {conjuntamente} [koŋxuntaˈmente] = spoločne
+2 N el voto a favor {voto a favor} [ˈboto a faˈβoɾ], votos a favor = hlas za
+2 V inmigrar {in|migrar} [inmiˈɣɾaɾ] = imigrovať
 
 # state-politics
 1 N el estado {estado} [esˈtaðo], estados = štát
@@ -491,6 +493,10 @@
 3 V aleccionar {aleccionar} [alekθjoˈnaɾ] = poučiť
 2 V residir {residir} [resiˈðiɾ] (en) = sídliť
 2 AN constitucional {constitucional} [konstituθjoˈnal] = právnoštátny
+2 AN no violento {no violento} [no bjoˈlento], no violenta = nenásilný
+2 AN pacífico {pacífico} [paˈθifiko], pacífica = nenásilný
+3 N el súbdito {súbdito} [ˈsuβðito], súbditos = poddaný
+3 V desmovilizar {des|movilizar} [desmoβiliˈθaɾ] = demobilizovať
 
 # law-justice
 1 N la ley {ley} [lei], leyes = zákon
@@ -772,6 +778,9 @@
 2 V anular {anular} [anuˈlaɾ] = anulovať
 2 V fijar una fecha {fijar una fecha} [fiˈxaɾ ˈuna ˈfetʃa] = stanoviť termín
 2 AN pendiente {pendiente} [penˈdjente] = prebiehajúci (súdne)
+2 N la defensa {defensa} [deˈfensa], defensas = obhajoba
+1 V aprobar {aprobar} [apɾoˈβaɾ], o>ue = schváliť
+2 V autorizar {autorizar} [autoɾiˈθaɾ] = schváliť
 
 # politics
 3 V radicalizar {radicalizar} [raðikaliˈθaɾ] = radikalizovať

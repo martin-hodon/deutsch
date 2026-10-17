@@ -478,6 +478,16 @@
 3 AN informativ {informativ} [ɪnfɔʁmaˈtiːf] = informatívny, poučný
 3 AN unterdurchschnittlich {unter|durch|schnitt|lich} [ˈʊntɐdʊʁçʃnɪtlɪç] = podpriemerný
 3 AN zerstörerisch {zer|störerisch} [tsɛɐˈʃtøːʁəʁɪʃ] = ničivý
+2 AN nebensächlich {neben|sächlich} [ˈneːbənzɛçlɪç] = vedľajší
+3 AN untergeordnet {unter|geordnet} [ˈʊntɐɡəɔʁdnət] = podriadený
+3 AN implizit {implizit} [ɪmpliˈtsiːt] = implicitný
+2 AN steigend {steigend} [ˈʃtaɪɡənt] = stúpajúci
+2 AN komisch {komisch} [ˈkoːmɪʃ] = komický
+3 AN submissiv {submissiv} [zʊpmɪˈsiːf] = submisívny
+2 AN unpraktisch {un|praktisch} [ˈʊnpʁaktɪʃ] = nepraktický
+3 AN unzugänglich {un|zugänglich} [ˈʊntsuːɡɛŋlɪç] = neprístupný
+3 N die Unvollkommenheit {Un|vollkommen|heit} [ˈʊnfɔlkɔmənhaɪt], Unvollkommenheiten = nedokonalosť
+3 N die Kompliziertheit {Kompliziert|heit} [kɔmpliˈtsiːɐthaɪt], - = zložitosť
 
 # state-properties
 1 AN neu {neu} [nɔʏ] = nový
@@ -880,6 +890,14 @@
 3 AN artgerecht {art|gerecht} [ˈaːɐtɡəʁɛçt] = primeraný druhu
 3 AN sachgerecht {sach|gerecht} [ˈzaxɡəʁɛçt] = odborný, vecne správny
 3 AN verregnet {verregnet} [fɛɐˈʁeːɡnət] = upršaný, zmoknutý
+3 AN minderheitlich {minderheit|lich} [ˈmɪndɐhaɪtlɪç] = menšinový
+2 AN unzuverlässig {un|zuverlässig} [ˈʊntsuːfɛɐlɛsɪç] = nespoľahlivý
+2 AN nicht vorhanden {nicht vor|handen} [nɪçt foːɐˈhandən] = neexistujúci
+3 N die Weichheit {Weich|heit} [ˈvaɪçhaɪt], - = mäkkosť
+3 N die Langsamkeit {Langsam|keit} [ˈlaŋzaːmkaɪt], - = pomalosť
+3 N die Instabilität {Instabilität} [ɪnʃtabiliˈtɛːt], Instabilitäten = nestabilita
+2 AV möglichst wenig {möglichst wenig} [ˈmøːklɪçst ˈveːnɪç] = čo najmenej
+2 V erstarken {er|starken} [ɛɐˈʃtaʁkən], ist = silnieť
 
 # corpus-adjectives
 3 AN durchdacht {durch|dacht} [dʊʁçˈdaxt] = premyslený, dômyselný
@@ -1043,3 +1061,4 @@
 # more
 2 AV ungemein {un|gemein} [ˈʊnɡəmaɪn] = neuveriteľne
 3 AN erhöht {er|höht} [ɛɐˈhøːt] = zvýšený
+2 AN reduziert {reduziert} [ʁeduˈtsiːɐt] = znížený

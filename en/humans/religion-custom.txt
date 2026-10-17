@@ -111,6 +111,7 @@
 3 AN Protestant {Protestant} [ˈprɒtɪstənt] = evanjelický
 3 AN ecumenical {ecumenical} [ˌiːkjuˈmenɪkəl] = ekumenický
 2 N wonder {wonder} [ˈwʌndə], wonders = zázrak
+3 N mortality {mortality} [mɔːˈtælɪtɪ], - = smrteľnosť
 # magic-fate
 2 N magic {magic} [ˈmædʒɪk], - = mágia
 2 AN magic {magic} [ˈmædʒɪk] = magický

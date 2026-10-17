@@ -186,6 +186,13 @@
 2 V reclamar {reclamar} [reklaˈmaɾ] = reklamovať
 2 V quejarse {quejarse} [keˈxaɾse] = reklamovať
 2 AV hábilmente {hábilmente} [aβilˈmente] = schopne
+2 N el empleo {empleo} [emˈpleo], empleos = zamestnanosť
+2 N el subordinado {subordinado} [suβoɾðiˈnaðo], subordinados = podriadený
+3 N el subalterno {subalterno} [suβalˈteɾno], subalternos = podriadený
+3 N el profano {profano} [pɾoˈfano], profanos = laik
+3 N el lego {lego} [ˈleɣo], legos = laik
+2 N la degradación {degradación} [deɣɾaðaˈθjon], degradaciones = degradácia
+3 N el descenso de categoría {descenso de categoría} [desˈθenso de kateɣoˈɾia], descensos de categoría = degradácia
 
 # making-doing
 1 V hacer {hacer} [aˈθeɾ], irr, hecho = robiť
@@ -265,6 +272,8 @@
 2 V conseguir {conseguir} [konseˈɣiɾ], e>i = zohnať
 3 V limar {limar} [liˈmaɾ] = pilovať
 3 V disecar {disecar} [diseˈkaɾ] = vypreparovať
+2 V derribar {derribar} [deriˈβaɾ] = búrať
+2 V demoler {demoler} [demoˈleɾ], o>ue = búrať
 
 # tools
 2 N el martillo {martillo} [maɾˈtiʎo], martillos = kladivo

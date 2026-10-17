@@ -144,6 +144,7 @@
 2 AV intentionnellement {intentionnelle|ment} [ɛ̃tɑ̃sjɔnɛlˈmɑ̃] = úmyselne
 3 AV cupidement {cupide|ment} [kypidˈmɑ̃] = chamtivo
 3 AV avidement {avide|ment} [avidˈmɑ̃] = dychtivo
+2 N la générosité {générosité} [ʒeneʁɔziˈte], générosités = štedrosť
 
 # character-traits
 1 N le caractère {caractère} [kaʁakˈtɛʁ], caractères = charakter
@@ -383,6 +384,9 @@
 3 AV insouciamment {insouci|amment} [ɛ̃susjaˈmɑ̃] = bezstarostne
 3 AV consciencieusement {consciencieuse|ment} [kɔ̃sjɑ̃sjøzˈmɑ̃] = svedomito
 2 AV ironiquement {ironique|ment} [iʁɔnikˈmɑ̃] = ironicky
+2 AN immoral {im|moral} [imɔˈʁal], immorale, immoraux/immorales = nemorálny
+2 AN indulgent {indulgent} [ɛ̃dylˈʒɑ̃], indulgente = zhovievavý
+3 V se déshabituer {se dés|habituer} [sə dezabiˈtɥe] (de) = odvyknúť si
 
 # character
 2 AN lâche {lâche} [lɑʃ] = zbabelý

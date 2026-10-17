@@ -69,6 +69,7 @@
 2 V gaze {gaze} [ɡeɪz] (at) = zízať na
 3 V eye {eye} [aɪ] (sb, sth) = pozorovať
 3 V sight {sight} [saɪt] (sth) = zazrieť
+2 N blindness {blind|ness} [ˈblaɪndnəs], - = slepota
 # hearing
 1 V hear {hear} [hɪə], heard/heard = počuť
 1 V listen {listen} [ˈlɪsən] (to) = počúvať
@@ -83,6 +84,7 @@
 3 V listen out {listen·out} [ˈlɪsən ˈaʊt] (for) = načúvať
 2 V sound {sound} [saʊnd] = zaznieť
 3 V rustle {rustle} [ˈrʌsəl] = šumieť
+2 N deafness {deaf|ness} [ˈdefnəs], - = hluchota
 # other-senses
 1 V smell {smell} [smel], smelt/smelt (sth) = čuchať
 1 N smell {smell} [smel], smells = pach
@@ -116,6 +118,9 @@
 3 V tickle {tickle} [ˈtɪkəl] = štekliť
 3 V scent {scent} [sent] = vetriť
 3 V sniff at {sniff·at} [snɪf ˈæt] (sth) = ovoniavať
+3 AN hearing {hear|ing} [ˈhɪərɪŋ] = počujúci
+2 N stench {stench} [stentʃ], stenches = zápach
+2 N bad smell {bad smell} [ˌbæd ˈsmel], bad smells = zápach
 # colors
 1 N colour {colour} [ˈkʌlə], colours = farba
 2 AN coloured {coloured} [ˈkʌləd] = farebný
@@ -154,6 +159,7 @@
 3 AN turquoise {turquoise} [ˈtɜːkwɔɪz] = tyrkysový
 3 AN beige {beige} [beɪʒ] = béžový
 2 N paint {paint} [peɪnt], paints = farba
+2 AN black-and-white {black-and-white} [ˌblæk ənd ˈwaɪt] = čiernobiely
 
 # more
 2 V unveil {un|veil} [ʌnˈveɪl] = odhaliť

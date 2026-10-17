@@ -58,6 +58,8 @@
 3 V ascender {ascender} [asθenˈdeɾ], e>ie (a) = činiť
 2 V funcionar {funcionar} [funθjoˈnaɾ] = fungovať
 2 N la presencia {presencia} [pɾeˈsenθja], presencias = prítomnosť
+1 V desaparecer {des|aparecer} [desapaɾeˈθeɾ], c>zc = zaniknúť
+2 V extinguirse {extinguirse} [ekstiŋˈɡiɾse] = zaniknúť
 
 # change-events
 1 V volverse {volverse} [bolˈβeɾse], o>ue, vuelto = stať sa
@@ -355,6 +357,12 @@
 3 V triplicar {triplicar} [tɾipliˈkaɾ] = strojnásobiť
 3 V colapsar {colapsar} [kolapˈsaɾ] = skolabovať
 2 V orientarse {orientarse} [oɾjenˈtaɾse] = vyznať sa
+2 AN finito {finito} [fiˈnito], finita = konečný
+2 AN final {final} [fiˈnal] = konečný
+2 N la disminución {disminución} [dismiˈnuθjon], disminuciones = úbytok
+2 N el descenso {descenso} [desˈθenso], descensos = úbytok
+2 V agrandarse {agrandarse} [aɣɾanˈdaɾse] = zväčšiť sa
+2 V ampliarse {ampliarse} [amˈpljaɾse], i>í = zväčšiť sa
 
 # relations
 1 AN igual {igual} [iˈɣwal] = rovnaký
@@ -676,6 +684,11 @@
 2 V concordar {concordar} [koŋkoɾˈðaɾ], o>ue (con) = zhodovať sa
 2 V pertenecer {pertenecer} [peɾteneˈθeɾ], c>zc (a) = patriť k tomu
 2 V formar parte {formar parte} [foɾˈmaɾ ˈpaɾte] = patriť k tomu
+2 N el todo {todo} [ˈtoðo], todos = celok
+2 N el conjunto {conjunto} [konˈxunto], conjuntos = celok
+2 N el límite inferior {límite inferior} [ˈlimite infeˈɾjoɾ], límites inferiores = dolná hranica
+2 N el desinterés {des|interés} [desinteˈɾes], - = nezáujem
+1 V multiplicar {multiplicar} [multipliˈkaɾ] = násobiť
 
 # transfer-basic-verbs
 1 V dar {dar} [daɾ], irr = dať
@@ -825,6 +838,9 @@
 2 V recuperar {recuperar} [rekupeˈɾaɾ] = dobehnúť
 1 V sacar {sacar} [saˈkaɾ] = vytiahnuť
 2 V extraer {extraer} [ekstɾaˈeɾ], irr = vytiahnuť
+2 AN encontrado {encontrado} [eŋkonˈtɾaðo], encontrada = nájdený
+3 AN deficitario {deficitario} [defiθiˈtaɾjo], deficitaria = stratový
+2 AN no rentable {no rentable} [no renˈtaβle] = stratový
 
 # action-and-use
 1 N la acción {acción} [akˈθjon], acciones = akcia (činnosť)
@@ -1358,6 +1374,10 @@
 3 AV agotadoramente {agotadoramente} [aɣotaðoɾaˈmente] = namáhavo
 2 AV encantadoramente {encantadoramente} [eŋkantaðoɾaˈmente] = pôvabne
 2 AV encantadoramente {encantadoramente} [eŋkantaðoɾaˈmente] = šarmantne
+2 V desempaquetar {des|empaquetar} [desempakeˈtaɾ] = rozbaliť
+3 V desembalar {des|embalar} [desemβaˈlaɾ] = rozbaliť
+2 V alejarse {alejarse} [aleˈxaɾse] (de) = vzdialiť sa
+2 V apartarse {apartarse} [apaɾˈtaɾse] (de) = vzdialiť sa
 
 # change
 2 V manifestar {manifestar} [manifesˈtaɾ], e>ie = prejaviť
@@ -1388,6 +1408,8 @@
 3 V forrar {forrar} [foˈraɾ] = obložiť
 2 V vendar {vendar} [benˈdaɾ] = obviazať
 2 V atar {atar} [aˈtaɾ] = obviazať
+2 V ablandarse {ablandarse} [aβlanˈdaɾse] = zmäknúť
+3 V reblandecerse {reblandecerse} [reβlandeˈθeɾse], c>zc = zmäknúť
 
 # more
 1 AN otro {otro} [ˈotɾo], otra = ďalší

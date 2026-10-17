@@ -84,6 +84,7 @@ N participácia
 N bojkot
 V bojkotovať
 N hlas proti
+N hlas za
 N znalec
 N živobytie
 N kvalita života
@@ -104,6 +105,7 @@ N vyprostenie
 AN fašistický
 AN autokratický
 V emigrovať
+V imigrovať
 
 # state-politics
 N štát
@@ -113,6 +115,7 @@ N vlasť
 N vláda
 V vládnuť
 N vladár
+N poddaný
 N predseda vlády
 N prezident
 N prezidentka
@@ -308,6 +311,7 @@ N protivníčka
 N násilie
 AN mohutný : adverb mohutne
 AN násilný : adverb násilne
+AN nenásilný
 N podujatie
 V zorganizovať
 N organizátor
@@ -403,6 +407,7 @@ V tematizovať
 V rozmiestniť
 V odobrať sa
 V mobilizovať
+V demobilizovať
 AN komunistický
 AN republikánsky
 AN feministický
@@ -530,6 +535,7 @@ N žaloba
 V zažalovať
 V obžalovať
 N obžaloba
+N obhajoba
 N obžalovaný
 V oplakávať
 N poprava
@@ -630,6 +636,7 @@ AN dôverný : adverb dôverne
 V deklarovať
 V osvedčiť
 V zamietnuť
+V schváliť
 V nariadiť
 V obviňovať
 V legitimizovať

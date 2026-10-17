@@ -44,6 +44,7 @@
 2 PHR schwarzes Loch {schwarzes Loch} [ˈʃvaʁtsəs lɔx] = čierna diera
 3 PHR kosmischer Nebel {kosmischer Nebel} [ˈkɔsmɪʃɐ ˈneːbəl] = hmlovina
 2 N das All {All} [al], - = vesmír
+3 N der Monduntergang {Mond|untergang} [ˈmoːntʊntɐɡaŋ], Monduntergänge = západ mesiaca
 
 # sky-phenomena
 1 N der Himmel {Himmel} [ˈhɪməl], - = obloha, nebo

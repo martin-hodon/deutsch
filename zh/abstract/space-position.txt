@@ -201,6 +201,10 @@
 2 N 前方 {前方} [qiánfāng], - = predná strana
 2 AV 四处 {四处} [sìchù] = všade
 2 N 外头 {外头} [wàitou], - = vonkajšok
+3 N 饱满 {饱满} [bǎomǎn], - = plnosť
+3 N 充实 {充实} [chōngshí], - = plnosť
+1 AV 从里面 {从里面} [cóng lǐmiàn] = zvnútra
+2 AV 从内部 {从内部} [cóng nèibù] = zvnútra
 
 # direction-distance
 1 N 方向 {方向} [fāngxiàng], 个 = smer
@@ -315,6 +319,8 @@
 2 AN 紧密 {紧密} [jǐnmì] = blízky
 2 AN 密切 {密切} [mìqiè] = blízky
 2 N 线索 {线索} [xiànsuǒ], 条 = stopa
+2 N 人间 {人间} [rénjiān], - = tento svet
+3 N 阳间 {阳间} [yángjiān], - = tento svet
 
 # motion
 1 V 动 {动} [dòng] = hýbať
@@ -628,6 +634,11 @@
 2 V 侵犯 {侵犯} [qīnfàn] = napadnúť
 2 V 升学 {升|学} [shēngxué] = postúpiť (vyššie)
 2 V 通行 {通行} [tōngxíng] = prejsť cez
+2 N 离开 {离开} [líkāi], - = odchod
+3 N 离去 {离去} [líqù], - = odchod
+2 N 出发 {出发} [chūfā], - = odchod
+1 V 减少 {减少} [jiǎnshǎo] = ubudnúť
+2 V 变少 {变少} [biànshǎo] = ubudnúť
 
 # travel
 2 V 到达 {到达} [dàodá] = pricestovať

@@ -112,6 +112,7 @@
 2 N klamra {klamra} [ˈklamra], ż, klamry = spona
 2 N sprzączka {sprzączka} [ˈspʂɔntʂka], ż, sprzączki = spona
 2 N łata {łata} [ˈwata], ż, łaty = záplata
+2 V rozpinać {roz|pinać} [rɔˈspʲinatɕ], rozpiąć (B) = rozopnúť
 
 # materials-making
 1 N materiał {materiał} [maˈtɛrjaw], m, materiały = látka
@@ -195,3 +196,4 @@
 2 N maska {maska} [ˈmaska], ż, maski = maska
 2 V maskować {maskować} [masˈkɔvatɕ], zamaskować (B) = maskovať
 2 AV elegancko {elegancko} [ɛlɛˈɡantskɔ] = elegantne
+1 AN ubrany {ubrany} [uˈbranɨ] = oblečený

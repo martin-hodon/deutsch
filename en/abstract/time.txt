@@ -93,6 +93,9 @@
 2 N autumn holidays {autumn holidays} [ˈɔːtəm ˈhɒlədeɪz], PL = jesenné prázdniny
 2 N Easter holidays {Easter holidays} [ˈiːstə ˈhɒlədeɪz], PL = veľkonočné prázdniny
 2 N clock change {clock change} [ˈklɒk tʃeɪndʒ], clock changes = zmena času
+2 AN long-term {long-term} [ˌlɒŋ ˈtɜːm] = dlhodobý
+2 AV permanently {permanent|ly} [ˈpɜːmənəntlɪ] = natrvalo
+2 AV for good {for good} [fə ˈɡʊd] = natrvalo
 # day-parts-and-week
 1 N morning {morning} [ˈmɔːnɪŋ], mornings = ráno
 1 AV in the morning {in the morning} [ɪn ðə ˈmɔːnɪŋ] = ráno
@@ -129,6 +132,9 @@
 2 N season {season} [ˈsiːzən], seasons = sezóna
 2 AN seasonal {season|al} [ˈsiːzənəl] = sezónny
 3 N morning hour {morning hour} [ˈmɔːnɪŋ ˈaʊə], morning hours = ranná hodina
+1 AV in the morning {in the morning} [ɪn ðə ˈmɔːnɪŋ] = predpoludním
+2 AV before noon {before noon} [bɪˈfɔː ˈnuːn] = predpoludním
+1 AV at midnight {at midnight} [ət ˈmɪdnaɪt] = o polnoci
 # relative-time
 1 AV then {then} [ðen] = potom
 2 AV afterwards {after|wards} [ˈɑːftəwədz] = potom
@@ -263,6 +269,9 @@
 2 PRE ago {ago} [əˈɡəʊ] = pred
 2 PRE throughout {throughout} [θruːˈaʊt] = počas
 2 PRE ahead of {ahead of} [əˈhed əv] = pred
+1 N next day {next day} [ˌnekst ˈdeɪ], next days = nasledujúci deň
+2 AV at the earliest {at the earliest} [ət ði ˈɜːlɪɪst] = najskôr
+2 AV exceptionally {exception|al|ly} [ɪkˈsepʃənəlɪ] = výnimočne
 # months
 1 N January {January} [ˈdʒænjʊərɪ], Januaries = január
 1 N February {February} [ˈfebrʊərɪ], Februaries = február

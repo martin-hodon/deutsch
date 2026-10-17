@@ -42,6 +42,7 @@
 3 PHR la nébuleuse {la nébuleuse} [nebyˈløz] = hmlovina
 2 N l'univers (m) {univers} [yniˈvɛʁ], univers = vesmír
 1 N l'espace (m) {espace} [ɛsˈpas], espaces = vesmír
+2 N le coucher de la lune {coucher de la lune} [kuʃe də la lyn], couchers de lune = západ mesiaca
 
 # sky-phenomena
 1 N le ciel {ciel} [sjɛl], ciels = obloha

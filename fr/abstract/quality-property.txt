@@ -637,6 +637,16 @@
 3 AV paisiblement {paisible|ment} [pɛzibləˈmɑ̃] = poklidne
 2 AV désespérément {désespéré|ment} [dezɛspeʁeˈmɑ̃] = beznádejne
 3 AV précipitamment {précipitamment} [pʁesipitaˈmɑ̃] = ukvapene
+2 AN secondaire {secondaire} [səɡɔ̃ˈdɛʁ] = vedľajší
+3 AN subordonné {sub|ordonné} [sybɔʁdɔˈne], subordonnée = podriadený
+2 AN implicite {im|plicite} [ɛ̃pliˈsit] = implicitný
+2 AN croissant {croissant} [kʁwaˈsɑ̃], croissante = stúpajúci
+2 AN comique {comique} [kɔˈmik] = komický
+3 AN soumis {soumis} [suˈmi], soumise = submisívny
+2 AN peu pratique {peu pratique} [pø pʁaˈtik] = nepraktický
+2 AN inaccessible {in|accessible} [inaksɛˈsibl] = neprístupný
+2 N l'imperfection (f) {im|perfection} [ɛ̃pɛʁfɛkˈsjɔ̃], imperfections = nedokonalosť
+2 N la complexité {complexité} [kɔ̃plɛksiˈte], complexités = zložitosť
 
 # state-properties
 1 AN nouveau {nouveau} [nuˈvo], nouvelle, nouveaux/nouvelles = nový
@@ -1213,6 +1223,14 @@
 3 AV méthodiquement {méthodique|ment} [metɔdikˈmɑ̃] = metodicky
 3 AV humainement {humaine|ment} [ymɛnˈmɑ̃] = humánne
 2 AV tranquillement {tranquille|ment} [tʁɑ̃kilˈmɑ̃] = nenáhlivo
+2 AN minoritaire {minoritaire} [minɔʁiˈtɛʁ] = menšinový
+2 AN peu fiable {peu fiable} [pø fjabl] = nespoľahlivý
+2 AN inexistant {in|existant} [inɛɡzisˈtɑ̃], inexistante = neexistujúci
+3 N la mollesse {mollesse} [mɔˈlɛs], mollesses = mäkkosť
+2 N la lenteur {lenteur} [lɑ̃ˈtœʁ], lenteurs = pomalosť
+2 N l'instabilité (f) {in|stabilité} [ɛ̃stabiliˈte], instabilités = nestabilita
+2 AV le moins possible {le moins possible} [lə mwɛ̃ pɔˈsibl] = čo najmenej
+2 V se renforcer {se ren|forcer} [sə ʁɑ̃fɔʁˈse] = silnieť
 
 # corpus-adjectives
 2 AN réfléchi {réfléchi} [ʁefleˈʃi], réfléchie = premyslený
@@ -1431,3 +1449,4 @@
 2 AV extrêmement {extrêmement} [ɛkstʁɛmˈmɑ̃] = neuveriteľne
 2 AN élevé {élevé} [elˈve], élevée = zvýšený
 3 AN accru {accru} [aˈkʁy], accrue = zvýšený
+2 AN réduit {réduit} [ʁeˈdɥi], réduite = znížený

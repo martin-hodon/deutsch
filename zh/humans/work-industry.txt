@@ -288,6 +288,13 @@
 2 N 徒弟 {徒弟} [túdì], 个 = učeň
 2 N 一行 {一行} [yìxíng], 个 = delegácia
 2 N 总监 {总监} [zǒngjiān], 位 = riaditeľ
+2 N 就业 {就业} [jiùyè], - = zamestnanosť
+2 N 下属 {下属} [xiàshǔ], 位 = podriadený
+2 N 下级 {下级} [xiàjí], 位 = podriadený
+2 N 外行 {外行} [wàiháng], 个 = laik
+3 N 门外汉 {门外汉} [ménwàihàn], 个 = laik
+2 N 降职 {降职} [jiàngzhí], 次 = degradácia
+3 N 降级 {降级} [jiàngjí], 次 = degradácia
 
 # making-doing
 1 V 做 {做} [zuò] = robiť
@@ -389,6 +396,9 @@
 2 N 厂商 {厂商} [chǎngshāng], 家 = výrobca
 2 N 成品 {成品} [chéngpǐn], 件 = výrobok
 2 V 关爱 {关爱} [guān'ài] = starať sa o
+2 V 拆除 {拆除} [chāichú] = búrať
+2 V 拆 {拆} [chāi] = búrať
+3 V 拆毁 {拆毁} [chāihuǐ] = búrať
 
 # tools
 3 N 锤子 {锤子} [chuízi], 把 = kladivo

@@ -118,6 +118,8 @@
 2 AV publiquement {publique|ment} [pyblikˈmɑ̃] = verejne
 2 AV en priorité {en·priorité} [ɑ̃ pʁijɔʁiˈte] = prednostne
 2 AV honnêtement {honnête|ment} [ɔnɛtˈmɑ̃] = čestne
+2 N la voix pour {voix pour} [vwa puʁ], voix pour = hlas za
+2 V immigrer {im|migrer} [imiˈɡʁe] = imigrovať
 
 # state-politics
 1 N l'État (m) {État} [eˈta], États = štát
@@ -495,6 +497,9 @@
 3 AV puissamment {puiss|amment} [pɥisaˈmɑ̃] = mohutne
 2 AV violemment {viol|emment} [vjɔlaˈmɑ̃] = násilne
 3 AV unanimement {unanime|ment} [ynanimˈmɑ̃] = jednohlasne
+2 AN non violent {non violent} [nɔ̃ vjɔˈlɑ̃], non violente = nenásilný
+2 N le sujet {sujet} [syˈʒɛ], sujets = poddaný
+3 V démobiliser {dé|mobiliser} [demobiliˈze] = demobilizovať
 
 # law-justice
 1 N la loi {loi} [lwa], lois = zákon
@@ -792,6 +797,8 @@
 2 AV illégalement {illégale|ment} [ilegalˈmɑ̃] = nelegálne
 2 AV obligatoirement {obligatoire|ment} [ɔbliɡatwaʁˈmɑ̃] = povinne
 3 AV confidentiellement {confidentielle|ment} [kɔ̃fidɑ̃sjɛlˈmɑ̃] = dôverne
+2 N la défense {défense} [deˈfɑ̃s], défenses = obhajoba
+2 V approuver {approuver} [apʁuˈve] = schváliť
 
 # politics
 3 V radicaliser {radicaliser} [ʁadikaliˈze] = radikalizovať

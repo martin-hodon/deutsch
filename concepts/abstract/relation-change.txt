@@ -45,6 +45,7 @@ V volať sa
 V platiť
 AN platný
 V vzniknúť
+V zaniknúť
 V uskutočniť sa
 V panovať
 V ovládať
@@ -68,6 +69,7 @@ V ukončiť
 V dokončiť
 AN definitívny : adverb definitívne
 AN nekonečný : adverb nekonečne
+AN konečný
 V pokračovať
 V zostať
 V nedostaviť sa
@@ -81,6 +83,7 @@ N redukcia
 V rozšíriť
 N rozšírenie
 V zmenšiť sa
+V zväčšiť sa
 V vyvíjať
 N vývoj
 N vývojár
@@ -184,6 +187,7 @@ N rozmach
 N prielom
 N zlomový bod
 N prírastok
+N úbytok
 N uskutočnenie
 N spestrenie
 N pobyt
@@ -269,7 +273,9 @@ AV inak (iným spôsobom)
 PHR okrem iného
 AV na druhej strane
 N časť
+N celok
 V deliť
+V násobiť
 AV čiastočne
 V rozdať
 N podiel
@@ -374,6 +380,7 @@ N príspevok
 N vec
 AN vecný : adverb vecne
 N záujem
+N nezáujem
 N šanca
 AN bez šance
 N potenciál
@@ -456,6 +463,7 @@ N pochybný prípad
 N pridaná hodnota
 N smernica
 N horná hranica
+N dolná hranica
 N platnosť
 AN neplatný
 N voľnosť
@@ -501,6 +509,7 @@ V pripevniť
 V vniesť
 V dať dokopy
 AN ziskový
+AN stratový
 V položiť
 V doložiť
 V stanoviť
@@ -519,6 +528,7 @@ V uvaliť
 V ponechať si
 V stratiť
 AN stratený
+AN nájdený
 V nájsť
 V nachádzať sa
 V konať sa
@@ -672,6 +682,7 @@ V odcudziť
 V vypnúť
 V baliť
 V zabaliť
+V rozbaliť
 V montovať
 V vyhodiť do vzduchu
 V napnúť
@@ -858,6 +869,7 @@ V posypať
 V vnútiť
 V roztlačiť
 V priblížiť sa
+V vzdialiť sa
 V taktovať
 V pokaziť
 V nepochopiť
@@ -873,6 +885,7 @@ V naťahovať
 V cirkulovať
 V zušľachtiť
 V zatvrdnúť
+V zmäknúť
 V dostať s námahou
 V parafrázovať
 N vysielanie

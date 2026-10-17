@@ -1,5 +1,5 @@
 // THE HEADER OF EVERY PAGE (trainer.html, dictionary.html, reading.html): the page's title on the left; in the upper
-// right corner the page tabs (Trainer | Dictionary | Reading), and under them the learner's name and the ⋯ menu --
+// right corner the page tabs (Grammar | Dictionary | Reading -- trainer.html is the grammar page), and under them the learner's name and the ⋯ menu --
 // settings, statistics, the recorded data (panels of the trainer: on another page the links open the trainer on that
 // panel, trainer.html#panel-settings), the sentence generator. One place for the markup the three pages share;
 // engine/ui.js (setupMore) wires the menu on the trainer, the other pages only need the links.

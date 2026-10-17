@@ -68,6 +68,8 @@
 3 V absorbieren {absorbieren} [apzɔʁˈbiːʁən], hat = absorbovať, pohltiť
 3 V kontaminieren {kontaminieren} [kɔntamiˈniːʁən], hat (A) = kontaminovať, znečistiť
 3 V austrocknen {aus·trocknen} [ˈaʊstʁɔknən], hat/ist = vyschnúť, vysušiť
+2 AN fest {fest} [fɛst] = tuhý
+2 V feucht werden {feucht werden} [fɔʏçt ˈveːɐdən], wird feucht/wurde feucht/feucht geworden [vɪʁt fɔʏçt/ˈvʊʁdə fɔʏçt/fɔʏçt ɡəˈvɔʁdən], ist = zvlhnúť
 
 # fire-light
 1 V brennen {brennen} [ˈbʁɛnən], brennt/brannte/gebrannt [bʁɛnt/ˈbʁantə/ɡəˈbʁant], hat = horieť, páliť
@@ -106,6 +108,7 @@
 3 N die Spiegelung {Spiegelung} [ˈʃpiːɡəlʊŋ], Spiegelungen = odraz, zrkadlenie
 - 2 V spiegeln {spiegeln} [ˈʃpiːɡəln], hat (sich A) = zrkadliť sa, odrážať sa, zrkadliť
 3 N der Schimmer {Schimmer} [ˈʃɪmɐ], - = záblesk, lesk
+1 V löschen {löschen} [ˈlœʃən], hat (A) = hasiť
 
 # energy-forces
 1 N die Energie {Energie} [enɛʁˈɡiː], Energien = energia

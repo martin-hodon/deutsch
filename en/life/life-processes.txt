@@ -83,6 +83,9 @@
 2 V rot {rot} [rɒt] = hniť
 3 V suffocate {suf|fo|cate} [ˈsʌfəkeɪt] (sb) = udusiť
 3 V smother {smoth|er} [ˈsmʌðə] (sb) = udusiť
+1 N birth {birth} [bɜːθ], births = narodenie
+3 V rejuvenate {re|juvenate} [rɪˈdʒuːvɪneɪt] = mladnúť
+3 V grow younger {grow younger} [ɡrəʊ ˈjʌŋɡə], grew younger/grown younger = mladnúť
 # body-functions
 2 V breathe {breathe} [briːð] = dýchať
 2 N breath {breath} [breθ], breaths = dych
@@ -165,6 +168,10 @@
 3 AN strong as a bear {strong as a bear} [ˈstrɒŋ əz ə ˈbeə] = silný ako medveď
 2 AN strong as an ox {strong as an ox} [ˈstrɒŋ əz ən ˈɒks] = silný ako medveď
 3 N blush {blush} [blʌʃ], blushes = červeň
+3 N wakefulness {wake|ful|ness} [ˈweɪkfəlnəs], - = bdenie
+2 V be awake {be awake} [bi əˈweɪk] = bdieť
+2 V stay awake {stay awake} [steɪ əˈweɪk] = bdieť
+2 V put to sleep {put to sleep} [pʊt tə ˈsliːp], put to sleep/put to sleep (sb) = uspať
 # nourishment
 1 V eat {eat} [iːt], ate/eaten = jesť
 1 V drink {drink} [drɪŋk], drank/drunk = piť
@@ -201,6 +208,7 @@
 3 V nibble {nib|ble} [ˈnɪbəl] (at, on) = chrúmať
 3 V munch {munch} [mʌntʃ] (on) = chrúmať
 3 V sip {sip} [sɪp] (sth) = srkať
+3 N satiety {satiety} [səˈtaɪətɪ], - = sýtosť
 # senses-instinct
 2 N instinct {in|stinct} [ˈɪnstɪŋkt], instincts = inštinkt
 3 AN instinctive {in|stinct|ive} [ɪnˈstɪŋktɪv] = inštinktívny

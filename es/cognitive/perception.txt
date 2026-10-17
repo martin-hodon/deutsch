@@ -72,6 +72,7 @@
 2 V entrecerrar los ojos {entrecerrar los ojos} [entɾeθeˈraɾ los ˈoxos], e>ie = škúliť
 3 V centellear {centellear} [θenteʎeˈaɾ] = mihotať sa
 2 V brillar {brillar} [bɾiˈʎaɾ] = mihotať sa
+2 N la ceguera {ceguera} [θeˈɣeɾa], - = slepota
 
 # hearing
 1 V oír {oír} [oˈiɾ], irr, oído = počuť
@@ -88,6 +89,7 @@
 2 V escuchar atentamente {escuchar atentamente} [eskuˈtʃaɾ atentaˈmente] = načúvať
 2 V sonar {sonar} [soˈnaɾ], o>ue = zaznieť
 3 V susurrar {susurrar} [susuˈraɾ] = šumieť
+2 N la sordera {sordera} [soɾˈðeɾa], - = hluchota
 
 # other-senses
 1 V oler {oler} [oˈleɾ] = čuchať
@@ -126,6 +128,9 @@
 2 V husmear {husmear} [uzmeˈaɾ] = vetriť
 3 V olisquear {olisquear} [oliskeˈaɾ] = ovoniavať
 2 AV con sentido {con·sentido} [kon senˈtiðo] = zmysluplne
+3 AN oyente {oyente} [oˈʝente] = počujúci
+2 N el mal olor {mal olor} [mal oˈloɾ], malos olores = zápach
+3 N el hedor {hedor} [eˈðoɾ], hedores = zápach
 
 # colors
 1 N el color {color} [koˈloɾ], colores = farba
@@ -167,3 +172,4 @@
 2 V desteñirse {desteñirse} [desteˈɲiɾse], e>i = vyblednúť
 2 AN turquesa {turquesa} [tuɾˈkesa] = tyrkysový
 2 AN beige {beige} [ˈbeis] = béžový
+2 AN en blanco y negro {en blanco y negro} [en ˈblaŋko i ˈneɣɾo] = čiernobiely

@@ -160,6 +160,7 @@
 1 AN secco {secco} [ˈsekːo], secca = vyschnutý
 2 N la siccità {siccità} [sittʃiˈta], siccità = sucho
 2 AV a sangue freddo {a·sangue·freddo} [a ˈsaŋɡwe ˈfredːo] = chladnokrvne
+2 N il raffreddamento {raffreddamento} [rafːredːaˈmento], raffreddamenti = ochladzovanie
 
 # seasons-climate
 1 N la stagione {stagione} [staˈdʒoːne], stagioni = ročné obdobie

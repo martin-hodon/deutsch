@@ -155,6 +155,7 @@
 2 AV de sang-froid {de·sang-froid} [də sɑ̃ ˈfʁwa] = chladnokrvne
 2 AV modérément {modér|ément} [mɔdeʁeˈmɑ̃] = mierne
 3 AV glacialement {glaciale|ment} [ɡlasjalˈmɑ̃] = mrazivo
+2 N le refroidissement {refroidisse|ment} [ʁəfʁwadisˈmɑ̃], refroidissements = ochladzovanie
 
 # seasons-climate
 1 N la saison {saison} [sɛˈzɔ̃], saisons = ročné obdobie

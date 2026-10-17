@@ -8,8 +8,10 @@ AV súčasne
 AN včasný : adverb včas
 AV kedykoľvek
 AV dočasne
+AV natrvalo
 AN bezodkladný : adverb bezodkladne
 AN krátkodobý
+AN dlhodobý
 N okamih
 AN momentálny : adverb momentálne
 PHR práve teraz
@@ -86,7 +88,9 @@ N poludnie
 N odpoludnie
 N predpoludnie
 AV napoludnie
+AV o polnoci
 AV popoludní
+AV predpoludním
 N večer
 AV večer
 N koniec pracovnej doby
@@ -120,6 +124,7 @@ AV skôr
 AN skorý : adverb skoro
 AN neskorý : adverb neskoro
 AV najneskôr
+AV najskôr
 AN raný
 AV kedysi
 AN dochvíľny : adverb dochvíľne
@@ -143,6 +148,7 @@ AV občas
 N príležitosť
 AN bez príčiny
 AV zvyčajne
+AV výnimočne
 AV náhle
 AV hneď
 AV postupne
@@ -207,6 +213,7 @@ AN oneskorený
 AN promptný : adverb promptne
 N minulý rok
 N predchádzajúci deň
+N nasledujúci deň
 N štvrťrok
 N všedný deň
 AN každodenný : adverb každodenne

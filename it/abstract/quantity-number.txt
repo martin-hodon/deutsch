@@ -166,6 +166,9 @@
 3 V riporre {riporre} [riˈporːe], irr, riposto = uschovať
 2 AV sopra la media {sopra·la·media} [ˈsɔːpra la ˈmɛːdja] = nadpriemerne
 1 AN tanto {tanto} [ˈtanto], tanta = veľa
+2 N il valore minimo {valore minimo} [vaˈloːre ˈmiːnimo], valori minimi = minimálna hodnota
+2 V slegare {slegare} [zleˈɡaːre] = rozviazať
+1 V sciogliere {sciogliere} [ˈʃɔʎːere], irr, sciolto = rozviazať
 
 # counting-measuring
 1 N il numero {numero} [ˈnuːmero], numeri = číslo (matematické)
@@ -216,6 +219,7 @@
 2 NUM uno e mezzo {uno e mezzo} [ˈuːno e ˈmɛddzo] = jeden a pol
 2 NUM due e mezzo {due e mezzo} [ˈduːe e ˈmɛddzo] = dva a pol
 3 N il metro cubo {metro cubo} [ˈmɛːtro ˈkuːbo], metri cubi = kubický meter
+3 N il denominatore {denominatore} [denominaˈtoːre], denominatori = menovateľ
 
 # more
 3 N il bilione {bilione} [biˈljoːne], bilioni = bilión

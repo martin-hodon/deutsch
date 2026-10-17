@@ -172,6 +172,10 @@
 2 N le premier plan {premier plan} [pʁəˈmje plɑ̃], premiers plans = popredie
 3 AV unilatéralement {unilatérale|ment} [ynilateʁalˈmɑ̃] = jednostranne
 2 AV largement {large|ment} [laʁʒəˈmɑ̃] = rozsiahle
+3 N la plénitude {plénitude} [pleniˈtyd], plénitudes = plnosť
+2 N le plein {plein} [plɛ̃], pleins = plnosť
+2 AV de l'intérieur {de l'intérieur} [də lɛ̃teˈʁjœʁ] = zvnútra
+2 AV de dedans {de dedans} [də dəˈdɑ̃] = zvnútra
 
 # direction-distance
 1 N la direction {direction} [diʁɛkˈsjɔ̃], directions = smer
@@ -268,6 +272,8 @@
 2 AV séparément {séparé|ment} [sepaʁeˈmɑ̃] = oddelene
 3 AV perpendiculairement {perpendiculaire|ment} [pɛʁpɑ̃dikylɛʁˈmɑ̃] = kolmo
 3 AV parallèlement {parallèle|ment} [paʁalɛlˈmɑ̃] = rovnobežne
+3 N l'ici-bas (m) {ici-bas} [isiˈba], - = tento svet
+3 N le monde terrestre {monde terrestre} [mɔ̃d tɛˈʁɛstʁ], mondes terrestres = tento svet
 
 # motion
 1 V bouger {bouger} [buˈʒe] = hýbať
@@ -531,6 +537,8 @@
 2 V être promu {être promu} [ɛtʁ pʁɔˈmy], irr = postúpiť (vyššie)
 2 AV d'urgence {d'urgence} [dyʁˈʒɑ̃s] = súrne
 3 AV distraitement {distraite|ment} [distʁɛtˈmɑ̃] = roztržito
+1 N le départ {départ} [deˈpaʁ], départs = odchod
+2 V diminuer {diminuer} [dimiˈnɥe] = ubudnúť
 
 # travel
 1 V arriver {arriver} [aʁiˈve], être = pricestovať

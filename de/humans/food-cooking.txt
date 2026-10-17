@@ -39,6 +39,7 @@
 3 N die Cola {Cola} [ˈkoːla], Colas = kola
 3 N das Sonnenblumenöl {Sonnenblumen|öl} [ˈzɔnənbluːmənøːl], Sonnenblumenöle = slnečnicový olej
 3 N die Kräuter {Kräuter} [ˈkʁɔʏtɐ], PL = bylinky, korenie
+3 AN ungenießbar {un|genießbar} [ˈʊnɡəniːsbaːɐ] = nejedlý
 
 # staples
 1 N das Brot {Brot} [bʁoːt], Brote = chlieb
@@ -148,6 +149,7 @@
 3 N der Kebab {Kebab} [keˈbap], Kebabs = kebab
 3 N der Döner {Döner} [ˈdøːnɐ], Döner = döner kebab, döner
 3 N das Sushi {Sushi} [ˈzuːʃi], Sushis = suši
+1 V zunehmen {zu·nehmen} [ˈtsuːneːmən], nimmt zu/nahm zu/zugenommen [nɪmt tsuː/naːm tsuː/ˈtsuːɡənɔmən], hat = pribrať
 
 # fruits
 1 N das Obst {Obst} [oːpst], - = ovocie
@@ -420,3 +422,5 @@
 3 AN knusprig {knusprig} [ˈknʊspʁɪç] = chrumkavý
 3 AN fettig {fettig} [ˈfɛtɪç] = mastný, tučný
 3 AN cremig {cremig} [ˈkʁeːmɪç] = krémový, hladký
+2 AN gekocht {ge|kocht} [ɡəˈkɔxt] = varený
+3 AN geschmacklos {geschmack|los} [ɡəˈʃmakloːs] = nevkusný

@@ -53,6 +53,7 @@ N zásuvka (elektrická)
 V zastrčiť
 V skrývať sa za tým
 V naložiť
+V vyložiť
 N nabíjačka
 V nabiť
 V stiahnuť
@@ -113,6 +114,7 @@ N e-mail
 V kliknúť
 N kliknutie
 AV online
+AV offline
 AN digitálny : adverb digitálne
 N digitalizácia
 V digitalizovať
@@ -124,11 +126,11 @@ N satelit
 N dron
 N telefón
 V telefonovať
-N mobil
+N mobil : of mobilný telefón @ hovorovo
 N smartfón
 N smart hodinky
 N kamera
-N fotka
+N fotka : of fotografia @ hovorovo
 N fotograf
 V fotografovať
 N fotografia
@@ -162,11 +164,13 @@ N pixel
 V rolovať
 V zotrieť
 V priblížiť
+V oddialiť
 V ohlásiť
 N hlásenie
 V prihlásiť sa
 V odhlásiť sa
 N prihlásenie
+N odhlásenie
 V prihlásiť
 N profil
 V vyprofilovať sa
@@ -198,6 +202,7 @@ N hasiaci prístroj
 N portál
 N internetová stránka
 N stiahnutie
+N nahratie
 AN telefonický : adverb telefonicky
 V simulovať
 V deaktivovať
@@ -210,7 +215,7 @@ AN škálovateľný
 
 # devices
 V demontovať
-V fotiť
+V fotiť : of fotografovať @ hovorovo
 N zakladač
 N okienko
 

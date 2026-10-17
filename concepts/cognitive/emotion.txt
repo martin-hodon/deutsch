@@ -57,6 +57,7 @@ AN sklamaný
 N zúfalstvo
 AN zúfalý : adverb zúfalo
 N nádej
+N beznádej
 V dúfať
 AV dúfajme
 AN plný nádeje
@@ -113,6 +114,7 @@ V pobúriť
 N zúrivosť
 N núdza
 PHR v najhoršom prípade
+PHR v najlepšom prípade
 N trápenie
 AN biedny : adverb biedne
 N bieda
@@ -131,6 +133,7 @@ AN otrasený
 V rušiť
 V rozrušiť
 V baviť
+V nudiť
 AN bezmocný : adverb bezmocne
 AN neistý : adverb neisto
 N neistota
@@ -225,6 +228,7 @@ AN hrdý : adverb hrdo
 N hrdosť
 AN vďačný : adverb vďačne
 N vďačnosť
+N nevďačnosť
 AN nevďačný : adverb nevďačne
 AN osamelý : adverb osamelo
 N osamelosť
@@ -242,6 +246,7 @@ N nevôľa
 N spriaznenosť
 N lojalita
 N otvorenosť
+N uzavretosť
 N jednota
 N fair play
 N opovážlivosť
@@ -250,9 +255,11 @@ N vyznanie
 # expressions
 V smiať sa
 N smiech
+N plač
 AN smiešny : adverb smiešne
 V vysmiať
 V usmievať sa
+V mračiť sa
 N úsmev
 V posmievať sa
 V plakať

@@ -309,6 +309,13 @@
 2 V dettare {dettare} [deˈtːaːre] = diktovať
 3 AN comunicativo {comunicativo} [komunikaˈtiːvo], comunicativa = komunikatívny
 2 AN muto {muto} [ˈmuːto], muta = nemý
+2 N il disaccordo {dis|accordo} [dizaˈkːɔrdo], disaccordi = nesúhlas
+2 N il dissenso {dissenso} [diˈsːɛnso], dissensi = nesúhlas
+2 N la negazione {negazione} [neɡaˈtsjoːne], negazioni = popretie
+2 N la smentita {smentita} [zmenˈtiːta], smentite = popretie
+2 N il sussurro {sussurro} [suˈsːurːo], sussurri = šepot
+3 N il bisbiglio {bisbiglio} [bizˈbiʎːo], bisbigli = šepot
+1 V difendere {difendere} [diˈfɛndere], irr, difeso = obhajovať
 
 # language-writing
 1 N la parola {parola} [paˈrɔːla], parole = slovo
@@ -462,6 +469,7 @@
 2 AN scritto {scritto} [ˈskritːo], scritta = písomný
 3 AN linguistico {linguistico} [linˈɡwistiko], linguistica, linguistici/linguistiche = jazykový
 1 AV per iscritto {per·iscritto} [per iˈskritːo] = písomne
+2 N il singolare {singolare} [sinɡoˈlaːre], singolari = jednotné číslo
 
 # media-news
 1 N il messaggio {messaggio} [meˈsːaddʒo], messaggi = správa (oznam)

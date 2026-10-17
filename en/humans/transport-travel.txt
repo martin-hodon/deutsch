@@ -297,6 +297,12 @@
 3 AN Mediterranean {Mediterranean} [ˌmedɪtəˈreɪnɪən] = stredomorský
 2 N travel {travel} [ˈtrævəl], travels = cesta (cestovanie)
 2 V back {back} [bæk] = cúvať
+1 N arrival {arrival} [əˈraɪvəl], arrivals = prílet
+2 N slowdown {slow|down} [ˈsləʊdaʊn], slowdowns = spomalenie
+3 N deceleration {de|celeration} [diːˌseləˈreɪʃən], - = spomalenie
+3 N moving out {moving out} [ˈmuːvɪŋ ˈaʊt], - = vysťahovanie
+3 N exit {exit} [ˈeksɪt], exits = vycestovanie
+2 N home country {home country} [ˌhəʊm ˈkʌntrɪ], home countries = tuzemsko
 # corpus-verbs
 3 V tour {tour} [tʊə] (sth) = precestovať
 3 V frequent {frequent} [frɪˈkwent] (sth) = navštevovať

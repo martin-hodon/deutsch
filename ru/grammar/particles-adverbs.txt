@@ -88,6 +88,7 @@
 1 AV около {около} [ˈokələ] = približne
 2 AV наиболее {наи|более} [nɐɪˈbolʲɪjɪ] = najviac
 1 AV в частности {в частности} [f ˈtɕasnəsʲtʲɪ] = najmä
+2 AV всё меньше {всё меньше} [fsʲo ˈmʲenʲʂɨ] = čoraz menej
 
 # time
 1 AV сейчас {сейчас} [sʲɪjˈtɕas] = teraz
@@ -159,6 +160,8 @@
 1 AV друг на друга {друг на друга} [druk nɐ ˈdruɡə] = na seba
 1 AV жаль {жаль} [ʐalʲ] = ľúto
 2 AV жалко {жалко} [ˈʐalkə] = ľúto
+2 AV неохотно {не|охотно} [nʲɪɐˈxotnə] = nerád
+3 AV нехотя {нехотя} [ˈnʲexətʲə] = nerád
 
 # place-direction
 1 AV сюда {сюда} [sʲuˈda] = sem
@@ -233,3 +236,9 @@
 1 PHR нельзя {нельзя} [nʲɪlʲˈzʲa] (+ inf) = nemožno
 1 PHR невозможно {не|возможно} [nʲɪvɐzˈmoʐnə] (+ inf) = nemožno
 1 N раз {раз} [ras], м, разы = raz (príležitosť)
+1 AV случайно {случайно} [sluˈtɕajnə] = náhodou
+2 AV нечаянно {нечаянно} [nʲɪˈtɕajɪnːə] = náhodou
+2 AV последним {последним} [pɐˈslʲednʲɪm] = ako posledný
+2 PHR выше нуля {выше нуля} [ˈvɨʂɨ nuˈlʲa] = nad nulou
+1 PHR доброе утро {доброе утро} [ˈdobrəjə ˈutrə] = dobré ráno
+1 PHR спокойной ночи {спокойной ночи} [spɐˈkojnəj ˈnotɕɪ] = dobrú noc

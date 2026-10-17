@@ -39,6 +39,7 @@
 2 N cola {cola} [ˈkəʊlə], colas = kola
 2 N sunflower oil {sunflower oil} [ˈsʌnflaʊər ɔɪl], - = slnečnicový olej
 2 N herbs {herbs} [hɜːbz], PL = bylinky
+3 AN inedible {in|edible} [ɪnˈedɪbəl] = nejedlý
 # staples
 1 N bread {bread} [bred], - = chlieb
 2 N roll {roll} [rəʊl], rolls = žemľa
@@ -150,6 +151,8 @@
 2 N kebab {kebab} [kɪˈbæb], kebabs = kebab
 2 N doner kebab {doner kebab} [ˈdɒnə kɪˈbæb], doner kebabs = döner kebab
 2 N sushi {sushi} [ˈsuːʃɪ], - = suši
+2 V gain weight {gain weight} [ɡeɪn ˈweɪt] = pribrať
+2 V put on weight {put on weight} [pʊt ɒn ˈweɪt], put on weight/put on weight = pribrať
 # fruits
 1 N fruit {fruit} [fruːt], - = ovocie
 1 N apple {apple} [ˈæpəl], apples = jablko
@@ -419,6 +422,9 @@
 3 AN creamy {cream|y} [ˈkriːmɪ] = krémový
 3 N canister {canister} [ˈkænɪstə], canisters = dóza
 2 V water {water} [ˈwɔːtə] (sth) = polievať
+1 AN cooked {cook|ed} [kʊkt] = varený
+2 AN boiled {boil|ed} [bɔɪld] = varený
+3 AN tasteless {taste|less} [ˈteɪstləs] = nevkusný
 
 # more
 2 N grocery {grocery} [ˈɡrəʊsəri], groceries = potravina

@@ -1,5 +1,5 @@
 // Everything drawn on the page: the welcome, the exercise select and mode tabs with only the chosen mode's filters, the question
-// (options; the word-order tiles), the feedback and a word's example sentences, the status line, and behind More: the
+// (options; the word-order tiles), the grammar overview, the feedback and a word's example sentences, the status line, and behind More: the
 // settings (the learner's own language, the speech), the statistics, the recorded data. Every word of the page comes
 // from the learner's own language (engine/text.js: t, tn).
 import { percentCorrect, averageSeconds } from "./stats.js";
@@ -11,7 +11,7 @@ const ARTICLES = ["der", "die", "das"];
 function element(tag, className, ...children) {
   const el = document.createElement(tag);
   if (className) el.className = className;
-  el.append(...children);
+  el.append(...children.filter((c) => c != null));
   return el;
 }
 
@@ -149,6 +149,7 @@ export function showTitle(name, articles) {
 export const entryMeta = (entry) => `${entry.category} · ${entry.pos} · FREQ ${entry.freq}`;
 
 function clearCard() {
+  $("card").hidden = false; $("overview").hidden = true;   // (the overview stands in the card's place)
   $("card").classList.remove("was-right", "was-wrong");
   $("order").hidden = true;
   $("options").replaceChildren();
@@ -250,6 +251,37 @@ export function showOrderResult(correct, rightText, onNext) {
   $("feedback").replaceChildren(
     correct ? element("div", "verdict right", t("right")) : element("div", "verdict wrong", "✗ ", element("span", "", rightText)),
     ...(correct ? [element("div", "details", rightText)] : []), next);
+}
+
+// THE OVERVIEW (engine/practice.js overview): in the card's place, the language's grammar structures by stage, each with
+// its example sentence -- every word in the colour of its part of speech (a legend above) --, then the rule sets of forms,
+// each with a sentence where the form asked is marked. A structure or rule set clicked opens its exercise: `onStructure(name)`,
+// `onRule(name)`.
+export function showOverview({ structures, rules }, { onStructure, onRule }) {
+  clearCard();
+  $("card").hidden = true;
+  const box = $("overview"); box.hidden = false;
+  const seen = [...new Set(structures.flatMap((s) => s.tokens.map((tk) => tk.pos).filter(Boolean)))];
+  const legend = element("div", "ov-legend", ...seen.map((pos) => element("span", `pos pos-${pos}`, t(`pos.${pos}`))));
+  const kids = [element("h3", "", t("syntax")), element("p", "mute ov-help", t("overview-help")), legend];
+  let stage = null;
+  for (const st of structures) {
+    if (st.stage !== stage) { stage = st.stage; kids.push(element("h4", "", stage)); }
+    const row = element("button", "ov-row", element("span", "ov-label", st.label),
+      element("span", "ov-ex", ...st.tokens.map((tk, i) => element("span", tk.pos ? `pos pos-${tk.pos}` : "", (i && /^[\p{L}\p{N}¿¡„“(]/u.test(tk.w) ? " " : "") + tk.w))));
+    row.onclick = () => onStructure(st.name);
+    kids.push(row);
+  }
+  kids.push(element("h3", "", t("morphology")));
+  for (const r of rules) {
+    const ex = r.example, i = ex ? ex.prompt.indexOf("___") : -1;
+    const shown = !ex ? element("span", "mute", "—") : i < 0 ? element("span", "", ex.text)
+      : element("span", "", ex.prompt.slice(0, i), element("mark", "", ex.answer), ex.prompt.slice(i + 3), ex.hint ? element("span", "mute ov-hint", ` · ${ex.hint}`) : null);
+    const row = element("button", "ov-row", element("span", "ov-label", r.label), element("span", "ov-ex", shown));
+    row.onclick = () => onRule(r.name);
+    kids.push(row);
+  }
+  box.replaceChildren(...kids);
 }
 
 // A WORD'S EXAMPLE SENTENCES (engine/practice.js) under the question. `list` [{ text, mark }], the word marked -- or,

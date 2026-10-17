@@ -80,6 +80,7 @@
 3 AV invisiblement {invisible|ment} [ɛ̃vizibləˈmɑ̃] = neviditeľne
 3 AV sensiblement {sensible|ment} [sɑ̃sibləˈmɑ̃] = badateľne
 1 AV apparemment {appar|emment} [apaʁaˈmɑ̃] = zdanlivo
+3 N la cécité {cécité} [sesiˈte], cécités = slepota
 
 # hearing
 1 V entendre {entendre} [ɑ̃ˈtɑ̃dʁ], irr, entendu = počuť
@@ -99,6 +100,7 @@
 3 V résonner {résonner} [ʁezɔˈne] = zaznieť
 3 V bruire {bruire} [bʁɥiʁ], irr = šumieť
 3 AV audiblement {audible|ment} [odibləˈmɑ̃] = počuteľne
+3 N la surdité {surdité} [syʁdiˈte], surdités = hluchota
 
 # other-senses
 1 V sentir {sentir} [sɑ̃ˈtiʁ], irr, senti = čuchať
@@ -146,6 +148,9 @@
 3 AV sensuellement {sensuelle|ment} [sɑ̃sɥɛlˈmɑ̃] = zmyselne
 3 AV perceptiblement {perceptible|ment} [pɛʁsɛptibləˈmɑ̃] = vnímateľne
 2 AV délicatement {délicate|ment} [delikatˈmɑ̃] = jemnocitne
+3 AN entendant {entendant} [ɑ̃tɑ̃ˈdɑ̃], entendante = počujúci
+3 N la puanteur {puanteur} [pɥɑ̃ˈtœʁ], puanteurs = zápach
+2 N la mauvaise odeur {mauvaise odeur} [movɛz oˈdœʁ], mauvaises odeurs = zápach
 
 # colors
 1 N la couleur {couleur} [kuˈlœʁ], couleurs = farba
@@ -188,3 +193,4 @@
 3 V pâlir {pâlir} [pɑˈliʁ] = vyblednúť
 2 AN turquoise {turquoise} [tyʁˈkwaz] = tyrkysový
 2 AN beige {beige} [bɛʒ] = béžový
+2 AN noir et blanc {noir et blanc} [nwaʁ e blɑ̃] = čiernobiely

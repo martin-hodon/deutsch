@@ -308,6 +308,14 @@
 2 V parar {parar} [paˈɾaɾ] (en) = zájsť
 2 V viajar juntos {viajar juntos} [bjaˈxaɾ ˈxuntos] = cestovať spolu
 2 AN mediterráneo {mediterráneo} [meðiteˈraneo], mediterránea = stredomorský
+2 N la llegada {llegada} [ʎeˈɣaða], llegadas = prílet
+2 N la desaceleración {des|aceleración} [desaθeleɾaˈθjon], desaceleraciones = spomalenie
+3 N la ralentización {ralentización} [ralentiθaˈθjon], ralentizaciones = spomalenie
+2 N la mudanza {mudanza} [muˈðanθa], mudanzas = vysťahovanie
+3 N el desalojo {desalojo} [desaˈloxo], desalojos = vysťahovanie
+3 N la salida del país {salida del país} [saˈliða del paˈis], salidas del país = vycestovanie
+2 N el interior {interior} [inteˈɾjoɾ], interiores = tuzemsko
+3 N el territorio nacional {territorio nacional} [teriˈtoɾjo naθjoˈnal], territorios nacionales = tuzemsko
 
 # corpus-verbs
 2 V recorrer {recorrer} [rekoˈreɾ] = precestovať

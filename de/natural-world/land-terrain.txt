@@ -69,6 +69,7 @@
 3 N der Felsen {Felsen} [ˈfɛlzən], Felsen = skala
 3 N der Nationalpark {National|park} [natsjoˈnaːlpaʁk], Nationalparks = národný park
 3 N das Naturschutzgebiet {Natur|schutz|gebiet} [naˈtuːɐʃʊtsɡəbiːt], Naturschutzgebiete = prírodná rezervácia
+3 N der Bergfuß {Berg|fuß} [ˈbɛʁkfuːs], Bergfüße = úpätie
 
 # surface-materials
 2 N der Fels {Fels} [fɛls], Felsen = skala

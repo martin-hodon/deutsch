@@ -79,6 +79,7 @@
 3 N der Energieversorger {Energie|versorger} [enɛʁˈɡiːfɛɐzɔʁɡɐ], Energieversorger = dodávateľ energie
 3 N die Kilowattstunde {Kilowatt|stunde} [kiloˈvatʃtʊndə], Kilowattstunden = kilowatthodina
 3 N das Watt {Watt} [vat], Watt = watt
+2 V ausladen {aus·laden} [ˈaʊslaːdən], lädt aus/lud aus/ausgeladen [lɛːt aʊs/luːt aʊs/ˈaʊsɡəlaːdən], hat (A) = vyložiť
 
 # computing-communication-devices
 1 N der Computer {Computer} [kɔmˈpjuːtɐ], Computer = počítač
@@ -222,6 +223,10 @@
 3 V pushen {pushen} [ˈpʊʃən], hat (A) = presadzovať, tlačiť
 3 V konfigurieren {konfigurieren} [kɔnfiɡuˈʁiːʁən], hat (A) = konfigurovať
 3 AN skalierbar {skalier|bar} [skaˈliːɐbaːɐ] = škálovateľný
+3 N die Abmeldung {Ab|meldung} [ˈapmɛldʊŋ], Abmeldungen = odhlásenie
+3 N der Upload {Up|load} [ˈaploːt], Uploads = nahratie
+2 AV offline {offline} [ˈɔflaɪn] = offline
+3 V herauszoomen {heraus·zoomen} [hɛˈʁaʊstsuːmən], hat = oddialiť
 
 # devices
 3 V demontieren {demontieren} [demɔnˈtiːʁən], hat (A) = demontovať, rozobrať

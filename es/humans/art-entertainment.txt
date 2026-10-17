@@ -58,6 +58,7 @@
 2 V adornar {adornar} [aðoɾˈnaɾ] = zdobiť
 3 AN épico {épico} [ˈepiko], épica = epický
 3 V comisariar {comisariar} [komisaˈɾjaɾ] = kurátorovať
+2 N la fealdad {fealdad} [fealˈdað], fealdades = škaredosť
 
 # music
 1 N la música {música} [ˈmusika], - = hudba
@@ -222,6 +223,7 @@
 3 V restaurar {restaurar} [restauˈɾaɾ] = reštaurovať
 3 V sincronizar {sincronizar} [sinkɾoniˈθaɾ] = synchronizovať
 3 AN autobiográfico {autobiográfico} [autoβjoˈɣɾafiko], autobiográfica = autobiografický
+3 N la última función {última función} [ˈultima funˈθjon], últimas funciones = derniéra
 
 # games-sport
 1 N el juego {juego} [ˈxweɣo], juegos = hra
@@ -240,7 +242,7 @@
 3 V representar {representar} [represenˈtaɾ] = uvádzať predstavenia
 2 V participar {participar} [paɾtiθiˈpaɾ] (en) = hrať s
 1 V grabar {grabar} [ɡɾaˈβaɾ] = nahrať (v štúdiu)
-2 V reproducir {reproducir} [repɾoðuˈθiɾ], c>zc = prehrať
+2 V reproducir {reproducir} [repɾoðuˈθiɾ], c>zc = prehrať (nahrávku)
 3 AN jugable {jugable} [xuˈɣaβle] = hrateľný
 2 V seguir jugando {seguir jugando} [seˈɣiɾ xuˈɣando] = hrať ďalej
 2 V presumir {presumir} [pɾesuˈmiɾ] (de) = vystatovať sa
@@ -412,6 +414,9 @@
 3 V ganarse {ganarse} [ɡaˈnaɾse] = vybojovať si
 2 V completar {completar} [kompleˈtaɾ] = skompletizovať
 2 V surfear {surfear} [suɾfeˈaɾ] = surfovať
+2 N el aficionado {aficionado} [afiθjoˈnaðo], aficionados = amatér
+3 N el amateur {amateur} [amaˈteuɾ], amateurs = amatér
+1 V perder {perder} [peɾˈðeɾ], e>ie = prehrať (zápas)
 
 # corpus-verbs
 3 V enfrentar {enfrentar} [emfɾenˈtaɾ] = poštvať proti sebe

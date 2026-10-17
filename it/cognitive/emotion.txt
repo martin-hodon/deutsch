@@ -333,6 +333,9 @@
 2 V traumatizzare {traumatizzare} [traumatidˈdzaːre] = traumatizovať
 2 AN euforico {euforico} [euˈfɔːriko], euforica, euforici/euforiche = eufórický
 1 AV volentieri {volentieri} [volenˈtjɛːri] = rado
+2 N la disperazione {disperazione} [disperaˈtsjoːne], - = beznádej
+2 PHR nel migliore dei casi {nel migliore dei casi} [nel miˈʎːoːre dei ˈkaːzi] = v najlepšom prípade
+2 V annoiare {annoiare} [anːoˈjaːre] = nudiť
 
 # love-hate
 1 V amare {amare} [aˈmaːre] = ľúbiť
@@ -475,6 +478,9 @@
 3 N l'audacia (f) {audacia} [auˈdaːtʃa], audacie = opovážlivosť
 2 N la confessione {confessione} [konfeˈsːjoːne], confessioni = vyznanie
 3 N la dichiarazione {dichiarazione} [dikjaratˈtsjoːne], dichiarazioni = vyznanie
+3 N l'ingratitudine (f) {in|gratitudine} [inɡratiˈtuːdine], - = nevďačnosť
+2 N la chiusura {chiusura} [kjuˈzuːra], chiusure = uzavretosť
+3 N la riservatezza {riservatezza} [rizervaˈtettsa], - = uzavretosť
 
 # expressions
 1 V ridere {ridere} [ˈriːdere], riso = smiať sa
@@ -538,6 +544,9 @@
 2 AN caloroso {caloroso} [kaloˈroːzo], calorosa = vrúcny
 2 AN sentito {sentito} [senˈtiːto], sentita = vrúcny
 2 AN cordiale {cordiale} [korˈdjaːle] = vrúcny
+2 N il pianto {pianto} [ˈpjanto], pianti = plač
+3 V accigliarsi {accigliarsi} [attʃiˈʎːarsi] = mračiť sa
+3 V aggrottare la fronte {aggrottare la fronte} [aɡːroˈtːaːre la ˈfronte] = mračiť sa
 
 # feelings
 3 V crogiolarsi {crogiolarsi} [krodʒoˈlarsi] (in) = hýriť

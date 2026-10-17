@@ -99,3 +99,6 @@
 # more
 2 PHR indipendentemente da {indipendentemente da} [indipendenteˈmente da] = bez ohľadu na
 2 PHR a prescindere da {a prescindere da} [a preˈʃːindere da] = bez ohľadu na
+
+# language-specific closed words (no Slovak word: a description)
+1 PRE più di {più di} [pju di] = viac ako

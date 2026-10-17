@@ -211,6 +211,8 @@
 2 N 心愿 {心愿} [xīnyuàn], 个 = želanie
 2 V 选拔 {选拔} [xuǎnbá] = vybrať
 2 V 用得着 {用得着} [yòngdezháo] = potrebovať
+3 N 慷慨 {慷慨} [kāngkǎi], - = štedrosť
+2 N 大方 {大方} [dàfang], - = štedrosť
 
 # character-traits
 1 N 性格 {性格} [xìnggé], 种 = charakter
@@ -547,6 +549,11 @@
 2 AN 虚心 {虚心} [xūxīn] = skromný
 2 AV 大力 {大力} [dàlì] = energicky
 2 AN 用心 {用心} [yòngxīn] = usilovný
+2 AN 不道德 {不道德} [bù dàodé] = nemorálny
+2 AN 宽松 {宽松} [kuānsōng] = zhovievavý
+3 AN 宽容 {宽容} [kuānróng] = zhovievavý
+2 V 戒掉 {戒掉} [jièdiào] = odvyknúť si
+2 V 改掉 {改掉} [gǎidiào] = odvyknúť si
 
 # character
 2 AN 胆小 {胆小} [dǎnxiǎo] = zbabelý

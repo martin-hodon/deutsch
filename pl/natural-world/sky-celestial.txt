@@ -42,6 +42,7 @@
 3 PHR mgławica {mgławica} [mɡwaˈvʲitsa] = hmlovina
 2 N wszechświat {wszech|świat} [ˈfʂɛxɕfʲat], m, wszechświaty = vesmír
 2 N kosmos {kosmos} [ˈkɔsmɔs], m, - = vesmír
+3 N zachód księżyca {zachód księżyca} [ˈzaxut kɕɛ̃ˈʐɨtsa], m, zachody księżyca = západ mesiaca
 
 # sky-phenomena
 1 N niebo {niebo} [ˈɲɛbɔ], n, nieba = obloha

@@ -56,3 +56,4 @@
 
 # language-specific closed words (no Slovak word: a description)
 1 PRE into {into} [ˈɪntuː] = do
+1 PRE more than {more than} [ˈmɔː ðən] = viac ako

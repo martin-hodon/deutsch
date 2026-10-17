@@ -83,6 +83,7 @@
 2 N la tortura {tortura} [torˈtuːra], torture = mučenie
 2 V screditare {screditare} [skrediˈtaːre] = zdiskreditovať
 3 V discreditare {discreditare} [diskrediˈtaːre] = zdiskreditovať
+3 N la distensione {distensione} [distenˈsjoːne], - = deeskalácia
 
 # army
 1 N l'esercito (m) {esercito} [eˈzɛrtʃito], eserciti = armáda
@@ -208,6 +209,7 @@
 2 V respingere {respingere} [resˈpindʒere], respinto = odraziť
 3 V armarsi {armarsi} [arˈmarsi] = zbrojiť
 3 V riarmare {riarmare} [riarˈmaːre] = zbrojiť
+3 AN disarmato {dis|armato} [dizarˈmaːto], disarmata = neozbrojený
 
 # war
 3 V saccheggiare {saccheggiare} [sakːeˈddʒaːre] = plieniť

@@ -155,3 +155,8 @@
 2 N dimension {dimension} [daɪˈmenʃən], dimensions = rozmer
 2 AN three-dimensional {three-dimensional} [ˌθriː daɪˈmenʃənəl] = trojrozmerný
 3 AN oversized {over|sized} [ˌəʊvəˈsaɪzd] = nadrozmerný
+3 AN asymmetrical {a|symmetrical} [ˌeɪsɪˈmetrɪkəl] = asymetrický
+2 AN two-dimensional {two-dimensional} [ˌtuː daɪˈmenʃənəl] = dvojrozmerný
+3 N bluntness {blunt|ness} [ˈblʌntnəs], - = tuposť
+3 N asymmetry {a|symmetry} [eɪˈsɪmɪtrɪ], asymmetries = asymetria
+2 N curve {curve} [kɜːv], curves = krivka

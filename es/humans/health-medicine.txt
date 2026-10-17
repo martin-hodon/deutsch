@@ -154,6 +154,9 @@
 3 AN epidemiológico {epidemiológico} [epiðemjoˈloxiko], epidemiológica = epidemiologický
 3 AN muy contagioso {muy contagioso} [mwi koŋtaˈxjoso], muy contagiosa = vysoko nákazlivý
 3 AN dependiente {dependiente} [depenˈdjente] = odkázaný na opateru
+3 AN vidente {vidente} [biˈðente] = vidiaci
+2 PHR volver en sí {volver en sí} [bolˈβeɾ en si] = prebrať sa
+2 PHR recobrar el conocimiento {recobrar el conocimiento} [rekoˈβɾaɾ el konoθiˈmjento] = prebrať sa
 
 # treatment
 2 N la medicina {medicina} [meðiˈθina], medicinas = medicína

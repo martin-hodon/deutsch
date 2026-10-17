@@ -122,6 +122,7 @@
 1 AN seco {seco} [ˈseko], seca = vyschnutý
 2 N la sequía {sequía} [seˈkia], sequías = sucho
 2 AV a sangre fría {a·sangre·fría} [a ˈsaŋɡɾe ˈfɾia] = chladnokrvne
+2 N el enfriamiento {enfria|miento} [eɱfɾjaˈmjento], enfriamientos = ochladzovanie
 
 # seasons-climate
 2 N la estación {estación} [estaˈθjon], estaciones = ročné obdobie

@@ -12,6 +12,7 @@ V ožiť
 V vyžiť sa
 AN mŕtvy
 N smrť
+N narodenie
 V zabiť
 AN smrteľný (smrtiaci)
 N mŕtvy
@@ -32,6 +33,7 @@ V vyrastať
 AN starý
 N vek
 V starnúť
+V mladnúť
 V zastarať
 AN staromódny : adverb staromódne
 AN prastarý
@@ -47,7 +49,7 @@ V existovať
 V rozmnožovať sa
 N rozmnožovanie
 V páriť sa
-N párenie
+N párenie : of rozmnožovanie @ zvieratá
 V vyliahnuť sa
 N potomok
 N dorast
@@ -70,7 +72,9 @@ V vydychovať
 N dýchanie
 AN bez dychu
 V spať
+V bdieť
 N spánok (stav)
+N bdenie
 AN ospalý : adverb ospalo
 V zaspať
 V prespať
@@ -80,6 +84,7 @@ AN bdelý
 V zobudiť sa
 V prebudiť sa
 V budiť
+V uspať
 V odpočívať
 V oddýchnuť si
 AN unavený
@@ -123,10 +128,12 @@ AN silný ako medveď
 
 # nourishment
 V jesť
+V žrať : of jesť @ zvieratá
 V piť
 V utopiť sa
 V vypiť
 N hlad
+N sýtosť
 AN hladný
 V hladovať
 V zomrieť od hladu
@@ -143,7 +150,7 @@ V dojčiť
 N potrava
 V živiť
 N výživa
-V konzumovať
+V konzumovať : of jesť @ formálne
 V srkať
 V lízať
 V olízať
@@ -162,7 +169,7 @@ V zvliekať kožu
 N zvliekanie kože
 V prosperovať
 V zakoreniť sa
-V uhynúť
+V uhynúť : of zomrieť @ zvieratá
 V vyprchať
 
 # more

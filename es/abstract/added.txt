@@ -1,0 +1,21 @@
+
+# concepts added for words of one language's word lists (HSK ...) that no concept said
+2 AN inferior {inferior} [infeˈɾjoɾ] = nižší
+2 AN avanzado {avanzado} [aβanˈθaðo], avanzada = pokročilý
+3 AN hipermétrope {hiper|métrope} [ipeɾˈmetɾope] = ďalekozraký
+2 AN subdesarrollado {sub|desarrollado} [suβðesaroˈʎaðo], subdesarrollada = zaostalý
+2 AN atrasado {atrasado} [atɾaˈsaðo], atrasada = zaostalý
+2 AN con pelo {con pelo} [kon ˈpelo] = vlasatý
+3 AN peludo {peludo} [peˈluðo], peluda = vlasatý
+2 N el precio bajo {precio bajo} [ˈpɾeθjo ˈbaxo], precios bajos = nízka cena
+2 N la temperatura alta {temperatura alta} [tempeɾaˈtuɾa ˈalta], temperaturas altas = vysoká teplota
+2 N el inicio del semestre {inicio del semestre} [iˈniθjo del seˈmestɾe], inicios del semestre = začiatok semestra
+2 N el comienzo del semestre {comienzo del semestre} [koˈmjenθo del seˈmestɾe], comienzos del semestre = začiatok semestra
+2 N el principio de mes {principio de mes} [pɾinˈθipjo de mes], principios de mes = začiatok mesiaca
+2 N el comienzo del mes {comienzo del mes} [koˈmjenθo del mes], comienzos del mes = začiatok mesiaca
+2 N el examen escrito {examen escrito} [ekˈsamen esˈkɾito], exámenes escritos = písomná skúška
+2 N el personaje secundario {personaje secundario} [peɾsoˈnaxe sekunˈdaɾjo], personajes secundarios = vedľajšia postava
+2 N la Edad Media {Edad Media} [eˈðað ˈmeðja], - = stredovek
+3 N el medievo {medievo} [meˈðjeβo], - = stredovek
+2 N el primer puesto {primer puesto} [pɾiˈmeɾ ˈpwesto], primeros puestos = prvé miesto
+2 N el primer lugar {primer lugar} [pɾiˈmeɾ luˈɣaɾ], primeros lugares = prvé miesto

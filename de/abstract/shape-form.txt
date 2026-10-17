@@ -147,3 +147,8 @@
 - 3 AN dreidimensional {drei|dimensional} [ˈdʁaɪdimɛnzjonaːl] = trojrozmerný
 - 3 AN überdimensional {über|dimensional} [ˈyːbɐdimɛnzi̯oˌnaːl] = nadrozmerný
 3 AN platt {platt} [plat] = plochý, plytký, vyfúknutý
+2 AN asymmetrisch {a|symmetrisch} [azʏˈmeːtʁɪʃ] = asymetrický
+3 AN zweidimensional {zwei|dimensional} [ˈtsvaɪdimɛnzjonaːl] = dvojrozmerný
+3 N die Stumpfheit {Stumpf|heit} [ˈʃtʊmpfhaɪt], - = tuposť
+3 N die Asymmetrie {A|symmetrie} [azʏmeˈtʁiː], Asymmetrien = asymetria
+2 N die Kurve {Kurve} [ˈkʊʁvə], Kurven = krivka

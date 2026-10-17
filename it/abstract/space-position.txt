@@ -177,6 +177,9 @@
 1 N il numero {numero} [ˈnuːmero], numeri = číslo (poradové)
 3 N il primo piano {primo piano} [ˈpriːmo ˈpjaːno], primi piani = popredie
 1 AV ci {ci} [tʃi] = tam (miesto)
+3 N la pienezza {pienezza} [pjeˈnettsa], - = plnosť
+1 AV da dentro {da dentro} [da ˈdentro] = zvnútra
+2 AV dall'interno {dall'interno} [dalːinˈtɛrno] = zvnútra
 
 # direction-distance
 1 N la direzione {direzione} [direˈtsjoːne], direzioni = smer
@@ -271,6 +274,8 @@
 2 AV lontano {lontano} [lonˈtaːno] = vzdialene
 1 AV vicino {vicino} [viˈtʃiːno] = blízko
 1 AV lontano {lontano} [lonˈtaːno] = ďaleko
+2 N il mondo terreno {mondo terreno} [ˈmondo teˈrːɛːno], mondi terreni = tento svet
+3 N l'aldiquà (m) {aldiquà} [aldiˈkwa], - = tento svet
 
 # motion
 1 V muovere {muovere} [ˈmwɔːvere], irr, mosso = hýbať
@@ -507,6 +512,9 @@
 2 V avvicinarsi {avvicinarsi} [avːitʃiˈnarsi] (a) = pritiahnuť
 2 V avanzare {avanzare} [avanˈtsaːre] = postúpiť (vyššie)
 3 V salire {salire} [saˈliːre], irr, essere = postúpiť (vyššie)
+1 N la partenza {partenza} [parˈtɛntsa], partenze = odchod
+2 V diminuire {diminuire} [diminuˈiːre], isc, essere = ubudnúť
+2 V calare {calare} [kaˈlaːre], essere = ubudnúť
 
 # travel
 1 V arrivare {arrivare} [arːiˈvaːre], essere = pricestovať

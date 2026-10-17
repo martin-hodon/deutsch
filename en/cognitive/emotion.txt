@@ -228,6 +228,10 @@
 3 AN euphoric {euphoric} [juːˈfɒrɪk] = eufórický
 3 V pity {pity} [ˈpɪti] (sb) = ľutovať
 2 AV contentedly {content|ed|ly} [kənˈtentɪdli] = spokojne
+2 N hopelessness {hope|less|ness} [ˈhəʊpləsnəs], - = beznádej
+3 N despair {despair} [dɪˈspeə], - = beznádej
+2 PHR at best {at best} [ət ˈbest] = v najlepšom prípade
+2 V bore {bore} [bɔː] (sb) = nudiť
 # love-hate
 1 V love {love} [lʌv] = ľúbiť
 1 N love {love} [lʌv], - = láska
@@ -324,6 +328,8 @@
 2 N cheek {cheek} [tʃiːk], - = opovážlivosť
 3 N audacity {audacity} [ɔːˈdæsɪti], - = opovážlivosť
 2 N confession {confession} [kənˈfeʃən], confessions = vyznanie
+3 N ingratitude {in|gratitude} [ɪnˈɡrætɪtjuːd], - = nevďačnosť
+3 N reserve {reserve} [rɪˈzɜːv], - = uzavretosť
 # expressions
 1 V laugh {laugh} [lɑːf] (at, about) = smiať sa
 2 N laughter {laughter} [ˈlɑːftə], - = smiech
@@ -367,6 +373,8 @@
 3 AN heartfelt {heart|felt} [ˈhɑːtfelt] = vrúcny
 2 AN warm {warm} [wɔːm] = vrúcny
 2 AV eerily {eer|ily} [ˈɪərɪli] = strašidelne
+1 N crying {cry|ing} [ˈkraɪɪŋ], - = plač
+2 V frown {frown} [fraʊn] (at) = mračiť sa
 # feelings
 3 V revel {revel} [ˈrevəl] (in) = hýriť
 1 V get angry {get angry} [ɡet ˈæŋɡri] (with, about) = rozhnevať sa

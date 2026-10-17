@@ -197,6 +197,7 @@
 3 N la búsqueda de información {búsqueda de información} [ˈbuskeða ðe imfoɾmaˈθjon], búsquedas de información = rešerš
 2 N la arquitectura {arquitectura} [aɾkitekˈtuɾa], - = architektúra
 3 AN arquitectónico {arquitectónico} [aɾkitekˈtoniko], arquitectónica = architektonický
+2 N la síntesis {síntesis} [ˈsintesis], síntesis = syntéza
 
 # fields-of-study
 1 N las matemáticas {matemáticas} [mateˈmatikas], PL = matematika

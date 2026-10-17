@@ -299,6 +299,11 @@
 3 AN comunicativo {comunicativo} [komunikaˈtiβo], comunicativa = komunikatívny
 2 AN mudo {mudo} [ˈmuðo], muda = nemý
 3 AV amenazadoramente {amenazadoramente} [amenaθaðoɾaˈmente] = hrozivo
+2 N el desacuerdo {des|acuerdo} [desaˈkweɾðo], desacuerdos = nesúhlas
+2 N la negación {negación} [neɣaˈθjon], negaciones = popretie
+2 N la negativa {negativa} [neɣaˈtiβa], negativas = popretie
+2 N el susurro {susurro} [suˈsuro], susurros = šepot
+1 V defender {defender} [defenˈdeɾ], e>ie = obhajovať
 
 # language-writing
 1 N la palabra {palabra} [paˈlaβɾa], palabras = slovo
@@ -451,6 +456,7 @@
 2 AN escrito {escrito} [esˈkɾito], escrita = písomný
 2 AN lingüístico {lingüístico} [liŋˈɡwistiko], lingüística = jazykový
 1 AV por escrito {por·escrito} [poɾ eskɾiˈto] = písomne
+2 N el singular {singular} [siŋɡuˈlaɾ], singulares = jednotné číslo
 
 # media-news
 1 N el mensaje {mensaje} [menˈsaxe], mensajes = správa (oznam)

@@ -132,6 +132,7 @@ AN teoretický : adverb teoreticky
 N hypotéza
 N metóda
 N analýza
+N syntéza
 N fakt
 V vynájsť
 V preskúmať
@@ -171,7 +172,7 @@ AN architektonický
 
 # fields-of-study
 N matematika
-N matika
+N matika : of matematika @ hovorovo
 N matematik
 AN matematický
 N fyzika

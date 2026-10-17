@@ -187,3 +187,8 @@
 2 AV gładko {gładko} [ˈɡwatkɔ] = hladko
 3 AV szorstko {szorstko} [ˈʂɔrstkɔ] = drsne
 3 AV symetrycznie {symetrycznie} [sɨmɛˈtrɨtʂɲɛ] = symetricky
+3 AN asymetryczny {a|symetryczny} [asɨmɛˈtrɨtʂnɨ] = asymetrický
+2 AN dwuwymiarowy {dwu|wymiarowy} [dvuvɨmʲaˈrɔvɨ] = dvojrozmerný
+3 N tępota {tępota} [tɛmˈpɔta], ż, - = tuposť
+3 N asymetria {a|symetria} [asɨˈmɛtrja], ż, - = asymetria
+2 N krzywa {krzywa} [ˈkʂɨva], ż, krzywe = krivka
