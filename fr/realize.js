@@ -67,7 +67,11 @@ export async function loadFrench(base, { meaning = null, vary = null } = {}) {
     const deg = mods.find((m) => m.startsWith("deg:")), sup = mods.includes("sup"), comp = mods.includes("comp");
     if (mods.includes("one")) pre.push(adjForm({ word: "seul" }, g, pl));
     const adjs = mods.filter((m) => m.startsWith("adj:")).map((m) => entry(m.slice(4), "AN") ?? { word: sp(m.slice(4)) });
-    adjs.forEach((a, k) => (BEFORE.has(a.word) && !deg ? pre : post).push(...(k === 0 && deg ? [wordOf(deg.slice(4), "AV")] : []), ...(k === 0 && (sup || comp) ? ["plus"] : []), adjForm(a, g, pl) + (k < adjs.length - 2 && !BEFORE.has(a.word) ? "," : ""), ...(k === adjs.length - 2 && !BEFORE.has(adjs[k + 1]?.word) && !BEFORE.has(a.word) ? ["et"] : [])));
+    // (of different kinds: in French's order -- before the noun the farthest first, after it the nearest first: un grand
+    //  vieux chien noir, une voiture allemande rouge; else a list)
+    const after = adjs.filter((a) => !BEFORE.has(a.word)), cumulative = !deg && !sup && !comp && lx.adjOrder.cumulative(adjs);
+    if (cumulative) { pre.push(...lx.adjOrder.outward(adjs.filter((a) => BEFORE.has(a.word))).map((a) => adjForm(a, g, pl))); post.push(...lx.adjOrder.inward(after).map((a) => adjForm(a, g, pl))); }
+    else adjs.forEach((a, k) => (BEFORE.has(a.word) && !deg ? pre : post).push(...(k === 0 && deg ? [wordOf(deg.slice(4), "AV")] : []), ...(k === 0 && (sup || comp) ? ["plus"] : []), adjForm(a, g, pl) + (k < adjs.length - 2 && !BEFORE.has(a.word) ? "," : ""), ...(k === adjs.length - 2 && !BEFORE.has(adjs[k + 1]?.word) && !BEFORE.has(a.word) ? ["et"] : [])));
     for (const m of mods) {
       const [fn, a] = call(m);
       if (fn === "part") {   // les enfants riants / le filet parfaitement frit / le thé recommandé par le médecin / le livre à lire

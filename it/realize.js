@@ -67,9 +67,13 @@ export async function loadItalian(base, { meaning = null, vary = null } = {}) {
     // (bello, buono, grande, piccolo, nuovo, primo ... before the noun -- rules/neutral.txt `list before`, with its
     //  short form before a masculine singular: un buon libro, un bel giorno, il primo giorno)
     const before = (a) => !deg && !sup && !comp && BEFORE.has(a.word);
-    for (const a of adjs.filter(before)) pre.push(!pl && g === "m" && BEFORE.get(a.word) !== "-" && !VOWEL0.test(noun) ? BEFORE.get(a.word) : adjForm(a, g, pl));
+    // (of different kinds: in Italian's order -- before the noun the farthest first, after it the nearest first: un gran
+    //  vecchio cane, una macchina tedesca rossa; else a list joined by e)
+    const cumulative = !deg && !sup && !comp && lx.adjOrder.cumulative(adjs), ao = lx.adjOrder;
+    for (const a of (cumulative ? ao.outward : (x) => x)(adjs.filter(before))) pre.push(!pl && g === "m" && BEFORE.get(a.word) !== "-" && !VOWEL0.test(noun) ? BEFORE.get(a.word) : adjForm(a, g, pl));
     const after = adjs.filter((a) => !before(a));
-    after.forEach((a, k) => post.push(...(k === 0 && deg ? [wordOf(deg.slice(4), "AV")] : []), ...(k === 0 && (sup || comp) ? ["più"] : []), adjForm(a, g, pl) + (k < after.length - 2 ? "," : ""), ...(k === after.length - 2 ? ["e"] : [])));
+    if (cumulative) post.push(...ao.inward(after).map((a) => adjForm(a, g, pl)));
+    else after.forEach((a, k) => post.push(...(k === 0 && deg ? [wordOf(deg.slice(4), "AV")] : []), ...(k === 0 && (sup || comp) ? ["più"] : []), adjForm(a, g, pl) + (k < after.length - 2 ? "," : ""), ...(k === after.length - 2 ? ["e"] : [])));
     for (const m of mods) {
       const [fn, a] = call(m);
       if (fn === "part") {   // i bambini che ridono / la bistecca perfettamente fritta / il tè consigliato dal medico / il libro da leggere

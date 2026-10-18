@@ -13,13 +13,14 @@ so a line check.py rejects stops the compile.
     freq pos article word plural ipa parts forms aux comparison case comb sk
     opposite   the concept's opposites as `POS id` (concepts/opposites.txt), ` | `-joined
     generic    the generic concept the entry's concept is declared `of`, `POS id @ context` (tools/concepts.py)
+    section    the concept's place in the concepts' organization: group/topic/section (life/animals/mammals-wild)
 """
 import os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import check, concepts, offline, meaning, scenes, words
 
 COLS = ["category", "root", "derived", "freq", "pos", "article", "word", "plural", "ipa", "parts",
-        "forms", "aux", "comparison", "case", "comb", "sk", "formsIpa", "opposite", "generic"]
+        "forms", "aux", "comparison", "case", "comb", "sk", "formsIpa", "opposite", "generic", "section"]
 
 
 def main():
@@ -44,6 +45,7 @@ def main():
     words.derive_adverbs("de", check.ROOT, concepts.read(), rows, said, seen, COLS)   # (the declared adverbs: gut the adjective says gut the adverb)
     words.mark_opposites(rows)   # (the opposite concepts: concepts/opposites.txt)
     words.mark_generic(rows)     # (the generic concept and context a concept is declared `of`)
+    words.mark_section(rows)     # (the section of its concept's topic file: mammals-wild)
     out = ["\t".join(COLS)] + ["\t".join(str({**d, "sk": d.get("sks") or d["sk"]}.get(c, "")) for c in COLS) for d in rows]   # (the sk column: all the Slovak meanings)
     dest = os.path.join(check.ROOT, "dict.tsv")
     open(dest, "w", encoding="utf-8").write("\n".join(out) + "\n")

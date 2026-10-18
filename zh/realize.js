@@ -71,10 +71,14 @@ export async function loadChinese(base, { meaning = null, vary = null } = {}) {
     // the adjectives: one syllable straight before the noun, longer ones with 的; a degree word before the adjective
     const deg = mods.find((m) => m.startsWith("deg:")), sup = mods.includes("sup"), comp = mods.includes("comp");
     const adjs = mods.filter((m) => m.startsWith("adj:")).map((m) => entry(m.slice(4), "AN") ?? { word: sp(m.slice(4)) });
-    adjs.forEach((a, k) => {
+    // (of different kinds: in Chinese's order -- those with 的 first, then the bare ones next to the noun: a kind of thing,
+    //  德国汽车 -- rules/adjectives.txt BARE --, and the one-syllable ones)
+    const ao = lx.adjOrder, plain = !deg && !sup && !comp, bareOf = (a) => plain && (ao.bare(a) || BARE_ADJ.has(a.word));
+    const cumulative = plain && ao.cumulative(adjs), ordered = cumulative ? ao.before(adjs) : adjs;
+    (cumulative ? [...ordered.filter((a) => !bareOf(a)), ...ordered.filter(bareOf)] : ordered).forEach((a, k) => {
       const degW = k === 0 && deg ? wordOf(deg.slice(4), "AV") : k === 0 && sup ? "最" : k === 0 && comp ? "更" : null;
-      const w = a.word, bare = BARE_ADJ.has(w) && !degW;
-      pre.push(...(degW ? [degW] : []), ...(bare ? [w] : [/的$/.test(w) ? w : w + "的"]));
+      const w = a.word, bare = (BARE_ADJ.has(w) || (plain && ao.bare(a))) && !degW;
+      pre.push(...(degW ? [degW] : []), ...(bare ? [w.replace(/(.)的$/, "$1")] : [/的$/.test(w) ? w : w + "的"]));   // (德国的 -> 德国汽车: bare)
     });
     for (const m of mods) {
       const [fn, a] = call(m);

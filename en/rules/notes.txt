@@ -1,0 +1,28 @@
+# HOW ENGLISH DOES EACH GRAMMAR STRUCTURE (engine/build.js: the grammar ladder shows the note of every structure a step
+# brings; the names are world/syllabus.txt's). `structure = the rule, with a short example`.
+present = Subject – verb – object, always in this order; -s in the 3rd person singular: The dog sleeps. An action going on now: is sleeping.
+predicate = be + an adjective or a noun: The dog is old.
+object = The object follows the verb directly, nothing between them: She reads a book.
+adjective = The adjective stands before the noun and never changes: an old dog, the old dogs.
+adjective-order = Several adjectives follow opinion – size – quality – age – shape – colour – origin – material, with no comma between them: a lovely big old red German car.
+one-gladly-very = very, really, quite stand right before the adjective: very old. "Gladly" is said with like + -ing: She likes dancing.
+possessive = my, your, his, her, our, their replace the article: my dog.
+comparison = Short adjectives + -er (older), long ones more + adjective (more expensive), then than: older than the cat.
+past = Regular verbs -ed (played), irregular ones their own form (slept); questions and negation with did: Did he sleep? He did not sleep.
+perfect = have/has + past participle – for the past with a link to now; not with a finished time like yesterday (then the simple past): She has read it. She read it yesterday.
+future = will + infinitive: The dog will sleep.
+modal = can, must, want to + infinitive; can and must take no to: She can swim. She wants to swim.
+negation = do/does/did + not before the verb (or not after be, a modal, have in the perfect): He does not sleep. He is not old.
+no-det = "no" before the noun, or not ... a/any: I have no dog = I do not have a dog.
+frequency = always, often, sometimes stand before the main verb, after be: She often reads. She is always tired.
+time-basic = on + day (on Saturday), in + month, at + hour (at eight o'clock); time usually goes at the END, or at the very beginning.
+time-phrases = last week, next week, every day – no preposition.
+manner = The manner adverb (-ly: quickly, quietly) goes after the verb and its object: She speaks the language quietly.
+place-basic = in the garden, at home, at the beach; place goes after the object.
+adverb-order = At the end of the clause: manner – place – time: She sang loudly in the park yesterday.
+yes-no = do/does/did first (or be, a modal, have): Does the dog sleep? Is it old? Can it swim?
+wh-basic = The question word, then do/does/did (or be, a modal) and the subject: Where does the dog sleep?
+coord = and, but, or join two clauses: She reads and he cooks.
+that-because-if = because, that, if: normal word order in the clause; no comma when it follows the main clause: He stays home because he is ill.
+although-so-that = although, so that: normal word order; a comma before although: She reads, although she is tired.
+relative = who for people, that/which for things, right after the noun: The dog that plays in the garden sleeps.

@@ -5,7 +5,7 @@
 //   structuresOf(plan) -> Set of feature names ("relative", "perfect", "that-because-if" ...)
 //   structureList(syllabus) -> [{ name, stage, label }] in the syllabus's order -- the ones a plan shows (a feature with
 //   no detector here, such as the articles every sentence has, is not offered)
-//   IMPLIED[name] -> the structures a sentence with it cannot help showing too (polite: modal and conditional)
+//   labelOf(name) -> its label;  IMPLIED[name] -> the structures a sentence with it cannot help showing too (polite: modal and conditional)
 //   await loadStructures(url) -> Map name -> [plan]: the declared EXAMPLE PLANS of world/structures.txt -- one or two
 //   simple language-free plans a structure, each language's realizer says them: the sentence every structure has when
 //   the planner finds none (engine/practice.js), the overview's examples, and which structures a language has at all
@@ -40,6 +40,10 @@ const D = {
   perfect: { label: "the perfect", is: (cs) => cs.some((c) => tense(c) === "perfect") },
   recipient: { label: "indirect objects (to whom)", is: (cs) => cs.some((c) => arg(c, "recipient")) },
   direction: { label: "where to: into, onto ...", is: (cs) => cs.some((c) => all(c, "pp").some((p) => DIRECTED.test(p.split(":")[0]))) },
+  "adjective-order": { label: "two adjectives: their order", is: (cs, seq, vs) => vs.some((v) => (v.match(/\+adj:/g) ?? []).length >= 2) },
+  frequency: { label: "how often: always, often, sometimes", is: (cs) => cs.some((c) => arg(c, "freq")) },
+  manner: { label: "how: quickly, quietly, carefully", is: (cs) => cs.some((c) => arg(c, "manner") && arg(c, "manner") !== "rád") },
+  "adverb-order": { label: "time, manner, place together: their order", is: (cs) => cs.some((c) => ["time", "freq", "manner", "place"].filter((k) => arg(c, k)).length >= 2) },
   adjective: { label: "adjectives before nouns", is: (cs, seq, vs) => cs.some((c) => Object.entries(c.args).some(([k, xs]) => k !== "pred" && xs.some((v) => /\+adj:/.test(v)))) },
   comparison: { label: "comparison (bigger, the biggest)", is: (cs, seq, vs) => vs.some((v) => /\+(comp|sup)\b/.test(v)) },
   "that-because-if": { label: "that, because, if clauses", is: (cs) => cs.some((c) => c.type === "SUB" && LINKS.basic.has(arg(c, "link"))) },
@@ -98,6 +102,9 @@ export function structuresOf(plan) {
   return new Set(Object.keys(D).filter((k) => { try { return D[k].is(cs, seq, vs); } catch { return false; } }));
 }
 
+// a structure's label: what the learner picks (the name itself when it has none)
+export const labelOf = (name) => D[name]?.label ?? name;
+
 // the structures in the syllabus's order, each with its stage (A1.1 ...): `syllabus` world/syllabus.txt's text
 export function structureList(syllabus) {
   const out = [];
@@ -108,7 +115,7 @@ export function structureList(syllabus) {
 // what a structure brings with it: a sentence showing the first shows these too (a polite request is a modal in the
 // Konjunktiv II; an indirect yes/no question is a subordinate clause with whether) -- not counted against it in focus
 export const IMPLIED = {
-  polite: ["modal", "conditional", "yes-no"], "time-phrases": ["quantifiers"], which: ["wh-basic"], indirect: ["that-because-if"], "when-past": ["past"],
+  polite: ["modal", "conditional", "yes-no"], "adjective-order": ["adjective"], "time-phrases": ["quantifiers"], which: ["wh-basic"], indirect: ["that-because-if"], "when-past": ["past"],
   pluperfect: ["temporal", "past", "perfect"], connectives: ["coord"], "subject-drop": ["coord"],
   "relative-prep": ["relative"], "relative-more": ["relative"], "indefinite-adj": ["indefinite", "adjective"],
   "negation-more": ["negation"], "so-that-the-more": ["comparison"], "modal-perfect": ["modal", "perfect"],

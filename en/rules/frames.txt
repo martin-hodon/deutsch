@@ -81,6 +81,7 @@ have = disponovať : patient direct
 give up = vzdať sa : theme direct
 be considerate = vziať : bare ={ohľad}, purpose of
 relieve = ubúdať : recipient direct, patient of
+take a photo = fotografovať : patient of
 carry out = predsavziať si : patient
 bring = priniesť : recipient io, patient
 bring = priniesť : patient, goal into

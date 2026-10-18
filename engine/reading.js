@@ -9,6 +9,7 @@ import { LANGS } from "./langs.js";
 import { keptPair, keepLearn } from "./storage.js";
 import { mountHeader } from "./header.js";
 import { formsIndex, fold, ELISIONS } from "./wordforms.js";
+import { loadDerivations, derivationText } from "./derive.js";
 import { loadSounds } from "./sounds.js";
 import { createVoice, loadProsody, phrase } from "./speak.js";
 import { loadText, t, applyText } from "./text.js";
@@ -27,6 +28,7 @@ async function loadLang(l) {
   if (l === "de") await DE.loadMorphology("de/rules/morphology.txt");
   d.ipaOf = await loadSounds(`${l}/rules/sounds.txt`, new Map(d.entries.map((e) => [e.word, e])));
   await formsIndex(d, l);   // (every form -> its entries: engine/wordforms.js, shared with the dictionary)
+  d.derive = (await loadDerivations(l)).derive;   // (a word it has not: a known word + a regular derivation -- roughly)
   d.maxLen = l === "zh" ? Math.max(...d.entries.map((e) => e.word.length)) : 0;
   return (dicts[l] = d);
 }
@@ -51,9 +53,11 @@ function tokenize(text) {
   }
   return out;
 }
-// what the dictionary knows of a token: the entries it is a form of (the word itself first, then its forms)
+// what the dictionary knows of a token: the entries it is a form of (the word itself first, then its forms) -- none: the
+// known words it is derived from (engine/derive.js: roughly -> rough + -ly), each hit with its `derived` reading
 function know(w) {
   const k = fold(w.replace(/’/g, "'")), hits = dict.index.get(k) ?? dict.index.get(k.replace(/'$/, "")) ?? [];
+  if (!hits.length) return dict.derive(w, dict).slice(0, 2).map((x) => ({ e: x.e, cell: "", ipa: "", derived: x }));
   const exact = hits.filter((h) => fold(h.e.word) === k), rest = hits.filter((h) => fold(h.e.word) !== k);
   return [...exact, ...rest].sort((a, b) => a.e.freq - b.e.freq || a.e.rank - b.e.rank).slice(0, 5);
 }
@@ -67,6 +71,7 @@ function showTip(span, hits) {
   tip = el("div", "tip");
   if (!hits.length) tip.append(el("div", "tip-word mute", "?"));
   for (const h of hits.slice(0, 4)) {
+    if (h.derived) tip.append(el("div", "tip-derived", `${span.textContent} = ${derivationText(h.derived)}`));
     const e = h.e, head = el("div", "tip-word", shown(e), el("span", "tip-pos", ` ${e.pos}`));
     const a = el("a", "tip-open", "📖"); a.href = `dictionary.html#${lang}/${encodeURIComponent(e.id)}`; a.title = t("dictionary"); head.append(" ", a);
     tip.append(head);
@@ -91,7 +96,7 @@ function renderText(text) {
     p.append(sayAll);
     for (const tk of toks) {
       if (!tk.word) { p.append(tk.w); continue; }
-      const hits = know(tk.w), span = el("span", "w" + (hits.length ? "" : " unknown"), tk.w);
+      const hits = know(tk.w), span = el("span", "w" + (!hits.length ? " unknown" : hits[0].derived ? " derived" : ""), tk.w);
       span.onmouseenter = () => showTip(span, hits);
       span.onmouseleave = () => { if (tipFor === span) hideTip(); };
       span.onclick = () => { const ipa = soundOf(tk.w, hits[0]); if (ipa) { voice.say(ipa); document.body.dataset.said = ipa; } showTip(span, hits); };

@@ -162,7 +162,7 @@ function chooseMode(name) {
 // an exercise's name: this pair's mode's label, else one made from its key (an answer of another pair in the recorded
 // data: vocab:es-sk -> Español → Slovensky, order:fr -> Syntax (Français); irregular:en -- the irregular verbs once asked
 // as words, now the Morphology's "irregular verbs" switch)
-const KINDS = { order: "syntax", forms: "morphology", overview: "overview", irregular: "irregular-verbs" };
+const KINDS = { order: "syntax", forms: "morphology", ladder: "ladder", overview: "overview", irregular: "irregular-verbs" };
 const labelOfMode = (m) => {
   if (MODES[m]) return t(MODES[m].label);
   const [kind, rest = ""] = m.split(":"), [a, b] = rest.split("-"), name = (l) => LANGS[l]?.name ?? l;
@@ -177,6 +177,7 @@ function ask() {
   if (kind === "order") return askOrder();
   if (kind === "forms") return askForms();
   if (kind === "overview") return showOverview();
+  if (kind === "ladder") return showLadder();
   return askWord();
 }
 
@@ -274,6 +275,19 @@ async function askForms() {
   showProgress();
 }
 
+// THE LADDER: a sentence built up from the simplest one, a grammar rule a step, each step a whole sentence with what it
+// brought marked and the language's rule (engine/practice.js ladder); a step clicked is spoken; Next (⏎): another
+// -- or a sentence of one's own taken apart (engine/practice.js analyze: its parts of speech, its ladder)
+async function showLadder(typed = null) {
+  const structure = ui.selected("structure"), level = Number(ui.selected("level"));
+  const got = await made(() => (typed ? practice.analyze(pair.learn, level, typed) : practice.ladder(pair.learn, level, structure).then((rungs) => rungs && { rungs, exact: true })));
+  if (got === null) return;
+  if (!got) return none("order", structure);
+  current = { kind: "ladder" };
+  ui.showLadder(`${t("ladder")} · ${LANGS[pair.learn].name} · ${ui.levelLabel()}`, got.rungs, { onSay: (r) => say(r.ipa), onNext: ask, onAnalyse: (text) => { asking++; showLadder(text); }, typed: typed ?? "", exact: got.exact, tree: got.tree ?? got.rungs.tree });
+  showProgress();
+}
+
 // THE OVERVIEW: every structure of the language and every rule set of forms with an example (engine/practice.js overview);
 // a row clicked opens that exercise on it
 async function showOverview() {
@@ -295,6 +309,7 @@ function choose(option) {
 // Keys 1-3 do what a click on that option does; Enter checks a word order, or goes on; Backspace takes a word back
 function pressed(key) {
   if (!current) return;
+  if (current.kind === "ladder") { if (key === "Enter") ask(); return; }
   if (current.kind === "order") {
     if (key === "Enter") return current.answered ? ask() : orderKeys?.check();
     if (key === "Backspace") return orderKeys?.back();

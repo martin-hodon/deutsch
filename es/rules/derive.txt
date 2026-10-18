@@ -1,0 +1,14 @@
+# DEDUCIBLE WORDS (engine/derive.js): a word the dictionary does not have, read as a known word + a regular derivation
+# -- only READ (the reading page, the dictionary search), never added. `KIND TARGET < BASE : patterns -- label` (~: the
+# base word); a pattern: -suffix, -suffix/rest (the base ends in rest), prefix-, a * after a suffix: a doubled consonant
+# undone; `COMPOUND TARGET < FIRST + HEAD : links -- label` (a link "" for none). Compared folded: no case, accents, umlauts.
+adverb      AV < AN : -mente                                            -- in a ~ way
+negative    AN < AN : in- im- des- i-                                   -- not ~
+quality     N < AN : -dad -idad/o -idad/e -ez/o -eza/o -ura/o           -- being ~
+agent       N < V : -dor/r -dora/r                                      -- someone who does: ~
+activity    N < V : -cion/r -amiento/ar -imiento/er -imiento/ir -aje/ar   -- the act of: ~
+diminutive  N < N : -ito/o -ita/a -cito -cita -illo/o -illa/a -ito -ita   -- a little ~
+very        AN < AN : -isimo/o -isima/a -isimo/e -isima/e -isimo -isima                   -- very ~
+ability     AN < V : -able/ar -ible/er -ible/ir                          -- that can be: ~
+again       V < V : re-                                                 -- ~ again
+feminine    N < N : -a/o -a                                             -- a female ~

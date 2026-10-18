@@ -89,7 +89,8 @@ export async function loadRussian(base, { meaning = null, vary = null } = {}) {
     const agree = (a) => (ne ? M.adj(a, nounCase, nounPl ? "pl" : g0, nounPl, { animate }) : a.word ?? a);
     const pre = [], post = [];
     const adjs = mods.filter((m) => m.startsWith("adj:")).map((m) => entry(m.slice(4), "AN") ?? { word: wordOf(m.slice(4), "AN") });
-    adjs.forEach((a, k) => pre.push(...(k === 0 && deg ? [wordOf(deg.slice(4), "AV")] : []), ...(k === 0 && sup ? [M.adj({ word: "самый" }, nounCase, nounPl ? "pl" : g0, nounPl, { animate })] : []), k === 0 && comp ? M.compare(a) : agree(a), ...(k < adjs.length - 1 ? [","] : [])));
+    const cumulative = !sup && !comp && lx.adjOrder.cumulative(adjs);   // (in Russian's order, no comma: большая старая собака)
+    (cumulative ? lx.adjOrder.before(adjs) : adjs).forEach((a, k) => pre.push(...(k === 0 && deg ? [wordOf(deg.slice(4), "AV")] : []), ...(k === 0 && sup ? [M.adj({ word: "самый" }, nounCase, nounPl ? "pl" : g0, nounPl, { animate })] : []), k === 0 && comp ? M.compare(a) : agree(a), ...(k < adjs.length - 1 && !cumulative ? [","] : [])));
     for (const m of mods) {
       const [fn, a] = call(m);
       if (fn === "part") {   // (a participle: II the passive participle agreeing -- купленная книга --, I a relative clause)

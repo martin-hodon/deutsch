@@ -7,6 +7,8 @@
 //                                                              on that dictionary; say(plan) -> { text, tokens, ipa }
 //   sg.can(entry)            can a sentence show this word (the world tells of its concept)
 //   sg.sentence(entry)       -> { plan, said } | null   (a pattern that fits, filled; null when none could be)
+//   sg.parts                 the word-fitting helpers -- the grammar ladder's too (engine/build.js): no second copy
+//   level: the fillers' FREQ (2: of FREQ 1 or 2); weigh(entry): how likely a filler noun is (default: FREQ 1 three times)
 import { parseTests } from "./realize.js";
 import { ROLES } from "./lexicon.js";
 
@@ -14,7 +16,7 @@ const SKIP = new Set(["that", "whether", "inf", "inf.bare", "inf.obj", "inf.subj
 const PRON = ["1sg", "2sg", "3sg.m", "3sg.f", "1pl", "3pl"], ASK = ["2sg", "2sg", "2pl", "formal"], OBJ = ["3sg.m", "3sg.f", "1sg", "1pl"];
 const ADV_KEY = { time: "time", frequency: "freq", manner: "manner", place: "place", sentence: "sentence" };
 const END = { YESNO: "?", WH: "?", IMP: "!" };
-const COMMON = 2;   // (the fillers -- nouns, adjectives, verbs around the word shown -- of FREQ 1 or 2)
+const COMMON = 2;   // (the fillers -- nouns, adjectives, verbs around the word shown -- of FREQ 1 or 2: the default level)
 
 // the patterns: [{ pos, type, only, text, weight }]
 function parsePatterns(src) {
@@ -29,15 +31,15 @@ function parsePatterns(src) {
   return out;
 }
 
-export async function createSimple({ dict, meaning, say, base = "", rnd = Math.random }) {
+export async function createSimple({ dict, meaning, say, base = "", rnd = Math.random, level = COMMON, weigh = null }) {
   const patterns = parsePatterns(await (await fetch(base + "world/simple.txt")).text());
   // (two of the world's word lists -- world/lists.txt: adjectives no degree word goes with, adjectives left alone)
   const lists = await (await fetch(base + "world/lists.txt")).text(), listOf = (n) => new Set((lists.match(new RegExp(`^WORDS ${n.replace(".", "\\.")}: (.*)$`, "m"))?.[1] ?? "").split("|").map((x) => x.trim().replace(/\s*\{[\d.]+\}$/, "").replace(/_/g, " ")).filter(Boolean));
   const UNGRADABLE = listOf("adj.ungradable"), UNUSED = listOf("adj.not-used");
   const pick = (l) => l[Math.floor(rnd() * l.length)];
   const weighted = (l, w) => { let r = rnd() * l.reduce((t, x) => t + w(x), 0); for (const x of l) if ((r -= w(x)) < 0) return x; return l[l.length - 1]; };
-  const byFreq = (e) => (e.freq <= 1 ? 3 : 1);   // (the commonest nouns likelier)
-  const common = (e) => e.freq <= COMMON;
+  const byFreq = weigh ?? ((e) => (e.freq <= 1 ? 3 : 1));   // (the commonest nouns likelier)
+  const common = (e) => e.freq <= level;
   const isPerson = (cat) => !!cat && (cat === "agent" || meaning.isA(cat, "person"));
   const personNoun = (e) => meaning.fits(e, "person");
   const countable = (e) => !meaning.flag(e, "mass") && e.plural !== "-" && e.plural !== "PL";
@@ -48,7 +50,8 @@ export async function createSimple({ dict, meaning, say, base = "", rnd = Math.r
   const subjSlot = (f) => ({ cat: f.subj, not: f.subjNot, need: f.subjNeed, words: f.subjWords });
   // the common adjectives that describe a noun, the common nouns an adjective describes (cached by concept)
   const cache = new Map(), cached = (k, make) => cache.get(k) ?? cache.set(k, make()).get(k);
-  const adjsFor = (noun) => cached(`adj|${noun.concept}`, () => dict.entries.filter((e) => e.pos === "AN" && common(e) && !meaning.attributiveOnly(e) && !UNUSED.has(e.concept) && meaning.describes(e, noun)));
+  // (`attributive`: on the noun -- an adjective said only before a noun may, one said only as a predicate may not)
+  const adjsFor = (noun, { attributive = false } = {}) => cached(`adj|${attributive}|${noun.concept}`, () => dict.entries.filter((e) => e.pos === "AN" && common(e) && !(attributive ? meaning.predicativeOnly(e) : meaning.attributiveOnly(e)) && !UNUSED.has(e.concept) && meaning.describes(e, noun)));
   const nounsOf = (adj) => cached(`noun|${adj.concept}`, () => dict.entries.filter((e) => e.pos === "N" && common(e) && meaning.describes(adj, e)));
   const verbs = cached("verbs", () => dict.entries.filter((e) => e.pos === "V" && common(e) && meaning.frames(e).length));
 
@@ -62,9 +65,10 @@ export async function createSimple({ dict, meaning, say, base = "", rnd = Math.r
     if (role === "patient" || role === "theme") return `${r < .55 ? "def" : r < .8 ? "indef" : "def"}:${cid}${r >= .8 ? "+pl" : ""}${mods}`;
     return `${r < .85 ? "def" : "def"}:${cid}${r >= .85 ? "+pl" : ""}${mods}`;
   }
-  // the subject: a person mostly a pronoun (2sg in a question), else a common noun of the frame's category
-  function subject(f, { ask = false, taken = null } = {}) {
-    if (!f.subjWords && isPerson(f.subj) && (ask || rnd() < .65)) return { v: pick(ask ? ASK : PRON), person: true };
+  // the subject: a person mostly a pronoun (2sg in a question), else a common noun of the frame's category (`noun`: a
+  // noun whenever one fits)
+  function subject(f, { ask = false, taken = null, noun = false } = {}) {
+    if (!f.subjWords && isPerson(f.subj) && (ask || rnd() < (noun ? 0 : .65))) return { v: pick(ask ? ASK : PRON), person: true };
     const ns = nounsFor(subjSlot(f), taken);
     if (!ns.length) return null;
     const e = weighted(ns, byFreq);
@@ -177,5 +181,6 @@ export async function createSimple({ dict, meaning, say, base = "", rnd = Math.r
     }
     return null;
   }
-  return { can, sentence, patterns };
+  const parts = { common, pick, weighted, byFreq, isPerson, personNoun, countable, nounsFor, subjSlot, adjsFor, nounsOf, verbs, usable, np, subject, slots, frameText, listOf, UNGRADABLE, lists };
+  return { can, sentence, patterns, parts };
 }

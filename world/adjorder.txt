@@ -1,0 +1,19 @@
+# THE KINDS OF ADJECTIVES (engine/meaning.js adjKind) -- language-free: what an adjective says of a thing (big: its size,
+# red: its colour). Two adjectives of DIFFERENT kinds on one noun are CUMULATIVE -- they stand in an order without a comma
+# (a big old dog); two of the SAME kind, or one of no kind here, are a LIST -- with a comma, the language's "and" before
+# the last where it has one (a dark, shiny mirror). WHICH order and on which side of the noun is each language's grammar:
+# <lang>/rules/adjectives.txt (engine/adjorder.js).
+#
+#   KIND name: concept | concept ...      (the adjectives' Slovak concept IDs, `_` for a space)
+#
+# The grammar ladder (engine/build.js) draws a second adjective from these lists only: one of another kind than the
+# first, so the language's order shows.
+
+KIND opinion: krásny | pekný | škaredý | dobrý | zlý | príjemný | nepríjemný | zaujímavý | úžasný | skvelý | strašný | nádherný | čudný | výborný
+KIND size: veľký | malý | obrovský | maličký | dlhý | krátky | vysoký | nízky | široký | úzky | tenký | hrubý_(hrúbka)
+KIND quality: ľahký | teplý | studený | horúci | chladný | mokrý | suchý | čistý_(bez_špiny) | špinavý | mäkký | tvrdý | plný | prázdny | čerstvý | zrelý | sladký | kyslý | slaný | silný | slabý | drahý | lacný | pokazený | tmavý | svetlý | rýchly | pomalý | hlasný | tichý_(nehlučný)
+KIND age: starý | nový | mladý | moderný
+KIND shape: okrúhly | hranatý | štvorcový | plochý | oválny | rovný
+KIND colour: červený | modrý | zelený | žltý | čierny | biely | hnedý | sivý | pestrý | ružový | oranžový | fialový
+KIND origin: nemecký | anglický | francúzsky | taliansky | španielsky | poľský | ruský | čínsky | slovenský | americký | japonský
+KIND material: drevený | zlatý | strieborný | železný

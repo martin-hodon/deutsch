@@ -1,0 +1,12 @@
+# DEDUCIBLE WORDS (engine/derive.js): a word the dictionary does not have, read as a known word + a regular derivation
+# -- only READ (the reading page, the dictionary search), never added. `KIND TARGET < BASE : patterns -- label` (~: the
+# base word); a pattern: -suffix, -suffix/rest (the base ends in rest), prefix-, a * after a suffix: a doubled consonant
+# undone; `COMPOUND TARGET < FIRST + HEAD : links -- label` (a link "" for none). Compared folded: no case, accents, umlauts.
+adverb      AV < AN : -地                                               -- in a ~ way
+negative    AN < AN : 不-                                               -- not ~
+negative    V < V : 不- 没-                                             -- not ~
+plural      N < N : -们                                                 -- ~ (more than one person)
+belonging   AN < N|P : -的                                              -- of ~, ~'s
+quality     N < AN : -性 -度                                            -- the ~-ness
+agent       N < V|N : -者 -家 -员 -手                                   -- someone who does: ~
+COMPOUND N < N|AN|V + N : ""                                             -- a kind of ~

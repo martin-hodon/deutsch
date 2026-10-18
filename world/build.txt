@@ -1,0 +1,88 @@
+# THE GRAMMAR LADDER (engine/build.js): a sentence grown from the simplest one, ONE GRAMMAR RULE A STEP, every step a
+# whole right sentence -- Der Hund schläft. -> Der alte Hund schläft. -> Der große alte Hund schläft. -> Der große alte
+# Hund schläft heute. -> Der große alte Hund schläft heute im Garten. No story, no scene: grammar and the words'
+# relations alone -- the verb's frame and the categories its slots take (world/meaning), what an adjective describes,
+# the order of adjectives (world/adjorder.txt), the everyday verbs and the manner adverbs they take (world/lists.txt:
+# verb.routine, manner.rád, manner.*), the places below. Language-free: each language's realizer says every step, and
+# <lang>/rules/notes.txt says how that language does each structure the step shows (the rule).
+#
+# THE BASE: an everyday verb (world/lists.txt verb.routine, manner.rád; one word, not a phrase) with its frame, at most
+# one object (a patient), its subject a noun (so adjectives have something to describe: SUBJECTS below mostly) -- or, now and then,
+# `noun + be + adjective` (Der Hund ist alt.). The words: the commoner the likelier, by their rank (order.tsv).
+#
+# THE STEPS, in the order a ladder takes them (a ladder takes some, each where it fits):
+#   STEP name {weight} -- what it adds
+# The structures a step shows are not declared: they are read off the plan (engine/structures.js) -- adding a place to
+# a clause with a time shows both "place-basic" and "adverb-order".
+#   adjective        an adjective that describes a noun (the subject, the object) -- one of world/adjorder.txt mostly
+#   adjective-order  a second adjective of another kind (each language says the two in its own order: <lang>/rules/adjectives.txt)
+#   degree           a degree word on an adjective (DEGREE below), never on one of adj.ungradable
+#   possessive       a person's own thing: my, her ... (POSSESSIVE below) on a noun the subject does not name
+#   plural           the subject in the plural (a countable noun)
+#   comparison       (a predicate adjective) the comparative, than a noun it describes too
+#   past perfect future   the tense (one of them)
+#   modal            a modal verb (MODAL below) -- in the present, its subject a person or an animal
+#   negation         not -- an object with a/an becomes no/kein (no-det)
+#   frequency        how often (FREQUENCY below) -- an everyday verb's; not beside a time
+#   time             when (TIME below, by the tense)
+#   manner           how: an adverb whose world/lists.txt manner.* list has the verb (gladly: in the present, no modal)
+#   place            where (PLACE below: the places the verb is done at)
+#   yes-no           the question
+#   wh               a question word: where (for the place), when (for the time), else where
+#   and              a second main clause: another everyday action of the same subject (a pronoun)
+#   because although a reason, a concession: the subject in a state (adj.state) that describes it
+#   relative         a relative clause on the subject: an everyday action of it (its frame's subject)
+STEP adjective {4}
+STEP adjective-order {3}
+STEP degree {1}
+STEP possessive {1}
+STEP plural {1}
+STEP comparison {2}
+STEP past {1}
+STEP perfect {1}
+STEP future {1}
+STEP modal {1}
+STEP negation {1}
+STEP frequency {1}
+STEP time {3}
+STEP manner {2}
+STEP place {3}
+STEP yes-no {1}
+STEP wh {1}
+STEP and {1}
+STEP because {1}
+STEP although {1}
+STEP relative {1}
+
+# THE WORDS of the steps (concept IDs; phrases as world/CLAUSES.md writes them). SUBJECTS: the everyday people and
+# animals a base's subject is mostly drawn from (where the frame takes them) -- not "the candidate", "the victim"
+# THINGS: what a `be + adjective` base is said of (with SUBJECTS), its adjective one of size, quality, age, colour
+THINGS: dom | auto | kniha | stôl | izba | záhrada | jablko | káva | polievka | voda | okno | dvere | taška | posteľ | kvetina | strom | mesto | ulica | chlieb | čaj | kabát | topánka | hrnček | lampa
+# NOT: everyday verbs a ladder does not start from -- a state with no time of its own (not "Deine Väter leben am Samstag")
+NOT: žiť | bývať | zostať
+SUBJECTS: žena | muž | dieťa | priateľ | priateľka | brat | sestra | matka | otec | učiteľ | učiteľka | študent | chlapec | dievča | babka | dedko | sused | susedka | kuchár | lekár | pes | mačka | vták | kôň
+DEGREE: veľmi | naozaj | dosť
+POSSESSIVE: poss.1sg | poss.2sg | poss.3sg.m | poss.3sg.f | poss.1pl
+MODAL: chcieť | musieť | môcť
+FREQUENCY: často | vždy | občas
+TIME present: dnes | teraz | on-day:sobota | on-day:nedeľa | at-hour:osem
+TIME past: včera | last:týždeň | on-day:pondelok
+TIME perfect: včera | dnes | last:týždeň
+TIME future: zajtra | next:týždeň | on-day:piatok
+
+# THE PLACES: `PLACE where : verbs` -- a place phrase (place=, world/CLAUSES.md: home, a place adverb, RELATION:det:noun)
+# and the everyday verbs done there (`*` any of them). A verb with no place here gets none.
+PLACE home : spať | jesť | piť | čítať | písať | variť | piecť | učiť_sa | pracovať | spievať | tancovať | upratať | pozerať_televíziu | telefonovať | raňajkovať | čakať | zostať | počúvať | maľovať | kresliť | šiť | pliesť | umývať | čistiť | hrať
+PLACE in:def:záhrada : spať | jesť | piť | čítať | pracovať | hrať | spievať | čakať | maľovať | kresliť | záhradkáriť | raňajkovať | tancovať | počúvať
+PLACE in:def:kuchyňa : variť | piecť | jesť | piť | raňajkovať | umývať | upratať | čistiť | čakať | čítať
+PLACE in:def:park : bežať | behať | hrať | čítať | spievať | tancovať | čakať | jesť | piť | bicyklovať | maľovať | kresliť
+PLACE in:def:škola : učiť_sa | písať | čítať | spievať | kresliť | maľovať | čakať | pracovať | vyučovať | študovať
+PLACE in:def:kancelária : pracovať | písať | čítať | telefonovať | čakať
+PLACE in:def:reštaurácia : jesť | piť | objednať | čakať | pracovať | variť
+PLACE in:def:kaviareň : piť | jesť | čítať | písať | čakať | raňajkovať
+PLACE in:def:jazero : plávať
+PLACE at:def:pláž : spať | čítať | hrať | bežať | jesť | piť | behať
+PLACE in:def:mesto : nakupovať | bývať | pracovať | žiť | čakať
+PLACE in:def:les : bežať | behať | putovať | ísť_(pešo)
+PLACE vonku : hrať | bežať | behať | jesť | čakať | pracovať | čítať
+PLACE tu : *

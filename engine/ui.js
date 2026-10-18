@@ -149,7 +149,7 @@ export function showTitle(name, articles) {
 export const entryMeta = (entry) => `${entry.category} · ${entry.pos} · FREQ ${entry.freq}`;
 
 function clearCard() {
-  $("card").hidden = false; $("overview").hidden = true;   // (the overview stands in the card's place)
+  $("card").hidden = false; $("overview").hidden = true; $("overview").classList.remove("ladder");   // (the overview -- a ladder too -- stands in the card's place)
   $("card").classList.remove("was-right", "was-wrong");
   $("order").hidden = true;
   $("options").replaceChildren();
@@ -282,6 +282,50 @@ export function showOverview({ structures, rules }, { onStructure, onRule }) {
     kids.push(row);
   }
   box.replaceChildren(...kids);
+}
+
+// THE LADDER (engine/practice.js ladder): in the card's place, a sentence built up step by step -- each rung its step,
+// its words in the colours of their parts of speech with what the step brought marked, the structures it brought with
+// the language's rule; a rung clicked: `onSay(rung)`; the Next button: `onNext()`. Above it a sentence of one's own to
+// take apart: `onAnalyse(text)`, `typed` the one shown, `exact` false: not checked by the grammar (said beside it)
+export function showLadder(title, rungs, { onSay, onNext, onAnalyse, typed = "", exact = true, tree = null }) {
+  clearCard();
+  $("card").hidden = true;
+  const box = $("overview"); box.hidden = false; box.classList.add("ladder");
+  const seen = [...new Set(rungs.flatMap((r) => r.words.map((w) => w.pos).filter(Boolean)))];
+  const next = element("button", "go", t("next"));
+  next.onclick = onNext;
+  const rows = rungs.map((r, i) => {
+    // (a space before a word -- not before a mark, nor between Chinese characters --, outside the word's own marking)
+    const words = r.words.flatMap((w, k) => [k && /^[\p{L}\p{N}¿¡„“(]/u.test(w.w) && !/^[\u4e00-\u9fff]/u.test(w.w) ? " " : null, element("span", [w.pos ? `pos pos-${w.pos}` : "", w.changed ? "new" : ""].join(" ").trim(), w.w)]);
+    const rules = r.shows.filter((s) => s.note).map((s) => element("li", "", element("b", "", s.label), ": ", s.note));
+    const row = element("li", "rung", element("div", "rung-head", element("span", "rung-step", `${i + 1}. ${t(`step.${r.step}`)}`), element("span", "rung-say", "🔊")),
+      element("div", "rung-text", ...words), rules.length ? element("ul", "rung-rules", ...rules) : null);
+    row.onclick = () => onSay(r);
+    return row;
+  });
+  const input = element("input", "ladder-input"), go = element("button", "", t("analyse"));
+  input.value = typed; input.placeholder = t("ladder-own"); input.lang = "";
+  const send = () => { if (input.value.trim()) onAnalyse(input.value.trim()); };
+  go.onclick = send; input.onkeydown = (ev) => { if (ev.key === "Enter") { ev.preventDefault(); ev.stopPropagation(); send(); } };
+  const own = element("div", "ladder-own", input, go);
+  box.replaceChildren(element("h3", "", title), own, ...(typed && !exact ? [element("p", "ladder-unchecked", t("ladder-unchecked"))] : []), element("p", "mute ov-help", t("ladder-help")),
+    element("div", "ov-legend", ...seen.map((pos) => element("span", `pos pos-${pos}`, t(`pos.${pos}`)))), element("ol", "rungs", ...rows),
+    ...(tree ? [element("h4", "", t("tree")), element("p", "mute ov-help", t("tree-help")), treeView(tree.root, tree.words)] : []), next);
+}
+
+// THE TREE of a sentence (engine/tree.js): each node its part (subject, object, place ...), the rule that joins it and
+// its words -- in the colours of their parts of speech, "…" where a part lies apart (hat … gelesen) --, the words its leaves
+function treeView(root, words) {
+  const word = (i) => element("span", words[i].pos ? `pos pos-${words[i].pos}` : "", words[i].w);
+  // (… only where words of another part lie between -- not a comma)
+  const between = (a, b) => words.slice(a + 1, b).some((x) => /\p{L}|\p{N}/u.test(x.w));
+  const span = (at) => at.flatMap((i, k) => [k ? (between(at[k - 1], i) ? " … " : " ") : null, word(i)]);
+  const item = (n) => {
+    if (n.leaf != null) return element("li", "tree-leaf", ...(n.role ? [element("span", "tree-role", n.role)] : []), word(n.leaf), element("span", "tree-pos", words[n.leaf].pos ? t(`pos.${words[n.leaf].pos}`) : ""));
+    return element("li", "tree-node", element("div", "tree-head", ...(n.role ? [element("span", "tree-role", n.role)] : []), element("span", "tree-rule", n.rule), element("span", "tree-words", ...span(n.at))), element("ul", "", ...n.kids.map(item)));
+  };
+  return element("ul", "tree", item(root));
 }
 
 // A WORD'S EXAMPLE SENTENCES (engine/practice.js) under the question. `list` [{ text, mark }], the word marked -- or,

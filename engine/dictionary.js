@@ -23,6 +23,7 @@ import { keptPair, keepLearn } from "./storage.js";
 import { mountHeader } from "./header.js";
 import { loadParadigms } from "./paradigm.js";
 import { formsIndex } from "./wordforms.js";
+import { loadDerivations, derivationText } from "./derive.js";
 import { createVoice, loadProsody } from "./speak.js";
 import { loadText, t, tn, applyText } from "./text.js";
 import { createPractice } from "./practice.js";
@@ -152,7 +153,7 @@ const loadLang = async (l) => {
   const words = new Set(d.entries.map((e) => e.word));
   for (const e of d.entries) {
     for (const c of components(e, l)) if (words.has(c) && c !== e.word) (d.byPart.get(c) ?? d.byPart.set(c, []).get(c)).push(e);
-    const st = stem(e, l); if (st) (d.byStem.get(st) ?? d.byStem.set(st, []).get(st)).push(e);   // (laufen, Lauf, Läufer? -- lauf: the stem shared)
+    const st = stem(e, l, d); if (st) (d.byStem.get(st) ?? d.byStem.set(st, []).get(st)).push(e);   // (laufen, Lauf, Läufer? -- lauf: the stem shared)
   }
   return (dicts[l] = d);
 };
@@ -162,12 +163,13 @@ function pinyinKey(s) {
   for (const ch of s.normalize("NFD")) { if (TONE_MARKS[ch]) tones += TONE_MARKS[ch]; else if (/[a-z]/i.test(ch)) letters += ch.toLowerCase(); else if (/[1-5]/.test(ch)) tones += ch; }
   return { letters, tones };
 }
-// a word's stem for the same-root search: the infinitive ending off a verb, the last component of a compound (Haus|tür ->
-// tür), folded (laufen -> lauf, Lauf -> lauf); short stems (under 3 letters) are nothing
+// a word's stem for the same-root search: the infinitive ending off a verb, the head of a word's composition (Haus|tür ->
+// Tür, Un|sicher|heit -> Sicherheit -- not its last piece: heit is every -heit word's), folded (laufen -> lauf, Lauf ->
+// lauf); short stems (under 3 letters) are nothing
 const ENDINGS = { de: /(en|eln|ern|n)$/, en: /$/, es: /(ar|er|ir|arse|erse|irse)$/, fr: /(er|ir|re)$/, it: /(are|ere|ire|arsi|ersi|irsi)$/, ru: /(ать|ять|еть|ить|ыть|уть|ти|чь|ться|тся)$/, pl: /(ać|eć|ić|yć|uć|ąć|ść|źć|c)$/, zh: /$/ };
-function stem(e, l) {
+function stem(e, l, d = dict) {
   if (!/^(V|N|AN)$/.test(e.pos) || e.word.includes(" ") || l === "zh") return null;
-  const comps = components(e, l), last = comps.length > 1 ? comps[comps.length - 1] : e.word;
+  const last = compositionOf(e, d)?.head.word ?? e.word;
   const st = fold(e.pos === "V" ? last.replace(ENDINGS[l], "") : last);
   return st.length >= 3 ? st : null;
 }
@@ -186,12 +188,15 @@ function pattern(q) {
   const re = new RegExp("^" + body.split("*").map((x) => x.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join(".*") + (exactEnd ? "$" : ".*"));
   return { re, body, plain: !raw.includes("*") && !exactEnd, exactEnd };
 }
-function lookup(q, { all = false } = {}) {
+function lookup(q, { all = false } = {}) {   // (all: a pattern of nothing but * finds every word -- the der/die/das statistics)
   if (!q.trim()) return [];
   const { re, body, plain } = pattern(q);
   if (!body && !all) return [];
   const pq = plain && lang === "zh" && /^[a-zü1-5 ']+$/i.test(q.trim()) ? pinyinKey(q.replace(/v/g, "ü")) : null;   // (a Chinese word typed as pinyin)
   const formHits = plain && dict.index ? new Map((dict.index.get(body) ?? []).filter((h) => fold(h.e.word) !== body).map((h) => [h.e, h.cell])) : new Map();
+  // (a word the dictionary has in no form: the known words it is derived from -- roughly: rough, "rough + -ly · in a rough
+  //  way" beside it; engine/derive.js)
+  if (plain && dict.index && dict.derive && !dict.index.has(body)) for (const x of dict.derive(q.trim(), dict).slice(0, 3)) if (!formHits.has(x.e)) formHits.set(x.e, derivationText(x));
   formOf.clear(); for (const [e, cell] of formHits) formOf.set(e, cell);
   const score = (e) => {
     const w = fold(e.word), sk = fold(e.sk.join(" | "));
@@ -209,15 +214,52 @@ function lookup(q, { all = false } = {}) {
     if (plain && sk.includes(body)) return 6;
     return 9;
   };
-  const hits = dict.entries.map((e) => [score(e), e]).filter(([s]) => s < 9).sort((a, b) => a[0] - b[0] || a[1].freq - b[1].freq || a[1].rank - b[1].rank || a[1].order - b[1].order);
-  return (all ? hits : hits.slice(0, 60)).map(([, e]) => e);
+  const hits = dict.entries.map((e) => [score(e), e]).filter(([s, e]) => s < 9 && kept(e)).sort((a, b) => a[0] - b[0] || a[1].freq - b[1].freq || a[1].rank - b[1].rank || a[1].order - b[1].order);
+  return hits.map(([, e]) => e);
 }
 // GERMAN: der / die / das over the nouns a pattern finds -- the counts and shares, then the nouns by article
-let stats = false;
+let stats = false, rootsOnly = true;
+const ROOTS_KEY = "dictionary:stats-roots";
+// A WORD'S COMPOSITION: its parts -- the dictionary's split into its pieces (Hoch|ge|birge, Gerichts|ge|bäude, auf·
+// räumen) -- read as words. Its HEAD: the longest end, from a split on, that is a word of its part of speech (a
+// noun's of its article too): ge|birge = das Gebirge -> das Hochgebirge, finster|nis = die Finsternis -> die
+// Mondfinsternis. Its FRONT: the pieces before, a word as they stand, without a linking -s / -es / -n / -en / -e / -er
+// (Gerichts -> Gericht, Sonnen -> Sonne), with an -e (Erd -> Erde) or as a verb's stem (Wasch -> waschen), else as
+// written (Un|sicherheit: un-). Of the German nouns ending in a noun 98.7 % share its article; the rest are no compounds
+// (Auf|wand, Ge|sicht, Messer). A word ending only in a suffix (Frei|heit, Häus|chen) has none; a word the dictionary
+// does not split is not taken apart by its spelling (Phänomen is no Omen). Shown on the entry (hoch + Gebirge; Gebirge:
+// in Hochgebirge, Vorgebirge) and kept out of der / die / das (a compound's article is its head's: says nothing new).
+const LINKING = ["es", "en", "er", "s", "n", "e"];
+function compositionOf(e, d = dict) {
+  if (e.composition !== undefined) return e.composition;
+  const parts = (e.parts ?? "").split(/[|·]/).map((x) => x.trim()), byWord = (d.byWord ??= d.entries.reduce((m, x) => m.set(fold(x.word), [...(m.get(fold(x.word)) ?? []), x]), new Map()));
+  e.composition = null;
+  if (parts.length < 2 || e.word.includes(" ")) return null;
+  for (let i = 1; i < parts.length; i++) {
+    const head = (byWord.get(fold(parts.slice(i).join(""))) ?? []).find((h) => h !== e && h.pos === e.pos && (h.article ?? "") === (e.article ?? ""));
+    if (!head) continue;
+    const front = parts.slice(0, i).join(""), f = fold(front);
+    const words = [f, ...LINKING.filter((x) => f.endsWith(x)).map((x) => f.slice(0, -x.length)), f + "e", f + "en", f + "n"].flatMap((k) => byWord.get(k) ?? []).filter((x) => x !== e && x !== head);
+    const word = words.find((x) => x.pos === "N") ?? words.find((x) => x.pos === "A") ?? words.find((x) => x.pos === "V") ?? words[0] ?? null;
+    return (e.composition = { head, front: word ?? front });
+  }
+  return null;
+}
+// the words a word heads (Gebirge: Hochgebirge, Vorgebirge), of all the dictionary's words at once
+const compoundsOf = (e) => ((dict.compounds ??= dict.entries.reduce((m, x) => { const c = compositionOf(x); if (c) m.set(c.head, [...(m.get(c.head) ?? []), x]); return m; }, new Map())).get(e) ?? []);
+const compoundHead = (e) => (e.pos === "N" && /^(der|die|das)$/.test(e.article) ? compositionOf(e)?.head : null);
 function showStats() {
   const list = $("results"); list.replaceChildren();
-  const nouns = lookup(query, { all: true }).filter((e) => e.pos === "N" && /^(der|die|das)$/.test(e.article));
-  $("no-results").hidden = !(query.trim() && !nouns.length);
+  const all = (query.trim() ? lookup(query, { all: true }) : topic ? dict.entries.filter(kept) : []).filter((e) => e.pos === "N" && /^(der|die|das)$/.test(e.article));   // (a category's nouns too: der/die/das of the animals)
+  const nouns = rootsOnly ? all.filter((e) => !compoundHead(e)) : all, left = all.length - nouns.length;
+  $("no-results").hidden = !((query.trim() || topic) && !all.length);
+  if (!all.length) return;
+  // (the switch: compounds left out -- on until turned off, kept)
+  const sw = el("label", "stats-roots"), tick = el("input"); tick.type = "checkbox"; tick.checked = rootsOnly;
+  tick.onchange = () => { rootsOnly = tick.checked; try { localStorage.setItem(ROOTS_KEY, rootsOnly ? "1" : "0"); } catch { /* (storage blocked) */ } showStats(); };
+  sw.append(tick, " ", t("roots-only"), ...(left ? [el("span", "mute", ` · ${t("compounds-left", { n: left })}`)] : []));
+  sw.title = t("roots-only-title");
+  list.append(sw);
   if (!nouns.length) return;
   const by = { der: [], die: [], das: [] };
   for (const e of nouns) by[e.article].push(e);
@@ -246,32 +288,103 @@ function showResults() {
   if (byRank) return showByRank();
   if (listView) return showMyList();
   const list = $("results"); list.replaceChildren();
+  if (!query.trim() && topic) return showTopic();
   const found = lookup(query), q = query.trim();
   const comp = lang === "zh" && [...q].length === 1 && dict.hanzi?.has(q) ? q : null;   // (a character or component typed: its component view too)
   $("no-results").hidden = !(q && !found.length && !comp);
   if (comp) list.append(componentRow(comp));
-  for (const e of found) list.append(resultRow(e, formOf.has(e) ? el("span", "result-form", `${query.trim()} · ${(formOf.get(e) || "form").replace(/^[A-Z]+\./, "")}`) : null));
+  paged(list, found, (e) => resultRow(e, formOf.has(e) ? el("span", "result-form", `${q} · ${(formOf.get(e) || "form").replace(/^[A-Z]+\./, "")}`) : null));
 }
 
-// ---- BY FREQUENCY: the words in the order of the language's order.tsv (the commonest first), a hundred at a time -- the
-//      next hundred come by themselves as the list is scrolled to its end (a sentinel row watched by an IntersectionObserver)
-let byRank = false, listView = false, pageSize = 100;
+// ---- THE CATEGORY FILTER: the concepts as they are organized -- a group (concepts/life/), a topic in it (animals.txt),
+//      a section in that (# mammals-wild): an entry's `section` (dict.tsv: its concept's group/topic/section). Named in Slovak,
+//      the concepts' language (concepts/labels.txt), for a Slovak speaker; else the path made readable. The filter
+//      narrows every view; with nothing typed it lists the category's words, the commonest first.
+let topic = "", labels = new Map(), native = "sk";
+const TOPIC_KEY = "dictionary:topic";
+const pathOf = (e) => e.section || `${e.category}/`;   // (an entry of no concept: its file's topic)
+const inTopic = (e) => !topic || pathOf(e) === topic || pathOf(e).startsWith(topic + "/");
+// THE FREQUENCY FILTER: the FREQ levels shown (1 the commonest words ... 3 the rarest) -- toggles beside the category;
+// one stays on. Both filters narrow every view: `kept`
+let freqs = new Set([1, 2, 3]);
+const FREQ_KEY = "dictionary:freq";
+const kept = (e) => freqs.has(e.freq) && inTopic(e);
+function showFreqs() {
+  for (const box of document.querySelectorAll("#freq input")) { box.checked = freqs.has(Number(box.value)); box.parentElement.classList.toggle("chosen", box.checked); }
+}
+function chooseFreq(box) {
+  const n = Number(box.value);
+  if (box.checked) freqs.add(n); else if (freqs.size > 1) freqs.delete(n);   // (the last one stays: never an empty dictionary)
+  try { localStorage.setItem(FREQ_KEY, JSON.stringify([...freqs])); } catch { /* (storage blocked) */ }
+  showFreqs(); showTopics();
+  if (open) { history.pushState(null, "", "#" + lang); showList(); } else showResults();
+}
+const readable = (s) => s.replace(/[-_]/g, " ");
+const nameOf = (path) => { const last = path.split("/").slice(path.split("/").length > 2 ? 2 : -1).join("/"); return (native === "sk" && (labels.get(path) ?? labels.get("*/" + last))) || readable(last); };
+async function loadLabels() {
+  const r = await fetch("concepts/labels.txt").catch(() => null);
+  for (const s of r?.ok ? (await r.text()).split("\n") : []) { const m = s.match(/^([^#].*?) = (.+)$/); if (m) labels.set(m[1], m[2]); }
+}
+// the selects: the groups with their topics (each with its number of words in this language), the topic's sections
+function showTopics() {
+  // (every category of the language listed; its number: its words at the FREQ levels shown)
+  const count = new Map();
+  for (const e of dict.entries) { const p = pathOf(e).split("/"); for (let n = 1; n <= 3; n++) { const k = p.slice(0, n).join("/"); count.set(k, (count.get(k) ?? 0) + (freqs.has(e.freq) ? 1 : 0)); } }
+  const keys = [...count.keys()], groups = keys.filter((k) => !k.includes("/")).sort((a, b) => nameOf(a).localeCompare(nameOf(b)));
+  const opt = (k, label) => new Option(`${label} (${count.get(k)})`, k);
+  $("topic").replaceChildren(new Option(t("all-categories"), ""), ...groups.map((g) => {
+    const og = document.createElement("optgroup"); og.label = nameOf(g);
+    og.append(opt(g, `${t("all-of")} ${nameOf(g)}`), ...keys.filter((k) => k.split("/").length === 2 && k.startsWith(g + "/")).sort((a, b) => nameOf(a).localeCompare(nameOf(b))).map((k) => opt(k, nameOf(k))));
+    return og;
+  }));
+  const top = topic.split("/").slice(0, 2).join("/");
+  if (topic && !count.has(topic)) topic = "";
+  $("topic").value = topic ? (top.includes("/") ? top : topic) : "";
+  const secs = top.includes("/") ? keys.filter((k) => k.split("/").length === 3 && k.startsWith(top + "/") && !k.endsWith("/")) : [];
+  $("section").hidden = secs.length < 2;
+  $("section").replaceChildren(new Option(t("all-sections"), top), ...secs.map((k) => opt(k, nameOf(k))));
+  $("section").value = topic.split("/").length === 3 ? topic : top;
+}
+function chooseTopic(value) {
+  topic = value; try { localStorage.setItem(TOPIC_KEY, topic); } catch { /* (storage blocked) */ }
+  showTopics();
+  if (open) { history.pushState(null, "", "#" + lang); showList(); } else showResults();
+}
+// (nothing typed, a category chosen: its words, the commonest first, a hundred at a time as the list is scrolled)
+function showTopic() {
+  const list = $("results"); $("no-results").hidden = true;
+  const all = dict.entries.filter(kept).sort((a, b) => a.freq - b.freq || a.rank - b.rank || a.order - b.order);
+  list.append(el("div", "mute topic-count", `${nameOf(topic)} · ${all.length}`));
+  paged(list, all, (e) => resultRow(e, rowStar(e)));
+}
+
+// ---- A LONG LIST a hundred rows at a time: the next hundred come by themselves as the list is scrolled to its end (a
+//      sentinel row watched by an IntersectionObserver) -- the search's results, a category's words, by frequency
 const PAGE = 100;
 let sentinel = null;
+function paged(list, all, row) {
+  sentinel?.disconnect(); sentinel = null;
+  let n = 0;
+  const more = el("div", "more mute"); list.append(more);
+  const next = () => {
+    for (const e of all.slice(n, n + PAGE)) more.before(row(e));
+    n = Math.min(all.length, n + PAGE); more.textContent = `… ${all.length - n}`; more.hidden = n >= all.length;
+    if (more.hidden) sentinel?.disconnect();
+  };
+  next();
+  if (!more.hidden) { sentinel = new IntersectionObserver((es) => { if (es.some((x) => x.isIntersecting)) next(); }, { rootMargin: "400px" }); sentinel.observe(more); }
+}
+
+// ---- BY FREQUENCY: the words in the order of the language's order.tsv (the commonest first)
+let byRank = false, listView = false;
 function showByRank() {
   const list = $("results"); list.replaceChildren(); $("no-results").hidden = true;
-  const all = (query.trim() ? lookup(query) : dict.entries).filter((e) => e.rank !== Infinity).sort((a, b) => a.rank - b.rank || a.order - b.order);
-  for (const e of all.slice(0, pageSize)) {
+  const all = (query.trim() ? lookup(query) : dict.entries).filter((e) => e.rank !== Infinity && kept(e)).sort((a, b) => a.rank - b.rank || a.order - b.order);
+  paged(list, all, (e) => {
     const row = resultRow(e, el("span", "result-rank", "#" + e.rank), rowStar(e));
     row.querySelector(".result-pos").after(el("span", "result-ipa", e.pinyin ? `${e.pinyin} · [${e.ipa}]` : e.ipa ? `[${e.ipa}]` : ""));   // (the sound: the pinyin and IPA of Chinese, the IPA else)
-    list.append(row);
-  }
-  if (all.length > pageSize) {
-    const more = el("div", "more mute", `… ${all.length - pageSize}`); list.append(more);
-    sentinel?.disconnect();
-    sentinel = new IntersectionObserver((es) => { if (es.some((x) => x.isIntersecting)) { pageSize += PAGE; const y = window.scrollY; showByRank(); window.scrollTo(0, y); } }, { rootMargin: "400px" });
-    sentinel.observe(more);
-  }
+    return row;
+  });
   if (!all.length) list.append(el("p", "mute", t("no-results")));
 }
 
@@ -294,7 +407,7 @@ const showListCount = () => { const n = myList().filter((k) => k.startsWith(lang
 function showMyList() {
   const list = $("results"); list.replaceChildren(); $("no-results").hidden = true;
   const keys = myList().filter((k) => k.startsWith(lang + "|")).map((k) => k.slice(lang.length + 1)), q = fold(query.trim());
-  const items = keys.map((id) => dict.entries.find((e) => e.id === id)).filter((e) => e && (!q || fold(e.word).includes(q) || fold(e.sk.join(" ")).includes(q)));
+  const items = keys.map((id) => dict.entries.find((e) => e.id === id)).filter((e) => e && kept(e) && (!q || fold(e.word).includes(q) || fold(e.sk.join(" ")).includes(q)));
   for (const e of items) {
     const rm = el("span", "result-remove", "✕"); rm.title = t("remove-from-list");
     rm.onclick = (ev) => { ev.stopPropagation(); toggleList(e); showMyList(); };
@@ -525,6 +638,12 @@ async function openEntry(e, { push = true } = {}) {
   if (lang === "zh" && dict.hanzi) charactersSection(e, view);
   // the morphology table
   const section = (title) => { const s = el("section", "entry-section", el("h3", "", t(title))); view.append(s); return s; };
+  const comp = lang === "zh" ? null : compositionOf(e), heads = lang === "zh" ? [] : compoundsOf(e).sort((a, b) => a.freq - b.freq || a.rank - b.rank);
+  if (comp || heads.length) {   // (its composition: hoch + Gebirge; the words it heads: Gebirge -> Hochgebirge, Vorgebirge)
+    const s = section("composition");
+    if (comp) s.append(el("div", "composition", typeof comp.front === "string" ? comp.front.toLowerCase() + "-" : link(comp.front), " + ", link(comp.head)));
+    if (heads.length) { s.append(el("h4", "", tn("compounds", heads.length))); s.append(wordList(heads.slice(0, 60))); if (heads.length > 60) s.append(el("div", "mute", "…")); }
+  }
   const forms = await formsOf(e);
   const blocks = (LAYOUTS[lang]?.[e.pos] ?? []).map((b) => table(b, forms, e)).filter(Boolean);
   if (lang === "de" && e.pos === "N") { const g = germanNoun(e); if (g) blocks.unshift(g); }
@@ -537,7 +656,7 @@ async function openEntry(e, { push = true } = {}) {
   for (const x of dict.byPart.get(e.word) ?? []) if (x !== e) mates.add(x);
   for (const c of comps) for (const x of dict.entries.filter((x) => x.word === c && x !== e)) mates.add(x);
   const st = stem(e, lang); if (st) for (const x of dict.byStem.get(st) ?? []) if (x !== e) mates.add(x);
-  const sameRoot = [...mates].filter((x) => !syn.includes(x) && !family.includes(x)).sort((a, b) => a.rank - b.rank);
+  const sameRoot = [...mates].filter((x) => !syn.includes(x) && !family.includes(x) && !heads.includes(x) && x !== comp?.head && x !== comp?.front).sort((a, b) => a.rank - b.rank);
   const opp = (e.opposite ? e.opposite.split(" | ") : []).flatMap((k) => dict.byConcept.get(k.replace(" ", "|")) ?? []).sort((a, b) => a.freq - b.freq || a.rank - b.rank);   // (the opposite concepts' words, `POS id`: concepts/opposites.txt)
   // the generic concept this one is declared `of` in a context (the `generic` column: `POS id @ context`), and the other way
   const gen = e.generic ? e.generic.split(" @ ") : null, genWords = gen ? (dict.byConcept.get(gen[0].replace(" ", "|")) ?? []).filter((x) => x !== e) : [];
@@ -587,9 +706,11 @@ async function useLang(l) {
   dict = await loadLang(l);
   if ($("mylist")) showListCount();
   voice.prosody = await loadProsody(LANGS[l].speech);
-  formsIndex(dict, l).then(() => { paradigms[l] ??= dict.pd; if (lang === l) showResults(); });   // (the forms -> words index, in the background: dem finds der)
+  const d = dict;
+  formsIndex(d, l).then(async () => { paradigms[l] ??= d.pd; d.derive ??= (await loadDerivations(l)).derive; if (lang === l) showResults(); });   // (the forms -> words index, in the background: dem finds der; the derivations: roughly finds rough)
   $("search").lang = l;
   $("stats").hidden = l !== "de"; $("parts").hidden = l !== "zh";
+  showTopics();
   showResults();
 }
 function fromHash() {
@@ -604,6 +725,14 @@ export async function start() {
   applyText(); mountHeader("dictionary");
   const sel = $("lang");
   for (const [k, v] of Object.entries(LANGS)) if (v.dict) sel.append(new Option(v.name, k));
+  native = pair.other; await loadLabels();
+  try { topic = localStorage.getItem(TOPIC_KEY) ?? ""; } catch { topic = ""; }
+  try { const f = JSON.parse(localStorage.getItem(FREQ_KEY) ?? "null"); if (Array.isArray(f) && f.length) freqs = new Set(f.map(Number).filter((n) => n >= 1 && n <= 3)); } catch { /* (none kept) */ }
+  if (!freqs.size) freqs = new Set([1, 2, 3]);
+  for (const box of document.querySelectorAll("#freq input")) box.onchange = () => chooseFreq(box);
+  showFreqs();
+  $("topic").onchange = () => chooseTopic($("topic").value);
+  $("section").onchange = () => chooseTopic($("section").value);
   const h = fromHash();
   await useLang(h?.lang ?? pair.learn);
   sel.onchange = () => { open = null; $("entry").hidden = true; $("results").hidden = false; useLang(sel.value); };
@@ -611,9 +740,10 @@ export async function start() {
   $("search").onkeydown = (ev) => { if (ev.key === "Enter") { const first = lookup(query)[0]; if (first) openEntry(first); } };   // (Enter opens the first match)
   $("search").focus();
   $("listen").onclick = listen;
+  try { rootsOnly = localStorage.getItem(ROOTS_KEY) !== "0"; } catch { rootsOnly = true; }
   $("stats").onclick = () => { stats = !stats; $("stats").classList.toggle("chosen", stats); showResults(); };
   const views = () => { $("byrank").classList.toggle("chosen", byRank); $("mylist").classList.toggle("chosen", listView); if (open) { history.pushState(null, "", "#" + lang); showList(); } else showResults(); };
-  $("byrank").onclick = () => { byRank = !byRank; listView = false; pageSize = PAGE; views(); };
+  $("byrank").onclick = () => { byRank = !byRank; listView = false; views(); };
   $("mylist").onclick = () => { listView = !listView; byRank = false; views(); };
   showListCount();
   $("parts").onclick = () => showComponent("");   // (the index of components by strokes)

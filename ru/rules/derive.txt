@@ -1,0 +1,13 @@
+# DEDUCIBLE WORDS (engine/derive.js): a word the dictionary does not have, read as a known word + a regular derivation
+# -- only READ (the reading page, the dictionary search), never added. `KIND TARGET < BASE : patterns -- label` (~: the
+# base word); a pattern: -suffix, -suffix/rest (the base ends in rest), prefix-, a * after a suffix: a doubled consonant
+# undone; `COMPOUND TARGET < FIRST + HEAD : links -- label` (a link "" for none). Compared folded: no case, accents, umlauts.
+adverb      AV < AN : -о/ый -о/ий -о/ой -е/ий -ски/ский                  -- in a ~ way
+negative    AN < AN : не-                                               -- not ~
+negative    N < N : не-                                                 -- not ~, the lack of ~
+negative    AV < AV : не-                                               -- not ~
+quality     N < AN : -ость/ый -ость/ий -ость/ой                          -- being ~
+agent       N < V : -тель/ть                                            -- someone who does: ~
+activity    N < V : -ние/ть -ение/ить -ение/еть                         -- the act of: ~
+feminine    N < N : -ка -ница -ша                                       -- a female ~
+diminutive  N < N : -ик -ок -чик -очка/а -ечка/я                         -- a little ~

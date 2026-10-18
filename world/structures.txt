@@ -117,6 +117,27 @@ one-gladly-very -ru
   S: 1 .
   1 MAIN verb=hovoriť subj=one patient=none:nemčina place=tu
 
+frequency
+  S: 1 .
+  1 MAIN verb=piť subj=1sg patient=none:káva freq=často
+frequency
+  S: 1 .
+  1 MAIN verb=čítať subj=3sg.f freq=vždy place=home
+
+manner
+  S: 1 .
+  1 MAIN verb=bežať subj=def:pes manner=rýchly
+manner
+  S: 1 .
+  1 MAIN verb=hovoriť subj=3sg.m manner=tichý_(nehlučný)
+
+adverb-order
+  S: 1 .
+  1 MAIN verb=pracovať subj=1sg time=dnes place=in:def:záhrada
+adverb-order
+  S: 1 .
+  1 MAIN verb=čítať subj=3sg.f time=zajtra manner=rád place=home
+
 pron-obj
   S: 1 .
   1 MAIN verb=vidieť subj=1sg patient=2sg
@@ -152,6 +173,13 @@ adjective
 adjective
   S: 1 .
   1 MAIN verb=bývať subj=1pl location=indef:dom+adj:starý
+
+adjective-order
+  S: 1 .
+  1 MAIN verb=kúpiť subj=1sg patient=indef:stôl+adj:krásny+adj:starý
+adjective-order
+  S: 1 .
+  1 MAIN verb=spať subj=def:pes+adj:veľký+adj:čierny
 
 comparison
   S: 1 .

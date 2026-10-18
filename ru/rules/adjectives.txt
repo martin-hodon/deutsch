@@ -1,0 +1,9 @@
+# THE ORDER OF ADJECTIVES IN RUSSIAN (engine/adjorder.js): where two or more adjectives of different kinds (world/
+# adjorder.txt) stand around one noun. A list of one kind keeps its order and its comma (the realizer's).
+#   NEAR kinds ...    the kinds by their distance from the noun, the nearest first -- before the noun the farthest comes
+#                     first, after it the nearest (one ranking, both sides: the mirror order of the Romance languages)
+#   AFTER kinds ...   the kinds that follow the noun (the rest precede it; a language with a word list of its own --
+#                     <lang>/rules/neutral.txt `list before` -- keeps that list before)
+#   BARE kinds ...    (Chinese) the kinds said without 的, right before the noun, after those with 的
+NEAR material origin colour shape age quality size opinion       -- большая старая чёрная собака
+AFTER

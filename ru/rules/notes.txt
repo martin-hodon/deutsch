@@ -1,0 +1,28 @@
+# HOW RUSSIAN DOES EACH GRAMMAR STRUCTURE (engine/build.js: the grammar ladder shows the note of every structure a step
+# brings; the names are world/syllabus.txt's). `structure = the rule, with a short example`.
+present = Subject – verb – object is the neutral order; endings carry the roles, so the order may move what is new to the end: Собака спит.
+predicate = No "be" in the present: the adjective (long or short form) or noun follows the subject directly: Собака старая. Дом мал.
+object = The direct object is in the accusative (animate masculine = genitive form): Я вижу собаку. Я вижу брата.
+adjective = The adjective stands before the noun and agrees in gender, number and case: старая собака, старые собаки.
+adjective-order = Several adjectives before the noun: opinion – size – quality – age – colour – origin, no comma: большая старая чёрная собака.
+one-gladly-very = очень, действительно before the adjective: очень старый. "Gladly" is с удовольствием or любить + infinitive.
+possessive = мой, твой, наш, ваш agree like adjectives; его, её, их never change: моя собака, его собака.
+comparison = Comparative -ее (новее), many irregular (старше, больше); "than" = чем, or the genitive: старше кошки.
+past = -л, -ла, -ло, -ли by the subject's gender and number; the perfective aspect for a finished result: Она прочитала книгу.
+perfect = Russian has no separate perfect: a finished action is the past of the perfective verb: Она прочитала книгу.
+future = Perfective: the present-form endings (прочитает); imperfective: буду + infinitive (будет читать).
+modal = хотеть, мочь + infinitive; должен (agreeing) + infinitive: Собака хочет спать.
+negation = не directly before the verb (or the word negated): Собака не спит.
+no-det = Negated "having"/objects: the genitive: У меня нет собаки. Он не видит книги/книгу.
+frequency = всегда, часто, иногда before the verb: Он часто читает.
+time-basic = в субботу, в мае, в восемь часов; time usually at the start: Сегодня собака спит в саду.
+time-phrases = на прошлой неделе, на следующей неделе, каждый день.
+manner = Manner adverbs in -о (быстро, тихо) usually before the verb: Она быстро бежит.
+place-basic = в/на + prepositional: в саду, дома, на пляже.
+adverb-order = Time first, manner before the verb, place after it: Сегодня собака спокойно спит в саду.
+yes-no = The statement with rising intonation on the word asked; ли for emphasis: Собака спит?
+wh-basic = The question word first: Где спит собака?
+coord = и, а, но join clauses with a comma before а/но (и often too): Она читает, и он готовит.
+that-because-if = потому что, что, если: normal order, comma before: Он дома, потому что он болен.
+although-so-that = хотя + indicative; чтобы + past form: Она читает, хотя она устала.
+relative = который agrees with the noun in gender and number, takes its case from the relative clause; commas around: Собаки, которые играют, спят.

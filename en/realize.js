@@ -72,7 +72,9 @@ export async function loadEnglish(base, { meaning = null, vary = null } = {}) {
     const adjs = mods.filter((m) => m.startsWith("adj:")).map((m) => entry(m.slice(4), "AN") ?? { word: sp(m.slice(4)) });
     const deg = mods.find((m) => m.startsWith("deg:")), sup = mods.includes("sup"), comp = mods.includes("comp");
     if (mods.includes("one")) pre.push("one");   // (this one plate)
-    adjs.forEach((a, k) => pre.push(...(k === 0 && deg ? [wordOf(deg.slice(4), "AV")] : []), (k === 0 && sup ? compare(a, "sup") : k === 0 && comp ? compare(a, "comp") : a.word) + (k < adjs.length - 1 ? "," : "")));
+    // (of different kinds: in English's order, no comma -- a big old dog; else a list: a dark, shiny mirror)
+    const cumulative = !sup && !comp && lx.adjOrder.cumulative(adjs);
+    (cumulative ? lx.adjOrder.before(adjs) : adjs).forEach((a, k) => pre.push(...(k === 0 && deg ? [wordOf(deg.slice(4), "AV")] : []), (k === 0 && sup ? compare(a, "sup") : k === 0 && comp ? compare(a, "comp") : a.word) + (k < adjs.length - 1 && !cumulative ? "," : "")));
     for (const m of mods) {
       const [fn, a] = call(m);
       if (fn === "part") {   // the laughing children / the perfectly fried fillet / the tea recommended by the doctor / the book to be read
@@ -407,6 +409,7 @@ export async function loadEnglish(base, { meaning = null, vary = null } = {}) {
   // ---- THE SENTENCE ------------------------------------------------------------------------------------------------------
   const KEEPCOMMA = new Set(["although", "whereas", "without", "instead"]);
   function realize(plan) {
+    plan = lx.agree(plan);   // (the dogs that play: a relative clause on a plural)
     const ctx = { plan: { ...plan, clauses: { ...plan.clauses } } }, toks = [];
     ctxPlan = ctx.plan;
     const seq = plan.seq ?? [];

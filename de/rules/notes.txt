@@ -1,0 +1,28 @@
+# HOW GERMAN DOES EACH GRAMMAR STRUCTURE (engine/build.js: the grammar ladder shows the note of every structure a step
+# brings; the names are world/syllabus.txt's). `structure = the rule, with a short example`.
+present = The finite verb stands in second place; the subject, a time word or an object may come first: Der Hund schläft. / Heute schläft der Hund.
+predicate = sein + an adjective (no ending) or a noun: Der Hund ist alt.
+object = The direct object is in the accusative (only der → den changes): Ich sehe den Hund.
+adjective = Before the noun the adjective takes an ending by article, gender and case: der alte Hund, ein alter Hund, den alten Hund.
+adjective-order = Two adjectives of different kinds keep the order opinion – size – quality – age – shape – colour – origin – material, both with the same ending and no comma: ein schöner großer alter Tisch.
+one-gladly-very = sehr, wirklich, ziemlich stand right before the adjective: sehr alt; gern stands after the verb and its known objects: Ich trinke gern Kaffee.
+possessive = mein, dein, sein, ihr, unser ... take the endings of ein: mein Hund, meine Katze, meinen Hund.
+comparison = Comparative = adjective + -er (often with umlaut), then als: älter als die Katze.
+past = Präteritum: weak verbs -te (spielte), strong verbs change the vowel (schlief); common in writing and with sein/haben.
+perfect = haben/sein in second place, the participle at the END: Er hat das Buch gelesen. Er ist gekommen.
+future = werden in second place, the infinitive at the END: Er wird morgen kommen.
+modal = The modal verb in second place, the infinitive at the END: Der Hund muss schlafen.
+negation = nicht stands before what it negates – before a place, a manner, a predicate – or at the end: Er schläft nicht im Garten. Er kommt nicht.
+no-det = A noun with ein or no article is negated with kein (ending like ein): Ich habe keinen Hund.
+frequency = oft, immer, manchmal stand after the verb and after known objects, before new ones: Er liest oft ein Buch. Er liest das Buch oft.
+time-basic = Time phrases: am + day (am Samstag), im + month, um + hour (um acht Uhr). Time comes early in the middle field – or first, then the verb stays second: Am Samstag schläft der Hund.
+time-phrases = letzte Woche, nächste Woche, jeden Tag – in the accusative, no preposition.
+manner = The manner adverb (schnell, leise) needs no ending and stands after time, before place: Er läuft heute schnell im Park.
+place-basic = in/an/auf + dative for where: im Garten, in der Küche, am Strand; zu Hause.
+adverb-order = The middle field order is TeKaMoLo: TEmporal – KAusal – MOdal – LOkal (time – reason – manner – place): Er trinkt heute gern im Café einen Kaffee.
+yes-no = The finite verb goes first: Schläft der Hund? Hat er gegessen?
+wh-basic = The question word first, the finite verb second: Wo schläft der Hund? Wann kommt er?
+coord = und, aber, oder join two main clauses without changing word order: Er liest, und sie kocht.
+that-because-if = weil, dass, wenn send the finite verb to the END of their clause; a comma before them: ..., weil er müde ist.
+although-so-that = obwohl, damit: the finite verb at the END, a comma before: ..., obwohl sie müde ist.
+relative = The relative pronoun (der, die, das ...) takes the noun's gender and its case in the relative clause; the verb goes to the END; commas around it: Der Hund, der im Garten spielt, schläft.

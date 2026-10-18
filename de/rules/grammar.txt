@@ -135,7 +135,7 @@ FRONT -> adv.role                            {0}
 # a second accusative after the first: lehrt die Kinder Deutsch, nennt den Mann einen Lügner), then time,
 # the negation, frequency (nicht immer), manner, the prepositional object and place (`nicht` before what it negates), last a
 # predicative adjective (Der Apfel ist nicht rot)
-MIDDLE -> pron.A.pre pron.D.pre refl.pre subj pron.A refl pron.D adv.sentence adv.conn adv.role part obj.D obj.A obj.A2 obj.G adv.time adv.gen adv.place adv.manner.pre obj.D.new obj.A.new neg adv.freq adv.manner obj.bare pobj pred fixed
+MIDDLE -> pron.A.pre pron.D.pre refl.pre subj pron.A refl pron.D adv.sentence adv.conn adv.role part obj.D obj.A obj.A2 obj.G adv.time adv.gen adv.manner.pre neg adv.freq adv.manner adv.place obj.D.new obj.A.new obj.bare pobj pred fixed
 
 # ---- phrases ---------------------------------------------------------------------------------------------------------
 # (attr: an owner after the noun -- das Auto meines Vaters, ein Freund von mir)

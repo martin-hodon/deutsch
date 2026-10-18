@@ -25,6 +25,9 @@ FEATURE A1.2 particle-verbs              -- separable verbs (Ich rufe dich an.)
 FEATURE A1.2 place-basic                 -- prepositions of place and with names (in Berlin, aus Polen, mit dem Bus, nach Hause)
 FEATURE A1.2 time-basic                  -- am Montag, im Mai, um acht Uhr
 FEATURE A1.2 one-gladly-very             -- man, gern, sehr (Man spricht hier Deutsch. Ich trinke gern Kaffee. Das ist sehr gut.)
+FEATURE A1.2 frequency                   -- how often: immer, oft, manchmal (Ich trinke oft Kaffee.)
+FEATURE A1.2 manner                      -- how: schnell, leise, vorsichtig (Er fährt langsam.)
+FEATURE A1.2 adverb-order                -- time, manner, place together: their order (Ich arbeite heute gern im Garten.)
 FEATURE A1.2 there-is                    -- es gibt (Es gibt hier ein Café.)
 FEATURE A1.2 pron-obj                    -- the personal pronouns as accusative objects (Ich sehe dich.)
 # A2
@@ -33,6 +36,7 @@ FEATURE A2.1 recipient                   -- the dative object, its articles, its
 FEATURE A2.1 direction                   -- the two-way prepositions: where (D) and where to (A) (Er legt das Buch auf den Tisch.)
 FEATURE A2.1 reflexive                   -- reflexive verbs (Ich freue mich.)
 FEATURE A2.1 adjective                   -- adjectives before nouns, declined (ein großes Haus, mit dem neuen Auto)
+FEATURE A2.1 adjective-order             -- two adjectives: their order, no comma (ein schöner alter Tisch, ein großer schwarzer Hund)
 FEATURE A2.1 comparison                  -- the comparative and the superlative (größer als, so groß wie, am größten)
 FEATURE A2.1 that-because-if             -- subordinate clauses with dass, weil, wenn, ob; the verb last (..., weil er krank ist)
 FEATURE A2.1 connectives                 -- deshalb, trotzdem, dann after und/aber (und deshalb bleibe ich zu Hause)

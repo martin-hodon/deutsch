@@ -1,0 +1,69 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voice finish A/B</title>
+<!-- A/B BENCH FOR THE VOICE'S FINISH (engine/speak.js TUNE): the same words, in each language, rendered with the variants
+     below -- click one (or press its key) to hear the chosen word with it; "all" plays the word in every variant in a row.
+     The sliders make the custom variant X; its values are shown as JSON to copy into TUNE once a winner is found.
+     Serve the folder (python3 -m http.server) and open speak_ab.html. -->
+<style>
+  body { font: 16px system-ui, sans-serif; max-width: 860px; margin: 24px auto; padding: 0 16px; color: #222; background: #fafafa; }
+  button { font: inherit; padding: 6px 12px; margin: 3px; border: 1px solid #bbb; border-radius: 8px; background: #fff; cursor: pointer; }
+  button.on { border-color: #06c; background: #e6f0ff; }
+  .row { margin: 10px 0; } label { display: inline-block; min-width: 110px; } input[type=range] { width: 260px; vertical-align: middle; }
+  small { color: #666; } pre { background: #eee; padding: 8px; border-radius: 8px; }
+</style>
+<body>
+<h2>Voice finish A/B</h2>
+<div class="row">language <span id="langs"></span> &nbsp; voice <span id="voices"></span></div>
+<div class="row">word <span id="words"></span></div>
+<div class="row" id="variants"></div>
+<div class="row"><button id="all">▶ all variants in a row</button> <small>keys: a letter plays its variant, space the last one again</small></div>
+<h3>custom variant X</h3>
+<div id="sliders"></div>
+<pre id="json"></pre>
+<script type="module">
+import { render, loadProsody, TUNE, OLD } from "./engine/speak.js";
+const SR = 22050, $ = (id) => document.getElementById(id);
+const WORDS = {
+  de: ["ˈvasɐ", "ˈkɪʁçə", "ʃlɛçt", "aʊf ˈviːdɐzeːən", "ɪç ˈhaːbə aɪnən ˈbʁuːdɐ"],
+  en: ["ˈwɔːtəɹ", "həˈləʊ", "ɡʊdˈbaɪ", "ðə ˈdɹæɡən ɪz ˈsliːpɪŋ"],
+  es: ["ˈθinko", "ˈnaða", "muˈtʃas ˈɡɾaθjas"], fr: ["sɑ̃", "bɔ̃", "vɛ̃", "œ̃ bɔ̃ vɛ̃ blɑ̃", "ɑ̃ˈfɑ̃", "mɛ̃tˈnɑ̃", "bɔ̃ˈʒuʁ", "ʒə nə sɛ pa"],
+  ru: ["ˈknʲiɡə", "tɕɪˈtatʲ", "ˈzdrastvʊjtʲɪ", "ja ʐɨˈvu v ɡʲɪrˈmanʲɪɪ"],
+  zh: ["ni3xaʊ3", "ɕɥɛ2ʂɤŋ1", "ɕjɛ4ɕjɛ5", "tʰa1 ʂɨ4 laʊ3ʂɨ1", "wo3 pu2 ʂɨ4 tʂʊŋ1kwo2ɻən2"],
+};
+// the variants: each what it changes against TUNE (A is the voice as it is)
+const VARIANTS = {
+  A: {}, B: { nz: 270 }, C: { nz: 550 }, D: { ...OLD, nz: 270 }, E: { oq: .62, close: .25 }, F: { glide: .08 }, G: { bw: 1.25 }, H: { toneEase: 90 },
+  X: null,   // (the sliders)
+};
+const NOTE = { A: "as it is (finish of 2026-10-15, nasal zero 450 Hz)", B: "nasal vowels as before (no pole-zero)", C: "stronger nasality (zero 550 Hz)", D: "the old voice entirely (before 2026-10-15)", E: "even laxer pulse", F: "longer glides still", G: "wider bandwidths", H: "smoother tones still (Mandarin: 90 ms, the file says 50)", X: "custom (sliders)" };
+const RANGE = { oq: [.3, .7, .01], close: [.06, .3, .01], emph: [.5, .95, .01], glide: [.02, .09, .005], onset: [3, 30, 1], toneEase: [10, 90, 5], jitter: [0, .02, .001], bw: [.8, 1.6, .05], hiss: [.4, 1.2, .05], soft: [0, 1, 1], frame: [1, 10, 1], knee: [.5, .98, .02], lp: [.3, .95, .05], nz: [270, 700, 10] };
+let lang = "zh", word = 0, voice = "man", last = "A", ctx = null, playing = null;
+const X = { ...TUNE };
+const P = {}; for (const l of Object.keys(WORDS)) P[l] = await loadProsody(`${l}/rules/speech.txt`);
+const tune = (v) => (v === "X" ? X : { ...TUNE, ...VARIANTS[v] });
+function play(v) {
+  last = v; mark();
+  ctx ??= new AudioContext(); playing?.stop();
+  const samples = render(WORDS[lang][word], voice, { prosody: P[lang], tune: tune(v) });
+  const buf = ctx.createBuffer(1, samples.length, SR); buf.copyToChannel(samples, 0);
+  playing = ctx.createBufferSource(); playing.buffer = buf; playing.connect(ctx.destination); playing.start();
+  return samples.length / SR;
+}
+const choice = (id, items, get, set) => $(id).replaceChildren(...items.map((x) => { const b = document.createElement("button"); b.textContent = x; b.className = get() === x ? "on" : ""; b.onclick = () => { set(x); draw(); }; return b; }));
+function draw() {
+  choice("langs", Object.keys(WORDS), () => lang, (x) => { lang = x; word = 0; });
+  choice("voices", ["man", "woman", "child"], () => voice, (x) => (voice = x));
+  choice("words", WORDS[lang], () => WORDS[lang][word], (x) => (word = WORDS[lang].indexOf(x)));
+  $("variants").replaceChildren(...Object.keys(VARIANTS).map((v) => { const b = document.createElement("button"); b.dataset.v = v; b.innerHTML = `<b>${v}</b> <small>${NOTE[v]}</small>`; b.onclick = () => play(v); return b; }));
+  mark();
+}
+const mark = () => { for (const b of $("variants").children) b.className = b.dataset.v === last ? "on" : ""; $("json").textContent = `X = ${JSON.stringify(X)}\n${last} = ${JSON.stringify(tune(last))}`; };
+$("sliders").replaceChildren(...Object.entries(RANGE).map(([k, [lo, hi, st]]) => {
+  const row = document.createElement("div"), lab = document.createElement("label"), inp = document.createElement("input"), val = document.createElement("span");
+  lab.textContent = k; Object.assign(inp, { type: "range", min: lo, max: hi, step: st, value: X[k] }); val.textContent = X[k];
+  inp.oninput = () => { X[k] = Number(inp.value); val.textContent = inp.value; mark(); }; row.append(lab, inp, " ", val); return row;
+}));
+$("all").onclick = async () => { for (const v of Object.keys(VARIANTS)) { const d = play(v); await new Promise((r) => setTimeout(r, d * 1000 + 400)); } };
+document.addEventListener("keydown", (e) => { const v = e.key.toUpperCase(); if (v in VARIANTS) play(v); else if (e.key === " ") { e.preventDefault(); play(last); } });
+draw();
+</script></body></html>

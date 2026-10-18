@@ -9,6 +9,7 @@
 //   m.frames(verb)              [{ subj: "animal" | "es", slots: [{ role: "patient"|"theme"|...|"that"|"inf"|"adj", cat }] }]
 //                               (a language marks the roles its way: de/frames.js)
 //   m.describes(adjective, noun), m.describesCat(adjective, "person"), m.adverbKind(entry), m.isA("fruit", "food")
+//   m.adjKind(adjective) its kind (world/adjorder.txt: size, colour ...), m.cumulative(a, b): of two kinds, no comma
 //   the graph itself (the dictionary's category tree): m.parentsOf(c), m.childrenOf(c), m.conceptOf(c) -> { pos, concept }
 //   of the concept naming it (categories.txt `= POS id`), m.categoryOf(entry), m.isAffordance(c), m.direct(c) -> its nouns
 
@@ -33,6 +34,15 @@ export async function loadMeaning(categoriesUrl, tsvUrl, dict) {
     return set;
   };
   const isA = (c, ancestor) => up(c).has(ancestor);
+  // the KINDS OF ADJECTIVES (world/adjorder.txt, beside the categories): each listed adjective concept's kind -- size,
+  // colour ... (the order they stand in is each language's: engine/adjorder.js)
+  const adjKinds = [], kindOf = new Map();
+  const order = await fetch(categoriesUrl.replace(/[^/]*$/, "adjorder.txt")).catch(() => null);
+  for (const line of order?.ok ? (await order.text()).split("\n") : []) {
+    const m = line.match(/^KIND (\S+): (.*)$/);
+    if (m) { adjKinds.push(m[1]); for (const c of m[2].split("|")) kindOf.set(c.trim().replace(/_/g, " "), m[1]); }
+  }
+  const adjKind = (e) => kindOf.get(e?.concept ?? e?.sk) ?? null;   // (a dictionary entry, or a realizer lexicon's: its concept in sk)
 
   // the annotations, on the concepts (pos|ID) -- an entry's is its concept's
   const byConcept = new Map();   // pos|ID -> the dictionary's entries of that concept
@@ -133,5 +143,8 @@ export async function loadMeaning(categoriesUrl, tsvUrl, dict) {
     adverbIndicative: (e) => !!ann.get(e)?.tags?.includes("ind"),   // (a sentence adverb not in Konjunktiv: hoffentlich)
     adverbSubject: (e) => (ann.get(e)?.kind === "manner" ? ann.get(e)?.tags?.[0] : null),   // (a manner adverb's subject: gern a person; null: an agent)
     annotated: (e) => ann.has(e),
+    // an adjective's kind (null: none listed); two adjectives CUMULATIVE -- of two kinds, so they stand in the language's
+    // order without a comma (ein großer alter Hund) -- not a list (ein dunkler, glänzender Spiegel)
+    adjKinds, adjKind, cumulative: (a, b) => !!adjKind(a) && !!adjKind(b) && adjKind(a) !== adjKind(b),
   };
 }

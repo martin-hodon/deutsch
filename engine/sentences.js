@@ -23,6 +23,7 @@ import { splitTop, call } from "./realize.js";
 import { loadFrames } from "../de/frames.js";
 import { parseScenes } from "./scenes.js";
 import { loadDictionary } from "./data.js";
+import { loadAdjOrder } from "./adjorder.js";
 
 const KASE = { N: "nom", A: "acc", D: "dat", G: "gen", "A=": "acc", A0: "acc", "N=": "nom" };
 const PERSONS = ["1sg", "2sg", "3sg.m", "3sg.f", "1pl", "2pl", "3pl", "formal"];
@@ -61,7 +62,8 @@ export async function loadSentences({ dict, base = "", level = 2, complexity = 2
   const shapes = parseGrammar((await (await fetch(base + "world/shapes.txt")).text()) + "\n" + syllabus);
   // (the TARGET language -- whose learner the sentences are for: its words' level, which of its verbs need a feature first)
   const target = lang === "de" ? null : await loadDictionary(`${base}${lang}/dict.tsv`, `${base}${lang}/order.tsv`, lang);
-  const gen = createGenerator(dict, meaning, grammar, { level, complexity, stage, scenes, rnd, prefer, shapes, target });
+  const adjOrder = await loadAdjOrder(base, "de", meaning);   // (German's order of adjectives: de/rules/adjectives.txt)
+  const gen = createGenerator(dict, meaning, grammar, { level, complexity, stage, scenes, rnd, prefer, shapes, target, adjOrder });
   gen.frames = german;
   // (the plans said in German: de/realize.js -- choosing freely: its word order, its synonyms)
   const de = await (await import("../de/realize.js")).loadGerman(base, gen, german, { vary: rnd });
@@ -69,7 +71,7 @@ export async function loadSentences({ dict, base = "", level = 2, complexity = 2
   return gen;
 }
 
-export function createGenerator(dict, meaning, grammar, { level = 2, complexity = 2, stage = null, scenes = null, rnd = Math.random, prefer = new Map(), shapes = grammar, target = null } = {}) {
+export function createGenerator(dict, meaning, grammar, { level = 2, complexity = 2, stage = null, scenes = null, rnd = Math.random, prefer = new Map(), shapes = grammar, target = null, adjOrder = null } = {}) {
   grammar.complexity = complexity;
   grammar.stage = stage;
   shapes.complexity = complexity;
@@ -112,12 +114,16 @@ export function createGenerator(dict, meaning, grammar, { level = 2, complexity 
   for (const e of dict.entries) { const k = `${e.pos}|${e.concept}`; if (!byConcept.has(k) || better(e, byConcept.get(k)) < 0) byConcept.set(k, e); (allOf.get(k) ?? allOf.set(k, []).get(k)).push(e); }
   for (const es of allOf.values()) es.sort(better);
   const synonyms = (w, pos) => allOf.get(`${pos}|${w.replace(/_/g, " ")}`) ?? [];
-  const word = (w, pos) => { const [x, sk] = w.split("="); return dict.entries.find((e) => e.word === x && e.pos === pos && (!sk || e.sk[0] === sk)) ?? byConcept.get(`${pos}|${w.replace(/_/g, " ")}`); };
+  // (a German word of a part of speech -- its first entry, or the one of that Slovak meaning: Schloss=zámok --, by maps
+  //  made once: it is asked thousands of times a sentence, and a scan of the dictionary each time made a sentence 7 ms)
+  const firstOf = new Map();
+  for (const e of dict.entries) for (const k of [`${e.word}|${e.pos}`, `${e.word}|${e.pos}|${e.sk[0]}`]) if (!firstOf.has(k)) firstOf.set(k, e);
+  const word = (w, pos) => { const [x, sk] = w.split("="); return firstOf.get(sk ? `${x}|${pos}|${sk}` : `${x}|${pos}`) ?? byConcept.get(`${pos}|${w.replace(/_/g, " ")}`); };
   const tok = (e) => ({ w: e.word, ipa: e.ipa });
   // a function word of any part of speech (doch, mal, sondern, seit), spoken as the dictionary has it
   const POS_ORDER = ["PAR", "AV", "CON", "PRE", "P", "NUM", "ART", "INT", "AN", "PHR", "N", "V"];
   // (a German word of any part of speech first -- von the preposition --, only then a concept's: von the Slovak "out")
-  const anyWord = (w) => { const [x] = w.split("="); for (const p of POS_ORDER) { const e = dict.entries.find((d) => d.word === x && d.pos === p); if (e) return word(w, p); } for (const p of POS_ORDER) { const e = word(w, p); if (e) return e; } return null; };
+  const anyWord = (w) => { const [x] = w.split("="); for (const p of POS_ORDER) { const e = firstOf.get(`${x}|${p}`); if (e) return word(w, p); } for (const p of POS_ORDER) { const e = word(w, p); if (e) return e; } return null; };
   const words = (s) => s.split(" ").map((w) => anyWord(w)).filter(Boolean).map(tok);   // ("doch mal" -> two tokens)
   // (one word a concept: its commonest -- the plan is of concepts, a word says it; a rarer synonym -- wandeln beside
   //  ändern -- is not drawn on its own: phase 1c's stand-in for the concept planner, DESIGN.md)
@@ -1493,7 +1499,9 @@ export function createGenerator(dict, meaning, grammar, { level = 2, complexity 
       // (dieser eine: ein declined as the adjective; more adjectives, comma-joined: einen samtigen, dunklen Spiegel)
       const one = np.one ? [{ w: "ein" + (decl === "weak" ? (np.kase === "nom" || (np.kase === "acc" && np.g !== "m")) && np.g !== "pl" ? "e" : "en" : M.adj(word("klein", "AN"), decl, np.kase, np.g).w.slice(5)), ipa: "" }] : [];
       if (!np.adj) return one.length ? one : null;
-      return [...one, ...(np.deg ? [np.deg] : []), M.adj(np.adj, decl, np.kase, np.g, np.adjDeg), ...(np.adjs ?? []).flatMap((a) => [COMMA, M.adj(a, decl, np.kase, np.g)])];
+      // (of different kinds: in German's order -- de/rules/adjectives.txt --, no comma: ein großer alter Hund; else a list)
+      const all = [np.adj, ...(np.adjs ?? [])], cumulative = !np.deg && !np.adjDeg && !!adjOrder?.cumulative(all), list = cumulative ? adjOrder.before(all) : all;
+      return [...one, ...(np.deg ? [np.deg] : []), M.adj(list[0], decl, np.kase, np.g, np.adjDeg), ...list.slice(1).flatMap((a) => [...(cumulative ? [] : [COMMA]), M.adj(a, decl, np.kase, np.g)])];
     }
     if (name === "noun") return [M.noun(np.noun, np.kase, np.form ?? np.num, np.decl ?? (np.det ? "weak" : "strong"), np.g), ...(np.of ? expand(grammar, "NP", hooks, rnd, { ...np.of, kase: np.kase, det: null }, true) ?? [] : [])];
     if (name === "attr") {   // (das Auto meines Vaters; ein Freund von mir, von meinem Bruder)

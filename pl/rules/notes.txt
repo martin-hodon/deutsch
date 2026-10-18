@@ -1,0 +1,28 @@
+# HOW POLISH DOES EACH GRAMMAR STRUCTURE (engine/build.js: the grammar ladder shows the note of every structure a step
+# brings; the names are world/syllabus.txt's). `structure = the rule, with a short example`.
+present = Subject – verb – object is neutral; the ending shows the person, so a pronoun subject is usually left out: Pies śpi. Śpi.
+predicate = być + an adjective in the nominative (a noun in the instrumental: jest nauczycielem): Pies jest stary.
+object = The direct object is in the accusative (masculine persons and animals take the genitive form): Widzę psa.
+adjective = The adjective stands before the noun and agrees: stary pies, stara książka; a classifying one (origin, material, type) follows it: samochód niemiecki, stół drewniany.
+adjective-order = Describing adjectives before the noun, the most inherent nearest it (opinion – size – quality – age – colour), no comma: duży stary czarny pies; classifying ones after it: nowy czerwony samochód niemiecki.
+one-gladly-very = bardzo, naprawdę before the adjective: bardzo stary. "Gladly" is chętnie or lubić + infinitive: Chętnie czyta.
+possessive = mój, twój, nasz agree like adjectives; jego, jej, ich never change: mój pies, jej pies.
+comparison = Comparative -szy/-ejszy (starszy, nowszy) or bardziej; "than" = niż or od + genitive: starszy niż kot.
+past = -łem/-łam ... by person and gender; the perfective aspect for a finished result: Przeczytała książkę.
+perfect = Polish has no separate perfect: a finished action is the past of the perfective verb: Przeczytała książkę.
+future = Perfective: present-form endings (przeczyta); imperfective: będzie + infinitive or past form (będzie czytać).
+modal = chcieć, móc, musieć + infinitive: Pies chce spać.
+negation = nie directly before the verb: Pies nie śpi.
+no-det = After a negation the object goes to the genitive: Nie mam psa. Nie czyta książki.
+frequency = zawsze, często, czasami usually before the verb: Często czyta książkę.
+time-basic = w sobotę, w maju, o ósmej; time usually at the start: Dzisiaj pies śpi w ogrodzie.
+time-phrases = w zeszłym tygodniu, w przyszłym tygodniu, codziennie.
+manner = Manner adverbs in -o/-ie (szybko, cicho) usually before the verb.
+place-basic = w/na + locative: w ogrodzie, w domu, na plaży.
+adverb-order = Time first, manner before the verb, place after it: Dzisiaj pies spokojnie śpi w ogrodzie.
+yes-no = Czy + statement, or rising intonation: Czy pies śpi?
+wh-basic = The question word first: Gdzie śpi pies?
+coord = i, a, ale join clauses (comma before a, ale; none before i): Ona czyta i on gotuje.
+that-because-if = bo/ponieważ, że, jeśli: normal order, a comma before: Jest w domu, bo jest chory.
+although-so-that = chociaż + indicative; żeby + past form: Czyta, chociaż jest zmęczona.
+relative = który agrees with the noun in gender and number, takes its case from the relative clause; commas around: Psy, które grają, śpią.

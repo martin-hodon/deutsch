@@ -39,6 +39,7 @@ import check
 
 INDEX = os.path.join(check.TOP, "concepts")
 OPPOSITES = os.path.join(INDEX, "opposites.txt")
+LABELS = os.path.join(INDEX, "labels.txt")   # (the groups', topics', sections' names: the dictionary's filter -- not concepts)
 LANGS = ("de", "en", "es", "fr", "it", "pl", "ru", "zh")
 POSES = {"N", "V", "AN", "AV", "PRE", "P", "CON", "ART", "NUM", "PAR", "INT", "PHR"}
 LINE = re.compile(r"^(\S+) (.+?)(?: : ([^-]*?))?(?: -- (.*))?$")
@@ -56,7 +57,7 @@ def read():
             for f in sorted(fs):
                 if not f.endswith(".txt"): continue
                 p = os.path.join(dp, f); rel = os.path.relpath(p, INDEX); section = ""
-                if p == OPPOSITES: continue   # (the relation file, not concepts: opposites())
+                if p in (OPPOSITES, LABELS): continue   # (the relation file, the names: not concepts)
                 for n, s in enumerate(open(p, encoding="utf-8"), 1):
                     s = s.rstrip("\n")
                     if not s.strip(): continue

@@ -90,7 +90,12 @@ export async function loadPolish(base, { meaning = null, vary = null } = {}) {
     const agree = (a) => (ne ? M.adj(a, nounCase, nounPl ? "pl" : g0, nounPl, opts) : a.word ?? a);
     const pre = [], post = [];
     const adjs = mods.filter((m) => m.startsWith("adj:")).map((m) => entry(m.slice(4), "AN") ?? { word: wordOf(m.slice(4), "AN") });
-    adjs.forEach((a, k) => pre.push(...(k === 0 && deg ? [wordOf(deg.slice(4), "AV")] : []), k === 0 && (sup || comp) ? agree({ word: M.compare(a, { sup }) }) : agree(a), ...(k < adjs.length - 1 ? [","] : [])));
+    // (in Polish's order, no comma -- duży stary pies; a classifying one -- of origin, of material -- after the noun:
+    //  samochód niemiecki; with a degree or a comparison all before, as the plan has them)
+    const ao = lx.adjOrder, plain = !deg && !sup && !comp, cumulative = plain && ao.cumulative(adjs);
+    const front = plain ? adjs.filter((a) => !ao.isAfter(a)) : adjs, back = plain ? ao.after(adjs) : [];
+    (cumulative ? ao.before(front) : front).forEach((a, k, list) => pre.push(...(k === 0 && deg ? [wordOf(deg.slice(4), "AV")] : []), k === 0 && (sup || comp) ? agree({ word: M.compare(a, { sup }) }) : agree(a), ...(k < list.length - 1 && !cumulative ? [","] : [])));
+    post.push(...back.map(agree));
     for (const m of mods) {
       const [fn, a] = call(m);
       if (fn === "part") {   // (a participle: II the passive one agreeing -- kupiona książka --, I a relative clause)

@@ -66,9 +66,13 @@ export async function loadSpanish(base, { meaning = null, vary = null } = {}) {
     // (bueno, malo, grande, primero ... before the noun, shortened in the singular: un buen profesor, una gran casa, el
     //  primer día -- rules/neutral.txt `list before`; with a degree after it: un profesor muy bueno)
     const before = (a) => !deg && !sup && !comp && BEFORE.has(a.word);
-    for (const a of adjs.filter(before)) pre.push(!pl && (g === "m" || a.word === "grande") ? BEFORE.get(a.word) : adjForm(a, g, pl));
+    // (of different kinds: in Spanish's order -- before the noun the farthest first, after it the nearest first: un gran
+    //  perro negro, un coche alemán rojo; else a list joined by y)
+    const cumulative = !deg && !sup && !comp && lx.adjOrder.cumulative(adjs), ao = lx.adjOrder;
+    for (const a of (cumulative ? ao.outward : (x) => x)(adjs.filter(before))) pre.push(!pl && (g === "m" || a.word === "grande") ? BEFORE.get(a.word) : adjForm(a, g, pl));
     const after = adjs.filter((a) => !before(a));
-    after.forEach((a, k) => post.push(...(k === 0 && deg ? [wordOf(deg.slice(4), "AV")] : []), ...(k === 0 && (sup || comp) ? ["más"] : []), adjForm(a, g, pl) + (k < after.length - 2 ? "," : ""), ...(k === after.length - 2 ? ["y"] : [])));
+    if (cumulative) post.push(...ao.inward(after).map((a) => adjForm(a, g, pl)));
+    else after.forEach((a, k) => post.push(...(k === 0 && deg ? [wordOf(deg.slice(4), "AV")] : []), ...(k === 0 && (sup || comp) ? ["más"] : []), adjForm(a, g, pl) + (k < after.length - 2 ? "," : ""), ...(k === after.length - 2 ? ["y"] : [])));
     for (const m of mods) {
       const [fn, a] = call(m);
       if (fn === "part") {   // los niños que ríen / el filete perfectamente frito / el té recomendado por el médico / el libro que hay que leer

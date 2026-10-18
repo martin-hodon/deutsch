@@ -1,0 +1,17 @@
+# DEDUCIBLE WORDS (engine/derive.js): a word the dictionary does not have, read as a known word + a regular derivation
+# -- only READ (the reading page, the dictionary search), never added. `KIND TARGET < BASE : patterns -- label` (~: the
+# base word); a pattern: -suffix, -suffix/rest (the base ends in rest), prefix-, a * after a suffix: a doubled consonant
+# undone; `COMPOUND TARGET < FIRST + HEAD : links -- label` (a link "" for none). Compared folded: no case, accents, umlauts.
+negative    AN < AN : un-                                               -- nicht ~ (not ~)
+quality     N < AN : -heit -keit -igkeit                                -- being ~
+activity    N < V : -ung/en -ung/n                                      -- the act of: ~
+agent       N < V : -er/en -er/n                                        -- someone who does: ~
+feminine    N < N : -in                                                 -- a female ~
+diminutive  N < N : -chen -lein -chen/e -lein/e                         -- a little ~
+ability     AN < V : -bar/en -bar/n                                     -- that can be: ~
+without     AN < N : -los -slos -los/e                                  -- without ~
+full        AN < N : -voll -reich                                       -- full of ~
+like        AN < N : -lich -ig -isch -lich/e -ig/e                      -- like ~, of ~
+again       V < V : wieder-                                             -- ~ again
+COMPOUND N < N|AN|V + N : "" s es n en e er                              -- a kind of ~
+COMPOUND AN < N|AN + AN : "" s n en                                      -- ~ in a way

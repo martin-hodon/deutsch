@@ -8,9 +8,11 @@
 //   const lx = await loadLexicon("", "en", { meaning, vary, verbEntry })
 //   verbEntry(word) -> a verb's entry for a frame's word (an idiom's: go to sleep -- the language knows its forms)
 //   lx.ipaOf(word) -> how a word sounds: the dictionary's IPA, else by the language's letter rules (engine/sounds.js)
+//   lx.adjOrder -> the language's order of adjectives (engine/adjorder.js, <lang>/rules/adjectives.txt)
 
 import { splitTop } from "./realize.js";
 import { loadSounds } from "./sounds.js";
+import { loadAdjOrder } from "./adjorder.js";
 
 export const ROLES = new Set(["patient", "second", "recipient", "as", "theme", "topic", "cause", "basis", "purpose", "companion", "opponent", "instrument", "share", "result", "substitute", "location", "goal", "source", "path", "bare"]);
 export const PERSONS = /^(1sg|2sg|3sg\.[mf]|1pl|2pl|3pl(\.f)?|formal|someone|noone|who|that-one)$/;
@@ -139,13 +141,27 @@ export async function loadLexicon(base, lang, { meaning = null, vary = null, ver
   const nounOf = (v) => { const h = splitTop(v ?? "")[0]; return h.includes(":") ? h.slice(h.indexOf(":") + 1).replace(/^[~@]/, "") : null; };
   // (a plan's 3pl pronoun agrees with what it stands for -- the plural noun phrase another clause has as its subject:
   //  elles, ellas for a feminine one; the plan's pronoun has none) -> the plan with `3pl.f` there (<lang>/rules/neutral.txt)
+  //  -- and a relative clause on a plural noun, its subject that noun (relrole subj), the 3pl: the dogs that play, los
+  //  perros que juegan (its subject is not said: who, que)
   function agree(plan) {
     const subjOf = (c) => c.args.subj?.[0], plural = (v) => /^[\w.-]+:/.test(v ?? "") && (/\+pl\b/.test(v) || /^(all|both|many|several|few):/.test(v));
+    const rels = Object.entries(plan.clauses).filter(([, c]) => c.type === "REL" && !c.args.subj && (c.args.relrole?.[0] ?? "subj") === "subj");
+    if (rels.length) {
+      const heads = Object.values(plan.clauses).flatMap((c) => Object.values(c.args).flat()).filter((v) => typeof v === "string");
+      const clauses = { ...plan.clauses };
+      for (const [id, c] of rels) {
+        const head = heads.find((v) => splitTop(v).includes(`rel(${id})`));
+        if (head && plural(head)) clauses[id] = { ...c, args: { ...c.args, subj: [entry(nounOf(head), "N")?.gender === "f" ? "3pl.f" : "3pl"] } };
+      }
+      plan = { ...plan, clauses };
+    }
     const ante = Object.values(plan.clauses).find((c) => plural(subjOf(c)));
     if (!ante || entry(nounOf(subjOf(ante)), "N")?.gender !== "f") return plan;
     const clauses = {};
     for (const [id, c] of Object.entries(plan.clauses)) clauses[id] = c === ante ? c : { ...c, args: Object.fromEntries(Object.entries(c.args).map(([k, vs]) => [k, vs.map((v) => (v === "3pl" ? "3pl.f" : v))])) };
     return { ...plan, clauses };
   }
-  return { entry, wordOf, use, agree, own, sp, byConcept, byWord, table, say, LIST, choose, defaults, framesOf, kindOf, nounKind, pick, frameFor, markOf, catOf, nounOf, ipaOf };
+  // ADJECTIVES ON ONE NOUN: the language's order of them (<lang>/rules/adjectives.txt) -- a big old dog, un coche alemán rojo
+  const adjOrder = await loadAdjOrder(base, lang, meaning);
+  return { entry, wordOf, use, agree, adjOrder, own, sp, byConcept, byWord, table, say, LIST, choose, defaults, framesOf, kindOf, nounKind, pick, frameFor, markOf, catOf, nounOf, ipaOf };
 }

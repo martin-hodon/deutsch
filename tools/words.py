@@ -13,7 +13,7 @@ import check, concepts, adverbs, pinyin
 
 POSES = {"N", "V", "AN", "AV", "PRE", "P", "CON", "ART", "NUM", "PAR", "INT", "PHR"}
 COLS = ["category", "root", "derived", "freq", "pos", "word", "article", "gender", "plural", "ipa", "parts", "forms", "comparison",
-        "feminine", "model", "aux", "comb", "sk", "pinyin", "classifier", "opposite", "generic"]
+        "feminine", "model", "aux", "comb", "sk", "pinyin", "classifier", "opposite", "generic", "section"]
 ARTICLES = {"en": None, "es": ("el", "la", "los", "las"), "fr": ("le", "la", "l'", "les"), "it": ("il", "lo", "la", "l'", "i", "gli", "le"), "ru": None, "pl": None, "zh": None}
 ES_MODELS = {"e>ie", "o>ue", "e>i", "u>ue", "i>ie", "c>zc", "i>í", "u>ú", "irr"}
 RU_GENDERS = {"м", "ж", "с", "мн"}
@@ -168,6 +168,17 @@ def mark_opposites(rows):
 
 
 
+def mark_section(rows):
+    """each row's `section`: where its CONCEPT stands in the concepts' organization -- group/topic/section, the topic its
+    file in concepts/, the section the `# heading` above it (life/animals/mammals-wild); the category column is where the
+    language's line stands, which may be another topic"""
+    idx = concepts.read()
+    for r in rows:
+        sk = r["sk"][0] if isinstance(r["sk"], list) else r["sk"]
+        c = idx.get((r["pos"], sk))
+        r["section"] = f"{os.path.splitext(c['file'])[0].replace(os.sep, '/')}/{c['section']}" if c else ""
+
+
 def mark_generic(rows):
     """each row's `generic`: `POS id @ context` of the generic concept its concept is declared `of` (concepts.generics())"""
     gen = concepts.generics()
@@ -197,6 +208,7 @@ def main(lang):
     derive_adverbs(lang, root, idx, rows, said, seen, COLS)
     mark_opposites(rows)
     mark_generic(rows)
+    mark_section(rows)
     missing = sorted(set(k for k in idx) - said)
     for k in missing[:30]: print(f"no {lang} word for {k[0]} {k[1]} (concepts/{idx[k]['file']})")
     print(f"{n} {lang} lines; {len(said)} of {len(idx)} concepts said; {len(missing)} without; {bad} problems")
