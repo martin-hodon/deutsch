@@ -81,6 +81,19 @@
 2 N la reserva natural {reserva natural} [reˈseɾβa natuˈɾal], reservas naturales = prírodná rezervácia
 2 N el pie {pie} [pje], pies = úpätie
 3 N la falda {falda} [ˈfalda], faldas = úpätie
+3 N el yermo {yermo} [ˈʝeɾmo], yermos = pustatina
+3 N el claro {claro} [ˈklaɾo], claros = čistina
+3 N el istmo {istmo} [ˈistmo], istmos = pevninská šija
+2 N el puerto {puerto} [ˈpweɾto], puertos = priesmyk
+2 N el paso {paso} [ˈpaso], pasos = priesmyk
+3 N la sima {sima} [ˈsima], simas = priepasť (v teréne)
+3 V estragar {estragar} [estɾaˈɣaɾ] = spustošiť
+2 N el monte {monte} [ˈmonte], montes = vrch
+3 N el altozano {altozano} [altoˈθano], altozanos = kopec
+3 N el cerro {cerro} [ˈθero], cerros = kopec
+3 N la cúspide {cúspide} [ˈkuspiðe], cúspides = vrchol
+3 N la caverna {caverna} [kaˈβeɾna], cavernas = jaskyňa
+3 N el cenagal {cenagal} [θenaˈɣal], cenagales = močiar
 
 # surface-materials
 2 N la roca {roca} [ˈroka], rocas = skala
@@ -109,6 +122,19 @@
 2 N el tono {tono} [ˈtono], tonos = tón
 2 N la grava {grava} [ˈɡɾaβa], gravas = štrk
 2 N la lava {lava} [ˈlaβa], lavas = láva
+3 N la mica {mica} [ˈmika], micas = sľuda
+3 N la esmeralda {esmeralda} [esmeˈɾalda], esmeraldas = smaragd
+3 N la escoria {escoria} [esˈkoɾja], escorias = škvara
+2 AN pétreo {pétreo} [ˈpetɾeo], pétrea = kamenný
+2 AN de piedra {de piedra} [de ˈpjeðɾa] = kamenný
+2 N la gema {gema} [ˈxema], gemas = drahokam
+2 N la piedra preciosa {piedra preciosa} [ˈpjeðɾa pɾeˈθjosa], piedras preciosas = drahokam
+2 N el ámbar {ámbar} [ˈambaɾ], ámbares = jantár
+3 N la turba {turba} [ˈtuɾβa], turbas = rašelina
+3 N el barrizal {barrizal} [baɾiˈθal], barrizales = bahnisko
+2 N la caliza {caliza} [kaˈliθa], calizas = vápenec
+3 N el alabastro {alabastro} [alaˈβastɾo], alabastros = alabaster
+3 N la arenisca {arenisca} [aɾeˈniska], areniscas = pieskovec
 
 # geo-events
 2 N la erupción {erupción} [eɾupˈθjon], erupciones = vypuknutie
@@ -135,3 +161,6 @@
 2 V temblar {temblar} [temˈblaɾ], e>ie = triasť sa
 2 V sacudirse {sacudirse} [sakuˈðiɾse] = triasť sa
 1 N el suelo {suelo} [ˈswelo], suelos = podlaha
+2 N el meridiano {meridiano} [meɾiˈðjano], meridianos = poludník
+3 N el trópico {trópico} [ˈtɾopiko], trópicos = obratník
+3 N el círculo polar {círculo polar} [ˈθiɾkulo poˈlaɾ], círculos polares = polárna kružnica

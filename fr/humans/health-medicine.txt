@@ -153,6 +153,55 @@
 2 AN voyant {voyant} [vwaˈjɑ̃], voyante = vidiaci
 2 PHR reprendre connaissance {reprendre connaissance} [ʁəpʁɑ̃dʁ kɔnɛˈsɑ̃s] = prebrať sa
 2 PHR revenir à soi {revenir à soi} [ʁəvəniʁ a ˈswa] = prebrať sa
+3 N le streptocoque {strepto|coque} [stʁɛptɔˈkɔk], streptocoques = streptokok
+2 AN empoisonné {empoisonné} [ɑ̃pwazɔˈne], empoisonnée = otrávený (jedom)
+2 N la crampe {crampe} [kʁɑ̃p], crampes = kŕč
+3 AN borgne {borgne} [bɔʁɲ] = jednooký
+3 V luxer {luxer} [lykˈse] = vykĺbiť
+3 N la croûte {croûte} [kʁut], croûtes = chrasta
+2 N la brûlure {brûlure} [bʁyˈlyʁ], brûlures = popálenina
+3 AN contusionné {contusionné} [kɔ̃tyzjɔˈne], contusionnée = pomliaždený
+3 AN meurtri {meurtri} [mœʁˈtʁi], meurtrie = pomliaždený
+3 N le paludisme {paludisme} [palyˈdism], - = malária
+3 N la malaria {malaria} [malaˈʁja], - = malária
+3 N l'eczéma (m) {eczéma} [ɛgzeˈma], eczémas = ekzém
+3 N la verrue {verrue} [vɛˈʁy], verrues = bradavica
+3 AN mourant {mourant} [muˈʁɑ̃], mourante = smrteľne chorý
+3 AN sonné {sonné} [sɔˈne], sonnée = omráčený
+2 AN étourdi {étourdi} [etuʁˈdi], étourdie = omráčený
+3 AN vaseux {vaseux} [vaˈzø], vaseuse, vaseux/vaseuses = malátny
+3 AN alangui {alangui} [alɑ̃ˈgi], alanguie = malátny
+3 AN flasque {flasque} [flask] = ochabnutý
+2 AN mou {mou} [mu], molle = ochabnutý
+3 AN éméché {éméché} [emeˈʃe], éméchée = podnapitý
+3 AN pompette {pompette} [pɔ̃ˈpɛt] = podnapitý
+3 V se vider de son sang {se vider de son sang} [sə vide də sɔ̃ ˈsɑ̃] = vykrvácať
+3 N la rage {rage} [ʁaʒ], - = besnota
+3 N la jaunisse {jaunisse} [ʒoˈnis], jaunisses = žltačka
+3 N l'hépatite (f) {hépatite} [epaˈtit], hépatites = hepatitída
+3 N la rougeole {rougeole} [ʁuˈʒɔl], - = osýpky
+3 N la variole {variole} [vaˈʁjɔl], - = kiahne
+3 N la gale {gale} [gal], - = svrab
+3 N le lumbago {lumbago} [lɔ̃baˈgo], lumbagos = seknutie v krížoch
+3 N le tour de reins {tour de reins} [tuʁ də ˈʁɛ̃], tours de reins = seknutie v krížoch
+3 V mutiler {mutiler} [mytiˈle] = zmrzačiť
+3 V estropier {estropier} [ɛstʁɔˈpje] = zmrzačiť
+3 N le cal {cal} [kal], cals = mozoľ
+3 N le durillon {durillon} [dyʁiˈjɔ̃], durillons = mozoľ
+3 N le pus {pus} [py], pus = hnis
+3 V suppurer {suppurer} [sypyˈʁe] = hnisať
+3 AN purulent {purulent} [pyʁyˈlɑ̃], purulente = hnisavý
+3 N l'ulcère (m) {ulcère} [ylˈsɛʁ], ulcères = vred
+2 AN gonflé {gonflé} [gɔ̃ˈfle], gonflée = opuchnutý
+2 AN enflé {enflé} [ɑ̃ˈfle], enflée = opuchnutý
+3 N le point noir {point noir} [pwɛ̃ ˈnwaʁ], points noirs = čierna bodka
+3 N les brûlures d'estomac (f) {brûlures d'estomac} [bʁylyʁ dɛstɔˈma], PL = pálenie záhy
+3 N la contraction {contraction} [kɔ̃tʁakˈsjɔ̃], contractions = kontrakcia
+2 N l'irritation (f) {irritation} [iʁitaˈsjɔ̃], irritations = podráždenie
+3 N l'ampoule (f) {ampoule} [ɑ̃ˈpul], ampoules = pľuzgier
+3 N la cloque {cloque} [klɔk], cloques = pľuzgier
+3 AN galeux {galeux} [gaˈlø], galeuse, galeux/galeuses = prašivý
+3 N l'agent pathogène (m) {agent pathogène} [aʒɑ̃ patɔˈʒɛn], agents pathogènes = pôvodca choroby
 
 # treatment
 1 N la médecine {médecine} [medˈsin], - = medicína
@@ -225,6 +274,10 @@
 3 AN psychiatrique {psychiatrique} [psikjaˈtʁik] = psychiatrický
 3 V réanimer {réanimer} [ʁeaniˈme] = resuscitovať
 3 AN thérapeutique {thérapeutique} [teʁapøˈtik] = terapeutický
+2 N la seringue {seringue} [səˈʁɛ̃g], seringues = injekčná striekačka
+3 N l'hypnose (f) {hypnose} [ipˈnoz], - = hypnóza
+3 N l'autopsie (f) {autopsie} [otɔpˈsi], autopsies = pitva
+3 N le scalpel {scalpel} [skalˈpɛl], scalpels = skalpel
 
 # medical-people-places
 1 N le médecin {médecin} [medˈsɛ̃], médecins = lekár
@@ -281,6 +334,8 @@
 3 AN cosmétique {cosmétique} [kɔsmeˈtik] = kozmetický
 2 N le système de santé {système de santé} [sistɛm də sɑ̃ˈte], systèmes de santé = zdravotníctvo
 3 N le guéri {guéri} [ɡeˈʁi], guéris = uzdravený
+3 N la morgue {morgue} [mɔʁg], morgues = márnica
+3 N le charlatan {charlatan} [ʃaʁlaˈtɑ̃], charlatans = šarlatán
 
 # hygiene-substances
 2 N l'hygiène (f) {hygiène} [iˈʒjɛn], - = hygiena
@@ -314,6 +369,17 @@
 3 N le point de suture {point de suture} [pwɛ̃ də syˈtyʁ], points de suture = steh
 3 AV hygiéniquement {hygiénique|ment} [iʒjenikˈmɑ̃] = hygienicky
 3 AV sobrement {sobre|ment} [sɔbʁəˈmɑ̃] = triezvo
+2 N le gel douche {gel douche} [ʒɛl ˈduʃ], gels douche = sprchový gél
+2 V se baigner {se baigner} [sə bɛˈɲe] = kúpať sa
+2 V frotter {frotter} [fʁɔˈte] = drhnúť
+3 V récurer {récurer} [ʁekyˈʁe] = drhnúť
+2 V rincer {rincer} [ʁɛ̃ˈse] = zmyť
+2 N le masque {masque} [mask], masques = rúško
+3 N le masque chirurgical {masque chirurgical} [mask ʃiʁyʁʒiˈkal], masques chirurgicaux = rúško
+3 V savonner {savonner} [savɔˈne] = mydliť
+3 N l'insuline (f) {insuline} [ɛ̃syˈlin], - = inzulín
+2 N le cholestérol {cholestérol} [kɔlɛsteˈʁɔl], - = cholesterol
+3 N le glucose {glucose} [glyˈkoz], - = glukóza
 
 # more
 2 N l'avortement (m) {avortement} [avɔʁtˈmɑ̃], avortements = potrat

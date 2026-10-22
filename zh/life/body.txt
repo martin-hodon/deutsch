@@ -5,6 +5,12 @@
 2 V 体现 {体现} [tǐxiàn] = stelesňovať
 2 V 象征 {象征} [xiàngzhēng] = stelesňovať
 2 N 部位 {部位} [bùwèi], 个 = časť tela
+3 N 鸡皮疙瘩 {鸡皮疙瘩} [jīpígēda], - = zimomriavky
+3 AN 消瘦 {消瘦} [xiāoshòu] = vychudnutý
+3 AN 骨感 {骨感} [gǔgǎn] = kostnatý
+3 N 汗毛 {汗毛} [hànmáo], 根 = chlp
+2 N 毛 {毛} [máo], 根 = chlp
+3 PHR 浑身 {浑身} [húnshēn] = po celom tele
 
 # head-face
 1 N 头 {头} [tóu], 个 = hlava
@@ -70,6 +76,31 @@
 3 N 纹身 {纹身} [wénshēn], 个 = tetovanie
 3 N 刺青 {刺青} [cìqīng], 个 = tetovanie
 2 N 神情 {神情} [shénqíng], - = výraz tváre
+3 N 肤质 {肤质} [fūzhì], - = pleť
+3 AN 卷 {卷} [juǎn] = kučeravý
+3 N 卷发 {卷发} [juǎnfà], 绺 = kučera
+3 N 秃头 {秃头} [tūtóu], 个 = plešina
+3 AN 蓬乱 {蓬乱} [péngluàn] = strapatý
+2 N 辫子 {辫子} [biànzi], 条 = vrkoč
+3 N 乱发 {乱发} [luànfà], 头 = čupryna
+3 V 弄乱 {弄乱} [nòngluàn] = rozstrapatiť
+3 N 鼓膜 {鼓膜} [gǔmó], 个 = ušný bubienok
+3 N 头顶 {头顶} [tóudǐng], 个 = temeno
+3 N 山羊胡 {山羊胡} [shānyánghú], 撮 = briadka
+3 N 门牙 {门牙} [ményá], 颗 = rezák
+3 N 犬齿 {犬齿} [quǎnchǐ], 颗 = očný zub
+3 N 獠牙 {獠牙} [liáoyá], 颗 = tesák
+3 N 耳廓 {耳廓} [ěrkuò], 个 = ušnica
+3 N 外耳道 {外耳道} [wài'ěrdào], 条 = zvukovod
+3 N 镫骨 {镫骨} [dènggǔ], 块 = strmienok
+3 N 角膜 {角膜} [jiǎomó], 层 = rohovka
+3 N 玻璃体 {玻璃体} [bōlitǐ], 个 = sklovec
+3 N 发绺 {发绺} [fàlǔ], 绺 = prameň vlasov
+3 N 刘海 {刘海} [liúhǎi], 缕 = ofina
+3 N 发髻 {发髻} [fàjì], 个 = drdol
+3 V 卷 {卷} [juǎn] = kučeraviť
+2 N 眉 {眉} [méi], 对 = obočie
+3 N 眸子 {眸子} [móuzi], 双 = zrenica
 
 # limbs-torso
 2 N 肩膀 {肩膀} [jiānbǎng], 个 = plece
@@ -157,6 +188,23 @@
 3 N 臀部 {臀部} [túnbù], 个 = zadok
 2 N 拳 {拳} [quán], 个 = päsť
 2 N 胸 {胸} [xiōng], - = hruď
+3 N 肱骨 {肱骨} [gōnggǔ], 根 = ramenná kosť
+3 N 股骨 {股骨} [gǔgǔ], 根 = stehenná kosť
+3 N 胸骨 {胸骨} [xiōnggǔ], 块 = hrudná kosť
+3 N 肩胛骨 {肩胛骨} [jiānjiǎgǔ], 块 = lopatka (kosť)
+3 N 桡骨 {桡骨} [ráogǔ], 根 = vretenná kosť
+3 N 尺骨 {尺骨} [chǐgǔ], 根 = lakťová kosť
+3 N 腓骨 {腓骨} [féigǔ], 根 = lýtková kosť
+3 N 倒刺 {倒刺} [dàocì], 根 = záder
+3 N 乳头 {乳头} [rǔtóu], 个 = bradavka (prsia)
+3 N 奶头 {奶头} [nǎitóu], 个 = bradavka (prsia)
+3 N 喉结 {喉结} [hóujié], 个 = ohryzok
+3 AN 驼背 {驼背} [tuóbèi] = zhrbený
+3 N 怀抱 {怀抱} [huáibào], 个 = lono
+3 N 髋部 {髋部} [kuānbù], 个 = bedro
+3 N 大肚子 {大肚子} [dàdùzi], 个 = bachor
+3 N 中指 {中指} [zhōngzhǐ], 根 = prostredník
+3 N 无名指 {无名指} [wúmíngzhǐ], 根 = prstenník
 
 # internal-tissue
 2 N 大脑 {大脑} [dànǎo], 个 = mozog
@@ -258,3 +306,37 @@
 2 N 皮 {皮} [pí], 张 = koža (orgán)
 2 N 泪 {泪} [lèi], 滴 = slza
 2 N 脸色 {脸色} [liǎnsè], - = farba pleti
+3 N 心房 {心房} [xīnfáng], 个 = predsieň (srdca)
+3 N 基因组 {基因组} [jīyīnzǔ], 个 = genóm
+3 N 阴道 {阴道} [yīndào], 个 = pošva (ženský orgán)
+3 N 小脑 {小脑} [xiǎonǎo], 个 = mozoček
+3 N 支气管 {支气管} [zhīqìguǎn], 条 = prieduška
+3 N 脊髓 {脊髓} [jǐsuǐ], 条 = miecha
+3 N 横膈膜 {横膈膜} [hénggémó], 个 = bránica
+3 N 椎间盘 {椎间盘} [zhuījiānpán], 个 = medzistavcová platnička
+3 N 黏膜 {黏膜} [niánmó], 层 = sliznica
+3 N 食道 {食道} [shídào], 条 = pažerák
+3 N 胆囊 {胆囊} [dǎnnáng], 个 = žlčník
+3 N 胆 {胆} [dǎn], 个 = žlčník
+3 N 小肠 {小肠} [xiǎocháng], 条 = tenké črevo
+3 N 大肠 {大肠} [dàcháng], 条 = hrubé črevo
+3 N 膀胱 {膀胱} [pángguāng], 个 = močový mechúr
+3 N 输尿管 {输尿管} [shūniàoguǎn], 条 = močovod
+3 N 尿道 {尿道} [niàodào], 条 = močová rúra
+3 N 卵巢 {卵巢} [luǎncháo], 个 = vaječník
+3 N 输卵管 {输卵管} [shūluǎnguǎn], 条 = vajíčkovod
+3 N 睾丸 {睾丸} [gāowán], 个 = semenník (pohlavná žľaza)
+3 N 阴囊 {阴囊} [yīnnáng], 个 = miešok
+3 N 内脏 {内脏} [nèizàng], 副 = vnútornosti
+3 N 血浆 {血浆} [xuèjiāng], - = krvná plazma
+2 N 蛋白质 {蛋白质} [dànbáizhì], - = bielkovina
+3 N 核苷酸 {核苷酸} [hégānsuān], 个 = nukleotid
+3 N 红细胞 {红细胞} [hóngxìbāo], 个 = červená krvinka
+3 N 白细胞 {白细胞} [báixìbāo], 个 = biela krvinka
+3 N 神经元 {神经元} [shénjīngyuán], 个 = neurón
+3 N 核糖体 {核糖体} [hétángtǐ], 个 = ribozóm
+3 N 线粒体 {线粒体} [xiànlìtǐ], 个 = mitochondria
+3 N 黑色素 {黑色素} [hēisèsù], - = melanín
+3 N 染色体 {染色体} [rǎnsètǐ], 条 = chromozóm
+3 N 肌肤 {肌肤} [jīfū], - = koža (orgán)
+3 N 唾沫 {唾沫} [tuòmo], - = slina

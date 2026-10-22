@@ -86,6 +86,8 @@
 3 AV victorieusement {victorieuse|ment} [viktɔʁjøzˈmɑ̃] = víťazne
 3 AV héroïquement {héroïque|ment} [eʁɔikˈmɑ̃] = hrdinsky
 3 N la désescalade {dés|escalade} [dezɛskaˈlad], désescalades = deeskalácia
+3 V soumettre {sou|mettre} [suˈmɛtʁ], irr, soumis = podmaniť si
+3 V assaillir {assaillir} [asaˈjiʁ], irr, assailli (qn) = zaútočiť
 
 # army
 1 N l'armée (f) {armée} [aʁˈme], armées = armáda
@@ -139,6 +141,11 @@
 3 V flanquer {flanquer} [flɑ̃ˈke] = lemovať
 2 V surprendre {sur|prendre} [syʁˈpʁɑ̃dʁ], irr, surpris = zaskočiť
 3 V catapulter {catapulter} [katapylˈte] = katapultovať
+3 N le croisé {croisé} [kʁwaˈze], croisés = križiak
+3 N le sous-lieutenant {sous-|lieutenant} [suljøtˈnɑ̃], sous-lieutenants = podporučík
+3 N l'escadrille (f) {escadrille} [ɛskaˈdʁij], escadrilles = letka (útvar)
+2 N le protecteur {protect|eur} [pʁɔtɛkˈtœʁ], protecteurs = ochranca
+3 N l'écuyer (m) {écuyer} [ekɥiˈje], écuyers = panoš
 
 # weapons-fortification
 1 N l'arme (f) {arme} [aʁm], armes = zbraň
@@ -201,6 +208,30 @@
 2 V parer {parer} [paˈʁe] = odraziť
 2 V s'armer {s'armer} [saʁˈme] = zbrojiť
 2 AN désarmé {dés|armé} [dezaʁˈme], désarmée = neozbrojený
+2 N la balle {balle} [bal], balles = guľka (strela)
+2 N le canon {canon} [kaˈnɔ̃], canons = hlaveň
+3 N les créneaux (m) {créneaux} [kʁeˈno], PL = cimbúrie
+2 N la lance {lance} [lɑ̃s], lances = kopija
+3 N l'épée (f) {épée} [eˈpe], épées = kord
+3 N la massue {massue} [maˈsy], massues = kyjak
+3 N le gourdin {gourdin} [ɡuʁˈdɛ̃], gourdins = kyjak
+3 N le carquois {carquois} [kaʁˈkwa], carquois = tulec
+3 N l'arbalète (f) {arbalète} [aʁbaˈlɛt], arbalètes = kuša
+3 N la hallebarde {hallebarde} [alˈbaʁd], hallebardes = halapartňa
+3 N le bélier {bélier} [beˈlje], béliers = baranidlo
+2 N l'armement (m) {arme|ment} [aʁməˈmɑ̃], armements = výzbroj
+3 V blinder {blinder} [blɛ̃ˈde] = obrniť
+3 N la mitraillette {mitraill|ette} [mitʁaˈjɛt], mitraillettes = samopal
+3 N la mitrailleuse {mitraill|euse} [mitʁaˈjøz], mitrailleuses = guľomet
+3 N le lance-flammes {lance-|flammes} [lɑ̃sˈflam], lance-flammes = plameňomet
+3 N le lance-roquettes {lance-|roquettes} [lɑ̃sʁɔˈkɛt], lance-roquettes = raketomet
+3 N l'obusier (m) {obusier} [ɔbyˈzje], obusiers = húfnica
+3 N la carabine à air comprimé {carabine à air comprimé} [kaʁaˈbin a ɛʁ kɔ̃pʁiˈme], carabines à air comprimé = vzduchovka
+3 N le fourreau {fourreau} [fuˈʁo], fourreaux = pošva (na zbraň)
+2 N le fusil de chasse {fusil de chasse} [fyˈzi də ʃas], fusils de chasse = brokovnica
+3 N l'avion de chasse (m) {avion de chasse} [aˈvjɔ̃ də ʃas], avions de chasse = stíhačka
+2 N la cartouche {cartouche} [kaʁˈtuʃ], cartouches = náboj (do zbrane)
+3 N l'armistice (m) {armistice} [aʁmisˈtis], armistices = prímerie
 
 # war
 2 V piller {piller} [piˈje] = plieniť
@@ -209,3 +240,13 @@
 2 N l'entrepôt (m) {entre|pôt} [ɑ̃tʁəˈpo], entrepôts = sklad
 2 N le dépôt {dépôt} [deˈpo], dépôts = sklad
 2 N la mine {mine} [min], mines = tuha
+2 N le prisonnier {prisonn|ier} [pʁizɔˈnje], prisonniers = zajatec
+3 N l'escarmouche (f) {escarmouche} [ɛskaʁˈmuʃ], escarmouches = šarvátka
+2 N le massacre {massacre} [maˈsakʁ], massacres = krviprelievanie
+3 N le carnage {carnage} [kaʁˈnaʒ], carnages = krviprelievanie
+3 N la mutinerie {mutin|erie} [mytinˈʁi], mutineries = vzbura
+2 N la révolte {révolte} [ʁeˈvɔlt], révoltes = vzbura
+3 N la supériorité {supériorité} [sypeʁjɔʁiˈte], supériorités = prevaha
+3 N l'encerclement (m) {encercle|ment} [ɑ̃sɛʁkləˈmɑ̃], encerclements = obkľúčenie
+3 V aborder {aborder} [abɔʁˈde] (qch) = abordovať
+3 N l'intrus (m) {intrus} [ɛ̃ˈtʁy], intrus = votrelec

@@ -4,6 +4,12 @@
 1 AN fizyczny {fizyczny} [fʲiˈzɨtʂnɨ] = telesný
 2 N część ciała {część ciała} [tɕɛ̃ɕtɕ ˈtɕawa], ż, części ciała = časť tela
 3 V ucieleśniać {ucieleśniać} [utɕɛˈlɛɕɲatɕ], ucieleśnić (B) = stelesňovať
+3 N gęsia skórka {gęsia skórka} [ˈɡɛ̃ɕa ˈskurka], ż, - = zimomriavky
+3 N ciarki {ciarki} [ˈtɕarki], lm, ciarki = zimomriavky
+3 AN wychudzony {wychudzony} [vɨxuˈdzɔnɨ] = vychudnutý
+3 AN kościsty {kościsty} [kɔˈɕtɕistɨ] = kostnatý
+3 N włosek {włosek} [ˈvwɔsɛk], m, włoski = chlp
+2 PHR po całym ciele {po całym ciele} [pɔ ˈtsawɨm ˈtɕɛlɛ] = po celom tele
 
 # head-face
 1 N głowa {głowa} [ˈɡwɔva], ż, głowy = hlava
@@ -53,6 +59,30 @@
 2 N fryzura {fryzura} [frɨˈzura], ż, fryzury = účes
 2 N tatuaż {tatuaż} [taˈtuaʂ], m, tatuaże = tetovanie
 3 AV ustnie {ustnie} [ˈustɲɛ] = ústne
+3 N cera {cera} [ˈtsɛra], ż, cery = pleť
+3 AN kędzierzawy {kędzierzawy} [kɛndʑɛˈʐavɨ] = kučeravý
+3 N lok {lok} [lɔk], m, loki = kučera
+3 N łysina {łysina} [wɨˈɕina], ż, łysiny = plešina
+3 AN rozczochrany {roz|czochrany} [rɔztʂɔˈxranɨ] = strapatý
+3 N warkocz {warkocz} [ˈvarkɔtʂ], m, warkocze = vrkoč
+3 N czupryna {czupryna} [tʂuˈprɨna], ż, czupryny = čupryna
+3 V rozczochrywać {roz|czochrywać} [rɔztʂɔˈxrɨvatɕ], rozczochrać (B) = rozstrapatiť
+3 N błona bębenkowa {błona bębenkowa} [ˈbwɔna bɛmbɛŋˈkɔva], ż, błony bębenkowe = ušný bubienok
+3 N ciemię {ciemię} [ˈtɕɛmʲɛ], n, ciemiona = temeno
+3 N bródka {bródka} [ˈbrutka], ż, bródki = briadka
+3 N siekacz {siekacz} [ˈɕɛkatʂ], m, siekacze = rezák
+3 N kieł {kieł} [kʲɛw], m, kły = očný zub
+3 N kieł {kieł} [kʲɛw], m, kły = tesák
+3 N małżowina uszna {małżowina uszna} [mawʐɔˈvʲina ˈuʂna], ż, małżowiny uszne = ušnica
+3 N przewód słuchowy {przewód słuchowy} [ˈpʂɛvut swuˈxɔvɨ], m, przewody słuchowe = zvukovod
+3 N strzemiączko {strzemiączko} [stʂɛˈmʲɔntʂkɔ], n, strzemiączka = strmienok
+3 N rogówka {rogówka} [rɔˈɡufka], ż, rogówki = rohovka
+3 N ciało szkliste {ciało szkliste} [ˈtɕawɔ ˈʂklistɛ], n, ciała szkliste = sklovec
+3 N kosmyk włosów {kosmyk włosów} [ˈkɔsmɨk ˈvwɔsuf], m, kosmyki włosów = prameň vlasov
+3 N grzywka {grzywka} [ˈɡʐɨfka], ż, grzywki = ofina
+3 N kok {kok} [kɔk], m, koki = drdol
+3 AN piegowaty {piegowaty} [pʲɛɡɔˈvatɨ] = pehavý
+3 V kręcić loki {kręcić loki} [ˈkrɛɲtɕitɕ ˈlɔki], zakręcić = kučeraviť
 
 # limbs-torso
 1 N ramię {ramię} [ˈramʲɛ], n, ramiona = plece
@@ -110,6 +140,24 @@
 3 N kark {kark} [kark], m, karki = šija
 1 N tyłek {tyłek} [ˈtɨwɛk], m, tyłki = zadok
 2 N pośladek {pośladek} [pɔˈɕladɛk], m, pośladki = zadok
+3 N kość ramienna {kość ramienna} [kɔɕtɕ raˈmʲɛna], ż, kości ramienne = ramenná kosť
+3 N kość udowa {kość udowa} [kɔɕtɕ uˈdɔva], ż, kości udowe = stehenná kosť
+3 N mostek {mostek} [ˈmɔstɛk], m, mostki = hrudná kosť
+3 N łopatka {łopatka} [wɔˈpatka], ż, łopatki = lopatka (kosť)
+3 N kość promieniowa {kość promieniowa} [kɔɕtɕ prɔmʲɛˈɲɔva], ż, kości promieniowe = vretenná kosť
+3 N kość łokciowa {kość łokciowa} [kɔɕtɕ wɔkˈtɕɔva], ż, kości łokciowe = lakťová kosť
+3 N kość strzałkowa {kość strzałkowa} [kɔɕtɕ stʂawˈkɔva], ż, kości strzałkowe = lýtková kosť
+3 N zadzior {zadzior} [ˈzadʑɔr], m, zadziory = záder
+3 N sutek {sutek} [ˈsutɛk], m, sutki = bradavka (prsia)
+3 N jabłko Adama {jabłko Adama} [ˈjapkɔ aˈdama], n, jabłka Adama = ohryzok
+3 AN zgarbiony {zgarbiony} [zɡarˈbʲɔnɨ] = zhrbený
+3 N łono {łono} [ˈwɔnɔ], n, łona = lono
+2 N biodro {biodro} [ˈbʲɔdrɔ], n, biodra = bedro
+3 N kałdun {kałdun} [ˈkawdun], m, kałduny = bachor
+3 N palec środkowy {palec środkowy} [ˈpalɛts ɕrɔtˈkɔvɨ], m, palce środkowe = prostredník
+3 N palec serdeczny {palec serdeczny} [ˈpalɛts sɛrˈdɛtʂnɨ], m, palce serdeczne = prstenník
+3 AN piersiowy {piersiowy} [pʲɛrˈɕɔvɨ] = hrudný
+3 N kadłub {kadłub} [ˈkadwup], m, kadłuby = trup
 
 # internal-tissue
 1 N mózg {mózg} [musk], m, mózgi = mozog
@@ -180,3 +228,34 @@
 2 AV serdecznie {serdecznie} [sɛrˈdɛtʂɲɛ] = srdečne
 3 AV krwawo {krwawo} [ˈkrvavɔ] = krvavo
 3 AV genetycznie {genetycznie} [ɡɛnɛˈtɨtʂɲɛ] = geneticky
+3 N przedsionek serca {przedsionek serca} [pʂɛtˈɕɔnɛk ˈsɛrtsa], m, przedsionki serca = predsieň (srdca)
+3 N genom {genom} [ˈɡɛnɔm], m, genomy = genóm
+3 N pochwa {pochwa} [ˈpɔxfa], ż, pochwy = pošva (ženský orgán)
+3 N móżdżek {móżdżek} [ˈmuʐdʐɛk], m, móżdżki = mozoček
+3 N oskrzele {oskrzele} [ɔˈskʂɛlɛ], n, oskrzela = prieduška
+3 N rdzeń kręgowy {rdzeń kręgowy} [rdzɛɲ krɛŋˈɡɔvɨ], m, rdzenie kręgowe = miecha
+3 N przepona {przepona} [pʂɛˈpɔna], ż, przepony = bránica
+3 N krążek międzykręgowy {krążek międzykręgowy} [ˈkrɔ̃ʐɛk mʲɛndzɨkrɛŋˈɡɔvɨ], m, krążki międzykręgowe = medzistavcová platnička
+3 N błona śluzowa {błona śluzowa} [ˈbwɔna ɕluˈzɔva], ż, błony śluzowe = sliznica
+3 N przełyk {przełyk} [ˈpʂɛwɨk], m, przełyki = pažerák
+3 N woreczek żółciowy {woreczek żółciowy} [vɔˈrɛtʂɛk ʐuwˈtɕɔvɨ], m, woreczki żółciowe = žlčník
+3 N jelito cienkie {jelito cienkie} [jɛˈlitɔ ˈtɕɛŋkʲɛ], n, jelita cienkie = tenké črevo
+3 N jelito grube {jelito grube} [jɛˈlitɔ ˈɡrubɛ], n, jelita grube = hrubé črevo
+3 N pęcherz moczowy {pęcherz moczowy} [ˈpɛ̃xɛʂ mɔˈtʂɔvɨ], m, pęcherze moczowe = močový mechúr
+3 N moczowód {moczowód} [mɔˈtʂɔvut], m, moczowody = močovod
+3 N cewka moczowa {cewka moczowa} [ˈtsɛfka mɔˈtʂɔva], ż, cewki moczowe = močová rúra
+3 N jajnik {jajnik} [ˈjajɲik], m, jajniki = vaječník
+3 N jajowód {jajowód} [jaˈjɔvut], m, jajowody = vajíčkovod
+3 N jądro {jądro} [ˈjɔndrɔ], n, jądra = semenník (pohlavná žľaza)
+3 N moszna {moszna} [ˈmɔʂna], ż, moszny = miešok
+3 N wnętrzności {wnętrzności} [vnɛntʂˈnɔɕtɕi], lm, wnętrzności = vnútornosti
+3 N osocze {osocze} [ɔˈsɔtʂɛ], n, osocza = krvná plazma
+2 N białko {białko} [ˈbʲawkɔ], n, białka = bielkovina
+3 N nukleotyd {nukleotyd} [nuklɛˈɔtɨt], m, nukleotydy = nukleotid
+3 N czerwona krwinka {czerwona krwinka} [tʂɛrˈvɔna ˈkrfʲinka], ż, czerwone krwinki = červená krvinka
+3 N biała krwinka {biała krwinka} [ˈbʲawa ˈkrfʲinka], ż, białe krwinki = biela krvinka
+3 N neuron {neuron} [nɛˈurɔn], m, neurony = neurón
+3 N rybosom {rybosom} [rɨˈbɔsɔm], m, rybosomy = ribozóm
+3 N mitochondrium {mito|chondrium} [mʲitɔˈxɔndrjum], n, mitochondria = mitochondria
+3 N melanina {melanina} [mɛlaˈɲina], ż, melaniny = melanín
+3 N chromosom {chromosom} [xrɔˈmɔsɔm], m, chromosomy = chromozóm

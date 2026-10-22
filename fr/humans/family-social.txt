@@ -68,6 +68,12 @@
 2 N le petit-enfant {petit-enfant} [pətitɑ̃ˈfɑ̃], petits-enfants = vnúča
 2 N le beau-frère {beau-frère} [boˈfʁɛʁ], beaux-frères = švagor
 3 AV paternellement {paternelle|ment} [patɛʁnɛlˈmɑ̃] = otcovsky
+3 N l'arrière-grand-père (m) {arrière-grand-père} [aʁjɛʁgʁɑ̃ˈpɛʁ], arrière-grands-pères = pradedo
+3 N l'arrière-grand-mère (f) {arrière-grand-mère} [aʁjɛʁgʁɑ̃ˈmɛʁ], arrière-grands-mères = prababka
+2 N la belle-sœur {belle-sœur} [bɛlˈsœʁ], belles-sœurs = švagriná
+2 N les beaux-parents (m) {beaux-parents} [bopaˈʁɑ̃], PL = svokrovci
+2 N le demi-frère {demi-frère} [dəmiˈfʁɛʁ], demi-frères = nevlastný brat
+3 N le filleul {filleul} [fiˈjœl], filleuls = krstný syn
 
 # people-stages
 1 N la personne {personne} [pɛʁˈsɔn], personnes = osoba
@@ -113,6 +119,16 @@
 1 AV personnellement {personnelle|ment} [pɛʁsɔnɛlˈmɑ̃] = osobne
 2 AV humainement {humaine|ment} [ymɛnˈmɑ̃] = ľudsky
 3 AV inhumainement {inhumaine|ment} [inymɛnˈmɑ̃] = neľudsky
+2 N le Noir {Noir} [nwaʁ], Noirs = černoch
+3 N le costaud {costaud} [kɔsˈto], costauds = silák
+2 N le maladroit {mala|droit} [malaˈdʁwa], maladroits = nešika
+3 N le morveux {morveux} [mɔʁˈvø], morveux = sopliak
+2 N le scout {scout} [skut], scouts = skaut
+3 N l'insulaire (m) {insulaire} [ɛ̃syˈlɛʁ], insulaires = ostrovan
+2 N le solitaire {solitaire} [sɔliˈtɛʁ], solitaires = samotár
+3 AN sénile {sénile} [seˈnil] = starecký
+2 AN âgé {âgé} [aˈʒe], âgée = postarší
+3 N le bambin {bambin} [bɑ̃ˈbɛ̃], bambins = batoľa
 
 # marriage-social-bonds
 1 V se marier {se marier} [sə maˈʁje] = oženiť sa
@@ -175,6 +191,10 @@
 2 AV amicalement {amicale|ment} [amikalˈmɑ̃] = priateľsky
 3 AV romantiquement {romantique|ment} [ʁɔmɑ̃tikˈmɑ̃] = romanticky
 2 AV volontairement {volontaire|ment} [vɔlɔ̃tɛʁˈmɑ̃] = dobrovoľne
+3 N la demoiselle d'honneur {demoiselle d'honneur} [dəmwazɛl dɔˈnœʁ], demoiselles d'honneur = družička
+3 N la dot {dot} [dɔt], dots = veno
+3 N la rupture de fiançailles {rupture de fiançailles} [ʁypˈtyʁ də fjɑ̃ˈsaj], ruptures de fiançailles = zrušenie zásnub
+3 N l'adultère (m) {adultère} [adylˈtɛʁ], adultères = cudzoložstvo
 
 # social-interaction
 1 V rencontrer {rencontrer} [ʁɑ̃kɔ̃ˈtʁe] = stretnúť
@@ -341,9 +361,65 @@
 1 V être fidèle {être fidèle} [ɛtʁ fiˈdɛl], irr, été (à) = byť verný
 2 V se disputer {se disputer} [sə dispyˈte] = pohádať sa
 2 V se brouiller {se brouiller} [sə bʁuˈje] = pohádať sa
+3 N le faux pas {faux pas} [fo pa], faux pas = faux pas
+3 AN uni {uni} [yˈni], unie = svorný
+3 V faire des courbettes {faire des courbettes} [fɛʁ de kuʁˈbɛt], irr, fait (à) = obskakovať
+2 N la séduction {séduction} [sedykˈsjɔ̃], séductions = zvádzanie
+2 N la popularité {popularité} [pɔpylaʁiˈte], - = popularita
+3 N la cohue {cohue} [kɔˈy], cohues = tlačenica
+2 N le cercle {cercle} [sɛʁkl], cercles = okruh
+3 V dépanner {dé|panner} [depaˈne] (qn) = vypomôcť
+2 V aider {aider} [eˈde] (qn, à) = dopomôcť
+3 N la gâterie {gâterie} [gɑtˈʁi], gâteries = rozmaznanie
+2 N le harcèlement {harcèlement} [aʁsɛlˈmɑ̃], harcèlements = obťažovanie
+2 V gronder {gronder} [gʁɔ̃ˈde] (qn) = karhať
+3 V réprimander {réprimander} [ʁepʁimɑ̃ˈde] (qn) = karhať
+3 V se câliner {se câliner} [sə kɑliˈne] = maznať sa
+2 V se rassembler {se rassembler} [sə ʁasɑ̃ˈble] = zhromaždiť sa
+3 N le sbire {sbire} [sbiʁ], sbires = prisluhovač
+1 INT salut {salut} [saˈly] = ahoj
+3 N le vaurien {vaurien} [voʁˈjɛ̃], vauriens = naničhodník
+3 N le scélérat {scélérat} [seleˈʁa], scélérats = lotor
+3 N la canaille {canaille} [kaˈnaj], canailles = lotor
+3 N le garnement {garnement} [gaʁnəˈmɑ̃], garnements = fagan
+3 N le chenapan {chenapan} [ʃənaˈpɑ̃], chenapans = fagan
+3 N le rustre {rustre} [ʁystʁ], rustres = hulvát
+3 N le goujat {goujat} [guˈʒa], goujats = hulvát
+2 N l'ignorant (m) {ignorant} [iɲɔˈʁɑ̃], ignorants = ignorant
+3 N le béotien {béotien} [beɔˈsjɛ̃], béotiens = ignorant
+3 N le pantin {pantin} [pɑ̃ˈtɛ̃], pantins = pajác
+3 N le guignol {guignol} [giɲɔl], guignols = pajác
+2 N le camarade {camarade} [kamaˈʁad], camarades = súdruh
+3 N le fat {fat} [fa], fats = fičúr
+3 N la racaille {racaille} [ʁaˈkaj], racailles = zberba
+3 N la populace {populace} [pɔpyˈlas], populaces = zberba
+2 N l'hypocrite (m) {hypocrite} [ipɔˈkʁit], hypocrites = pokrytec
+3 N le rapace {rapace} [ʁaˈpas], rapaces = chamtivec
+2 N le voyou {voyou} [vwaˈju], voyous = chuligán
+3 N le hooligan {hooligan} [uliˈgɑ̃], hooligans = chuligán
+3 N le bûcheur {bûcheur} [byˈʃœʁ], bûcheurs = bifľoš
+3 N le fayot {fayot} [faˈjo], fayots = bifľoš
+3 N le rapporteur {rapporteur} [ʁapɔʁˈtœʁ], rapporteurs = žalobaba
+3 N le mouchard {mouchard} [muˈʃaʁ], mouchards = žalobaba
+3 N le fouineur {fouineur} [fwiˈnœʁ], fouineurs = sliedič
+3 N la nana {nana} [naˈna], nanas = kočka
+2 N la prostituée {prostituée} [pʁɔstiˈtɥe], prostituées = prostitútka
+3 N la salope {salope} [saˈlɔp], salopes = cundra
+3 N l'effrontée (f) {effrontée} [efʁɔ̃ˈte], effrontées = drzaňa
+3 N la cruche {cruche} [kʁyʃ], cruches = hlupana
+3 N la dinde {dinde} [dɛ̃d], dindes = hlupana
+3 N le casse-pieds {casse-pieds} [kasˈpje], casse-pieds = dotieravec
+3 N l'importun (m) {importun} [ɛ̃pɔʁˈtœ̃], importuns = dotieravec
+3 N la garce {garce} [gaʁs], garces = mrcha
+3 N la file indienne {file indienne} [fil ɛ̃ˈdjɛn], files indiennes = husí pochod
+3 N le lèche-bottes {lèche-bottes} [lɛʃˈbɔt], lèche-bottes = pätolízač
+3 N le salaud {salaud} [saˈlo], salauds = hajzel
+3 N le délateur {délateur} [delaˈtœʁ], délateurs = udavač
+2 N l'hommage (m) {hommage} [ɔˈmaʒ], hommages = pocta
 
 # contact
 2 V se blottir {se blottir} [sə blɔˈtiʁ] (contre) = túliť sa
+2 N la caresse {caresse} [kaˈʁɛs], caresses = pohladenie
 
 # more
 1 V compter {compter} [kɔ̃ˈte] (sur) = spoliehať sa

@@ -47,6 +47,16 @@
 2 N lo scoglio {scoglio} [ˈskoʎːo], scogli = útes (morský)
 3 N il fiordo {fiordo} [ˈfjɔrdo], fiordi = fjord
 3 N il geyser {geyser} [ˈɡɛjzer], geyser = gejzír
+2 AN corrente {corrente} [koˈrːɛnte] = tečúci
+3 V defluire {defluire} [defluˈiːre], isc, essere = odtekať
+2 V scolare {scolare} [skoˈlaːre] = odtekať
+3 V affluire {affluire} [afːluˈiːre], isc, essere (in) = vtekať
+3 V sfociare {sfociare} [sfoˈtʃaːre], essere (in) = vtekať
+3 V traboccare {traboccare} [traboˈkːaːre] = pretiecť
+3 V tracimare {tracimare} [tratʃiˈmaːre] = pretiecť
+3 V straripare {straripare} [strariˈpaːre] = pretiecť
+3 V spandersi {spandersi} [ˈspandersi], irr = roztiecť sa
+2 V spargersi {spargersi} [ˈsparɡersi], irr, sparso = roztiecť sa
 
 # water-features
 1 N l'onda (f) {onda} [ˈonda], onde = vlna
@@ -108,6 +118,10 @@
 3 N il depuratore {depuratore} [depuraˈtoːre], depuratori = čistiareň odpadových vôd
 3 N l'impianto di depurazione (m) {impianto di depurazione} [imˈpjanto di depuraˈttsjoːne], impianti di depurazione = čistiareň odpadových vôd
 3 V sciabordare {sciabordare} [ʃaborˈdaːre] = špliechať
+2 N l'immersione (f) {immersione} [imːerˈsjoːne], immersioni = ponorenie
+2 N il tuffo {tuffo} [ˈtufːo], tuffi = ponorenie
+3 N il meandro {meandro} [meˈandro], meandri = meander
+3 N il guado {guado} [ˈɡwaːdo], guadi = brod
 
 # water-land-edge
 2 N la riva {riva} [ˈriːva], rive = breh
@@ -122,3 +136,6 @@
 3 N il promontorio {promontorio} [promonˈtɔːrjo], promontori = mys
 1 N la piscina {piscina} [piˈʃːiːna], piscine = bazén
 1 N il gelato {gelato} [dʒeˈlaːto], gelati = zmrzlina
+3 N l'arcipelago (m) {arcipelago} [artʃiˈpɛːlaɡo], arcipelaghi = súostrovie
+3 N la lingua di terra {lingua di terra} [ˈliŋɡwa di ˈtɛrːa], lingue di terra = pobrežná kosa
+3 N il cordone litoraneo {cordone litoraneo} [korˈdoːne litoˈraːneo], cordoni litoranei = pobrežná kosa

@@ -75,6 +75,26 @@
 3 N der Cluster {Cluster} [ˈklastɐ], Cluster = zhluk, klaster
 2 N die Figur {Figur} [fiˈɡuːɐ], Figuren = postava, figúra
 2 N der Strich {Strich} [ʃtʁɪç], Striche = čiara, čiarka
+3 N der Zipfel {Zipfel} [ˈtsɪpfəl], Zipfel = cíp
+3 N das Trapez {Trapez} [tʁaˈpeːts], Trapeze = lichobežník
+3 N der Rhombus {Rhombus} [ˈʁɔmbʊs], Rhomben = kosoštvorec
+3 N die Raute {Raute} [ˈʁaʊtə], Rauten = kosoštvorec
+3 N die Ellipse {Ellipse} [ɛˈlɪpsə], Ellipsen = elipsa
+3 N der Quader {Quader} [ˈkvaːdɐ], Quader = kváder
+3 N die Pyramide {Pyramide} [pyʁaˈmiːdə], Pyramiden = ihlan
+3 N die Öse {Öse} [ˈøːzə], Ösen = pútko
+3 N das Rhomboid {Rhomboid} [ʁɔmboˈiːt], Rhomboide = kosodĺžnik
+3 V sich wölben {sich wölben} [zɪç ˈvœlbən], hat = klenúť sa
+3 AN gestreckt {ge|streckt} [ɡəˈʃtʁɛkt] = natiahnutý
+3 N der Umkreis {Um|kreis} [ˈʊmkʁaɪs], Umkreise = opísaná kružnica
+3 N der Inkreis {In|kreis} [ˈɪnkʁaɪs], Inkreise = vpísaná kružnica
+2 N der Ring {Ring} [ʁɪŋ], Ringe = krúžok
+3 N die Einkerbung {Ein|kerbung} [ˈaɪnkɛʁbʊŋ], Einkerbungen = zárez
+3 V aufbiegen {auf·biegen} [ˈaʊfbiːɡən], biegt auf/bog auf/aufgebogen, hat (A) = ohnúť
+3 V umbiegen {um·biegen} [ˈʊmbiːɡən], biegt um/bog um/umgebogen, hat (A) = ohnúť
+3 N die Schlinge {Schlinge} [ˈʃlɪŋə], Schlingen = slučka
+3 N die Zarge {Zarge} [ˈtsaʁɡə], Zargen = rám
+3 N das Gewinde {Ge|winde} [ɡəˈvɪndə], Gewinde = závit
 
 # form-properties
 1 AN rund {rund} [ʁʊnt] = okrúhly, okolo
@@ -152,3 +172,9 @@
 3 N die Stumpfheit {Stumpf|heit} [ˈʃtʊmpfhaɪt], - = tuposť
 3 N die Asymmetrie {A|symmetrie} [azʏmeˈtʁiː], Asymmetrien = asymetria
 2 N die Kurve {Kurve} [ˈkʊʁvə], Kurven = krivka
+3 AN hauteng {haut|eng} [ˈhaʊtɛŋ] = priliehavý
+3 N die Ausdehnung {Aus|dehnung} [ˈaʊsdeːnʊŋ], Ausdehnungen = rozloha
+3 V knicken {knicken} [ˈknɪkən], hat (A) = prehnúť
+3 N der Knick {Knick} [knɪk], Knicke = záhyb
+3 N das Gefüge {Ge|füge} [ɡəˈfyːɡə], Gefüge = štruktúra
+3 N der Wulst {Wulst} [vʊlst], Wülste = hrča

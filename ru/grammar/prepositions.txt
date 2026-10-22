@@ -57,6 +57,8 @@
 1 PRE во время {во время} [vɐ ˈvrʲemʲə] (Р) = v priebehu
 2 PRE включая {включая} [fklʲuˈtɕajə] (В) = vrátane
 2 PRE по поводу {по поводу} [pɐ ˈpovədu] (Р) = pokiaľ ide o
+3 PRE из числа {из числа} [ɪs tɕɪˈsla] (Р) = spomedzi
+3 PRE с оговоркой {с оговоркой} [s ɐɡɐˈvorkəj] = s výhradou
 
 # two-way
 1 PRE на {на} [na] (П) = na (v kontakte)

@@ -139,6 +139,7 @@
 3 AV unilaterally {unilateral|ly} [ˌjuːnɪˈlætərəli] = jednostranne
 2 N fullness {full|ness} [ˈfʊlnəs], - = plnosť
 2 AV from inside {from inside} [frəm ˌɪnˈsaɪd] = zvnútra
+2 V fit {fit} [fɪt] = zmestiť sa
 # direction-distance
 1 N direction {direction} [dəˈrekʃən], directions = smer
 2 V direct {direct} [dəˈrekt] (sth, at, towards) = nasmerovať
@@ -426,8 +427,19 @@
 3 V tail {tail} [teɪl] (sb) = sledovať
 2 N departure {departure} [dɪˈpɑːtʃə], departures = odchod
 2 V decrease {de|crease} [dɪˈkriːs] = ubudnúť
+3 V flit {flit} [flɪt] = mihať sa
+3 V dart {dart} [dɑːt] = mihať sa
+2 V bounce {bounce} [baʊns] (off) = odraziť sa
+3 V rebound {re|bound} [rɪˈbaʊnd] (off) = odraziť sa
+3 V sag {sag} [sæɡ] = prehýbať sa
+3 V bend {bend} [bend], bent/bent = prehýbať sa
+2 V tilt {tilt} [tɪlt] = nakloniť
+3 V bring along {bring·along} [brɪŋ əˈlɒŋ], brought along/brought along = zaniesť
+3 V cart off {cart·off} [kɑːt ˈɒf] = zaniesť
 # travel
 1 V arrive {arrive} [əˈraɪv] = pricestovať
+3 V come along {come·along} [kʌm əˈlɒŋ], came along/come along = prísť spolu
+3 V keep up {keep·up} [kiːp ˈʌp], kept up/kept up = prísť spolu
 # position
 2 AN passable {passable} [ˈpɑːsəbəl] = priechodný
 2 V move house {move house} [muːv ˈhaʊs] = presťahovať sa

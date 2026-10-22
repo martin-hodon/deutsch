@@ -116,6 +116,26 @@
 3 AN evangélico {evangélico} [eβanˈxeliko], evangélica = evanjelický
 3 AN ecuménico {ecuménico} [ekuˈmeniko], ecuménica = ekumenický
 2 N la mortalidad {mortalidad} [moɾtaliˈðað], - = smrteľnosť
+2 V condenar {condenar} [kondeˈnaɾ] = zatratiť
+3 N la condenación {condenación} [kondenaˈθjon], condenaciones = zatratenie
+3 N la parroquia {parroquia} [paˈrokja], parroquias = farnosť
+3 N la adoración {adoración} [aðoɾaˈθjon], adoraciones = uctievanie
+3 N la piedad {piedad} [pjeˈðað], - = nábožnosť
+3 N el purgatorio {purgatorio} [puɾɣaˈtoɾjo], purgatorios = očistec
+3 N el hereje {hereje} [eˈɾexe], herejes = kacír
+3 N la penitencia {penitencia} [peniˈtenθja], penitencias = pokánie
+3 V confesarse {confesarse} [komfeˈsaɾse], e>ie = spovedať sa
+3 N el apóstol {apóstol} [aˈpostol], apóstoles = apoštol
+3 N la providencia {providencia} [pɾoβiˈðenθja], providencias = prozreteľnosť
+3 N la Parca {Parca} [ˈpaɾka], Parcas = smrtka
+3 V resucitar {resucitar} [resuθiˈtaɾ] = vstať z mŕtvych
+2 N los cielos {cielos} [ˈθjelos], PL = nebesá
+3 N el hinduismo {hindu|ismo} [induˈismo], - = hinduizmus
+3 N el ayuno {ayuno} [aˈʝuno], ayunos = pôst
+3 N la peregrinación {peregrinación} [peɾeɣɾinaˈθjon], peregrinaciones = púť
+3 N la comunión {comunión} [komuˈnjon], comuniones = sväté prijímanie
+3 N la absolución {absolución} [aβsoluˈθjon], absoluciones = rozhrešenie
+2 N el fraile {fraile} [ˈfɾajle], frailes = mních
 
 # magic-fate
 2 N la magia {magia} [ˈmaxja], - = mágia
@@ -167,6 +187,25 @@
 3 V conjurar {conjurar} [konxuˈɾaɾ] = zaklínať
 3 V invocar {invocar} [imboˈkaɾ] = zaklínať
 2 AV encantadoramente {encantadoramente} [eŋkantaðoɾaˈmente] = očarujúco
+3 V vaticinar {vaticinar} [batiθiˈnaɾ] = veštiť
+2 N el hombre lobo {hombre lobo} [ˈombɾe ˈloβo], hombres lobo = vlkolak
+2 N el hechizo {hechizo} [eˈtʃiθo], hechizos = zakliatie
+3 N el conjurador {conjurador} [koŋxuɾaˈðoɾ], conjuradores = zaklínač
+3 AN legendario {legendario} [lexenˈdaɾjo], legendaria = bájny
+2 AN sobrenatural {sobre|natural} [soβɾenatuˈɾal] = nadprirodzený
+3 N el elixir {elixir} [eliˈksiɾ], elixires = elixír
+3 N el zodiaco {zodiaco} [θoˈðjako], zodiacos = zverokruh
+3 N Acuario (m) {Acuario} [aˈkwaɾjo], - = vodnár
+3 N Géminis (m) {Géminis} [ˈxeminis], - = blíženci
+3 N Virgo (m) {Virgo} [ˈbiɾɣo], - = panna
+3 V hechizar {hechizar} [etʃiˈθaɾ] = začarovať
+2 AN maldito {maldito} [malˈdito], maldita = prekliaty
+3 N la ninfa {ninfa} [ˈnimfa], ninfas = nymfa
+3 N la hidra {hidra} [ˈiðɾa], hidras = hydra
+3 N el centauro {centauro} [θenˈtauɾo], centauros = kentaur
+3 N la quimera {quimera} [kiˈmeɾa], quimeras = chiméra
+3 N el agüero {agüero} [aˈɣweɾo], agüeros = predzvesť
+3 N el presagio {presagio} [pɾeˈsaxjo], presagios = predzvesť
 
 # customs-celebrations
 2 N la costumbre {costumbre} [kosˈtumbɾe], costumbres = zvyk
@@ -241,3 +280,4 @@
 
 # customs
 3 V consagrar {consagrar} [konsaˈɣɾaɾ] = vysvätiť
+2 N la corona {corona} [koˈɾona], coronas = veniec

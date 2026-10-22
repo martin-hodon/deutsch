@@ -92,6 +92,7 @@
 3 AV zwycięsko {zwycięsko} [zvɨˈtɕɛ̃skɔ] = víťazne
 3 AV bohatersko {bohatersko} [bɔxaˈtɛrskɔ] = hrdinsky
 3 N deeskalacja {deeskalacja} [dɛɛskaˈlatsja], ż, - = deeskalácia
+2 V podbijać {pod|bijać} [pɔdˈbʲijatɕ], podbić (B) = podmaniť si
 
 # army
 1 N armia {armia} [ˈarmʲa], ż, armie = armáda
@@ -148,6 +149,11 @@
 3 V flankować {flankować} [flaŋˈkɔvatɕ], - = lemovať
 2 V zaskakiwać {zaskakiwać} [zaskaˈkivatɕ], zaskoczyć = zaskočiť
 3 V katapultować {katapultować} [katapulˈtɔvatɕ], - = katapultovať
+3 N krzyżowiec {krzyżowiec} [ɡʐɨˈʐɔvʲɛts], m, krzyżowcy = križiak
+3 N podporucznik {pod|porucznik} [pɔtpɔˈrutʂɲik], m, podporucznicy = podporučík
+3 N eskadra {eskadra} [ɛsˈkadra], ż, eskadry = letka (útvar)
+2 N obrońca {ob|rońca} [ɔˈbrɔɲtsa], m, obrońcy = ochranca
+3 N giermek {giermek} [ˈɡʲɛrmɛk], m, giermkowie = panoš
 
 # weapons-fortification
 1 N broń {broń} [brɔɲ], ż, bronie = zbraň
@@ -209,6 +215,31 @@
 3 V zbroić się {zbroić się} [ˈzbrɔitɕ ɕɛ], uzbroić się = zbrojiť
 3 AN nieuzbrojony {nie|uzbrojony} [ɲɛuzbrɔˈjɔnɨ] = neozbrojený
 2 AN bezbronny {bez|bronny} [bɛzˈbrɔnnɨ] = neozbrojený
+2 N pocisk {pocisk} [ˈpɔtɕisk], m, pociski = guľka (strela)
+2 N kula {kula} [ˈkula], ż, kule = guľka (strela)
+3 N lufa {lufa} [ˈlufa], ż, lufy = hlaveň
+3 N blanki {blanki} [ˈblaŋki], lm, blanki = cimbúrie
+3 N kopia {kopia} [ˈkɔpʲa], ż, kopie = kopija
+3 N kord {kord} [kɔrt], m, kordy = kord
+3 N szpada {szpada} [ˈʂpada], ż, szpady = kord
+3 N maczuga {maczuga} [maˈtʂuɡa], ż, maczugi = kyjak
+3 N kołczan {kołczan} [ˈkɔwtʂan], m, kołczany = tulec
+3 N kusza {kusza} [ˈkuʂa], ż, kusze = kuša
+3 N halabarda {halabarda} [xalaˈbarda], ż, halabardy = halapartňa
+3 N taran {taran} [ˈtaran], m, tarany = baranidlo
+2 N uzbrojenie {uz|brojenie} [uzbrɔˈjɛɲɛ], n, uzbrojenia = výzbroj
+3 V opancerzać {o|pancerzać} [ɔpanˈtsɛʐatɕ], opancerzyć (B) = obrniť
+3 N pistolet maszynowy {pistolet maszynowy} [pʲisˈtɔlɛt maʂɨˈnɔvɨ], m, pistolety maszynowe = samopal
+2 N karabin maszynowy {karabin maszynowy} [kaˈrabʲin maʂɨˈnɔvɨ], m, karabiny maszynowe = guľomet
+3 N miotacz ognia {miotacz ognia} [ˈmʲɔtatʂ ˈɔɡɲa], m, miotacze ognia = plameňomet
+3 N wyrzutnia rakiet {wyrzutnia rakiet} [vɨˈʐutɲa ˈrakʲɛt], ż, wyrzutnie rakiet = raketomet
+3 N haubica {haubica} [xauˈbʲitsa], ż, haubice = húfnica
+3 N wiatrówka {wiatrówka} [vʲaˈtrufka], ż, wiatrówki = vzduchovka
+3 N pochwa {pochwa} [ˈpɔxva], ż, pochwy = pošva (na zbraň)
+2 N strzelba {strzelba} [ˈzdʐɛlba], ż, strzelby = brokovnica
+3 N myśliwiec {myśliwiec} [mɨɕˈlivʲɛts], m, myśliwce = stíhačka
+3 N nabój {nabój} [ˈnabuj], m, naboje = náboj (do zbrane)
+2 N kask {kask} [kask], m, kaski = prilba
 
 # war
 3 V plądrować {plądrować} [plɔnˈdrɔvatɕ], splądrować = plieniť
@@ -217,3 +248,14 @@
 2 N magazyn {magazyn} [maˈɡazɨn], m, magazyny = sklad
 2 N skład {skład} [skwat], m, składy = sklad
 3 N grafit {grafit} [ˈɡrafʲit], m, grafity = tuha
+3 N jeniec {jeniec} [ˈjɛɲɛts], m, jeńcy = zajatec
+3 V wystrzeliwać {wy|strzeliwać} [vɨzdʐɛˈlivatɕ], wystrzelać (B) = vystrieľať
+3 V postrzeliwać {po|strzeliwać} [pɔzdʐɛˈlivatɕ], postrzelić (B) = postreliť
+3 N potyczka {potyczka} [pɔˈtɨtʂka], ż, potyczki = šarvátka
+3 N rzeź {rzeź} [ʐɛɕ], ż, rzezie = krviprelievanie
+3 N rozlew krwi {rozlew krwi} [ˈrɔzlɛf krvʲi], m, rozlewy krwi = krviprelievanie
+2 N bunt {bunt} [bunt], m, bunty = vzbura
+2 N przewaga {prze|waga} [bʐɛˈvaɡa], ż, przewagi = prevaha
+3 N okrążenie {o|krążenie} [ɔkrɔ̃ˈʐɛɲɛ], n, okrążenia = obkľúčenie
+3 V abordować {abordować} [abɔrˈdɔvatɕ], - = abordovať
+3 N intruz {intruz} [ˈintrus], m, intruzi = votrelec

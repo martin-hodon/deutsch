@@ -37,6 +37,18 @@ N koláčik
 N kola
 N slnečnicový olej
 N bylinky
+N jedlá sóda
+N kysnuté cesto
+N plnka
+N bravčová masť -- vyškvarený bravčový tuk, sadlo
+N suchár
+N loj -- živočíšny tuk
+N olovrant -- menšie jedlo popoludní
+N zvyšky jedla
+N rôsol -- huspenina z mäsa
+N mliekáreň -- podnik na spracovanie mlieka
+N dresing -- zálievka na šalát
+N sústo
 
 # staples
 N chlieb
@@ -116,6 +128,18 @@ N pohánka
 N šošovica
 N tofu
 N taco
+N pesto
+N rožok
+N bochník
+N vianočka -- pletené sladké pečivo
+N obložený chlieb
+N šúľance
+N kolienka -- cestoviny v tvare ohnutej rúrky
+N halušky
+N pretlak -- pretlačené ovocie alebo zelenina
+N pyré
+N rezance
+N gnocchi -- talianske zemiakové halušky
 
 # meat-fish-food
 N hovädzie mäso
@@ -143,6 +167,12 @@ N fašírka
 N kebab
 N döner kebab
 N suši
+N jaternica
+N údené mäso
+N držky
+N solené mäso
+N rybí tuk
+N tlačenka
 
 # fruits
 N ovocie
@@ -188,6 +218,15 @@ N datľa
 N hrozienko
 N limetka
 N grapefruit
+N mandarínka
+N kaki
+N višňa
+N moruša
+N pistácia
+N pekanový orech
+N kešu orech
+N para orech
+N mandľa -- jadro mandľovníka
 
 # vegetables
 N zelenina
@@ -228,6 +267,15 @@ N cuketa
 N pór (zelenina)
 N špargľa
 N šampiňón
+N rebarbora
+N artičok
+N kučeravá kapusta -- kel s kučeravými listami
+N kaleráb
+N medvedí cesnak
+N strukovina
+N cícer
+N chren
+N pažítka
 
 # sweets-drinks
 N koláč
@@ -278,6 +326,17 @@ N praclík
 N čipsy
 N karamel
 N želé
+N prípitok
+N žbrnda -- zlý alebo zmiešaný nápoj
+N medovina
+N liehovina
+N kompót
+N cukráreň
+N bábovka
+N trdelník -- točené sladké pečivo
+N lízanka
+N pendrek (sladkosť) -- lakrica
+N venček -- kruhové pečivo
 
 # cooking
 V variť
@@ -329,6 +388,22 @@ N ingrediencia
 V stolovať
 V skonzumovať
 V garnírovať
+V zraziť sa (mlieko)
+N nálev -- tekutina na nakladanie alebo lúhovanie
+V zapiecť -- upiecť do zlatista v rúre
+V pripáliť -- nechať jedlo trochu zhorieť
+V roztopiť -- premeniť na tekutinu teplom, napr. maslo
+V odšťaviť -- vytlačiť šťavu
+V kvasiť -- podliehať kvaseniu
+V cediť -- oddeliť tekutinu od pevnej časti
+V presoliť -- dať do jedla priveľa soli
+N kvasenie -- proces, pri ktorom sa kvasí
+V zasýtiť -- nasýtiť do sýtosti
+V strúhať
+V vyvrhnúť -- vybrať vnútornosti zvieraťu
+V odliať -- vyliať časť tekutiny
+V vyliať
+V doliať -- pridať tekutinu
 
 # kitchen-tools
 N nôž
@@ -382,6 +457,18 @@ N varecha
 N kuchynský nôž
 N menu
 N pohostinstvo
+N luskáčik -- nástroj na rozlúskanie orechov
+N kelímok -- malá nádobka
+N čaša -- vysoký pohár na nohe
+N kastról -- hlboký hrniec s rúčkou
+N škrabka -- na lúpanie zeleniny
+N valček na cesto -- na rozvaľkanie cesta
+N odmerka -- nádobka na meranie objemu
+N doska na krájanie -- podložka na krájanie jedla
+N zberačka -- cedidlová naberačka na penu
+N ražeň -- tyč na pečenie mäsa
+N odšťavovač -- prístroj na šťavu
+N kanvica -- nádoba s uchom a hubicou na nápoje
 
 # taste-quality
 N chuť (na jazyku)
@@ -405,3 +492,6 @@ AN mastný
 AN krémový
 N dóza
 V polievať
+AN predvarený -- čiastočne uvarený vopred
+AN expirovaný -- po dátume spotreby
+AN trpký

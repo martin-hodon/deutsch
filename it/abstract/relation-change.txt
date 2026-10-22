@@ -394,6 +394,16 @@
 2 N la diminuzione {diminuzione} [diminuˈtsjoːne], diminuzioni = úbytok
 2 N il calo {calo} [ˈkaːlo], cali = úbytok
 2 V ingrandirsi {ingrandirsi} [inɡranˈdirsi], isc = zväčšiť sa
+3 V coronare {coronare} [koroˈnaːre] = zavŕšiť
+2 V alternarsi {alternarsi} [alterˈnarsi] = striedať sa
+2 V crepare {crepare} [kreˈpaːre], essere = prasknúť
+3 V incrinarsi {incrinarsi} [inkriˈnarsi] = prasknúť
+2 N la perdita (f) {perdita} [ˈpɛrdita], perdite = únik
+3 N la falla (f) {falla} [ˈfalːa], falle = únik
+3 V incepparsi {incepparsi} [intʃeˈpːarsi] = viaznuť
+3 V insinuarsi {insinuarsi} [insinuˈarsi] = vkradnúť sa
+2 N il colpo di fortuna {colpo di fortuna} [ˈkolpo di forˈtuːna], colpi di fortuna = šťastná náhoda
+2 V trasformarsi {trasformarsi} [trasforˈmarsi] (in) = zmeniť sa
 
 # relations
 1 AN uguale {uguale} [uˈɡwaːle] = rovnaký
@@ -403,6 +413,8 @@
 2 AN indifferente {indifferente} [indifːeˈrɛnte] = ľahostajný
 2 V assomigliare {assomigliare} [asːomiˈʎːaːre] (a) = podobať sa
 2 V somigliare {somigliare} [somiˈʎːaːre] (a) = podobať sa
+2 V differire {differire} [difːeˈriːre], isc (da) = líšiť sa
+2 V distinguersi {distinguersi} [disˈtiŋɡwersi] (da) = líšiť sa
 1 AN diverso {diverso} [diˈvɛrso], diversa = nerovnaký
 3 AN disuguale {disuguale} [dizuˈɡwaːle] = nerovnaký
 2 V compensare {compensare} [kompenˈsaːre] = vyrovnať
@@ -727,6 +739,9 @@
 2 N il disinteresse {dis|interesse} [dizinteˈrɛsːe], - = nezáujem
 2 N l'indifferenza (f) {in|differenza} [indifːeˈrɛntsa], - = nezáujem
 2 V moltiplicare {moltiplicare} [moltipliˈkaːre] (per) = násobiť
+2 AN compreso {compreso} [komˈpreːzo], compresa = zahrnutý
+2 AN incluso {incluso} [inˈkluːzo], inclusa = zahrnutý
+3 N il pezzo forte {pezzo forte} [ˈpɛttso ˈfɔrte], pezzi forti = zlatý klinec
 
 # transfer-basic-verbs
 1 V dare {dare} [ˈdaːre], irr = dať
@@ -868,6 +883,8 @@
 1 V stare {stare} [ˈstaːre], irr, essere = nachádzať sa
 2 AN ritrovato {ri|trovato} [ritroˈvaːto], ritrovata = nájdený
 2 AN in perdita {in perdita} [in ˈpɛrdita] = stratový
+2 N il ritiro {ritiro} [riˈtiːro], ritiri = odobratie
+3 N la privazione (f) {privazione} [privaˈtsjoːne], privazioni = odobratie
 
 # action-and-use
 1 N l'azione (f) {azione} [atˈtsjoːne], azioni = akcia (činnosť)
@@ -1407,6 +1424,8 @@
 2 V scartare {scartare} [skarˈtaːre] = rozbaliť
 3 V spacchettare {spacchettare} [spakːeˈtːaːre] = rozbaliť
 1 V allontanarsi {allontanarsi} [alːontaˈnarsi] (da) = vzdialiť sa
+2 V procedere {procedere} [proˈtʃɛːdere], essere = postupovať
+3 V scongiurare {scongiurare} [skondʒuˈraːre] = odvrátiť
 
 # change
 2 V manifestare {manifestare} [manifesˈtaːre] = prejaviť
@@ -1438,6 +1457,20 @@
 2 V fasciare {fasciare} [faˈʃːaːre] = obviazať
 2 V bendare {bendare} [benˈdaːre] = obviazať
 3 V ammorbidirsi {ammorbidirsi} [amːorbiˈdirsi], isc = zmäknúť
+2 N la modifica (f) {modifica} [moˈdiːfika], modifiche = pozmenenie
+2 N la creazione (f) {creazione} [kreaˈtsjoːne], creazioni = stvorenie
+3 V disgregarsi {disgregarsi} [dizɡreˈɡarsi] = rozpadať sa
+3 V disintegrarsi {disintegrarsi} [dizinteˈɡrarsi] = rozpadať sa
+1 V rompere {rompere} [ˈrompere], irr, rotto = zlomiť
+2 V strappare {strappare} [straˈpːaːre] = natrhnúť
+3 V spiegazzare {spiegazzare} [spjeɡatˈtsaːre] = krčiť
+3 V sgualcire {sgualcire} [zɡwalˈtʃiːre], isc = krčiť
+3 V slacciare {slacciare} [zlatˈtʃaːre] = odopnúť
+3 V allacciare {allacciare} [alːatˈtʃaːre] = pripútať
+3 N la scomposizione (f) {scomposizione} [skompoziˈtsjoːne], scomposizioni = rozklad
+3 V deturpare {deturpare} [deturˈpaːre] = zohyzdiť
+3 V sfigurare {sfigurare} [sfiɡuˈraːre] = zohyzdiť
+3 AN stagnante {stagnante} [staˈɲːante] = stagnujúci
 
 # more
 1 AN altro {altro} [ˈaltro], altra = ďalší

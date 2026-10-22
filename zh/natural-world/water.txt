@@ -43,6 +43,16 @@
 2 N 纯净水 {纯净水} [chúnjìngshuǐ], - = pitná voda
 2 N 池子 {池子} [chízi], 个 = rybník
 2 N 水灾 {水灾} [shuǐzāi], 场 = povodeň
+2 AN 流动 {流动} [liúdòng] = tečúci
+2 V 流走 {流走} [liúzǒu] = odtekať
+3 V 流入 {流入} [liúrù] = vtekať
+3 V 溢出 {溢出} [yìchū] = pretiecť
+3 V 漫开 {漫开} [mànkāi] = roztiecť sa
+3 N 溪 {溪} [xī], 条 = potok
+3 N 河川 {河川} [héchuān], 条 = rieka
+2 N 江 {江} [jiāng], 条 = rieka
+3 N 洋 {洋} [yáng], 个 = oceán
+3 N 汪洋 {汪洋} [wāngyáng], 片 = oceán
 
 # water-features
 2 N 波浪 {波浪} [bōlàng], 个 = vlna
@@ -78,10 +88,12 @@
 3 N 薄雾 {薄雾} [bówù], 层 = opar
 3 N 凝结 {凝结} [níngjié], - = kondenzácia
 3 V 凝结 {凝结} [níngjié] = kondenzovať
+3 V 凝聚 {凝聚} [níngjù] = kondenzovať
 3 N 盐水 {盐水} [yánshuǐ], - = soľanka
 2 N 骨盆 {骨盆} [gǔpén], 个 = panva
 3 V 涌出 {涌出} [yǒngchū] = vyvierať
 3 V 浸泡 {浸泡} [jìnpào] = namočiť
+2 V 泡 {泡} [pào] = namočiť
 3 V 湿透 {湿透} [shītòu] = premočiť
 3 N 船闸 {船闸} [chuánzhá], 座 = plavebná komora
 2 N 水坝 {水坝} [shuǐbà], 座 = hrádza
@@ -92,9 +104,15 @@
 2 N 流动 {流动} [liúdòng], - = prúdenie
 2 N 泡 {泡} [pào], 个 = bublina
 3 V 渗 {渗} [shèn] = presakovať
+2 V 漏 {漏} [lòu] = presakovať
 3 V 淹 {淹} [yān] = zaplaviť
 2 N 冰雪 {冰雪} [bīngxuě], - = ľad
 2 N 海浪 {海浪} [hǎilàng], 个 = morské vlnenie
+3 N 浸没 {浸没} [jìnmò], - = ponorenie
+3 N 曲流 {曲流} [qūliú], 个 = meander
+3 N 浅滩 {浅滩} [qiǎntān], 处 = brod
+3 V 喷射 {喷射} [pēnshè] = striekať
+3 V 泛滥 {泛滥} [fànlàn] = zaplaviť
 
 # water-land-edge
 2 N 岸 {岸} [àn], 条 = breh
@@ -109,3 +127,5 @@
 1 N 海边 {海边} [hǎibiān], - = pobrežie
 2 N 池子 {池子} [chízi], 个 = bazén
 2 N 两岸 {两岸} [liǎng'àn], - = breh
+2 N 群岛 {群岛} [qúndǎo], 个 = súostrovie
+3 N 沙嘴 {沙嘴} [shāzuǐ], 个 = pobrežná kosa

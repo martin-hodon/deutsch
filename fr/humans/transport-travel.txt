@@ -63,6 +63,17 @@
 3 N le véhicule à moteur {véhicule à moteur} [veiˈkyl a mɔˈtœʁ], véhicules à moteur = motorové vozidlo
 3 N le pneu d'hiver {pneu d'hiver} [pnø diˈvɛʁ], pneus d'hiver = zimná pneumatika
 2 N la camionnette {camion|nette} [kamjɔˈnɛt], camionnettes = dodávkové auto
+2 N le wagon {wagon} [vaˈɡɔ̃], wagons = vagón
+3 N le trolleybus {trolley|bus} [tʁɔlɛˈbys], trolleybus = trolejbus
+3 N le dirigeable {dirigeable} [diʁiˈʒabl], dirigeables = vzducholoď
+3 N le paquebot {paquebot} [pakəˈbo], paquebots = parník
+3 AN utilitaire {utilitaire} [ytiliˈtɛʁ] = prepravný
+3 N le skateboard {skateboard} [skɛtˈbɔʁd], skateboards = skateboard
+3 N le canot à moteur {canot à moteur} [kaˈno a mɔˈtœʁ], canots à moteur = motorový čln
+3 N le pétrolier {pétrol|ier} [petʁɔˈlje], pétroliers = tanker
+3 N le planeur {plan|eur} [plaˈnœʁ], planeurs = vetroň
+2 N le traîneau {traîneau} [tʁɛˈno], traîneaux = sánky
+1 N l'auto (f) {auto} [oˈto], autos = auto
 
 # vehicle-parts
 2 N le pneu {pneu} [pnø], pneus = pneumatika
@@ -106,6 +117,21 @@
 3 N la bouée {bouée} [buˈe], bouées = bója
 3 N l'accélérateur (m) {accélérateur} [akseleʁaˈtœʁ], accélérateurs = plynový pedál
 2 N l'arrière (m) {arrière} [aˈʁjɛʁ], arrières = zadná časť
+2 N l'embrayage (m) {embrayage} [ɑ̃bʁɛˈjaʒ], embrayages = spojka (v aute)
+3 N le timon {timon} [tiˈmɔ̃], timons = oje
+3 N la jante {jante} [ʒɑ̃t], jantes = ráf
+3 N le dérailleur {dérailleur} [deʁaˈjœʁ], dérailleurs = prehadzovačka
+2 N la boîte de vitesses {boîte de vitesses} [bwat də viˈtɛs], boîtes de vitesses = prevodovka
+3 N l'enjoliveur (m) {enjoliveur} [ɑ̃ʒɔliˈvœʁ], enjoliveurs = puklica
+2 N la cabine {cabine} [kaˈbin], cabines = kajuta
+3 N la proue {proue} [pʁu], proues = prova
+3 N la vergue {vergue} [vɛʁɡ], vergues = rahno
+3 N l'amarre (f) {amarre} [aˈmaʁ], amarres = kotevné lano
+3 N le gouvernail {gouvernail} [ɡuvɛʁˈnaj], gouvernails = kormidlo
+3 N la poupe {poupe} [pup], poupes = korma
+3 N le bâbord {bâbord} [bɑˈbɔʁ], - = ľavobok
+3 N le tribord {tribord} [tʁiˈbɔʁ], - = pravobok
+3 N le châssis {châssis} [ʃɑˈsi], châssis = podvozok
 
 # infrastructure
 1 N la route {route} [ʁut], routes = cesta (komunikácia)
@@ -174,6 +200,10 @@
 2 N la fermeture de route {fermeture de route} [fɛʁməˈtyʁ də ʁut], fermetures de route = uzávera
 2 V goudronner {goudronner} [ɡudʁɔˈne] = asfaltovať
 3 V asphalter {asphalter} [asfalˈte] = asfaltovať
+3 N l'embranchement (m) {em|branche|ment} [ɑ̃bʁɑ̃ʃˈmɑ̃], embranchements = odbočka
+3 N l'aiguillage (m) {aiguill|age} [eɡɥiˈjaʒ], aiguillages = výhybka
+2 N la passerelle {passerelle} [pasˈʁɛl], passerelles = lávka
+3 N la glissière de sécurité {glissière de sécurité} [ɡlisjɛʁ də sekyʁiˈte], glissières de sécurité = zvodidlo
 
 # travel
 1 N le trajet {trajet} [tʁaˈʒɛ], trajets = jazda
@@ -332,6 +362,18 @@
 2 N le déménagement {déménage|ment} [demenaʒˈmɑ̃], déménagements = vysťahovanie
 2 N la sortie du pays {sortie du pays} [sɔʁti dy pei], sorties du pays = vycestovanie
 2 N le territoire national {territoire national} [teʁitwaʁ nasjɔˈnal], territoires nationaux = tuzemsko
+3 N la sacoche {sacoche} [saˈkɔʃ], sacoches = sedlová brašna
+3 V chevaucher {chevaucher} [ʃəvoˈʃe] = jazdiť na koni
+3 N le pilote {pilote} [piˈlɔt], pilotes = lodivod
+3 V se gonfler {se gonfler} [sə ɡɔ̃ˈfle] = vzdúvať sa
+2 N l'hôtesse de l'air (f) {hôtesse de l'air} [oˈtɛs də lɛʁ], hôtesses de l'air = letuška
+2 N le membre d'équipage {membre d'équipage} [mɑ̃bʁ dekiˈpaʒ], membres d'équipage = člen posádky
+3 N le passager clandestin {passager clandestin} [pasaˈʒe klɑ̃dɛsˈtɛ̃], passagers clandestins = čierny pasažier
+3 V sillonner {sillonner} [sijɔˈne] (qch) = brázdiť
+3 AN incliné {incliné} [ɛ̃kliˈne], inclinée = naklonený
+2 N les transports en commun (m) {transports en commun} [tʁɑ̃ˈspɔʁ ɑ̃ kɔˈmœ̃], PL = verejná doprava
+3 N la mallette {mallette} [maˈlɛt], mallettes = kufrík
+2 N le naufrage {naufrage} [noˈfʁaʒ], naufrages = stroskotanie
 
 # corpus-verbs
 2 V parcourir {par|courir} [paʁkuˈʁiʁ], irr, parcouru = precestovať

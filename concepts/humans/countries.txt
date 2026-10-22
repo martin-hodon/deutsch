@@ -134,6 +134,7 @@ N Estónsko
 AN estónsky
 N Estónec
 N Estónka
+AN škótsky
 
 # world
 N USA

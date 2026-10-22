@@ -77,7 +77,7 @@ export function showVersion(kept, { check, update }) {
 export function showTrainer(name) {
   $("welcome").hidden = true;
   $("trainer").hidden = false;
-  $("more").hidden = false;
+  $("moreTab").hidden = false;
   $("learner").textContent = name;
 }
 
@@ -139,9 +139,9 @@ export function showNative(langs, native, onChoose) {
   $("native").onchange = () => onChoose($("native").value);
 }
 
-// the heading: the language learned (German with its three articles in their colours)
-export function showTitle(name, articles) {
-  $("title").replaceChildren(name + " ", ...(articles ? ARTICLES.flatMap((a) => [element("span", a, a), " "]) : []));
+// the heading: the language learned, its flag (as on the dictionary and the reading page; the name in the tooltip)
+export function showTitle(name, flag) {
+  Object.assign($("title"), { textContent: flag, title: name });
   document.title = `${name} · ${t("trainer")}`;
 }
 
@@ -398,21 +398,20 @@ export function onKeys(handler) {
   });
 }
 
-// ---- MORE: the menu, and its panels (settings, statistics, recorded data) -- one open at a time, under the card -------
+// ---- ⋯: the trainer's own section (the header's ⋯ tab, trainer.html#more) -- the settings open, statistics and the
+// recorded data under them, each opened on a click (`onPanel(name)` fills it as it opens), the sentence generator a link
 export function setupMore({ onPanel }) {
-  const menu = $("moreMenu"), button = $("moreButton");
-  const close = () => { menu.hidden = true; button.setAttribute("aria-expanded", "false"); };
-  button.onclick = (event) => { event.stopPropagation(); menu.hidden = !menu.hidden; button.setAttribute("aria-expanded", String(!menu.hidden)); };
-  document.addEventListener("click", (event) => { if (!event.target.closest("#more")) close(); });
-  document.addEventListener("keydown", (event) => { if (event.key === "Escape") close(); });
-  for (const item of menu.querySelectorAll("[data-panel]")) item.onclick = () => { close(); openPanel(item.dataset.panel); onPanel(item.dataset.panel); };
-  for (const p of document.querySelectorAll(".panel")) p.querySelector(".close").onclick = () => (p.hidden = true);
+  for (const p of document.querySelectorAll("#more-view details.panel")) p.ontoggle = () => { if (p.open) onPanel(p.id.replace("panel-", "")); };
 }
-export function openPanel(name) {
-  for (const p of document.querySelectorAll(".panel")) p.hidden = p.id !== "panel-" + name;
-  $("panel-" + name).scrollIntoView({ behavior: "smooth", block: "nearest" });
+// the exercises or ⋯ (`panel` opened in it: a link to trainer.html#panel-stats); the header's tab marked current
+export function showView(more, panel = null) {
+  $("trainer").hidden = more;
+  $("more-view").hidden = !more;
+  for (const a of document.querySelectorAll(".pages a")) if (a.dataset.t === "trainer" || a.id === "moreTab") a.classList.toggle("current", (a.id === "moreTab") === more);
+  if (more && panel) { $("panel-" + panel).open = true; $("panel-" + panel).scrollIntoView({ behavior: "smooth", block: "nearest" }); }
 }
-export const panelOpen = (name) => !$("panel-" + name).hidden;
+export const inMore = () => !$("more-view").hidden;
+export const panelOpen = (name) => inMore() && $("panel-" + name).open;
 
 // RECORDED DATA: every answer kept (storage.js), newest first, of one exercise or all; more on request; the whole log
 // as a file -- `labelOf(mode)` an exercise's name

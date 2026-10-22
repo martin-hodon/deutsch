@@ -43,6 +43,18 @@
 2 N olej słonecznikowy {olej słonecznikowy} [ˈɔlɛj swɔnɛtʂɲiˈkɔvɨ], m, oleje słonecznikowe = slnečnicový olej
 2 N zioła {zioła} [ˈʑɔwa], lm, zioła = bylinky
 2 AN niejadalny {nie|jadalny} [ɲɛjaˈdalnɨ] = nejedlý
+2 N soda oczyszczona {soda oczyszczona} [ˈsɔda ɔtʂɨʂˈtʂɔna], ż, - = jedlá sóda
+3 N ciasto drożdżowe {ciasto drożdżowe} [ˈtɕastɔ drɔʐˈdʐɔvɛ], n, ciasta drożdżowe = kysnuté cesto
+2 N nadzienie {nadzienie} [naˈdʑɛɲɛ], n, nadzienia = plnka
+3 N smalec {smalec} [ˈsmalɛts], m, smalce = bravčová masť
+3 N sucharek {sucharek} [suˈxarɛk], m, sucharki = suchár
+3 N łój {łój} [wuj], m, - = loj
+3 N podwieczorek {pod|wieczorek} [pɔdvʲɛˈtʂɔrɛk], m, podwieczorki = olovrant
+2 N resztki jedzenia {resztki jedzenia} [ˈrɛʂtki jɛˈdzɛɲa], lm, resztki jedzenia = zvyšky jedla
+3 N galareta {galareta} [ɡalaˈrɛta], ż, galarety = rôsol
+3 N mleczarnia {mleczarnia} [mlɛˈtʂarɲa], ż, mleczarnie = mliekáreň
+2 N dressing {dressing} [ˈdrɛsiŋk], m, dressingi = dresing
+3 N kęs {kęs} [kɛ̃s], m, kęsy = sústo
 
 # staples
 1 N chleb {chleb} [xlɛp], m, chleby = chlieb
@@ -140,6 +152,18 @@
 2 N soczewica {soczewica} [sɔtʂɛˈvʲitsa], ż, - = šošovica
 2 N tofu {tofu} [ˈtɔfu], n, -, ndm = tofu
 3 N taco {taco} [ˈtakɔ], n, -, ndm = taco
+3 N pesto {pesto} [ˈpɛstɔ], n, -, ndm = pesto
+2 N rogalik {rogalik} [rɔˈɡalik], m, rogaliki = rožok
+2 N bochenek {bochenek} [bɔˈxɛnɛk], m, bochenki = bochník
+3 N chała {chała} [ˈxawa], ż, chały = vianočka
+1 N kanapka {kanapka} [kaˈnapka], ż, kanapki = obložený chlieb
+3 N kopytka {kopytka} [kɔˈpɨtka], lm, kopytka = šúľance
+3 N kolanka {kolanka} [kɔˈlaŋka], lm, kolanka = kolienka
+2 N kluski {kluski} [ˈkluski], lm, kluski = halušky
+3 N przecier {przecier} [ˈpʂɛtɕɛr], m, przeciery = pretlak
+3 N puree {puree} [ˈpurɛ], n, -, ndm = pyré
+2 N nudle {nudle} [ˈnudlɛ], lm, nudle = rezance
+3 N gnocchi {gnocchi} [ˈɲɔki], lm, gnocchi = gnocchi
 
 # meat-fish-food
 1 N wołowina {wołowina} [vɔwɔˈvʲina], ż, - = hovädzie mäso
@@ -174,6 +198,12 @@
 2 N kebab {kebab} [ˈkɛbap], m, kebaby = döner kebab
 2 N sushi {sushi} [ˈsuʂi], n, -, ndm = suši
 1 V tyć {tyć} [tɨtɕ], przytyć = pribrať
+3 N wątrobianka {wątrobianka} [vɔntrɔˈbʲanka], ż, wątrobianki = jaternica
+2 N mięso wędzone {mięso wędzone} [ˈmʲɛ̃sɔ vɛnˈdzɔnɛ], n, - = údené mäso
+2 N flaki {flaki} [ˈflaki], lm, flaki = držky
+3 N mięso peklowane {mięso peklowane} [ˈmʲɛ̃sɔ pɛklɔˈvanɛ], n, - = solené mäso
+3 N tran {tran} [tran], m, - = rybí tuk
+3 N salceson {salceson} [salˈtsɛsɔn], m, salcesony = tlačenka
 
 # fruits
 1 N owoc {owoc} [ˈɔvɔts], m, owoce = ovocie
@@ -184,7 +214,6 @@
 1 N gruszka {gruszka} [ˈɡruʂka], ż, gruszki = hruška
 1 N śliwka {śliwka} [ˈɕlifka], ż, śliwki = slivka
 1 N czereśnia {czereśnia} [tʂɛˈrɛɕɲa], ż, czereśnie = čerešňa (plod)
-1 N wiśnia {wiśnia} [ˈvʲiɕɲa], ż, wiśnie = čerešňa (plod)
 1 N winogrono {winogrono} [vʲinɔˈɡrɔnɔ], n, winogrona = hrozno
 1 N pomarańcza {pomarańcza} [pɔmaˈraɲtʂa], ż, pomarańcze = pomaranč
 2 N sok pomarańczowy {sok pomarańczowy} [sɔk pɔmaraɲˈtʂɔvɨ], m, soki pomarańczowe = pomarančový džús
@@ -222,6 +251,16 @@
 2 N rodzynek {rodzynek} [rɔˈdzɨnɛk], m, rodzynki = hrozienko
 2 N limonka {limonka} [liˈmɔnka], ż, limonki = limetka
 2 N grejpfrut {grejpfrut} [ˈɡrɛjpfrut], m, grejpfruty = grapefruit
+2 N mandarynka {mandarynka} [mandaˈrɨŋka], ż, mandarynki = mandarínka
+3 N kaki {kaki} [ˈkaki], n, -, ndm = kaki
+1 N wiśnia {wiśnia} [ˈvʲiɕɲa], ż, wiśnie = višňa
+3 N wisienka {wisienka} [vʲiˈɕɛŋka], ż, wisienki = višňa
+3 N morwa {morwa} [ˈmɔrva], ż, morwy = moruša
+3 N pistacja {pistacja} [pisˈtatsja], ż, pistacje = pistácia
+3 N orzech pekan {orzech pekan} [ˈɔʐɛx ˈpɛkan], m, orzechy pekan = pekanový orech
+3 N orzech nerkowca {orzech nerkowca} [ˈɔʐɛx nɛrˈkɔftsa], m, orzechy nerkowca = kešu orech
+3 N orzech brazylijski {orzech brazylijski} [ˈɔʐɛx brazɨˈlijski], m, orzechy brazylijskie = para orech
+2 N migdał {migdał} [ˈmʲiɡdaw], m, migdały = mandľa
 
 # vegetables
 1 N warzywo {warzywo} [vaˈʐɨvɔ], n, warzywa = zelenina
@@ -266,6 +305,15 @@
 2 N por {por} [pɔr], m, pory = pór (zelenina)
 2 N szparag {szparag} [ˈʂparak], m, szparagi = špargľa
 2 N pieczarka {pieczarka} [pʲɛˈtʂarka], ż, pieczarki = šampiňón
+3 N rabarbar {rabarbar} [raˈbarbar], m, - = rebarbora
+3 N karczoch {karczoch} [ˈkartʂɔx], m, karczochy = artičok
+3 N jarmuż {jarmuż} [ˈjarmuʂ], m, jarmuże = kučeravá kapusta
+3 N kalarepa {kalarepa} [kalaˈrɛpa], ż, kalarepy = kaleráb
+3 N czosnek niedźwiedzi {czosnek niedźwiedzi} [ˈtʂɔsnɛk ɲɛˈdʑvʲɛdʑi], m, czosnki niedźwiedzie = medvedí cesnak
+3 N roślina strączkowa {roślina strączkowa} [rɔɕˈlina strɔntʂˈkɔva], ż, rośliny strączkowe = strukovina
+3 N ciecierzyca {ciecierzyca} [tɕɛtɕɛˈʐɨtsa], ż, ciecierzyce = cícer
+3 N chrzan {chrzan} [xʂan], m, - = chren
+3 N szczypiorek {szczypiorek} [ʂtʂɨˈpjɔrɛk], m, - = pažítka
 
 # sweets-drinks
 1 N ciasto {ciasto} [ˈtɕastɔ], n, ciasta = koláč
@@ -323,6 +371,17 @@
 1 N chipsy {chipsy} [ˈtɕipsɨ], lm, chipsy = čipsy
 2 N karmel {karmel} [ˈkarmɛl], m, - = karamel
 2 N galaretka {galaretka} [ɡalaˈrɛtka], ż, galaretki = želé
+2 N toast {toast} [ˈtɔast], m, toasty = prípitok
+3 N lura {lura} [ˈlura], ż, lury = žbrnda
+3 N miód pitny {miód pitny} [mʲut ˈpitnɨ], m, miody pitne = medovina
+3 N napój spirytusowy {napój spirytusowy} [ˈnapuj spirɨtuˈsɔvɨ], m, napoje spirytusowe = liehovina
+2 N kompot {kompot} [ˈkɔmpɔt], m, kompoty = kompót
+2 N cukiernia {cukiernia} [tsuˈkjɛrɲa], ż, cukiernie = cukráreň
+3 N babka {babka} [ˈbapka], ż, babki = bábovka
+3 N sękacz {sękacz} [ˈsɛŋkatʂ], m, sękacze = trdelník
+2 N lizak {lizak} [ˈlizak], m, lizaki = lízanka
+3 N lukrecja {lukrecja} [luˈkrɛtsja], ż, lukrecje = pendrek (sladkosť)
+3 N obwarzanek {obwarzanek} [ɔbvaˈʐanɛk], m, obwarzanki = venček
 
 # cooking
 1 V gotować {gotować} [ɡɔˈtɔvatɕ], ugotować (B) = variť
@@ -392,6 +451,22 @@
 3 V konsumować {konsumować} [kɔnsuˈmɔvatɕ], skonsumować = skonzumovať
 2 V ozdabiać {ozdabiać} [ɔzˈdabʲatɕ], ozdobić = garnírovať
 3 V garnirować {garnirować} [ɡarɲiˈrɔvatɕ], - = garnírovať
+3 V zsiadać się {zsiadać się} [ˈzɕadatɕ ɕɛ], zsiąść się = zraziť sa (mlieko)
+3 N zalewa {zalewa} [zaˈlɛva], ż, zalewy = nálev
+3 V zapiekać {zapiekać} [zaˈpʲɛkatɕ], zapiec (B) = zapiecť
+3 V przypalać {przy|palać} [pʂɨˈpalatɕ], przypalić (B) = pripáliť
+3 V roztapiać {roz|tapiać} [rɔsˈtapʲatɕ], roztopić (B) = roztopiť
+3 V wyciskać {wy|ciskać} [vɨˈtɕiskatɕ], wycisnąć (B) = odšťaviť
+3 V fermentować {fermentować} [fɛrmɛnˈtɔvatɕ], sfermentować = kvasiť
+3 V cedzić {cedzić} [ˈtsɛdʑitɕ], odcedzić (B) = cediť
+3 V przesalać {prze|salać} [pʂɛˈsalatɕ], przesolić (B) = presoliť
+3 N fermentacja {fermentacja} [fɛrmɛnˈtatsja], ż, fermentacje = kvasenie
+3 V nasycać {na|sycać} [naˈsɨtsatɕ], nasycić (B) = zasýtiť
+2 V trzeć {trzeć} [tʂɛtɕ], zetrzeć (B) = strúhať
+3 V patroszyć {patroszyć} [paˈtrɔʂɨtɕ], wypatroszyć (B) = vyvrhnúť
+3 V odlewać {od|lewać} [ɔdˈlɛvatɕ], odlać (B) = odliať
+2 V wylewać {wy|lewać} [vɨˈlɛvatɕ], wylać (B) = vyliať
+2 V dolewać {do|lewać} [dɔˈlɛvatɕ], dolać (B) = doliať
 
 # kitchen-tools
 1 N nóż {nóż} [nuʂ], m, noże = nôž
@@ -455,6 +530,18 @@
 2 N karta dań {karta dań} [ˈkarta daɲ], ż, karty dań = menu
 1 N restauracja {restauracja} [rɛstawˈratsja], ż, restauracje = pohostinstvo
 2 N lokal {lokal} [ˈlɔkal], m, lokale = pohostinstvo
+3 N dziadek do orzechów {dziadek do orzechów} [ˈdʑadɛk dɔ ɔˈʐɛxuf], m, dziadki do orzechów = luskáčik
+3 N kubeczek {kubeczek} [kuˈbɛtʂɛk], m, kubeczki = kelímok
+3 N kielich {kielich} [ˈkjɛlix], m, kielichy = čaša
+3 N rondel {rondel} [ˈrɔndɛl], m, rondle = kastról
+3 N obieraczka {obieraczka} [ɔbʲɛˈratʂka], ż, obieraczki = škrabka
+2 N wałek do ciasta {wałek do ciasta} [ˈvawɛk dɔ ˈtɕasta], m, wałki do ciasta = valček na cesto
+3 N miarka {miarka} [ˈmjarka], ż, miarki = odmerka
+2 N deska do krojenia {deska do krojenia} [ˈdɛska dɔ krɔˈjɛɲa], ż, deski do krojenia = doska na krájanie
+3 N szumówka {szumówka} [ʂuˈmufka], ż, szumówki = zberačka
+3 N rożen {rożen} [ˈrɔʐɛn], m, rożny = ražeň
+3 N sokowirówka {soko|wirówka} [sɔkɔvʲiˈrufka], ż, sokowirówki = odšťavovač
+3 N dzbanek {dzbanek} [ˈdzbanɛk], m, dzbanki = kanvica
 
 # taste-quality
 1 N smak {smak} [smak], m, smaki = chuť (na jazyku)
@@ -490,3 +577,6 @@
 3 AV smacznie {smacznie} [ˈsmatʂɲɛ] = chutne
 1 AN gotowany {gotowany} [ɡɔtɔˈvanɨ] = varený
 3 AN niegustowny {nie|gustowny} [ɲɛɡuˈstɔvnɨ] = nevkusný
+3 AN podgotowany {pod|gotowany} [pɔdɡɔtɔˈvanɨ] = predvarený
+3 AN przeterminowany {prze|terminowany} [pʂɛtɛrmʲinɔˈvanɨ] = expirovaný
+3 AN cierpki {cierpki} [ˈtɕɛrpki] = trpký

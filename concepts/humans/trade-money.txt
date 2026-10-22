@@ -65,6 +65,7 @@ N zvýšenie ceny
 N zníženie ceny
 N dodatočné náklady
 V podviesť
+V nahrabať -- nahromadiť peniaze
 
 # buying-selling
 V kúpiť
@@ -167,6 +168,10 @@ V zlacniť
 V stornovať
 V patentovať
 V odoslať
+AN zvýhodnený
+N nákupca -- ten, kto nakupuje
+N ležiak (tovar) -- tovar, ktorý sa nepredá
+V zjednávať -- dohadovať cenu
 
 # places-of-trade
 N trh
@@ -188,6 +193,7 @@ N otváracia doba
 N obchodný dom
 N drogéria
 N diskont
+N hračkárstvo
 
 # economy-finance
 N obchodovanie
@@ -338,6 +344,10 @@ V konsolidovať
 V expandovať
 V zlúčiť sa
 V uskladniť
+N odklad -- odklad splatnosti
+N daňový raj -- štát s nízkymi daňami pre zahraničných majiteľov
+N havarijné poistenie -- poistenie auta proti škode
+N poisťovňa -- firma, ktorá poisťuje
 
 # trade
 V licencovať

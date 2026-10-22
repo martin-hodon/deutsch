@@ -104,6 +104,32 @@
 2 AN evangelisch {evangelisch} [evaŋˈɡeːlɪʃ] = evanjelický
 3 AN ökumenisch {ökumenisch} [økuˈmeːnɪʃ] = ekumenický
 3 N die Sterblichkeit {Sterblichkeit} [ˈʃtɛʁplɪçkaɪt], - = smrteľnosť
+3 V verdammen {ver|dammen} [fɛɐˈdamən], hat (A) = zatratiť
+3 N die Verdammung {Ver|dammung} [fɛɐˈdamʊŋ], Verdammungen = zatratenie
+3 N die Verdammnis {Ver|dammnis} [fɛɐˈdamnɪs], Verdammnisse = zatratenie
+3 N die Pfarrei {Pfarrei} [pfaˈʁaɪ], Pfarreien = farnosť
+3 N die Verehrung {Ver|ehrung} [fɛɐˈʔeːʁʊŋ], Verehrungen = uctievanie
+3 N die Frömmigkeit {Frömmigkeit} [ˈfʁœmɪçkaɪt], - = nábožnosť
+3 N das Fegefeuer {Fege|feuer} [ˈfeːɡəfɔʏɐ], - = očistec
+3 N der Ketzer {Ketzer} [ˈkɛtsɐ], Ketzer = kacír
+3 N die Buße {Buße} [ˈbuːsə], Bußen = pokánie
+3 V beichten {beichten} [ˈbaɪçtn̩], hat = spovedať sa
+3 N der Apostel {Apostel} [aˈpɔstl̩], Apostel = apoštol
+3 N die Vorsehung {Vor|sehung} [ˈfoːɐ̯zeːʊŋ], - = prozreteľnosť
+3 N der Sensenmann {Sensen|mann} [ˈzɛnzn̩man], Sensenmänner = smrtka
+3 V auferstehen {auf|erstehen} [aʊ̯fʔɛɐ̯ˈʃteːən], aufersteht/auferstand/auferstanden [aʊ̯fʔɛɐ̯ˈʃteːt/aʊ̯fʔɛɐ̯ˈʃtant/aʊ̯fʔɛɐ̯ˈʃtandn̩], ist = vstať z mŕtvych
+3 N der Himmel {Himmel} [ˈhɪml̩], Himmel = nebesá
+3 N der Hinduismus {Hinduismus} [hɪnduˈɪsmʊs], - = hinduizmus
+3 N das Fasten {Fasten} [ˈfastn̩], - = pôst
+3 N die Pilgerfahrt {Pilger|fahrt} [ˈpɪlɡɐfaːɐ̯t], Pilgerfahrten = púť
+3 N die Wallfahrt {Wall|fahrt} [ˈvalfaːɐ̯t], Wallfahrten = púť
+3 N die Kommunion {Kommunion} [kɔmuˈni̯oːn], Kommunionen = sväté prijímanie
+3 N die Absolution {Absolution} [apzoluˈtsi̯oːn], Absolutionen = rozhrešenie
+3 N die Verwünschung {Ver|wünschung} [fɛɐˈvʏnʃʊŋ], Verwünschungen = kliatba
+3 N die Verfluchung {Ver|fluchung} [fɛɐˈfluːxʊŋ], Verfluchungen = kliatba
+2 AN fromm {fromm} [fʁɔm], frömmer/am frömmsten = nábožný
+3 V freveln {freveln} [ˈfʁeːfəln], hat = hrešiť
+3 V anhimmeln {an·himmeln} [ˈanhɪməln], hat = zbožňovať
 
 # magic-fate
 2 N die Magie {Magie} [maˈɡiː], - = mágia, čary
@@ -149,6 +175,35 @@
 - 3 V verlosen {ver|losen} [fɛɐˈloːzən], hat (A) = vyžrebovať
 - 3 V auslosen {aus·losen} [ˈaʊsloːzən], hat (A) = vyžrebovať
 3 V beschwören {be|schwören} [bəˈʃvøːʁən], beschwört/beschwor/beschworen [bəˈʃvøːɐt/bəˈʃvoːɐ/bəˈʃvoːʁən], hat (A) = zaklínať, zaprisahať, vyvolať
+3 V wahrsagen {wahr·sagen} [ˈvaːɐ̯zaːɡn̩], hat = veštiť
+3 V weissagen {weis·sagen} [ˈvaɪzaːɡn̩], hat (A) = veštiť
+3 N der Werwolf {Wer|wolf} [ˈveːɐ̯vɔlf], Werwölfe = vlkolak
+3 N die Verzauberung {Ver|zauberung} [fɛɐˈtsaʊbəʁʊŋ], Verzauberungen = zakliatie
+3 N der Beschwörer {Be|schwörer} [bəˈʃvøːʁɐ], Beschwörer = zaklínač
+3 AN sagenhaft {sagen|haft} [ˈzaːɡənhaft] = bájny
+3 AN übersinnlich {über|sinnlich} [ˈyːbɐzɪnlɪç] = nadprirodzený
+3 N das Elixier {Elixier} [elɪˈksiːɐ̯], Elixiere = elixír
+3 N der Tierkreis {Tier|kreis} [ˈtiːɐ̯kʁaɪs], Tierkreise = zverokruh
+3 N der Wassermann {Wasser|mann} [ˈvasɐman], Wassermänner = vodnár
+3 N die Zwillinge {Zwillinge} [ˈtsvɪlɪŋə], PL = blíženci
+3 N die Jungfrau {Jung|frau} [ˈjʊŋfʁaʊ], Jungfrauen = panna
+3 V verzaubern {ver|zaubern} [fɛɐˈtsaʊbɐn], hat (A) = začarovať
+2 AN verflucht {ver|flucht} [fɛɐˈfluːxt] = prekliaty
+3 N die Nymphe {Nymphe} [ˈnʏmfə], Nymphen = nymfa
+3 N die Hydra {Hydra} [ˈhyːdʁa], Hydren = hydra
+3 N der Kentaur {Kentaur} [kɛnˈtaʊɐ], Kentauren = kentaur
+3 N die Chimäre {Chimäre} [çiˈmɛːʁə], Chimären = chiméra
+3 N das Omen {Omen} [ˈoːmən], Omen/Omina = predzvesť
+3 N das Vorzeichen {Vor|zeichen} [ˈfoːɐtsaɪçən], Vorzeichen = predzvesť
+3 N die Wassernixe {Wasser|nixe} [ˈvasɐnɪksə], Wassernixen = morská panna
+3 N das Ungeheuer {Un|geheuer} [ˈʊnɡəhɔʏɐ], Ungeheuer = príšera
+3 N das Ungetüm {Un|getüm} [ˈʊnɡətyːm], Ungetüme = príšera
+3 N das Scheusal {Scheusal} [ˈʃɔʏzaːl], Scheusale = príšera
+3 AN zauberisch {zauber|isch} [ˈtsaʊbəʁɪʃ] = magický
+3 N die Beschwörung {Be|schwörung} [bəˈʃvøːʁʊŋ], Beschwörungen = zariekadlo
+3 N die Zauberformel {Zauber|formel} [ˈtsaʊbɐfɔʁməl], Zauberformeln = zariekadlo
+3 N die Märe {Märe} [ˈmɛːʁə], Mären = báj
+3 N der Hüne {Hüne} [ˈhyːnə], Hünen = obor
 
 # customs-celebrations
 2 N der Brauch {Brauch} [bʁaʊx], Bräuche = zvyk
@@ -211,6 +266,10 @@
 3 N die Fahne {Fahne} [ˈfaːnə], Fahnen = zástava, vlajka
 3 N der Advent {Advent} [atˈvɛnt], - = advent
 3 N die Feierlichkeit {Feier|lich|keit} [ˈfaɪɐlɪçkaɪt], Feierlichkeiten = slávnosť
+3 N die Bescherung {Be|scherung} [bəˈʃeːʁʊŋ], Bescherungen = nádielka
+3 N die Sitte {Sitte} [ˈzɪtə], Sitten = zvyk
+3 N die Gepflogenheit {Ge|pflogenheit} [ɡəˈpfloːɡənhaɪt], Gepflogenheiten = zvyk
 
 # customs
 3 V weihen {weihen} [ˈvaɪən], hat (A) = vysvätiť, zasvätiť
+2 N der Kranz {Kranz} [kʁants], Kränze = veniec

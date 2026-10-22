@@ -77,6 +77,11 @@
 2 AV vivement {vive|ment} [vivˈmɑ̃] = živo
 1 N la naissance {naissance} [nɛˈsɑ̃s], naissances = narodenie
 2 V rajeunir {ra|jeunir} [ʁaʒœˈniʁ] = mladnúť
+3 N la pourriture {pourriture} [puʁiˈtyʁ], - = hnitie
+2 N la décomposition {décomposition} [dekɔ̃pozisˈjɔ̃], décompositions = hnitie
+3 N la charogne {charogne} [ʃaˈʁɔɲ], charognes = zdochlina
+3 V grisonner {grisonner} [ɡʁizɔˈne] = ošedivieť
+2 AN pourri {pourri} [puˈʁi], pourrie = zhnitý
 
 # body-functions
 1 V respirer {respirer} [ʁɛspiˈʁe] = dýchať
@@ -142,6 +147,44 @@
 2 N la veille {veille} [vɛj], veilles = bdenie
 2 V veiller {veiller} [vɛˈje] = bdieť
 2 V endormir {en|dormir} [ɑ̃dɔʁˈmiʁ], irr, endormi = uspať
+2 N le frisson {frisson} [fʁiˈsɔ̃], frissons = chvenie
+2 N le tremblement {tremblement} [tʁɑ̃bləˈmɑ̃], tremblements = chvenie
+3 V palpiter {palpiter} [palpiˈte] = pulzovať
+2 V battre {battre} [batʁ], irr, battu = pulzovať
+2 V se soûler {se soûler} [sə suˈle] = opiť sa
+3 V s'enivrer {s'enivrer} [sɑ̃niˈvʁe] = opiť sa
+2 V faire l'amour {faire l'amour} [fɛʁ lamuʁ], irr, fait (avec qn) = súložiť
+3 V baiser {baiser} [beˈze] (qn) = súložiť
+3 V éjaculer {éjaculer} [eʒakyˈle] = vystriekať sa
+3 V se masturber {se masturber} [sə mastyʁˈbe] = honiť si
+3 V se branler {se branler} [sə bʁɑ̃ˈle] = honiť si
+2 N la merde {merde} [mɛʁd], merdes = hovno
+3 V sangloter {sangloter} [sɑ̃ɡlɔˈte] = vzlykať
+3 V postillonner {postillonner} [pɔstijɔˈne] = prskať
+3 V s'ébrouer {s'ébrouer} [sebʁuˈe] = prskať
+2 V gonfler {gonfler} [ɡɔ̃ˈfle] (qch) = nadúvať
+3 V suer {suer} [sɥe] (qch) = vypotiť
+3 V tremper de sueur {tremper de sueur} [tʁɑ̃ˈpe də sɥœʁ] = prepotiť
+2 N l'inspiration (f) {inspiration} [ɛ̃spiʁaˈsjɔ̃], inspirations = vdych
+2 N l'expiration (f) {expiration} [ɛkspiʁaˈsjɔ̃], expirations = výdych
+2 N la sieste {sieste} [sjɛst], siestes = zdriemnutie
+3 N le somme {somme} [sɔm], sommes = zdriemnutie
+3 N la somnolence {somnolence} [sɔmnɔˈlɑ̃s], somnolences = ospalosť
+2 N le bâillement {bâillement} [bɑjˈmɑ̃], bâillements = zívnutie
+3 V croquer {croquer} [kʁɔˈke] (dans) = nahryznúť
+3 V casser avec les dents {casser avec les dents} [kaˈse avɛk le dɑ̃] = rozhryznúť
+2 V mordre {mordre} [mɔʁdʁ], irr, mordu (qn) = zahryznúť
+3 V montrer les dents {montrer les dents} [mɔ̃ˈtʁe le dɑ̃] = ceriť
+3 V mâcher bruyamment {mâcher bruyamment} [mɑˈʃe bʁɥijaˈmɑ̃] = mľaskať
+2 V roter {roter} [ʁɔˈte] = grgať
+3 V éructer {éructer} [eʁykˈte] = grgať
+3 V pleurer tout son soûl {pleurer tout son soûl} [plœˈʁe tu sɔ̃ su] = vyplakať sa
+3 V avaler de travers {avaler de travers} [avaˈle də tʁaˈvɛʁ] = zabehnúť
+3 V se racler la gorge {se racler la gorge} [sə ʁaˈkle la ɡɔʁʒ] = odkašľať si
+3 V toussoter {toussoter} [tusɔˈte] = pokašliavať
+2 V se moucher {se moucher} [sə muˈʃe] = smrkať
+2 V péter {péter} [peˈte] = prdnúť
+2 N l'enzyme (m) {enzyme} [ɑ̃ˈzim], enzymes = enzým
 
 # nourishment
 1 V manger {manger} [mɑ̃ˈʒe] = jesť
@@ -173,12 +216,28 @@
 3 V ronger {ronger} [ʁɔ̃ˈʒe] = hlodať
 3 V grignoter {grignoter} [ɡʁiɲɔˈte] = chrúmať
 3 N la satiété {satiété} [satjeˈte], satiétés = sýtosť
+3 V s'empiffrer {s'empiffrer} [sɑ̃piˈfʁe] = prejesť sa
+3 V se gaver {se gaver} [sə ɡaˈve] = prejesť sa
+3 V festoyer {festoyer} [fɛstwaˈje] = hodovať
+3 V banqueter {banqueter} [bɑ̃kəˈte] = hodovať
+3 V se goinfrer {se goinfrer} [sə ɡwɛ̃ˈfʁe] = napchávať sa
+3 V grignoter {grignoter} [ɡʁiɲɔˈte] (qch) = maškrtiť
+3 V restaurer {restaurer} [ʁɛstɔˈʁe] (qn) = občerstviť
+3 V rafraîchir {rafraîchir} [ʁafʁɛˈʃiʁ] (qn) = občerstviť
+3 N le gourmet {gourmet} [ɡuʁˈmɛ], gourmets = labužník
+3 N le gourmand {gourmand} [ɡuʁˈmɑ̃], gourmands = labužník
+3 V boire une gorgée {boire une gorgée} [bwaʁ yn ɡɔʁˈʒe], irr, bu = odpiť
+3 V engraisser {engraisser} [ɑ̃ɡʁɛˈse] (qch) = vykrmovať
+3 V lécher {lécher} [leˈʃe] (qch) = vylízať
+2 V sucer {sucer} [syˈse] (qch) = cmúľať
 
 # senses-instinct
 2 N l'instinct (m) {instinct} [ɛ̃sˈtɛ̃], instincts = inštinkt
 3 AN instinctif {instinct|if} [ɛ̃stɛ̃kˈtif], instinctive = inštinktívny
 2 N le réflexe {réflexe} [ʁeˈflɛks], réflexes = reflex
 2 AV instinctivement {instinctive|ment} [ɛ̃stɛ̃ktivˈmɑ̃] = inštinktívne
+3 V griser {griser} [ɡʁiˈze] (qn) = omámiť
+3 V enivrer {enivrer} [ɑ̃niˈvʁe] (qn) = omámiť
 
 # growth-adaptation
 2 N la puberté {puberté} [pybɛʁˈte], pubertés = puberta
@@ -189,6 +248,14 @@
 3 V s'enraciner {s'en|raciner} [sɑ̃ʁasiˈne] = zakoreniť sa
 3 V périr {périr} [peˈʁiʁ] = uhynúť
 3 V s'évaporer {s'é|vaporer} [sevapɔˈʁe] = vyprchať
+3 V se souder {se souder} [sə suˈde] = zrásť
+2 V repousser {repousser} [ʁəpuˈse] = dorásť
+3 V proliférer {proliférer} [pʁɔlifeˈʁe] = rozrastať sa
+3 V pulluler {pulluler} [pylyˈle] = rozrastať sa
+3 V féconder {féconder} [fekɔ̃ˈde] (qch) = oplodniť
+3 V dépérir {dépérir} [depeˈʁiʁ] = chradnúť
+3 V s'étioler {s'étioler} [setjɔˈle] = chradnúť
+2 N la mutation {mutation} [mytaˈsjɔ̃], mutations = mutácia
 
 # more
 3 N l'écosystème (m) {éco|système} [ekosisˈtɛm], écosystèmes = ekosystém

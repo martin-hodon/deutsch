@@ -77,6 +77,9 @@
 2 V attackieren {attackieren} [atakˈiːʁən], hat (A) = zaútočiť, napadnúť
 3 V diskreditieren {diskreditieren} [dɪskʁediˈtiːʁən], hat (A) = zdiskreditovať
 3 N die Deeskalation {De|eskalation} [deɛskalaˈtsjoːn], Deeskalationen = deeskalácia
+3 V unterwerfen {unter|werfen} [ʊntɐˈvɛʁfən], unterwirft/unterwarf/unterworfen [ʊntɐˈvɪʁft/ʊntɐˈvaʁf/ʊntɐˈvɔʁfən], hat (A) = podmaniť si
+3 N der Bezwinger {Be|zwinger} [bəˈtsvɪŋɐ], Bezwinger = víťaz
+3 N der Recke {Recke} [ˈʁɛkə], Recken = hrdina
 
 # army
 2 N die Armee {Armee} [aʁˈmeː], Armeen = armáda
@@ -127,6 +130,15 @@
 3 V flankieren {flankieren} [flaŋˈkiːʁən], hat (A) = lemovať, obklopovať, sprevádzať
 3 V überrumpeln {über|rumpeln} [yːbɐˈʁʊmpəln], hat (A) = zaskočiť, prekvapiť
 3 V katapultieren {katapultieren} [katapʊlˈtiːʁən], hat (A) = katapultovať, vymrštiť
+3 N der Kreuzritter {Kreuz|ritter} [ˈkʁɔʏtsʁɪtɐ], Kreuzritter = križiak
+3 N der Leutnant {Leutnant} [ˈlɔʏtnant], Leutnants/Leutnante = podporučík
+3 N das Geschwader {Geschwader} [ɡəˈʃvaːdɐ], Geschwader = letka (útvar)
+3 N der Schützer {Schützer} [ˈʃʏtsɐ], Schützer = ochranca
+3 N der Knappe {Knappe} [ˈknapə], Knappen = panoš
+3 V säumen {säumen} [ˈzɔʏmən], hat (A) = lemovať
+3 N das Heer {Heer} [heːɐ], Heere = armáda
+3 V anheuern {an·heuern} [ˈanhɔʏɐn], hat (A) = verbovať
+3 V hüten {hüten} [ˈhyːtən], hat (A) = strážiť
 
 # weapons-fortification
 1 N die Waffe {Waffe} [ˈvafə], Waffen = zbraň
@@ -187,7 +199,50 @@
 2 V ausrücken {aus·rücken} [ˈaʊsʁʏkən], ist = vyraziť, vyrážať (hasiči), ujsť
 3 V rüsten {rüsten} [ˈʁʏstən], hat (sich A) = zbrojiť, vyzbrojiť
 3 AN unbewaffnet {un|bewaffnet} [ˈʊnbəvafnət] = neozbrojený
+3 N das Geschoss {Ge|schoss} [ɡəˈʃɔs], Geschosse = guľka (strela)
+3 N der Lauf {Lauf} [laʊf], Läufe = hlaveň
+3 N die Zinne {Zinne} [ˈtsɪnə], Zinnen = cimbúrie
+3 N die Lanze {Lanze} [ˈlantsə], Lanzen = kopija
+3 N der Degen {Degen} [ˈdeːɡən], Degen = kord
+3 N die Keule {Keule} [ˈkɔʏlə], Keulen = kyjak
+3 N der Knüppel {Knüppel} [ˈknʏpəl], Knüppel = kyjak
+3 N der Köcher {Köcher} [ˈkœçɐ], Köcher = tulec
+3 N die Armbrust {Arm|brust} [ˈaʁmbʁʊst], Armbrüste = kuša
+3 N die Hellebarde {Hellebarde} [hɛləˈbaʁdə], Hellebarden = halapartňa
+3 N der Rammbock {Ramm|bock} [ˈʁambɔk], Rammböcke = baranidlo
+3 N die Bewaffnung {Be|waffnung} [bəˈvafnʊŋ], Bewaffnungen = výzbroj
+3 V panzern {panzern} [ˈpantsɐn], hat (A) = obrniť
+3 N die Maschinenpistole {Maschinen|pistole} [maˈʃiːnənpɪstoːlə], Maschinenpistolen = samopal
+2 N das Maschinengewehr {Maschinen|gewehr} [maˈʃiːnənɡəveːɐ], Maschinengewehre = guľomet
+3 N der Flammenwerfer {Flammen|werfer} [ˈflamənvɛʁfɐ], Flammenwerfer = plameňomet
+3 N der Raketenwerfer {Raketen|werfer} [ʁaˈkeːtənvɛʁfɐ], Raketenwerfer = raketomet
+3 N die Haubitze {Haubitze} [haʊˈbɪtsə], Haubitzen = húfnica
+3 N das Luftgewehr {Luft|gewehr} [ˈlʊftɡəveːɐ], Luftgewehre = vzduchovka
+3 N die Scheide {Scheide} [ˈʃaɪdə], Scheiden = pošva (na zbraň)
+3 N die Schrotflinte {Schrot|flinte} [ˈʃʁoːtflɪntə], Schrotflinten = brokovnica
+3 N die Flinte {Flinte} [ˈflɪntə], Flinten = brokovnica
+3 N das Jagdflugzeug {Jagd|flugzeug} [ˈjaktfluːktsɔʏk], Jagdflugzeuge = stíhačka
+3 N die Patrone {Patrone} [paˈtʁoːnə], Patronen = náboj (do zbrane)
+3 V abstoßen {ab·stoßen} [ˈapʃtoːsən], stößt ab/stieß ab/abgestoßen [ʃtøːst ap/ʃtiːs ap/ˈapɡəʃtoːsən], hat (A) = odraziť
+3 N der Harnisch {Harnisch} [ˈhaʁnɪʃ], Harnische = brnenie
+3 N die Feuerwaffe {Feuer|waffe} [ˈfɔʏɐvafə], Feuerwaffen = strelná zbraň
+3 N der Abschuss {Ab|schuss} [ˈapʃʊs], Abschüsse = výstrel
+3 N das Geschütz {Geschütz} [ɡəˈʃʏts], Geschütze = kanón
+3 N die Büchse {Büchse} [ˈbʏksə], Büchsen = puška
+3 N das Gelüst {Gelüst} [ɡəˈlʏst], Gelüste = zálusk
 
 # war
 3 V plündern {plündern} [ˈplʏndɐn], hat (A) = plieniť, drancovať
 3 V umzingeln {umzingeln} [ʊmˈtsɪŋəln], hat (A) = obkľúčiť
+3 N der/die Gefangene {Gefangene} [ɡəˈfaŋənə], Gefangenen = zajatec
+3 V verschießen {ver|schießen} [fɛɐˈʃiːsən], verschießt/verschoss/verschossen [fɛɐˈʃiːst/fɛɐˈʃɔs/fɛɐˈʃɔsən], hat (A) = vystrieľať
+3 V anschießen {an·schießen} [ˈanʃiːsən], schießt an/schoss an/angeschossen [ʃiːst an/ʃɔs an/ˈanɡəʃɔsən], hat (A) = postreliť
+3 N das Scharmützel {Scharmützel} [ʃaʁˈmʏtsəl], Scharmützel = šarvátka
+3 N das Geplänkel {Ge|plänkel} [ɡəˈplɛŋkəl], Geplänkel = šarvátka
+3 N das Gemetzel {Gemetzel} [ɡəˈmɛtsəl], Gemetzel = krviprelievanie
+3 N die Meuterei {Meuterei} [mɔʏtəˈʁaɪ], Meutereien = vzbura
+3 N der Aufruhr {Auf|ruhr} [ˈaʊfʁuːɐ], - = vzbura
+3 N die Überlegenheit {Über|legenheit} [ˈyːbɐleːɡənhaɪt], - = prevaha
+3 N die Umzingelung {Um|zingelung} [ʊmˈtsɪŋəlʊŋ], Umzingelungen = obkľúčenie
+3 V entern {entern} [ˈɛntɐn], hat (A) = abordovať
+3 N der Eindringling {Ein|dringling} [ˈaɪndʁɪŋlɪŋ], Eindringlinge = votrelec

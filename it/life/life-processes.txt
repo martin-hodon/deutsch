@@ -77,6 +77,15 @@
 2 V soffocare {soffocare} [sofːoˈkaːre] = udusiť
 1 N la nascita {nascita} [ˈnaʃːita], nascite = narodenie
 3 V ringiovanire {ringiovanire} [rindʒovaˈniːre], isc, essere = mladnúť
+3 N il marciume {marciume} [marˈtʃuːme], - = hnitie
+3 N la putrefazione {putrefazione} [putrefatˈtsjoːne], putrefazioni = hnitie
+3 N la decomposizione {decomposizione} [dekomposiˈtsjoːne], decomposizioni = hnitie
+3 N la carogna {carogna} [kaˈroɲɲa], carogne = zdochlina
+3 N la carcassa {carcassa} [karˈkasːa], carcasse = zdochlina
+3 V incanutire {incanutire} [inkanuˈtiːre], isc, essere = ošedivieť
+3 V ingrigire {ingrigire} [inɡriˈdʒiːre], isc, essere = ošedivieť
+2 AN marcio {marcio} [ˈmartʃo], marcia = zhnitý
+3 AN putrefatto {putrefatto} [putreˈfatːo], putrefatta = zhnitý
 
 # body-functions
 2 V respirare {respirare} [respiˈraːre] = dýchať
@@ -162,6 +171,51 @@
 3 V vegliare {vegliare} [veˈʎːaːre] = bdieť
 2 V stare sveglio {stare sveglio} [ˈstaːre ˈzveʎːo], irr, essere = bdieť
 2 V addormentare {addormentare} [adːormenˈtaːre] = uspať
+2 N il brivido {brivido} [ˈbriːvido], brividi = chvenie
+3 N il tremito {tremito} [ˈtrɛːmito], tremiti = chvenie
+2 V pulsare {pulsare} [pulˈsaːre] = pulzovať
+3 V palpitare {palpitare} [palpiˈtaːre] = pulzovať
+2 V ubriacarsi {ubriacarsi} [ubriaˈkarsi] = opiť sa
+3 V sbronzarsi {sbronzarsi} [zbronˈdzarsi] = opiť sa
+2 V scopare {scopare} [skoˈpaːre] = súložiť
+3 V copulare {copulare} [kopuˈlaːre] = súložiť
+2 V fare l'amore {fare l'amore} [ˈfaːre laˈmoːre], irr, fatto = súložiť
+3 V eiaculare {eiaculare} [ejakuˈlaːre] = vystriekať sa
+2 V masturbarsi {masturbarsi} [masturˈbarsi] = honiť si
+3 V segarsi {segarsi} [seˈɡarsi] = honiť si
+2 N la merda {merda} [ˈmɛrda], merde = hovno
+2 N la cacca {cacca} [ˈkakːa], cacche = hovno
+2 V singhiozzare {singhiozzare} [siŋɡjotˈtsaːre] = vzlykať
+3 V piagnucolare {piagnucolare} [pjaɲɲukoˈlaːre] = vzlykať
+2 V sbuffare {sbuffare} [zbuˈfːaːre] = prskať
+3 V sputacchiare {sputacchiare} [sputaˈkːjaːre] = prskať
+2 V gonfiare {gonfiare} [ɡonˈfjaːre] = nadúvať
+3 V trasudare {trasudare} [trasuˈdaːre] = vypotiť
+2 V sudare {sudare} [suˈdaːre] = vypotiť
+3 V inzuppare di sudore {inzuppare di sudore} [indzuˈpːaːre di suˈdoːre] = prepotiť
+3 N l'inspirazione (f) {inspirazione} [inspiratˈtsjoːne], inspirazioni = vdych
+3 N l'espirazione (f) {espirazione} [espiratˈtsjoːne], espirazioni = výdych
+2 N il pisolino {pisolino} [pizoˈliːno], pisolini = zdriemnutie
+3 N il sonnellino {sonnellino} [sonːeˈlːiːno], sonnellini = zdriemnutie
+3 N la sonnolenza {sonnolenza} [sonːoˈlɛntsa], sonnolenze = ospalosť
+2 N lo sbadiglio {sbadiglio} [zbaˈdiʎʎo], sbadigli = zívnutie
+2 V addentare {addentare} [adːenˈtaːre] = nahryznúť
+2 V rompere coi denti {rompere coi denti} [ˈrompere koi ˈdɛnti], irr, rotto = rozhryznúť
+3 V sgranocchiare {sgranocchiare} [zɡranoˈkːjaːre] = rozhryznúť
+1 V mordere {mordere} [ˈmɔrdere], irr, morso = zahryznúť
+3 V azzannare {azzannare} [attsaˈnːaːre] = zahryznúť
+2 V mostrare i denti {mostrare i denti} [moˈstraːre i ˈdɛnti] = ceriť
+3 V schioccare le labbra {schioccare le labbra} [skjoˈkːaːre le ˈlabːra] = mľaskať
+2 V ruttare {ruttare} [ruˈtːaːre] = grgať
+2 V sfogarsi piangendo {sfogarsi piangendo} [sfoˈɡarsi pjanˈdʒɛndo] = vyplakať sa
+2 V andare di traverso {andare di traverso} [anˈdaːre di traˈvɛrso], irr, essere = zabehnúť
+3 V schiarirsi la gola {schiarirsi la gola} [skjaˈrirsi la ˈɡoːla], isc = odkašľať si
+3 V raschiarsi la gola {raschiarsi la gola} [raˈskjarsi la ˈɡoːla] = odkašľať si
+3 V tossicchiare {tossicchiare} [tosiˈkːjaːre] = pokašliavať
+1 V soffiarsi il naso {soffiarsi il naso} [soˈfːjarsi il ˈnaːzo] = smrkať
+2 V tirare su col naso {tirare su col naso} [tiˈraːre su kol ˈnaːzo] = smrkať
+2 V scoreggiare {scoreggiare} [skorːedˈdʒaːre] = prdnúť
+3 N l'enzima (m) {enzima} [enˈdziːma], enzimi = enzým
 
 # nourishment
 1 V mangiare {mangiare} [manˈdʒaːre] = jesť
@@ -200,11 +254,33 @@
 3 V rodere {rodere} [ˈroːdere], roso = hlodať
 3 V sgranocchiare {sgranocchiare} [zɡranoˈkːjaːre] = chrúmať
 3 N la sazietà {sazietà} [satsjeˈta], - = sýtosť
+2 V abbuffarsi {abbuffarsi} [abːuˈfːarsi] = prejesť sa
+3 V rimpinzarsi {rimpinzarsi} [rimpinˈtsarsi] = prejesť sa
+1 V mangiare troppo {mangiare troppo} [manˈdʒaːre ˈtropːo] = prejesť sa
+3 V banchettare {banchettare} [baŋkeˈtːaːre] = hodovať
+3 V gozzovigliare {gozzovigliare} [ɡottsoviʎˈʎaːre] = hodovať
+3 V ingozzarsi {ingozzarsi} [inɡotˈtsarsi] = napchávať sa
+3 V rimpinzarsi {rimpinzarsi} [rimpinˈtsarsi] = napchávať sa
+3 V spizzicare {spizzicare} [spittsiˈkaːre] = maškrtiť
+3 V piluccare {piluccare} [piluˈkːaːre] = maškrtiť
+3 V ristorare {ristorare} [ristoˈraːre] = občerstviť
+2 V rinfrescare {rinfrescare} [rinfreˈskaːre] = občerstviť
+3 V rifocillare {rifocillare} [rifotʃiˈlːaːre] = občerstviť
+3 N il buongustaio {buongustaio} [bwoŋɡuˈstaːjo], buongustai = labužník
+3 N il ghiottone {ghiottone} [ɡjoˈtːoːne], ghiottoni = labužník
+2 V bere un sorso {bere un sorso} [ˈbeːre un ˈsorso], irr = odpiť
+3 V sorseggiare {sorseggiare} [sorseˈddʒaːre] = odpiť
+2 V ingrassare {ingrassare} [inɡraˈsːaːre] = vykrmovať
+3 V ingozzare {ingozzare} [inɡotˈtsaːre] = vykrmovať
+2 V leccare {leccare} [leˈkːaːre] = vylízať
+2 V succhiare {succhiare} [suˈkːjaːre] = cmúľať
 
 # senses-instinct
 2 N l'istinto (m) {istinto} [isˈtinto], istinti = inštinkt
 2 AN istintivo {istintivo} [istinˈtiːvo], istintiva = inštinktívny
 2 N il riflesso {riflesso} [riˈflɛsːo], riflessi = reflex
+2 V stordire {stordire} [storˈdiːre], isc = omámiť
+3 V inebriare {inebriare} [inebriˈaːre] = omámiť
 
 # growth-adaptation
 3 N la pubertà {pubertà} [puberˈta], pubertà = puberta
@@ -220,6 +296,16 @@
 3 V perire {perire} [peˈriːre], isc, essere = uhynúť
 2 V svanire {svanire} [zvaˈniːre], isc, essere = vyprchať
 3 V evaporarsi {evaporarsi} [evapoˈrarsi] = vyprchať
+3 V saldarsi {saldarsi} [salˈdarsi] = zrásť
+2 V unirsi {unirsi} [uˈnirsi], isc = zrásť
+2 V ricrescere {ricrescere} [riˈkreʃːere], irr, ricresciuto, essere = dorásť
+3 V proliferare {proliferare} [prolifeˈraːre] = rozrastať sa
+3 V dilagare {dilagare} [dilaˈɡaːre] = rozrastať sa
+2 V fecondare {fecondare} [fekonˈdaːre] = oplodniť
+3 V inseminare {inseminare} [insemiˈnaːre] = oplodniť
+3 V deperire {deperire} [depeˈriːre], isc, essere = chradnúť
+3 V languire {languire} [laŋˈɡwiːre], isc = chradnúť
+2 N la mutazione {mutazione} [mutatˈtsjoːne], mutazioni = mutácia
 
 # more
 3 N l'ecosistema (m) {ecosistema} [ekosisˈtɛːma], ecosistemi = ekosystém

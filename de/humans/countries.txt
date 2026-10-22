@@ -134,6 +134,7 @@
 - 3 AN estnisch {estnisch} [ˈeːstnɪʃ] = estónsky
 - 3 N der Este {Este} [ˈeːstə], Esten = Estónec
 - 3 N die Estin {Estin} [ˈeːstɪn], Estinnen = Estónka
+2 AN schottisch {schottisch} [ˈʃɔtɪʃ] = škótsky
 
 # world
 1 N die USA {USA} [uːɛsˈaː], PL = USA, Spojené štáty

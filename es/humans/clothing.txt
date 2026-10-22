@@ -55,6 +55,15 @@
 3 N el corsé {corsé} [koɾˈse], corsés = korzet
 2 N el pañal {pañal} [paˈɲal], pañales = plienka
 3 N el traje típico {traje típico} [ˈtɾaxe ˈtipiko], trajes típicos = ľudový odev
+2 N la americana {americana} [ameɾiˈkana], americanas = sako
+2 N el disfraz {disfraz} [disˈfɾaθ], disfraces = prestrojenie
+3 N la vestidura {vestidura} [bestiˈðuɾa], vestiduras = rúcho
+2 N los calzoncillos {calzoncillos} [kalθonˈθiʎos], PL = slipy
+2 N las bragas {bragas} [ˈbɾaɣas], PL = nohavičky
+3 N el liguero {liguero} [liˈɣeɾo], ligueros = podväzkový pás
+3 N el esmoquin {esmoquin} [esˈmokin], esmóquines = smoking
+3 N el mono de trabajo {mono de trabajo} [ˈmono de tɾaˈβaxo], monos de trabajo = pracovný odev
+3 N el abrigo de piel {abrigo de piel} [aˈβɾiɣo de pjel], abrigos de piel = kožuch
 
 # footwear-accessories
 1 N el zapato {zapato} [θaˈpato], zapatos = topánka
@@ -85,6 +94,12 @@
 1 N el paraguas {paraguas} [paˈɾaɣwas], paraguas = dáždnik
 2 N la cartera {cartera} [kaɾˈteɾa], carteras = peňaženka
 2 N el monedero {monedero} [moneˈðeɾo], monederos = peňaženka
+3 N el calzador {calzador} [kalθaˈðoɾ], calzadores = obuvák
+3 N los zapatos de salón {zapatos de salón} [θaˈpatos de saˈlon], PL = lodičky
+2 N el tacón {tacón} [taˈkon], tacones = podpätok
+2 N las chanclas {chanclas} [ˈtʃaŋklas], PL = žabky
+3 N el chambergo {chambergo} [tʃamˈbeɾɣo], chambergos = klobúk
+3 N la pamela {pamela} [paˈmela], pamelas = klobúk
 
 # parts-fasteners
 1 N la bolsa {bolsa} [ˈbolsa], bolsas = taška
@@ -106,6 +121,12 @@
 2 N el parche {parche} [ˈpaɾtʃe], parches = záplata
 2 V desabrochar {des|abrochar} [desaβɾoˈtʃaɾ] = rozopnúť
 3 V desabotonar {des|abotonar} [desaβotoˈnaɾ] = rozopnúť
+3 N la bragueta {bragueta} [bɾaˈɣeta], braguetas = rázporok
+2 N el lazo {lazo} [ˈlaθo], lazos = mašľa
+3 N el escote {escote} [esˈkote], escotes = dekolt
+3 N el fleco {fleco} [ˈfleko], flecos = strapec
+3 N el forro {forro} [ˈforo], forros = podšívka
+2 N el bolsillo {bolsillo} [bolˈsiʎo], bolsillos = vrecko na oblečení
 
 # materials-making
 2 N la tela {tela} [ˈtela], telas = látka
@@ -153,6 +174,19 @@
 3 V confeccionar {confeccionar} [komfekθjoˈnaɾ] = krajčíriť
 3 N el dedal {dedal} [deˈðal], dedales = náprstok
 3 N el maniquí {maniquí} [maniˈki], maniquíes = výkladná figurína
+3 N el retal {retal} [reˈtal], retales = ústrižok
+3 N el ovillo {ovillo} [oˈβiʎo], ovillos = klbko
+3 N el huso {huso} [ˈuso], husos = vreteno
+3 V descoser {descoser} [deskoˈseɾ] = párať
+2 V coser {coser} [koˈseɾ] = zašiť
+2 V coser {coser} [koˈseɾ] = prišiť
+3 V deshilacharse {deshilacharse} [desilaˈtʃaɾse] = strapkať sa
+3 N el harapo {harapo} [aˈɾapo], harapos = zdrap
+3 N la hebra {hebra} [ˈeβɾa], hebras = vlákno
+3 V urdir {urdir} [uɾˈðiɾ] = snovať
+3 V ensartar {ensartar} [ensaɾˈtaɾ] = navliecť
+3 N el peluche {peluche} [peˈlutʃe], peluches = plyš
+3 N la pelotilla {pelotilla} [peloˈtiʎa], pelotillas = žmolok
 
 # wearing-jewelry
 1 V quedar {quedar} [keˈðaɾ] (bien, a) = pasovať
@@ -182,3 +216,7 @@
 2 V disfrazar {disfrazar} [disfɾaˈθaɾ] = maskovať
 3 V enmascarar {enmascarar} [emmaskaˈɾaɾ] = maskovať
 2 AN vestido {vestido} [besˈtiðo], vestida = oblečený
+2 V llevar puesto {llevar puesto} [ʎeˈβaɾ ˈpwesto] = mať oblečené
+3 V ataviarse {ataviarse} [ataˈβjaɾse], i>í = vyobliekať sa
+2 N el maquillaje {maquillaje} [makiˈʎaxe], maquillajes = líčenie
+3 N la sortija {sortija} [soɾˈtixa], sortijas = prsteň

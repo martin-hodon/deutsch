@@ -41,6 +41,13 @@
 3 N reef {reef} [riːf], reefs = útes (morský)
 3 N fjord {fjord} [ˈfjɔːd], fjords = fjord
 3 N geyser {geyser} [ˈɡiːzə], geysers = gejzír
+3 AN flowing {flow|ing} [ˈfləʊɪŋ] = tečúci
+3 AN running {run|ning} [ˈrʌnɪŋ] = tečúci
+3 V flow away {flow·away} [fləʊ əˈweɪ] = odtekať
+3 V drain away {drain·away} [dreɪn əˈweɪ] = odtekať
+3 V flow in {flow·in} [fləʊ ˈɪn] (into) = vtekať
+3 V overflow {over|flow} [ˌəʊvəˈfləʊ] = pretiecť
+3 V spread out {spread·out} [spred ˈaʊt], spread out/spread out = roztiecť sa
 # water-features
 2 N wave {wave} [weɪv], waves = vlna
 2 N wool {wool} [wʊl], - = vlna
@@ -93,6 +100,10 @@
 3 V slosh {slosh} [slɒʃ] = špliechať
 3 N drip {drip} [drɪp], drips = kvapka
 3 N flow {flow} [fləʊ], flows = prúdenie
+3 N immersion {immersion} [ɪˈmɜːʃən], - = ponorenie
+3 N dip {dip} [dɪp], dips = ponorenie
+3 N meander {meander} [miˈændə], meanders = meander
+3 N ford {ford} [fɔːd], fords = brod
 # water-land-edge
 2 N shore {shore} [ʃɔː], shores = breh
 2 N riverbank {river|bank} [ˈrɪvəbæŋk], riverbanks = breh rieky
@@ -103,3 +114,5 @@
 3 N cape {cape} [keɪp], capes = mys
 2 N swimming pool {swimming pool} [ˈswɪmɪŋ puːl], swimming pools = bazén
 1 N ice cream {ice cream} [ˌaɪs ˈkriːm], ice creams = zmrzlina
+3 N archipelago {archipelago} [ˌɑːkɪˈpeləɡəʊ], archipelagos = súostrovie
+3 N spit {spit} [spɪt], spits = pobrežná kosa

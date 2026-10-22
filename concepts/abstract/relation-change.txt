@@ -256,12 +256,21 @@ V postriekať
 V strojnásobiť
 V skolabovať
 V vyznať sa
+V zavŕšiť
+V striedať sa
+V prasknúť
+N únik -- otvor, ktorým niečo uniká
+V viaznuť
+V vkradnúť sa -- o chybe: neúmyselne sa stať
+N šťastná náhoda
+V zmeniť sa
 
 # relations
 AN rovnaký : adverb rovnako
 N rovnosť
 AN ľahostajný : adverb ľahostajne
 V podobať sa
+V líšiť sa
 AN nerovnaký : adverb nerovnako
 V vyrovnať
 N rozdiel (odlišnosť)
@@ -479,6 +488,8 @@ V pripojiť sa
 V zhodnotiť
 V zhodovať sa
 V patriť k tomu
+AN zahrnutý
+N zlatý klinec -- hlavný bod, lákadlo
 
 # transfer-basic-verbs
 V dať
@@ -569,6 +580,7 @@ V vyzdvihnúť
 V dohnať
 V dobehnúť
 V vytiahnuť
+N odobratie -- odňatie, odobratie
 
 # action-and-use
 N akcia (činnosť)
@@ -873,6 +885,8 @@ V vzdialiť sa
 V taktovať
 V pokaziť
 V nepochopiť
+V postupovať
+V odvrátiť -- zabrániť hrozbe
 
 # change
 V prejaviť
@@ -891,6 +905,17 @@ V parafrázovať
 N vysielanie
 V obložiť
 V obviazať
+N pozmenenie
+N stvorenie -- vytvorenie, čin tvorenia
+V rozpadať sa
+V zlomiť
+V natrhnúť -- trhnutím porušiť
+V krčiť
+V odopnúť
+V pripútať
+N rozklad -- rozdelenie na časti
+V zohyzdiť
+AN stagnujúci -- ktorý stagnuje
 
 # more
 AN ďalší

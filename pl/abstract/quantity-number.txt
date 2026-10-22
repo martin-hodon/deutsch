@@ -71,6 +71,8 @@
 3 AV potrójnie {potrójnie} [pɔˈtrujɲɛ] = trojnásobne
 3 AV czterokrotnie {czterokrotnie} [tʂtɛrɔˈkrɔtɲɛ] = štvornásobne
 3 AV stuprocentowo {stuprocentowo} [stuprɔtsɛnˈtɔvɔ] = stopercentne
+2 N ułamek {ułamek} [uˈwamɛk], m, ułamki = zlomok
+2 AV ostatecznie {ostatecznie} [ɔstaˈtɛtʂɲɛ] = napokon
 
 # amount
 1 AN dużo {dużo} [ˈduʐɔ] = veľa
@@ -190,6 +192,10 @@
 1 AV łącznie {łącznie} [ˈwɔntʂɲɛ] = celkovo
 3 N wartość minimalna {wartość minimalna} [ˈvartɔɕtɕ mʲiɲiˈmalna], ż, wartości minimalne = minimálna hodnota
 2 V rozwiązywać {roz|wiązywać} [rɔzvʲɔ̃ˈzɨvatɕ], rozwiązać (B) = rozviazať
+2 AV na wpół {na wpół} [na fpuw] = napoly
+2 AV do syta {do syta} [dɔ ˈsɨta] = dosýta
+2 N gromadzenie {gromadzenie} [ɡrɔmaˈdzɛɲɛ], n, gromadzenia = hromadenie
+2 AN zbyteczny {zbyteczny} [zbɨˈtɛtʂnɨ] = prebytočný
 
 # counting-measuring
 1 N liczba {liczba} [ˈlidʐba], ż, liczby = číslo (matematické)
@@ -244,6 +250,18 @@
 3 AV ilościowo {ilościowo} [ilɔɕˈtɕɔvɔ] = kvantitatívne
 2 AV maksymalnie {maksymalnie} [maksɨˈmalɲɛ] = maximálne
 2 N mianownik {mianownik} [mʲaˈnɔvɲik], m, mianowniki = menovateľ
+2 V równoważyć {równo|ważyć} [ruvnɔˈvaʐɨtɕ], zrównoważyć (B) = vyvážiť
+2 N liczba pierwsza {liczba pierwsza} [ˈlidʐba ˈpʲɛrfʂa], ż, liczby pierwsze = prvočíslo
+2 N potęga {potęga} [pɔˈtɛŋɡa], ż, potęgi = mocnina
+3 N składnik {składnik} [ˈskwadɲik], m, składniki = sčítanec
+2 V odejmować {od|ejmować} [ɔdɛjˈmɔvatɕ], odjąć (B) = odčítať
+3 N odjemna {odjemna} [ɔdˈjɛmna], ż, odjemne = menšenec
+3 N odjemnik {odjemnik} [ɔdˈjɛmɲik], m, odjemniki = menšiteľ
+3 N dzielna {dzielna} [ˈdʑɛlna], ż, dzielne = delenec
+3 N dzielnik {dzielnik} [ˈdʑɛlɲik], m, dzielniki = deliteľ
+2 N kawał {kawał} [ˈkavaw], m, kawały = kus
 
 # more
 3 N bilion {bilion} [ˈbʲiljɔn], m, biliony = bilión
+3 N podzbiór {pod|zbiór} [ˈpɔdzbʲur], m, podzbiory = podmnožina
+3 N nadzbiór {nad|zbiór} [ˈnadzbʲur], m, nadzbiory = nadmnožina

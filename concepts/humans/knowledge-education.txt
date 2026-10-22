@@ -112,6 +112,11 @@ V senzibilizovať
 V získať doktorát
 V odpisovať
 V vytriediť
+N strúhadlo na ceruzky -- na ostrenie ceruziek
+N školská lavica -- stôl žiaka
+N kružidlo -- na kreslenie kružníc
+V zostať po škole -- ako trest po vyučovaní
+N čítanka -- školská kniha textov
 
 # knowledge-science
 N veda
@@ -227,3 +232,6 @@ N archív
 V archivovať
 N ústav
 N tabuľka
+N diel (knihy) -- časť viacdielneho diela
+N hárok -- list papiera
+N skúmavka -- sklenená trubica v laboratóriu

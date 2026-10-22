@@ -4,3 +4,11 @@
 1 V müssen {müssen} [ˈmʏsən], muss/musste/gemusst [mʊs/ˈmʊstə/ɡəˈmʊst], hat = musieť
 1 V sollen {sollen} [ˈzɔlən], soll/sollte/gesollt [zɔl/ˈzɔltə/ɡəˈzɔlt], hat = mať (povinnosť), mal by
 1 V dürfen {dürfen} [ˈdʏʁfən], darf/durfte/gedurft [daʁf/ˈdʊʁftə/ɡəˈdʊʁft], hat = smieť, môcť
+
+# language-specific closed words (no Slovak word: a description)
+2 V wegnehmen {weg·nehmen} [ˈvɛkneːmən], nimmt weg/nahm weg/weggenommen [nɪmt vɛk/naːm vɛk/ˈvɛkɡənɔmən], hat (A) = odniesť
+3 V sich befreunden {sich be|freunden} [zɪç bəˈfʁɔʏndən], hat (mit D) = spriateliť sa
+3 V witzeln {witzeln} [ˈvɪtsəln], hat (über A) = žartovať
+3 V scherzen {scherzen} [ˈʃɛʁtsən], hat (über A) = žartovať
+3 V spaßen {spaßen} [ˈʃpaːsən], hat = žartovať
+1 V geboren werden {geboren werden} [ɡəˈboːʁən ˈveːɐdən], ist = narodiť sa

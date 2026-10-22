@@ -100,6 +100,19 @@
 3 N il cluster {cluster} [ˈklaster], cluster = zhluk
 1 N la figura {figura} [fiˈɡuːra], figure = postava
 2 N la corporatura {corporatura} [korporaˈtuːra], corporature = postava
+3 N il lembo {lembo} [ˈlembo], lembi = cíp
+3 N il trapezio {trapezio} [traˈpɛːtsjo], trapezi = lichobežník
+3 N il rombo {rombo} [ˈrombo], rombi = kosoštvorec
+3 N l'ellisse (f) {ellisse} [eˈlːisːe], ellissi = elipsa
+3 N il parallelepipedo {parallelepipedo} [paralːeleˈpiːpedo], parallelepipedi = kváder
+2 N la piramide (f) {piramide} [piˈraːmide], piramidi = ihlan
+3 N l'occhiello (m) {occhiello} [okˈkjɛlːo], occhielli = pútko
+3 N il romboide (m) {romboide} [romˈbɔːide], romboidi = kosodĺžnik
+3 V inarcarsi {inarcarsi} [inarˈkarsi] = klenúť sa
+2 AN teso {teso} [ˈteːzo], tesa = natiahnutý
+3 N la circonferenza circoscritta {circonferenza circoscritta} [tʃirkonfeˈrɛntsa tʃirkoˈskritːa], circonferenze circoscritte = opísaná kružnica
+3 N la circonferenza inscritta {circonferenza inscritta} [tʃirkonfeˈrɛntsa inˈskritːa], circonferenze inscritte = vpísaná kružnica
+2 N l'anello (m) {anello} [aˈnɛlːo], anelli = krúžok
 
 # form-properties
 2 AN rotondo {rotondo} [roˈtondo], rotonda = okrúhly
@@ -211,3 +224,8 @@
 3 N l'ottusità (f) {ottusità} [otːuziˈta], - = tuposť
 2 N l'asimmetria (f) {a|simmetria} [asimːeˈtriːa], asimmetrie = asymetria
 1 N la curva {curva} [ˈkurva], curve = krivka
+3 AN attillato {attillato} [atːiˈlːaːto], attillata = priliehavý
+2 N la superficie (f) {superficie} [superˈfiːtʃe], superfici = rozloha
+2 N l'estensione (f) {estensione} [estenˈsjoːne], estensioni = rozloha
+1 V piegare {piegare} [pjeˈɡaːre] = prehnúť
+2 N la piega (f) {piega} [ˈpjɛːɡa], pieghe = záhyb

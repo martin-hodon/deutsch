@@ -53,6 +53,16 @@
 3 N le corset {corset} [kɔʁˈsɛ], corsets = korzet
 2 N la couche {couche} [kuʃ], couches = plienka
 3 N le costume traditionnel {costume traditionnel} [kɔsˈtym tʁadisjɔˈnɛl], costumes traditionnels = ľudový odev
+3 N le veston {veston} [vɛsˈtɔ̃], vestons = sako
+2 N le déguisement {déguise|ment} [deɡizˈmɑ̃], déguisements = prestrojenie
+2 N la robe {robe} [ʁɔb], robes = rúcho
+2 N le slip {slip} [slip], slips = slipy
+2 N la culotte {culotte} [kyˈlɔt], culottes = nohavičky
+3 N le porte-jarretelles {porte-|jarretelles} [pɔʁtʒaʁˈtɛl], porte-jarretelles = podväzkový pás
+2 N le smoking {smoking} [smɔˈkiŋ], smokings = smoking
+3 N la tenue de travail {tenue de travail} [təny də tʁaˈvaj], tenues de travail = pracovný odev
+3 N le bleu de travail {bleu de travail} [blø də tʁaˈvaj], bleus de travail = pracovný odev
+3 N la pelisse {pelisse} [pəˈlis], pelisses = kožuch
 
 # footwear-accessories
 1 N la chaussure {chaussure} [ʃoˈsyʁ], chaussures = topánka
@@ -82,6 +92,11 @@
 1 N le parapluie {parapluie} [paʁaˈplɥi], parapluies = dáždnik
 2 N le portefeuille {portefeuille} [pɔʁtəˈfœj], portefeuilles = peňaženka
 2 N le porte-monnaie {porte-monnaie} [pɔʁtmɔˈnɛ], porte-monnaie = peňaženka
+3 N le chausse-pied {chausse-|pied} [ʃosˈpje], chausse-pieds = obuvák
+3 N l'escarpin (m) {escarpin} [ɛskaʁˈpɛ̃], escarpins = lodičky
+2 N le talon {talon} [taˈlɔ̃], talons = podpätok
+2 N la tong {tong} [tɔ̃g], tongs = žabky
+3 N le diadème {dia|dème} [djaˈdɛm], diadèmes = čelenka
 
 # parts-fasteners
 1 N le sac {sac} [sak], sacs = taška
@@ -102,6 +117,12 @@
 2 N la boucle {boucle} [bukl], boucles = spona
 2 N la pièce {pièce} [pjɛs], pièces = záplata
 2 V déboutonner {dé|boutonner} [debutɔˈne] (qch) = rozopnúť
+3 N la braguette {braguette} [bʁaˈɡɛt], braguettes = rázporok
+2 N le nœud {nœud} [nø], nœuds = mašľa
+3 N le décolleté {décolleté} [dekɔlˈte], décolletés = dekolt
+3 N le gland {gland} [glɑ̃], glands = strapec
+3 N la doublure {doublure} [duˈblyʁ], doublures = podšívka
+2 N la poche {poche} [pɔʃ], poches = vrecko na oblečení
 
 # materials-making
 1 N le tissu {tissu} [tiˈsy], tissus = látka
@@ -150,6 +171,19 @@
 3 V confectionner {confectionner} [kɔ̃fɛksjɔˈne] (qch) = krajčíriť
 3 N le dé à coudre {dé à coudre} [de a kudʁ], dés à coudre = náprstok
 3 N le mannequin {mannequin} [manˈkɛ̃], mannequins = výkladná figurína
+3 N le coupon {coupon} [kuˈpɔ̃], coupons = ústrižok
+3 N la pelote {pelote} [pəˈlɔt], pelotes = klbko
+3 N le fuseau {fuseau} [fyˈzo], fuseaux = vreteno
+3 V découdre {dé|coudre} [deˈkudʁ], irr, décousu = párať
+3 V recoudre {re|coudre} [ʁəˈkudʁ], irr, recousu = zašiť
+2 V coudre {coudre} [ˈkudʁ], irr, cousu = prišiť
+3 V s'effilocher {s'effilocher} [sefilɔˈʃe] = strapkať sa
+3 N le lambeau {lambeau} [lɑ̃ˈbo], lambeaux = zdrap
+2 N la fibre {fibre} [fibʁ], fibres = vlákno
+3 V ourdir {ourdir} [uʁˈdiʁ] = snovať
+2 V enfiler {enfiler} [ɑ̃fiˈle] = navliecť
+3 N la peluche {peluche} [pəˈlyʃ], peluches = plyš
+3 N la bouloche {bouloche} [buˈlɔʃ], bouloches = žmolok
 
 # wearing-jewelry
 1 V aller bien {aller bien} [aˈle bjɛ̃] = pasovať
@@ -179,3 +213,6 @@
 2 V déguiser {déguiser} [deɡiˈze] (qn) = maskovať
 2 AV élégamment {élég|amment} [eleɡaˈmɑ̃] = elegantne
 1 AN habillé {habillé} [abiˈje], habillée = oblečený
+1 V porter {porter} [pɔʁˈte] = mať oblečené
+3 V se parer {se parer} [sə paˈʁe] = vyobliekať sa
+2 N le maquillage {maquill|age} [makiˈjaʒ], maquillages = líčenie

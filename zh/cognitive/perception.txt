@@ -21,6 +21,7 @@
 3 N 名胜 {名胜} [míngshèng], 处 = pamätihodnosť
 2 AN 值得一看 {值得一看} [zhídé yī kàn] = stojaci za videnie
 1 V 看 {看} [kàn] = pozerať sa
+3 V 望 {望} [wàng] = pozerať sa
 1 V 观看 {观看} [guānkàn] = prizerať
 3 V 旁观 {旁观} [pángguān] = prizerať
 3 V 探头 {探|头} [tàntóu] = nakuknúť
@@ -66,6 +67,7 @@
 3 V 失踪 {失踪} [shīzōng] = zmiznúť
 2 V 藏 {藏} [cáng] = ukryť
 2 V 隐藏 {隐藏} [yǐncáng] = ukryť
+2 V 躲 {躲} [duǒ] = ukryť
 3 N 藏身处 {藏身处} [cángshēnchù], 个 = skrýša
 3 N 隐蔽处 {隐蔽处} [yǐnbìchù], 个 = skrýša
 3 V 揭露 {揭露} [jiēlù] = odhaliť
@@ -124,6 +126,13 @@
 2 V 注视 {注视} [zhùshì] = pozorovať
 2 V 不见 {不见} [bùjiàn] = zmiznúť
 3 N 失明 {失明} [shīmíng], - = slepota
+3 V 瞥 {瞥} [piē] = mrknúť sa
+3 V 瞄 {瞄} [miáo] = mrknúť sa
+2 V 抬头 {抬|头} [táitóu] = vzhliadnuť
+3 V 仰望 {仰望} [yǎngwàng] = vzhliadnuť
+3 V 使失明 {使失明} [shǐ shīmíng] = oslepiť
+3 V 致盲 {致盲} [zhìmáng] = oslepiť
+3 V 消 {消} [xiāo] = zmiznúť
 
 # hearing
 1 V 听见 {听见} [tīngjiàn] = počuť
@@ -161,6 +170,7 @@
 3 V 嗅 {嗅} [xiù] = čuchať
 3 N 气味 {气味} [qìwèi], 股 = pach
 1 N 味道 {味道} [wèidao], 股 = pach
+2 N 味 {味} [wèi], 股 = pach
 3 N 香味 {香味} [xiāngwèi], 股 = vôňa
 3 N 香气 {香气} [xiāngqì], 股 = vôňa
 1 V 闻起来 {闻起来} [wénqǐlai] = voňať
@@ -226,6 +236,19 @@
 2 N 臭味 {臭味} [chòuwèi], 股 = zápach
 3 N 臭气 {臭气} [chòuqì], 股 = zápach
 3 N 异味 {异味} [yìwèi], 股 = zápach
+3 N 刺痛 {刺痛} [cìtòng], - = štípanie
+3 N 灼痛 {灼痛} [zhuótòng], - = štípanie
+3 V 刺痛 {刺痛} [cìtòng] = štípať
+3 V 灼痛 {灼痛} [zhuótòng] = štípať
+3 N 瘙痒 {瘙痒} [sàoyǎng], - = svrbenie
+3 N 痒感 {痒感} [yǎnggǎn], - = svrbenie
+2 N 甜味 {甜味} [tiánwèi], - = sladkosť chuti
+3 N 甜度 {甜度} [tiándù], - = sladkosť chuti
+2 N 嗅觉 {嗅觉} [xiùjué], - = čuch
+2 N 触觉 {触觉} [chùjué], - = hmat
+2 AN 发霉 {发|霉} [fāméi] = zatuchnutý
+3 AN 有霉味 {有霉味} [yǒu méiwèi] = zatuchnutý
+3 N 胡说 {胡说} [húshuō], - = nezmysel
 
 # colors
 1 N 颜色 {颜色} [yánsè], 种 = farba
@@ -297,3 +320,16 @@
 3 AN 米色 {米色} [mǐsè] = béžový
 3 AN 米黄色 {米黄色} [mǐhuángsè] = béžový
 2 AN 黑白 {黑白} [hēibái] = čiernobiely
+3 AN 湛蓝 {湛蓝} [zhànlán] = azúrový
+3 AN 蔚蓝 {蔚蓝} [wèilán] = azúrový
+3 N 色泽 {色泽} [sèzé], - = zafarbenie
+3 N 色调 {色调} [sèdiào], 个 = zafarbenie
+2 V 发白 {发白} [fābái] = zblednúť
+3 V 变苍白 {变苍白} [biàn cāngbái] = zblednúť
+3 V 脱色 {脱|色} [tuōsè] = odfarbiť
+3 V 漂白 {漂白} [piǎobái] = odfarbiť
+3 V 改染 {改染} [gǎirǎn] = prefarbiť
+3 V 重染 {重染} [chóngrǎn] = prefarbiť
+3 AN 染色 {染色} [rǎnsè] = zafarbený
+3 AN 着色 {着色} [zhuósè] = zafarbený
+3 AN 红彤彤 {红彤彤} [hóngtōngtōng] = červený

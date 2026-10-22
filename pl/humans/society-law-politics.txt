@@ -148,6 +148,12 @@
 2 AV uczciwie {uczciwie} [uˈtʂtɕivʲɛ] = čestne
 2 N głos za {głos za} [ɡwɔs za], m, głosy za = hlas za
 2 V imigrować {imigrować} [imʲiˈɡrɔvatɕ], - = imigrovať
+3 N dama dworu {dama dworu} [ˈdama ˈdvɔru], ż, damy dworu = dvorná dáma
+3 N pańszczyźniak {pańszczyźniak} [paɲʂˈtʂɨʑɲak], m, pańszczyźniacy = nevoľník
+2 N niewolnik {nie|wolnik} [ɲɛˈvɔlɲik], m, niewolnicy = nevoľník
+3 N pokojówka {pokojówka} [pɔkɔˈjufka], ż, pokojówki = komorná
+2 N służba {służba} [ˈswuʐba], ż, służby = služobníctvo
+3 V inaugurować {inaugurować} [inauɡuˈrɔvatɕ], zainaugurować (B) = inaugurovať
 
 # state-politics
 1 N państwo {państwo} [ˈpaɲstfɔ], n, państwa = štát
@@ -549,6 +555,16 @@
 3 AN bezprzemocowy {bez|przemocowy} [bɛspʂɛmɔˈtsɔvɨ] = nenásilný
 3 N poddany {poddany} [pɔdˈdanɨ], m, poddani = poddaný
 3 V demobilizować {demobilizować} [dɛmɔbʲiliˈzɔvatɕ], zdemobilizować (B) = demobilizovať
+3 N wysokość {wysokość} [vɨˈsɔkɔɕtɕ], ż, wysokości = výsosť
+2 N dynastia {dynastia} [dɨˈnastja], ż, dynastie = dynastia
+2 N książę {książę} [ˈkɕɔ̃ʐɛ], m, książęta = knieža
+2 N hrabia {hrabia} [ˈxrabʲa], m, hrabiowie = gróf
+3 N berło {berło} [ˈbɛrwɔ], n, berła = žezlo
+2 N herb {herb} [xɛrp], m, herby = erb
+3 N państwo opiekuńcze {państwo opiekuńcze} [ˈpaɲstfɔ ɔpʲɛˈkuɲtʂɛ], n, państwa opiekuńcze = sociálny štát
+3 N abdykacja {abdykacja} [abdɨˈkatsja], ż, abdykacje = abdikácia
+3 N konfederacja {konfederacja} [kɔnfɛdɛˈratsja], ż, konfederacje = konfederácia
+2 N wysłannik {wy|słannik} [vɨsˈwanɲik], m, wysłannicy = vyslanec
 
 # law-justice
 1 N prawo {prawo} [ˈpravɔ], n, prawa = zákon
@@ -844,10 +860,67 @@
 3 AV poufnie {poufnie} [pɔˈufɲɛ] = dôverne
 2 N obrona {obrona} [ɔˈbrɔna], ż, obrony = obhajoba
 2 V zatwierdzać {zatwierdzać} [zaˈtfʲɛrdzatɕ], zatwierdzić (B) = schváliť
+3 AN spiskowy {spiskowy} [spʲisˈkɔvɨ] = sprisahanecký
+3 V kneblować {kneblować} [knɛˈblɔvatɕ], zakneblować (B) = zakneblovať
+3 N kajdany {kajdany} [kajˈdanɨ], lm, kajdany = putá
+2 N kajdanki {kajdanki} [kajˈdaŋki], lm, kajdanki = putá
+2 N kat {kat} [kat], m, kaci = kat
+3 N loch {loch} [lɔx], m, lochy = žalár
+3 N turma {turma} [ˈturma], ż, turmy = žalár
+3 N pręgierz {pręgierz} [ˈprɛŋɡʲɛʂ], m, pręgierze = pranier
+3 N szubienica {szubienica} [ʂubʲɛˈɲitsa], ż, szubienice = šibenica
+2 N stos {stos} [stɔs], m, stosy = hranica na upálenie
+2 N kodeks {kodeks} [ˈkɔdɛks], m, kodeksy = zákonník
+2 V wykraczać {wy|kraczać} [vɨˈkratʂatɕ], wykroczyć (przeciw + D) = previniť sa
+2 N zakład karny {zakład karny} [ˈzakwat ˈkarnɨ], m, zakłady karne = káznica
+3 N katorga {katorga} [kaˈtɔrɡa], ż, katorgi = káznica
+2 N prawnik {prawnik} [ˈpravɲik], m, prawnicy = právnik
+3 N skazaniec {skazaniec} [skaˈzaɲɛts], m, skazańcy = odsúdenec
+2 V zeznawać {ze|znawać} [zɛzˈnavatɕ], zeznać (B) = svedčiť
+2 V świadczyć {świadczyć} [ˈɕvʲattʂɨtɕ], zaświadczyć (o + Ms) = svedčiť
+2 N uprawnienie {u|prawnienie} [upravˈɲɛɲɛ], n, uprawnienia = oprávnenie
+2 V krzywdzić {krzywdzić} [ˈɡʐɨvdʑitɕ], skrzywdzić (B) = krivdiť
+3 N kieszonkowiec {kieszonkowiec} [kʲɛʂɔŋˈkɔvʲɛts], m, kieszonkowcy = vreckár
+2 N sprawa sądowa {sprawa sądowa} [ˈsprava sɔnˈdɔva], ż, sprawy sądowe = kauza
+2 N kara śmierci {kara śmierci} [ˈkara ˈɕmʲɛrtɕi], ż, kary śmierci = trest smrti
+2 N cela {cela} [ˈtsɛla], ż, cele = väzenská cela
+3 N spór sądowy {spór sądowy} [spur sɔnˈdɔvɨ], m, spory sądowe = súdny spor
+3 N miejsce straceń {miejsce straceń} [ˈmʲɛjstsɛ ˈstratsɛɲ], n, miejsca straceń = popravisko
+3 N szafot {szafot} [ˈʂafɔt], m, szafoty = popravisko
+3 N paser {paser} [ˈpasɛr], m, paserzy = priekupník
+2 V przyłapywać {przy|łapywać} [bʐɨwaˈpɨvatɕ], przyłapać (B, na + Ms) = pristihnúť
+3 N prześladowca {prze|śladowca} [bʐɛɕlaˈdɔftsa], m, prześladowcy = prenasledovateľ
+3 V pozbawiać praw {po|zbawiać praw} [pɔzˈbavʲatɕ praf], pozbawić praw (B) = zbaviť práv
+3 N brutal {brutal} [ˈbrutal], m, brutale = násilník
+3 N sprawca przemocy {sprawca przemocy} [ˈspraftsa bʐɛˈmɔtsɨ], m, sprawcy przemocy = násilník
+3 N podpalacz {pod|palacz} [pɔtˈpalatʂ], m, podpalacze = podpaľač
+3 V wyzyskiwać {wy|zyskiwać} [vɨzɨsˈkivatɕ], wyzyskać (B) = vykorisťovať
+3 N wyzysk {wy|zysk} [ˈvɨzɨsk], m, wyzyski = vykorisťovanie
+2 N pirat {pirat} [ˈpʲirat], m, piraci = pirát
+3 N fałszerz {fałszerz} [ˈfawʂɛʂ], m, fałszerze = falšovateľ
+3 N haracz {haracz} [ˈxaratʂ], m, haracze = výpalné
+3 N lichwa {lichwa} [ˈlixva], ż, lichwy = úžera
+3 V sprzeniewierzać {sprze|niewierzać} [zbʐɛɲɛˈvʲɛʐatɕ], sprzeniewierzyć (B) = spreneveriť
+3 V defraudować {defraudować} [dɛfrauˈdɔvatɕ], zdefraudować (B) = spreneveriť
+3 N sprzeniewierzenie {sprze|niewierzenie} [zbʐɛɲɛvʲɛˈʐɛɲɛ], n, sprzeniewierzenia = sprenevera
+3 N defraudacja {defraudacja} [dɛfrauˈdatsja], ż, defraudacje = sprenevera
+3 N przemyt {prze|myt} [ˈbʐɛmɨt], m, przemyty = pašovanie
+3 N przemytnik {prze|mytnik} [bʐɛˈmɨtɲik], m, przemytnicy = pašerák
+2 N gwałt {gwałt} [ɡvawt], m, gwałty = znásilnenie
+2 V katować {katować} [kaˈtɔvatɕ], skatować (B) = mučiť
+3 V torturować {torturować} [tɔrtuˈrɔvatɕ], - = mučiť
+3 N kłusownik {kłusownik} [kwuˈsɔvɲik], m, kłusownicy = pytliak
+3 N krzywoprzysięstwo {krzywo|przysięstwo} [ɡʐɨvɔbʐɨˈɕɛ̃stfɔ], n, krzywoprzysięstwa = krivá prísaha
+2 V wieszać {wieszać} [ˈvʲɛʂatɕ], powiesić (B) = obesiť
+3 N szajka {szajka} [ˈʂajka], ż, szajki = banda
+2 V umawiać {u|mawiać} [uˈmavʲatɕ], umówić (B) = dohodnúť
 
 # politics
 3 V radykalizować {radykalizować} [radɨkaliˈzɔvatɕ], zradykalizować (B) = radikalizovať
 3 V ratyfikować {ratyfikować} [ratɨfʲiˈkɔvatɕ], - (B) = ratifikovať
+3 N negocjator {negocjator} [nɛɡɔtsˈjatɔr], m, negocjatorzy = vyjednávač
+2 N ideologia {ideologia} [idɛɔˈlɔɡʲa], ż, ideologie = ideológia
+3 N mandat poselski {mandat poselski} [ˈmandat pɔˈsɛlski], m, mandaty poselskie = poslanecké kreslo
 
 # more
 2 AN wyborczy {wyborczy} [vɨˈbɔrtʂɨ] = volebný

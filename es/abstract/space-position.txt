@@ -145,6 +145,10 @@
 3 N la plenitud {plenitud} [pleniˈtuð], - = plnosť
 1 AV por dentro {por dentro} [poɾ ˈdentɾo] = zvnútra
 2 AV desde dentro {desde dentro} [ˈdesðe ˈdentɾo] = zvnútra
+2 V caber {caber} [kaˈβeɾ], irr = zmestiť sa
+3 AN aledaño {aledaño} [aleˈðaɲo], aledaña = susediaci
+3 N el boquete {boquete} [boˈkete], boquetes = štrbina
+2 PRE enfrente {enfrente} [emˈfɾente] = oproti
 
 # direction-distance
 1 N la dirección {dirección} [diɾekˈθjon], direcciones = smer
@@ -231,6 +235,7 @@
 1 AV cerca {cerca} [ˈθeɾka] = blízko
 3 N el más acá {más acá} [mas aˈka], - = tento svet
 3 N el mundo terrenal {mundo terrenal} [ˈmundo teɾeˈnal], mundos terrenales = tento svet
+3 N el vestigio {vestigio} [besˈtixjo], vestigios = stopa
 
 # motion
 1 V mover {mover} [moˈβeɾ], o>ue = hýbať
@@ -460,9 +465,20 @@
 2 V disminuir {disminuir} [dismiˈnwiɾ] = ubudnúť
 2 V reducirse {reducirse} [reðuˈθiɾse], c>zc = ubudnúť
 3 V decrecer {decrecer} [dekɾeˈθeɾ], c>zc = ubudnúť
+3 V corretear {corretear} [koreteˈaɾ] = mihať sa
+2 V rebotar {rebotar} [reβoˈtaɾ] = odraziť sa
+3 V cimbrarse {cimbrar|se} [θimˈbɾaɾse] = prehýbať sa
+3 V combarse {combar|se} [komˈbaɾse] = prehýbať sa
+3 V ladear {ladear} [laðeˈaɾ] = nakloniť
+2 V inclinar {inclinar} [iŋkliˈnaɾ] = nakloniť
+3 V acercar {acercar} [aθeɾˈkaɾ] = zaniesť
+3 V topar {topar} [toˈpaɾ] (con) = naraziť
+3 V cundir {cundir} [kunˈdiɾ] = šíriť
+3 V demorar {demorar} [demoˈɾaɾ] = zdržať
 
 # travel
 1 V llegar {llegar} [ʎeˈɣaɾ] = pricestovať
+2 V venir también {venir también} [beˈniɾ tamˈbjen], irr = prísť spolu
 
 # position
 3 AN transitable {transitable} [tɾansiˈtaβle] = priechodný

@@ -120,6 +120,14 @@ N klapka
 N usadlosť
 V byť domovom pre
 AN voľne stojaci
+N rímsa
+N prístrešie
+N zabudovanie -- zabudovanie do niečoho
+N priečka rebríka -- priečka rebríka
+N poter -- betónová vrstva podlahy
+N pilier -- hrubý nosný stĺp
+N bránka -- malé dvierka v plote
+N chatrč
 
 # rooms
 N izba
@@ -139,6 +147,8 @@ N kúpeľňa
 N obytný priestor
 N pracovňa
 N komora
+N predsieň (chodba) -- vstupná chodba
+N salón -- hosťovská miestnosť
 
 # furniture
 N nábytok
@@ -188,6 +198,9 @@ N osuška
 N vešiak
 N kolíska
 N hojdacia sieť
+N vitrína
+N skrinka -- malá skriňa
+N opierka -- časť kresla pre ruky
 
 # household-objects
 N kľúč
@@ -251,6 +264,21 @@ N náklady na kúrenie
 N balón (nafukovací)
 N bedňa
 N platňa
+N záclona -- priehľadný záves na okno
+N šnúra
+N pochodeň
+N prachovka -- metlička alebo handrička na prach
+N sprchová hlavica -- časť sprchy, z ktorej tečie voda
+N záchodová misa -- kus toalety
+N obliečka na paplón -- návlek na paplón
+N dierkovačka -- na robenie dier do papiera
+N zošívačka -- na spájanie papierov spinkami
+N cumlík -- gumový cumeľ pre bábätko
+N ohorok -- zvyšok cigarety
+N haraburdy -- nepotrebné veci
+N rozprašovač -- zariadenie na rozprašovanie kvapaliny
+N žalúzia
+N uško (držadlo) -- držadlo hrnčeka, tašky
 
 # household-actions
 N upratovačka
@@ -282,3 +310,7 @@ N kúpeľ
 N deka
 N seminárna práca
 N pranie
+V odpratať -- odstrániť, upratať
+V zahasprovať -- zaistiť dvere závorou
+V ovešať -- povešať všade
+V vymknúť -- zamknúť dvere pred niekým

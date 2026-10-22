@@ -8,3 +8,7 @@
 
 # language-specific closed words (no Slovak word: a description)
 1 V haber {haber} [aˈβeɾ], irr = pomocné sloveso zložených časov
+2 V brindar {brindar} [bɾinˈdaɾ] (por) = pripiť si
+3 V chivarse {chivar|se} [tʃiˈβaɾse] = prezradiť
+3 V delatar {delatar} [delaˈtaɾ] = prezradiť
+2 V revelar {revelar} [reβeˈlaɾ] = prezradiť

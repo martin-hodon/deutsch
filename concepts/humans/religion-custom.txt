@@ -100,6 +100,25 @@ N veriaci
 N omša : of bohoslužba @ katolicizmus
 AN evanjelický
 AN ekumenický
+V zatratiť
+N zatratenie
+N farnosť
+N uctievanie
+N nábožnosť
+N očistec
+N kacír
+N pokánie
+V spovedať sa
+N apoštol
+N prozreteľnosť
+N smrtka
+V vstať z mŕtvych
+N nebesá -- miesto, kde sídli boh
+N hinduizmus -- náboženstvo Indie
+N pôst
+N púť
+N sväté prijímanie
+N rozhrešenie -- odpustenie hriechov
 
 # magic-fate
 N mágia
@@ -143,6 +162,24 @@ N báj
 N osud
 V vyžrebovať
 V zaklínať
+V veštiť -- predpovedať budúcnosť
+N vlkolak
+N zakliatie
+N zaklínač
+AN bájny
+AN nadprirodzený
+N elixír
+N zverokruh
+N vodnár -- znamenie zverokruhu
+N blíženci -- znamenie zverokruhu
+N panna -- znamenie zverokruhu
+V začarovať
+AN prekliaty
+N nymfa
+N hydra
+N kentaur
+N chiméra
+N predzvesť -- znamenie budúcej udalosti, veštba
 
 # customs-celebrations
 N zvyk
@@ -202,6 +239,8 @@ V spečatiť
 V zapečatiť
 N zástava
 N advent
+N nádielka -- darčeky rozdávané na Mikuláša alebo na Vianoce
 
 # customs
 V vysvätiť
+N veniec -- ovenčený kruh z listov alebo kvetov

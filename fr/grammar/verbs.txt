@@ -6,3 +6,6 @@
 1 V devoir {devoir} [dəˈvwaʁ], irr, dû (+ inf) = mať (povinnosť)
 2 V avoir le droit {avoir le droit} [aˈvwaʁ lə dʁwa] (de + inf) = smieť
 1 V falloir {falloir} [faˈlwaʁ], irr, fallu (+ inf) = musieť
+
+# language-specific closed words (no Slovak word: a description)
+2 V mémoriser {mémoriser} [memɔʁiˈze] = zapamätať si

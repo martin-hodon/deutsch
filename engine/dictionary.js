@@ -28,8 +28,8 @@ import { createVoice, loadProsody } from "./speak.js";
 import { loadText, t, tn, applyText } from "./text.js";
 import { createPractice } from "./practice.js";
 import * as DE from "../de/morph.js";
-import { loadTemplates, recognizeAll, record } from "./listen.js";
-import { loadComposition, layoutItems } from "./hanzi.js";
+import { adaptVoice, loadNet, loadProfiles, lexicon, recognizeAll, record, voiceSample } from "./listen.js";
+import { loadCharMeanings, loadComposition, layoutItems } from "./hanzi.js";
 import { loadMeaning } from "./meaning.js";
 
 const $ = (id) => document.getElementById(id);
@@ -53,7 +53,8 @@ const LAYOUTS = {
     V: [{ title: "", cells: /^V\.(present|past|subj1|subj2)\.\w+$/, row: 2, col: 1, rows: persons("de"), cols: { present: "Präsens", past: "Präteritum", subj1: "Konjunktiv I", subj2: "Konjunktiv II" } },
         { title: "", cells: /^V\.(pp|inf)$/, row: 1, col: null, rows: { pp: "Partizip II", inf: "Infinitiv" } }],
     AN: [{ title: "", cells: /^AN\.(pos|comp|sup)$/, row: 1, col: null, rows: { pos: "Positiv", comp: "Komparativ", sup: "Superlativ" } },
-         { title: "stark (ein / ohne Artikel)", cells: /^AN\.pos\.strong\.\w+\.\w+$/, row: 3, col: 4, rows: { nom: "Nom.", acc: "Akk.", dat: "Dat.", gen: "Gen." }, cols: G4 },
+         { title: "stark (ohne Artikel)", cells: /^AN\.pos\.strong\.\w+\.\w+$/, row: 3, col: 4, rows: { nom: "Nom.", acc: "Akk.", dat: "Dat.", gen: "Gen." }, cols: G4 },
+         { title: "gemischt (ein / kein / mein)", cells: /^AN\.pos\.mixed\.\w+\.\w+$/, row: 3, col: 4, rows: { nom: "Nom.", acc: "Akk.", dat: "Dat.", gen: "Gen." }, cols: G4 },
          { title: "schwach (der / die / das)", cells: /^AN\.pos\.weak\.\w+\.\w+$/, row: 3, col: 4, rows: { nom: "Nom.", acc: "Akk.", dat: "Dat.", gen: "Gen." }, cols: G4 }],
   },
   en: {
@@ -146,7 +147,7 @@ const loadLang = async (l) => {
   // the components of every word's parts (ver|laufen: ver, laufen) that are words themselves -> the words sharing them
   // Chinese: the pinyin as typed -- its letters without tone marks (nihao) and its tones as digits (3 3), so that nihao,
   // ni3hao3 and nǐhǎo all find 你好
-  if (l === "zh") { for (const e of d.entries) e.py = pinyinKey(e.pinyin ?? ""); d.hanzi = await loadComposition("zh/composition.txt"); }
+  if (l === "zh") { for (const e of d.entries) e.py = pinyinKey(e.pinyin ?? ""); d.hanzi = await loadComposition("zh/composition.txt"); d.charMeanings = await loadCharMeanings("zh/chars.txt"); }
   d.byPart = new Map(); d.byStem = new Map();
   d.bySpecific = new Map();   // pos|concept -> the entries whose concept is declared `of` it in a context (the `generic` column)
   for (const e of d.entries) if (e.generic) { const k = e.generic.split(" @ ")[0].replace(" ", "|"); (d.bySpecific.get(k) ?? d.bySpecific.set(k, []).get(k)).push(e); }
@@ -278,8 +279,13 @@ function showStats() {
   }
 }
 // a result's row: the word, its part of speech, its meanings; `extra`: a rank, a typed form, a remove button
+// a word said only in some region (the `region` column: <lang>/rules/regional.txt) -- "regionálne: Rakúsko", "nárečové"
+const regionText = (e) => {
+  const codes = e.region ? e.region.split(" ") : [], places = codes.filter((c) => c !== "dialect").map((c) => t("region-" + c));
+  return places.length ? t("region", { r: places.join(", ") }) : codes.length ? t("region-dialect") : "";
+};
 function resultRow(e, ...extra) {
-  const row = el("button", "result", el("span", "result-word", shown(e)), el("span", "result-pos", e.pos), el("span", "result-sk", e.sk.slice(0, 3).join(", ")), ...extra);
+  const row = el("button", "result", el("span", "result-word", shown(e)), el("span", "result-pos", e.pos), e.region ? el("span", "result-region", regionText(e)) : null, el("span", "result-sk", e.sk.slice(0, 3).join(", ")), ...extra);
   row.onclick = () => openEntry(e);
   return row;
 }
@@ -501,12 +507,17 @@ const details = (e) => {
 const isHan = (c) => /^[\u2e80-\u2fdf\u31c0-\u31ef\u3400-\u4dbf\u4e00-\u9fff\u{20000}-\u{2ffff}]$/u.test(c);
 const chars = (word) => [...new Set([...word].filter(isHan))];
 const compHash = (c) => `${lang}/comp/${encodeURIComponent(c)}`;
-// a component as a link that opens its view -- glossed with its first entry (pinyin · meaning) when it is a word
+// a character's meaning when it is no word (zh/chars.txt): each reading as `pinyin · meaning, meaning`
+const charGloss = (c, n = 2) => (dict.charMeanings?.get(c) ?? []).map((r) => [r.pinyin, r.meanings.slice(0, n).join(", ")].filter(Boolean).join(" · ")).join(" / ");
+// a component as a link that opens its view -- glossed with its first entry (pinyin · meaning) when it is a word, else
+// with its meaning as a character (charGloss); the gloss is the link's tooltip too
 const compLink = (c, { gloss = true } = {}) => {
   const a = el("a", "word-link comp-link", c); a.href = "#" + compHash(c); a.onclick = (ev) => { ev.preventDefault(); showComponent(c); };
-  if (!gloss) return a;
   const e = dict.entries.filter((x) => x.word === c).sort((x, y) => x.freq - y.freq || x.rank - y.rank)[0];
-  return el("span", "word-item", a, e ? el("span", "word-gloss", ` ${e.pinyin ?? ""} · ${e.sk[0]}`) : null);
+  const text = e ? `${e.pinyin ?? ""} · ${e.sk[0]}` : charGloss(c);
+  if (text) a.title = text;
+  if (!gloss) return a;
+  return el("span", "word-item", a, text ? el("span", "word-gloss", ` ${text}`) : null);
 };
 // a component's layout as written (白 | 勺), each component a link
 const layoutView = (c) => {
@@ -519,7 +530,7 @@ const strokesText = (c) => { const n = dict.hanzi.strokes(c); return n == null ?
 // a result row for a component typed in the search: the glyph, "component", how many characters it is in
 function componentRow(c) {
   const n = dict.hanzi.containing(c).length;
-  const row = el("button", "result", el("span", "result-word", c), el("span", "result-pos", t("component")), el("span", "result-sk", `${strokesText(c)}${n ? ` · ${tn("in-characters", n)}` : ""}`));
+  const row = el("button", "result", el("span", "result-word", c), el("span", "result-pos", t("component")), el("span", "result-sk", [charGloss(c), strokesText(c), n ? tn("in-characters", n) : ""].filter(Boolean).join(" · ")));
   row.onclick = () => showComponent(c);
   return row;
 }
@@ -549,6 +560,8 @@ function showComponent(c, { push = true } = {}) {
   view.append(el("div", "entry-head", el("h2", "glyph", c)));
   view.append(el("div", "entry-meta", [t("component"), strokesText(c)].filter(Boolean).join(" · ")));
   if (own.length) { const row = el("div", "entry-same", el("span", "mute", t("dictionary-entry") + ": ")); own.forEach((x, i) => { const a = link(x); a.textContent = `${x.pos} · ${x.pinyin ?? ""} · ${x.sk.slice(0, 2).join(", ")}`; row.append(i ? " · " : "", a); }); view.append(row); }
+  // no word of its own: its meaning as a character, each reading a line (zh/chars.txt)
+  for (const r of own.length ? [] : dict.charMeanings?.get(c) ?? []) view.append(el("div", "entry-same", r.pinyin ? el("b", "", r.pinyin + " ") : null, r.meanings.join(", "), r.note ? el("span", "mute", ` — ${r.note}`) : null));
   const m = H.of(c);
   if (m?.layout) {
     const s = el("section", "entry-section", el("h3", "", t("composition"))); view.append(s);
@@ -586,17 +599,38 @@ function componentIndex(view) {
   }
 }
 
-// the microphone: a word said is matched against the language's templates (engine/listen.js); the nearest words are
-// listed as results, the best first -- click to open, or say it again
-const templates = {};
+// the microphone: a word said is matched against every word of the language by its IPA (engine/listen.js: the network
+// that judges the sounds, engine/listen_net.json, the measured profiles, engine/listen.json, and the language's words
+// as chains of sounds -- made on the first 🎤 of a language);
+// the nearest words are listed as results, the best first -- click to open, or say it again. The word OPENED after a 🎤
+// (clicked among the results, or searched for when it was not among them) is taken for the word said: a sample of the
+// learner's voice (localStorage "dictionary:my-voice", the last VOICE_KEPT, across languages) that the profiles adapt to
+const lexicons = {}, VOICE_KEY = "dictionary:my-voice", VOICE_KEPT = 40;
+try { localStorage.removeItem("dictionary:voice"); } catch { /* (storage blocked) */ }   // (the first samples: cut short by the microphone's start)
+const voiceSamples = () => { try { return JSON.parse(localStorage.getItem(VOICE_KEY) ?? "[]"); } catch { return []; } };
+let heardAt = 0, voiceLoaded = false;
+function learnVoice(e) {
+  if (!heardAt || Date.now() - heardAt > 60000 || !e.ipa) return;
+  heardAt = 0;
+  const sample = voiceSample(e.ipa, voice.prosody);
+  if (!sample) return;
+  const samples = [...voiceSamples(), sample].slice(-VOICE_KEPT);
+  try { localStorage.setItem(VOICE_KEY, JSON.stringify(samples)); } catch { /* (storage blocked or full: learned for this visit) */ }
+  adaptVoice(samples);
+}
 async function listen() {
   const btn = $("listen");
   if (btn.classList.contains("on")) return;
   btn.classList.add("on"); btn.textContent = "…";
   try {
-    const [T, rec] = await Promise.all([templates[lang] ??= loadTemplates(`${lang}/listen`), record({ maxMs: 3000, silenceMs: 600 })]);
+    const d = dict, P = voice.prosody;
+    const profiles = Promise.all([loadProfiles("engine/listen.json"), loadNet("engine/listen_net.json")]), rec = await record({ maxMs: 3500, silenceMs: 600 });   // (the words' chains made after: not while the microphone records)
     if (!rec) { $("no-results").hidden = false; return; }
+    await profiles;
+    if (!voiceLoaded) { voiceLoaded = true; adaptVoice(voiceSamples()); }
+    const T = (lexicons[lang] ??= lexicon(d.entries, P));
     const found = recognizeAll(rec.samples, rec.rate, T, { top: 6 });
+    heardAt = Date.now();
     if (open) { history.pushState(null, "", "#" + lang); open = null; $("entry").hidden = true; $("results").hidden = false; }
     const list = $("results"); list.replaceChildren();
     $("no-results").hidden = found.length > 0;
@@ -616,7 +650,7 @@ function showList() {
   showResults(); $("search").focus();
 }
 async function openEntry(e, { push = true } = {}) {
-  open = e;
+  open = e; if (push) learnVoice(e);   // (not on going back: the learner's own choice only)
   if (push) history.pushState(null, "", "#" + hashOf(e));
   $("results").hidden = true; $("no-results").hidden = true; $("search-help").hidden = true;
   const view = $("entry"); view.hidden = false; view.replaceChildren();
@@ -631,6 +665,11 @@ async function openEntry(e, { push = true } = {}) {
   view.append(el("div", "entry-ipa", e.pinyin ? `${e.pinyin} · ${e.ipa}` : e.ipa ? `[${e.ipa}]` : ""));
   view.append(el("div", "entry-meta", `${e.pos} · FREQ ${e.freq} · ${e.category}` + (e.parts && e.parts.includes("|") ? ` · ${e.parts}` : "")));
   view.append(el("div", "entry-sk", e.sk.join(", ")));
+  if (e.region) {   // (a regional word: where it is said, and the concept's general words -- Jänner: Januar)
+    const general = (dict.byConcept.get(`${e.pos}|${e.concept}`) ?? []).filter((x) => !x.region), row = el("div", "entry-region", regionText(e));
+    if (general.length) { row.append(el("span", "mute", ` · ${t("region-general")}: `)); general.slice(0, 3).forEach((x, i) => { row.append(i ? ", " : "", link(x)); }); }
+    view.append(row);
+  }
   const det = details(e);
   if (det.length) view.append(el("div", "entry-details", det.join(" · ")));
   const same = dict.entries.filter((x) => x !== e && fold(x.word) === fold(e.word)).sort((a, b) => (a.pos === e.pos ? 1 : 0) - (b.pos === e.pos ? 1 : 0) || a.freq - b.freq);
@@ -702,7 +741,7 @@ async function formsOf(e) {
 
 async function useLang(l) {
   if (l === lang && dict) return;
-  lang = l; $("lang").value = l; keepLearn(l);
+  lang = l; keepLearn(l); Object.assign($("title"), { textContent: LANGS[l].flag, title: LANGS[l].name });   // (the title: the language's flag -- chosen in the settings)
   dict = await loadLang(l);
   if ($("mylist")) showListCount();
   voice.prosody = await loadProsody(LANGS[l].speech);
@@ -723,8 +762,6 @@ export async function start() {
   const pair = keptPair();
   await loadText(LANGS[pair.other]?.ui ?? "sk/ui.txt", "en/ui.txt");
   applyText(); mountHeader("dictionary");
-  const sel = $("lang");
-  for (const [k, v] of Object.entries(LANGS)) if (v.dict) sel.append(new Option(v.name, k));
   native = pair.other; await loadLabels();
   try { topic = localStorage.getItem(TOPIC_KEY) ?? ""; } catch { topic = ""; }
   try { const f = JSON.parse(localStorage.getItem(FREQ_KEY) ?? "null"); if (Array.isArray(f) && f.length) freqs = new Set(f.map(Number).filter((n) => n >= 1 && n <= 3)); } catch { /* (none kept) */ }
@@ -735,7 +772,6 @@ export async function start() {
   $("section").onchange = () => chooseTopic($("section").value);
   const h = fromHash();
   await useLang(h?.lang ?? pair.learn);
-  sel.onchange = () => { open = null; $("entry").hidden = true; $("results").hidden = false; useLang(sel.value); };
   $("search").oninput = () => { query = $("search").value; if (open) { history.pushState(null, "", "#" + lang); showList(); } else showResults(); };
   $("search").onkeydown = (ev) => { if (ev.key === "Enter") { const first = lookup(query)[0]; if (first) openEntry(first); } };   // (Enter opens the first match)
   $("search").focus();

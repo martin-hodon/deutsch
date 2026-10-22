@@ -171,6 +171,48 @@
 3 AN vedente {vedente} [veˈdɛnte] = vidiaci
 2 PHR riprendere i sensi {riprendere i sensi} [riˈprɛndere i ˈsɛnsi] = prebrať sa
 2 PHR rinvenire {rinvenire} [rinveˈniːre] = prebrať sa
+3 N lo streptococco {streptococco} [streptoˈkɔkːo], streptococchi = streptokok
+3 AN avvelenato {avvelenato} [avːeleˈnaːto], avvelenata = otrávený (jedom)
+2 N il crampo {crampo} [ˈkrampo], crampi = kŕč
+3 AN monocolo {monocolo} [moˈnɔːkolo], monocola = jednooký
+3 V slogare {slogare} [zloˈɡaːre] = vykĺbiť
+3 V lussare {lussare} [luˈsːaːre] = vykĺbiť
+3 N la crosta {crosta} [ˈkrosta], croste = chrasta
+2 N l'ustione (f) {ustione} [uˈstjoːne], ustioni = popálenina
+3 AN contuso {contuso} [konˈtuːzo], contusa = pomliaždený
+2 N la malaria {malaria} [maˈlaːrja], - = malária
+3 N l'eczema (m) {eczema} [ekˈdzɛːma], eczemi = ekzém
+3 N la verruca {verruca} [veˈrːuːka], verruche = bradavica
+3 AN terminale {terminale} [termiˈnaːle] = smrteľne chorý
+3 AN stordito {stordito} [storˈdiːto], stordita = omráčený
+3 AN fiacco {fiacco} [ˈfjakːo], fiacca, fiacchi/fiacche = malátny
+3 AN flaccido {flaccido} [ˈflattʃido], flaccida = ochabnutý
+3 AN alticcio {alticcio} [alˈtittʃo], alticcia = podnapitý
+3 AN brillo {brillo} [ˈbrilːo], brilla = podnapitý
+3 V dissanguarsi {dissanguarsi} [disːaŋˈɡwarsi] = vykrvácať
+3 N la rabbia {rabbia} [ˈrabːja], rabbie = besnota
+3 N l'ittero (m) {ittero} [ˈitːero], itteri = žltačka
+3 N l'epatite (f) {epatite} [epaˈtiːte], epatiti = hepatitída
+3 N il morbillo {morbillo} [morˈbilːo], morbilli = osýpky
+3 N il vaiolo {vaiolo} [vaˈjɔːlo], - = kiahne
+3 N la scabbia {scabbia} [ˈskabːja], - = svrab
+3 N il colpo della strega {colpo della strega} [ˈkolpo ˈdelːa ˈstreːɡa], colpi della strega = seknutie v krížoch
+3 V mutilare {mutilare} [mutiˈlaːre] = zmrzačiť
+3 V storpiare {storpiare} [storˈpjaːre] = zmrzačiť
+3 N il callo {callo} [ˈkalːo], calli = mozoľ
+3 N il pus {pus} [ˈpus], - = hnis
+3 V suppurare {suppurare} [supːuˈraːre] = hnisať
+3 AN purulento {purulento} [puruˈlɛnto], purulenta = hnisavý
+3 N l'ulcera (f) {ulcera} [ˈultʃera], ulcere = vred
+3 AN gonfio {gonfio} [ˈɡonfjo], gonfia = opuchnutý
+3 N il punto nero {punto nero} [ˈpunto ˈneːro], punti neri = čierna bodka
+3 N il bruciore di stomaco {bruciore di stomaco} [bruˈtʃoːre di ˈstɔːmako], bruciori di stomaco = pálenie záhy
+3 N la contrazione {contrazione} [kontratˈtsjoːne], contrazioni = kontrakcia
+2 N l'irritazione (f) {irritazione} [irːitatˈtsjoːne], irritazioni = podráždenie
+3 N la vescica {vescica} [veˈʃiːka], vesciche = pľuzgier
+3 AN rognoso {rognoso} [roˈɲːoːzo], rognosa = prašivý
+3 N l'agente patogeno (m) {agente patogeno} [aˈdʒɛnte paˈtɔːdʒeno], agenti patogeni = pôvodca choroby
+3 N il patogeno {patogeno} [paˈtɔːdʒeno], patogeni = pôvodca choroby
 
 # treatment
 1 N la medicina {medicina} [mediˈtʃiːna], medicine = medicína
@@ -267,6 +309,10 @@
 2 AN psichiatrico {psichiatrico} [psiˈkjaːtriko], psichiatrica, psichiatrici/psichiatriche = psychiatrický
 3 V rianimare {rianimare} [rjaniˈmaːre] = resuscitovať
 3 AN terapeutico {terapeutico} [terapeˈuːtiko], terapeutica, terapeutici/terapeutiche = terapeutický
+2 N la siringa {siringa} [siˈriŋɡa], siringhe = injekčná striekačka
+3 N l'ipnosi (f) {ipnosi} [ipˈnɔːzi], ipnosi = hypnóza
+3 N l'autopsia (f) {autopsia} [autopˈsiːa], autopsie = pitva
+3 N il bisturi {bisturi} [bistuˈri], bisturi = skalpel
 
 # medical-people-places
 1 N il medico {medico} [ˈmɛːdiko], medici = lekár
@@ -335,6 +381,8 @@
 2 N il sistema sanitario {sistema sanitario} [siˈstɛːma saniˈtaːrjo], sistemi sanitari = zdravotníctvo
 2 N il guarito {guarito} [ɡwaˈriːto], guariti = uzdravený
 3 N il convalescente {convalescente} [konvaleˈʃːɛnte], convalescenti = uzdravený
+3 N l'obitorio (m) {obitorio} [obiˈtɔːrjo], obitori = márnica
+3 N il ciarlatano {ciarlatano} [tʃarlaˈtaːno], ciarlatani = šarlatán
 
 # hygiene-substances
 1 N l'igiene (f) {igiene} [iˈdʒɛːne], - = hygiena
@@ -368,6 +416,17 @@
 2 N la canapa {canapa} [ˈkaːnapa], canape = konope
 2 N la cannabis {cannabis} [ˈkanːabis], cannabis = konope
 1 N il punto {punto} [ˈpunto], punti = steh
+3 N il docciaschiuma {doccia|schiuma} [dottʃaˈskjuːma], docciaschiuma = sprchový gél
+3 N il bagnoschiuma {bagno|schiuma} [baɲːoˈskjuːma], bagnoschiuma = sprchový gél
+2 V bagnarsi {bagnarsi} [baˈɲːarsi] = kúpať sa
+3 V strofinare {strofinare} [strofiˈnaːre] = drhnúť
+3 V sfregare {sfregare} [sfreˈɡaːre] = drhnúť
+2 V sciacquare {sciacquare} [ʃaˈkːwaːre] = zmyť
+2 N la mascherina {mascherina} [maskeˈriːna], mascherine = rúško
+3 V insaponare {insaponare} [insapoˈnaːre] = mydliť
+3 N l'insulina (f) {insulina} [insuˈliːna], insuline = inzulín
+3 N il colesterolo {colesterolo} [koleˈstɛːrolo], - = cholesterol
+3 N il glucosio {glucosio} [ɡluˈkoːzjo], - = glukóza
 
 # more
 2 N l'aborto (m) {aborto} [aˈbɔrto], aborti = potrat

@@ -15,3 +15,4 @@
 2 N le personnage secondaire {personnage secondaire} [pɛʁsɔnaʒ səɡɔ̃ˈdɛʁ], personnages secondaires = vedľajšia postava
 2 N le Moyen Âge {Moyen Âge} [mwa jɛ nɑʒ], - = stredovek
 2 N la première place {première place} [pʁəmjɛʁ plas], premières places = prvé miesto
+3 AN fétide {fétide} [feˈtid] = smradľavý

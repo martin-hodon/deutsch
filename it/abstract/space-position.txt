@@ -180,6 +180,7 @@
 3 N la pienezza {pienezza} [pjeˈnettsa], - = plnosť
 1 AV da dentro {da dentro} [da ˈdentro] = zvnútra
 2 AV dall'interno {dall'interno} [dalːinˈtɛrno] = zvnútra
+1 V entrare {entrare} [enˈtraːre], essere (in) = zmestiť sa
 
 # direction-distance
 1 N la direzione {direzione} [direˈtsjoːne], direzioni = smer
@@ -515,9 +516,15 @@
 1 N la partenza {partenza} [parˈtɛntsa], partenze = odchod
 2 V diminuire {diminuire} [diminuˈiːre], isc, essere = ubudnúť
 2 V calare {calare} [kaˈlaːre], essere = ubudnúť
+3 V guizzare {guizzare} [ɡwidˈdzaːre] = mihať sa
+2 V rimbalzare {rimbalzare} [rimbalˈtsaːre] = odraziť sa
+3 V incurvarsi {incurvarsi} [inkurˈvarsi] = prehýbať sa
+2 V inclinare {inclinare} [inkliˈnaːre] = nakloniť
+1 V portare {portare} [porˈtaːre] = zaniesť
 
 # travel
 1 V arrivare {arrivare} [arːiˈvaːre], essere = pricestovať
+1 V venire {venire} [veˈniːre], irr, venuto, essere (con) = prísť spolu
 
 # position
 3 AN transitabile {transitabile} [transiˈtaːbile] = priechodný

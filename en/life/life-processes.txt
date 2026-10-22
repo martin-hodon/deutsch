@@ -86,6 +86,12 @@
 1 N birth {birth} [bɜːθ], births = narodenie
 3 V rejuvenate {re|juvenate} [rɪˈdʒuːvɪneɪt] = mladnúť
 3 V grow younger {grow younger} [ɡrəʊ ˈjʌŋɡə], grew younger/grown younger = mladnúť
+3 N rot {rot} [rɒt], - = hnitie
+3 N decay {decay} [dɪˈkeɪ], - = hnitie
+3 N carcass {carcass} [ˈkɑːkəs], carcasses = zdochlina
+3 N carrion {carrion} [ˈkæriən], - = zdochlina
+3 V go grey {go grey} [ɡəʊ ˈɡreɪ], went grey/gone grey = ošedivieť
+3 AN rotten {rotten} [ˈrɒtən] = zhnitý
 # body-functions
 2 V breathe {breathe} [briːð] = dýchať
 2 N breath {breath} [breθ], breaths = dych
@@ -172,6 +178,47 @@
 2 V be awake {be awake} [bi əˈweɪk] = bdieť
 2 V stay awake {stay awake} [steɪ əˈweɪk] = bdieť
 2 V put to sleep {put to sleep} [pʊt tə ˈsliːp], put to sleep/put to sleep (sb) = uspať
+3 N shiver {shiver} [ˈʃɪvə], shivers = chvenie
+3 N tremor {tremor} [ˈtremə], tremors = chvenie
+3 V pulse {pulse} [pʌls] = pulzovať
+3 V throb {throb} [θrɒb] = pulzovať
+2 V get drunk {get·drunk} [ɡet ˈdrʌŋk], got drunk/got drunk = opiť sa
+2 V have sex {have sex} [hæv ˈseks], had sex/had sex = súložiť
+3 V make love {make love} [meɪk ˈlʌv], made love/made love = súložiť
+3 V ejaculate {ejaculate} [ɪˈdʒækjʊleɪt] = vystriekať sa
+3 V come {come} [kʌm], came/come = vystriekať sa
+3 V masturbate {masturbate} [ˈmæstəbeɪt] = honiť si
+3 V wank {wank} [wæŋk] = honiť si
+3 N shit {shit} [ʃɪt], - = hovno
+3 N crap {crap} [kræp], - = hovno
+2 V sob {sob} [sɒb] = vzlykať
+3 V whimper {whimper} [ˈwɪmpə] = vzlykať
+3 V splutter {splutter} [ˈsplʌtə] = prskať
+3 V snort {snort} [snɔːt] = prskať
+3 V bloat {bloat} [bləʊt] (sth) = nadúvať
+3 V sweat out {sweat·out} [swet ˈaʊt] (sth) = vypotiť
+3 V sweat through {sweat·through} [swet ˈθruː] (sth) = prepotiť
+3 N inhalation {inhalation} [ˌɪnhəˈleɪʃən], inhalations = vdych
+3 N exhalation {exhalation} [ˌekshəˈleɪʃən], exhalations = výdych
+2 N nap {nap} [næp], naps = zdriemnutie
+3 N snooze {snooze} [snuːz], snoozes = zdriemnutie
+3 N sleepiness {sleep|i|ness} [ˈsliːpinəs], - = ospalosť
+3 N drowsiness {drowsi|ness} [ˈdraʊzinəs], - = ospalosť
+3 N yawn {yawn} [jɔːn], yawns = zívnutie
+3 V bite into {bite·into} [baɪt ˈɪntuː], bit into/bitten into (sth) = nahryznúť
+3 V bite through {bite·through} [baɪt ˈθruː], bit through/bitten through (sth) = rozhryznúť
+3 V bite down {bite·down} [baɪt ˈdaʊn], bit down/bitten down (on) = zahryznúť
+3 V bare {bare} [beə] (sth) = ceriť
+3 V smack {smack} [smæk] (one's lips) = mľaskať
+2 V burp {burp} [bɜːp] = grgať
+3 V belch {belch} [beltʃ] = grgať
+3 V cry {cry} [kraɪ] (one's heart out) = vyplakať sa
+3 V choke {choke} [tʃəʊk] (on) = zabehnúť
+3 V clear {clear} [klɪə] (one's throat) = odkašľať si
+3 V cough {cough} [kɒf] = pokašliavať
+3 V blow {blow} [bləʊ], blew/blown (one's nose) = smrkať
+3 V fart {fart} [fɑːt] = prdnúť
+3 N enzyme {enzyme} [ˈenzaɪm], enzymes = enzým
 # nourishment
 1 V eat {eat} [iːt], ate/eaten = jesť
 1 V drink {drink} [drɪŋk], drank/drunk = piť
@@ -209,10 +256,24 @@
 3 V munch {munch} [mʌntʃ] (on) = chrúmať
 3 V sip {sip} [sɪp] (sth) = srkať
 3 N satiety {satiety} [səˈtaɪətɪ], - = sýtosť
+3 V overeat {over|eat} [ˌəʊvərˈiːt], overate/overeaten = prejesť sa
+3 V feast {feast} [fiːst] (on) = hodovať
+3 V stuff oneself {stuff·oneself} [stʌf wʌnˈself] = napchávať sa
+3 V gorge {gorge} [ɡɔːdʒ] (on) = napchávať sa
+3 V nibble {nibble} [ˈnɪbəl] (sth) = maškrtiť
+3 V snack {snack} [snæk] (on) = maškrtiť
+3 V refresh {refresh} [rɪˈfreʃ] (sb) = občerstviť
+3 N gourmet {gourmet} [ˈɡʊəmeɪ], gourmets = labužník
+3 V sip {sip} [sɪp] (sth) = odpiť
+3 V fatten {fatten} [ˈfætən] (sth) = vykrmovať
+3 V lick clean {lick clean} [lɪk ˈkliːn] (sth) = vylízať
+3 V suck {suck} [sʌk] (on) = cmúľať
 # senses-instinct
 2 N instinct {in|stinct} [ˈɪnstɪŋkt], instincts = inštinkt
 3 AN instinctive {in|stinct|ive} [ɪnˈstɪŋktɪv] = inštinktívny
 2 N reflex {re|flex} [ˈriːfleks], reflexes = reflex
+3 V intoxicate {intoxicate} [ɪnˈtɒksɪkeɪt] (sb) = omámiť
+3 V stupefy {stupefy} [ˈstjuːpɪfaɪ] (sb) = omámiť
 # growth-adaptation
 2 N puberty {pu|ber|ty} [ˈpjuːbətɪ], - = puberta
 2 V develop {de|vel|op} [dɪˈveləp] (into) = vyvíjať sa
@@ -227,6 +288,14 @@
 3 V die {die} [daɪ] = uhynúť
 3 V evaporate {e|vap|or|ate} [ɪˈvæpəreɪt] = vyprchať
 3 V fade away {fade·away} [feɪd əˈweɪ] = vyprchať
+3 V grow together {grow·together} [ɡrəʊ təˈɡeðə], grew together/grown together = zrásť
+3 V fuse {fuse} [fjuːz] = zrásť
+3 V grow back {grow·back} [ɡrəʊ ˈbæk], grew back/grown back = dorásť
+3 V proliferate {proliferate} [prəˈlɪfəreɪt] = rozrastať sa
+3 V fertilise {fertilise} [ˈfɜːtəlaɪz] (sth) = oplodniť
+3 V waste away {waste·away} [weɪst əˈweɪ] = chradnúť
+3 V wither {wither} [ˈwɪðə] = chradnúť
+2 N mutation {mutation} [mjuːˈteɪʃən], mutations = mutácia
 
 # more
 2 N ecosystem {eco|system} [ˈiːkəʊˌsɪstəm], ecosystems = ekosystém

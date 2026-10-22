@@ -1950,6 +1950,7 @@ V ohrievať <> chladiť
 V ohriať <> ochladiť
 V mrznúť <> topiť sa
 V zmraziť <> rozmraziť
+V líšiť sa <> podobať sa
 
 # PRE
 PRE pod <> nad

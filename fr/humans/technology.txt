@@ -52,6 +52,8 @@
 2 AV mécaniquement {mécanique|ment} [mekanikˈmɑ̃] = mechanicky
 1 AV automatiquement {automatique|ment} [otɔmatikˈmɑ̃] = automaticky
 3 AV constructivement {constructive|ment} [kɔ̃stʁyktivˈmɑ̃] = konštruktívne
+2 AN réglable {régl|able} [ʁeˈɡlabl] = nastaviteľný
+2 N le piston {piston} [pisˈtɔ̃], pistons = piest
 
 # electricity-energy
 1 N la pile {pile} [pil], piles = batéria
@@ -97,6 +99,7 @@
 3 N le watt {watt} [wat], watts = watt
 3 AV électroniquement {électronique|ment} [elɛktʁɔnikˈmɑ̃] = elektronicky
 2 V décharger {dé|charger} [deʃaʁˈʒe] (qch) = vyložiť
+2 N le court-circuit {court-|circuit} [kuʁsiʁˈkɥi], courts-circuits = skrat
 
 # computing-communication-devices
 1 N l'ordinateur (m) {ordinateur} [ɔʁdinaˈtœʁ], ordinateurs = počítač
@@ -260,6 +263,10 @@
 3 N le téléversement {télé|versement} [televɛʁsəˈmɑ̃], téléversements = nahratie
 2 AV hors ligne {hors ligne} [ɔʁ liɲ] = offline
 3 V dézoomer {dé|zoomer} [dezuˈme] = oddialiť
+3 N la barre d'espace {barre d'espace} [baʁ dɛsˈpas], barres d'espace = medzerník
+2 N la mémoire vive {mémoire vive} [meˈmwaʁ viv], mémoires vives = operačná pamäť
+3 N l'énumération (f) {énumération} [enymeʁaˈsjɔ̃], énumérations = enumerácia
+2 N la constante {constante} [kɔ̃sˈtɑ̃t], constantes = konštanta
 
 # devices
 2 V démonter {démonter} [demɔ̃ˈte] = demontovať
@@ -267,6 +274,7 @@
 2 V photographier {photo|graphier} [fɔtɔɡʁaˈfje] = fotiť
 2 N le classeur {classeur} [klaˈsœʁ], classeurs = zakladač
 2 N le guichet {guichet} [ɡiˈʃɛ], guichets = okienko
+3 N le capot {capot} [kaˈpo], capots = kryt
 
 # more
 3 N le tweet {tweet} [twit], tweets = tweet

@@ -49,6 +49,10 @@
 3 V hacer tictac {hacer tictac} [aˈθeɾ tikˈtak], irr, hecho = tikať
 3 V tictaquear {tictaquear} [tiktakeˈaɾ] = tikať
 3 AN hidráulico {hidráulico} [iˈðɾauliko], hidráulica = hydraulický
+2 AN ajustable {ajustable} [axusˈtaβle] = nastaviteľný
+3 AN regulable {regulable} [reɣuˈlaβle] = nastaviteľný
+3 N el émbolo {émbolo} [ˈembolo], émbolos = piest
+3 N el pistón {pistón} [pisˈton], pistones = piest
 
 # electricity-energy
 2 N la batería {batería} [bateˈɾia], baterías = batéria
@@ -97,6 +101,7 @@
 2 N el kilovatio hora {kilovatio hora} [kiloˈβatjo ˈoɾa], kilovatios hora = kilowatthodina
 2 N el vatio {vatio} [ˈbatjo], vatios = watt
 1 V descargar {des|cargar} [deskaɾˈɣaɾ] = vyložiť
+3 N el cortocircuito {corto|circuito} [koɾtoθiɾˈkwito], cortocircuitos = skrat
 
 # computing-communication-devices
 2 N el ordenador {ordenador} [oɾðenaˈðoɾ], ordenadores = počítač
@@ -269,6 +274,10 @@
 2 AV offline {offline} [ofˈlain] = offline
 2 V alejar {alejar} [aleˈxaɾ] = oddialiť
 3 V distanciar {distanciar} [distanˈθjaɾ] = oddialiť
+2 N la barra espaciadora {barra espaciadora} [ˈbara espaθjaˈðoɾa], barras espaciadoras = medzerník
+2 N la memoria RAM {memoria RAM} [meˈmoɾja ˈram], memorias RAM = operačná pamäť
+3 N la enumeración {enumeración} [enumeɾaˈθjon], enumeraciones = enumerácia
+2 N la constante {constante} [konsˈtante], constantes = konštanta
 
 # devices
 2 V desmontar {des|montar} [desmonˈtaɾ] = demontovať
@@ -276,6 +285,8 @@
 1 V hacer una foto {hacer una foto} [aˈθeɾ ˈuna ˈfoto] = fotiť
 2 N la carpeta {carpeta} [kaɾˈpeta], carpetas = zakladač
 2 N la ventanilla {ventanilla} [bentaˈniʎa], ventanillas = okienko
+2 N la cubierta {cubierta} [kuˈβjeɾta], cubiertas = kryt
+3 N la carcasa {carcasa} [kaɾˈkasa], carcasas = kryt
 
 # more
 3 N el tuit {tuit} [ˈtwit], tuits = tweet

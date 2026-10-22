@@ -20,10 +20,19 @@
 2 CON 及 {及} [jí] = ako aj
 2 CON 或 {或} [huò] = alebo
 2 CON 并 {并} [bìng] = a
+1 CON 跟 {跟} [gēn] = a
 2 CON 既 {既} [jì] = ako… tak aj
 1 CON 只是 {只是} [zhǐshì] = ale
+2 CON 可 {可} [kě] = ale
 2 CON 或是 {或是} [huòshì] = alebo
 2 PHR 之类 {之类} [zhīlèi] = a tak ďalej
+2 PHR 等 {等} [děng] = a tak ďalej
+1 CON 一方面 {一方面} [yīfāngmiàn] = jednak… jednak
+1 CON 虽然 {虽然} [suīrán] = síce… ale
+3 CON 固然 {固然} [gùrán] = síce… ale
+1 CON 有时 {有时} [yǒushí] = niekedy… niekedy
+3 CON 时而 {时而} [shí'ér] = niekedy… niekedy
+2 CON 一部分 {一部分} [yībùfen] = sčasti… sčasti
 
 # subordinating
 1 CON 说 {说} [shuō] = že
@@ -73,6 +82,10 @@
 2 CON 从而 {从而} [cóng'ér] = takže
 2 CON 因而 {因而} [yīn'ér] = takže
 2 CON 正如 {正如} [zhèngrú] = ako
+2 CON 尤其是因为 {尤其是因为} [yóuqí shì yīnwèi] = tým skôr že
+2 CON 何况 {何况} [hékuàng] = tým skôr že
+1 CON 像 {像} [xiàng] = tak… ako
+2 CON 如同 {如同} [rútóng] = tak… ako
 
 # connecting-adverbs
 2 AV 因此 {因此} [yīncǐ] = preto
@@ -118,3 +131,5 @@
 2 CON 这就是说 {这就是说} [zhèjiùshìshuō] = čiže
 2 CON 就算 {就算} [jiùsuàn] = aj keby
 2 CON 免得 {免得} [miǎnde] = aby nie
+3 CON 纵然 {纵然} [zòngrán] = aj keby
+3 CON 纵使 {纵使} [zòngshǐ] = aj keby

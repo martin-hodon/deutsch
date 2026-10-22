@@ -67,6 +67,21 @@
 3 V ersticken {ersticken} [ɛɐˈʃtɪkən], hat/ist (A) = udusiť, dusiť sa
 1 N die Geburt {Geburt} [ɡəˈbuːɐt], Geburten = narodenie
 3 V sich verjüngen {sich ver|jüngen} [zɪç fɛɐˈjʏŋən], hat = mladnúť
+3 N die Fäulnis {Fäulnis} [ˈfɔʏlnɪs], - = hnitie
+3 N der Moder {Moder} [ˈmoːdɐ], - = hnitie
+3 N die Verwesung {Ver|wesung} [fɛɐˈveːzʊŋ], - = hnitie
+3 N das Aas {Aas} [aːs], Aase/Äser = zdochlina
+3 V ergrauen {er|grauen} [ɛɐˈɡʁaʊən], ist = ošedivieť
+3 AN verfault {ver|fault} [fɛɐˈfaʊlt] = zhnitý
+3 V verlottern {ver|lottern} [fɛɐˈlɔtɐn], ist = chátrať
+3 V vermodern {ver|modern} [fɛɐˈmoːdɐn], ist = hniť
+3 N die Begattung {Be|gattung} [bəˈɡatʊŋ], Begattungen = párenie
+3 V ableben {ab·leben} [ˈapleːbən], ist = zomrieť
+3 N das Geschöpf {Ge|schöpf} [ɡəˈʃœpf], Geschöpfe = živý tvor
+3 V ausschlüpfen {aus·schlüpfen} [ˈaʊsʃlʏpfən], ist = vyliahnuť sa
+3 V auskriechen {aus·kriechen} [ˈaʊskʁiːçən], kriecht aus/kroch aus/ausgekrochen [kʁiːçt aʊs/kʁɔx aʊs/ˈaʊsɡəkʁɔxən], ist = vyliahnuť sa
+3 V vergreisen {ver|greisen} [fɛɐˈɡʁaɪzən], ist = starnúť
+3 V abmurksen {ab·murksen} [ˈapmʊʁksən], hat = zabiť
 
 # body-functions
 2 V atmen {atmen} [ˈaːtmən], hat = dýchať
@@ -131,6 +146,58 @@
 3 N das Wachsein {Wach|sein} [ˈvaxzaɪn], - = bdenie
 3 V wachen {wachen} [ˈvaxən], hat = bdieť
 3 V einschläfern {ein·schläfern} [ˈaɪnʃlɛːfɐn], hat (A) = uspať
+3 N das Zittern {Zittern} [ˈtsɪtɐn], - = chvenie
+3 N der Schauder {Schauder} [ˈʃaʊdɐ], Schauder = chvenie
+3 V pulsieren {pulsieren} [pʊlˈziːʁən], hat = pulzovať
+2 V sich betrinken {sich be|trinken} [zɪç bəˈtʁɪŋkən], betrinkt/betrank/betrunken [bəˈtʁɪŋkt/bəˈtʁaŋk/bəˈtʁʊŋkən], hat = opiť sa
+3 V sich besaufen {sich be|saufen} [zɪç bəˈzaʊfən], besäuft/besoff/besoffen [bəˈzɔʏft/bəˈzɔf/bəˈzɔfən], hat = opiť sa
+3 V ficken {ficken} [ˈfɪkən], hat = súložiť
+3 V vögeln {vögeln} [ˈføːɡəln], hat = súložiť
+3 V bumsen {bumsen} [ˈbʊmzən], hat = súložiť
+3 V abspritzen {ab·spritzen} [ˈapʃpʁɪtsən], hat = vystriekať sa
+3 V ejakulieren {ejakulieren} [ejakuˈliːʁən], hat = vystriekať sa
+3 V wichsen {wichsen} [ˈvɪksən], hat = honiť si
+3 V masturbieren {masturbieren} [mastʊɐˈbiːʁən], hat = honiť si
+2 N die Scheiße {Scheiße} [ˈʃaɪsə], - = hovno
+3 V schluchzen {schluchzen} [ˈʃlʊxtsən], hat = vzlykať
+3 V wimmern {wimmern} [ˈvɪmɐn], hat = vzlykať
+3 V prusten {prusten} [ˈpʁuːstən], hat = prskať
+3 V blähen {blähen} [ˈblɛːən], hat (A, sich A) = nadúvať
+3 V ausschwitzen {aus·schwitzen} [ˈaʊsʃvɪtsən], hat (A) = vypotiť
+3 V verschwitzen {ver|schwitzen} [fɛɐˈʃvɪtsən], hat (A) = prepotiť
+3 N die Einatmung {Ein|atmung} [ˈaɪnʔaːtmʊŋ], Einatmungen = vdych
+3 N die Ausatmung {Aus|atmung} [ˈaʊsʔaːtmʊŋ], Ausatmungen = výdych
+3 N das Schläfchen {Schläfchen} [ˈʃlɛːfçən], Schläfchen = zdriemnutie
+3 N das Nickerchen {Nickerchen} [ˈnɪkɐçən], Nickerchen = zdriemnutie
+3 N die Schläfrigkeit {Schläfrig|keit} [ˈʃlɛːfʁɪçkaɪt], - = ospalosť
+3 N der Gähner {Gähner} [ˈɡɛːnɐ], Gähner = zívnutie
+3 V anbeißen {an·beißen} [ˈanbaɪsən], beißt an/biss an/angebissen [baɪst an/bɪs an/ˈanɡəbɪsən], hat = nahryznúť
+3 V aufbeißen {auf·beißen} [ˈaʊfbaɪsən], beißt auf/biss auf/aufgebissen [baɪst aʊf/bɪs aʊf/ˈaʊfɡəbɪsən], hat = rozhryznúť
+3 V zerbeißen {zer|beißen} [tsɛɐˈbaɪsən], zerbeißt/zerbiss/zerbissen [tsɛɐˈbaɪst/tsɛɐˈbɪs/tsɛɐˈbɪsən], hat = rozhryznúť
+3 V zubeißen {zu·beißen} [ˈtsuːbaɪsən], beißt zu/biss zu/zugebissen [baɪst tsuː/bɪs tsuː/ˈtsuːɡəbɪsən], hat = zahryznúť
+3 V fletschen {fletschen} [ˈflɛtʃən], hat = ceriť
+3 V schmatzen {schmatzen} [ˈʃmatsən], hat = mľaskať
+3 V aufstoßen {auf·stoßen} [ˈaʊfʃtoːsən], stößt auf/stieß auf/aufgestoßen [ʃtøːst aʊf/ʃtiːs aʊf/ˈaʊfɡəʃtoːsən], hat = grgať
+3 V rülpsen {rülpsen} [ˈʁʏlpsən], hat = grgať
+3 V sich ausweinen {sich aus·weinen} [zɪç ˈaʊsvaɪnən], hat = vyplakať sa
+3 V sich verschlucken {sich ver|schlucken} [zɪç fɛɐˈʃlʊkən], hat = zabehnúť
+3 V sich räuspern {sich räuspern} [zɪç ˈʁɔʏspɐn], hat = odkašľať si
+3 V hüsteln {hüsteln} [ˈhyːstəln], hat = pokašliavať
+3 V sich schnäuzen {sich schnäuzen} [zɪç ˈʃnɔʏtsən], hat = smrkať
+3 V furzen {furzen} [ˈfʊʁtsən], hat = prdnúť
+3 N das Enzym {En|zym} [ɛnˈtsyːm], Enzyme = enzým
+3 V zerkauen {zer|kauen} [tsɛɐˈkaʊən], hat = žuť
+3 V verschnaufen {ver|schnaufen} [fɛɐˈʃnaʊfən], hat = oddýchnuť si
+2 V rasten {rasten} [ˈʁastən], hat = oddýchnuť si
+3 N die Puste {Puste} [ˈpuːstə], - = dych
+3 V speicheln {speicheln} [ˈʃpaɪçəln], hat = slintať
+3 V geifern {geifern} [ˈɡaɪfɐn], hat = slintať
+3 V hauchen {hauchen} [ˈhaʊxən], hat = dýchať
+3 AN unverdrossen {un|verdrossen} [ˈʊnfɛɐdʁɔsən] = neúnavný
+3 V verpennen {ver|pennen} [fɛɐˈpɛnən], hat = prespať
+3 V pennen {pennen} [ˈpɛnən], hat = spať
+3 V bespucken {be|spucken} [bəˈʃpʊkən], hat = pľuť
+3 V abwürgen {ab·würgen} [ˈapvʏʁɡən], hat = škrtiť
 
 # nourishment
 1 V essen {essen} [ˈɛsən], isst/aß/gegessen [ɪst/aːs/ɡəˈɡɛsən], hat = jesť
@@ -168,11 +235,28 @@
 3 V nähren {nähren} [ˈnɛːʁən], hat (A) = živiť, kŕmiť
 3 N die Sättigung {Sättigung} [ˈzɛtɪɡʊŋ], - = sýtosť
 2 V fressen {fressen} [ˈfʁɛsən], frisst/fraß/gefressen [fʁɪst/fʁaːs/ɡəˈfʁɛsən], hat (A) = žrať
+3 V sich überessen {sich über|essen} [zɪç yːbɐˈʔɛsən], überisst/überaß/überessen [yːbɐˈʔɪst/yːbɐˈʔaːs/yːbɐˈʔɛsən], hat = prejesť sa
+3 V tafeln {tafeln} [ˈtaːfəln], hat = hodovať
+3 V mampfen {mampfen} [ˈmampfən], hat = napchávať sa
+3 V naschen {naschen} [ˈnaʃən], hat = maškrtiť
+3 V laben {laben} [ˈlaːbən], hat (A, sich A) = občerstviť
+3 N der Feinschmecker {Fein|schmecker} [ˈfaɪnʃmɛkɐ], Feinschmecker = labužník
+3 N der Schlemmer {Schlemmer} [ˈʃlɛmɐ], Schlemmer = labužník
+3 V abtrinken {ab·trinken} [ˈaptʁɪŋkən], trinkt ab/trank ab/abgetrunken [tʁɪŋkt ap/tʁaŋk ap/ˈapɡətʁʊŋkən], hat (A) = odpiť
+3 V mästen {mästen} [ˈmɛstən], hat (A) = vykrmovať
+3 V auslecken {aus·lecken} [ˈaʊslɛkən], hat = vylízať
+3 V lutschen {lutschen} [ˈlʊtʃən], hat (an D) = cmúľať
+2 V saufen {saufen} [ˈzaʊfən], säuft/soff/gesoffen [zɔʏft/zɔf/ɡəˈzɔfən], hat = piť
+2 V stillen {stillen} [ˈʃtɪlən], hat = dojčiť
+3 V belecken {be|lecken} [bəˈlɛkən], hat = lízať
+3 V nuckeln {nuckeln} [ˈnʊkəln], hat (an D) = sať
+3 V knuspern {knuspern} [ˈknʊspɐn], hat = chrúmať
 
 # senses-instinct
 2 N der Instinkt {Instinkt} [ɪnˈstɪŋkt], Instinkte = inštinkt
 - 3 AN instinktiv {instinktiv} [ɪnstɪŋkˈtiːf] = inštinktívny
 2 N der Reflex {Reflex} [ˈʁeːflɛks], Reflexe = reflex
+3 V berauschen {be|rauschen} [bəˈʁaʊʃən], hat (A) = omámiť
 
 # growth-adaptation
 2 N die Pubertät {Pubertät} [pubɛʁˈtɛːt], - = puberta
@@ -183,6 +267,13 @@
 3 V sich verwurzeln {sich ver|wurzeln} [zɪç fɛɐˈvʊʁtsəln], hat = zakoreniť sa
 3 V verenden {ver|enden} [fɛɐˈɛndən], ist = uhynúť, zdochnúť
 3 V verrauchen {ver|rauchen} [fɛɐˈʁaʊxən], ist = vyprchať, vyfajčiť sa
+3 V verwachsen {ver|wachsen} [fɛɐˈvaksən], verwächst/verwuchs/verwachsen [fɛɐˈvɛkst/fɛɐˈvuːks/fɛɐˈvaksən], ist = zrásť
+3 V nachwachsen {nach·wachsen} [ˈnaːxvaksən], wächst nach/wuchs nach/nachgewachsen [vɛkst naːx/vuːks naːx/ˈnaːxɡəvaksən], ist = dorásť
+3 V wuchern {wuchern} [ˈvuːxɐn], hat = rozrastať sa
+3 V befruchten {be|fruchten} [bəˈfʁʊxtən], hat = oplodniť
+3 V verkümmern {ver|kümmern} [fɛɐˈkʏmɐn], ist = chradnúť
+3 N die Mutation {Mu|tation} [mutaˈtsjoːn], Mutationen = mutácia
+3 V sich entfalten {sich ent|falten} [zɪç ɛntˈfaltən], hat = vyvíjať sa
 
 # more
 2 N das Ökosystem {Öko|system} [økoˈsʏsteːm], Ökosysteme = ekosystém

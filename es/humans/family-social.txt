@@ -71,6 +71,12 @@
 2 N el ser querido {ser querido} [seɾ keˈɾiðo], seres queridos = blízky
 1 N el nieto {nieto} [ˈnjeto], nietos = vnúča
 2 N el cuñado {cuñado} [kuˈɲaðo], cuñados = švagor
+3 N el bisabuelo {bisabuelo} [bisaˈβwelo], bisabuelos = pradedo
+3 N la bisabuela {bisabuela} [bisaˈβwela], bisabuelas = prababka
+2 N la cuñada {cuñada} [kuˈɲaða], cuñadas = švagriná
+2 N los suegros {suegros} [ˈsweɣɾos], PL = svokrovci
+3 N el hermanastro {hermanastro} [eɾmaˈnastɾo], hermanastros = nevlastný brat
+3 N el ahijado {ahijado} [aiˈxaðo], ahijados = krstný syn
 
 # people-stages
 1 N la persona {persona} [peɾˈsona], personas = osoba
@@ -119,6 +125,18 @@
 3 N el muchacho {muchacho} [muˈtʃatʃo], muchachos = mládenec
 2 N el soltero {soltero} [solˈteɾo], solteros = single
 2 AN homófobo {homófobo} [oˈmofoβo], homófoba = homofóbny
+2 N el negro {negro} [ˈneɣɾo], negros = černoch
+3 N el forzudo {forzudo} [foɾˈθuðo], forzudos = silák
+3 N el patoso {patoso} [paˈtoso], patosos = nešika
+3 N el mocoso {mocoso} [moˈkoso], mocosos = sopliak
+3 N el scout {scout} [esˈkaut], scouts = skaut
+3 N el isleño {isleño} [isˈleɲo], isleños = ostrovan
+3 N el solitario {solitario} [soliˈtaɾjo], solitarios = samotár
+3 N el veinteañero {veinteañero} [beinteaˈɲeɾo], veinteañeros = dvadsiatnik
+3 AN senil {senil} [seˈnil] = starecký
+2 AN mayor {mayor} [maˈʝoɾ] = postarší
+3 N el niño pequeño {niño pequeño} [ˈniɲo peˈkeɲo], niños pequeños = batoľa
+3 AN mozo {mozo} [ˈmoθo], moza = mladistvý
 
 # marriage-social-bonds
 1 V casarse {casarse} [kaˈsaɾse] (con) = oženiť sa
@@ -187,6 +205,10 @@
 3 N la compañera de vida {compañera de vida} [kompaˈɲeɾa ðe ˈβiða], compañeras de vida = životná partnerka
 2 N el ligue {ligue} [ˈliɣe], ligues = flirt
 3 N el coqueteo {coqueteo} [kokeˈteo], coqueteos = flirt
+3 N la dama de honor {dama de honor} [ˈdama de oˈnoɾ], damas de honor = družička
+3 N la dote {dote} [ˈdote], dotes = veno
+3 N la ruptura de compromiso {ruptura de compromiso} [rupˈtuɾa de komˈpɾomiso], rupturas de compromiso = zrušenie zásnub
+3 N el adulterio {adulterio} [aðulˈteɾjo], adulterios = cudzoložstvo
 
 # social-interaction
 1 V encontrar {encontrar} [eŋkonˈtɾaɾ], o>ue = stretnúť
@@ -358,10 +380,61 @@
 2 V ser fiel {ser fiel} [seɾ ˈfjel], irr (a) = byť verný
 1 V pelearse {pelearse} [peleˈaɾse] (con) = pohádať sa
 2 V discutir {discutir} [diskuˈtiɾ] (con) = pohádať sa
+3 N el desliz {desliz} [desˈliθ], deslices = faux pas
+3 N la metedura de pata {metedura de pata} [meteˈðuɾa de ˈpata], meteduras de pata = faux pas
+3 AN concorde {concorde} [konˈkoɾðe] = svorný
+3 V adular {adular} [aðuˈlaɾ] = obskakovať
+3 N la seducción {seducción} [seðukˈθjon], seducciones = zvádzanie
+2 N la popularidad {popularidad} [populaɾiˈðað], - = popularita
+3 N el gentío {gentío} [xenˈtio], gentíos = tlačenica
+2 N el círculo {círculo} [ˈθiɾkulo], círculos = okruh
+3 V socorrer {socorrer} [sokoˈreɾ] = vypomôcť
+3 N el mimo {mimo} [ˈmimo], mimos = rozmaznanie
+2 N el acoso {acoso} [aˈkoso], acosos = obťažovanie
+3 V increpar {increpar} [iŋkɾeˈpaɾ] = karhať
+3 V acurrucarse {acurrucarse} [akuruˈkaɾse] = maznať sa
+1 V reunirse {reunirse} [reuˈniɾse], u>ú = zhromaždiť sa
+3 N el secuaz {secuaz} [seˈkwaθ], secuaces = prisluhovač
+1 INT hola {hola} [ˈola] = ahoj
+2 N el sinvergüenza {sinvergüenza} [simbeɾˈɣwenθa], sinvergüenzas = naničhodník
+3 N el granuja {granuja} [ɡɾaˈnuxa], granujas = naničhodník
+3 N el pillo {pillo} [ˈpiʎo], pillos = lotor
+3 N el truhan {truhan} [tɾuˈan], truhanes = lotor
+3 N el trasto {trasto} [ˈtɾasto], trastos = fagan
+3 N el patán {patán} [paˈtan], patanes = hulvát
+2 N el ignorante {ignorante} [iɣnoˈɾante], ignorantes = ignorant
+3 N el pelele {pelele} [peˈlele], peleles = pajác
+2 N el camarada {camarada} [kamaˈɾaða], camaradas = súdruh
+3 N el pisaverde {pisa|verde} [pisaˈβeɾðe], pisaverdes = fičúr
+3 N la chusma {chusma} [ˈtʃusma], - = zberba
+2 N el hipócrita {hipócrita} [iˈpokɾita], hipócritas = pokrytec
+3 N el codicioso {codicioso} [koðiˈθjoso], codiciosos = chamtivec
+3 N el gamberro {gamberro} [ɡamˈbero], gamberros = chuligán
+3 N el empollón {empollón} [empoˈʎon], empollones = bifľoš
+3 N el chivato {chivato} [tʃiˈβato], chivatos = žalobaba
+3 N el fisgón {fisgón} [fisˈɣon], fisgones = sliedič
+3 N la tía buena {tía buena} [ˈtia ˈbwena], tías buenas = kočka
+2 N la prostituta {prostituta} [pɾostiˈtuta], prostitutas = prostitútka
+3 N la puta {puta} [ˈputa], putas = prostitútka
+3 N la guarra {guarra} [ˈɡwara], guarras = cundra
+3 N la descarada {descarada} [deskaˈɾaða], descaradas = drzaňa
+2 N la tonta {tonta} [ˈtonta], tontas = hlupana
+2 N el pesado {pesado} [peˈsaðo], pesados = dotieravec
+3 N la arpía {arpía} [aɾˈpia], arpías = mrcha
+3 N la fila india {fila india} [ˈfila ˈindja], filas indias = husí pochod
+3 N el zalamero {zalamero} [θalaˈmeɾo], zalameros = pätolízač
+3 N el lameculos {lame|culos} [lameˈkulos], lameculos = pätolízač
+3 N el cabrón {cabrón} [kaˈβɾon], cabrones = hajzel
+3 N el delator {delator} [delaˈtoɾ], delatores = udavač
+2 N el homenaje {homenaje} [omeˈnaxe], homenajes = pocta
+3 N el zoquete {zoquete} [θoˈkete], zoquetes = idiot
+3 N el compinche {compinche} [komˈpintʃe], compinches = kamarát
+2 V fiarse {fiarse} [fiˈaɾse], i>í (de) = dôverovať
 
 # contact
 2 V abrazarse {abrazarse} [aβɾaˈθaɾse] = túliť sa
 3 V acurrucarse {acurrucarse} [akuruˈkaɾse] = túliť sa
+2 N la caricia {caricia} [kaˈɾiθja], caricias = pohladenie
 
 # more
 1 V confiar {confiar} [komˈfjaɾ] (en) = spoliehať sa

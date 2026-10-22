@@ -119,6 +119,30 @@
 2 AV merveilleusement {merveilleuse|ment} [mɛʁvɛjøzˈmɑ̃] = podivuhodne
 2 N la mortalité {mortalité} [mɔʁtaliˈte], mortalités = smrteľnosť
 2 N la condition mortelle {condition mortelle} [kɔ̃disjɔ̃ mɔʁˈtɛl], conditions mortelles = smrteľnosť
+3 V damner {damner} [daˈne] = zatratiť
+3 N la damnation {damnation} [damnaˈsjɔ̃], - = zatratenie
+3 N la paroisse {paroisse} [paˈʁwas], paroisses = farnosť
+3 N l'adoration (f) {adoration} [adɔʁaˈsjɔ̃], - = uctievanie
+2 N le culte {culte} [kylt], cultes = uctievanie
+3 N la piété {piété} [pjeˈte], - = nábožnosť
+3 N la dévotion {dévotion} [devɔˈsjɔ̃], - = nábožnosť
+3 N le purgatoire {purgatoire} [pyʁgaˈtwaʁ], - = očistec
+3 N l'hérétique (m) {hérétique} [eʁeˈtik], hérétiques = kacír
+3 N la pénitence {pénitence} [peniˈtɑ̃s], pénitences = pokánie
+3 N la repentance {repentance} [ʁəpɑ̃ˈtɑ̃s], - = pokánie
+3 V se confesser {se confesser} [sə kɔ̃fɛˈse] (à) = spovedať sa
+3 N l'apôtre (m) {apôtre} [aˈpotʁ], apôtres = apoštol
+3 N la providence {providence} [pʁɔviˈdɑ̃s], - = prozreteľnosť
+3 N la Faucheuse {Faucheuse} [foˈʃøz], - = smrtka
+3 V ressusciter {ressusciter} [ʁesysiˈte], être = vstať z mŕtvych
+2 N le ciel {ciel} [sjɛl], cieux = nebesá
+2 N le paradis {paradis} [paʁaˈdi], paradis = nebesá
+3 N l'hindouisme (m) {hindouisme} [ɛ̃duˈism], - = hinduizmus
+3 N le jeûne {jeûne} [ʒøn], jeûnes = pôst
+3 N le pèlerinage {pèlerinage} [pɛlʁiˈnaʒ], pèlerinages = púť
+3 N la communion {communion} [kɔmyˈnjɔ̃], communions = sväté prijímanie
+3 N l'absolution (f) {absolution} [absɔlyˈsjɔ̃], absolutions = rozhrešenie
+3 N le revenant {revenant} [ʁəvəˈnɑ̃], revenants = strašidlo
 
 # magic-fate
 2 N la magie {magie} [maˈʒi], - = mágia
@@ -172,6 +196,29 @@
 3 V tirer au sort {tirer au sort} [tiˈʁe o sɔʁ] = vyžrebovať
 3 V invoquer {invoquer} [ɛ̃vɔˈke] (qn) = zaklínať
 3 V conjurer {conjurer} [kɔ̃ʒyˈʁe] (qn) = zaklínať
+2 V prédire {pré|dire} [pʁeˈdiʁ], irr, prédit = veštiť
+3 V prophétiser {prophétiser} [pʁɔfetiˈze] = veštiť
+3 N le loup-garou {loup-garou} [lugaˈʁu], loups-garous = vlkolak
+3 N l'enchantement (m) {enchantement} [ɑ̃ʃɑ̃tˈmɑ̃], enchantements = zakliatie
+3 N l'ensorcellement (m) {ensorcellement} [ɑ̃sɔʁsɛlˈmɑ̃], ensorcellements = zakliatie
+3 N l'enchanteur (m) {enchanteur} [ɑ̃ʃɑ̃ˈtœʁ], enchanteurs = zaklínač
+2 AN légendaire {légendaire} [leʒɑ̃ˈdɛʁ] = bájny
+3 AN fabuleux {fabuleux} [fabyˈlø], fabuleuse, fabuleux/fabuleuses = bájny
+2 AN surnaturel {sur|naturel} [syʁnatyˈʁɛl], surnaturelle = nadprirodzený
+3 N l'élixir (m) {élixir} [eliˈksiʁ], élixirs = elixír
+3 N le zodiaque {zodiaque} [zɔˈdjak], zodiaques = zverokruh
+3 N le Verseau {Verseau} [vɛʁˈso], - = vodnár
+3 N les Gémeaux (m) {Gémeaux} [ʒeˈmo], PL = blíženci
+3 N la Vierge {Vierge} [vjɛʁʒ], - = panna
+3 V ensorceler {ensorceler} [ɑ̃sɔʁsəˈle] = začarovať
+3 AN maudit {maudit} [moˈdi], maudite = prekliaty
+3 N la nymphe {nymphe} [nɛ̃f], nymphes = nymfa
+3 N l'hydre (f) {hydre} [idʁ], hydres = hydra
+3 N le centaure {centaure} [sɑ̃ˈtɔʁ], centaures = kentaur
+3 N la chimère {chimère} [ʃiˈmɛʁ], chimères = chiméra
+3 N le présage {présage} [pʁeˈzaʒ], présages = predzvesť
+3 N l'augure (m) {augure} [oˈgyʁ], augures = predzvesť
+3 N le maléfice {maléfice} [maleˈfis], maléfices = kúzlo
 
 # customs-celebrations
 2 N la coutume {coutume} [kuˈtym], coutumes = zvyk
@@ -244,6 +291,9 @@
 3 N l'Avent (m) {Avent} [aˈvɑ̃], - = advent
 2 AV traditionnellement {traditionnelle|ment} [tʁadisjɔnɛlˈmɑ̃] = tradične
 3 AV solennellement {solennelle|ment} [sɔlanɛlˈmɑ̃] = slávnostne
+3 N la distribution des cadeaux {distribution des cadeaux} [distʁibysjɔ̃ de kaˈdo], distributions des cadeaux = nádielka
+3 N la jubilation {jubilation} [ʒybilaˈsjɔ̃], - = jasot
 
 # customs
 3 V consacrer {consacrer} [kɔ̃saˈkʁe] = vysvätiť
+2 N la couronne {couronne} [kuˈʁɔn], couronnes = veniec

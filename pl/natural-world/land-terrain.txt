@@ -77,6 +77,11 @@
 2 N park narodowy {park narodowy} [park narɔˈdɔvɨ], m, parki narodowe = národný park
 3 N rezerwat przyrody {rezerwat przyrody} [rɛˈzɛrvat pʂɨˈrɔdɨ], m, rezerwaty przyrody = prírodná rezervácia
 2 N podnóże {pod|nóże} [pɔdˈnuʐɛ], n, podnóża = úpätie
+3 N pustkowie {pustkowie} [pustˈkɔvʲɛ], n, pustkowia = pustatina
+3 N polana {polana} [pɔˈlana], ż, polany = čistina
+3 N przesmyk {przesmyk} [ˈpʂɛsmɨk], m, przesmyki = pevninská šija
+3 N przełęcz {prze|łęcz} [ˈpʂɛwɛntʂ], ż, przełęcze = priesmyk
+3 N otchłań {otchłań} [ˈɔtxwaɲ], ż, otchłanie = priepasť (v teréne)
 
 # surface-materials
 1 N skała {skała} [ˈskawa], ż, skały = skala
@@ -102,6 +107,17 @@
 2 N ton {ton} [tɔn], m, tony = tón
 3 N żwir {żwir} [ʐvʲir], m, żwiry = štrk
 3 N lawa {lawa} [ˈlava], ż, lawy = láva
+3 N mika {mika} [ˈmʲika], ż, miki = sľuda
+3 N szmaragd {szmaragd} [ˈʂmarakt], m, szmaragdy = smaragd
+3 N żużel {żużel} [ˈʐuʐɛl], m, żużle = škvara
+3 AN kamienny {kamienny} [kaˈmʲɛnɨ] = kamenný
+3 N kamień szlachetny {kamień szlachetny} [ˈkamʲɛɲ ʂlaˈxɛtnɨ], m, kamienie szlachetne = drahokam
+3 N bursztyn {bursztyn} [ˈburʂtɨn], m, bursztyny = jantár
+3 N torf {torf} [tɔrf], m, torfy = rašelina
+3 N bagnisko {bagnisko} [baˈɡɲiskɔ], n, bagniska = bahnisko
+3 N wapień {wapień} [ˈvapʲɛɲ], m, wapienie = vápenec
+3 N alabaster {alabaster} [alaˈbastɛr], m, alabastry = alabaster
+3 N piaskowiec {piaskowiec} [pʲaˈskɔvʲɛts], m, piaskowce = pieskovec
 
 # geo-events
 2 N wybuch {wy|buch} [ˈvɨbux], m, wybuchy = vypuknutie
@@ -124,3 +140,6 @@
 # earth
 2 V trząść się {trząść się} [tʂɔ̃ɕtɕ ɕɛ], zatrząść się = triasť sa
 1 N podłoga {pod|łoga} [pɔdˈwɔɡa], ż, podłogi = podlaha
+3 N południk {południk} [pɔˈwudɲik], m, południki = poludník
+3 N zwrotnik {zwrotnik} [ˈzvrɔtɲik], m, zwrotniki = obratník
+3 N koło podbiegunowe {koło podbiegunowe} [ˈkɔwɔ pɔdbʲɛɡuˈnɔvɛ], n, koła podbiegunowe = polárna kružnica

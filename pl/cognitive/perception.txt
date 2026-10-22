@@ -98,6 +98,9 @@
 2 AV pozornie {pozornie} [pɔˈzɔrɲɛ] = zdanlivo
 3 AV żywiołowo {żywiołowo} [ʐɨvʲɔˈwɔvɔ] = bujaro
 2 N ślepota {ślepota} [ɕlɛˈpɔta], ż, - = slepota
+3 V zerknąć {zerknąć} [ˈzɛrknɔɲtɕ], dk (na + B) = mrknúť sa
+3 V podnosić wzrok {podnosić wzrok} [pɔdˈnɔɕitɕ vzrɔk], podnieść wzrok = vzhliadnuť
+2 V oślepiać {oślepiać} [ɔɕˈlɛpʲatɕ], oślepić (B) = oslepiť
 
 # hearing
 1 V słyszeć {słyszeć} [ˈswɨʂɛtɕ], usłyszeć = počuť
@@ -175,6 +178,14 @@
 2 AN słyszący {słyszący} [swɨˈʂɔntsɨ] = počujúci
 2 N smród {smród} [smrut], m, smrody = zápach
 3 N odór {odór} [ˈɔdur], m, odory = zápach
+2 N pieczenie {pieczenie} [pʲɛˈtʂɛɲɛ], n, - = štípanie
+2 N szczypanie {szczypanie} [ʂtʂɨˈpaɲɛ], n, szczypania = štípanie
+2 V szczypać {szczypać} [ˈʂtʂɨpatɕ], zaszczypać = štípať
+2 N swędzenie {swędzenie} [sfɛnˈdzɛɲɛ], n, - = svrbenie
+2 N słodycz {słodycz} [ˈswɔdɨtʂ], ż, słodycze = sladkosť chuti
+2 N węch {węch} [vɛ̃x], m, - = čuch
+2 N dotyk {dotyk} [ˈdɔtɨk], m, dotyki = hmat
+3 AN stęchły {stęchły} [ˈstɛ̃xwɨ] = zatuchnutý
 
 # colors
 1 N kolor {kolor} [ˈkɔlɔr], m, kolory = farba
@@ -225,3 +236,10 @@
 2 AN beżowy {beżowy} [bɛˈʐɔvɨ] = béžový
 2 AV kolorowo {kolorowo} [kɔlɔˈrɔvɔ] = pestro
 2 AN czarno-biały {czarno-biały} [tʂarnɔˈbʲawɨ] = čiernobiely
+3 AN lazurowy {lazurowy} [lazuˈrɔvɨ] = azúrový
+3 N zabarwienie {zabarwienie} [zabarˈvʲɛɲɛ], n, zabarwienia = zafarbenie
+2 V blednąć {blednąć} [ˈblɛdnɔɲtɕ], zblednąć = zblednúť
+3 V odbarwiać {odbarwiać} [ɔdˈbarvʲatɕ], odbarwić (B) = odfarbiť
+3 V przefarbowywać {przefarbowywać} [pʂɛfarbɔˈvɨvatɕ], przefarbować (B) = prefarbiť
+3 AN zabarwiony {zabarwiony} [zabarˈvʲɔnɨ] = zafarbený
+2 AN ufarbowany {ufarbowany} [ufarbɔˈvanɨ] = zafarbený

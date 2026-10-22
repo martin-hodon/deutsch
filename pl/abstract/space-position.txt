@@ -151,6 +151,7 @@
 3 N pełność {pełność} [ˈpɛwnɔɕtɕ], ż, - = plnosť
 2 AV od środka {od środka} [ɔt ˈɕrɔtka] = zvnútra
 2 AV od wewnątrz {od wewnątrz} [ɔd ˈvɛvnɔntʂ] = zvnútra
+2 V mieścić się {mieścić się} [ˈmʲɛɕtɕitɕ ɕɛ], zmieścić się (w + Ms) = zmestiť sa
 
 # direction-distance
 1 N kierunek {kierunek} [kjɛˈrunɛk], m, kierunki = smer
@@ -466,10 +467,19 @@
 2 N odjazd {od|jazd} [ˈɔdjast], m, odjazdy = odchod
 2 N odejście {odejście} [ɔˈdɛjɕtɕɛ], n, odejścia = odchod
 2 V ubywać {ubywać} [uˈbɨvatɕ], ubyć = ubudnúť
+2 V migać {migać} [ˈmʲiɡatɕ], mignąć = mihať sa
+3 V śmigać {śmigać} [ˈɕmʲiɡatɕ], śmignąć = mihať sa
+2 V odbijać się {odbijać się} [ɔdˈbʲijatɕ ɕɛ], odbić się (od + D) = odraziť sa
+2 V uginać się {uginać się} [uˈɡinatɕ ɕɛ], ugiąć się (pod + N) = prehýbať sa
+2 V pochylać {pochylać} [pɔˈxɨlatɕ], pochylić (B) = nakloniť
+2 V przechylać {przechylać} [pʂɛˈxɨlatɕ], przechylić (B) = nakloniť
+2 V zanosić {zanosić} [zaˈnɔɕitɕ], zanieść (B) = zaniesť
+3 V szwendać się {szwendać się} [ˈʂfɛndatɕ ɕɛ], - (po + Ms) = potulovať sa
 
 # travel
 1 V przyjeżdżać {przyjeżdżać} [pʂɨˈjɛʐdʐatɕ], przyjechać = pricestovať
 2 V przybywać {przybywać} [pʂɨˈbɨvatɕ], przybyć = pricestovať
+2 V przychodzić razem {przychodzić razem} [pʂɨˈxɔdʑitɕ ˈrazɛm], przyjść razem = prísť spolu
 
 # position
 2 AN przejezdny {przejezdny} [pʂɛˈjɛzdnɨ] = priechodný

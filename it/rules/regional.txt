@@ -1,0 +1,9 @@
+# REGIONAL WORDS (tools/words.py mark_region -> dict.tsv `region`): Italian words NOT said everywhere the language is
+# spoken -- a national variety, a region, a dialect. The dictionary marks them, the trainer does not offer them as THE
+# word of a concept that has a general one.
+#   POS word = CODES -- note          (POS word (concept) = ... when the word has another concept, not marked)
+# CODES (one or more): AT CH DE-N DE-S · UK US AU IE SCOT · ES LATAM MX AR · BE CA AF · IT-N IT-S · PL-S PL-W SIL ·
+# TW HK CN-N CN-S · dialect (no one region); their names: `region-CODE` in <lang>/ui.txt
+N anguria = IT-N -- general: cocomero
+N finferlo = IT-N -- northern name; general: gallinaccio
+N gelone = dialect -- regional (central Italy) name; general: pleurotus

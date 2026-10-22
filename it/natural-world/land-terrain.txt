@@ -98,6 +98,11 @@
 2 N la riserva naturale {riserva naturale} [riˈzɛrva natuˈraːle], riserve naturali = prírodná rezervácia
 2 N il piede del monte {piede del monte} [ˈpjɛːde del ˈmonte], piedi del monte = úpätie
 3 N la pendice {pendice} [penˈdiːtʃe], pendici = úpätie
+3 N la landa {landa} [ˈlanda], lande = pustatina
+2 N la radura {radura} [raˈduːra], radure = čistina
+3 N l'istmo (m) {istmo} [ˈistmo], istmi = pevninská šija
+2 N il passo {passo} [ˈpasːo], passi = priesmyk
+3 N il valico {valico} [ˈvaːliko], valichi = priesmyk
 
 # surface-materials
 2 N la roccia {roccia} [ˈrottʃa], rocce = skala
@@ -129,6 +134,19 @@
 2 N la ghiaia {ghiaia} [ˈɡjaːja], ghiaie = štrk
 3 N il pietrisco {pietrisco} [pjeˈtrisko], pietrischi = štrk
 2 N la lava {lava} [ˈlaːva], lave = láva
+3 N la mica {mica} [ˈmiːka], miche = sľuda
+2 N lo smeraldo {smeraldo} [zmeˈraldo], smeraldi = smaragd
+3 N la scoria {scoria} [ˈskɔːrja], scorie = škvara
+3 AN lapideo {lapideo} [laˈpiːdeo], lapidea = kamenný
+2 N la pietra preziosa {pietra preziosa} [ˈpjɛːtra pretˈtsjoːza], pietre preziose = drahokam
+3 N la gemma {gemma} [ˈdʒɛmːa], gemme = drahokam
+2 N l'ambra (f) {ambra} [ˈambra], ambre = jantár
+3 N la torba {torba} [ˈtɔrba], torbe = rašelina
+2 N la palude {palude} [paˈluːde], paludi = bahnisko
+3 N il pantano {pantano} [panˈtaːno], pantani = bahnisko
+3 N il calcare {calcare} [kalˈkaːre], calcari = vápenec
+3 N l'alabastro (m) {alabastro} [alaˈbastro], alabastri = alabaster
+3 N l'arenaria (f) {arenaria} [areˈnaːrja], arenarie = pieskovec
 
 # geo-events
 2 N l'eruzione (f) {eruzione} [eruˈttsjoːne], eruzioni = vypuknutie
@@ -155,3 +173,6 @@
 # earth
 2 V tremare {tremare} [treˈmaːre] = triasť sa
 1 N il pavimento {pavimento} [paviˈmento], pavimenti = podlaha
+3 N il meridiano {meridiano} [meriˈdjaːno], meridiani = poludník
+3 N il tropico {tropico} [ˈtrɔːpiko], tropici = obratník
+3 N il circolo polare {circolo polare} [ˈtʃirkolo poˈlaːre], circoli polari = polárna kružnica

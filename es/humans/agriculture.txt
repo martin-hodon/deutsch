@@ -56,6 +56,21 @@
 3 N el silo {silo} [ˈsilo], silos = silo
 2 N la pala {pala} [ˈpala], palas = rýľ
 3 V cultivar {cultivar} [kultiˈβaɾ] = kultivovať
+3 V trasplantar {tras|plantar} [tɾasplanˈtaɾ] = presadiť (rastlinu)
+3 V escardar {escardar} [eskaɾˈðaɾ] = plieť
+3 N el barbecho {barbecho} [baɾˈβetʃo], barbechos = prieloh
+3 V gradar {gradar} [ɡɾaˈðaɾ] = kypriť
+3 N el claro {claro} [ˈklaɾo], claros = priesek
+3 N la tala {tala} [ˈtala], talas = výrub
+3 V talar {talar} [taˈlaɾ] = vyrúbať
+3 V recolectar {recolectar} [rekolekˈtaɾ] = oberať
+3 N la siega {siega} [ˈsjeɣa], siegas = žatva
+3 N la siembra {siembra} [ˈsjembɾa], siembras = osev
+3 N el mimbre {mimbre} [ˈmimbɾe], mimbres = prútie
+3 N la labranza {labranza} [laˈβɾanθa], labranzas = orba
+3 V cavar {cavar} [kaˈβaɾ] = rýľovať
+2 N el granjero {granjero} [ɡɾaŋˈxeɾo], granjeros = roľník
+3 N la laya {laya} [ˈlaʝa], layas = rýľ
 
 # crops
 2 N el cereal {cereal} [θeɾeˈal], cereales = obilie
@@ -75,6 +90,8 @@
 3 N la plántula {plántula} [ˈplantula], plántulas = sadenica
 3 N el plantón {plantón} [planˈton], plantones = sadenica
 3 N la paca {paca} [ˈpaka], pacas = bala
+3 N el mijo {mijo} [ˈmixo], - = proso
+3 N la malta {malta} [ˈmalta], - = slad
 
 # livestock-keeping
 2 N el ganado {ganado} [ɡaˈnaðo], - = dobytok
@@ -116,6 +133,25 @@
 3 N la ubre {ubre} [ˈuβɾe], ubres = vemeno
 3 N la caseta del perro {caseta del perro} [kaˈseta del ˈpero], casetas del perro = búda
 3 N el jinete {jinete} [xiˈnete], jinetes = jazdec
+3 N el yugo {yugo} [ˈʝuɣo], yugos = jarmo
+3 N la cerda {cerda} [ˈθeɾða], cerdas = prasnica
+3 N el verraco {verraco} [beˈrako], verracos = kanec
+3 N el cabrito {cabrito} [kaˈβɾito], cabritos = kozľa
+3 N el caballo negro {caballo negro} [kaˈβaʎo ˈneɣɾo], caballos negros = vraník
+3 N la brida {brida} [ˈbɾiða], bridas = uzda
+3 N las riendas {riendas} [ˈrjendas], PL = opraty
+3 N el estribo {estribo} [esˈtɾiβo], estribos = strmeň
+3 N la espuela {espuela} [esˈpwela], espuelas = ostroha
+3 N el azote {azote} [aˈθote], azotes = bič
+2 N el látigo {látigo} [ˈlatiɣo], látigos = bič
+3 V azotar {azotar} [aθoˈtaɾ] = bičovať
+3 N el bozal {bozal} [boˈθal], bozales = náhubok
+2 N el collar {collar} [koˈʎaɾ], collares = obojok
+3 V enganchar {enganchar} [eŋɡanˈtʃaɾ] = zapriahnuť
+3 N el cencerro {cencerro} [θenˈθero], cencerros = zvonec
+3 N el latigazo {latigazo} [latiˈɣaθo], latigazos = šľahnutie
+3 N el hato {hato} [ˈato], hatos = stádo
+3 V apacentar {apacentar} [apaθenˈtaɾ], e>ie = pásť (sa)
 
 # garden-hunt-fish
 1 N el jardín {jardín} [xaɾˈðin], jardines = záhrada
@@ -145,3 +181,7 @@
 3 N la manguera de jardín {manguera de jardín} [maŋˈɡeɾa de xaɾˈðin], mangueras de jardín = záhradná hadica
 3 N el establo {establo} [esˈtaβlo], establos = chlev
 3 N la pocilga {pocilga} [poˈθilɡa], pocilgas = chlev
+3 N el leñador {leñ|ador} [leɲaˈðoɾ], leñadores = drevorubač
+3 V destripar {destripar} [destɾiˈpaɾ] = vypitvať
+2 N el anzuelo {anzuelo} [anˈθwelo], anzuelos = háčik
+3 N el carrete {carrete} [kaˈrete], carretes = navijak

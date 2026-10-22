@@ -76,6 +76,7 @@
 2 N la réduction de prix {réduction de prix} [ʁedyksjɔ̃ də pʁi], réductions de prix = zníženie ceny
 2 V s'enrichir {s'en|richir} [sɑ̃ʁiˈʃiʁ] = zbohatnúť
 1 V emprunter {emprunter} [ɑ̃pʁœ̃ˈte] (qch à qn) = požičať si
+3 V amasser {amasser} [amaˈse] = nahrabať
 
 # buying-selling
 1 V acheter {acheter} [aʃˈte] = kúpiť
@@ -195,6 +196,10 @@
 3 AV luxueusement {luxueuse|ment} [lyksɥøzˈmɑ̃] = luxusne
 2 N la baisse des prix {baisse des prix} [bɛs de pʁi], baisses des prix = zlacnenie
 1 V vendre {vendre} [vɑ̃dʁ] = predávať
+3 AN préférentiel {préférentiel} [pʁefeʁɑ̃ˈsjɛl], préférentielle = zvýhodnený
+2 N l'acheteur (m) {achet|eur} [aʃəˈtœʁ], acheteurs = nákupca
+3 N le rossignol {rossignol} [ʁɔsiˈɲɔl], rossignols = ležiak (tovar)
+3 V marchander {marchand|er} [maʁʃɑ̃ˈde] = zjednávať
 
 # places-of-trade
 1 N le marché {marché} [maʁˈʃe], marchés = trh
@@ -218,6 +223,7 @@
 3 N la droguerie {drogu|erie} [dʁɔɡˈʁi], drogueries = drogéria
 3 N le magasin discount {magasin discount} [maɡaˈzɛ̃ disˈkunt], magasins discount = diskont
 3 AV inébranlablement {inébranlable|ment} [inebʁɑ̃labləˈmɑ̃] = neochvejne
+3 N le magasin de jouets {magasin de jouets} [maɡaˈzɛ̃ də ʒwɛ], magasins de jouets = hračkárstvo
 
 # economy-finance
 2 N le commerce {commerce} [kɔˈmɛʁs], commerces = obchodovanie
@@ -400,6 +406,10 @@
 2 N la déflation {dé|flation} [deflaˈsjɔ̃], déflations = deflácia
 1 N le client {client} [kliˈɑ̃], clients = odberateľ
 2 N l'acheteur (m) {acheteur} [aʃəˈtœʁ], acheteurs = odberateľ
+3 N le report {report} [ʁəˈpɔʁ], reports = odklad
+3 N le paradis fiscal {paradis fiscal} [paʁaˈdi fisˈkal], paradis fiscaux = daňový raj
+3 N l'assurance tous risques (f) {assurance tous risques} [asyˈʁɑ̃s tu ˈʁisk], assurances tous risques = havarijné poistenie
+2 N la compagnie d'assurances {compagnie d'assurances} [kɔ̃paˈɲi dasyˈʁɑ̃s], compagnies d'assurances = poisťovňa
 
 # trade
 3 V accorder une licence {accorder une licence} [akɔʁˈde yn liˈsɑ̃s] = licencovať

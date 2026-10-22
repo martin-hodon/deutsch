@@ -13,3 +13,17 @@
 3 N die Nebenfigur {Neben|figur} [ˈneːbənfiɡuːɐ], Nebenfiguren = vedľajšia postava
 2 N das Mittelalter {Mittel|alter} [ˈmɪtəlaltɐ], - = stredovek
 3 N der Spitzenplatz {Spitzen|platz} [ˈʃpɪtsənplats], Spitzenplätze = prvé miesto
+3 N die Saite {Saite} [ˈzaɪtə], Saiten = struna
+3 AN volkstümlich {volks|tümlich} [ˈfɔlkstyːmlɪç] = ľudový
+3 AN klebrig {klebrig} [ˈkleːbʁɪç] = lepkavý
+3 AN glatzköpfig {glatz|köpfig} [ˈɡlatskœpfɪç] = plešatý
+3 AN kahlköpfig {kahl|köpfig} [ˈkaːlkœpfɪç] = plešatý
+3 AN zierlich {zier|lich} [ˈtsiːɐlɪç] = chudý (o postave)
+3 N der Federball {Feder|ball} [ˈfeːdɐbal], - = bedminton
+3 N der Säufer {Säufer} [ˈzɔʏfɐ], Säufer = alkoholik
+3 N das Lehrfach {Lehr|fach} [ˈleːɐfax], Lehrfächer = školský predmet
+3 N der Harn {Harn} [haʁn], - = moč
+3 N der Urin {Urin} [uˈʁiːn], Urine = moč
+2 N das Geschlecht {Ge|schlecht} [ɡəˈʃlɛçt], Geschlechter = pohlavie
+3 N der Greis {Greis} [ɡʁaɪs], Greise = starec
+3 N der Sprengstoff {Spreng|stoff} [ˈʃpʁɛŋʃtɔf], Sprengstoffe = výbušnina

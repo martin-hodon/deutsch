@@ -33,6 +33,7 @@
 2 N 教授 {教授} [jiàoshòu], 位 = profesor
 1 V 学习 {学习} [xuéxí] = študovať
 1 V 读 {读} [dú] = študovať
+1 V 念 {念} [niàn] = študovať
 1 N 大学生 {大学生} [dàxuéshēng], 个 = študent
 1 N 学生 {学生} [xuéshēng], 个 = študent
 1 N 学习 {学习} [xuéxí], - = štúdium
@@ -59,6 +60,7 @@
 1 V 学会 {学会} [xuéhuì] = naučiť sa
 1 V 认识 {认识} [rènshi] = spoznať
 1 V 了解 {了解} [liǎojiě] = spoznať
+2 V 认 {认} [rèn] = spoznať
 1 V 练习 {练习} [liànxí] = cvičiť (nácvik)
 1 N 练习 {练习} [liànxí], 个 = cvičenie
 2 N 习题 {习题} [xítí], 道 = cvičenie
@@ -174,6 +176,11 @@
 2 V 讲课 {讲|课} [jiǎngkè] = učiť
 2 N 师父 {师父} [shīfu], 位 = mentor
 2 N 学员 {学员} [xuéyuán], 名 = študent
+3 N 卷笔刀 {卷笔刀} [juǎnbǐdāo], 个 = strúhadlo na ceruzky
+3 N 课桌 {课桌} [kèzhuō], 张 = školská lavica
+3 N 圆规 {圆规} [yuánguī], 个 = kružidlo
+3 V 留校 {留|校} [liúxiào] = zostať po škole
+3 N 读本 {读本} [dúběn], 本 = čítanka
 
 # knowledge-science
 1 N 科学 {科学} [kēxué], - = veda
@@ -261,6 +268,8 @@
 2 N 科研 {科研} [kēyán], - = výskum
 2 N 综合 {综合} [zōnghé], - = syntéza
 3 N 合成 {合成} [héchéng], - = syntéza
+3 V 探 {探} [tàn] = preskúmať
+3 V 细看 {细看} [xìkàn] = preskúmať
 
 # fields-of-study
 1 N 数学 {数学} [shùxué], 门 = matematika
@@ -326,3 +335,6 @@
 2 N 研究所 {研究所} [yánjiūsuǒ], 个 = ústav
 2 N 表格 {表格} [biǎogé], 张 = tabuľka
 1 N 表 {表} [biǎo], 张 = tabuľka
+3 N 卷 {卷} [juàn], 卷 = diel (knihy)
+3 N 纸张 {纸张} [zhǐzhāng], - = hárok
+3 N 试管 {试管} [shìguǎn], 支 = skúmavka

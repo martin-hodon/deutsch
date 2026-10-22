@@ -85,6 +85,14 @@
 3 N die Zeitumstellung {Zeit|umstellung} [ˈtsaɪtʊmʃtɛlʊŋ], Zeitumstellungen = zmena času
 2 AN langfristig {lang|fristig} [ˈlaŋfʁɪstɪç] = dlhodobý
 2 AV auf Dauer {auf Dauer} [aʊf ˈdaʊɐ] = natrvalo
+3 N die Dekade {Dekade} [deˈkaːdə], Dekaden = desaťdnie
+2 N das Schaltjahr {Schalt|jahr} [ˈʃaltjaːɐ], Schaltjahre = priestupný rok
+3 N die Sonnenwende {Sonnen|wende} [ˈzɔnənvɛndə], Sonnenwenden = slnovrat
+3 N die Sonnwende {Sonn|wende} [ˈzɔnvɛndə], Sonnwenden = slnovrat
+3 N das Äquinoktium {Äquinoktium} [ɛkviˈnɔktsiʊm], Äquinoktien = rovnodennosť
+3 N die Tagundnachtgleiche {Tag|und|nacht|gleiche} [ˈtaːkʊntˈnaxtɡlaɪçə], Tagundnachtgleichen = rovnodennosť
+3 N das Ausstellungsdatum {Ausstellungs|datum} [ˈaʊsʃtɛlʊŋsdaːtʊm], Ausstellungsdaten = dátum vystavenia
+3 AN kurzlebig {kurz|lebig} [ˈkʊʁtsleːbɪç] = krátkodobý
 
 # day-parts-and-week
 1 N der Morgen {Morgen} [ˈmɔʁɡən], Morgen = ráno
@@ -122,6 +130,7 @@
 3 N die Morgenstunde {Morgen|stunde} [ˈmɔʁɡənʃtʊndə], Morgenstunden = ranná hodina
 2 AV vormittags {vor|mittags} [ˈfoːɐmɪtaːks] = predpoludním
 2 AV um Mitternacht {um Mitternacht} [ʊm ˈmɪtɐnaxt] = o polnoci
+3 N das Morgengrauen {Morgen|grauen} [ˈmɔʁɡənɡʁaʊən], - = skoré ráno
 
 # relative-time
 1 AV jetzt {jetzt} [jɛtst] = teraz
@@ -243,6 +252,15 @@
 2 N der Folgetag {Folge|tag} [ˈfɔlɡətaːk], Folgetage = nasledujúci deň
 2 AV frühestens {frühestens} [ˈfʁyːəstəns] = najskôr
 2 AV ausnahmsweise {ausnahms|weise} [ˈaʊsnaːmsvaɪzə] = výnimočne
+2 AN gelegentlich {gelegent|lich} [ɡəˈleːɡəntlɪç] = občasný
+3 AV vielmals {viel|mals} [ˈfiːlmaːls] = mnohokrát
+3 N die Urzeit {Ur|zeit} [ˈuːɐtsaɪt], Urzeiten = pravek
+3 PHR ein Leben lang {ein Leben lang} [aɪn ˈleːbən laŋ] = za celý život
+3 AV reihum {reih|um} [ʁaɪˈʊm] = postupne
+3 AN einstweilig {einstweilig} [ˈaɪnstvaɪlɪç] = dočasný
+3 AV fürderhin {fürder|hin} [ˈfʏʁdɐhɪn] = odteraz
+3 AV fürder {fürder} [ˈfʏʁdɐ] = odteraz
+3 AV einst {einst} [aɪnst] = kedysi
 
 # months
 1 N der Januar {Januar} [ˈjanuaːɐ], - = január

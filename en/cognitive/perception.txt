@@ -70,6 +70,11 @@
 3 V eye {eye} [aɪ] (sb, sth) = pozorovať
 3 V sight {sight} [saɪt] (sth) = zazrieť
 2 N blindness {blind|ness} [ˈblaɪndnəs], - = slepota
+2 V glance {glance} [ɡlɑːns] (at) = mrknúť sa
+3 V peek {peek} [piːk] (at) = mrknúť sa
+3 V look up {look·up} [lʊk ˈʌp], looked up/looked up (at) = vzhliadnuť
+3 V blind {blind} [blaɪnd] = oslepiť
+3 V dazzle {dazzle} [ˈdæzl] = oslepiť
 # hearing
 1 V hear {hear} [hɪə], heard/heard = počuť
 1 V listen {listen} [ˈlɪsən] (to) = počúvať
@@ -121,6 +126,18 @@
 3 AN hearing {hear|ing} [ˈhɪərɪŋ] = počujúci
 2 N stench {stench} [stentʃ], stenches = zápach
 2 N bad smell {bad smell} [ˌbæd ˈsmel], bad smells = zápach
+3 N sting {sting} [stɪŋ], stings = štípanie
+3 N smart {smart} [smɑːt], - = štípanie
+2 V sting {sting} [stɪŋ], stung/stung = štípať
+3 V smart {smart} [smɑːt] = štípať
+3 N itch {itch} [ɪtʃ], itches = svrbenie
+2 N sweetness {sweet|ness} [ˈswiːtnəs], - = sladkosť chuti
+2 N sense of smell {sense of smell} [ˈsens əv ˈsmel], senses of smell = čuch
+3 N smell {smell} [smel], - = čuch
+2 N sense of touch {sense of touch} [ˈsens əv ˈtʌtʃ], senses of touch = hmat
+3 N touch {touch} [tʌtʃ], - = hmat
+3 AN musty {musty} [ˈmʌsti] = zatuchnutý
+3 AN stale {stale} [steɪl] = zatuchnutý
 # colors
 1 N colour {colour} [ˈkʌlə], colours = farba
 2 AN coloured {coloured} [ˈkʌləd] = farebný
@@ -160,6 +177,17 @@
 3 AN beige {beige} [beɪʒ] = béžový
 2 N paint {paint} [peɪnt], paints = farba
 2 AN black-and-white {black-and-white} [ˌblæk ənd ˈwaɪt] = čiernobiely
+3 AN azure {azure} [ˈæʒə] = azúrový
+3 N colouring {colour|ing} [ˈkʌlərɪŋ], colourings = zafarbenie
+3 N discolouration {dis|colour|ation} [dɪsˌkʌləˈreɪʃn], discolourations = zafarbenie
+2 V turn pale {turn·pale} [tɜːn ˈpeɪl], turned pale/turned pale = zblednúť
+3 V blanch {blanch} [blɑːntʃ] = zblednúť
+3 V bleach {bleach} [bliːtʃ] = odfarbiť
+3 V decolour {de|colour} [diːˈkʌlə] = odfarbiť
+2 V dye {dye} [daɪ] = prefarbiť
+3 V recolour {re|colour} [riːˈkʌlə] = prefarbiť
+2 AN coloured {colour|ed} [ˈkʌləd] = zafarbený
+2 AN dyed {dyed} [daɪd] = zafarbený
 
 # more
 2 V unveil {un|veil} [ʌnˈveɪl] = odhaliť

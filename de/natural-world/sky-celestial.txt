@@ -45,6 +45,7 @@
 3 PHR kosmischer Nebel {kosmischer Nebel} [ˈkɔsmɪʃɐ ˈneːbəl] = hmlovina
 2 N das All {All} [al], - = vesmír
 3 N der Monduntergang {Mond|untergang} [ˈmoːntʊntɐɡaŋ], Monduntergänge = západ mesiaca
+3 N die Verfinsterung {Ver|finsterung} [fɛɐˈfɪnstəʁʊŋ], Verfinsterungen = zatmenie
 
 # sky-phenomena
 1 N der Himmel {Himmel} [ˈhɪməl], - = obloha, nebo
@@ -74,3 +75,4 @@
 3 N die Supernova {Super|nova} [zuːpɐˈnoːva], Supernovae = supernova
 2 N das Lichtjahr {Licht|jahr} [ˈlɪçtjaːɐ], Lichtjahre = svetelný rok
 2 N der Weltraum {Welt|raum} [ˈvɛltʁaʊm], - = vesmír, kozmos
+3 N das Gestirn {Ge|stirn} [ɡəˈʃtɪʁn], Gestirne = nebeské teleso

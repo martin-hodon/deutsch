@@ -120,6 +120,10 @@
 3 AN długoterminowy {długo|terminowy} [dwuɡɔtɛrmʲiˈnɔvɨ] = dlhodobý
 2 AV na stałe {na stałe} [na ˈstawɛ] = natrvalo
 2 AV trwale {trwale} [ˈtrfalɛ] = natrvalo
+2 N rok przestępny {rok przestępny} [rɔk pʂɛˈstɛmpnɨ], m, lata przestępne = priestupný rok
+3 N przesilenie {przesilenie} [pʂɛɕiˈlɛɲɛ], n, przesilenia = slnovrat
+3 N równonoc {równo|noc} [ruvˈnɔnɔts], ż, równonoce = rovnodennosť
+3 N data wystawienia {data wystawienia} [ˈdata vɨstaˈvʲɛɲa], ż, daty wystawienia = dátum vystavenia
 
 # day-parts-and-week
 1 N rano {rano} [ˈranɔ], n, - = ráno
@@ -159,6 +163,7 @@
 3 AV sezonowo {sezonowo} [sɛzɔˈnɔvɔ] = sezónne
 1 AV przed południem {przed południem} [pʂɛt pɔˈwudɲɛm] = predpoludním
 1 AV o północy {o północy} [ɔ puwˈnɔtsɨ] = o polnoci
+3 N przedświt {przed|świt} [ˈpʂɛtɕfʲit], m, przedświty = skoré ráno
 
 # relative-time
 1 AV potem {potem} [ˈpɔtɛm] = potom
@@ -328,6 +333,12 @@
 2 N następny dzień {następny dzień} [naˈstɛmpnɨ dʑɛɲ], m, następne dni = nasledujúci deň
 2 AV najwcześniej {naj|wcześniej} [najˈftʂɛɕɲɛj] = najskôr
 2 AV wyjątkowo {wyjątkowo} [vɨjɔntˈkɔvɔ] = výnimočne
+3 AN okazjonalny {okazjonalny} [ɔkazjɔˈnalnɨ] = občasný
+3 AN sporadyczny {sporadyczny} [spɔraˈdɨtʂnɨ] = občasný
+2 AV wielokrotnie {wielokrotnie} [vʲɛlɔˈkrɔtɲɛ] = mnohokrát
+2 N prehistoria {prehistoria} [prɛxiˈstɔrja], ż, prehistorie = pravek
+3 N pradzieje {pradzieje} [praˈdʑɛjɛ], lm, pradzieje = pravek
+1 PHR przez całe życie {przez całe życie} [pʂɛs ˈtsawɛ ˈʐɨtɕɛ] = za celý život
 
 # months
 1 N styczeń {styczeń} [ˈstɨtʂɛɲ], m, - = január

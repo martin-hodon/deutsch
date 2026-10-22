@@ -58,6 +58,7 @@ AV po prvé
 AV prvýkrát
 AN posledný
 AV napokon
+N zlomok -- matematický zlomok
 
 # amount
 AN veľa
@@ -135,6 +136,10 @@ N celkový počet
 N maximálna hodnota
 N minimálna hodnota
 V uschovať
+AV napoly
+AV dosýta -- dosýta, bez miery
+N hromadenie -- kopenie vecí
+AN prebytočný
 
 # counting-measuring
 N číslo (matematické)
@@ -184,6 +189,17 @@ AN minimálny : adverb minimálne
 NUM jeden a pol
 NUM dva a pol
 N kubický meter
+V vyvážiť -- dať do rovnováhy
+N prvočíslo
+N mocnina
+N sčítanec
+V odčítať
+N menšenec
+N menšiteľ
+N delenec
+N deliteľ
 
 # more
 N bilión
+N podmnožina -- množina obsiahnutá v inej množine
+N nadmnožina -- množina obsahujúca inú množinu

@@ -19,7 +19,7 @@ through any other, Slovak the index everything is keyed by. (`../deutsch/` is th
                          prefer.txt its word choices, forms.txt the morphology drills, speech.txt its prosody,
                          sounds.txt its letter rules, adverbs.txt, irregular.txt, tests.txt), its realizer
                          (realize.js) and morphology (morph.js), ui.txt (the interface in that language), dict.tsv
-                         (compiled), order.tsv (corpus ranks), listen.json + listen.bin (listening templates)
+                         (compiled), order.tsv (corpus ranks)
       *.html             the pages: trainer.html (the Grammar page: words, morphology, syntax, overview), dictionary, reading, sentences/stories, speech benches
 
 What may depend on what: `world/` and `engine/` know no language; a language folder knows the world (its lines end
@@ -80,6 +80,16 @@ several grammar items `; `-separated: `: adverb rýchlo; of ...`). `concepts.gen
 each row's `generic` column (`POS id @ context`); the dictionary page shows the generic's words under "in general ·
 context" and, on the generic word, the words of its contexts under "in a context" (Abfahrt: Abflug · lietanie). The
 relation is between concepts, declared once for all languages.
+
+**Regional words.** A word not said everywhere its language is spoken -- a national variety (Austrian *Jänner*, British
+*lorry*, Spain's *ordenador*), a region (*Sonnabend* in northern Germany), a dialect -- is listed in
+`<lang>/rules/regional.txt` (`N Jänner = AT -- Germany: Januar`; codes AT CH DE-N DE-S, UK US AU IE SCOT, ES LATAM MX AR,
+BE CA AF, IT-N IT-S, PL-S PL-W SIL, TW HK CN-N CN-S, `dialect`). The compile writes the `region` column
+(tools/words.py `mark_region`; a name it does not find is an error). The dictionary marks the word ("regionálne: Rakúsko",
+`region-CODE` in ui.txt) and names the concept's general words beside it; a concept's word lists put regional words
+last (data.js, lexicon.js), so the general word is the one shown and said; the trainer does not drill a regional word
+whose concept has a general one. 2026-10-20: de 45, en 184 (a British-based dictionary: mostly UK), es 234 (mostly
+Spain), fr 5, it 3, zh 22, pl and ru none found.
 
 **The category tree on the dictionary page.** A noun's concept has its categories (`world/categories.txt`,
 engine/meaning.js); the page shows each one with its parents up to the root (Affe: mammal ‹ beast ‹ animal ‹ living ‹
@@ -247,10 +257,12 @@ shows once a browsing session; `trainer.html#panel-settings|stats|data` opens th
 ## The header (engine/header.js)
 
 One header for the three pages, built at start: the title left (a click switches trainer <-> dictionary); in the upper
-right corner the page tabs Grammar | 📖 Dictionary | 📄 Reading and, under them, the learner's name and the ⋯ menu
-(icon only): settings, statistics, recorded data -- the trainer's panels, from another page links into the trainer --
-and the sentence generator. ONE LANGUAGE across the pages: the pair setting is the only record of the language chosen;
-the dictionary and the reading page read it on start and write `learn` back when their select changes (storage.js
+right corner the page tabs Grammar | 📖 Dictionary | 📄 Reading | ⋯ (a small icon tab) and, under them, the learner's
+name. ⋯ is the trainer's own section (trainer.html#more, shown without leaving the trainer page): the settings open --
+the language learned, one's own, speech --, then statistics and recorded data (opened on a click; #panel-stats,
+#panel-data open one) and the sentence generator. ONE LANGUAGE across the pages: the pair setting is the only record of
+the language chosen, chosen in the settings only; the dictionary and the reading page read it on start; every page shows its
+flag as its title (langs.js `flag`; a dictionary link into another language's entry writes `learn` back: storage.js
 `keptPair` / `keepLearn`).
 
 ## The dictionary (dictionary.html, engine/dictionary.js)
@@ -283,7 +295,10 @@ component lighter; glossed with pinyin and meaning when they are words), and the
 character or component typed in the search gets a "component" row above the words. The 部件 toggle beside the search
 (`#zh/comp/`) is the INDEX OF COMPONENTS by stroke count, the most used first (with how many characters have each) -- the
 way in for a learner who sees a character and knows only its parts. Composition covers ~2,350 characters (the commonest
-first); a character without a line has no characters section.
+first); a character without a line has no characters section. A character that is no word of its own (子 in 桌子) and a
+component that is no character (氵 丨) take their MEANING from `zh/chars.txt` (`子 [zǐ] = dieťa, syn, ... -- note`, a
+line per reading; 2,513 characters, Slovak): the gloss beside it in the lists, the tooltip of a component link, the
+meaning lines of its component view, the search's component row.
 
 ## Reading (reading.html, engine/reading.js)
 
@@ -303,19 +318,77 @@ and the realizers' own closed-word data (`pron`, `det`, `wh` lines of `<lang>/ru
 mon,ma,mes, este/esta/estos). Not made yet: German ordinals' forms, Polish and Russian possessives where the base
 pronoun is missing, English contractions (don't, it's).
 
-## Listening (engine/listen.js, `<lang>/listen.json` + `listen.bin`)
+## Listening (engine/listen.js, engine/listen.json, engine/listen_net.json)
 
-A spoken word recognised among a language's dictionary words with no downloaded model: the synthesizer says every word
-once, offline (`gjs -m tools/listen_templates.js LANG`, about three minutes a language), and what it said is kept as
-FEATURES: 12 mel-cepstral coefficients a 10 ms frame (16 kHz, 25 ms Hamming frames, 512-point spectrum, 26 mel bands
-100-7000 Hz, DCT, c0 dropped), the word's frames only (trimmed 30 dB under the peak), each coefficient normalised over
-the word and quantised to a byte -- words with the same IPA share a template; 8-12 MB a language, not in the offline
-list (fetched when the 🎤 is first used). The microphone (push to talk, stopped by silence or after 3 s) gives the same
-features; the match: the templates within half to double the length, the 400 nearest by an 8-slice sketch, then dynamic
-time warping in a 30 % band, over seven vocal-tract warps of the mel bank; the nearest words are listed with a score,
-the best first. `tools/listen_eval.js` measures top-1 / top-5 hits of words said by the woman's or the child's voice
-against the man's templates (a stand-in for a human voice): German woman 92 / 98 %, child 85 / 93 %, man 100 %; Polish
-93 / 97 %; Chinese 60 / 85 % -- the tones are not in the features (a pitch contour would be the next feature).
+A spoken word recognised among a language's dictionary words from their IPA alone: no templates, no speech service.
+The recording is described a 10 ms frame in RELATIVE terms a voice keeps whoever speaks: its loudness against the word's
+peak and against its own syllable, how periodic it is (the voice on), the SHAPE of its spectrum (10 mel bands 100-7500
+Hz, less their mean: how the energy is spread, not how much) and how that shape changes. Every word's IPA (speak.js
+`parse`) becomes a CHAIN of speech-sound classes -- one a sound of German (15 vowels, m n ŋ l r j f v s z ʃ ʒ ç x h, a
+stop as its closure and its release at the lips, the ridge or the velum, silence); another language's sounds are read as
+the nearest (θ as f, ʂ as ʃ, a vowel by its formants) -- each with a least length. The recording is aligned to every
+word's chain (Viterbi: a sound lasts as long as the frames fit it, a little a frame past its least length; a sound may be
+left out at a price -- h, ʔ, ə, the German r cheaply, a full vowel dearly). Two checks on top: the SYLLABLES counted in
+the recording (the peaks of the voiced loudness, 3 dB over the dip between, 70 ms apart; right within half a syllable for
+83 % of words) against the word's -- each one too many or too few costs --, and a commoner word (its FREQ) a little
+likelier. The nearest words are listed with their share of the score, the best first.
+
+The classes' PROFILES (engine/listen.json, 300 KB, in the offline copy) are measured on real voices:
+`tools/listen_fit.js` on the Berlin emotional speech database (emodb.bilderbar.info, free: 10 speakers, 5 men and 5
+women, 535 acted sentences, phone labels), each recording also heard through a random cheap microphone (a bass cut, a
+tilt, noise) -- a class is a mixture of up to three Gaussians over the features. `tools/listen_eval.js` cuts the words of
+two speakers' sentences (a man's, 03, and a woman's, 16) that the fit left out and recognises them among all 13,950
+German dictionary words: words of two syllables or more top-1 25 %, top-5 40 %, top-10 49 % (the man 34 / 53 / 59 %, the
+woman 19 / 30 / 42 %); through a simulated laptop microphone 20 / 34 / 40 %; about 120 ms a word. Words cut from acted,
+running speech are harder than one word said alone into the 🎤. The recogniser it replaced (the synthesizer's MFCC
+templates matched by dynamic time warping) found 0 % of them, top-5. The 🎤 records PLAIN sound: the browser's noise
+suppression and gain control (on by default) clipped words' starts and wiped s, z, ʃ, f -- through them, with a fake
+microphone playing the corpus words in Chromium, sagen came out verringern, heute Gründer, Platz Plan; plain, the page
+lists what the file itself gives. But plain, a laptop microphone's own start comes through: it opens at full scale and
+drifts back over 0.8 s (measured in Chromium), which counted as speech, and 0.6 s of quiet after it ended the recording
+before the word; a click in the room did the same. So a 60 Hz high pass, the first 250 ms not heard, and speech two
+chunks (85 ms) in a row 20 dB above the room. The sound comes to 16 kHz through a windowed-sinc low pass. The shares shown are
+fitted (with the network e^-Δcost / 1.4: a word shown 40-60 % was right 50 % of the time, 80-100 % 96 %).
+
+THE NETWORK (engine/listen_net.json, 500 KB, in the offline copy). One frame alone does not show a glide into a vowel,
+lips closing, a burst; a small network trained here from scratch judges each frame from 21 frames around it (0.2 s): 21 x
+37 features -> 320 -> 320 (ReLU) -> the 38 classes, 363,000 weights kept as int8 (a scale a unit), its cost a class's
+-(log posterior - log prior) x 0.2. Data: the corpus, and VoxForge's German (voxforge.org, GPL: 345 speakers reading
+prompts at home into their own microphones, 24,683 recordings, 32 h), each also through the cheap microphone -- 65 h.
+The text read becomes IPA by espeak-ng (`tools/listen_voxforge.py`) and the frames' classes come from the engine's own
+aligner (`forceAlign`; `tools/listen_data.js`): first judged by a network trained on the corpus and 850 of the
+recordings, then aligned again by a better one (13 % of the frames' classes changed). Two speakers read 39 of the 65 h,
+so an epoch takes at most 3 h of any one voice (`tools/listen_train.py --cap`, numpy: 8 epochs in 67 minutes on this
+laptop; aligning everything takes about 2 hours, measuring it anew -- `again` -- 35 minutes). Frames of 12 speakers left
+out: 75.4 % given the right class. The corpus test above: top-1 50 %, top-5 69 %, top-10 77 % (the profiles: 25 / 40 /
+49); the learner's 19 words below: 9 right first, 15 in the top five, 16 in the top 30 (the profiles: 4 in the top five,
+the middle rank 720); 8 times sleep (English, German's classes): first 4 times, in the top three 6 (ranks 1 2 1 1 3 1 40
+16; the profiles: 41 to 1333). About 130 ms a word, the network 50 of them.
+
+What made it better (each tried on the same data, 4 shorter epochs, 1 h a voice, against the step before):
+- 13 features more a frame (FEATURES lo hi hc hs on f0-f7: the voice under a closure or a hiss, where a hiss sits, a
+  burst's sharp rise, the formants in finer bands; the profiles keep the first 24): frames 72.0 -> 72.8 %; m 36 -> 51 %
+  right, v 37 -> 51, the k burst 47 -> 55, ʃ 81 -> 86 (o 50 -> 39, e 51 -> 47 lost); corpus top-1/top-5 44/69 -> 47/71
+  %; sleep's ranks 4 5 19 16 79 10 28 13 -> 4 4 7 6 35 3 21 9. z still taken for s a quarter of the time (much of the
+  south says s), ŋ for n.
+- 320 units a layer, not 256 (275,000 -> 363,000 weights): frames 73.2 %, corpus 48/71 %, the learner's top five 12 -> 14.
+- aligned again by that network: corpus 48/71 -> 50/74 %, the learner's right first 6 -> 8.
+- Tried, not kept: a room's echo in 7 of 10 microphone copies (Schroeder reverberation, 0.15-0.6 s): the corpus 50/74 ->
+  48/71 %, sleep worse, the learner's words a little better -- no clear gain.
+
+THE LEARNER'S VOICE. On a learner's own 19 words (a laptop microphone in a room) the corpus profiles did far worse than
+on the corpus: right first 1, in the top five 4 -- Abend at rank 2384 under Hund (the vowels near a tie, the breath before
+the word an h, the voiced b no closure). So the page learns the voice: the word opened after a 🎤 (a result clicked, or
+searched for when it was missing) is a sample -- its frames aligned to the word's chain -- kept in localStorage
+(`dictionary:my-voice`, the last 40, about 4-15 KB each), and the profiles move toward the samples: one shift for all
+classes, then each component's mean (MAP, 20 frames of prior). Learned on that learner's first 12 words, the same words
+said again rose from 1 to 4 of 7 in the top five (Abend 1244 -> 5, Wasser 1856 -> 1); on 5 words never learned (from 7
+others) it was mixed (Fenster 340 -> 3, vielleicht 30 -> 9; Brot 2 -> 30) -- few samples move few sounds well. With
+the network the samples move nothing (yet; they are still kept): one shift of the 24 features learned through it on the
+samples (by its gradient) lifted German words said again (learned on 5 others: ranks 12 18 4 13 -> 12 4 4 5) but sank
+sleep a little and costs seconds of the page a word; shifting by the samples' mean frame instead threw Minimum to 6530.
+Not heard: Chinese tones (no pitch feature yet) and
+the vowels' finer qualities beyond the class the frame fits.
 
 ## Speech (engine/speak.js, `<lang>/rules/speech.txt`)
 
@@ -350,8 +423,8 @@ Clarity is measured, not guessed: h/hnr2.html (voice over noise), h/ratio_check.
   the reader); `python3 tools/concepts.py` checks the index (every sense glossed, the German coverage).
 - `python3 tools/offline.py` writes offline.json (the file list of the offline copy); `tools/order.py` ranks a
   language's words by its Leipzig corpus (`../../language/<lang>/`, not in the repository) into order.tsv.
-- `gjs -m tools/listen_templates.js LANG`, `gjs -m tools/listen_eval.js LANG voice tempo N` -- the listening templates
-  and their evaluation (gjs runs the engine's ES modules without node).
+- `gjs -m tools/listen_fit.js CORPUS [SPEAKERS-LEFT-OUT OUT.json]`, `gjs -m tools/listen_eval.js CORPUS SPEAKERS
+  PROFILES.json [mic]` -- the listening profiles and their evaluation (gjs runs the engine's ES modules without node).
 - Data is written in batches by Sonnet helpers from briefs: a batch's lines are checked with the shared parser and
   merged into the concept's topic file at the end of its section; concept proposals (`@ POS ID -- note`) are unified to
   one ID per function before they enter the index. The scratchpad holds the briefs and the mergers (mk_in / valw /

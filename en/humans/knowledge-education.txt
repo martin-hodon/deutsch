@@ -113,6 +113,11 @@
 3 V cheat {cheat} [tʃiːt] (in, on) = odpisovať
 2 V sort out {sort·out} [sɔːt ˈaʊt] (sth) = vytriediť
 2 N talk {talk} [tɔːk], talks = prednáška
+2 N pencil sharpener {pencil sharpener} [ˈpensəl ˌʃɑːpənə], pencil sharpeners = strúhadlo na ceruzky
+2 N school desk {school desk} [ˈskuːl desk], school desks = školská lavica
+2 N compasses {compasses} [ˈkʌmpəsɪz], PL = kružidlo
+3 V stay behind {stay·behind} [steɪ bɪˈhaɪnd] = zostať po škole
+2 N reader {reader} [ˈriːdə], readers = čítanka
 # knowledge-science
 1 N science {science} [ˈsaɪəns], sciences = veda
 1 N scientist {scient|ist} [ˈsaɪəntɪst], scientists = vedec
@@ -226,6 +231,9 @@
 3 V archive {archive} [ˈɑːkaɪv] (sth) = archivovať
 2 N institute {institute} [ˈɪnstɪtjuːt], institutes = ústav
 1 N table {table} [ˈteɪbl], tables = tabuľka
+2 N volume {volume} [ˈvɒljuːm], volumes = diel (knihy)
+2 N sheet {sheet} [ʃiːt], sheets = hárok
+2 N test tube {test tube} [ˈtest tjuːb], test tubes = skúmavka
 
 # more
 2 N college {college} [ˈkɒlɪdʒ], colleges = vysoká škola

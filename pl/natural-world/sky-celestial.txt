@@ -43,6 +43,7 @@
 2 N wszechświat {wszech|świat} [ˈfʂɛxɕfʲat], m, wszechświaty = vesmír
 2 N kosmos {kosmos} [ˈkɔsmɔs], m, - = vesmír
 3 N zachód księżyca {zachód księżyca} [ˈzaxut kɕɛ̃ˈʐɨtsa], m, zachody księżyca = západ mesiaca
+2 N zaćmienie {zaćmienie} [zatɕˈmʲɛɲɛ], n, zaćmienia = zatmenie
 
 # sky-phenomena
 1 N niebo {niebo} [ˈɲɛbɔ], n, nieba = obloha

@@ -70,6 +70,14 @@
 2 N la gomma invernale {gomma invernale} [ˈɡomːa inverˈnaːle], gomme invernali = zimná pneumatika
 3 N lo pneumatico invernale {pneumatico invernale} [pneuˈmaːtiko inverˈnaːle], pneumatici invernali = zimná pneumatika
 2 N il furgone {furgone} [furˈɡoːne], furgoni = dodávkové auto
+2 N il vagone {vagone} [vaˈɡoːne], vagoni = vagón
+3 N il filobus {filo|bus} [ˈfiːlobus], filobus = trolejbus
+3 N il dirigibile {dirigibile} [diridʒiˈbiːle], dirigibili = vzducholoď
+3 N il piroscafo {piro|scafo} [piˈrɔːskafo], piroscafi = parník
+3 N lo skateboard {skate|board} [ˈskɛitbɔrd], skateboard = skateboard
+2 N il motoscafo {moto|scafo} [motoˈskaːfo], motoscafi = motorový čln
+3 N la petroliera {petroliera} [petroˈljɛːra], petroliere = tanker
+3 N l'aliante (m) {aliante} [aˈljante], alianti = vetroň
 
 # vehicle-parts
 1 N la gomma {gomma} [ˈɡomːa], gomme = pneumatika
@@ -121,6 +129,21 @@
 2 N l'acceleratore (m) {acceleratore} [attʃeleraˈtoːre], acceleratori = plynový pedál
 2 N la parte posteriore {parte posteriore} [ˈparte posteˈrjoːre], parti posteriori = zadná časť
 2 N il retro {retro} [ˈrɛːtro], retri = zadná časť
+2 N la frizione {frizione} [friˈttsjoːne], frizioni = spojka (v aute)
+3 N il timone {timone} [tiˈmoːne], timoni = oje
+3 N il cerchione {cerchione} [tʃerˈkjoːne], cerchioni = ráf
+3 N il deragliatore {deragliatore} [deraʎːaˈtoːre], deragliatori = prehadzovačka
+2 N il cambio {cambio} [ˈkambjo], cambi = prevodovka
+3 N il copricerchio {copri|cerchio} [kopriˈtʃerkjo], copricerchi = puklica
+2 N la cabina {cabina} [kaˈbiːna], cabine = kajuta
+3 N la prua {prua} [ˈpruːa], prue = prova
+3 N il pennone {pennone} [peˈnːoːne], pennoni = rahno
+3 N l'amarra (f) {amarra} [aˈmarːa], amarre = kotevné lano
+2 N il timone {timone} [tiˈmoːne], timoni = kormidlo
+3 N la poppa {poppa} [ˈpopːa], poppe = korma
+3 N il babordo {babordo} [baˈbɔrdo], - = ľavobok
+3 N il tribordo {tribordo} [triˈbɔrdo], - = pravobok
+3 N il telaio {telaio} [teˈlaːjo], telai = podvozok
 
 # infrastructure
 1 N la strada {strada} [ˈstraːda], strade = cesta (komunikácia)
@@ -191,6 +214,10 @@
 2 N lo svincolo {svincolo} [ˈzviŋkolo], svincoli = nájazd
 2 N la chiusura stradale {chiusura stradale} [kjuˈzuːra straˈdaːle], chiusure stradali = uzávera
 3 V asfaltare {asfaltare} [asfalˈtaːre] = asfaltovať
+3 N la diramazione {diramazione} [diramaˈttsjoːne], diramazioni = odbočka
+3 N lo scambio {scambio} [ˈskambjo], scambi = výhybka
+3 N la passerella {passerella} [pasːeˈrɛlːa], passerelle = lávka
+3 N il guardrail {guardrail} [ɡwarˈdrɛil], guardrail = zvodidlo
 
 # travel
 1 N il viaggio {viaggio} [ˈvjaddʒo], viaggi = jazda
@@ -355,6 +382,19 @@
 3 N lo sgombero {sgombero} [ˈzɡombero], sgomberi = vysťahovanie
 3 N l'espatrio (m) {espatrio} [esˈpaːtrjo], espatri = vycestovanie
 2 N il territorio nazionale {territorio nazionale} [teriˈtɔːrjo natsjoˈnaːle], territori nazionali = tuzemsko
+3 N la bisaccia {bisaccia} [biˈzattʃa], bisacce = sedlová brašna
+2 V cavalcare {cavalcare} [kavalˈkaːre] = jazdiť na koni
+3 N il pratico {pratico} [ˈpraːtiko], pratici = lodivod
+2 V gonfiarsi {gonfiarsi} [ɡonˈfjarsi] = vzdúvať sa
+2 N la hostess {hostess} [ˈɔstes], hostess = letuška
+3 N l'assistente di volo (f) {assistente di volo} [asːiˈstɛnte di ˈvoːlo], assistenti di volo = letuška
+2 N il membro dell'equipaggio {membro dell'equipaggio} [ˈmɛmbro delːekwiˈpaddʒo], membri dell'equipaggio = člen posádky
+3 N il clandestino {clandestino} [klandesˈtiːno], clandestini = čierny pasažier
+3 V solcare {solcare} [solˈkaːre] = brázdiť
+3 AN sbandato {sbandato} [zbanˈdaːto], sbandata = naklonený
+2 N il trasporto pubblico {trasporto pubblico} [trasˈpɔrto ˈpubːliko], - = verejná doprava
+2 N la valigetta {valigetta} [valiˈdʒetːa], valigette = kufrík
+2 N il naufragio {naufragio} [nauˈfraːdʒo], naufragi = stroskotanie
 
 # corpus-verbs
 2 V girare {girare} [dʒiˈraːre] = precestovať

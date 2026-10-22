@@ -192,6 +192,14 @@
 3 AV éthiquement {éthique|ment} [etikˈmɑ̃] = eticky
 2 AN illogique {il|logique} [ilɔˈʒik] = nelogický
 2 AN incompétent {in|compétent} [ɛ̃kɔ̃peˈtɑ̃], incompétente = nekompetentný
+2 N l'essence (f) {essence} [eˈsɑ̃s], essences = podstata
+3 AN rêvé {rêvé} [ʁɛˈve], rêvée = vysnívaný
+3 N la déduction {déduction} [dedykˈsjɔ̃], déductions = dedukcia
+2 V sous-estimer {sous-|estimer} [suzɛstiˈme] = nedoceniť
+2 N la mentalité {mentalité} [mɑ̃taliˈte], mentalités = zmýšľanie
+3 N le subconscient {sub|conscient} [sybkɔ̃ˈsjɑ̃], subconscients = podvedomie
+2 V raisonner {raisonner} [ʁɛzɔˈne] = premýšľať
+3 N l'appréhension (f) {appréhension} [apʁeɑ̃ˈsjɔ̃], appréhensions = obava
 
 # knowing
 1 V savoir {savoir} [saˈvwaʁ], irr, su = vedieť
@@ -336,6 +344,11 @@
 3 AV sceptiquement {sceptique|ment} [sɛptikˈmɑ̃] = skepticky
 3 AV cyniquement {cynique|ment} [sinikˈmɑ̃] = cynicky
 2 N l'ignorance (f) {ignorance} [iɲɔˈʁɑ̃s], ignorances = nevedomosť
+3 N l'intelligibilité (f) {intelligibilité} [ɛ̃tɛliʒibiliˈte], - = zrozumiteľnosť
+2 V distinguer {distinguer} [distɛ̃ˈɡe] = rozoznať
+3 V discerner {discerner} [disɛʁˈne] = rozoznať
+3 AN perplexe {perplexe} [pɛʁˈplɛks] = zmätený
+2 AN ignorant {ignorant} [iɲɔˈʁɑ̃], ignorante = nevedomý
 
 # memory
 1 N la mémoire {mémoire} [meˈmwaʁ], mémoires = pamäť (schopnosť)
@@ -352,6 +365,9 @@
 3 V se ressaisir {se ressaisir} [sə ʁəseˈziʁ] = spamätať sa
 3 N le recueillement {recueille|ment} [ʁəkœjˈmɑ̃], recueillements = rozjímanie
 3 N la méditation {méditation} [meditaˈsjɔ̃], méditations = rozjímanie
+3 N l'oubli (m) {oubli} [uˈbli], oublis = zábudlivosť
+3 V inculquer {inculquer} [ɛ̃kylˈke] = vštepovať
+1 AV par cœur {par cœur} [paʁ ˈkœʁ] = naspamäť
 
 # intelligence
 1 N l'intelligence (f) {intelligence} [ɛ̃teliˈʒɑ̃s], intelligences = inteligencia
@@ -388,6 +404,7 @@
 2 AV naïvement {naïve|ment} [naivˈmɑ̃] = naivne
 3 AV astucieusement {astucieuse|ment} [astysjøzˈmɑ̃] = prefíkane
 3 AV absurdement {absurde|ment} [apsyʁdəˈmɑ̃] = absurdne
+3 AN sot {sot} [so], sotte = hlúpy
 
 # problems
 1 N le problème {problème} [pʁɔˈblɛm], problèmes = problém
@@ -440,6 +457,12 @@
 2 AV mystérieusement {mystérieuse|ment} [misteʁjøzˈmɑ̃] = tajomne
 2 AV inévitablement {inévitable|ment} [inevitabləˈmɑ̃] = neodvratne
 1 V avoir raison {avoir raison} [avwaʁ ʁɛˈzɔ̃], irr, eu = mať pravdu
+2 V devenir fou {devenir fou} [dəvəniʁ ˈfu], irr, devenu, être = zblázniť sa
+3 V délirer {délirer} [deliˈʁe] = blúzniť
+3 N la mésaventure {més|aventure} [mezavɑ̃ˈtyʁ], mésaventures = malér
+3 N le pétrin {pétrin} [peˈtʁɛ̃], pétrins = šlamastika
+3 V impliquer {impliquer} [ɛ̃pliˈke] (qn) = zapliesť do problémov
+3 AN résolu {résolu} [ʁezɔˈly], résolue = vyriešený
 
 # more
 1 V considérer {considérer} [kɔ̃sideˈʁe] (comme) = považovať

@@ -138,6 +138,7 @@
 3 AN estonien {estonien} [ɛstɔˈnjɛ̃], estonienne = estónsky
 3 N l'Estonien (m) {Estonien} [ɛstɔˈnjɛ̃], Estoniens = Estónec
 3 N l'Estonienne (f) {Estonienne} [ɛstɔˈnjɛn], Estoniennes = Estónka
+2 AN écossais {écossais} [ekɔˈsɛ], écossaise = škótsky
 
 # world
 1 N les États-Unis (m) {États-Unis} [etazyˈni], PL = USA

@@ -30,6 +30,9 @@ N susedná krajina
 N rodné mesto
 N rodná krajina
 N prístavné mesto
+N zapadákov
+AN domorodý
+AN kočovný
 
 # streets-places
 N ulica
@@ -62,6 +65,9 @@ N policajná stanica
 N chodník
 N okraj cesty
 N podchod
+N stoka -- kanál na odpadové vody
+N studňa -- vykopaný prameň vody
+N dlažobná kocka -- kameň na dláždenie
 
 # buildings
 N budova
@@ -111,6 +117,18 @@ N skladová hala
 N krytá plaváreň
 N letné kúpalisko
 N koncertná sála
+N padací most
+N minaret
+N krematórium
+N hrobka
+N bludisko
+N trosky -- zvyšky zničenej stavby
+N stavebný pozemok -- pozemok na stavbu
+N stavebný materiál -- materiál na stavbu
+N stavebníctvo -- odvetvie stavania
+V pristavať -- postaviť pri stavbe
+N prístavba -- pristavaná časť budovy
+N stavebný sloh -- štýl architektúry
 
 # city-life
 N adresa
@@ -135,6 +153,7 @@ V žobrať
 N žobrák
 N mestská rada
 N pút
+N tulák
 
 # settling
 V osídľovať

@@ -59,6 +59,7 @@
 - 2 AV erstmals {erst|mals} [ˈeːɐstmaːls] = prvýkrát
 1 AN letzte {letzte} [ˈlɛtstə] = posledný, minulý
 - 2 AV letztlich {letzt|lich} [ˈlɛtstlɪç] = napokon, v konečnom dôsledku
+2 N der Bruch {Bruch} [bʁʊx], Brüche = zlomok
 
 # amount
 1 AN viel {viel} [fiːl], mehr/am meisten = veľa, mnoho
@@ -146,6 +147,15 @@
 3 V verwahren {ver|wahren} [fɛɐˈvaːʁən], hat (A) = uschovať, opatrovať
 3 N der Mindestwert {Mindest|wert} [ˈmɪndəstveːɐt], Mindestwerte = minimálna hodnota
 3 V losbinden {los·binden} [ˈloːsbɪndən], bindet los/band los/losgebunden [ˈbɪndət loːs/bant loːs/ˈloːsɡəbʊndən], hat = rozviazať
+2 AV halb {halb} [halp] = napoly
+3 AV satt {satt} [zat] = dosýta
+3 N die Häufung {Häufung} [ˈhɔʏfʊŋ], Häufungen = hromadenie
+3 AN überschüssig {über|schüssig} [ˈyːbɐʃʏsɪç] = prebytočný
+3 V türmen {türmen} [ˈtʏʁmən], hat (A, sich A) = hromadiť
+3 V anhäufen {an·häufen} [ˈanhɔʏfən], hat (A, sich A) = hromadiť
+3 V zubinden {zu·binden} [ˈtsuːbɪndən], bindet zu/band zu/zugebunden, hat (A) = zviazať
+3 V aufbinden {auf·binden} [ˈaʊfbɪndən], bindet auf/band auf/aufgebunden, hat (A) = rozviazať
+3 N der Überfluss {Über|fluss} [ˈyːbɐflʊs], - = prebytok
 
 # counting-measuring
 1 N die Zahl {Zahl} [tsaːl], Zahlen = číslo (matematické), počet
@@ -197,6 +207,23 @@
 2 NUM zweieinhalb {zwei|ein|halb} [ˈtsvaɪaɪnhalp] = dva a pol
 3 N der Kubikmeter {Kubik|meter} [kuˈbiːkmeːtɐ], Kubikmeter = kubický meter
 3 N der Nenner {Nenner} [ˈnɛnɐ], Nenner = menovateľ
+3 V aufwiegen {auf·wiegen} [ˈaʊfviːɡən], wiegt auf/wog auf/aufgewogen, hat (A) = vyvážiť
+3 N die Primzahl {Prim|zahl} [ˈpʁiːmtsaːl], Primzahlen = prvočíslo
+3 N die Potenz {Potenz} [poˈtɛnts], Potenzen = mocnina
+3 N der Summand {Summand} [zʊˈmant], Summanden = sčítanec
+3 V subtrahieren {subtrahieren} [zʊptʁaˈhiːʁən], hat (A) = odčítať
+3 N der Minuend {Minuend} [minuˈɛnt], Minuenden = menšenec
+3 N der Subtrahend {Subtrahend} [zʊptʁaˈhɛnt], Subtrahenden = menšiteľ
+3 N der Dividend {Dividend} [dividˈɛnt], Dividenden = delenec
+3 N der Divisor {Divisor} [diˈviːzoːɐ], Divisoren = deliteľ
+2 N der Teiler {Teiler} [ˈtaɪlɐ], Teiler = deliteľ
+3 V abwiegen {ab·wiegen} [ˈapviːɡən], wiegt ab/wog ab/abgewogen, hat (A) = vážiť
+3 V auswiegen {aus·wiegen} [ˈaʊsviːɡən], wiegt aus/wog aus/ausgewogen, hat (A) = vážiť
+3 V abmessen {ab·messen} [ˈapmɛsən], misst ab/maß ab/abgemessen, hat (A) = merať
+3 V vermessen {ver|messen} [fɛɐˈmɛsən], vermisst/vermaß/vermessen, hat (A) = merať
 
 # more
 3 N die Billion {Billion} [bɪˈljoːn], Billionen = bilión
+3 N die Teilmenge {Teil|menge} [ˈtaɪlmɛŋə], Teilmengen = podmnožina
+3 N die Untermenge {Unter|menge} [ˈʊntɐmɛŋə], Untermengen = podmnožina
+3 N die Obermenge {Ober|menge} [ˈoːbɐmɛŋə], Obermengen = nadmnožina

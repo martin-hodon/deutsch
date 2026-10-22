@@ -77,6 +77,51 @@
 2 AN sólido {sólido} [ˈsoliðo], sólida = tuhý
 2 V humedecerse {humedecerse} [umeðeˈθeɾse], c>zc = zvlhnúť
 2 V mojarse {mojarse} [moˈxaɾse] = zvlhnúť
+2 N el fósforo {fósforo} [ˈfosfoɾo], fósforos = fosfor
+2 N el silicio {silicio} [siˈliθjo], silicios = kremík
+3 V corroer {corroer} [koroˈeɾ], irr = leptať
+2 V pegarse {pegarse} [peˈɣaɾse] = lepiť sa
+3 AN grasiento {grasiento} [ɡɾaˈsjento], grasienta = mazľavý
+3 AN viscoso {viscoso} [bisˈkoso], viscosa = slizký
+3 AN baboso {baboso} [baˈβoso], babosa = slizký
+3 N el casco {casco} [ˈkasko], cascos = črepina
+3 N la astilla {astilla} [asˈtiʎa], astillas = úlomok
+3 V entumecerse {entumecerse} [entumeˈθeɾse], c>zc = stuhnúť
+3 N la mancha {mancha} [ˈmantʃa], manchas = šmuha
+2 N el polvo {polvo} [ˈpolβo], polvos = prášok
+3 N el álcali {álcali} [ˈalkali], álcalis = lúh
+3 N la lejía {lejía} [leˈxia], lejías = lúh
+3 N la fragilidad {fragilidad} [fɾaxiliˈðað], fragilidades = krehkosť
+3 N la plasticidad {plasticidad} [plastiθiˈðað], plasticidades = plasticita
+3 AN dúctil {dúctil} [ˈduktil], dúctil = ťažný
+3 N la ductilidad {ductilidad} [duktiliˈðað], ductilidades = ťažnosť
+3 AN maleable {maleable} [maleˈaβle], maleable = kujný
+3 N la maleabilidad {maleabilidad} [maleaβiliˈðað], maleabilidades = kujnosť
+3 N la elasticidad {elasticidad} [elastiθiˈðað], elasticidades = pružnosť
+3 N la rigidez {rigidez} [rixiˈðeθ], rigideces = tuhosť
+3 N la resistencia {resistencia} [resisˈtenθja], resistencias = pevnosť materiálu
+3 N la tenacidad {tenacidad} [tenaθiˈðað], tenacidades = húževnatosť
+3 N la finura {finura} [fiˈnuɾa], finuras = jemnosť
+3 AN quebradizo {quebradizo} [keβɾaˈðiθo], quebradiza = drobivý
+3 N el platino {platino} [plaˈtino], platinos = platina
+3 N el uranio {uranio} [uˈɾanjo], uranios = urán
+3 N el litio {litio} [ˈlitjo], litios = lítium
+3 N el sodio {sodio} [ˈsoðjo], sodios = sodík
+3 N el magnesio {magnesio} [maɣˈnesjo], magnesios = horčík
+3 N el potasio {potasio} [poˈtasjo], potasios = draslík
+3 N el titanio {titanio} [tiˈtanjo], titanios = titán
+3 N el cromo {cromo} [ˈkɾomo], cromos = chróm
+3 N el manganeso {manganeso} [manɡaˈneso], manganesos = mangán
+3 N el cobalto {cobalto} [koˈβalto], cobaltos = kobalt
+3 N el níquel {níquel} [ˈnikel], níqueles = nikel
+3 N el arsénico {arsénico} [aɾˈseniko], arsénicos = arzén
+3 N el helio {helio} [ˈeljo], helios = hélium
+3 N el flúor {flúor} [ˈfluoɾ], flúores = fluór
+3 N el cloro {cloro} [ˈkloɾo], cloros = chlór
+2 V inflar {inflar} [imˈflaɾ] = nafúknuť
+3 N la fusión {fusión} [fuˈsjon], fusiones = topenie
+3 N la evaporación {evaporación} [eβapoɾaˈθjon], evaporaciones = odparovanie
+3 AN tieso {tieso} [ˈtjeso], tiesa = tuhý
 
 # fire-light
 1 V arder {arder} [aɾˈðeɾ] = horieť
@@ -122,6 +167,13 @@
 3 N el destello {destello} [desˈteʎo], destellos = záblesk
 1 V apagar {apagar} [apaˈɣaɾ] = hasiť
 2 V extinguir {extinguir} [ekstiŋˈɡiɾ] = hasiť
+3 AN agostado {agostado} [aɣosˈtaðo], agostada = spálený
+3 N la mecha {mecha} [ˈmetʃa], mechas = zápalná šnúra
+3 N la mecha {mecha} [ˈmetʃa], mechas = knôt
+3 V arder sin llama {arder sin llama} [aɾˈðeɾ sin ˈʎama] = tlieť
+3 N el petardo {petardo} [peˈtaɾðo], petardos = petarda
+2 N la combustión {combustión} [kombusˈtjon], combustiones = horenie
+3 N la lumbre {lumbre} [ˈlumbɾe], lumbres = plameň
 
 # energy-forces
 1 N la energía {energía} [eneɾˈxia], energías = energia
@@ -151,6 +203,14 @@
 1 N el efecto {efecto} [eˈfekto], efectos = efekt
 2 N la emisión {emisión} [emiˈsjon], emisiones = emisia
 3 AV agotadoramente {agotadoramente} [aɣotaðoɾaˈmente] = vyčerpávajúco
+3 V repeler {repeler} [repeˈleɾ] (a) = odpudzovať
+3 V amortiguar {amortiguar} [amoɾtiˈɣwaɾ] = pružiť
+3 N la fuerza centrífuga {fuerza centrífuga} [ˈfweɾθa θenˈtɾifuɣa], fuerzas centrífugas = odstredivá sila
+3 N la inercia {inercia} [iˈneɾθja], inercias = zotrvačnosť
+2 N la carga {carga} [ˈkaɾɣa], cargas = náboj (elektrický)
+3 N la carga {carga} [ˈkaɾɣa], cargas = nabitie
+3 N la descarga {descarga} [desˈkaɾɣa], descargas = vybitie
+3 AN ímprobo {ímprobo} [ˈimpɾoβo], ímproba = vyčerpávajúci
 
 # sound
 1 N el ruido {ruido} [ˈrwiðo], ruidos = šum
@@ -166,6 +226,39 @@
 3 N el eco {eco} [ˈeko], ecos = ozvena
 3 N la vibración {vibración} [biβɾaˈθjon], vibraciones = vibrácia
 3 V vibrar {vibrar} [biˈβɾaɾ] = vibrovať
+3 N el crujido {crujido} [kɾuˈxiðo], crujidos = šuchot
+3 AN insonorizado {insonorizado} [insonoɾiˈθaðo], insonorizada = zvukotesný
+3 AN sonoro {sonoro} [soˈnoɾo], sonora = zvučný
+2 AN ensordecedor {ensordecedor} [ensoɾðeθeˈðoɾ], ensordecedora = ohlušujúci
+3 N el estruendo {estruendo} [esˈtɾwendo], estruendos = rachot
+3 N el rugido {rugido} [ruˈxiðo], rugidos = revanie
+2 V gritar {gritar} [ɡɾiˈtaɾ] = vykríknuť
+3 V susurrar {susurrar} [susuˈraɾ] = šuchotať
+3 V crujir {crujir} [kɾuˈxiɾ] = praskať
+3 V rechinar {rechinar} [retʃiˈnaɾ] = vŕzgať
+3 V chirriar {chirriar} [tʃiˈrjaɾ], i>í = škrípať
+3 V chillar {chillar} [tʃiˈʎaɾ] = pišťať
+3 V traquetear {traquetear} [tɾaketeˈaɾ] = klepotať
+3 V chasquear {chasquear} [tʃaskeˈaɾ] = plesknúť
+3 V chapotear {chapotear} [tʃapoteˈaɾ] = čľapotať sa
+3 V resollar {resollar} [resoˈʎaɾ], o>ue = chrčať
+3 V zumbar {zumbar} [θumˈbaɾ] = hučať
+3 V piar {piar} [piˈaɾ], i>í = pípať
+3 V chillar {chillar} [tʃiˈʎaɾ] = škriekať
+3 V vocear {vocear} [boθeˈaɾ] = hulákať
+3 V berrear {berrear} [bereˈaɾ] = jačať
+3 V tocar la bocina {tocar la bocina} [toˈkaɾ la boˈθina] = trúbiť
+3 V rasguear {rasguear} [rasɡeˈaɾ] = brnkať
+3 V tintinear {tintinear} [tintineˈaɾ] = štrngať
+3 V borbotear {borbotear} [boɾβoteˈaɾ] = žblnkať
+3 V murmurar {murmurar} [muɾmuˈɾaɾ] = zurčať
+3 V chapotear {chapotear} [tʃapoteˈaɾ] = čľupnúť
+3 V traquetear {traquetear} [tɾaketeˈaɾ] = drnčať
+3 V traquetear {traquetear} [tɾaketeˈaɾ] = hrkotať
+3 V restallar {restallar} [restaˈʎaɾ] = prašťať
+3 V chillar {chillar} [tʃiˈʎaɾ] = vrešťať
+3 V resoplar {resoplar} [resoˈplaɾ] = fučať
+3 V tararear {tararear} [taɾaɾeˈaɾ] = nôtiť si
 
 # corpus-verbs
 3 V filtrar {filtrar} [filˈtɾaɾ] = filtrovať

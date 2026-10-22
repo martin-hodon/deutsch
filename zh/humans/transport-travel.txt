@@ -85,6 +85,15 @@
 2 N 车号 {车号} [chēhào], 个 = poznávacia značka
 2 N 船只 {船只} [chuánzhī], 艘 = loď
 2 N 客车 {客车} [kèchē], 辆 = autobus
+2 N 车厢 {车厢} [chēxiāng], 节 = vagón
+3 N 无轨电车 {无轨电车} [wúguǐdiànchē], 辆 = trolejbus
+3 N 飞艇 {飞艇} [fēitǐng], 艘 = vzducholoď
+2 N 轮船 {轮船} [lúnchuán], 艘 = parník
+2 N 滑板 {滑板} [huábǎn], 个 = skateboard
+3 N 快艇 {快艇} [kuàitǐng], 艘 = motorový čln
+3 N 油轮 {油轮} [yóulún], 艘 = tanker
+3 N 滑翔机 {滑翔机} [huáxiángjī], 架 = vetroň
+2 N 导弹 {导弹} [dǎodàn], 枚 = raketa
 
 # vehicle-parts
 2 N 轮胎 {轮胎} [lúntāi], 条 = pneumatika
@@ -142,6 +151,21 @@
 3 N 车尾 {车尾} [chēwěi], - = zadná časť
 2 V 划 {划} [huá] = veslovať
 1 N 后边 {后边} [hòubian], - = zadná časť
+3 N 离合器 {离合器} [líhéqì], 个 = spojka (v aute)
+3 N 车辕 {车辕} [chēyuán], 根 = oje
+3 N 轮辋 {轮辋} [lúnwǎng], 个 = ráf
+3 N 拨链器 {拨链器} [bōliànqì], 个 = prehadzovačka
+3 N 变速箱 {变速箱} [biànsùxiāng], 个 = prevodovka
+3 N 轮毂盖 {轮毂盖} [lúngǔgài], 个 = puklica
+3 N 船舱 {船舱} [chuáncāng], 间 = kajuta
+3 N 船头 {船头} [chuántóu], 个 = prova
+3 N 帆桁 {帆桁} [fānháng], 根 = rahno
+3 N 缆绳 {缆绳} [lǎnshéng], 根 = kotevné lano
+3 N 舵 {舵} [duò], 个 = kormidlo
+3 N 船尾 {船尾} [chuánwěi], 个 = korma
+3 N 左舷 {左舷} [zuǒxián], 个 = ľavobok
+3 N 右舷 {右舷} [yòuxián], 个 = pravobok
+3 N 底盘 {底盘} [dǐpán], 个 = podvozok
 
 # infrastructure
 1 N 路 {路} [lù], 条 = cesta (komunikácia)
@@ -179,6 +203,7 @@
 2 N 码头 {码头} [mǎtou], 个 = mólo
 3 N 灯塔 {灯塔} [dēngtǎ], 座 = maják
 1 V 停车 {停|车} [tíngchē] = parkovať
+2 V 停 {停} [tíng] = parkovať
 1 N 停车场 {停车场} [tíngchēchǎng], 个 = parkovisko
 3 N 船坞 {船坞} [chuánwù], 个 = dok
 3 N 造船厂 {造船厂} [zàochuánchǎng], 家 = lodenica
@@ -224,6 +249,12 @@
 3 V 铺柏油 {铺|柏油} [pū bǎiyóu] = asfaltovať
 1 N 公路 {公路} [gōnglù], 条 = cesta (komunikácia)
 2 N 桥梁 {桥梁} [qiáoliáng], 座 = most
+3 N 岔路 {岔路} [chàlù], 条 = odbočka
+3 N 支线 {支线} [zhīxiàn], 条 = odbočka
+3 N 道岔 {道岔} [dàochà], 个 = výhybka
+3 N 人行桥 {人行桥} [rénxíngqiáo], 座 = lávka
+3 N 护栏 {护栏} [hùlán], 道 = zvodidlo
+3 N 海港 {海港} [hǎigǎng], 个 = prístav
 
 # travel
 2 N 车程 {车程} [chēchéng], - = jazda
@@ -331,6 +362,7 @@
 2 N 行程 {行程} [xíngchéng], 个 = trasa cesty
 2 N 旅行路线 {旅行路线} [lǚxíng lùxiàn], 条 = trasa cesty
 1 V 上车 {上|车} [shàngchē] = nastúpiť (do vozidla)
+1 V 上 {上} [shàng] = nastúpiť (do vozidla)
 1 V 换车 {换|车} [huànchē] = prestúpiť
 2 V 转车 {转|车} [zhuǎnchē] = prestúpiť
 2 V 换乘 {换乘} [huànchéng] = prestúpiť
@@ -451,6 +483,18 @@
 1 N 国内 {国内} [guónèi], - = tuzemsko
 2 N 本国 {本国} [běnguó], - = tuzemsko
 3 N 境内 {境内} [jìngnèi], - = tuzemsko
+3 N 鞍囊 {鞍囊} [ānnáng], 个 = sedlová brašna
+1 V 骑马 {骑|马} [qímǎ] = jazdiť na koni
+3 N 引水员 {引水员} [yǐnshuǐyuán], 个 = lodivod
+3 V 鼓起 {鼓起} [gǔqǐ] = vzdúvať sa
+2 N 空姐 {空姐} [kōngjiě], 个 = letuška
+3 N 乘务员 {乘务员} [chéngwùyuán], 个 = člen posádky
+3 N 偷渡者 {偷渡者} [tōudùzhě], 个 = čierny pasažier
+2 V 航行 {航行} [hángxíng] = brázdiť
+3 AN 倾斜 {倾斜} [qīngxié] = naklonený
+2 N 公交 {公交} [gōngjiāo], - = verejná doprava
+2 N 手提箱 {手提箱} [shǒutíxiāng], 个 = kufrík
+3 N 海难 {海难} [hǎinàn], 次 = stroskotanie
 
 # corpus-verbs
 2 V 走遍 {走遍} [zǒubiàn] = precestovať
@@ -463,6 +507,7 @@
 1 V 开车 {开|车} [kāichē] = jazdiť
 2 V 驾驶 {驾驶} [jiàshǐ] = jazdiť
 2 V 骑 {骑} [qí] = jazdiť
+1 V 开 {开} [kāi] = jazdiť
 
 # more
 2 N 航空 {航空} [hángkōng], - = letectvo

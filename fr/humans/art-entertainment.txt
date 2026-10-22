@@ -61,6 +61,9 @@
 3 AV artistiquement {artistique|ment} [aʁtistikˈmɑ̃] = umelecky
 2 AV habilement {habile|ment} [abilˈmɑ̃] = umne
 2 N la laideur {laideur} [lɛˈdœʁ], laideurs = škaredosť
+3 V gribouiller {gribouiller} [ɡʁibuˈje] = čmárať
+3 N le gribouillis {gribouillis} [ɡʁibuˈji], gribouillis = čmáranica
+2 N l'ornement (m) {ornement} [ɔʁnəˈmɑ̃], ornements = ozdoba
 
 # music
 1 N la musique {musique} [myˈzik], - = hudba
@@ -125,6 +128,7 @@
 3 N le rappeur {rappeur} [ʁaˈpœʁ], rappeurs = raper
 3 AV rythmiquement {rythmique|ment} [ʁitmikˈmɑ̃] = rytmicky
 3 AV harmonieusement {harmonieuse|ment} [aʁmɔnjøzˈmɑ̃] = harmonicky
+3 AN mélodieux {mélodieux} [melɔˈdjø], mélodieuse, mélodieux/mélodieuses = melodický
 
 # performance-literature
 2 N le théâtre {théâtre} [teˈɑtʁ], théâtres = divadlo
@@ -221,6 +225,12 @@
 3 AN autobiographique {autobiographique} [otobjɔɡʁaˈfik] = autobiografický
 2 AV dramatiquement {dramatique|ment} [dʁamatikˈmɑ̃] = dramaticky
 3 N la dernière {dernière} [dɛʁˈnjɛʁ], dernières = derniéra
+2 N la salle {salle} [sal], salles = divácka sála
+3 N la fable {fable} [fabl], fables = bájka
+3 N le bouffon {bouffon} [buˈfɔ̃], bouffons = šašo
+3 N le schtroumpf {schtroumpf} [ʃtʁumpf], schtroumpfs = šmolko
+2 N le podium {podium} [pɔˈdjɔm], podiums = pódium
+2 N la fiction {fiction} [fikˈsjɔ̃], fictions = fikcia
 
 # games-sport
 1 N le jeu {jeu} [ʒø], jeux = hra
@@ -420,6 +430,27 @@
 2 V surfer {surfer} [syʁˈfe] = surfovať
 2 N l'amateur (m) {amateur} [amaˈtœʁ], amateurs = amatér
 1 V perdre {perdre} [pɛʁdʁ], irr = prehrať (zápas)
+2 N le cyclisme {cyclisme} [siˈklism], - = cyklistika
+3 N les fléchettes (f) {fléchettes} [fleˈʃɛt], PL = šípky (hra)
+2 N la balançoire {balançoire} [balɑ̃ˈswaʁ], balançoires = hojdačka
+3 N le flipper {flipper} [fliˈpɛʁ], flippers = herný automat
+3 N l'alpinisme (m) {alpinisme} [alpiˈnism], - = horolezectvo
+3 N l'haltérophilie (f) {haltéro|philie} [alteʁɔfiˈli], - = vzpieranie
+1 V faire du sport {faire du sport} [fɛʁ dy ˈspɔʁ], irr, fait = športovať
+3 N la batte {batte} [bat], battes = pálka
+2 N la corde à sauter {corde à sauter} [kɔʁd a soˈte], cordes à sauter = švihadlo
+2 N l'haltère (m) {haltère} [alˈtɛʁ], haltères = činka
+3 N le tapis de sol {tapis de sol} [tapi də ˈsɔl], tapis de sol = žinenka
+3 N le hochet {hochet} [ɔˈʃɛ], hochets = hrkálka
+2 N l'as (m) {as} [ɑs], as = eso
+3 N le valet {valet} [vaˈlɛ], valets = dolník
+3 N l'échiquier (m) {échiquier} [eʃiˈkje], échiquiers = šachovnica
+3 N le cavalier {cavalier} [kavaˈlje], cavaliers = šachový jazdec
+3 N l'échasse (f) {échasse} [eˈʃɑs], échasses = chodúľ
+3 N le pion {pion} [pjɔ̃], pions = pešiak
+3 N le fou {fou} [fu], fous = šachový strelec
+3 N le palet {palet} [paˈlɛ], palets = hokejový puk
+3 N la joute {joute} [ʒut], joutes = súboj
 
 # corpus-verbs
 3 V dresser {dresser} [dʁeˈse] (qn contre qn) = poštvať proti sebe

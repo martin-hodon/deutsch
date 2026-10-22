@@ -11,6 +11,7 @@ import { mountHeader } from "./header.js";
 import { formsIndex, fold, ELISIONS } from "./wordforms.js";
 import { loadDerivations, derivationText } from "./derive.js";
 import { loadSounds } from "./sounds.js";
+import { loadCharMeanings } from "./hanzi.js";
 import { createVoice, loadProsody, phrase } from "./speak.js";
 import { loadText, t, applyText } from "./text.js";
 import * as DE from "../de/morph.js";   // (pluralIPA: a German plural's sound)
@@ -30,6 +31,7 @@ async function loadLang(l) {
   await formsIndex(d, l);   // (every form -> its entries: engine/wordforms.js, shared with the dictionary)
   d.derive = (await loadDerivations(l)).derive;   // (a word it has not: a known word + a regular derivation -- roughly)
   d.maxLen = l === "zh" ? Math.max(...d.entries.map((e) => e.word.length)) : 0;
+  if (l === "zh") d.charMeanings = await loadCharMeanings("zh/chars.txt");   // (a character that is no word: its meaning)
   return (dicts[l] = d);
 }
 
@@ -69,7 +71,9 @@ let tip = null, tipFor = null;
 function showTip(span, hits) {
   hideTip();
   tip = el("div", "tip");
-  if (!hits.length) tip.append(el("div", "tip-word mute", "?"));
+  const asChar = hits.length ? [] : dict.charMeanings?.get(span.textContent) ?? [];   // (zh/chars.txt: 们 [men] = ...)
+  for (const r of asChar) tip.append(el("div", "tip-word", span.textContent, el("span", "tip-pos", ` ${r.pinyin}`)), el("div", "", r.meanings.join(", ")));
+  if (!hits.length && !asChar.length) tip.append(el("div", "tip-word mute", "?"));
   for (const h of hits.slice(0, 4)) {
     if (h.derived) tip.append(el("div", "tip-derived", `${span.textContent} = ${derivationText(h.derived)}`));
     const e = h.e, head = el("div", "tip-word", shown(e), el("span", "tip-pos", ` ${e.pos}`));
@@ -108,7 +112,7 @@ function renderText(text) {
 }
 
 async function useLang(l) {
-  lang = l; $("lang").value = l; keepLearn(l);
+  lang = l; keepLearn(l); Object.assign($("title"), { textContent: LANGS[l].flag, title: LANGS[l].name });   // (the title: the language's flag -- chosen in the settings)
   $("status").textContent = t("making");
   dict = await loadLang(l);
   voice.prosody = await loadProsody(LANGS[l].speech);
@@ -118,8 +122,6 @@ export async function start() {
   const pair = keptPair();
   await loadText(LANGS[pair.other]?.ui ?? "sk/ui.txt", "en/ui.txt");
   applyText(); mountHeader("reading");
-  const sel = $("lang");
-  for (const [k, v] of Object.entries(LANGS)) if (v.dict) sel.append(new Option(v.name, k));
   const kept = JSON.parse(localStorage.getItem("trainer:reading") ?? "null");
   await useLang(pair.learn);   // (the one language chosen across the pages, not the text's: a kept text of another language is just shown)
   if (kept?.text) { $("input").value = kept.text; renderText(kept.text); }
@@ -129,7 +131,6 @@ export async function start() {
   $("input").oninput = () => { clearTimeout(timer); timer = setTimeout(show, 700); };
   $("input").onpaste = () => { clearTimeout(timer); timer = setTimeout(show, 50); };
   $("input").onkeydown = (ev) => { if (ev.key === "Enter" && (ev.ctrlKey || ev.metaKey)) { clearTimeout(timer); show(); } };
-  sel.onchange = async () => { await useLang(sel.value); if ($("input").value.trim()) show(); };
   $("title").onclick = () => (location.href = "trainer.html");
   document.addEventListener("click", (ev) => { if (!ev.target.closest(".w, .tip")) hideTip(); });
 }

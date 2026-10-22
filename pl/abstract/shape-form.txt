@@ -91,6 +91,19 @@
 2 N figura {figura} [fʲiˈɡura], ż, figury = postava
 2 AV formalnie {formalnie} [fɔrˈmalɲɛ] = formálne
 3 AV liniowo {liniowo} [liˈɲɔvɔ] = lineárne
+3 N rożek {rożek} [ˈrɔʐɛk], m, rożki = cíp
+2 N trapez {trapez} [ˈtrapɛs], m, trapezy = lichobežník
+2 N romb {romb} [rɔmp], m, romby = kosoštvorec
+2 N elipsa {elipsa} [ɛˈlipsa], ż, elipsy = elipsa
+3 N prostopadłościan {prosto|padłościan} [prɔstɔpadˈwɔɕtɕan], m, prostopadłościany = kváder
+3 N ostrosłup {ostro|słup} [ɔˈstrɔswup], m, ostrosłupy = ihlan
+2 N pętelka {pętelka} [pɛnˈtɛlka], ż, pętelki = pútko
+3 N równoległobok {równo|ległobok} [ruvnɔlɛˈɡwɔbɔk], m, równoległoboki = kosodĺžnik
+3 V sklepiać się {sklepiać się} [ˈsklɛpʲatɕ ɕɛ], sklepić się = klenúť sa
+2 AN rozciągnięty {roz|ciągnięty} [rɔstɕɔŋˈɡɲɛntɨ] = natiahnutý
+3 N okrąg opisany {okrąg opisany} [ˈɔkrɔŋk ɔpiˈsanɨ], m, okręgi opisane = opísaná kružnica
+3 N okrąg wpisany {okrąg wpisany} [ˈɔkrɔŋk fpiˈsanɨ], m, okręgi wpisane = vpísaná kružnica
+2 N kółko {kółko} [ˈkuwkɔ], n, kółka = krúžok
 
 # form-properties
 2 AN okrągły {okrągły} [ɔˈkrɔŋɡwɨ] = okrúhly
@@ -192,3 +205,7 @@
 3 N tępota {tępota} [tɛmˈpɔta], ż, - = tuposť
 3 N asymetria {a|symetria} [asɨˈmɛtrja], ż, - = asymetria
 2 N krzywa {krzywa} [ˈkʂɨva], ż, krzywe = krivka
+2 AN obcisły {obcisły} [ɔpˈtɕiswɨ] = priliehavý
+2 N powierzchnia {powierzchnia} [pɔˈvʲɛʂxɲa], ż, powierzchnie = rozloha
+2 V zginać {zginać} [ˈzɡinatɕ], zgiąć (B) = prehnúť
+3 N zagięcie {zagięcie} [zaˈɡɛɲtɕɛ], n, zagięcia = záhyb

@@ -78,6 +78,7 @@
 3 V assault {assault} [əˈsɔːlt] (sb) = zaútočiť
 3 V battle {bat|tle} [ˈbætəl] (against, with) = bojovať
 3 N de-escalation {de-escalation} [ˌdiː eskəˈleɪʃən], - = deeskalácia
+3 V subjugate {subjugate} [ˈsʌbdʒʊɡeɪt] (sb) = podmaniť si
 # army
 1 N army {army} [ˈɑːmɪ], armies = armáda
 3 N the military {the military} [ðə ˈmɪlɪtərɪ], - = armáda
@@ -128,6 +129,11 @@
 2 V surprise {surprise} [səˈpraɪz] (sb) = zaskočiť
 3 V catapult {catapult} [ˈkætəpʌlt] (sb, sth) = katapultovať
 3 V parade {parade} [pəˈreɪd] = pochodovať
+2 N crusader {crusad|er} [kruːˈseɪdə], crusaders = križiak
+3 N second lieutenant {second lieutenant} [ˌsekənd lefˈtenənt], second lieutenants = podporučík
+2 N squadron {squadron} [ˈskwɒdrən], squadrons = letka (útvar)
+2 N protector {protect|or} [prəˈtektə], protectors = ochranca
+3 N squire {squire} [ˈskwaɪə], squires = panoš
 # weapons-fortification
 2 N weapon {weapon} [ˈwepən], weapons = zbraň
 1 N gun {gun} [ɡʌn], guns = strelná zbraň
@@ -185,6 +191,28 @@
 3 V parry {parry} [ˈpærɪ] (sth) = odraziť
 3 V arm {arm} [ɑːm] = zbrojiť
 2 AN unarmed {un|armed} [ˌʌnˈɑːmd] = neozbrojený
+2 N bullet {bullet} [ˈbʊlɪt], bullets = guľka (strela)
+2 N barrel {barrel} [ˈbærəl], barrels = hlaveň
+3 N battlements {battlements} [ˈbætəlmənts], PL = cimbúrie
+3 N lance {lance} [lɑːns], lances = kopija
+3 N rapier {rapier} [ˈreɪpiə], rapiers = kord
+3 N club {club} [klʌb], clubs = kyjak
+3 N quiver {quiver} [ˈkwɪvə], quivers = tulec
+2 N crossbow {cross|bow} [ˈkrɒsbəʊ], crossbows = kuša
+3 N halberd {halberd} [ˈhælbɜːd], halberds = halapartňa
+3 N battering ram {battering ram} [ˈbætərɪŋ ræm], battering rams = baranidlo
+2 N armament {armament} [ˈɑːməmənt], armaments = výzbroj
+3 V armour {armour} [ˈɑːmə] (sth) = obrniť
+3 N submachine gun {submachine gun} [ˌsʌbməˈʃiːn ɡʌn], submachine guns = samopal
+2 N machine gun {machine gun} [məˈʃiːn ɡʌn], machine guns = guľomet
+3 N flamethrower {flame|thrower} [ˈfleɪmˌθrəʊə], flamethrowers = plameňomet
+3 N rocket launcher {rocket launcher} [ˈrɒkɪt ˌlɔːntʃə], rocket launchers = raketomet
+3 N howitzer {howitzer} [ˈhaʊɪtsə], howitzers = húfnica
+3 N air rifle {air rifle} [ˈeə ˌraɪfəl], air rifles = vzduchovka
+3 N scabbard {scabbard} [ˈskæbəd], scabbards = pošva (na zbraň)
+2 N shotgun {shot|gun} [ˈʃɒtɡʌn], shotguns = brokovnica
+2 N fighter {fight|er} [ˈfaɪtə], fighters = stíhačka
+2 N cartridge {cartridge} [ˈkɑːtrɪdʒ], cartridges = náboj (do zbrane)
 # war
 3 V plunder {plunder} [ˈplʌndə] (sth) = plieniť
 3 V loot {loot} [luːt] (sth) = plieniť
@@ -193,3 +221,13 @@
 3 N warehouse {ware|house} [ˈweəhaʊs], warehouses = sklad
 2 N store {store} [stɔː], stores = sklad
 3 N pencil lead {pencil lead} [ˈpensəl led], pencil leads = tuha
+2 N captive {captive} [ˈkæptɪv], captives = zajatec
+3 V fire off {fire·off} [ˈfaɪər ˈɒf] (sth) = vystrieľať
+3 V shoot {shoot} [ʃuːt], shot/shot (sb) = postreliť
+3 N skirmish {skirmish} [ˈskɜːmɪʃ], skirmishes = šarvátka
+3 N bloodshed {blood|shed} [ˈblʌdʃed], - = krviprelievanie
+3 N mutiny {mutiny} [ˈmjuːtɪni], mutinies = vzbura
+3 N superiority {superior|ity} [suːˌpɪəriˈɒrəti], - = prevaha
+3 N encirclement {encircle|ment} [ɪnˈsɜːkəlmənt], encirclements = obkľúčenie
+3 V board {board} [bɔːd] (sth) = abordovať
+2 N intruder {intrud|er} [ɪnˈtruːdə], intruders = votrelec

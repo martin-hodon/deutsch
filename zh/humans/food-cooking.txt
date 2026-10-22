@@ -51,6 +51,17 @@
 3 N 香草 {香草} [xiāngcǎo], 种 = bylinky
 2 AN 不能吃 {不能吃} [bù néng chī] = nejedlý
 3 AN 不可食用 {不可食用} [bù kě shíyòng] = nejedlý
+3 N 小苏打 {小苏打} [xiǎosūdá], - = jedlá sóda
+3 N 发面 {发面} [fāmiàn], - = kysnuté cesto
+3 N 馅料 {馅料} [xiànliào], - = plnka
+3 N 猪油 {猪油} [zhūyóu], - = bravčová masť
+3 N 面包干 {面包干} [miànbāogān], 片 = suchár
+3 N 牛油 {牛油} [niúyóu], - = loj
+3 N 下午茶 {下午茶} [xiàwǔchá], - = olovrant
+3 N 剩饭 {剩饭} [shèngfàn], - = zvyšky jedla
+3 N 肉冻 {肉冻} [ròudòng], - = rôsol
+3 N 乳品厂 {乳品厂} [rǔpǐnchǎng], 家 = mliekáreň
+3 N 沙拉酱 {沙拉酱} [shālājiàng], - = dresing
 
 # staples
 1 N 面包 {面包} [miànbāo], 块 = chlieb
@@ -65,6 +76,8 @@
 3 N 糕点 {糕点} [gāodiǎn], 块 = pečivo
 1 N 米饭 {米饭} [mǐfàn], 碗 = ryža
 2 N 大米 {大米} [dàmǐ], - = ryža
+1 N 米 {米} [mǐ], 粒 = ryža
+1 N 饭 {饭} [fàn], 碗 = ryža
 1 N 面条 {面条} [miàntiáo], 碗 = cestoviny
 2 N 意大利面 {意大利面} [yìdàlìmiàn], 份 = cestoviny
 1 N 汤 {汤} [tāng], 碗 = polievka
@@ -156,6 +169,17 @@
 1 N 奶 {奶} [nǎi], - = mlieko
 1 N 蛋 {蛋} [dàn], 个 = vajce
 3 N 蜜 {蜜} [mì], - = med
+3 N 青酱 {青酱} [qīngjiàng], - = pesto
+3 N 羊角面包 {羊角面包} [yángjiǎomiànbāo], 个 = rožok
+3 N 辫子面包 {辫子面包} [biànzimiànbāo], 个 = vianočka
+2 N 三明治 {三明治} [sānmíngzhì], 个 = obložený chlieb
+3 N 通心粉 {通心粉} [tōngxīnfěn], - = kolienka
+3 N 面疙瘩 {面疙瘩} [miàngēda], - = halušky
+3 N 果泥 {果泥} [guǒní], - = pretlak
+3 N 土豆泥 {土豆泥} [tǔdòuní], - = pyré
+2 N 面条 {面条} [miàntiáo], 根 = rezance
+1 N 面 {面} [miàn], 碗 = rezance
+3 N 意式土豆团子 {意式土豆团子} [yìshìtǔdòutuánzi], - = gnocchi
 
 # meat-fish-food
 1 N 牛肉 {牛肉} [niúròu], - = hovädzie mäso
@@ -197,6 +221,12 @@
 1 V 变胖 {变胖} [biànpàng] = pribrať
 2 V 发胖 {发胖} [fāpàng] = pribrať
 2 V 长胖 {长胖} [zhǎngpàng] = pribrať
+3 N 肝肠 {肝肠} [gāncháng], 根 = jaternica
+3 N 熏肉 {熏肉} [xūnròu], - = údené mäso
+3 N 牛肚 {牛肚} [niúdǔ], - = držky
+3 N 腌肉 {腌肉} [yānròu], - = solené mäso
+3 N 鱼油 {鱼油} [yúyóu], - = rybí tuk
+3 N 猪头肉 {猪头肉} [zhūtóuròu], - = tlačenka
 
 # fruits
 1 N 水果 {水果} [shuǐguǒ], - = ovocie
@@ -253,10 +283,23 @@
 3 N 西柚 {西柚} [xīyòu], 个 = grapefruit
 3 N 葡萄柚 {葡萄柚} [pútaoyòu], 个 = grapefruit
 2 N 桃 {桃} [táo], 个 = broskyňa
+2 N 橘子 {橘子} [júzi], 个 = mandarínka
+3 N 柿子 {柿子} [shìzi], 个 = kaki
+3 N 酸樱桃 {酸樱桃} [suānyīngtao], 颗 = višňa
+3 N 桑葚 {桑葚} [sāngshèn], 颗 = moruša
+3 N 桑树 {桑树} [sāngshù], 棵 = moruša
+3 N 开心果 {开心果} [kāixīnguǒ], 颗 = pistácia
+3 N 碧根果 {碧根果} [bìgēnguǒ], 颗 = pekanový orech
+3 N 腰果 {腰果} [yāoguǒ], 颗 = kešu orech
+3 N 巴西坚果 {巴西坚果} [bāxījiānguǒ], 颗 = para orech
+3 N 杏仁 {杏仁} [xìngrén], 颗 = mandľa
+3 N 扁桃 {扁桃} [biǎntáo], 颗 = mandľa
+3 N 黑醋栗 {黑醋栗} [hēicùlì], 颗 = ríbezľa
 
 # vegetables
 2 N 蔬菜 {蔬菜} [shūcài], - = zelenina
 1 N 青菜 {青菜} [qīngcài], 棵 = zelenina
+1 N 菜 {菜} [cài], - = zelenina
 2 N 土豆 {土豆} [tǔdòu], 个 = zemiak
 3 N 马铃薯 {马铃薯} [mǎlíngshǔ], 个 = zemiak
 3 N 红薯 {红薯} [hóngshǔ], 个 = sladký zemiak
@@ -309,6 +352,16 @@
 3 N 芦笋 {芦笋} [lúsǔn], 根 = špargľa
 2 N 蘑菇 {蘑菇} [mógu], 朵 = šampiňón
 3 N 蒜 {蒜} [suàn], 头 = cesnak
+3 N 大黄 {大黄} [dàhuáng], 根 = rebarbora
+3 N 洋蓟 {洋蓟} [yángjì], 个 = artičok
+3 N 羽衣甘蓝 {羽衣甘蓝} [yǔyīgānlán], 棵 = kučeravá kapusta
+3 N 苤蓝 {苤蓝} [piělán], 个 = kaleráb
+3 N 熊葱 {熊葱} [xióngcōng], 棵 = medvedí cesnak
+3 N 豆类 {豆类} [dòulèi], - = strukovina
+3 N 鹰嘴豆 {鹰嘴豆} [yīngzuǐdòu], 粒 = cícer
+3 N 辣根 {辣根} [làgēn], 根 = chren
+3 N 细香葱 {细香葱} [xìxiāngcōng], 根 = pažítka
+3 N 荷兰芹 {荷兰芹} [hélánqín], 棵 = petržlen
 
 # sweets-drinks
 2 N 蛋糕 {蛋糕} [dàngāo], 块 = koláč
@@ -376,11 +429,23 @@
 2 N 茶叶 {茶叶} [cháyè], - = čaj
 2 N 白酒 {白酒} [báijiǔ], 瓶 = pálenka
 2 N 酒水 {酒水} [jiǔshuǐ], - = nápoj
+3 N 祝酒词 {祝酒词} [zhùjiǔcí], 段 = prípitok
+3 N 劣酒 {劣酒} [lièjiǔ], - = žbrnda
+3 N 蜂蜜酒 {蜂蜜酒} [fēngmìjiǔ], - = medovina
+3 N 烈酒 {烈酒} [lièjiǔ], - = liehovina
+3 N 糖水水果 {糖水水果} [tángshuǐshuǐguǒ], - = kompót
+3 N 糕点店 {糕点店} [gāodiǎndiàn], 家 = cukráreň
+3 N 咕咕霍夫 {咕咕霍夫} [gūgūhuòfū], 个 = bábovka
+3 N 烟囱卷 {烟囱卷} [yāncōngjuǎn], 个 = trdelník
+3 N 棒棒糖 {棒棒糖} [bàngbàngtáng], 根 = lízanka
+3 N 甘草糖 {甘草糖} [gāncǎotáng], 根 = pendrek (sladkosť)
+3 N 圈饼 {圈饼} [quānbǐng], 个 = venček
 
 # cooking
 1 V 做饭 {做|饭} [zuòfàn] = variť
 2 V 煮 {煮} [zhǔ] = variť
 3 V 烹饪 {烹饪} [pēngrèn] = variť
+2 V 烧 {烧} [shāo] = variť
 2 N 厨师 {厨师} [chúshī], 位 = kuchár
 2 N 女厨师 {女厨师} [nǚchúshī], 位 = kuchárka
 3 N 食谱 {食谱} [shípǔ], 本 = kuchárska kniha
@@ -414,7 +479,7 @@
 2 V 倒入 {倒入} [dàorù] = naliať
 2 V 浇 {浇} [jiāo] = poliať
 3 N 洒水壶 {洒水壶} [sǎshuǐhú], 个 = krhla
-2 V 撒 {撒} [sā] = sypať
+2 V 撒 {撒} [sǎ] = sypať
 2 V 洒 {洒} [sǎ] = rozliať
 2 V 切开 {切开} [qiēkāi] = rozrezať
 3 N 熟肉片 {熟肉片} [shúròupiàn], 份 = krájané mäso
@@ -442,6 +507,21 @@
 3 V 灌 {灌} [guàn] = naliať
 3 V 搅 {搅} [jiǎo] = miešať
 3 V 削 {削} [xiāo] = lúpať
+3 V 凝结 {凝结} [níngjié] = zraziť sa (mlieko)
+3 N 腌汁 {腌汁} [yānzhī], - = nálev
+3 V 焗 {焗} [jú] = zapiecť
+3 V 烧焦 {烧焦} [shāojiāo] = pripáliť
+3 V 融化 {融化} [rónghuà] = roztopiť
+3 V 榨汁 {榨|汁} [zhàzhī] = odšťaviť
+3 V 发酵 {发|酵} [fājiào] = kvasiť
+3 V 过滤 {过滤} [guòlǜ] = cediť
+3 N 发酵 {发酵} [fājiào], - = kvasenie
+3 V 喂饱 {喂饱} [wèibǎo] = zasýtiť
+3 V 刨丝 {刨|丝} [bàosī] = strúhať
+3 V 去内脏 {去内脏} [qùnèizàng] = vyvrhnúť
+3 V 倒出 {倒出} [dàochū] = odliať
+3 V 倒掉 {倒掉} [dàodiào] = vyliať
+3 V 添 {添} [tiān] = doliať
 
 # kitchen-tools
 1 N 刀 {刀} [dāo], 把 = nôž
@@ -482,6 +562,7 @@
 3 N 开罐器 {开罐器} [kāiguànqì], 个 = otvárač konzerv
 2 N 罐头 {罐头} [guàntou], 个 = konzerva
 2 N 盖子 {盖子} [gàizi], 个 = pokrievka
+3 N 盖 {盖} [gài], 个 = pokrievka
 3 N 软木塞 {软木塞} [ruǎnmùsāi], 个 = korok
 3 N 红酒开瓶器 {红酒开瓶器} [hóngjiǔkāipíngqì], 个 = vývrtka
 2 N 餐巾纸 {餐巾纸} [cānjīnzhǐ], 张 = obrúsok
@@ -504,6 +585,19 @@
 2 N 勺 {勺} [sháo], 把 = naberačka
 3 N 罐 {罐} [guàn], 个 = konzerva
 2 N 套餐 {套餐} [tàocān], 份 = menu
+3 N 核桃夹 {核桃夹} [hétaojiā], 个 = luskáčik
+3 N 小罐 {小罐} [xiǎoguàn], 个 = kelímok
+3 N 高脚杯 {高脚杯} [gāojiǎobēi], 只 = čaša
+3 N 炖锅 {炖锅} [dùnguō], 个 = kastról
+3 N 削皮器 {削皮器} [xiāopíqì], 把 = škrabka
+3 N 擀面杖 {擀面杖} [gǎnmiànzhàng], 根 = valček na cesto
+3 N 量杯 {量杯} [liàngbēi], 个 = odmerka
+3 N 案板 {案板} [ànbǎn], 块 = doska na krájanie
+3 N 砧板 {砧板} [zhēnbǎn], 块 = doska na krájanie
+3 N 漏勺 {漏勺} [lòusháo], 把 = zberačka
+3 N 烤肉叉 {烤肉叉} [kǎoròuchā], 根 = ražeň
+3 N 榨汁机 {榨汁机} [zhàzhījī], 台 = odšťavovač
+3 N 水壶 {水壶} [shuǐhú], 把 = kanvica
 
 # taste-quality
 1 N 味道 {味道} [wèidao], 种 = chuť (na jazyku)
@@ -521,9 +615,11 @@
 1 AN 生 {生} [shēng] = surový
 1 AN 好吃 {好吃} [hǎochī] = chutný
 3 AN 美味 {美味} [měiwèi] = chutný
+2 AN 香 {香} [xiāng] = chutný
 2 N 美食 {美食} [měishí], 种 = maškrta
 3 AN 多汁 {多汁} [duōzhī] = šťavnatý
 3 AN 油腻 {油腻} [yóunì] = mastný
+2 AN 油 {油} [yóu] = mastný
 3 AN 绵密 {绵密} [miánmì] = krémový
 2 N 罐子 {罐子} [guànzi], 个 = dóza
 2 V 浇水 {浇|水} [jiāoshuǐ] = polievať
@@ -534,3 +630,9 @@
 3 AN 煮熟 {煮熟} [zhǔshú] = varený
 3 AN 俗气 {俗气} [súqi] = nevkusný
 3 AN 庸俗 {庸俗} [yōngsú] = nevkusný
+2 AN 土 {土} [tǔ] = nevkusný
+3 AN 预煮 {预煮} [yùzhǔ] = predvarený
+3 AN 过期 {过|期} [guòqī] = expirovaný
+3 AN 涩 {涩} [sè] = trpký
+2 AN 鲜 {鲜} [xiān] = čerstvý
+2 N 味 {味} [wèi], - = chuť (na jazyku)

@@ -58,6 +58,20 @@ export async function loadComposition(url) {
   };
 }
 
+// THE MEANINGS OF CHARACTERS THAT ARE NO WORD (zh/chars.txt): `CHAR [pinyin] = meaning, meaning -- note`, a line per
+// reading -> character -> [{ pinyin, meanings, note }]
+export async function loadCharMeanings(url) {
+  const response = await fetch(url);
+  if (!response.ok) throw new Error(`${url}: ${response.status}`);
+  const out = new Map();
+  for (const line of (await response.text()).split("\n")) {
+    const m = line.match(/^(\S+)(?: \[([^\]]+)\])? = (.+?)(?: -- (.+))?$/);
+    if (!m || line.startsWith("#")) continue;
+    (out.get(m[1]) ?? out.set(m[1], []).get(m[1])).push({ pinyin: m[2] ?? "", meanings: m[3].split(", "), note: m[4] ?? "" });
+  }
+  return out;
+}
+
 // a layout string (白|勺, 厶/月 | 匕/匕) as items for showing: { part } for a component, { sep } for what stands between
 export function layoutItems(layout) {
   const out = [];

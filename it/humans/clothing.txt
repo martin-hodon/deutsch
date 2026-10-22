@@ -61,6 +61,17 @@
 3 N il corsetto {corsetto} [korˈsetːo], corsetti = korzet
 2 N il pannolino {pannolino} [panːoˈliːno], pannolini = plienka
 2 N il costume tradizionale {costume tradizionale} [kosˈtuːme tradittsjoˈnaːle], costumi tradizionali = ľudový odev
+1 N la giacca (f) {giacca} [ˈdʒakːa], giacche = sako
+3 N il travestimento {travestimento} [travestiˈmento], travestimenti = prestrojenie
+3 N la veste (f) {veste} [ˈvɛste], vesti = rúcho
+3 N il manto {manto} [ˈmanto], manti = rúcho
+2 N lo slip {slip} [zlip], slip = slipy
+2 N le mutande {mutande} [muˈtande], PL = slipy
+2 N le mutandine {mutandine} [mutanˈdiːne], PL = nohavičky
+3 N il reggicalze {reggi|calze} [redˈdʒikaltse], reggicalze = podväzkový pás
+3 N lo smoking {smoking} [ˈzmɔːkiŋ], smoking = smoking
+2 N la tuta (f) {tuta} [ˈtuːta], tute = pracovný odev
+2 N la pelliccia (f) {pelliccia} [peˈlːittʃa], pellicce = kožuch
 
 # footwear-accessories
 1 N la scarpa {scarpa} [ˈskarpa], scarpe = topánka
@@ -90,6 +101,10 @@
 2 N il cerchietto {cerchietto} [tʃerˈkjetːo], cerchietti = čelenka
 1 N l'ombrello (m) {ombrello} [omˈbrɛlːo], ombrelli = dáždnik
 1 N il portafoglio {portafoglio} [portaˈfɔʎːo], portafogli = peňaženka
+3 N il calzascarpe {calza|scarpe} [kaltsasˈkarpe], calzascarpe = obuvák
+3 N la décolleté {décolleté} [dekolˈte], décolleté = lodičky
+2 N il tacco {tacco} [ˈtakːo], tacchi = podpätok
+3 N gli infradito {infra|dito} [infraˈdiːto], PL = žabky
 
 # parts-fasteners
 1 N la borsa {borsa} [ˈborsa], borse = taška
@@ -111,6 +126,14 @@
 3 N la toppa {toppa} [ˈtɔpːa], toppe = záplata
 2 V slacciare {slacciare} [zlatˈtʃaːre] = rozopnúť
 2 V sbottonare {sbottonare} [zbotːoˈnaːre] = rozopnúť
+3 N la patta (f) {patta} [ˈpatːa], patte = rázporok
+2 N il fiocco {fiocco} [ˈfjɔkːo], fiocchi = mašľa
+3 N la scollatura (f) {scollatura} [skolːaˈtuːra], scollature = dekolt
+3 N lo scollo {scollo} [ˈskolːo], scolli = dekolt
+3 N la nappa (f) {nappa} [ˈnapːa], nappe = strapec
+3 N la frangia (f) {frangia} [ˈfrandʒa], frange = strapec
+3 N la fodera (f) {fodera} [ˈfɔːdera], fodere = podšívka
+1 N la tasca (f) {tasca} [ˈtaska], tasche = vrecko na oblečení
 
 # materials-making
 2 N il tessuto {tessuto} [teˈsːuːto], tessuti = látka
@@ -161,6 +184,24 @@
 3 V confezionare {confezionare} [konfettsjoˈnaːre] = krajčíriť
 3 N il ditale {ditale} [diˈtaːle], ditali = náprstok
 3 N il manichino {manichino} [maniˈkiːno], manichini = výkladná figurína
+3 N il ritaglio {ritaglio} [riˈtaʎːo], ritagli = ústrižok
+3 N lo scampolo {scampolo} [ˈskampolo], scampoli = ústrižok
+3 N il gomitolo {gomitolo} [ɡoˈmiːtolo], gomitoli = klbko
+3 N il fuso {fuso} [ˈfuːzo], fusi = vreteno
+2 V scucire {scucire} [skuˈtʃiːre] = párať
+3 V ricucire {ri|cucire} [rikuˈtʃiːre] = zašiť
+1 V cucire {cucire} [kuˈtʃiːre] = zašiť
+2 V attaccare {attaccare} [atːaˈkːaːre] = prišiť
+1 V cucire {cucire} [kuˈtʃiːre] = prišiť
+3 V sfilacciarsi {sfilacciarsi} [sfilatˈtʃarsi] = strapkať sa
+2 N lo straccio {straccio} [ˈstrattʃo], stracci = zdrap
+3 N il brandello {brandello} [branˈdɛlːo], brandelli = zdrap
+1 N il filo {filo} [ˈfiːlo], fili = vlákno
+2 N la fibra (f) {fibra} [ˈfiːbra], fibre = vlákno
+3 V ordire {ordire} [orˈdiːre], isc = snovať
+2 V infilare {infilare} [infiˈlaːre] = navliecť
+3 N il peluche {peluche} [peˈluʃ], peluche = plyš
+3 N il pelucco {pelucco} [peˈlukːo], pelucchi = žmolok
 
 # wearing-jewelry
 1 V stare bene {stare bene} [ˈstaːre ˈbɛːne], irr, stato, essere = pasovať
@@ -197,3 +238,7 @@
 2 V mascherare {mascherare} [maskeˈraːre] = maskovať
 3 V camuffare {camuffare} [kamuˈfːaːre] = maskovať
 1 AN vestito {vestito} [veˈstiːto], vestita = oblečený
+2 V indossare {indossare} [indoˈsːaːre] = mať oblečené
+1 V portare {portare} [porˈtaːre] = mať oblečené
+3 V agghindarsi {agghindarsi} [aɡːinˈdarsi] = vyobliekať sa
+2 N il trucco {trucco} [ˈtrukːo], trucchi = líčenie

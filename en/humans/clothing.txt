@@ -53,6 +53,22 @@
 3 N corset {corset} [ˈkɔːsɪt], corsets = korzet
 2 N nappy {nappy} [ˈnæpi], nappies = plienka
 2 N traditional costume {traditional costume} [trəˈdɪʃənəl ˈkɒstjuːm], traditional costumes = ľudový odev
+2 N jacket {jacket} [ˈdʒækɪt], jackets = sako
+3 N sports jacket {sports jacket} [ˈspɔːts ˌdʒækɪt], sports jackets = sako
+2 N disguise {disguise} [dɪsˈɡaɪz], disguises = prestrojenie
+3 N costume {costume} [ˈkɒstjuːm], costumes = prestrojenie
+3 N robe {robe} [rəʊb], robes = rúcho
+3 N garment {garment} [ˈɡɑːmənt], garments = rúcho
+2 N briefs {briefs} [briːfs], PL = slipy
+3 N underpants {under|pants} [ˈʌndəpænts], PL = slipy
+2 N knickers {knickers} [ˈnɪkəz], PL = nohavičky
+3 N panties {panties} [ˈpæntiz], PL = nohavičky
+3 N suspender belt {suspender belt} [səˈspendə ˌbelt], suspender belts = podväzkový pás
+3 N dinner jacket {dinner jacket} [ˈdɪnə ˌdʒækɪt], dinner jackets = smoking
+3 N tuxedo {tuxedo} [tʌkˈsiːdəʊ], tuxedos = smoking
+3 N work clothes {work clothes} [ˈwɜːk ˌkləʊðz], PL = pracovný odev
+3 N overalls {overalls} [ˈəʊvərɔːlz], PL = pracovný odev
+3 N fur coat {fur coat} [ˈfɜː ˌkəʊt], fur coats = kožuch
 # footwear-accessories
 1 N shoe {shoe} [ʃuː], shoes = topánka
 2 N trainer {train|er} [ˈtreɪnə], trainers = tenisky
@@ -77,6 +93,12 @@
 3 N headband {head|band} [ˈhedbænd], headbands = čelenka
 1 N umbrella {umbrella} [ʌmˈbrelə], umbrellas = dáždnik
 2 N wallet {wallet} [ˈwɒlɪt], wallets = peňaženka
+3 N shoehorn {shoe|horn} [ˈʃuːhɔːn], shoehorns = obuvák
+2 N court shoes {court shoes} [ˈkɔːt ˌʃuːz], PL = lodičky
+3 N pumps {pumps} [pʌmps], PL = lodičky
+2 N heel {heel} [hiːl], heels = podpätok
+2 N flip-flops {flip-flops} [ˈflɪp ˌflɒps], PL = žabky
+3 N thongs {thongs} [θɒŋz], PL = žabky
 # parts-fasteners
 1 N bag {bag} [bæɡ], bags = taška
 2 N handbag {hand|bag} [ˈhændbæɡ], handbags = kabelka
@@ -94,6 +116,12 @@
 3 N buckle {buckle} [ˈbʌkəl], buckles = spona
 3 N patch {patch} [pætʃ], patches = záplata
 2 V unbutton {un|button} [ʌnˈbʌtən] (sth) = rozopnúť
+3 N fly {fly} [flaɪ], flies = rázporok
+2 N bow {bow} [bəʊ], bows = mašľa
+3 N cleavage {cleavage} [ˈkliːvɪdʒ], - = dekolt
+3 N tassel {tassel} [ˈtæsl], tassels = strapec
+2 N lining {lin|ing} [ˈlaɪnɪŋ], linings = podšívka
+2 N pocket {pocket} [ˈpɒkɪt], pockets = vrecko na oblečení
 # materials-making
 1 N material {material} [məˈtɪəriəl], materials = látka
 2 N fabric {fabric} [ˈfæbrɪk], fabrics = látka
@@ -138,6 +166,29 @@
 3 N mannequin {mannequin} [ˈmænɪkɪn], mannequins = výkladná figurína
 2 V colour {colour} [ˈkʌlə] (in) = farbiť
 3 V stitch {stitch} [stɪtʃ] (sth) = šiť
+3 N scrap {scrap} [skræp], scraps = ústrižok
+3 N remnant {remnant} [ˈremnənt], remnants = ústrižok
+3 N ball {ball} [bɔːl], balls = klbko
+3 N skein {skein} [skeɪn], skeins = klbko
+3 N spindle {spindle} [ˈspɪndl], spindles = vreteno
+3 V unpick {un|pick} [ʌnˈpɪk] = párať
+3 V undo {undo} [ʌnˈduː], undid/undone = párať
+3 V sew up {sew·up} [səʊ ˈʌp], sewed up/sewn up = zašiť
+3 V stitch up {stitch·up} [stɪtʃ ˈʌp] = zašiť
+2 V sew on {sew·on} [səʊ ˈɒn], sewed on/sewn on = prišiť
+3 V fray {fray} [freɪ] = strapkať sa
+3 N rag {rag} [ræɡ], rags = zdrap
+3 N shred {shred} [ʃred], shreds = zdrap
+2 N thread {thread} [θred], threads = vlákno
+3 N strand {strand} [strænd], strands = vlákno
+3 V warp {warp} [wɔːp] = snovať
+3 V spin {spin} [spɪn], spun/spun = snovať
+2 V thread {thread} [θred] = navliecť
+3 V string {string} [strɪŋ], strung/strung = navliecť
+3 N plush {plush} [plʌʃ], - = plyš
+3 N bobble {bobble} [ˈbɒbl], bobbles = žmolok
+3 N fluff {fluff} [flʌf], - = žmolok
+3 N lint {lint} [lɪnt], - = žmolok
 # wearing-jewelry
 1 V fit {fit} [fɪt] (sb) = pasovať
 2 V watch out {watch·out} [wɒtʃ ˈaʊt] (for) = dávať pozor
@@ -164,3 +215,9 @@
 2 V mind {mind} [maɪnd] (sth) = dávať pozor
 1 AN dressed {dress|ed} [drest] = oblečený
 3 AN clothed {cloth|ed} [kləʊðd] = oblečený
+2 V have on {have·on} [hæv ˈɒn], had on/had on = mať oblečené
+2 V wear {wear} [weə], wore/worn = mať oblečené
+3 V dress up {dress·up} [dres ˈʌp] = vyobliekať sa
+3 V doll oneself up {doll·oneself·up} [dɒl wʌnˈself ˈʌp] = vyobliekať sa
+2 N make-up {make-up} [ˈmeɪk ʌp], - = líčenie
+3 N cosmetics {cosmetics} [kɒzˈmetɪks], PL = líčenie

@@ -73,6 +73,11 @@
 3 V centellear {centellear} [θenteʎeˈaɾ] = mihotať sa
 2 V brillar {brillar} [bɾiˈʎaɾ] = mihotať sa
 2 N la ceguera {ceguera} [θeˈɣeɾa], - = slepota
+3 V ojear {ojear} [oxeˈaɾ] = mrknúť sa
+3 V alzar la vista {alzar la vista} [alˈθaɾ la ˈβista] = vzhliadnuť
+3 V cegar {cegar} [θeˈɣaɾ], e>ie = oslepiť
+2 N el jaleo {jaleo} [xaˈleo], jaleos = rozruch
+3 V celar {celar} [θeˈlaɾ] = ukryť
 
 # hearing
 1 V oír {oír} [oˈiɾ], irr, oído = počuť
@@ -131,6 +136,15 @@
 3 AN oyente {oyente} [oˈʝente] = počujúci
 2 N el mal olor {mal olor} [mal oˈloɾ], malos olores = zápach
 3 N el hedor {hedor} [eˈðoɾ], hedores = zápach
+3 N el escozor {escozor} [eskoˈθoɾ], escozores = štípanie
+3 V escocer {escocer} [eskoˈθeɾ], o>ue = štípať
+3 N la comezón {comezón} [komeˈθon], comezones = svrbenie
+3 N la dulzura {dulz|ura} [dulˈθuɾa], dulzuras = sladkosť chuti
+3 N el olfato {olfato} [olˈfato], - = čuch
+2 N el tacto {tacto} [ˈtakto], - = hmat
+3 AN mohoso {moh|oso} [moˈoso], mohosa = zatuchnutý
+3 V cosquillear {cosquillear} [koskiʎeˈaɾ] = štekliť
+3 N las pamplinas {pamplinas} [pamˈplinas], PL = nezmysel
 
 # colors
 1 N el color {color} [koˈloɾ], colores = farba
@@ -173,3 +187,10 @@
 2 AN turquesa {turquesa} [tuɾˈkesa] = tyrkysový
 2 AN beige {beige} [ˈbeis] = béžový
 2 AN en blanco y negro {en blanco y negro} [en ˈblaŋko i ˈneɣɾo] = čiernobiely
+3 AN celeste {celeste} [θeˈleste] = azúrový
+3 N la coloración {coloración} [koloɾaˈθjon], coloraciones = zafarbenie
+3 V palidecer {palidecer} [paliðeˈθeɾ], c>zc = zblednúť
+3 V decolorar {de|colorar} [dekoloˈɾaɾ] = odfarbiť
+3 V reteñir {re|teñir} [reteˈɲiɾ], e>i = prefarbiť
+2 AN teñido {teñido} [teˈɲiðo], teñida = zafarbený
+3 AN pardo {pardo} [ˈpaɾðo], parda = hnedý

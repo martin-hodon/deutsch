@@ -148,6 +148,17 @@
 2 N le domaine {domaine} [dɔˈmɛn], domaines = usadlosť
 3 V abriter {abriter} [abʁiˈte] = byť domovom pre
 3 AN individuel {individuel} [ɛ̃dividɥˈɛl], individuelle = voľne stojaci
+3 N la corniche {corniche} [kɔʁˈniʃ], corniches = rímsa
+3 N la tringle {tringle} [tʁɛ̃gl], tringles = rímsa
+2 N l'abri (m) {abri} [aˈbʁi], abris = prístrešie
+3 N l'encastrement (m) {en|castrement} [ɑ̃kastʁəˈmɑ̃], encastrements = zabudovanie
+2 N l'échelon (m) {échelon} [eʃˈlɔ̃], échelons = priečka rebríka
+3 N la chape {chape} [ʃap], chapes = poter
+2 N le pilier {pilier} [piˈlje], piliers = pilier
+3 N le portillon {portillon} [pɔʁtiˈjɔ̃], portillons = bránka
+2 N la cabane {cabane} [kaˈban], cabanes = chatrč
+3 N la masure {masure} [maˈzyʁ], masures = chatrč
+3 N l'édredon (m) {édredon} [edʁəˈdɔ̃], édredons = paplón
 
 # rooms
 1 N la pièce {pièce} [pjɛs], pièces = izba
@@ -170,6 +181,9 @@
 3 N l'espace habitable (m) {espace habitable} [ɛspas abiˈtabl], espaces habitables = obytný priestor
 1 N le bureau {bureau} [byˈʁo], bureaux = pracovňa
 2 N le débarras {débarras} [debaˈʁa], débarras = komora
+2 N l'entrée (f) {entrée} [ɑ̃ˈtʁe], entrées = predsieň (chodba)
+3 N le vestibule {vestibule} [vɛstiˈbyl], vestibules = predsieň (chodba)
+2 N le salon {salon} [saˈlɔ̃], salons = salón
 
 # furniture
 1 N les meubles (m) {meubles} [mœbl], PL = nábytok
@@ -225,6 +239,10 @@
 2 N le portemanteau {portemanteau} [pɔʁtəmɑ̃ˈto], portemanteaux = vešiak
 2 N le berceau {berceau} [bɛʁˈso], berceaux = kolíska
 3 N le hamac {hamac} [aˈmak], hamacs = hojdacia sieť
+2 N la vitrine {vitrine} [viˈtʁin], vitrines = vitrína
+2 N le placard {placard} [plaˈkaʁ], placards = skrinka
+3 N le coffret {coffret} [kɔˈfʁɛ], coffrets = skrinka
+3 N l'accoudoir (m) {accoudoir} [akuˈdwaʁ], accoudoirs = opierka
 
 # household-objects
 1 N la clé {clé} [kle], clés = kľúč
@@ -295,6 +313,27 @@
 1 N le ballon {ballon} [baˈlɔ̃], ballons = balón (nafukovací)
 2 N la caisse {caisse} [kɛs], caisses = bedňa
 2 N la plaque {plaque} [plak], plaques = platňa
+2 N le rideau {rideau} [ʁiˈdo], rideaux = záclona
+3 N le voilage {voilage} [vwaˈlaʒ], voilages = záclona
+1 N la corde {corde} [kɔʁd], cordes = šnúra
+2 N le cordon {cordon} [kɔʁˈdɔ̃], cordons = šnúra
+2 N la torche {torche} [tɔʁʃ], torches = pochodeň
+3 N le plumeau {plumeau} [plyˈmo], plumeaux = prachovka
+3 N la pomme de douche {pomme de douche} [pɔm də ˈduʃ], pommes de douche = sprchová hlavica
+3 N la cuvette {cuvette} [kyˈvɛt], cuvettes = záchodová misa
+2 N la housse de couette {housse de couette} [us də ˈkwɛt], housses de couette = obliečka na paplón
+3 N la perforatrice {perforatrice} [pɛʁfɔʁaˈtʁis], perforatrices = dierkovačka
+3 N l'agrafeuse (f) {agrafeuse} [agʁaˈføz], agrafeuses = zošívačka
+2 N la tétine {tétine} [teˈtin], tétines = cumlík
+3 N le mégot {mégot} [meˈgo], mégots = ohorok
+3 N le bric-à-brac {bric-à-brac} [bʁikabʁaˈk], - = haraburdy
+3 N les vieilleries (f) {vieilleries} [vjɛjˈʁi], PL = haraburdy
+3 N le vaporisateur {vaporisateur} [vapɔʁizaˈtœʁ], vaporisateurs = rozprašovač
+3 N le pulvérisateur {pulvérisateur} [pylveʁizaˈtœʁ], pulvérisateurs = rozprašovač
+3 N la persienne {persienne} [pɛʁˈsjɛn], persiennes = žalúzia
+2 N le store {store} [stɔʁ], stores = žalúzia
+3 N l'anse (f) {anse} [ɑ̃s], anses = uško (držadlo)
+2 N la poignée {poignée} [pwaˈɲe], poignées = uško (držadlo)
 
 # household-actions
 2 N la femme de ménage {femme de ménage} [fam də meˈnaʒ], femmes de ménage = upratovačka
@@ -330,3 +369,5 @@
 1 N la lessive {lessive} [leˈsiv], lessives = pranie
 1 AV confortablement {confortable|ment} [kɔ̃fɔʁtabləˈmɑ̃] = pohodlne
 3 AV inconfortablement {inconfortable|ment} [ɛ̃kɔ̃fɔʁtabləˈmɑ̃] = nepohodlne
+2 V débarrasser {débarrasser} [debaʁaˈse] = odpratať
+2 V verrouiller {verrouiller} [vɛʁuˈje] = zahasprovať

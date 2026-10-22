@@ -124,6 +124,7 @@
 2 V 争夺 {争夺} [zhēngduó] = bojovať
 2 N 缓和 {缓和} [huǎnhé], - = deeskalácia
 3 N 降级 {降级} [jiàngjí], - = deeskalácia
+2 V 征服 {征服} [zhēngfú] = podmaniť si
 
 # army
 2 N 军队 {军队} [jūnduì], 支 = armáda
@@ -204,6 +205,12 @@
 2 N 兵 {兵} [bīng], 名 = vojak
 2 N 陆军 {陆军} [lùjūn], - = armáda
 2 V 面向 {面向} [miànxiàng] = zamerať
+3 N 十字军战士 {十字军战士} [shízìjūnzhànshì], 个 = križiak
+3 N 少尉 {少尉} [shàowèi], 位 = podporučík
+3 N 飞行中队 {飞行中队} [fēixíngzhōngduì], 个 = letka (útvar)
+3 N 保护者 {保护者} [bǎohùzhě], 个 = ochranca
+3 N 侍从 {侍从} [shìcóng], 个 = panoš
+3 V 守望 {守望} [shǒuwàng] = strážiť
 
 # weapons-fortification
 1 N 武器 {武器} [wǔqì], 件 = zbraň
@@ -292,6 +299,33 @@
 2 V 爆 {爆} [bào] = explodovať
 3 AN 手无寸铁 {手无寸铁} [shǒuwúcùntiě] = neozbrojený
 3 AN 非武装 {非武装} [fēiwǔzhuāng] = neozbrojený
+2 N 子弹 {子弹} [zǐdàn], 颗 = guľka (strela)
+3 N 枪管 {枪管} [qiāngguǎn], 根 = hlaveň
+3 N 垛口 {垛口} [duǒkǒu], 个 = cimbúrie
+3 N 长矛 {长矛} [chángmáo], 根 = kopija
+3 N 细剑 {细剑} [xìjiàn], 把 = kord
+3 N 棍棒 {棍棒} [gùnbàng], 根 = kyjak
+3 N 箭袋 {箭袋} [jiàndài], 个 = tulec
+3 N 弩 {弩} [nǔ], 把 = kuša
+3 N 十字弓 {十字弓} [shízìgōng], 把 = kuša
+3 N 戟 {戟} [jǐ], 把 = halapartňa
+3 N 攻城槌 {攻城槌} [gōngchéngchuí], 个 = baranidlo
+3 N 武器装备 {武器装备} [wǔqìzhuāngbèi], - = výzbroj
+3 V 装甲 {装甲} [zhuāngjiǎ] = obrniť
+3 N 冲锋枪 {冲锋枪} [chōngfēngqiāng], 支 = samopal
+3 N 机枪 {机枪} [jīqiāng], 挺 = guľomet
+3 N 喷火器 {喷火器} [pēnhuǒqì], 个 = plameňomet
+3 N 火箭筒 {火箭筒} [huǒjiàntǒng], 个 = raketomet
+3 N 榴弹炮 {榴弹炮} [liúdànpào], 门 = húfnica
+3 N 气枪 {气枪} [qìqiāng], 支 = vzduchovka
+3 N 刀鞘 {刀鞘} [dāoqiào], 个 = pošva (na zbraň)
+3 N 霰弹枪 {霰弹枪} [xiàndànqiāng], 支 = brokovnica
+2 N 猎枪 {猎枪} [lièqiāng], 支 = brokovnica
+3 N 歼击机 {歼击机} [jiānjījī], 架 = stíhačka
+3 N 弹药 {弹药} [dànyào], - = náboj (do zbrane)
+2 N 炮 {炮} [pào], 门 = kanón
+3 N 榴弹 {榴弹} [liúdàn], 枚 = granát
+3 N 手雷 {手雷} [shǒuléi], 枚 = granát
 
 # war
 2 V 抢劫 {抢劫} [qiǎngjié] = plieniť
@@ -303,3 +337,16 @@
 3 N 库房 {库房} [kùfáng], 间 = sklad
 2 N 铅笔芯 {铅笔芯} [qiānbǐxīn], 根 = tuha
 2 V 围 {围} [wéi] = obkľúčiť
+3 N 俘虏 {俘虏} [fúlǔ], 个 = zajatec
+3 V 打光 {打光} [dǎguāng] = vystrieľať
+3 V 击伤 {击伤} [jīshāng] = postreliť
+2 V 打伤 {打伤} [dǎshāng] = postreliť
+3 N 小冲突 {小冲突} [xiǎochōngtū], 场 = šarvátka
+3 N 屠杀 {屠杀} [túshā], 场 = krviprelievanie
+3 N 叛乱 {叛乱} [pànluàn], 场 = vzbura
+3 N 兵变 {兵变} [bīngbiàn], 次 = vzbura
+2 N 优势 {优势} [yōushì], - = prevaha
+3 N 包围 {包围} [bāowéi], - = obkľúčenie
+3 V 跳帮 {跳帮} [tiàobāng] = abordovať
+3 N 入侵者 {入侵者} [rùqīnzhě], 个 = votrelec
+3 N 闯入者 {闯入者} [chuǎngrùzhě], 个 = votrelec

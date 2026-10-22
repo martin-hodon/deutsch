@@ -363,6 +363,19 @@
 2 N el descenso {descenso} [desˈθenso], descensos = úbytok
 2 V agrandarse {agrandarse} [aɣɾanˈdaɾse] = zväčšiť sa
 2 V ampliarse {ampliarse} [amˈpljaɾse], i>í = zväčšiť sa
+3 V culminar {culminar} [kulmiˈnaɾ] = zavŕšiť
+2 V turnarse {turnar|se} [tuɾˈnaɾse] = striedať sa
+3 V reventar {re|ventar} [reβenˈtaɾ], e>ie = prasknúť
+3 V resquebrajar {resquebrajar} [reskeβɾaˈxaɾ] = prasknúť
+2 V estallar {estallar} [estaˈʎaɾ] = prasknúť
+2 N la fuga {fuga} [ˈfuɣa], fugas = únik
+3 V atascarse {atascar|se} [atasˈkaɾse] = viaznuť
+3 V colarse {colar|se} [koˈlaɾse], o>ue = vkradnúť sa
+3 N la chiripa {chiripa} [tʃiˈɾipa], chiripas = šťastná náhoda
+3 V tornarse {tornar|se} [toɾˈnaɾse] = zmeniť sa
+3 V retardar {retardar} [retaɾˈðaɾ] = spomaliť
+3 V atisbar {atisbar} [atisˈβaɾ] = striehnuť
+2 N la ansiedad {ansiedad} [ansjeˈðað], ansiedades = nepokoj
 
 # relations
 1 AN igual {igual} [iˈɣwal] = rovnaký
@@ -370,6 +383,8 @@
 2 N la igualdad {igualdad} [iɣwalˈdað], igualdades = rovnosť
 2 AN indiferente {indiferente} [indifeˈɾente] = ľahostajný
 1 V parecerse {parecerse} [paɾeˈθeɾse], c>zc (a) = podobať sa
+2 V diferenciarse {diferenciarse} [difeɾenˈθjaɾse] (de) = líšiť sa
+3 V diferir {diferir} [difeˈɾiɾ], e>ie (de) = líšiť sa
 3 AN desigual {desigual} [desiˈɣwal] = nerovnaký
 2 AN distinto {distinto} [disˈtinto], distinta = nerovnaký
 2 V compensar {compensar} [kompenˈsaɾ] = vyrovnať
@@ -689,6 +704,13 @@
 2 N el límite inferior {límite inferior} [ˈlimite infeˈɾjoɾ], límites inferiores = dolná hranica
 2 N el desinterés {des|interés} [desinteˈɾes], - = nezáujem
 1 V multiplicar {multiplicar} [multipliˈkaɾ] = násobiť
+2 AN incluido {incluido} [iŋˈklwiðo], incluida = zahrnutý
+3 N el plato fuerte {plato fuerte} [ˈplato ˈfweɾte], platos fuertes = zlatý klinec
+3 V desprender {des|prender} [despɾenˈdeɾ] = oddeliť
+3 N el cogollo {cogollo} [koˈɣoʎo], cogollos = jadro
+2 V encerrar {encerrar} [enθeˈraɾ], e>ie = uzavrieť
+3 N el menester {menester} [menesˈteɾ], menesteres = potreba
+3 AN facultativo {facultativo} [fakultaˈtiβo], facultativa = voliteľný
 
 # transfer-basic-verbs
 1 V dar {dar} [daɾ], irr = dať
@@ -841,6 +863,8 @@
 2 AN encontrado {encontrado} [eŋkonˈtɾaðo], encontrada = nájdený
 3 AN deficitario {deficitario} [defiθiˈtaɾjo], deficitaria = stratový
 2 AN no rentable {no rentable} [no renˈtaβle] = stratový
+3 N la retirada {retirada} [reˈtiɾaða], retiradas = odobratie
+3 V aposentar {aposentar} [aposenˈtaɾ] = ubytovať
 
 # action-and-use
 1 N la acción {acción} [akˈθjon], acciones = akcia (činnosť)
@@ -1378,6 +1402,11 @@
 3 V desembalar {des|embalar} [desemβaˈlaɾ] = rozbaliť
 2 V alejarse {alejarse} [aleˈxaɾse] (de) = vzdialiť sa
 2 V apartarse {apartarse} [apaɾˈtaɾse] (de) = vzdialiť sa
+2 V proceder {proceder} [pɾoθeˈðeɾ] = postupovať
+3 V conjurar {conjurar} [koŋxuˈɾaɾ] = odvrátiť
+2 V revolver {re|volver} [reβolˈβeɾ], o>ue, revuelto = obrátiť
+3 V avecinarse {avecinar|se} [aβeθiˈnaɾse] = priblížiť sa
+3 V embadurnar {embadurnar} [embaðuɾˈnaɾ] = pošpiniť
 
 # change
 2 V manifestar {manifestar} [manifesˈtaɾ], e>ie = prejaviť
@@ -1410,6 +1439,18 @@
 2 V atar {atar} [aˈtaɾ] = obviazať
 2 V ablandarse {ablandarse} [aβlanˈdaɾse] = zmäknúť
 3 V reblandecerse {reblandecerse} [reβlandeˈθeɾse], c>zc = zmäknúť
+3 N la modificación {modificación} [moðifikaˈθjon], modificaciones = pozmenenie
+2 N la creación {creación} [kɾeaˈθjon], creaciones = stvorenie
+2 V desintegrarse {desintegrar|se} [desinteˈɣɾaɾse] = rozpadať sa
+1 V romper {romper} [romˈpeɾ], roto = zlomiť
+2 V rasgar {rasgar} [razˈɣaɾ] = natrhnúť
+3 V arrugar {arrugar} [aruˈɣaɾ] = krčiť
+3 V estrujar {estrujar} [estɾuˈxaɾ] = krčiť
+3 V desabrochar {des|abrochar} [desaβɾoˈtʃaɾ] = odopnúť
+3 V abrochar {abrochar} [aβɾoˈtʃaɾ] = pripútať
+3 N la descomposición {des|composición} [deskomposiˈθjon], descomposiciones = rozklad
+3 V afear {afear} [afeˈaɾ] = zohyzdiť
+3 AN estancado {estancado} [estaŋˈkaðo], estancada = stagnujúci
 
 # more
 1 AN otro {otro} [ˈotɾo], otra = ďalší

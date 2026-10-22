@@ -138,6 +138,20 @@
 3 V promovieren {promovieren} [pʁomoˈviːʁən], hat (zu D) = získať doktorát, promovať
 3 V spicken {spicken} [ˈʃpɪkən], hat (bei D) = odpisovať, podvádzať
 3 V aussortieren {aus·sortieren} [ˈaʊszɔʁtiːʁən], hat (A) = vytriediť, vyradiť
+2 N der Spitzer {Spitzer} [ˈʃpɪtsɐ], Spitzer = strúhadlo na ceruzky
+3 N der Bleistiftspitzer {Bleistift|spitzer} [ˈblaɪʃtɪftˌʃpɪtsɐ], Bleistiftspitzer = strúhadlo na ceruzky
+2 N die Schulbank {Schul|bank} [ˈʃuːlbaŋk], Schulbänke = školská lavica
+3 N der Zirkel {Zirkel} [ˈtsɪʁkl̩], Zirkel = kružidlo
+3 V nachsitzen {nach·sitzen} [ˈnaːxzɪtsən], sitzt nach/saß nach/nachgesessen [zɪtst naːx/zaːs naːx/ˈnaːxɡəzɛsən], hat = zostať po škole
+3 N das Lesebuch {Lese|buch} [ˈleːzəbuːx], Lesebücher = čítanka
+3 V auslesen {aus·lesen} [ˈaʊsleːzən], liest aus/las aus/ausgelesen [liːst aʊs/laːs aʊs/ˈaʊsɡəleːzən], hat (A) = vytriediť
+3 V fortbilden {fort·bilden} [ˈfɔʁtbɪldn̩], hat (A, sich A) = školiť
+3 V weiterbilden {weiter·bilden} [ˈvaɪtɐbɪldn̩], hat (A, sich A) = školiť
+2 N die Klassenarbeit {Klassen|arbeit} [ˈklasn̩ʔaʁbaɪt], Klassenarbeiten = písomná práca
+2 N der Lehrgang {Lehr|gang} [ˈleːɐ̯ɡaŋ], Lehrgänge = kurz
+3 N der Rektor {Rektor} [ˈʁɛktoːɐ̯], Rektoren = riaditeľ školy
+3 V beibringen {bei·bringen} [ˈbaɪbʁɪŋən], bringt bei/brachte bei/beigebracht [bʁɪŋt baɪ/ˈbʁaxtə baɪ/ˈbaɪɡəbʁaxt], hat (D A) = učiť
+3 N der Pauker {Pauker} [ˈpaʊkɐ], Pauker = učiteľ
 
 # knowledge-science
 2 N die Wissenschaft {Wissen|schaft} [ˈvɪsənʃaft], Wissenschaften = veda
@@ -284,3 +298,6 @@
 - 3 V archivieren {archivieren} [aʁçiˈviːʁən], hat (A) = archivovať
 2 N das Institut {Institut} [ɪnstiˈtuːt], Institute = ústav, inštitút
 2 N die Tabelle {Tabelle} [taˈbɛlə], Tabellen = tabuľka
+2 N der Band {Band} [bant], Bände = diel (knihy)
+2 N der Bogen {Bogen} [ˈboːɡn̩], Bögen = hárok
+3 N das Reagenzglas {Reagenz|glas} [ʁeaˈɡɛntsɡlaːs], Reagenzgläser = skúmavka

@@ -81,6 +81,7 @@
 1 AV łatwo {łatwo} [ˈwatfɔ] = ľahko
 3 AV stromo {stromo} [ˈstrɔmɔ] = strmo
 2 AV ledwo {ledwo} [ˈlɛdvɔ] = tesne
+3 AN patykowaty {patykowaty} [patɨkɔˈvatɨ] = vytiahnutý
 
 # evaluation
 1 AN dobry {dobry} [ˈdɔbrɨ], lepszy = dobrý
@@ -785,6 +786,15 @@
 2 AN niedostępny {nie|dostępny} [ɲɛdɔˈstɛmpnɨ] = neprístupný
 2 N niedoskonałość {nie|doskonałość} [ɲɛdɔskɔˈnawɔɕtɕ], ż, niedoskonałości = nedokonalosť
 3 N złożoność {złożoność} [zwɔˈʐɔnɔɕtɕ], ż, - = zložitosť
+2 AN majestatyczny {majestatyczny} [majɛstaˈtɨtʂnɨ] = majestátny
+3 N uprzywilejowanie {u|przywilejowanie} [upʂɨvilɛjɔˈvaɲɛ], n, uprzywilejowania = zvýhodnenie
+2 AN delikatny {delikatny} [dɛliˈkatnɨ] = chúlostivý
+2 AN drażliwy {drażliwy} [draʐˈlivɨ] = chúlostivý
+2 AN rzadki {rzadki} [ˈʐatki] = vzácny
+2 AN cenny {cenny} [ˈtsɛnnɨ] = vzácny
+2 AN korzystny {korzystny} [kɔˈʐɨstnɨ] = prospešný
+2 AN spory {spory} [ˈspɔrɨ] = značný
+3 AN klawy {klawy} [ˈklavɨ] = skvelý
 
 # state-properties
 1 AN nowy {nowy} [ˈnɔvɨ] = nový
@@ -1416,6 +1426,18 @@
 2 AV jak najmniej {jak najmniej} [jak ˈnajmɲɛj] = čo najmenej
 2 V wzmacniać się {wz|macniać się} [ˈvzmatsɲatɕ ɕɛ], wzmocnić się = silnieť
 2 V silnieć {silnieć} [ˈɕilɲɛtɕ], - = silnieť
+3 AN sprężony {sprężony} [sprɛˈʐɔnɨ] = stlačený
+3 N zranialność {zranialność} [zraˈɲalnɔɕtɕ], ż, zranialności = zraniteľnosť
+2 AN uszkodzony {uszkodzony} [uʂkɔˈdzɔnɨ] = poškodený
+3 AN rozklekotany {roz|klekotany} [rɔzklɛkɔˈtanɨ] = rozheganý
+2 AN związany {z|wiązany} [zvʲɔ̃ˈzanɨ] (z + N) = zviazaný
+3 AN zbutwiały {zbutwiały} [zbutˈfʲawɨ] = spráchnivený
+3 AN szczeciniasty {szczeciniasty} [ʂtʂɛtɕiˈɲastɨ] = štetinatý
+2 AN zużyty {zużyty} [zuˈʐɨtɨ] = opotrebovaný
+2 AN przemoczony {prze|moczony} [pʂɛmɔˈtʂɔnɨ] = premoknutý
+2 AN brakujący {brakujący} [brakuˈjɔntsɨ] (D) = chýbajúci
+2 AN pełen {pełen} [ˈpɛwɛn] (D) = plný
+2 AN paskudny {paskudny} [pasˈkudnɨ] = odporný
 
 # corpus-adjectives
 2 AN przemyślany {przemyślany} [pʂɛmɨˈɕlanɨ] = premyslený
@@ -1598,6 +1620,7 @@
 3 AV żałośnie {żałośnie} [ʐaˈwɔɕɲɛ] = žalostne
 3 AV przygnębiająco {przygnębiająco} [pʂɨɡnɛmbʲaˈjɔntsɔ] = skľučujúco
 2 AV niespodziewanie {niespodziewanie} [ɲɛspɔdʑɛˈvaɲɛ] = nečakane
+2 AN wymowny {wymowny} [vɨˈmɔvnɨ] = veľavravný
 
 # quality
 2 AN szkodliwy dla środowiska {szkodliwy dla środowiska} [ʂkɔˈdlivɨ dla ɕrɔdɔˈvʲiska] = škodlivý pre životné prostredie
@@ -1659,6 +1682,20 @@
 3 AV ergonomicznie {ergonomicznie} [ɛrɡɔnɔˈmʲitʂɲɛ] = ergonomicky
 3 AV niepowstrzymanie {niepowstrzymanie} [ɲɛpɔfstʂɨˈmaɲɛ] = nezadržateľne
 3 AV nieskutecznie {nieskutecznie} [ɲɛskuˈtɛtʂɲɛ] = neúčinne
+3 AN kompatybilny {kompatybilny} [kɔmpatɨˈbʲilnɨ] (z + N) = zlučiteľný
+3 AV w zarysie {w zarysie} [v zaˈrɨɕɛ] = v náznakoch
+2 AN swobodny {swobodny} [sfɔˈbɔdnɨ] = ležérny
+2 AN niewymagający {nie|wymagający} [ɲɛvɨmaɡaˈjɔntsɨ] = nenáročný
+2 N wdzięk {wdzięk} [vdʑɛŋk], m, wdzięki = pôvab
+2 N urok {urok} [ˈurɔk], m, uroki = pôvab
+3 AN uwodzicielski {uwodzicielski} [uvɔdʑiˈtɕɛlski] = zvodný
+2 AN schludny {schludny} [ˈsxludnɨ] = úhľadný
+3 AN wytarty {wytarty} [vɨˈtartɨ] = ošarpaný
+3 AN zastępowalny {zastępowalny} [zastɛmpɔˈvalnɨ] = nahraditeľný
+2 AN podarty {podarty} [pɔˈdartɨ] = roztrhaný
+3 N daremność {daremność} [daˈrɛmnɔɕtɕ], ż, daremności = zbytočnosť
+3 N zbędność {zbędność} [ˈzbɛndnɔɕtɕ], ż, zbędności = zbytočnosť
+2 AN nieprawdziwy {nie|prawdziwy} [ɲɛpravˈdʑivɨ] = nepravdivý
 
 # more
 2 AV niewiarygodnie {niewiarygodnie} [ɲɛvʲarɨˈɡɔdɲɛ] = neuveriteľne

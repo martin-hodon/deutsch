@@ -10,6 +10,10 @@ CON ako aj
 CON ako… tak aj
 CON ani
 CON respektíve
+CON jednak… jednak
+CON síce… ale
+CON niekedy… niekedy
+CON sčasti… sčasti
 
 # subordinating
 CON že
@@ -33,6 +37,8 @@ CON skôr než
 CON potom čo
 CON tým že
 PHR aby
+CON tým skôr že
+CON tak… ako
 
 # connecting-adverbs
 AV preto

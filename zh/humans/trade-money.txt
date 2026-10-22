@@ -94,6 +94,9 @@
 1 V 借 {借} [jiè] = požičať si
 2 V 借钱 {借|钱} [jièqián] = požičať si
 3 V 借入 {借入} [jièrù] = požičať si
+3 V 敛财 {敛|财} [liǎncái] = nahrabať
+3 V 捞钱 {捞|钱} [lāoqián] = nahrabať
+3 N 欠款 {欠款} [qiànkuǎn], 笔 = dlhy
 
 # buying-selling
 1 V 买 {买} [mǎi] = kúpiť
@@ -240,6 +243,7 @@
 2 V 销售 {销售} [xiāoshòu] = predať
 3 N 提价 {提价} [tíjià], 次 = zdraženie
 2 V 退 {退} [tuì] = vrátiť
+1 V 还 {还} [huán] = vrátiť
 1 V 付 {付} [fù] = zaplatiť
 2 N 账 {账} [zhàng], 笔 = účet (na zaplatenie)
 3 V 耗 {耗} [hào] = spotrebovať
@@ -259,6 +263,12 @@
 2 V 出售 {出售} [chūshòu] = predávať
 2 V 销售 {销售} [xiāoshòu] = predávať
 1 V 卖东西 {卖|东西} [màidōngxi] = predávať
+2 AN 优惠 {优惠} [yōuhuì] = zvýhodnený
+3 N 采购员 {采购员} [cǎigòuyuán], 个 = nákupca
+2 N 买家 {买家} [mǎijiā], 个 = nákupca
+3 N 滞销品 {滞销品} [zhìxiāopǐn], 件 = ležiak (tovar)
+2 V 讲价 {讲|价} [jiǎngjià] = zjednávať
+2 V 砍价 {砍|价} [kǎnjià] = zjednávať
 
 # places-of-trade
 1 N 市场 {市场} [shìchǎng], 个 = trh
@@ -289,6 +299,7 @@
 2 N 折扣店 {折扣店} [zhékòudiàn], 家 = diskont
 2 AV 坚定地 {坚定地} [jiāndìngde] = neochvejne
 3 N 摊 {摊} [tān], 个 = stánok
+2 N 玩具店 {玩具店} [wánjùdiàn], 家 = hračkárstvo
 
 # economy-finance
 2 N 贸易 {贸易} [màoyì], - = obchodovanie
@@ -538,6 +549,12 @@
 2 N 买家 {买家} [mǎijiā], 位 = odberateľ
 2 N 客户 {客户} [kèhù], 个 = odberateľ
 3 N 采购商 {采购商} [cǎigòushāng], 家 = odberateľ
+3 N 宽限 {宽限} [kuānxiàn], - = odklad
+3 N 避税天堂 {避税天堂} [bìshuìtiāntáng], 个 = daňový raj
+3 N 车损险 {车损险} [chēsǔnxiǎn], 份 = havarijné poistenie
+2 N 保险公司 {保险公司} [bǎoxiǎngōngsī], 家 = poisťovňa
+3 N 金库 {金库} [jīnkù], 个 = trezor
+3 N 铺子 {铺子} [pùzi], 家 = obchod
 
 # trade
 3 V 授权 {授|权} [shòuquán] = licencovať

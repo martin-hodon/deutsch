@@ -72,6 +72,11 @@
 3 N la réserve naturelle {réserve naturelle} [ʁezɛʁv natyˈʁɛl], réserves naturelles = prírodná rezervácia
 2 N le pied {pied} [pje], pieds = úpätie
 3 N le piémont {piémont} [pjeˈmɔ̃], piémonts = úpätie
+3 N le désert {désert} [deˈzɛʁ], déserts = pustatina
+2 N la clairière {clairière} [klɛˈʁjɛʁ], clairières = čistina
+3 N l'isthme (m) {isthme} [ism], isthmes = pevninská šija
+2 N le col {col} [kɔl], cols = priesmyk
+3 N l'abysse (m) {abysse} [aˈbis], abysses = priepasť (v teréne)
 
 # surface-materials
 2 N le rocher {rocher} [ʁɔˈʃe], rochers = skala
@@ -98,6 +103,18 @@
 2 N le ton {ton} [tɔ̃], tons = tón
 3 N le gravier {gravier} [ɡʁaˈvje], graviers = štrk
 3 N la lave {lave} [lav], laves = láva
+3 N le mica {mica} [miˈka], micas = sľuda
+2 N l'émeraude (f) {émeraude} [emˈʁod], émeraudes = smaragd
+3 N la scorie {scorie} [skɔˈʁi], scories = škvara
+3 N le mâchefer {mâchefer} [mɑʃˈfɛʁ], mâchefers = škvara
+3 N la gemme {gemme} [ʒɛm], gemmes = drahokam
+2 N la pierre précieuse {pierre précieuse} [pjɛʁ pʁeˈsjøz], pierres précieuses = drahokam
+3 N l'ambre (m) {ambre} [ɑ̃bʁ], ambres = jantár
+3 N la tourbe {tourbe} [tuʁb], tourbes = rašelina
+3 N le bourbier {bourbier} [buʁˈbje], bourbiers = bahnisko
+3 N le calcaire {calcaire} [kalˈkɛʁ], calcaires = vápenec
+3 N l'albâtre (m) {albâtre} [alˈbɑtʁ], albâtres = alabaster
+3 N le grès {grès} [ɡʁɛ], - = pieskovec
 
 # geo-events
 2 N l'éruption (f) {éruption} [eʁypˈsjɔ̃], éruptions = vypuknutie
@@ -123,3 +140,6 @@
 1 V trembler {trembler} [tʁɑ̃ˈble] = triasť sa
 1 N le sol {sol} [sɔl], sols = podlaha
 2 N le plancher {plancher} [plɑ̃ˈʃe], planchers = podlaha
+2 N le méridien {méridien} [meʁiˈdjɛ̃], méridiens = poludník
+3 N le tropique {tropique} [tʁɔˈpik], tropiques = obratník
+3 N le cercle polaire {cercle polaire} [sɛʁkl pɔˈlɛʁ], cercles polaires = polárna kružnica

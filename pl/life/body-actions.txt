@@ -34,6 +34,20 @@
 2 V rozwalać się {rozwalać się} [rɔzˈvalatɕ ɕɛ], rozwalić się = rozvaliť sa
 2 PHR chodzić na palcach {chodzić na palcach} [ˈxɔdʑitɕ na ˈpaltsax] = chodiť po špičkách
 2 V oddalać się {oddalać się} [ɔdˈdalatɕ ɕɛ], oddalić się = vzďaľovať sa
+3 V klękać {klękać} [ˈklɛŋkatɕ], uklęknąć = kľaknúť si
+3 N ukłon {ukłon} [ˈukwɔn], m, ukłony = poklona
+3 AV na stojąco {na stojąco} [na stɔˈjɔntsɔ] = postojačky
+3 AV na siedząco {na siedząco} [na ɕɛˈdzɔntsɔ] = posediačky
+3 AV na leżąco {na leżąco} [na lɛˈʐɔntsɔ] = poležiačky
+3 V schylać się {schylać się} [ˈsxɨlatɕ ɕɛ], schylić się = zohnúť sa
+3 V kłaniać się {kłaniać się} [ˈkwaɲatɕ ɕɛ], ukłonić się (C) = pokloniť sa
+3 V przeciągać się {prze|ciągać się} [pʂɛˈtɕɔŋɡatɕ ɕɛ], przeciągnąć się = vystierať sa
+3 AV okrakiem {okrakiem} [ɔˈkrakʲɛm] = obkročmo
+3 V leżeć na brzuchu {leżeć na brzuchu} [ˈlɛʐɛtɕ na ˈbʐuxu], - = ležať na bruchu
+3 PHR ze spuszczoną głową {ze spuszczoną głową} [zɛ spuˈʂtʂɔnɔ̃ ˈɡwɔvɔ̃] = so sklonenou hlavou
+3 AN skulony {skulony} [skuˈlɔnɨ] = skrčený
+3 AN leżący {leżący} [lɛˈʐɔntsɨ] = ležiaci
+3 V przykucnąć {przy|kucnąć} [pʂɨˈkutsnɔɲtɕ], dk = skrčiť sa
 
 # locomotion
 1 V skakać {skakać} [ˈskakatɕ], skoczyć = skákať
@@ -114,6 +128,23 @@
 2 V toczyć {toczyć} [ˈtɔtʂɨtɕ], potoczyć (B) = váľať
 3 V tarzać {tarzać} [ˈtaʐatɕ], - = váľať
 2 V przylatywać {przylatywać} [pʂɨlaˈtɨvatɕ], przylecieć = priletieť
+3 V fikać koziołki {fikać koziołki} [ˈfʲikatɕ kɔˈʑɔwki], fiknąć koziołka = robiť kotrmelce
+3 V pędzić {pędzić} [ˈpɛɲdʑitɕ], - = uháňať
+3 V wbiegać {w|biegać} [ˈvbʲɛɡatɕ], wbiec (do + D) = vbehnúť
+3 V rzucać się {rzucać się} [ˈʐutsatɕ ɕɛ], rzucić się (na + B) = vrhnúť sa
+3 V kołysać się {kołysać się} [kɔˈwɨsatɕ ɕɛ], zakołysać się = knísať sa
+3 V koziołkować {koziołkować} [kɔʑɔwˈkɔvatɕ], - = prekoprcnúť sa
+3 V dreptać {dreptać} [ˈdrɛptatɕ], - = cupkať
+3 V wiercić się {wiercić się} [ˈvʲɛrtɕitɕ ɕɛ], - = vrtieť sa
+2 V wsiadać {w|siadać} [ˈfɕadatɕ], wsiąść (na + B) = nasadnúť
+3 V wzlatywać {wz|latywać} [vzlaˈtɨvatɕ], wzlecieć = vzlietnuť
+3 V wylatywać {wy|latywać} [vɨlaˈtɨvatɕ], wylecieć = vyletieť
+3 V oblatywać {ob|latywać} [ɔblaˈtɨvatɕ], oblecieć (B) = obletieť
+3 V wyrywać się {wy|rywać się} [vɨˈrɨvatɕ ɕɛ], wyrwać się (z + D) = vydrať sa
+3 V tupać {tupać} [ˈtupatɕ], tupnąć (N) = dupať
+3 V walić {walić} [ˈvalitɕ], - = valiť sa
+2 N biegacz {biegacz} [ˈbʲɛɡatʂ], m, biegacze = bežec
+3 V kuśtykać {kuśtykać} [kuɕˈtɨkatɕ], - = krívať
 
 # manipulation
 1 V trzymać {trzymać} [ˈtʂɨmatɕ], potrzymać (B) = držať
@@ -349,3 +380,28 @@
 3 AV imponująco {imponująco} [impɔnuˈjɔntsɔ] = pôsobivo
 2 V zdejmować {zdejmować} [zdɛjˈmɔvatɕ], zdjąć (B) = zvesiť
 1 V opuszczać {opuszczać} [ɔˈpuʂtʂatɕ], opuścić (B) = spúšťať
+3 V przykrywać {przy|krywać} [pʂɨˈkrɨvatɕ], przykryć (B) = priklopiť
+3 V odwracać {od|wracać} [ɔdˈvratsatɕ], odwrócić (B) = preklopiť
+3 V merdać {merdać} [ˈmɛrdatɕ], merdnąć (N) = vrtieť
+3 V nadziewać {na|dziewać} [naˈdʑɛvatɕ], nadziać (na + B) = napichnúť
+3 V przekłuwać {prze|kłuwać} [pʂɛˈkwuvatɕ], przekłuć (B) = prepichnúť
+3 V wciskać {w|ciskać} [ˈftɕiskatɕ], wcisnąć (B) = vtlačiť
+3 V grzebać {grzebać} [ˈɡʐɛbatɕ], - = hrabať
+3 V zaciskać {za|ciskać} [zaˈtɕiskatɕ], zacisnąć (B) = zažmúriť
+3 N lanie {lanie} [ˈlaɲɛ], n, lania = výprask
+3 V kląskać {kląskać} [ˈklɔ̃skatɕ], kląsnąć (N) = mľasknúť jazykom
+3 V wystawiać {wy|stawiać} [vɨˈstavʲatɕ], wystawić (B) = vyplaziť
+3 V wczepiać się {wczepiać się} [ˈftʂɛpʲjatɕ ɕɛ], wczepić się (w + B) = zadrapiť
+3 V macać {macać} [ˈmatsatɕ], pomacać (B) = hmatať
+3 V wymykać się {wy|mykać się} [vɨˈmɨkatɕ ɕɛ], wymknąć się (z + D) = vykĺznuť
+3 V dłubać {dłubać} [ˈdwubatɕ], - (w + Ms) = špárať
+3 V łomotać {łomotać} [wɔˈmɔtatɕ], załomotać (w + B) = búchať
+3 V zamachiwać się {za|machiwać się} [zamaˈxivatɕ ɕɛ], zamachnąć się (na + B) = napriahnuť sa
+3 N szturchnięcie {szturchnięcie} [ʂturxˈɲɛɲtɕɛ], n, szturchnięcia = postrčenie
+3 V kneblować {kneblować} [knɛˈblɔvatɕ], zakneblować (B) = zapchať ústa
+3 V rozdeptywać {roz|deptywać} [rɔzdɛpˈtɨvatɕ], rozdeptać (B) = rozšliapnuť
+3 V podwijać {pod|wijać} [pɔdˈvʲijatɕ], podwinąć (B) = vyhrnúť
+3 V trzaskać {trzaskać} [ˈtʂaskatɕ], trzasnąć (N) = tresnúť
+3 N prztyczek {prztyczek} [ˈpʂtɨtʂɛk], m, prztyczki = cvrnknutie
+3 V nanosić {na|nosić} [naˈnɔɕitɕ], nanieść (B) = naniesť
+3 V poturbować {po|turbować} [pɔturˈbɔvatɕ], dk (B) = zbiť

@@ -18,6 +18,10 @@
 3 CON względnie {względnie} [ˈvzɡlɛndɲɛ] = respektíve
 2 CON bądź {bądź} [bɔɲtɕ] = respektíve
 2 CON zaś {zaś} [zaɕ] = a
+2 CON z jednej strony… z drugiej strony {z jednej strony… z drugiej strony} [z ˈjɛdnɛj ˈstrɔnɨ z ˈdruɡɛj ˈstrɔnɨ] = jednak… jednak
+2 CON wprawdzie… ale {wprawdzie… ale} [ˈfpravdʑɛ ˈalɛ] = síce… ale
+2 CON czasem… czasem {czasem… czasem} [ˈtʂasɛm ˈtʂasɛm] = niekedy… niekedy
+2 CON po części… po części {po części… po części} [pɔ ˈtʂɛ̃ɕtɕi pɔ ˈtʂɛ̃ɕtɕi] = sčasti… sčasti
 
 # subordinating
 1 CON że {że} [ʐɛ] = že
@@ -54,6 +58,8 @@
 2 PHR aby {aby} [ˈabɨ] = aby
 1 CON jako {jako} [ˈjakɔ] = ako
 3 CON iż {iż} [iʂ] = že
+2 CON tym bardziej że {tym bardziej że} [tɨm ˈbardʑɛj ʐɛ] = tým skôr že
+1 CON tak… jak {tak… jak} [tak jak] = tak… ako
 
 # connecting-adverbs
 1 AV dlatego {dlatego} [dlaˈtɛɡɔ] = preto

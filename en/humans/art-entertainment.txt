@@ -57,6 +57,12 @@
 3 V curate {curate} [kjʊəˈreɪt] = kurátorovať
 3 V outline {outline} [ˈaʊtlaɪn] (sth) = načrtnúť
 2 N ugliness {ugli|ness} [ˈʌɡlɪnəs], - = škaredosť
+2 V scribble {scribble} [ˈskrɪbl] = čmárať
+3 V doodle {doodle} [ˈduːdl] = čmárať
+3 N scribble {scribble} [ˈskrɪbl], scribbles = čmáranica
+3 N doodle {doodle} [ˈduːdl], doodles = čmáranica
+2 N decoration {decoration} [ˌdekəˈreɪʃn], decorations = ozdoba
+3 N ornament {ornament} [ˈɔːnəmənt], ornaments = ozdoba
 # music
 1 N music {music} [ˈmjuːzɪk], - = hudba
 1 N musician {music|ian} [mjuˈzɪʃən], musicians = hudobník
@@ -119,6 +125,8 @@
 1 N song {song} [sɒŋ], songs = pieseň
 3 N rapper {rapper} [ˈræpə], rappers = raper
 2 N beat {beat} [biːt], beats = rytmus
+3 AN melodious {melodious} [məˈləʊdiəs] = melodický
+3 AN tuneful {tune|ful} [ˈtjuːnfl] = melodický
 # performance-literature
 2 N theatre {theatre} [ˈθɪətə], theatres = divadlo
 1 N play {play} [pleɪ], plays = divadelná hra
@@ -211,6 +219,14 @@
 3 V synchronise {synchron|ise} [ˈsɪŋkrənaɪz] = synchronizovať
 3 AN autobiographical {auto|biograph|ical} [ɔːtəbaɪəˈɡræfɪkəl] = autobiografický
 3 N final performance {final performance} [ˌfaɪnəl pəˈfɔːməns], final performances = derniéra
+3 N auditorium {auditorium} [ˌɔːdɪˈtɔːriəm], auditoria/auditoriums = divácka sála
+2 N fable {fable} [ˈfeɪbl], fables = bájka
+3 N jester {jester} [ˈdʒestə], jesters = šašo
+3 N buffoon {buffoon} [bəˈfuːn], buffoons = šašo
+3 N Smurf {Smurf} [smɜːf], Smurfs = šmolko
+2 N podium {podium} [ˈpəʊdiəm], podiums/podia = pódium
+3 N dais {dais} [ˈdeɪɪs], daises = pódium
+2 N fiction {fiction} [ˈfɪkʃn], - = fikcia
 # games-sport
 1 N game {game} [ɡeɪm], games = hra
 1 V play {play} [pleɪ] (with, against) = hrať
@@ -394,6 +410,32 @@
 2 V exercise {exercise} [ˈeksəsaɪz] = cvičiť (gymnastika)
 2 N amateur {amateur} [ˈæmətə], amateurs = amatér
 1 V lose {lose} [luːz], lost/lost = prehrať (zápas)
+2 N cycling {cycl|ing} [ˈsaɪklɪŋ], - = cyklistika
+3 N darts {darts} [dɑːts], PL = šípky (hra)
+2 N swing {swing} [swɪŋ], swings = hojdačka
+3 N pinball machine {pinball machine} [ˈpɪnbɔːl məˌʃiːn], pinball machines = herný automat
+2 N mountaineering {mountain|eer|ing} [ˌmaʊntɪˈnɪərɪŋ], - = horolezectvo
+3 N climbing {climb|ing} [ˈklaɪmɪŋ], - = horolezectvo
+2 N weightlifting {weight|lift|ing} [ˈweɪtˌlɪftɪŋ], - = vzpieranie
+2 V do sport {do·sport} [duː ˈspɔːt], did sport/done sport = športovať
+2 V exercise {exercise} [ˈeksəsaɪz] = športovať
+2 N bat {bat} [bæt], bats = pálka
+3 N racket {racket} [ˈrækɪt], rackets = pálka
+2 N skipping rope {skipping rope} [ˈskɪpɪŋ ˌrəʊp], skipping ropes = švihadlo
+2 N dumbbell {dumb|bell} [ˈdʌmbel], dumbbells = činka
+3 N barbell {bar|bell} [ˈbɑːbel], barbells = činka
+2 N mat {mat} [mæt], mats = žinenka
+3 N exercise mat {exercise mat} [ˈeksəsaɪz ˌmæt], exercise mats = žinenka
+3 N rattle {rattle} [ˈrætl], rattles = hrkálka
+2 N ace {ace} [eɪs], aces = eso
+3 N jack {jack} [dʒæk], jacks = dolník
+3 N knave {knave} [neɪv], knaves = dolník
+2 N chessboard {chess|board} [ˈtʃesbɔːd], chessboards = šachovnica
+3 N knight {knight} [naɪt], knights = šachový jazdec
+3 N stilt {stilt} [stɪlt], stilts = chodúľ
+3 N pawn {pawn} [pɔːn], pawns = pešiak
+3 N bishop {bishop} [ˈbɪʃəp], bishops = šachový strelec
+3 N puck {puck} [pʌk], pucks = hokejový puk
 # corpus-verbs
 3 V play off {play·off} [pleɪ ˈɒf] (sb against sb) = poštvať proti sebe
 3 V deflect {deflect} [dɪˈflekt] (sth) = odkloniť

@@ -145,6 +145,14 @@
 3 AV cupidement {cupide|ment} [kypidˈmɑ̃] = chamtivo
 3 AV avidement {avide|ment} [avidˈmɑ̃] = dychtivo
 2 N la générosité {générosité} [ʒeneʁɔziˈte], générosités = štedrosť
+2 V tarder {tarder} [taʁˈde] = otáľať
+1 AN d'accord {d'accord} [daˈkɔʁ] (avec) = uzrozumený
+2 V insister {insister} [ɛ̃sisˈte] (sur) = trvať na
+3 V s'armer {s'armer} [saʁˈme] = obrniť sa
+2 V résister {résister} [ʁezisˈte] (à) = odolať
+2 V se priver {se priver} [sə pʁiˈve] (de) = odoprieť si
+3 V rendre la pareille {rendre la pareille} [ʁɑ̃dʁ la paˈʁɛj] = odplatiť
+3 AN avide {avide} [aˈvid] (de) = žiadostivý
 
 # character-traits
 1 N le caractère {caractère} [kaʁakˈtɛʁ], caractères = charakter
@@ -387,6 +395,31 @@
 2 AN immoral {im|moral} [imɔˈʁal], immorale, immoraux/immorales = nemorálny
 2 AN indulgent {indulgent} [ɛ̃dylˈʒɑ̃], indulgente = zhovievavý
 3 V se déshabituer {se dés|habituer} [sə dezabiˈtɥe] (de) = odvyknúť si
+2 N le caprice {caprice} [kaˈpʁis], caprices = rozmar
+3 AN dépensier {dépensier} [depɑ̃ˈsje], dépensière = márnotratný
+3 AN prodigue {prodigue} [pʁɔˈdiɡ] = márnotratný
+3 N le gaspilleur {gaspilleur} [ɡaspiˈjœʁ], gaspilleurs = márnotratník
+2 AN généreux {généreux} [ʒeneˈʁø], généreuse, généreux/généreuses = štedrý
+3 V lésiner {lésiner} [leziˈne] (sur) = žgrliť
+3 AN docile {docile} [dɔˈsil] = poddajný
+2 N l'indifférence (f) {in|différence} [ɛ̃difeˈʁɑ̃s], - = ľahostajnosť
+3 N la soif de vengeance {soif de vengeance} [swaf də vɑ̃ˈʒɑ̃s], - = pomstychtivosť
+2 AN gâté {gâté} [ɡɑˈte], gâtée = rozmaznaný
+3 AN vindicatif {vindicatif} [vɛ̃dikaˈtif], vindicative = pomstychtivý
+3 N la prévoyance {pré|voyance} [pʁevwaˈjɑ̃s], - = prezieravosť
+3 N la prévenance {pré|venance} [pʁevəˈnɑ̃s], prévenances = ohľaduplnosť
+3 N le sans-gêne {sans-|gêne} [sɑ̃ˈʒɛn], sans-gêne = bezohľadnosť
+3 N la bravoure {bravoure} [bʁaˈvuʁ], - = statočnosť
+3 N l'audace (f) {audace} [oˈdas], audaces = trúfalosť
+2 N l'héroïsme (m) {héroïsme} [eʁɔˈism], - = hrdinstvo
+3 AN dominateur {dominateur} [dɔminaˈtœʁ], dominatrice = panovačný
+2 AN câlin {câlin} [kɑˈlɛ̃], câline = maznavý
+3 N la prétention {prétention} [pʁetɑ̃ˈsjɔ̃], prétentions = namyslenosť
+3 N la feinte {feinte} [fɛ̃t], feintes = pretvárka
+2 V avoir l'habitude de {avoir l'habitude de} [avwaʁ labiˈtyd də], irr, eu = zvyknúť
+3 AN susceptible {susceptible} [sysɛpˈtibl] = nedotklivý
+2 AN méfiant {méfiant} [meˈfjɑ̃], méfiante = nedôverčivý
+3 AN impertinent {impertinent} [ɛ̃pɛʁtiˈnɑ̃], impertinente = drzý
 
 # character
 2 AN lâche {lâche} [lɑʃ] = zbabelý
@@ -406,6 +439,45 @@
 3 AV puérilement {puérile|ment} [pɥeʁilˈmɑ̃] = detinsky
 2 AV discrètement {discrète|ment} [diskʁɛtˈmɑ̃] = diskrétne
 2 AV ouvertement {ouverte|ment} [uvɛʁtəˈmɑ̃] = neskrývane
+3 AN pervers {pervers} [pɛʁˈvɛʁ], perverse = úchylný
+3 AN furtif {furtif} [fyʁˈtif], furtive = kradmý
+2 N l'excès (m) {excès} [ɛkˈsɛ], excès = výstrednosť
+3 AN effréné {effréné} [efʁeˈne], effrénée = bezuzdný
+3 AN pointilleux {pointilleux} [pwɛ̃tiˈjø], pointilleuse, pointilleux/pointilleuses = pedantský
+3 AN chaste {chaste} [ʃast] = cudný
+3 AN vil {vil} [vil], vile = podlý
+3 AN inattentif {inattentif} [inatɑ̃ˈtif], inattentive = nepozorný
+3 N l'inattention (f) {inattention} [inatɑ̃ˈsjɔ̃], inattentions = nepozornosť
+3 N la grossièreté {grossièreté} [ɡʁosjɛʁˈte], grossièretés = hrubosť
+3 N la ruse {ruse} [ʁyz], ruses = lesť
+3 AN ingénu {ingénu} [ɛ̃ʒeˈny], ingénue = bezelstný
+2 N l'orgueil (m) {orgueil} [ɔʁˈɡœj], - = pýcha
+2 AN orgueilleux {orgueilleux} [ɔʁɡœˈjø], orgueilleuse, orgueilleux/orgueilleuses = pyšný
+2 AN prétentieux {prétentieux} [pʁetɑ̃ˈsjø], prétentieuse, prétentieux/prétentieuses = namyslený
+3 AN suffisant {suffisant} [syfiˈzɑ̃], suffisante = samoľúby
+2 AN hypocrite {hypocrite} [ipɔˈkʁit] = pokrytecký
+3 N la suffisance {suffisance} [syfiˈzɑ̃s], - = samoľúbosť
+3 AN vantard {vantard} [vɑ̃ˈtaʁ], vantarde = chvastavý
+3 N la vantardise {vantardise} [vɑ̃taʁˈdiz], vantardises = chvastúnstvo
+3 AN méprisant {méprisant} [mepʁiˈzɑ̃], méprisante = pohŕdavý
+2 V faire semblant {faire semblant} [fɛʁ sɑ̃ˈblɑ̃], irr, fait = pretvarovať sa
+2 N l'hypocrisie (f) {hypocrisie} [ipɔkʁiˈzi], hypocrisies = pokrytectvo
+3 N l'affectation (f) {affectation} [afɛktaˈsjɔ̃], affectations = afektovanosť
+3 V flagorner {flagorner} [flaɡɔʁˈne] (qn) = líškať sa
+3 AN réprobateur {réprobateur} [ʁepʁɔbaˈtœʁ], réprobatrice = vyčítavý
+2 AN timide {timide} [tiˈmid] = hanblivý
+2 AN audacieux {audacieux} [odaˈsjø], audacieuse, audacieux/audacieuses = trúfalý
+2 AN respectable {respectable} [ʁɛspɛkˈtabl] = úctyhodný
+2 AN digne {digne} [diɲ] (de) = dôstojný
+2 AN noble {noble} [nɔbl] = vznešený
+3 AN querelleur {querelleur} [kəʁɛˈlœʁ], querelleuse = hašterivý
+3 AN blasé {blasé} [blaˈze], blasée = blazeovaný
+2 N le fanatique {fanatique} [fanaˈtik], fanatiques = fanatik
+3 N le plaisantin {plaisantin} [plɛzɑ̃ˈtɛ̃], plaisantins = vtipkár
+3 N le farceur {farceur} [faʁˈsœʁ], farceurs = vtipkár
+3 N la crédulité {crédulité} [kʁedyliˈte], - = dôverčivosť
+3 AN perfide {perfide} [pɛʁˈfid] = zradný
+3 N la perfidie {perfidie} [pɛʁfiˈdi], perfidies = zákernosť
 
 # more
 2 V mériter {mériter} [meʁiˈte] = zaslúžiť si

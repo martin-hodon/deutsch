@@ -70,6 +70,15 @@
 3 N der Nationalpark {National|park} [natsjoˈnaːlpaʁk], Nationalparks = národný park
 3 N das Naturschutzgebiet {Natur|schutz|gebiet} [naˈtuːɐʃʊtsɡəbiːt], Naturschutzgebiete = prírodná rezervácia
 3 N der Bergfuß {Berg|fuß} [ˈbɛʁkfuːs], Bergfüße = úpätie
+3 N die Einöde {Ein|öde} [ˈaɪnʔøːdə], Einöden = pustatina
+2 N die Lichtung {Lichtung} [ˈlɪçtʊŋ], Lichtungen = čistina
+3 N der Isthmus {Isthmus} [ˈɪstmʊs], Isthmen = pevninská šija
+3 N der Gebirgspass {Gebirgs|pass} [ɡəˈbɪʁksˌpas], Gebirgspässe = priesmyk
+3 N der Schlund {Schlund} [ʃlʊnt], Schlünde = priepasť (v teréne)
+3 V verheeren {ver|heeren} [fɛɐˈheːʁən], hat = spustošiť
+3 N die Kuppe {Kuppe} [ˈkʊpə], Kuppen = vrchol
+3 N das Terrain {Terrain} [tɛˈʁɛ̃ː], Terrains = terén
+3 AN öde {öde} [ˈøːdə] = pustý
 
 # surface-materials
 2 N der Fels {Fels} [fɛls], Felsen = skala
@@ -94,6 +103,19 @@
 1 N der Ton {Ton} [toːn], Töne = tón, zvuk
 3 N der Kies {Kies} [kiːs], - = štrk
 3 N die Lava {Lava} [ˈlaːva], Laven = láva
+3 N der Glimmer {Glimmer} [ˈɡlɪmɐ], Glimmer = sľuda
+3 N der Smaragd {Smaragd} [smaˈʁakt], Smaragde = smaragd
+3 N die Schlacke {Schlacke} [ˈʃlakə], Schlacken = škvara
+3 AN steinern {steinern} [ˈʃtaɪnɐn] = kamenný
+2 N der Edelstein {Edel|stein} [ˈeːdəlʃtaɪn], Edelsteine = drahokam
+3 N der Schmuckstein {Schmuck|stein} [ˈʃmʊkʃtaɪn], Schmucksteine = drahokam
+3 N der Bernstein {Bern|stein} [ˈbɛʁnʃtaɪn], Bernsteine = jantár
+3 N der Torf {Torf} [tɔʁf], - = rašelina
+3 N das Sumpfgebiet {Sumpf|gebiet} [ˈzʊmpfɡəbiːt], Sumpfgebiete = bahnisko
+3 N der Kalkstein {Kalk|stein} [ˈkalkʃtaɪn], Kalksteine = vápenec
+3 N der Alabaster {Alabaster} [alaˈbastɐ], - = alabaster
+3 N der Sandstein {Sand|stein} [ˈzantʃtaɪn], Sandsteine = pieskovec
+3 N der Kiesel {Kiesel} [ˈkiːzəl], Kiesel = kamienok
 
 # geo-events
 2 N der Ausbruch {Aus|bruch} [ˈaʊsbʁʊx], Ausbrüche = vypuknutie, výbuch, útek
@@ -114,3 +136,7 @@
 
 # earth
 3 V beben {beben} [ˈbeːbən], hat = triasť sa, chvieť sa
+3 N der Meridian {Meridian} [meʁiˈdjaːn], Meridiane = poludník
+3 N der Wendekreis {Wende|kreis} [ˈvɛndəkʁaɪs], Wendekreise = obratník
+3 N der Polarkreis {Polar|kreis} [poˈlaːɐkʁaɪs], Polarkreise = polárna kružnica
+2 N der Fußboden {Fuß|boden} [ˈfuːsboːdən], Fußböden = podlaha

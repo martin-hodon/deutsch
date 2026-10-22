@@ -118,6 +118,25 @@
 3 AV bosko {bosko} [ˈbɔskɔ] = božsky
 2 AV cudownie {cudownie} [tsuˈdɔvɲɛ] = podivuhodne
 3 N śmiertelność {śmiertelność} [ɕmʲɛrˈtɛlnɔɕtɕ], ż, - = smrteľnosť
+3 V potępiać {potępiać} [pɔˈtɛmpʲatɕ], potępić (B) = zatratiť
+3 N potępienie {potępienie} [pɔtɛmˈpʲɛɲɛ], n, potępienia = zatratenie
+3 N parafia {parafia} [paˈrafja], ż, parafie = farnosť
+3 N kult {kult} [kult], m, kulty = uctievanie
+3 N pobożność {pobożność} [pɔˈbɔʐnɔɕtɕ], ż, - = nábožnosť
+3 N czyściec {czyściec} [ˈtʂɨɕtɕɛts], m, - = očistec
+3 N heretyk {heretyk} [xɛˈrɛtɨk], m, heretycy = kacír
+3 N pokuta {pokuta} [pɔˈkuta], ż, pokuty = pokánie
+3 V spowiadać się {spowiadać się} [spɔˈvʲadatɕ ɕɛ], wyspowiadać się = spovedať sa
+3 N apostoł {apostoł} [aˈpɔstɔw], m, apostołowie = apoštol
+3 N opatrzność {opatrzność} [ɔˈpatʂnɔɕtɕ], ż, - = prozreteľnosť
+3 N kostucha {kostucha} [kɔsˈtuxa], ż, kostuchy = smrtka
+3 V zmartwychwstawać {zmartwych|wstawać} [zmartfɨxˈfstavatɕ], zmartwychwstać = vstať z mŕtvych
+3 N niebiosa {niebiosa} [ɲɛˈbʲɔsa], lm, niebiosa = nebesá
+3 N hinduizm {hinduizm} [xinˈduizm], m, - = hinduizmus
+2 N post {post} [pɔst], m, posty = pôst
+3 N pielgrzymka {pielgrzymka} [pʲɛlˈɡʐɨmka], ż, pielgrzymki = púť
+3 N komunia {komunia} [kɔˈmuɲa], ż, komunie = sväté prijímanie
+3 N rozgrzeszenie {rozgrzeszenie} [rɔzɡʐɛˈʂɛɲɛ], n, rozgrzeszenia = rozhrešenie
 
 # magic-fate
 2 N magia {magia} [ˈmaɡʲa], ż, magie = mágia
@@ -173,6 +192,24 @@
 3 V zaklinać {zaklinać} [zaˈklinatɕ], zaklnąć = zaklínať
 3 V przywoływać {przywoływać} [pʂɨvɔˈwɨvatɕ], przywołać = zaklínať
 3 AV czarująco {czarująco} [tʂaruˈjɔntsɔ] = očarujúco
+2 V wróżyć {wróżyć} [ˈvruʐɨtɕ], wywróżyć (B) = veštiť
+3 N wilkołak {wilkołak} [vʲilˈkɔwak], m, wilkołaki = vlkolak
+3 N zaklęcie {zaklęcie} [zaˈklɛɲtɕɛ], n, zaklęcia = zakliatie
+3 N zaklinacz {zaklinacz} [zaˈklinatʂ], m, zaklinacze = zaklínač
+3 AN legendarny {legendarny} [lɛɡɛnˈdarnɨ] = bájny
+3 AN nadprzyrodzony {nad|przyrodzony} [natpʂɨrɔˈdzɔnɨ] = nadprirodzený
+3 N eliksir {eliksir} [ɛˈliksir], m, eliksiry = elixír
+3 N zodiak {zodiak} [ˈzɔdjak], m, zodiaki = zverokruh
+3 N Wodnik {Wodnik} [ˈvɔdɲik], m, - = vodnár
+3 N Bliźnięta {Bliźnięta} [bliʑˈɲɛnta], lm, Bliźnięta = blíženci
+3 N Panna {Panna} [ˈpanːa], ż, - = panna
+2 V czarować {czarować} [tʂaˈrɔvatɕ], zaczarować (B) = začarovať
+3 AN przeklęty {przeklęty} [pʂɛˈklɛntɨ] = prekliaty
+3 N nimfa {nimfa} [ˈɲimfa], ż, nimfy = nymfa
+3 N hydra {hydra} [ˈxɨdra], ż, hydry = hydra
+3 N centaur {centaur} [ˈtsɛntaur], m, centaury = kentaur
+3 N chimera {chimera} [xiˈmɛra], ż, chimery = chiméra
+3 N omen {omen} [ˈɔmɛn], m, omeny = predzvesť
 
 # customs-celebrations
 1 N zwyczaj {zwyczaj} [ˈzvɨtʂaj], m, zwyczaje = zvyk
@@ -256,3 +293,4 @@
 
 # customs
 2 V święcić {święcić} [ˈɕfʲɛntɕitɕ], poświęcić = vysvätiť
+2 N wieniec {wieniec} [ˈvʲɛɲɛts], m, wieńce = veniec

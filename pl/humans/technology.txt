@@ -52,6 +52,9 @@
 2 AV automatycznie {automatycznie} [autɔmaˈtɨtʂɲɛ] = automaticky
 3 AV innowacyjnie {innowacyjnie} [inːɔvaˈtsɨjɲɛ] = inovatívne
 3 AV konstruktywnie {konstruktywnie} [kɔnstrukˈtɨvɲɛ] = konštruktívne
+2 AN regulowany {regulowany} [rɛɡulɔˈvanɨ] = nastaviteľný
+3 N tłok {tłok} [twɔk], m, tłoki = piest
+2 N przyrząd {przy|rząd} [ˈbʐɨʐɔnt], m, przyrządy = prístroj
 
 # electricity-energy
 2 N bateria {bateria} [baˈtɛrja], ż, baterie = batéria
@@ -98,6 +101,7 @@
 3 AV elektronicznie {elektronicznie} [ɛlɛktrɔˈɲitʂɲɛ] = elektronicky
 2 V wyładowywać {wy|ładowywać} [vɨwadɔˈvɨvatɕ], wyładować (B) = vyložiť
 2 V rozładowywać {roz|ładowywać} [rɔzwadɔˈvɨvatɕ], rozładować (B) = vyložiť
+2 N zwarcie {z|warcie} [ˈzvartɕɛ], n, zwarcia = skrat
 
 # computing-communication-devices
 1 N komputer {komputer} [kɔmˈputɛr], m, komputery = počítač
@@ -260,6 +264,11 @@
 2 AV offline {offline} [ˈɔflajn] = offline
 2 V oddalać {oddalać} [ɔdˈdalatɕ], oddalić (B) = oddialiť
 3 V pomniejszać {pomniejszać} [pɔˈmɲɛjʂatɕ], pomniejszyć (B) = oddialiť
+2 N spacja {spacja} [ˈspatsja], ż, spacje = medzerník
+3 N pamięć operacyjna {pamięć operacyjna} [ˈpamʲɛɲtɕ ɔpɛraˈtsɨjna], ż, pamięci operacyjne = operačná pamäť
+2 N wyliczenie {wy|liczenie} [vɨliˈtʂɛɲɛ], n, wyliczenia = enumerácia
+3 N enumeracja {enumeracja} [ɛnumɛˈratsja], ż, enumeracje = enumerácia
+2 N stała {stała} [ˈstawa], ż, stałe = konštanta
 
 # devices
 2 V demontować {demontować} [dɛmɔnˈtɔvatɕ], zdemontować = demontovať
@@ -267,6 +276,7 @@
 2 N segregator {segregator} [sɛɡrɛˈɡatɔr], m, segregatory = zakladač
 2 N folder {folder} [ˈfɔldɛr], m, foldery = zakladač
 2 N okienko {okienko} [ɔˈkʲɛŋkɔ], n, okienka = okienko
+2 N osłona {o|słona} [ɔsˈwɔna], ż, osłony = kryt
 
 # more
 3 N tweet {tweet} [ˈtwit], m, tweety = tweet

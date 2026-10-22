@@ -107,6 +107,14 @@ V vzpierať sa
 V uspokojiť
 AN schopný konať
 V otužiť
+V otáľať
+AN uzrozumený
+V trvať na
+V obrniť sa -- pripraviť sa na ťažkosť
+V odolať -- nepoddať sa pokušeniu alebo tlaku
+V odoprieť si -- vzdať sa niečoho, zdržať sa
+V odplatiť -- oplatiť za dobré alebo zlé
+AN žiadostivý
 
 # character-traits
 N charakter
@@ -266,6 +274,29 @@ AN blahosklonný : adverb blahosklonne
 AN bezbranný
 AN svedomitý : adverb svedomito
 AN ironický : adverb ironicky
+N rozmar -- rozmar, vrtoch
+AN márnotratný
+N márnotratník
+AN štedrý -- ochotný dávať
+V žgrliť -- byť skúpy
+AN poddajný -- ľahko sa podvoľujúci
+N ľahostajnosť -- nezáujem, nedostatok záujmu
+N pomstychtivosť -- túžba po pomste
+AN rozmaznaný -- prílišne hýčkaný
+AN pomstychtivý -- túžiaci po pomste
+N prezieravosť
+N ohľaduplnosť
+N bezohľadnosť
+N statočnosť
+N trúfalosť
+N hrdinstvo
+AN panovačný
+AN maznavý
+N namyslenosť
+N pretvárka
+V zvyknúť -- mať zvyk robiť niečo
+AN nedotklivý
+AN nedôverčivý
 
 # character
 AN zbabelý : adverb zbabelo
@@ -278,6 +309,44 @@ AN starostlivý : adverb starostlivo
 AN ambivalentný : adverb ambivalentne
 AN neskrývaný : adverb neskrývane
 V vyberať
+AN úchylný
+AN kradmý
+N výstrednosť -- výstredné, nemierne správanie
+AN bezuzdný -- bez zábran, bez miery
+AN pedantský -- prehnane dôkladný
+AN cudný
+AN podlý -- nízky, zlomyseľný
+AN nepozorný -- nedávajúci pozor
+N nepozornosť
+N hrubosť -- hrubé správanie
+N lesť -- lstivý úskok
+AN bezelstný -- bez zlého úmyslu
+N pýcha
+AN pyšný
+AN namyslený
+AN samoľúby -- spokojný sám so sebou
+AN pokrytecký
+N samoľúbosť
+AN chvastavý
+N chvastúnstvo
+AN pohŕdavý
+V pretvarovať sa
+N pokrytectvo
+N afektovanosť
+V líškať sa
+AN vyčítavý
+AN hanblivý
+AN trúfalý
+AN úctyhodný -- hodný úcty
+AN dôstojný -- s dôstojnosťou, vážny
+AN vznešený -- ušľachtilý, vysoko postavený
+AN hašterivý -- stále sa hádajúci
+AN blazeovaný -- presýtený, namyslene ľahostajný
+N fanatik
+N vtipkár -- človek, ktorý rád vtipkuje
+N dôverčivosť
+AN zradný
+N zákernosť
 
 # more
 V zaslúžiť si

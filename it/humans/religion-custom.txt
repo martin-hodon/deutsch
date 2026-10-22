@@ -124,6 +124,27 @@
 3 AN evangelico {evangelico} [evanˈdʒɛːliko], evangelica, evangelici/evangeliche = evanjelický
 3 AN ecumenico {ecumenico} [ekuˈmɛːniko], ecumenica, ecumenici/ecumeniche = ekumenický
 2 N la mortalità {mortalità} [mortaliˈta], mortalità = smrteľnosť
+3 V dannare {dannare} [daˈnːaːre] = zatratiť
+3 N la dannazione {dannazione} [danːatˈtsjoːne], dannazioni = zatratenie
+3 N la parrocchia {parrocchia} [paˈrɔkːja], parrocchie = farnosť
+3 N l'adorazione (f) {adorazione} [adoratˈtsjoːne], adorazioni = uctievanie
+3 N il culto {culto} [ˈkulto], culti = uctievanie
+3 N la devozione {devozione} [devotˈtsjoːne], devozioni = nábožnosť
+3 N la religiosità {religiosità} [relidʒoziˈta], religiosità = nábožnosť
+3 N il purgatorio {purgatorio} [purɡaˈtɔːrjo], - = očistec
+3 N l'eretico (m) {eretico} [eˈrɛːtiko], eretici = kacír
+3 N la penitenza {penitenza} [peniˈtɛntsa], penitenze = pokánie
+3 V confessarsi {confessarsi} [konfeˈsːarsi] = spovedať sa
+3 N l'apostolo (m) {apostolo} [aˈpɔstolo], apostoli = apoštol
+3 N la provvidenza {provvidenza} [provːiˈdɛntsa], provvidenze = prozreteľnosť
+3 N la Morte {Morte} [ˈmɔrte], - = smrtka
+3 V risorgere {risorgere} [riˈsordʒere], risorto, essere = vstať z mŕtvych
+3 N i cieli {cieli} [ˈtʃɛːli], PL = nebesá
+3 N l'induismo (m) {induismo} [induˈizmo], - = hinduizmus
+2 N il digiuno {digiuno} [diˈdʒuːno], digiuni = pôst
+3 N il pellegrinaggio {pellegrinaggio} [pelːeɡriˈnaddʒo], pellegrinaggi = púť
+3 N la comunione {comunione} [komuˈnjoːne], comunioni = sväté prijímanie
+3 N l'assoluzione (f) {assoluzione} [asːolutˈtsjoːne], assoluzioni = rozhrešenie
 
 # magic-fate
 2 N la magia {magia} [maˈdʒiːa], magie = mágia
@@ -177,6 +198,26 @@
 3 V sorteggiare {sorteggiare} [sorteˈddʒaːre] = vyžrebovať
 3 V evocare {evocare} [evoˈkaːre] = zaklínať
 3 V invocare {invocare} [invoˈkaːre] = zaklínať
+3 V divinare {divinare} [diviˈnaːre] = veštiť
+3 V predire {predire} [preˈdiːre], irr, predetto = veštiť
+3 N il lupo mannaro {lupo mannaro} [ˈluːpo maˈnːaːro], lupi mannari = vlkolak
+3 N l'incantesimo (m) {incantesimo} [inkanˈteːzimo], incantesimi = zakliatie
+3 N l'incantatore (m) {incantatore} [inkantaˈtoːre], incantatori = zaklínač
+3 AN leggendario {leggendario} [leddʒenˈdaːrjo], leggendaria = bájny
+3 AN soprannaturale {soprannaturale} [sopranːatuˈraːle] = nadprirodzený
+3 N l'elisir (m) {elisir} [eliˈzir], elisir = elixír
+3 N lo zodiaco {zodiaco} [dzoˈdiːako], zodiaci = zverokruh
+3 N l'Acquario (m) {Acquario} [aˈkːwaːrjo], - = vodnár
+3 N i Gemelli {Gemelli} [dʒeˈmɛlːi], PL = blíženci
+3 N la Vergine {Vergine} [ˈvɛrdʒine], - = panna
+3 V stregare {stregare} [streˈɡaːre] = začarovať
+3 V incantare {incantare} [inkanˈtaːre] = začarovať
+3 AN maledetto {maledetto} [maleˈdetːo], maledetta = prekliaty
+3 N la ninfa {ninfa} [ˈninfa], ninfe = nymfa
+3 N l'idra (f) {idra} [ˈiːdra], idre = hydra
+3 N il centauro {centauro} [tʃenˈtauro], centauri = kentaur
+3 N la chimera {chimera} [kiˈmɛːra], chimere = chiméra
+3 N il presagio {presagio} [preˈzaːdʒo], presagi = predzvesť
 
 # customs-celebrations
 2 N l'usanza (f) {usanza} [uˈzantsa], usanze = zvyk
@@ -259,3 +300,5 @@
 # customs
 2 V consacrare {consacrare} [konsaˈkraːre] = vysvätiť
 2 V benedire {benedire} [beneˈdiːre], irr, benedetto = vysvätiť
+3 N la ghirlanda {ghirlanda} [ɡirˈlanda], ghirlande = veniec
+3 N la corona {corona} [koˈroːna], corone = veniec

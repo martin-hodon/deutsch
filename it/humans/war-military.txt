@@ -84,6 +84,7 @@
 2 V screditare {screditare} [skrediˈtaːre] = zdiskreditovať
 3 V discreditare {discreditare} [diskrediˈtaːre] = zdiskreditovať
 3 N la distensione {distensione} [distenˈsjoːne], - = deeskalácia
+3 V soggiogare {soggiogare} [soddʒoˈɡaːre] = podmaniť si
 
 # army
 1 N l'esercito (m) {esercito} [eˈzɛrtʃito], eserciti = armáda
@@ -142,6 +143,11 @@
 3 V fiancheggiare {fiancheggiare} [fjaŋkeˈddʒaːre] = lemovať
 2 V sorprendere {sorprendere} [sorˈprɛndere], sorpreso = zaskočiť
 3 V catapultare {catapultare} [katapulˈtaːre] = katapultovať
+3 N il crociato {crociato} [kroˈtʃaːto], crociati = križiak
+3 N il sottotenente {sotto|tenente} [sotːoteˈnɛnte], sottotenenti = podporučík
+3 N la squadriglia {squadriglia} [skwaˈdriːʎːa], squadriglie = letka (útvar)
+2 N il protettore {protettore} [proteˈtːoːre], protettori = ochranca
+3 N lo scudiero {scudiero} [skuˈdjɛːro], scudieri = panoš
 
 # weapons-fortification
 2 N l'arma (f) {arma} [ˈarma], armi = zbraň
@@ -210,6 +216,30 @@
 3 V armarsi {armarsi} [arˈmarsi] = zbrojiť
 3 V riarmare {riarmare} [riarˈmaːre] = zbrojiť
 3 AN disarmato {dis|armato} [dizarˈmaːto], disarmata = neozbrojený
+2 N la pallottola {pallottola} [paˈlːɔtːola], pallottole = guľka (strela)
+3 N il proiettile {proiettile} [proˈjɛtːile], proiettili = guľka (strela)
+2 N la canna {canna} [ˈkanːa], canne = hlaveň
+3 N i merli {merli} [ˈmɛrli], PL = cimbúrie
+2 N la lancia {lancia} [ˈlantʃa], lance = kopija
+3 N lo stocco {stocco} [ˈstɔkːo], stocchi = kord
+3 N il randello {randello} [ranˈdɛlːo], randelli = kyjak
+3 N la mazza {mazza} [ˈmattsa], mazze = kyjak
+3 N la faretra {faretra} [faˈreːtra], faretre = tulec
+3 N la balestra {balestra} [baˈlɛːstra], balestre = kuša
+3 N l'alabarda (f) {alabarda} [alaˈbarda], alabarde = halapartňa
+3 N l'ariete (m) {ariete} [aˈrjɛːte], arieti = baranidlo
+3 N l'armamento (m) {armamento} [armaˈmento], armamenti = výzbroj
+3 V blindare {blindare} [blinˈdaːre] = obrniť
+3 N il mitra {mitra} [ˈmiːtra], mitra = samopal
+3 N la mitragliatrice {mitragliatrice} [mitraʎːaˈtriːtʃe], mitragliatrici = guľomet
+3 N il lanciafiamme {lancia|fiamme} [lantʃaˈfjamːe], lanciafiamme = plameňomet
+3 N il lanciarazzi {lancia|razzi} [lantʃaˈrattsi], lanciarazzi = raketomet
+3 N l'obice (m) {obice} [ˈɔːbitʃe], obici = húfnica
+3 N il fucile ad aria compressa {fucile ad aria compressa} [fuˈtʃiːle ad ˈaːrja komˈprɛsːa], fucili ad aria compressa = vzduchovka
+3 N il fodero {fodero} [ˈfɔːdero], foderi = pošva (na zbraň)
+3 N la doppietta {doppietta} [doˈpːjetːa], doppiette = brokovnica
+3 N il caccia {caccia} [ˈkattʃa], caccia = stíhačka
+3 N la cartuccia {cartuccia} [karˈtuttʃa], cartucce = náboj (do zbrane)
 
 # war
 3 V saccheggiare {saccheggiare} [sakːeˈddʒaːre] = plieniť
@@ -218,3 +248,13 @@
 2 N il magazzino {magazzino} [maɡaˈddziːno], magazzini = sklad
 2 N il deposito {deposito} [deˈpɔːzito], depositi = sklad
 2 N la mina {mina} [ˈmiːna], mine = tuha
+2 N il prigioniero {prigioniero} [pridʒoˈnjɛːro], prigionieri = zajatec
+3 N la scaramuccia {scaramuccia} [skaraˈmuttʃa], scaramucce = šarvátka
+3 N il massacro {massacro} [maˈsːaːkro], massacri = krviprelievanie
+2 N la strage {strage} [ˈstraːdʒe], stragi = krviprelievanie
+2 N la rivolta {rivolta} [riˈvɔlta], rivolte = vzbura
+3 N l'ammutinamento (m) {ammutinamento} [amːutinaˈmento], ammutinamenti = vzbura
+3 N la superiorità {superiorità} [superjoriˈta], superiorità = prevaha
+3 N l'accerchiamento (m) {accerchiamento} [attʃerkjaˈmento], accerchiamenti = obkľúčenie
+3 V abbordare {abbordare} [abːorˈdaːre] = abordovať
+3 N l'intruso (m) {intruso} [inˈtruːzo], intrusi = votrelec

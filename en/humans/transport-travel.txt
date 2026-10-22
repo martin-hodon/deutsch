@@ -56,6 +56,14 @@
 3 N clash {clash} [klæʃ], clashes = kolízia
 3 V bike {bike} [baɪk] = bicyklovať
 3 V ferry {fer|ry} [ˈferi] (sb, sth) = prepravovať
+2 N carriage {carriage} [ˈkærɪdʒ], carriages = vagón
+2 N trolleybus {trolley|bus} [ˈtrɒlibʌs], trolleybuses = trolejbus
+2 N airship {air|ship} [ˈeəʃɪp], airships = vzducholoď
+2 N steamship {steam|ship} [ˈstiːmʃɪp], steamships = parník
+2 N skateboard {skate|board} [ˈskeɪtbɔːd], skateboards = skateboard
+2 N speedboat {speed|boat} [ˈspiːdbəʊt], speedboats = motorový čln
+2 N tanker {tanker} [ˈtæŋkə], tankers = tanker
+2 N glider {glid|er} [ˈɡlaɪdə], gliders = vetroň
 # vehicle-parts
 1 N tyre {tyre} [ˈtaɪə], tyres = pneumatika
 2 N puncture {punc|ture} [ˈpʌŋktʃə], punctures = defekt pneumatiky
@@ -96,6 +104,21 @@
 3 N rear {rear} [rɪə], rears = zadná časť
 3 V dock {dock} [dɒk] = kotviť
 3 V paddle {pad|dle} [ˈpædəl] = veslovať
+2 N clutch {clutch} [klʌtʃ], clutches = spojka (v aute)
+3 N pole {pole} [pəʊl], poles = oje
+2 N rim {rim} [rɪm], rims = ráf
+3 N derailleur {derailleur} [dɪˈreɪljə], derailleurs = prehadzovačka
+2 N gearbox {gear|box} [ˈɡɪəbɒks], gearboxes = prevodovka
+3 N hubcap {hub|cap} [ˈhʌbkæp], hubcaps = puklica
+2 N cabin {cabin} [ˈkæbɪn], cabins = kajuta
+2 N bow {bow} [baʊ], bows = prova
+3 N yard {yard} [jɑːd], yards = rahno
+3 N mooring rope {mooring rope} [ˈmɔːrɪŋ rəʊp], mooring ropes = kotevné lano
+2 N rudder {rudder} [ˈrʌdə], rudders = kormidlo
+2 N stern {stern} [stɜːn], sterns = korma
+3 N port {port} [pɔːt], - = ľavobok
+3 N starboard {star|board} [ˈstɑːbəd], - = pravobok
+3 N chassis {chassis} [ˈʃæsi], chassis = podvozok
 # infrastructure
 1 N road {road} [rəʊd], roads = cesta (komunikácia)
 2 N detour {detour} [ˈdiːtʊə], detours = zachádzka
@@ -154,6 +177,10 @@
 3 N junction {junction} [ˈdʒʌŋkʃən], junctions = nájazd
 3 N road closure {road closure} [ˈrəʊd ˈkləʊʒə], road closures = uzávera
 3 V asphalt {asphalt} [ˈæsfælt] (sth) = asfaltovať
+3 N branch {branch} [brɑːntʃ], branches = odbočka
+3 N points {points} [pɔɪnts], PL = výhybka
+2 N footbridge {foot|bridge} [ˈfʊtbrɪdʒ], footbridges = lávka
+2 N crash barrier {crash barrier} [ˈkræʃ ˌbæriə], crash barriers = zvodidlo
 # travel
 2 N ride {ride} [raɪd], rides = jazda
 2 N drive {drive} [draɪv], drives = jazda
@@ -303,6 +330,18 @@
 3 N moving out {moving out} [ˈmuːvɪŋ ˈaʊt], - = vysťahovanie
 3 N exit {exit} [ˈeksɪt], exits = vycestovanie
 2 N home country {home country} [ˌhəʊm ˈkʌntrɪ], home countries = tuzemsko
+3 N saddlebag {saddle|bag} [ˈsædəlbæɡ], saddlebags = sedlová brašna
+1 V ride {ride} [raɪd], rode/ridden = jazdiť na koni
+3 N pilot {pilot} [ˈpaɪlət], pilots = lodivod
+3 V billow {billow} [ˈbɪləʊ] = vzdúvať sa
+2 N flight attendant {flight attendant} [ˈflaɪt əˌtendənt], flight attendants = letuška
+2 N crew member {crew member} [ˈkruː ˌmembə], crew members = člen posádky
+3 N stowaway {stow|away} [ˈstəʊəweɪ], stowaways = čierny pasažier
+3 V plough {plough} [plaʊ] (sth) = brázdiť
+3 AN listing {list|ing} [ˈlɪstɪŋ] = naklonený
+2 N public transport {public transport} [ˌpʌblɪk ˈtrænspɔːt], - = verejná doprava
+2 N briefcase {brief|case} [ˈbriːfkeɪs], briefcases = kufrík
+2 N shipwreck {ship|wreck} [ˈʃɪprek], shipwrecks = stroskotanie
 # corpus-verbs
 3 V tour {tour} [tʊə] (sth) = precestovať
 3 V frequent {frequent} [frɪˈkwent] (sth) = navštevovať

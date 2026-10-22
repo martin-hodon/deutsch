@@ -208,6 +208,16 @@
 2 N podwładny {podwładny} [pɔdˈvwadnɨ], m, podwładni = podriadený
 3 N laik {laik} [ˈlajik], m, laicy = laik
 3 N degradacja {degradacja} [dɛɡraˈdatsja], ż, - = degradácia
+3 N kuśnierz {kuśnierz} [ˈkuɕɲɛʂ], m, kuśnierze = kožušník
+3 V obijać się {o|bijać się} [ɔˈbʲijatɕ ɕɛ], - = flákať sa
+3 V leniuchować {leniuchować} [lɛɲuˈxɔvatɕ], - = flákať sa
+3 V wymigiwać się {wy|migiwać się} [vɨmʲiˈɡivatɕ ɕɛ], wymigać się (od + D) = uliať sa
+3 N szklarz {szklarz} [ʂklaʂ], m, szklarze = sklár
+3 V wdrażać {w|drażać} [ˈvdraʐatɕ], wdrożyć (B) = zapracovať
+2 V zatrudniać {za|trudniać} [zaˈtrudɲatɕ], zatrudnić (B) = najať
+3 V harować {harować} [xaˈrɔvatɕ], - = drieť
+3 N harówka {harówka} [xaˈrufka], ż, harówki = drina
+3 N portier {portier} [ˈpɔrtjɛr], m, portierzy = vrátnik
 
 # making-doing
 1 V robić {robić} [ˈrɔbitɕ], zrobić = robiť
@@ -293,6 +303,8 @@
 3 AV produktywnie {produktywnie} [prɔdukˈtɨvɲɛ] = produktívne
 2 V burzyć {burzyć} [ˈbuʐɨtɕ], zburzyć (B) = búrať
 2 V wyburzać {wy|burzać} [vɨˈbuʐatɕ], wyburzyć (B) = búrať
+2 V obrabiać {ob|rabiać} [ɔˈbrabʲatɕ], obrobić (B) = opracovať
+2 V piłować {piłować} [pʲiˈwɔvatɕ], przepiłować (B) = píliť
 
 # tools
 1 N młotek {młotek} [ˈmwɔtɛk], m, młotki = kladivo
@@ -349,6 +361,20 @@
 2 N pręt {pręt} [prɛnt], m, pręty = prút
 3 N tyczka {tyczka} [ˈtɨtʂka], ż, tyczki = tyč
 3 N drąg {drąg} [drɔŋk], m, drągi = tyč
+3 N kołek {kołek} [ˈkɔwɛk], m, kołki = kolík
+3 N klin {klin} [klin], m, kliny = klin
+3 N pilnik {pilnik} [ˈpʲilɲik], m, pilniki = pilník
+3 N dysza {dysza} [ˈdɨʂa], ż, dysze = tryska
+3 N miech kowalski {miech kowalski} [mʲɛx kɔˈvalski], m, miechy kowalskie = kováčsky mech
+3 N łożysko {łożysko} [wɔˈʐɨskɔ], n, łożyska = ložisko
+2 N korek {korek} [ˈkɔrɛk], m, korki = zátka
+3 N zatyczka {za|tyczka} [zaˈtɨtʂka], ż, zatyczki = zátka
+3 N właz {właz} [vwas], m, włazy = poklop
+3 N pinceta {pinceta} [pʲinˈtsɛta], ż, pincety = pinzeta
+2 N sprężyna {sprężyna} [sprɛ̃ˈʐɨna], ż, sprężyny = pružina
+3 N wytrych {wy|trych} [ˈvɨtrɨx], m, wytrychy = pakľúč
+3 N młot {młot} [mwɔt], m, młoty = kladivo
+3 V świdrować {świdrować} [ɕvʲiˈdrɔvatɕ], - = vŕtať
 
 # materials
 1 N materiał {materiał} [maˈtɛrjaw], m, materiały = materiál
@@ -381,6 +407,15 @@
 2 V izolować {izolować} [izɔˈlɔvatɕ], zaizolować = zatepliť
 2 N blacha {blacha} [ˈblaxa], ż, blachy = plech
 2 N sznurek {sznurek} [ˈʂnurɛk], m, sznurki = špagát
+2 N ceramika {ceramika} [tsɛraˈmʲika], ż, ceramiki = keramika
+2 N polano {polano} [pɔˈlanɔ], n, polana = poleno
+3 N kłoda {kłoda} [ˈkwɔda], ż, kłody = poleno
+3 N trociny {trociny} [trɔˈtɕinɨ], lm, trociny = piliny
+3 N drzazga {drzazga} [ˈdʐazɡa], ż, drzazgi = trieska
+3 N wiór {wiór} [vʲur], m, wióry = hoblina
+3 N futerał {futerał} [fuˈtɛraw], m, futerały = puzdro
+3 N etui {etui} [ɛˈtui], n, etui, ndm = puzdro
+3 N rozcieńczalnik {roz|cieńczalnik} [rɔstɕɛɲˈtʂalɲik], m, rozcieńczalniki = riedidlo
 
 # industry-places
 2 N dzieło {dzieło} [ˈdʑɛwɔ], n, dzieła = dielo
@@ -422,10 +457,16 @@
 2 N hydraulik {hydraulik} [xɨˈdraulik], m, hydraulicy = inštalatér
 2 N logistyka {logistyka} [lɔɡisˈtɨka], ż, - = logistika
 2 N model biznesowy {model biznesowy} [ˈmɔdɛl bʲiznɛˈsɔvɨ], m, modele biznesowe = obchodný model
+3 N szyb {szyb} [ʂɨp], m, szyby = šachta
+2 V wydobywać {wy|dobywać} [vɨdɔˈbɨvatɕ], wydobyć (B) = ťažiť
 
 # work
 3 V wydzielać {wydzielać} [vɨˈdʑɛlatɕ], wydzielić = vyčleniť
 3 V wyodrębniać {wyodrębniać} [vɨɔdˈrɛmbɲatɕ], wyodrębnić = vyčleniť
+3 N cech {cech} [tsɛx], m, cechy = cech
+2 V odkopywać {od|kopywać} [ɔtkɔˈpɨvatɕ], odkopać (B) = odkopať
+3 V bejcować {bejcować} [bɛjˈtsɔvatɕ], zabejcować (B) = moriť
+3 V heblować {heblować} [xɛˈblɔvatɕ], wyheblować (B) = hobľovať
 
 # more
 1 N praktyka {praktyka} [prakˈtɨka], ż, praktyki = prax

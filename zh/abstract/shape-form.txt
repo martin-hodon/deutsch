@@ -22,6 +22,7 @@
 2 AN 方形 {方形} [fāngxíng] = štvorcový
 2 N 角落 {角落} [jiǎoluò], 个 = roh (uhol)
 3 N 拐角 {拐角} [guǎijiǎo], 个 = roh (uhol)
+1 N 角 {角} [jiǎo], 个 = roh (uhol)
 2 N 三角形 {三角形} [sānjiǎoxíng], 个 = trojuholník
 3 N 四边形 {四边形} [sìbiānxíng], 个 = štvoruholník
 2 N 长方形 {长方形} [chángfāngxíng], 个 = obdĺžnik
@@ -112,6 +113,23 @@
 1 N 分数 {分数} [fēnshù], 个 = bod
 2 V 造型 {造型} [zàoxíng] = tvarovať
 2 N 人物 {人物} [rénwù], 个 = postava
+3 N 尖角 {尖角} [jiānjiǎo], 个 = cíp
+2 N 尖端 {尖端} [jiānduān], 个 = cíp
+3 N 梯形 {梯形} [tīxíng], 个 = lichobežník
+3 N 菱形 {菱形} [língxíng], 个 = kosoštvorec
+3 N 椭圆 {椭圆} [tuǒyuán], 个 = elipsa
+3 N 长方体 {长方体} [chángfāngtǐ], 个 = kváder
+3 N 棱锥 {棱锥} [léngzhuī], 个 = ihlan
+3 N 扣环 {扣环} [kòuhuán], 个 = pútko
+3 N 平行四边形 {平行四边形} [píngxíng sìbiānxíng], 个 = kosodĺžnik
+3 V 拱起 {拱起} [gǒngqǐ] = klenúť sa
+3 V 横跨 {横跨} [héngkuà] = klenúť sa
+3 AN 伸长 {伸长} [shēncháng] = natiahnutý
+3 AN 拉长 {拉长} [lācháng] = natiahnutý
+3 N 外接圆 {外接圆} [wàijiēyuán], 个 = opísaná kružnica
+3 N 内切圆 {内切圆} [nèiqiēyuán], 个 = vpísaná kružnica
+2 N 圈 {圈} [quān], 个 = krúžok
+3 N 圆环 {圆环} [yuánhuán], 个 = krúžok
 
 # form-properties
 1 AN 圆 {圆} [yuán] = okrúhly
@@ -216,3 +234,11 @@
 3 N 钝度 {钝度} [dùndù], - = tuposť
 3 N 不对称 {不对称} [bù duìchèn], - = asymetria
 2 N 曲线 {曲线} [qūxiàn], 条 = krivka
+2 AN 贴身 {贴身} [tiēshēn] = priliehavý
+2 AN 紧身 {紧身} [jǐnshēn] = priliehavý
+2 N 面积 {面积} [miànjī], 个 = rozloha
+2 V 折 {折} [zhé] = prehnúť
+3 V 对折 {对折} [duìzhé] = prehnúť
+3 N 折痕 {折痕} [zhéhén], 个 = záhyb
+3 N 褶皱 {褶皱} [zhězhòu], 道 = záhyb
+3 N 窟窿 {窟窿} [kūlong], 个 = diera

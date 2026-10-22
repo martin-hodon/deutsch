@@ -149,6 +149,18 @@
 2 N la finca {finca} [ˈfiŋka], fincas = usadlosť
 3 V albergar {albergar} [alβeɾˈɣaɾ] = byť domovom pre
 2 AN independiente {independiente} [indepenˈdjente] = voľne stojaci
+3 N la cornisa {cornisa} [koɾˈnisa], cornisas = rímsa
+3 N el cobijo {cobijo} [koˈβixo], cobijos = prístrešie
+3 N la instalación {instalación} [instalaˈθjon], instalaciones = zabudovanie
+3 N el peldaño {peldaño} [pelˈdaɲo], peldaños = priečka rebríka
+3 N la solera {solera} [soˈleɾa], soleras = poter
+2 N el pilar {pilar} [piˈlaɾ], pilares = pilier
+3 N la cancela {cancela} [kanˈθela], cancelas = bránka
+3 N la choza {choza} [ˈtʃoθa], chozas = chatrč
+3 N la chabola {chabola} [tʃaˈβola], chabolas = chatrč
+3 N la losa {losa} [ˈlosa], losas = dlaždica
+3 N el gozne {gozne} [ˈɡoθne], goznes = pánt
+3 N el quicio {quicio} [ˈkiθjo], quicios = pánt
 
 # rooms
 1 N la habitación {habitación} [aβitaˈθjon], habitaciones = izba
@@ -174,6 +186,8 @@
 2 N el despacho {despacho} [desˈpatʃo], despachos = pracovňa
 2 N el estudio {estudio} [esˈtuðjo], estudios = pracovňa
 2 N el trastero {trastero} [tɾasˈteɾo], trasteros = komora
+2 N el recibidor {recibidor} [reθiβiˈðoɾ], recibidores = predsieň (chodba)
+2 N el salón {salón} [saˈlon], salones = salón
 
 # furniture
 1 N los muebles {muebles} [ˈmweβles], PL = nábytok
@@ -226,6 +240,10 @@
 2 N la percha {percha} [ˈpeɾtʃa], perchas = vešiak
 2 N la cuna {cuna} [ˈkuna], cunas = kolíska
 2 N la hamaca {hamaca} [aˈmaka], hamacas = hojdacia sieť
+2 N la vitrina {vitrina} [biˈtɾina], vitrinas = vitrína
+3 N el armarito {armarito} [aɾmaˈɾito], armaritos = skrinka
+3 N el reposabrazos {reposa|brazos} [reposaˈβɾaθos], reposabrazos = opierka
+3 N el lecho {lecho} [ˈletʃo], lechos = posteľ
 
 # household-objects
 1 N la llave {llave} [ˈʎaβe], llaves = kľúč
@@ -298,6 +316,28 @@
 1 N la caja {caja} [ˈkaxa], cajas = bedňa
 2 N el cajón {cajón} [kaˈxon], cajones = bedňa
 2 N la placa {placa} [ˈplaka], placas = platňa
+3 N el visillo {visillo} [biˈsiʎo], visillos = záclona
+2 N el cordón {cordón} [koɾˈðon], cordones = šnúra
+3 N la antorcha {antorcha} [anˈtoɾtʃa], antorchas = pochodeň
+3 N el plumero {plumero} [pluˈmeɾo], plumeros = prachovka
+3 N la alcachofa de ducha {alcachofa de ducha} [alkaˈtʃofa de ˈdutʃa], alcachofas de ducha = sprchová hlavica
+2 N el inodoro {inodoro} [inoˈðoɾo], inodoros = záchodová misa
+3 N la funda nórdica {funda nórdica} [ˈfunda ˈnoɾðika], fundas nórdicas = obliečka na paplón
+3 N la perforadora {perforadora} [peɾfoɾaˈðoɾa], perforadoras = dierkovačka
+2 N la grapadora {grapadora} [ɡɾapaˈðoɾa], grapadoras = zošívačka
+2 N el chupete {chupete} [tʃuˈpete], chupetes = cumlík
+3 N la colilla {colilla} [koˈliʎa], colillas = ohorok
+3 N los bártulos {bártulos} [ˈbaɾtulos], PL = haraburdy
+3 N el cachivache {cachivache} [katʃiˈβatʃe], cachivaches = haraburdy
+3 N la pacotilla {pacotilla} [pakoˈtiʎa], pacotillas = haraburdy
+2 N los trastos {trastos} [ˈtɾastos], PL = haraburdy
+3 N el rociador {rociador} [roθjaˈðoɾ], rociadores = rozprašovač
+3 N el pulverizador {pulverizador} [pulβeɾiθaˈðoɾ], pulverizadores = rozprašovač
+2 N la persiana {persiana} [peɾˈsjana], persianas = žalúzia
+3 N el asa (f) {asa} [ˈasa], asas = uško (držadlo)
+3 N la vara {vara} [ˈbaɾa], varas = palica
+3 N el cascabel {cascabel} [kaskaˈβel], cascabeles = zvonček
+3 V repicar {repicar} [repiˈkaɾ] = zvoniť
 
 # household-actions
 2 N la limpiadora {limpiadora} [limpjaˈðoɾa], limpiadoras = upratovačka
@@ -331,3 +371,5 @@
 1 N la manta {manta} [ˈmanta], mantas = deka
 2 N el trabajo escrito {trabajo escrito} [tɾaˈβaxo esˈkɾito], trabajos escritos = seminárna práca
 2 N la colada {colada} [koˈlaða], coladas = pranie
+2 V recoger {recoger} [rekoˈxeɾ] = odpratať
+3 V atrancar {atrancar} [atɾaŋˈkaɾ] = zahasprovať

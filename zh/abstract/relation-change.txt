@@ -71,6 +71,8 @@
 3 V 运转 {运转} [yùnzhuǎn] = fungovať
 2 N 在场 {在场} [zàichǎng], - = prítomnosť
 2 V 缺乏 {缺乏} [quēfá] = chýbať
+2 V 差 {差} [chà] = chýbať
+2 V 少 {少} [shǎo] = chýbať
 1 V 叫作 {叫作} [jiàozuò] = volať sa
 1 V 交费 {交|费} [jiāofèi] = platiť
 2 N 形势 {形势} [xíngshì], - = situácia
@@ -119,6 +121,7 @@
 3 AN 多事 {多事} [duōshì] = bohatý na udalosti
 2 V 降低 {降低} [jiàngdī] = znížiť
 1 V 减少 {减少} [jiǎnshǎo] = znížiť
+2 V 减 {减} [jiǎn] = znížiť
 2 N 减少 {减少} [jiǎnshǎo], - = redukcia
 3 N 削减 {削减} [xuējiǎn], - = redukcia
 2 V 扩大 {扩大} [kuòdà] = rozšíriť
@@ -495,6 +498,29 @@
 2 V 扩大 {扩大} [kuòdà] = zväčšiť sa
 1 V 变大 {变大} [biàndà] = zväčšiť sa
 3 V 增大 {增大} [zēngdà] = zväčšiť sa
+2 V 完成 {完成} [wánchéng] = zavŕšiť
+3 V 收官 {收官} [shōuguān] = zavŕšiť
+2 V 轮流 {轮流} [lúnliú] = striedať sa
+2 V 交替 {交替} [jiāotì] = striedať sa
+3 V 裂 {裂} [liè] = prasknúť
+2 V 裂开 {裂开} [lièkāi] = prasknúť
+3 V 爆裂 {爆裂} [bàoliè] = prasknúť
+2 N 漏洞 {漏洞} [lòudòng], 个 = únik
+3 V 卡壳 {卡|壳} [kǎké] = viaznuť
+3 V 受阻 {受阻} [shòuzǔ] = viaznuť
+2 V 出错 {出|错} [chūcuò] = vkradnúť sa
+3 V 混入 {混入} [hùnrù] = vkradnúť sa
+2 N 巧合 {巧合} [qiǎohé], 个 = šťastná náhoda
+2 N 好运 {好运} [hǎoyùn], - = šťastná náhoda
+1 V 变成 {变成} [biànchéng] = zmeniť sa
+2 V 变为 {变为} [biànwéi] = zmeniť sa
+3 V 改换 {改换} [gǎihuàn] = vymeniť
+3 V 更替 {更替} [gēngtì] = nahradiť
+3 N 大难 {大难} [dànàn], 场 = katastrofa
+2 N 尽头 {尽头} [jìntóu], 个 = koniec
+2 V 令人 {令人} [lìngrén] = spôsobiť
+2 V 起伏 {起伏} [qǐfú] = kolísať
+2 V 改成 {改成} [gǎichéng] = zmeniť
 
 # relations
 1 AN 一样 {一样} [yīyàng] = rovnaký
@@ -504,6 +530,8 @@
 2 AN 无所谓 {无所谓} [wúsuǒwèi] = ľahostajný
 1 V 像 {像} [xiàng] = podobať sa
 2 V 类似 {类似} [lèisì] = podobať sa
+2 V 差 {差} [chà] = líšiť sa
+3 V 相差 {相差} [xiāngchà] = líšiť sa
 1 AN 不一样 {不一样} [bùyīyàng] = nerovnaký
 3 AN 不相等 {不相等} [bù xiāngděng] = nerovnaký
 2 V 平衡 {平衡} [pínghéng] = vyrovnať
@@ -597,6 +625,7 @@
 1 N 标准 {标准} [biāozhǔn], 个 = štandard
 2 V 连接 {连接} [liánjiē] = spojiť
 2 V 结合 {结合} [jiéhé] = spojiť
+2 V 连 {连} [lián] = spojiť
 1 N 联系 {联系} [liánxì], - = spojenie
 2 N 连接 {连接} [liánjiē], - = spojenie
 3 AN 有约束力 {有约束力} [yǒu yuēshùlì] = záväzný
@@ -922,10 +951,12 @@
 2 N 比重 {比重} [bǐzhòng], - = podiel
 2 V 成交 {成交} [chéngjiāo] = uzavrieť
 2 V 带有 {带有} [dàiyǒu] = obsahovať
+2 V 含 {含} [hán] = obsahovať
 2 V 发觉 {发觉} [fājué] = všimnúť si
 2 V 搞好 {搞好} [gǎohǎo] = zvládnuť
 2 V 救灾 {救|灾} [jiùzāi] = zachrániť
 2 N 群体 {群体} [qúntǐ], 个 = skupina
+2 N 团 {团} [tuán], 个 = skupina
 2 PHR 如下 {如下} [rúxià] = takto
 2 V 舍得 {舍得} [shěde] = vzdať sa
 2 N 特性 {特性} [tèxìng], 种 = vlastnosť
@@ -954,6 +985,15 @@
 3 N 漠不关心 {漠不关心} [mòbùguānxīn], - = nezáujem
 2 V 乘 {乘} [chéng] = násobiť
 3 V 乘以 {乘以} [chéngyǐ] = násobiť
+2 AN 包括在内 {包括在内} [bāokuò zàinèi] = zahrnutý
+2 N 亮点 {亮点} [liàngdiǎn], 个 = zlatý klinec
+3 N 看点 {看点} [kàndiǎn], 个 = zlatý klinec
+2 V 配 {配} [pèi] = kombinovať
+3 V 求索 {求索} [qiúsuǒ] = vypátrať
+3 V 搜寻 {搜寻} [sōuxún] = vypátrať
+3 V 寻觅 {寻觅} [xúnmì] = vypátrať
+3 V 舍 {舍} [shě] = opustiť
+3 N 源泉 {源泉} [yuánquán], - = prameň
 
 # transfer-basic-verbs
 1 V 给 {给} [gěi] = dať
@@ -1052,6 +1092,7 @@
 2 N 搜索 {搜索} [sōusuǒ], - = hľadanie
 2 V 查找 {查找} [cházhǎo] = vyhľadať
 3 V 寻求 {寻求} [xúnqiú] = vyhľadať
+2 V 查 {查} [chá] = vyhľadať
 3 V 侵袭 {侵袭} [qīnxí] = postihnúť
 3 V 袭击 {袭击} [xíjī] = postihnúť
 2 V 请求 {请求} [qǐngqiú] = požiadať
@@ -1062,6 +1103,7 @@
 3 N 藏品 {藏品} [cángpǐn], 件 = zbierka
 3 V 召集 {召集} [zhàojí] = zhromaždiť
 2 V 集合 {集合} [jíhé] = zhromaždiť
+3 V 凝聚 {凝聚} [níngjù] = zhromaždiť
 3 N 集会 {集会} [jíhuì], 次 = zhromaždenie
 1 N 会议 {会议} [huìyì], 次 = zhromaždenie
 2 V 捡起 {捡起} [jiǎnqǐ] = pozbierať
@@ -1106,6 +1148,7 @@
 3 V 分发 {分发} [fēnfā] = rozoslať
 1 V 拿来 {拿来} [nálái] = doniesť
 2 V 取 {取} [qǔ] = doniesť
+1 V 送 {送} [sòng] = doniesť
 2 V 补上 {补上} [bǔshàng] = nahradiť zameškané
 3 V 弥补 {弥补} [míbǔ] = nahradiť zameškané
 2 V 取 {取} [qǔ] = vyzdvihnúť
@@ -1129,6 +1172,7 @@
 1 V 接到 {接到} [jiēdào] = dostať
 1 V 拿到 {拿到} [nádào] = dostať
 1 V 受到 {受到} [shòudào] = dostať
+1 V 收 {收} [shōu] = dostať
 1 V 送到 {送到} [sòngdào] = dodať
 1 N 成果 {成果} [chéngguǒ], 项 = výsledok
 1 V 放到 {放到} [fàngdào] = položiť
@@ -1143,12 +1187,17 @@
 2 V 供给 {供给} [gōngjǐ] = zásobovať
 2 V 开设 {开设} [kāishè] = zriadiť
 2 V 派出 {派出} [pàichū] = poslať
+1 V 发 {发} [fā] = poslať
 2 V 去掉 {去掉} [qùdiào] = odstrániť
 2 V 丧失 {丧失} [sàngshī] = stratiť
 2 V 收藏 {收藏} [shōucáng] = zbierať
 2 N 收藏 {收藏} [shōucáng], 个 = zbierka
 3 AN 找到的 {找到的} [zhǎodào de] = nájdený
 3 AN 亏损 {亏损} [kuīsǔn] = stratový
+3 N 剥夺 {剥夺} [bōduó], - = odobratie
+3 V 寻到 {寻到} [xúndào] = nájsť
+2 V 传 {传} [chuán] = odovzdať
+2 V 遭 {遭} [zāo] = postihnúť
 
 # action-and-use
 1 N 行动 {行动} [xíngdòng], 次 = akcia (činnosť)
@@ -1396,6 +1445,7 @@
 3 V 约束 {约束} [yuēshù] = obmedziť
 3 V 充当 {充当} [chōngdāng] = pôsobiť ako
 2 V 担任 {担任} [dānrèn] = pôsobiť ako
+1 V 当 {当} [dāng] = pôsobiť ako
 2 V 遮住 {遮住} [zhēzhù] = zakrývať
 2 V 盖住 {盖住} [gàizhù] = zakrývať
 3 V 配备 {配备} [pèibèi] = vybaviť (výbavou)
@@ -1659,6 +1709,7 @@
 3 V 回荡 {回荡} [huídàng] = dunieť
 2 V 获得 {获得} [huòdé] = získať
 2 V 取得 {取得} [qǔdé] = získať
+2 V 得 {得} [dé] = získať
 3 V 一分为二 {一分为二} [yī fēn wéi èr] = rozdeliť na dve časti
 2 V 分成两半 {分成两半} [fēnchéng liǎngbàn] = rozdeliť na dve časti
 2 V 拿回 {拿回} [náhuí] = dostať späť
@@ -1743,7 +1794,10 @@
 3 V 绷 {绷} [bēng] = napnúť
 3 V 拦 {拦} [lán] = zastaviť
 3 V 沏 {沏} [qī] = zaliať
+2 V 冲 {冲} [chōng] = zaliať
+2 V 泡 {泡} [pào] = zaliať
 1 V 关机 {关|机} [guānjī] = vypnúť
+1 V 关 {关} [guān] = vypnúť
 1 N 样子 {样子} [yàngzi], 个 = vzhľad
 1 V 开展 {开展} [kāizhǎn] = uskutočniť
 2 V 担保 {担保} [dānbǎo] = zaručiť
@@ -1771,6 +1825,13 @@
 1 V 打开 {打开} [dǎkāi] = rozbaliť
 2 V 远离 {远离} [yuǎnlí] = vzdialiť sa
 2 V 走远 {走远} [zǒuyuǎn] = vzdialiť sa
+1 V 进行 {进行} [jìnxíng] = postupovať
+2 V 前进 {前进} [qiánjìn] = postupovať
+2 V 防止 {防止} [fángzhǐ] = odvrátiť
+3 V 化解 {化解} [huàjiě] = odvrátiť
+3 V 抵御 {抵御} [dǐyù] = odvrátiť
+2 V 趁 {趁} [chèn] = využiť
+3 V 揪住 {揪住} [jiūzhù] = uchopiť
 
 # change
 2 V 表现 {表现} [biǎoxiàn] = prejaviť
@@ -1805,6 +1866,28 @@
 1 V 深入 {深入} [shēnrù] = prenikať
 2 V 变软 {变软} [biànruǎn] = zmäknúť
 3 V 软化 {软化} [ruǎnhuà] = zmäknúť
+2 N 改动 {改动} [gǎidòng], 个 = pozmenenie
+3 N 变体 {变体} [biàntǐ], 个 = pozmenenie
+2 N 创造 {创造} [chuàngzào], - = stvorenie
+3 V 瓦解 {瓦解} [wǎjiě] = rozpadať sa
+3 V 解体 {解体} [jiětǐ] = rozpadať sa
+2 V 分解 {分解} [fēnjiě] = rozpadať sa
+2 V 断 {断} [duàn] = zlomiť
+2 V 折断 {折断} [zhéduàn] = zlomiť
+2 V 撕破 {撕破} [sīpò] = natrhnúť
+3 V 撕裂 {撕裂} [sīliè] = natrhnúť
+2 V 皱 {皱} [zhòu] = krčiť
+3 V 揉皱 {揉皱} [róuzhòu] = krčiť
+2 V 解开 {解开} [jiěkāi] = odopnúť
+3 V 解开安全带 {解开安全带} [jiěkāi ānquándài] = odopnúť
+2 V 系上 {系上} [jìshàng] = pripútať
+3 V 系安全带 {系安全带} [jì ānquándài] = pripútať
+2 N 分解 {分解} [fēnjiě], - = rozklad
+3 N 拆解 {拆解} [chāijiě], - = rozklad
+3 V 丑化 {丑化} [chǒuhuà] = zohyzdiť
+3 V 毁容 {毁|容} [huǐróng] = zohyzdiť
+3 AN 呆滞 {呆滞} [dāizhì] = stagnujúci
+3 AN 停滞 {停滞} [tíngzhì] = stagnujúci
 
 # more
 1 AN 另外 {另外} [lìngwài] = ďalší

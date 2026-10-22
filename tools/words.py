@@ -13,7 +13,7 @@ import check, concepts, adverbs, pinyin
 
 POSES = {"N", "V", "AN", "AV", "PRE", "P", "CON", "ART", "NUM", "PAR", "INT", "PHR"}
 COLS = ["category", "root", "derived", "freq", "pos", "word", "article", "gender", "plural", "ipa", "parts", "forms", "comparison",
-        "feminine", "model", "aux", "comb", "sk", "pinyin", "classifier", "opposite", "generic", "section"]
+        "feminine", "model", "aux", "comb", "sk", "pinyin", "classifier", "opposite", "generic", "section", "region"]
 ARTICLES = {"en": None, "es": ("el", "la", "los", "las"), "fr": ("le", "la", "l'", "les"), "it": ("il", "lo", "la", "l'", "i", "gli", "le"), "ru": None, "pl": None, "zh": None}
 ES_MODELS = {"e>ie", "o>ue", "e>i", "u>ue", "i>ie", "c>zc", "i>í", "u>ú", "irr"}
 RU_GENDERS = {"м", "ж", "с", "мн"}
@@ -179,6 +179,31 @@ def mark_section(rows):
         r["section"] = f"{os.path.splitext(c['file'])[0].replace(os.sep, '/')}/{c['section']}" if c else ""
 
 
+# the regions a word may be marked with (<lang>/rules/regional.txt); their names: `region-CODE` in <lang>/ui.txt
+REGIONS = set("AT CH DE-N DE-S UK US AU IE SCOT ES LATAM MX AR BE CA AF IT-N IT-S PL-S PL-W SIL TW HK CN-N CN-S dialect".split())
+
+
+def mark_region(rows, lang):
+    """each row's `region`: the codes of <lang>/rules/regional.txt -- a word NOT said everywhere the language is spoken
+    (`N Jänner = AT`; `POS word (concept) = CODES` when the word has two concepts); returns the problems found"""
+    path, marks, bad = os.path.join(check.TOP, lang, "rules", "regional.txt"), {}, []
+    if not os.path.exists(path): return bad
+    for i, s in enumerate(open(path, encoding="utf-8"), 1):
+        s = s.strip()
+        if not s or s.startswith("#"): continue
+        m = re.match(r"^(\S+) (.+?)(?: \((.+)\))? = (.+)$", s.split(" -- ")[0])   # (` -- note`: for the reader)
+        codes = m.group(4).split() if m else []
+        if not m or not codes or any(c not in REGIONS for c in codes): bad.append(f"{lang}/rules/regional.txt:{i}: cannot read: {s}"); continue
+        marks[(m.group(1), m.group(2), m.group(3))] = " ".join(codes)
+    used = set()
+    for r in rows:
+        sk = r["sk"][0] if isinstance(r["sk"], list) else r["sk"]
+        for k in ((r["pos"], r["word"], sk), (r["pos"], r["word"], None)):
+            if k in marks: r["region"] = marks[k]; used.add(k); break
+    bad += [f"{lang}/rules/regional.txt: no word {k[0]} {k[1]}" + (f" ({k[2]})" if k[2] else "") for k in marks if k not in used]
+    return bad
+
+
 def mark_generic(rows):
     """each row's `generic`: `POS id @ context` of the generic concept its concept is declared `of` (concepts.generics())"""
     gen = concepts.generics()
@@ -209,6 +234,7 @@ def main(lang):
     mark_opposites(rows)
     mark_generic(rows)
     mark_section(rows)
+    for b in mark_region(rows, lang): print(b); bad += 1
     missing = sorted(set(k for k in idx) - said)
     for k in missing[:30]: print(f"no {lang} word for {k[0]} {k[1]} (concepts/{idx[k]['file']})")
     print(f"{n} {lang} lines; {len(said)} of {len(idx)} concepts said; {len(missing)} without; {bad} problems")

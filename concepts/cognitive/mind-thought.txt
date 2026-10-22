@@ -150,6 +150,12 @@ AN difúzny
 AN nejednotný : adverb nejednotne
 AN homogénny : adverb homogénne
 AN menný
+N podstata
+AN vysnívaný
+N dedukcia -- odvodzovanie zo všeobecného
+V nedoceniť -- podceniť hodnotu
+N zmýšľanie -- spôsob myslenia, zmýšľania
+N podvedomie
 
 # knowing
 V vedieť
@@ -262,6 +268,8 @@ V konkretizovať
 V symbolizovať
 V napodobňovať
 V demaskovať
+N zrozumiteľnosť
+V rozoznať -- rozlíšiť jedno od druhého
 
 # memory
 N pamäť (schopnosť)
@@ -275,6 +283,9 @@ N zabudnutie
 V vybaviť si
 V spamätať sa
 N rozjímanie
+N zábudlivosť
+V vštepovať -- vtĺkať do hlavy
+AV naspamäť
 
 # intelligence
 N inteligencia
@@ -332,6 +343,12 @@ V lokalizovať
 V priorizovať
 V relativizovať
 V polarizovať
+V zblázniť sa
+V blúzniť -- hovoriť v bezvedomí alebo v horúčke
+N malér -- nepríjemná nehoda
+N šlamastika -- nepríjemná situácia
+V zapliesť do problémov -- spôsobiť niekomu nepríjemnosti
+AN vyriešený
 
 # more
 V považovať

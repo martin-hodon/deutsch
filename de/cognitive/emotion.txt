@@ -199,6 +199,37 @@
 3 N die Hoffnungslosigkeit {Hoffnungs|losigkeit} [ˈhɔfnʊŋsloːzɪçkaɪt], - = beznádej
 2 PHR im besten Fall {im besten Fall} [ɪm ˈbɛstən fal] = v najlepšom prípade
 2 V langweilen {lang|weilen} [ˈlaŋvaɪlən], hat (A) = nudiť
+3 V verstimmen {ver|stimmen} [fɛɐˈʃtɪmən], hat (A) = rozladiť
+3 V aufbrausen {auf·brausen} [ˈaʊfbʁaʊzən], ist = vzplanúť
+3 AN betrübt {be|trübt} [bəˈtʁyːpt] = zarmútený
+3 AN verängstigt {ver|ängstigt} [fɛɐˈɛŋstɪçt] = vystrašený
+3 V sich stressen {sich stressen} [zɪç ˈʃtʁɛsən], hat = stresovať sa
+3 V meiden {meiden} [ˈmaɪdən], meidet/mied/gemieden, hat (A) = vyhýbať sa
+3 N die Inbrunst {In|brunst} [ˈɪnbʁʊnst], - = horlivosť
+3 V erheitern {er|heitern} [ɛɐˈhaɪtɐn], hat (A) = baviť
+3 AN gleichmütig {gleich|mütig} [ˈɡlaɪçmyːtɪç] = vyrovnaný
+3 V verhätscheln {ver|hätscheln} [fɛɐˈhɛtʃəln], hat (A) = rozmaznávať
+3 N die Entbehrung {Ent|behrung} [ɛntˈbeːʁʊŋ], Entbehrungen = núdza
+3 V bezwingen {be|zwingen} [bəˈtsvɪŋən], bezwingt/bezwang/bezwungen, hat (A) = premôcť
+3 N die Besorgnis {Be|sorgnis} [bəˈzɔʁknɪs], Besorgnisse = starosť
+3 N der Schauder {Schauder} [ˈʃaʊdɐ], Schauder = hrôza
+3 V befremden {be|fremden} [bəˈfʁɛmdən], hat (A) = znepokojiť
+3 V verdenken {ver|denken} [fɛɐˈdɛŋkən], verdenkt/verdachte/verdacht, hat (D A) = zazlievať
+3 V wüten {wüten} [ˈvyːtən], hat = zúriť
+2 V reizen {reizen} [ˈʁaɪtsən], hat (A) = dráždiť
+3 V sich fuchsen {sich fuchsen} [zɪç ˈfʊksən], hat = nahnevať
+3 N die Erbitterung {Er|bitterung} [ɛɐˈbɪtəʁʊŋ], - = rozhorčenie
+3 N die Tobsucht {Tob|sucht} [ˈtoːpzʊxt], - = zúrivosť
+3 AN tobsüchtig {tob|süchtig} [ˈtoːpzʏçtɪç] = zúrivý
+3 V aufbringen {auf·bringen} [ˈaʊfbʁɪŋən], bringt auf/brachte auf/aufgebracht, hat (A) = rozčuľovať
+2 V nerven {nerven} [ˈnɛʁfən], hat (A) = rozčuľovať
+3 N die Verdrießlichkeit {Ver|drieß|lich|keit} [fɛɐˈdʁiːslɪçkaɪt], Verdrießlichkeiten = mrzutosť
+3 V reuen {reuen} [ˈʁɔʏən], hat (A) = ľutovať
+3 N die Entzückung {Ent|zückung} [ɛntˈtsʏkʊŋ], Entzückungen = nadšenie
+3 N das Behagen {Be|hagen} [bəˈhaːɡən], - = blaženosť
+3 N der Gram {Gram} [ɡʁaːm], - = smútok
+3 N die Plage {Plage} [ˈplaːɡə], Plagen = trápenie
+3 V sich grämen {sich grämen} [zɪç ˈɡʁɛːmən], hat (über A) = smútiť
 
 # love-hate
 1 V lieben {lieben} [ˈliːbən], hat = ľúbiť, milovať
@@ -249,6 +280,20 @@
 2 N die Sympathie {Sympathie} [zʏmpaˈtiː], Sympathien = sympatie
 3 N die Zuwendung {Zu|wendung} [ˈtsuːvɛndʊŋ], Zuwendungen = náklonnosť, pozornosť, láskavosť
 3 N die Vorliebe {Vor|liebe} [ˈfoːɐliːbə], Vorlieben = obľuba, záľuba
+3 N die Anbetung {An|betung} [ˈanbeːtʊŋ], - = zbožňovanie
+3 V aufgabeln {auf·gabeln} [ˈaʊfɡaːbəln], hat (A) = zbaliť (osobu)
+3 AN mitleidig {mit|leidig} [ˈmɪtlaɪdɪç] = súcitný
+3 AN mitfühlend {mit|fühlend} [ˈmɪtfyːlənt] = súcitný
+3 V mitleiden {mit·leiden} [ˈmɪtlaɪdən], leidet mit/litt mit/mitgelitten, hat = súcitiť
+2 N die Verzeihung {Ver|zeihung} [fɛɐˈtsaɪʊŋ], - = odpustenie
+2 V Lust haben {Lust haben} [lʊst ˈhaːbən], hat (auf A) = mať chuť
+3 AN scheußlich {scheuß|lich} [ˈʃɔʏslɪç] = ohavný
+3 N die Böswilligkeit {Bös|willig|keit} [ˈbøːsvɪlɪçkaɪt], Böswilligkeiten = zlomyseľnosť
+3 V anwidern {an·widern} [ˈanviːdɐn], hat (A) = hnusiť sa
+3 V gelüsten {ge|lüsten} [ɡəˈlʏstən], hat (A, nach D) = túžiť
+3 V schmachten {schmachten} [ˈʃmaxtən], hat (nach D) = túžiť
+3 V sich verknallen {sich ver|knallen} [zɪç fɛɐˈknalən], hat (in A) = zamilovať sa
+3 AN gütig {gütig} [ˈɡyːtɪç] = láskavý
 
 # self-social-feelings
 3 N die Scham {Scham} [ʃaːm], - = hanba
@@ -284,6 +329,12 @@
 3 N das Bekenntnis {Bekenntnis} [bəˈkɛntnɪs], Bekenntnisse = vyznanie
 3 N die Undankbarkeit {Un|dankbarkeit} [ˈʊndaŋkbaːɐkaɪt], - = nevďačnosť
 3 N die Verschlossenheit {Ver|schlossenheit} [fɛɐˈʃlɔsənhaɪt], - = uzavretosť
+3 N die Beschämung {Be|schämung} [bəˈʃɛːmʊŋ], - = zahanbenie
+3 V beschämen {be|schämen} [bəˈʃɛːmən], hat (A) = zahanbiť
+3 AN beschämt {be|schämt} [bəˈʃɛːmt] = zahanbený
+3 V entehren {ent|ehren} [ɛntˈeːʁən], hat (A) = zneuctiť
+3 AN einzelgängerisch {einzel|gängerisch} [ˈaɪntsəlɡɛŋəʁɪʃ] = samotársky
+3 AN schnöde {schnöde} [ˈʃnøːdə] = hanebný
 
 # expressions
 1 V lachen {lachen} [ˈlaxən], hat (über A) = smiať sa
@@ -324,6 +375,29 @@
 3 AN innig {innig} [ˈɪnɪç] = vrúcny, srdečný
 2 N das Weinen {Weinen} [ˈvaɪnən], - = plač
 3 V die Stirn runzeln {die Stirn runzeln} [diː ʃtɪʁn ˈʁʊntsəln], hat = mračiť sa
+3 V stutzen {stutzen} [ˈʃtʊtsən], hat = zaraziť sa
+3 N die Fratze {Fratze} [ˈfʁatsə], Fratzen = grimasa
+3 AN höhnisch {höhnisch} [ˈhøːnɪʃ] = posmešný
+3 AN scherzhaft {scherz|haft} [ˈʃɛʁtshaft] = žartovný
+3 AN spaßig {spaßig} [ˈʃpaːsɪç] = žartovný
+3 AN spaßhaft {spaß|haft} [ˈʃpaːshaft] = žartovný
+3 AN verweint {ver|weint} [fɛɐˈvaɪnt] = uplakaný
+3 V runzeln {runzeln} [ˈʁʊntsəln], hat (A) = zvraštiť
+3 V rümpfen {rümpfen} [ˈʁʏmpfən], hat (A) = zvraštiť
+3 V quengeln {quengeln} [ˈkvɛŋəln], hat = fňukať
+3 V flennen {flennen} [ˈflɛnən], hat = fňukať
+3 AN finster {finster} [ˈfɪnstɐ] = zachmúrený
+3 N der Jammer {Jammer} [ˈjamɐ], - = nárek
+3 N der Schluchzer {Schluchzer} [ˈʃlʊxtsɐ], Schluchzer = vzlyk
+3 V kichern {kichern} [ˈkɪçɐn], hat = chichotať sa
+3 N das Grinsen {Grinsen} [ˈɡʁɪnzən], - = úškrn
+3 N der Aufprall {Auf|prall} [ˈaʊfpʁal], Aufpralle = náraz
+3 N der Prall {Prall} [pʁal], Pralle = náraz
+3 V verlachen {ver|lachen} [fɛɐˈlaxən], hat (A) = posmievať sa
+3 V verspotten {ver|spotten} [fɛɐˈʃpɔtən], hat (A) = posmievať sa
+3 V spötteln {spötteln} [ˈʃpœtəln], hat (über A) = posmievať sa
+3 V feixen {feixen} [ˈfaɪksən], hat = škľabiť sa
+3 N das Mätzchen {Mätzchen} [ˈmɛtsçən], Mätzchen = žart
 
 # feelings
 3 V schwelgen {schwelgen} [ˈʃvɛlɡən], hat (in D) = hýriť, vychutnávať si
@@ -335,6 +409,49 @@
 3 AN befriedigend {be|friedigend} [bəˈfʁiːdɪɡənt] = uspokojivý, dobrý (známka)
 3 AN schmeichelhaft {schmeichel|haft} [ˈʃmaɪçəlhaft] = lichotivý
 3 V buhlen {buhlen} [ˈbuːlən], hat (um A) = dvoriť sa, uchádzať sa
+3 V bedrücken {be|drücken} [bəˈdʁʏkən], hat (A) = skľučovať
+3 AN bewundernd {be|wundernd} [bəˈvʊndɐnt] = obdivný
+3 N die Verwunderung {Ver|wunderung} [fɛɐˈvʊndəʁʊŋ], - = údiv
+3 AN verwundert {ver|wundert} [fɛɐˈvʊndɐt] = udivený
+3 AN angeekelt {an|ge|ekelt} [ˈanɡəeːkəlt] = znechutený
+3 AN überdrüssig {über|drüssig} [ˈyːbɐdʁʏsɪç] = znechutený
+3 V verleiden {ver|leiden} [fɛɐˈlaɪdən], hat (D A) = znechutiť
+3 N die Schadenfreude {Schaden|freude} [ˈʃaːdənfʁɔʏdə], - = škodoradosť
+3 AN schadenfroh {schaden|froh} [ˈʃaːdənfʁoː] = škodoradostný
+3 AN hämisch {hämisch} [ˈhɛːmɪʃ] = škodoradostný
+3 V sich erbarmen {sich er|barmen} [zɪç ɛɐˈbaʁmən], hat (G) = zľutovať sa
+3 AN barmherzig {barm|herzig} [baʁmˈhɛʁtsɪç] = milosrdný
+3 N die Anziehung {An|ziehung} [ˈantsiːʊŋ], - = príťažlivosť
+3 N die Zugkraft {Zug|kraft} [ˈtsuːkkʁaft], Zugkräfte = príťažlivosť
+3 N die Anziehungskraft {Anziehungs|kraft} [ˈantsiːʊŋskʁaft], Anziehungskräfte = príťažlivosť
+3 AN überdreht {über|dreht} [ˈyːbɐdʁeːt] = rozjašený
+3 N die Schwärmerei {Schwärmerei} [ʃvɛʁməˈʁaɪ], Schwärmereien = poblúznenie
+3 AN beunruhigt {be|unruhigt} [bəˈʊnʁuːɪçt] = znepokojený
+3 AN schockiert {schockiert} [ʃɔˈkiːɐt] = šokovaný
+3 V verdutzen {ver|dutzen} [fɛɐˈdʊtsən], hat (A) = zaraziť
+3 AN verdutzt {ver|dutzt} [fɛɐˈdʊtst] = zarazený
+3 AN bang {bang} [baŋ], bänger/am bängsten = úzkostlivý
+3 AN verbiestert {ver|biestert} [fɛɐˈbiːstɐt] = namosúrený
+3 AN zimperlich {zimperlich} [ˈtsɪmpɐlɪç] = precitlivený
+3 V sich einfühlen {sich ein·fühlen} [zɪç ˈaɪnfyːlən], hat (in A) = vcítiť sa
+3 V erschauern {er|schauern} [ɛɐˈʃaʊɐn], ist = zhroziť sa
+3 N die Beunruhigung {Be|unruhigung} [bəˈʊnʁuːɪɡʊŋ], - = znepokojenie
+3 V einschüchtern {ein·schüchtern} [ˈaɪnʃʏçtɐn], hat (A) = zastrašiť
+3 AN sehnlich {sehn|lich} [ˈzeːnlɪç] = túžobný
+3 AN sehnsüchtig {sehn|süchtig} [ˈzeːnzʏçtɪç] = túžobný
+3 AN gereizt {ge|reizt} [ɡəˈʁaɪtst] = podráždený
+3 N die Gereiztheit {Gereizt|heit} [ɡəˈʁaɪtsthaɪt], - = podráždenosť
+3 V verbittern {ver|bittern} [fɛɐˈbɪtɐn], hat (A) = strpčiť
+3 V schmollen {schmollen} [ˈʃmɔlən], hat = durdiť sa
+3 AN erregt {er|regt} [ɛɐˈʁeːkt] = rozčúlený
+3 N die Fröhlichkeit {Fröh|lich|keit} [ˈfʁøːlɪçkaɪt], - = veselosť
+3 V verdrießen {ver|drießen} [fɛɐˈdʁiːsən], verdrießt/verdross/verdrossen, hat (A) = mrzieť
+3 AN verhärmt {ver|härmt} [fɛɐˈhɛʁmt] = utrápený
+3 V betrüben {be|trüben} [bəˈtʁyːbən], hat (A) = zarmútiť
+3 V aufmuntern {auf·muntern} [ˈaʊfmʊntɐn], hat (A) = rozveseliť
+3 N die Aufmunterung {Auf|munterung} [ˈaʊfmʊntəʁʊŋ], Aufmunterungen = rozveselenie
+3 V prassen {prassen} [ˈpʁasən], hat = hýriť
+3 V verprassen {ver|prassen} [fɛɐˈpʁasən], hat (A) = hýriť
 
 # more
 3 AN geliebt {ge|liebt} [ɡəˈliːpt] = milovaný

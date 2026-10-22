@@ -57,6 +57,8 @@
 2 N die Präsenz {Präsenz} [pʁɛˈzɛnts], - = prítomnosť
 3 N die Geltung {Geltung} [ˈɡɛltʊŋ], - = platnosť, vážnosť
 3 V erlöschen {er|löschen} [ɛɐˈlœʃən], erlischt/erlosch/erloschen [ɛɐˈlɪʃt/ɛɐˈlɔʃ/ɛɐˈlɔʃən], ist = zaniknúť
+3 N die Zufälligkeit {Zu|fällig|keit} [ˈtsuːfɛlɪçkaɪt], Zufälligkeiten = náhoda
+3 PHR vorzugsweise {vorzugs|weise} [ˈfoːɐtsuːksvaɪzə] = predovšetkým
 
 # change-events
 1 V werden {werden} [ˈveːɐdən], wird/wurde/geworden [vɪʁt/ˈvʊʁdə/ɡəˈvɔʁdən], ist = stať sa, stávať sa
@@ -307,6 +309,25 @@
 2 AN endlich {endlich} [ˈɛntlɪç] = konečný
 3 N die Abnahme {Ab|nahme} [ˈapnaːmə], Abnahmen = úbytok
 2 V sich vergrößern {sich ver|größern} [zɪç fɛɐˈɡʁøːsɐn], hat = zväčšiť sa
+3 V vollenden {voll|enden} [fɔlˈɛndən], hat (A) = zavŕšiť
+3 V sich abwechseln {sich ab·wechseln} [zɪç ˈapvɛksəln], hat = striedať sa
+3 V bersten {bersten} [ˈbɛʁstən], birst/barst/geborsten, ist = prasknúť
+2 V platzen {platzen} [ˈplatsən], ist = prasknúť
+3 N das Leck {Leck} [lɛk], Lecks = únik
+3 V hapern {hapern} [ˈhaːpɐn], hat (an D) = viaznuť
+3 V unterlaufen {unter|laufen} [ʊntɐˈlaʊfən], unterläuft/unterlief/unterlaufen, ist (D) = vkradnúť sa
+2 N der Glücksfall {Glücks|fall} [ˈɡlʏksfal], Glücksfälle = šťastná náhoda
+2 V sich verwandeln {sich ver|wandeln} [zɪç fɛɐˈvandəln], hat (in A) = zmeniť sa
+2 V abschließen {ab·schließen} [ˈapʃliːsən], schließt ab/schloss ab/abgeschlossen, hat (A) = ukončiť
+3 N der Untergang {Unter|gang} [ˈʊntɐɡaŋ], Untergänge = zánik
+3 V abwandeln {ab·wandeln} [ˈapvandəln], hat (A) = pozmeniť
+3 V abhauen {ab·hauen} [ˈaphaʊən], haut ab/hieb ab/abgehauen, hat (A) = odseknúť
+3 V auflauern {auf·lauern} [ˈaʊflaʊɐn], hat (D) = striehnuť
+3 V verhüten {ver|hüten} [fɛɐˈhyːtən], hat (A) = zabrániť
+2 N die Vernichtung {Ver|nichtung} [fɛɐˈnɪçtʊŋ], - = zničenie
+3 V ausfegen {aus·fegen} [ˈaʊsfeːɡən], hat (A) = zametať
+3 V antun {an·tun} [ˈantuːn], tut an/tat an/angetan, hat (D A) = spôsobiť
+2 V nachgeben {nach·geben} [ˈnaːxɡeːbən], gibt nach/gab nach/nachgegeben, hat (D) = podvoliť sa
 
 # relations
 1 AN gleich {gleich} [ɡlaɪç] = rovnaký, rovný, hneď
@@ -321,6 +342,7 @@
 2 AN ähnlich {ähnlich} [ˈɛːnlɪç] (D) = podobný
 - 2 N die Ähnlichkeit {Ähnlich|keit} [ˈɛːnlɪçkaɪt], Ähnlichkeiten (mit D) = podobnosť
 - 3 V ähneln {ähneln} [ˈɛːnəln], hat (D) = podobať sa
+2 V sich unterscheiden {sich unter|scheiden} [zɪç ʊntɐˈʃaɪdən], unterscheidet/unterschied/unterschieden [ʊntɐˈʃaɪdət/ʊntɐˈʃiːt/ʊntɐˈʃiːdən], hat (von D, in D) = líšiť sa
 2 N der Kontrast {Kontrast} [kɔnˈtʁast], Kontraste = kontrast
 1 AN andere {andere} [ˈandəʁə] = iný, ďalší, druhý
 - 1 AV anders {anders} [ˈandɐs] = inak (iným spôsobom)
@@ -559,6 +581,22 @@
 3 N die Untergrenze {Unter|grenze} [ˈʊntɐɡʁɛntsə], Untergrenzen = dolná hranica
 3 N das Desinteresse {Des|interesse} [ˈdɛsɪntəʁɛsə], - = nezáujem
 2 V multiplizieren {multiplizieren} [mʊltipliˈtsiːʁən], hat (A mit D) = násobiť
+3 AN inbegriffen {in|begriffen} [ˈɪnbəɡʁɪfən] = zahrnutý
+3 N der Clou {Clou} [kluː], Clous = zlatý klinec
+3 AN urtümlich {ur|tümlich} [ˈuːɐtyːmlɪç] = pôvodný
+3 AV drüben {drüben} [ˈdʁyːbən] = na druhej strane
+2 V entnehmen {ent|nehmen} [ɛntˈneːmən], entnimmt/entnahm/entnommen, hat (A, aus D) = odoberať
+3 V verrammeln {ver|rammeln} [fɛɐˈʁaməln], hat (A) = zatarasiť
+3 N die Eindämmung {Ein|dämmung} [ˈaɪndɛmʊŋ], - = obmedzenie
+3 N die Sichtweise {Sicht|weise} [ˈzɪçtvaɪzə], Sichtweisen = hľadisko
+3 N die Chose {Chose} [ˈʃoːzə], Chosen = vec
+2 AV gleichfalls {gleich|falls} [ˈɡlaɪçfals] = podobne
+3 V ausfindig machen {ausfindig machen} [ˈaʊsfɪndɪç ˈmaxən], hat (A) = vypátrať
+3 V fahnden {fahnden} [ˈfaːndən], hat (nach D) = vypátrať
+3 V werten {werten} [ˈveːɐtən], hat (A) = zhodnotiť
+3 N die Auflehnung {Auf|lehnung} [ˈaʊfleːnʊŋ], - = odpor
+3 V dividieren {dividieren} [dividˈiːʁən], hat (A, durch A) = deliť
+3 N der Quotient {Quotient} [kvoˈtsiɛnt], Quotienten = podiel
 
 # transfer-basic-verbs
 1 V geben {geben} [ˈɡeːbən], gibt/gab/gegeben [ɡɪpt/ɡaːp/ɡəˈɡeːbən], hat (D A) = dať, dávať
@@ -673,6 +711,15 @@
 2 V ausstatten {aus·statten} [ˈaʊsʃtatən], hat (mit D) = vybaviť (výbavou)
 2 AN gefunden {ge|funden} [ɡəˈfʊndən] = nájdený
 3 AN defizitär {defizitär} [defitsiˈtɛːɐ] = stratový
+3 N der Entzug {Ent|zug} [ɛntˈtsuːk], - = odobratie
+3 V erbitten {er|bitten} [ɛɐˈbɪtən], erbittet/erbat/erbeten, hat (A, von D) = požiadať
+3 V erjagen {er|jagen} [ɛɐˈjaːɡən], hat (A) = uloviť
+2 V nachschlagen {nach·schlagen} [ˈnaːxʃlaːɡən], schlägt nach/schlug nach/nachgeschlagen, hat (A, in D) = vyhľadať
+3 V verwirken {ver|wirken} [fɛɐˈvɪʁkən], hat (A) = stratiť
+3 V darbieten {dar·bieten} [ˈdaːɐbiːtən], bietet dar/bot dar/dargeboten, hat (A) = ponúknuť
+3 V erdulden {er|dulden} [ɛɐˈdʊldən], hat (A) = strpieť
+2 V dulden {dulden} [ˈdʊldən], hat (A) = strpieť
+2 V einfügen {ein·fügen} [ˈaɪnfyːɡən], hat (A, in A) = vložiť (dovnútra)
 
 # action-and-use
 2 N die Aktion {Aktion} [akˈtsjoːn], Aktionen = akcia (činnosť)
@@ -879,7 +926,6 @@
 3 V durchleben {durch|leben} [dʊʁçˈleːbən], hat (A) = zažiť, prežiť
 3 V ruinieren {ruinieren} [ʁuiˈniːʁən], hat (A) = zruinovať, zničiť
 3 V versäumen {ver|säumen} [fɛɐˈzɔɪmən], hat (A) = zameškať, premeškať
-3 V taugen {taugen} [ˈtaʊɡən], hat (zu D, für A) = hodiť sa, byť dobrý
 3 V vergünstigen {ver|günstigen} [fɛɐˈɡʏnstɪɡən], hat (A) = zlacniť, zvýhodniť
 3 V schmeißen {schmeißen} [ˈʃmaɪsən], schmeißt/schmiss/geschmissen [ʃmaɪst/ʃmɪs/ɡəˈʃmɪsən], hat (A) = hodiť, mrštiť
 2 V absprechen {ab·sprechen} [ˈapʃpʁɛçən], spricht ab/sprach ab/abgesprochen [ʃpʁɪçt ap/ʃpʁaːx ap/ˈapɡəʃpʁɔxən], hat (D A) = uprieť, dohodnúť (si)
@@ -1048,6 +1094,43 @@
 3 V missverstehen {miss|verstehen} [mɪsfɛɐˈʃteːən], missversteht/missverstand/missverstanden [mɪsfɛɐˈʃteːt/mɪsfɛɐˈʃtant/mɪsfɛɐˈʃtandən], hat (A) = nepochopiť, zle pochopiť
 2 V auspacken {aus·packen} [ˈaʊspakən], hat (A) = rozbaliť
 2 V sich entfernen {sich ent|fernen} [zɪç ɛntˈfɛʁnən], hat (von D) = vzdialiť sa
+2 V vorgehen {vor·gehen} [ˈfoːɐɡeːən], geht vor/ging vor/vorgegangen, ist = postupovať
+3 V abwehren {ab·wehren} [ˈapveːʁən], hat (A) = odvrátiť
+3 V straffen {straffen} [ˈʃtʁafən], hat (A, sich A) = napnúť
+3 V ausstreuen {aus·streuen} [ˈaʊsʃtʁɔʏən], hat (A) = rozsypať
+3 V kentern {kentern} [ˈkɛntɐn], ist = prevrátiť sa
+3 V zerdeppern {zer|deppern} [tsɛɐˈdɛpɐn], hat (A) = rozbiť na kusy
+3 V abreißen {ab·reißen} [ˈapʁaɪsən], reißt ab/riss ab/abgerissen, hat/ist (A) = odtrhnúť
+3 V einstehen {ein·stehen} [ˈaɪnʃteːən], steht ein/stand ein/eingestanden, hat (für A) = zaručiť
+3 V bürgen {bürgen} [ˈbʏʁɡən], hat (für A) = zaručiť
+3 V entgegnen {ent|gegnen} [ɛntˈɡeːɡnən], hat (D) = odvetiť
+3 V auffressen {auf·fressen} [ˈaʊffʁɛsən], frisst auf/fraß auf/aufgefressen, hat (A) = zjesť
+3 V verkorksen {ver|korksen} [fɛɐˈkɔʁksən], hat (A) = pokaziť
+3 V verbocken {ver|bocken} [fɛɐˈbɔkən], hat (A) = pokaziť
+3 V verlocken {ver|locken} [fɛɐˈlɔkən], hat (A, zu D) = lákať
+3 V buddeln {buddeln} [ˈbʊdəln], hat = hrabať sa
+3 AN hold {hold} [hɔlt] = pôvabný
+3 AN anmutig {an|mutig} [ˈanmuːtɪç] = pôvabný
+3 V vermasseln {ver|masseln} [fɛɐˈmasəln], hat (A) = zbabrať
+3 V verpfuschen {ver|pfuschen} [fɛɐˈpfʊʃən], hat (A) = zbabrať
+2 V reichen {reichen} [ˈʁaɪçən], hat (D A) = podať
+3 V vergeuden {ver|geuden} [fɛɐˈɡɔʏdən], hat (A) = premárniť
+3 V vertun {ver|tun} [fɛɐˈtuːn], vertut/vertat/vertan, hat (A) = premárniť
+3 V abzahlen {ab·zahlen} [ˈaptsaːlən], hat (A) = splatiť
+3 V begleichen {be|gleichen} [bəˈɡlaɪçən], begleicht/beglich/beglichen, hat (A) = splatiť
+3 V abgelten {ab·gelten} [ˈapɡɛltən], gilt ab/galt ab/abgegolten, hat (A) = splatiť
+3 N die Gage {Gage} [ˈɡaːʒə], Gagen = honorár
+3 V verdrecken {ver|drecken} [fɛɐˈdʁɛkən], hat/ist (A) = pošpiniť
+3 V versauen {ver|sauen} [fɛɐˈzaʊən], hat (A) = pošpiniť
+3 V besudeln {be|sudeln} [bəˈzuːdəln], hat (A, mit D) = pošpiniť
+3 V auffassen {auf·fassen} [ˈaʊffasən], hat (A, als A) = chápať
+3 AN flink {flink} [flɪŋk] = obratný
+3 AN hurtig {hurtig} [ˈhʊʁtɪç] = obratný
+3 V verlöschen {ver|löschen} [fɛɐˈlœʃən], verlischt/verlosch/verloschen, ist = zhasiť
+3 V sich verhaspeln {sich ver|haspeln} [zɪç fɛɐˈhaspəln], hat = zadrhávať
+3 V blubbern {blubbern} [ˈblʊbɐn], hat = bublať
+3 V jauchzen {jauchzen} [ˈjaʊxtsən], hat = jasať
+3 V johlen {johlen} [ˈjoːlən], hat = jasať
 
 # change
 3 V manifestieren {manifestieren} [manifɛsˈtiːʁən], hat (A, sich A) = prejaviť, manifestovať
@@ -1065,6 +1148,19 @@
 3 V bugsieren {bugsieren} [bʊkˈsiːʁən], hat (A) = dostať s námahou, dostať, dopraviť s námahou
 3 V umschreiben {um|schreiben} [ʊmˈʃʁaɪbən], umschreibt/umschrieb/umschrieben [ʊmˈʃʁaɪpt/ʊmˈʃʁiːp/ʊmˈʃʁiːbən], hat (A) = parafrázovať, opísať
 2 V weich werden {weich werden} [vaɪç ˈveːɐdən], wird weich/wurde weich/weich geworden [vɪʁt vaɪç/ˈvʊʁdə vaɪç/vaɪç ɡəˈvɔʁdən], ist = zmäknúť
+3 N die Abwandlung {Ab|wandlung} [ˈapvandlʊŋ], Abwandlungen = pozmenenie
+3 N die Erschaffung {Er|schaffung} [ɛɐˈʃafʊŋ], - = stvorenie
+3 V zerfallen {zer|fallen} [tsɛɐˈfalən], zerfällt/zerfiel/zerfallen, ist = rozpadať sa
+2 V brechen {brechen} [ˈbʁɛçən], bricht/brach/gebrochen, hat/ist (A) = zlomiť
+3 V einreißen {ein·reißen} [ˈaɪnʁaɪsən], reißt ein/riss ein/eingerissen, hat/ist (A) = natrhnúť
+3 V knüllen {knüllen} [ˈknʏlən], hat (A) = krčiť
+3 V knittern {knittern} [ˈknɪtɐn], hat = krčiť
+3 V abschnallen {ab·schnallen} [ˈapʃnalən], hat (A, sich A) = odopnúť
+3 V anschnallen {an·schnallen} [ˈanʃnalən], hat (A, sich A) = pripútať
+3 N die Zerlegung {Zer|legung} [tsɛɐˈleːɡʊŋ], Zerlegungen = rozklad
+3 V verschandeln {ver|schandeln} [fɛɐˈʃandəln], hat (A) = zohyzdiť
+3 AN stagnierend {stagnierend} [staɡˈniːʁənt] = stagnujúci
+3 V umbinden {um·binden} [ˈʊmbɪndən], bindet um/band um/umgebunden, hat (A, sich D) = obviazať
 
 # more
 1 AN weiter {weiter} [ˈvaɪtɐ] = ďalší

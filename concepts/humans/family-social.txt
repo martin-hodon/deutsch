@@ -59,6 +59,12 @@ N vychovávateľ
 N blízky
 N vnúča
 N švagor
+N pradedo
+N prababka
+N švagriná
+N svokrovci
+N nevlastný brat
+N krstný syn
 
 # people-stages
 N osoba
@@ -95,6 +101,17 @@ N chlap : of muž @ hovorovo
 N mládenec
 N single
 AN homofóbny
+N černoch
+N silák
+N nešika
+N sopliak
+N skaut
+N ostrovan
+N samotár -- človek, ktorý žije sám
+N dvadsiatnik -- človek okolo dvadsiatky
+AN starecký
+AN postarší
+N batoľa
 
 # marriage-social-bonds
 V oženiť sa
@@ -150,6 +167,10 @@ N spolubývajúci
 N životný partner
 N životná partnerka
 N flirt
+N družička
+N veno
+N zrušenie zásnub
+N cudzoložstvo
 
 # social-interaction
 V stretnúť
@@ -287,9 +308,53 @@ N potupa
 N hostinský
 V obdarovať
 V izolovať sa
+N faux pas -- spoločenský prehrešok
+AN svorný -- žijúci v zhode
+V obskakovať -- podlízavo slúžiť
+N zvádzanie -- lákanie na zlé alebo na lásku
+N popularita -- obľúbenosť u ľudí
+N tlačenica -- hustý dav, tlačenie sa
+N okruh -- skupina ľudí
+V vypomôcť -- pomôcť v núdzi niečím
+V dopomôcť -- pomôcť k niečomu
+N rozmaznanie -- prílišné dopriavanie
+N obťažovanie
+V karhať -- vyčítať niekomu chybu
+V maznať sa
+V zhromaždiť sa
+N prisluhovač -- poskok, ochotný pomocník zlého
+INT ahoj
+N naničhodník
+N lotor
+N fagan -- neposlušné dieťa
+N hulvát
+N ignorant
+N pajác
+N súdruh
+N fičúr
+N zberba
+N pokrytec
+N chamtivec
+N chuligán
+N bifľoš
+N žalobaba
+N sliedič
+N kočka -- atraktívna žena, hovorovo
+N prostitútka
+N cundra
+N drzaňa
+N hlupana -- hlúpa žena
+N dotieravec -- otravný človek
+N mrcha
+N husí pochod -- rad ľudí idúcich jeden za druhým
+N pätolízač
+N hajzel
+N udavač
+N pocta
 
 # contact
 V túliť sa
+N pohladenie
 
 # more
 V spoliehať sa

@@ -106,6 +106,11 @@ AN fašistický
 AN autokratický
 V emigrovať
 V imigrovať
+N dvorná dáma
+N nevoľník
+N komorná -- služobná dámy na dvore
+N služobníctvo
+V inaugurovať -- slávnostne uviesť do užívania
 
 # state-politics
 N štát
@@ -432,6 +437,16 @@ V propagovať
 V poučiť
 V sídliť
 AN právnoštátny
+N výsosť -- titul panovníka
+N dynastia
+N knieža
+N gróf
+N žezlo
+N erb
+N sociálny štát
+N abdikácia
+N konfederácia
+N vyslanec
 
 # law-justice
 N zákon
@@ -643,10 +658,56 @@ V legitimizovať
 V anulovať
 V stanoviť termín
 AN prebiehajúci (súdne)
+AN sprisahanecký
+V zakneblovať -- zalepiť alebo zapchať ústa
+N putá
+N kat
+N žalár
+N pranier
+N šibenica
+N hranica na upálenie -- hranica dreva, na ktorej sa upaľuje
+N zákonník
+V previniť sa -- porušiť pravidlo
+N káznica -- ťažké väzenie s prácou
+N právnik
+N odsúdenec
+V svedčiť -- vypovedať ako svedok
+N oprávnenie
+V krivdiť
+N vreckár
+N kauza -- právny prípad
+N trest smrti
+N väzenská cela
+N súdny spor
+N popravisko
+N priekupník -- kupec kradnutého tovaru
+V pristihnúť -- prichytiť pri čine
+N prenasledovateľ
+V zbaviť práv
+N násilník -- človek, ktorý používa násilie
+N podpaľač -- ten, kto zapaľuje
+V vykorisťovať -- zneužívať prácu iných
+N vykorisťovanie -- zneužívanie práce iných
+N pirát -- námorný lupič
+N falšovateľ -- ten, kto falšuje
+N výpalné -- peniaze za ochranu
+N úžera -- požičiavanie s nezmyselným úrokom
+V spreneveriť -- prisvojiť si cudzie peniaze
+N sprenevera -- prisvojenie cudzích peňazí
+N pašovanie -- ilegálny prevoz tovaru
+N pašerák -- ten, kto pašuje
+N znásilnenie -- sexuálne násilie
+V mučiť -- spôsobovať veľkú bolesť
+N pytliak -- ten, kto nezákonne loví
+N krivá prísaha
+V obesiť
 
 # politics
 V radikalizovať
 V ratifikovať
+N vyjednávač
+N ideológia
+N poslanecké kreslo -- miesto poslanca v parlamente
 
 # more
 AN volebný

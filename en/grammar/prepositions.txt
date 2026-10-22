@@ -46,6 +46,8 @@
 2 PRE including {including} [ɪnˈkluːdɪŋ] = vrátane
 1 PRE due to {due to} [ˈdjuː tuː] = kvôli
 1 PRE based on {based on} [ˈbeɪst ɒn] = na základe
+3 PRE from among {from·among} [frəm əˈmʌŋ] = spomedzi
+3 PRE subject to {subject·to} [ˈsʌbdʒɪkt tuː] = s výhradou
 # two-way
 1 PRE on {on} [ɒn] = na (v kontakte)
 1 PRE on {on} [ɒn] = na (navrchu)

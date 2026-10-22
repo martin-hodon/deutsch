@@ -129,6 +129,19 @@
 2 N das Heim {Heim} [haɪm], Heime = domov, ústav
 - 3 V beheimaten {be|heim|aten} [bəˈhaɪmatən], hat (A) = byť domovom pre
 3 AN freistehend {frei|stehend} [ˈfʁaɪʃteːənt] = voľne stojaci, samostatne stojaci
+3 N das Sims {Sims} [zɪms], Simse = rímsa
+3 N das Obdach {Ob|dach} [ˈɔpdax], - = prístrešie
+3 N der Einbau {Ein|bau} [ˈaɪnbaʊ], - = zabudovanie
+3 N die Sprosse {Sprosse} [ˈʃpʁɔsə], Sprossen = priečka rebríka
+3 N der Estrich {Estrich} [ˈɛstʁɪç], Estriche = poter
+3 N der Pfeiler {Pfeiler} [ˈpfaɪlɐ], Pfeiler = pilier
+3 N die Pforte {Pforte} [ˈpfɔʁtə], Pforten = bránka
+2 N die Hütte {Hütte} [ˈhʏtə], Hütten = chatrč
+3 N der Schlot {Schlot} [ʃloːt], Schlote = komín
+3 N die Traufe {Traufe} [ˈtʁaʊfə], Traufen = odkvap
+3 N die Klinke {Klinke} [ˈklɪŋkə], Klinken = kľučka
+3 N die Pacht {Pacht} [paxt], Pachten = nájom
+2 N das Federbett {Feder|bett} [ˈfeːdɐbɛt], Federbetten = paplón
 
 # rooms
 1 N das Zimmer {Zimmer} [ˈtsɪmɐ], Zimmer = izba, miestnosť
@@ -153,6 +166,9 @@
 3 N der Wohnraum {Wohn|raum} [ˈvoːnʁaʊm], Wohnräume = obytný priestor, bývanie
 2 N das Arbeitszimmer {Arbeits|zimmer} [ˈaʁbaɪtstsɪmɐ], Arbeitszimmer = pracovňa
 3 N die Kammer {Kammer} [ˈkamɐ], Kammern = komora, izbieta
+3 N die Diele {Diele} [ˈdiːlə], Dielen = predsieň (chodba)
+2 N der Salon {Salon} [zaˈlɔŋ], Salons = salón
+2 N das Klo {Klo} [kloː], Klos = toaleta
 
 # furniture
 1 N die Möbel {Möbel} [ˈmøːbəl], PL = nábytok
@@ -203,6 +219,12 @@
 3 N der Kleiderbügel {Kleider|bügel} [ˈklaɪdɐbyːɡəl], Kleiderbügel = vešiak
 2 N die Wiege {Wiege} [ˈviːɡə], Wiegen = kolíska
 3 N die Hängematte {Hänge|matte} [ˈhɛŋəmatə], Hängematten = hojdacia sieť
+3 N die Vitrine {Vitrine} [viˈtʁiːnə], Vitrinen = vitrína
+2 N das Schränkchen {Schränk|chen} [ˈʃʁɛŋkçən], Schränkchen = skrinka
+3 N die Armlehne {Arm|lehne} [ˈaʁmleːnə], Armlehnen = opierka
+2 N der Bügel {Bügel} [ˈbyːɡl̩], Bügel = vešiak
+3 N der Schemel {Schemel} [ˈʃeːml̩], Schemel = taburetka
+3 N die Funzel {Funzel} [ˈfʊntsl̩], Funzeln = lampa
 
 # household-objects
 1 N der Schlüssel {Schlüssel} [ˈʃlʏsəl], Schlüssel = kľúč
@@ -270,6 +292,28 @@
 2 N der Kasten {Kasten} [ˈkastən], Kästen = bedňa, škatuľa
 2 N die Platte {Platte} [ˈplatə], Platten = platňa, doska, tanier
 - 2 N die Platte {Platte} [ˈplatə], Platten = doska
+2 N die Gardine {Gardine} [ɡaʁˈdiːnə], Gardinen = záclona
+2 N die Schnur {Schnur} [ʃnuːɐ̯], Schnüre = šnúra
+3 N die Fackel {Fackel} [ˈfakl̩], Fackeln = pochodeň
+3 N der Wedel {Wedel} [ˈveːdl̩], Wedel = prachovka
+3 N der Duschkopf {Dusch|kopf} [ˈdʊʃkɔpf], Duschköpfe = sprchová hlavica
+3 N der Brausekopf {Brause|kopf} [ˈbʁaʊzəkɔpf], Brauseköpfe = sprchová hlavica
+3 N die Toilettenschüssel {Toiletten|schüssel} [toaˈlɛtn̩ʃʏsl̩], Toilettenschüsseln = záchodová misa
+3 N der Bettbezug {Bett|bezug} [ˈbɛtbətsuːk], Bettbezüge = obliečka na paplón
+3 N der Locher {Locher} [ˈlɔxɐ], Locher = dierkovačka
+3 N der Hefter {Hefter} [ˈhɛftɐ], Hefter = zošívačka
+2 N der Schnuller {Schnuller} [ˈʃnʊlɐ], Schnuller = cumlík
+3 N die Kippe {Kippe} [ˈkɪpə], Kippen = ohorok
+3 N der Krempel {Krempel} [ˈkʁɛmpl̩], - = haraburdy
+3 N der Kram {Kram} [kʁaːm], - = haraburdy
+3 N der Ramsch {Ramsch} [ʁamʃ], - = haraburdy
+3 N der Zerstäuber {Zer|stäuber} [tsɛɐˈʃtɔʏbɐ], Zerstäuber = rozprašovač
+2 N die Jalousie {Jalousie} [ʒaluˈziː], Jalousien = žalúzia
+3 N der Henkel {Henkel} [ˈhɛŋkl̩], Henkel = uško (držadlo)
+3 N der Lumpen {Lumpen} [ˈlʊmpn̩], Lumpen = handra
+3 N der Schaft {Schaft} [ʃaft], Schäfte = rukoväť
+3 V einsperren {ein·sperren} [ˈaɪnʃpɛʁən], hat (A) = zamknúť
+3 V schellen {schellen} [ˈʃɛlən], hat = zvoniť
 
 # household-actions
 1 V putzen {putzen} [ˈpʊtsən], hat (A) = čistiť, upratovať
@@ -300,3 +344,8 @@
 2 AN gemütlich {gemüt|lich} [ɡəˈmyːtlɪç] = útulný, príjemný
 - 3 AN ungemütlich {un|gemüt|lich} [ˈʊnɡəmyːtlɪç] = neútulný, nepríjemný
 - 3 N die Gemütlichkeit {Gemüt|lich|keit} [ɡəˈmyːtlɪçkaɪt], - = útulnosť, pohoda
+3 V abräumen {ab·räumen} [ˈapʁɔʏmən], hat (A) = odpratať
+3 V verriegeln {ver|riegeln} [fɛɐˈʁiːɡəln], hat (A) = zahasprovať
+3 V behängen {be|hängen} [bəˈhɛŋən], hat (A, mit D) = ovešať
+3 V aussperren {aus·sperren} [ˈaʊsʃpɛʁən], hat (A) = vymknúť
+3 N der Klecks {Klecks} [klɛks], Kleckse = škvrna

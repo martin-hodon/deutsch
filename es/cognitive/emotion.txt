@@ -273,6 +273,15 @@
 2 N la desesperación {des|esperación} [desespeɾaˈθjon], desesperaciones = beznádej
 2 PHR en el mejor de los casos {en el mejor de los casos} [en el meˈxoɾ de los ˈkasos] = v najlepšom prípade
 1 V aburrir {aburrir} [aβuˈriɾ] = nudiť
+3 V contrariar {contrariar} [kontɾaˈɾjaɾ], i>í = rozladiť
+3 V encolerizarse {encolerizar|se} [eŋkoleɾiˈθaɾse] = vzplanúť
+2 AN afligido {afligido} [afliˈxiðo], afligida = zarmútený
+2 AN asustado {asustado} [asusˈtaðo], asustada = vystrašený
+3 V atosigarse {atosigar|se} [atosiˈɣaɾse] = stresovať sa
+2 V estresarse {estresar|se} [estɾeˈsaɾse] = stresovať sa
+2 V gozar {gozar} [ɡoˈθaɾ] (de) = vychutnávať si
+3 V sosegar {sosegar} [soseˈɣaɾ], e>ie = upokojiť
+3 V pasmar {pasmar} [pasˈmaɾ] = ohromiť
 
 # love-hate
 1 V amar {amar} [aˈmaɾ] = ľúbiť
@@ -335,6 +344,14 @@
 2 N el afecto {afecto} [aˈfekto], afectos = náklonnosť
 2 N la preferencia {preferencia} [pɾefeˈɾenθja], preferencias = obľuba
 3 N la predilección {predilección} [pɾeðilekˈθjon], predilecciones = obľuba
+3 N la adoración {adoración} [aðoɾaˈθjon], adoraciones = zbožňovanie
+2 V ligar {ligar} [liˈɣaɾ] = zbaliť (osobu)
+3 AN compasivo {compasivo} [kompaˈsiβo], compasiva = súcitný
+3 V compadecer {compadecer} [kompaðeˈθeɾ], c>zc = súcitiť
+2 N el perdón {perdón} [peɾˈðon], perdones = odpustenie
+3 V apetecer {apetecer} [apeteˈθeɾ], c>zc = mať chuť
+2 N la gana {gana} [ˈɡana], ganas = túžba
+3 V aborrecer {aborrecer} [aβoreˈθeɾ], c>zc = nenávidieť
 
 # self-social-feelings
 1 N la vergüenza {vergüenza} [beɾˈɣwenθa], vergüenzas = hanba
@@ -385,6 +402,12 @@
 3 N la ingratitud {in|gratitud} [iŋɡɾatiˈtuð], - = nevďačnosť
 2 N la reserva {reserva} [reˈseɾβa], reservas = uzavretosť
 3 N el retraimiento {retraimiento} [retɾaiˈmjento], retraimientos = uzavretosť
+2 N la humillación {humillación} [umiʎaˈθjon], humillaciones = zahanbenie
+2 V avergonzar {avergonzar} [aβeɾɣonˈθaɾ], o>ue = zahanbiť
+2 AN avergonzado {avergonzado} [aβeɾɣonˈθaðo], avergonzada = zahanbený
+3 V deshonrar {des|honrar} [desonˈraɾ] = zneuctiť
+3 AN huraño {huraño} [uˈɾaɲo], huraña = samotársky
+3 AN perplejo {perplejo} [peɾˈplexo], perpleja = rozpačitý
 
 # expressions
 1 V reírse {reírse} [reˈiɾse], e>i = smiať sa
@@ -432,6 +455,19 @@
 2 N el llanto {llanto} [ˈʎanto], llantos = plač
 3 N el lloro {lloro} [ˈʎoɾo], lloros = plač
 2 V fruncir el ceño {fruncir el ceño} [fɾunˈθiɾ el ˈθeɲo] = mračiť sa
+3 V quedarse perplejo {quedarse perplejo} [keˈðaɾse peɾˈplexo] = zaraziť sa
+3 N la mueca {mueca} [ˈmweka], muecas = grimasa
+3 AN burlón {burlón} [buɾˈlon], burlona = posmešný
+3 AN jocoso {jocoso} [xoˈkoso], jocosa = žartovný
+3 AN lloroso {lloroso} [ʎoˈɾoso], llorosa = uplakaný
+3 V fruncir {fruncir} [fɾunˈθiɾ] = zvraštiť
+3 V gimotear {gimotear} [ximoteˈaɾ] = fňukať
+3 V lloriquear {lloriquear} [ʎoɾikeˈaɾ] = fňukať
+3 AN ceñudo {ceñudo} [θeˈɲuðo], ceñuda = zachmúrený
+3 N el lamento {lamento} [laˈmento], lamentos = nárek
+3 N el sollozo {sollozo} [soˈʎoθo], sollozos = vzlyk
+3 V soltar risitas {soltar risitas} [solˈtaɾ riˈsitas], o>ue = chichotať sa
+3 N el rictus {rictus} [ˈriktus], rictus = úškrn
 
 # feelings
 3 V regodearse {regodearse} [reɣoðeˈaɾse] = hýriť
@@ -448,3 +484,40 @@
 1 AN querido {querido} [keˈɾiðo], querida = milovaný
 3 AN amado {amado} [aˈmaðo], amada = milovaný
 3 AV embriagadoramente {embriagadoramente} [embɾjaɣaðoɾaˈmente] = opojne
+2 V deprimir {deprimir} [depɾiˈmiɾ] = skľučovať
+3 AN admirativo {admirativo} [aðmiɾaˈtiβo], admirativa = obdivný
+3 N el asombro {asombro} [aˈsombɾo], asombros = údiv
+2 AN asombrado {asombrado} [asomˈbɾaðo], asombrada = udivený
+3 AN asqueado {asqueado} [askeˈaðo], asqueada = znechutený
+3 AN hastiado {hastiado} [asˈtjaðo], hastiada = znechutený
+2 V disgustar {disgustar} [disɣusˈtaɾ] = znechutiť
+3 V desganar {desganar} [desɣaˈnaɾ] = znechutiť
+3 V apiadarse {apiadar|se} [apjaˈðaɾse] (de) = zľutovať sa
+3 AN misericordioso {misericordi|oso} [miseɾikoɾˈðjoso], misericordiosa = milosrdný
+2 N la atracción {atracción} [atɾakˈθjon], atracciones = príťažlivosť
+3 AN alborozado {alborozado} [alβoɾoˈθaðo], alborozada = rozjašený
+3 N el embeleso {embeleso} [embeˈleso], embelesos = poblúznenie
+2 AN inquieto {inquieto} [iŋˈkjeto], inquieta = znepokojený
+3 AN conmocionado {conmocionado} [konmoθjoˈnaðo], conmocionada = šokovaný
+3 V desconcertar {desconcertar} [deskonθeɾˈtaɾ], e>ie = zaraziť
+3 AN desconcertado {desconcertado} [deskonθeɾˈtaðo], desconcertada = zarazený
+2 AN ansioso {ansioso} [anˈsjoso], ansiosa = úzkostlivý
+3 AN malhumorado {malhumorado} [malumoˈɾaðo], malhumorada = namosúrený
+3 AN remilgado {remilgado} [remilˈɣaðo], remilgada = precitlivený
+3 V empatizar {empatizar} [empatiˈθaɾ] (con) = vcítiť sa
+3 V estremecerse {estremecer|se} [estɾemeˈθeɾse], c>zc = zhroziť sa
+2 N la preocupación {preocupación} [pɾeokupaˈθjon], preocupaciones = znepokojenie
+3 V acobardar {acobardar} [akoβaɾˈðaɾ] = zastrašiť
+3 V intimidar {intimidar} [intimiˈðaɾ] = zastrašiť
+3 AN anhelante {anhelante} [aneˈlante] = túžobný
+2 AN irritado {irritado} [iriˈtaðo], irritada = podráždený
+3 N la irritación {irritación} [iritaˈθjon], irritaciones = podráždenosť
+3 V amargar {amargar} [amaɾˈɣaɾ] = strpčiť
+3 V enfurruñarse {enfurruñar|se} [emfuruˈɲaɾse] = durdiť sa
+3 AN agitado {agitado} [axiˈtaðo], agitada = rozčúlený
+2 N la alegría {alegría} [aleˈɣɾia], alegrías = veselosť
+2 V fastidiar {fastidiar} [fastiˈðjaɾ] = mrzieť
+3 AN atribulado {atribulado} [atɾiβuˈlaðo], atribulada = utrápený
+3 V entristecer {entristecer} [entɾisteˈθeɾ], c>zc = zarmútiť
+2 V alegrar {alegrar} [aleˈɣɾaɾ] = rozveseliť
+3 N el aliento {aliento} [aˈljento], alientos = rozveselenie

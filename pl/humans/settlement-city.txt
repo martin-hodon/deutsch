@@ -35,6 +35,10 @@
 2 N rodzinne miasto {rodzinne miasto} [rɔˈdʑinːɛ ˈmʲastɔ], n, rodzinne miasta = rodné mesto
 2 N ojczyzna {ojczyzna} [ɔjˈtʂɨzna], ż, ojczyzny = rodná krajina
 2 N miasto portowe {miasto portowe} [ˈmʲastɔ pɔrˈtɔvɛ], n, miasta portowe = prístavné mesto
+3 N zadupie {zadupie} [zaˈdupʲɛ], n, zadupia = zapadákov
+3 AN tubylczy {tubylczy} [tuˈbɨltʂɨ] = domorodý
+3 AN koczowniczy {koczowniczy} [kɔtʂɔvˈɲitʂɨ] = kočovný
+3 AN wędrowny {wędrowny} [vɛnˈdrɔvnɨ] = kočovný
 
 # streets-places
 1 N ulica {ulica} [uˈlitsa], ż, ulice = ulica
@@ -72,6 +76,9 @@
 1 N chodnik {chodnik} [ˈxɔdɲik], m, chodniki = chodník
 3 N pobocze {pobocze} [pɔˈbɔtʂɛ], n, pobocza = okraj cesty
 2 N przejście podziemne {przejście podziemne} [ˈpʂɛjɕtɕɛ pɔˈdʑɛmnɛ], n, przejścia podziemne = podchod
+3 N ściek {ściek} [ɕtɕɛk], m, ścieki = stoka
+2 N studnia {studnia} [ˈstudɲa], ż, studnie = studňa
+3 N kostka brukowa {kostka brukowa} [ˈkɔstka bruˈkɔva], ż, kostki brukowe = dlažobná kocka
 
 # buildings
 1 N budynek {budynek} [buˈdɨnɛk], m, budynki = budova
@@ -142,6 +149,18 @@
 2 N kąpielisko {kąpielisko} [kɔmpʲɛˈliskɔ], n, kąpieliska = letné kúpalisko
 2 N odkryty basen {odkryty basen} [ɔtˈkrɨtɨ ˈbasɛn], m, odkryte baseny = letné kúpalisko
 2 N sala koncertowa {sala koncertowa} [ˈsala kɔntsɛrˈtɔva], ż, sale koncertowe = koncertná sála
+3 N most zwodzony {most zwodzony} [mɔst zvɔˈdzɔnɨ], m, mosty zwodzone = padací most
+3 N minaret {minaret} [mʲiˈnarɛt], m, minarety = minaret
+3 N krematorium {krematorium} [krɛmaˈtɔrjum], n, krematoria = krematórium
+3 N grobowiec {grobowiec} [ɡrɔˈbɔvʲɛts], m, grobowce = hrobka
+3 N labirynt {labirynt} [laˈbʲirɨnt], m, labirynty = bludisko
+3 N szczątki {szczątki} [ˈʂtʂɔntki], lm, szczątki = trosky
+3 N działka budowlana {działka budowlana} [ˈdʑawka budɔvˈlana], ż, działki budowlane = stavebný pozemok
+2 N materiał budowlany {materiał budowlany} [maˈtɛrjaw budɔvˈlanɨ], m, materiały budowlane = stavebný materiál
+3 N budownictwo {budownictwo} [budɔvˈɲitstfɔ], n, - = stavebníctvo
+3 V dobudowywać {do|budowywać} [dɔbudɔˈvɨvatɕ], dobudować (B) = pristavať
+3 N dobudówka {dobudówka} [dɔbuˈdufka], ż, dobudówki = prístavba
+3 N styl architektoniczny {styl architektoniczny} [stɨl arxitɛktɔˈɲitʂnɨ], m, style architektoniczne = stavebný sloh
 
 # city-life
 1 N adres {adres} [ˈadrɛs], m, adresy = adresa
@@ -171,6 +190,7 @@
 2 N rada miejska {rada miejska} [ˈrada ˈmʲɛjska], ż, rady miejskie = mestská rada
 2 N odpust {odpust} [ˈɔtpust], m, odpusty = pút
 2 N jarmark {jarmark} [ˈjarmark], m, jarmarki = pút
+3 N włóczęga {włóczęga} [vwuˈtʂɛŋɡa], m, włóczędzy = tulák
 
 # settling
 2 V osiedlać {osiedlać} [ɔˈɕɛdlatɕ], osiedlić = osídľovať

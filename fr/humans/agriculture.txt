@@ -52,6 +52,21 @@
 3 N le silo {silo} [siˈlo], silos = silo
 3 N la bêche {bêche} [bɛʃ], bêches = rýľ
 3 V cultiver {cultiver} [kyltiˈve] = kultivovať
+3 V transplanter {trans|planter} [tʁɑ̃splɑ̃ˈte] = presadiť (rastlinu)
+3 V sarcler {sarcler} [saʁˈkle] = plieť
+3 V désherber {dés|herber} [dezɛʁˈbe] = plieť
+3 N la jachère {jachère} [ʒaˈʃɛʁ], jachères = prieloh
+3 V herser {herser} [ɛʁˈse] = kypriť
+3 N la trouée {trouée} [tʁuˈe], trouées = priesek
+3 N le déboisement {déboise|ment} [debwazˈmɑ̃], déboisements = výrub
+3 V abattre {abattre} [aˈbatʁ], irr = vyrúbať
+2 V cueillir {cueillir} [kœˈjiʁ], irr, cueilli = oberať
+2 N la moisson {moisson} [mwaˈsɔ̃], moissons = žatva
+3 N les semailles (f) {semailles} [səˈmaj], PL = osev
+3 N l'osier (m) {osier} [oˈzje], - = prútie
+3 N le labour {labour} [laˈbuʁ], labours = orba
+3 V bêcher {bêcher} [bɛˈʃe] = rýľovať
+2 N le fermier {fermier} [fɛʁˈmje], fermiers = roľník
 
 # crops
 2 N la céréale {céréale} [seʁeˈal], céréales = obilie
@@ -70,6 +85,8 @@
 2 N la paille {paille} [paj], pailles = slama
 3 N le plant {plant} [plɑ̃], plants = sadenica
 3 N la balle {balle} [bal], balles = bala
+3 N le millet {millet} [miˈjɛ], millets = proso
+3 N le malt {malt} [malt], - = slad
 
 # livestock-keeping
 2 N le bétail {bétail} [beˈtaj], - = dobytok
@@ -107,6 +124,23 @@
 3 N le pis {pis} [pi], pis = vemeno
 3 N la niche {niche} [niʃ], niches = búda
 2 N le cavalier {cavalier} [kavaˈlje], cavaliers = jazdec
+3 N le joug {joug} [ʒuɡ], jougs = jarmo
+3 N la truie {truie} [tʁɥi], truies = prasnica
+3 N le verrat {verrat} [vɛˈʁa], verrats = kanec
+3 N le chevreau {chevreau} [ʃəˈvʁo], chevreaux = kozľa
+3 N le cheval noir {cheval noir} [ʃəval ˈnwaʁ], chevaux noirs = vraník
+3 N la bride {bride} [bʁid], brides = uzda
+3 N la rêne {rêne} [ʁɛn], rênes = opraty
+3 N l'étrier (m) {étrier} [etʁiˈje], étriers = strmeň
+3 N l'éperon (m) {éperon} [epˈʁɔ̃], éperons = ostroha
+2 N le fouet {fouet} [fwɛ], fouets = bič
+3 V fouetter {fouetter} [fweˈte] = bičovať
+3 N la muselière {muselière} [myzəˈljɛʁ], muselières = náhubok
+2 N le collier {collier} [kɔˈlje], colliers = obojok
+3 V atteler {atteler} [atəˈle], irr = zapriahnuť
+3 N la sonnaille {sonnaille} [sɔˈnaj], sonnailles = zvonec
+3 N le coup de fouet {coup de fouet} [ku də ˈfwɛ], coups de fouet = šľahnutie
+2 N l'écurie (f) {écurie} [ekyˈʁi], écuries = maštaľ
 
 # garden-hunt-fish
 1 N le jardin {jardin} [ʒaʁˈdɛ̃], jardins = záhrada
@@ -136,3 +170,7 @@
 3 N le tuyau d'arrosage {tuyau d'arrosage} [tɥiˈjo daʁoˈzaʒ], tuyaux d'arrosage = záhradná hadica
 3 N l'étable (f) {étable} [eˈtabl], étables = chlev
 3 N la porcherie {porcherie} [pɔʁʃəˈʁi], porcheries = chlev
+3 N le bûcheron {bûcheron} [byʃˈʁɔ̃], bûcherons = drevorubač
+3 V vider {vider} [viˈde] = vypitvať
+3 N l'hameçon (m) {hameçon} [amˈsɔ̃], hameçons = háčik
+3 N le moulinet {moulinet} [muliˈnɛ], moulinets = navijak

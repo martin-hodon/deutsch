@@ -302,6 +302,16 @@
 2 PHR au mieux {au mieux} [o mjø] = v najlepšom prípade
 2 PHR dans le meilleur des cas {dans le meilleur des cas} [dɑ̃ lə mɛjœʁ de ka] = v najlepšom prípade
 2 V ennuyer {ennuyer} [ɑ̃nɥiˈje] (qn) = nudiť
+2 V contrarier {contrarier} [kɔ̃tʁaʁˈje] = rozladiť
+3 V s'emporter {s'emporter} [sɑ̃pɔʁˈte] = vzplanúť
+3 AN accablé {accablé} [akaˈble], accablée = zarmútený
+3 AN affligé {affligé} [afliˈʒe], affligée = zarmútený
+3 AN apeuré {apeuré} [apøˈʁe], apeurée = vystrašený
+2 V se stresser {se stresser} [sə stʁɛˈse] = stresovať sa
+2 AN terrifiant {terrifiant} [teʁiˈfjɑ̃], terrifiante = hrozný
+3 N l'épouvante (f) {épouvante} [epuˈvɑ̃t], - = zdesenie
+2 AN enchanté {enchanté} [ɑ̃ʃɑ̃ˈte], enchantée = potešený
+3 AN terrifié {terrifié} [teʁiˈfje], terrifiée = zdesený
 
 # love-hate
 1 V aimer {aimer} [ɛˈme] = ľúbiť
@@ -371,6 +381,13 @@
 3 AV envieusement {envieuse|ment} [ɑ̃vjøzˈmɑ̃] = závistlivo
 2 AV tendrement {tendre|ment} [tɑ̃dʁəˈmɑ̃] = nežne
 3 AV atrocement {atroce|ment} [atʁɔsəˈmɑ̃] = ohavne
+3 N l'adoration (f) {adoration} [adɔʁaˈsjɔ̃], adorations = zbožňovanie
+3 V draguer {draguer} [dʁaˈɡe] (qn) = zbaliť (osobu)
+3 AN compatissant {compatissant} [kɔ̃patiˈsɑ̃], compatissante = súcitný
+3 V compatir {compatir} [kɔ̃paˈtiʁ] (à) = súcitiť
+2 N le pardon {pardon} [paʁˈdɔ̃], pardons = odpustenie
+1 V avoir envie {avoir envie} [avwaʁ ɑ̃ˈvi], irr, eu (de) = mať chuť
+3 V chérir {chérir} [ʃeˈʁiʁ] = ľúbiť
 
 # self-social-feelings
 1 N la honte {honte} [ɔ̃t], - = hanba
@@ -427,6 +444,11 @@
 2 AV fièrement {fière|ment} [fjɛʁˈmɑ̃] = hrdo
 3 N l'ingratitude (f) {in|gratitude} [ɛ̃ɡʁatiˈtyd], ingratitudes = nevďačnosť
 3 N la réserve {réserve} [ʁeˈzɛʁv], réserves = uzavretosť
+2 N la honte {honte} [ˈɔ̃t], hontes = zahanbenie
+2 V faire honte {faire honte} [fɛʁ ˈɔ̃t], irr, fait (à) = zahanbiť
+2 AN humilié {humilié} [ymiˈlje], humiliée = zahanbený
+3 V déshonorer {dés|honorer} [dezɔnɔˈʁe] = zneuctiť
+2 AN solitaire {solitaire} [sɔliˈtɛʁ] = samotársky
 
 # expressions
 1 V rire {rire} [ʁiʁ], irr, ri = smiať sa
@@ -483,6 +505,18 @@
 2 AV chaleureusement {chaleureuse|ment} [ʃalœʁøzˈmɑ̃] = vrúcne
 2 N les pleurs (m) {pleurs} [plœʁ], PL = plač
 2 V froncer les sourcils {froncer les sourcils} [fʁɔ̃se le suʁˈsi] = mračiť sa
+3 V tiquer {tiquer} [tiˈke] = zaraziť sa
+2 N la grimace {grimace} [ɡʁiˈmas], grimaces = grimasa
+3 AN moqueur {moqueur} [mɔˈkœʁ], moqueuse = posmešný
+3 AN facétieux {facétieux} [faseˈsjø], facétieuse, facétieux/facétieuses = žartovný
+3 AN éploré {éploré} [eplɔˈʁe], éplorée = uplakaný
+3 V froncer {froncer} [fʁɔ̃ˈse] = zvraštiť
+3 V pleurnicher {pleurnicher} [plœʁniˈʃe] = fňukať
+2 AN sombre {sombre} [sɔ̃bʁ] = zachmúrený
+3 N la lamentation {lamentation} [lamɑ̃taˈsjɔ̃], lamentations = nárek
+2 N le sanglot {sanglot} [sɑ̃ˈɡlo], sanglots = vzlyk
+3 V glousser {glousser} [ɡluˈse] = chichotať sa
+3 N le rictus {rictus} [ʁikˈtys], rictus = úškrn
 
 # feelings
 3 V se délecter {se délecter} [sə delɛkˈte] (de) = hýriť
@@ -499,6 +533,43 @@
 3 AN flatteur {flatteur} [flaˈtœʁ], flatteuse = lichotivý
 3 V courtiser {courtiser} [kuʁtiˈze] = dvoriť sa
 3 V faire la cour {faire la cour} [fɛʁ la kuʁ], irr, fait (à qn) = dvoriť sa
+2 V déprimer {déprimer} [depʁiˈme] = skľučovať
+3 AN admiratif {admiratif} [admiʁaˈtif], admirative = obdivný
+2 N l'étonnement (m) {étonne|ment} [etɔnˈmɑ̃], étonnements = údiv
+2 AN étonné {étonné} [etɔˈne], étonnée = udivený
+2 AN dégoûté {dé|goûté} [deɡuˈte], dégoûtée = znechutený
+2 V dégoûter {dé|goûter} [deɡuˈte] = znechutiť
+3 N la joie maligne {joie maligne} [ʒwa maˈliɲ], joies malignes = škodoradosť
+3 AN malicieux {malicieux} [maliˈsjø], malicieuse, malicieux/malicieuses = škodoradostný
+3 V avoir pitié {avoir pitié} [avwaʁ piˈtje], irr, eu (de) = zľutovať sa
+3 AN miséricordieux {miséricordieux} [mizeʁikɔʁˈdjø], miséricordieuse, miséricordieux/miséricordieuses = milosrdný
+2 N l'attraction (f) {attraction} [atʁakˈsjɔ̃], attractions = príťažlivosť
+3 AN surexcité {sur|excité} [syʁɛksiˈte], surexcitée = rozjašený
+3 N l'engouement (m) {engoue|ment} [ɑ̃ɡuˈmɑ̃], engouements = poblúznenie
+2 AN inquiet {inquiet} [ɛ̃ˈkjɛ], inquiète = znepokojený
+2 AN choqué {choqué} [ʃɔˈke], choquée = šokovaný
+3 V déconcerter {dé|concerter} [dekɔ̃sɛʁˈte] = zaraziť
+3 AN interloqué {interloqué} [ɛ̃tɛʁlɔˈke], interloquée = zarazený
+2 AN anxieux {anxieux} [ɑ̃kˈsjø], anxieuse, anxieux/anxieuses = úzkostlivý
+3 AN renfrogné {renfrogné} [ʁɑ̃fʁɔˈɲe], renfrognée = namosúrený
+3 AN hypersensible {hyper|sensible} [ipɛʁsɑ̃ˈsibl] = precitlivený
+3 V s'identifier {s'identifier} [sidɑ̃tifiˈje] (à) = vcítiť sa
+3 V frémir {frémir} [fʁeˈmiʁ] = zhroziť sa
+2 N l'inquiétude (f) {inquiétude} [ɛ̃kjeˈtyd], inquiétudes = znepokojenie
+2 V intimider {intimider} [ɛ̃timiˈde] = zastrašiť
+3 AN langoureux {langoureux} [lɑ̃ɡuˈʁø], langoureuse, langoureux/langoureuses = túžobný
+2 AN irrité {irrité} [iʁiˈte], irritée = podráždený
+2 N l'irritation (f) {irritation} [iʁitaˈsjɔ̃], irritations = podráždenosť
+3 V aigrir {aigrir} [eˈɡʁiʁ] = strpčiť
+2 V bouder {bouder} [buˈde] = durdiť sa
+2 AN énervé {énervé} [eneʁˈve], énervée = rozčúlený
+2 N la gaieté {gaieté} [ɡeˈte], gaietés = veselosť
+3 V chagriner {chagriner} [ʃaɡʁiˈne] = mrzieť
+2 AN désolé {désolé} [dezɔˈle], désolée = utrápený
+3 AN tourmenté {tourmenté} [tuʁmɑ̃ˈte], tourmentée = utrápený
+3 V attrister {attrister} [atʁisˈte] = zarmútiť
+3 V réjouir {réjouir} [ʁeˈʒwiʁ] = rozveseliť
+3 N le réconfort {réconfort} [ʁekɔ̃ˈfɔʁ], - = rozveselenie
 
 # more
 2 AN chéri {chéri} [ʃeˈʁi], chérie = milovaný

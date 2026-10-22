@@ -38,6 +38,11 @@ N mokraď
 N útes (morský)
 N fjord
 N gejzír
+AN tečúci
+V odtekať
+V vtekať
+V pretiecť -- tiecť cez okraj
+V roztiecť sa -- rozliať sa po ploche
 
 # water-features
 N vlna
@@ -83,6 +88,9 @@ V zamedziť
 N odpadová voda
 N čistiareň odpadových vôd
 V špliechať
+N ponorenie
+N meander
+N brod
 
 # water-land-edge
 N breh
@@ -94,3 +102,5 @@ N polostrov
 N mys
 N bazén
 N zmrzlina
+N súostrovie
+N pobrežná kosa -- úzky pás zeme vybiehajúci do mora

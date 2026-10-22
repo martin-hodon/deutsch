@@ -79,6 +79,8 @@
 2 V bogacić się {bogacić się} [bɔˈɡatɕitɕ ɕɛ], wzbogacić się = zbohatnúť
 1 V pożyczać {pożyczać} [pɔˈʐɨtʂatɕ], pożyczyć (od + D) = požičať si
 2 V wypożyczać {wy|pożyczać} [vɨpɔˈʐɨtʂatɕ], wypożyczyć (od + D) = požičať si
+3 V zgarniać {z|garniać} [ˈzɡarɲatɕ], zgarnąć (B) = nahrabať
+2 N oszczędności {oszczędności} [ɔʂtʂɛndˈnɔɕtɕi], lm, oszczędności = úspora
 
 # buying-selling
 1 V kupować {kupować} [kuˈpɔvatɕ], kupić = kúpiť
@@ -217,6 +219,11 @@
 3 AV luksusowo {luksusowo} [luksuˈsɔvɔ] = luxusne
 3 N potanienie {po|tanienie} [pɔtaˈɲɛɲɛ], n, potanienia = zlacnenie
 1 V sprzedawać {sprzedawać} [spʂɛˈdavatɕ], sprzedać (B) = predávať
+3 AN ulgowy {ulgowy} [ulˈɡɔvɨ] = zvýhodnený
+3 AN preferencyjny {preferencyjny} [prɛfɛrɛnˈtsɨjnɨ] = zvýhodnený
+3 N nabywca {na|bywca} [naˈbɨftsa], m, nabywcy = nákupca
+3 N zaopatrzeniowiec {zaopatrzeniowiec} [zaɔpadʐɛˈɲɔvʲɛts], m, zaopatrzeniowcy = nákupca
+2 V targować się {targować się} [tarˈɡɔvatɕ ɕɛ], potargować się (o + B) = zjednávať
 
 # places-of-trade
 1 N rynek {rynek} [ˈrɨnɛk], m, rynki = trh
@@ -243,6 +250,8 @@
 1 N drogeria {drogeria} [drɔˈɡɛrja], ż, drogerie = drogéria
 2 N dyskont {dyskont} [ˈdɨskɔnt], m, dyskonty = diskont
 3 AV niezłomnie {niezłomnie} [ɲɛˈzwɔmɲɛ] = neochvejne
+2 N sklep z zabawkami {sklep z zabawkami} [sklɛp s zabafˈkamʲi], m, sklepy z zabawkami = hračkárstvo
+2 N stragan {stragan} [ˈstraɡan], m, stragany = stánok
 
 # economy-finance
 1 N handel {handel} [ˈxandɛl], m, - = obchodovanie
@@ -453,6 +462,13 @@
 3 AV ekonomicznie {ekonomicznie} [ɛkɔnɔˈmʲitʂɲɛ] = ekonomicky
 3 N deflacja {deflacja} [dɛˈflatsja], ż, - = deflácia
 2 N odbiorca {odbiorca} [ɔdˈbʲɔrtsa], m, odbiorcy = odberateľ
+3 N odroczenie płatności {od|roczenie płatności} [ɔdrɔˈtʂɛɲɛ pwatˈnɔɕtɕi], n, odroczenia płatności = odklad
+3 N raj podatkowy {raj podatkowy} [raj pɔdatˈkɔvɨ], m, raje podatkowe = daňový raj
+3 N autocasco {auto|casco} [autɔˈkaskɔ], n, -, ndm = havarijné poistenie
+2 N towarzystwo ubezpieczeniowe {towarzystwo ubezpieczeniowe} [tɔvaˈʐɨstfɔ ubɛzpʲɛtʂɛˈɲɔvɛ], n, towarzystwa ubezpieczeniowe = poisťovňa
+3 N ubezpieczalnia {ubez|pieczalnia} [ubɛzpʲɛˈtʂalɲa], ż, ubezpieczalnie = poisťovňa
+2 N skarbiec {skarbiec} [ˈskarbʲɛts], m, skarbce = trezor
+3 N plajta {plajta} [ˈplajta], ż, plajty = bankrot
 
 # trade
 3 V licencjonować {licencjonować} [litsɛntsjɔˈnɔvatɕ], - = licencovať

@@ -11,6 +11,10 @@
 3 CON aussi bien que {aussi bien que} [osi bjɛ̃ ˈkə] = ako… tak aj
 2 CON ni {ni} [ni] = ani
 3 CON ou plutôt {ou plutôt} [u plyˈto] = respektíve
+2 CON d'une part… d'autre part {d'une part… d'autre part} [dyn paʁ dotʁ ˈpaʁ] = jednak… jednak
+2 CON certes… mais {certes… mais} [sɛʁt ˈmɛ] = síce… ale
+2 CON tantôt… tantôt {tantôt… tantôt} [tɑ̃to tɑ̃ˈto] = niekedy… niekedy
+2 CON en partie… en partie {en partie… en partie} [ɑ̃ paʁti ɑ̃ paʁˈti] = sčasti… sčasti
 
 # subordinating
 1 CON que {que} [kə] = že
@@ -40,6 +44,8 @@
 3 CON du fait que {du fait que} [dy fɛ ˈkə] = tým že
 2 PHR afin de {afin de} [afɛ̃ ˈdə] = aby
 2 CON afin que {afin que} [afɛ̃ ˈkə] (+ subj) = aby
+2 CON d'autant plus que {d'autant plus que} [dotɑ̃ ply ˈkə] = tým skôr že
+2 CON aussi… que {aussi… que} [osi ˈkə] = tak… ako
 
 # connecting-adverbs
 1 AV donc {donc} [dɔ̃k] = preto

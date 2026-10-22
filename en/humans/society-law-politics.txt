@@ -111,6 +111,11 @@
 1 AV publicly {public|ly} [ˈpʌblɪkli] = verejne
 3 N vote for {vote for} [ˈvəʊt fɔː], votes for = hlas za
 2 V immigrate {immigrate} [ˈɪmɪɡreɪt] (to) = imigrovať
+3 N lady-in-waiting {lady-in-waiting} [ˌleɪdi ɪn ˈweɪtɪŋ], ladies-in-waiting = dvorná dáma
+2 N serf {serf} [sɜːf], serfs = nevoľník
+3 N chambermaid {chamber|maid} [ˈtʃeɪmbəmeɪd], chambermaids = komorná
+2 N servants {servants} [ˈsɜːvənts], PL = služobníctvo
+2 V inaugurate {inaugurate} [ɪˈnɔːɡjʊreɪt] (sth) = inaugurovať
 # state-politics
 1 N state {state} [steɪt], states = štát
 2 AN state {state} [steɪt] = štátny
@@ -459,6 +464,16 @@
 2 AN non-violent {non-violent} [ˌnɒn ˈvaɪələnt] = nenásilný
 2 N subject {subject} [ˈsʌbdʒɪkt], subjects = poddaný
 3 V demobilise {de|mobilise} [diːˈməʊbɪlaɪz] (sth) = demobilizovať
+3 N Highness {Highness} [ˈhaɪnəs], Highnesses = výsosť
+2 N dynasty {dynasty} [ˈdɪnəsti], dynasties = dynastia
+2 N prince {prince} [prɪns], princes = knieža
+2 N count {count} [kaʊnt], counts = gróf
+2 N sceptre {sceptre} [ˈseptə], sceptres = žezlo
+2 N coat of arms {coat of arms} [ˌkəʊt əv ˈɑːmz], coats of arms = erb
+2 N welfare state {welfare state} [ˈwelfeə steɪt], welfare states = sociálny štát
+2 N abdication {abdication} [ˌæbdɪˈkeɪʃən], abdications = abdikácia
+2 N confederation {confederation} [kənˌfedəˈreɪʃən], confederations = konfederácia
+2 N envoy {envoy} [ˈenvɔɪ], envoys = vyslanec
 # law-justice
 1 N law {law} [lɔː], laws = zákon
 2 AN legal {legal} [ˈliːɡl] = zákonný
@@ -694,9 +709,55 @@
 3 V probe {probe} [prəʊb] (sth) = vyšetrovať
 2 N defence {de|fence} [dɪˈfens], defences = obhajoba
 2 V approve {approve} [əˈpruːv] (sth) = schváliť
+3 AN conspiratorial {conspiratorial} [kənˌspɪrəˈtɔːriəl] = sprisahanecký
+2 V gag {gag} [ɡæɡ] (sb) = zakneblovať
+2 N handcuffs {hand|cuffs} [ˈhændkʌfs], PL = putá
+2 N executioner {executioner} [ˌeksɪˈkjuːʃənə], executioners = kat
+2 N dungeon {dungeon} [ˈdʌndʒən], dungeons = žalár
+3 N pillory {pillory} [ˈpɪləri], pillories = pranier
+2 N gallows {gallows} [ˈɡæləʊz], gallows = šibenica
+3 N pyre {pyre} [ˈpaɪə], pyres = hranica na upálenie
+3 N legal code {legal code} [ˌliːɡəl ˈkəʊd], legal codes = zákonník
+3 V transgress {transgress} [trænzˈɡres] (against sth) = previniť sa
+3 N penitentiary {penitentiary} [ˌpenɪˈtenʃəri], penitentiaries = káznica
+2 N lawyer {lawyer} [ˈlɔɪə], lawyers = právnik
+2 N convict {convict} [ˈkɒnvɪkt], convicts = odsúdenec
+2 V testify {testify} [ˈtestɪfaɪ] (against sb) = svedčiť
+2 N authorisation {authorisation} [ˌɔːθəraɪˈzeɪʃən], authorisations = oprávnenie
+3 V wrong {wrong} [rɒŋ] (sb) = krivdiť
+2 N pickpocket {pick|pocket} [ˈpɪkˌpɒkɪt], pickpockets = vreckár
+2 N case {case} [keɪs], cases = kauza
+2 N death penalty {death penalty} [ˈdeθ ˌpenəlti], death penalties = trest smrti
+2 N prison cell {prison cell} [ˈprɪzən sel], prison cells = väzenská cela
+2 N lawsuit {law|suit} [ˈlɔːsuːt], lawsuits = súdny spor
+3 N scaffold {scaffold} [ˈskæfəʊld], scaffolds = popravisko
+3 N fence {fence} [fens], fences = priekupník
+3 V catch {catch} [kætʃ], caught/caught (sb) = pristihnúť
+3 N pursuer {pur|suer} [pəˈsjuːə], pursuers = prenasledovateľ
+3 V disenfranchise {dis|en|franchise} [ˌdɪsɪnˈfræntʃaɪz] (sb) = zbaviť práv
+2 N violent criminal {violent criminal} [ˈvaɪələnt ˈkrɪmɪnəl], violent criminals = násilník
+3 N arsonist {arson|ist} [ˈɑːsənɪst], arsonists = podpaľač
+2 V exploit {exploit} [ɪkˈsplɔɪt] (sb) = vykorisťovať
+2 N exploitation {exploit|ation} [ˌeksplɔɪˈteɪʃən], - = vykorisťovanie
+2 N pirate {pirate} [ˈpaɪrət], pirates = pirát
+3 N forger {forg|er} [ˈfɔːdʒə], forgers = falšovateľ
+3 N protection money {protection money} [prəˈtekʃən ˈmʌni], - = výpalné
+3 N usury {usury} [ˈjuːʒəri], - = úžera
+3 V embezzle {embezzle} [ɪmˈbezəl] (sth) = spreneveriť
+3 N embezzlement {embezzle|ment} [ɪmˈbezəlmənt], - = sprenevera
+2 N smuggling {smuggl|ing} [ˈsmʌɡlɪŋ], - = pašovanie
+3 N smuggler {smuggl|er} [ˈsmʌɡlə], smugglers = pašerák
+2 N rape {rape} [reɪp], rapes = znásilnenie
+2 V torture {torture} [ˈtɔːtʃə] (sb) = mučiť
+3 N poacher {poach|er} [ˈpəʊtʃə], poachers = pytliak
+3 N perjury {perjury} [ˈpɜːdʒəri], - = krivá prísaha
+3 V hang {hang} [hæŋ], hanged/hanged (sb) = obesiť
 # politics
 3 V radicalise {radicalise} [ˈrædɪkəlaɪz] (sb, sth) = radikalizovať
 2 V ratify {ratify} [ˈrætɪfaɪ] (sth) = ratifikovať
+2 N negotiator {negotiator} [nɪˈɡəʊʃieɪtə], negotiators = vyjednávač
+2 N ideology {ideology} [ˌaɪdiˈɒlədʒi], ideologies = ideológia
+3 N seat {seat} [siːt], seats = poslanecké kreslo
 
 # more
 3 N attorney {attorney} [əˈtɜːni], attorneys = advokát

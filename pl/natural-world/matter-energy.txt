@@ -72,6 +72,50 @@
 2 V wysychać {wy|sychać} [vɨˈsɨxatɕ], wyschnąć = vyschnúť
 2 AN stały {stały} [ˈstawɨ] = tuhý
 3 V wilgotnieć {wilgotnieć} [vʲilˈɡɔtɲɛtɕ], zwilgotnieć = zvlhnúť
+3 N fosfor {fosfor} [ˈfɔsfɔr], m, - = fosfor
+3 N krzem {krzem} [kʂɛm], m, - = kremík
+3 V wytrawiać {wy|trawiać} [vɨˈtravʲatɕ], wytrawić (B) = leptať
+3 V lepić się {lepić się} [ˈlɛpʲitɕ ɕɛ], - = lepiť sa
+3 AN mazisty {mazisty} [maˈʑistɨ] = mazľavý
+3 AN oślizgły {ośliz|gły} [ɔɕˈlizɡwɨ] = slizký
+3 N skorupa {skorupa} [skɔˈrupa], ż, skorupy = črepina
+3 N odłamek {od|łamek} [ɔdˈwamɛk], m, odłamki = úlomok
+3 V sztywnieć {sztywnieć} [ˈʂtɨvɲɛtɕ], zesztywnieć = stuhnúť
+3 N smuga {smuga} [ˈsmuɡa], ż, smugi = šmuha
+2 N proszek {proszek} [ˈprɔʂɛk], m, proszki = prášok
+3 N ług {ług} [wuk], m, ługi = lúh
+3 N kruchość {kruchość} [ˈkruxɔɕtɕ], ż, kruchości = krehkosť
+3 N plastyczność {plastyczność} [plasˈtɨtʂnɔɕtɕ], ż, plastyczności = plasticita
+3 AN ciągliwy {ciągliwy} [tɕɔŋˈɡlivɨ] = ťažný
+3 N ciągliwość {ciągliwość} [tɕɔŋˈɡlivɔɕtɕ], ż, ciągliwości = ťažnosť
+3 AN kowalny {kowalny} [kɔˈvalnɨ] = kujný
+3 N kowalność {kowalność} [kɔˈvalnɔɕtɕ], ż, kowalności = kujnosť
+3 N giętkość {giętkość} [ˈɡʲɛntkɔɕtɕ], ż, giętkości = pružnosť
+3 N sprężystość {sprężystość} [sprɛ̃ˈʐɨstɔɕtɕ], ż, sprężystości = pružnosť
+3 N sztywność {sztywność} [ˈʂtɨvnɔɕtɕ], ż, sztywności = tuhosť
+3 N wytrzymałość {wytrzymałość} [vɨtʂɨˈmawɔɕtɕ], ż, wytrzymałości = pevnosť materiálu
+3 N ciągliwość {ciągliwość} [tɕɔŋˈɡlivɔɕtɕ], ż, - = húževnatosť
+3 N delikatność {delikatność} [dɛliˈkatnɔɕtɕ], ż, delikatności = jemnosť
+3 AN kruchy {kruchy} [ˈkruxɨ] = drobivý
+3 N platyna {platyna} [plaˈtɨna], ż, platyny = platina
+3 N uran {uran} [ˈuran], m, - = urán
+3 N lit {lit} [lit], m, - = lítium
+3 N sód {sód} [sut], m, - = sodík
+3 N magnez {magnez} [ˈmaɡnɛs], m, - = horčík
+3 N potas {potas} [ˈpɔtas], m, - = draslík
+3 N tytan {tytan} [ˈtɨtan], m, - = titán
+3 N chrom {chrom} [xrɔm], m, - = chróm
+3 N mangan {mangan} [ˈmaŋɡan], m, - = mangán
+3 N kobalt {kobalt} [ˈkɔbalt], m, - = kobalt
+3 N nikiel {nikiel} [ˈɲikʲɛl], m, - = nikel
+3 N arsen {arsen} [ˈarsɛn], m, - = arzén
+3 N hel {hel} [xɛl], m, - = hélium
+3 N fluor {fluor} [ˈfluɔr], m, - = fluór
+3 N chlor {chlor} [xlɔr], m, - = chlór
+3 V nadmuchiwać {nad|muchiwać} [nadmuˈxivatɕ], nadmuchać (B) = nafúknuť
+3 N topnienie {topnienie} [tɔpˈɲɛɲɛ], n, topnienia = topenie
+3 N parowanie {parowanie} [paˈrɔvaɲɛ], n, parowania = odparovanie
+3 N kruszec {kruszec} [ˈkruʂɛts], m, kruszce = ruda
 
 # fire-light
 1 V palić się {palić się} [ˈpalitɕ ɕɛ], spalić się = horieť
@@ -114,6 +158,12 @@
 2 AV ciemno {ciemno} [ˈtɕɛmnɔ] = tmavo
 2 AV jasno {jasno} [ˈjasnɔ] = svetlo
 1 V gasić {gasić} [ˈɡaɕitɕ], zgasić (B) = hasiť
+3 AN spalony {spalony} [spaˈlɔnɨ] = spálený
+3 N lont {lont} [lɔnt], m, lonty = zápalná šnúra
+3 N knot {knot} [knɔt], m, knoty = knôt
+3 V tlić się {tlić się} [tlitɕ ɕɛ], - = tlieť
+3 N petarda {petarda} [pɛˈtarda], ż, petardy = petarda
+3 N spalanie {spalanie} [spaˈlaɲɛ], n, spalania = horenie
 
 # energy-forces
 1 N energia {energia} [ɛˈnɛrɡja], ż, energie = energia
@@ -147,6 +197,13 @@
 2 N emisja {emisja} [ɛˈmʲisja], ż, emisje = emisia
 3 AV wyczerpująco {wyczerpująco} [vɨtʂɛrpuˈjɔntsɔ] = vyčerpávajúco
 3 AV razantnie {razantnie} [raˈzantɲɛ] = razantne
+3 V odpychać {od|pychać} [ɔtˈpɨxatɕ], odepchnąć (B) = odpudzovať
+3 V sprężynować {sprężynować} [sprɛ̃ʐɨˈnɔvatɕ], - = pružiť
+3 N siła odśrodkowa {siła odśrodkowa} [ˈɕiwa ɔtɕrɔtˈkɔva], ż, siły odśrodkowe = odstredivá sila
+3 N bezwładność {bez|władność} [bɛzˈvwadnɔɕtɕ], ż, bezwładności = zotrvačnosť
+3 N ładunek {ładunek} [waˈdunɛk], m, ładunki = náboj (elektrický)
+3 N naładowanie {na|ładowanie} [nawadɔˈvaɲɛ], n, naładowania = nabitie
+3 N rozładowanie {roz|ładowanie} [rɔzwadɔˈvaɲɛ], n, rozładowania = vybitie
 
 # sound
 1 N szum {szum} [ʂum], m, szumy = šum
@@ -162,6 +219,40 @@
 2 N echo {echo} [ˈɛxɔ], n, echa = ozvena
 2 N wibracja {wibracja} [vʲiˈbratsja], ż, wibracje = vibrácia
 2 V wibrować {wibrować} [vʲiˈbrɔvatɕ], zawibrować = vibrovať
+3 N szelest {szelest} [ˈʂɛlɛst], m, szelesty = šuchot
+2 AN dźwiękoszczelny {dźwięko|szczelny} [dʑvʲɛŋkɔˈʂtʂɛlnɨ] = zvukotesný
+2 AN dźwięczny {dźwięczny} [ˈdʑvʲɛntʂnɨ] = zvučný
+2 AN ogłuszający {o|głuszający} [ɔgwuʂaˈjɔntsɨ] = ohlušujúci
+3 N łoskot {łoskot} [ˈwɔskɔt], m, łoskoty = rachot
+3 N gruchot {gruchot} [ˈgruxɔt], m, gruchoty = rachot
+3 N ryk {ryk} [rɨk], m, ryki = revanie
+2 V krzyknąć {krzyknąć} [ˈkʂɨknɔɲtɕ], dk = vykríknuť
+3 V szeleścić {szeleścić} [ʂɛˈlɛɕtɕitɕ], zaszeleścić = šuchotať
+2 V trzaskać {trzaskać} [ˈtʂaskatɕ], trzasnąć = praskať
+3 V skrzypieć {skrzypieć} [ˈskʂɨpʲɛtɕ], skrzypnąć = vŕzgať
+3 V zgrzytać {zgrzytać} [ˈzgʐɨtatɕ], zgrzytnąć = škrípať
+3 V piszczeć {piszczeć} [ˈpʲiʂtʂɛtɕ], pisnąć = pišťať
+3 V klekotać {klekotać} [klɛˈkɔtatɕ], zaklekotać = klepotať
+3 V plaskać {plaskać} [ˈplaskatɕ], plasnąć = plesknúť
+3 V pluskać się {pluskać się} [ˈpluskatɕ ɕɛ], - = čľapotať sa
+3 V rzęzić {rzęzić} [ˈʐɛ̃ʑitɕ], - = chrčať
+3 V huczeć {huczeć} [ˈxutʂɛtɕ], zahuczeć = hučať
+3 V pikać {pikać} [ˈpʲikatɕ], - = pípať
+2 V wrzeszczeć {wrzeszczeć} [ˈvʐɛʂtʂɛtɕ], wrzasnąć = škriekať
+3 V wydzierać się {wy|dzierać się} [vɨˈdʑɛratɕ ɕɛ], wydrzeć się = hulákať
+3 V zawodzić {zawodzić} [zaˈvɔdʑitɕ], - = jačať
+3 V trąbić {trąbić} [ˈtrɔmbʲitɕ], zatrąbić = trúbiť
+3 V brzdąkać {brzdąkać} [ˈbʐdɔŋkatɕ], brzdąknąć = brnkať
+3 V brzęczeć {brzęczeć} [ˈbʐɛntʂɛtɕ], brzęknąć = štrngať
+3 V bulgotać {bulgotać} [bulˈgɔtatɕ], zabulgotać = žblnkať
+3 V szemrać {szemrać} [ˈʂɛmratɕ], zaszemrać = zurčať
+3 V chlupnąć {chlupnąć} [ˈxlupnɔɲtɕ], dk = čľupnúť
+3 V terkotać {terkotać} [tɛrˈkɔtatɕ], zaterkotać = drnčať
+3 V turkotać {turkotać} [turˈkɔtatɕ], zaturkotać = hrkotať
+3 V warkotać {warkotać} [varˈkɔtatɕ], zawarkotać = prašťať
+3 V skrzeczeć {skrzeczeć} [ˈskʂɛtʂɛtɕ], - = vrešťať
+3 V parskać {parskać} [ˈparskatɕ], parsknąć = fučať
+3 V nucić {nucić} [ˈnutɕitɕ], zanucić (B) = nôtiť si
 
 # corpus-verbs
 2 V filtrować {filtrować} [fʲilˈtrɔvatɕ], przefiltrować = filtrovať

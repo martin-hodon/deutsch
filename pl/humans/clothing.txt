@@ -58,6 +58,16 @@
 2 N pielucha {pielucha} [pʲɛˈluxa], ż, pieluchy = plienka
 2 N pieluszka {pieluszka} [pʲɛˈluʂka], ż, pieluszki = plienka
 2 N strój ludowy {strój ludowy} [struj luˈdɔvɨ], m, stroje ludowe = ľudový odev
+2 N marynarka {marynarka} [marɨˈnarka], ż, marynarki = sako
+2 N przebranie {przebranie} [pʂɛˈbraɲɛ], n, przebrania = prestrojenie
+2 N szata {szata} [ˈʂata], ż, szaty = rúcho
+2 N slipy {slipy} [ˈslipɨ], lm, slipy = slipy
+1 N majtki {majtki} [ˈmajtki], lm, majtki = nohavičky
+2 N figi {figi} [ˈfʲiɡi], lm, figi = nohavičky
+3 N pas do pończoch {pas do pończoch} [pas dɔ ˈpɔɲtʂɔx], m, pasy do pończoch = podväzkový pás
+3 N smoking {smoking} [ˈsmɔkiŋk], m, smokingi = smoking
+3 N ubranie robocze {ubranie robocze} [uˈbraɲɛ rɔˈbɔtʂɛ], n, ubrania robocze = pracovný odev
+3 N kożuch {kożuch} [ˈkɔʐux], m, kożuchy = kožuch
 
 # footwear-accessories
 1 N but {but} [but], m, buty = topánka
@@ -91,6 +101,11 @@
 1 N parasol {parasol} [paˈrasɔl], m, parasole = dáždnik
 1 N portfel {portfel} [ˈpɔrtfɛl], m, portfele = peňaženka
 3 N portmonetka {portmonetka} [pɔrtmɔˈnɛtka], ż, portmonetki = peňaženka
+3 N łyżka do butów {łyżka do butów} [ˈwɨʂka dɔ ˈbutuf], ż, łyżki do butów = obuvák
+2 N szpilki {szpilki} [ˈʂpʲilki], lm, szpilki = lodičky
+3 N czółenka {czółenka} [tʂuˈwɛŋka], lm, czółenka = lodičky
+2 N obcas {obcas} [ˈɔptsas], m, obcasy = podpätok
+2 N japonki {japonki} [jaˈpɔŋki], lm, japonki = žabky
 
 # parts-fasteners
 1 N torba {torba} [ˈtɔrba], ż, torby = taška
@@ -113,6 +128,12 @@
 2 N sprzączka {sprzączka} [ˈspʂɔntʂka], ż, sprzączki = spona
 2 N łata {łata} [ˈwata], ż, łaty = záplata
 2 V rozpinać {roz|pinać} [rɔˈspʲinatɕ], rozpiąć (B) = rozopnúť
+3 N rozporek {rozporek} [rɔsˈpɔrɛk], m, rozporki = rázporok
+3 N kokarda {kokarda} [kɔˈkarda], ż, kokardy = mašľa
+2 N dekolt {dekolt} [ˈdɛkɔlt], m, dekolty = dekolt
+3 N frędzel {frędzel} [ˈfrɛndzɛl], m, frędzle = strapec
+2 N podszewka {pod|szewka} [pɔtˈʂɛfka], ż, podszewki = podšívka
+1 N kieszeń {kieszeń} [ˈkjɛʂɛɲ], ż, kieszenie = vrecko na oblečení
 
 # materials-making
 1 N materiał {materiał} [maˈtɛrjaw], m, materiały = látka
@@ -168,6 +189,19 @@
 2 V szyć {szyć} [ʂɨtɕ], uszyć (B) = krajčíriť
 3 N naparstek {naparstek} [naˈparstɛk], m, naparstki = náprstok
 2 N manekin {manekin} [maˈnɛkin], m, manekiny = výkladná figurína
+2 N skrawek {skrawek} [ˈskravɛk], m, skrawki = ústrižok
+3 N kłębek {kłębek} [ˈkwɛmbɛk], m, kłębki = klbko
+3 N wrzeciono {wrzeciono} [vʐɛˈtɕɔnɔ], n, wrzeciona = vreteno
+3 V pruć {pruć} [prutɕ], rozpruć (B) = párať
+2 V zaszywać {za|szywać} [zaˈʂɨvatɕ], zaszyć (B) = zašiť
+2 V przyszywać {przy|szywać} [pʂɨˈʂɨvatɕ], przyszyć (B) = prišiť
+3 V strzępić się {strzępić się} [ˈstʂɛmpitɕ ɕɛ], postrzępić się = strapkať sa
+3 N strzęp {strzęp} [stʂɛmp], m, strzępy = zdrap
+2 N włókno {włókno} [ˈvwuknɔ], n, włókna = vlákno
+3 V snuć {snuć} [snutɕ], osnuć (B) = snovať
+2 V nawlekać {na|wlekać} [naˈvlɛkatɕ], nawlec (B) = navliecť
+3 N plusz {plusz} [pluʂ], m, - = plyš
+3 N kłaczek {kłaczek} [ˈkwatʂɛk], m, kłaczki = žmolok
 
 # wearing-jewelry
 1 V pasować {pasować} [paˈsɔvatɕ], - (C, do + D) = pasovať
@@ -197,3 +231,6 @@
 2 V maskować {maskować} [masˈkɔvatɕ], zamaskować (B) = maskovať
 2 AV elegancko {elegancko} [ɛlɛˈɡantskɔ] = elegantne
 1 AN ubrany {ubrany} [uˈbranɨ] = oblečený
+1 V mieć na sobie {mieć na sobie} [mʲɛtɕ na ˈsɔbʲɛ], - (B) = mať oblečené
+3 V stroić się {stroić się} [ˈstrɔitɕ ɕɛ], wystroić się = vyobliekať sa
+2 N makijaż {makijaż} [maˈkijaʂ], m, makijaże = líčenie

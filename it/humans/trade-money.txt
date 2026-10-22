@@ -79,6 +79,7 @@
 2 N la riduzione del prezzo {riduzione del prezzo} [riduˈtsjoːne del ˈprettso], riduzioni del prezzo = zníženie ceny
 2 V arricchirsi {arricchirsi} [arːiˈkːirsi], isc = zbohatnúť
 1 V prendere in prestito {prendere in prestito} [ˈprɛndere in ˈprɛstito], irr, preso (da) = požičať si
+3 V intascare {intascare} [intasˈkaːre] = nahrabať
 
 # buying-selling
 1 V comprare {comprare} [komˈpraːre] = kúpiť
@@ -217,6 +218,11 @@
 2 AV caro {caro} [ˈkaːro] = draho
 2 N il ribasso {ribasso} [riˈbasːo], ribassi = zlacnenie
 1 V vendere {vendere} [ˈvendere] = predávať
+3 AN agevolato {agevolato} [adʒevoˈlaːto], agevolata = zvýhodnený
+3 N il compratore {compratore} [kompraˈtoːre], compratori = nákupca
+3 N l'invenduto (m) {invenduto} [invenˈduːto], invenduti = ležiak (tovar)
+2 V contrattare {contrattare} [kontraˈtːaːre] = zjednávať
+3 V mercanteggiare {mercanteggiare} [merkanteˈddʒaːre] = zjednávať
 
 # places-of-trade
 1 N il mercato {mercato} [merˈkaːto], mercati = trh
@@ -243,6 +249,7 @@
 2 N il grande magazzino {grande magazzino} [ˈɡrande maɡadˈdziːno], grandi magazzini = obchodný dom
 2 N la profumeria {profumeria} [profumeˈriːa], profumerie = drogéria
 2 N il discount {discount} [disˈkaunt], discount = diskont
+2 N il negozio di giocattoli {negozio di giocattoli} [neˈɡɔttsjo di dʒoˈkatːoli], negozi di giocattoli = hračkárstvo
 
 # economy-finance
 2 N il commercio {commercio} [koˈmːɛrtʃo], commerci = obchodovanie
@@ -447,6 +454,10 @@
 3 N la deflazione {deflazione} [deflaˈtsjoːne], - = deflácia
 2 N il cliente {cliente} [kliˈɛnte], clienti = odberateľ
 3 N l'acquirente (m) {acquirente} [akːwiˈrɛnte], acquirenti = odberateľ
+3 N la dilazione {dilazione} [dilaˈttsjoːne], dilazioni = odklad
+3 N il paradiso fiscale {paradiso fiscale} [paraˈdiːzo fisˈkaːle], paradisi fiscali = daňový raj
+3 N la polizza casco {polizza casco} [poˈlittsa ˈkaːzko], polizze casco = havarijné poistenie
+2 N la compagnia assicurativa {compagnia assicurativa} [kompaˈɲːiːa asːikuraˈtiːva], compagnie assicurative = poisťovňa
 
 # trade
 3 V dare in licenza {dare in licenza} [ˈdaːre in liˈtʃɛntsa], irr, dato = licencovať

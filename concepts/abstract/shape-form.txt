@@ -69,6 +69,19 @@ N cikcak
 N očko
 N zhluk
 N postava
+N cíp
+N lichobežník
+N kosoštvorec
+N elipsa
+N kváder
+N ihlan
+N pútko
+N kosodĺžnik -- rovnobežník s kosými uhlami
+V klenúť sa -- tvoriť oblúk
+AN natiahnutý
+N opísaná kružnica
+N vpísaná kružnica
+N krúžok -- malý kruh, prstenec (nie záujmový krúžok)
 
 # form-properties
 AN okrúhly
@@ -141,3 +154,7 @@ N rozmer
 AN trojrozmerný
 AN dvojrozmerný
 AN nadrozmerný
+AN priliehavý -- tesne priliehajúci k telu
+N rozloha -- veľkosť plochy alebo priestoru
+V prehnúť -- ohnúť na dve časti
+N záhyb

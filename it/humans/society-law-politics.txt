@@ -138,6 +138,11 @@
 2 AV insieme {insieme} [inˈsjɛːme] = spoločne
 2 N il voto favorevole {voto favorevole} [ˈvoːto favoˈreːvole], voti favorevoli = hlas za
 2 V immigrare {immigrare} [imːiˈɡraːre], essere = imigrovať
+3 N la dama di corte {dama di corte} [ˈdaːma di ˈkorte], dame di corte = dvorná dáma
+3 N il servo della gleba {servo della gleba} [ˈsɛrvo ˈdelːa ˈɡlɛːba], servi della gleba = nevoľník
+3 N la cameriera {cameriera} [kameˈrjɛːra], cameriere = komorná
+3 N la servitù {servitù} [serviˈtu], servitù = služobníctvo
+3 V inaugurare {inaugurare} [inauɡuˈraːre] = inaugurovať
 
 # state-politics
 1 N lo stato {stato} [ˈstaːto], stati = štát
@@ -542,6 +547,16 @@
 2 AN non violento {non violento} [non vjoˈlɛnto], non violenta = nenásilný
 2 N il suddito {suddito} [ˈsudːito], sudditi = poddaný
 3 V smobilitare {smobilitare} [zmobiliˈtaːre] = demobilizovať
+3 N l'altezza (f) {altezza} [alˈtettsa], altezze = výsosť
+2 N la dinastia {dinastia} [dinasˈtiːa], dinastie = dynastia
+3 N il principe {principe} [ˈprintʃipe], principi = knieža
+3 N il conte {conte} [ˈkonte], conti = gróf
+3 N lo scettro {scettro} [ˈʃɛtːro], scettri = žezlo
+2 N lo stemma {stemma} [ˈstemːa], stemmi = erb
+3 N lo stato sociale {stato sociale} [ˈstaːto soˈtʃaːle], stati sociali = sociálny štát
+3 N l'abdicazione (f) {abdicazione} [abdikatˈtsjoːne], abdicazioni = abdikácia
+3 N la confederazione {confederazione} [konfederatˈtsjoːne], confederazioni = konfederácia
+3 N l'inviato (m) {inviato} [inˈvjaːto], inviati = vyslanec
 
 # law-justice
 1 N la legge {legge} [ˈleddʒe], leggi = zákon
@@ -855,10 +870,60 @@
 2 AN in corso {in corso} [in ˈkorso] = prebiehajúci (súdne)
 1 N la difesa {difesa} [diˈfeːza], difese = obhajoba
 1 V approvare {approvare} [apːroˈvaːre] = schváliť
+3 AN cospirativo {cospirativo} [kospiraˈtiːvo], cospirativa = sprisahanecký
+3 V imbavagliare {imbavagliare} [imbavaˈʎːaːre] = zakneblovať
+3 N le manette {manette} [maˈnetːe], PL = putá
+3 N il boia {boia} [ˈbɔːja], boia = kat
+3 N il carnefice {carnefice} [karˈneːfitʃe], carnefici = kat
+3 N la segreta {segreta} [seˈɡreːta], segrete = žalár
+3 N la gogna {gogna} [ˈɡoɲːa], gogne = pranier
+3 N la forca {forca} [ˈfɔrka], forche = šibenica
+3 N il rogo {rogo} [ˈrɔːɡo], roghi = hranica na upálenie
+3 N il codice {codice} [ˈkɔːditʃe], codici = zákonník
+3 V trasgredire {trasgredire} [trazɡreˈdiːre], isc = previniť sa
+3 N il penitenziario {penitenziario} [penitenˈtsjaːrjo], penitenziari = káznica
+2 N il giurista {giurista} [dʒuˈrista], giuristi = právnik
+3 N il condannato {condannato} [kondaˈnːaːto], condannati = odsúdenec
+3 V testimoniare {testimoniare} [testimoˈnjaːre] = svedčiť
+3 N l'autorizzazione (f) {autorizzazione} [autoriddzatˈtsjoːne], autorizzazioni = oprávnenie
+3 N la facoltà {facoltà} [fakolˈta], facoltà = oprávnenie
+3 V fare torto {fare torto} [ˈfaːre ˈtɔrto], irr, fatto (a) = krivdiť
+3 N il borseggiatore {borseggiatore} [borseddʒaˈtoːre], borseggiatori = vreckár
+3 N la causa {causa} [ˈkauza], cause = kauza
+2 N la pena di morte {pena di morte} [ˈpeːna di ˈmɔrte], pene di morte = trest smrti
+2 N la cella {cella} [ˈtʃɛlːa], celle = väzenská cela
+3 N la lite {lite} [ˈliːte], liti = súdny spor
+3 N il contenzioso {contenzioso} [kontenˈtsjoːzo], contenziosi = súdny spor
+3 N il patibolo {patibolo} [paˈtiːbolo], patiboli = popravisko
+3 N il ricettatore {ricettatore} [ritʃetːaˈtoːre], ricettatori = priekupník
+2 V beccare {beccare} [beˈkːaːre] = pristihnúť
+3 V sorprendere {sorprendere} [sorˈprɛndere], irr, sorpreso = pristihnúť
+3 N l'inseguitore (m) {inseguitore} [insegwiˈtoːre], inseguitori = prenasledovateľ
+3 N il violento {violento} [vjoˈlɛnto], violenti = násilník
+3 N l'incendiario (m) {incendiario} [intʃenˈdjaːrjo], incendiari = podpaľač
+2 V sfruttare {sfruttare} [sfruˈtːaːre] = vykorisťovať
+2 N lo sfruttamento {sfruttamento} [sfrutːaˈmento], sfruttamenti = vykorisťovanie
+2 N il pirata {pirata} [piˈraːta], pirati = pirát
+3 N il falsario {falsario} [falˈsaːrjo], falsari = falšovateľ
+3 N il pizzo {pizzo} [ˈpittso], pizzi = výpalné
+3 N l'usura (f) {usura} [uˈzuːra], - = úžera
+3 V malversare {malversare} [malverˈsaːre] = spreneveriť
+3 V appropriarsi {appropriarsi} [approˈprjarsi] (di) = spreneveriť
+3 N la malversazione {malversazione} [malversaˈttsjoːne], malversazioni = sprenevera
+2 N il contrabbando {contrabbando} [kontraˈbːando], contrabbandi = pašovanie
+3 N il contrabbandiere {contrabbandiere} [kontrabːanˈdjɛːre], contrabbandieri = pašerák
+3 N lo stupro {stupro} [ˈstuːpro], stupri = znásilnenie
+2 V torturare {torturare} [tortuˈraːre] = mučiť
+3 N il bracconiere {bracconiere} [brakːoˈnjɛːre], bracconieri = pytliak
+3 N lo spergiuro {spergiuro} [sperˈdʒuːro], spergiuri = krivá prísaha
+3 V impiccare {impiccare} [impiˈkːaːre] = obesiť
 
 # politics
 3 V radicalizzare {radicalizzare} [radikalidˈdzaːre] = radikalizovať
 3 V ratificare {ratificare} [ratifiˈkaːre] = ratifikovať
+3 N il negoziatore {negoziatore} [neɡottsjaˈtoːre], negoziatori = vyjednávač
+2 N l'ideologia (f) {ideologia} [ideoloˈdʒiːa], ideologie = ideológia
+3 N il seggio {seggio} [ˈsɛddʒo], seggi = poslanecké kreslo
 
 # more
 2 AN elettorale {elettorale} [eletːoˈraːle] = volebný

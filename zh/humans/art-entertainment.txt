@@ -88,6 +88,10 @@
 2 N 艺人 {艺人} [yìrén], 位 = umelec
 1 N 丑 {丑} [chǒu], - = škaredosť
 3 N 丑陋 {丑陋} [chǒulòu], - = škaredosť
+3 V 乱画 {乱画} [luànhuà] = čmárať
+3 N 涂鸦 {涂鸦} [túyā], - = čmáranica
+3 N 装饰品 {装饰品} [zhuāngshìpǐn], 件 = ozdoba
+3 N 塑像 {塑像} [sùxiàng], 座 = socha
 
 # music
 1 N 音乐 {音乐} [yīnyuè], - = hudba
@@ -97,6 +101,7 @@
 2 N 乐器 {乐器} [yuèqì], 件 = hudobný nástroj
 2 V 演奏 {演奏} [yǎnzòu] = hrať hudbu
 3 V 奏乐 {奏|乐} [zòuyuè] = hrať hudbu
+2 V 弹 {弹} [tán] = hrať hudbu
 2 N 歌词 {歌词} [gēcí], 段 = text piesne
 3 N 摇篮曲 {摇篮曲} [yáolánqǔ], 首 = uspávanka
 3 N 催眠曲 {催眠曲} [cuīmiánqǔ], 首 = uspávanka
@@ -175,6 +180,7 @@
 3 AV 有节奏地 {有节奏地} [yǒujiézòude] = rytmicky
 2 V 拼 {拼} [pīn] = skladať
 1 V 演唱 {演唱} [yǎnchàng] = spievať
+3 AN 悠扬 {悠扬} [yōuyáng] = melodický
 
 # performance-literature
 3 N 剧院 {剧院} [jùyuàn], 家 = divadlo
@@ -306,8 +312,16 @@
 1 N 全场 {全场} [quánchǎng], - = obecenstvo
 1 N 影视 {影视} [yǐngshì], - = film
 2 V 摄像 {摄像} [shèxiàng] = filmovať
+1 V 拍 {拍} [pāi] = filmovať
 3 N 末场 {末场} [mòchǎng], 场 = derniéra
 3 N 谢幕演出 {谢幕演出} [xièmù yǎnchū], 场 = derniéra
+3 N 观众厅 {观众厅} [guānzhòngtīng], 个 = divácka sála
+3 N 寓言 {寓言} [yùyán], 则 = bájka
+3 N 小丑 {小丑} [xiǎochǒu], 个 = šašo
+3 N 蓝精灵 {蓝精灵} [lánjīnglíng], 个 = šmolko
+3 N 台子 {台子} [táizi], 个 = pódium
+3 N 虚构 {虚构} [xūgòu], - = fikcia
+3 N 戏院 {戏院} [xìyuàn], 家 = divadlo
 
 # games-sport
 1 N 游戏 {游戏} [yóuxì], 个 = hra
@@ -421,6 +435,7 @@
 2 V 获胜 {获胜} [huòshèng] = vyhrať
 2 V 打赌 {打|赌} [dǎdǔ] = staviť sa
 3 V 下注 {下|注} [xiàzhù] = staviť sa
+2 V 赌 {赌} [dǔ] = staviť sa
 3 N 赌注 {赌注} [dǔzhù], 个 = stávka
 2 N 粉丝 {粉丝} [fěnsī], 个 = fanúšik
 2 N 爱好者 {爱好者} [àihàozhě], 位 = fanúšik
@@ -561,6 +576,7 @@
 3 N 棋 {棋} [qí], 盘 = šach
 3 N 柱 {柱} [zhù], 根 = stĺp
 1 V 打球 {打|球} [dǎqiú] = hrať
+1 V 打 {打} [dǎ] = hrať
 1 V 上网 {上|网} [shàngwǎng] = surfovať
 1 N 体育 {体育} [tǐyù], - = šport
 1 N 歌迷 {歌迷} [gēmí], 个 = fanúšik
@@ -568,6 +584,7 @@
 1 N 价格 {价格} [jiàgé], - = cena
 1 N 价钱 {价钱} [jiàqián], - = cena
 1 N 空儿 {空儿} [kòngr], - = voľný čas
+1 N 空 {空} [kòng], - = voľný čas
 1 N 球迷 {球迷} [qiúmí], 个 = fanúšik
 2 V 中奖 {中|奖} [zhòngjiǎng] = vyhrať
 2 N 大奖赛 {大奖赛} [dàjiǎngsài], 场 = súťaž
@@ -582,6 +599,24 @@
 2 N 柱子 {柱子} [zhùzi], 根 = stĺp
 3 N 业余爱好者 {业余爱好者} [yèyú àihàozhě], 位 = amatér
 3 N 业余选手 {业余选手} [yèyú xuǎnshǒu], 名 = amatér
+3 N 自行车运动 {自行车运动} [zìxíngchēyùndòng], - = cyklistika
+3 N 飞镖 {飞镖} [fēibiāo], 支 = šípky (hra)
+3 N 秋千 {秋千} [qiūqiān], 个 = hojdačka
+3 N 老虎机 {老虎机} [lǎohǔjī], 台 = herný automat
+3 N 登山 {登|山} [dēngshān], - = horolezectvo
+3 N 举重 {举|重} [jǔzhòng], - = vzpieranie
+2 V 运动 {运动} [yùndòng] = športovať
+3 N 球棒 {球棒} [qiúbàng], 根 = pálka
+3 N 跳绳 {跳绳} [tiàoshéng], 根 = švihadlo
+3 N 哑铃 {哑铃} [yǎlíng], 个 = činka
+3 N 瑜伽垫 {瑜伽垫} [yújiādiàn], 张 = žinenka
+3 N 拨浪鼓 {拨浪鼓} [bōlanggǔ], 个 = hrkálka
+3 N 棋盘 {棋盘} [qípán], 张 = šachovnica
+3 N 马 {马} [mǎ], 匹 = šachový jazdec
+3 N 高跷 {高跷} [gāoqiāo], 副 = chodúľ
+3 N 兵 {兵} [bīng], 个 = pešiak
+3 N 象 {象} [xiàng], 个 = šachový strelec
+3 N 冰球 {冰球} [bīngqiú], 个 = hokejový puk
 
 # corpus-verbs
 3 V 挑拨 {挑拨} [tiǎobō] = poštvať proti sebe

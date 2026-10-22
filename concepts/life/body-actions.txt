@@ -34,6 +34,19 @@ V vzpriamiť
 AN vzpriamený
 V rozvaliť sa
 PHR chodiť po špičkách
+V kľaknúť si
+N poklona
+AV postojačky
+AV posediačky
+AV poležiačky
+V zohnúť sa
+V pokloniť sa
+V vystierať sa
+AV obkročmo
+V ležať na bruchu
+PHR so sklonenou hlavou
+AN skrčený
+AN ležiaci
 
 # locomotion
 V skákať
@@ -107,6 +120,22 @@ V zablúdiť
 V tápať
 V svišťať
 V váľať
+V robiť kotrmelce
+V uháňať -- rýchlo bežať
+V vbehnúť
+V vrhnúť sa
+V knísať sa
+V prekoprcnúť sa
+V cupkať
+V vrtieť sa
+V nasadnúť
+V vzlietnuť
+V vyletieť
+V obletieť
+V vydrať sa
+V dupať
+V valiť sa
+N bežec
 
 # manipulation
 V držať
@@ -293,3 +322,27 @@ V zatĺkať
 V natrieť
 V nosiť
 V šliapnúť
+V priklopiť
+V preklopiť
+V vrtieť
+V napichnúť
+V prepichnúť
+V vtlačiť
+V hrabať
+V zažmúriť
+N výprask -- bitka ako trest
+V mľasknúť jazykom
+V vyplaziť
+V zadrapiť
+V hmatať
+V vykĺznuť
+V špárať
+V búchať
+V napriahnuť sa
+N postrčenie
+V zapchať ústa
+V rozšliapnuť
+V vyhrnúť
+V tresnúť
+N cvrnknutie
+V naniesť -- nanášať, položiť na povrch

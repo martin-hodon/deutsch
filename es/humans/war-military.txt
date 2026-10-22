@@ -73,6 +73,11 @@
 2 N la tortura {tortura} [toɾˈtuɾa], torturas = mučenie
 3 V desacreditar {desacreditar} [desakɾeðiˈtaɾ] = zdiskreditovať
 3 N la desescalada {des|escalada} [desesˈkalaða], desescaladas = deeskalácia
+3 V doblegar {doblegar} [doβleˈɣaɾ] = podmaniť si
+2 V someter {someter} [someˈteɾ] = podmaniť si
+3 N el suplicio {suplicio} [suˈpliθjo], suplicios = mučenie
+3 V pugnar {pugnar} [puɣˈnaɾ] (por) = bojovať
+3 N la perdición {perdición} [peɾðiˈθjon], - = strata
 
 # army
 1 N el ejército {ejército} [eˈxeɾθito], ejércitos = armáda
@@ -121,6 +126,12 @@
 3 V flanquear {flanquear} [flaŋkeˈaɾ] = lemovať
 2 V sorprender {sorprender} [soɾpɾenˈdeɾ] = zaskočiť
 3 V catapultar {catapultar} [katapulˈtaɾ] = katapultovať
+3 N el cruzado {cruzado} [kɾuˈθaðo], cruzados = križiak
+3 N el alférez {alférez} [alˈfeɾeθ], alféreces = podporučík
+3 N la escuadrilla {escuadrilla} [eskwaˈðɾiʎa], escuadrillas = letka (útvar)
+3 N el protector {protector} [pɾotekˈtoɾ], protectores = ochranca
+3 N el escudero {escudero} [eskuˈðeɾo], escuderos = panoš
+3 V desfilar {desfilar} [desfiˈlaɾ] = pochodovať
 
 # weapons-fortification
 1 N el arma (f) {arma} [ˈaɾma], armas = zbraň
@@ -181,6 +192,32 @@
 3 V parar {parar} [paˈɾaɾ] = odraziť
 2 V armarse {armarse} [aɾˈmaɾse] = zbrojiť
 2 AN desarmado {des|armado} [desaɾˈmaðo], desarmada = neozbrojený
+2 N la bala {bala} [ˈbala], balas = guľka (strela)
+2 N el cañón {cañón} [kaˈɲon], cañones = hlaveň
+3 N la almena {almena} [alˈmena], almenas = cimbúrie
+2 N la lanza {lanza} [ˈlanθa], lanzas = kopija
+3 N el estoque {estoque} [esˈtoke], estoques = kord
+3 N la maza {maza} [ˈmaθa], mazas = kyjak
+3 N la porra {porra} [ˈpora], porras = kyjak
+3 N el carcaj {carcaj} [kaɾˈkax], carcajes = tulec
+3 N la aljaba {aljaba} [alˈxaβa], aljabas = tulec
+3 N la ballesta {ballesta} [baˈʎesta], ballestas = kuša
+3 N la alabarda {alabarda} [alaˈβaɾða], alabardas = halapartňa
+3 N el ariete {ariete} [aˈɾjete], arietes = baranidlo
+3 N el armamento {armamento} [aɾmaˈmento], armamentos = výzbroj
+3 V blindar {blindar} [blinˈdaɾ] = obrniť
+3 N la metralleta {metralleta} [metɾaˈʎeta], metralletas = samopal
+2 N la ametralladora {ametralladora} [ametɾaʎaˈðoɾa], ametralladoras = guľomet
+3 N el lanzallamas {lanza|llamas} [lanθaˈʎamas], lanzallamas = plameňomet
+3 N el lanzacohetes {lanza|cohetes} [lanθakoˈetes], lanzacohetes = raketomet
+3 N el obús {obús} [oˈβus], obuses = húfnica
+3 N la carabina de aire comprimido {carabina de aire comprimido} [kaɾaˈβina ðe ˈajɾe kompɾiˈmiðo], carabinas de aire comprimido = vzduchovka
+3 N la vaina {vaina} [ˈbajna], vainas = pošva (na zbraň)
+2 N la escopeta {escopeta} [eskoˈpeta], escopetas = brokovnica
+3 N el caza {caza} [ˈkaθa], cazas = stíhačka
+3 N el cartucho {cartucho} [kaɾˈtutʃo], cartuchos = náboj (do zbrane)
+3 N el venablo {venablo} [beˈnaβlo], venablos = oštep
+3 N la saeta {saeta} [saˈeta], saetas = šíp
 
 # war
 3 V saquear {saquear} [sakeˈaɾ] = plieniť
@@ -188,3 +225,16 @@
 3 V acorralar {acorralar} [akoraˈlaɾ] (a) = obkľúčiť
 2 N el almacén {almacén} [almaˈθen], almacenes = sklad
 2 N la mina {mina} [ˈmina], minas = tuha
+2 N el prisionero {prisionero} [pɾisjoˈneɾo], prisioneros = zajatec
+3 N el cautivo {cautivo} [kauˈtiβo], cautivos = zajatec
+3 V balear {balear} [baleˈaɾ] = postreliť
+3 N la trifulca {trifulca} [tɾiˈfulka], trifulcas = šarvátka
+3 N la escaramuza {escaramuza} [eskaɾaˈmuθa], escaramuzas = šarvátka
+3 N la matanza {matanza} [maˈtanθa], matanzas = krviprelievanie
+3 N la masacre {masacre} [maˈsakɾe], masacres = krviprelievanie
+3 N el motín {motín} [moˈtin], motines = vzbura
+3 N la sublevación {sublevación} [suβleβaˈθjon], sublevaciones = vzbura
+3 N la superioridad {superioridad} [supeɾjoɾiˈðað], - = prevaha
+3 N el cerco {cerco} [ˈθeɾko], cercos = obkľúčenie
+3 V abordar {abordar} [aβoɾˈðaɾ] = abordovať
+3 N el intruso {intruso} [inˈtɾuso], intrusos = votrelec

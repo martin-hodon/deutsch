@@ -20,6 +20,8 @@
 1 PHR kein Problem {kein Problem} [kaɪn pʁoˈbleːm] = žiadny problém
 2 PHR nicht schlimm {nicht schlimm} [nɪçt ˈʃlɪm] = to nevadí
 2 PHR so ein Mist {so ein Mist} [zoː aɪn ˈmɪst] = do kelu
+2 PAR na {na} [na] = no
+3 PAR gell {gell} [ɡɛl] = všakže
 
 # negation
 1 AV nicht {nicht} [nɪçt] = nie, ne-
@@ -67,6 +69,9 @@
 2 AV circa {circa} [ˈtsɪʁka] = približne, asi
 2 AV desto {desto} [ˈdɛsto] = tým viac, tým (viac), o to
 2 AV immer weniger {immer weniger} [ˈɪmɐ ˈveːnɪɡɐ] = čoraz menej
+1 AV viel {viel} [fiːl] = oveľa
+3 AV weitaus {weit|aus} [ˈvaɪtaʊs] = oveľa
+3 AV ja sogar {ja sogar} [jaː zoˈɡaːɐ] = dokonca
 
 # time
 2 AV nun {nun} [nuːn] = teraz, no, tak
@@ -104,6 +109,8 @@
 2 AV demnächst {demnächst} [deːmˈnɛːçst] = onedlho, v najbližšom čase
 2 AV seither {seit|her} [zaɪtˈheːɐ] = odvtedy
 2 AV zwischenzeitlich {zwischen|zeit|lich} [ˈtsvɪʃəntsaɪtlɪç] = medzitým, zatiaľ
+1 AV sofort {sofort} [zoˈfɔʁt] = okamžite
+3 AV im Nu {im Nu} [ɪm nuː] = okamžite
 
 # attitude-and-manner
 1 AV vielleicht {vielleicht} [fiˈlaɪçt] = možno, snáď
@@ -132,6 +139,19 @@
 2 AV leid {leid} [laɪt] = ľúto
 2 AV gerne {gerne} [ˈɡɛʁnə] = rád
 2 AV ungern {un|gern} [ˈʊnɡɛʁn] = nerád
+2 AV sozusagen {so|zu|sagen} [zoːtsuˈzaːɡən] = takpovediac
+3 AV schätzungsweise {schätzungs|weise} [ˈʃɛtsʊŋsvaɪzə] = odhadom
+3 INT igitt {igitt} [ɪˈɡɪt] = fuj
+2 INT pfui {pfui} [ˈpfuːi] = fuj
+2 INT Scheiße {Scheiße} [ˈʃaɪsə] = do riti
+2 INT tja {tja} [tja] = nuž
+2 INT hm {hm} [hm] = hmm
+2 INT oh {oh} [oː] = och
+2 INT ach {ach} [ax] = och
+2 INT autsch {autsch} [aʊtʃ] = au
+3 INT au {au} [aʊ] = au
+3 INT Donnerwetter {Donner|wetter} [ˈdɔnɐvɛtɐ] = doparoma
+3 AV sauwohl {sau|wohl} [ˈzaʊvoːl] = veľmi dobre
 
 # place-direction
 1 AV her {her} [heːɐ] = sem, odtiaľ
@@ -203,3 +223,5 @@
 3 AV als Letzter {als Letzter} [als ˈlɛtstɐ] = ako posledný
 2 PHR über null {über null} [ˈyːbɐ nʊl] = nad nulou
 1 PHR guten Morgen {guten Morgen} [ˈɡuːtən ˈmɔʁɡən] = dobré ráno
+2 PHR je … desto {je … desto} [jeː … ˈdɛstoː] = čím… tým (越…越)
+2 PHR je … umso {je … umso} [jeː … ˈʊmzoː] = čím… tým (越…越)

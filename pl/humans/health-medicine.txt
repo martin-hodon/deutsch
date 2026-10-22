@@ -184,6 +184,44 @@
 2 AN widzący {widzący} [vʲiˈdzɔntsɨ] = vidiaci
 2 PHR odzyskać przytomność {odzyskać przytomność} [ɔˈdzɨskatɕ pʂɨˈtɔmnɔɕtɕ] = prebrať sa
 2 PHR ocknąć się {ocknąć się} [ˈɔtsknɔɲtɕ ɕɛ] = prebrať sa
+3 N paciorkowiec {paciorkowiec} [patɕɔrˈkɔvʲɛts], m, paciorkowce = streptokok
+2 AN zatruty {za|truty} [zaˈtrutɨ] = otrávený (jedom)
+2 N skurcz {skurcz} [skurtʂ], m, skurcze = kŕč
+3 AN jednooki {jedno|oki} [jɛdnɔˈɔki] = jednooký
+3 V zwichnąć {zwichnąć} [ˈzvixnɔɲtɕ], dk (B) = vykĺbiť
+3 N strup {strup} [strup], m, strupy = chrasta
+2 N oparzenie {oparzenie} [ɔpaˈʐɛɲɛ], n, oparzenia = popálenina
+3 AN potłuczony {po|tłuczony} [pɔtwuˈtʂɔnɨ] = pomliaždený
+2 N malaria {malaria} [maˈlarja], ż, - = malária
+3 N egzema {egzema} [ɛɡˈzɛma], ż, egzemy = ekzém
+2 N brodawka {brodawka} [brɔˈdafka], ż, brodawki = bradavica
+3 AN śmiertelnie chory {śmiertelnie chory} [ɕmʲɛrˈtɛlɲɛ ˈxɔrɨ] = smrteľne chorý
+3 AN oszołomiony {oszołomiony} [ɔʂɔwɔˈmʲɔnɨ] = omráčený
+3 AN ociężały {ociężały} [ɔtɕɛ̃ˈʐawɨ] = malátny
+3 AN wiotki {wiotki} [ˈvʲɔtki] = ochabnutý
+3 AN podchmielony {pod|chmielony} [pɔtxmʲɛˈlɔnɨ] = podnapitý
+3 V wykrwawiać się {wy|krwawiać się} [vɨˈkrfavʲatɕ ɕɛ], wykrwawić się = vykrvácať
+3 N wścieklizna {wścieklizna} [fɕtɕɛˈklizna], ż, - = besnota
+3 N żółtaczka {żółtaczka} [ʐuwˈtatʂka], ż, - = žltačka
+3 N zapalenie wątroby {zapalenie wątroby} [zapaˈlɛɲɛ vɔnˈtrɔbɨ], n, zapalenia wątroby = hepatitída
+3 N odra {odra} [ˈɔdra], ż, - = osýpky
+3 N ospa {ospa} [ˈɔspa], ż, ospy = kiahne
+3 N świerzb {świerzb} [ɕfʲɛʂp], m, - = svrab
+3 N lumbago {lumbago} [lumˈbaɡɔ], n, -, ndm = seknutie v krížoch
+3 V okaleczać {o|kaleczać} [ɔkaˈlɛtʂatɕ], okaleczyć (B) = zmrzačiť
+3 N odcisk {odcisk} [ˈɔttɕisk], m, odciski = mozoľ
+3 N ropa {ropa} [ˈrɔpa], ż, - = hnis
+3 V ropieć {ropieć} [ˈrɔpʲɛtɕ], - = hnisať
+3 AN ropny {ropny} [ˈrɔpnɨ] = hnisavý
+3 N wrzód {wrzód} [vʐut], m, wrzody = vred
+3 AN opuchnięty {opuchnięty} [ɔpuxˈɲɛntɨ] = opuchnutý
+3 N wągier {wągier} [ˈvɔŋɡjɛr], m, wągry = čierna bodka
+3 N zgaga {zgaga} [ˈzɡaɡa], ż, - = pálenie záhy
+3 N skurcz porodowy {skurcz porodowy} [skurtʂ pɔrɔˈdɔvɨ], m, skurcze porodowe = kontrakcia
+3 N podrażnienie {podrażnienie} [pɔdraʐˈɲɛɲɛ], n, podrażnienia = podráždenie
+3 N pęcherz {pęcherz} [ˈpɛ̃xɛʂ], m, pęcherze = pľuzgier
+3 AN parszywy {parszywy} [parˈʂɨvɨ] = prašivý
+3 N patogen {patogen} [paˈtɔɡɛn], m, patogeny = pôvodca choroby
 
 # treatment
 2 N medycyna {medycyna} [mɛdɨˈtsɨna], ż, - = medicína
@@ -271,6 +309,10 @@
 3 AN psychiatryczny {psychiatryczny} [psɨxjaˈtrɨtʂnɨ] = psychiatrický
 3 V reanimować {reanimować} [rɛaɲiˈmɔvatɕ], zreanimować = resuscitovať
 3 AN terapeutyczny {terapeutyczny} [tɛrapɛuˈtɨtʂnɨ] = terapeutický
+2 N strzykawka {strzykawka} [stʂɨˈkafka], ż, strzykawki = injekčná striekačka
+3 N hipnoza {hipnoza} [xipˈnɔza], ż, hipnozy = hypnóza
+3 N sekcja zwłok {sekcja zwłok} [ˈsɛktsja zvwɔk], ż, sekcje zwłok = pitva
+3 N skalpel {skalpel} [ˈskalpɛl], m, skalpele = skalpel
 
 # medical-people-places
 1 N lekarz {lekarz} [ˈlɛkaʂ], m, lekarze = lekár
@@ -338,6 +380,8 @@
 1 N wyleczony {wyleczony} [vɨlɛˈtʂɔnɨ], m, wyleczeni = uzdravený
 3 N ozdrowieniec {ozdrowieniec} [ɔzdrɔˈvʲɛɲɛts], m, ozdrowieńcy = uzdravený
 3 N rekonwalescent {rekonwalescent} [rɛkɔnvaˈlɛstsɛnt], m, rekonwalescenci = uzdravený
+3 N kostnica {kostnica} [kɔstˈɲitsa], ż, kostnice = márnica
+3 N szarlatan {szarlatan} [ʂarˈlatan], m, szarlatani = šarlatán
 
 # hygiene-substances
 2 N higiena {higiena} [xiˈɡɛna], ż, - = hygiena
@@ -375,6 +419,15 @@
 3 AV higienicznie {higienicznie} [xiɡɛˈɲitʂɲɛ] = hygienicky
 3 AV jadowicie {jadowicie} [jadɔˈvʲitɕɛ] = jedovato
 3 AV trzeźwo {trzeźwo} [ˈtʂɛʑvɔ] = triezvo
+2 N żel pod prysznic {żel pod prysznic} [ʐɛl pɔt ˈprɨʂɲits], m, żele pod prysznic = sprchový gél
+1 V kąpać się {kąpać się} [ˈkɔmpatɕ ɕɛ], wykąpać się = kúpať sa
+2 V szorować {szorować} [ʂɔˈrɔvatɕ], wyszorować (B) = drhnúť
+2 V zmywać {zmywać} [ˈzmɨvatɕ], zmyć (B) = zmyť
+2 N maseczka {maseczka} [maˈsɛtʂka], ż, maseczki = rúško
+3 V mydlić {mydlić} [ˈmɨdlitɕ], namydlić (B) = mydliť
+3 N insulina {insulina} [insuˈlina], ż, - = inzulín
+3 N cholesterol {cholesterol} [xɔˈlɛstɛrɔl], m, - = cholesterol
+3 N glukoza {glukoza} [ɡluˈkɔza], ż, - = glukóza
 
 # more
 2 N aborcja {aborcja} [aˈbɔrtsja], ż, aborcje = potrat

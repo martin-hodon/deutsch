@@ -36,6 +36,8 @@ the same written forms, the same PARTS notation (`{Ge|fühl}`, `../lang/SEGMENTA
     deutsch/deutsch.tsv             every entry in one machine file (made by compile.py)
     deutsch/meaning.tsv             the meanings in one machine file (made by compile.py)
     deutsch/order.tsv               the words by how common they are, commonest first (made by order.py)
+    de/rules/regional.txt           the words said only in a region: Austria (Jänner), Switzerland, the north or
+                                    south of Germany (`N Jänner = AT`; ../DESIGN.md "Regional words")
 
 UTF-8. Inside a file: a `# section-name` line starts a section; blank lines are ignored; every other line is an ENTRY.
 A word appears in ONE place in the whole database, with one sense — the same spelling twice is two senses, told apart

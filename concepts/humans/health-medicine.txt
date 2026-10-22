@@ -132,6 +132,44 @@ AN traumatický
 AN epidemiologický
 AN vysoko nákazlivý
 AN odkázaný na opateru
+N streptokok -- druh baktérie
+AN otrávený (jedom)
+N kŕč
+AN jednooký
+V vykĺbiť
+N chrasta -- zaschnutá kôra na rane
+N popálenina -- poškodenie kože ohňom alebo teplom
+AN pomliaždený -- s pomliaždeninou
+N malária -- tropická choroba prenášaná komármi
+N ekzém -- kožné ochorenie
+N bradavica -- malý kožný výrastok
+AN smrteľne chorý -- chorý na smrť
+AN omráčený -- ohlušený a v šoku
+AN malátny -- slabý a ospalý
+AN ochabnutý -- bez sily a napätia
+AN podnapitý -- mierne opitý
+V vykrvácať -- zomrieť stratou krvi
+N besnota -- vírusová choroba po uhryznutí zvieraťom
+N žltačka -- ochorenie pečene so zožltnutím kože
+N hepatitída -- zápal pečene
+N osýpky -- detská choroba s červenými škvrnami
+N kiahne -- vírusová choroba s pľuzgiermi
+N svrab -- kožná choroba od roztočov
+N seknutie v krížoch -- náhla bolesť v krížoch
+V zmrzačiť -- spôsobiť trvalé poškodenie tela
+N mozoľ -- zhrubnutá koža
+N hnis -- žltá tekutina v zapálenej rane
+V hnisať -- tvoriť hnis
+AN hnisavý -- plný hnisu
+N vred -- hlboká rana na koži alebo sliznici
+AN opuchnutý -- zväčšený opuchom
+N čierna bodka -- upchatý pór na koži
+N pálenie záhy -- pálenie v pažeráku
+N kontrakcia -- sťah maternice pri pôrode
+N podráždenie -- podráždenie kože, očí, slizníc
+N pľuzgier
+AN prašivý -- postihnutý prašinou, chrastavitý
+N pôvodca choroby -- mikrób, vírus, ktorý spôsobuje chorobu
 
 # treatment
 N medicína
@@ -194,6 +232,10 @@ V zmierniť
 AN psychiatrický
 V resuscitovať
 AN terapeutický
+N injekčná striekačka -- na podanie injekcie
+N hypnóza -- stav podobný spánku navodený inou osobou
+N pitva -- skúmanie mŕtveho tela
+N skalpel -- chirurgický nôž
 
 # medical-people-places
 N lekár
@@ -241,6 +283,8 @@ N kozmetika
 AN kozmetický
 N zdravotníctvo
 N uzdravený
+N márnica -- miesto pre mŕtvych
+N šarlatán -- nepoctivý lekár
 
 # hygiene-substances
 N hygiena
@@ -268,6 +312,15 @@ N kalória
 N droga
 N konope
 N steh
+N sprchový gél -- mydlo na sprchovanie
+V kúpať sa -- ísť sa umyť do vody
+V drhnúť -- čistiť silným trením
+V zmyť -- odstrániť vodou
+N rúško -- ochrana úst a nosa
+V mydliť
+N inzulín
+N cholesterol
+N glukóza
 
 # more
 N potrat

@@ -135,6 +135,7 @@
 2 AN estone {estone} [ˈɛstone] = estónsky
 2 N l'estone (m) {estone} [ˈɛstone], estoni = Estónec
 2 N l'estone (f) {estone} [ˈɛstone], estoni = Estónka
+2 AN scozzese {scozzese} [skotˈtseːze] = škótsky
 
 # world
 1 N gli Stati Uniti {Stati Uniti} [ˈstaːti uˈniːti], PL = USA

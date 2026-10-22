@@ -174,6 +174,11 @@ V dotierať
 V vystrašiť
 V traumatizovať
 AN eufórický : adverb euforicky
+V rozladiť
+V vzplanúť -- prudko sa rozčúliť
+AN zarmútený
+AN vystrašený
+V stresovať sa
 
 # love-hate
 V ľúbiť
@@ -216,6 +221,12 @@ N zloba
 N sympatie
 N náklonnosť
 N obľuba
+N zbožňovanie
+V zbaliť (osobu) -- získať si osobu na rande, hovorovo
+AN súcitný
+V súcitiť
+N odpustenie
+V mať chuť -- mať náladu na niečo
 
 # self-social-feelings
 N hanba
@@ -251,6 +262,11 @@ N jednota
 N fair play
 N opovážlivosť
 N vyznanie
+N zahanbenie
+V zahanbiť
+AN zahanbený
+V zneuctiť
+AN samotársky
 
 # expressions
 V smiať sa
@@ -286,6 +302,18 @@ V nariekať
 V stonať
 V odstrašiť
 AN vrúcny : adverb vrúcne
+V zaraziť sa -- náhle sa zarazí
+N grimasa -- skrivená tvár
+AN posmešný
+AN žartovný
+AN uplakaný -- plný sĺz
+V zvraštiť -- stiahnuť do vrások (čelo, obočie)
+V fňukať
+AN zachmúrený
+N nárek
+N vzlyk
+V chichotať sa
+N úškrn
 
 # feelings
 V hýriť
@@ -296,6 +324,42 @@ AN blahodarný : adverb blahodarne
 AN opojný : adverb opojne
 AN lichotivý : adverb lichotivo
 V dvoriť sa
+V skľučovať -- robiť smutným, deprimovať
+AN obdivný
+N údiv
+AN udivený
+AN znechutený
+V znechutiť
+N škodoradosť
+AN škodoradostný
+V zľutovať sa
+AN milosrdný
+N príťažlivosť -- schopnosť priťahovať
+AN rozjašený -- veselo vzrušený
+N poblúznenie -- nadšená, prehnaná zamilovanosť
+AN znepokojený
+AN šokovaný
+V zaraziť -- ohromiť, zmiasť
+AN zarazený
+AN úzkostlivý
+AN namosúrený
+AN precitlivený
+V vcítiť sa
+V zhroziť sa
+N znepokojenie
+V zastrašiť
+AN túžobný
+AN podráždený
+N podráždenosť
+V strpčiť -- urobiť niekomu život trpkým
+V durdiť sa -- byť nahnevaný a nerozprávať
+AN rozčúlený
+N veselosť
+V mrzieť -- hnevať, zarmucovať
+AN utrápený -- zmučený starosťami
+V zarmútiť
+V rozveseliť
+N rozveselenie
 
 # more
 AN milovaný

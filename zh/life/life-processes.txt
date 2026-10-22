@@ -97,6 +97,7 @@
 3 V 闷死 {闷死} [mēnsǐ] = udusiť
 2 N 成长 {成长} [chéngzhǎng], - = rast
 2 V 增长 {增长} [zēngzhǎng] = rásť
+1 V 长 {长} [zhǎng] = rásť
 3 AV 生动地 {生动地} [shēngdòngde] = živo
 2 N 命 {命} [mìng], 条 = život
 1 AN 熟 {熟} [shú] = zrelý
@@ -112,6 +113,10 @@
 3 N 诞生 {诞生} [dànshēng], - = narodenie
 2 V 变年轻 {变年轻} [biàn niánqīng] = mladnúť
 3 V 返老还童 {返老还童} [fǎnlǎohuántóng] = mladnúť
+3 N 腐烂 {腐烂} [fǔlàn], - = hnitie
+3 N 腐肉 {腐肉} [fǔròu], - = zdochlina
+3 V 变白 {变白} [biànbái] = ošedivieť
+3 AN 腐烂 {腐烂} [fǔlàn] = zhnitý
 
 # body-functions
 2 V 呼吸 {呼吸} [hūxī] = dýchať
@@ -119,6 +124,7 @@
 3 N 气息 {气息} [qìxī], - = dych
 2 V 吸气 {吸气} [xīqì] = vdychovať
 3 V 吸入 {吸入} [xīrù] = vdychovať
+2 V 吸 {吸} [xī] = vdychovať
 3 V 呼气 {呼气} [hūqì] = vydychovať
 3 V 呼出 {呼出} [hūchū] = vydychovať
 2 N 呼吸 {呼吸} [hūxī], - = dýchanie
@@ -200,6 +206,43 @@
 2 N 清醒 {清醒} [qīngxǐng], - = bdenie
 1 V 醒着 {醒着} [xǐngzhe] = bdieť
 3 V 哄睡 {哄睡} [hǒngshuì] = uspať
+3 N 颤抖 {颤抖} [chàndǒu], - = chvenie
+3 V 搏动 {搏动} [bódòng] = pulzovať
+3 V 喝醉 {喝醉} [hēzuì] = opiť sa
+3 V 性交 {性交} [xìngjiāo] = súložiť
+3 V 射精 {射|精} [shèjīng] = vystriekať sa
+3 V 自慰 {自慰} [zìwèi] = honiť si
+3 N 屎 {屎} [shǐ], - = hovno
+3 V 抽泣 {抽泣} [chōuqì] = vzlykať
+3 V 唏嘘 {唏嘘} [xīxū] = vzlykať
+3 V 喷 {喷} [pēn] = prskať
+3 V 胀 {胀} [zhàng] = nadúvať
+3 V 发汗 {发|汗} [fāhàn] = vypotiť
+3 V 汗湿 {汗湿} [hànshī] = prepotiť
+3 N 吸气 {吸气} [xīqì], - = vdych
+3 N 呼气 {呼气} [hūqì], - = výdych
+3 N 小睡 {小睡} [xiǎoshuì], 觉 = zdriemnutie
+3 N 睡意 {睡意} [shuìyì], - = ospalosť
+3 N 哈欠 {哈欠} [hāqian], 个 = zívnutie
+3 V 咬 {咬} [yǎo] = nahryznúť
+3 V 咬开 {咬开} [yǎokāi] = rozhryznúť
+3 V 咬住 {咬住} [yǎozhù] = zahryznúť
+3 V 龇 {龇} [zī] = ceriť
+3 V 吧嗒嘴 {吧嗒|嘴} [bādazuǐ] = mľaskať
+3 V 打嗝 {打|嗝} [dǎgé] = grgať
+3 V 痛哭 {痛哭} [tòngkū] = vyplakať sa
+3 V 呛 {呛} [qiàng] = zabehnúť
+3 V 清嗓子 {清|嗓子} [qīngsǎngzi] = odkašľať si
+3 V 轻咳 {轻咳} [qīngké] = pokašliavať
+3 V 擤鼻涕 {擤|鼻涕} [xǐngbítì] = smrkať
+3 V 放屁 {放|屁} [fàngpì] = prdnúť
+3 N 酶 {酶} [méi], 种 = enzým
+3 V 呼 {呼} [hū] = vydychovať
+3 V 打呵欠 {打|呵欠} [dǎhēqian] = zívať
+3 AN 惫 {惫} [bèi] = vyčerpaný
+3 AN 倦 {倦} [juàn] = unavený
+3 N 倦怠 {倦怠} [juàndài], - = vyčerpanie
+3 N 代谢 {代谢} [dàixiè], - = látková výmena
 
 # nourishment
 1 V 吃 {吃} [chī] = jesť
@@ -243,12 +286,23 @@
 3 V 啃咬 {啃咬} [kěnyǎo] = chrúmať
 2 N 饱 {饱} [bǎo], - = sýtosť
 3 N 饱腹感 {饱腹感} [bǎofùgǎn], - = sýtosť
+3 V 吃撑 {吃撑} [chīchēng] = prejesť sa
+3 V 大吃大喝 {大吃大喝} [dàchīdàhē] = hodovať
+3 V 狼吞虎咽 {狼吞虎咽} [lángtūnhǔyàn] = napchávať sa
+3 V 吃零食 {吃|零食} [chīlíngshi] = maškrtiť
+3 V 提神 {提|神} [tíshén] = občerstviť
+3 N 美食家 {美食家} [měishíjiā], 位 = labužník
+3 V 抿 {抿} [mǐn] = odpiť
+3 V 育肥 {育肥} [yùféi] = vykrmovať
+3 V 舔净 {舔净} [tiǎnjìng] = vylízať
+3 V 吮吸 {吮吸} [shǔnxī] = cmúľať
 
 # senses-instinct
 3 N 本能 {本能} [běnnéng], 种 = inštinkt
 3 AN 本能 {本能} [běnnéng] = inštinktívny
 3 N 反射 {反射} [fǎnshè], 种 = reflex
 3 AV 本能地 {本能地} [běnnéngde] = inštinktívne
+3 V 麻醉 {麻醉} [mázuì] = omámiť
 
 # growth-adaptation
 3 N 青春期 {青春期} [qīngchūnqī], - = puberta
@@ -263,6 +317,12 @@
 2 V 死亡 {死亡} [sǐwáng] = uhynúť
 3 V 消散 {消散} [xiāosàn] = vyprchať
 3 V 挥发 {挥发} [huīfā] = vyprchať
+3 V 愈合 {愈合} [yùhé] = zrásť
+3 V 再长 {再长} [zàizhǎng] = dorásť
+3 V 疯长 {疯长} [fēngzhǎng] = rozrastať sa
+3 V 授精 {授|精} [shòujīng] = oplodniť
+3 V 萎缩 {萎缩} [wěisuō] = chradnúť
+3 N 突变 {突变} [tūbiàn], 次 = mutácia
 
 # more
 3 N 生态系统 {生态系统} [shēngtài xìtǒng], 个 = ekosystém

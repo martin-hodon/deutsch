@@ -54,6 +54,7 @@
 1 PHR trochę {trochę} [ˈtrɔxɛ] = trochu
 1 P żaden {żaden} [ˈʐadɛn] = žiadny
 2 PHR nieco {nieco} [ˈɲɛtsɔ] = trochu
+2 P jeden z nas {jeden z nas} [ˈjɛdɛn z nas] = jeden z nás
 
 # language-specific closed words (no Slovak word: a description)
 1 P swój {swój} [sfuj] = svoj

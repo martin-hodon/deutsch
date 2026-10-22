@@ -42,6 +42,10 @@
 2 N il paese natale {paese natale} [paˈeːze naˈtaːle], paesi natali = rodná krajina
 2 N la patria {patria} [ˈpaːtrja], patrie = rodná krajina
 2 N la città portuale {città portuale} [tʃiˈtːa porˈtwaːle], città portuali = prístavné mesto
+3 N il paesino {paesino} [paeˈziːno], paesini = zapadákov
+3 AN indigeno {indigeno} [inˈdiːdʒeno], indigena = domorodý
+3 AN nomade {nomade} [ˈnɔːmade] = kočovný
+3 AN itinerante {itinerante} [itineˈrante] = kočovný
 
 # streets-places
 1 N la strada {strada} [ˈstraːda], strade = ulica
@@ -87,6 +91,10 @@
 3 N il ciglio della strada {ciglio della strada} [ˈtʃiʎːo ˈdelːa ˈstraːda], cigli della strada = okraj cesty
 2 N il sottopassaggio {sottopassaggio} [sotːopaˈsːaddʒo], sottopassaggi = podchod
 2 N il sottopasso {sottopasso} [sotːoˈpasːo], sottopassi = podchod
+3 N la fogna {fogna} [ˈfoɲːa], fogne = stoka
+2 N il pozzo {pozzo} [ˈpottso], pozzi = studňa
+3 N il sampietrino {sampietrino} [sampjeˈtriːno], sampietrini = dlažobná kocka
+3 N il cubetto di porfido {cubetto di porfido} [kuˈbetːo di ˈpɔrfido], cubetti di porfido = dlažobná kocka
 
 # buildings
 1 N l'edificio (m) {edificio} [ediˈfiːtʃo], edifici = budova
@@ -160,6 +168,20 @@
 2 N la piscina coperta {piscina coperta} [piˈʃːiːna koˈpɛrta], piscine coperte = krytá plaváreň
 2 N la piscina scoperta {piscina scoperta} [piˈʃːiːna skoˈpɛrta], piscine scoperte = letné kúpalisko
 2 N la sala da concerti {sala da concerti} [ˈsaːla da konˈtʃɛrti], sale da concerti = koncertná sála
+3 N il ponte levatoio {ponte levatoio} [ˈponte levaˈtɔːjo], ponti levatoi = padací most
+3 N il minareto {minareto} [minaˈreːto], minareti = minaret
+3 N il crematorio {crematorio} [kremaˈtɔːrjo], crematori = krematórium
+2 N la tomba {tomba} [ˈtomba], tombe = hrobka
+3 N il sepolcro {sepolcro} [seˈpolkro], sepolcri = hrobka
+3 N il labirinto {labirinto} [labiˈrinto], labirinti = bludisko
+3 N le macerie {macerie} [maˈtʃɛːrje], PL = trosky
+3 N il terreno edificabile {terreno edificabile} [teˈrːeːno edifiˈkaːbile], terreni edificabili = stavebný pozemok
+3 N il materiale da costruzione {materiale da costruzione} [mateˈrjaːle da kostrutˈtsjoːne], materiali da costruzione = stavebný materiál
+3 N l'edilizia (f) {edilizia} [ediˈlittsja], - = stavebníctvo
+3 V ampliare {ampliare} [amˈpljaːre] = pristavať
+3 N l'ampliamento (m) {ampliamento} [ampliaˈmento], ampliamenti = prístavba
+3 N l'annesso (m) {annesso} [aˈnːɛsːo], annessi = prístavba
+3 N lo stile architettonico {stile architettonico} [ˈstiːle arkiteˈtːoːniko], stili architettonici = stavebný sloh
 
 # city-life
 1 N l'indirizzo (m) {indirizzo} [indiˈrittso], indirizzi = adresa
@@ -193,6 +215,8 @@
 2 N il consiglio comunale {consiglio comunale} [konˈsiʎːo komuˈnaːle], consigli comunali = mestská rada
 3 N la sagra {sagra} [ˈsaːɡra], sagre = pút
 2 N la fiera {fiera} [ˈfjɛːra], fiere = pút
+3 N il vagabondo {vagabondo} [vaɡaˈbondo], vagabondi = tulák
+3 N il barbone {barbone} [barˈboːne], barboni = tulák
 
 # settling
 2 V colonizzare {colonizzare} [koloniˈddzaːre] = osídľovať

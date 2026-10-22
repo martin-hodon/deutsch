@@ -12,6 +12,10 @@
 1 CON ni {ni} [ni] = ani
 3 CON o sea {o sea} [o ˈsea] = respektíve
 1 CON e {e} [e] = a
+3 CON por un lado por otro {por un lado por otro} [poɾ un ˈlaðo poɾ ˈotɾo] = jednak… jednak
+3 CON si bien {si bien} [si ˈβjen] = síce… ale
+2 CON a veces a veces {a veces a veces} [a ˈβeθes a ˈβeθes] = niekedy… niekedy
+3 CON en parte en parte {en parte en parte} [em ˈpaɾte em ˈpaɾte] = sčasti… sčasti
 
 # subordinating
 1 CON que {que} [ke] = že
@@ -40,6 +44,8 @@
 2 CON después de que {después de que} [desˈpwes ðe ke] = potom čo
 3 CON por el hecho de que {por el hecho de que} [poɾ el ˈetʃo ðe ke] = tým že
 1 PHR para {para} [ˈpaɾa] (+ inf) = aby
+3 CON tanto más cuanto que {tanto más cuanto que} [ˈtanto mas ˈkwanto ke] = tým skôr že
+3 CON tan como {tan como} [tan ˈkomo] = tak… ako
 
 # connecting-adverbs
 1 AV por eso {por eso} [poɾ ˈeso] = preto

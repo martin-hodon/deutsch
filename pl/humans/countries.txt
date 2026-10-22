@@ -137,6 +137,7 @@
 1 N Estończyk {Estończyk} [ɛsˈtɔɲtʂɨk], m, Estończycy = Estónec
 1 N Estonka {Estonka} [ɛsˈtɔŋka], ż, Estonki = Estónka
 2 AV po słowacku {po·słowacku} [pɔ swɔˈvatsku] = slovensky
+2 AN szkocki {szkocki} [ˈʂkɔtski] = škótsky
 
 # world
 1 N Stany Zjednoczone {Stany Zjednoczone} [ˈstanɨ zjɛdnɔˈtʂɔnɛ], lm, Stany Zjednoczone = USA

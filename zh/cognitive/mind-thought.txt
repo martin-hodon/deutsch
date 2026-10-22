@@ -218,6 +218,7 @@
 3 AN 思想上 {思想上} [sīxiǎngshàng] = myšlienkový
 3 V 琢磨 {琢磨} [zhuómo] = vymýšľať
 1 V 想出 {想出} [xiǎngchū] = vymýšľať
+2 V 编 {编} [biān] = vymýšľať
 3 V 琢磨出 {琢磨出} [zhuómochū] = vykoumať
 3 V 计入 {计入} [jìrù] = započítať
 2 V 算进去 {算进去} [suànjìnqu] = započítať
@@ -232,6 +233,7 @@
 2 N 关注 {关注} [guānzhù], - = pozornosť
 2 N 想象 {想象} [xiǎngxiàng], - = fantázia
 2 V 对比 {对比} [duìbǐ] = porovnať
+2 V 比 {比} [bǐ] = porovnať
 3 V 倾向 {倾向} [qīngxiàng] = mať sklon
 3 V 期望 {期望} [qīwàng] = očakávať
 2 AV 完美地 {完美地} [wánměide] = ideálne
@@ -251,6 +253,23 @@
 2 AN 不合逻辑 {不合逻辑} [bù hé luóji] = nelogický
 3 AN 不称职 {不称职} [bù chènzhí] = nekompetentný
 3 AN 无能 {无能} [wúnéng] = nekompetentný
+3 N 实质 {实质} [shízhì], - = podstata
+3 N 症结 {症结} [zhēngjié], 个 = podstata
+3 AN 梦寐以求 {梦寐以求} [mèngmèi yǐqiú] = vysnívaný
+2 AN 理想 {理想} [lǐxiǎng] = vysnívaný
+3 N 演绎 {演绎} [yǎnyì], - = dedukcia
+3 N 演绎法 {演绎法} [yǎnyìfǎ], - = dedukcia
+2 V 低估 {低估} [dīgū] = nedoceniť
+3 V 小看 {小看} [xiǎokàn] = nedoceniť
+2 N 心态 {心态} [xīntài], 个 = zmýšľanie
+2 N 思想 {思想} [sīxiǎng], - = zmýšľanie
+3 N 潜意识 {潜意识} [qiányìshí], - = podvedomie
+3 V 望 {望} [wàng] = očakávať
+3 V 估 {估} [gū] = odhadnúť
+3 N 意念 {意念} [yìniàn], 个 = myšlienka
+2 V 心想 {心想} [xīnxiǎng] = myslieť si
+3 V 悟 {悟} [wù] = uvedomiť si
+3 N 梦幻 {梦幻} [mènghuàn], - = sen
 
 # knowing
 1 V 知道 {知道} [zhīdào] = vedieť
@@ -264,6 +283,7 @@
 1 V 认识 {认识} [rènshi] = poznať
 1 AN 有名 {有名} [yǒumíng] = známy
 2 AN 著名 {著名} [zhùmíng] = známy
+2 AN 熟 {熟} [shú] = známy
 2 V 承认 {承认} [chéngrèn] = priznať
 3 V 坦白 {坦白} [tǎnbái] = priznať
 1 V 懂 {懂} [dǒng] = rozumieť
@@ -325,6 +345,7 @@
 2 AN 自信 {自信} [zìxìn] = sebavedomý
 2 N 错误 {错误} [cuòwù], 个 = chyba
 3 N 失误 {失误} [shīwù], 个 = chyba
+1 N 错 {错} [cuò], 个 = chyba
 1 AN 错 {错} [cuò] = chybný
 2 AN 错误 {错误} [cuòwù] = chybný
 2 AN 完美 {完美} [wánměi] = bezchybný
@@ -479,7 +500,15 @@
 2 V 考核 {考核} [kǎohé] = hodnotiť
 2 V 看好 {看好} [kànhǎo] = veriť
 2 V 晓得 {晓得} [xiǎode] = vedieť
+1 V 会 {会} [huì] = vedieť
 2 N 无知 {无知} [wúzhī], - = nevedomosť
+3 N 可理解性 {可理解性} [kělǐjiěxìng], - = zrozumiteľnosť
+3 N 清晰度 {清晰度} [qīngxīdù], - = zrozumiteľnosť
+3 V 辨别 {辨别} [biànbié] = rozoznať
+2 V 分辨 {分辨} [fēnbiàn] = rozoznať
+3 V 判处 {判处} [pànchǔ] = odsúdiť
+2 AN 迷糊 {迷糊} [míhu] = zmätený
+3 V 熟知 {熟知} [shúzhī] = poznať
 
 # memory
 2 N 记性 {记性} [jìxing], - = pamäť (schopnosť)
@@ -491,6 +520,7 @@
 2 V 提醒 {提醒} [tíxǐng] = pripomenúť
 1 V 忘 {忘} [wàng] = zabudnúť
 1 V 忘记 {忘记} [wàngjì] = zabudnúť
+2 V 落 {落} [là] = zabudnúť
 3 AN 健忘 {健忘} [jiànwàng] = zábudlivý
 2 AN 爱忘事 {爱忘事} [ài wàngshì] = zábudlivý
 2 AN 难忘 {难忘} [nánwàng] = nezabudnuteľný
@@ -504,6 +534,11 @@
 3 N 冥想 {冥想} [míngxiǎng], - = rozjímanie
 1 V 纪念 {纪念} [jìniàn] = pripomenúť
 2 V 怀念 {怀念} [huáiniàn] = spomínať si
+3 N 健忘 {健忘} [jiànwàng], - = zábudlivosť
+3 V 灌输 {灌输} [guànshū] = vštepovať
+3 V 叮嘱 {叮嘱} [dīngzhǔ] = vštepovať
+2 AV 凭记忆 {凭记忆} [píng jìyì] = naspamäť
+3 AV 滚瓜烂熟 {滚瓜烂熟} [gǔnguā lànshú] = naspamäť
 
 # intelligence
 2 N 智力 {智力} [zhìlì], - = inteligencia
@@ -553,6 +588,7 @@
 3 AN 蠢 {蠢} [chǔn] = hlúpy
 1 N 人才 {人才} [réncái], 个 = talent
 2 AN 智能 {智能} [zhìnéng] = inteligentný
+3 AN 灵敏 {灵敏} [língmǐn] = bystrý
 
 # problems
 1 N 问题 {问题} [wèntí], 个 = problém
@@ -626,6 +662,17 @@
 2 AV 偷偷 {偷偷} [tōutōu] = tajne
 1 V 说得对 {说得对} [shuō de duì] = mať pravdu
 2 V 有道理 {有道理} [yǒu dàolǐ] = mať pravdu
+2 V 发疯 {发|疯} [fāfēng] = zblázniť sa
+2 V 疯 {疯} [fēng] = zblázniť sa
+3 V 说胡话 {说|胡话} [shuōhúhuà] = blúzniť
+3 V 胡言乱语 {胡言乱语} [húyán luànyǔ] = blúzniť
+2 N 倒霉事 {倒霉事} [dǎoméishì], 件 = malér
+3 N 祸事 {祸事} [huòshì], 件 = malér
+3 N 窘境 {窘境} [jiǒngjìng], 个 = šlamastika
+2 N 困境 {困境} [kùnjìng], 个 = šlamastika
+3 V 连累 {连累} [liánlěi] = zapliesť do problémov
+3 V 牵连 {牵连} [qiānlián] = zapliesť do problémov
+2 AN 已解决 {已解决} [yǐ jiějué] = vyriešený
 
 # more
 2 V 看作 {看作} [kànzuò] = považovať

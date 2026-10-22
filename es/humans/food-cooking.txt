@@ -44,6 +44,18 @@
 2 N el aceite de girasol {aceite de girasol} [aˈθejte ðe xiɾaˈsol], aceites de girasol = slnečnicový olej
 2 N la hierba aromática {hierba aromática} [ˈjeɾβa aɾoˈmatika], hierbas aromáticas = bylinky
 3 AN no comestible {no comestible} [no komesˈtiβle] = nejedlý
+3 N el bicarbonato {bicarbonato} [bikaɾβoˈnato], - = jedlá sóda
+3 N la masa de levadura {masa de levadura} [ˈmasa de leβaˈðuɾa], masas de levadura = kysnuté cesto
+2 N el relleno {relleno} [reˈʎeno], rellenos = plnka
+3 N la manteca de cerdo {manteca de cerdo} [manˈteka de ˈθeɾðo], mantecas de cerdo = bravčová masť
+3 N el biscote {biscote} [bisˈkote], biscotes = suchár
+3 N el sebo {sebo} [ˈseβo], sebos = loj
+2 N la merienda {merienda} [meˈɾjenda], meriendas = olovrant
+2 N las sobras {sobras} [ˈsoβɾas], PL = zvyšky jedla
+3 N la gelatina {gelatina} [xelaˈtina], gelatinas = rôsol
+3 N la lechería {lechería} [letʃeˈɾia], lecherías = mliekáreň
+3 N el aliño {aliño} [aˈliɲo], aliños = dresing
+3 N el bocado {bocado} [boˈkaðo], bocados = sústo
 
 # staples
 1 N el pan {pan} [pan], panes = chlieb
@@ -135,6 +147,19 @@
 2 N la lenteja {lenteja} [lenˈtexa], lentejas = šošovica
 2 N el tofu {tofu} [ˈtofu], - = tofu
 2 N el taco {taco} [ˈtako], tacos = taco
+3 N el pesto {pesto} [ˈpesto], pestos = pesto
+2 N el cruasán {cruasán} [kɾwaˈsan], cruasanes = rožok
+3 N la hogaza {hogaza} [oˈɣaθa], hogazas = bochník
+3 N la trenza dulce {trenza dulce} [ˈtɾenθa ˈdulθe], trenzas dulces = vianočka
+2 N el bocadillo {bocadillo} [bokaˈðiʎo], bocadillos = obložený chlieb
+3 N los macarrones {macarrones} [makaˈrones], PL = kolienka
+3 N la pulpa {pulpa} [ˈpulpa], pulpas = pretlak
+2 N el puré {puré} [puˈɾe], purés = pyré
+2 N los fideos {fideos} [fiˈðeos], PL = rezance
+3 N el ñoqui {ñoqui} [ˈɲoki], ñoquis = gnocchi
+3 V salpimentar {salpimentar} [salpimenˈtaɾ], e>ie = ochutiť
+3 V aliñar {aliñar} [aliˈɲaɾ] = ochutiť
+3 V aderezar {aderezar} [aðeɾeˈθaɾ] = ochutiť
 
 # meat-fish-food
 2 N la carne de vaca {carne de vaca} [ˈkaɾne ðe ˈβaka], - = hovädzie mäso
@@ -167,6 +192,12 @@
 1 V engordar {engordar} [eŋɡoɾˈðaɾ] = pribrať
 2 V ganar peso {ganar peso} [ɡaˈnaɾ ˈpeso] = pribrať
 2 V aumentar de peso {aumentar de peso} [aumenˈtaɾ de ˈpeso] = pribrať
+3 N el embutido de hígado {embutido de hígado} [embuˈtiðo de ˈiɣaðo], embutidos de hígado = jaternica
+2 N la carne ahumada {carne ahumada} [ˈkaɾne auˈmaða], carnes ahumadas = údené mäso
+3 N los callos {callos} [ˈkaʎos], PL = držky
+3 N la carne salada {carne salada} [ˈkaɾne saˈlaða], carnes saladas = solené mäso
+3 N el aceite de pescado {aceite de pescado} [aˈθeite de pesˈkaðo], aceites de pescado = rybí tuk
+3 N el queso de cerdo {queso de cerdo} [ˈkeso de ˈθeɾðo], quesos de cerdo = tlačenka
 
 # fruits
 1 N la fruta {fruta} [ˈfɾuta], frutas = ovocie
@@ -215,6 +246,15 @@
 2 N la pasa {pasa} [ˈpasa], pasas = hrozienko
 2 N la lima {lima} [ˈlima], limas = limetka
 2 N el pomelo {pomelo} [poˈmelo], pomelos = grapefruit
+2 N la mandarina {mandarina} [mandaˈɾina], mandarinas = mandarínka
+3 N el caqui {caqui} [ˈkaki], caquis = kaki
+3 N la guinda {guinda} [ˈɡinda], guindas = višňa
+3 N la morera {morera} [moˈɾeɾa], moreras = moruša
+3 N el pistacho {pistacho} [pisˈtatʃo], pistachos = pistácia
+3 N la nuez pecana {nuez pecana} [nweθ peˈkana], nueces pecanas = pekanový orech
+3 N el anacardo {anacardo} [anaˈkaɾðo], anacardos = kešu orech
+3 N la nuez de Brasil {nuez de Brasil} [nweθ de bɾaˈsil], nueces de Brasil = para orech
+2 N la almendra {almendra} [alˈmendɾa], almendras = mandľa
 
 # vegetables
 1 N la verdura {verdura} [beɾˈðuɾa], verduras = zelenina
@@ -260,6 +300,17 @@
 3 N el espárrago {espárrago} [esˈparaɣo], espárragos = špargľa
 2 N el champiñón {champiñón} [tʃampiˈɲon], champiñones = šampiňón
 2 N la seta {seta} [ˈseta], setas = šampiňón
+3 N el ruibarbo {ruibarbo} [rwiˈβaɾβo], ruibarbos = rebarbora
+3 N la alcachofa {alcachofa} [alkaˈtʃofa], alcachofas = artičok
+3 N la col rizada {col rizada} [kol riˈθaða], coles rizadas = kučeravá kapusta
+3 N el colinabo {coli|nabo} [koliˈnaβo], colinabos = kaleráb
+3 N el ajo de oso {ajo de oso} [ˈaxo de ˈoso], ajos de oso = medvedí cesnak
+2 N la legumbre {legumbre} [leˈɣumbɾe], legumbres = strukovina
+2 N el garbanzo {garbanzo} [ɡaɾˈβanθo], garbanzos = cícer
+3 N el rábano picante {rábano picante} [ˈraβano piˈkante], rábanos picantes = chren
+3 N el cebollino {cebollino} [θeβoˈʎino], cebollinos = pažítka
+3 N la berza {berza} [ˈbeɾθa], berzas = kapusta
+3 N la lombarda {lombarda} [lomˈbaɾða], lombardas = červená kapusta
 
 # sweets-drinks
 1 N la tarta {tarta} [ˈtaɾta], tartas = koláč
@@ -318,6 +369,16 @@
 2 N la patata frita {patata frita} [paˈtata ˈfɾita], patatas fritas = čipsy
 3 N el caramelo {caramelo} [kaɾaˈmelo], caramelos = karamel
 2 N la gelatina {gelatina} [xelaˈtina], gelatinas = želé
+2 N el brindis {brindis} [ˈbɾindis], brindis = prípitok
+3 N el brebaje {brebaje} [bɾeˈβaxe], brebajes = žbrnda
+3 N el hidromiel {hidro|miel} [iðɾoˈmjel], hidromieles = medovina
+3 N el licor {licor} [liˈkoɾ], licores = liehovina
+2 N la compota {compota} [komˈpota], compotas = kompót
+2 N la pastelería {pastelería} [pasteleˈɾia], pastelerías = cukráreň
+2 N el bizcocho {bizcocho} [biθˈkotʃo], bizcochos = bábovka
+2 N la piruleta {piruleta} [piɾuˈleta], piruletas = lízanka
+3 N el regaliz {regaliz} [reɣaˈliθ], regalices = pendrek (sladkosť)
+3 N la rosquilla {rosquilla} [roˈskiʎa], rosquillas = venček
 
 # cooking
 1 V cocinar {cocinar} [koθiˈnaɾ] = variť
@@ -381,6 +442,22 @@
 2 V consumir {consumir} [konsuˈmiɾ] = skonzumovať
 3 V guarnecer {guarnecer} [ɡwaɾneˈθeɾ], c>zc = garnírovať
 3 V decorar {decorar} [dekoˈɾaɾ] = garnírovať
+3 V cortarse {cortarse} [koɾˈtaɾse] = zraziť sa (mlieko)
+3 N la infusión {infusión} [imfuˈsjon], infusiones = nálev
+3 V gratinar {gratinar} [ɡɾatiˈnaɾ] = zapiecť
+3 V chamuscar {chamuscar} [tʃamusˈkaɾ] = pripáliť
+2 V derretir {derretir} [dereˈtiɾ], e>i = roztopiť
+3 V exprimir {exprimir} [ekspɾiˈmiɾ] = odšťaviť
+3 V fermentar {fermentar} [feɾmenˈtaɾ] = kvasiť
+3 V colar {colar} [koˈlaɾ], o>ue = cediť
+3 N la fermentación {fermentación} [feɾmentaˈθjon], fermentaciones = kvasenie
+3 V hartar {hartar} [aɾˈtaɾ] = zasýtiť
+3 V saciar {saciar} [saˈθjaɾ] = zasýtiť
+3 V rallar {rallar} [raˈʎaɾ] = strúhať
+3 V eviscerar {eviscerar} [eβisθeˈɾaɾ] = vyvrhnúť
+3 V verter {verter} [beɾˈteɾ], e>ie = odliať
+2 V vaciar {vaciar} [baˈθjaɾ], i>í = vyliať
+2 V rellenar {rellenar} [reʎeˈnaɾ] = doliať
 
 # kitchen-tools
 1 N el cuchillo {cuchillo} [kuˈtʃiʎo], cuchillos = nôž
@@ -447,6 +524,22 @@
 2 N la carta {carta} [ˈkaɾta], cartas = menu
 1 N el restaurante {restaurante} [restawˈɾante], restaurantes = pohostinstvo
 1 N el bar {bar} [baɾ], bares = pohostinstvo
+3 N el cascanueces {casca|nueces} [kaskaˈnweθes], cascanueces = luskáčik
+3 N el tarro {tarro} [ˈtaro], tarros = kelímok
+2 N la copa {copa} [ˈkopa], copas = čaša
+2 N el cazo {cazo} [ˈkaθo], cazos = kastról
+2 N la cazuela {cazuela} [kaˈθwela], cazuelas = kastról
+3 N el pelador {pelador} [pelaˈðoɾ], peladores = škrabka
+3 N el pelapatatas {pela|patatas} [pelapaˈtatas], pelapatatas = škrabka
+2 N el rodillo {rodillo} [roˈðiʎo], rodillos = valček na cesto
+3 N el vaso medidor {vaso medidor} [ˈbaso meðiˈðoɾ], vasos medidores = odmerka
+2 N la tabla de cortar {tabla de cortar} [ˈtaβla de koɾˈtaɾ], tablas de cortar = doska na krájanie
+3 N la espumadera {espumadera} [espumaˈðeɾa], espumaderas = zberačka
+3 N el espetón {espetón} [espeˈton], espetones = ražeň
+3 N el exprimidor {exprimidor} [ekspɾimiˈðoɾ], exprimidores = odšťavovač
+2 N la jarra {jarra} [ˈxara], jarras = kanvica
+3 N el fogón {fogón} [foˈɣon], fogones = sporák
+3 N el puchero {puchero} [puˈtʃeɾo], pucheros = hrniec
 
 # taste-quality
 1 N el sabor {sabor} [saˈβoɾ], sabores = chuť (na jazyku)
@@ -476,3 +569,7 @@
 2 AN cocido {cocido} [koˈθiðo], cocida = varený
 3 AN hervido {hervido} [eɾˈβiðo], hervida = varený
 2 AN de mal gusto {de mal gusto} [de mal ˈɡusto] = nevkusný
+3 AN precocinado {precocinado} [pɾekoθiˈnaðo], precocinada = predvarený
+2 AN caducado {caducado} [kaðuˈkaðo], caducada = expirovaný
+3 AN astringente {astringente} [astɾiŋˈxente] = trpký
+2 N el gusto {gusto} [ˈɡusto], gustos = chuť (na jazyku)

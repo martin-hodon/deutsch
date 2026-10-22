@@ -65,6 +65,18 @@
 3 N el soplo {soplo} [ˈsoplo], soplos = závan
 2 N la lluvia fuerte {lluvia fuerte} [ˈʎuβja ˈfweɾte], lluvias fuertes = silný dážď
 3 N la temperatura diurna {temperatura diurna} [tempeɾaˈtuɾa ˈdjuɾna], temperaturas diurnas = denná teplota
+2 V soplar {soplar} [soˈplaɾ] = fúkať
+3 V ventear {ventear} [benteˈaɾ] = fúkať
+2 V apagar soplando {apagar soplando} [apaˈɣaɾ soˈplando] = sfúknuť
+3 N la humareda {humareda} [umaˈɾeða], humaredas = kúdol
+3 N la corriente de aire {corriente de aire} [koˈrjente de ˈajɾe], corrientes de aire = prievan
+3 V llevarse el viento {llevarse el viento} [ʎeˈβaɾse el ˈbjento] = odfúknuť
+3 V abanicar {abanicar} [aβaniˈkaɾ] = ovievať
+2 V lloviznar {lloviznar} [ʎoβizˈnaɾ] = mrholiť
+3 V amainar {amainar} [amajˈnaɾ] = zmierniť sa
+3 N la vaharada {vaharada} [baaˈɾaða], vaharadas = závan
+3 N la bruma {bruma} [ˈbɾuma], brumas = hmla
+3 N la tempestad {tempestad} [tempesˈtað], tempestades = búrka
 
 # temperature
 1 N la temperatura {temperatura} [tempeɾaˈtuɾa], temperaturas = teplota
@@ -123,6 +135,9 @@
 2 N la sequía {sequía} [seˈkia], sequías = sucho
 2 AV a sangre fría {a·sangre·fría} [a ˈsaŋɡɾe ˈfɾia] = chladnokrvne
 2 N el enfriamiento {enfria|miento} [eɱfɾjaˈmjento], enfriamientos = ochladzovanie
+2 V enfriarse {enfriarse} [enˈfɾjaɾse], i>í = chladnúť
+3 N el hervor {hervor} [eɾˈβoɾ], hervores = var
+3 N la canícula {canícula} [kaˈnikula], canículas = vlna horúčav
 
 # seasons-climate
 2 N la estación {estación} [estaˈθjon], estaciones = ročné obdobie

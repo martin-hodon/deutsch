@@ -298,12 +298,24 @@
 2 AN finite {finite} [ˈfaɪnaɪt] = konečný
 2 N decrease {de|crease} [ˈdiːkriːs], decreases = úbytok
 2 V expand {expand} [ɪkˈspænd] = zväčšiť sa
+3 V crown {crown} [kraʊn] (with) = zavŕšiť
+2 V take turns {take·turns} [teɪk ˈtɜːnz], took turns/taken turns = striedať sa
+2 V burst {burst} [bɜːst], burst/burst = prasknúť
+3 V crack {crack} [kræk] = prasknúť
+2 N leak {leak} [liːk], leaks = únik
+3 V stick {stick} [stɪk], stuck/stuck = viaznuť
+3 V falter {falter} [ˈfɔːltə] = viaznuť
+3 V creep in {creep·in} [kriːp ˈɪn], crept in/crept in = vkradnúť sa
+3 N stroke of luck {stroke of luck} [ˈstrəʊk əv ˈlʌk], strokes of luck = šťastná náhoda
+3 N fluke {fluke} [fluːk], flukes = šťastná náhoda
+2 V turn {turn} [tɜːn] (into) = zmeniť sa
 # relations
 1 AN same {same} [seɪm] = rovnaký
 2 AN equal {equal} [ˈiːkwəl] = rovnaký
 3 N equality {equality} [ɪˈkwɒləti], - = rovnosť
 3 AN indifferent {in|different} [ɪnˈdɪfrənt] (to) = ľahostajný
 3 V resemble {resemble} [rɪˈzembəl] (sth) = podobať sa
+2 V differ {differ} [ˈdɪfə] (from) = líšiť sa
 3 AN unequal {un|equal} [ʌnˈiːkwəl] = nerovnaký
 3 V balance out {balance·out} [ˈbæləns ˈaʊt] (sth) = vyrovnať
 3 V even out {even·out} [ˈiːvən ˈaʊt] (sth) = vyrovnať
@@ -566,6 +578,9 @@
 2 N lack of interest {lack of interest} [ˌlæk əv ˈɪntrəst], - = nezáujem
 2 N indifference {in|difference} [ɪnˈdɪfrəns], - = nezáujem
 2 V multiply {multiply} [ˈmʌltɪplaɪ] (sth) = násobiť
+2 AN included {in|cluded} [ɪnˈkluːdɪd] = zahrnutý
+3 N highlight {high|light} [ˈhaɪlaɪt], highlights = zlatý klinec
+3 N selling point {selling point} [ˈselɪŋ ˌpɔɪnt], selling points = zlatý klinec
 # transfer-basic-verbs
 1 V give {give} [ɡɪv], gave/given (sb sth) = dať
 1 PHR there is {there is} [ðər ˈɪz] = je
@@ -694,6 +709,7 @@
 3 V mail {mail} [meɪl] (sth) = poslať
 1 AN found {found} [faʊnd] = nájdený
 3 AN loss-making {loss-making} [ˈlɒs ˌmeɪkɪŋ] = stratový
+3 N withdrawal {withdraw|al} [wɪðˈdrɔːəl], withdrawals = odobratie
 # action-and-use
 1 N action {ac|tion} [ˈækʃən], actions = akcia (činnosť)
 2 N activity {ac|tiv|ity} [ækˈtɪvɪtɪ], activities = činnosť
@@ -1223,6 +1239,9 @@
 2 V unwrap {un|wrap} [ʌnˈræp] (sth) = rozbaliť
 2 V unpack {un|pack} [ʌnˈpæk] (sth) = rozbaliť
 2 V move away {move·away} [muːv əˈweɪ] = vzdialiť sa
+2 V proceed {proceed} [prəˈsiːd] (with, to) = postupovať
+3 V avert {avert} [əˈvɜːt] (sth) = odvrátiť
+3 V ward off {ward·off} [wɔːd ˈɒf] = odvrátiť
 # change
 2 V show {show} [ʃəʊ], showed/shown (sth) = prejaviť
 2 V express {ex|press} [ɪkˈspres] (sth) = prejaviť
@@ -1253,6 +1272,23 @@
 3 V bandage {ban|dage} [ˈbændɪdʒ] (sth) = obviazať
 2 V tie up {tie·up} [taɪ ˈʌp] (sth) = obviazať
 2 V soften {soft|en} [ˈsɒfən] = zmäknúť
+3 N alteration {alteration} [ˌɔːltəˈreɪʃn], alterations = pozmenenie
+3 N modification {modification} [ˌmɒdɪfɪˈkeɪʃn], modifications = pozmenenie
+2 N creation {creation} [kriˈeɪʃn], creations = stvorenie
+2 V fall apart {fall·apart} [fɔːl əˈpɑːt], fell apart/fallen apart = rozpadať sa
+3 V disintegrate {dis|integrate} [dɪsˈɪntɪɡreɪt] = rozpadať sa
+1 V break {break} [breɪk], broke/broken = zlomiť
+2 V tear {tear} [teə], tore/torn = natrhnúť
+3 V crumple {crumple} [ˈkrʌmpl] = krčiť
+3 V crinkle {crinkle} [ˈkrɪŋkl] = krčiť
+3 V unbuckle {un|buckle} [ʌnˈbʌkl] = odopnúť
+3 V buckle up {buckle·up} [ˈbʌkl ˈʌp] = pripútať
+3 V strap in {strap·in} [stræp ˈɪn] = pripútať
+3 N breakdown {break|down} [ˈbreɪkdaʊn], breakdowns = rozklad
+3 N decomposition {decomposition} [ˌdiːkɒmpəˈzɪʃn], decompositions = rozklad
+3 V disfigure {dis|figure} [dɪsˈfɪɡə] = zohyzdiť
+3 V deface {de|face} [dɪˈfeɪs] = zohyzdiť
+3 AN stagnant {stagnant} [ˈstæɡnənt] = stagnujúci
 
 # more
 1 AN another {an|other} [əˈnʌðə] = ďalší

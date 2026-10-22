@@ -54,6 +54,22 @@
 3 N der/das Silo {Silo} [ˈziːlo], Silos = silo
 3 N der Spaten {Spaten} [ˈʃpaːtən], Spaten = rýľ
 3 V kultivieren {kultivieren} [kʊltiˈviːʁən], hat (A) = kultivovať, pestovať
+3 V verpflanzen {ver|pflanzen} [fɛɐˈpflantsən], hat (A) = presadiť (rastlinu)
+3 V umpflanzen {um·pflanzen} [ˈʊmpflantsən], hat (A) = presadiť (rastlinu)
+3 V jäten {jäten} [ˈjɛːtən], hat (A) = plieť
+3 N die Brache {Brache} [ˈbʁaxə], Brachen = prieloh
+3 V eggen {eggen} [ˈɛɡən], hat (A) = kypriť
+3 N die Schneise {Schneise} [ˈʃnaɪzə], Schneisen = priesek
+3 N die Abholzung {Ab|holzung} [ˈaphɔltsʊŋ], Abholzungen = výrub
+3 V abholzen {ab·holzen} [ˈaphɔltsən], hat (A) = vyrúbať
+2 V pflücken {pflücken} [ˈpflʏkən], hat (A) = oberať
+3 V abernten {ab·ernten} [ˈapɛʁntən], hat (A) = oberať
+2 N die Ernte {Ernte} [ˈɛʁntə], Ernten = žatva
+3 N die Aussaat {Aus|saat} [ˈaʊszaːt], Aussaaten = osev
+3 N das Pflügen {Pflügen} [ˈpflyːɡən], - = orba
+2 V umgraben {um·graben} [ˈʊmɡʁaːbən], gräbt um/grub um/umgegraben [ɡʁɛːpt ʊm/ɡʁuːp ʊm/ˈʊmɡəɡʁaːbən], hat (A) = rýľovať
+3 N der Farmer {Farmer} [ˈfaʁmɐ], Farmer = roľník
+3 V auspflanzen {aus·pflanzen} [ˈaʊspflantsən], hat (A) = vysadiť
 
 # crops
 2 N das Getreide {Getreide} [ɡəˈtʁaɪdə], - = obilie
@@ -72,6 +88,8 @@
 2 N das Stroh {Stroh} [ʃtʁoː], - = slama
 3 N der Setzling {Setz|ling} [ˈzɛtslɪŋ], Setzlinge = sadenica
 3 N der Ballen {Ballen} [ˈbalən], Ballen = bala, balík
+3 N die Hirse {Hirse} [ˈhɪʁzə], - = proso
+3 N das Malz {Malz} [malts], - = slad
 
 # livestock-keeping
 2 N das Vieh {Vieh} [fiː], - = dobytok
@@ -108,6 +126,24 @@
 3 N das Euter {Euter} [ˈɔʏtɐ], Euter = vemeno
 3 N die Hundehütte {Hunde|hütte} [ˈhʊndəhʏtə], Hundehütten = búda
 3 N der Reiter {Reiter} [ˈʁaɪtɐ], Reiter = jazdec
+3 N das Joch {Joch} [jɔx], Joche = jarmo
+3 N die Sau {Sau} [zaʊ], Säue/Sauen = prasnica
+3 N der Eber {Eber} [ˈeːbɐ], Eber = kanec
+3 N das Zicklein {Zick|lein} [ˈtsɪklaɪn], Zicklein = kozľa
+3 N das Kitz {Kitz} [kɪts], Kitze = kozľa
+3 N der Rappe {Rappe} [ˈʁapə], Rappen = vraník
+3 N der Zaum {Zaum} [tsaʊm], Zäume = uzda
+3 N der Zügel {Zügel} [ˈtsyːɡəl], Zügel = opraty
+3 N der Steigbügel {Steig|bügel} [ˈʃtaɪkbyːɡəl], Steigbügel = strmeň
+3 N der Sporn {Sporn} [ʃpɔʁn], Sporen = ostroha
+3 N die Peitsche {Peitsche} [ˈpaɪtʃə], Peitschen = bič
+3 V peitschen {peitschen} [ˈpaɪtʃən], hat (A) = bičovať
+3 N der Maulkorb {Maul|korb} [ˈmaʊlkɔʁp], Maulkörbe = náhubok
+3 N der Beißkorb {Beiß|korb} [ˈbaɪskɔʁp], Beißkörbe = náhubok
+3 N das Hundehalsband {Hunde|hals|band} [ˈhʊndəhalsbant], Hundehalsbänder = obojok
+3 V einspannen {ein·spannen} [ˈaɪnʃpanən], hat (A) = zapriahnuť
+3 N die Kuhglocke {Kuh|glocke} [ˈkuːɡlɔkə], Kuhglocken = zvonec
+3 N der Peitschenhieb {Peitschen|hieb} [ˈpaɪtʃənhiːp], Peitschenhiebe = šľahnutie
 
 # garden-hunt-fish
 1 N der Garten {Garten} [ˈɡaʁtən], Gärten = záhrada
@@ -134,3 +170,8 @@
 3 V beschneiden {be|schneiden} [bəˈʃnaɪdən], beschneidet/beschnitt/beschnitten [bəˈʃnaɪdət/bəˈʃnɪt/bəˈʃnɪtən], hat = orezať, prerezať, obrezať
 3 N der Schlauch {Schlauch} [ʃlaʊx], Schläuche = hadica
 - 3 N der Gartenschlauch {Garten|schlauch} [ˈɡaʁtənʃlaʊx], Gartenschläuche = záhradná hadica
+3 N der Holzfäller {Holz|fäller} [ˈhɔltsfɛlɐ], Holzfäller = drevorubač
+3 V ausweiden {aus·weiden} [ˈaʊsvaɪdən], hat (A) = vypitvať
+3 N der Angelhaken {Angel|haken} [ˈaŋəlhaːkən], Angelhaken = háčik
+3 N die Angelrolle {Angel|rolle} [ˈaŋəlʁɔlə], Angelrollen = navijak
+3 V verschneiden {ver|schneiden} [fɛɐˈʃnaɪdən], verschneidet/verschnitt/verschnitten [fɛɐˈʃnaɪdət/fɛɐˈʃnɪt/fɛɐˈʃnɪtən], hat (A) = orezať

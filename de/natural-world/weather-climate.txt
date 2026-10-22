@@ -69,6 +69,27 @@
 3 N der Hauch {Hauch} [haʊx], Hauche = závan, vánok
 3 N der Starkregen {Stark|regen} [ˈʃtaʁkʁeːɡən], - = silný dážď
 3 N die Tagestemperatur {Tages|temperatur} [ˈtaːɡəstɛmpəʁatuːɐ], Tagestemperaturen = denná teplota
+3 V pusten {pusten} [ˈpuːstən], hat = fúkať
+2 V blasen {blasen} [ˈblaːzən], bläst/blies/geblasen [blɛːst/bliːs/ɡəˈblaːzən], hat = fúkať
+2 V wehen {wehen} [ˈveːən], hat = fúkať
+3 V auspusten {aus·pusten} [ˈaʊspuːstən], hat = sfúknuť
+3 V ausblasen {aus·blasen} [ˈaʊsblaːzən], bläst aus/blies aus/ausgeblasen [blɛːst aʊs/bliːs aʊs/ˈaʊsɡəblaːzən], hat = sfúknuť
+3 N der Schwaden {Schwaden} [ˈʃvaːdən], Schwaden = kúdol
+3 N der Luftzug {Luft|zug} [ˈlʊftˌtsuːk], Luftzüge = prievan
+3 N die Zugluft {Zug|luft} [ˈtsuːkˌlʊft], - = prievan
+3 V wegblasen {weg·blasen} [ˈvɛkblaːzən], bläst weg/blies weg/weggeblasen [blɛːst vɛk/bliːs vɛk/ˈvɛkɡəblaːzən], hat = odfúknuť
+3 V fächeln {fächeln} [ˈfɛçəln], hat = ovievať
+3 V nieseln {nieseln} [ˈniːzəln], hat = mrholiť
+3 V abflauen {ab·flauen} [ˈapflaʊən], ist = zmierniť sa
+2 V nachlassen {nach·lassen} [ˈnaːxlasən], lässt nach/ließ nach/nachgelassen [lɛst naːx/liːs naːx/ˈnaːxɡəlasən], hat = zmierniť sa
+2 V decken {decken} [ˈdɛkən], hat = pokryť
+3 V beschichten {be|schichten} [bəˈʃɪçtən], hat = pokryť
+3 N die Flocke {Flocke} [ˈflɔkə], Flocken = snehová vločka
+3 N das Lüftchen {Lüftchen} [ˈlʏftçən], Lüftchen = vánok
+3 N der Wirbelsturm {Wirbel|sturm} [ˈvɪʁbəlʃtʊʁm], Wirbelstürme = cyklón
+3 N der Raureif {Rau|reif} [ˈʁaʊʁaɪf], - = námraza
+3 N der Raufrost {Rau|frost} [ˈʁaʊfʁɔst], - = námraza
+3 N das Raueis {Rau|eis} [ˈʁaʊʔaɪs], - = námraza
 
 # temperature
 1 N die Temperatur {Temperatur} [tɛmpeʁaˈtuːɐ], Temperaturen = teplota
@@ -121,6 +142,10 @@
 3 AN dürr {dürr} [dʏʁ], dürrer/am dürrsten = vyschnutý, suchý
 - 2 N die Dürre {Dürre} [ˈdʏʁə], Dürren = sucho
 3 N die Abkühlung {Ab|kühlung} [ˈapkyːlʊŋ], Abkühlungen = ochladzovanie
+2 V abkühlen {ab·kühlen} [ˈapkyːlən], hat/ist = chladnúť
+3 V erkalten {er|kalten} [ɛɐˈkaltən], ist = chladnúť
+3 N die Wallung {Wallung} [ˈvalʊŋ], Wallungen = var
+3 AN lau {lau} [laʊ] = vlažný
 
 # seasons-climate
 1 N die Jahreszeit {Jahres|zeit} [ˈjaːʁəstsaɪt], Jahreszeiten = ročné obdobie

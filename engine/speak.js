@@ -25,7 +25,7 @@ export const VOICES = { man: { f0: 112, scale: 1 }, woman: { f0: 205, scale: 1.1
 // vowels: [F1, F2, F3, short duration]; a long one (ː) lasts P.long times as long
 const V = (f1, f2, f3, d = 75) => ({ type: "vowel", f: [f1, f2, f3], d });
 const D = (from, to, d = 140) => ({ ...V(...from, d), to });   // (a diphthong: from the first target to the second -- longer than a short vowel, about as a long one)
-const SOUNDS = {
+export const SOUNDS = {
   i: V(280, 2250, 2950), "ɪ": V(390, 1950, 2600), e: V(340, 2120, 2700), "ɛ": V(530, 1780, 2550), a: V(740, 1300, 2500), "ɑ": V(700, 1100, 2500),
   "ɔ": V(560, 920, 2450), o: V(370, 760, 2350), "ʊ": V(410, 1020, 2350), u: V(300, 720, 2300), y: V(270, 1780, 2150), "ʏ": V(370, 1560, 2200),
   "ø": V(350, 1460, 2200), "œ": V(490, 1420, 2350), "ə": V(460, 1420, 2450, 50), "ɐ": V(600, 1250, 2450, 70), "ʌ": V(620, 1200, 2500),

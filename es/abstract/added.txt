@@ -19,3 +19,13 @@
 3 N el medievo {medievo} [meˈðjeβo], - = stredovek
 2 N el primer puesto {primer puesto} [pɾiˈmeɾ ˈpwesto], primeros puestos = prvé miesto
 2 N el primer lugar {primer lugar} [pɾiˈmeɾ luˈɣaɾ], primeros lugares = prvé miesto
+3 AN ruidoso {ruid|oso} [rwiˈðoso], ruidosa = hlučný
+3 N la turba {turba} [ˈtuɾβa], turbas = dav
+3 N la muchedumbre {muche|dumbre} [mutʃeˈðumbɾe], muchedumbres = dav
+2 N el vidrio {vidrio} [ˈbiðɾjo], vidrios = sklo
+3 N el calcio {calcio} [ˈkalθjo], - = vápnik
+3 N el aluminio {aluminio} [aluˈminjo], - = hliník
+3 AN pegajoso {pegaj|oso} [pekaˈxoso], pegajosa = lepkavý
+2 AN calvo {calvo} [ˈkalβo], calva = plešatý
+2 AN flaco {flaco} [ˈflako], flaca = chudý (o postave)
+2 N el pino {pino} [ˈpino], pinos = borovica

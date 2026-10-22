@@ -92,6 +92,10 @@
 3 V scintillare {scintillare} [ʃintiˈlːaːre] = mihotať sa
 2 AV sensibilmente {sensibil|mente} [sensibilˈmente] = badateľne
 3 N la cecità {cecità} [tʃetʃiˈta], - = slepota
+2 V dare un'occhiata {dare un'occhiata} [ˈdaːre un okˈkjaːta], irr = mrknúť sa
+3 V alzare lo sguardo {alzare lo sguardo} [alˈtsaːre lo ˈzɡwardo] = vzhliadnuť
+3 V accecare {accecare} [attʃeˈkaːre] = oslepiť
+3 V abbagliare {abbagliare} [abːaˈʎːaːre] = oslepiť
 
 # hearing
 1 V sentire {sentire} [senˈtiːre] = počuť
@@ -168,6 +172,16 @@
 3 AN udente {udente} [uˈdɛnte] = počujúci
 2 N la puzza {puzza} [ˈputtsa], puzze = zápach
 3 N il tanfo {tanfo} [ˈtanfo], tanfi = zápach
+3 N il bruciore (m) {bruciore} [bruˈtʃoːre], bruciori = štípanie
+2 V bruciare {bruciare} [bruˈtʃaːre] = štípať
+3 V pizzicare {pizzicare} [pitːsiˈkaːre] = štípať
+3 N il prurito {prurito} [pruˈriːto], pruriti = svrbenie
+2 N la dolcezza (f) {dolcezza} [dolˈtʃettsa], dolcezze = sladkosť chuti
+2 N l'olfatto (m) {olfatto} [olˈfatːo], - = čuch
+2 N l'odorato (m) {odorato} [odoˈraːto], - = čuch
+2 N il tatto {tatto} [ˈtatːo], - = hmat
+3 AN stantio {stantio} [stanˈtiːo], stantia = zatuchnutý
+3 AN ammuffito {ammuffito} [amuˈfːiːto], ammuffita = zatuchnutý
 
 # colors
 1 N il colore {colore} [koˈloːre], colori = farba
@@ -219,3 +233,10 @@
 2 AN turchese {turchese} [turˈkeːze] = tyrkysový
 2 AN beige {beige} [ˈbɛʒ] = béžový
 2 AN in bianco e nero {in bianco e nero} [in ˈbjaŋko e ˈneːro] = čiernobiely
+2 AN azzurro {azzurro} [adˈdzurːo], azzurra = azúrový
+3 N la colorazione (f) {colorazione} [koloraˈtsjoːne], colorazioni = zafarbenie
+2 V impallidire {impallidire} [impalːiˈdiːre], isc, essere = zblednúť
+3 V decolorare {decolorare} [dekoloˈraːre] = odfarbiť
+3 V scolorire {scolorire} [skoloˈriːre], isc = odfarbiť
+3 V ritingere {ri|tingere} [riˈtindʒere], irr, ritinto = prefarbiť
+3 AN tinto {tinto} [ˈtinto], tinta = zafarbený

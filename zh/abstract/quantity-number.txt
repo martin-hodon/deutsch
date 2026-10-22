@@ -70,6 +70,7 @@
 2 AN 各个 {各个} [gègè] = jednotlivý
 2 AV 一律 {一律} [yílǜ] = jednotne
 2 AN 十足 {十足} [shízú] = stopercentný
+2 N 分数 {分数} [fēnshù], 个 = zlomok
 
 # amount
 1 AN 多 {多} [duō] = veľa
@@ -84,6 +85,7 @@
 1 AV 更 {更} [gèng] = viac
 1 P 几个 {几个} [jǐ gè] = niekoľko
 1 P 一些 {一些} [yīxiē] = niekoľko
+1 P 几 {几} [jǐ] = niekoľko
 2 AN 多重 {多重} [duōchóng] = viacnásobný
 2 AN 多次 {多次} [duōcì] = viacnásobný
 1 AV 几次 {几次} [jǐcì] = niekoľkokrát
@@ -163,6 +165,7 @@
 3 N 捆 {捆} [kǔn], - = zväzok
 3 V 捆 {捆} [kǔn] = zviazať
 3 V 捆绑 {捆绑} [kǔnbǎng] = zviazať
+2 V 扎 {扎} [zā] = zviazať
 2 N 批 {批} [pī], - = šarža
 3 N 批次 {批次} [pīcì], - = šarža
 3 N 盈余 {盈余} [yíngyú], - = prebytok
@@ -204,14 +207,23 @@
 1 AV 只是 {只是} [zhǐshì] = iba
 2 AN 多种 {多种} [duōzhǒng] = rôzny
 2 P 各个 {各个} [gègè] = každý
+1 P 每 {每} [měi] = každý
 2 V 积累 {积累} [jīlěi] = hromadiť
 2 AV 只不过 {只不过} [zhǐbuguò] = iba
+2 AV 光 {光} [guāng] = iba
 2 N 大批 {大批} [dàpī], - = veľké množstvo
 2 N 绝大多数 {绝大多数} [juédàduōshù], - = väčšina
 2 AN 种种 {种种} [zhǒngzhǒng] = rôzny
 2 P 诸位 {诸位} [zhūwèi] = všetci
 3 N 最小值 {最小值} [zuìxiǎozhí], 个 = minimálna hodnota
 2 V 解开 {解开} [jiěkāi] = rozviazať
+2 AV 半 {半} [bàn] = napoly
+3 AV 对半 {对半} [duìbàn] = napoly
+3 AV 开怀 {开怀} [kāihuái] = dosýta
+2 AV 尽情 {尽情} [jìnqíng] = dosýta
+3 N 堆积 {堆积} [duījī], - = hromadenie
+2 AN 多余 {多余} [duōyú] = prebytočný
+3 AN 过剩 {过剩} [guòshèng] = prebytočný
 
 # counting-measuring
 1 N 数字 {数字} [shùzì], 个 = číslo (matematické)
@@ -277,6 +289,23 @@
 2 V 测定 {测定} [cèdìng] = merať
 2 N 次数 {次数} [cìshù], - = počet
 2 N 分母 {分母} [fēnmǔ], 个 = menovateľ
+2 V 平衡 {平衡} [pínghéng] = vyvážiť
+3 V 抵消 {抵消} [dǐxiāo] = vyvážiť
+3 N 质数 {质数} [zhìshù], 个 = prvočíslo
+3 N 素数 {素数} [sùshù], 个 = prvočíslo
+3 N 幂 {幂} [mì], 个 = mocnina
+3 N 乘方 {乘方} [chéngfāng], - = mocnina
+3 N 加数 {加数} [jiāshù], 个 = sčítanec
+2 V 减 {减} [jiǎn] = odčítať
+2 V 减去 {减去} [jiǎnqù] = odčítať
+3 N 被减数 {被减数} [bèijiǎnshù], 个 = menšenec
+3 N 减数 {减数} [jiǎnshù], 个 = menšiteľ
+3 N 被除数 {被除数} [bèichúshù], 个 = delenec
+3 N 除数 {除数} [chúshù], 个 = deliteľ
+3 N 约数 {约数} [yuēshù], 个 = deliteľ
+3 N 率 {率} [lǜ], - = miera
 
 # more
 3 N 万亿 {万亿} [wànyì], - = bilión
+3 N 子集 {子集} [zǐjí], 个 = podmnožina
+3 N 超集 {超集} [chāojí], 个 = nadmnožina

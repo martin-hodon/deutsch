@@ -112,6 +112,25 @@
 3 AN ecumenical {ecumenical} [ˌiːkjuˈmenɪkəl] = ekumenický
 2 N wonder {wonder} [ˈwʌndə], wonders = zázrak
 3 N mortality {mortality} [mɔːˈtælɪtɪ], - = smrteľnosť
+2 V damn {damn} [dæm] (sb) = zatratiť
+3 N damnation {damnation} [dæmˈneɪʃən], - = zatratenie
+2 N parish {parish} [ˈpærɪʃ], parishes = farnosť
+2 N worship {worship} [ˈwɜːʃɪp], - = uctievanie
+3 N piety {piety} [ˈpaɪəti], - = nábožnosť
+2 N purgatory {purgatory} [ˈpɜːɡətəri], - = očistec
+2 N heretic {heretic} [ˈherətɪk], heretics = kacír
+3 N repentance {repentance} [rɪˈpentəns], - = pokánie
+2 V confess {confess} [kənˈfes] (to) = spovedať sa
+2 N apostle {apostle} [əˈpɒsəl], apostles = apoštol
+3 N providence {providence} [ˈprɒvɪdəns], - = prozreteľnosť
+2 N Grim Reaper {Grim Reaper} [ˌɡrɪm ˈriːpə], Grim Reapers = smrtka
+2 V rise from the dead {rise from the dead} [raɪz frəm ðə ˈded], rose/risen from the dead = vstať z mŕtvych
+2 N heavens {heavens} [ˈhevənz], PL = nebesá
+2 N Hinduism {Hinduism} [ˈhɪnduːɪzəm], - = hinduizmus
+2 N fast {fast} [fɑːst], fasts = pôst
+2 N pilgrimage {pilgrimage} [ˈpɪlɡrɪmɪdʒ], pilgrimages = púť
+2 N Holy Communion {Holy Communion} [ˌhəʊli kəˈmjuːniən], - = sväté prijímanie
+3 N absolution {absolution} [ˌæbsəˈluːʃən], - = rozhrešenie
 # magic-fate
 2 N magic {magic} [ˈmædʒɪk], - = mágia
 2 AN magic {magic} [ˈmædʒɪk] = magický
@@ -161,6 +180,25 @@
 3 V draw {draw} [drɔː], drew/drawn (lots) = vyžrebovať
 3 V invoke {invoke} [ɪnˈvəʊk] (sth) = zaklínať
 3 V charm {charm} [tʃɑːm] (sb) = očariť
+3 V foretell {fore|tell} [fɔːˈtel], foretold/foretold (sth) = veštiť
+2 N werewolf {were|wolf} [ˈweəwʊlf], werewolves = vlkolak
+2 N spell {spell} [spel], spells = zakliatie
+3 N enchanter {enchanter} [ɪnˈtʃɑːntə], enchanters = zaklínač
+2 AN mythical {mythical} [ˈmɪθɪkəl] = bájny
+3 AN fabled {fabled} [ˈfeɪbəld] = bájny
+2 AN supernatural {supernatural} [ˌsuːpəˈnætʃərəl] = nadprirodzený
+2 N elixir {elixir} [ɪˈlɪksə], elixirs = elixír
+2 N zodiac {zodiac} [ˈzəʊdiæk], zodiacs = zverokruh
+2 N Aquarius {Aquarius} [əˈkweəriəs], - = vodnár
+2 N Gemini {Gemini} [ˈdʒemɪnaɪ], - = blíženci
+2 N Virgo {Virgo} [ˈvɜːɡəʊ], - = panna
+3 V bewitch {bewitch} [bɪˈwɪtʃ] (sb) = začarovať
+2 AN cursed {cursed} [ˈkɜːsɪd] = prekliaty
+2 N nymph {nymph} [nɪmf], nymphs = nymfa
+2 N hydra {hydra} [ˈhaɪdrə], hydras = hydra
+2 N centaur {centaur} [ˈsentɔː], centaurs = kentaur
+3 N chimera {chimera} [kaɪˈmɪərə], chimeras = chiméra
+2 N omen {omen} [ˈəʊmən], omens = predzvesť
 # customs-celebrations
 2 N custom {custom} [ˈkʌstəm], customs = zvyk
 3 N folk customs {folk customs} [ˈfəʊk ˈkʌstəmz], PL = zvykoslovie
@@ -231,5 +269,7 @@
 2 N banner {banner} [ˈbænə], banners = zástava
 2 N Advent {Advent} [ˈædvent], - = advent
 3 N cheer {cheer} [tʃɪə], cheers = jasot
+3 N gift-giving {gift-giving} [ˈɡɪft ɡɪvɪŋ], - = nádielka
 # customs
 3 V consecrate {consecrate} [ˈkɒnsɪkreɪt] (sth) = vysvätiť
+2 N wreath {wreath} [riːθ], wreaths = veniec

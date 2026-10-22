@@ -194,6 +194,20 @@
 3 N der/die Untergebene {Unter|gebene} [ˈʊntɐɡeːbənə], Untergebene = podriadený
 3 N der Laie {Laie} [ˈlaɪə], Laien = laik
 3 N die Degradierung {Degradierung} [deɡʁaˈdiːʁʊŋ], Degradierungen = degradácia
+3 N der Kürschner {Kürschner} [ˈkʏʁʃnɐ], Kürschner = kožušník
+3 V bummeln {bummeln} [ˈbʊməln], hat = flákať sa
+3 V gammeln {gammeln} [ˈɡaməln], hat = flákať sa
+3 V blaumachen {blau·machen} [ˈblaʊmaxən], hat = uliať sa
+3 N der Glasbläser {Glas|bläser} [ˈɡlaːsblɛːzɐ], Glasbläser = sklár
+3 V einweisen {ein·weisen} [ˈaɪnvaɪzən], weist ein/wies ein/eingewiesen [vaɪst aɪn/viːs aɪn/ˈaɪnɡəviːzən], hat (A) = zapracovať
+3 V einarbeiten {ein·arbeiten} [ˈaɪnʔaʁbaɪtən], hat (A) = zapracovať
+3 V heuern {heuern} [ˈhɔʏɐn], hat (A) = najať
+3 V schuften {schuften} [ˈʃʊftən], hat = drieť
+3 N die Schufterei {Schufterei} [ʃʊftəˈʁaɪ], - = drina
+3 N der Pförtner {Pförtner} [ˈpfœʁtnɐ], Pförtner = vrátnik
+3 N die Weisung {Weisung} [ˈvaɪzʊŋ], Weisungen = pokyn
+2 N der Tischler {Tischler} [ˈtɪʃlɐ], Tischler = stolár
+3 N der Kleister {Kleister} [ˈklaɪstɐ], Kleister = lepidlo
 
 # making-doing
 1 V machen {machen} [ˈmaxən], hat (A) = robiť, urobiť, spraviť
@@ -268,6 +282,15 @@
 3 V feilen {feilen} [ˈfaɪlən], hat (an D) = pilovať, vylepšovať
 3 V präparieren {präparieren} [pʁɛpaˈʁiːʁən], hat (A) = vypreparovať, pripraviť
 2 V abreißen {ab·reißen} [ˈapʁaɪsən], reißt ab/riss ab/abgerissen [ʁaɪst ap/ʁɪs ap/ˈapɡəʁɪsən], hat (A) = búrať
+2 V bearbeiten {be|arbeiten} [bəˈʔaʁbaɪtən], hat (A) = opracovať
+2 V sägen {sägen} [ˈzɛːɡən], hat (A) = píliť
+3 V ausstoßen {aus·stoßen} [ˈaʊsʃtoːsən], stößt aus/stieß aus/ausgestoßen [ʃtøːst aʊs/ʃtiːs aʊs/ˈaʊsɡəʃtoːsən], hat (A) = vypustiť
+2 V schließen {schließen} [ˈʃliːsən], schließt/schloss/geschlossen [ʃliːst/ʃlɔs/ɡəˈʃlɔsən], hat (A) = zatvoriť
+3 V dichtmachen {dicht·machen} [ˈdɪçtmaxən], hat (A) = zatvoriť
+3 V erstehen {er|stehen} [ɛɐˈʃteːən], ersteht/erstand/erstanden [ɛɐˈʃteːt/ɛɐˈʃtant/ɛɐˈʃtandən], hat (A) = zohnať
+3 V abfeilen {ab·feilen} [ˈapfaɪlən], hat (A) = pilovať
+3 V ausfeilen {aus·feilen} [ˈaʊsfaɪlən], hat (A) = pilovať
+2 V ausarbeiten {aus·arbeiten} [ˈaʊsʔaʁbaɪtən], hat (A) = vypracovať
 
 # tools
 2 N der Hammer {Hammer} [ˈhamɐ], Hämmer = kladivo
@@ -314,6 +337,23 @@
 3 N der Schutt {Schutt} [ʃʊt], - = suť
 3 N der Stab {Stab} [ʃtaːp], Stäbe = prút, tyč
 3 N die Stange {Stange} [ˈʃtaŋə], Stangen = tyč
+3 N der Pflock {Pflock} [pflɔk], Pflöcke = kolík
+3 N der Keil {Keil} [kaɪl], Keile = klin
+3 N die Feile {Feile} [ˈfaɪlə], Feilen = pilník
+3 N die Düse {Düse} [ˈdyːzə], Düsen = tryska
+3 N der Blasebalg {Blase|balg} [ˈblaːzəbalk], Blasebälge = kováčsky mech
+3 N das Lager {Lager} [ˈlaːɡɐ], Lager = ložisko
+3 N der Stöpsel {Stöpsel} [ˈʃtœpsəl], Stöpsel = zátka
+3 N der Kanaldeckel {Kanal|deckel} [kaˈnaːldɛkəl], Kanaldeckel = poklop
+3 N die Luke {Luke} [ˈluːkə], Luken = poklop
+3 N die Pinzette {Pinzette} [pɪnˈtsɛtə], Pinzetten = pinzeta
+3 N die Sprungfeder {Sprung|feder} [ˈʃpʁʊŋfeːdɐ], Sprungfedern = pružina
+3 N der Dietrich {Dietrich} [ˈdiːtʁɪç], Dietriche = pakľúč
+3 N die Gerte {Gerte} [ˈɡɛʁtə], Gerten = prút
+3 N der Strang {Strang} [ʃtʁaŋ], Stränge = lano
+3 V wetzen {wetzen} [ˈvɛtsən], hat (A) = ostriť
+3 V aufkleben {auf·kleben} [ˈaʊfkleːbən], hat (A) = lepiť
+3 V kleistern {kleistern} [ˈklaɪstɐn], hat (A) = lepiť
 
 # materials
 2 N das Material {Material} [mateˈʁjaːl], Materialien = materiál
@@ -342,6 +382,13 @@
 - 3 V dämmen {dämmen} [ˈdɛmən], hat (A) = zatepliť, izolovať
 3 N das Blech {Blech} [blɛç], Bleche = plech
 3 N die Schnur {Schnur} [ʃnuːɐ], Schnüre = špagát, šnúra
+3 N die Keramik {Keramik} [keˈʁaːmɪk], Keramiken = keramika
+3 N der Klotz {Klotz} [klɔts], Klötze = poleno
+3 N das Sägemehl {Säge|mehl} [ˈzɛːɡəmeːl], - = piliny
+3 N der Span {Span} [ʃpaːn], Späne = trieska
+3 N der Hobelspan {Hobel|span} [ˈhoːbəlʃpaːn], Hobelspäne = hoblina
+3 N das Etui {Etui} [ɛˈtviː], Etuis = puzdro
+3 N der Verdünner {Ver|dünner} [fɛɐˈdʏnɐ], Verdünner = riedidlo
 
 # industry-places
 2 N das Werk {Werk} [vɛʁk], Werke = dielo, závod
@@ -379,10 +426,19 @@
 - 3 N der Installateur {Installateur} [ɪnstalaˈtøːɐ], Installateure = inštalatér
 3 N die Logistik {Logistik} [loˈɡɪstɪk], - = logistika
 3 N das Geschäftsmodell {Geschäfts|modell} [ɡəˈʃɛftsmodɛl], Geschäftsmodelle = obchodný model
+3 N der Schacht {Schacht} [ʃaxt], Schächte = šachta
+2 V abbauen {ab·bauen} [ˈapbaʊən], hat (A) = ťažiť
+3 V schürfen {schürfen} [ˈʃʏʁfən], hat (nach D) = ťažiť
+3 V ausbeuten {aus·beuten} [ˈaʊsbɔʏtən], hat (A) = ťažiť
+3 N das Metier {Metier} [meˈtjeː], Metiers = remeslo
 
 # work
 3 V auslagern {aus·lagern} [ˈaʊslaːɡɐn], hat (A) = vyčleniť, outsourcovať
 3 V hantieren {hantieren} [hanˈtiːʁən], hat (mit D) = narábať, manipulovať, baviť sa
+3 N die Zunft {Zunft} [tsʊnft], Zünfte = cech
+3 V abgraben {ab·graben} [ˈapɡʁaːbən], gräbt ab/grub ab/abgegraben [ɡʁɛːpt ap/ɡʁuːp ap/ˈapɡəɡʁaːbən], hat (A) = odkopať
+3 V beizen {beizen} [ˈbaɪtsən], hat (A) = moriť
+3 V hobeln {hobeln} [ˈhoːbəln], hat (A) = hobľovať
 
 # more
 2 N die Praxis {Praxis} [ˈpʁaksɪs], Praxen = prax

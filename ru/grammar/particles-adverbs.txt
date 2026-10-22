@@ -31,6 +31,11 @@
 1 PHR ничего {ничего} [nʲɪtɕɪˈvo] = to nevadí
 2 PHR чёрт возьми {чёрт возьми} [tɕort vɐzˈmʲi] = do kelu
 2 PHR блин {блин} [blʲin] = do kelu
+1 PAR ну {ну} [nu] = no
+1 PAR пусть {пусть} [pustʲ] = nech
+2 PAR правда {правда} [ˈpravdə] = všakže
+3 PAR не правда ли {не правда ли} [nʲɪ ˈpravdə lʲi] = všakže
+3 PAR авось {авось} [ɐˈvosʲ] = azda
 
 # negation
 1 AV не {не} [nʲe] = nie
@@ -41,6 +46,7 @@
 1 PHR не только {не только} [nʲɪ ˈtolʲkə] = nielen
 2 AV едва {едва} [jɪdˈva] = sotva
 2 AV вряд ли {вряд ли} [vrʲat lʲi] = sotva
+2 AV чуть {чуть} [tɕutʲ] = sotva
 
 # degree-and-focus
 1 AV тоже {тоже} [ˈtoʐɨ] = aj
@@ -89,6 +95,7 @@
 2 AV наиболее {наи|более} [nɐɪˈbolʲɪjɪ] = najviac
 1 AV в частности {в частности} [f ˈtɕasnəsʲtʲɪ] = najmä
 2 AV всё меньше {всё меньше} [fsʲo ˈmʲenʲʂɨ] = čoraz menej
+2 AV гораздо {гораздо} [ɡɐˈrazdə] = oveľa
 
 # time
 1 AV сейчас {сейчас} [sʲɪjˈtɕas] = teraz
@@ -162,6 +169,18 @@
 2 AV жалко {жалко} [ˈʐalkə] = ľúto
 2 AV неохотно {не|охотно} [nʲɪɐˈxotnə] = nerád
 3 AV нехотя {нехотя} [ˈnʲexətʲə] = nerád
+2 AV так сказать {так сказать} [tak skɐˈzatʲ] = takpovediac
+2 AV приблизительно {приблизительно} [prʲɪblʲɪˈzʲitʲɪlʲnə] = odhadom
+2 AV примерно {примерно} [prʲɪˈmʲernə] = odhadom
+2 INT фу {фу} [fu] = fuj
+2 INT чёрт {чёрт} [tɕort] = do riti
+2 INT ну {ну} [nu] = nuž
+3 INT ну что ж {ну что ж} [nu ʂto ʂ] = nuž
+2 INT хм {хм} [xm] = hmm
+2 INT ох {ох} [ox] = och
+2 INT ой {ой} [oj] = au
+2 INT ай {ай} [aj] = au
+3 INT чёрт возьми {чёрт возьми} [tɕort vɐzˈmʲi] = doparoma
 
 # place-direction
 1 AV сюда {сюда} [sʲuˈda] = sem
@@ -224,6 +243,7 @@
 1 AV при чём {при чём} [prʲi ˈtɕom] = pri čom
 2 AV каким образом {каким образом} [kɐˈkʲim ˈobrəzəm] = čím
 1 AV чем {чем} [tɕem] = čím
+3 AV порой {порой} [pɐˈroj] = niekedy
 
 # language-specific closed words (no Slovak word: a description)
 1 PAR же {же} [ʐɨ] = zdôrazňovacia častica (же)

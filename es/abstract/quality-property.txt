@@ -83,6 +83,10 @@
 2 AV a poca profundidad {a·poca·profundidad} [a ˈpoka pɾofundiˈðað] = plytko
 2 AV por poco {por·poco} [poɾ ˈpoko] = tesne
 1 AV alto {alto} [ˈalto] = vysoko
+3 AN larguirucho {larguirucho} [laɾɣiˈɾutʃo], larguirucha = vytiahnutý
+3 V engrandecer {engrand|ecer} [eŋɡɾandeˈθeɾ], c>zc = zväčšiť
+1 AV despacio {despacio} [desˈpaθjo] = pomaly
+3 AN liviano {liviano} [liˈβjano], liviana = ľahký
 
 # evaluation
 1 AN bueno {bueno} [ˈbweno], buena = dobrý
@@ -602,6 +606,15 @@
 2 AN inaccesible {in|accesible} [inakθeˈsiβle] = neprístupný
 2 N la imperfección {im|perfección} [impeɾfekˈθjon], imperfecciones = nedokonalosť
 2 N la complejidad {complej|idad} [komplexiˈðað], complejidades = zložitosť
+3 AN majestuoso {majestu|oso} [maxesˈtwoso], majestuosa = majestátny
+3 N el favorecimiento {favorec|imiento} [faβoɾeθiˈmjento], favorecimientos = zvýhodnenie
+2 AN delicado {delicado} [deliˈkaðo], delicada = chúlostivý
+3 AN contado {contado} [konˈtaðo], contada = vzácny
+3 AN beneficioso {benefici|oso} [benefiˈθjoso], beneficiosa = prospešný
+3 AN fetén {fetén} [feˈten] = skvelý
+3 AN tupido {tupido} [tuˈpiðo], tupida = hustý
+3 AN aciago {aciago} [aˈθjaɣo], aciaga = osudný
+3 AN ocioso {ocioso} [oˈθjoso], ociosa = zbytočný
 
 # state-properties
 1 AN nuevo {nuevo} [ˈnweβo], nueva = nový
@@ -1090,6 +1103,27 @@
 2 AV lo menos posible {lo menos posible} [lo ˈmenos poˈsiβle] = čo najmenej
 2 V fortalecerse {fortalecerse} [foɾtaleˈθeɾse], c>zc = silnieť
 3 V robustecerse {robustecerse} [robusteˈθeɾse], c>zc = silnieť
+3 AN comprimido {comprimido} [kompɾiˈmiðo], comprimida = stlačený
+3 N la vulnerabilidad {vulnerabil|idad} [bulneɾaβiliˈðað], vulnerabilidades = zraniteľnosť
+2 AN dañado {dañado} [daˈɲaðo], dañada = poškodený
+3 AN destartalado {destartalado} [destaɾtaˈlaðo], destartalada = rozheganý
+2 AN atado {atado} [aˈtaðo], atada = zviazaný
+3 AN carcomido {carcomido} [kaɾkoˈmiðo], carcomida = spráchnivený
+3 AN podrido {podrido} [poˈðɾiðo], podrida = spráchnivený
+3 AN erizado {erizado} [eɾiˈθaðo], erizada = štetinatý
+3 AN sobado {sobado} [soˈβaðo], sobada = opotrebovaný
+2 AN gastado {gastado} [ɡasˈtaðo], gastada = opotrebovaný
+3 AN calado {calado} [kaˈlaðo], calada = premoknutý
+3 AN empapado {empapado} [empaˈpaðo], empapada = premoknutý
+3 AN carente {carente} [kaˈɾente] (de) = chýbajúci
+3 AN precedente {precedente} [pɾeθeˈðente] = predchádzajúci
+3 AN raudo {raudo} [ˈrauðo], rauda = rýchly
+3 AV aprisa {aprisa} [aˈpɾisa] = rýchlo
+3 AN burdo {burdo} [ˈbuɾðo], burda = hrubý (nehladký)
+3 AN encubierto {en|cubierto} [eŋkuˈβjeɾto], encubierta = skrytý
+3 V despejar {despejar} [despeˈxaɾ] = uvoľniť
+2 AN dispuesto {dispuesto} [disˈpwesto], dispuesta (a) = pripravený
+3 V propiciar {propiciar} [pɾopiˈθjaɾ] = umožniť
 
 # corpus-adjectives
 2 AN bien pensado {bien pensado} [ˈbjen penˈsaðo] = premyslený
@@ -1244,6 +1278,8 @@
 3 AV de forma conciliadora {de·forma·conciliadora} [de ˈfoɾma konθiljaˈðoɾa] = zmierlivo
 3 AV de forma tentadora {de·forma·tentadora} [de ˈfoɾma tentaˈðoɾa] = lákavo
 2 AV sin compromiso {sin·compromiso} [sin komˈpɾomiso] = nezáväzne
+3 AN significativo {significativo} [siɣnifikaˈtiβo], significativa = veľavravný
+3 AN elocuente {elocuente} [elokˈwente] = veľavravný
 
 # quality
 2 AN contaminante {contaminante} [kontamiˈnante] = škodlivý pre životné prostredie
@@ -1287,6 +1323,23 @@
 2 N la pesa {pesa} [ˈpesa], pesas = závažie
 2 N el peso {peso} [ˈpeso], pesos = závažie
 3 AV de forma picante {de·forma·picante} [de ˈfoɾma piˈkante] = pikantne
+3 AN compatible {compatible} [kompaˈtiβle] (con) = zlučiteľný
+3 AV de forma incipiente {de forma incipiente} [de ˈfoɾma inθiˈpjente] = v náznakoch
+3 AN desenfadado {desenfadado} [desemfaˈðaðo], desenfadada = ležérny
+3 AN poco exigente {poco exigente} [ˈpoko eksiˈxente] = nenáročný
+2 N la gracia {gracia} [ˈɡɾaθja], gracias = pôvab
+3 N el encanto {encanto} [eŋˈkanto], encantos = pôvab
+3 AN seductor {seduc|tor} [seðukˈtoɾ], seductora = zvodný
+3 AN pulcro {pulcro} [ˈpulkɾo], pulcra = úhľadný
+3 AN aseado {aseado} [aseˈaðo], aseada = úhľadný
+3 AN raído {raído} [raˈiðo], raída = ošarpaný
+3 AN sustituible {sustitu|ible} [sustituˈiβle] = nahraditeľný
+3 AN prescindible {prescind|ible} [pɾesθinˈdiβle] = nahraditeľný
+3 AN andrajoso {andraj|oso} [andɾaˈxoso], andrajosa = roztrhaný
+3 N la inutilidad {in|utilidad} [inutiliˈðað], inutilidades = zbytočnosť
+2 AN falso {falso} [ˈfalso], falsa = nepravdivý
+3 AN prieto {prieto} [ˈpɾjeto], prieta = tesný (nepriepustný)
+3 AN corvo {corvo} [ˈkoɾβo], corva = krivý
 
 # more
 2 AV increíblemente {increíblemente} [iŋkɾeiβleˈmente] = neuveriteľne

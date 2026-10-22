@@ -42,6 +42,7 @@ N Mliečna cesta
 PHR čierna diera
 PHR hmlovina
 N vesmír
+N zatmenie
 
 # sky-phenomena
 N obloha

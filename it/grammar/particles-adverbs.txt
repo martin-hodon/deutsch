@@ -33,6 +33,9 @@
 1 PHR accidenti {accidenti} [attʃiˈdɛnti] = do kelu
 2 PHR che seccatura {che seccatura} [ke sekːaˈtuːra] = do kelu
 2 PHR uffa {uffa} [ˈufːa] = do kelu
+2 PAR beh {beh} [bɛ] = no
+2 PAR che {che} [ke] = nech
+2 PAR vero {vero} [ˈveːro] = všakže
 
 # negation
 1 AV non {non} [non] = nie
@@ -97,6 +100,8 @@
 1 AV circa {circa} [ˈtʃirka] = približne
 1 AV più o meno {più o meno} [ˈpju o ˈmeːno] = približne
 1 AV sempre meno {sempre meno} [ˈsɛmpre ˈmeːno] = čoraz menej
+2 AV di gran lunga {di gran lunga} [di ɡran ˈluŋɡa] = oveľa
+2 PHR un po' troppo {un po' troppo} [un pɔ ˈtrɔpːo] = trochu moc
 
 # time
 1 AV ora {ora} [ˈoːra] = teraz
@@ -179,6 +184,19 @@
 2 AV peccato {peccato} [peˈkːaːto] = ľúto
 3 AV malvolentieri {malvolentieri} [malvolenˈtjɛːri] = nerád
 2 AV a malincuore {a malincuore} [a maliŋˈkwɔːre] = nerád
+2 AV per così dire {per così dire} [per koˈzi ˈdiːre] = takpovediac
+2 AV all'incirca {all'incirca} [alːinˈtʃirka] = odhadom
+2 AV grosso modo {grosso modo} [ˈɡrosːo ˈmɔːdo] = odhadom
+2 INT che schifo {che schifo} [ke ˈskiːfo] = fuj
+2 INT cazzo {cazzo} [ˈkattso] = do riti
+2 INT merda {merda} [ˈmɛrda] = do riti
+2 INT mah {mah} [ma] = nuž
+3 INT uhm {uhm} [um] = hmm
+2 INT oh {oh} [ɔ] = och
+2 INT ahi {ahi} [ˈai] = au
+3 INT ahia {ahia} [ˈaːja] = au
+3 INT perbacco {perbacco} [perˈbakːo] = doparoma
+3 INT diamine {diamine} [ˈdjaːmine] = doparoma
 
 # place-direction
 1 AV qua {qua} [ˈkwa] = sem

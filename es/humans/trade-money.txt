@@ -77,6 +77,7 @@
 2 V enriquecerse {enriquecerse} [enrikeˈθeɾse], c>zc = zbohatnúť
 2 V pedir prestado {pedir prestado} [peˈðiɾ pɾesˈtaðo], e>i = požičať si
 2 V tomar prestado {tomar prestado} [toˈmaɾ pɾesˈtaðo] = požičať si
+3 V amasar {amasar} [amaˈsaɾ] = nahrabať
 
 # buying-selling
 1 V comprar {comprar} [komˈpɾaɾ] = kúpiť
@@ -217,6 +218,12 @@
 2 AV caro {caro} [ˈkaɾo] = draho
 3 N el abaratamiento {abarata|miento} [aβaɾataˈmjento], abaratamientos = zlacnenie
 1 V vender {vender} [benˈdeɾ] = predávať
+3 AN preferente {preferente} [pɾefeˈɾente] = zvýhodnený
+3 N el comprador {comprador} [kompɾaˈðoɾ], compradores = nákupca
+3 V regatear {regatear} [reɣateˈaɾ] = zjednávať
+2 N el envase {envase} [emˈbase], envases = obal
+3 V recaudar {recaudar} [rekauˈðaɾ] = inkasovať
+3 N el canje {canje} [ˈkaŋxe], canjes = výmena
 
 # places-of-trade
 1 N el mercado {mercado} [meɾˈkaðo], mercados = trh
@@ -241,6 +248,8 @@
 2 N los grandes almacenes {grandes almacenes} [ˈɡɾandes almaˈθenes], PL = obchodný dom
 2 N la droguería {droguería} [dɾoɣeˈɾia], droguerías = drogéria
 3 N la tienda de descuento {tienda de descuento} [ˈtjenda de desˈkwento], tiendas de descuento = diskont
+3 N la juguetería {juguetería} [xuɣeteˈɾia], jugueterías = hračkárstvo
+3 N la tahona {tahona} [taˈona], tahonas = pekáreň
 
 # economy-finance
 2 N el comercio {comercio} [koˈmeɾθjo], comercios = obchodovanie
@@ -424,6 +433,11 @@
 3 N la deflación {deflación} [deflaˈθjon], deflaciones = deflácia
 2 N el comprador {comprador} [kompɾaˈðoɾ], compradores = odberateľ
 2 N el cliente {cliente} [ˈkljente], clientes = odberateľ
+2 N el aplazamiento {aplazamiento} [aplaθaˈmjento], aplazamientos = odklad
+3 N la prórroga {prórroga} [ˈpɾoroɣa], prórrogas = odklad
+3 N el paraíso fiscal {paraíso fiscal} [paɾaˈiso fisˈkal], paraísos fiscales = daňový raj
+3 N el seguro a todo riesgo {seguro a todo riesgo} [seˈɣuɾo a ˈtoðo ˈrjesɣo], seguros a todo riesgo = havarijné poistenie
+2 N la aseguradora {aseguradora} [asexuɾaˈðoɾa], aseguradoras = poisťovňa
 
 # trade
 3 V licenciar {licenciar} [liθenˈθjaɾ] = licencovať

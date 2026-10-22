@@ -56,6 +56,17 @@
 3 N das Kraftfahrzeug {Kraft|fahrzeug} [ˈkʁaftfaːɐtsɔʏk], Kraftfahrzeuge = motorové vozidlo
 3 N der Winterreifen {Winter|reifen} [ˈvɪntɐʁaɪfən], Winterreifen = zimná pneumatika
 3 N der Transporter {Transporter} [tʁansˈpɔʁtɐ], Transporter = dodávkové auto, dodávka
+2 N der Waggon {Waggon} [vaˈɡɔŋ], Waggons = vagón
+3 N der Oberleitungsomnibus {Oberleitungs|omnibus} [ˈoːbɐlaɪtʊŋsʔɔmnibʊs], Oberleitungsomnibusse = trolejbus
+3 N der Obus {Obus} [ˈoːbʊs], Obusse = trolejbus
+3 N das Luftschiff {Luft|schiff} [ˈlʊftʃɪf], Luftschiffe = vzducholoď
+3 N der Dampfer {Dampfer} [ˈdampfɐ], Dampfer = parník
+3 N das Skateboard {Skateboard} [ˈskeːtbɔʁt], Skateboards = skateboard
+3 N das Motorboot {Motor|boot} [ˈmoːtoːɐboːt], Motorboote = motorový čln
+3 N der Tanker {Tanker} [ˈtaŋkɐ], Tanker = tanker
+3 N das Segelflugzeug {Segel|flugzeug} [ˈzeːɡəlfluːktsɔʏk], Segelflugzeuge = vetroň
+2 N der Lastkraftwagen {Last|kraft|wagen} [ˈlastkʁaftvaːɡən], Lastkraftwagen = nákladné auto
+3 N der Personenkraftwagen {Personen|kraft|wagen} [pɛʁˈzoːnənkʁaftvaːɡən], Personenkraftwagen = osobné auto
 
 # vehicle-parts
 2 N der Reifen {Reifen} [ˈʁaɪfən], Reifen = pneumatika, pneu
@@ -95,6 +106,25 @@
 3 N die Boje {Boje} [ˈboːjə], Bojen = bója
 3 N das Gaspedal {Gas|pedal} [ˈɡaspedaːl], Gaspedale = plynový pedál
 3 N das Heck {Heck} [hɛk], Hecks = zadná časť, korma
+2 N die Kupplung {Kupplung} [ˈkʊplʊŋ], Kupplungen = spojka (v aute)
+3 N die Deichsel {Deichsel} [ˈdaɪksəl], Deichseln = oje
+3 N die Felge {Felge} [ˈfɛlɡə], Felgen = ráf
+3 N die Gangschaltung {Gang|schaltung} [ˈɡanʃaltʊŋ], Gangschaltungen = prehadzovačka
+3 N das Getriebe {Getriebe} [ɡəˈtʁiːbə], Getriebe = prevodovka
+3 N die Radkappe {Rad|kappe} [ˈʁaːtkapə], Radkappen = puklica
+3 N die Kajüte {Kajüte} [kaˈjyːtə], Kajüten = kajuta
+3 N der Bug {Bug} [buːk], Buge/Büge = prova
+3 N die Rah {Rah} [ʁaː], Rahen = rahno
+3 N die Festmacherleine {Festmacher|leine} [ˈfɛstmaxɐlaɪnə], Festmacherleinen = kotevné lano
+3 N das Steuerruder {Steuer|ruder} [ˈʃtɔʏɐʁuːdɐ], Steuerruder = kormidlo
+3 N das Heck {Heck} [hɛk], Hecks/Hecke = korma
+3 N das Backbord {Backbord} [ˈbakbɔʁt], - = ľavobok
+3 N das Steuerbord {Steuer|bord} [ˈʃtɔʏɐbɔʁt], - = pravobok
+3 N das Fahrgestell {Fahr|gestell} [ˈfaːɐɡəʃtɛl], Fahrgestelle = podvozok
+3 N das Chassis {Chassis} [ʃaˈsiː], Chassis = podvozok
+3 N die Plane {Plane} [ˈplaːnə], Planen = plachta
+3 N die Haube {Haube} [ˈhaʊbə], Hauben = kapota
+3 N der Bord {Bord} [bɔʁt], Borde = paluba
 
 # infrastructure
 1 N der Weg {Weg} [veːk], Wege = cesta (komunikácia), chodník
@@ -159,6 +189,12 @@
 3 N die Anschlussstelle {Anschluss|stelle} [ˈanʃlʊsʃtɛlə], Anschlussstellen = nájazd, výjazd z diaľnice
 3 N die Sperrung {Sperrung} [ˈʃpɛʁʊŋ], Sperrungen = uzávera
 3 V asphaltieren {asphaltieren} [asfalˈtiːʁən], hat (A) = asfaltovať
+3 N die Abzweigung {Ab|zweigung} [ˈaptsvaɪɡʊŋ], Abzweigungen = odbočka
+3 N die Abbiegung {Ab|biegung} [ˈapbiːɡʊŋ], Abbiegungen = odbočka
+3 N die Weiche {Weiche} [ˈvaɪçə], Weichen = výhybka
+3 N der Steg {Steg} [ʃteːk], Stege = lávka
+3 N die Leitplanke {Leit|planke} [ˈlaɪtplaŋkə], Leitplanken = zvodidlo
+3 N der Kai {Kai} [kaɪ], Kais = mólo
 
 # travel
 1 V fahren {fahren} [ˈfaːʁən], fährt/fuhr/gefahren [fɛːɐt/fuːɐ/ɡəˈfaːʁən], hat/ist (mit D, nach D) = ísť (dopravou), jazdiť, viezť
@@ -315,6 +351,18 @@
 3 N der Auszug {Aus|zug} [ˈaʊstsuːk], Auszüge = vysťahovanie
 3 N die Ausreise {Aus|reise} [ˈaʊsʁaɪzə], Ausreisen = vycestovanie
 3 N das Inland {In|land} [ˈɪnlant], - = tuzemsko
+3 N die Satteltasche {Sattel|tasche} [ˈzatəltaʃə], Satteltaschen = sedlová brašna
+2 V reiten {reiten} [ˈʁaɪtən], reitet/ritt/geritten [ˈʁaɪtət/ʁɪt/ɡəˈʁɪtən], hat/ist = jazdiť na koni
+3 N der Lotse {Lotse} [ˈloːtsə], Lotsen = lodivod
+3 V sich bauschen {sich bauschen} [zɪç ˈbaʊʃən], hat = vzdúvať sa
+2 N die Flugbegleiterin {Flug|begleiterin} [ˈfluːkbəɡlaɪtəʁɪn], Flugbegleiterinnen = letuška
+3 N die Stewardess {Stewardess} [ˈstjuːɐdɛs], Stewardessen = letuška
+3 N das Besatzungsmitglied {Besatzungs|mitglied} [bəˈzatsʊŋsmɪtɡliːt], Besatzungsmitglieder = člen posádky
+3 V durchpflügen {durch|pflügen} [dʊʁçˈpflyːɡən], hat (A) = brázdiť
+3 N der Nahverkehr {Nah|verkehr} [ˈnaːfɛɐkeːɐ], - = verejná doprava
+3 N das Köfferchen {Köfferchen} [ˈkœfɐçən], Köfferchen = kufrík
+3 N der Schiffbruch {Schiff|bruch} [ˈʃɪfbʁʊx], Schiffbrüche = stroskotanie
+3 N die Herberge {Herberge} [ˈhɛʁbɛʁɡə], Herbergen = hostel
 
 # corpus-verbs
 3 V bereisen {be|reisen} [bəˈʁaɪzən], hat (A) = precestovať

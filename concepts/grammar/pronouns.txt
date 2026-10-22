@@ -46,6 +46,7 @@ P akýkoľvek
 P niekoľkí
 PHR trochu
 P žiadny
+P jeden z nás
 
 # language-specific closed words (no Slovak word: a description)
 P oni -- they, them: osobné zámeno množného čísla (oni, ony)

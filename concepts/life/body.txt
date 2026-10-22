@@ -3,6 +3,11 @@ N telo
 AN telesný
 N časť tela
 V stelesňovať
+N zimomriavky
+AN vychudnutý -- veľmi chudý od hladu alebo choroby
+AN kostnatý -- s vyčnievajúcimi kosťami
+N chlp
+PHR po celom tele
 
 # head-face
 N hlava
@@ -51,6 +56,30 @@ N peha
 N podnebie
 N účes
 N tetovanie
+N pleť
+AN kučeravý -- s kučerami
+N kučera -- pramienok zvlnených vlasov
+N plešina -- holá hlava bez vlasov
+AN strapatý -- rozcuchaný
+N vrkoč -- spletené vlasy
+N čupryna -- strapatá hustá hriva vlasov
+V rozstrapatiť -- rozcuchať vlasy
+N ušný bubienok
+N temeno
+N briadka
+N rezák
+N očný zub
+N tesák
+N ušnica
+N zvukovod
+N strmienok
+N rohovka
+N sklovec
+N prameň vlasov
+N ofina
+N drdol
+AN pehavý
+V kučeraviť -- krútiť do kučier
 
 # limbs-torso
 N plece
@@ -104,6 +133,23 @@ N slabina
 N trup
 N šija
 N zadok
+N ramenná kosť
+N stehenná kosť
+N hrudná kosť
+N lopatka (kosť)
+N vretenná kosť
+N lakťová kosť
+N lýtková kosť
+N záder
+N bradavka (prsia)
+N ohryzok
+AN zhrbený
+N lono
+N bedro
+N bachor -- veľké brucho
+N prostredník -- prostredný prst
+N prstenník
+AN hrudný
 
 # internal-tissue
 N mozog
@@ -168,3 +214,34 @@ N pigment
 N žila
 N žlč
 N páska
+N predsieň (srdca) -- časť srdca
+N genóm -- súbor génov organizmu
+N pošva (ženský orgán)
+N mozoček
+N prieduška
+N miecha
+N bránica
+N medzistavcová platnička
+N sliznica
+N pažerák
+N žlčník
+N tenké črevo
+N hrubé črevo
+N močový mechúr
+N močovod
+N močová rúra
+N vaječník
+N vajíčkovod
+N semenník (pohlavná žľaza)
+N miešok
+N vnútornosti
+N krvná plazma
+N bielkovina
+N nukleotid
+N červená krvinka
+N biela krvinka
+N neurón
+N ribozóm
+N mitochondria
+N melanín
+N chromozóm

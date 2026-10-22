@@ -38,7 +38,7 @@ export async function loadLexicon(base, lang, { meaning = null, vary = null, ver
     if (e.pos === "V" && !byWord.has("V|" + e.word)) byWord.set("V|" + e.word, e);
   });
   const ipaOf = await loadSounds(`${base}${lang}/rules/sounds.txt`, byWord);
-  for (const [k, es] of byConcept) es.sort((a, b) => (prefer.get(k) === b.word) - (prefer.get(k) === a.word) || a.freq - b.freq || a.order - b.order);
+  for (const [k, es] of byConcept) es.sort((a, b) => (prefer.get(k) === b.word) - (prefer.get(k) === a.word) || !!a.region - !!b.region || a.freq - b.freq || a.order - b.order);   // (regional words last: Januar, not Jänner)
   // (one word said for its concept while asked -- the trainer's example sentences of that word: use(pos, concept,
   //  word) -> undo; a concept's other words keep their order)
   const use = (pos, concept, word) => {

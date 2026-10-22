@@ -47,6 +47,7 @@
 2 N lo spazio {spazio} [ˈspattsjo], spazi = vesmír
 3 N il cosmo {cosmo} [ˈkɔzmo], cosmi = vesmír
 2 N il tramonto della luna {tramonto della luna} [traˈmonto ˈdelːa ˈluːna], tramonti della luna = západ mesiaca
+3 N l'eclissi (f) {eclissi} [eˈklisːi], eclissi = zatmenie
 
 # sky-phenomena
 1 N il cielo {cielo} [ˈtʃɛːlo], cieli = obloha

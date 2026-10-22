@@ -236,6 +236,17 @@
 3 N il profano {profano} [proˈfaːno], profani = laik
 3 N il declassamento {declassamento} [deklasːaˈmento], declassamenti = degradácia
 3 N la degradazione {degradazione} [deɡradaˈtsjoːne], degradazioni = degradácia
+3 N il pellicciaio {pellicciaio} [pelːiˈttʃaːjo], pellicciai = kožušník
+3 V bighellonare {bighellonare} [biɡelːoˈnaːre] = flákať sa
+3 V oziare {oziare} [oˈttsjaːre] = flákať sa
+3 V imboscarsi {imboscarsi} [imboˈskarsi] = uliať sa
+3 N il vetraio {vetraio} [veˈtraːjo], vetrai = sklár
+3 V addestrare {addestrare} [adːeˈstraːre] = zapracovať
+2 V assumere {assumere} [aˈsːuːmere], irr, assunto = najať
+3 V sgobbare {sgobbare} [zɡoˈbːaːre] = drieť
+3 N la sgobbata {sgobbata} [zɡoˈbːaːta], sgobbate = drina
+2 N il portiere {portiere} [porˈtjɛːre], portieri = vrátnik
+3 N il portinaio {portinaio} [portiˈnaːjo], portinai = vrátnik
 
 # making-doing
 1 V fare {fare} [ˈfaːre], irr, fatto = robiť
@@ -331,6 +342,7 @@
 3 V dissezionare {dissezionare} [disːettsjoˈnaːre] = vypreparovať
 2 V demolire {demolire} [demoˈliːre], isc = búrať
 2 V abbattere {abbattere} [aˈbːatːere] = búrať
+2 V segare {segare} [seˈɡaːre] = píliť
 
 # tools
 1 N il martello {martello} [marˈtɛlːo], martelli = kladivo
@@ -391,6 +403,17 @@
 2 N la barra {barra} [ˈbarːa], barre = prút
 1 N il palo {palo} [ˈpaːlo], pali = tyč
 2 N la stanga {stanga} [ˈstanɡa], stanghe = tyč
+2 N il paletto {paletto} [paˈletːo], paletti = kolík
+3 N il cuneo {cuneo} [ˈkuːneo], cunei = klin
+2 N la lima {lima} [ˈliːma], lime = pilník
+3 N l'ugello (m) {ugello} [uˈdʒɛlːo], ugelli = tryska
+3 N il mantice {mantice} [ˈmantitʃe], mantici = kováčsky mech
+3 N il cuscinetto {cuscinetto} [kuʃːiˈnetːo], cuscinetti = ložisko
+2 N il tappo {tappo} [ˈtapːo], tappi = zátka
+3 N il tombino {tombino} [tomˈbiːno], tombini = poklop
+3 N la pinzetta {pinzetta} [pinˈtsetːa], pinzette = pinzeta
+2 N la molla {molla} [ˈmɔlːa], molle = pružina
+3 N il grimaldello {grimaldello} [ɡrimalˈdɛlːo], grimaldelli = pakľúč
 
 # materials
 1 N il materiale {materiale} [mateˈrjaːle], materiali = materiál
@@ -426,6 +449,13 @@
 2 N la lamiera {lamiera} [laˈmjɛːra], lamiere = plech
 2 N lo spago {spago} [ˈspaːɡo], spaghi = špagát
 3 N la cordicella {cordicella} [kordiˈtʃɛlːa], cordicelle = špagát
+2 N la ceramica {ceramica} [tʃeˈraːmika], ceramiche = keramika
+3 N il ceppo {ceppo} [ˈtʃepːo], ceppi = poleno
+3 N la segatura {segatura} [seɡaˈtuːra], - = piliny
+3 N la scheggia {scheggia} [ˈskeddʒa], schegge = trieska
+3 N il truciolo {truciolo} [ˈtruːtʃolo], trucioli = hoblina
+3 N l'astuccio (m) {astuccio} [asˈtuttʃo], astucci = puzdro
+3 N il diluente {diluente} [diluˈɛnte], diluenti = riedidlo
 
 # industry-places
 1 N l'opera (f) {opera} [ˈɔːpera], opere = dielo
@@ -477,10 +507,17 @@
 2 N l'idraulico (m) {idraulico} [iˈdraːuliko], idraulici = inštalatér
 2 N la logistica {logistica} [loˈdʒistika], - = logistika
 2 N il modello di business {modello di business} [moˈdɛlːo di ˈbiznes], modelli di business = obchodný model
+2 N il pozzo {pozzo} [ˈpottso], pozzi = šachta
+3 V estrarre {estrarre} [esˈtrarːe], irr, estratto = ťažiť
 
 # work
 3 V esternalizzare {esternalizzare} [esternalidˈdzaːre] = vyčleniť
 3 V appaltare {appaltare} [apːalˈtaːre] = vyčleniť
+3 N la corporazione {corporazione} [korporaˈttsjoːne], corporazioni = cech
+3 N la gilda {gilda} [ˈdʒilda], gilde = cech
+2 V scavare {scavare} [skaˈvaːre] = odkopať
+3 V tingere {tingere} [ˈtindʒere], irr, tinto = moriť
+3 V piallare {piallare} [pjaˈlːaːre] = hobľovať
 
 # more
 1 N la pratica {pratica} [ˈpraːtika], pratiche = prax

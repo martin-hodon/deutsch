@@ -108,6 +108,7 @@
 3 N 娘 {娘} [niáng], 个 = mama
 3 N 姨 {姨} [yí], 个 = teta
 1 N 家人 {家人} [jiārén], 个 = rodina
+1 N 家 {家} [jiā], 个 = rodina
 1 N 小朋友 {小朋友} [xiǎopéngyou], 个 = dieťa
 1 N 家属 {家属} [jiāshǔ], 个 = príbuzný
 1 N 子女 {子女} [zǐnǚ], 个 = dieťa
@@ -120,6 +121,14 @@
 2 N 儿女 {儿女} [érnǚ], - = dieťa
 2 N 少儿 {少儿} [shào'ér], 个 = dieťa
 2 N 一代 {一代} [yídài], 代 = generácia
+3 N 曾祖父 {曾祖父} [zēngzǔfù], 位 = pradedo
+3 N 曾祖母 {曾祖母} [zēngzǔmǔ], 位 = prababka
+3 N 嫂子 {嫂子} [sǎozi], 个 = švagriná
+3 N 公婆 {公婆} [gōngpó], 对 = svokrovci
+3 N 岳父母 {岳父母} [yuèfùmǔ], 对 = svokrovci
+3 N 继兄 {继兄} [jìxiōng], 个 = nevlastný brat
+3 N 继弟 {继弟} [jìdì], 个 = nevlastný brat
+3 N 教子 {教子} [jiàozǐ], 个 = krstný syn
 
 # people-stages
 1 N 人 {人} [rén], 个 = osoba
@@ -180,6 +189,15 @@
 2 N 男士 {男士} [nánshì], 位 = pán
 2 N 人士 {人士} [rénshì], 位 = osoba
 2 N 主子 {主子} [zhǔzi], 位 = pán
+3 N 黑人 {黑人} [hēirén], 个 = černoch
+3 N 大力士 {大力士} [dàlìshì], 个 = silák
+3 N 毛孩子 {毛孩子} [máoháizi], 个 = sopliak
+3 N 童子军 {童子军} [tóngzǐjūn], 名 = skaut
+3 N 岛民 {岛民} [dǎomín], 个 = ostrovan
+3 N 独行侠 {独行侠} [dúxíngxiá], 个 = samotár
+3 AN 老迈 {老迈} [lǎomài] = starecký
+3 AN 年迈 {年迈} [niánmài] = postarší
+3 N 幼儿 {幼儿} [yòu'ér], 个 = batoľa
 
 # marriage-social-bonds
 1 V 结婚 {结|婚} [jiéhūn] = oženiť sa
@@ -203,6 +221,7 @@
 3 N 未婚夫 {未婚夫} [wèihūnfū], 个 = snúbenec
 3 N 未婚妻 {未婚妻} [wèihūnqī], 个 = snúbenec
 2 V 约好 {约好} [yuēhǎo] = dohodnúť si stretnutie
+2 V 约 {约} [yuē] = dohodnúť si stretnutie
 2 N 约会 {约会} [yuēhuì], 次 = dohodnuté stretnutie
 3 N 情人 {情人} [qíngrén], 个 = milenec
 1 N 朋友 {朋友} [péngyou], 个 = priateľ
@@ -253,6 +272,12 @@
 1 AN 志愿 {志愿} [zhìyuàn] = dobrovoľný
 2 N 好友 {好友} [hǎoyǒu], 位 = priateľ
 2 N 嘉宾 {嘉宾} [jiābīn], 位 = hosť
+3 N 伴娘 {伴娘} [bànniáng], 位 = družička
+3 N 嫁妆 {嫁妆} [jiàzhuang], 份 = veno
+3 N 解除婚约 {解除婚约} [jiěchúhūnyuē], - = zrušenie zásnub
+3 N 通奸 {通奸} [tōngjiān], - = cudzoložstvo
+3 N 奸情 {奸情} [jiānqíng], 桩 = cudzoložstvo
+2 N 男友 {男友} [nányǒu], 个 = priateľ
 
 # social-interaction
 1 V 见到 {见到} [jiàndào] = stretnúť
@@ -386,6 +411,7 @@
 2 V 鼓励 {鼓励} [gǔlì] = povzbudiť
 2 V 听话 {听|话} [tīnghuà] = poslúchať
 2 V 服从 {服从} [fúcóng] = poslúchať
+2 V 听 {听} [tīng] = poslúchať
 2 N 服从 {服从} [fúcóng], - = poslušnosť
 2 V 和好 {和好} [héhǎo] = zmieriť sa
 3 V 和解 {和解} [héjiě] = zmieriť sa
@@ -475,6 +501,7 @@
 1 V 做客 {做|客} [zuòkè] = navštíviť
 2 AN 独自 {独自} [dúzì] = sám
 2 V 光临 {光临} [guānglín] = navštíviť
+1 V 看 {看} [kàn] = navštíviť
 2 V 遇到 {遇到} [yùdào] = stretnúť
 2 V 招呼 {招呼} [zhāohu] = pozdraviť
 2 V 试图 {试图} [shìtú] = snažiť sa
@@ -495,12 +522,62 @@
 3 V 保持忠诚 {保持忠诚} [bǎochí zhōngchéng] = byť verný
 1 V 吵架 {吵|架} [chǎojià] = pohádať sa
 2 V 争吵 {争吵} [zhēngchǎo] = pohádať sa
+3 N 失礼 {失|礼} [shīlǐ], 次 = faux pas
+3 AN 和睦 {和睦} [hémù] = svorný
+3 V 巴结 {巴结} [bājie] = obskakovať
+3 N 诱惑 {诱惑} [yòuhuò], - = zvádzanie
+3 N 人气 {人气} [rénqì], - = popularita
+3 N 人潮 {人潮} [réncháo], - = tlačenica
+2 N 圈子 {圈子} [quānzi], 个 = okruh
+2 V 帮忙 {帮|忙} [bāngmáng] = vypomôcť
+2 V 帮助 {帮助} [bāngzhù] = dopomôcť
+3 N 溺爱 {溺爱} [nì'ài], - = rozmaznanie
+3 N 骚扰 {骚扰} [sāorǎo], - = obťažovanie
+3 V 责备 {责备} [zébèi] = karhať
+2 V 说 {说} [shuō] = karhať
+3 V 亲热 {亲热} [qīnrè] = maznať sa
+2 V 聚集 {聚集} [jùjí] = zhromaždiť sa
+3 V 凑 {凑} [còu] = zhromaždiť sa
+3 N 走狗 {走狗} [zǒugǒu], 个 = prisluhovač
+2 INT 嗨 {嗨} [hāi] = ahoj
+3 N 废物 {废物} [fèiwu], 个 = naničhodník
+3 N 恶棍 {恶棍} [ègùn], 个 = lotor
+3 N 淘气包 {淘气包} [táoqìbāo], 个 = fagan
+3 N 粗人 {粗人} [cūrén], 个 = hulvát
+3 N 庸人 {庸人} [yōngrén], 个 = ignorant
+3 N 丑角 {丑角} [chǒujué], 个 = pajác
+3 N 同志 {同志} [tóngzhì], 位 = súdruh
+3 N 花花公子 {花花公子} [huāhuāgōngzǐ], 个 = fičúr
+3 N 乌合之众 {乌合之众} [wūhézhīzhòng], - = zberba
+3 N 伪君子 {伪君子} [wěijūnzǐ], 个 = pokrytec
+3 N 贪心鬼 {贪心鬼} [tānxīnguǐ], 个 = chamtivec
+3 N 流氓 {流氓} [liúmáng], 个 = chuligán
+3 N 书呆子 {书呆子} [shūdāizi], 个 = bifľoš
+3 N 告状精 {告状精} [gàozhuàngjīng], 个 = žalobaba
+3 N 偷听者 {偷听者} [tōutīngzhě], 个 = sliedič
+3 N 辣妹 {辣妹} [làmèi], 个 = kočka
+3 N 妓女 {妓女} [jìnǚ], 个 = prostitútka
+3 N 荡妇 {荡妇} [dàngfù], 个 = cundra
+3 N 野丫头 {野丫头} [yěyātou], 个 = drzaňa
+3 N 蠢女人 {蠢女人} [chǔnnǚrén], 个 = hlupana
+3 N 讨厌鬼 {讨厌鬼} [tǎoyànguǐ], 个 = dotieravec
+3 N 贱人 {贱人} [jiànrén], 个 = mrcha
+3 N 一路纵队 {一路纵队} [yīlùzòngduì], - = husí pochod
+3 N 马屁精 {马屁精} [mǎpìjīng], 个 = pätolízač
+3 N 混蛋 {混蛋} [hùndàn], 个 = hajzel
+3 N 告发者 {告发者} [gàofāzhě], 个 = udavač
+3 N 敬意 {敬意} [jìngyì], - = pocta
+3 N 慈悲 {慈悲} [cíbēi], - = milosť
+3 V 纵容 {纵容} [zòngróng] = tolerovať
+3 V 赐予 {赐予} [cìyǔ] = obdarovať
 
 # contact
 3 V 依偎 {依偎} [yīwēi] = túliť sa
 3 V 亲热 {亲热} [qīnrè] = túliť sa
+3 N 爱抚 {爱抚} [àifǔ], - = pohladenie
 
 # more
 2 V 依靠 {依靠} [yīkào] = spoliehať sa
 2 V 依赖 {依赖} [yīlài] = spoliehať sa
+2 V 靠 {靠} [kào] = spoliehať sa
 3 AN 跨性别 {跨性别} [kuàxìngbié] = transrodový

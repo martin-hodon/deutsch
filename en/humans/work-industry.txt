@@ -195,6 +195,17 @@
 2 N subordinate {sub|ordinate} [səˈbɔːdɪnət], subordinates = podriadený
 2 N layman {lay|man} [ˈleɪmən], laymen = laik
 3 N demotion {de|motion} [dɪˈməʊʃən], demotions = degradácia
+3 N furrier {furrier} [ˈfʌriə], furriers = kožušník
+3 V slack off {slack·off} [slæk ˈɒf] = flákať sa
+3 V skive off {skive·off} [skaɪv ˈɒf] = uliať sa
+3 N glassmaker {glass|maker} [ˈɡlɑːsmeɪkə], glassmakers = sklár
+3 N glassblower {glass|blower} [ˈɡlɑːsbləʊə], glassblowers = sklár
+3 V train {train} [treɪn] (sb) = zapracovať
+2 V hire {hire} [ˈhaɪə] (sb) = najať
+3 V toil {toil} [tɔɪl] = drieť
+3 V slog {slog} [slɒɡ] = drieť
+3 N drudgery {drudgery} [ˈdrʌdʒəri], - = drina
+2 N porter {porter} [ˈpɔːtə], porters = vrátnik
 # making-doing
 1 V make {make} [meɪk], made/made = robiť
 1 V do {do} [duː], did/done = robiť
@@ -257,6 +268,8 @@
 3 N fix {fix} [fɪks], fixes = oprava (poškodeného)
 2 V demolish {demolish} [dɪˈmɒlɪʃ] (sth) = búrať
 3 V tear down {tear·down} [teə ˈdaʊn], tore down/torn down (sth) = búrať
+3 V machine {machine} [məˈʃiːn] (sth) = opracovať
+2 V saw {saw} [sɔː], sawed/sawn (sth) = píliť
 # tools
 1 N hammer {hammer} [ˈhæmə], hammers = kladivo
 2 V hammer {hammer} [ˈhæmə] = búchať kladivom
@@ -302,6 +315,17 @@
 2 N pole {pole} [pəʊl], poles = tyč
 2 V glue {glue} [ɡluː] (sth) = lepiť
 3 V tape {tape} [teɪp] (sth to) = prilepiť
+3 N peg {peg} [peɡ], pegs = kolík
+2 N wedge {wedge} [wedʒ], wedges = klin
+2 N file {file} [faɪl], files = pilník
+2 N nozzle {nozzle} [ˈnɒzəl], nozzles = tryska
+3 N bellows {bellows} [ˈbeləʊz], PL = kováčsky mech
+2 N bearing {bear|ing} [ˈbeərɪŋ], bearings = ložisko
+2 N plug {plug} [plʌɡ], plugs = zátka
+3 N manhole cover {manhole cover} [ˈmænhəʊl ˌkʌvə], manhole covers = poklop
+2 N tweezers {tweezers} [ˈtwiːzəz], PL = pinzeta
+2 N spring {spring} [sprɪŋ], springs = pružina
+3 N lock pick {lock pick} [ˈlɒk pɪk], lock picks = pakľúč
 # materials
 2 N material {material} [məˈtɪəriəl], materials = materiál
 1 N wood {wood} [wʊd], - = drevo
@@ -328,6 +352,14 @@
 3 V insulate {insulate} [ˈɪnsjəleɪt] (sth) = zatepliť
 3 N sheet metal {sheet metal} [ˈʃiːt ˈmetəl], - = plech
 2 N string {string} [strɪŋ], strings = špagát
+2 N pottery {pott|ery} [ˈpɒtəri], - = keramika
+3 N ceramics {ceramics} [səˈræmɪks], PL = keramika
+2 N log {log} [lɒɡ], logs = poleno
+2 N sawdust {saw|dust} [ˈsɔːdʌst], - = piliny
+2 N splinter {splinter} [ˈsplɪntə], splinters = trieska
+3 N shaving {shav|ing} [ˈʃeɪvɪŋ], shavings = hoblina
+2 N case {case} [keɪs], cases = puzdro
+3 N thinner {thinner} [ˈθɪnə], thinners = riedidlo
 # industry-places
 2 N work {work} [wɜːk], works = dielo
 1 N tool {tool} [tuːl], tools = náradie
@@ -363,8 +395,14 @@
 2 N plumber {plumb|er} [ˈplʌmə], plumbers = inštalatér
 3 N logistics {logistics} [ləˈdʒɪstɪks], - = logistika
 2 N business model {business model} [ˈbɪznɪs ˈmɒdəl], business models = obchodný model
+2 N shaft {shaft} [ʃɑːft], shafts = šachta
+2 V mine {mine} [maɪn] (sth) = ťažiť
 # work
 3 V outsource {out|source} [ˈaʊtsɔːs] (sth) = vyčleniť
+2 N guild {guild} [ɡɪld], guilds = cech
+2 V dig out {dig·out} [dɪɡ ˈaʊt], dug out/dug out (sth) = odkopať
+3 V stain {stain} [steɪn] (sth) = moriť
+3 V plane {plane} [pleɪn] (sth) = hobľovať
 
 # more
 2 N practice {practice} [ˈpræktɪs], practices = prax

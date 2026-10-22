@@ -96,6 +96,7 @@
 1 N 奶茶 {奶茶} [nǎichá], 杯 = čaj s mliekom
 1 N 农村 {农村} [nóngcūn], - = vidiek
 1 N 人民币 {人民币} [rénmínbì], - = juan
+1 N 块 {块} [kuài], - = juan
 1 N 人群 {人群} [rénqún], 群 = dav
 1 N 手续 {手续} [shǒuxù], 项 = formalita
 1 N 双方 {双方} [shuāngfāng], - = obe strany
@@ -339,3 +340,5 @@
 2 N 中世纪 {中世纪} [zhōngshìjì], - = stredovek
 2 N 冠军 {冠军} [guànjūn], 个 = prvé miesto
 1 N 第一名 {第一名} [dì yī míng], - = prvé miesto
+2 AN 吵闹 {吵闹} [chǎonào] = hlučný
+3 N 性 {性} [xìng], - = pohlavie

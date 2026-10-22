@@ -97,6 +97,17 @@
 3 V schielen {schielen} [ˈʃiːlən], hat (auf A) = škúliť, pozerať spod oka
 3 V flimmern {flimmern} [ˈflɪmɐn], hat = mihotať sa, blikať
 3 N die Blindheit {Blind|heit} [ˈblɪnthaɪt], - = slepota
+2 V gucken {gucken} [ˈɡʊkən], hat = mrknúť sa
+3 V aufblicken {auf·blicken} [ˈaʊfblɪkən], hat (zu D) = vzhliadnuť
+3 V aufschauen {auf·schauen} [ˈaʊfʃaʊən], hat (zu D) = vzhliadnuť
+2 V blenden {blenden} [ˈblɛndən], hat (A) = oslepiť
+3 N das Gedöns {Gedöns} [ɡəˈdøːns], - = rozruch
+3 AN übermütig {über|mütig} [ˈyːbɐmyːtɪç] = bujarý
+2 V verbergen {ver|bergen} [fɛɐˈbɛʁɡən], verbirgt/verbarg/verborgen [fɛɐˈbɪʁkt/fɛɐˈbaʁk/fɛɐˈbɔʁɡən], hat (A, sich A) = ukryť
+3 V enttarnen {ent|tarnen} [ɛntˈtaʁnən], hat (A) = odhaliť
+3 N die Entlarvung {Ent|larvung} [ɛntˈlaʁfʊŋ], Entlarvungen = odhalenie
+2 V blinken {blinken} [ˈblɪŋkən], hat = blikať
+3 V schillern {schillern} [ˈʃɪlɐn], hat = trblietať sa
 
 # hearing
 1 V hören {hören} [ˈhøːʁən], hat (A, von D, auf A) = počuť, počúvať
@@ -114,6 +125,8 @@
 3 V ertönen {ertönen} [ɛɐˈtøːnən], ist = zaznieť, ozvať sa
 3 V rauschen {rauschen} [ˈʁaʊʃən], hat/ist = šumieť, hučať
 3 N die Taubheit {Taub|heit} [ˈtaʊphaɪt], - = hluchota
+3 N der Hörsinn {Hör|sinn} [ˈhøːɐzɪn], - = sluch
+3 N der Gehörsinn {Gehör|sinn} [ɡəˈhøːɐzɪn], - = sluch
 
 # other-senses
 2 V riechen {riechen} [ˈʁiːçən], riecht/roch/gerochen [ʁiːçt/ʁɔx/ɡəˈʁɔxən], hat (nach D, an D) = čuchať, voňať
@@ -164,6 +177,17 @@
 3 V schnuppern {schnuppern} [ˈʃnʊpɐn], hat (an D) = ovoniavať, čuchať
 3 AN hörend {hörend} [ˈhøːʁənt] = počujúci
 2 N der Gestank {Gestank} [ɡəˈʃtaŋk], - = zápach
+2 N das Brennen {Brennen} [ˈbʁɛnən], - = štípanie
+2 V brennen {brennen} [ˈbʁɛnən], brennt/brannte/gebrannt [bʁɛnt/ˈbʁantə/ɡəˈbʁant], hat = štípať
+3 N der Juckreiz {Juck|reiz} [ˈjʊkʁaɪts], - = svrbenie
+2 N die Süße {Süße} [ˈzyːsə], - = sladkosť chuti
+3 N der Geruchssinn {Geruchs|sinn} [ɡəˈʁʊxszɪn], - = čuch
+3 N der Tastsinn {Tast|sinn} [ˈtastzɪn], - = hmat
+3 AN moderig {moderig} [ˈmoːdəʁɪç] = zatuchnutý
+3 AN muffig {muffig} [ˈmʊfɪç] = zatuchnutý
+3 V anrühren {an·rühren} [ˈanʁyːʁən], hat (A) = dotknúť sa
+3 V beriechen {be|riechen} [bəˈʁiːçən], beriecht/beroch/berochen [bəˈʁiːçt/bəˈʁɔx/bəˈʁɔxən], hat (A) = čuchať
+3 V beschnüffeln {be|schnüffeln} [bəˈʃnʏfəln], hat (A) = čuchať
 
 # colors
 1 N die Farbe {Farbe} [ˈfaʁbə], Farben = farba
@@ -212,3 +236,11 @@
 2 AN türkis {türkis} [tʏɐˈkiːs] = tyrkysový
 2 AN beige {beige} [beːʒ] = béžový
 2 AN schwarzweiß {schwarz|weiß} [ˈʃvaʁtsvaɪs] = čiernobiely
+3 AN azurblau {azur|blau} [aˈtsuːɐblaʊ] = azúrový
+3 N die Färbung {Färbung} [ˈfɛʁbʊŋ], Färbungen = zafarbenie
+3 V erbleichen {er|bleichen} [ɛɐˈblaɪçən], ist = zblednúť
+2 V erblassen {er|blassen} [ɛɐˈblasən], ist = zblednúť
+3 V entfärben {ent|färben} [ɛntˈfɛʁbən], hat (A, sich A) = odfarbiť
+3 V umfärben {um·färben} [ˈʊmfɛʁbən], hat (A) = prefarbiť
+2 AN gefärbt {ge|färbt} [ɡəˈfɛʁpt] = zafarbený
+2 AN violett {violett} [vioˈlɛt] = fialový

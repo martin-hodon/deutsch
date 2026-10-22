@@ -218,6 +218,38 @@ V vylákať
 V diktovať
 AN komunikatívny
 AN nemý
+AN mlčanlivý
+V tárať -- hovoriť naprázdno
+AN zhovorčivý
+N okolky -- zbytočné reči pred jadrom veci
+N táranie
+AN strohý -- slovne skúpy, stručný
+V prihovoriť sa za
+V neschvaľovať
+V pritakať
+V namietať
+V vyhovárať sa
+V ohovárať -- hovoriť zle o niekom
+V očierniť -- ohovárať, hanobiť
+N bľabotanie
+V bľabotať
+AN oplzlý
+V naliehať
+V radiť -- dávať radu
+V rozkázať -- nariadiť niečo podriadenému
+V žalovať (donášať) -- donášať na niekoho
+N oplzlý vtip
+V prisahať vernosť -- sľúbiť vernosť panovníkovi
+N bluf
+V tajiť -- nehovoriť o niečom, držať v tajnosti
+V blufovať
+V prerieknuť sa -- nechtiac niečo prezradiť
+V zasvätiť (do tajomstva)
+V šušlať
+V skomoliť
+N sarkazmus
+N lichôtka
+V klebetiť -- rozširovať klebety
 
 # language-writing
 N slovo
@@ -343,6 +375,30 @@ N telegram
 N nemčina
 AN písomný : adverb písomne
 AN jazykový
+N prirovnanie -- obrazné porovnanie
+N tučné písmo
+N hranatá zátvorka
+N hláska -- zvuk reči
+N zámeno
+N číslovka
+N príslovka
+N predložka
+N spojka (slovný druh)
+N pisár
+N azbuka
+N bodkočiarka
+N dvojbodka
+N výkričník
+N podčiarkovník
+N pomlčka
+N apostrof
+N úvodzovky
+N lomítko
+N venovanie -- napísané slová pre niekoho
+N kníhkupec -- predavač kníh
+N slovná hračka -- slovný vtip
+N šifra
+V prezývať
 
 # media-news
 N správa (oznam)
@@ -404,3 +460,6 @@ AN novinársky
 V streamovať
 V postnúť
 V ladiť
+N záložka -- na označenie strany v knihe
+N brak -- nekvalitná kniha
+N trhák -- veľmi úspešné dielo

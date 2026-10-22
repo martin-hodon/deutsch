@@ -47,6 +47,18 @@
 2 N l'olio di girasole (m) {olio di girasole} [ˈɔːljo di dʒiraˈsoːle], oli di girasole = slnečnicový olej
 2 N le erbe aromatiche {erbe aromatiche} [ˈɛrbe aromaˈtiːke], PL = bylinky
 3 AN non commestibile {non commestibile} [non komːeˈstiːbile] = nejedlý
+2 N il bicarbonato {bicarbonato} [bikarboˈnaːto], - = jedlá sóda
+3 N la pasta lievitata {pasta lievitata} [ˈpasta ljeviˈtaːta], paste lievitate = kysnuté cesto
+2 N il ripieno {ripieno} [riˈpjɛːno], ripieni = plnka
+3 N lo strutto {strutto} [ˈstrutːo], - = bravčová masť
+3 N la fetta biscottata {fetta biscottata} [ˈfetːa biskoˈtːaːta], fette biscottate = suchár
+3 N il sego {sego} [ˈseːɡo], seghi = loj
+2 N la merenda {merenda} [meˈrɛnda], merende = olovrant
+2 N gli avanzi {avanzi} [aˈvantsi], PL = zvyšky jedla
+3 N la gelatina di carne {gelatina di carne} [dʒelaˈtiːna di ˈkarne], gelatine di carne = rôsol
+3 N la latteria {latteria} [latːeˈriːa], latterie = mliekáreň
+3 N il condimento {condimento} [kondiˈmento], condimenti = dresing
+3 N il boccone {boccone} [boˈkːoːne], bocconi = sústo
 
 # staples
 1 N il pane {pane} [ˈpaːne], pani = chlieb
@@ -144,6 +156,18 @@
 2 N la lenticchia {lenticchia} [lenˈtikːja], lenticchie = šošovica
 2 N il tofu {tofu} [ˈtɔːfu], tofu = tofu
 3 N il taco {taco} [ˈtaːko], tacos = taco
+2 N il pesto {pesto} [ˈpesto], - = pesto
+2 N il cornetto {cornetto} [korˈnetːo], cornetti = rožok
+3 N la pagnotta {pagnotta} [paˈɲːɔtːa], pagnotte = bochník
+3 N la treccia {treccia} [ˈtrettʃa], trecce = vianočka
+3 N il tramezzino {tramezzino} [tramedˈdziːno], tramezzini = obložený chlieb
+3 N i gnocchetti {gnocchetti} [ɲoˈkːetːi], PL = šúľance
+3 N i gomiti {gomiti} [ˈɡoːmiti], PL = kolienka
+3 N gli spätzle {spätzle} [ˈʃpɛtsle], PL = halušky
+3 N la passata {passata} [paˈsːaːta], passate = pretlak
+2 N il purè {purè} [puˈrɛ], purè = pyré
+3 N i tagliolini {tagliolini} [taʎoˈliːni], PL = rezance
+2 N gli gnocchi {gnocchi} [ˈɲɔkːi], PL = gnocchi
 
 # meat-fish-food
 1 N il manzo {manzo} [ˈmandzo], manzi = hovädzie mäso
@@ -177,6 +201,12 @@
 2 N il döner kebab {döner kebab} [ˈdɔner keˈbab], döner kebab = döner kebab
 2 N il sushi {sushi} [ˈsuːʃi], sushi = suši
 2 V ingrassare {ingrassare} [inɡraˈsːaːre], essere = pribrať
+3 N la salsiccia di fegato {salsiccia di fegato} [salˈsittʃa di ˈfeːɡato], salsicce di fegato = jaternica
+3 N la carne affumicata {carne affumicata} [ˈkarne afːumiˈkaːta], carni affumicate = údené mäso
+3 N la trippa {trippa} [ˈtripːa], - = držky
+3 N la carne salata {carne salata} [ˈkarne saˈlaːta], carni salate = solené mäso
+3 N l'olio di pesce (m) {olio di pesce} [ˈɔːljo di ˈpeʃːe], oli di pesce = rybí tuk
+3 N la coppa di testa {coppa di testa} [ˈkopːa di ˈtɛsta], coppe di testa = tlačenka
 
 # fruits
 1 N la frutta {frutta} [ˈfrutːa], - = ovocie
@@ -227,6 +257,16 @@
 2 N l'uvetta (f) {uvetta} [uˈvetːa], - = hrozienko
 2 N la limetta {limetta} [liˈmetːa], limette = limetka
 2 N il pompelmo {pompelmo} [pomˈpɛlmo], pompelmi = grapefruit
+2 N il mandarino {mandarino} [mandaˈriːno], mandarini = mandarínka
+3 N il cachi {cachi} [ˈkaːki], cachi = kaki
+3 N l'amarena (f) {amarena} [amaˈreːna], amarene = višňa
+3 N la visciola {visciola} [ˈviʃːola], visciole = višňa
+3 N il gelso {gelso} [ˈdʒɛlso], gelsi = moruša
+3 N il pistacchio {pistacchio} [pisˈtakːjo], pistacchi = pistácia
+3 N la noce pecan {noce pecan} [ˈnoːtʃe ˈpɛːkan], noci pecan = pekanový orech
+3 N l'anacardo (m) {anacardo} [anaˈkardo], anacardi = kešu orech
+3 N la noce del Brasile {noce del Brasile} [ˈnoːtʃe del braˈziːle], noci del Brasile = para orech
+2 N la mandorla {mandorla} [ˈmandorla], mandorle = mandľa
 
 # vegetables
 1 N la verdura {verdura} [verˈduːra], verdure = zelenina
@@ -270,6 +310,15 @@
 2 N l'asparago (m) {asparago} [asˈpaːraɡo], asparagi = špargľa
 1 N il fungo {fungo} [ˈfuŋɡo], funghi = šampiňón
 2 N il champignon {champignon} [ʃampiˈɲːɔn], champignon = šampiňón
+3 N il rabarbaro {rabarbaro} [raˈbarbaro], rabarbari = rebarbora
+3 N il carciofo {carciofo} [karˈtʃɔːfo], carciofi = artičok
+3 N il cavolo riccio {cavolo riccio} [ˈkaːvolo ˈrittʃo], cavoli ricci = kučeravá kapusta
+3 N il cavolo rapa {cavolo rapa} [ˈkaːvolo ˈraːpa], cavoli rapa = kaleráb
+3 N l'aglio orsino (m) {aglio orsino} [ˈaʎːo orˈsiːno], agli orsini = medvedí cesnak
+3 N il legume {legume} [leˈɡuːme], legumi = strukovina
+2 N il cece {cece} [ˈtʃeːtʃe], ceci = cícer
+3 N il rafano {rafano} [ˈraːfano], rafani = chren
+3 N l'erba cipollina (f) {erba cipollina} [ˈɛrba tʃipoˈlːiːna], erbe cipolline = pažítka
 
 # sweets-drinks
 1 N la torta {torta} [ˈtɔrta], torte = koláč
@@ -329,6 +378,17 @@
 1 N le patatine {patatine} [pataˈtiːne], PL = čipsy
 2 N il caramello {caramello} [karaˈmɛlːo], caramelli = karamel
 2 N la gelatina {gelatina} [dʒelaˈtiːna], gelatine = želé
+2 N il brindisi {brindisi} [ˈbrindizi], brindisi = prípitok
+3 N l'intruglio (m) {intruglio} [inˈtruʎːo], intrugli = žbrnda
+3 N l'idromele (m) {idromele} [idroˈmɛːle], idromeli = medovina
+3 N il superalcolico {superalcolico} [superalˈkɔːliko], superalcolici = liehovina
+2 N il liquore {liquore} [liˈkwoːre], liquori = liehovina
+3 N la composta {composta} [komˈposta], composte = kompót
+2 N la pasticceria {pasticceria} [pastittʃeˈriːa], pasticcerie = cukráreň
+3 N il ciambellone {ciambellone} [tʃambeˈlːoːne], ciambelloni = bábovka
+2 N il leccalecca {lecca|lecca} [lekːaˈlekːa], leccalecca = lízanka
+3 N la liquirizia {liquirizia} [likwiˈrittsja], - = pendrek (sladkosť)
+3 N la ciambella {ciambella} [tʃamˈbɛlːa], ciambelle = venček
 
 # cooking
 1 V cucinare {cucinare} [kutʃiˈnaːre] = variť
@@ -404,6 +464,23 @@
 2 V pranzare {pranzare} [pranˈdzaːre] = stolovať
 2 V consumare {consumare} [konsuˈmaːre] = skonzumovať
 2 V guarnire {guarnire} [ɡwarˈniːre], isc = garnírovať
+3 V cagliare {cagliare} [kaˈʎːaːre] = zraziť sa (mlieko)
+3 N l'infuso (m) {infuso} [inˈfuːzo], infusi = nálev
+3 V gratinare {gratinare} [ɡratiˈnaːre] = zapiecť
+3 V bruciacchiare {bruciacchiare} [brutʃaˈkːjaːre] = pripáliť
+2 V sciogliere {sciogliere} [ˈʃɔʎːere], irr, sciolto = roztopiť
+3 V spremere {spremere} [ˈspreːmere] = odšťaviť
+3 V fermentare {fermentare} [fermenˈtaːre] = kvasiť
+3 V colare {colare} [koˈlaːre] = cediť
+3 V salare troppo {salare troppo} [saˈlaːre ˈtrɔpːo] = presoliť
+3 N la fermentazione {fermentazione} [fermentatˈtsjoːne], fermentazioni = kvasenie
+3 V saziare {saziare} [satˈtsjaːre] = zasýtiť
+3 V grattugiare {grattugiare} [ɡratːuˈdʒaːre] = strúhať
+3 V sventrare {sventrare} [zvenˈtraːre] = vyvrhnúť
+3 V versare via {versare via} [verˈsaːre ˈviːa] = odliať
+2 V versare {versare} [verˈsaːre] = vyliať
+3 V rovesciare {rovesciare} [roveˈʃːaːre] = vyliať
+3 V rabboccare {rabboccare} [rabːoˈkːaːre] = doliať
 
 # kitchen-tools
 1 N il coltello {coltello} [kolˈtɛlːo], coltelli = nôž
@@ -475,6 +552,19 @@
 1 N il ristorante {ristorante} [ristoˈrante], ristoranti = pohostinstvo
 2 N il locale {locale} [loˈkaːle], locali = pohostinstvo
 2 N la trattoria {trattoria} [tratːoˈriːa], trattorie = pohostinstvo
+3 N lo schiaccianoci {schiaccia|noci} [skjattʃaˈnoːtʃi], schiaccianoci = luskáčik
+3 N il vasetto {vasetto} [vaˈzetːo], vasetti = kelímok
+3 N il calice {calice} [ˈkaːlitʃe], calici = čaša
+3 N la casseruola {casseruola} [kasːeˈrwɔːla], casseruole = kastról
+3 N il pelapatate {pela|patate} [pelapaˈtaːte], pelapatate = škrabka
+3 N il mattarello {mattarello} [matːaˈrɛlːo], mattarelli = valček na cesto
+3 N il misurino {misurino} [mizuˈriːno], misurini = odmerka
+2 N il tagliere {tagliere} [taˈʎːɛːre], taglieri = doska na krájanie
+3 N la schiumarola {schiumarola} [skjumaˈrɔːla], schiumarole = zberačka
+3 N lo spiedo {spiedo} [ˈspjɛːdo], spiedi = ražeň
+3 N la centrifuga {centrifuga} [tʃenˈtriːfuɡa], centrifughe = odšťavovač
+3 N l'estrattore (m) {estrattore} [estraˈtːoːre], estrattori = odšťavovač
+3 N la brocca {brocca} [ˈbrɔkːa], brocche = kanvica
 
 # taste-quality
 1 N il gusto {gusto} [ˈɡusto], gusti = chuť (na jazyku)
@@ -512,3 +602,7 @@
 2 V bagnare {bagnare} [baˈɲːaːre] = polievať
 1 AN cotto {cotto} [ˈkɔtːo], cotta = varený
 2 AN di cattivo gusto {di cattivo gusto} [di kaˈtːiːvo ˈɡusto] = nevkusný
+3 AN precotto {precotto} [preˈkɔtːo], precotta = predvarený
+2 AN scaduto {scaduto} [skaˈduːto], scaduta = expirovaný
+3 AN astringente {astringente} [astrinˈdʒɛnte] = trpký
+3 AN aspro {aspro} [ˈaspro], aspra = trpký

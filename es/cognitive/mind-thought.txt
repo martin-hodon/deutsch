@@ -178,6 +178,14 @@
 3 AN nominal {nominal} [nomiˈnal] = menný
 2 AN ilógico {i|lógico} [iˈloxiko], ilógica = nelogický
 2 AN incompetente {in|competente} [iŋkompeˈtente] = nekompetentný
+2 N la esencia {esencia} [eˈsenθja], esencias = podstata
+3 AN soñado {soñado} [soˈɲaðo], soñada = vysnívaný
+3 N la deducción {deducción} [deðukˈθjon], deducciones = dedukcia
+3 V subestimar {sub|estimar} [suβestiˈmaɾ] = nedoceniť
+3 N la mentalidad {mentalidad} [mentaliˈðað], mentalidades = zmýšľanie
+3 N el subconsciente {sub|consciente} [suβkonsˈθjente], subconscientes = podvedomie
+2 V razonar {razonar} [raθoˈnaɾ] = premýšľať
+3 N el tino {tino} [ˈtino], - = odhad
 
 # knowing
 1 V saber {saber} [saˈβeɾ], irr = vedieť
@@ -316,6 +324,9 @@
 3 V desenmascarar {desenmascarar} [desemmaskaˈɾaɾ] = demaskovať
 3 AV con aplomo {con·aplomo} [kon aˈplomo] = sebavedome
 2 N la ignorancia {ignorancia} [iɣnoˈɾanθja], ignorancias = nevedomosť
+3 N la comprensibilidad {comprensibilidad} [kompɾensiβiliˈðað], - = zrozumiteľnosť
+3 V discernir {discernir} [disθeɾˈniɾ], e>ie = rozoznať
+2 V presuponer {pre|suponer} [pɾesupoˈneɾ], irr, presupuesto = predpokladať
 
 # memory
 1 N la memoria {memoria} [meˈmoɾja], memorias = pamäť (schopnosť)
@@ -332,6 +343,9 @@
 3 V recobrar el sentido {recobrar el sentido} [rekoˈβɾaɾ el senˈtiðo] = spamätať sa
 2 V recuperarse {recuperarse} [rekupeˈɾaɾse] = spamätať sa
 3 N la reflexión {reflexión} [reflekˈsjon], reflexiones = rozjímanie
+3 N la desmemoria {des|memoria} [dezmeˈmoɾja], - = zábudlivosť
+3 V inculcar {inculcar} [iŋkulˈkaɾ] = vštepovať
+2 AV de memoria {de memoria} [de meˈmoɾja] = naspamäť
 
 # intelligence
 1 N la inteligencia {inteligencia} [inteliˈxenθja], inteligencias = inteligencia
@@ -359,6 +373,7 @@
 2 AN agudo {agudo} [aˈɡuðo], aguda = bystrý
 2 AN listo {listo} [ˈlisto], lista = bystrý
 2 AN absurdo {absurdo} [aβˈsuɾðo], absurda = absurdný
+3 AN perspicaz {perspicaz} [peɾspiˈkaθ] = bystrý
 
 # problems
 1 N el problema {problema} [pɾoˈβlema], problemas = problém
@@ -397,6 +412,12 @@
 2 V polarizar {polarizar} [polaɾiˈθaɾ] = polarizovať
 1 AV sin problemas {sin·problemas} [sin pɾoˈβlemas] = bezproblémovo
 1 V tener razón {tener razón} [teˈneɾ raˈθon], irr = mať pravdu
+2 V enloquecer {enloquecer} [eŋlokeˈθeɾ], c>zc = zblázniť sa
+3 V delirar {delirar} [deliˈɾaɾ] = blúzniť
+3 N el percance {percance} [peɾˈkanθe], percances = malér
+3 N el aprieto {aprieto} [aˈpɾjeto], aprietos = šlamastika
+3 V meter en un lío {meter en un lío} [meˈteɾ en un ˈlio] = zapliesť do problémov
+2 AN resuelto {resuelto} [reˈswelto], resuelta = vyriešený
 
 # more
 2 V considerar {considerar} [konsiðeˈɾaɾ] = považovať

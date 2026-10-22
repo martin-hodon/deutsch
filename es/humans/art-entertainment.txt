@@ -59,6 +59,10 @@
 3 AN épico {épico} [ˈepiko], épica = epický
 3 V comisariar {comisariar} [komisaˈɾjaɾ] = kurátorovať
 2 N la fealdad {fealdad} [fealˈdað], fealdades = škaredosť
+3 V garabatear {garabatear} [ɡaɾaβateˈaɾ] = čmárať
+3 N el garabato {garabato} [ɡaɾaˈβato], garabatos = čmáranica
+2 N el adorno {adorno} [aˈðoɾno], adornos = ozdoba
+3 V bosquejar {bosquejar} [boskeˈxaɾ] = načrtnúť
 
 # music
 1 N la música {música} [ˈmusika], - = hudba
@@ -123,6 +127,8 @@
 3 N el trío {trío} [ˈtɾio], tríos = trio
 1 N la canción {canción} [kanˈθjon], canciones = pieseň
 3 N el rapero {rapero} [raˈpeɾo], raperos = raper
+3 AN melodioso {melodioso} [meloˈðjoso], melodiosa = melodický
+3 V pitar {pitar} [piˈtaɾ] = pískať
 
 # performance-literature
 1 N el teatro {teatro} [teˈatɾo], teatros = divadlo
@@ -224,6 +230,13 @@
 3 V sincronizar {sincronizar} [sinkɾoniˈθaɾ] = synchronizovať
 3 AN autobiográfico {autobiográfico} [autoβjoˈɣɾafiko], autobiográfica = autobiografický
 3 N la última función {última función} [ˈultima funˈθjon], últimas funciones = derniéra
+2 N la sala {sala} [ˈsala], salas = divácka sála
+3 N la fábula {fábula} [ˈfaβula], fábulas = bájka
+3 N el bufón {bufón} [buˈfon], bufones = šašo
+3 N el pitufo {pitufo} [piˈtufo], pitufos = šmolko
+3 N la tarima {tarima} [taˈɾima], tarimas = pódium
+3 N el podio {podio} [ˈpoðjo], podios = pódium
+2 N la ficción {ficción} [fikˈθjon], ficciones = fikcia
 
 # games-sport
 1 N el juego {juego} [ˈxweɣo], juegos = hra
@@ -417,6 +430,29 @@
 2 N el aficionado {aficionado} [afiθjoˈnaðo], aficionados = amatér
 3 N el amateur {amateur} [amaˈteuɾ], amateurs = amatér
 1 V perder {perder} [peɾˈðeɾ], e>ie = prehrať (zápas)
+2 N el ciclismo {ciclismo} [θiˈklismo], - = cyklistika
+3 N los dardos {dardos} [ˈdaɾðos], PL = šípky (hra)
+2 N el columpio {columpio} [koˈlumpjo], columpios = hojdačka
+3 N la máquina tragaperras {máquina traga|perras} [ˈmakina tɾaɣaˈperas], máquinas tragaperras = herný automat
+3 N el alpinismo {alpinismo} [alpiˈnismo], - = horolezectvo
+3 N la halterofilia {halterofilia} [alteɾoˈfilja], - = vzpieranie
+2 V hacer deporte {hacer deporte} [aˈθeɾ deˈpoɾte], irr = športovať
+2 N el bate {bate} [ˈbate], bates = pálka
+3 N la comba {comba} [ˈkomba], combas = švihadlo
+3 N la mancuerna {mancuerna} [maŋˈkweɾna], mancuernas = činka
+3 N la colchoneta {colchoneta} [koltʃoˈneta], colchonetas = žinenka
+3 N el sonajero {sonajero} [sonaˈxeɾo], sonajeros = hrkálka
+3 N el as {as} [as], ases = eso
+3 N la sota {sota} [ˈsota], sotas = dolník
+2 N el tablero de ajedrez {tablero de ajedrez} [taˈβleɾo de axeˈðɾeθ], tableros de ajedrez = šachovnica
+2 N el caballo {caballo} [kaˈβaʎo], caballos = šachový jazdec
+3 N el zanco {zanco} [ˈθaŋko], zancos = chodúľ
+2 N el peón {peón} [peˈon], peones = pešiak
+3 N el alfil {alfil} [alˈfil], alfiles = šachový strelec
+3 N el disco {disco} [ˈdisko], discos = hokejový puk
+3 V jactarse {jactarse} [xakˈtaɾse] = vystatovať sa
+3 N el envite {envite} [emˈbite], envites = stávka
+3 N el naipe {naipe} [ˈnaipe], naipes = hracia karta
 
 # corpus-verbs
 3 V enfrentar {enfrentar} [emfɾenˈtaɾ] = poštvať proti sebe

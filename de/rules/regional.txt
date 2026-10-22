@@ -1,0 +1,51 @@
+# REGIONAL WORDS (tools/words.py mark_region -> dict.tsv `region`): German words NOT said everywhere the language is
+# spoken -- a national variety, a region, a dialect. The dictionary marks them, the trainer does not offer them as THE
+# word of a concept that has a general one.
+#   POS word = CODES -- note          (POS word (concept) = ... when the word has another concept, not marked)
+# CODES (one or more): AT CH DE-N DE-S · UK US AU IE SCOT · ES LATAM MX AR · BE CA AF · IT-N IT-S · PL-S PL-W SIL ·
+# TW HK CN-N CN-S · dialect (no one region); their names: `region-CODE` in <lang>/ui.txt
+N Abendbrot = DE-N -- general: Abendessen
+N Apfelsine = DE-N -- general: Orange
+N Beißkorb = AT -- Germany: Maulkorb
+N Bub = DE-S AT CH -- general: Junge
+N Buddel = DE-N -- general: Flasche
+V buddeln (hrabať sa) = DE-N -- general: graben
+N Eierkuchen = DE-N -- general: Pfannkuchen
+N Fasching = DE-S AT -- general: Karneval
+N Geldbeutel = DE-S -- general: Geldbörse, Portemonnaie
+N Geldtasche = AT -- Germany: Geldbörse, Portemonnaie
+PAR gell = DE-S AT -- general: nicht wahr
+V gucken (mrknúť sa) = DE-N -- south, AT, CH: schauen; general: sehen
+N Göre = DE-N -- general: freches Kind
+N Hörnli = CH -- general: Hörnchennudel
+N Jause = AT -- general: Zwischenmahlzeit, Imbiss
+N Jänner = AT -- Germany: Januar
+V kehren = DE-S AT CH -- north/general: fegen
+N Kutteln = DE-S AT CH -- northern: Kaldaunen
+N Landeshauptmann = AT -- Germany: Ministerpräsident
+N Lausbub = DE-S AT -- general: Lausejunge, Schlingel
+N Lauser = DE-S AT CH -- general: Schlingel
+AN leistbar = AT -- general: bezahlbar, erschwinglich
+N Marille = AT -- general: Aprikose
+N Metzger = DE-S CH -- north/east Germany: Fleischer; Austria: Fleischhauer
+N Metzgerei = DE-S CH -- north/east Germany: Fleischerei
+V nachschauen = DE-S AT CH -- general: nachsehen
+N Obmann = AT -- general: Vorsitzende
+V parkieren = CH -- general: parken
+N Rechen = DE-S AT CH -- northern Germany: Harke
+N Ross = DE-S AT CH -- general: Pferd (elsewhere only poetic)
+N Runse = DE-S AT CH -- general: Rinne
+V schellen = dialect -- general: klingeln
+N Schreiner = DE-S -- general: Tischler
+V schwätzen = DE-S -- general: schwatzen
+N Seiher = DE-S AT -- general: Sieb
+N Sonnabend = DE-N -- general: Samstag
+N Spital = AT CH -- general: Krankenhaus
+N Striezel = DE-S AT -- general: Hefezopf
+N Stulle = DE-N -- general: belegtes Brot
+N Vesper = DE-S -- general: Zwischenmahlzeit, Imbiss
+N Weichsel = AT -- general: Sauerkirsche
+N Weiher = DE-S -- general: Teich
+N Zubau = AT -- general: Anbau
+N Zwetschge = DE-S CH -- general: Pflaume
+V übersiedeln = AT -- Germany: umziehen

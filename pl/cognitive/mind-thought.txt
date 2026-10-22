@@ -218,6 +218,15 @@
 3 AV etycznie {etycznie} [ɛˈtɨtʂɲɛ] = eticky
 2 AN nielogiczny {nie|logiczny} [ɲɛlɔˈɡitʂnɨ] = nelogický
 3 AN niekompetentny {nie|kompetentny} [ɲɛkɔmpɛˈtɛntnɨ] = nekompetentný
+2 N sedno {sedno} [ˈsɛdnɔ], n, - = podstata
+2 AN wymarzony {wymarzony} [vɨmaˈʐɔnɨ] = vysnívaný
+3 N dedukcja {dedukcja} [dɛˈduktsja], ż, dedukcje = dedukcia
+2 V niedoceniać {nie|doceniać} [ɲɛdɔˈtsɛɲatɕ], niedocenić (B) = nedoceniť
+2 N mentalność {mentalność} [mɛnˈtalnɔɕtɕ], ż, mentalności = zmýšľanie
+2 N sposób myślenia {sposób myślenia} [ˈspɔsup mɨɕˈlɛɲa], m, sposoby myślenia = zmýšľanie
+3 N podświadomość {pod|świadomość} [pɔtɕfʲaˈdɔmɔɕtɕ], ż, - = podvedomie
+2 V spodziewać się {spodziewać się} [spɔˈdʑɛvatɕ ɕɛ], - (D) = očakávať
+3 AN baczny {baczny} [ˈbatʂnɨ] = pozorný
 
 # knowing
 1 V wiedzieć {wiedzieć} [ˈvʲɛdʑɛtɕ], - (o + Ms) = vedieť
@@ -390,6 +399,8 @@
 3 AV bezradnie {bezradnie} [bɛzˈradɲɛ] = bezradne
 3 AV spójnie {spójnie} [ˈspujɲɛ] = súvisle
 2 N niewiedza {nie|wiedza} [ɲɛˈvʲɛdza], ż, - = nevedomosť
+3 N zrozumiałość {zrozumiałość} [zrɔzuˈmʲawɔɕtɕ], ż, zrozumiałości = zrozumiteľnosť
+2 V rozróżniać {roz|różniać} [rɔzˈruʐɲatɕ], rozróżnić (B) = rozoznať
 
 # memory
 1 N pamięć {pamięć} [ˈpamʲɛɲtɕ], ż, pamięci = pamäť (schopnosť)
@@ -405,6 +416,9 @@
 3 V opamiętać się {opamiętać się} [ɔpaˈmʲɛntatɕ ɕɛ], dk = spamätať sa
 2 N refleksja {refleksja} [rɛˈflɛksja], ż, refleksje = rozjímanie
 3 N rozmyślanie {rozmyślanie} [rɔzmɨˈɕlaɲɛ], n, rozmyślania = rozjímanie
+3 N zapominalstwo {zapominalstwo} [zapɔmʲiˈnalstfɔ], n, - = zábudlivosť
+3 V wpajać {wpajać} [ˈfpajatɕ], wpoić (B, C) = vštepovať
+1 AV na pamięć {na pamięć} [na ˈpamʲɛɲtɕ] = naspamäť
 
 # intelligence
 2 N inteligencja {inteligencja} [intɛliˈɡɛntsja], ż, - = inteligencia
@@ -446,6 +460,7 @@
 3 AV przebiegle {przebiegle} [pʂɛˈbʲɛɡlɛ] = prefíkane
 3 AV bystro {bystro} [ˈbɨstrɔ] = bystro
 3 AV absurdalnie {absurdalnie} [apsurˈdalɲɛ] = absurdne
+2 N wariat {wariat} [ˈvarjat], m, wariaci = blázon
 
 # problems
 1 N problem {problem} [ˈprɔblɛm], m, problemy = problém
@@ -501,6 +516,12 @@
 3 AV tajemniczo {tajemniczo} [tajɛmˈɲitʂɔ] = tajomne
 3 AV nieuchronnie {nieuchronnie} [ɲɛuˈxrɔnːɲɛ] = neodvratne
 1 V mieć rację {mieć rację} [mʲɛtɕ ˈratsjɛ], - = mať pravdu
+2 V zwariować {zwariować} [zvaˈrjɔvatɕ], dk = zblázniť sa
+2 V majaczyć {majaczyć} [maˈjatʂɨtɕ], - = blúzniť
+2 N wpadka {wpadka} [ˈfpatka], ż, wpadki = malér
+3 N tarapaty {tarapaty} [taraˈpatɨ], lm, tarapaty = šlamastika
+3 V wpędzać {wpędzać} [ˈfpɛndzatɕ], wpędzić (w + B) = zapliesť do problémov
+2 AN rozwiązany {roz|wiązany} [rɔzvʲɔ̃ˈzanɨ] = vyriešený
 
 # more
 1 V uważać {uważać} [uˈvaʐatɕ], - (za + B) = považovať

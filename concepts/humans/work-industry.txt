@@ -174,6 +174,15 @@ V koučovať
 V povolať
 V žiť z
 V reklamovať
+N kožušník
+V flákať sa -- lenivo tráviť čas
+V uliať sa -- vyhnúť sa práci
+N sklár -- remeselník, ktorý vyrába sklo
+V zapracovať -- zaučiť alebo včleniť
+V najať -- vziať do služby
+V drieť -- ťažko pracovať
+N drina -- ťažká driná práca
+N vrátnik
 
 # making-doing
 V robiť
@@ -231,6 +240,8 @@ V ozeleniť
 V zohnať
 V pilovať
 V vypreparovať
+V opracovať -- obrábať kov alebo drevo na stroji
+V píliť
 
 # tools
 N kladivo
@@ -275,6 +286,17 @@ N šrot
 N suť
 N prút
 N tyč
+N kolík -- kolík zapichnutý do zeme
+N klin -- zašpicatený kus dreva alebo kovu
+N pilník -- nástroj na obrusovanie
+N tryska -- otvor, ktorým prúdi kvapalina alebo plyn
+N kováčsky mech -- fúka vzduch do výhne
+N ložisko -- súčiastka pre otáčanie hriadeľa
+N zátka -- uzáver otvoru
+N poklop -- kryt otvoru v zemi
+N pinzeta -- malé kliešte na uchopenie
+N pružina
+N pakľúč -- nástroj na otváranie zámkov bez kľúča
 
 # materials
 N materiál
@@ -302,6 +324,13 @@ N izolácia (stavebná)
 V zatepliť
 N plech
 N špagát
+N keramika
+N poleno -- hrubý kus dreva
+N piliny -- drobné čiastočky z pílenia dreva
+N trieska -- tenký kúsok dreva
+N hoblina -- pásik dreva z hobľovania
+N puzdro -- tvarovaný obal na predmet
+N riedidlo
 
 # industry-places
 N dielo
@@ -338,9 +367,15 @@ N inštalácia
 N inštalatér
 N logistika
 N obchodný model
+N šachta -- zvislá chodba v bani
+V ťažiť -- získavať suroviny zo zeme
 
 # work
 V vyčleniť
+N cech -- spolok remeselníkov
+V odkopať -- odhrabať zem
+V moriť -- natierať drevo morením
+V hobľovať -- hladiť drevo hoblíkom
 
 # more
 N prax

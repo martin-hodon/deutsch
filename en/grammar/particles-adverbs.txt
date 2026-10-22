@@ -57,6 +57,9 @@
 1 AV as well {as well} [əz ˈwel] = aj
 1 AV nearly {nearly} [ˈnɪəlɪ] = takmer
 2 AV less and less {less and less} [ˈles ən ˈles] = čoraz menej
+1 AV much {much} [mʌtʃ] = oveľa
+2 AV far {far} [fɑː] = oveľa
+3 PHR a bit too much {a·bit·too·much} [ə bɪt tuː ˈmʌtʃ] = trochu moc
 # time
 1 AV now {now} [naʊ] = teraz
 1 AV then {then} [ðen] = vtedy
@@ -104,6 +107,20 @@
 1 AV sorry {sorry} [ˈsɒrɪ] = ľúto
 2 AV unwillingly {un|willing|ly} [ʌnˈwɪlɪŋlɪ] = nerád
 2 AV reluctantly {reluctant|ly} [rɪˈlʌktəntlɪ] = nerád
+2 AV so to speak {so·to·speak} [səʊ tə ˈspiːk] = takpovediac
+2 AV roughly {rough|ly} [ˈrʌfli] = odhadom
+3 AV by my estimate {by·my·estimate} [baɪ maɪ ˈestɪmət] = odhadom
+2 INT yuck {yuck} [jʌk] = fuj
+3 INT ugh {ugh} [ʌɡ] = fuj
+3 INT bloody hell {bloody·hell} [ˌblʌdi ˈhel] = do riti
+3 INT fuck {fuck} [fʌk] = do riti
+2 INT well {well} [wel] = nuž
+2 INT hmm {hmm} [m̩m] = hmm
+2 INT oh {oh} [əʊ] = och
+2 INT ow {ow} [aʊ] = au
+2 INT ouch {ouch} [aʊtʃ] = au
+3 INT good grief {good·grief} [ɡʊd ˈɡriːf] = doparoma
+3 INT blimey {blimey} [ˈblaɪmi] = doparoma
 # place-direction
 1 AV here {here} [hɪə] = sem
 1 AV in {in} [ɪn] = dnu (k hovoriacemu)

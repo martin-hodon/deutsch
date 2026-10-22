@@ -67,6 +67,8 @@
 1 PRE w trakcie {w trakcie} [f ˈtraktɕɛ] (D) = v priebehu
 1 PRE podczas {podczas} [ˈpɔttʂas] (D) = v priebehu
 2 PRE włącznie z {włącznie z} [ˈvwɔntʂɲɛ z] (N) = vrátane
+2 PRE spośród {spośród} [ˈspɔɕrut] (D) = spomedzi
+3 PRE z zastrzeżeniem {z zastrzeżeniem} [z zastʂɛˈʐɛɲɛm] (D) = s výhradou
 
 # two-way
 1 PRE na {na} [na] (B, Ms) = na (v kontakte)

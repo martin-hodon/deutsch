@@ -65,6 +65,7 @@
 1 AV por fin {por fin} [poɾ fin] = napokon
 2 AV al cien por cien {al·cien·por·cien} [al θjen poɾ θjen] = stopercentne
 2 NUM ciento {ciento} [ˈθjento] = sto
+2 N la fracción {fracción} [fɾakˈθjon], fracciones = zlomok
 
 # amount
 1 AN mucho {mucho} [ˈmutʃo], mucha = veľa
@@ -174,6 +175,15 @@
 2 N el valor mínimo {valor mínimo} [baˈloɾ ˈminimo], valores mínimos = minimálna hodnota
 2 N el mínimo {mínimo} [ˈminimo], mínimos = minimálna hodnota
 2 V desatar {des|atar} [desaˈtaɾ] = rozviazať
+2 AV a medias {a medias} [a ˈmeðjas] = napoly
+3 AV hasta hartarse {hasta hartarse} [ˈasta aɾˈtaɾse] = dosýta
+3 N la acumulación {acumulación} [akumulaˈθjon], acumulaciones = hromadenie
+3 AN sobrante {sobrante} [soˈβɾante] = prebytočný
+3 V henchir {henchir} [enˈtʃiɾ], e>i = naplniť
+3 V colmar {colmar} [kolˈmaɾ] = naplniť
+3 V desenlazar {des|enlazar} [desenlaˈθaɾ] = rozviazať
+3 N el fardo {fardo} [ˈfaɾðo], fardos = balík
+3 N la penuria {penuria} [peˈnuɾja], penurias = nedostatok
 
 # counting-measuring
 1 N el número {número} [ˈnumeɾo], números = číslo (matematické)
@@ -232,6 +242,17 @@
 2 N el metro cúbico {metro cúbico} [ˈmetɾo ˈkuβiko], metros cúbicos = kubický meter
 2 AV al máximo {al·máximo} [al ˈmaksimo] = maximálne
 2 N el denominador {denominador} [denominaˈðoɾ], denominadores = menovateľ
+3 V equilibrar {equilibrar} [ekiliˈβɾaɾ] = vyvážiť
+3 N el número primo {número primo} [ˈnumeɾo ˈpɾimo], números primos = prvočíslo
+3 N la potencia {potencia} [poˈtenθja], potencias = mocnina
+3 N el sumando {sumando} [suˈmando], sumandos = sčítanec
+2 V restar {restar} [resˈtaɾ] = odčítať
+3 N el minuendo {minuendo} [minuˈendo], minuendos = menšenec
+3 N el sustraendo {sustraendo} [sustɾaˈendo], sustraendos = menšiteľ
+3 N el dividendo {dividendo} [diβiˈðendo], dividendos = delenec
+3 N el divisor {divisor} [diβiˈsoɾ], divisores = deliteľ
 
 # more
 3 N el billón {billón} [biˈʎon], billones = bilión
+3 N el subconjunto {sub|conjunto} [suβkoŋˈxunto], subconjuntos = podmnožina
+3 N el superconjunto {super|conjunto} [supeɾkoŋˈxunto], superconjuntos = nadmnožina

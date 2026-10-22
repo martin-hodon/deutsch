@@ -169,6 +169,29 @@
 3 AV 虔诚地 {虔诚地} [qiánchéngde] = nábožne
 1 N 歌声 {歌声} [gēshēng], - = spev
 3 N 必死性 {必死性} [bìsǐxìng], - = smrteľnosť
+3 V 诅咒 {诅咒} [zǔzhòu] = zatratiť
+3 N 诅咒 {诅咒} [zǔzhòu], 个 = zatratenie
+3 N 教区 {教区} [jiàoqū], 个 = farnosť
+3 N 崇拜 {崇拜} [chóngbài], - = uctievanie
+3 N 虔诚 {虔诚} [qiánchéng], - = nábožnosť
+3 N 炼狱 {炼狱} [liànyù], 个 = očistec
+3 N 异端分子 {异端分子} [yìduānfènzǐ], 个 = kacír
+3 N 忏悔 {忏悔} [chànhuǐ], - = pokánie
+3 V 忏悔 {忏悔} [chànhuǐ] = spovedať sa
+3 V 告解 {告解} [gàojiě] = spovedať sa
+3 N 使徒 {使徒} [shǐtú], 个 = apoštol
+3 N 天意 {天意} [tiānyì], - = prozreteľnosť
+2 N 死神 {死神} [sǐshén], 个 = smrtka
+2 V 复活 {复活} [fùhuó] = vstať z mŕtvych
+3 N 苍天 {苍天} [cāngtiān], - = nebesá
+2 N 印度教 {印度教} [yìndùjiào], - = hinduizmus
+3 N 斋戒 {斋戒} [zhāijiè], - = pôst
+3 N 朝圣 {朝圣} [cháoshèng], 次 = púť
+3 N 圣餐 {圣餐} [shèngcān], - = sväté prijímanie
+3 N 赦免 {赦免} [shèmiǎn], - = rozhrešenie
+3 N 庙宇 {庙宇} [miàoyǔ], 座 = chrám
+3 V 庇佑 {庇佑} [bìyòu] = žehnať
+2 V 保佑 {保佑} [bǎoyòu] = žehnať
 
 # magic-fate
 2 N 魔法 {魔法} [mófǎ], - = mágia
@@ -243,6 +266,26 @@
 3 V 召唤 {召唤} [zhàohuàn] = zaklínať
 2 N 命 {命} [mìng], - = osud
 2 N 遭遇 {遭遇} [zāoyù], 种 = osud
+3 V 占卜 {占卜} [zhānbǔ] = veštiť
+3 V 预言 {预言} [yùyán] = veštiť
+2 N 狼人 {狼人} [lángrén], 个 = vlkolak
+3 N 咒语 {咒语} [zhòuyǔ], 个 = zakliatie
+3 N 巫师 {巫师} [wūshī], 个 = zaklínač
+3 AN 传奇 {传奇} [chuánqí] = bájny
+3 AN 超自然 {超自然} [chāozìrán] = nadprirodzený
+3 N 灵药 {灵药} [língyào], 种 = elixír
+3 N 黄道十二宫 {黄道十二宫} [huángdàoshí'èrgōng], - = zverokruh
+3 N 水瓶座 {水瓶座} [shuǐpíngzuò], 个 = vodnár
+3 N 双子座 {双子座} [shuāngzǐzuò], 个 = blíženci
+3 N 处女座 {处女座} [chǔnǚzuò], 个 = panna
+3 V 施魔法 {施|魔法} [shīmófǎ] = začarovať
+2 AN 该死 {该死} [gāisǐ] = prekliaty
+3 N 宁芙 {宁芙} [níngfú], 个 = nymfa
+3 N 九头蛇 {九头蛇} [jiǔtóushé], 条 = hydra
+3 N 半人马 {半人马} [bànrénmǎ], 个 = kentaur
+3 N 奇美拉 {奇美拉} [qíměilā], 个 = chiméra
+3 N 预兆 {预兆} [yùzhào], 个 = predzvesť
+3 N 征兆 {征兆} [zhēngzhào], 个 = predzvesť
 
 # customs-celebrations
 2 N 风俗 {风俗} [fēngsú], 种 = zvyk
@@ -337,3 +380,6 @@
 2 N 墓 {墓} [mù], 座 = hrob
 1 N 周年 {周年} [zhōunián], 个 = výročie
 2 N 节假日 {节假日} [jiéjiàrì], 个 = sviatok
+
+# customs
+3 N 花环 {花环} [huāhuán], 个 = veniec

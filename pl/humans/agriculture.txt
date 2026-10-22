@@ -67,6 +67,24 @@
 3 N szpadel {szpadel} [ˈʂpadɛl], m, szpadle = rýľ
 2 V uprawiać {uprawiać} [uˈpravʲatɕ], - (B) = kultivovať
 3 V kultywować {kultywować} [kultɨˈvɔvatɕ], - (B) = kultivovať
+2 V przesadzać {przesadzać} [pʂɛˈsadzatɕ], przesadzić (B) = presadiť (rastlinu)
+3 V pielić {pielić} [ˈpʲɛlitɕ], wypielić (B) = plieť
+3 N ugór {ugór} [ˈuɡur], m, ugory = prieloh
+3 V bronować {bronować} [brɔˈnɔvatɕ], zbronować (B) = kypriť
+3 N przesieka {przesieka} [pʂɛˈɕɛka], ż, przesieki = priesek
+2 N wycinka {wycinka} [vɨˈtɕiŋka], ż, wycinki = výrub
+3 N wyrąb {wyrąb} [ˈvɨrɔmp], m, wyręby = výrub
+2 V wycinać {wycinać} [vɨˈtɕinatɕ], wyciąć (B) = vyrúbať
+3 V wyrąbywać {wyrąbywać} [vɨrɔmˈbɨvatɕ], wyrąbać (B) = vyrúbať
+3 V obrywać {obrywać} [ɔˈbrɨvatɕ], obrać (B) = oberať
+2 V zrywać {zrywać} [ˈzrɨvatɕ], zerwać (B) = oberať
+2 N żniwa {żniwa} [ˈʐɲiva], lm, żniwa = žatva
+3 N siew {siew} [ɕɛf], m, siewy = osev
+3 N wiklina {wiklina} [vʲiˈklina], ż, - = prútie
+3 N witki {witki} [ˈvʲitki], lm, witki = prútie
+3 N orka {orka} [ˈɔrka], ż, orki = orba
+3 V przekopywać {przekopywać} [pʂɛkɔˈpɨvatɕ], przekopać (B) = rýľovať
+2 V kopać {kopać} [ˈkɔpatɕ], - (B) = rýľovať
 
 # crops
 1 N zboże {zboże} [ˈzbɔʐɛ], n, zboża = obilie
@@ -85,6 +103,8 @@
 2 N słoma {słoma} [ˈswɔma], ż, - = slama
 2 N sadzonka {sadzonka} [saˈdzɔŋka], ż, sadzonki = sadenica
 3 N bela {bela} [ˈbɛla], ż, bele = bala
+3 N proso {proso} [ˈprɔsɔ], n, - = proso
+3 N słód {słód} [swut], m, słody = slad
 
 # livestock-keeping
 2 N zwierzęta gospodarskie {zwierzęta gospodarskie} [zvʲɛˈʐɛnta ɡɔspɔˈdarskɛ], lm, zwierzęta gospodarskie = dobytok
@@ -126,6 +146,24 @@
 2 N buda {buda} [ˈbuda], ż, budy = búda
 2 N psia buda {psia buda} [ˈpɕa ˈbuda], ż, psie budy = búda
 2 N jeździec {jeździec} [ˈjɛʑdʑɛts], m, jeźdźcy = jazdec
+3 N jarzmo {jarzmo} [ˈjaʐmɔ], n, jarzma = jarmo
+3 N locha {locha} [ˈlɔxa], ż, lochy = prasnica
+3 N knur {knur} [knur], m, knury = kanec
+3 N koźlę {koźlę} [ˈkɔʑlɛ], n, koźlęta = kozľa
+3 N karosz {karosz} [ˈkarɔʂ], m, karosze = vraník
+3 N uzda {uzda} [ˈuzda], ż, uzdy = uzda
+3 N lejce {lejce} [ˈlɛjtsɛ], lm, lejce = opraty
+3 N strzemię {strzemię} [ˈstʂɛmʲɛ], n, strzemiona = strmeň
+3 N ostroga {ostroga} [ɔˈstrɔɡa], ż, ostrogi = ostroha
+2 N bicz {bicz} [bitʂ], m, bicze = bič
+2 N bat {bat} [bat], m, baty = bič
+3 V chłostać {chłostać} [ˈxwɔstatɕ], wychłostać (B) = bičovať
+3 V biczować {biczować} [bʲiˈtʂɔvatɕ], wybiczować (B) = bičovať
+3 N kaganiec {kaganiec} [kaˈɡaɲɛts], m, kagańce = náhubok
+2 N obroża {obroża} [ɔˈbrɔʐa], ż, obroże = obojok
+3 V zaprzęgać {zaprzęgać} [zaˈpʂɛŋɡatɕ], zaprząc (B) = zapriahnuť
+2 N dzwonek {dzwonek} [ˈdzvɔnɛk], m, dzwonki = zvonec
+3 N smagnięcie {smagnięcie} [smaˈɡɲɛɲtɕɛ], n, smagnięcia = šľahnutie
 
 # garden-hunt-fish
 1 N ogród {ogród} [ˈɔɡrut], m, ogrody = záhrada
@@ -157,3 +195,7 @@
 2 N wąż ogrodowy {wąż ogrodowy} [vɔ̃ʂ ɔɡrɔˈdɔvɨ], m, węże ogrodowe = záhradná hadica
 2 N chlew {chlew} [xlɛf], m, chlewy = chlev
 2 N obora {obora} [ɔˈbɔra], ż, obory = chlev
+2 N drwal {drwal} [drval], m, drwale = drevorubač
+3 V patroszyć {patroszyć} [paˈtrɔʂɨtɕ], wypatroszyć (B) = vypitvať
+2 N haczyk {haczyk} [ˈxatʂɨk], m, haczyki = háčik
+3 N kołowrotek {kołowrotek} [kɔwɔˈvrɔtɛk], m, kołowrotki = navijak

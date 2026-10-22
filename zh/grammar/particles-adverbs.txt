@@ -41,6 +41,11 @@
 2 PAR 究竟 {究竟} [jiūjìng] = vlastne
 2 PAR 倒是 {倒是} [dàoshi] = vlastne
 2 PAR 罢了 {罢了} [bàle] = len
+1 PAR 才 {才} [cái] = len
+3 PAR 嘛 {嘛} [ma] = no
+1 PAR 让 {让} [ràng] = nech
+1 PAR 对吧 {对吧} [duì ba] = všakže
+1 PAR 是吧 {是吧} [shì ba] = všakže
 
 # negation
 1 AV 不 {不} [bù] = nie
@@ -132,6 +137,11 @@
 2 AV 好似 {好似} [hǎosì] = akoby
 2 AV 恰好 {恰好} [qiàhǎo] = práve
 1 AV 越来越少 {越来越少} [yuèláiyuè shǎo] = čoraz menej
+2 AV 远远 {远远} [yuǎnyuǎn] = oveľa
+1 AV 得多 {得多} [de duō] = oveľa
+2 PHR 未免 {未免} [wèimiǎn] = trochu moc
+3 AV 颇为 {颇为} [pōwéi] = pomerne
+3 AV 好不 {好不} [hǎobù] = veľmi
 
 # time
 1 AV 现在 {现在} [xiànzài] = teraz
@@ -191,6 +201,7 @@
 2 AV 依旧 {依旧} [yījiù] = naďalej
 2 AV 待会儿 {待会儿} [dāihuìr] = onedlho
 2 AV 时时 {时时} [shíshí] = stále
+2 AV 老 {老} [lǎo] = stále
 
 # attitude-and-manner
 1 AV 也许 {也许} [yěxǔ] = možno
@@ -243,6 +254,24 @@
 2 AV 必将 {必将} [bìjiāng] = nevyhnutne
 1 AV 不愿意 {不愿意} [bù yuànyì] = nerád
 2 AV 勉强 {勉强} [miǎnqiǎng] = nerád
+2 AV 可以说 {可以说} [kěyǐshuō] = takpovediac
+3 AV 可谓 {可谓} [kěwèi] = takpovediac
+2 AV 据估计 {据估计} [jù gūjì] = odhadom
+1 AV 大约 {大约} [dàyuē] = odhadom
+3 INT 呸 {呸} [pēi] = fuj
+3 INT 咦 {咦} [yí] = fuj
+2 INT 他妈的 {他妈的} [tāmāde] = do riti
+2 INT 唉 {唉} [āi] = nuž
+3 INT 这个嘛 {这个嘛} [zhège ma] = nuž
+1 INT 嗯 {嗯} [èn] = hmm
+3 INT 嗯哼 {嗯哼} [ènhēng] = hmm
+2 INT 噢 {噢} [ō] = och
+2 INT 哎唷 {哎唷} [āiyōu] = au
+2 INT 哎哟 {哎哟} [āiyōu] = au
+3 INT 见鬼 {见|鬼} [jiànguǐ] = doparoma
+2 INT 天哪 {天哪} [tiānna] = doparoma
+2 AV 毫不 {毫不} [háobù] = vôbec nie
+2 AV 并不 {并不} [bìngbù] = vôbec nie
 
 # place-direction
 1 AV 这里 {这里} [zhèlǐ] = sem
@@ -265,6 +294,7 @@
 1 AV 前边 {前边} [qiánbian] = vpredu
 1 AV 往前 {往前} [wǎngqián] = vpred
 2 AV 向前 {向前} [xiàngqián] = vpred
+1 AV 前 {前} [qián] = vpred
 2 AV 在我国 {在我国} [zài wǒguó] = u nás
 2 AV 我们这里 {我们这里} [wǒmen zhèlǐ] = u nás
 2 AV 根据什么 {根据什么} [gēnjù shénme] = podľa čoho
@@ -432,6 +462,7 @@
 2 PAR 样 {样} [yàng] = počítacie slovo (样)
 3 INT 唉 {唉} [ài] = ach (vzdych)
 3 INT 嘿 {嘿} [hēi] = hej (upútanie pozornosti)
+1 INT 喂 {喂} [wèi] = hej (upútanie pozornosti)
 3 PAR 缕 {缕} [lǚ] = počítacie slovo (缕)
 3 PAR 盏 {盏} [zhǎn] = počítacie slovo (盏)
 3 PAR 桩 {桩} [zhuāng] = počítacie slovo (桩)
@@ -508,3 +539,6 @@
 1 PHR 早上好 {早上好} [zǎoshang hǎo] = dobré ráno
 2 PHR 早安 {早安} [zǎo'ān] = dobré ráno
 1 PHR 早 {早} [zǎo] = dobré ráno
+1 PAR 了 {了} [le] = častica dokončeného deja (了)
+3 PAR 弗 {弗} [fú] = záporová častica (弗)
+2 INT 呵呵 {呵呵} [hēhē] = haha

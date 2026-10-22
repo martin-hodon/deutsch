@@ -86,6 +86,10 @@
 2 PRE entro {entro} [ˈɛntro] = v priebehu
 2 PRE incluso {incluso} [inˈkluːzo] = vrátane
 2 PRE compreso {compreso} [komˈpreːzo] = vrátane
+2 PRE tra {tra} [tra] = spomedzi
+2 PRE fra {fra} [fra] = spomedzi
+2 PRE salvo {salvo} [ˈsalvo] = s výhradou
+3 PRE con riserva di {con riserva di} [kon riˈzɛrva di] = s výhradou
 
 # two-way
 1 PRE a {a} [a] = na (v kontakte)

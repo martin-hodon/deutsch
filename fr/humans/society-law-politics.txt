@@ -120,6 +120,11 @@
 2 AV honnêtement {honnête|ment} [ɔnɛtˈmɑ̃] = čestne
 2 N la voix pour {voix pour} [vwa puʁ], voix pour = hlas za
 2 V immigrer {im|migrer} [imiˈɡʁe] = imigrovať
+3 N la dame d'honneur {dame d'honneur} [dam dɔˈnœʁ], dames d'honneur = dvorná dáma
+3 N le serf {serf} [sɛʁf], serfs = nevoľník
+3 N la camériste {camériste} [kameˈʁist], caméristes = komorná
+3 N la domesticité {domestic|ité} [dɔmɛstisiˈte], - = služobníctvo
+3 V inaugurer {inaugurer} [inoɡyˈʁe] = inaugurovať
 
 # state-politics
 1 N l'État (m) {État} [eˈta], États = štát
@@ -500,6 +505,17 @@
 2 AN non violent {non violent} [nɔ̃ vjɔˈlɑ̃], non violente = nenásilný
 2 N le sujet {sujet} [syˈʒɛ], sujets = poddaný
 3 V démobiliser {dé|mobiliser} [demobiliˈze] = demobilizovať
+3 N l'altesse (f) {altesse} [alˈtɛs], altesses = výsosť
+2 N la dynastie {dynastie} [dinasˈti], dynasties = dynastia
+2 N le prince {prince} [pʁɛ̃s], princes = knieža
+2 N le comte {comte} [kɔ̃t], comtes = gróf
+3 N le sceptre {sceptre} [sɛptʁ], sceptres = žezlo
+3 N le blason {blason} [blaˈzɔ̃], blasons = erb
+2 N l'État-providence (m) {État-providence} [etatpʁɔviˈdɑ̃s], États-providence = sociálny štát
+2 N l'abdication (f) {abdication} [abdikaˈsjɔ̃], abdications = abdikácia
+3 N la confédération {confédération} [kɔ̃fedeʁaˈsjɔ̃], confédérations = konfederácia
+3 N l'envoyé (m) {envoyé} [ɑ̃vwaˈje], envoyés = vyslanec
+2 N le suffrage {suffrage} [syˈfʁaʒ], suffrages = hlasovanie
 
 # law-justice
 1 N la loi {loi} [lwa], lois = zákon
@@ -799,10 +815,57 @@
 3 AV confidentiellement {confidentielle|ment} [kɔ̃fidɑ̃sjɛlˈmɑ̃] = dôverne
 2 N la défense {défense} [deˈfɑ̃s], défenses = obhajoba
 2 V approuver {approuver} [apʁuˈve] = schváliť
+3 AN conspirateur {conspir|ateur} [kɔ̃spiʁaˈtœʁ], conspiratrice = sprisahanecký
+3 V bâillonner {bâillonner} [bɑjɔˈne] = zakneblovať
+2 N les menottes (f) {menottes} [məˈnɔt], PL = putá
+2 N le bourreau {bourreau} [buˈʁo], bourreaux = kat
+3 N le cachot {cachot} [kaˈʃo], cachots = žalár
+3 N le pilori {pilori} [pilɔˈʁi], piloris = pranier
+3 N le gibet {gibet} [ʒiˈbɛ], gibets = šibenica
+3 N le bûcher {bûcher} [byˈʃe], bûchers = hranica na upálenie
+2 N le code {code} [kɔd], codes = zákonník
+3 V enfreindre {en|freindre} [ɑ̃ˈfʁɛ̃dʁ], irr, enfreint (qch) = previniť sa
+3 N le bagne {bagne} [baɲ], bagnes = káznica
+2 N le juriste {juriste} [ʒyˈʁist], juristes = právnik
+2 N le condamné {condamné} [kɔ̃daˈne], condamnés = odsúdenec
+2 V témoigner {témoigner} [temwaˈɲe] (de) = svedčiť
+2 N l'autorisation (f) {autorisation} [otɔʁizaˈsjɔ̃], autorisations = oprávnenie
+3 V léser {léser} [leˈze] (qn) = krivdiť
+3 N le pickpocket {pickpocket} [pikpɔˈkɛt], pickpockets = vreckár
+2 N l'affaire (f) {affaire} [aˈfɛʁ], affaires = kauza
+2 N la peine de mort {peine de mort} [pɛn də mɔʁ], peines de mort = trest smrti
+2 N la cellule {cellule} [sɛˈlyl], cellules = väzenská cela
+2 N le procès {procès} [pʁɔˈsɛ], procès = súdny spor
+3 N l'échafaud (m) {échafaud} [eʃaˈfo], échafauds = popravisko
+3 N le receleur {recel|eur} [ʁəsəˈlœʁ], receleurs = priekupník
+2 V surprendre {sur|prendre} [syʁˈpʁɑ̃dʁ], irr, surpris = pristihnúť
+3 N le poursuivant {poursuivant} [puʁsɥiˈvɑ̃], poursuivants = prenasledovateľ
+3 V dépouiller {dé|pouiller} [depuˈje] (qn, de qch) = zbaviť práv
+3 N la brute {brute} [bʁyt], brutes = násilník
+3 N l'incendiaire (m) {incendiaire} [ɛ̃sɑ̃ˈdjɛʁ], incendiaires = podpaľač
+2 V exploiter {exploiter} [ɛksplwaˈte] (qn) = vykorisťovať
+2 N l'exploitation (f) {exploitation} [ɛksplwataˈsjɔ̃], exploitations = vykorisťovanie
+2 N le pirate {pirate} [piˈʁat], pirates = pirát
+3 N le faussaire {faussaire} [fɔˈsɛʁ], faussaires = falšovateľ
+3 N le racket {racket} [ʁaˈkɛt], rackets = výpalné
+3 N l'usure (f) {usure} [yˈzyʁ], - = úžera
+3 V détourner {dé|tourner} [detuʁˈne] (qch) = spreneveriť
+3 N le détournement {dé|tourne|ment} [detuʁnəˈmɑ̃], détournements = sprenevera
+2 N la contrebande {contre|bande} [kɔ̃tʁəˈbɑ̃d], - = pašovanie
+3 N le contrebandier {contre|band|ier} [kɔ̃tʁəbɑ̃ˈdje], contrebandiers = pašerák
+2 N le viol {viol} [vjɔl], viols = znásilnenie
+2 V torturer {torturer} [tɔʁtyˈʁe] = mučiť
+3 N le braconnier {braconn|ier} [bʁakɔˈnje], braconniers = pytliak
+3 N le parjure {parjure} [paʁˈʒyʁ], parjures = krivá prísaha
+2 V pendre {pendre} [pɑ̃dʁ], irr, pendu (qn) = obesiť
+2 N la suspicion {suspicion} [syspiˈsjɔ̃], suspicions = podozrenie
 
 # politics
 3 V radicaliser {radicaliser} [ʁadikaliˈze] = radikalizovať
 3 V ratifier {ratifier} [ʁatiˈfje] = ratifikovať
+3 N le négociateur {négoci|ateur} [negɔsjaˈtœʁ], négociateurs = vyjednávač
+2 N l'idéologie (f) {idéologie} [ideɔlɔˈʒi], idéologies = ideológia
+3 N le siège {siège} [sjɛʒ], sièges = poslanecké kreslo
 
 # more
 2 AN électoral {électoral} [elɛktɔˈʁal], électorale, électoraux/électorales = volebný

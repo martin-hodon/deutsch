@@ -56,6 +56,12 @@
 3 AN episch {episch} [ˈeːpɪʃ] = epický
 3 V kuratieren {kuratieren} [kuʁaˈtiːʁən], hat (A) = kurátorovať
 3 N die Hässlichkeit {Hässlichkeit} [ˈhɛslɪçkaɪt], - = škaredosť
+3 V kritzeln {kritzeln} [ˈkʁɪtsəln], hat (A) = čmárať
+3 N die Schmiererei {Schmiererei} [ʃmiːʁəˈʁaɪ], Schmierereien = čmáranica
+3 N das Gekritzel {Ge|kritzel} [ɡəˈkʁɪtsəl], - = čmáranica
+3 N die Zierde {Zierde} [ˈtsiːɐdə], Zierden = ozdoba
+3 N der Zierrat {Zier|rat} [ˈtsiːɐʁaːt], Zierrate = ozdoba
+2 N der Filzstift {Filz|stift} [ˈfɪltsʃtɪft], Filzstifte = fixka
 
 # music
 1 N die Musik {Musik} [muˈziːk], - = hudba
@@ -118,6 +124,9 @@
 3 N das Trio {Trio} [ˈtʁiːo], Trios = trio
 2 N der Song {Song} [sɔŋ], Songs = pieseň
 3 N der Rapper {Rapper} [ˈʁɛpɐ], Rapper = raper
+3 AN melodisch {melodisch} [meˈloːdɪʃ] = melodický
+3 V flöten {flöten} [ˈfløːtən], hat = pískať
+3 N die Gattung {Gattung} [ˈɡatʊŋ], Gattungen = žáner
 
 # performance-literature
 1 N das Theater {Theater} [teˈaːtɐ], Theater = divadlo
@@ -212,6 +221,15 @@
 3 V synchronisieren {synchronisieren} [zʏnkʁoniˈziːʁən], hat (A) = synchronizovať, dabovať
 3 AN autobiografisch {auto|bio|grafisch} [aʊtobioˈɡʁaːfɪʃ] = autobiografický
 3 N die Dernière {Dernière} [dɛʁˈnjɛːɐ], Dernièren = derniéra
+3 N der Zuschauerraum {Zuschauer|raum} [ˈtsuːʃaʊɐʁaʊm], Zuschauerräume = divácka sála
+2 N die Fabel {Fabel} [ˈfaːbəl], Fabeln = bájka
+2 N der Narr {Narr} [naʁ], Narren = šašo
+3 N der Hofnarr {Hof|narr} [ˈhoːfnaʁ], Hofnarren = šašo
+3 N der Schlumpf {Schlumpf} [ʃlʊmpf], Schlümpfe = šmolko
+3 N das Podium {Podium} [ˈpoːdiʊm], Podien = pódium
+3 N die Fiktion {Fiktion} [fɪkˈtsjoːn], Fiktionen = fikcia
+3 N der Trickfilm {Trick|film} [ˈtʁɪkfɪlm], Trickfilme = kreslený film
+2 N der Beifall {Bei|fall} [ˈbaɪfal], - = potlesk
 
 # games-sport
 1 N das Spiel {Spiel} [ʃpiːl], Spiele = hra, zápas
@@ -407,6 +425,32 @@
 3 V surfen {surfen} [ˈzœʁfən], hat = surfovať
 2 N der Amateur {Amateur} [amaˈtøːɐ], Amateure = amatér
 1 V verlieren {verlieren} [fɛɐˈliːʁən], verliert/verlor/verloren [fɛɐˈliːɐt/fɛɐˈloːɐ/fɛɐˈloːʁən], hat (A) = prehrať (zápas)
+3 N der Radsport {Rad|sport} [ˈʁaːtʃpɔʁt], - = cyklistika
+3 N das Darts {Darts} [daːɐts], - = šípky (hra)
+2 N die Schaukel {Schaukel} [ˈʃaʊkəl], Schaukeln = hojdačka
+3 N der Spielautomat {Spiel|automat} [ˈʃpiːlaʊtoˌmaːt], Spielautomaten = herný automat
+3 N das Bergsteigen {Berg|steigen} [ˈbɛʁkʃtaɪɡən], - = horolezectvo
+3 N das Gewichtheben {Gewicht|heben} [ɡəˈvɪçtheːbən], - = vzpieranie
+2 V Sport treiben {Sport treiben} [ʃpɔʁt ˈtʁaɪbən], treibt/trieb/getrieben [tʁaɪpt/tʁiːp/ɡəˈtʁiːbən], hat = športovať
+2 N der Schläger {Schläger} [ˈʃlɛːɡɐ], Schläger = pálka
+3 N das Sprungseil {Sprung|seil} [ˈʃpʁʊŋzaɪl], Sprungseile = švihadlo
+3 N das Springseil {Spring|seil} [ˈʃpʁɪŋzaɪl], Springseile = švihadlo
+3 N die Hantel {Hantel} [ˈhantəl], Hanteln = činka
+3 N die Matte {Matte} [ˈmatə], Matten = žinenka
+3 N die Rassel {Rassel} [ˈʁasəl], Rasseln = hrkálka
+2 N das Ass {Ass} [as], Asse = eso
+3 N der Bube {Bube} [ˈbuːbə], Buben = dolník
+3 N das Schachbrett {Schach|brett} [ˈʃaxbʁɛt], Schachbretter = šachovnica
+3 N der Springer {Springer} [ˈʃpʁɪŋɐ], Springer = šachový jazdec
+3 N die Stelze {Stelze} [ˈʃtɛltsə], Stelzen = chodúľ
+3 N der Bauer {Bauer} [ˈbaʊɐ], Bauern = pešiak
+3 N der Läufer {Läufer} [ˈlɔʏfɐ], Läufer = šachový strelec
+3 N der Puck {Puck} [pʊk], Pucks = hokejový puk
+3 N die Muße {Muße} [ˈmuːsə], - = voľný čas
+3 N das Amüsement {Amüsement} [amyzəˈmãː], Amüsements = zábava
+2 N die Säule {Säule} [ˈzɔʏlə], Säulen = stĺp
+3 N der Könner {Könner} [ˈkœnɐ], Könner = majster
+3 V protzen {protzen} [ˈpʁɔtsən], hat (mit D) = vystatovať sa
 
 # corpus-verbs
 3 V ausspielen {aus·spielen} [ˈaʊsʃpiːlən], hat (A gegen A) = poštvať proti sebe, vyložiť, vyhrať jedného proti druhému
@@ -416,6 +460,7 @@
 # arts
 3 V brillieren {brillieren} [bʁɪˈli̯iːʁən], hat (mit D) = vynikať, žiariť
 3 V einblenden {ein·blenden} [ˈaɪnblɛndən], hat (A) = vsunúť, zobraziť
+3 V einschieben {ein·schieben} [ˈaɪnʃiːbən], schiebt ein/schob ein/eingeschoben [ʃiːpt aɪn/ʃoːp aɪn/ˈaɪnɡəʃoːbən], hat (A) = vsunúť
 
 # more
 3 N der Clip {Clip} [klɪp], Clips = klip

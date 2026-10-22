@@ -66,6 +66,10 @@ N priepasť (v teréne)
 N kraj
 N národný park
 N prírodná rezervácia
+N pustatina
+N čistina
+N pevninská šija -- úzky pás zeme medzi dvoma morami
+N priesmyk
 
 # surface-materials
 N skala
@@ -90,6 +94,17 @@ N íl
 N tón
 N štrk
 N láva
+N sľuda
+N smaragd
+N škvara
+AN kamenný
+N drahokam
+N jantár
+N rašelina
+N bahnisko
+N vápenec
+N alabaster
+N pieskovec
 
 # geo-events
 N vypuknutie
@@ -110,3 +125,6 @@ AN otvorený svetu
 # earth
 V triasť sa
 N podlaha
+N poludník
+N obratník
+N polárna kružnica

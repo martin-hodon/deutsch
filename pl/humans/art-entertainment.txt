@@ -66,6 +66,11 @@
 3 AV zręcznie {zręcznie} [ˈzrɛntʂɲɛ] = umne
 3 AV stylowo {stylowo} [stɨˈlɔvɔ] = štýlovo
 2 N brzydota {brzydota} [bʐɨˈdɔta], ż, - = škaredosť
+3 V bazgrać {bazgrać} [ˈbazɡratɕ], nabazgrać (B) = čmárať
+3 N bazgroły {bazgroły} [bazˈɡrɔwɨ], lm, bazgroły = čmáranica
+3 N gryzmoły {gryzmoły} [ɡrɨzˈmɔwɨ], lm, gryzmoły = čmáranica
+2 N ozdoba {ozdoba} [ɔzˈdɔba], ż, ozdoby = ozdoba
+3 N posążek {posążek} [pɔˈsɔ̃ʐɛk], m, posążki = socha
 
 # music
 1 N muzyka {muzyka} [muˈzɨka], ż, - = hudba
@@ -135,6 +140,7 @@
 3 N raper {raper} [ˈrapɛr], m, raperzy = raper
 3 AV rytmicznie {rytmicznie} [rɨtˈmʲitʂɲɛ] = rytmicky
 3 AV harmonijnie {harmonijnie} [xarmɔˈɲijɲɛ] = harmonicky
+2 AN melodyjny {melodyjny} [mɛlɔˈdɨjnɨ] = melodický
 
 # performance-literature
 1 N teatr {teatr} [ˈtɛatr], m, teatry = divadlo
@@ -240,6 +246,13 @@
 3 AN autobiograficzny {autobiograficzny} [autɔbʲɔɡraˈfʲitʂnɨ] = autobiografický
 3 AV dramatycznie {dramatycznie} [dramaˈtɨtʂɲɛ] = dramaticky
 3 N ostatnie przedstawienie {ostatnie przedstawienie} [ɔˈstatɲɛ pʂɛtstaˈvʲɛɲɛ], n, ostatnie przedstawienia = derniéra
+2 N widownia {widownia} [vʲiˈdɔvɲa], ż, widownie = divácka sála
+2 N bajka {bajka} [ˈbajka], ż, bajki = bájka
+2 N błazen {błazen} [ˈbwazɛn], m, błaznowie = šašo
+3 N smerf {smerf} [smɛrf], m, smerfy = šmolko
+3 N podium {podium} [ˈpɔdjum], n, podia = pódium
+3 N podest {podest} [ˈpɔdɛst], m, podesty = pódium
+2 N fikcja {fikcja} [ˈfiktsja], ż, fikcje = fikcia
 
 # games-sport
 1 N gra {gra} [ɡra], ż, gry = hra
@@ -452,6 +465,31 @@
 2 V surfować {surfować} [surˈfɔvatɕ], - = surfovať
 2 N amator {amator} [aˈmatɔr], m, amatorzy = amatér
 1 V przegrywać {prze|grywać} [pʂɛˈɡrɨvatɕ], przegrać = prehrať (zápas)
+2 N kolarstwo {kolarstwo} [kɔˈlarstfɔ], n, - = cyklistika
+3 N rzutki {rzutki} [ˈʐutki], lm, rzutki = šípky (hra)
+2 N huśtawka {huśtawka} [xuɕˈtafka], ż, huśtawki = hojdačka
+3 N automat do gier {automat do gier} [auˈtɔmat dɔ ɡɛr], m, automaty do gier = herný automat
+3 N alpinizm {alpinizm} [alˈpʲinizm], m, - = horolezectvo
+2 N wspinaczka {wspinaczka} [fspiˈnatʂka], ż, - = horolezectvo
+2 N podnoszenie ciężarów {podnoszenie ciężarów} [pɔdnɔˈʂɛɲɛ tɕɛ̃ˈʐaruf], n, - = vzpieranie
+1 V uprawiać sport {uprawiać sport} [upraˈvʲatɕ spɔrt], - = športovať
+2 N pałka {pałka} [ˈpawka], ż, pałki = pálka
+2 N kij {kij} [kij], m, kije = pálka
+2 N skakanka {skakanka} [skaˈkaŋka], ż, skakanki = švihadlo
+2 N sztanga {sztanga} [ˈʂtaŋɡa], ż, sztangi = činka
+2 N hantle {hantle} [ˈxantlɛ], lm, hantle = činka
+2 N mata {mata} [ˈmata], ż, maty = žinenka
+2 N grzechotka {grzechotka} [ɡʐɛˈxɔtka], ż, grzechotki = hrkálka
+2 N as {as} [as], m, asy = eso
+3 N walet {walet} [ˈvalɛt], m, walety = dolník
+2 N szachownica {szachownica} [ʂaxɔvˈɲitsa], ż, szachownice = šachovnica
+3 N skoczek {skoczek} [ˈskɔtʂɛk], m, skoczki = šachový jazdec
+3 N szczudło {szczudło} [ˈʂtʂudwɔ], n, szczudła = chodúľ
+2 N pionek {pionek} [ˈpʲɔnɛk], m, pionki = pešiak
+3 N goniec {goniec} [ˈɡɔɲɛts], m, gońce = šachový strelec
+2 N krążek {krążek} [ˈkrɔ̃ʐɛk], m, krążki = hokejový puk
+3 N puk {puk} [puk], m, puki = hokejový puk
+3 V zmagać się {zmagać się} [ˈzmaɡatɕ ɕɛ], - (z + N) = zápasiť
 
 # corpus-verbs
 3 V skłócać {skłócać} [ˈskwutsatɕ], skłócić (B) = poštvať proti sebe

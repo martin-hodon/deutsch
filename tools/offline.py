@@ -10,8 +10,8 @@ import check
 
 # what the trainer and the speech bench load (sw.js itself is the browser's to keep)
 LANGS = ["de", "en", "es", "fr", "it", "pl", "ru", "zh"]   # (the languages the trainer drills: engine/langs.js)
-PATTERNS = ["index.html", "trainer.html", "dictionary.html", "reading.html", "speak.html", "sentences.html", "engine/*.js", "engine/*.css", "world/*.txt", "world/*.tsv", "sk/ui.txt", "concepts/labels.txt"] + \
-    [f"{l}/{p}" for l in LANGS for p in ("*.js", "dict.tsv", "order.tsv", "ui.txt", "composition.txt", "rules/*.txt")]
+PATTERNS = ["index.html", "trainer.html", "dictionary.html", "reading.html", "speak.html", "sentences.html", "engine/*.js", "engine/*.css", "engine/listen.json", "engine/listen_net.json", "world/*.txt", "world/*.tsv", "sk/ui.txt", "concepts/labels.txt"] + \
+    [f"{l}/{p}" for l in LANGS for p in ("*.js", "dict.tsv", "order.tsv", "ui.txt", "composition.txt", "chars.txt", "rules/*.txt")]
 
 
 def main():

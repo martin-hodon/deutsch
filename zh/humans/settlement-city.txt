@@ -55,6 +55,10 @@
 2 N 老家 {老家} [lǎojiā], - = rodné mesto
 2 N 乡村 {乡村} [xiāngcūn], 个 = dedina
 2 N 市民 {市民} [shìmín], 位 = obyvateľ
+3 N 穷乡僻壤 {穷乡僻壤} [qióngxiāngpìrǎng], 个 = zapadákov
+3 AN 土著 {土著} [tǔzhù] = domorodý
+3 AN 游牧 {游牧} [yóumù] = kočovný
+3 AN 流动 {流动} [liúdòng] = kočovný
 
 # streets-places
 1 N 街 {街} [jiē], 条 = ulica
@@ -105,6 +109,10 @@
 3 N 碑 {碑} [bēi], 块 = pamätník
 2 N 胡同 {胡同} [hútòng], 条 = ulička
 2 N 街头 {街头} [jiētóu], - = ulica
+2 N 下水道 {下水道} [xiàshuǐdào], 条 = stoka
+3 N 阴沟 {阴沟} [yīngōu], 条 = stoka
+2 N 井 {井} [jǐng], 口 = studňa
+3 N 铺路石 {铺路石} [pūlùshí], 块 = dlažobná kocka
 
 # buildings
 1 N 楼 {楼} [lóu], 栋 = budova
@@ -188,6 +196,21 @@
 2 V 拆迁 {拆迁} [chāiqiān] = zbúrať
 2 N 场馆 {场馆} [chǎngguǎn], 个 = aréna
 2 N 楼房 {楼房} [lóufáng], 栋 = budova
+3 N 吊桥 {吊桥} [diàoqiáo], 座 = padací most
+3 N 宣礼塔 {宣礼塔} [xuānlǐtǎ], 座 = minaret
+3 N 火葬场 {火葬场} [huǒzàngchǎng], 个 = krematórium
+3 N 陵墓 {陵墓} [língmù], 座 = hrobka
+2 N 迷宫 {迷宫} [mígōng], 个 = bludisko
+3 N 残骸 {残骸} [cánhái], 堆 = trosky
+3 N 瓦砾 {瓦砾} [wǎlì], 堆 = trosky
+3 N 建筑用地 {建筑用地} [jiànzhùyòngdì], 块 = stavebný pozemok
+2 N 建筑材料 {建筑材料} [jiànzhùcáiliào], 种 = stavebný materiál
+3 N 建材 {建材} [jiàncái], 种 = stavebný materiál
+3 N 建筑业 {建筑业} [jiànzhùyè], - = stavebníctvo
+3 V 加建 {加建} [jiājiàn] = pristavať
+3 N 附楼 {附楼} [fùlóu], 座 = prístavba
+3 N 建筑风格 {建筑风格} [jiànzhùfēnggé], 种 = stavebný sloh
+3 N 遗址 {遗址} [yízhǐ], 处 = ruina
 
 # city-life
 2 N 地址 {地址} [dìzhǐ], 个 = adresa
@@ -222,6 +245,7 @@
 3 N 市议会 {市议会} [shìyìhuì], 个 = mestská rada
 3 N 庙会 {庙会} [miàohuì], 个 = pút
 3 N 集市 {集市} [jíshì], 个 = pút
+2 N 流浪汉 {流浪汉} [liúlànghàn], 个 = tulák
 
 # settling
 3 V 殖民 {殖民} [zhímín] = osídľovať

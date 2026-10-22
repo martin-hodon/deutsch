@@ -123,6 +123,8 @@
 2 N der Vordergrund {Vorder|grund} [ˈfɔʁdɐɡʁʊnt], Vordergründe = popredie
 3 N die Fülle {Fülle} [ˈfʏlə], - = plnosť
 2 AV von innen {von innen} [fɔn ˈɪnən] = zvnútra
+3 V hineinpassen {hinein·passen} [hɪˈnaɪnpasən], hat (in A) = zmestiť sa
+3 N die Reihung {Reihung} [ˈʁaɪʊŋ], Reihungen = usporiadanie
 
 # direction-distance
 1 N die Richtung {Richtung} [ˈʁɪçtʊŋ], Richtungen = smer
@@ -189,6 +191,10 @@
 - 3 AN nordöstlich {nord|östlich} [nɔʁtˈœstlɪç] = severovýchodný
 3 N der Südwesten {Süd|westen} [zyːtˈvɛstən], - = juhozápad
 3 N das Diesseits {Dies|seits} [ˈdiːszaɪts], - = tento svet
+3 AV bergauf {berg|auf} [bɛʁkˈaʊf] = hore
+3 AV bergab {berg|ab} [bɛʁkˈap] = dole
+3 N der Ost {Ost} [ɔst], - = východ (svetová strana)
+3 N der Breitenkreis {Breiten|kreis} [ˈbʁaɪtənkʁaɪs], Breitenkreise = rovnobežka
 
 # motion
 2 V bewegen {be|wegen} [bəˈveːɡən], hat (sich A) = hýbať, pohybovať, dojať
@@ -355,15 +361,39 @@
 3 V aufrücken {auf·rücken} [ˈaʊfʁʏkən], ist = postúpiť (vyššie), posunúť sa vyššie
 2 N die Abreise {Ab|reise} [ˈapʁaɪzə], Abreisen = odchod
 3 V schwinden {schwinden} [ˈʃvɪndən], schwindet/schwand/geschwunden [ˈʃvɪndət/ʃvant/ɡəˈʃvʊndən], ist = ubudnúť
+3 V huschen {huschen} [ˈhʊʃən], ist = mihať sa
+3 V abprallen {ab·prallen} [ˈapʁalən], ist = odraziť sa
+3 V sich durchbiegen {sich durch·biegen} [zɪç ˈdʊʁçbiːɡən], biegt durch/bog durch/durchgebogen, hat = prehýbať sa
+3 V neigen {neigen} [ˈnaɪɡən], hat (A, sich A) = nakloniť
+3 V vorbeibringen {vorbei·bringen} [foːɐˈbaɪbʁɪŋən], bringt vorbei/brachte vorbei/vorbeigebracht, hat (D A) = zaniesť
+2 V durchgehen {durch·gehen} [ˈdʊʁçɡeːən], geht durch/ging durch/durchgegangen, ist (durch A) = prejsť cez
+3 N der Schub {Schub} [ʃuːp], Schübe = posun
+2 V losfahren {los·fahren} [ˈloːsfaːʁən], fährt los/fuhr los/losgefahren, ist = vyraziť
+2 V umfallen {um·fallen} [ˈʊmfalən], fällt um/fiel um/umgefallen, ist = zvaliť sa
+2 V stoßen {stoßen} [ˈʃtoːsən], stößt/stieß/gestoßen, hat/ist (auf A, an A, gegen A) = naraziť
+3 V herausragen {heraus·ragen} [hɛˈʁaʊsʁaːɡən], hat (aus D) = týčiť sa
+2 V einbiegen {ein·biegen} [ˈaɪnbiːɡən], biegt ein/bog ein/eingebogen, ist (in A) = odbočiť
+2 V einhalten {ein·halten} [ˈaɪnhaltən], hält ein/hielt ein/eingehalten, hat (A) = dodržať
+2 V abgehen {ab·gehen} [ˈapɡeːən], geht ab/ging ab/abgegangen, ist = odísť
+2 V fortgehen {fort·gehen} [ˈfɔʁtɡeːən], geht fort/ging fort/fortgegangen, ist = odísť
+3 V sich fortscheren {sich fort·scheren} [zɪç ˈfɔʁtʃeːʁən], hat = vypadnúť
+3 V entfliehen {ent|fliehen} [ɛntˈfliːən], entflieht/entfloh/entflohen, ist (D) = utiecť
+3 V entwischen {ent|wischen} [ɛntˈvɪʃən], ist (D) = uniknúť
+3 N der Abgang {Ab|gang} [ˈapɡaŋ], Abgänge = odchod
+3 V entbehren {ent|behren} [ɛntˈbeːʁən], hat (A) = zaobísť sa
+3 V ausfahren {aus·fahren} [ˈaʊsfaːʁən], fährt aus/fuhr aus/ausgefahren, ist = vyjsť von
+3 V vollbringen {voll|bringen} [fɔlˈbʁɪŋən], vollbringt/vollbrachte/vollbracht, hat (A) = vykonať
 
 # travel
 2 V anreisen {an·reisen} [ˈanʁaɪzən], ist = pricestovať, prísť
+2 V mitkommen {mit·kommen} [ˈmɪtkɔmən], kommt mit/kam mit/mitgekommen, ist = prísť spolu
 
 # position
 3 AN begehbar {be|geh|bar} [bəˈɡeːbaːɐ] = priechodný, prístupný
 3 V übersiedeln {über·siedeln} [ˈyːbɐziːdəln], ist = presťahovať sa
 3 V durchqueren {durch|queren} [dʊʁçˈkveːʁən], hat (A) = prejsť cez, prejsť, pretnúť
 3 V schweifen {schweifen} [ˈʃvaɪfən], ist = blúdiť, túlať sa
+1 V umziehen {um·ziehen} [ˈʊmtsiːən], zieht um/zog um/umgezogen, ist = presťahovať sa
 
 # more
 2 PHR wo auch immer {wo auch immer} [voː aʊx ˈɪmɐ] = kdekoľvek

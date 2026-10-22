@@ -52,6 +52,7 @@
 3 P sämtliche {sämtliche} [ˈzɛmtlɪçə] = všetci, všetky
 2 PHR ein bisschen {ein bisschen} [aɪn ˈbɪsçən] = trochu, troška
 3 P keinerlei {keiner|lei} [ˈkaɪnɐlaɪ] = žiadny, nijaký
+3 P unsereiner {unser|einer} [ˈʊnzəʁaɪnɐ] = jeden z nás
 
 # language-specific closed words (no Slovak word: a description)
 1 P dessen {dessen} [ˈdɛsən] = ktorého (vzťažné zámeno)

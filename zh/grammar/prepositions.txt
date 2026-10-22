@@ -43,6 +43,7 @@
 3 PRE 多亏 {多亏} [duōkuī] = vďaka
 3 PRE 凭借 {凭借} [píngjiè] = vďaka
 3 PRE 同 {同} [tóng] = s
+2 PRE 与 {与} [yǔ] = s
 2 PRE 自 {自} [zì] = od (začiatok)
 2 PRE 往 {往} [wǎng] = k
 2 PRE 以来 {以来} [yǐlái] = od (začiatok)
@@ -98,6 +99,8 @@
 2 PRE 出于 {出于} [chūyú] = kvôli
 2 PRE 在内 {在内} [zàinèi] = vrátane
 2 PRE 之中 {之中} [zhīzhōng] = uprostred
+2 PRE 当中 {当中} [dāngzhōng] = spomedzi
+3 PRE 除非 {除非} [chúfēi] = s výhradou
 
 # two-way
 1 PRE 在 {在} [zài] = na (v kontakte)
@@ -121,3 +124,4 @@
 2 PRE 大于 {大于} [dàyú] = viac ako
 2 PRE 多于 {多于} [duōyú] = viac ako
 1 PRE 超过 {超过} [chāoguò] = viac ako
+1 PRE 对 {对} [duì] = voči

@@ -40,6 +40,7 @@
 1 V 出院 {出|院} [chūyuàn] = odísť z nemocnice
 1 V 放心 {放心} [fàngxīn] = byť bez obáv
 1 V 干杯 {干|杯} [gānbēi] = pripiť si
+3 V 敬 {敬} [jìng] = pripiť si
 1 V 感动 {感动} [gǎndòng] = dojať
 1 V 过年 {过|年} [guònián] = osláviť Nový rok
 1 V 回国 {回|国} [huíguó] = vrátiť sa do vlasti
@@ -50,6 +51,7 @@
 1 V 听讲 {听|讲} [tīngjiǎng] = počúvať prednášku
 1 V 问路 {问|路} [wènlù] = pýtať sa na cestu
 1 V 午睡 {午|睡} [wǔshuì] = zdriemnuť si
+3 V 眯 {眯} [mī] = zdriemnuť si
 1 V 休假 {休|假} [xiūjià] = ísť na dovolenku
 1 V 以为 {以为} [yǐwéi] = mylne si myslieť
 1 V 有空 {有|空} [yǒukòng] = mať čas
@@ -123,6 +125,7 @@
 2 V 识字 {识|字} [shízì] = naučiť sa čítať
 2 V 说实话 {说|实话} [shuōshíhuà] = povedať pravdu
 2 V 送行 {送|行} [sòngxíng] = odprevadiť
+1 V 送 {送} [sòng] = odprevadiť
 2 V 跳水 {跳|水} [tiàoshuǐ] = skákať do vody
 2 V 透露 {透露} [tòulù] = prezradiť
 2 V 退票 {退|票} [tuìpiào] = vrátiť lístok
@@ -136,3 +139,4 @@
 2 V 自学 {自学} [zìxué] = učiť sa samostatne
 2 V 自言自语 {自言自语} [zìyánzìyǔ] = hovoriť sám pre seba
 2 V 作废 {作废} [zuòfèi] = zneplatniť
+2 V 带走 {带走} [dàizǒu] = odniesť

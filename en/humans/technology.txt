@@ -44,6 +44,8 @@
 2 N magnifying glass {magnifying glass} [ˈmæɡnɪfaɪɪŋ ˌɡlɑːs], magnifying glasses = lupa
 2 V tick {tick} [tɪk] = tikať
 3 AN hydraulic {hydraulic} [haɪˈdrɒlɪk] = hydraulický
+2 AN adjustable {adjust|able} [əˈdʒʌstəbəl] = nastaviteľný
+2 N piston {piston} [ˈpɪstən], pistons = piest
 # electricity-energy
 1 N battery {battery} [ˈbætərɪ], batteries = batéria
 2 N rechargeable battery {rechargeable battery} [ˌriːˈtʃɑːdʒəbl ˈbætərɪ], rechargeable batteries = akumulátor
@@ -79,6 +81,7 @@
 2 N kilowatt-hour {kilowatt-hour} [ˈkɪləwɒt ˌaʊə], kilowatt-hours = kilowatthodina
 2 N watt {watt} [wɒt], watts = watt
 2 V unload {un|load} [ʌnˈləʊd] (sth) = vyložiť
+2 N short circuit {short circuit} [ʃɔːt ˈsɜːkɪt], short circuits = skrat
 # computing-communication-devices
 1 N computer {comput|er} [kəmˈpjuːtə], computers = počítač
 1 N laptop {lap|top} [ˈlæptɒp], laptops = laptop
@@ -227,11 +230,16 @@
 2 N upload {up|load} [ˈʌpləʊd], uploads = nahratie
 1 AV offline {off|line} [ˌɒfˈlaɪn] = offline
 2 V zoom out {zoom·out} [zuːm ˈaʊt] = oddialiť
+2 N space bar {space bar} [ˈspeɪs bɑː], space bars = medzerník
+2 N RAM {RAM} [ræm], - = operačná pamäť
+3 N enumeration {enumer|ation} [ɪˌnjuːməˈreɪʃən], enumerations = enumerácia
+2 N constant {constant} [ˈkɒnstənt], constants = konštanta
 # devices
 2 V dismantle {dis|mantle} [dɪsˈmæntəl] = demontovať
 2 V take a photo {take a photo} [teɪk ə ˈfəʊtəʊ], took a photo/taken a photo = fotiť
 2 N folder {fold|er} [ˈfəʊldə], folders = zakladač
 2 N counter {counter} [ˈkaʊntə], counters = okienko
+2 N cover {cover} [ˈkʌvə], covers = kryt
 
 # more
 2 N tweet {tweet} [twiːt], tweets = tweet

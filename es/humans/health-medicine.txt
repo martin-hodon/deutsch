@@ -157,6 +157,51 @@
 3 AN vidente {vidente} [biˈðente] = vidiaci
 2 PHR volver en sí {volver en sí} [bolˈβeɾ en si] = prebrať sa
 2 PHR recobrar el conocimiento {recobrar el conocimiento} [rekoˈβɾaɾ el konoθiˈmjento] = prebrať sa
+3 N el estreptococo {estreptococo} [estɾeptoˈkoko], estreptococos = streptokok
+2 AN envenenado {envenenado} [embeneˈnaðo], envenenada = otrávený (jedom)
+2 N el calambre {calambre} [kaˈlambɾe], calambres = kŕč
+3 AN tuerto {tuerto} [ˈtweɾto], tuerta = jednooký
+3 V dislocar {dislocar} [disloˈkaɾ] = vykĺbiť
+3 N la costra {costra} [ˈkostɾa], costras = chrasta
+2 N la quemadura {quemadura} [kemaˈðuɾa], quemaduras = popálenina
+3 AN contundido {contundido} [kontunˈdiðo], contundida = pomliaždený
+2 N la malaria {malaria} [maˈlaɾja], - = malária
+3 N el eccema {eccema} [ekˈθema], eccemas = ekzém
+3 N la verruga {verruga} [beˈruɣa], verrugas = bradavica
+3 AN moribundo {moribundo} [moɾiˈβundo], moribunda = smrteľne chorý
+3 AN aturdido {aturdido} [atuɾˈðiðo], aturdida = omráčený
+3 AN decaído {decaído} [dekaˈiðo], decaída = malátny
+3 AN flácido {flácido} [ˈflaθiðo], flácida = ochabnutý
+3 AN achispado {achispado} [atʃisˈpaðo], achispada = podnapitý
+3 V desangrarse {desangrarse} [desaŋˈɡɾaɾse] = vykrvácať
+3 N la rabia {rabia} [ˈraβja], - = besnota
+3 N la ictericia {ictericia} [ikteˈɾiθja], - = žltačka
+3 N la hepatitis {hepatitis} [epaˈtitis], hepatitis = hepatitída
+3 N el sarampión {sarampión} [saɾamˈpjon], - = osýpky
+3 N la viruela {viruela} [biˈɾwela], viruelas = kiahne
+3 N la sarna {sarna} [ˈsaɾna], - = svrab
+3 N el lumbago {lumbago} [lumˈbaɣo], lumbagos = seknutie v krížoch
+3 V tullir {tullir} [tuˈʎiɾ] = zmrzačiť
+3 V mutilar {mutilar} [mutiˈlaɾ] = zmrzačiť
+3 N el callo {callo} [ˈkaʎo], callos = mozoľ
+3 N el pus {pus} [pus], - = hnis
+3 V supurar {supurar} [supuˈɾaɾ] = hnisať
+3 AN purulento {purulento} [puɾuˈlento], purulenta = hnisavý
+3 N la úlcera {úlcera} [ˈulθeɾa], úlceras = vred
+2 AN hinchado {hinchado} [inˈtʃaðo], hinchada = opuchnutý
+3 N el punto negro {punto negro} [ˈpunto ˈneɣɾo], puntos negros = čierna bodka
+3 N la acidez {acidez} [aθiˈðeθ], - = pálenie záhy
+3 N la contracción {contracción} [kontɾakˈθjon], contracciones = kontrakcia
+2 N la irritación {irritación} [iritaˈθjon], irritaciones = podráždenie
+3 N la ampolla {ampolla} [amˈpoʎa], ampollas = pľuzgier
+3 AN sarnoso {sarnoso} [saɾˈnoso], sarnosa = prašivý
+3 N el patógeno {patógeno} [paˈtoɣeno], patógenos = pôvodca choroby
+3 AN invidente {invidente} [imbiˈðente] = slepý
+3 N la llaga {llaga} [ˈʎaɣa], llagas = rana
+3 N la moradura {moradura} [moɾaˈðuɾa], moraduras = pomliaždenina
+3 N el constipado {constipado} [konstiˈpaðo], constipados = nádcha
+3 N la jaqueca {jaqueca} [xaˈkeka], jaquecas = migréna
+3 AN tullido {tullido} [tuˈʎiðo], tullida = ochrnutý
 
 # treatment
 2 N la medicina {medicina} [meðiˈθina], medicinas = medicína
@@ -242,6 +287,11 @@
 3 V reanimar {reanimar} [reaniˈmaɾ] = resuscitovať
 3 V resucitar {resucitar} [resuθiˈtaɾ] = resuscitovať
 3 AN terapéutico {terapéutico} [teɾaˈpewtiko], terapéutica = terapeutický
+2 N la jeringa {jeringa} [xeˈɾiŋɡa], jeringas = injekčná striekačka
+3 N la jeringuilla {jeringuilla} [xeɾiŋˈɡiʎa], jeringuillas = injekčná striekačka
+3 N la hipnosis {hipnosis} [ipˈnosis], hipnosis = hypnóza
+3 N la autopsia {autopsia} [awˈtopsja], autopsias = pitva
+3 N el bisturí {bisturí} [bistuˈɾi], bisturís = skalpel
 
 # medical-people-places
 1 N el médico {médico} [ˈmeðiko], médicos = lekár
@@ -297,6 +347,8 @@
 3 AN cosmético {cosmético} [kosˈmetiko], cosmética = kozmetický
 2 N la sanidad {sanidad} [saniˈðað], - = zdravotníctvo
 3 N el convaleciente {convaleciente} [kombaleˈθjente], convalecientes = uzdravený
+3 N la morgue {morgue} [ˈmoɾɣe], morgues = márnica
+3 N el charlatán {charlatán} [tʃaɾlaˈtan], charlatanes = šarlatán
 
 # hygiene-substances
 2 N la higiene {higiene} [iˈxjene], higienes = hygiena
@@ -331,6 +383,15 @@
 2 N el cannabis {cannabis} [ˈkanaβis], - = konope
 2 N el punto {punto} [ˈpunto], puntos = steh
 3 N la sutura {sutura} [suˈtuɾa], suturas = steh
+2 N el gel de ducha {gel de ducha} [xel de ˈdutʃa], geles de ducha = sprchový gél
+1 V bañarse {bañarse} [baˈɲaɾse] = kúpať sa
+2 V fregar {fregar} [fɾeˈɣaɾ], e>ie = drhnúť
+2 V enjuagar {enjuagar} [eŋxwaˈɣaɾ] = zmyť
+2 N la mascarilla {mascarilla} [maskaˈɾiʎa], mascarillas = rúško
+3 V enjabonar {enjabonar} [eŋxaβoˈnaɾ] = mydliť
+3 N la insulina {insulina} [insuˈlina], - = inzulín
+3 N el colesterol {colesterol} [kolesteˈɾol], - = cholesterol
+3 N la glucosa {glucosa} [ɡluˈkosa], - = glukóza
 
 # more
 2 N el aborto {aborto} [aˈβoɾto], abortos = potrat

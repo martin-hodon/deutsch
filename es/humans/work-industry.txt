@@ -193,6 +193,20 @@
 3 N el lego {lego} [ˈleɣo], legos = laik
 2 N la degradación {degradación} [deɣɾaðaˈθjon], degradaciones = degradácia
 3 N el descenso de categoría {descenso de categoría} [desˈθenso de kateɣoˈɾia], descensos de categoría = degradácia
+3 N el peletero {peletero} [peleˈteɾo], peleteros = kožušník
+3 V holgar {holgar} [olˈɣaɾ], o>ue = flákať sa
+3 V holgazanear {holgazanear} [olɣaθaneˈaɾ] = flákať sa
+3 V escaquearse {escaquearse} [eskakeˈaɾse] = uliať sa
+3 N el vidriero {vidriero} [biˈðɾjeɾo], vidrieros = sklár
+3 V adiestrar {adiestrar} [aðjesˈtɾaɾ] = zapracovať
+2 V contratar {contratar} [kontɾaˈtaɾ] = najať
+3 V deslomarse {deslomarse} [desloˈmaɾse] = drieť
+3 V currar {currar} [kuˈraɾ] = drieť
+3 N la brega {brega} [ˈbɾeɣa], bregas = drina
+3 N el curro {curro} [ˈkuro], curros = drina
+2 N el portero {portero} [poɾˈteɾo], porteros = vrátnik
+2 N el conserje {conserje} [konˈseɾxe], conserjes = vrátnik
+3 N la labor {labor} [laˈβoɾ], labores = práca
 
 # making-doing
 1 V hacer {hacer} [aˈθeɾ], irr, hecho = robiť
@@ -274,6 +288,9 @@
 3 V disecar {disecar} [diseˈkaɾ] = vypreparovať
 2 V derribar {derribar} [deriˈβaɾ] = búrať
 2 V demoler {demoler} [demoˈleɾ], o>ue = búrať
+3 V mecanizar {mecanizar} [mekaniˈθaɾ] = opracovať
+3 V aserrar {aserrar} [aseˈraɾ], e>ie = píliť
+3 V serrar {serrar} [seˈraɾ], e>ie = píliť
 
 # tools
 2 N el martillo {martillo} [maɾˈtiʎo], martillos = kladivo
@@ -329,6 +346,22 @@
 3 N la varilla {varilla} [baˈɾiʎa], varillas = prút
 2 N el palo {palo} [ˈpalo], palos = tyč
 3 N la pértiga {pértiga} [ˈpeɾtiɣa], pértigas = tyč
+3 N la estaca {estaca} [esˈtaka], estacas = kolík
+3 N la cuña {cuña} [ˈkuɲa], cuñas = klin
+3 N la lima {lima} [ˈlima], limas = pilník
+2 N la boquilla {boquilla} [boˈkiʎa], boquillas = tryska
+3 N la tobera {tobera} [toˈβeɾa], toberas = tryska
+3 N el fuelle {fuelle} [ˈfweʎe], fuelles = kováčsky mech
+3 N el cojinete {cojinete} [koxiˈnete], cojinetes = ložisko
+3 N el rodamiento {rodamiento} [roðaˈmjento], rodamientos = ložisko
+2 N el tapón {tapón} [taˈpon], tapones = zátka
+2 N la tapa {tapa} [ˈtapa], tapas = poklop
+2 N las pinzas {pinzas} [ˈpinθas], PL = pinzeta
+2 N el muelle {muelle} [ˈmweʎe], muelles = pružina
+3 N el resorte {resorte} [reˈsoɾte], resortes = pružina
+3 N la ganzúa {ganzúa} [ganˈθua], ganzúas = pakľúč
+3 N el atornillador {atornillador} [atoɾniʎaˈðoɾ], atornilladores = skrutkovač
+3 N el escombro {escombro} [esˈkombɾo], escombros = suť
 
 # materials
 1 N el material {material} [mateˈɾjal], materiales = materiál
@@ -363,6 +396,16 @@
 3 N la hojalata {hojalata} [oxaˈlata], hojalatas = plech
 3 N el cordel {cordel} [koɾˈðel], cordeles = špagát
 3 N el bramante {bramante} [bɾaˈmante], bramantes = špagát
+3 N la loza {loza} [ˈloθa], lozas = keramika
+2 N la cerámica {cerámica} [θeˈɾamika], cerámicas = keramika
+2 N el tronco {tronco} [ˈtɾoŋko], troncos = poleno
+3 N el leño {leño} [ˈleɲo], leños = poleno
+3 N el serrín {serrín} [seˈrin], - = piliny
+3 N la astilla {astilla} [asˈtiʎa], astillas = trieska
+3 N la viruta {viruta} [biˈɾuta], virutas = hoblina
+2 N el estuche {estuche} [esˈtutʃe], estuches = puzdro
+3 N la funda {funda} [ˈfunda], fundas = puzdro
+3 N el disolvente {disolvente} [disolˈβente], disolventes = riedidlo
 
 # industry-places
 2 N la obra {obra} [ˈoβɾa], obras = dielo
@@ -404,10 +447,17 @@
 2 N el fontanero {fontanero} [fontaˈneɾo], fontaneros = inštalatér
 2 N la logística {logística} [loˈxistika], logísticas = logistika
 3 N el modelo de negocio {modelo de negocio} [moˈðelo de neˈɣoθjo], modelos de negocio = obchodný model
+3 N el pozo {pozo} [ˈpoθo], pozos = šachta
+2 V extraer {extraer} [ekstɾaˈeɾ] = ťažiť
+3 N la cañería {cañería} [kaɲeˈɾia], cañerías = potrubie
 
 # work
 3 V externalizar {externalizar} [eksteɾnaliˈθaɾ] = vyčleniť
 3 V subcontratar {subcontratar} [subkontɾaˈtaɾ] = vyčleniť
+3 N el gremio {gremio} [ˈɡɾemjo], gremios = cech
+3 V excavar {excavar} [ekskaˈβaɾ] = odkopať
+3 V teñir {teñir} [teˈɲiɾ], e>i = moriť
+3 V cepillar {cepillar} [θepiˈʎaɾ] = hobľovať
 
 # more
 2 N la práctica {práctica} [ˈpɾaktika], prácticas = prax

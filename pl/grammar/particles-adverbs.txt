@@ -27,6 +27,9 @@
 1 PHR nie szkodzi {nie szkodzi} [ɲɛ ˈʂkɔdʑi] = to nevadí
 2 PHR nic się nie stało {nic się nie stało} [ɲits ɕɛ ɲɛ ˈstawɔ] = to nevadí
 2 PHR do cholery {do cholery} [dɔ xɔˈlɛrɨ] = do kelu
+1 PAR no {no} [nɔ] = no
+1 PAR niech {niech} [ɲɛx] = nech
+2 PAR prawda {prawda} [ˈpravda] = všakže
 
 # negation
 1 AV nie {nie} [ɲɛ] = nie
@@ -84,6 +87,9 @@
 1 AV najbardziej {najbardziej} [najˈbardʑɛj] = najviac
 1 AV najwięcej {najwięcej} [najˈvʲɛntsɛj] = najviac
 2 AV coraz mniej {coraz mniej} [ˈtsɔras mɲɛj] = čoraz menej
+1 AV o wiele {o wiele} [ɔ ˈvʲɛlɛ] = oveľa
+2 AV znacznie {znacznie} [ˈznatʂɲɛ] = oveľa
+2 PHR trochę za dużo {trochę za dużo} [ˈtrɔxɛ za ˈduʐɔ] = trochu moc
 
 # time
 1 AV teraz {teraz} [ˈtɛras] = teraz
@@ -154,6 +160,20 @@
 1 AV przykro {przykro} [ˈpʂɨkrɔ] = ľúto
 2 AV żal {żal} [ʐal] = ľúto
 2 AV niechętnie {nie|chętnie} [ɲɛˈxɛntɲɛ] = nerád
+2 AV niejako {niejako} [ɲɛˈjakɔ] = takpovediac
+2 AV że tak powiem {że tak powiem} [ʐɛ tak ˈpɔvʲɛm] = takpovediac
+2 AV szacunkowo {szacunkowo} [ʂatsunˈkɔvɔ] = odhadom
+2 AV w przybliżeniu {w przybliżeniu} [f pʂɨbliˈʐɛɲu] = odhadom
+2 INT fuj {fuj} [fuj] = fuj
+2 INT fe {fe} [fɛ] = fuj
+2 INT kurwa {kurwa} [ˈkurva] = do riti
+2 INT no cóż {no cóż} [nɔ tsuʂ] = nuž
+2 INT hm {hm} [xm] = hmm
+2 INT och {och} [ɔx] = och
+1 INT au {au} [ˈau] = au
+2 INT ała {ała} [ˈawa] = au
+2 INT do licha {do licha} [dɔ ˈlixa] = doparoma
+3 INT psiakość {psiakość} [ˈpɕakɔɕtɕ] = doparoma
 
 # place-direction
 1 AV tu {tu} [tu] = sem
@@ -240,3 +260,4 @@
 2 AV jako ostatni {jako ostatni} [ˈjakɔ ɔˈstatɲi] = ako posledný
 2 PHR powyżej zera {powyżej zera} [pɔˈvɨʐɛj ˈzɛra] = nad nulou
 1 PHR dzień dobry {dzień dobry} [dʑɛɲ ˈdɔbrɨ] = dobré ráno
+2 AV podobno {podobno} [pɔˈdɔbnɔ] = vraj

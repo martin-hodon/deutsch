@@ -86,6 +86,24 @@
 3 N la malla {malla} [ˈmaʎa], mallas = očko
 1 N el grupo {grupo} [ˈɡɾupo], grupos = zhluk
 2 N la figura {figura} [fiˈɣuɾa], figuras = postava
+3 N el pico {pico} [ˈpiko], picos = cíp
+3 N el trapecio {trapecio} [tɾaˈpeθjo], trapecios = lichobežník
+3 N el rombo {rombo} [ˈrombo], rombos = kosoštvorec
+3 N la elipse {elipse} [eˈlipse], elipses = elipsa
+3 N el ortoedro {orto|edro} [oɾtoˈeðɾo], ortoedros = kváder
+3 N la pirámide {pirámide} [piˈɾamiðe], pirámides = ihlan
+3 N la presilla {presilla} [pɾeˈsiʎa], presillas = pútko
+3 N el romboide {romboide} [romˈboiðe], romboides = kosodĺžnik
+3 V arquearse {arquear|se} [aɾkeˈaɾse] = klenúť sa
+3 AN estirado {estirado} [estiˈɾaðo], estirada = natiahnutý
+3 N la circunferencia circunscrita {circunferencia circunscrita} [θiɾkunfeˈɾenθja θiɾkunsˈkɾita], circunferencias circunscritas = opísaná kružnica
+3 N la circunferencia inscrita {circunferencia inscrita} [θiɾkunfeˈɾenθja iŋsˈkɾita], circunferencias inscritas = vpísaná kružnica
+2 N el anillo {anillo} [aˈniʎo], anillos = krúžok
+3 V enarcar {enarcar} [enaɾˈkaɾ] = ohnúť
+3 V arquear {arquear} [aɾkeˈaɾ] = ohnúť
+3 V encorvar {encorvar} [eŋkoɾˈβaɾ] = ohnúť
+2 N la franja {franja} [ˈfɾaŋxa], franjas = prúžok
+3 N el dogal {dogal} [doˈɣal], dogales = slučka
 
 # form-properties
 1 AN redondo {redondo} [reˈðondo], redonda = okrúhly
@@ -173,3 +191,13 @@
 3 N el embotamiento {embota|miento} [embotaˈmjento], embotamientos = tuposť
 3 N la asimetría {a|simetría} [asimeˈtɾia], asimetrías = asymetria
 2 N la curva {curva} [ˈkuɾβa], curvas = krivka
+3 AN ceñido {ceñido} [θeˈɲiðo], ceñida = priliehavý
+3 N la cabida {cabida} [kaˈβiða], cabidas = rozloha
+3 N la extensión {extensión} [ekstenˈsjon], extensiones = rozloha
+2 V plegar {plegar} [pleˈɣaɾ], e>ie = prehnúť
+2 N el pliegue {pliegue} [ˈpljeɣe], pliegues = záhyb
+3 N la hendidura {hend|idura} [endiˈðuɾa], hendiduras = trhlina
+3 AN obtuso {obtuso} [oβˈtuso], obtusa = tupý
+3 AN aguzado {aguzado} [aɣuˈθaðo], aguzada = špicatý
+3 N el ápice {ápice} [ˈapiθe], ápices = hrot
+3 V atusar {atusar} [atuˈsaɾ] = uhladiť

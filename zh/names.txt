@@ -1,0 +1,115 @@
+# Chinese-only names: how international names are written in Chinese (no concepts, the other languages keep the
+# international form). `CHINESE [pinyin] = name -- note`; the name as the owner's Slovak lists write it (taxa in Latin).
+# Kept out of the concept index on purpose (zh/README.md, "Names"); tools/words.py does not read this file.
+
+# people
+哈特谢普苏特 [Hātèxièpǔsūtè] = Hatšepsut
+娜芙蒂蒂 [Nàfúdìdì] = Nefertiti
+图坦卡蒙 [Tútǎnkǎméng] = Tutanchamón
+孔子 [Kǒngzǐ] = Konfucius -- Chinese name (Master Kong), Confucius is its Latin form
+孙武 [Sūn Wǔ] = Sun-c -- his own name; 孙子 Sūnzǐ = Master Sun
+阿基米德 [Ājīmǐdé] = Archimedes
+亚里士多德 [Yàlǐshìduōdé] = Aristoteles
+毕达哥拉斯 [Bìdágēlāsī] = Pytagoras
+苏格拉底 [Sūgélādǐ] = Sokrates
+亚历山大大帝 [Yàlìshāndà Dàdì] = Alexander Veľký -- 大帝 great emperor
+西塞罗 [Xīsàiluó] = Cicero
+儒略·恺撒 [Rúlüè Kǎisā] = Július Cézar
+埃及艳后 [Āijí Yànhòu] = Kleopatra -- epithet (Egypt's beautiful queen); the transliteration is 克利奥帕特拉 Kèlì'àopàtèlā
+马可·奥勒留 [Mǎkě Àolèliú] = Marcus Aurelius
+斯巴达克斯 [Sībādákèsī] = Spartakus
+阿尔伯特·爱因斯坦 [Ā'ěrbótè Àiyīnsītǎn] = Albert Einstein
+查尔斯·达尔文 [Chá'ěrsī Dá'ěrwén] = Charles Darwin
+德米特里·门捷列夫 [Démǐtèlǐ Ménjiélièfū] = Dmitrij Mendelejev
+伽利略·伽利莱 [Jiālìlüè Jiālìlái] = Galileo Galilei
+艾萨克·牛顿 [Àisàkè Niúdùn] = Isaac Newton
+儒勒·凡尔纳 [Rúlè Fán'ěrnà] = Jules Verne
+列奥纳多·达·芬奇 [Liè'àonàduō Dá Fēnqí] = Leonardo da Vinci
+托尔金 [Tuō'ěrjīn] = Tolkien
+威廉·莎士比亚 [Wēilián Shāshìbǐyà] = William Shakespeare
+贝多芬 [Bèiduōfēn] = Beethoven
+尤里·加加林 [Yóulǐ Jiājiālín] = Jurij Gagarin
+克里斯托弗·哥伦布 [Kèlǐsītuōfú Gēlúnbù] = Krištof Kolumbus
+亚伯拉罕·林肯 [Yàbólāhǎn Línkěn] = Abraham Lincoln
+阿道夫·希特勒 [Ādàofū Xītèlè] = Adolf Hitler
+成吉思汗 [Chéngjísī Hán] = Džingischán
+拿破仑·波拿巴 [Nápòlún Bōnábā] = Napoleon Bonaparte
+耶稣 [Yēsū] = Ježiš
+夏娃 [Xiàwá] = Eva
+
+# cities
+伦敦 [Lúndūn] = Londýn
+巴黎 [Bālí] = Paríž
+罗马 [Luómǎ] = Rím
+雅典 [Yǎdiǎn] = Atény
+马德里 [Mǎdélǐ] = Madrid
+巴塞罗那 [Bāsàiluónà] = Barcelona
+里斯本 [Lǐsīběn] = Lisabon
+米兰 [Mǐlán] = Miláno
+威尼斯 [Wēinísī] = Benátky
+佛罗伦萨 [Fóluólúnsà] = Florencia
+热那亚 [Rènàyà] = Janov
+那不勒斯 [Nàbùlèsī] = Neapol -- also 拿波利 Nábōlì (older, from Napoli)
+维也纳 [Wéiyěnà] = Viedeň
+柏林 [Bólín] = Berlín
+慕尼黑 [Mùníhēi] = Mníchov
+科隆 [Kēlóng] = Kolín
+布拉格 [Bùlāgé] = Praha
+华沙 [Huáshā] = Varšava
+布达佩斯 [Bùdápèisī] = Budapešť
+哥本哈根 [Gēběnhāgēn] = Kodaň
+斯德哥尔摩 [Sīdégē'ěrmó] = Štokholm
+布鲁塞尔 [Bùlǔsài'ěr] = Brusel
+阿姆斯特丹 [Āmǔsītèdān] = Amsterdam
+苏黎世 [Sūlíshì] = Zürich
+日内瓦 [Rìnèiwǎ] = Ženeva
+开罗 [Kāiluó] = Káhira
+东京 [Dōngjīng] = Tokio -- Chinese reading of the kanji, not a transliteration
+北京 [Běijīng] = Peking
+曼谷 [Màngǔ] = Bangkok
+莫斯科 [Mòsīkē] = Moskva
+基辅 [Jīfǔ] = Kyjev
+布加勒斯特 [Bùjiālèsītè] = Bukurešť
+
+# dinosaurs -- the Latin meaning translated + 龙 (dragon), not transliterated; 恐龙 (dinosaurus) itself is a concept
+三角龙 [sānjiǎolóng] = triceratops
+戟龙 [jǐlóng] = styracosaurus
+厚头龙 [hòutóulóng] = pachycephalosaurus
+剑龙 [jiànlóng] = stegosaurus
+甲龙 [jiǎlóng] = ankylosaurus
+禽龙 [qínlóng] = iguanodon
+副栉龙 [fùzhìlóng] = parasaurolophus
+盔龙 [kuīlóng] = corythosaurus -- 冠龙 Guānlóng is another dinosaur (Guanlong)
+异特龙 [yìtèlóng] = allosaurus
+食肉牛龙 [shíròuniúlóng] = carnotaurus
+棘龙 [jílóng] = spinosaurus
+脊背龙 [jǐbèilóng] = spinosaurus -- not a standard name, 棘龙 is
+鲨齿龙 [shāchǐlóng] = carcharodontosaurus
+双脊龙 [shuāngjǐlóng] = dilophosaurus
+霸王龙 [bàwánglóng] = tyrannosaurus
+恐爪龙 [kǒngzhǎolóng] = deinonychus
+偷蛋龙 [tōudànlóng] = oviraptor -- the scientific name is 窃蛋龙 qièdànlóng
+伤齿龙 [shāngchǐlóng] = troodon
+驰龙 [chílóng] = dromaeosaurus
+镰刀龙 [liándāolóng] = therizinosaurus
+梁龙 [liánglóng] = diplodocus
+迷惑龙 [míhuòlóng] = apatosaurus
+雷龙 [léilóng] = apatosaurus -- properly brontosaurus, the popular name for both
+腕龙 [wànlóng] = brachiosaurus
+
+# geologic eras and periods -- 纪 period, 代 era; partly transliterated (寒武 Cam-, 奥陶 Ordo-, 志留 Silur-, 泥盆 Devon, 侏罗 Jura), partly translated (石炭 coal, 二叠/三叠 two/three layers, 白垩 chalk)
+古生代 [Gǔshēngdài] = Paleozoik
+寒武纪 [Hánwǔjì] = Kambrium
+奥陶纪 [Àotáojì] = Ordovik
+志留纪 [Zhìliújì] = Silúr
+泥盆纪 [Nípénjì] = Devón
+石炭纪 [Shítànjì] = Karbón
+二叠纪 [Èrdiéjì] = Perm
+中生代 [Zhōngshēngdài] = Mezozoik
+三叠纪 [Sāndiéjì] = Trias
+侏罗纪 [Zhūluójì] = Jura
+白垩纪 [Bái'èjì] = Krieda
+新生代 [Xīnshēngdài] = Kenozoik
+
+# stars
+昴宿星团 [Mǎoxiù xīngtuán] = Plejády -- also 昴星团 Mǎoxīngtuán

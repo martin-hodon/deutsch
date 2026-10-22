@@ -363,6 +363,15 @@
 2 N la diminution {diminution} [diminyˈsjɔ̃], diminutions = úbytok
 1 N la baisse {baisse} [bɛs], baisses = úbytok
 2 V s'agrandir {s'a|grandir} [saɡʁɑ̃ˈdiʁ] = zväčšiť sa
+3 V couronner {couronner} [kuʁɔˈne] = zavŕšiť
+3 V se relayer {se relayer} [sə ʁəleˈje] = striedať sa
+2 V éclater {éclater} [eklaˈte] = prasknúť
+3 V craquer {craquer} [kʁaˈke] = prasknúť
+2 N la fuite {fuite} [fɥit], fuites = únik
+3 V coincer {coincer} [kwɛ̃ˈse] = viaznuť
+2 V se glisser {se glisser} [sə ɡliˈse] = vkradnúť sa
+2 N le coup de chance {coup de chance} [ku də ˈʃɑ̃s], coups de chance = šťastná náhoda
+2 V se transformer {se trans|former} [sə tʁɑ̃sfɔʁˈme] = zmeniť sa
 
 # relations
 1 AN même {même} [mɛm] = rovnaký
@@ -371,6 +380,8 @@
 2 N l'égalité (f) {égalité} [eɡaliˈte], égalités = rovnosť
 2 AN indifférent {indifférent} [ɛ̃difeˈʁɑ̃], indifférente = ľahostajný
 1 V ressembler {ressembler} [ʁəsɑ̃ˈble] (à) = podobať sa
+2 V différer {différer} [difeˈʁe] (de) = líšiť sa
+2 V se distinguer {se distinguer} [sə distɛ̃ˈɡe] (de) = líšiť sa
 2 AN inégal {inégal} [ineˈɡal], inégale, inégaux/inégales = nerovnaký
 1 AN différent {différent} [difeˈʁɑ̃], différente = nerovnaký
 2 V compenser {compenser} [kɔ̃pɑ̃ˈse] = vyrovnať
@@ -682,6 +693,9 @@
 3 N le désintérêt {dés|intérêt} [dezɛ̃teˈʁɛ], désintérêts = nezáujem
 2 N l'indifférence (f) {in|différence} [ɛ̃difeˈʁɑ̃s], indifférences = nezáujem
 2 V multiplier {multiplier} [myltipliˈje] = násobiť
+2 AN compris {compris} [kɔ̃ˈpʁi], comprise = zahrnutý
+3 N le clou {clou} [klu], clous = zlatý klinec
+2 N le quotient {quotient} [kɔˈsjɑ̃], quotients = podiel
 
 # transfer-basic-verbs
 1 V donner {donner} [dɔˈne] = dať
@@ -805,6 +819,7 @@
 2 V retirer {retirer} [ʁətiˈʁe] = vytiahnuť
 1 AN trouvé {trouvé} [tʁuˈve], trouvée = nájdený
 3 AN déficitaire {déficitaire} [defisiˈtɛʁ] = stratový
+2 N le retrait {retrait} [ʁəˈtʁɛ], retraits = odobratie
 
 # action-and-use
 1 N l'action (f) {action} [akˈsjɔ̃], actions = akcia (činnosť)
@@ -1339,6 +1354,8 @@
 3 AV gracieusement {gracieuse|ment} [ɡʁasjøzˈmɑ̃] = pôvabne
 2 V déballer {dé|baller} [debaˈle] = rozbaliť
 2 V s'éloigner {s'éloigner} [selwaˈɲe] (de) = vzdialiť sa
+2 V procéder {procéder} [pʁɔseˈde], irr = postupovať
+3 V conjurer {conjurer} [kɔ̃ʒyˈʁe] = odvrátiť
 
 # change
 2 V manifester {manifester} [manifɛsˈte] = prejaviť
@@ -1370,6 +1387,17 @@
 2 V panser {panser} [pɑ̃ˈse] = obviazať
 3 V bander {bander} [bɑ̃ˈde] = obviazať
 2 V ramollir {ra|mollir} [ʁamɔˈliʁ] = zmäknúť
+2 N la modification {modification} [mɔdifikaˈsjɔ̃], modifications = pozmenenie
+2 N la création {création} [kʁeaˈsjɔ̃], créations = stvorenie
+2 V se décomposer {se dé|composer} [sə dekɔ̃poˈze] = rozpadať sa
+1 V casser {casser} [kaˈse] = zlomiť
+2 V déchirer {dé|chirer} [deʃiˈʁe] = natrhnúť
+2 V froisser {froisser} [fʁwaˈse] = krčiť
+2 V détacher {dé|tacher} [detaˈʃe] = odopnúť
+2 V attacher {attacher} [ataˈʃe] = pripútať
+2 N la décomposition {dé|composition} [dekɔ̃pɔziˈsjɔ̃], décompositions = rozklad
+3 V défigurer {dé|figurer} [defiɡyˈʁe] = zohyzdiť
+3 AN stagnant {stagnant} [staɡˈnɑ̃], stagnante = stagnujúci
 
 # more
 1 AN autre {autre} [otʁ] = ďalší

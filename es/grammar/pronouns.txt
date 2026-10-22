@@ -58,6 +58,7 @@
 1 PHR un poco {un poco} [um ˈpoko] = trochu
 1 P ninguno {ninguno} [niŋˈɡuno] = žiadny
 2 P cualquier {cualquier} [kwalˈkjeɾ] = akýkoľvek
+3 P uno de nosotros {uno de nosotros} [ˈuno ðe noˈsotɾos] = jeden z nás
 
 # language-specific closed words (no Slovak word: a description)
 1 P ellos {ellos} [ˈeʎos] = oni

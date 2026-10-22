@@ -168,6 +168,16 @@
 3 V reason {reason} [ˈriːzən] (that) = usudzovať
 2 AN illogical {il|logical} [ɪˈlɒdʒɪkəl] = nelogický
 2 AN incompetent {in|competent} [ɪnˈkɒmpɪtənt] = nekompetentný
+2 N essence {essence} [ˈesns], essences = podstata
+3 N crux {crux} [krʌks], cruxes = podstata
+3 AN dreamed-of {dreamed-of} [ˈdriːmd əv] = vysnívaný
+3 AN dream {dream} [driːm] = vysnívaný
+3 N deduction {deduction} [dɪˈdʌkʃn], deductions = dedukcia
+2 V underestimate {under|estimate} [ˌʌndərˈestɪmeɪt] = nedoceniť
+3 V misjudge {mis|judge} [ˌmɪsˈdʒʌdʒ] = nedoceniť
+3 N mindset {mind|set} [ˈmaɪndset], mindsets = zmýšľanie
+3 N mentality {mentality} [menˈtæləti], mentalities = zmýšľanie
+3 N subconscious {sub|conscious} [ˌsʌbˈkɒnʃəs], - = podvedomie
 # knowing
 1 V know {know} [nəʊ], knew/known (sth, that) = vedieť
 1 N knowledge {knowledge} [ˈnɒlɪdʒ], - = vedomosti
@@ -293,6 +303,10 @@
 3 V expose {expose} [ɪkˈspəʊz] = demaskovať
 2 AV incorrectly {in|correct|ly} [ˌɪnkəˈrektli] = chybne
 2 N ignorance {ignor|ance} [ˈɪɡnərəns], - = nevedomosť
+3 N intelligibility {intelligibility} [ɪnˌtelɪdʒəˈbɪləti], - = zrozumiteľnosť
+3 N comprehensibility {comprehensibility} [ˌkɒmprɪˌhensəˈbɪləti], - = zrozumiteľnosť
+2 V distinguish {distinguish} [dɪˈstɪŋɡwɪʃ] (from) = rozoznať
+3 V discern {discern} [dɪˈsɜːn] = rozoznať
 # memory
 1 N memory {memory} [ˈmemərɪ], memories = pamäť (schopnosť)
 1 V remember {remember} [rɪˈmembə] (sth, -ing, to do) = spomínať si
@@ -305,6 +319,10 @@
 3 V recall {recall} [rɪˈkɔːl] (sth) = vybaviť si
 3 V come to one's senses {come to one's senses} [kʌm tə wʌnz ˈsensɪz] = spamätať sa
 3 N contemplation {contemplation} [ˌkɒntəmˈpleɪʃən], - = rozjímanie
+3 N forgetfulness {forget|ful|ness} [fəˈɡetflnəs], - = zábudlivosť
+3 V drum into {drum·into} [drʌm ˈɪntuː] (sb) = vštepovať
+3 V instil {instil} [ɪnˈstɪl] (in) = vštepovať
+2 AV by heart {by heart} [baɪ ˈhɑːt] = naspamäť
 # intelligence
 2 N intelligence {intelligence} [ɪnˈtelɪdʒəns], - = inteligencia
 2 AN intelligent {intelligent} [ɪnˈtelɪdʒənt] = inteligentný
@@ -366,6 +384,17 @@
 3 V mistake {mistake} [mɪˈsteɪk], mistook/mistaken (for) = pomýliť si
 2 AV without problems {without·problems} [wɪðˈaʊt ˈprɒbləmz] = bezproblémovo
 1 V be right {be right} [bi ˈraɪt] (about) = mať pravdu
+2 V go mad {go·mad} [ɡəʊ ˈmæd], went mad/gone mad = zblázniť sa
+3 V go crazy {go·crazy} [ɡəʊ ˈkreɪzi], went crazy/gone crazy = zblázniť sa
+3 V rave {rave} [reɪv] = blúzniť
+3 V be delirious {be·delirious} [bi dɪˈlɪriəs], was delirious/been delirious = blúzniť
+3 N mishap {mishap} [ˈmɪshæp], mishaps = malér
+3 N predicament {predicament} [prɪˈdɪkəmənt], predicaments = šlamastika
+3 N pickle {pickle} [ˈpɪkl], pickles = šlamastika
+3 V get into trouble {get·into·trouble} [ɡet ˈɪntə ˈtrʌbl], got into trouble/got into trouble = zapliesť do problémov
+3 V land in trouble {land·in·trouble} [lænd ɪn ˈtrʌbl] = zapliesť do problémov
+2 AN solved {solved} [sɒlvd] = vyriešený
+2 AN settled {settled} [ˈsetld] = vyriešený
 
 # more
 2 AN incredible {in|credible} [ɪnˈkredəbəl] = neuveriteľný

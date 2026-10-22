@@ -314,6 +314,13 @@
 2 PHR w najlepszym razie {w najlepszym razie} [v najˈlɛpʂɨm ˈraʑɛ] = v najlepšom prípade
 2 PHR w najlepszym wypadku {w najlepszym wypadku} [v najˈlɛpʂɨm vɨˈpatku] = v najlepšom prípade
 1 V nudzić {nudzić} [ˈnudʑitɕ], znudzić (B) = nudiť
+3 V rozstrajać {roz|strajać} [rɔsˈstrajatɕ], rozstroić (B) = rozladiť
+2 V wybuchać {wybuchać} [vɨˈbuxatɕ], wybuchnąć (N) = vzplanúť
+2 AN zasmucony {zasmucony} [zasmuˈtsɔnɨ] = zarmútený
+3 AN strapiony {strapiony} [straˈpʲɔnɨ] = zarmútený
+1 AN przestraszony {przestraszony} [pʂɛstraˈʂɔnɨ] = vystrašený
+2 V stresować się {stresować się} [strɛˈsɔvatɕ ɕɛ], zestresować się = stresovať sa
+3 V osłupieć {osłupieć} [ɔˈswupʲɛtɕ], dk (z + D) = žasnúť
 
 # love-hate
 1 V kochać {kochać} [ˈkɔxatɕ], pokochać (B) = ľúbiť
@@ -389,6 +396,16 @@
 3 AV zawistnie {zawistnie} [zaˈvʲistɲɛ] = závistlivo
 2 AV czule {czule} [ˈtʂulɛ] = nežne
 3 AV ohydnie {ohydnie} [ɔˈxɨdɲɛ] = ohavne
+2 N uwielbienie {uwielbienie} [uvʲɛlˈbʲɛɲɛ], n, uwielbienia = zbožňovanie
+3 N adoracja {adoracja} [adɔˈratsja], ż, adoracje = zbožňovanie
+2 V podrywać {podrywać} [pɔdˈrɨvatɕ], poderwać (B) = zbaliť (osobu)
+3 AN współczujący {współczujący} [fspuwtʂuˈjɔntsɨ] = súcitný
+3 AN litościwy {litościwy} [litɔˈɕtɕivɨ] = súcitný
+2 V współczuć {współczuć} [ˈfspuwtʂutɕ], - (C) = súcitiť
+2 N przebaczenie {przebaczenie} [pʂɛbaˈtʂɛɲɛ], n, przebaczenia = odpustenie
+3 N wybaczenie {wybaczenie} [vɨbaˈtʂɛɲɛ], n, wybaczenia = odpustenie
+1 V mieć ochotę {mieć ochotę} [mʲɛtɕ ɔˈxɔtɛ], - (na + B) = mať chuť
+2 V gardzić {gardzić} [ˈɡardʑitɕ], - (N) = pohŕdať
 
 # self-social-feelings
 1 N wstyd {wstyd} [fstɨt], m, - = hanba
@@ -444,6 +461,13 @@
 3 AV nostalgicznie {nostalgicznie} [nɔstalˈɡitʂɲɛ] = nostalgicky
 3 N niewdzięczność {nie|wdzięczność} [ɲɛˈvdʑɛntʂnɔɕtɕ], ż, - = nevďačnosť
 3 N zamkniętość {zamkniętość} [zamˈkɲɛntɔɕtɕ], ż, - = uzavretosť
+2 N zawstydzenie {zawstydzenie} [zafstɨˈdzɛɲɛ], n, zawstydzenia = zahanbenie
+2 V zawstydzać {zawstydzać} [zafˈstɨdzatɕ], zawstydzić (B) = zahanbiť
+1 AN zawstydzony {zawstydzony} [zafstɨˈdzɔnɨ] = zahanbený
+3 V hańbić {hańbić} [ˈxaɲbʲitɕ], zhańbić (B) = zneuctiť
+2 V znieważać {znieważać} [zɲɛˈvaʐatɕ], znieważyć (B) = zneuctiť
+3 AN samotniczy {samotniczy} [samɔtˈɲitʂɨ] = samotársky
+2 AN nietowarzyski {nie|towarzyski} [ɲɛtɔvaˈʐɨski] = samotársky
 
 # expressions
 1 V śmiać się {śmiać się} [ɕmʲatɕ ɕɛ], zaśmiać się (z + D) = smiať sa
@@ -498,6 +522,22 @@
 3 AV żarliwie {żarliwie} [ʐarˈlivʲɛ] = vrúcne
 1 N płacz {płacz} [pwatʂ], m, płacze = plač
 2 V marszczyć brwi {marszczyć brwi} [ˈmarʂtʂɨtɕ brvʲi], zmarszczyć brwi = mračiť sa
+2 V wahać się {wahać się} [ˈvaxatɕ ɕɛ], zawahać się = zaraziť sa
+2 N grymas {grymas} [ˈɡrɨmas], m, grymasy = grimasa
+3 AN szyderczy {szyderczy} [ʂɨˈdɛrtʂɨ] = posmešný
+3 AN drwiący {drwiący} [ˈdrfʲɔntsɨ] = posmešný
+2 AN żartobliwy {żartobliwy} [ʐartɔˈblivɨ] = žartovný
+2 AN zapłakany {zapłakany} [zapwaˈkanɨ] = uplakaný
+2 V marszczyć {marszczyć} [ˈmarʂtʂɨtɕ], zmarszczyć (B) = zvraštiť
+3 V kwilić {kwilić} [ˈkfʲilitɕ], - = fňukať
+2 V marudzić {marudzić} [maˈrudʑitɕ], - = fňukať
+3 AN nachmurzony {nachmurzony} [naxmuˈʐɔnɨ] = zachmúrený
+2 AN posępny {posępny} [pɔˈsɛmpnɨ] = zachmúrený
+3 N lament {lament} [ˈlamɛnt], m, lamenty = nárek
+2 N szloch {szloch} [ʂlɔx], m, szlochy = vzlyk
+2 V chichotać {chichotać} [xiˈxɔtatɕ], zachichotać = chichotať sa
+3 N uśmieszek {uśmieszek} [uɕˈmʲɛʂɛk], m, uśmieszki = úškrn
+3 V szydzić {szydzić} [ˈʂɨdʑitɕ], - (z + D) = posmievať sa
 
 # feelings
 3 V pławić się {pławić się} [ˈpwavʲitɕ ɕɛ], - (w + Ms) = hýriť
@@ -519,6 +559,51 @@
 3 AV korzystnie {korzystnie} [kɔˈʐɨstɲɛ] = blahodarne
 3 AV upajająco {upajająco} [upajaˈjɔntsɔ] = opojne
 3 AV pochlebnie {pochlebnie} [pɔˈxlɛbɲɛ] = lichotivo
+2 V przygnębiać {przygnębiać} [pʂɨˈɡnɛmbʲatɕ], przygnębić (B) = skľučovať
+2 AN pełen podziwu {pełen podziwu} [ˈpɛwɛn pɔˈdʑivu] = obdivný
+2 N zdziwienie {zdziwienie} [zdʑiˈvʲɛɲɛ], n, zdziwienia = údiv
+1 AN zdziwiony {zdziwiony} [zdʑiˈvʲɔnɨ] = udivený
+2 AN zniesmaczony {zniesmaczony} [zɲɛsmaˈtʂɔnɨ] = znechutený
+2 AN zniechęcony {zniechęcony} [zɲɛxɛnˈtsɔnɨ] = znechutený
+2 V zniechęcać {zniechęcać} [zɲɛˈxɛntsatɕ], zniechęcić (B) = znechutiť
+3 N złośliwa radość {złośliwa radość} [zwɔɕˈliva ˈradɔɕtɕ], ż, - = škodoradosť
+2 AN złośliwy {złośliwy} [zwɔɕˈlivɨ] = škodoradostný
+2 V litować się {litować się} [liˈtɔvatɕ ɕɛ], zlitować się (nad + N) = zľutovať sa
+2 AN miłosierny {miłosierny} [mʲiwɔˈɕɛrnɨ] = milosrdný
+2 N atrakcyjność {atrakcyjność} [atrakˈtsɨjnɔɕtɕ], ż, atrakcyjności = príťažlivosť
+2 N przyciąganie {przyciąganie} [pʂɨtɕɔŋˈɡaɲɛ], n, przyciągania = príťažlivosť
+3 AN rozpromieniony {roz|promieniony} [rɔsprɔmʲɛˈɲɔnɨ] = rozjašený
+2 AN podekscytowany {podekscytowany} [pɔdɛkstsɨtɔˈvanɨ] = rozjašený
+3 N zadurzenie {zadurzenie} [zaduˈʐɛɲɛ], n, zadurzenia = poblúznenie
+1 AN zaniepokojony {zaniepokojony} [zaɲɛpɔkɔˈjɔnɨ] = znepokojený
+2 AN zszokowany {zszokowany} [ʂʂɔkɔˈvanɨ] = šokovaný
+2 V zaskakiwać {zaskakiwać} [zaskaˈkivatɕ], zaskoczyć (B) = zaraziť
+1 AN zaskoczony {zaskoczony} [zaskɔˈtʂɔnɨ] = zarazený
+2 AN lękliwy {lękliwy} [lɛŋˈklivɨ] = úzkostlivý
+3 AN naburmuszony {naburmuszony} [naburmuˈʂɔnɨ] = namosúrený
+3 AN przewrażliwiony {przewrażliwiony} [pʂɛvraʐliˈvʲɔnɨ] = precitlivený
+3 AN przeczulony {przeczulony} [pʂɛtʂuˈlɔnɨ] = precitlivený
+3 V wczuwać się {wczuwać się} [ˈftʂuvatɕ ɕɛ], wczuć się (w + B) = vcítiť sa
+2 V przerazić się {przerazić się} [pʂɛˈraʑitɕ ɕɛ], dk (N) = zhroziť sa
+1 N niepokój {niepokój} [ɲɛˈpɔkuj], m, niepokoje = znepokojenie
+3 N zaniepokojenie {zaniepokojenie} [zaɲɛpɔkɔˈjɛɲɛ], n, zaniepokojenia = znepokojenie
+2 V zastraszać {zastraszać} [zaˈstraʂatɕ], zastraszyć (B) = zastrašiť
+2 AN tęskny {tęskny} [ˈtɛ̃sknɨ] = túžobný
+2 AN zirytowany {zirytowany} [zirɨtɔˈvanɨ] = podráždený
+3 AN podrażniony {podrażniony} [pɔdraʐˈɲɔnɨ] = podráždený
+3 N rozdrażnienie {rozdrażnienie} [rɔzdraʐˈɲɛɲɛ], n, rozdrażnienia = podráždenosť
+3 N irytacja {irytacja} [irɨˈtatsja], ż, irytacje = podráždenosť
+3 V zatruwać życie {zatruwać życie} [zaˈtruvatɕ ˈʐɨtɕɛ], zatruć życie (C) = strpčiť
+2 V dąsać się {dąsać się} [ˈdɔ̃satɕ ɕɛ], nadąsać się (na + B) = durdiť sa
+2 AN wzburzony {wzburzony} [vzbuˈʐɔnɨ] = rozčúlený
+2 N wesołość {wesołość} [vɛˈsɔwɔɕtɕ], ż, wesołości = veselosť
+2 V irytować {irytować} [irɨˈtɔvatɕ], zirytować (B) = mrzieť
+2 V martwić {martwić} [ˈmartfʲitɕ], zmartwić (B) = mrzieť
+2 AN zmartwiony {zmartwiony} [zmarˈtfʲɔnɨ] = utrápený
+3 AN udręczony {udręczony} [udrɛnˈtʂɔnɨ] = utrápený
+2 V zasmucać {zasmucać} [zaˈsmutsatɕ], zasmucić (B) = zarmútiť
+2 V rozweselać {rozweselać} [rɔzvɛˈsɛlatɕ], rozweselić (B) = rozveseliť
+3 N rozweselenie {rozweselenie} [rɔzvɛsɛˈlɛɲɛ], n, rozweselenia = rozveselenie
 
 # more
 1 AN ukochany {ukochany} [ukɔˈxanɨ] = milovaný

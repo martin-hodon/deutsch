@@ -49,6 +49,8 @@
 2 N la lente d'ingrandimento {lente d'ingrandimento} [ˈlɛnte diŋɡrandiˈmento], lenti d'ingrandimento = lupa
 2 V ticchettare {ticchettare} [tikːeˈtːaːre] = tikať
 3 AN idraulico {idraulico} [iˈdrauːliko], idraulica, idraulici/idrauliche = hydraulický
+3 AN regolabile {regolabile} [reɡoˈlaːbile] = nastaviteľný
+3 N il pistone {pistone} [pisˈtoːne], pistoni = piest
 
 # electricity-energy
 1 N la batteria {batteria} [batːeˈriːa], batterie = batéria
@@ -92,6 +94,7 @@
 3 N il chilowattora {chilowattora} [kilowaˈtːoːra], chilowattora = kilowatthodina
 2 N il watt {watt} [vat], watt = watt
 1 V scaricare {scaricare} [skariˈkaːre] = vyložiť
+3 N il cortocircuito {corto|circuito} [kortotʃirˈkuːito], cortocircuiti = skrat
 
 # computing-communication-devices
 1 N il computer {computer} [komˈpjuːter], computer = počítač
@@ -266,6 +269,10 @@
 2 N il caricamento {caricamento} [karikaˈmento], caricamenti = nahratie
 2 AV offline {offline} [ofˈlain] = offline
 3 V rimpicciolire {rimpicciolire} [rimpittʃoˈliːre], isc = oddialiť
+3 N la barra spaziatrice {barra spaziatrice} [ˈbarːa spattsjaˈtriːtʃe], barre spaziatrici = medzerník
+3 N la RAM {RAM} [ˈram], - = operačná pamäť
+3 N l'enumerazione (f) {enumerazione} [enumeraˈttsjoːne], enumerazioni = enumerácia
+2 N la costante {costante} [kosˈtante], costanti = konštanta
 
 # devices
 2 V smontare {smontare} [zmonˈtaːre] = demontovať
@@ -273,6 +280,7 @@
 2 N il raccoglitore {raccoglitore} [rakːoʎːiˈtoːre], raccoglitori = zakladač
 2 N la cartella {cartella} [karˈtɛlːa], cartelle = zakladač
 2 N lo sportello {sportello} [sporˈtɛlːo], sportelli = okienko
+2 N la protezione {protezione} [proteˈttsjoːne], protezioni = kryt
 
 # more
 2 N il tweet {tweet} [ˈtwit], tweet = tweet

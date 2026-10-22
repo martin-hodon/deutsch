@@ -40,6 +40,19 @@
 2 N sunflower oil {sunflower oil} [ˈsʌnflaʊər ɔɪl], - = slnečnicový olej
 2 N herbs {herbs} [hɜːbz], PL = bylinky
 3 AN inedible {in|edible} [ɪnˈedɪbəl] = nejedlý
+2 N bicarbonate of soda {bicarbonate of soda} [baɪˌkɑːbənət əv ˈsəʊdə], - = jedlá sóda
+2 N baking soda {baking soda} [ˈbeɪkɪŋ ˌsəʊdə], - = jedlá sóda
+2 N yeast dough {yeast dough} [ˈjiːst dəʊ], - = kysnuté cesto
+2 N filling {fill|ing} [ˈfɪlɪŋ], fillings = plnka
+3 N lard {lard} [lɑːd], - = bravčová masť
+3 N rusk {rusk} [rʌsk], rusks = suchár
+3 N tallow {tallow} [ˈtæləʊ], - = loj
+3 N afternoon snack {afternoon snack} [ˌɑːftəˌnuːn ˈsnæk], afternoon snacks = olovrant
+2 N leftovers {leftovers} [ˈleftˌəʊvəz], PL = zvyšky jedla
+3 N aspic {aspic} [ˈæspɪk], - = rôsol
+2 N dairy {dairy} [ˈdeəri], dairies = mliekáreň
+2 N dressing {dress|ing} [ˈdresɪŋ], dressings = dresing
+2 N mouthful {mouth|ful} [ˈmaʊθfʊl], mouthfuls = sústo
 # staples
 1 N bread {bread} [bred], - = chlieb
 2 N roll {roll} [rəʊl], rolls = žemľa
@@ -123,6 +136,18 @@
 2 N lentil {lentil} [ˈlentəl], lentils = šošovica
 2 N tofu {tofu} [ˈtəʊfuː], - = tofu
 2 N taco {taco} [ˈtækəʊ], tacos = taco
+2 N pesto {pesto} [ˈpestəʊ], - = pesto
+2 N croissant {croissant} [ˈkwæsɒn], croissants = rožok
+2 N loaf {loaf} [ləʊf], loaves = bochník
+3 N plaited loaf {plaited loaf} [ˌplætɪd ˈləʊf], plaited loaves = vianočka
+2 N open sandwich {open sandwich} [ˌəʊpən ˈsænwɪdʒ], open sandwiches = obložený chlieb
+3 N potato noodles {potato noodles} [pəˈteɪtəʊ ˌnuːdəlz], PL = šúľance
+3 N elbow macaroni {elbow macaroni} [ˌelbəʊ ˌmækəˈrəʊni], - = kolienka
+3 N spaetzle {spaetzle} [ˈʃpetslə], - = halušky
+3 N pulp {pulp} [pʌlp], - = pretlak
+2 N purée {purée} [ˈpjʊəreɪ], purées = pyré
+2 N noodles {noodles} [ˈnuːdəlz], PL = rezance
+2 N gnocchi {gnocchi} [ˈnjɒki], - = gnocchi
 # meat-fish-food
 1 N beef {beef} [biːf], - = hovädzie mäso
 1 N pork {pork} [pɔːk], - = bravčové mäso
@@ -153,6 +178,12 @@
 2 N sushi {sushi} [ˈsuːʃɪ], - = suši
 2 V gain weight {gain weight} [ɡeɪn ˈweɪt] = pribrať
 2 V put on weight {put on weight} [pʊt ɒn ˈweɪt], put on weight/put on weight = pribrať
+3 N liver sausage {liver sausage} [ˌlɪvə ˈsɒsɪdʒ], liver sausages = jaternica
+2 N smoked meat {smoked meat} [ˌsməʊkt ˈmiːt], - = údené mäso
+3 N tripe {tripe} [traɪp], - = držky
+2 N salted meat {salted meat} [ˌsɔːltɪd ˈmiːt], - = solené mäso
+2 N fish oil {fish oil} [ˌfɪʃ ˈɔɪl], - = rybí tuk
+3 N brawn {brawn} [brɔːn], - = tlačenka
 # fruits
 1 N fruit {fruit} [fruːt], - = ovocie
 1 N apple {apple} [ˈæpəl], apples = jablko
@@ -198,6 +229,16 @@
 2 N raisin {raisin} [ˈreɪzən], raisins = hrozienko
 2 N lime {lime} [laɪm], limes = limetka
 2 N grapefruit {grape|fruit} [ˈɡreɪpfruːt], grapefruits = grapefruit
+2 N tangerine {tangerine} [ˌtændʒəˈriːn], tangerines = mandarínka
+3 N mandarin {mandarin} [ˈmændərɪn], mandarins = mandarínka
+3 N persimmon {persimmon} [pəˈsɪmən], persimmons = kaki
+2 N sour cherry {sour cherry} [ˌsaʊə ˈtʃeri], sour cherries = višňa
+3 N mulberry {mul|berry} [ˈmʌlbəri], mulberries = moruša
+2 N pistachio {pistachio} [pɪˈstɑːʃiəʊ], pistachios = pistácia
+2 N pecan {pecan} [ˈpiːkæn], pecans = pekanový orech
+2 N cashew nut {cashew nut} [ˈkæʃuː nʌt], cashew nuts = kešu orech
+2 N Brazil nut {Brazil nut} [brəˈzɪl nʌt], Brazil nuts = para orech
+2 N almond {almond} [ˈɑːmənd], almonds = mandľa
 # vegetables
 1 N vegetable {vegetable} [ˈvedʒtəbəl], vegetables = zelenina
 1 N potato {potato} [pəˈteɪtəʊ], potatoes = zemiak
@@ -237,6 +278,16 @@
 2 N leek {leek} [liːk], leeks = pór (zelenina)
 2 N asparagus {asparagus} [əˈspærəɡəs], - = špargľa
 2 N mushroom {mushroom} [ˈmʌʃruːm], mushrooms = šampiňón
+2 N rhubarb {rhubarb} [ˈruːbɑːb], - = rebarbora
+2 N artichoke {artichoke} [ˈɑːtɪtʃəʊk], artichokes = artičok
+2 N kale {kale} [keɪl], - = kučeravá kapusta
+2 N kohlrabi {kohlrabi} [kəʊlˈrɑːbi], kohlrabis = kaleráb
+3 N wild garlic {wild garlic} [ˌwaɪld ˈɡɑːlɪk], - = medvedí cesnak
+3 N pulse {pulse} [pʌls], pulses = strukovina
+3 N legume {legume} [ˈleɡjuːm], legumes = strukovina
+2 N chickpea {chick|pea} [ˈtʃɪkpiː], chickpeas = cícer
+2 N horseradish {horse|radish} [ˈhɔːsˌrædɪʃ], - = chren
+2 N chives {chives} [tʃaɪvz], PL = pažítka
 # sweets-drinks
 1 N cake {cake} [keɪk], cakes = koláč
 2 N pancake {pan|cake} [ˈpænkeɪk], pancakes = palacinka
@@ -288,6 +339,18 @@
 1 N crisps {crisps} [krɪsps], PL = čipsy
 2 N caramel {caramel} [ˈkærəmel], - = karamel
 2 N jelly {jelly} [ˈdʒelɪ], jellies = želé
+2 N toast {toast} [təʊst], toasts = prípitok
+3 N concoction {concoction} [kənˈkɒkʃən], concoctions = žbrnda
+3 N mead {mead} [miːd], - = medovina
+2 N spirits {spirits} [ˈspɪrɪts], PL = liehovina
+2 N stewed fruit {stewed fruit} [ˌstjuːd ˈfruːt], - = kompót
+3 N compote {compote} [ˈkɒmpɒt], compotes = kompót
+2 N cake shop {cake shop} [ˈkeɪk ʃɒp], cake shops = cukráreň
+3 N Bundt cake {Bundt cake} [ˈbʌnt keɪk], Bundt cakes = bábovka
+3 N chimney cake {chimney cake} [ˈtʃɪmni keɪk], chimney cakes = trdelník
+2 N lollipop {lollipop} [ˈlɒlipɒp], lollipops = lízanka
+2 N liquorice {liquorice} [ˈlɪkərɪs], - = pendrek (sladkosť)
+3 N pastry ring {pastry ring} [ˈpeɪstri rɪŋ], pastry rings = venček
 # cooking
 1 V cook {cook} [kʊk] (sth) = variť
 2 N cook {cook} [kʊk], cooks = kuchár
@@ -346,6 +409,22 @@
 2 N mix {mix} [mɪks], mixes = zmes
 3 N blend {blend} [blend], blends = zmes
 3 V sample {sample} [ˈsɑːmpəl] (sth) = ochutnať
+3 V curdle {curdle} [ˈkɜːdəl] = zraziť sa (mlieko)
+3 N infusion {infusion} [ɪnˈfjuːʒən], infusions = nálev
+3 V brown {brown} [braʊn] (sth) = zapiecť
+3 V scorch {scorch} [skɔːtʃ] (sth) = pripáliť
+2 V melt {melt} [melt] (sth) = roztopiť
+2 V juice {juice} [dʒuːs] (sth) = odšťaviť
+2 V ferment {ferment} [fəˈment] = kvasiť
+2 V strain {strain} [streɪn] (sth) = cediť
+2 V oversalt {over|salt} [ˌəʊvəˈsɔːlt] (sth) = presoliť
+3 N fermentation {fermentation} [ˌfɜːmenˈteɪʃən], - = kvasenie
+3 V satiate {satiate} [ˈseɪʃieɪt] (sb) = zasýtiť
+2 V grate {grate} [ɡreɪt] (sth) = strúhať
+3 V gut {gut} [ɡʌt] (sth) = vyvrhnúť
+3 V pour off {pour·off} [pɔː ˈɒf] (sth) = odliať
+2 V pour out {pour·out} [pɔːr ˈaʊt] (sth) = vyliať
+3 V top up {top·up} [tɒp ˈʌp] (sth) = doliať
 # kitchen-tools
 1 N knife {knife} [naɪf], knives = nôž
 2 N pocket knife {pocket knife} [ˈpɒkɪt naɪf], pocket knives = vreckový nôž
@@ -400,6 +479,18 @@
 2 N kitchen knife {kitchen knife} [ˈkɪtʃɪn naɪf], kitchen knives = kuchynský nôž
 2 N menu {menu} [ˈmenjuː], menus = menu
 2 N restaurant {restaurant} [ˈrestrɒnt], restaurants = pohostinstvo
+2 N nutcracker {nut|cracker} [ˈnʌtˌkrækə], nutcrackers = luskáčik
+3 N tub {tub} [tʌb], tubs = kelímok
+2 N goblet {goblet} [ˈɡɒblət], goblets = čaša
+2 N saucepan {sauce|pan} [ˈsɔːspən], saucepans = kastról
+2 N peeler {peeler} [ˈpiːlə], peelers = škrabka
+2 N rolling pin {rolling pin} [ˈrəʊlɪŋ pɪn], rolling pins = valček na cesto
+2 N measuring jug {measuring jug} [ˈmeʒərɪŋ dʒʌɡ], measuring jugs = odmerka
+2 N chopping board {chopping board} [ˈtʃɒpɪŋ bɔːd], chopping boards = doska na krájanie
+3 N skimmer {skimmer} [ˈskɪmə], skimmers = zberačka
+2 N spit {spit} [spɪt], spits = ražeň
+2 N juicer {juicer} [ˈdʒuːsə], juicers = odšťavovač
+2 N jug {jug} [dʒʌɡ], jugs = kanvica
 # taste-quality
 1 N taste {taste} [teɪst], tastes = chuť (na jazyku)
 3 AN tasteless {taste|less} [ˈteɪstləs] = nechutný
@@ -425,6 +516,11 @@
 1 AN cooked {cook|ed} [kʊkt] = varený
 2 AN boiled {boil|ed} [bɔɪld] = varený
 3 AN tasteless {taste|less} [ˈteɪstləs] = nevkusný
+2 AN precooked {pre|cooked} [ˌpriːˈkʊkt] = predvarený
+3 AN parboiled {par|boiled} [ˈpɑːbɔɪld] = predvarený
+2 AN expired {expired} [ɪkˈspaɪəd] = expirovaný
+2 AN tart {tart} [tɑːt] = trpký
+3 AN astringent {astringent} [əˈstrɪndʒənt] = trpký
 
 # more
 2 N grocery {grocery} [ˈɡrəʊsəri], groceries = potravina

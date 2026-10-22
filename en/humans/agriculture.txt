@@ -55,6 +55,27 @@
 3 N silo {silo} [ˈsaɪləʊ], silos = silo
 3 N spade {spade} [speɪd], spades = rýľ
 3 V cultivate {cultiv|ate} [ˈkʌltɪveɪt] = kultivovať
+3 V transplant {transplant} [trænsˈplɑːnt] = presadiť (rastlinu)
+3 V replant {re|plant} [riːˈplɑːnt] = presadiť (rastlinu)
+3 V weed {weed} [wiːd] = plieť
+3 N fallow {fallow} [ˈfæləʊ], fallows = prieloh
+3 N fallow land {fallow land} [ˈfæləʊ ˈlænd], - = prieloh
+3 V harrow {harrow} [ˈhærəʊ] = kypriť
+3 N firebreak {fire|break} [ˈfaɪəbreɪk], firebreaks = priesek
+3 N clearing {clear|ing} [ˈklɪərɪŋ], clearings = priesek
+3 N deforestation {deforestation} [diːˌfɒrɪˈsteɪʃn], - = výrub
+3 N felling {fell|ing} [ˈfelɪŋ], - = výrub
+2 V clear {clear} [klɪə] = vyrúbať
+3 V fell {fell} [fel] = vyrúbať
+3 V deforest {de|forest} [diːˈfɒrɪst] = vyrúbať
+2 V pick {pick} [pɪk] = oberať
+2 N harvest {harvest} [ˈhɑːvɪst], harvests = žatva
+3 N sowing {sow|ing} [ˈsəʊɪŋ], sowings = osev
+3 N wicker {wicker} [ˈwɪkə], - = prútie
+3 N osier {osier} [ˈəʊʒə], osiers = prútie
+3 N ploughing {plough|ing} [ˈplaʊɪŋ], - = orba
+3 V dig {dig} [dɪɡ], dug/dug = rýľovať
+3 V spade {spade} [speɪd] = rýľovať
 # crops
 2 N grain {grain} [ɡreɪn], - = obilie
 3 N cereal {cereal} [ˈsɪəriəl], cereals = obilie
@@ -73,6 +94,8 @@
 2 N straw {straw} [strɔː], - = slama
 3 N seedling {seed|ling} [ˈsiːdlɪŋ], seedlings = sadenica
 3 N bale {bale} [beɪl], bales = bala
+3 N millet {millet} [ˈmɪlɪt], - = proso
+3 N malt {malt} [mɔːlt], - = slad
 # livestock-keeping
 2 N livestock {live|stock} [ˈlaɪvstɒk], - = dobytok
 2 N herd {herd} [hɜːd], herds = stádo
@@ -108,6 +131,26 @@
 3 N kennel {kennel} [ˈkenəl], kennels = búda
 2 N rider {rider} [ˈraɪdə], riders = jazdec
 3 N feed {feed} [fiːd], - = krmivo
+3 N yoke {yoke} [jəʊk], yokes = jarmo
+3 N sow {sow} [saʊ], sows = prasnica
+3 N boar {boar} [bɔː], boars = kanec
+3 N kid {kid} [kɪd], kids = kozľa
+3 N black horse {black horse} [ˈblæk ˈhɔːs], black horses = vraník
+2 N bridle {bridle} [ˈbraɪdl], bridles = uzda
+3 N reins {reins} [reɪnz], PL = opraty
+3 N stirrup {stirrup} [ˈstɪrəp], stirrups = strmeň
+3 N spur {spur} [spɜː], spurs = ostroha
+2 N whip {whip} [wɪp], whips = bič
+3 V whip {whip} [wɪp] = bičovať
+3 V flog {flog} [flɒɡ] = bičovať
+3 N muzzle {muzzle} [ˈmʌzl], muzzles = náhubok
+2 N collar {collar} [ˈkɒlə], collars = obojok
+3 N dog collar {dog collar} [ˈdɒɡ ˌkɒlə], dog collars = obojok
+3 V harness {harness} [ˈhɑːnɪs] = zapriahnuť
+3 V yoke {yoke} [jəʊk] = zapriahnuť
+3 N cowbell {cow|bell} [ˈkaʊbel], cowbells = zvonec
+2 N lash {lash} [læʃ], lashes = šľahnutie
+3 N whiplash {whip|lash} [ˈwɪplæʃ], whiplashes = šľahnutie
 # garden-hunt-fish
 1 N garden {garden} [ˈɡɑːdən], gardens = záhrada
 2 N gardener {garden|er} [ˈɡɑːdənə], gardeners = záhradník
@@ -134,3 +177,10 @@
 2 N garden hose {garden hose} [ˈɡɑːdən ˌhəʊz], garden hoses = záhradná hadica
 3 N cowshed {cow|shed} [ˈkaʊʃed], cowsheds = chlev
 3 N pigsty {pig|sty} [ˈpɪɡstaɪ], pigsties = chlev
+2 N lumberjack {lumber|jack} [ˈlʌmbədʒæk], lumberjacks = drevorubač
+3 N woodcutter {wood|cutter} [ˈwʊdˌkʌtə], woodcutters = drevorubač
+3 V gut {gut} [ɡʌt] = vypitvať
+3 V disembowel {dis|em|bowel} [ˌdɪsɪmˈbaʊəl] = vypitvať
+2 N hook {hook} [hʊk], hooks = háčik
+3 N fish hook {fish hook} [ˈfɪʃ ˌhʊk], fish hooks = háčik
+3 N reel {reel} [riːl], reels = navijak

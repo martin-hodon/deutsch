@@ -172,6 +172,28 @@
 3 AN nominal {nominal} [nomiˈnaːl] = menný, nominálny
 3 AN unlogisch {un|logisch} [ˈʊnloːɡɪʃ] = nelogický
 3 AN inkompetent {inkompetent} [ˈɪnkɔmpetɛnt] = nekompetentný
+2 N der Kern {Kern} [kɛʁn], Kerne = podstata
+3 AN erträumt {er|träumt} [ɛɐˈtʁɔʏmt] = vysnívaný
+3 N die Deduktion {Deduktion} [dedʊkˈtsjoːn], Deduktionen = dedukcia
+3 V verkennen {ver|kennen} [fɛɐˈkɛnən], verkennt/verkannte/verkannt, hat (A) = nedoceniť
+3 N die Gesinnung {Gesinnung} [ɡəˈzɪnʊŋ], Gesinnungen = zmýšľanie
+3 N das Unterbewusstsein {Unter|bewusst|sein} [ˈʊntɐbəvʊstzaɪn], - = podvedomie
+3 N das Trugbild {Trug|bild} [ˈtʁuːkbɪlt], Trugbilder = ilúzia
+3 N die Einwendung {Ein|wendung} [ˈaɪnvɛndʊŋ], Einwendungen = námietka
+3 N die Verrücktheit {Ver|rückt|heit} [fɛɐˈʁʏkthaɪt], Verrücktheiten = šialenstvo
+3 N die Achtsamkeit {Acht|sam|keit} [ˈaxtzaːmkaɪt], - = pozornosť
+3 N der Ansporn {An|sporn} [ˈanʃpɔʁn], - = motivácia
+3 V flunkern {flunkern} [ˈflʊŋkɐn], hat = vymýšľať
+2 V ausdenken {aus·denken} [ˈaʊsdɛŋkən], denkt aus/dachte aus/ausgedacht [dɛŋkt aʊs/ˈdaxtə aʊs/ˈaʊsɡədaxt], hat (A) = vymýšľať
+3 V erdenken {er|denken} [ɛɐˈdɛŋkən], erdenkt/erdachte/erdacht [ɛɐˈdɛŋkt/ɛɐˈdaxtə/ɛɐˈdaxt], hat (A) = vymýšľať
+3 V ersinnen {er|sinnen} [ɛɐˈzɪnən], ersinnt/ersann/ersonnen [ɛɐˈzɪnt/ɛɐˈzan/ɛɐˈzɔnən], hat (A) = vymýšľať
+3 AN gescheit {gescheit} [ɡəˈʃaɪt] = rozumný
+3 AN verständig {ver|ständig} [fɛɐˈʃtɛndɪç] = rozumný
+3 AN töricht {töricht} [ˈtøːʁɪçt] = nerozumný
+3 V sinnen {sinnen} [ˈzɪnən], sinnt/sann/gesonnen [zɪnt/zan/ɡəˈzɔnən], hat (über A) = dumať
+3 V nachsinnen {nach·sinnen} [ˈnaːxzɪnən], sinnt nach/sann nach/nachgesonnen [zɪnt naːx/zan naːx/ˈnaːxɡəzɔnən], hat (über A) = premýšľať
+3 V brüten {brüten} [ˈbʁyːtən], hat (über D) = premýšľať
+2 V sich einbilden {sich ein·bilden} [zɪç ˈaɪnbɪldən], hat (D) = predstaviť si
 
 # knowing
 1 V wissen {wissen} [ˈvɪsən], weiß/wusste/gewusst [vaɪs/vʊstə/ɡəˈvʊst], hat = vedieť
@@ -296,6 +318,19 @@
 3 V imitieren {imitieren} [imiˈtiːʁən], hat (A) = napodobňovať, imitovať
 3 V entlarven {ent|larven} [ɛntˈlaʁfən], hat (A) = demaskovať, odhaliť
 3 N die Unwissenheit {Un|wissenheit} [ˈʊnvɪsənhaɪt], - = nevedomosť
+3 N die Verständlichkeit {Ver|ständ|lich|keit} [fɛɐˈʃtɛntlɪçkaɪt], - = zrozumiteľnosť
+2 V unterscheiden {unter|scheiden} [ʊntɐˈʃaɪdən], unterscheidet/unterschied/unterschieden, hat (A, von D) = rozoznať
+3 V beirren {be|irren} [bəˈɪʁən], hat (A) = zmiasť
+3 N das Tohuwabohu {Tohuwabohu} [toːhuˈvaːboːhu], Tohuwabohus = zmätok
+3 V würdigen {würdigen} [ˈvʏʁdɪɡən], hat (A) = uznať
+3 V begutachten {be|gut|achten} [bəˈɡuːtaxtən], hat (A) = posúdiť
+3 N der Patzer {Patzer} [ˈpatsɐ], Patzer = chyba
+3 AN verworren {ver|worren} [fɛɐˈvɔʁən] = zmätený
+3 AN verdattert {ver|dattert} [fɛɐˈdatɐt] = zmätený
+3 V verzagen {ver|zagen} [fɛɐˈtsaːɡən], hat = zúfalieť
+3 V erahnen {er|ahnen} [ɛɐˈaːnən], hat (A) = tušiť
+3 V mutmaßen {mut|maßen} [ˈmuːtmaːsən], hat (A) = domnievať sa
+3 AN unterschwellig {unter|schwellig} [ˈʊntɐʃvɛlɪç] = podvedomý
 
 # memory
 2 N das Gedächtnis {Gedächtnis} [ɡəˈdɛçtnɪs], Gedächtnisse = pamäť (schopnosť)
@@ -310,6 +345,11 @@
 3 V sich besinnen {sich be|sinnen} [zɪç bəˈzɪnən], besinnt/besann/besonnen [bəˈzɪnt/bəˈzan/bəˈzɔnən], hat (auf A) = spamätať sa, rozpamätať sa, zamyslieť sa
 - 3 N die Besinnung {Besinnung} [bəˈzɪnʊŋ], - = rozjímanie, vedomie
 3 N der Alptraum {Alp|traum} [ˈalptʁaʊm], Alpträume = nočná mora
+3 N die Vergesslichkeit {Ver|gess|lich|keit} [fɛɐˈɡɛslɪçkaɪt], - = zábudlivosť
+3 V einschärfen {ein·schärfen} [ˈaɪnʃɛʁfən], hat (D A) = vštepovať
+2 AV auswendig {auswendig} [ˈaʊsvɛndɪç] = naspamäť
+3 V verlernen {ver|lernen} [fɛɐˈlɛʁnən], hat (A) = zabudnúť
+3 V sich entsinnen {sich ent|sinnen} [zɪç ɛntˈzɪnən], entsinnt/entsann/entsonnen [ɛntˈzɪnt/ɛntˈzan/ɛntˈzɔnən], hat (G, an A) = spomínať si
 
 # intelligence
 2 N die Intelligenz {Intelligenz} [ɪntɛliˈɡɛnts], - = inteligencia
@@ -336,6 +376,12 @@
 - 3 AN scharfsinnig {scharf|sinnig} [ˈʃaʁfzɪnɪç] = bystrý, ostrovtipný
 3 AN absurd {absurd} [apˈzʊʁt] = absurdný
 3 AN doof {doof} [doːf] = hlúpy, nudný (hovor.)
+2 N die Begabung {Be|gabung} [bəˈɡaːbʊŋ], Begabungen = talent
+3 AN durchgeknallt {durch|geknallt} [ˈdʊʁçɡəknalt] = bláznivý
+2 AN begabt {be|gabt} [bəˈɡaːpt] = talentovaný
+3 AN abgefeimt {ab|ge|feimt} [ˈapɡəfaɪmt] = prefíkaný
+3 AN gewieft {gewieft} [ɡəˈviːft] = prefíkaný
+3 AN pfiffig {pfiffig} [ˈpfɪfɪç] = bystrý
 
 # problems
 1 N das Problem {Problem} [pʁoˈbleːm], Probleme = problém
@@ -379,6 +425,12 @@
 3 V polarisieren {polarisieren} [polaʁiˈziːʁən], hat = polarizovať
 3 V fundieren {fundieren} [fʊnˈdiːʁən], hat (A) = podložiť, založiť
 1 V recht haben {recht haben} [ʁɛçt ˈhaːbən], hat recht/hatte recht/recht gehabt [hat ʁɛçt/ˈhatə ʁɛçt/ʁɛçt ɡəˈhaːpt], hat = mať pravdu
+2 V durchdrehen {durch·drehen} [ˈdʊʁçdʁeːən], hat = zblázniť sa
+3 V fantasieren {fantasieren} [fantaˈziːʁən], hat = blúzniť
+3 N das Malheur {Malheur} [maˈløːɐ], Malheure = malér
+3 N die Bredouille {Bredouille} [bʁeˈdʊljə], - = šlamastika
+3 V verwickeln {ver|wickeln} [fɛɐˈvɪkəln], hat (A, in A) = zapliesť do problémov
+3 AN gelöst {ge|löst} [ɡəˈløːst] = vyriešený
 
 # more
 2 V betrachten {be|trachten} [bəˈtʁaxtən], hat (A als A) = považovať

@@ -65,6 +65,8 @@
 2 N 电器 {电器} [diànqì], 件 = domáci spotrebič
 2 N 线路 {线路} [xiànlù], 条 = obvod
 2 N 仪器 {仪器} [yíqì], 台 = prístroj
+3 AN 可调节 {可调节} [kětiáojié] = nastaviteľný
+3 N 活塞 {活塞} [huósāi], 个 = piest
 
 # electricity-energy
 2 N 电池 {电池} [diànchí], 节 = batéria
@@ -116,6 +118,7 @@
 3 N 瓦特 {瓦特} [wǎtè], - = watt
 2 V 卸货 {卸|货} [xièhuò] = vyložiť
 3 V 卸 {卸} [xiè] = vyložiť
+3 N 短路 {短路} [duǎnlù], 次 = skrat
 
 # computing-communication-devices
 1 N 电脑 {电脑} [diànnǎo], 台 = počítač
@@ -152,6 +155,7 @@
 2 N 密码 {密码} [mìmǎ], 个 = heslo
 1 N 互联网 {互联网} [hùliánwǎng], - = internet
 3 N 因特网 {因特网} [yīntèwǎng], - = internet
+2 N 网 {网} [wǎng], - = internet
 1 N 无线网 {无线网} [wúxiànwǎng], - = wifi
 2 N 无线网络 {无线网络} [wúxiàn wǎngluò], - = wifi
 2 N 网络 {网络} [wǎngluò], 个 = sieť (počítačová)
@@ -296,6 +300,12 @@
 2 AV 线下 {线下} [xiànxià] = offline
 2 V 缩小 {缩小} [suōxiǎo] = oddialiť
 3 V 拉远 {拉远} [lāyuǎn] = oddialiť
+3 N 空格键 {空格键} [kònggéjiàn], 个 = medzerník
+2 N 内存 {内存} [nèicún], - = operačná pamäť
+3 N 枚举 {枚举} [méijǔ], - = enumerácia
+3 N 常量 {常量} [chángliàng], 个 = konštanta
+3 N 常数 {常数} [chángshù], 个 = konštanta
+3 V 仿真 {仿真} [fǎngzhēn] = simulovať
 
 # devices
 3 V 拆卸 {拆卸} [chāixiè] = demontovať
@@ -303,6 +313,7 @@
 1 V 拍照 {拍|照} [pāizhào] = fotiť
 2 N 文件夹 {文件夹} [wénjiànjiā], 个 = zakladač
 2 N 窗口 {窗口} [chuāngkǒu], 个 = okienko
+3 N 防护罩 {防护罩} [fánghùzhào], 个 = kryt
 
 # more
 3 N 推文 {推文} [tuīwén], 条 = tweet

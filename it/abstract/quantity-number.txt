@@ -63,6 +63,7 @@
 2 AV infine {infine} [inˈfiːne] = napokon
 2 AV singolarmente {singolar|mente} [siŋɡoˈlaːrˈmente] = jednotlivo
 2 AV al cento per cento {al·cento·per·cento} [al ˈtʃɛnto per ˈtʃɛnto] = stopercentne
+2 N la frazione (f) {frazione} [fraˈtsjoːne], frazioni = zlomok
 
 # amount
 1 AN molto {molto} [ˈmolto], molta = veľa
@@ -169,6 +170,11 @@
 2 N il valore minimo {valore minimo} [vaˈloːre ˈmiːnimo], valori minimi = minimálna hodnota
 2 V slegare {slegare} [zleˈɡaːre] = rozviazať
 1 V sciogliere {sciogliere} [ˈʃɔʎːere], irr, sciolto = rozviazať
+2 AV a metà {a metà} [a meˈta] = napoly
+3 AV a sazietà {a sazietà} [a satsjeˈta] = dosýta
+3 N l'accumulo (m) {accumulo} [aˈkːuːmulo], accumuli = hromadenie
+3 AN eccedente {eccedente} [ettʃeˈdɛnte] = prebytočný
+3 AN superfluo {superfluo} [suˈpɛrfluo], superflua = prebytočný
 
 # counting-measuring
 1 N il numero {numero} [ˈnuːmero], numeri = číslo (matematické)
@@ -220,6 +226,17 @@
 2 NUM due e mezzo {due e mezzo} [ˈduːe e ˈmɛddzo] = dva a pol
 3 N il metro cubo {metro cubo} [ˈmɛːtro ˈkuːbo], metri cubi = kubický meter
 3 N il denominatore {denominatore} [denominaˈtoːre], denominatori = menovateľ
+2 V bilanciare {bilanciare} [bilanˈtʃaːre] = vyvážiť
+3 N il numero primo {numero primo} [ˈnuːmero ˈpriːmo], numeri primi = prvočíslo
+2 N la potenza (f) {potenza} [poˈtɛntsa], potenze = mocnina
+3 N l'addendo (m) {addendo} [aˈdːɛndo], addendi = sčítanec
+2 V sottrarre {sottrarre} [soˈtːrarːe], irr, sottratto = odčítať
+3 N il minuendo {minuendo} [minuˈɛndo], minuendi = menšenec
+3 N il sottraendo {sottraendo} [sotːraˈɛndo], sottraendi = menšiteľ
+3 N il dividendo {dividendo} [diviˈdɛndo], dividendi = delenec
+2 N il divisore {divisore} [diviˈzoːre], divisori = deliteľ
 
 # more
 3 N il bilione {bilione} [biˈljoːne], bilioni = bilión
+3 N il sottoinsieme {sotto|insieme} [sotːoinˈsjɛːme], sottoinsiemi = podmnožina
+3 N il sovrainsieme {sovra|insieme} [sovrainˈsjɛːme], sovrainsiemi = nadmnožina

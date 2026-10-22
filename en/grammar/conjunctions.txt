@@ -10,6 +10,10 @@
 2 CON both {both} [bəʊθ] = ako… tak aj
 2 CON neither {neither} [ˈnaɪðə] = ani
 2 CON or rather {or rather} [ɔː ˈrɑːðə] = respektíve
+3 CON on the one hand {on·the·one·hand} [ɒn ðə ˈwʌn ˈhænd] = jednak… jednak
+3 CON admittedly {admitted|ly} [ədˈmɪtɪdli] = síce… ale
+3 CON sometimes {some|times} [ˈsʌmtaɪmz] = niekedy… niekedy
+3 CON partly {part|ly} [ˈpɑːtli] = sčasti… sčasti
 # subordinating
 1 CON that {that} [ðæt] = že
 2 CON so that {so that} [ˈsəʊ ðæt] = takže
@@ -34,6 +38,8 @@
 1 CON after {after} [ˈɑːftə] = potom čo
 2 CON by {by} [baɪ] (-ing) = tým že
 1 PHR in order to {in order to} [ɪn ˈɔːdə tə] = aby
+3 CON all the more so as {all·the·more·so·as} [ɔːl ðə ˈmɔː səʊ əz] = tým skôr že
+2 CON as {as} [əz] = tak… ako
 # connecting-adverbs
 1 AV therefore {therefore} [ˈðeəfɔː] = preto
 1 AV so {so} [səʊ] = takže

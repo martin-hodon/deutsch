@@ -47,6 +47,23 @@
 3 N das Korsett {Korsett} [kɔʁˈzɛt], Korsette = korzet
 2 N die Windel {Windel} [ˈvɪndəl], Windeln = plienka
 3 N die Tracht {Tracht} [tʁaxt], Trachten = ľudový odev
+2 N das Sakko {Sakko} [ˈzako], Sakkos = sako
+3 N die Verkleidung {Ver|kleidung} [fɛɐˈklaɪdʊŋ], Verkleidungen = prestrojenie
+3 N das Gewand {Gewand} [ɡəˈvant], Gewänder = rúcho
+3 N der Slip {Slip} [slɪp], Slips = slipy
+2 N das Höschen {Höschen} [ˈhøːsçən], Höschen = nohavičky
+3 N der Schlüpfer {Schlüpfer} [ˈʃlʏpfɐ], Schlüpfer = nohavičky
+3 N der Slip {Slip} [slɪp], Slips = nohavičky
+3 N der Strumpfhalter {Strumpf|halter} [ˈʃtʁʊmpfhaltɐ], Strumpfhalter = podväzkový pás
+3 N der Smoking {Smoking} [ˈsmoːkɪŋ], Smokings = smoking
+2 N die Arbeitskleidung {Arbeits|kleidung} [ˈaʁbaɪtsklaɪdʊŋ], - = pracovný odev
+3 N der Pelzmantel {Pelz|mantel} [ˈpɛltsmantəl], Pelzmäntel = kožuch
+2 V sich umziehen {sich um·ziehen} [zɪç ˈʊmtsiːən], zieht um/zog um/umgezogen [tsiːt ʊm/tsoːk ʊm/ˈʊmɡətsoːɡən], hat = prezliecť sa
+3 V sich umkleiden {sich um·kleiden} [zɪç ˈʊmklaɪdən], hat = prezliecť sa
+3 N das Mieder {Mieder} [ˈmiːdɐ], Mieder = korzet
+3 N der Büstenhalter {Büsten|halter} [ˈbʏstənhaltɐ], Büstenhalter = podprsenka
+3 N das Wams {Wams} [vams], Wämser = vesta
+3 N die Klamotten {Klamotten} [klaˈmɔtən], PL = oblečenie
 
 # footwear-accessories
 1 N der Schuh {Schuh} [ʃuː], Schuhe = topánka
@@ -74,6 +91,13 @@
 3 N der Schirm {Schirm} [ʃɪʁm], Schirme = dáždnik, clona
 3 N das Portemonnaie {Portemonnaie} [pɔʁtmɔˈneː], Portemonnaies = peňaženka
 3 N der Geldbeutel {Geld|beutel} [ˈɡɛltbɔʏtəl], Geldbeutel = peňaženka
+3 N der Schuhlöffel {Schuh|löffel} [ˈʃuːlœfəl], Schuhlöffel = obuvák
+3 N die Pumps {Pumps} [pœmps], PL = lodičky
+2 N der Absatz {Ab|satz} [ˈapzats], Absätze = podpätok
+2 N die Flipflops {Flip|flops} [ˈflɪpflɔps], PL = žabky
+3 N die Schuhsohle {Schuh|sohle} [ˈʃuːzoːlə], Schuhsohlen = podrážka
+2 N der Pantoffel {Pantoffel} [panˈtɔfəl], Pantoffeln = papuča
+3 N die Geldtasche {Geld|tasche} [ˈɡɛltaʃə], Geldtaschen = peňaženka
 
 # parts-fasteners
 1 N die Tasche {Tasche} [ˈtaʃə], Taschen = taška, vrecko
@@ -92,6 +116,12 @@
 3 N die Schnalle {Schnalle} [ˈʃnalə], Schnallen = spona, pracka
 3 N der Flicken {Flicken} [ˈflɪkən], Flicken = záplata
 3 V aufknöpfen {auf·knöpfen} [ˈaʊfknœpfən], hat (A) = rozopnúť
+3 N der Hosenschlitz {Hosen|schlitz} [ˈhoːzənʃlɪts], Hosenschlitze = rázporok
+2 N die Schleife {Schleife} [ˈʃlaɪfə], Schleifen = mašľa
+3 N das Dekolleté {Dekolleté} [dekɔlˈteː], Dekolletés = dekolt
+3 N die Quaste {Quaste} [ˈkvastə], Quasten = strapec
+3 N das Futter {Futter} [ˈfʊtɐ], - = podšívka
+2 N die Tasche {Tasche} [ˈtaʃə], Taschen = vrecko na oblečení
 
 # materials-making
 2 N der Stoff {Stoff} [ʃtɔf], Stoffe = látka
@@ -136,6 +166,24 @@
 - 3 V schneidern {schneidern} [ˈʃnaɪdɐn], hat (A) = krajčíriť, šiť (na mieru)
 3 N der Fingerhut {Finger|hut} [ˈfɪŋɐhuːt], Fingerhüte = náprstok
 3 N die Schaufensterpuppe {Schau|fenster|puppe} [ˈʃaʊfɛnstɐpʊpə], Schaufensterpuppen = výkladná figurína
+3 N der Stoffrest {Stoff|rest} [ˈʃtɔfʁɛst], Stoffreste = ústrižok
+3 N das Knäuel {Knäuel} [ˈknɔʏəl], Knäuel = klbko
+3 N die Spindel {Spindel} [ˈʃpɪndəl], Spindeln = vreteno
+3 V auftrennen {auf·trennen} [ˈaʊftʁɛnən], hat (A) = párať
+3 V zunähen {zu·nähen} [ˈtsuːnɛːən], hat (A) = zašiť
+2 V annähen {an·nähen} [ˈannɛːən], hat (A) = prišiť
+3 V aufnähen {auf·nähen} [ˈaʊfnɛːən], hat (A) = prišiť
+3 V fransen {fransen} [ˈfʁanzən], hat = strapkať sa
+3 V ausfransen {aus·fransen} [ˈaʊsfʁanzən], hat/ist = strapkať sa
+3 N der Fetzen {Fetzen} [ˈfɛtsən], Fetzen = zdrap
+3 N die Faser {Faser} [ˈfaːzɐ], Fasern = vlákno
+3 V einfädeln {ein·fädeln} [ˈaɪnfɛːdəln], hat (A) = navliecť
+3 V auffädeln {auf·fädeln} [ˈaʊffɛːdəln], hat (A) = navliecť
+3 N der Plüsch {Plüsch} [plyːʃ], - = plyš
+3 N die Fussel {Fussel} [ˈfʊsəl], Fusseln = žmolok
+3 N das Nähgarn {Näh|garn} [ˈnɛːɡaʁn], Nähgarne = niť
+3 N der Zwirn {Zwirn} [tsvɪʁn], Zwirne = niť
+3 V flechten {flechten} [ˈflɛçtən], flicht/flocht/geflochten [flɪçt/flɔxt/ɡəˈflɔxtən], hat (A) = pliesť
 
 # wearing-jewelry
 1 V passen {passen} [ˈpasən], hat (D, zu D) = pasovať, hodiť sa
@@ -161,3 +209,9 @@
 2 N die Maske {Maske} [ˈmaskə], Masken = maska
 - 3 V maskieren {maskieren} [masˈkiːʁən], hat (sich A) = maskovať, zamaskovať
 2 AN angezogen {an|gezogen} [ˈanɡətsoːɡən] = oblečený
+2 V anhaben {an·haben} [ˈanhaːbən], hat an/hatte an/angehabt [hat an/ˈhatə an/ˈanɡəhaːpt], hat (A) = mať oblečené
+3 V umhaben {um·haben} [ˈʊmhaːbən], hat um/hatte um/umgehabt [hat ʊm/ˈhatə ʊm/ˈʊmɡəhaːpt], hat (A) = mať oblečené
+3 V sich herausputzen {sich heraus·putzen} [zɪç hɛˈʁaʊspʊtsən], hat = vyobliekať sa
+3 N das Schminken {Schminken} [ˈʃmɪŋkən], - = líčenie
+2 AN bloß {bloß} [bloːs] = nahý
+3 N der Klunker {Klunker} [ˈklʊŋkɐ], Klunker = klenot

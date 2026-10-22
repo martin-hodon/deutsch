@@ -39,6 +39,7 @@
 3 N 租客 {租客} [zūkè], 位 = nájomník
 1 N 房东 {房东} [fángdōng], 位 = prenajímateľ
 2 V 出租 {出租} [chūzū] = prenajať
+2 V 租 {租} [zū] = prenajať
 2 N 租赁合同 {租赁合同} [zūlìn hétong], 份 = nájomná zmluva
 2 N 租房合同 {租房合同} [zūfáng hétong], 份 = nájomná zmluva
 2 N 屋顶 {屋顶} [wūdǐng], 个 = strecha
@@ -91,6 +92,7 @@
 2 N 顶楼 {顶楼} [dǐnglóu], 层 = podkrovie
 3 N 阁楼 {阁楼} [gélóu], 间 = podkrovie
 2 N 楼层 {楼层} [lóucéng], 层 = poschodie
+1 N 楼 {楼} [lóu], 层 = poschodie
 2 N 烟囱 {烟囱} [yāncōng], 根 = komín
 3 N 烟囱清扫工 {烟囱清扫工} [yāncōng qīngsǎogōng], 名 = kominár
 2 N 壁炉 {壁炉} [bìlú], 个 = krb
@@ -167,6 +169,14 @@
 1 N 房屋 {房屋} [fángwū], 间 = dom
 2 N 窗子 {窗子} [chuāngzi], 扇 = okno
 2 N 家园 {家园} [jiāyuán], 个 = domov
+3 N 檐口 {檐口} [yánkǒu], 条 = rímsa
+3 N 栖身之所 {栖身之所} [qīshēnzhīsuǒ], - = prístrešie
+3 N 嵌入 {嵌入} [qiànrù], - = zabudovanie
+3 N 梯级 {梯级} [tījí], 级 = priečka rebríka
+3 N 找平层 {找平层} [zhǎopíngcéng], 层 = poter
+3 N 支柱 {支柱} [zhīzhù], 根 = pilier
+3 N 小门 {小门} [xiǎomén], 扇 = bránka
+3 N 棚屋 {棚屋} [péngwū], 间 = chatrč
 
 # rooms
 1 N 房间 {房间} [fángjiān], 间 = izba
@@ -191,6 +201,9 @@
 3 N 杂物间 {杂物间} [záwùjiān], 间 = komora
 2 N 屋 {屋} [wū], 间 = izba
 1 N 屋子 {屋子} [wūzi], 间 = izba
+3 N 门厅 {门厅} [méntīng], 个 = predsieň (chodba)
+2 N 客厅 {客厅} [kètīng], 间 = salón
+3 N 会客室 {会客室} [huìkèshì], 间 = salón
 
 # furniture
 1 N 家具 {家具} [jiājù], 件 = nábytok
@@ -249,6 +262,9 @@
 2 N 书柜 {书柜} [shūguì], 个 = polica na knihy
 2 N 台灯 {台灯} [táidēng], 盏 = lampa
 2 N 写字台 {写字台} [xiězìtái], 张 = písací stôl
+3 N 展示柜 {展示柜} [zhǎnshìguì], 个 = vitrína
+3 N 小柜子 {小柜子} [xiǎoguìzi], 个 = skrinka
+3 N 扶手 {扶手} [fúshou], 个 = opierka
 
 # household-objects
 1 N 钥匙 {钥匙} [yàoshi], 把 = kľúč
@@ -273,6 +289,7 @@
 1 N 钟 {钟} [zhōng], 个 = hodiny
 2 N 时钟 {时钟} [shízhōng], 个 = hodiny
 1 N 手表 {手表} [shǒubiǎo], 块 = náramkové hodinky
+1 N 表 {表} [biǎo], 块 = náramkové hodinky
 1 N 时间 {时间} [shíjiān], - = čas (na hodinách)
 2 N 闹钟 {闹钟} [nàozhōng], 个 = budík
 2 N 水桶 {水桶} [shuǐtǒng], 个 = vedro
@@ -333,6 +350,22 @@
 2 N 唱片 {唱片} [chàngpiàn], 张 = platňa
 2 N 口袋 {口袋} [kǒudai], 个 = vrecko
 2 N 剪子 {剪子} [jiǎnzi], 把 = nožnice
+3 N 纱帘 {纱帘} [shālián], 块 = záclona
+2 N 绳子 {绳子} [shéngzi], 根 = šnúra
+3 N 火把 {火把} [huǒbǎ], 支 = pochodeň
+3 N 鸡毛掸子 {鸡毛掸子} [jīmáodǎnzi], 把 = prachovka
+3 N 花洒 {花洒} [huāsǎ], 个 = sprchová hlavica
+2 N 马桶 {马桶} [mǎtǒng], 个 = záchodová misa
+3 N 被套 {被套} [bèitào], 床 = obliečka na paplón
+3 N 打孔器 {打孔器} [dǎkǒngqì], 个 = dierkovačka
+3 N 订书机 {订书机} [dìngshūjī], 个 = zošívačka
+3 N 奶嘴 {奶嘴} [nǎizuǐ], 个 = cumlík
+3 N 烟头 {烟头} [yāntóu], 个 = ohorok
+3 N 破烂 {破烂} [pòlàn], - = haraburdy
+3 N 喷雾器 {喷雾器} [pēnwùqì], 个 = rozprašovač
+3 N 百叶窗 {百叶窗} [bǎiyèchuāng], 扇 = žalúzia
+3 N 把手 {把手} [bǎshou], 个 = uško (držadlo)
+3 V 敲响 {敲响} [qiāoxiǎng] = zvoniť
 
 # household-actions
 2 N 清洁工 {清洁工} [qīngjiégōng], 位 = upratovačka
@@ -383,3 +416,6 @@
 2 N 脸盆 {脸盆} [liǎnpén], 个 = umývadlo
 2 AN 不便 {不便} [bùbiàn] = nepohodlný
 2 AN 自在 {自在} [zìzai] = pohodlný
+2 V 收拾 {收拾} [shōushi] = odpratať
+3 V 闩 {闩} [shuān] = zahasprovať
+3 V 挂满 {挂满} [guàmǎn] = ovešať

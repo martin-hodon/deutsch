@@ -350,3 +350,13 @@ tutoyer : model y>i
 vouvoyer : model y>i
 envoyer : model y>i | futstem enverr
 renvoyer : like envoyer
+
+# added 2026-10-19 (the owner's word lists)
+enfreindre : pres enfreins enfreins enfreint enfreignons enfreignez enfreignent | pp enfreint
+médire : pres médis médis médit médisons médisez médisent | pp médit
+luire : pres luis luis luit luisons luisez luisent | pp lui
+reluire : like luire
+découdre : like coudre
+recoudre : like coudre
+rabattre : like battre
+atteler : model ll

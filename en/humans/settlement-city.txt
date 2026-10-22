@@ -35,6 +35,9 @@
 2 N hometown {home|town} [ˈhəʊmtaʊn], hometowns = rodné mesto
 2 N home country {home country} [ˈhəʊm ˈkʌntrɪ], home countries = rodná krajina
 3 N port city {port city} [ˈpɔːt ˈsɪtɪ], port cities = prístavné mesto
+3 N backwater {back|water} [ˈbækwɔːtə], backwaters = zapadákov
+2 AN native {native} [ˈneɪtɪv] = domorodý
+2 AN nomadic {nomadic} [nəʊˈmædɪk] = kočovný
 # streets-places
 1 N street {street} [striːt], streets = ulica
 1 N main street {main street} [ˈmeɪn striːt], main streets = hlavná ulica
@@ -72,6 +75,9 @@
 3 N roadside {road|side} [ˈrəʊdsaɪd], roadsides = okraj cesty
 2 N underpass {under|pass} [ˈʌndəpɑːs], underpasses = podchod
 2 N subway {sub|way} [ˈsʌbweɪ], subways = podchod
+2 N sewer {sewer} [ˈsuːə], sewers = stoka
+2 N well {well} [wel], wells = studňa
+3 N cobblestone {cobble|stone} [ˈkɒbəlstəʊn], cobblestones = dlažobná kocka
 # buildings
 1 N building {build|ing} [ˈbɪldɪŋ], buildings = budova
 3 N courthouse {court|house} [ˈkɔːthaʊs], courthouses = budova súdu
@@ -123,6 +129,19 @@
 2 N indoor swimming pool {indoor swimming pool} [ˈɪndɔː ˈswɪmɪŋ puːl], indoor swimming pools = krytá plaváreň
 2 N outdoor swimming pool {outdoor swimming pool} [ˈaʊtdɔː ˈswɪmɪŋ puːl], outdoor swimming pools = letné kúpalisko
 2 N concert hall {concert hall} [ˈkɒnsət hɔːl], concert halls = koncertná sála
+2 N drawbridge {draw|bridge} [ˈdrɔːbrɪdʒ], drawbridges = padací most
+2 N minaret {minaret} [ˌmɪnəˈret], minarets = minaret
+2 N crematorium {crematorium} [ˌkreməˈtɔːriəm], crematoria = krematórium
+2 N tomb {tomb} [tuːm], tombs = hrobka
+2 N maze {maze} [meɪz], mazes = bludisko
+2 N rubble {rubble} [ˈrʌbəl], - = trosky
+3 N debris {debris} [ˈdebriː], - = trosky
+2 N building plot {building plot} [ˈbɪldɪŋ plɒt], building plots = stavebný pozemok
+2 N building material {building material} [ˈbɪldɪŋ məˌtɪəriəl], building materials = stavebný materiál
+2 N construction industry {construction industry} [kənˈstrʌkʃən ˌɪndəstri], - = stavebníctvo
+3 V build on {build·on} [bɪld ˈɒn], built/built on (sth) = pristavať
+2 N extension {extension} [ɪkˈstenʃən], extensions = prístavba
+3 N architectural style {architectural style} [ˌɑːkɪˈtektʃərəl ˈstaɪl], architectural styles = stavebný sloh
 # city-life
 1 N address {address} [əˈdres], addresses = adresa
 2 N pedestrian {pedestrian} [pəˈdestrɪən], pedestrians = chodec
@@ -146,6 +165,7 @@
 2 N beggar {beggar} [ˈbeɡə], beggars = žobrák
 2 N city council {city council} [ˈsɪtɪ ˈkaʊnsl], city councils = mestská rada
 2 N fair {fair} [feə], fairs = pút
+2 N tramp {tramp} [træmp], tramps = tulák
 # settling
 3 V colonise {colonise} [ˈkɒlənaɪz] (sth) = osídľovať
 

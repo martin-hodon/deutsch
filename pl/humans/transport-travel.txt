@@ -75,6 +75,16 @@
 2 N furgonetka {furgonetka} [furɡɔˈnɛtka], ż, furgonetki = dodávkové auto
 2 N samochód dostawczy {samochód dostawczy} [saˈmɔxut dɔˈstaftʂɨ], m, samochody dostawcze = dodávkové auto
 3 N dostawczak {dostawczak} [dɔˈstaftʂak], m, dostawczaki = dodávkové auto
+2 N wagon {wagon} [ˈvaɡɔn], m, wagony = vagón
+2 N trolejbus {trolejbus} [trɔˈlɛjbus], m, trolejbusy = trolejbus
+3 N sterowiec {sterowiec} [stɛˈrɔvʲɛts], m, sterowce = vzducholoď
+3 N parowiec {parowiec} [paˈrɔvʲɛts], m, parowce = parník
+3 AN przewozowy {przewozowy} [bʐɛvɔˈzɔvɨ], ;; prze|wozowy = prepravný
+3 AN transportowy {transportowy} [transpɔrˈtɔvɨ] = prepravný
+2 N deskorolka {deskorolka} [dɛskɔˈrɔlka], ż, deskorolki = skateboard
+2 N motorówka {motorówka} [mɔtɔˈrufka], ż, motorówki = motorový čln
+3 N tankowiec {tankowiec} [taŋˈkɔvʲɛts], m, tankowce = tanker
+3 N szybowiec {szybowiec} [ʂɨˈbɔvʲɛts], m, szybowce = vetroň
 
 # vehicle-parts
 1 N opona {opona} [ɔˈpɔna], ż, opony = pneumatika
@@ -124,6 +134,23 @@
 3 N boja {boja} [ˈbɔja], ż, boje = bója
 2 N pedał gazu {pedał gazu} [ˈpɛdaw ˈɡazu], m, pedały gazu = plynový pedál
 2 N tył {tył} [tɨw], m, tyły = zadná časť
+2 N sprzęgło {sprzęgło} [ˈzbʐɛŋɡwɔ], n, sprzęgła = spojka (v aute)
+3 N dyszel {dyszel} [ˈdɨʂɛl], m, dyszle = oje
+3 N obręcz {obręcz} [ˈɔbrɛntʂ], ż, obręcze = ráf
+3 N felga {felga} [ˈfɛlɡa], ż, felgi = ráf
+3 N przerzutka {przerzutka} [bʐɛˈʐutka], ż, przerzutki = prehadzovačka
+2 N skrzynia biegów {skrzynia biegów} [ˈzɡʐɨɲa ˈbʲɛɡuf], ż, skrzynie biegów = prevodovka
+3 N kołpak {kołpak} [ˈkɔwpak], m, kołpaki = puklica
+3 N kajuta {kajuta} [kaˈjuta], ż, kajuty = kajuta
+2 N dziób {dziób} [dʑup], m, dzioby = prova
+3 N reja {reja} [ˈrɛja], ż, reje = rahno
+2 N cuma {cuma} [ˈtsuma], ż, cumy = kotevné lano
+2 N ster {ster} [stɛr], m, stery = kormidlo
+3 N rufa {rufa} [ˈrufa], ż, rufy = korma
+3 N bakburta {bakburta} [baɡˈburta], ż, bakburty = ľavobok
+3 N sterburta {sterburta} [stɛrˈburta], ż, sterburty = pravobok
+3 N podwozie {pod|wozie} [pɔdˈvɔʑɛ], n, podwozia = podvozok
+3 N brezent {brezent} [ˈbrɛzɛnt], m, brezenty = plachta
 
 # infrastructure
 1 N droga {droga} [ˈdrɔɡa], ż, drogi = cesta (komunikácia)
@@ -192,6 +219,11 @@
 2 N wjazd {wjazd} [vjast], m, wjazdy = nájazd
 2 N zamknięcie drogi {zamknięcie drogi} [zamˈkɲɛɲtɕɛ ˈdrɔɡi], n, zamknięcia drogi = uzávera
 3 V asfaltować {asfaltować} [asfalˈtɔvatɕ], wyasfaltować = asfaltovať
+3 N odgałęzienie {od|gałęzienie} [ɔdɡawɛ̃ˈʑɛɲɛ], n, odgałęzienia = odbočka
+3 N odnoga {odnoga} [ɔdˈnɔɡa], ż, odnogi = odbočka
+3 N zwrotnica {zwrotnica} [zvrɔtˈɲitsa], ż, zwrotnice = výhybka
+3 N kładka {kładka} [ˈkwatka], ż, kładki = lávka
+3 N bariera ochronna {bariera ochronna} [barˈjɛra ɔˈxrɔnna], ż, bariery ochronne = zvodidlo
 
 # travel
 1 N jazda {jazda} [ˈjazda], ż, jazdy = jazda
@@ -340,6 +372,23 @@
 2 N spowolnienie {spowolnienie} [spɔvɔlˈɲɛɲɛ], n, spowolnienia = spomalenie
 2 N wyprowadzka {wy|prowadzka} [vɨprɔˈvatska], ż, wyprowadzki = vysťahovanie
 2 N wyjazd {wyjazd} [ˈvɨjast], m, wyjazdy = vycestovanie
+3 N sakwa {sakwa} [ˈsakfa], ż, sakwy = sedlová brašna
+2 V jeździć konno {jeździć konno} [ˈjɛʑdʑitɕ ˈkɔnnɔ], - = jazdiť na koni
+3 N pilot portowy {pilot portowy} [ˈpʲilɔt pɔrˈtɔvɨ], m, piloci portowi = lodivod
+3 V pęcznieć {pęcznieć} [ˈpɛntʂɲɛtɕ], napęcznieć = vzdúvať sa
+2 N stewardesa {stewardesa} [stɛvarˈdɛsa], ż, stewardesy = letuška
+2 N członek załogi {członek załogi} [ˈtʂwɔnɛk zaˈwɔɡi], m, członkowie załogi = člen posádky
+3 N pasażer na gapę {pasażer na gapę} [paˈsaʐɛr na ˈɡapɛ], m, pasażerowie na gapę = čierny pasažier
+3 N gapowicz {gapowicz} [ɡaˈpɔvʲitʂ], m, gapowicze = čierny pasažier
+3 V przemierzać {prze|mierzać} [bʐɛˈmʲɛʐatɕ], przemierzyć (B) = brázdiť
+3 AN przechylony {przechylony} [bʐɛxɨˈlɔnɨ], ;; prze|chylony = naklonený
+2 N komunikacja miejska {komunikacja miejska} [kɔmuɲiˈkatsja ˈmʲɛjska], ż, - = verejná doprava
+2 N transport publiczny {transport publiczny} [ˈtranspɔrt puˈblitʂnɨ], m, - = verejná doprava
+3 N kuferek {kuferek} [kuˈfɛrɛk], m, kuferki = kufrík
+3 N walizeczka {walizeczka} [valiˈzɛtʂka], ż, walizeczki = kufrík
+3 N żegluga {żegluga} [ʐɛˈɡluɡa], ż, żeglugi = plavba
+2 V rozpędzać się {roz|pędzać się} [rɔsˈpɛndzatɕ ɕɛ], rozpędzić się = zrýchliť
+2 N szlak {szlak} [ʂlak], m, szlaki = turistický chodník
 
 # corpus-verbs
 3 V przemierzać {przemierzać} [pʂɛˈmʲɛʐatɕ], przemierzyć = precestovať

@@ -44,6 +44,8 @@
 2 N 太空 {太空} [tàikōng], - = vesmír
 2 N 月球 {月球} [yuèqiú], 个 = mesiac (na oblohe)
 3 N 月落 {月落} [yuèluò], - = západ mesiaca
+3 N 日食 {日食} [rìshí], 次 = zatmenie
+3 N 月食 {月食} [yuèshí], 次 = zatmenie
 
 # sky-phenomena
 1 N 天空 {天空} [tiānkōng], 片 = obloha
@@ -74,4 +76,5 @@
 2 AN 横 {横} [héng] = vodorovný
 2 N 空中 {空中} [kōngzhōng], - = obloha
 2 N 蓝天 {蓝天} [lántiān], - = obloha
+1 N 天 {天} [tiān], - = obloha
 2 N 气氛 {气氛} [qìfēn], 种 = atmosféra

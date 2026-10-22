@@ -66,6 +66,7 @@
 3 AV individuellement {individuelle|ment} [ɛ̃dividɥɛlˈmɑ̃] = jednotlivo
 3 AV uniformément {uniformé|ment} [ynifɔʁmeˈmɑ̃] = jednotne
 3 AV à cent pour cent {à cent pour cent} [a sɑ̃ puʁ ˈsɑ̃] = stopercentne
+2 N la fraction {fraction} [fʁakˈsjɔ̃], fractions = zlomok
 
 # amount
 1 AN nombreux {nombreux} [nɔ̃ˈbʁø], nombreuse, nombreux/nombreuses = veľa
@@ -178,6 +179,11 @@
 2 AV davantage {davantage} [davɑ̃ˈtaʒ] = viac
 2 N la valeur minimale {valeur minimale} [valœʁ miniˈmal], valeurs minimales = minimálna hodnota
 3 V dénouer {dé|nouer} [denuˈe] = rozviazať
+2 AV à moitié {à moitié} [a mwaˈtje] = napoly
+3 AV à satiété {à satiété} [a satjeˈte] = dosýta
+3 N l'accumulation (f) {accumulation} [akymylaˈsjɔ̃], accumulations = hromadenie
+3 AN superflu {superflu} [sypɛʁˈfly], superflue = prebytočný
+3 AN excédentaire {excédentaire} [eksedɑ̃ˈtɛʁ] = prebytočný
 
 # counting-measuring
 1 N le nombre {nombre} [nɔ̃bʁ], nombres = číslo (matematické)
@@ -233,6 +239,15 @@
 3 AV quantitativement {quantitative|ment} [kɑ̃titativˈmɑ̃] = kvantitatívne
 2 AV au maximum {au maximum} [o maksiˈmɔm] = maximálne
 3 N le dénominateur {dénominateur} [denɔminaˈtœʁ], dénominateurs = menovateľ
+3 V équilibrer {équilibrer} [ekiliˈbʁe] = vyvážiť
+2 N le nombre premier {nombre premier} [nɔ̃bʁ pʁəˈmje], nombres premiers = prvočíslo
+2 N la puissance {puissance} [pɥiˈsɑ̃s], puissances = mocnina
+2 N le terme {terme} [tɛʁm], termes = sčítanec
+2 V soustraire {sous|traire} [susˈtʁɛʁ], irr, soustrait = odčítať
+3 N le dividende {dividende} [diviˈdɑ̃d], dividendes = delenec
+3 N le diviseur {diviseur} [diviˈzœʁ], diviseurs = deliteľ
 
 # more
 3 N le billion {billion} [biˈljɔ̃], billions = bilión
+3 N le sous-ensemble {sous-|ensemble} [suzɑ̃ˈsɑ̃bl], sous-ensembles = podmnožina
+3 N le sur-ensemble {sur-|ensemble} [syʁɑ̃ˈsɑ̃bl], sur-ensembles = nadmnožina

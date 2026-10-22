@@ -1,0 +1,28 @@
+# REGIONAL WORDS (tools/words.py mark_region -> dict.tsv `region`): Chinese words NOT said everywhere the language is
+# spoken -- a national variety, a region, a dialect. The dictionary marks them, the trainer does not offer them as THE
+# word of a concept that has a general one.
+#   POS word = CODES -- note          (POS word (concept) = ... when the word has another concept, not marked)
+# CODES (one or more): AT CH DE-N DE-S · UK US AU IE SCOT · ES LATAM MX AR · BE CA AF · IT-N IT-S · PL-S PL-W SIL ·
+# TW HK CN-N CN-S · dialect (no one region); their names: `region-CODE` in <lang>/ui.txt
+N 个儿 = CN-N -- general: 个子
+N 公升 = TW -- mainland: 升
+N 冷气 = TW HK -- mainland: 空调
+P 咱 = CN-N -- general: 我们 / 咱们
+P 啥 = CN-N -- general: 什么
+N 回教 = TW -- mainland: 伊斯兰教
+N 圆白菜 = CN-N -- general: 卷心菜
+N 头儿 = CN-N -- erhua colloquial; general: 领导, 老板
+N 奇异果 = TW HK -- mainland: 猕猴桃
+V 抓包 = TW -- general: 抓获, 当场抓住
+V 抠门 = CN-N -- general: 小气
+V 显摆 = CN-N -- general: 炫耀
+V 晓得 = CN-S -- general: 知道
+V 焗 = HK CN-S -- general: 烤
+V 煲 = HK CN-S -- general: 炖, 慢炖
+N 牛油 (maslo) = HK CN-S -- general: 黄油
+N 胡同 = CN-N -- general: 小巷, 巷子
+V 胳肢 = CN-N -- general: 挠痒痒
+N 萨克斯风 = TW -- mainland: 萨克斯
+AV 蛮 = CN-S -- general: 挺 / 很
+N 起子 = dialect -- dialect sense screwdriver; general: 螺丝刀
+N 马路牙子 = CN-N -- general: 路缘石

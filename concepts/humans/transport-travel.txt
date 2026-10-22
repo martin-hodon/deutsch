@@ -51,6 +51,15 @@ N poznávacia značka
 N motorové vozidlo
 N zimná pneumatika
 N dodávkové auto
+N vagón -- železničný voz
+N trolejbus -- autobus na elektrinu z lanovej siete
+N vzducholoď -- veľký plynový balón s motorom
+N parník -- loď poháňaná parou
+AN prepravný -- určený na prepravu nákladu
+N skateboard
+N motorový čln -- rýchly čln s motorom
+N tanker -- loď na prepravu ropy
+N vetroň -- lietadlo bez motora
 
 # vehicle-parts
 N pneumatika
@@ -90,6 +99,21 @@ N pádlo
 N bója
 N plynový pedál
 N zadná časť
+N spojka (v aute) -- spojka pri prevodovke
+N oje -- tyč medzi zvieratami a vozom
+N ráf -- kovový okraj kolesa
+N prehadzovačka -- zmena prevodov bicykla
+N prevodovka -- súčasť motora na zmenu rýchlosti
+N puklica -- kryt kolesa
+N kajuta -- izba na lodi
+N prova -- predná časť lode
+N rahno -- vodorovný tyč na stožiari
+N kotevné lano -- lano na uviazanie lode
+N kormidlo -- riadi smer lode
+N korma -- zadná časť lode
+N ľavobok -- ľavá strana lode
+N pravobok -- pravá strana lode
+N podvozok -- spodná časť vozidla
 
 # infrastructure
 N cesta (komunikácia)
@@ -149,6 +173,10 @@ N cesta mimo mesta
 N nájazd
 N uzávera
 V asfaltovať
+N odbočka -- vetva cesty alebo trate
+N výhybka -- koľajový prepínač
+N lávka -- úzky mostík pre chodcov
+N zvodidlo -- bariéra pri ceste
 
 # travel
 N jazda
@@ -290,6 +318,18 @@ N vysťahovanie
 V zájsť
 V cestovať spolu
 AN stredomorský
+N sedlová brašna -- dvojitý vak prehodený cez sedlo alebo plece
+V jazdiť na koni -- sedieť na koni a ísť
+N lodivod -- vedie lode do prístavu
+V vzdúvať sa -- o plachte naplnenej vetrom
+N letuška -- členka posádky lietadla
+N člen posádky
+N čierny pasažier -- cestuje bez lístka
+V brázdiť -- o lodi plaviacej sa po mori
+AN naklonený -- o lodi naklonenej na bok
+N verejná doprava
+N kufrík
+N stroskotanie
 
 # corpus-verbs
 V precestovať

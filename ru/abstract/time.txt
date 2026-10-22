@@ -113,6 +113,11 @@
 2 AN долгосрочный {долго|срочный} [dəlɡɐˈsrotɕnɨj] = dlhodobý
 2 AN длительный {длительный} [ˈdlʲitʲɪlʲnɨj] = dlhodobý
 1 AV навсегда {навсегда} [nəfsʲɪɡˈda] = natrvalo
+3 N декада {декада} [dʲɪˈkadə], ж, декады = desaťdnie
+2 N високосный год {високосный год} [vʲɪsɐˈkosnɨj ɡot], м, високосные годы = priestupný rok
+3 N солнцестояние {солнце|стояние} [səntsəstɐˈjanʲɪjə], с, солнцестояния = slnovrat
+3 N равноденствие {равно|денствие} [rəvnɐˈdʲenstvʲɪjə], с, равноденствия = rovnodennosť
+3 N дата выдачи {дата выдачи} [ˈdatə ˈvɨdətɕɪ], ж, даты выдачи = dátum vystavenia
 
 # day-parts-and-week
 1 N утро {утро} [ˈutrə], с, утра = ráno
@@ -150,6 +155,8 @@
 3 AV сезонно {сезонно} [sʲɪˈzonːə] = sezónne
 2 AV до обеда {до обеда} [də ɐˈbʲedə] = predpoludním
 2 AV в полночь {в полночь} [f ˈpolnətɕ] = o polnoci
+2 N раннее утро {раннее утро} [ˈranʲːɪjə ˈutrə], с, ранние утра = skoré ráno
+2 AV нынче {нынче} [ˈnɨntɕɪ] = v dnešnej dobe
 
 # relative-time
 1 AV потом {потом} [pɐˈtom] = potom
@@ -297,6 +304,12 @@
 2 AV не раньше {не раньше} [nʲɪ ˈranʲʂɨ] = najskôr
 3 AV самое раннее {самое раннее} [ˈsaməjə ˈranʲːɪjɪ] = najskôr
 2 AV в виде исключения {в виде исключения} [v ˈvʲidʲɪ ɪsklʲuˈtɕenʲɪjə] = výnimočne
+3 AN нечастый {нечастый} [ˈnʲetɕɪstɨj] = občasný
+2 AV много раз {много раз} [ˈmnoɡə ras] = mnohokrát
+3 AV неоднократно {не|однократно} [nʲɪɐdnɐˈkratnə] = mnohokrát
+3 N первобытность {первобытность} [pʲɪrvɐˈbɨtnəsʲtʲ], ж, - = pravek
+2 PHR за всю жизнь {за всю жизнь} [zə fsʲu ʐɨznʲ] = za celý život
+2 AV пораньше {по|раньше} [pɐˈranʲʂɨ] = skôr
 
 # months
 1 N январь {январь} [jɪnˈvarʲ], м, - = január

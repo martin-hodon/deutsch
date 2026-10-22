@@ -65,6 +65,13 @@
 2 N loved one {loved one} [ˈlʌvd ˈwʌn], loved ones = blízky
 2 N grandchild {grand|child} [ˈɡræntʃaɪld], grandchildren = vnúča
 2 N brother-in-law {brother-in-law} [ˈbrʌðər ɪn lɔː], brothers-in-law = švagor
+3 N great-grandfather {great-grandfather} [ˌɡreɪt ˈɡrænfɑːðə], great-grandfathers = pradedo
+3 N great-grandmother {great-grandmother} [ˌɡreɪt ˈɡrænmʌðə], great-grandmothers = prababka
+2 N sister-in-law {sister-in-law} [ˈsɪstər ɪn lɔː], sisters-in-law = švagriná
+2 N in-laws {in-laws} [ˈɪn lɔːz], PL = svokrovci
+2 N stepbrother {step|brother} [ˈstepbrʌðə], stepbrothers = nevlastný brat
+2 N half-brother {half-brother} [ˈhɑːf brʌðə], half-brothers = nevlastný brat
+3 N godson {god|son} [ˈɡɒdsʌn], godsons = krstný syn
 # people-stages
 1 N person {person} [ˈpɜːsən], people = osoba
 1 AN personal {person|al} [ˈpɜːsənəl] = osobný
@@ -107,6 +114,18 @@
 2 N lad {lad} [læd], lads = mládenec
 2 N single {single} [ˈsɪŋɡəl], singles = single
 2 AN homophobic {homo|phobic} [ˌhəʊməˈfəʊbɪk] = homofóbny
+3 N strongman {strong|man} [ˈstrɒŋmæn], strongmen = silák
+3 N hulk {hulk} [hʌlk], hulks = silák
+3 N clumsy person {clumsy person} [ˈklʌmzi ˈpɜːsn], clumsy people = nešika
+3 N klutz {klutz} [klʌts], klutzes = nešika
+3 N whippersnapper {whipper|snapper} [ˈwɪpəˌsnæpə], whippersnappers = sopliak
+2 N scout {scout} [skaʊt], scouts = skaut
+2 N islander {island|er} [ˈaɪləndə], islanders = ostrovan
+2 N loner {loner} [ˈləʊnə], loners = samotár
+3 N twenty-something {twenty-something} [ˈtwenti sʌmθɪŋ], twenty-somethings = dvadsiatnik
+3 AN senile {senile} [ˈsiːnaɪl] = starecký
+2 AN elderly {elderly} [ˈeldəli] = postarší
+2 N toddler {toddler} [ˈtɒdlə], toddlers = batoľa
 # marriage-social-bonds
 1 V marry {marry} [ˈmærɪ] (sb) = oženiť sa
 2 N wedding {wed|ding} [ˈwedɪŋ], weddings = sobáš
@@ -166,6 +185,10 @@
 2 N life partner {life partner} [ˈlaɪf ˈpɑːtnə], life partners = životná partnerka
 2 N flirtation {flirt|ation} [flɜːˈteɪʃən], flirtations = flirt
 2 N flirt {flirt} [flɜːt], flirts = flirt
+2 N bridesmaid {brides|maid} [ˈbraɪdzmeɪd], bridesmaids = družička
+3 N dowry {dowry} [ˈdaʊəri], dowries = veno
+3 N broken engagement {broken engagement} [ˌbrəʊkən ɪnˈɡeɪdʒmənt], broken engagements = zrušenie zásnub
+2 N adultery {adultery} [əˈdʌltəri], - = cudzoložstvo
 # social-interaction
 1 V meet {meet} [miːt], met/met (sb) = stretnúť
 1 N meeting {meet|ing} [ˈmiːtɪŋ], meetings = stretnutie
@@ -323,8 +346,61 @@
 2 V be faithful {be faithful} [bi ˈfeɪθfəl] (to) = byť verný
 2 V quarrel {quarrel} [ˈkwɒrəl] (with, about) = pohádať sa
 2 V fall out {fall·out} [fɔːl ˈaʊt], fell out/fallen out (with) = pohádať sa
+3 N faux pas {faux pas} [ˌfəʊ ˈpɑː], faux pas = faux pas
+3 AN harmonious {harmonious} [hɑːˈməʊniəs] = svorný
+3 V fawn over {fawn·over} [fɔːn ˈəʊvə] (sb) = obskakovať
+2 N seduction {seduction} [sɪˈdʌkʃən], - = zvádzanie
+2 N popularity {popularity} [ˌpɒpjuˈlærəti], - = popularita
+3 N crush {crush} [krʌʃ], crushes = tlačenica
+2 N circle {circle} [ˈsɜːkəl], circles = okruh
+2 V help out {help·out} [help ˈaʊt] (sb with sth) = vypomôcť
+2 V help {help} [help] (sb to sth) = dopomôcť
+3 N spoiling {spoil|ing} [ˈspɔɪlɪŋ], - = rozmaznanie
+2 N harassment {harassment} [ˈhærəsmənt], - = obťažovanie
+2 V scold {scold} [skəʊld] (sb) = karhať
+3 V reprimand {reprimand} [ˈreprɪmɑːnd] (sb) = karhať
+2 V cuddle {cuddle} [ˈkʌdəl] = maznať sa
+2 V gather {gather} [ˈɡæðə] = zhromaždiť sa
+3 V assemble {assemble} [əˈsembəl] = zhromaždiť sa
+3 N henchman {hench|man} [ˈhentʃmən], henchmen = prisluhovač
+3 N lackey {lackey} [ˈlæki], lackeys = prisluhovač
+1 INT hi {hi} [haɪ] = ahoj
+3 N good-for-nothing {good-for-nothing} [ˈɡʊd fə ˌnʌθɪŋ], good-for-nothings = naničhodník
+3 N scoundrel {scoundrel} [ˈskaʊndrəl], scoundrels = lotor
+2 N brat {brat} [bræt], brats = fagan
+3 N lout {lout} [laʊt], louts = hulvát
+3 N boor {boor} [bɔː], boors = hulvát
+3 N philistine {philistine} [ˈfɪlɪstaɪn], philistines = ignorant
+3 N buffoon {buffoon} [bəˈfuːn], buffoons = pajác
+2 N comrade {comrade} [ˈkɒmreɪd], comrades = súdruh
+3 N dandy {dandy} [ˈdændi], dandies = fičúr
+3 N rabble {rabble} [ˈræbəl], - = zberba
+3 N riff-raff {riff-raff} [ˈrɪf ræf], - = zberba
+2 N hypocrite {hypocrite} [ˈhɪpəkrɪt], hypocrites = pokrytec
+3 N money-grubber {money-grubber} [ˈmʌni ɡrʌbə], money-grubbers = chamtivec
+2 N hooligan {hooligan} [ˈhuːlɪɡən], hooligans = chuligán
+3 N swot {swot} [swɒt], swots = bifľoš
+3 N sneak {sneak} [sniːk], sneaks = žalobaba
+3 N telltale {tell|tale} [ˈtelteɪl], telltales = žalobaba
+3 N snoop {snoop} [snuːp], snoops = sliedič
+3 N babe {babe} [beɪb], babes = kočka
+2 N prostitute {prostitute} [ˈprɒstɪtjuːt], prostitutes = prostitútka
+3 N whore {whore} [hɔː], whores = prostitútka
+3 N slut {slut} [slʌt], sluts = cundra
+3 N hussy {hussy} [ˈhʌsi], hussies = drzaňa
+3 N silly cow {silly cow} [ˌsɪli ˈkaʊ], silly cows = hlupana
+2 N pest {pest} [pest], pests = dotieravec
+3 N bitch {bitch} [bɪtʃ], bitches = mrcha
+2 N single file {single file} [ˌsɪŋɡəl ˈfaɪl], - = husí pochod
+3 N toady {toady} [ˈtəʊdi], toadies = pätolízač
+3 N bootlicker {boot|licker} [ˈbuːtˌlɪkə], bootlickers = pätolízač
+3 N bastard {bastard} [ˈbɑːstəd], bastards = hajzel
+3 N informer {informer} [ɪnˈfɔːmə], informers = udavač
+2 N tribute {tribute} [ˈtrɪbjuːt], tributes = pocta
 # contact
 2 V cuddle {cuddle} [ˈkʌdəl] (up) = túliť sa
+3 N caress {caress} [kəˈres], caresses = pohladenie
+3 N stroke {stroke} [strəʊk], strokes = pohladenie
 
 # more
 2 N kid {kid} [kɪd], kids = dieťa

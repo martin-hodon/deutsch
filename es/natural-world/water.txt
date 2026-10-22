@@ -42,6 +42,13 @@
 3 N el arrecife {arrecife} [areˈθife], arrecifes = útes (morský)
 3 N el fiordo {fiordo} [ˈfjoɾðo], fiordos = fjord
 3 N el géiser {géiser} [ˈxejseɾ], géiseres = gejzír
+2 AN corriente {corriente} [koˈrjente] = tečúci
+3 V desaguar {desaguar} [desaˈɣwaɾ] = odtekať
+3 V desembocar {desembocar} [desemboˈkaɾ] (en) = vtekať
+3 V desbordarse {desbordarse} [desβoɾˈðaɾse] = pretiecť
+3 V esparcirse {esparcirse} [espaɾˈθiɾse] = roztiecť sa
+3 N el regato {regato} [reˈɣato], regatos = potok
+3 N el riachuelo {riachuelo} [rjaˈtʃwelo], riachuelos = potok
 
 # water-features
 2 N la ola {ola} [ˈola], olas = vlna
@@ -94,6 +101,10 @@
 3 N las aguas residuales {aguas residuales} [ˈaɣwas resiˈðwales], PL = odpadová voda
 3 N la depuradora {depuradora} [depuɾaˈðoɾa], depuradoras = čistiareň odpadových vôd
 3 V chapotear {chapotear} [tʃapoteˈaɾ] = špliechať
+3 N el chapuzón {chapuzón} [tʃapuˈθon], chapuzones = ponorenie
+3 N el meandro {meandro} [meˈandɾo], meandros = meander
+3 N el vado {vado} [ˈbaðo], vados = brod
+3 V chorrear {chorrear} [tʃoreˈaɾ] = kvapkať
 
 # water-land-edge
 2 N la orilla {orilla} [oˈɾiʎa], orillas = breh
@@ -106,3 +117,5 @@
 3 N el cabo {cabo} [ˈkaβo], cabos = mys
 1 N la piscina {piscina} [pisˈθina], piscinas = bazén
 1 N el helado {helado} [eˈlaðo], helados = zmrzlina
+3 N el archipiélago {archipiélago} [aɾtʃipiˈelaɣo], archipiélagos = súostrovie
+3 N la restinga {restinga} [resˈtinɡa], restingas = pobrežná kosa

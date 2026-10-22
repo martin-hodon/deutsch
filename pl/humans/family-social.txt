@@ -73,6 +73,13 @@
 3 N wnuczę {wnuczę} [ˈvnutʂɛ], n, wnuczęta = vnúča
 2 N szwagier {szwagier} [ˈʂfaɡɛr], m, szwagrowie = švagor
 3 AV po ojcowsku {po·ojcowsku} [pɔ ɔjˈtsɔfsku] = otcovsky
+3 N pradziadek {pra|dziadek} [praˈdʑadɛk], m, pradziadkowie = pradedo
+3 N prababcia {pra|babcia} [praˈbaptɕa], ż, prababcie = prababka
+3 N szwagierka {szwagierka} [ʂfaˈɡjɛrka], ż, szwagierki = švagriná
+2 N teściowie {teściowie} [tɛɕˈtɕɔvʲɛ], lm, teściowie = svokrovci
+3 N brat przyrodni {brat przyrodni} [brat pʂɨˈrɔdɲi], m, bracia przyrodni = nevlastný brat
+3 N chrześniak {chrześniak} [ˈxʂɛɕɲak], m, chrześniacy = krstný syn
+2 N wuj {wuj} [vuj], m, wujowie = strýko
 
 # people-stages
 1 N osoba {osoba} [ɔˈsɔba], ż, osoby = osoba
@@ -125,6 +132,17 @@
 2 AV osobiście {osobiście} [ɔsɔˈbiɕtɕɛ] = osobne
 2 AV po ludzku {po·ludzku} [pɔ ˈlutsku] = ľudsky
 3 AV nieludzko {nieludzko} [ɲɛˈlutskɔ] = neľudsky
+3 N Murzyn {Murzyn} [ˈmuʐɨn], m, Murzyni = černoch
+3 N osiłek {osiłek} [ɔˈɕiwɛk], m, osiłki = silák
+3 N ciamajda {ciamajda} [tɕaˈmajda], ż, ciamajdy = nešika
+3 N smarkacz {smarkacz} [ˈsmarkatʂ], m, smarkacze = sopliak
+2 N harcerz {harcerz} [ˈxartsɛʂ], m, harcerze = skaut
+3 N wyspiarz {wyspiarz} [ˈvɨspjaʂ], m, wyspiarze = ostrovan
+3 N samotnik {samotnik} [saˈmɔtɲik], m, samotnicy = samotár
+3 N dwudziestolatek {dwudziesto|latek} [dvudʑɛstɔˈlatɛk], m, dwudziestolatkowie = dvadsiatnik
+3 AN starczy {starczy} [ˈstartʂɨ] = starecký
+3 AN podstarzały {pod|starzały} [pɔtstaˈʐawɨ] = postarší
+3 N brzdąc {brzdąc} [bʐdɔnts], m, brzdące = batoľa
 
 # marriage-social-bonds
 1 V żenić się {żenić się} [ˈʐɛɲitɕ ɕɛ], ożenić się (z + N) = oženiť sa
@@ -196,6 +214,10 @@
 3 AV gościnnie {gościnnie} [ɡɔɕˈtɕinːɲɛ] = pohostinne
 3 AV romantycznie {romantycznie} [rɔmanˈtɨtʂɲɛ] = romanticky
 2 AV dobrowolnie {dobrowolnie} [dɔbrɔˈvɔlɲɛ] = dobrovoľne
+3 N druhna {druhna} [ˈdruxna], ż, druhny = družička
+3 N posag {posag} [ˈpɔsɔŋk], m, posagi = veno
+3 N zerwanie zaręczyn {zerwanie zaręczyn} [zɛrˈvaɲɛ zaˈrɛntʂɨn], n, zerwania zaręczyn = zrušenie zásnub
+3 N cudzołóstwo {cudzo|łóstwo} [tsudzɔˈwustfɔ], n, cudzołóstwa = cudzoložstvo
 
 # social-interaction
 1 V spotykać {spotykać} [spɔˈtɨkatɕ], spotkać = stretnúť
@@ -407,9 +429,55 @@
 2 N zdrada {zdrada} [ˈzdrada], ż, zdrady = nevera
 1 V być wiernym {być wiernym} [bɨtɕ ˈvʲɛrnɨm], - (C) = byť verný
 1 V kłócić się {kłócić się} [ˈkwutɕitɕ ɕɛ], pokłócić się = pohádať sa
+3 N gafa {gafa} [ˈɡafa], ż, gafy = faux pas
+3 AN zgodny {zgodny} [ˈzɡɔdnɨ] = svorný
+3 V nadskakiwać {nad|skakiwać} [natskaˈkivatɕ], - (D) = obskakovať
+3 N uwodzenie {uwodzenie} [uvɔˈdzɛɲɛ], n, uwodzenia = zvádzanie
+2 N popularność {popularność} [pɔpuˈlarnɔɕtɕ], ż, - = popularita
+3 N tłok {tłok} [twɔk], m, tłoki = tlačenica
+3 N krąg {krąg} [krɔŋk], m, kręgi = okruh
+3 V wspomagać {wspomagać} [fspɔˈmaɡatɕ], wspomóc (B) = vypomôcť
+3 V dopomagać {do|pomagać} [dɔpɔˈmaɡatɕ], dopomóc (do + D) = dopomôcť
+3 N rozpieszczanie {roz|pieszczanie} [rɔspʲɛʂˈtʂaɲɛ], n, rozpieszczania = rozmaznanie
+3 N napastowanie {napastowanie} [napastɔˈvaɲɛ], n, napastowania = obťažovanie
+3 V ganić {ganić} [ˈɡaɲitɕ], zganić (B) = karhať
+2 V przytulać się {przy|tulać się} [pʂɨˈtulatɕ ɕɛ], przytulić się (do + D) = maznať sa
+1 V zbierać się {zbierać się} [ˈzbʲɛratɕ ɕɛ], zebrać się = zhromaždiť sa
+3 N poplecznik {poplecznik} [pɔˈplɛtʂɲik], m, poplecznicy = prisluhovač
+1 INT cześć {cześć} [tʂɛɕtɕ] = ahoj
+3 N nicpoń {nicpoń} [ˈɲitspɔɲ], m, nicponie = naničhodník
+3 N zbir {zbir} [zbʲir], m, zbiry = lotor
+3 N łajdak {łajdak} [ˈwajdak], m, łajdacy = lotor
+3 N urwis {urwis} [ˈurvʲis], m, urwisy = fagan
+3 N cham {cham} [xam], m, chamy = hulvát
+3 N ignorant {ignorant} [iɡˈnɔrant], m, ignoranci = ignorant
+3 N pajac {pajac} [ˈpajats], m, pajace = pajác
+2 N towarzysz {towarzysz} [tɔˈvaʐɨʂ], m, towarzysze = súdruh
+3 N fircyk {fircyk} [ˈfʲirtsɨk], m, fircyki = fičúr
+3 N motłoch {motłoch} [ˈmɔtwɔx], m, - = zberba
+3 N hipokryta {hipokryta} [xipɔˈkrɨta], m, hipokryci = pokrytec
+3 N chciwiec {chciwiec} [ˈxtɕivʲɛts], m, chciwcy = chamtivec
+2 N chuligan {chuligan} [xuˈliɡan], m, chuligani = chuligán
+3 N kujon {kujon} [ˈkujɔn], m, kujony = bifľoš
+3 N skarżypyta {skarżypyta} [skarʐɨˈpɨta], ż, skarżypyty = žalobaba
+3 N szperacz {szperacz} [ˈʂpɛratʂ], m, szperacze = sliedič
+2 N laska {laska} [ˈlaska], ż, laski = kočka
+2 N prostytutka {prostytutka} [prɔstɨˈtutka], ż, prostytutki = prostitútka
+3 N szmata {szmata} [ˈʂmata], ż, szmaty = cundra
+3 N smarkula {smarkula} [smarˈkula], ż, smarkule = drzaňa
+3 N idiotka {idiotka} [iˈdjɔtka], ż, idiotki = hlupana
+3 N natręt {natręt} [ˈnatrɛnt], m, natręci = dotieravec
+3 N zołza {zołza} [ˈzɔwza], ż, zołzy = mrcha
+3 N lizus {lizus} [ˈlizus], m, lizusy = pätolízač
+3 N drań {drań} [draɲ], m, dranie = hajzel
+3 N donosiciel {donosiciel} [dɔnɔˈɕitɕɛl], m, donosiciele = udavač
+3 N hołd {hołd} [xɔwt], m, hołdy = pocta
+3 N złudzenie {złudzenie} [zwuˈdzɛɲɛ], n, złudzenia = klam
+3 N korowód {korowód} [kɔˈrɔvut], m, korowody = sprievod
 
 # contact
 2 V tulić się {tulić się} [ˈtulitɕ ɕɛ], przytulić się (do + D) = túliť sa
+3 N pieszczota {pieszczota} [pʲɛˈʂtʂɔta], ż, pieszczoty = pohladenie
 
 # more
 1 V polegać {polegać} [pɔˈlɛɡatɕ], - (na + Ms) = spoliehať sa

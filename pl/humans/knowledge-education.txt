@@ -136,6 +136,11 @@
 2 V odpisywać {odpisywać} [ɔtpʲiˈsɨvatɕ], odpisać = odpisovať
 1 V wybierać {wybierać} [vɨˈbʲɛratɕ], wybrać (B) = vytriediť
 2 V segregować {segregować} [sɛɡrɛˈɡɔvatɕ], posegregować (B) = vytriediť
+3 N temperówka {temperówka} [tɛmpɛˈrufka], ż, temperówki = strúhadlo na ceruzky
+2 N ławka {ławka} [ˈwafka], ż, ławki = školská lavica
+3 N cyrkiel {cyrkiel} [ˈtsɨrkjɛl], m, cyrkle = kružidlo
+3 V zostawać po lekcjach {zostawać po lekcjach} [zɔˈstavatɕ pɔ ˈlɛktsjax], zostać po lekcjach = zostať po škole
+3 N czytanka {czytanka} [tʂɨˈtaŋka], ż, czytanki = čítanka
 
 # knowledge-science
 1 N nauka {nauka} [naˈuka], ż, nauki = veda
@@ -270,3 +275,6 @@
 3 V archiwizować {archiwizować} [arxʲivʲiˈzɔvatɕ], zarchiwizować (B) = archivovať
 2 N instytut {instytut} [inˈstɨtut], m, instytuty = ústav
 1 N tabela {tabela} [taˈbɛla], ż, tabele = tabuľka
+3 N tom {tom} [tɔm], m, tomy = diel (knihy)
+3 N arkusz {arkusz} [ˈarkuʂ], m, arkusze = hárok
+3 N probówka {probówka} [prɔˈbufka], ż, probówki = skúmavka

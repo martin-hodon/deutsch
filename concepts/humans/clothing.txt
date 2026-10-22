@@ -46,6 +46,15 @@ N tunika
 N korzet
 N plienka
 N ľudový odev
+N sako -- pánska vrchná časť obleku
+N prestrojenie
+N rúcho
+N slipy
+N nohavičky
+N podväzkový pás
+N smoking
+N pracovný odev -- oblečenie na prácu
+N kožuch -- teplý kožušinový kabát
 
 # footwear-accessories
 N topánka
@@ -71,6 +80,10 @@ N parochňa
 N čelenka
 N dáždnik
 N peňaženka
+N obuvák
+N lodičky
+N podpätok -- zdvihnutá zadná časť topánky
+N žabky -- plážové sandále s remienkom medzi prstami
 
 # parts-fasteners
 N taška
@@ -89,6 +102,12 @@ N remeň
 N lem
 N spona
 N záplata
+N rázporok
+N mašľa -- uviazaná stuha
+N dekolt -- výstrih odevu
+N strapec -- zväzok nití na okraji
+N podšívka -- vnútorná vrstva odevu
+N vrecko na oblečení -- vrecko prišité na odeve
 
 # materials-making
 N látka
@@ -131,6 +150,19 @@ N krajčír
 V krajčíriť
 N náprstok
 N výkladná figurína
+N ústrižok -- odstrihnutý kúsok látky
+N klbko -- zvinutá niť
+N vreteno -- na priadzu
+V párať -- rozpárať šev
+V zašiť -- zošiť dokopy
+V prišiť -- nitkou pripojiť
+V strapkať sa -- trepiť sa na okrajoch
+N zdrap -- roztrhaný kus látky
+N vlákno -- tenké vlákno
+V snovať -- pripravovať osnovu
+V navliecť -- navliecť niť do ihly, korálky na šnúrku
+N plyš -- látka
+N žmolok -- chumáčik vlákien na látke
 
 # wearing-jewelry
 V pasovať
@@ -155,3 +187,6 @@ N perla
 N prívesok
 N maska
 V maskovať
+V mať oblečené
+V vyobliekať sa
+N líčenie -- nanášanie mejkapu na tvár (nie opis, rozprávanie)

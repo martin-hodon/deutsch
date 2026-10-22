@@ -71,6 +71,53 @@
 3 V tarir {tarir} [taˈʁiʁ] = vyschnúť
 1 AN solide {solide} [sɔˈlid] = tuhý
 2 V s'humidifier {s'humidifier} [symidiˈfje] = zvlhnúť
+2 N le phosphore {phosphore} [fɔsˈfɔʁ], - = fosfor
+2 N le silicium {silicium} [siliˈsjɔm], - = kremík
+3 V corroder {corroder} [kɔʁɔˈde] (qch) = leptať
+3 V ronger {ronger} [ʁɔ̃ˈʒe] (qch) = leptať
+2 V coller {coller} [kɔˈle] (à) = lepiť sa
+3 V adhérer {adhérer} [adeˈʁe] (à) = lepiť sa
+3 AN poisseux {poisseux} [pwaˈsø], poisseuse = mazľavý
+3 AN visqueux {visqueux} [visˈkø], visqueuse = slizký
+3 AN gluant {gluant} [ɡlyˈɑ̃], gluante = slizký
+3 N le tesson {tesson} [tɛˈsɔ̃], tessons = črepina
+2 N l'éclat (m) {éclat} [eˈkla], éclats = úlomok
+2 V durcir {durcir} [dyʁˈsiʁ] = stuhnúť
+3 V se raidir {se raidir} [sə ʁɛˈdiʁ] = stuhnúť
+3 N la traînée {traînée} [tʁɛˈne], traînées = šmuha
+3 N la bavure {bavure} [baˈvyʁ], bavures = šmuha
+2 N la poudre {poudre} [pudʁ], poudres = prášok
+3 N la base {base} [baz], bases = lúh
+3 N la fragilité {fragilité} [fʁaʒiliˈte], - = krehkosť
+3 N la plasticité {plasticité} [plastisiˈte], - = plasticita
+3 AN ductile {ductile} [dyktil] = ťažný
+3 N la ductilité {ductilité} [dyktiliˈte], - = ťažnosť
+3 AN malléable {malléable} [maleˈabl] = kujný
+3 N la malléabilité {malléabilité} [maleabiliˈte], - = kujnosť
+3 N l'élasticité (f) {élasticité} [elastisiˈte], - = pružnosť
+3 N la rigidité {rigidité} [ʁiʒidiˈte], - = tuhosť
+3 N la résistance {résistance} [ʁezisˈtɑ̃s], résistances = pevnosť materiálu
+3 N la ténacité {ténacité} [tenasiˈte], - = húževnatosť
+3 N la finesse {finesse} [fiˈnɛs], finesses = jemnosť
+3 AN friable {friable} [fʁiˈjabl] = drobivý
+3 N le platine {platine} [plaˈtin], - = platina
+3 N l'uranium (m) {uranium} [yʁaˈnjɔm], - = urán
+3 N le lithium {lithium} [liˈtjɔm], - = lítium
+3 N le sodium {sodium} [sɔˈdjɔm], - = sodík
+3 N le magnésium {magnésium} [maɲeˈzjɔm], - = horčík
+3 N le potassium {potassium} [pɔtaˈsjɔm], - = draslík
+3 N le titane {titane} [tiˈtan], - = titán
+3 N le chrome {chrome} [kʁom], - = chróm
+3 N le manganèse {manganèse} [mɑ̃ɡaˈnɛz], - = mangán
+3 N le cobalt {cobalt} [kɔˈbalt], - = kobalt
+3 N le nickel {nickel} [niˈkɛl], - = nikel
+3 N l'arsenic (m) {arsenic} [aʁsəˈnik], - = arzén
+3 N l'hélium (m) {hélium} [eˈljɔm], - = hélium
+3 N le fluor {fluor} [flyˈɔʁ], - = fluór
+3 N le chlore {chlore} [klɔʁ], - = chlór
+2 V gonfler {gonfler} [ɡɔ̃ˈfle] = nafúknuť
+2 N la fusion {fusion} [fyˈzjɔ̃], fusions = topenie
+3 N l'évaporation (f) {évapor|ation} [evapɔʁaˈsjɔ̃], évaporations = odparovanie
 
 # fire-light
 1 V brûler {brûler} [bʁyˈle] = horieť
@@ -110,6 +157,14 @@
 2 N la lueur {lueur} [lɥœʁ], lueurs = záblesk
 3 N le scintillement {scintille|ment} [sɛ̃tijˈmɑ̃], scintillements = záblesk
 1 V éteindre {éteindre} [eˈtɛ̃dʁ], irr, éteint = hasiť
+3 AN brûlé {brûlé} [bʁyˈle], brûlée = spálený
+3 N la mèche {mèche} [mɛʃ], mèches = zápalná šnúra
+3 N la mèche {mèche} [mɛʃ], mèches = knôt
+3 V couver {couver} [kuˈve] = tlieť
+3 N le pétard {pétard} [peˈtaʁ], pétards = petarda
+3 N la combustion {combustion} [kɔ̃bysˈtjɔ̃], combustions = horenie
+3 N les ténèbres (f) {ténèbres} [teˈnɛbʁ], PL = tma
+3 V luire {luire} [lɥiʁ], irr, lui = svietiť
 
 # energy-forces
 2 N l'énergie (f) {énergie} [enɛʁˈʒi], énergies = energia
@@ -144,6 +199,13 @@
 1 N l'effet (m) {effet} [eˈfɛ], effets = efekt
 2 N l'émission (f) {émission} [emiˈsjɔ̃], émissions = emisia
 3 AV vigoureusement {vigoureuse|ment} [viɡuʁøzˈmɑ̃] = razantne
+3 V repousser {repousser} [ʁəpuˈse] (qch) = odpudzovať
+3 V faire ressort {faire ressort} [fɛʁ ʁəˈsɔʁ], irr, fait = pružiť
+3 N la force centrifuge {force centrifuge} [fɔʁs sɑ̃tʁiˈfyʒ], forces centrifuges = odstredivá sila
+3 N l'inertie (f) {inertie} [inɛʁˈsi], - = zotrvačnosť
+2 N la charge {charge} [ʃaʁʒ], charges = náboj (elektrický)
+3 N la charge {charge} [ʃaʁʒ], charges = nabitie
+3 N la décharge {décharge} [deˈʃaʁʒ], décharges = vybitie
 
 # sound
 1 N le bruit {bruit} [bʁɥi], bruits = šum
@@ -161,6 +223,42 @@
 2 N l'écho (m) {écho} [eˈko], échos = ozvena
 2 N la vibration {vibration} [vibʁaˈsjɔ̃], vibrations = vibrácia
 2 V vibrer {vibrer} [viˈbʁe] = vibrovať
+3 N le bruissement {bruissement} [bʁɥisˈmɑ̃], bruissements = šuchot
+3 AN insonorisé {insonorisé} [ɛ̃sɔnɔʁiˈze], insonorisée = zvukotesný
+3 AN sonore {sonore} [sɔˈnɔʁ] = zvučný
+3 AN assourdissant {assourdissant} [asuʁdiˈsɑ̃], assourdissante = ohlušujúci
+3 N le fracas {fracas} [fʁaˈka], - = rachot
+3 N le rugissement {rugissement} [ʁyʒisˈmɑ̃], rugissements = revanie
+2 V pousser un cri {pousser un cri} [puˈse œ̃ kʁi] = vykríknuť
+3 V s'écrier {s'écrier} [sekʁiˈje] = vykríknuť
+3 V bruire {bruire} [bʁɥiʁ], irr = šuchotať
+2 V craquer {craquer} [kʁaˈke] = praskať
+3 V crépiter {crépiter} [kʁepiˈte] = praskať
+3 V grincer {grincer} [ɡʁɛ̃ˈse] = vŕzgať
+3 V crisser {crisser} [kʁiˈse] = škrípať
+3 V grincer {grincer} [ɡʁɛ̃ˈse] = škrípať
+3 V piailler {piailler} [pjaˈje] = pišťať
+3 V couiner {couiner} [kwiˈne] = pišťať
+3 V cliqueter {cliqueter} [klikˈte] = klepotať
+3 V claquer {claquer} [klaˈke] = plesknúť
+3 V patauger {patauger} [patoˈʒe] = čľapotať sa
+3 V râler {râler} [ʁɑˈle] = chrčať
+3 V gronder {gronder} [ɡʁɔ̃ˈde] = hučať
+3 V pépier {pépier} [pepˈje] = pípať
+3 V hurler {hurler} [yʁˈle] = škriekať
+3 V brailler {brailler} [bʁɑˈje] = hulákať
+3 V glapir {glapir} [ɡlaˈpiʁ] = jačať
+3 V klaxonner {klaxonner} [klaksɔˈne] = trúbiť
+3 V gratter {gratter} [ɡʁaˈte] = brnkať
+3 V tinter {tinter} [tɛ̃ˈte] = štrngať
+3 V glouglouter {glouglouter} [ɡluɡluˈte] = žblnkať
+3 V murmurer {murmurer} [myʁmyˈʁe] = zurčať
+3 V pétarader {pétarader} [petaʁaˈde] = drnčať
+3 V cahoter {cahoter} [kaɔˈte] = hrkotať
+3 V crépiter {crépiter} [kʁepiˈte] = prašťať
+3 V couiner {couiner} [kwiˈne] = vrešťať
+3 V renâcler {renâcler} [ʁənɑˈkle] = fučať
+3 V fredonner {fredonner} [fʁədɔˈne] = nôtiť si
 
 # corpus-verbs
 2 V filtrer {filtrer} [filˈtʁe] = filtrovať

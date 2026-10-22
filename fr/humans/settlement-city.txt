@@ -34,6 +34,11 @@
 2 N la ville natale {ville natale} [vil naˈtal], villes natales = rodné mesto
 2 N le pays natal {pays natal} [pei naˈtal], pays natals = rodná krajina
 3 N la ville portuaire {ville portuaire} [vil pɔʁˈtɥɛʁ], villes portuaires = prístavné mesto
+3 N le trou perdu {trou perdu} [tʁu pɛʁˈdy], trous perdus = zapadákov
+3 N le patelin {patelin} [patˈlɛ̃], patelins = zapadákov
+3 AN indigène {indigène} [ɛ̃diˈʒɛn] = domorodý
+3 AN autochtone {autochtone} [otɔkˈtɔn] = domorodý
+3 AN nomade {nomade} [nɔˈmad] = kočovný
 
 # streets-places
 1 N la rue {rue} [ʁy], rues = ulica
@@ -69,6 +74,9 @@
 2 N le trottoir {trottoir} [tʁɔˈtwaʁ], trottoirs = chodník
 2 N le bord de la route {bord de la route} [bɔʁ də la ʁut], bords de la route = okraj cesty
 2 N le passage souterrain {passage souterrain} [paˈsaʒ sutɛˈʁɛ̃], passages souterrains = podchod
+3 N l'égout (m) {égout} [eˈgu], égouts = stoka
+2 N le puits {puits} [pɥi], puits = studňa
+3 N le pavé {pavé} [paˈve], pavés = dlažobná kocka
 
 # buildings
 1 N le bâtiment {bâtiment} [bɑtiˈmɑ̃], bâtiments = budova
@@ -121,6 +129,20 @@
 2 N la piscine couverte {piscine couverte} [piˈsin kuˈvɛʁt], piscines couvertes = krytá plaváreň
 2 N la piscine en plein air {piscine en plein air} [piˈsin ɑ̃ plɛn ɛʁ], piscines en plein air = letné kúpalisko
 2 N la salle de concert {salle de concert} [sal də kɔ̃ˈsɛʁ], salles de concert = koncertná sála
+3 N le pont-levis {pont-levis} [pɔ̃ləˈvi], ponts-levis = padací most
+3 N le minaret {minaret} [minaˈʁɛ], minarets = minaret
+3 N le crématorium {crématorium} [kʁematɔˈʁjɔm], crématoriums = krematórium
+2 N le tombeau {tombeau} [tɔ̃ˈbo], tombeaux = hrobka
+3 N le caveau {caveau} [kaˈvo], caveaux = hrobka
+2 N le labyrinthe {labyrinthe} [labiˈʁɛ̃t], labyrinthes = bludisko
+3 N les décombres (m) {décombres} [deˈkɔ̃bʁ], PL = trosky
+3 N le terrain à bâtir {terrain à bâtir} [teʁɛ̃ a bɑˈtiʁ], terrains à bâtir = stavebný pozemok
+2 N le matériau de construction {matériau de construction} [mateʁjo də kɔ̃stʁykˈsjɔ̃], matériaux de construction = stavebný materiál
+2 N le bâtiment {bâtiment} [bɑtiˈmɑ̃], - = stavebníctvo
+2 N la construction {construction} [kɔ̃stʁykˈsjɔ̃], - = stavebníctvo
+3 N l'annexe (f) {annexe} [aˈnɛks], annexes = prístavba
+2 N l'extension (f) {extension} [ɛkstɑ̃ˈsjɔ̃], extensions = prístavba
+3 N le style architectural {style architectural} [stil aʁʃitɛktyˈʁal], styles architecturaux = stavebný sloh
 
 # city-life
 1 N l'adresse (f) {adresse} [aˈdʁɛs], adresses = adresa
@@ -146,6 +168,8 @@
 2 N le mendiant {mendiant} [mɑ̃ˈdjɑ̃], mendiants = žobrák
 3 N le conseil municipal {conseil municipal} [kɔ̃ˈsɛj mynisiˈpal], conseils municipaux = mestská rada
 3 N la fête foraine {fête foraine} [fɛt fɔˈʁɛn], fêtes foraines = pút
+2 N le clochard {clochard} [klɔˈʃaʁ], clochards = tulák
+3 N le vagabond {vagabond} [vagaˈbɔ̃], vagabonds = tulák
 
 # settling
 3 V coloniser {coloniser} [kɔlɔniˈze] = osídľovať

@@ -71,6 +71,7 @@ N atentát
 N vojnový zločin
 N mučenie
 V zdiskreditovať
+V podmaniť si
 
 # army
 N armáda
@@ -119,6 +120,11 @@ V zamerať
 V lemovať
 V zaskočiť
 V katapultovať
+N križiak
+N podporučík
+N letka (útvar) -- skupina lodí alebo lietadiel
+N ochranca -- ten, kto chráni
+N panoš -- služobník rytiera
 
 # weapons-fortification
 N zbraň
@@ -175,9 +181,41 @@ N jadrová zbraň
 V vraziť do
 V odraziť
 V zbrojiť
+N guľka (strela) -- strela z pušky alebo pištole
+N hlaveň
+N cimbúrie -- zubatý okraj hradby
+N kopija -- dlhá bojová zbraň
+N kord
+N kyjak
+N tulec -- puzdro na šípy
+N kuša
+N halapartňa
+N baranidlo
+N výzbroj
+V obrniť
+N samopal
+N guľomet
+N plameňomet
+N raketomet
+N húfnica
+N vzduchovka -- puška na stlačený vzduch
+N pošva (na zbraň) -- puzdro na čepeľ
+N brokovnica -- zbraň na broky
+N stíhačka -- bojové lietadlo
+N náboj (do zbrane) -- strelivo
 
 # war
 V plieniť
 V obkľúčiť
 N sklad
 N tuha
+N zajatec
+V vystrieľať -- vystreliť všetku muníciu
+V postreliť -- zraniť strelou
+N šarvátka -- malá potýčka
+N krviprelievanie -- masaker
+N vzbura -- odboj proti veleniu alebo vrchnosti
+N prevaha -- väčšia sila
+N obkľúčenie
+V abordovať -- dobyť loď útokom
+N votrelec -- kto vnikne neoprávnene

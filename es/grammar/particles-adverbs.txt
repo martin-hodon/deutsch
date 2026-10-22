@@ -23,6 +23,9 @@
 1 PHR no importa {no importa} [no imˈpoɾta] = to nevadí
 1 PHR no pasa nada {no pasa nada} [no ˈpasa ˈnaða] = to nevadí
 2 PHR qué lata {qué lata} [ke ˈlata] = do kelu
+3 PAR pues {pues} [pwes] = no
+2 PAR que {que} [ke] = nech
+2 PAR verdad {verdad} [beɾˈðað] = všakže
 
 # negation
 1 AV no {no} [no] = nie
@@ -71,6 +74,8 @@
 2 AV aproximadamente {aproximadamente} [apɾoksimaðaˈmente] = približne
 1 AV más o menos {más o menos} [mas o ˈmenos] = približne
 1 AV cada vez menos {cada vez menos} [ˈkaða beθ ˈmenos] = čoraz menej
+2 AV mucho {mucho} [ˈmutʃo] = oveľa
+3 PHR un poco demasiado {un poco demasiado} [un ˈpoko demaˈsjaðo] = trochu moc
 
 # time
 1 AV ahora {ahora} [aˈoɾa] = teraz
@@ -137,6 +142,15 @@
 1 AV lo siento {lo siento} [lo ˈsjento] = ľúto
 2 AV de mala gana {de mala gana} [de ˈmala ˈɡana] = nerád
 3 AV a regañadientes {a regañadientes} [a reɣaɲaˈðjentes] = nerád
+2 AV por así decirlo {por así decirlo} [poɾ aˈsi deˈθiɾlo] = takpovediac
+2 AV aproximadamente {aproximada|mente} [apɾoksimaðaˈmente] = odhadom
+3 INT puaj {puaj} [ˈpwax] = fuj
+3 INT joder {joder} [xoˈðeɾ] = do riti
+3 INT pues {pues} [pwes] = nuž
+3 INT hum {hum} [um] = hmm
+2 INT oh {oh} [o] = och
+2 INT ay {ay} [ai] = au
+3 INT diantre {diantre} [ˈdjantɾe] = doparoma
 
 # place-direction
 1 AV aquí {aquí} [aˈki] = sem
@@ -160,6 +174,7 @@
 1 AV aquí {aquí} [aˈki] = u nás
 2 AV en nuestro país {en nuestro país} [en ˈnwestɾo paˈis] = u nás
 3 AV según lo cual {según lo cual} [seˈɣun lo kwal] = podľa čoho
+2 AV acá {acá} [aˈka] = sem
 
 # da-compounds
 1 AV con eso {con eso} [kon ˈeso] = s tým

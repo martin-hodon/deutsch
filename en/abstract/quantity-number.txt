@@ -61,6 +61,7 @@
 2 AV finally {final|ly} [ˈfaɪnəli] = napokon
 3 AV threefold {three|fold} [ˈθriːfəʊld] = trojnásobne
 3 AV fourfold {four|fold} [ˈfɔːfəʊld] = štvornásobne
+2 N fraction {fraction} [ˈfrækʃn], fractions = zlomok
 # amount
 1 AN much {much} [mʌtʃ] = veľa
 1 AN a lot of {a lot of} [ə ˈlɒt əv] = veľa
@@ -150,6 +151,11 @@
 1 AV quite {quite} [kwaɪt] = dosť
 2 N minimum value {minimum value} [ˌmɪnɪməm ˈvæljuː], minimum values = minimálna hodnota
 2 V untie {un|tie} [ʌnˈtaɪ] (sth) = rozviazať
+2 AV half {half} [hɑːf] = napoly
+3 AV heartily {heart|ily} [ˈhɑːtɪli] = dosýta
+3 N accumulation {accumulation} [əˌkjuːmjəˈleɪʃn], accumulations = hromadenie
+3 AN surplus {surplus} [ˈsɜːpləs] = prebytočný
+3 AN excess {excess} [ɪkˈses] = prebytočný
 # counting-measuring
 1 N number {number} [ˈnʌmbə], numbers = číslo (matematické)
 2 V count {count} [kaʊnt] (on, sth) = počítať
@@ -202,7 +208,19 @@
 3 N count {count} [kaʊnt], counts = počet
 3 AV maximally {maximal|ly} [ˈmæksɪməli] = maximálne
 3 N denominator {denominator} [dɪˈnɒmɪneɪtə], denominators = menovateľ
+2 V outweigh {out|weigh} [ˌaʊtˈweɪ] (sth) = vyvážiť
+3 V counterbalance {counter|balance} [ˌkaʊntəˈbæləns] (sth) = vyvážiť
+2 N prime number {prime number} [ˈpraɪm ˌnʌmbə], prime numbers = prvočíslo
+2 N power {power} [ˈpaʊə], powers = mocnina
+3 N addend {addend} [ˈædend], addends = sčítanec
+2 V subtract {sub|tract} [səbˈtrækt] (from) = odčítať
+3 N minuend {minuend} [ˈmɪnjuend], minuends = menšenec
+3 N subtrahend {subtrahend} [ˈsʌbtrəhend], subtrahends = menšiteľ
+3 N dividend {dividend} [ˈdɪvɪdend], dividends = delenec
+3 N divisor {divisor} [dɪˈvaɪzə], divisors = deliteľ
 
 # more
 2 AN plenty of {plenty of} [ˈplenti əv] = veľa
 3 N trillion {trillion} [ˈtrɪljən], trillions = bilión
+3 N subset {sub|set} [ˈsʌbset], subsets = podmnožina
+3 N superset {super|set} [ˈsuːpəset], supersets = nadmnožina

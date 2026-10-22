@@ -9,7 +9,7 @@
 <body data-mode="article">
 <main>
   <header class="top">
-    <h1 id="title" data-t-title="dictionary">Deutsch <span class="der">der</span> <span class="die">die</span> <span class="das">das</span></h1>
+    <h1 id="title" class="flag"></h1>
   </header>
 
   <section id="welcome" class="welcome">
@@ -26,8 +26,6 @@
 
   <div id="trainer" hidden>
   <div class="controls">
-    <label for="learn" class="mute" data-t="learning">learning:</label>
-    <select id="learn" data-t-title="learning-title"></select>
     <select id="kind" data-t-title="kind-title"><option value="words" data-t="words">Words</option><option value="forms" data-t="morphology">Morphology</option><option value="order" data-t="syntax">Syntax</option><option value="ladder" data-t="ladder">Ladder</option><option value="overview" data-t="overview">Overview</option></select>
     <select id="level" data-t-title="freq-title">
       <option value="1">FREQ 1</option>
@@ -69,24 +67,30 @@
 
   <section id="overview" class="card overview" hidden></section>
 
-  <section id="panel-settings" class="panel" hidden>
-    <header><h3 data-t="settings">⚙ Settings</h3><button class="close" aria-label="close">✕</button></header>
+  </div>
+
+  <!-- ⋯: the trainer's own section (header tab trainer.html#more) -- the settings open, the rest under them -->
+  <section id="more-view" class="more-view" hidden>
+  <details id="panel-settings" class="panel" open>
+    <summary><h3 data-t="settings">⚙ Settings</h3></summary>
+    <div class="row">
+      <label for="learn" data-t="learning-title">the language learned</label>
+      <select id="learn"></select>
+    </div>
     <div class="row">
       <label for="native" data-t="native">my language</label>
       <select id="native"></select>
-      <span class="mute" data-t="native-help"></span>
     </div>
     <h4 data-t="speech">Speech</h4>
-    <p class="mute" data-t="speech-help">How loud the word is spoken, and who speaks.</p>
     <div class="row">
       <select id="speech"><option value="0" data-t="speech-off">🔇 off</option><option value="1" data-t="speech-quiet">🔈 quiet</option><option value="2" data-t="speech-medium">🔉 medium</option><option value="3" data-t="speech-loud">🔊 loud</option></select>
       <select id="voice"><option value="man" data-t="man">man</option><option value="woman" data-t="woman">woman</option><option value="child" data-t="child">child</option></select>
       <select id="tempo" data-t-title="tempo-title"><option value="0.85" data-t="tempo-slow">slower</option><option value="1" data-t="tempo-normal">normal tempo</option><option value="1.2" data-t="tempo-faster">faster</option><option value="1.4" data-t="tempo-fast">fast</option></select>
     </div>
-  </section>
+  </details>
 
-  <section id="panel-stats" class="panel stats" hidden>
-    <header><h3><span data-t="statistics">📊 Statistics</span> <span id="stats-mode" class="mute"></span></h3><button class="close" aria-label="close">✕</button></header>
+  <details id="panel-stats" class="panel stats">
+    <summary><h3><span data-t="statistics">📊 Statistics</span> <span id="stats-mode" class="mute"></span></h3></summary>
     <table>
       <thead>
         <tr><th></th><th colspan="3" data-t="today">today</th><th colspan="3" data-t="overall">overall</th></tr>
@@ -94,10 +98,10 @@
       </thead>
       <tbody id="stats-body"></tbody>
     </table>
-  </section>
+  </details>
 
-  <section id="panel-data" class="panel data" hidden>
-    <header><h3 data-t="data">🗂 Recorded data</h3><button class="close" aria-label="close">✕</button></header>
+  <details id="panel-data" class="panel data">
+    <summary><h3 data-t="data">🗂 Recorded data</h3></summary>
     <p id="data-summary" class="mute"></p>
     <div class="row">
       <select id="data-mode"><option value="" data-t="every-exercise">every exercise</option></select>
@@ -110,8 +114,10 @@
       </table>
     </div>
     <button id="data-more" hidden data-t="show-more">show more</button>
+  </details>
+
+  <a class="panel more-link" href="sentences.html"><h3 data-t="generator">✎ Sentence generator</h3></a>
   </section>
-  </div>
 </main>
 <script type="module" src="engine/app.js"></script>
 </body>

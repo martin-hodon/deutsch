@@ -68,6 +68,12 @@
 2 N il familiare {familiare} [famiˈljaːre], familiari = blízky
 1 N il nipote {nipote} [niˈpoːte], nipoti = vnúča
 2 N il cognato {cognato} [koˈɲːaːto], cognati = švagor
+3 N il bisnonno {bis|nonno} [bizˈnonːo], bisnonni = pradedo
+3 N la bisnonna {bis|nonna} [bizˈnonːa], bisnonne = prababka
+2 N la cognata {cognata} [koˈɲːaːta], cognate = švagriná
+3 N i suoceri {suoceri} [ˈswɔːtʃeri], PL = svokrovci
+3 N il fratellastro {fratell|astro} [fratelˈlastro], fratellastri = nevlastný brat
+3 N il figlioccio {figlioccio} [fiˈʎːɔttʃo], figliocci = krstný syn
 
 # people-stages
 1 N la persona {persona} [perˈsoːna], persone = osoba
@@ -120,6 +126,18 @@
 2 N il single {single} [ˈsiŋɡol], single = single
 3 N il celibe {celibe} [ˈtʃɛːlibe], celibi = single
 3 AN omofobo {omofobo} [oˈmɔːfobo], omofoba = homofóbny
+2 N il nero {nero} [ˈneːro], neri = černoch
+3 N il forzuto {forzuto} [forˈtsuːto], forzuti = silák
+3 N l'imbranato (m) {imbranato} [imbraˈnaːto], imbranati = nešika
+3 N il maldestro {maldestro} [malˈdɛstro], maldestri = nešika
+3 N il moccioso {moccioso} [motˈtʃoːzo], mocciosi = sopliak
+3 N lo scout {scout} [ˈskaut], scout = skaut
+3 N l'isolano (m) {isolano} [izoˈlaːno], isolani = ostrovan
+3 N il solitario {solitario} [soliˈtaːrjo], solitari = samotár
+3 N il ventenne {ventenne} [venˈtɛnːe], ventenni = dvadsiatnik
+3 AN senile {senile} [seˈniːle] = starecký
+3 AN attempato {attempato} [atːemˈpaːto], attempata = postarší
+3 N il bambino piccolo {bambino piccolo} [bamˈbiːno ˈpikːolo], bambini piccoli = batoľa
 
 # marriage-social-bonds
 1 V sposarsi {sposarsi} [spoˈzarsi] (con) = oženiť sa
@@ -184,6 +202,10 @@
 2 N la compagna di vita {compagna di vita} [komˈpaɲːa di ˈviːta], compagne di vita = životná partnerka
 2 N il flirt {flirt} [flirt], flirt = flirt
 3 N il corteggiamento {corteggiamento} [korteddʒaˈmento], corteggiamenti = flirt
+3 N la damigella d'onore {damigella d'onore} [damiˈdʒɛlːa doˈnoːre], damigelle d'onore = družička
+3 N la dote {dote} [ˈdɔːte], doti = veno
+3 N la rottura del fidanzamento {rottura del fidanzamento} [roˈtːuːra del fidantsaˈmento], rotture del fidanzamento = zrušenie zásnub
+3 N l'adulterio (m) {adulterio} [adulˈtɛːrjo], adulteri = cudzoložstvo
 
 # social-interaction
 1 V incontrare {incontrare} [inkonˈtraːre] = stretnúť
@@ -378,9 +400,60 @@
 2 V essere fedele {essere fedele} [ˈɛsːere feˈdeːle], irr, essere (a) = byť verný
 1 V litigare {litigare} [litiˈɡaːre] (con) = pohádať sa
 3 V bisticciare {bisticciare} [bistitˈtʃaːre] (con) = pohádať sa
+2 N la gaffe (f) {gaffe} [ˈɡaf], gaffe = faux pas
+3 N il passo falso {passo falso} [ˈpasːo ˈfalso], passi falsi = faux pas
+3 AN concorde {concorde} [konˈkɔrde] = svorný
+3 V ossequiare {ossequiare} [osːeˈkwjaːre] = obskakovať
+3 N la seduzione {seduzione} [sedutˈtsjoːne], seduzioni = zvádzanie
+2 N la popolarità {popolarità} [popolaˈrita], popolarità = popularita
+3 N la ressa {ressa} [ˈrɛsːa], resse = tlačenica
+3 N la cerchia {cerchia} [ˈtʃɛrkja], cerchie = okruh
+2 V aiutare {aiutare} [ajuˈtaːre] = vypomôcť
+3 V favorire {favorire} [favoˈriːre], isc = dopomôcť
+3 N il vezzeggiamento {vezzeggiamento} [vettseddʒaˈmento], vezzeggiamenti = rozmaznanie
+3 N la molestia {molestia} [moˈlɛstja], molestie = obťažovanie
+2 V rimproverare {rimproverare} [rimproveˈraːre] = karhať
+2 V sgridare {sgridare} [zɡriˈdaːre] = karhať
+3 V coccolarsi {coccolarsi} [kokːoˈlarsi] = maznať sa
+2 V radunarsi {radunarsi} [raduˈnarsi] = zhromaždiť sa
+2 V riunirsi {riunirsi} [riuˈnirsi], isc = zhromaždiť sa
+3 N il tirapiedi {tirapiedi} [tiraˈpjɛːdi], tirapiedi = prisluhovač
+1 INT ciao {ciao} [ˈtʃaːo] = ahoj
+3 N il buono a nulla {buono a nulla} [ˈbwɔːno a ˈnulːa], buoni a nulla = naničhodník
+3 N il mascalzone {mascalzone} [maskalˈtsoːne], mascalzoni = lotor
+3 N il furfante {furfante} [furˈfante], furfanti = lotor
+3 N il monello {monello} [moˈnɛlːo], monelli = fagan
+3 N il cafone {cafone} [kaˈfoːne], cafoni = hulvát
+3 N l'ignorante (m) {ignorante} [iɲːoˈrante], ignoranti = ignorant
+3 N il pagliaccio {pagliaccio} [paˈʎːattʃo], pagliacci = pajác
+3 N il compagno {compagno} [komˈpaɲːo], compagni = súdruh
+3 N il damerino {damerino} [dameˈriːno], damerini = fičúr
+3 N la feccia {feccia} [ˈfettʃa], fecce = zberba
+3 N la plebaglia {plebaglia} [pleˈbaʎːa], - = zberba
+3 N l'ipocrita (m) {ipocrita} [iˈpɔːkrita], ipocriti = pokrytec
+3 N l'avido (m) {avido} [ˈaːvido], avidi = chamtivec
+3 N il teppista {teppista} [tepˈpista], teppisti = chuligán
+3 N il secchione {secchione} [seˈkːjoːne], secchioni = bifľoš
+3 N lo spione {spione} [ˈspjoːne], spioni = žalobaba
+3 N il ficcanaso {ficcanaso} [fikːaˈnaːzo], ficcanaso = sliedič
+3 N la gnocca {gnocca} [ˈɲɔkːa], gnocche = kočka
+2 N la prostituta {prostituta} [prostiˈtuːta], prostitute = prostitútka
+3 N la puttana {puttana} [puˈtːaːna], puttane = prostitútka
+3 N la sgualdrina {sgualdrina} [zɡwalˈdriːna], sgualdrine = cundra
+3 N la sfacciata {sfacciata} [sfatˈtʃaːta], sfacciate = drzaňa
+3 N l'oca (f) {oca} [ˈɔːka], oche = hlupana
+3 N il seccatore {seccatore} [sekːaˈtoːre], seccatori = dotieravec
+3 N la carogna {carogna} [kaˈroɲːa], carogne = mrcha
+3 N la stronza {stronza} [ˈstrontsa], stronze = mrcha
+3 N la fila indiana {fila indiana} [ˈfiːla inˈdjaːna], file indiane = husí pochod
+3 N il leccapiedi {leccapiedi} [lekːaˈpjɛːdi], leccapiedi = pätolízač
+3 N lo stronzo {stronzo} [ˈstrontso], stronzi = hajzel
+3 N il delatore {delatore} [delaˈtoːre], delatori = udavač
+3 N l'omaggio (m) {omaggio} [oˈmaddʒo], omaggi = pocta
 
 # contact
 3 V coccolarsi {coccolarsi} [kokːoˈlarsi] = túliť sa
+2 N la carezza (f) {carezza} [kaˈrettsa], carezze = pohladenie
 
 # more
 1 V contare {contare} [konˈtaːre] (su) = spoliehať sa

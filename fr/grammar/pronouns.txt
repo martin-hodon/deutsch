@@ -56,6 +56,7 @@
 1 P plusieurs {plusieurs} [plyˈzjœʁ] = niekoľkí
 1 PHR un peu {un peu} [œ̃ pø] = trochu
 1 P aucun {aucun} [oˈkœ̃] = žiadny
+2 P l'un d'entre nous {l'un d'entre nous} [lœ̃ dɑ̃tʁ ˈnu] = jeden z nás
 
 # language-specific closed words (no Slovak word: a description)
 1 P dont {dont} [dɔ̃] = ktorého (vzťažné zámeno)

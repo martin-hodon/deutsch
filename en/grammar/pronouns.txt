@@ -47,6 +47,7 @@
 1 P no {no} [nəʊ] = žiadny
 1 P everyone {everyone} [ˈevrɪwʌn] = každý človek
 1 PHR a little {a little} [ə ˈlɪtəl] = trochu
+3 P one of us {one·of·us} [ˈwʌn əv ˈʌs] = jeden z nás
 
 # language-specific closed words (no Slovak word: a description)
 1 P they {they} [ðeɪ] = oni

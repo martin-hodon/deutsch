@@ -2,8 +2,8 @@
 // statistics, ask the next. Two groups of exercises: WORDS (a word asked by spaced repetition, srs.js) and GRAMMAR
 // (a sentence made for the language learned, engine/practice.js: its syntax -- the word order --, its morphology -- a
 // form left out --, and the overview of both with examples). The page speaks the learner's own language (engine/text.js; Slovak until chosen in the settings), the
-// exercises ask the words through it; the language learned is chosen above the exercises. On screen only what the
-// chosen exercise needs; the settings, statistics and the recorded data behind More.
+// exercises ask the words through it; the language learned is chosen in the settings. On screen only what the
+// chosen exercise needs; the settings, statistics and the recorded data in the ⋯ section (trainer.html#more).
 import { loadDictionary, details } from "./data.js";
 import { loadMorphology } from "../de/morph.js";
 import { modesFor } from "./questions.js";
@@ -77,8 +77,8 @@ async function start() {
   const name = await storage.getName();
   // (the welcome once a visit: after Learn was clicked, coming back -- from the dictionary -- goes straight to the questions)
   const begun = (() => { try { return sessionStorage.getItem("trainer:begun") === "1"; } catch { return false; } })();
-  const panel = location.hash.match(/^#panel-(settings|stats|data)$/)?.[1];   // (another page's ⋯ menu: straight to that panel)
-  if (name && (begun || panel)) { await learn(name); if (panel) { ui.openPanel(panel); onPanel(panel); } }
+  const more = moreHash();   // (another page's ⋯ tab: straight to the section)
+  if (name && (begun || more)) await learn(name);
   else if (name) ui.showWelcome(name, summarize(answers, null, startOfToday()).all, summarize(answers, null).all, () => learn(name));
   else ui.askName(async newName => { await storage.setName(newName); learn(newName); });
 }
@@ -107,8 +107,19 @@ async function learn(name) {
   await showFilters();
   ui.onKeys(pressed);
   ask();
+  route();
+  window.addEventListener("hashchange", route);
+  // (Grammar from ⋯: back to the exercises on the page, not a reload -- the address without its #more)
+  document.querySelector('.pages a[data-t="trainer"]').onclick = (event) => { if (!moreHash()) return; event.preventDefault(); history.pushState(null, "", location.pathname + location.search); route(); };
 }
-// a panel of the ⋯ menu opened: what it shows
+// the address says what is shown: #more the ⋯ section (#panel-stats, #panel-data: it, with that one open), else the exercises
+const moreHash = () => location.hash.match(/^#(?:more|panel-(settings|stats|data))$/);
+function route() {
+  const m = moreHash();
+  ui.showView(!!m, m?.[1]);
+  if (m) for (const name of ["stats", "data"]) if (ui.panelOpen(name)) onPanel(name);   // (one left open: anew, the answers since)
+}
+// a section of ⋯ opened: what it shows
 async function onPanel(panel) {
   if (panel === "stats") showProgress();
   if (panel === "data") ui.showData(answers, await storage.profile(), labelOfMode);
@@ -124,7 +135,7 @@ async function usePair(p) {
   if (other !== "sk") await loadLang(other);
   MODES = modesFor(p.learn, other, dicts);
   if (!MODES[mode]) mode = likeMode(was) ?? Object.keys(MODES)[0];
-  ui.showTitle(LANGS[p.learn].name, p.learn === "de");
+  ui.showTitle(LANGS[p.learn].name, LANGS[p.learn].flag);
   voice.prosody = await loadProsody(LANGS[p.learn].speech);
 }
 
@@ -186,9 +197,12 @@ function ask() {
 function pool() {
   const group = ui.selected("category"), level = Number(ui.selected("level"));
   return (group ? dict.byGroup[group] : dict.entries)
-    .filter(e => e.freq === level && MODES[mode].fits(e))
+    .filter(e => e.freq === level && MODES[mode].fits(e) && !regionalOnly(e))
     .sort(learningOrder);
 }
+
+// a regional word (Jänner) whose concept has a general one (Januar): not drilled -- the general word is learned
+const regionalOnly = (e) => !!e.region && (dict.byConcept.get(`${e.pos}|${e.concept}`) ?? []).some((x) => !x.region);
 
 function askWord() {
   const entries = pool();
@@ -308,7 +322,7 @@ function choose(option) {
 
 // Keys 1-3 do what a click on that option does; Enter checks a word order, or goes on; Backspace takes a word back
 function pressed(key) {
-  if (!current) return;
+  if (!current || ui.inMore()) return;
   if (current.kind === "ladder") { if (key === "Enter") ask(); return; }
   if (current.kind === "order") {
     if (key === "Enter") return current.answered ? ask() : orderKeys?.check();

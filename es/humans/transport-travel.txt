@@ -64,6 +64,17 @@
 3 N el vehículo de motor {vehículo de motor} [beˈikulo de moˈtoɾ], vehículos de motor = motorové vozidlo
 3 N el neumático de invierno {neumático de invierno} [neuˈmatiko de imˈbjeɾno], neumáticos de invierno = zimná pneumatika
 2 N la furgoneta {furgoneta} [fuɾɣoˈneta], furgonetas = dodávkové auto
+2 N el vagón {vagón} [baˈɣon], vagones = vagón
+3 N el trolebús {trolebús} [tɾoleˈβus], trolebuses = trolejbus
+3 N el dirigible {dirigible} [diɾiˈxiβle], dirigibles = vzducholoď
+3 N el zepelín {zepelín} [θepeˈlin], zepelines = vzducholoď
+3 N el vapor {vapor} [baˈpoɾ], vapores = parník
+3 N el monopatín {monopatín} [monopaˈtin], monopatines = skateboard
+2 N la lancha motora {lancha motora} [ˈlantʃa moˈtoɾa], lanchas motoras = motorový čln
+3 N el petrolero {petrolero} [petɾoˈleɾo], petroleros = tanker
+3 N el planeador {planeador} [planeaˈðoɾ], planeadores = vetroň
+3 N el navío {navío} [naˈβio], navíos = loď
+3 N el bajel {bajel} [baˈxel], bajeles = loď
 
 # vehicle-parts
 2 N el neumático {neumático} [neuˈmatiko], neumáticos = pneumatika
@@ -109,6 +120,22 @@
 2 N el acelerador {acelerador} [aθeleɾaˈðoɾ], aceleradores = plynový pedál
 2 N la parte trasera {parte trasera} [ˈpaɾte tɾaˈseɾa], partes traseras = zadná časť
 3 N la trasera {trasera} [tɾaˈseɾa], traseras = zadná časť
+2 N el embrague {embrague} [emˈbɾaɣe], embragues = spojka (v aute)
+3 N el pértigo {pértigo} [ˈpeɾtiɣo], pértigos = oje
+3 N la llanta {llanta} [ˈʎanta], llantas = ráf
+3 N el cambio de marchas {cambio de marchas} [ˈkambjo ðe ˈmaɾtʃas], cambios de marchas = prehadzovačka
+3 N la caja de cambios {caja de cambios} [ˈkaxa ðe ˈkambjos], cajas de cambios = prevodovka
+3 N el tapacubos {tapa|cubos} [tapaˈkuβos], tapacubos = puklica
+2 N el camarote {camarote} [kamaˈɾote], camarotes = kajuta
+3 N la proa {proa} [ˈpɾoa], proas = prova
+3 N la verga {verga} [ˈbeɾɣa], vergas = rahno
+3 N la amarra {amarra} [aˈmara], amarras = kotevné lano
+2 N el timón {timón} [tiˈmon], timones = kormidlo
+3 N la popa {popa} [ˈpopa], popas = korma
+3 N el babor {babor} [baˈβoɾ], - = ľavobok
+3 N el estribor {estribor} [estɾiˈβoɾ], - = pravobok
+3 N el chasis {chasis} [ˈtʃasis], chasis = podvozok
+3 V sofrenar {sofrenar} [sofɾeˈnaɾ] = zabrzdiť
 
 # infrastructure
 1 N la carretera {carretera} [kareˈteɾa], carreteras = cesta (komunikácia)
@@ -171,6 +198,12 @@
 3 N el acceso {acceso} [akˈθeso], accesos = nájazd
 3 N el corte de carretera {corte de carretera} [ˈkoɾte de kareˈteɾa], cortes de carretera = uzávera
 3 V asfaltar {asfaltar} [asfalˈtaɾ] = asfaltovať
+3 N el ramal {ramal} [raˈmal], ramales = odbočka
+2 N el desvío {desvío} [desˈβio], desvíos = odbočka
+3 N el cambio de agujas {cambio de agujas} [ˈkambjo ðe aˈɣuxas], cambios de agujas = výhybka
+3 N la pasarela {pasarela} [pasaˈɾela], pasarelas = lávka
+3 N el guardarraíl {guarda|rraíl} [ɡwaɾðaraˈil], guardarraíles = zvodidlo
+3 N la encrucijada {encrucijada} [eŋkɾuθiˈxaða], encrucijadas = križovatka
 
 # travel
 2 N el trayecto {trayecto} [tɾaˈʝekto], trayectos = jazda
@@ -316,6 +349,21 @@
 3 N la salida del país {salida del país} [saˈliða del paˈis], salidas del país = vycestovanie
 2 N el interior {interior} [inteˈɾjoɾ], interiores = tuzemsko
 3 N el territorio nacional {territorio nacional} [teriˈtoɾjo naθjoˈnal], territorios nacionales = tuzemsko
+3 N las alforjas {alforjas} [alˈfoɾxas], PL = sedlová brašna
+2 V cabalgar {cabalgar} [kaβalˈɣaɾ] = jazdiť na koni
+1 V montar a caballo {montar a caballo} [monˈtaɾ a kaˈβaʎo] = jazdiť na koni
+3 V jinetear {jinetear} [xineteˈaɾ] = jazdiť na koni
+3 N el práctico {práctico} [ˈpɾaktiko], prácticos = lodivod
+3 V hincharse {hincharse} [inˈtʃaɾse] = vzdúvať sa
+2 N la azafata {azafata} [aθaˈfata], azafatas = letuška
+2 N el tripulante {tripulante} [tɾipuˈlante], tripulantes = člen posádky
+3 N el polizón {polizón} [poliˈθon], polizones = čierny pasažier
+3 V surcar {surcar} [suɾˈkaɾ] = brázdiť
+3 AN escorado {escorado} [eskoˈɾaðo], escorada = naklonený
+2 N el transporte público {transporte público} [tɾansˈpoɾte ˈpuβliko], transportes públicos = verejná doprava
+3 N el maletín {maletín} [maleˈtin], maletines = kufrík
+3 N el naufragio {naufragio} [nauˈfɾaxjo], naufragios = stroskotanie
+3 N la demora {demora} [deˈmoɾa], demoras = meškanie
 
 # corpus-verbs
 2 V recorrer {recorrer} [rekoˈreɾ] = precestovať

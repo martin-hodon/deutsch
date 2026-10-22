@@ -59,6 +59,10 @@
 3 AN epico {epico} [ˈɛːpiko], epica, epici/epiche = epický
 3 V curare {curare} [kuˈraːre] = kurátorovať
 2 N la bruttezza {bruttezza} [bruˈtːettsa], - = škaredosť
+3 V scarabocchiare {scarabocchiare} [skarabokˈkjaːre] = čmárať
+3 N lo scarabocchio {scarabocchio} [skaraˈbɔkːjo], scarabocchi = čmáranica
+2 N l'ornamento (m) {ornamento} [ornaˈmento], ornamenti = ozdoba
+2 N la decorazione (f) {decorazione} [dekoraˈtsjoːne], decorazioni = ozdoba
 
 # music
 1 N la musica {musica} [ˈmuːzika], musiche = hudba
@@ -120,6 +124,8 @@
 3 N il trio {trio} [ˈtriːo], trii = trio
 1 N la canzone {canzone} [kanˈtsoːne], canzoni = pieseň
 3 N il rapper {rapper} [ˈrɛpːer], rapper = raper
+3 AN melodioso {melodioso} [meloˈdjoːzo], melodiosa = melodický
+3 AN melodico {melodico} [meˈlɔːdiko], melodica, melodici/melodiche = melodický
 
 # performance-literature
 1 N il teatro {teatro} [teˈaːtro], teatri = divadlo
@@ -221,6 +227,13 @@
 3 V sincronizzare {sincronizzare} [sinkronidˈdzaːre] = synchronizovať
 3 AN autobiografico {autobiografico} [autobioˈɡraːfiko], autobiografica, autobiografici/autobiografiche = autobiografický
 3 N l'ultima replica (f) {ultima replica} [ˈultima ˈrɛːplika], ultime repliche = derniéra
+3 N la platea (f) {platea} [plaˈtɛːa], platee = divácka sála
+2 N la favola (f) {favola} [ˈfaːvola], favole = bájka
+2 N il buffone {buffone} [buˈfːoːne], buffoni = šašo
+3 N il giullare {giullare} [dʒuˈlːaːre], giullari = šašo
+3 N il puffo {puffo} [ˈpufːo], puffi = šmolko
+2 N il podio {podio} [ˈpɔːdjo], podi = pódium
+2 N la finzione (f) {finzione} [finˈtsjoːne], finzioni = fikcia
 
 # games-sport
 1 N il gioco {gioco} [ˈdʒɔːko], giochi = hra
@@ -435,6 +448,30 @@
 3 V fare surf {fare surf} [ˈfaːre surf], irr, fatto = surfovať
 2 N il dilettante {dilettante} [dileˈtːante], dilettanti = amatér
 1 V perdere {perdere} [ˈpɛrdere], perso = prehrať (zápas)
+2 N il ciclismo {ciclismo} [tʃiˈklizmo], - = cyklistika
+2 N le freccette {freccette} [fretˈtʃetːe], PL = šípky (hra)
+2 N l'altalena (f) {altalena} [altaˈleːna], altalene = hojdačka
+3 N il flipper {flipper} [ˈflipːer], flipper = herný automat
+2 N l'alpinismo (m) {alpinismo} [alpiˈnizmo], - = horolezectvo
+3 N la pesistica (f) {pesistica} [peˈsistika], - = vzpieranie
+3 N il sollevamento pesi {sollevamento pesi} [solːevaˈmento ˈpeːzi], - = vzpieranie
+1 V fare sport {fare sport} [ˈfaːre sport], irr, fatto = športovať
+2 N la racchetta (f) {racchetta} [raˈkːetːa], racchette = pálka
+3 N la mazza (f) {mazza} [ˈmattsa], mazze = pálka
+2 N la corda per saltare {corda per saltare} [ˈkɔrda per salˈtaːre], corde per saltare = švihadlo
+3 N il manubrio {manubrio} [maˈnuːbrjo], manubri = činka
+3 N il bilanciere {bilanciere} [bilanˈtʃɛːre], bilancieri = činka
+3 N il tappetino {tappetino} [tapːeˈtiːno], tappetini = žinenka
+3 N il materassino {materassino} [materaˈsːiːno], materassini = žinenka
+3 N il sonaglio {sonaglio} [soˈnaʎːo], sonagli = hrkálka
+2 N l'asso (m) {asso} [ˈasːo], assi = eso
+3 N il fante {fante} [ˈfante], fanti = dolník
+2 N la scacchiera (f) {scacchiera} [skaˈkːjɛːra], scacchiere = šachovnica
+1 N il cavallo {cavallo} [kaˈvalːo], cavalli = šachový jazdec
+3 N il trampolo {trampolo} [ˈtrampolo], trampoli = chodúľ
+2 N il pedone {pedone} [peˈdoːne], pedoni = pešiak
+3 N l'alfiere (m) {alfiere} [alˈfjɛːre], alfieri = šachový strelec
+2 N il disco {disco} [ˈdisko], dischi = hokejový puk
 
 # corpus-verbs
 3 V mettere l'uno contro l'altro {mettere l'uno contro l'altro} [ˈmetːere ˈluːno ˈkontro ˈlaltro], irr, messo = poštvať proti sebe

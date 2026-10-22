@@ -179,6 +179,16 @@
 2 N la tenuta {tenuta} [teˈnuːta], tenute = usadlosť
 2 V ospitare {ospitare} [ospiˈtaːre] = byť domovom pre
 2 AN indipendente {indipendente} [indipenˈdɛnte] = voľne stojaci
+3 N il cornicione {cornicione} [korniˈtʃoːne], cornicioni = rímsa
+3 N la cornice {cornice} [korˈniːtʃe], cornici = rímsa
+3 N il riparo {riparo} [riˈpaːro], ripari = prístrešie
+3 N l'installazione (f) {installazione} [instalːatˈtsjoːne], installazioni = zabudovanie
+3 N il piolo {piolo} [ˈpjɔːlo], pioli = priečka rebríka
+3 N il massetto {massetto} [maˈsːetːo], massetti = poter
+3 N il pilastro {pilastro} [piˈlastro], pilastri = pilier
+3 N il cancelletto {cancelletto} [kantʃeˈlːetːo], cancelletti = bránka
+3 N la baracca {baracca} [baˈrakːa], baracche = chatrč
+3 N la capanna {capanna} [kaˈpanːa], capanne = chatrč
 
 # rooms
 1 N la stanza {stanza} [ˈstantsa], stanze = izba
@@ -203,6 +213,9 @@
 2 N lo spazio abitativo {spazio abitativo} [ˈspattsjo abitaˈtiːvo], spazi abitativi = obytný priestor
 1 N lo studio {studio} [ˈstuːdjo], studi = pracovňa
 2 N il ripostiglio {ripostiglio} [ripoˈstiʎːo], ripostigli = komora
+2 N l'ingresso (m) {ingresso} [inˈɡrɛsːo], ingressi = predsieň (chodba)
+2 N il salotto {salotto} [saˈlɔtːo], salotti = salón
+3 N il salone {salone} [saˈloːne], saloni = salón
 
 # furniture
 1 N i mobili {mobili} [ˈmɔːbili], PL = nábytok
@@ -264,6 +277,9 @@
 2 N la gruccia {gruccia} [ˈɡruttʃa], grucce = vešiak
 2 N la culla {culla} [ˈkulːa], culle = kolíska
 2 N l'amaca (f) {amaca} [aˈmaːka], amache = hojdacia sieť
+2 N la vetrina {vetrina} [veˈtriːna], vetrine = vitrína
+3 N l'armadietto (m) {armadietto} [armaˈdjetːo], armadietti = skrinka
+3 N il bracciolo {bracciolo} [bratˈtʃɔːlo], braccioli = opierka
 
 # household-objects
 1 N la chiave {chiave} [ˈkjaːve], chiavi = kľúč
@@ -338,6 +354,27 @@
 2 N la cassa {cassa} [ˈkasːa], casse = bedňa
 2 N la cassetta {cassetta} [kaˈsːetːa], cassette = bedňa
 2 N la lastra {lastra} [ˈlastra], lastre = platňa
+2 N la tendina {tendina} [tenˈdiːna], tendine = záclona
+2 N la corda {corda} [ˈkɔrda], corde = šnúra
+3 N il cordone {cordone} [korˈdoːne], cordoni = šnúra
+3 N la torcia {torcia} [ˈtɔrtʃa], torce = pochodeň
+3 N la fiaccola {fiaccola} [ˈfjakːola], fiaccole = pochodeň
+3 N il piumino {piumino} [pjuˈmiːno], piumini = prachovka
+3 N la doccetta {doccetta} [dotˈtʃetːa], doccette = sprchová hlavica
+3 N il soffione {soffione} [soˈfːjoːne], soffioni = sprchová hlavica
+2 N il water {water} [ˈvater], - = záchodová misa
+3 N il copripiumino {copri|piumino} [kopripjuˈmiːno], copripiumini = obliečka na paplón
+3 N il perforatore {perforatore} [perforaˈtoːre], perforatori = dierkovačka
+3 N la cucitrice {cucitrice} [kutʃiˈtriːtʃe], cucitrici = zošívačka
+3 N la pinzatrice {pinzatrice} [pintsaˈtriːtʃe], pinzatrici = zošívačka
+2 N il ciuccio {ciuccio} [ˈtʃuttʃo], ciucci = cumlík
+3 N il mozzicone {mozzicone} [mottsiˈkoːne], mozziconi = ohorok
+3 N la cicca {cicca} [ˈtʃikːa], cicche = ohorok
+3 N le cianfrusaglie {cianfrusaglie} [tʃanfruˈzaʎːe], PL = haraburdy
+3 N lo spruzzatore {spruzzatore} [spruttsaˈtoːre], spruzzatori = rozprašovač
+2 N la persiana {persiana} [perˈsjaːna], persiane = žalúzia
+3 N l'ansa (f) {ansa} [ˈansa], anse = uško (držadlo)
+3 N il manico {manico} [ˈmaːniko], manici = uško (držadlo)
 
 # household-actions
 2 N la donna delle pulizie {donna delle pulizie} [ˈdɔnːa ˈdelːe puliˈtsiːe], donne delle pulizie = upratovačka
@@ -376,3 +413,7 @@
 2 N la tesina {tesina} [teˈziːna], tesine = seminárna práca
 1 N il bucato {bucato} [buˈkaːto], - = pranie
 2 N il lavaggio {lavaggio} [laˈvaddʒo], lavaggi = pranie
+3 V sgomberare {sgomberare} [zɡombeˈraːre] = odpratať
+3 V sprangare {sprangare} [spraŋˈɡaːre] = zahasprovať
+3 V addobbare {addobbare} [adːoˈbːaːre] = ovešať
+3 V chiudere fuori {chiudere fuori} [ˈkjuːdere ˈfwɔːri], irr, chiuso = vymknúť

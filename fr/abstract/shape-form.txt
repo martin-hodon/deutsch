@@ -95,6 +95,19 @@
 2 N la stature {stature} [staˈtyʁ], statures = postava
 3 AV formellement {formelle|ment} [fɔʁmɛlˈmɑ̃] = formálne
 3 AV linéairement {linéaire|ment} [lineɛʁˈmɑ̃] = lineárne
+2 N la pointe {pointe} [pwɛ̃t], pointes = cíp
+3 N le trapèze {trapèze} [tʁaˈpɛz], trapèzes = lichobežník
+3 N le losange {losange} [lɔˈzɑ̃ʒ], losanges = kosoštvorec
+3 N l'ellipse (f) {ellipse} [eˈlips], ellipses = elipsa
+3 N le parallélépipède {parallélé|pipède} [paʁalelepiˈpɛd], parallélépipèdes = kváder
+2 N la pyramide {pyramide} [piʁaˈmid], pyramides = ihlan
+3 N l'œillet (m) {œillet} [œˈjɛ], œillets = pútko
+3 N le parallélogramme {parallélo|gramme} [paʁalelɔˈɡʁam], parallélogrammes = kosodĺžnik
+3 V s'arquer {s'arquer} [saʁˈke] = klenúť sa
+2 AN tendu {tendu} [tɑ̃ˈdy], tendue = natiahnutý
+3 N le cercle circonscrit {cercle circonscrit} [sɛʁkl siʁkɔ̃ˈsʁi], cercles circonscrits = opísaná kružnica
+3 N le cercle inscrit {cercle inscrit} [sɛʁkl ɛ̃ˈskʁi], cercles inscrits = vpísaná kružnica
+2 N l'anneau (m) {anneau} [aˈno], anneaux = krúžok
 
 # form-properties
 1 AN rond {rond} [ʁɔ̃], ronde = okrúhly
@@ -199,3 +212,7 @@
 3 N l'émoussement (m) {émousse|ment} [emusˈmɑ̃], émoussements = tuposť
 3 N l'asymétrie (f) {a|symétrie} [asimeˈtʁi], asymétries = asymetria
 1 N la courbe {courbe} [kuʁb], courbes = krivka
+3 AN moulant {moulant} [muˈlɑ̃], moulante = priliehavý
+2 N la superficie {superficie} [sypɛʁfiˈsi], superficies = rozloha
+2 V plier {plier} [pliˈje] = prehnúť
+2 N le pli {pli} [pli], plis = záhyb

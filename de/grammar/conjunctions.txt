@@ -10,6 +10,14 @@
 2 CON sowohl {so|wohl} [zoˈvoːl] = ako… tak aj
 2 CON weder {weder} [ˈveːdɐ] = ani
 3 CON beziehungsweise {beziehungs|weise} [bəˈtsiːʊŋsvaɪzə] = respektíve, alebo
+2 CON einerseits … andererseits {einerseits … andererseits} [ˈaɪnɐzaɪts … ˈandəʁɐzaɪts] = jednak… jednak
+2 CON zwar … aber {zwar … aber} [tsvaːɐ … ˈaːbɐ] = síce… ale
+2 CON bald … bald {bald … bald} [balt … balt] = niekedy… niekedy
+2 CON teils … teils {teils … teils} [taɪls … taɪls] = sčasti… sčasti
+2 CON nicht … sondern {nicht … sondern} [nɪçt … ˈzɔndɐn] = nýbrž
+2 CON entweder … oder {entweder … oder} [ˈɛntveːdɐ … ˈoːdɐ] = buď
+2 CON weder … noch {weder … noch} [ˈveːdɐ … nɔx] = ani
+2 CON sowohl … als auch {sowohl … als auch} [zoˈvoːl … als aʊx] = ako… tak aj
 
 # subordinating
 1 CON dass {dass} [das] = že
@@ -40,6 +48,14 @@
 2 CON seitdem {seit|dem} [zaɪtˈdeːm] = odkedy, odvtedy čo
 2 CON wohingegen {wo|hin|gegen} [vohɪnˈɡeːɡən] = zatiaľ čo, kdežto
 2 PHR um zu {um zu} [ʊm tsuː] = aby, na to aby
+3 CON umso … als {umso … als} [ˈʊmzoː … als] = tým skôr že
+3 CON umso … weil {umso … weil} [ˈʊmzoː … vaɪl] = tým skôr že
+2 CON ebenso … wie {ebenso … wie} [ˈeːbənzoː … viː] = tak… ako
+2 CON so … wie {so … wie} [zoː … viː] = tak… ako
+2 CON wenn … dann {wenn … dann} [vɛn … dan] = ak
+2 CON wenn auch {wenn auch} [vɛn aʊx] = hoci
+3 CON obzwar {ob|zwar} [ɔpˈtsvaːɐ] = hoci
+3 CON wiewohl {wie|wohl} [viˈvoːl] = hoci
 
 # connecting-adverbs
 1 AV deshalb {des|halb} [ˈdɛshalp] = preto
@@ -59,6 +75,10 @@
 2 AV zwar {zwar} [ˈtsvaːɐ] = síce
 2 AV einerseits {einer|seits} [ˈaɪnɐzaɪts] = na jednej strane
 2 CON plus {plus} [plʊs] = plus, a k tomu
+3 AV anderenfalls {anderen|falls} [ˈandəʁənfals] = inak (v opačnom prípade)
+3 AV andernfalls {andern|falls} [ˈandɐnfals] = inak (v opačnom prípade)
+2 AV dementsprechend {dem|ent|sprechend} [ˈdeːmɛntʃpʁɛçənt] = podľa toho
+2 AV außerdem {außer|dem} [ˈaʊsɐdeːm] = navyše
 
 # more
 2 CON es sei denn {es sei denn} [ɛs zaɪ ˈdɛn] = ak nie

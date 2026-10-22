@@ -94,6 +94,11 @@
 3 V peak {peak} [piːk] = vrcholiť
 2 N foot {foot} [fʊt], feet (of) = úpätie
 3 N base {base} [beɪs], bases (of) = úpätie
+3 N wasteland {waste|land} [ˈweɪstlænd], wastelands = pustatina
+3 N clearing {clear|ing} [ˈklɪərɪŋ], clearings = čistina
+3 N glade {glade} [ɡleɪd], glades = čistina
+3 N isthmus {isthmus} [ˈɪsməs], isthmuses = pevninská šija
+3 N pass {pass} [pɑːs], passes = priesmyk
 # surface-materials
 1 N rock {rock} [rɒk], rocks = skala
 3 N boulder {boul|der} [ˈbəʊldə], boulders = skalný blok
@@ -118,6 +123,20 @@
 2 N tone {tone} [təʊn], tones = tón
 2 N gravel {grav|el} [ˈɡrævəl], - = štrk
 2 N lava {la|va} [ˈlɑːvə], - = láva
+3 N mica {mica} [ˈmaɪkə], - = sľuda
+3 N emerald {emerald} [ˈemərəld], emeralds = smaragd
+3 N slag {slag} [slæɡ], - = škvara
+3 N cinder {cinder} [ˈsɪndə], cinders = škvara
+3 AN stone {stone} [stəʊn] = kamenný
+2 N gem {gem} [dʒem], gems = drahokam
+3 N gemstone {gem|stone} [ˈdʒemstəʊn], gemstones = drahokam
+3 N amber {amber} [ˈæmbə], - = jantár
+3 N peat {peat} [piːt], - = rašelina
+3 N quagmire {quag|mire} [ˈkwæɡmaɪə], quagmires = bahnisko
+3 N mire {mire} [ˈmaɪə], mires = bahnisko
+3 N limestone {lime|stone} [ˈlaɪmstəʊn], - = vápenec
+3 N alabaster {alabaster} [ˈæləbɑːstə], - = alabaster
+3 N sandstone {sand|stone} [ˈsændstəʊn], - = pieskovec
 # geo-events
 2 N eruption {e|rup|tion} [ɪˈrʌpʃən], eruptions = vypuknutie
 2 N outbreak {out|break} [ˈaʊtbreɪk], outbreaks = vypuknutie
@@ -142,3 +161,6 @@
 2 V shake {shake} [ʃeɪk], shook/shaken = triasť sa
 2 V tremble {trem|ble} [ˈtrembəl] = triasť sa
 1 N floor {floor} [flɔː], floors = podlaha
+3 N meridian {meridian} [məˈrɪdiən], meridians = poludník
+3 N tropic {tropic} [ˈtrɒpɪk], tropics = obratník
+3 N polar circle {polar circle} [ˌpəʊlə ˈsɜːkəl], polar circles = polárna kružnica

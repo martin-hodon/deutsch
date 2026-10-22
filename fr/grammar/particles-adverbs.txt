@@ -25,6 +25,9 @@
 2 PHR ça ne fait rien {ça ne fait rien} [sa nə fɛ ˈʁjɛ̃] = to nevadí
 2 PHR zut alors {zut alors} [zyt aˈlɔʁ] = do kelu
 2 PHR mince alors {mince alors} [mɛ̃s aˈlɔʁ] = do kelu
+2 PAR eh bien {eh bien} [e ˈbjɛ̃] = no
+2 PAR que {que} [kə] (+ subj) = nech
+2 PAR n'est-ce pas {n'est-ce pas} [nɛs ˈpa] = všakže
 
 # negation
 1 AV pas {pas} [pa] = nie
@@ -79,6 +82,8 @@
 2 AV tant {tant} [tɑ̃] = tak
 1 AV à la fois {à la fois} [a la ˈfwa] = zároveň
 2 AV de moins en moins {de moins en moins} [də mwɛ̃z ɑ̃ ˈmwɛ̃] = čoraz menej
+1 AV beaucoup {beaucoup} [boˈku] = oveľa
+2 PHR un peu trop {un peu trop} [œ̃ pø ˈtʁo] = trochu moc
 
 # time
 1 AV maintenant {maintenant} [mɛ̃təˈnɑ̃] = teraz
@@ -142,6 +147,15 @@
 2 AV d'ailleurs {d'ailleurs} [dajˈœʁ] = mimochodom
 3 AV à contrecœur {à contrecœur} [a kɔ̃tʁəˈkœʁ] = nerád
 2 AV à regret {à regret} [a ʁəˈɡʁɛ] = nerád
+2 AV pour ainsi dire {pour ainsi dire} [puʁ ɛ̃si ˈdiʁ] = takpovediac
+2 AV approximativement {approximative|ment} [apʁɔksimativˈmɑ̃] = odhadom
+3 INT berk {berk} [bɛʁk] = fuj
+2 INT merde {merde} [mɛʁd] = do riti
+3 INT bah {bah} [ba] = nuž
+3 INT hum {hum} [œm] = hmm
+2 INT oh {oh} [o] = och
+2 INT aïe {aïe} [aj] = au
+3 INT diantre {diantre} [djɑ̃tʁ] = doparoma
 
 # place-direction
 1 AV ici {ici} [iˈsi] = sem

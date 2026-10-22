@@ -65,6 +65,7 @@
 1 AV long {long} [lɒŋ] = dlho
 1 AV high {high} [haɪ] = vysoko
 2 AV with difficulty {with·difficulty} [wɪð ˈdɪfɪkəlti] = ťažko
+3 AN lanky {lanky} [ˈlæŋki] = vytiahnutý
 # evaluation
 1 AN good {good} [ɡʊd], better/best = dobrý
 1 AN better {better} [ˈbetə] = lepší
@@ -556,6 +557,14 @@
 2 AN inaccessible {in|accessible} [ˌɪnəkˈsesəbəl] = neprístupný
 3 N imperfection {im|perfection} [ˌɪmpəˈfekʃən], imperfections = nedokonalosť
 2 N complexity {complex|ity} [kəmˈpleksɪtɪ], complexities = zložitosť
+3 AN majestic {majestic} [məˈdʒestɪk] = majestátny
+3 N favouring {favour|ing} [ˈfeɪvərɪŋ], favourings = zvýhodnenie
+3 N advantage {advantage} [ədˈvɑːntɪdʒ], advantages = zvýhodnenie
+3 AN delicate {delicate} [ˈdelɪkət] = chúlostivý
+3 AN tricky {tricky} [ˈtrɪki] = chúlostivý
+3 AN rare {rare} [reə] = vzácny
+3 AN scarce {scarce} [skeəs] = vzácny
+3 AN beneficial {beneficial} [ˌbenɪˈfɪʃl] = prospešný
 # state-properties
 1 AN new {new} [njuː] = nový
 2 N news item {news item} [ˈnjuːz aɪtəm], news items = novinka
@@ -949,6 +958,17 @@
 3 N instability {in|stability} [ˌɪnstəˈbɪlɪtɪ], - = nestabilita
 2 AV as little as possible {as little as possible} [əz ˈlɪtəl əz ˈpɒsɪbəl] = čo najmenej
 2 V strengthen {strength|en} [ˈstreŋθən] = silnieť
+3 AN compressed {com|pressed} [kəmˈprest] = stlačený
+3 N vulnerability {vulnerab|ility} [ˌvʌlnərəˈbɪləti], vulnerabilities = zraniteľnosť
+2 AN damaged {damage|d} [ˈdæmɪdʒd] = poškodený
+3 AN rickety {rickety} [ˈrɪkəti] = rozheganý
+2 AN tied {tied} [taɪd] = zviazaný
+3 AN rotten {rotten} [ˈrɒtn] = spráchnivený
+3 AN bristly {bristly} [ˈbrɪsli] = štetinatý
+3 AN worn {worn} [wɔːn] = opotrebovaný
+2 AN soaked {soaked} [səʊkt] = premoknutý
+3 AN drenched {drenched} [drentʃt] = premoknutý
+3 AN lacking {lack|ing} [ˈlækɪŋ] (in) = chýbajúci
 # corpus-adjectives
 3 AN well thought-out {well thought-out} [wel ˈθɔːt aʊt] = premyslený
 3 AN dual {dual} [ˈdjuːəl] = duálny
@@ -1042,6 +1062,8 @@
 3 AN in charge {in charge} [ɪn ˈtʃɑːdʒ] (of) = hlavný zodpovedný
 3 AN pre-Christmas {pre-Christmas} [ˌpriː ˈkrɪsməs] = predvianočný
 3 AN contradictory {contradictory} [ˌkɒntrəˈdɪktəri] = protirečivý
+3 AN telling {tell|ing} [ˈtelɪŋ] = veľavravný
+3 AN meaningful {meaning|ful} [ˈmiːnɪŋfl] = veľavravný
 # quality
 3 AN environmentally harmful {environmentally harmful} [ɪnˌvaɪrənˈmentəli ˈhɑːmfəl] = škodlivý pre životné prostredie
 3 AN devastating {devastat|ing} [ˈdevəsteɪtɪŋ] = drvivý
@@ -1072,6 +1094,22 @@
 3 AN exuberant {exuberant} [ɪɡˈzjuːbərənt] = prekypujúci
 2 AN tight {tight} [taɪt] = tesný (nepriepustný)
 1 N weight {weight} [weɪt], weights = závažie
+3 AN compatible {compatible} [kəmˈpætəbl] (with) = zlučiteľný
+3 AV in outline {in outline} [ɪn ˈaʊtlaɪn] = v náznakoch
+3 AV slightly {slight|ly} [ˈslaɪtli] = v náznakoch
+3 AN casual {casual} [ˈkæʒuəl] = ležérny
+3 AN undemanding {un|demanding} [ˌʌndɪˈmɑːndɪŋ] = nenáročný
+3 N grace {grace} [ɡreɪs], - = pôvab
+3 AN alluring {alluring} [əˈlʊərɪŋ] = zvodný
+3 AN neat {neat} [niːt] = úhľadný
+3 AN shabby {shabby} [ˈʃæbi] = ošarpaný
+3 AN replaceable {replace|able} [rɪˈpleɪsəbl] = nahraditeľný
+3 AN dispensable {dispens|able} [dɪˈspensəbl] = nahraditeľný
+2 AN ragged {ragged} [ˈræɡɪd] = roztrhaný
+3 AN tattered {tattered} [ˈtætəd] = roztrhaný
+3 N futility {futility} [fjuːˈtɪləti], - = zbytočnosť
+3 AN untrue {un|true} [ʌnˈtruː] = nepravdivý
+3 AN false {false} [fɔːls] = nepravdivý
 
 # more
 2 AN entire {entire} [ɪnˈtaɪə] = celý

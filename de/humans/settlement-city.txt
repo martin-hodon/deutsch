@@ -34,6 +34,10 @@
 3 N die Heimatstadt {Heimat|stadt} [ˈhaɪmatʃtat], Heimatstädte = rodné mesto
 3 N das Heimatland {Heimat|land} [ˈhaɪmatlant], Heimatländer = rodná krajina, domovina
 3 N die Hafenstadt {Hafen|stadt} [ˈhaːfənʃtat], Hafenstädte = prístavné mesto
+3 N das Kaff {Kaff} [kaf], Kaffs = zapadákov
+3 AN einheimisch {ein|heimisch} [ˈaɪnhaɪmɪʃ] = domorodý
+3 AN nomadisch {nomadisch} [noˈmaːdɪʃ] = kočovný
+3 N die Vorstadt {Vor|stadt} [ˈfoːɐʃtat], Vorstädte = predmestie
 
 # streets-places
 1 N die Straße {Straße} [ˈʃtʁaːsə], Straßen = ulica, cesta
@@ -68,6 +72,10 @@
 3 N der Gehweg {Geh|weg} [ˈɡeːveːk], Gehwege = chodník
 3 N der Straßenrand {Straßen|rand} [ˈʃtʁaːsənʁant], Straßenränder = okraj cesty
 3 N die Unterführung {Unter|führung} [ʊntɐˈfyːʁʊŋ], Unterführungen = podchod
+3 N die Gosse {Gosse} [ˈɡɔsə], Gossen = stoka
+2 N der Brunnen {Brunnen} [ˈbʁʊnən], Brunnen = studňa
+3 N der Pflasterstein {Pflaster|stein} [ˈpflastɐʃtaɪn], Pflastersteine = dlažobná kocka
+3 N die Talsperre {Tal|sperre} [ˈtaːlʃpɛʁə], Talsperren = priehrada
 
 # buildings
 1 N das Gebäude {Ge|bäude} [ɡəˈbɔʏdə], Gebäude = budova
@@ -120,6 +128,22 @@
 3 N das Hallenbad {Hallen|bad} [ˈhalənbaːt], Hallenbäder = krytá plaváreň
 3 N das Freibad {Frei|bad} [ˈfʁaɪbaːt], Freibäder = letné kúpalisko
 3 N der Konzertsaal {Konzert|saal} [kɔnˈtsɛʁtzaːl], Konzertsäle = koncertná sála
+3 N die Zugbrücke {Zug|brücke} [ˈtsuːkbʁʏkə], Zugbrücken = padací most
+3 N das Minarett {Minarett} [minaˈʁɛt], Minarette = minaret
+3 N das Krematorium {Krematorium} [kʁemaˈtoːʁiʊm], Krematorien = krematórium
+3 N die Gruft {Gruft} [ɡʁʊft], Grüfte = hrobka
+3 N das Labyrinth {Labyrinth} [labyˈʁɪnt], Labyrinthe = bludisko
+3 N der Irrgarten {Irr|garten} [ˈɪʁɡaʁtən], Irrgärten = bludisko
+3 N die Trümmer {Trümmer} [ˈtʁʏmɐ], PL = trosky
+3 N der Bauplatz {Bau|platz} [ˈbaʊplats], Bauplätze = stavebný pozemok
+3 N der Baustoff {Bau|stoff} [ˈbaʊʃtɔf], Baustoffe = stavebný materiál
+3 N das Bauwesen {Bau|wesen} [ˈbaʊveːzən], - = stavebníctvo
+3 N die Bauwirtschaft {Bau|wirtschaft} [ˈbaʊvɪʁtʃaft], - = stavebníctvo
+3 V anbauen {an·bauen} [ˈanbaʊən], hat (A) = pristavať
+3 N der Anbau {An|bau} [ˈanbaʊ], Anbauten = prístavba
+3 N der Zubau {Zu|bau} [ˈtsuːbaʊ], Zubauten = prístavba
+3 N der Baustil {Bau|stil} [ˈbaʊʃtiːl], Baustile = stavebný sloh
+3 N die Spelunke {Spelunke} [ʃpeˈlʊŋkə], Spelunken = krčma
 
 # city-life
 1 N die Adresse {Adresse} [aˈdʁɛsə], Adressen = adresa
@@ -148,6 +172,8 @@
 - 2 N die Anwohnerin {An|wohnerin} [ˈanvoːnəʁɪn], Anwohnerinnen = obyvateľka, obyvateľka (v okolí)
 2 N der Stadtrat {Stadt|rat} [ˈʃtatʁaːt], Stadträte = mestská rada, člen mestskej rady
 3 N die Kirmes {Kirmes} [ˈkɪʁmɛs], Kirmessen = pút, jarmok
+3 N der Landstreicher {Land|streicher} [ˈlantʃtʁaɪçɐ], Landstreicher = tulák
+3 N der Penner {Penner} [ˈpɛnɐ], Penner = tulák
 
 # settling
 3 V siedeln {siedeln} [ˈziːdəln], hat = osídľovať, usadiť sa

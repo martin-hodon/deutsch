@@ -68,6 +68,7 @@
 1 AV легко {легко} [lʲɪxˈko] = ľahko
 2 AV круто {круто} [ˈkrutə] = strmo
 3 AV скудно {скудно} [ˈskudnə] = tesne
+3 AN долговязый {долговязый} [dəlɡɐˈvʲazɨj] = vytiahnutý
 
 # evaluation
 1 AN хороший {хороший} [xɐˈroʂɨj], лучше = dobrý
@@ -712,6 +713,12 @@
 2 AN недоступный {не|доступный} [nʲɪdɐˈstupnɨj] = neprístupný
 3 N несовершенство {не|совершенство} [nʲɪsəvʲɪrˈʂɛnstvə], с, несовершенства = nedokonalosť
 2 N сложность {сложность} [ˈsloʐnəstʲ], ж, сложности = zložitosť
+3 AN величественный {величественный} [vʲɪˈlʲitɕɪstvʲɪnːɨj] = majestátny
+3 N льгота {льгота} [ˈlʲɡotə], ж, льготы = zvýhodnenie
+3 AN щекотливый {щекотливый} [ɕːɪkɐˈtlʲivɨj] = chúlostivý
+3 AN деликатный {деликатный} [dʲɪlʲɪˈkatnɨj] = chúlostivý
+2 AN редкий {редкий} [ˈrʲetkʲɪj] = vzácny
+2 AN полезный {полезный} [pɐˈlʲeznɨj] = prospešný
 
 # state-properties
 1 AN новый {новый} [ˈnovɨj] = nový
@@ -1327,6 +1334,18 @@
 2 AV как можно меньше {как можно меньше} [kak ˈmoʐnə ˈmʲenʲʂɨ] = čo najmenej
 2 V крепнуть {крепнуть} [ˈkrʲepnutʲ], окрепнуть = silnieť
 2 V усиливаться {усиливаться} [uˈsʲilʲɪvətsə], усилиться = silnieť
+3 AN сжатый {сжатый} [ˈʐːatɨj] = stlačený
+3 N уязвимость {уязвимость} [ʊjɪzˈvʲiməsʲtʲ], ж, - = zraniteľnosť
+2 AN повреждённый {повреждённый} [pɐvrɪʐˈdʲonːɨj] = poškodený
+3 AN расшатанный {расшатанный} [rɐˈʂːatənːɨj] = rozheganý
+2 AN связанный {связанный} [ˈsvʲazənːɨj] = zviazaný
+3 AN трухлявый {трухлявый} [trʊxˈlʲavɨj] = spráchnivený
+3 AN щетинистый {щетинистый} [ɕːɪˈtʲinʲɪstɨj] = štetinatý
+3 AN изношенный {изношенный} [ɪzˈnoʂənːɨj] = opotrebovaný
+3 AN промокший {промокший} [prɐˈmokʂɨj] = premoknutý
+3 AN недостающий {недостающий} [nʲɪdəstɐˈjuɕːɪj] = chýbajúci
+3 AN скверный {скверный} [ˈskvʲernɨj] = škaredý
+2 AN гадкий {гадкий} [ˈɡatkʲɪj] = odporný
 
 # corpus-adjectives
 2 AN продуманный {продуманный} [prɐˈdumənːɨj] = premyslený
@@ -1491,6 +1510,7 @@
 3 AV удручающе {удручающе} [udruˈtɕajuɕːɪ] = skľučujúco
 3 AV угнетающе {угнетающе} [uɡnʲɪˈtajuɕːɪ] = skľučujúco
 1 AV неожиданно {неожиданно} [nʲɪɐˈʐɨdənːə] = nečakane
+3 AN многозначительный {много|значительный} [mnəɡəznɐˈtɕitʲɪlʲnɨj] = veľavravný
 
 # quality
 3 AN вредный для окружающей среды {вредный для окружающей среды} [ˈvrʲednɨj dlʲə ɐkruˈʐajuɕːɪj srʲɪˈdɨ] = škodlivý pre životné prostredie
@@ -1553,6 +1573,23 @@
 3 AV неудержимо {неудержимо} [nʲɪudʲɪrˈʐɨmə] = nezadržateľne
 3 AV неэффективно {неэффективно} [nʲɪɪfʲɪkˈtʲivnə] = neúčinne
 3 AV безрезультатно {безрезультатно} [bʲɪzrʲɪzulʲˈtatnə] = neúčinne
+3 AN совместимый {совместимый} [sɐvmʲɪˈsʲtʲimɨj] = zlučiteľný
+3 AV намёками {намёками} [nɐˈmʲokəmʲɪ] = v náznakoch
+3 AN развязный {развязный} [rɐzˈvʲaznɨj] = ležérny
+3 AN непринуждённый {не|принуждённый} [nʲɪprʲɪnʊʐˈdʲonːɨj] = ležérny
+3 AN непритязательный {не|притязательный} [nʲɪprʲɪtʲɪˈzatʲɪlʲnɨj] = nenáročný
+3 AN нетребовательный {не|требовательный} [nʲɪˈtrʲebəvətʲɪlʲnɨj] = nenáročný
+3 N очарование {очарование} [ɐtɕɪrɐˈvanʲɪjə], с, - = pôvab
+3 N прелесть {прелесть} [ˈprʲelʲɪsʲtʲ], ж, - = pôvab
+3 AN соблазнительный {соблазнительный} [səblɐzˈnʲitʲɪlʲnɨj] = zvodný
+3 AN опрятный {опрятный} [ɐˈprʲatnɨj] = úhľadný
+3 AN аккуратный {аккуратный} [əkʊˈratnɨj] = úhľadný
+3 AN потрёпанный {потрёпанный} [pɐˈtrʲopənːɨj] = ošarpaný
+3 AN заменимый {заменимый} [zəmʲɪˈnʲimɨj] = nahraditeľný
+2 AN рваный {рваный} [ˈrvanɨj] = roztrhaný
+3 N бесполезность {бес|полезность} [bʲɪspɐˈlʲeznəsʲtʲ], ж, - = zbytočnosť
+2 AN ложный {ложный} [ˈloʐnɨj] = nepravdivý
+3 AN лживый {лживый} [ˈlʐɨvɨj] = nepravdivý
 
 # more
 2 AV невероятно {невероятно} [nʲɪvʲɪrɐˈjatnə] = neuveriteľne

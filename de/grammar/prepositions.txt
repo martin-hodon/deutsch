@@ -10,6 +10,8 @@
 2 PRE je {je} [jeː], A = na (za jednotku), za, každý
 3 PRE per {per} [pɛʁ], A = prostredníctvom, poštou
 2 PRE via {via} [ˈviːa], A = prostredníctvom, cez
+3 PRE vermöge {ver|möge} [fɛɐˈmøːɡə], G = prostredníctvom
+3 PRE mittels {mittels} [ˈmɪtəls], G = prostredníctvom
 
 # dative
 1 PRE aus {aus} [aʊs], D = z, zo
@@ -28,6 +30,7 @@
 3 PRE zufolge {zu|folge} [tsuˈfɔlɡə], D = podľa
 3 PRE nebst {nebst} [nɛpst], D = spolu s, aj s
 2 PRE dank {dank} [daŋk], D/G = vďaka
+3 PRE ausschließlich {aus|schließ|lich} [ˈaʊsʃliːslɪç], G = okrem
 
 # genitive
 1 PRE wegen {wegen} [ˈveːɡən], G = kvôli, pre
@@ -57,6 +60,9 @@
 3 PRE binnen {binnen} [ˈbɪnən], D/G = v priebehu, do, behom
 2 PRE inklusive {inklusive} [ɪnkluˈziːvə], G = vrátane
 2 PRE einschließlich {ein|schließlich} [ˈaɪnʃliːslɪç], G = vrátane
+2 PRE unter {unter} [ˈʊntɐ], D = spomedzi
+3 PRE vorbehaltlich {vor|behalt|lich} [ˈfoːɐbəhaltlɪç], G = s výhradou
+3 PRE anstelle {an|stelle} [anˈʃtɛlə], G = namiesto
 
 # two-way
 1 PRE an {an} [an], A/D = na (v kontakte), pri, k
@@ -65,6 +71,7 @@
 
 # more
 2 PHR unabhängig von {unabhängig von} [ˈʊnaphɛŋɪç fɔn] = bez ohľadu na
+3 PHR ungeachtet {un|geachtet} [ˈʊnɡəaxtət] = bez ohľadu na
 
 # language-specific closed words (no Slovak word: a description)
 2 PRE über {über} [ˈyːbɐ], A = viac ako

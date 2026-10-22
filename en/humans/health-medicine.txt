@@ -140,6 +140,44 @@
 3 V wound {wound} [wuːnd] (sb) = zraniť
 3 AN sighted {sight|ed} [ˈsaɪtɪd] = vidiaci
 2 PHR come round {come round} [kʌm ˈraʊnd] = prebrať sa
+3 N streptococcus {streptococcus} [ˌstreptəˈkɒkəs], streptococci = streptokok
+2 AN poisoned {poison|ed} [ˈpɔɪzənd] = otrávený (jedom)
+2 N cramp {cramp} [kræmp], cramps = kŕč
+3 AN one-eyed {one-eyed} [ˌwʌn ˈaɪd] = jednooký
+3 V dislocate {dislocate} [ˈdɪsləkeɪt] (sth) = vykĺbiť
+2 N scab {scab} [skæb], scabs = chrasta
+2 N burn {burn} [bɜːn], burns = popálenina
+2 AN bruised {bruised} [bruːzd] = pomliaždený
+2 N malaria {malaria} [məˈleəriə], - = malária
+2 N eczema {eczema} [ˈeksɪmə], - = ekzém
+2 N wart {wart} [wɔːt], warts = bradavica
+2 AN terminally ill {terminally ill} [ˌtɜːmɪnəli ˈɪl] = smrteľne chorý
+2 AN dazed {dazed} [deɪzd] = omráčený
+3 AN listless {list|less} [ˈlɪstləs] = malátny
+3 AN limp {limp} [lɪmp] = ochabnutý
+2 AN tipsy {tipsy} [ˈtɪpsi] = podnapitý
+3 V bleed to death {bleed to death} [bliːd tə ˈdeθ], bled/bled to death = vykrvácať
+3 N rabies {rabies} [ˈreɪbiːz], - = besnota
+2 N jaundice {jaundice} [ˈdʒɔːndɪs], - = žltačka
+2 N hepatitis {hepatitis} [ˌhepəˈtaɪtɪs], - = hepatitída
+2 N measles {measles} [ˈmiːzəlz], - = osýpky
+2 N smallpox {small|pox} [ˈsmɔːlpɒks], - = kiahne
+3 N scabies {scabies} [ˈskeɪbiːz], - = svrab
+3 N lumbago {lumbago} [lʌmˈbeɪɡəʊ], - = seknutie v krížoch
+3 V maim {maim} [meɪm] (sb) = zmrzačiť
+3 N callus {callus} [ˈkæləs], calluses = mozoľ
+2 N pus {pus} [pʌs], - = hnis
+3 V fester {fester} [ˈfestə] = hnisať
+3 AN purulent {purulent} [ˈpjʊərələnt] = hnisavý
+2 N ulcer {ulcer} [ˈʌlsə], ulcers = vred
+2 AN swollen {swollen} [ˈswəʊlən] = opuchnutý
+3 N blackhead {black|head} [ˈblækhed], blackheads = čierna bodka
+2 N heartburn {heart|burn} [ˈhɑːtbɜːn], - = pálenie záhy
+2 N contraction {contraction} [kənˈtrækʃən], contractions = kontrakcia
+2 N irritation {irritation} [ˌɪrɪˈteɪʃən], irritations = podráždenie
+2 N blister {blister} [ˈblɪstə], blisters = pľuzgier
+3 AN mangy {mangy} [ˈmeɪndʒi] = prašivý
+3 N pathogen {pathogen} [ˈpæθədʒən], pathogens = pôvodca choroby
 # treatment
 2 N medicine {medicine} [ˈmedsən], - = medicína
 2 AN medical {medic|al} [ˈmedɪkəl] = lekársky
@@ -205,6 +243,11 @@
 3 AN psychiatric {psychiatric} [saɪkɪˈætrɪk] = psychiatrický
 3 V resuscitate {resuscitate} [rɪˈsʌsɪteɪt] (sb) = resuscitovať
 3 AN therapeutic {therapeutic} [θerəˈpjuːtɪk] = terapeutický
+2 N syringe {syringe} [sɪˈrɪndʒ], syringes = injekčná striekačka
+2 N hypnosis {hypnosis} [hɪpˈnəʊsɪs], - = hypnóza
+3 N autopsy {autopsy} [ˈɔːtɒpsi], autopsies = pitva
+2 N post-mortem {post-mortem} [ˌpəʊst ˈmɔːtəm], post-mortems = pitva
+2 N scalpel {scalpel} [ˈskælpəl], scalpels = skalpel
 # medical-people-places
 1 N doctor {doctor} [ˈdɒktə], doctors = lekár
 1 N doctor {doctor} [ˈdɒktə], doctors = lekárka
@@ -252,6 +295,9 @@
 3 AN cosmetic {cosmetic} [kɒzˈmetɪk] = kozmetický
 2 N healthcare {health|care} [ˈhelθkeə], - = zdravotníctvo
 3 N convalescent {convalescent} [kɒnvəˈlesənt], convalescents = uzdravený
+3 N mortuary {mortuary} [ˈmɔːtʃuəri], mortuaries = márnica
+3 N morgue {morgue} [mɔːɡ], morgues = márnica
+2 N quack {quack} [kwæk], quacks = šarlatán
 # hygiene-substances
 3 N hygiene {hygiene} [ˈhaɪdʒiːn], - = hygiena
 3 AN hygienic {hygienic} [haɪˈdʒiːnɪk] = hygienický
@@ -277,6 +323,15 @@
 2 N calorie {calorie} [ˈkælərɪ], calories = kalória
 2 N drug {drug} [drʌɡ], drugs = droga
 3 N cannabis {cannabis} [ˈkænəbɪs], - = konope
+2 N shower gel {shower gel} [ˈʃaʊə dʒel], shower gels = sprchový gél
+2 V bathe {bathe} [beɪð] = kúpať sa
+2 V scrub {scrub} [skrʌb] (sth) = drhnúť
+2 V wash off {wash·off} [wɒʃ ˈɒf] (sth) = zmyť
+2 N face mask {face mask} [ˈfeɪs mɑːsk], face masks = rúško
+2 V soap {soap} [səʊp] (sth) = mydliť
+2 N insulin {insulin} [ˈɪnsjʊlɪn], - = inzulín
+2 N cholesterol {cholesterol} [kəˈlestərɒl], - = cholesterol
+2 N glucose {glucose} [ˈɡluːkəʊs], - = glukóza
 
 # more
 3 N abortion {abortion} [əˈbɔːʃən], abortions = potrat

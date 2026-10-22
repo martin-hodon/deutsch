@@ -67,6 +67,8 @@
 2 PRE hors {hors} [ɔʁ] = mimo
 2 PRE quant à {quant à} [kɑ̃t ˈa] = pokiaľ ide o
 2 PRE à propos de {à propos de} [a pʁɔpo ˈdə] = pokiaľ ide o
+2 PRE parmi {parmi} [paʁˈmi] = spomedzi
+3 PRE sous réserve de {sous réserve de} [su ʁeˈzɛʁv də] = s výhradou
 
 # two-way
 1 PRE sur {sur} [syʁ] = na (v kontakte)

@@ -68,6 +68,16 @@
 3 N whiff {whiff} [wɪf], whiffs = závan
 2 N heavy rain {heavy rain} [ˌhevi ˈreɪn], - = silný dážď
 2 N daytime temperature {daytime temperature} [ˈdeɪtaɪm ˈtemprɪtʃə], daytime temperatures = denná teplota
+2 V blow {blow} [bləʊ], blew/blown (on) = fúkať
+3 V blow out {blow·out} [bləʊ ˈaʊt], blew out/blown out (sth) = sfúknuť
+3 N cloud {cloud} [klaʊd], clouds = kúdol
+3 N plume {plume} [pluːm], plumes = kúdol
+3 N draught {draught} [drɑːft], draughts = prievan
+3 V blow away {blow·away} [bləʊ əˈweɪ], blew away/blown away (sth) = odfúknuť
+3 V fan {fan} [fæn] (sth) = ovievať
+3 V drizzle {drizzle} [ˈdrɪzəl] = mrholiť
+3 V die down {die·down} [daɪ ˈdaʊn] = zmierniť sa
+3 V abate {abate} [əˈbeɪt] = zmierniť sa
 # temperature
 1 N temperature {temperature} [ˈtemprɪtʃə], temperatures = teplota
 1 AN hot {hot} [hɒt], hotter/hottest = horúci
@@ -120,6 +130,9 @@
 2 N drought {drought} [draʊt], droughts = sucho
 3 V microwave {micro|wave} [ˈmaɪkrəweɪv] (sth) = ohriať
 2 N cooling {cool|ing} [ˈkuːlɪŋ], - = ochladzovanie
+2 V cool {cool} [kuːl] = chladnúť
+3 V cool down {cool·down} [kuːl ˈdaʊn] = chladnúť
+3 N boil {boil} [bɔɪl], boils = var
 # seasons-climate
 1 N season {season} [ˈsiːzən], seasons = ročné obdobie
 1 N spring {spring} [sprɪŋ], springs = jar

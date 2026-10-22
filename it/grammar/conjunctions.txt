@@ -18,6 +18,10 @@
 2 CON ovvero {ovvero} [oˈvːeːro] = respektíve
 2 CON ossia {ossia} [oˈsːiːa] = respektíve
 3 CON ed {ed} [ed] = a
+2 CON da un lato.. dall'altro.. {da un lato.. dall'altro..} [da un ˈlaːto dalˈlaltro] = jednak… jednak
+2 CON ora.. ora.. {ora.. ora..} [ˈoːra ˈoːra] = niekedy… niekedy
+2 CON a volte.. a volte.. {a volte.. a volte..} [a ˈvɔlte a ˈvɔlte] = niekedy… niekedy
+2 CON in parte.. in parte.. {in parte.. in parte..} [in ˈparte in ˈparte] = sčasti… sčasti
 
 # subordinating
 1 CON che {che} [ke] = že
@@ -52,6 +56,9 @@
 2 CON per il fatto che {per il fatto che} [per il ˈfatːo ke] = tým že
 2 PHR per {per} [per] (+ inf) = aby
 3 PHR al fine di {al fine di} [al ˈfiːne di] (+ inf) = aby
+2 CON tanto più che {tanto più che} [ˈtanto ˈpju ke] = tým skôr že
+2 CON tanto.. quanto.. {tanto.. quanto..} [ˈtanto ˈkwanto] = tak… ako
+2 CON così.. come.. {così.. come..} [koˈzi ˈkoːme] = tak… ako
 
 # connecting-adverbs
 1 AV perciò {perciò} [perˈtʃɔ] = preto

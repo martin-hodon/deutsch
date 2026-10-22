@@ -82,6 +82,22 @@
 3 N la zaffata {zaffata} [tsafˈfaːta], zaffate = závan
 2 N la pioggia forte {pioggia forte} [ˈpjɔddʒa ˈfɔrte], piogge forti = silný dážď
 3 N la temperatura diurna {temperatura diurna} [temperaˈtuːra diˈurna], temperature diurne = denná teplota
+1 V soffiare {soffiare} [soˈfːjaːre] = fúkať
+3 V spirare {spirare} [spiˈraːre] = fúkať
+2 V spegnere {spegnere} [ˈspeɲɲere], irr, spento = sfúknuť
+2 N la nube {nube} [ˈnuːbe], nubi = kúdol
+3 N la voluta {voluta} [voˈluːta], volute = kúdol
+2 N la corrente d'aria {corrente d'aria} [koˈrːɛnte ˈdaːrja], correnti d'aria = prievan
+3 N lo spiffero {spiffero} [ˈspifːero], spifferi = prievan
+2 V portare via {portare via} [porˈtaːre ˈviːa] = odfúknuť
+2 V spazzare via {spazzare via} [spaˈttsaːre ˈviːa] = odfúknuť
+2 V accarezzare {accarezzare} [akːareˈttsaːre] = ovievať
+3 V alitare {alitare} [aliˈtaːre] = ovievať
+3 V piovigginare {piovigginare} [pjoviddʒiˈnaːre] = mrholiť
+3 V pioviscolare {pioviscolare} [pjoviskoˈlaːre] = mrholiť
+2 V calmarsi {calmarsi} [kalˈmarsi] = zmierniť sa
+3 V placarsi {placarsi} [plaˈkarsi] = zmierniť sa
+3 V attenuarsi {attenuarsi} [atːenuˈarsi] = zmierniť sa
 
 # temperature
 2 N la temperatura {temperatura} [temperaˈtuːra], temperature = teplota
@@ -161,6 +177,9 @@
 2 N la siccità {siccità} [sittʃiˈta], siccità = sucho
 2 AV a sangue freddo {a·sangue·freddo} [a ˈsaŋɡwe ˈfredːo] = chladnokrvne
 2 N il raffreddamento {raffreddamento} [rafːredːaˈmento], raffreddamenti = ochladzovanie
+2 V raffreddarsi {raffreddarsi} [rafːreˈdːarsi] = chladnúť
+3 N l'ebollizione (f) {ebollizione} [ebolːitˈtsjoːne], ebollizioni = var
+3 N il bollore {bollore} [boˈlːoːre], bollori = var
 
 # seasons-climate
 1 N la stagione {stagione} [staˈdʒoːne], stagioni = ročné obdobie

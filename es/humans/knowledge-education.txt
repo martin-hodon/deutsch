@@ -136,6 +136,10 @@
 2 V copiar {copiar} [koˈpjaɾ] = odpisovať
 2 V descartar {descartar} [deskaɾˈtaɾ] = vytriediť
 2 V clasificar {clasificar} [klasifiˈkaɾ] = vytriediť
+3 N el sacapuntas {saca|puntas} [sakaˈpuntas], sacapuntas = strúhadlo na ceruzky
+3 N el pupitre {pupitre} [puˈpitɾe], pupitres = školská lavica
+3 N el compás {compás} [komˈpas], compases = kružidlo
+3 N el libro de lectura {libro de lectura} [ˈliβɾo de lekˈtuɾa], libros de lectura = čítanka
 
 # knowledge-science
 1 N la ciencia {ciencia} [ˈθjenθja], ciencias = veda
@@ -198,6 +202,7 @@
 2 N la arquitectura {arquitectura} [aɾkitekˈtuɾa], - = architektúra
 3 AN arquitectónico {arquitectónico} [aɾkitekˈtoniko], arquitectónica = architektonický
 2 N la síntesis {síntesis} [ˈsintesis], síntesis = syntéza
+3 V escudriñar {escudriñar} [eskuðɾiˈɲaɾ] = preskúmať
 
 # fields-of-study
 1 N las matemáticas {matemáticas} [mateˈmatikas], PL = matematika
@@ -256,3 +261,6 @@
 3 V archivar {archivar} [aɾtʃiˈβaɾ] = archivovať
 2 N el instituto {instituto} [instiˈtuto], institutos = ústav
 2 N la tabla {tabla} [ˈtabla], tablas = tabuľka
+3 N el tomo {tomo} [ˈtomo], tomos = diel (knihy)
+2 N la hoja {hoja} [ˈoxa], hojas = hárok
+3 N el tubo de ensayo {tubo de ensayo} [ˈtuβo de enˈsaʝo], tubos de ensayo = skúmavka

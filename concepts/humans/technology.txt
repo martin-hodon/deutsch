@@ -39,6 +39,8 @@ N škatuľa
 N lupa
 V tikať
 AN hydraulický
+AN nastaviteľný
+N piest -- súčasť motora
 
 # electricity-energy
 N batéria
@@ -74,6 +76,7 @@ N zásobovanie elektrinou
 N dodávateľ energie
 N kilowatthodina
 N watt
+N skrat -- elektrický skrat
 
 # computing-communication-devices
 N počítač
@@ -212,12 +215,17 @@ V skontrolovať
 V znovu aktivovať
 V konfigurovať
 AN škálovateľný
+N medzerník -- kláves na medzeru
+N operačná pamäť -- rýchla pamäť počítača
+N enumerácia -- vymenovanie
+N konštanta -- hodnota, ktorá sa nemení
 
 # devices
 V demontovať
 V fotiť : of fotografovať @ hovorovo
 N zakladač
 N okienko
+N kryt -- ochranný obal alebo štít
 
 # more
 N tweet

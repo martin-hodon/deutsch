@@ -59,3 +59,25 @@ when unknown; the CJK stroke characters (㇐ ㇑ ㇒ ...) are strokes. engine/ha
 character's components and stroke count, every character a component is in, the index of components by strokes
 (dictionary.html, 部件). Add a line for a character the dictionary has and the file lacks; keep its components characters
 of the file (or radical forms with a count line of their own) so that the stroke count comes out.
+
+## Meanings of characters (chars.txt)
+
+A character that is no word of its own -- used only inside words (子 in 桌子, 意 in 意思) -- and a component that is no
+character (氵 亻 丨 ⺀) get their meaning here, for the dictionary's character lists and component views:
+`子 [zǐ] = dieťa, syn, semeno -- ako prípona podstatných mien bez tónu: 桌子` -- the reading with tone marks (none for a
+component with no reading: `氵 = voda -- zložka: tvar znaku 水 na ľavej strane`), a line per reading that matters
+(`乐 [lè]`, `乐 [yuè]`), the meanings in Slovak, a note after ` -- `. A character the dictionary has as a word takes its
+meaning from its entries; add a line here for a new character of composition.txt that is no word.
+
+## Regional words (rules/regional.txt)
+
+Words not said everywhere Chinese is spoken -- Taiwan (`公升`), Hong Kong/Cantonese (`煲`), the north (`胡同`, `啥`), the
+south (`晓得`): `POS word = CODES -- note` (../DESIGN.md "Regional words").
+
+## Names (names.txt)
+
+How international names are written in Chinese -- people, cities, dinosaurs, geologic periods, stars: `伦敦 [Lúndūn] =
+Londýn -- note`. They are NOT concepts: the other languages keep the international form, only Chinese needs to know the
+characters (a transliteration, a translation of the meaning, or an epithet; the note says which when it is not plain
+transliteration). tools/words.py does not read the file; a name that becomes a word every language has (恐龙
+dinosaurus) belongs in the concept index instead.

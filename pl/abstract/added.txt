@@ -13,3 +13,7 @@
 2 N postać drugoplanowa {postać drugo|planowa} [ˈpɔstatɕ druɡɔplaˈnɔva], ż, postacie drugoplanowe = vedľajšia postava
 2 N średniowiecze {średnio|wiecze} [ɕrɛdɲɔˈvʲɛtʂɛ], n, - = stredovek
 1 N pierwsze miejsce {pierwsze miejsce} [ˈpʲɛrfʂɛ ˈmʲɛjstsɛ], n, pierwsze miejsca = prvé miesto
+3 N wachlarz {wachlarz} [ˈvaxlaʂ], m, wachlarze = vejár
+2 AN hałaśliwy {hałaśliwy} [xawaɕˈlivɨ] = hlučný
+3 N ślicznotka {ślicznotka} [ɕlitʂˈnɔtka], ż, ślicznotki = krásavica
+2 N tłum {tłum} [twum], m, tłumy = dav

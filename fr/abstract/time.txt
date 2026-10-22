@@ -118,6 +118,11 @@
 2 AN à long terme {à long terme} [a lɔ̃ tɛʁm] = dlhodobý
 2 AV définitivement {définitive|ment} [definitivˈmɑ̃] = natrvalo
 1 AV pour toujours {pour toujours} [puʁ tuˈʒuʁ] = natrvalo
+3 N la décade {décade} [deˈkad], décades = desaťdnie
+2 N l'année bissextile (f) {année bissextile} [ane bisɛksˈtil], années bissextiles = priestupný rok
+3 N le solstice {solstice} [sɔlsˈtis], solstices = slnovrat
+3 N l'équinoxe (m) {équinoxe} [ekiˈnɔks], équinoxes = rovnodennosť
+3 N la date d'émission {date d'émission} [dat demiˈsjɔ̃], dates d'émission = dátum vystavenia
 
 # day-parts-and-week
 1 N le matin {matin} [maˈtɛ̃], matins = ráno
@@ -156,6 +161,7 @@
 1 AV le matin {le matin} [lə maˈtɛ̃] = predpoludním
 2 AV avant midi {avant midi} [avɑ̃ miˈdi] = predpoludním
 1 AV à minuit {à minuit} [a miˈnɥi] = o polnoci
+2 N le petit matin {petit matin} [pəti maˈtɛ̃], petits matins = skoré ráno
 
 # relative-time
 1 AV ensuite {ensuite} [ɑ̃ˈsɥit] = potom
@@ -316,6 +322,10 @@
 2 N le jour suivant {jour suivant} [ʒuʁ sɥiˈvɑ̃], jours suivants = nasledujúci deň
 2 AV au plus tôt {au plus tôt} [o ply to] = najskôr
 2 AV exceptionnellement {exceptionnelle|ment} [ɛksɛpsjɔnɛlˈmɑ̃] = výnimočne
+2 AN occasionnel {occasionnel} [ɔkazjɔˈnɛl], occasionnelle = občasný
+2 AV plusieurs fois {plusieurs fois} [plyzjœʁ ˈfwa] = mnohokrát
+3 N la préhistoire {pré|histoire} [pʁeisˈtwaʁ], - = pravek
+2 PHR de toute sa vie {de toute sa vie} [də tut sa ˈvi] = za celý život
 
 # months
 2 N janvier (m) {janvier} [ʒɑ̃ˈvje], - = január

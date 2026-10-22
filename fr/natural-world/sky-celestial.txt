@@ -43,6 +43,8 @@
 2 N l'univers (m) {univers} [yniˈvɛʁ], univers = vesmír
 1 N l'espace (m) {espace} [ɛsˈpas], espaces = vesmír
 2 N le coucher de la lune {coucher de la lune} [kuʃe də la lyn], couchers de lune = západ mesiaca
+2 N l'éclipse (f) {éclipse} [eˈklips], éclipses = zatmenie
+2 N le cosmos {cosmos} [kɔsˈmos], cosmos = vesmír
 
 # sky-phenomena
 1 N le ciel {ciel} [sjɛl], ciels = obloha

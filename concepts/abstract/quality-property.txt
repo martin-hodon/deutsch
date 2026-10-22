@@ -49,6 +49,7 @@ AN kompaktný
 AN priestranný
 AN strmý : adverb strmo
 AN tesný (sotva postačujúci) : adverb tesne
+AN vytiahnutý -- vysoký a chudý
 
 # evaluation
 AN dobrý : adverb dobre
@@ -400,6 +401,11 @@ AN zbehlý
 AN informatívny
 AN podpriemerný
 AN ničivý
+AN majestátny
+N zvýhodnenie
+AN chúlostivý -- citlivý, ťažko riešiteľný
+AN vzácny -- zriedkavý a cenný
+AN prospešný
 
 # state-properties
 AN nový
@@ -746,6 +752,16 @@ AN akrobatický
 AN primeraný deťom
 AN primeraný druhu
 AN upršaný
+AN stlačený
+N zraniteľnosť
+AN poškodený
+AN rozheganý
+AN zviazaný
+AN spráchnivený
+AN štetinatý
+AN opotrebovaný -- ošúchaný používaním
+AN premoknutý
+AN chýbajúci -- ktorému niečo chýba
 
 # corpus-adjectives
 AN premyslený
@@ -839,6 +855,7 @@ AN nadčasový
 AN hlavný zodpovedný
 AN predvianočný
 AN protirečivý
+AN veľavravný
 
 # quality
 AN škodlivý pre životné prostredie
@@ -870,6 +887,18 @@ AN na vlastnú zodpovednosť
 AN prekypujúci
 AN tesný (nepriepustný)
 N závažie
+AN zlučiteľný -- ktorý sa dá zlúčiť
+AV v náznakoch
+AN ležérny -- nenútený, nedbalý
+AN nenáročný
+N pôvab
+AN zvodný
+AN úhľadný
+AN ošarpaný -- obnosený, zanedbaný
+AN nahraditeľný
+AN roztrhaný
+N zbytočnosť
+AN nepravdivý
 
 # more
 AV neuveriteľne

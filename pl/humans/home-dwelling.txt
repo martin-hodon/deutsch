@@ -171,6 +171,15 @@
 3 N posiadłość {posiadłość} [pɔˈɕadwɔɕtɕ], ż, posiadłości = usadlosť
 3 V być domem {być domem} [bɨtɕ ˈdɔmɛm], - (dla + D) = byť domovom pre
 3 AN wolnostojący {wolnostojący} [vɔlnɔstɔˈjɔntsɨ] = voľne stojaci
+3 N gzyms {gzyms} [ɡzɨms], m, gzymsy = rímsa
+2 N schronienie {schronienie} [sxrɔˈɲɛɲɛ], n, schronienia = prístrešie
+3 N wbudowanie {w|budowanie} [vbudɔˈvaɲɛ], n, wbudowania = zabudovanie
+3 N szczebel {szczebel} [ˈʂtʂɛbɛl], m, szczeble = priečka rebríka
+3 N wylewka {wylewka} [vɨˈlɛfka], ż, wylewki = poter
+3 N filar {filar} [ˈfʲilar], m, filary = pilier
+2 N furtka {furtka} [ˈfurtka], ż, furtki = bránka
+2 N chata {chata} [ˈxata], ż, chaty = chatrč
+3 N framuga {framuga} [fraˈmuɡa], ż, framugi = zárubňa
 
 # rooms
 1 N pokój {pokój} [ˈpɔkuj], m, pokoje = izba
@@ -191,6 +200,8 @@
 2 N przestrzeń mieszkalna {przestrzeń mieszkalna} [ˈpʂɛstʂɛɲ mʲɛʂˈkalna], ż, przestrzenie mieszkalne = obytný priestor
 2 N gabinet {gabinet} [ɡaˈbʲinɛt], m, gabinety = pracovňa
 3 N komora {komora} [kɔˈmɔra], ż, komory = komora
+2 N przedpokój {przed|pokój} [pʂɛtˈpɔkuj], m, przedpokoje = predsieň (chodba)
+2 N salon {salon} [ˈsalɔn], m, salony = salón
 
 # furniture
 2 N meble {meble} [ˈmɛblɛ], lm, meble = nábytok
@@ -244,6 +255,9 @@
 2 N wieszak {wieszak} [ˈvʲɛʂak], m, wieszaki = vešiak
 2 N kołyska {kołyska} [kɔˈwɨska], ż, kołyski = kolíska
 2 N hamak {hamak} [ˈxamak], m, hamaki = hojdacia sieť
+3 N gablota {gablota} [ɡabˈlɔta], ż, gabloty = vitrína
+1 N szafka {szafka} [ˈʂafka], ż, szafki = skrinka
+3 N podłokietnik {pod|łokietnik} [pɔdwɔˈkjɛtɲik], m, podłokietniki = opierka
 
 # household-objects
 1 N klucz {klucz} [klutʂ], m, klucze = kľúč
@@ -319,6 +333,24 @@
 1 N balon {balon} [ˈbalɔn], m, balony = balón (nafukovací)
 2 N skrzynka {skrzynka} [ˈskʂɨŋka], ż, skrzynki = bedňa
 2 N płyta {płyta} [ˈpwɨta], ż, płyty = platňa
+2 N firanka {firanka} [fʲiˈraŋka], ż, firanki = záclona
+2 N sznur {sznur} [ʂnur], m, sznury = šnúra
+3 N pochodnia {pochodnia} [pɔˈxɔdɲa], ż, pochodnie = pochodeň
+3 N miotełka {miotełka} [mʲɔˈtɛwka], ż, miotełki = prachovka
+3 N słuchawka prysznicowa {słuchawka prysznicowa} [swuˈxafka prɨʂɲiˈtsɔva], ż, słuchawki prysznicowe = sprchová hlavica
+3 N miska klozetowa {miska klozetowa} [ˈmʲiska klɔzɛˈtɔva], ż, miski klozetowe = záchodová misa
+3 N poszewka na kołdrę {poszewka na kołdrę} [pɔˈʂɛfka na ˈkɔwdrɛ], ż, poszewki na kołdrę = obliečka na paplón
+3 N dziurkacz {dziurkacz} [ˈdʑurkatʂ], m, dziurkacze = dierkovačka
+3 N zszywacz {zszywacz} [ˈsʂɨvatʂ], m, zszywacze = zošívačka
+2 N smoczek {smoczek} [ˈsmɔtʂɛk], m, smoczki = cumlík
+3 N niedopałek {nie|dopałek} [ɲɛdɔˈpawɛk], m, niedopałki = ohorok
+3 N szmelc {szmelc} [ʂmɛlts], m, - = haraburdy
+3 N chłam {chłam} [xwam], m, - = haraburdy
+3 N rozpylacz {rozpylacz} [rɔsˈpɨlatʂ], m, rozpylacze = rozprašovač
+3 N żaluzja {żaluzja} [ʐaˈluzja], ż, żaluzje = žalúzia
+2 N ucho {ucho} [ˈuxɔ], n, ucha = uško (držadlo)
+2 N patyk {patyk} [ˈpatɨk], m, patyki = palica
+2 N kubeł {kubeł} [ˈkubɛw], m, kubły = vedro
 
 # household-actions
 2 N sprzątaczka {sprzątaczka} [spʂɔnˈtatʂka], ż, sprzątaczki = upratovačka
@@ -362,3 +394,7 @@
 2 AV niewygodnie {niewygodnie} [ɲɛvɨˈɡɔdɲɛ] = nepohodlne
 3 AV przytulnie {przytulnie} [pʂɨˈtulɲɛ] = útulne
 3 AV nieprzytulnie {nieprzytulnie} [ɲɛpʂɨˈtulɲɛ] = neútulne
+1 V sprzątać {sprzątać} [ˈspʂɔntatɕ], sprzątnąć (B) = odpratať
+3 V ryglować {ryglować} [rɨˈɡlɔvatɕ], zaryglować (B) = zahasprovať
+3 V obwieszać {ob|wieszać} [ɔbˈvʲɛʂatɕ], obwiesić (B) = ovešať
+3 V zamykać przed nosem {zamykać przed nosem} [zaˈmɨkatɕ pʂɛt ˈnɔsɛm], zamknąć przed nosem = vymknúť

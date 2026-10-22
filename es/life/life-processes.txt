@@ -74,6 +74,10 @@
 3 V asfixiar {asfixiar} [asfikˈsjaɾ] = udusiť
 1 N el nacimiento {nacimiento} [naθiˈmjento], nacimientos = narodenie
 2 V rejuvenecer {rejuvenecer} [rexuβeneˈθeɾ], c>zc = mladnúť
+3 N la putrefacción {putre|facción} [putɾefakˈθjon], putrefacciones = hnitie
+3 N la carroña {carroña} [kaˈroɲa], carroñas = zdochlina
+3 V encanecer {encanecer} [eŋkaneˈθeɾ], c>zc = ošedivieť
+3 AN podrido {podrido} [poˈðɾiðo], podrida = zhnitý
 
 # body-functions
 1 V respirar {respirar} [respiˈɾaɾ] = dýchať
@@ -146,6 +150,41 @@
 3 V velar {velar} [beˈlaɾ] = bdieť
 1 V dormir {dormir} [doɾˈmiɾ], o>ue = uspať
 3 V adormecer {adormecer} [aðoɾmeˈθeɾ], c>zc = uspať
+3 N el temblor {temblor} [temˈbloɾ], temblores = chvenie
+3 V latir {latir} [laˈtiɾ] = pulzovať
+3 V emborracharse {emborracharse} [emboraˈtʃaɾse] = opiť sa
+3 V follar {follar} [foˈʎaɾ] = súložiť
+3 V copular {copular} [kopuˈlaɾ] = súložiť
+3 V eyacular {eyacular} [eʝakuˈlaɾ] = vystriekať sa
+3 V masturbarse {masturbarse} [mastuɾˈβaɾse] = honiť si
+3 N la mierda {mierda} [ˈmjeɾða], mierdas = hovno
+3 V sollozar {sollozar} [soʎoˈθaɾ] = vzlykať
+3 V resoplar {resoplar} [resoˈplaɾ] = prskať
+3 V hinchar {hinchar} [inˈtʃaɾ] = nadúvať
+3 V sudar {sudar} [suˈðaɾ] = vypotiť
+3 V empapar de sudor {empapar de sudor} [empaˈpaɾ de suˈðoɾ] = prepotiť
+2 N la inspiración {inspiración} [inspiɾaˈθjon], inspiraciones = vdych
+3 N la espiración {espiración} [espiɾaˈθjon], espiraciones = výdych
+3 N la cabezada {cabezada} [kaβeˈθaða], cabezadas = zdriemnutie
+2 N la siesta {siesta} [ˈsjesta], siestas = zdriemnutie
+3 N la somnolencia {somnolencia} [somnoˈlenθja], somnolencias = ospalosť
+3 N el bostezo {bostezo} [bosˈteθo], bostezos = zívnutie
+3 V dar un mordisco {dar un mordisco} [daɾ un moɾˈðisko] = nahryznúť
+3 V romper a mordiscos {romper a mordiscos} [romˈpeɾ a moɾˈðiskos] = rozhryznúť
+3 V clavar los dientes {clavar los dientes} [klaˈβaɾ los ˈðjentes] = zahryznúť
+3 V enseñar los dientes {enseñar los dientes} [enseˈɲaɾ los ˈðjentes] = ceriť
+3 V comer con ruido {comer con ruido} [koˈmeɾ kon ˈrwiðo] = mľaskať
+3 V eructar {eructar} [eɾukˈtaɾ] = grgať
+3 V desahogarse llorando {desahogarse llorando} [desaoˈɣaɾse ʝoˈɾando] = vyplakať sa
+3 V atragantarse {atragantarse} [atɾaɣanˈtaɾse] = zabehnúť
+3 V carraspear {carraspear} [karaspeˈaɾ] = odkašľať si
+3 V toser un poco {toser un poco} [toˈseɾ un ˈpoko] = pokašliavať
+3 V sonarse {sonarse} [soˈnaɾse], o>ue = smrkať
+3 V peerse {peerse} [peˈeɾse] = prdnúť
+2 N la enzima {enzima} [enˈθima], enzimas = enzým
+3 V mascar {mascar} [masˈkaɾ] = žuť
+3 V ingerir {ingerir} [iŋxeˈɾiɾ], e>ie = prehĺtať
+3 V salivar {salivar} [saliˈβaɾ] = slintať
 
 # nourishment
 1 V comer {comer} [koˈmeɾ] = jesť
@@ -179,11 +218,22 @@
 3 V mordisquear {mordisquear} [moɾðiskeˈaɾ] = chrúmať
 2 V picotear {picotear} [pikoteˈaɾ] = chrúmať
 3 N la saciedad {saciedad} [saθjeˈðað], - = sýtosť
+3 V atiborrarse {atiborrarse} [atiβoˈraɾse] = prejesť sa
+3 V banquetear {banquetear} [baŋketeˈaɾ] = hodovať
+3 V zampar {zampar} [θamˈpaɾ] = napchávať sa
+3 V golosinear {golosinear} [ɡolosineˈaɾ] = maškrtiť
+3 V refrescar {refrescar} [refɾesˈkaɾ] = občerstviť
+3 N el gourmet {gourmet} [ɡuɾˈme], gourmets = labužník
+3 V dar un sorbo {dar un sorbo} [daɾ un ˈsoɾβo] = odpiť
+3 V cebar {cebar} [θeˈβaɾ] = vykrmovať
+3 V lamer {lamer} [laˈmeɾ] = vylízať
+2 V chupar {chupar} [tʃuˈpaɾ] = cmúľať
 
 # senses-instinct
 2 N el instinto {instinto} [insˈtinto], instintos = inštinkt
 2 AN instintivo {instintivo} [instinˈtiβo], instintiva = inštinktívny
 2 N el reflejo {reflejo} [reˈflexo], reflejos = reflex
+3 V embriagar {embriagar} [embɾjaˈɣaɾ] = omámiť
 
 # growth-adaptation
 2 N la pubertad {pubertad} [puβeɾˈtað], pubertades = puberta
@@ -195,6 +245,12 @@
 2 V perecer {perecer} [peɾeˈθeɾ], c>zc = uhynúť
 3 V morir {morir} [moˈɾiɾ], o>ue, muerto = uhynúť
 2 V evaporarse {evaporarse} [eβapoˈɾaɾse] = vyprchať
+3 V soldarse {soldarse} [solˈdaɾse], o>ue = zrásť
+3 V volver a crecer {volver a crecer} [bolˈβeɾ a kɾeˈθeɾ] = dorásť
+3 V proliferar {proliferar} [pɾolifeˈɾaɾ] = rozrastať sa
+3 V fecundar {fecundar} [fekunˈdaɾ] = oplodniť
+3 V languidecer {languidecer} [laŋɡiðeˈθeɾ], c>zc = chradnúť
+2 N la mutación {mutación} [mutaˈθjon], mutaciones = mutácia
 
 # more
 2 N el ecosistema {ecosistema} [ekosisˈtema], ecosistemas = ekosystém

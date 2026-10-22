@@ -61,6 +61,9 @@ V dohliadať na
 V zažiariť
 V škúliť
 V mihotať sa
+V mrknúť sa -- krátko pozrieť
+V vzhliadnuť
+V oslepiť
 
 # hearing
 V počuť
@@ -111,6 +114,13 @@ AN aromatický
 V štekliť
 V vetriť
 V ovoniavať
+N štípanie -- pálivá bolesť
+V štípať -- páliť, bolieť pálivo
+N svrbenie
+N sladkosť chuti -- sladká chuť
+N čuch
+N hmat
+AN zatuchnutý
 
 # colors
 N farba
@@ -149,3 +159,9 @@ N bledosť
 V vyblednúť
 AN tyrkysový
 AN béžový
+AN azúrový -- jasne modrý
+N zafarbenie
+V zblednúť
+V odfarbiť
+V prefarbiť
+AN zafarbený

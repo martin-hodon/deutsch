@@ -64,6 +64,8 @@
 3 PRE en el transcurso de {en el transcurso de} [en el tɾansˈkuɾso ðe] = v priebehu
 2 PRE incluido {incluido} [inkluˈiðo] = vrátane
 2 PRE incluyendo {incluyendo} [inkluˈʝendo] = vrátane
+3 PRE de entre {de entre} [de ˈentɾe] = spomedzi
+3 PRE a reserva de {a reserva de} [a reˈseɾβa de] = s výhradou
 
 # two-way
 1 PRE en {en} [en] = na (v kontakte)

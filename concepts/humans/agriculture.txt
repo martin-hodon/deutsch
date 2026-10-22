@@ -52,6 +52,19 @@ N strašiak
 N silo
 N rýľ
 V kultivovať
+V presadiť (rastlinu) -- premiestniť rastlinu
+V plieť -- vytrhávať burinu
+N prieloh -- neobrábané pole
+V kypriť -- rozrušiť zem bránou
+N priesek -- vyrúbaný pás v lese
+N výrub -- vyrúbanie lesa
+V vyrúbať -- vyrúbať stromy
+V oberať -- zbierať plody zo stromov a kríkov
+N žatva -- zber obilia
+N osev -- siatie semien
+N prútie -- tenké ohybné prúty
+N orba
+V rýľovať
 
 # crops
 N obilie
@@ -70,6 +83,8 @@ N senná nádcha
 N slama
 N sadenica
 N bala
+N proso
+N slad -- naklíčené obilie na pivo
 
 # livestock-keeping
 N dobytok
@@ -104,6 +119,22 @@ V strihať
 N vemeno
 N búda : of dom @ psy
 N jazdec
+N jarmo -- drevo na zapriahnutie dobytka
+N prasnica -- samica ošípanej
+N kanec -- samec ošípanej
+N kozľa -- mladá koza
+N vraník -- čierny kôň
+N uzda -- remene na hlave koňa
+N opraty -- remene na vedenie koňa
+N strmeň -- držiak nohy na sedle
+N ostroha -- kovový hrot na jazdeckej čižme
+N bič -- remeň na poháňanie zvierat
+V bičovať -- biť bičom
+N náhubok -- ochrana tlamy psa
+N obojok -- pás okolo krku psa
+V zapriahnuť -- pripojiť zviera k vozu alebo pluhu
+N zvonec -- zvon na krku dobytka
+N šľahnutie -- úder bičom
 
 # garden-hunt-fish
 N záhrada
@@ -130,3 +161,7 @@ V orezať
 N hadica
 N záhradná hadica
 N chlev
+N drevorubač -- ten, kto vyrubuje stromy
+V vypitvať -- vybrať vnútornosti
+N háčik -- na ryby
+N navijak -- cievka na rybársky vlasec

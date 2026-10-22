@@ -96,6 +96,10 @@
 2 AN long-term {long-term} [ˌlɒŋ ˈtɜːm] = dlhodobý
 2 AV permanently {permanent|ly} [ˈpɜːmənəntlɪ] = natrvalo
 2 AV for good {for good} [fə ˈɡʊd] = natrvalo
+2 N leap year {leap year} [ˈliːp ˌjɪə], leap years = priestupný rok
+2 N solstice {solstice} [ˈsɒlstɪs], solstices = slnovrat
+3 N equinox {equinox} [ˈiːkwɪnɒks], equinoxes = rovnodennosť
+3 N date of issue {date of issue} [ˈdeɪt əv ˈɪʃuː], dates of issue = dátum vystavenia
 # day-parts-and-week
 1 N morning {morning} [ˈmɔːnɪŋ], mornings = ráno
 1 AV in the morning {in the morning} [ɪn ðə ˈmɔːnɪŋ] = ráno
@@ -135,6 +139,8 @@
 1 AV in the morning {in the morning} [ɪn ðə ˈmɔːnɪŋ] = predpoludním
 2 AV before noon {before noon} [bɪˈfɔː ˈnuːn] = predpoludním
 1 AV at midnight {at midnight} [ət ˈmɪdnaɪt] = o polnoci
+3 N small hours {small hours} [ˈsmɔːl ˌaʊəz], PL = skoré ráno
+3 N early morning {early morning} [ˈɜːli ˈmɔːnɪŋ], early mornings = skoré ráno
 # relative-time
 1 AV then {then} [ðen] = potom
 2 AV afterwards {after|wards} [ˈɑːftəwədz] = potom
@@ -272,6 +278,10 @@
 1 N next day {next day} [ˌnekst ˈdeɪ], next days = nasledujúci deň
 2 AV at the earliest {at the earliest} [ət ði ˈɜːlɪɪst] = najskôr
 2 AV exceptionally {exception|al|ly} [ɪkˈsepʃənəlɪ] = výnimočne
+2 AN occasional {occasional} [əˈkeɪʒənl] = občasný
+2 AV many times {many times} [ˈmeni ˈtaɪmz] = mnohokrát
+3 AV repeatedly {repeated|ly} [rɪˈpiːtɪdli] = mnohokrát
+3 N prehistory {pre|history} [ˌpriːˈhɪstri], - = pravek
 # months
 1 N January {January} [ˈdʒænjʊərɪ], Januaries = január
 1 N February {February} [ˈfebrʊərɪ], Februaries = február

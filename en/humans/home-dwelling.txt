@@ -125,6 +125,14 @@
 3 N estate {estate} [ɪˈsteɪt], estates = usadlosť
 3 V house {house} [haʊz] (sb, sth) = byť domovom pre
 3 AN detached {de|tached} [dɪˈtætʃt] = voľne stojaci
+3 N cornice {cornice} [ˈkɔːnɪs], cornices = rímsa
+2 N shelter {shelter} [ˈʃeltə], shelters = prístrešie
+3 N installation {installation} [ˌɪnstəˈleɪʃən], installations = zabudovanie
+2 N rung {rung} [rʌŋ], rungs = priečka rebríka
+3 N screed {screed} [skriːd], - = poter
+2 N pillar {pillar} [ˈpɪlə], pillars = pilier
+2 N gate {gate} [ɡeɪt], gates = bránka
+2 N shack {shack} [ʃæk], shacks = chatrč
 # rooms
 1 N room {room} [ruːm], rooms = izba
 2 N bedroom {bed|room} [ˈbedruːm], bedrooms = spálňa
@@ -144,6 +152,8 @@
 2 N living space {living space} [ˈlɪvɪŋ ˌspeɪs], living spaces = obytný priestor
 2 N study {study} [ˈstʌdɪ], studies = pracovňa
 2 N chamber {chamber} [ˈtʃeɪmbə], chambers = komora
+2 N hallway {hall|way} [ˈhɔːlweɪ], hallways = predsieň (chodba)
+2 N lounge {lounge} [laʊndʒ], lounges = salón
 # furniture
 1 N furniture {furniture} [ˈfɜːnɪtʃə], - = nábytok
 1 N piece of furniture {piece of furniture} [ˈpiːs əv ˈfɜːnɪtʃə], pieces of furniture = kus nábytku
@@ -192,6 +202,9 @@
 2 N coat hanger {coat hanger} [ˈkəʊt ˌhæŋə], coat hangers = vešiak
 2 N cradle {cradle} [ˈkreɪdl], cradles = kolíska
 3 N hammock {hammock} [ˈhæmək], hammocks = hojdacia sieť
+3 N display cabinet {display cabinet} [dɪˈspleɪ ˌkæbɪnət], display cabinets = vitrína
+2 N cabinet {cabinet} [ˈkæbɪnət], cabinets = skrinka
+2 N armrest {arm|rest} [ˈɑːmrest], armrests = opierka
 # household-objects
 1 N key {key} [kiː], keys = kľúč
 2 N bunch of keys {bunch of keys} [ˈbʌntʃ əv ˈkiːz], bunches of keys = zväzok kľúčov
@@ -254,6 +267,21 @@
 1 N balloon {balloon} [bəˈluːn], balloons = balón (nafukovací)
 2 N crate {crate} [kreɪt], crates = bedňa
 2 N plate {plate} [pleɪt], plates = platňa
+2 N net curtain {net curtain} [ˌnet ˈkɜːtən], net curtains = záclona
+2 N cord {cord} [kɔːd], cords = šnúra
+2 N torch {torch} [tɔːtʃ], torches = pochodeň
+2 N duster {duster} [ˈdʌstə], dusters = prachovka
+2 N shower head {shower head} [ˈʃaʊə hed], shower heads = sprchová hlavica
+2 N toilet bowl {toilet bowl} [ˈtɔɪlət bəʊl], toilet bowls = záchodová misa
+2 N duvet cover {duvet cover} [ˈduːveɪ ˌkʌvə], duvet covers = obliečka na paplón
+2 N hole punch {hole punch} [ˈhəʊl pʌntʃ], hole punches = dierkovačka
+2 N stapler {stapler} [ˈsteɪplə], staplers = zošívačka
+2 N dummy {dummy} [ˈdʌmi], dummies = cumlík
+2 N cigarette end {cigarette end} [ˌsɪɡəˈret end], cigarette ends = ohorok
+2 N junk {junk} [dʒʌŋk], - = haraburdy
+2 N spray {spray} [spreɪ], sprays = rozprašovač
+2 N blind {blind} [blaɪnd], blinds = žalúzia
+2 N handle {handle} [ˈhændəl], handles = uško (držadlo)
 # household-actions
 1 N cleaner {clean|er} [ˈkliːnə], cleaners = upratovačka
 2 N cleaning product {cleaning product} [ˈkliːnɪŋ ˌprɒdʌkt], cleaning products = čistiaci prostriedok
@@ -284,3 +312,7 @@
 1 N blanket {blanket} [ˈblæŋkɪt], blankets = deka
 2 N term paper {term paper} [ˈtɜːm ˌpeɪpə], term papers = seminárna práca
 1 N washing {washing} [ˈwɒʃɪŋ], - = pranie
+2 V clear away {clear·away} [klɪər əˈweɪ] (sth) = odpratať
+3 V bolt {bolt} [bəʊlt] (sth) = zahasprovať
+3 V festoon {festoon} [feˈstuːn] (sth with sth) = ovešať
+2 V lock out {lock·out} [lɒk ˈaʊt] (sb) = vymknúť

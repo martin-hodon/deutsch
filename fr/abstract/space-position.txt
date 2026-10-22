@@ -176,6 +176,8 @@
 2 N le plein {plein} [plɛ̃], pleins = plnosť
 2 AV de l'intérieur {de l'intérieur} [də lɛ̃teˈʁjœʁ] = zvnútra
 2 AV de dedans {de dedans} [də dəˈdɑ̃] = zvnútra
+2 V tenir {tenir} [təˈniʁ], irr, tenu (dans) = zmestiť sa
+3 AN attenant {attenant} [atəˈnɑ̃], attenante = susediaci
 
 # direction-distance
 1 N la direction {direction} [diʁɛkˈsjɔ̃], directions = smer
@@ -274,6 +276,7 @@
 3 AV parallèlement {parallèle|ment} [paʁalɛlˈmɑ̃] = rovnobežne
 3 N l'ici-bas (m) {ici-bas} [isiˈba], - = tento svet
 3 N le monde terrestre {monde terrestre} [mɔ̃d tɛˈʁɛstʁ], mondes terrestres = tento svet
+2 AN distant {distant} [disˈtɑ̃], distante = vzdialený
 
 # motion
 1 V bouger {bouger} [buˈʒe] = hýbať
@@ -539,10 +542,16 @@
 3 AV distraitement {distraite|ment} [distʁɛtˈmɑ̃] = roztržito
 1 N le départ {départ} [deˈpaʁ], départs = odchod
 2 V diminuer {diminuer} [dimiˈnɥe] = ubudnúť
+2 V filer {filer} [fiˈle] = mihať sa
+2 V rebondir {rebondir} [ʁəbɔ̃ˈdiʁ] = odraziť sa
+3 V fléchir {fléchir} [fleˈʃiʁ] = prehýbať sa
+2 V incliner {incliner} [ɛ̃kliˈne] = nakloniť
+2 V apporter {apporter} [apɔʁˈte] = zaniesť
 
 # travel
 1 V arriver {arriver} [aʁiˈve], être = pricestovať
 2 V débarquer {dé|barquer} [debaʁˈke] = pricestovať
+2 V accompagner {accompagner} [akɔ̃paˈɲe] (qn) = prísť spolu
 
 # position
 2 AN praticable {praticable} [pʁatiˈkabl] = priechodný

@@ -69,6 +69,48 @@ V absorbovať
 V kontaminovať
 V vyschnúť
 V zvlhnúť
+N fosfor -- chemický prvok P
+N kremík -- chemický prvok Si
+V leptať -- leptaním zničiť
+V lepiť sa -- priliepať sa
+AN mazľavý -- mastný, špinavý a lepkavý
+AN slizký -- pokrytý slizom
+N črepina -- kúsok rozbitého skla alebo keramiky
+N úlomok -- malý odlomený kúsok
+V stuhnúť -- stať sa tuhým
+N šmuha -- pruh rozmazanej farby
+N prášok -- jemne rozdrvená látka
+N lúh -- zásaditá látka, roztok
+N krehkosť
+N plasticita
+AN ťažný -- o kove, dá sa ťahať do drôtu
+N ťažnosť
+AN kujný
+N kujnosť
+N pružnosť
+N tuhosť
+N pevnosť materiálu -- odolnosť materiálu
+N húževnatosť
+N jemnosť
+AN drobivý
+N platina -- chemický prvok
+N urán -- chemický prvok
+N lítium -- chemický prvok
+N sodík -- chemický prvok
+N horčík -- chemický prvok
+N draslík -- chemický prvok
+N titán -- chemický prvok
+N chróm -- chemický prvok
+N mangán -- chemický prvok
+N kobalt -- chemický prvok
+N nikel -- chemický prvok
+N arzén -- chemický prvok
+N hélium -- chemický prvok
+N fluór -- chemický prvok
+N chlór -- chemický prvok
+V nafúknuť -- naplniť vzduchom
+N topenie -- prechod látky z tuhého skupenstva do kvapalného
+N odparovanie
 
 # fire-light
 V horieť
@@ -105,6 +147,12 @@ N jas
 N odraz
 V zrkadliť sa
 N záblesk
+AN spálený -- popálený slnkom alebo ohňom
+N zápalná šnúra
+N knôt
+V tlieť
+N petarda
+N horenie
 
 # energy-forces
 N energia
@@ -132,6 +180,13 @@ N výpadok prúdu
 N energetický obrat
 N efekt
 N emisia
+V odpudzovať -- tlačiť od seba
+V pružiť -- poddávať sa a vracať sa späť
+N odstredivá sila -- odstredivá sila
+N zotrvačnosť
+N náboj (elektrický) -- elektrický náboj
+N nabitie
+N vybitie
 
 # sound
 N šum
@@ -145,6 +200,39 @@ N ticho
 N ozvena
 N vibrácia
 V vibrovať
+N šuchot
+AN zvukotesný
+AN zvučný
+AN ohlušujúci
+N rachot
+N revanie
+V vykríknuť
+V šuchotať
+V praskať
+V vŕzgať
+V škrípať
+V pišťať
+V klepotať
+V plesknúť
+V čľapotať sa
+V chrčať
+V hučať
+V pípať
+V škriekať
+V hulákať
+V jačať
+V trúbiť
+V brnkať
+V štrngať
+V žblnkať
+V zurčať
+V čľupnúť
+V drnčať
+V hrkotať
+V prašťať
+V vrešťať
+V fučať
+V nôtiť si
 
 # corpus-verbs
 V filtrovať

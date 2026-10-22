@@ -41,6 +41,8 @@ export async function loadDictionary(dictionaryUrl, orderUrl, lang = "de") {
     const k = `${entry.pos}|${entry.concept}`;
     (byConcept.get(k) ?? byConcept.set(k, []).get(k)).push(entry);
   }
+  // (a concept's regional words after its general ones: Januar before Jänner -- the first is the word shown)
+  for (const es of byConcept.values()) if (es.some((e) => e.region)) es.sort((a, b) => !!a.region - !!b.region);
   // (how an article sounds: the dictionary's own ART entries -- der [deːɐ], el [el], le [lə])
   const articleIPA = new Map(entries.filter((e) => e.pos === "ART" && e.ipa).map((e) => [e.word, e.ipa]));
   return { entries, byCategory, byGroup, byConcept, lang, articleIPA };

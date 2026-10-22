@@ -216,6 +216,20 @@
 2 N le profane {profane} [pʁɔˈfan], profanes = laik
 3 N le néophyte {néophyte} [neɔˈfit], néophytes = laik
 3 N la rétrogradation {rétrogradation} [ʁetʁoɡʁadaˈsjɔ̃], rétrogradations = degradácia
+3 N le fourreur {fourr|eur} [fuˈʁœʁ], fourreurs = kožušník
+3 V traînasser {traîn|asser} [tʁɛnaˈse] = flákať sa
+3 V glander {glander} [ɡlɑ̃ˈde] = flákať sa
+3 V se défiler {se défiler} [sə defiˈle] = uliať sa
+3 N le verrier {verr|ier} [vɛˈʁje], verriers = sklár
+3 V initier {initier} [inisˈje] (qn, à qch) = zapracovať
+2 V embaucher {em|baucher} [ɑ̃boˈʃe] = najať
+2 V engager {engager} [ɑ̃ɡaˈʒe] = najať
+3 V trimer {trimer} [tʁiˈme] = drieť
+2 V bosser {bosser} [bɔˈse] = drieť
+3 N la corvée {corvée} [kɔʁˈve], corvées = drina
+3 N le labeur {labeur} [laˈbœʁ], labeurs = drina
+3 N le portier {port|ier} [pɔʁˈtje], portiers = vrátnik
+2 N le concierge {concierge} [kɔ̃ˈsjɛʁʒ], concierges = vrátnik
 
 # making-doing
 1 V faire {faire} [fɛʁ], irr, fait = robiť
@@ -301,6 +315,8 @@
 3 V limer {limer} [liˈme] = pilovať
 3 V disséquer {disséquer} [diseˈke] = vypreparovať
 2 V démolir {démolir} [demɔˈliʁ] = búrať
+3 V usiner {usiner} [yziˈne] = opracovať
+2 V scier {scier} [sje] = píliť
 
 # tools
 1 N le marteau {marteau} [maʁˈto], marteaux = kladivo
@@ -357,6 +373,18 @@
 2 N la barre {barre} [baʁ], barres = prút
 3 N la perche {perche} [pɛʁʃ], perches = tyč
 2 N la barre {barre} [baʁ], barres = tyč
+3 N le piquet {piquet} [piˈkɛ], piquets = kolík
+2 N le coin {coin} [kwɛ̃], coins = klin
+2 N la lime {lime} [lim], limes = pilník
+3 N la buse {buse} [byz], buses = tryska
+3 N le soufflet {souffl|et} [suˈflɛ], soufflets = kováčsky mech
+3 N le roulement {roule|ment} [ʁuləˈmɑ̃], roulements = ložisko
+3 N le palier {palier} [paˈlje], paliers = ložisko
+2 N le bouchon {bouch|on} [buˈʃɔ̃], bouchons = zátka
+3 N la trappe {trappe} [tʁap], trappes = poklop
+3 N la pincette {pinc|ette} [pɛ̃ˈsɛt], pincettes = pinzeta
+2 N le ressort {ressort} [ʁəˈsɔʁ], ressorts = pružina
+3 N le crochet {crochet} [kʁɔˈʃɛ], crochets = pakľúč
 
 # materials
 2 N le matériau {matériau} [mateˈʁjo], matériaux = materiál
@@ -388,6 +416,13 @@
 2 V isoler {isoler} [izɔˈle] = zatepliť
 2 N la tôle {tôle} [tol], tôles = plech
 2 N la ficelle {ficelle} [fiˈsɛl], ficelles = špagát
+2 N la céramique {céramique} [seʁaˈmik], céramiques = keramika
+2 N la bûche {bûche} [byʃ], bûches = poleno
+3 N la sciure {sciure} [sjyʁ], - = piliny
+3 N l'écharde (f) {écharde} [eˈʃaʁd], échardes = trieska
+3 N le copeau {copeau} [kɔˈpo], copeaux = hoblina
+2 N l'étui (m) {étui} [eˈtɥi], étuis = puzdro
+3 N le diluant {dilu|ant} [dilɥˈɑ̃], diluants = riedidlo
 
 # industry-places
 2 N l'œuvre (f) {œuvre} [œvʁ], œuvres = dielo
@@ -439,3 +474,12 @@
 3 V sous-traiter {sous-traiter} [sutʁɛˈte] = vyčleniť
 2 N la pratique {pratique} [pʁaˈtik], pratiques = prax
 3 N l'entreprise de service public (f) {entreprise de service public} [ɑ̃tʁəpʁiz də sɛʁvis pyˈblik], entreprises de service public = verejnoprospešný podnik
+2 N le puits {puits} [pɥi], puits = šachta
+2 V extraire {ex|traire} [ɛksˈtʁɛʁ], irr, extrait = ťažiť
+
+# work
+3 N la corporation {corporation} [kɔʁpɔʁaˈsjɔ̃], corporations = cech
+3 N la guilde {guilde} [ɡild], guildes = cech
+3 V déblayer {déblayer} [debleˈje] = odkopať
+3 V teinter {teinter} [tɛ̃ˈte] = moriť
+3 V raboter {rabot|er} [ʁaboˈte] = hobľovať

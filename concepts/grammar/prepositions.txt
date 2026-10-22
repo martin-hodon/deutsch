@@ -44,6 +44,8 @@ PRE stranou
 PRE neďaleko
 PRE v priebehu
 PRE vrátane
+PRE spomedzi
+PRE s výhradou
 
 # two-way
 PRE na (v kontakte)

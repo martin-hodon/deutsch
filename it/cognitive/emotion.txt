@@ -336,6 +336,13 @@
 2 N la disperazione {disperazione} [disperaˈtsjoːne], - = beznádej
 2 PHR nel migliore dei casi {nel migliore dei casi} [nel miˈʎːoːre dei ˈkaːzi] = v najlepšom prípade
 2 V annoiare {annoiare} [anːoˈjaːre] = nudiť
+3 V contrariare {contrariare} [kontraˈrjaːre] = rozladiť
+3 V infiammarsi {infiammarsi} [infjaˈmːarsi] = vzplanúť
+2 AN afflitto {afflitto} [aˈflːitːo], afflitta = zarmútený
+2 AN addolorato {addolorato} [adːoloˈraːto], addolorata = zarmútený
+2 AN spaventato {spaventato} [spavenˈtaːto], spaventata = vystrašený
+3 AN impaurito {impaurito} [impauˈriːto], impaurita = vystrašený
+2 V stressarsi {stressarsi} [streˈsːarsi] = stresovať sa
 
 # love-hate
 1 V amare {amare} [aˈmaːre] = ľúbiť
@@ -419,6 +426,12 @@
 2 N la preferenza {preferenza} [prefeˈrɛntsa], preferenze = obľuba
 2 N la popolarità {popolarità} [popolariˈta], popolarità = obľuba
 3 N la predilezione {predilezione} [predileˈttsjoːne], predilezioni = obľuba
+3 N l'adorazione (f) {adorazione} [adoraˈtsjoːne], adorazioni = zbožňovanie
+3 V rimorchiare {rimorchiare} [rimorˈkjaːre] = zbaliť (osobu)
+3 AN compassionevole {compassionevole} [kompasːjoˈneːvole] = súcitný
+3 V compatire {compatire} [kompaˈtiːre], isc = súcitiť
+2 N il perdono {perdono} [perˈdoːno], perdoni = odpustenie
+2 V avere voglia {avere voglia} [aˈveːre ˈvɔʎːa], irr, avuto (di) = mať chuť
 
 # self-social-feelings
 1 N la vergogna {vergogna} [verˈɡoɲːa], vergogne = hanba
@@ -481,6 +494,14 @@
 3 N l'ingratitudine (f) {in|gratitudine} [inɡratiˈtuːdine], - = nevďačnosť
 2 N la chiusura {chiusura} [kjuˈzuːra], chiusure = uzavretosť
 3 N la riservatezza {riservatezza} [rizervaˈtettsa], - = uzavretosť
+2 N l'umiliazione (f) {umiliazione} [umiljaˈtsjoːne], umiliazioni = zahanbenie
+2 V umiliare {umiliare} [umiˈljaːre] = zahanbiť
+3 V svergognare {svergognare} [zverɡoˈɲːaːre] = zahanbiť
+2 AN imbarazzato {imbarazzato} [imbaratˈtsaːto], imbarazzata = zahanbený
+3 AN mortificato {mortificato} [mortifiˈkaːto], mortificata = zahanbený
+3 V disonorare {disonorare} [dizonoˈraːre] = zneuctiť
+2 AN solitario {solitario} [soliˈtaːrjo], solitaria = samotársky
+3 AN scontroso {scontroso} [skonˈtroːzo], scontrosa = samotársky
 
 # expressions
 1 V ridere {ridere} [ˈriːdere], riso = smiať sa
@@ -547,6 +568,20 @@
 2 N il pianto {pianto} [ˈpjanto], pianti = plač
 3 V accigliarsi {accigliarsi} [attʃiˈʎːarsi] = mračiť sa
 3 V aggrottare la fronte {aggrottare la fronte} [aɡːroˈtːaːre la ˈfronte] = mračiť sa
+2 V bloccarsi {bloccarsi} [bloˈkːarsi] = zaraziť sa
+2 N la smorfia (f) {smorfia} [ˈzmɔrfja], smorfie = grimasa
+3 AN beffardo {beffardo} [beˈfːardo], beffarda = posmešný
+3 AN scherzoso {scherzoso} [skerˈtsoːzo], scherzosa = žartovný
+3 AN lacrimoso {lacrimoso} [lakriˈmoːzo], lacrimosa = uplakaný
+3 V aggrottare {aggrottare} [aɡːroˈtːaːre] = zvraštiť
+3 V piagnucolare {piagnucolare} [pjaɲːukoˈlaːre] = fňukať
+3 V frignare {frignare} [friˈɲːaːre] = fňukať
+3 AN corrucciato {corrucciato} [korːutˈtʃaːto], corrucciata = zachmúrený
+3 AN cupo {cupo} [ˈkuːpo], cupa = zachmúrený
+2 N il lamento {lamento} [laˈmɛnto], lamenti = nárek
+3 N il singhiozzo {singhiozzo} [siŋˈɡjɔttso], singhiozzi = vzlyk
+3 V ridacchiare {ridacchiare} [ridaˈkːjaːre] = chichotať sa
+3 N il ghigno {ghigno} [ˈɡiɲːo], ghigni = úškrn
 
 # feelings
 3 V crogiolarsi {crogiolarsi} [krodʒoˈlarsi] (in) = hýriť
@@ -566,6 +601,46 @@
 2 AN lusinghiero {lusinghiero} [luzinˈɡjɛːro], lusinghiera = lichotivý
 1 V corteggiare {corteggiare} [korteˈddʒaːre] = dvoriť sa
 2 V fare la corte {fare la corte} [ˈfaːre la ˈkorte], irr, fatto (a) = dvoriť sa
+2 V deprimere {deprimere} [deˈpriːmere], irr, depresso = skľučovať
+3 AN ammirativo {ammirativo} [amːiraˈtiːvo], ammirativa = obdivný
+2 N lo stupore (m) {stupore} [stuˈpoːre], stupori = údiv
+2 AN stupito {stupito} [stuˈpiːto], stupita = udivený
+2 AN disgustato {disgustato} [dizɡuˈstaːto], disgustata = znechutený
+2 V disgustare {disgustare} [dizɡuˈstaːre] = znechutiť
+3 V impietosirsi {impietosirsi} [impjetoˈzirsi], isc = zľutovať sa
+3 AN misericordioso {misericordioso} [mizerikorˈdjoːzo], misericordiosa = milosrdný
+2 N l'attrazione (f) {attrazione} [atːraˈtsjoːne], attrazioni = príťažlivosť
+3 AN euforico {euforico} [euˈfɔːriko], euforica, euforici/euforiche = rozjašený
+2 N la cotta (f) {cotta} [ˈkotːa], cotte = poblúznenie
+3 N l'infatuazione (f) {infatuazione} [infatwaˈtsjoːne], infatuazioni = poblúznenie
+2 AN preoccupato {preoccupato} [preokːuˈpaːto], preoccupata = znepokojený
+3 AN inquieto {inquieto} [inˈkwjɛːto], inquieta = znepokojený
+3 AN scioccato {scioccato} [ʃoˈkːaːto], scioccata = šokovaný
+3 V sconcertare {sconcertare} [skontʃerˈtaːre] = zaraziť
+3 AN sconcertato {sconcertato} [skontʃerˈtaːto], sconcertata = zarazený
+2 AN ansioso {ansioso} [anˈsjoːzo], ansiosa = úzkostlivý
+3 AN imbronciato {imbronciato} [imbronˈtʃaːto], imbronciata = namosúrený
+3 AN ipersensibile {iper|sensibile} [ipersenˈsiːbile] = precitlivený
+3 AN suscettibile {suscettibile} [suʃːeˈtːiːbile] = precitlivený
+3 V immedesimarsi {immedesimarsi} [imːedeziˈmarsi] (in) = vcítiť sa
+3 V inorridire {inorridire} [inorːiˈdiːre], isc = zhroziť sa
+3 V rabbrividire {rabbrividire} [rabːriviˈdiːre], isc = zhroziť sa
+3 N l'inquietudine (f) {inquietudine} [inkwjeˈtuːdine], inquietudini = znepokojenie
+2 N la preoccupazione (f) {preoccupazione} [preokːupaˈtsjoːne], preoccupazioni = znepokojenie
+3 V intimidire {intimidire} [intimiˈdiːre], isc = zastrašiť
+3 V intimorire {intimorire} [intimoˈriːre], isc = zastrašiť
+2 AN desideroso {desideroso} [dezideˈroːzo], desiderosa (di) = túžobný
+2 AN irritato {irritato} [irːiˈtaːto], irritata = podráždený
+3 N l'irritazione (f) {irritazione} [irːitaˈtsjoːne], irritazioni = podráždenosť
+3 V amareggiare {amareggiare} [amaredˈdʒaːre] = strpčiť
+3 V imbronciarsi {imbronciarsi} [imbronˈtʃarsi] = durdiť sa
+2 AN agitato {agitato} [adʒiˈtaːto], agitata = rozčúlený
+2 N l'allegria (f) {allegria} [alːeˈɡriːa], allegrie = veselosť
+2 V dispiacere {dispiacere} [dispjaˈtʃeːre], irr, dispiaciuto, essere (a) = mrzieť
+3 AN tormentato {tormentato} [tormenˈtaːto], tormentata = utrápený
+3 AN angosciato {angosciato} [anɡoˈʃːaːto], angosciata = utrápený
+2 V rattristare {rattristare} [ratːrisˈtaːre] = zarmútiť
+2 V rallegrare {rallegrare} [ralːeˈɡraːre] = rozveseliť
 
 # more
 1 AN amato {amato} [aˈmaːto], amata = milovaný

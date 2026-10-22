@@ -747,7 +747,7 @@ Mientras la mantequilla se derretía, cortó las cebollas.
 # B1.2 three verbs, one subject
 # de: Sie nahm einen Löffel, rührte die Suppe um und probierte sie.
 # en: She took a spoon, stirred the soup and tasted it.
-Cogió una cuchara, removió la sopa y la probó.
+Tomó una cuchara, removió la sopa y la probó.
   S: 1 , 2 and 3 .
   1 MAIN verb=vziať subj=3sg.f patient=indef:lyžica tense=past
   2 MAIN verb=premiešať drop=yes subj=3sg.f patient=def:polievka tense=past
@@ -926,7 +926,7 @@ Un soplo de sal, una corteza crujiente y un aroma cálido.
 # B1.1 three main clauses in a row, the last with und
 # de: Der Kühlschrank summte, Öl zischte, und der Duft lag schwer in der Luft.
 # en: The fridge hummed, oil hissed, and the aroma lay heavy in the air.
-El frigorífico zumbaba, el aceite siseaba y el aroma flotaba denso en el aire.
+La nevera zumbaba, el aceite siseaba y el aroma flotaba denso en el aire.
   S: 1 , 2 , and 3 .
   1 MAIN verb=bzučať subj=def:chladnička tense=past
   2 MAIN verb=syčať subj=none:olej tense=past
@@ -1000,6 +1000,6 @@ Añadió una pizca de sal.
 
 # de: Er nahm ein Stück kalte Butter.
 # en: He took a piece of cold butter.
-Cogió un trozo de mantequilla fría.
+Tomó un trozo de mantequilla fría.
   S: 1 .
   1 MAIN verb=vziať subj=3sg.m patient=indef:kus+of(none:maslo+adj:studený) tense=past

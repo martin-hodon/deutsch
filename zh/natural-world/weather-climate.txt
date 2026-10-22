@@ -69,6 +69,20 @@
 2 N 水分 {水分} [shuǐfèn], - = vlhkosť
 2 V 布满 {布满} [bùmǎn] = pokryť
 2 N 风暴 {风暴} [fēngbào], 场 = búrka
+1 V 吹 {吹} [chuī] = fúkať
+2 V 刮 {刮} [guā] = fúkať
+2 V 吹灭 {吹灭} [chuīmiè] = sfúknuť
+3 N 烟团 {烟团} [yāntuán], 团 = kúdol
+3 N 穿堂风 {穿堂风} [chuāntángfēng], 股 = prievan
+2 V 吹走 {吹走} [chuīzǒu] = odfúknuť
+3 V 轻拂 {轻拂} [qīngfú] = ovievať
+2 V 扇 {扇} [shān] = ovievať
+2 V 下毛毛雨 {下|毛毛雨} [xiàmáomaoyǔ] = mrholiť
+2 V 减弱 {减弱} [jiǎnruò] = zmierniť sa
+3 V 平息 {平息} [píngxī] = zmierniť sa
+3 N 暴风 {暴风} [bàofēng], 场 = búrka
+3 N 湿气 {湿气} [shīqì], - = vlhkosť
+3 N 狂风 {狂风} [kuángfēng], 阵 = víchor
 
 # temperature
 1 N 温度 {温度} [wēndù], 个 = teplota
@@ -89,6 +103,8 @@
 2 N 温暖 {温暖} [wēnnuǎn], - = teplo
 2 V 加温 {加温} [jiāwēn] = ohrievať
 2 V 加热 {加热} [jiārè] = ohriať
+1 V 热 {热} [rè] = ohriať
+3 V 温 {温} [wēn] = ohriať
 2 N 变暖 {变暖} [biànnuǎn], - = otepľovanie
 3 AN 微温 {微温} [wēiwēn] = vlažný
 1 AN 凉快 {凉快} [liángkuai] = chladný
@@ -113,6 +129,7 @@
 2 AN 冰冷 {冰冷} [bīnglěng] = ľadový
 2 N 闷热 {闷热} [mēnrè], - = dusno
 2 V 灼烧 {灼烧} [zhuóshāo] = páliť
+2 V 烫 {烫} [tàng] = páliť
 3 AN 灼热 {灼热} [zhuórè] = pálivý
 2 AN 闷热 {闷热} [mēnrè] = dusný
 2 AN 浑浊 {浑浊} [húnzhuó] = kalný
@@ -127,6 +144,10 @@
 2 N 热量 {热量} [rèliàng], - = teplo
 2 N 变冷 {变冷} [biànlěng], - = ochladzovanie
 2 N 降温 {降温} [jiàngwēn], - = ochladzovanie
+2 V 变冷 {变冷} [biànlěng] = chladnúť
+3 N 沸腾 {沸腾} [fèiténg], - = var
+3 AN 温 {温} [wēn] = teplý
+3 V 冻结 {冻结} [dòngjié] = zamrznúť
 
 # seasons-climate
 2 N 季节 {季节} [jìjié], 个 = ročné obdobie
@@ -168,3 +189,8 @@
 2 N 夏季 {夏季} [xiàjì], - = leto
 2 N 气象 {气象} [qìxiàng], - = meteorológia
 2 N 冷气 {冷气} [lěngqì], - = klimatizácia
+3 N 季 {季} [jì], 个 = ročné obdobie
+2 N 春 {春} [chūn], - = jar
+2 N 夏 {夏} [xià], - = leto
+2 N 秋 {秋} [qiū], - = jeseň
+2 N 冬 {冬} [dōng], - = zima

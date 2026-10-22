@@ -56,6 +56,10 @@ N muchotrávka červená
 N plesňová huba
 N pleseň
 V plesnivieť
+N bedľa
+N hliva
+N kuriatko jedlé -- jedlá huba, líška
+N plávka
 
 # plant-parts
 N koreň
@@ -104,6 +108,21 @@ N imelo
 N plod
 AN ovocný
 N záhon
+N semenník (rastlina)
+AN zvädnutý
+V pučať
+N ihličie
+N lyko
+N okolík
+N klas
+N tyčinka
+N peľnica
+N čnelka
+N kvetné lôžko
+N okvetie
+N kališný lístok
+N nažka
+N šupka
 
 # tree-flower-kinds
 N dub
@@ -147,3 +166,73 @@ N pelargónia
 N chryzantéma
 N prvosienka
 N snežienka
+N citrónovník -- strom citrón
+N mandľovník
+N praslička
+N lekno
+N konvalinka
+N šafrán
+N agáve
+N aloe
+N dracéna
+N lotos
+N repík
+N slez
+N opuncia
+N rododendron
+N azalka
+N nevädza
+N aksamietnica
+N astra
+N rumanček
+N podbeľ
+N lopúch
+N gerbera
+N zvonček kvetinový -- kvet Campanula, nie malý zvon
+N rasca
+N fenikel
+N aníz
+N badián
+N koriander
+N ligurček
+N bolehlav
+N bolševník
+N nezábudka
+N kostihoj
+N medovka
+N majorán
+N oregano
+N hluchavka
+N ginkgo
+N smrekovec
+N sekvoja
+N tuja
+N tis
+N datľovník
+N ľaliovník
+N platan
+N agát
+N štedrec
+N sofora
+N albízia
+N gledíčia
+N jarabina
+N mišpuľa
+N muchovník
+N hrab
+N pagaštan
+N orech kráľovský
+N hikória
+N jelša
+N lieska
+N pajaseň
+N olivovník
+N chmeľ
+N krušpán
+N vavrín
+N vtáčí zob
+N baza
+N skorocel
+N hruškový strom -- strom, nie plod
+N slivkový strom -- strom, nie plod
+N marhuľový strom -- strom, nie plod

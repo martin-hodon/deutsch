@@ -88,6 +88,11 @@
 2 N 长短 {长短} [chángduǎn], - = dĺžka
 2 AN 宏大 {宏大} [hóngdà] = veľkolepý
 2 AN 特大 {特大} [tèdà] = obrovský
+2 AN 瘦高 {瘦高} [shòugāo] = vytiahnutý
+2 AN 广 {广} [guǎng] = široký
+3 AN 阔 {阔} [kuò] = široký
+2 AV 久 {久} [jiǔ] = dlho
+3 AV 徐徐 {徐徐} [xúxú] = pomaly
 
 # evaluation
 1 AN 好 {好} [hǎo] = dobrý
@@ -704,6 +709,7 @@
 2 AN 怪 {怪} [guài] = čudný
 2 AN 矮 {矮} [ǎi] = nízky
 2 AN 糟 {糟} [zāo] = zlý
+1 AN 差 {差} [chà] = zlý
 2 AN 酷 {酷} [kù] = skvelý
 3 AN 稠 {稠} [chóu] = hustý
 3 AN 僵 {僵} [jiāng] = stuhnutý
@@ -712,6 +718,7 @@
 1 AN 常用 {常用} [chángyòng] = bežný
 1 N 坏处 {坏处} [huàichù], - = nevýhoda
 1 AV 极了 {极了} [jíle] = extrémne
+2 AV 极 {极} [jí] = extrémne
 1 AN 精彩 {精彩} [jīngcǎi] = skvelý
 2 AN 良好 {良好} [liánghǎo] = dobrý
 2 N 品质 {品质} [pǐnzhì], - = kvalita
@@ -728,6 +735,7 @@
 2 AN 厉害 {厉害} [lìhai] = skvelý
 2 AN 难得 {难得} [nándé] = zriedkavý
 2 AN 热门 {热门} [rèmén] = populárny
+2 AN 火 {火} [huǒ] = populárny
 2 N 治安 {治安} [zhì'ān], - = bezpečnosť
 2 AN 常年 {常年} [chángnián] = celoročný
 2 AN 多方面 {多方面} [duōfāngmiàn] = mnohotvárny
@@ -754,6 +762,25 @@
 2 N 缺陷 {缺陷} [quēxiàn], 个 = nedokonalosť
 2 N 复杂 {复杂} [fùzá], - = zložitosť
 3 N 复杂性 {复杂性} [fùzáxìng], - = zložitosť
+3 AN 巍峨 {巍峨} [wēi'é] = majestátny
+3 N 优待 {优待} [yōudài], - = zvýhodnenie
+3 AN 棘手 {棘手} [jíshǒu] = chúlostivý
+2 AN 敏感 {敏感} [mǐngǎn] = chúlostivý
+3 AN 微妙 {微妙} [wēimiào] = chúlostivý
+3 AN 稀罕 {稀罕} [xīhan] = vzácny
+2 AN 珍贵 {珍贵} [zhēnguì] = vzácny
+2 AN 稀有 {稀有} [xīyǒu] = vzácny
+2 AN 有益 {有益} [yǒuyì] = prospešný
+2 AN 有利 {有利} [yǒulì] = prospešný
+2 AN 妙 {妙} [miào] = skvelý
+3 V 损 {损} [sǔn] = poškodiť
+3 AN 紧迫 {紧迫} [jǐnpò] = naliehavý
+2 AN 要紧 {要紧} [yàojǐn] = podstatný
+3 AN 紧要 {紧要} [jǐnyào] = nevyhnutný
+3 AN 险 {险} [xiǎn] = nebezpečný
+3 AN 优异 {优异} [yōuyì] = výborný
+3 AN 专职 {专职} [zhuānzhí] = na plný úväzok
+3 AN 霸气 {霸气} [bàqì] = dominantný
 
 # state-properties
 1 AN 新 {新} [xīn] = nový
@@ -945,6 +972,7 @@
 2 V 排列 {排列} [páiliè] = zoradiť
 1 PHR 没问题 {没问题} [méi wèntí] = v poriadku
 1 PHR 好的 {好的} [hǎo de] = v poriadku
+1 PHR 行 {行} [xíng] = v poriadku
 2 AN 整齐 {整齐} [zhěngqí] = upratný
 2 AN 粗糙 {粗糙} [cūcāo] = hrubý (nehladký)
 2 V 完善 {完善} [wánshàn] = zjemniť
@@ -1151,6 +1179,7 @@
 2 AN 时好时坏 {时好时坏} [shíhǎo shíhuài] = striedavý
 2 AN 拥挤 {拥挤} [yōngjǐ] = preplnený
 3 AN 爆满 {爆满} [bàomǎn] = preplnený
+2 AN 挤 {挤} [jǐ] = preplnený
 2 AN 未解决 {未解决} [wèi jiějué] = nevybavený
 2 AN 待处理 {待处理} [dài chǔlǐ] = nevybavený
 2 AN 普遍 {普遍} [pǔbiàn] = prevládajúci
@@ -1209,6 +1238,7 @@
 3 AN 注重环保 {注重环保} [zhùzhòng huánbǎo] = ekologicky uvedomelý
 3 AN 笨拙 {笨拙} [bènzhuō] = nemotorný
 3 AN 笨手笨脚 {笨手笨脚} [bènshǒu bènjiǎo] = nemotorný
+2 AN 笨 {笨} [bèn] = nemotorný
 3 AN 合身 {合身} [héshēn] = presne padnúci
 2 AN 一般 {一般} [yībān] = prostredný
 3 AN 平庸 {平庸} [píngyōng] = prostredný
@@ -1336,6 +1366,8 @@
 2 AV 笨拙地 {笨拙地} [bènzhuōde] = nemotorne
 2 AN 潮 {潮} [cháo] = vlhký
 2 PRE 凭 {凭} [píng] = podľa
+2 PRE 按 {按} [àn] = podľa
+3 PRE 据 {据} [jù] = podľa
 2 AN 闲 {闲} [xián] = voľný
 3 AN 嫩 {嫩} [nèn] = jemný
 3 V 睁 {睁} [zhēng] = otvoriť
@@ -1372,6 +1404,24 @@
 2 AV 尽可能少 {尽可能少} [jǐn kěnéng shǎo] = čo najmenej
 2 V 增强 {增强} [zēngqiáng] = silnieť
 1 V 变强 {变强} [biànqiáng] = silnieť
+2 AN 压缩 {压缩} [yāsuō] = stlačený
+3 N 脆弱性 {脆弱性} [cuìruòxìng], - = zraniteľnosť
+2 AN 破 {破} [pò] = poškodený
+2 AN 受损 {受损} [shòusǔn] = poškodený
+3 AN 摇摇晃晃 {摇摇晃晃} [yáoyáohuànghuàng] = rozheganý
+2 AN 被绑 {被绑} [bèibǎng] = zviazaný
+3 AN 腐朽 {腐朽} [fǔxiǔ] = spráchnivený
+3 AN 毛刺刺 {毛刺刺} [máocìcì] = štetinatý
+2 AN 磨损 {磨损} [mósǔn] = opotrebovaný
+2 AN 湿透 {湿透} [shītòu] = premoknutý
+2 AN 缺乏 {缺乏} [quēfá] = chýbajúci
+3 AN 秀丽 {秀丽} [xiùlì] = krásny
+2 AN 美 {美} [měi] = krásny
+3 AN 奇异 {奇异} [qíyì] = zvláštny
+2 AN 纯粹 {纯粹} [chúncuì] = čistý (nezmiešaný)
+2 AN 整 {整} [zhěng] = úplný (celkový)
+2 V 填补 {填补} [tiánbǔ] = doplniť
+3 AN 污浊 {污浊} [wūzhuó] = špinavý
 
 # corpus-adjectives
 3 AN 周密 {周密} [zhōumì] = premyslený
@@ -1541,6 +1591,7 @@
 2 AV 生动地 {生动地} [shēngdòngde] = názorne
 3 AN 酥 {酥} [sū] = chrumkavý
 2 AV 居然 {居然} [jūrán] = nečakane
+3 AN 意味深长 {意味深长} [yìwèi shēncháng] = veľavravný
 
 # quality
 2 AN 对环境有害 {对环境有害} [duì huánjìng yǒuhài] = škodlivý pre životné prostredie
@@ -1596,6 +1647,22 @@
 2 AN 不漏 {不漏} [bù lòu] = tesný (nepriepustný)
 3 N 砝码 {砝码} [fǎmǎ], 个 = závažie
 2 N 重量 {重量} [zhòngliàng], - = závažie
+2 AN 兼容 {兼容} [jiānróng] = zlučiteľný
+3 AV 初步地 {初步地} [chūbùde] = v náznakoch
+2 AN 随意 {随意} [suíyì] = ležérny
+3 AN 不挑剔 {不挑剔} [bù tiāoti] = nenáročný
+2 N 魅力 {魅力} [mèilì], 种 = pôvab
+2 AN 诱人 {诱人} [yòurén] = zvodný
+2 AN 整洁 {整洁} [zhěngjié] = úhľadný
+2 AN 破旧 {破旧} [pòjiù] = ošarpaný
+3 AN 寒酸 {寒酸} [hánsuān] = ošarpaný
+2 AN 可替代 {可替代} [kě tìdài] = nahraditeľný
+3 AN 可替换 {可替换} [kě tìhuàn] = nahraditeľný
+2 AN 破烂 {破烂} [pòlàn] = roztrhaný
+3 AN 褴褛 {褴褛} [lánlǚ] = roztrhaný
+3 N 徒劳 {徒劳} [túláo], - = zbytočnosť
+2 AN 虚假 {虚假} [xūjiǎ] = nepravdivý
+3 AN 不实 {不实} [bùshí] = nepravdivý
 
 # more
 2 AV 极其 {极其} [jíqí] = neuveriteľne

@@ -45,6 +45,7 @@
 2 N universe {universe} [ˈjuːnɪvɜːs], universes = vesmír
 1 N space {space} [speɪs], - = vesmír
 3 N moonset {moon|set} [ˈmuːnset], moonsets = západ mesiaca
+3 N eclipse {eclipse} [ɪˈklɪps], eclipses = zatmenie
 # sky-phenomena
 1 N sky {sky} [skaɪ], skies = obloha
 3 N celestial body {celestial body} [səˌlestiəl ˈbɒdi], celestial bodies = nebeské teleso

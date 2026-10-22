@@ -12,6 +12,7 @@
 1 V 准备好 {准备好} [zhǔnbèihǎo] = byť pripravený
 1 V 坐 {坐} [zuò] = sedieť
 1 V 坐下 {坐下} [zuòxià] = sadnúť si
+1 V 坐 {坐} [zuò] = sadnúť si
 1 N 座位 {座位} [zuòwèi], 个 = sedadlo
 2 V 躺 {躺} [tǎng] = ležať
 1 V 可以使用 {可以使用} [kěyǐ shǐyòng] = byť k dispozícii
@@ -41,6 +42,20 @@
 2 V 停下 {停下} [tíngxià] = zastaviť sa
 2 V 远离 {远离} [yuǎnlí] = vzďaľovať sa
 3 V 渐行渐远 {渐行渐远} [jiànxíngjiànyuǎn] = vzďaľovať sa
+2 V 跪下 {跪下} [guìxià] = kľaknúť si
+3 N 鞠躬 {鞠躬} [jūgōng], 个 = poklona
+3 AV 站着 {站着} [zhànzhe] = postojačky
+3 AV 坐着 {坐着} [zuòzhe] = posediačky
+3 AV 躺着 {躺着} [tǎngzhe] = poležiačky
+2 V 弯腰 {弯|腰} [wānyāo] = zohnúť sa
+3 V 鞠躬 {鞠|躬} [jūgōng] = pokloniť sa
+3 V 伸懒腰 {伸|懒腰} [shēnlǎnyāo] = vystierať sa
+3 AV 跨坐着 {跨坐着} [kuàzuòzhe] = obkročmo
+3 V 趴 {趴} [pā] = ležať na bruchu
+3 PHR 低着头 {低着头} [dīzhetóu] = so sklonenou hlavou
+3 AN 蜷缩 {蜷缩} [quánsuō] = skrčený
+3 V 起 {起} [qǐ] = vstať
+3 V 站立 {站立} [zhànlì] = stáť (v stoji)
 
 # locomotion
 1 V 跳 {跳} [tiào] = skákať
@@ -90,6 +105,7 @@
 2 N 滑梯 {滑梯} [huátī], 个 = šmykľavka
 2 V 滚 {滚} [gǔn] = gúľať sa
 2 V 卷起 {卷起} [juǎnqǐ] = zrolovať
+3 V 卷 {卷} [juǎn] = zrolovať
 3 V 蹦 {蹦} [bèng] = poskakovať
 3 V 蹦跳 {蹦跳} [bèngtiào] = poskakovať
 3 V 瘸 {瘸} [qué] = krívať
@@ -108,6 +124,7 @@
 3 V 蹒跚 {蹒跚} [pánshān] = potácať sa
 3 V 退让 {退让} [tuìràng] = ustúpiť
 2 V 让步 {让|步} [ràngbù] = ustúpiť
+2 V 退 {退} [tuì] = ustúpiť
 2 V 躲开 {躲开} [duǒkāi] = uhnúť
 3 V 躲避 {躲避} [duǒbì] = uhnúť
 3 V 偏离 {偏离} [piānlí] = odchýliť sa
@@ -145,10 +162,29 @@
 2 V 逛 {逛} [guàng] = prechádzať sa
 2 V 躲 {躲} [duǒ] = uhnúť
 2 V 登山 {登|山} [dēngshān] = liezť
+3 V 钻 {钻} [zuān] = liezť
 2 N 脚步 {脚步} [jiǎobù], 个 = krok
 2 V 奔跑 {奔跑} [bēnpǎo] = bežať
 1 V 飞来 {飞来} [fēilái] = priletieť
 2 V 飞到 {飞到} [fēidào] = priletieť
+3 V 翻跟头 {翻|跟头} [fāngēntou] = robiť kotrmelce
+3 V 飞奔 {飞奔} [fēibēn] = uháňať
+2 V 跑进 {跑进} [pǎojìn] = vbehnúť
+3 V 扑 {扑} [pū] = vrhnúť sa
+2 V 冲 {冲} [chōng] = vrhnúť sa
+3 V 摇摆 {摇摆} [yáobǎi] = knísať sa
+3 V 翻滚 {翻滚} [fāngǔn] = prekoprcnúť sa
+3 V 小跑 {小跑} [xiǎopǎo] = cupkať
+3 V 扭动 {扭动} [niǔdòng] = vrtieť sa
+3 V 骑上 {骑上} [qíshàng] = nasadnúť
+2 V 起飞 {起飞} [qǐfēi] = vzlietnuť
+3 V 飞出 {飞出} [fēichū] = vyletieť
+3 V 绕飞 {绕飞} [ràofēi] = obletieť
+3 V 挣脱 {挣脱} [zhèngtuō] = vydrať sa
+3 V 跺脚 {跺|脚} [duòjiǎo] = dupať
+3 V 涌 {涌} [yǒng] = valiť sa
+3 N 跑步者 {跑步者} [pǎobùzhě], 个 = bežec
+3 V 纵身 {纵身} [zòngshēn] = vyskočiť
 
 # manipulation
 2 V 握 {握} [wò] = držať
@@ -193,6 +229,7 @@
 1 V 拿起 {拿起} [náqǐ] = zodvihnúť
 2 V 抬起 {抬起} [táiqǐ] = zdvihnúť
 2 V 举起 {举起} [jǔqǐ] = zdvihnúť
+2 V 捡 {捡} [jiǎn] = zdvihnúť
 2 V 抬高 {抬高} [táigāo] = nadvihnúť
 3 V 掀起 {掀起} [xiānqǐ] = nadvihnúť
 2 V 扔 {扔} [rēng] = hodiť
@@ -419,6 +456,7 @@
 2 V 抹 {抹} [mǒ] = potrieť
 2 V 擦干 {擦干} [cāgān] = poutierať
 3 V 擦拭 {擦拭} [cāshì] = poutierať
+2 V 擦 {擦} [cā] = poutierať
 2 V 切 {切} [qiē] = krájať
 3 N 切口 {切口} [qiēkǒu], 道 = rez
 3 N 刀口 {刀口} [dāokǒu], 道 = rez
@@ -426,6 +464,7 @@
 3 N 刀锋 {刀锋} [dāofēng], - = ostrie
 2 V 切下 {切下} [qiēxià] = odrezať
 2 V 剪掉 {剪掉} [jiǎndiào] = odrezať
+3 V 割 {割} [gē] = odrezať
 2 V 剪下 {剪下} [jiǎnxià] = vystrihnúť
 2 V 剪出 {剪出} [jiǎnchū] = vystrihnúť
 1 V 推 {推} [tuī] = postrčiť
@@ -477,6 +516,7 @@
 2 V 删除 {删除} [shānchú] = prečiarknuť
 2 V 摩擦 {摩擦} [mócā] = trieť
 2 V 减 {减} [jiǎn] = odpočítať
+2 V 扣 {扣} [kòu] = odpočítať
 2 V 抖 {抖} [dǒu] = triasť
 3 V 扎 {扎} [zhā] = bodať
 2 V 砸 {砸} [zá] = rozbiť
@@ -491,10 +531,13 @@
 3 V 挥 {挥} [huī] = mávať (rukou)
 3 V 磕 {磕} [kē] = udrieť
 3 V 拎 {拎} [līn] = niesť
+1 V 背 {背} [bēi] = niesť
 3 V 捂 {捂} [wǔ] = zakryť
 3 V 遮 {遮} [zhē] = zakryť
+1 V 盖 {盖} [gài] = zakryť
 3 V 拽 {拽} [zhuài] = ťahať
 1 V 打破 {打破} [dǎpò] = rozbiť
+2 V 摔 {摔} [shuāi] = rozbiť
 2 N 感想 {感想} [gǎnxiǎng], 个 = dojem
 2 V 展现 {展现} [zhǎnxiàn] = ukázať
 2 V 显出 {显出} [xiǎnchū] = ukázať
@@ -503,3 +546,31 @@
 1 V 放下 {放下} [fàngxià] = spúšťať
 2 V 降低 {降低} [jiàngdī] = spúšťať
 3 V 降下 {降下} [jiàngxià] = spúšťať
+3 V 盖上 {盖上} [gàishàng] = priklopiť
+3 V 翻转 {翻转} [fānzhuǎn] = preklopiť
+3 V 摇 {摇} [yáo] = vrtieť
+3 V 扎 {扎} [zhā] = napichnúť
+3 V 戳破 {戳破} [chuōpò] = prepichnúť
+3 V 塞进 {塞进} [sāijìn] = vtlačiť
+3 V 刨 {刨} [páo] = hrabať
+3 V 眯 {眯} [mī] = zažmúriť
+3 N 毒打 {毒打} [dúdǎ], 顿 = výprask
+3 V 咂嘴 {咂|嘴} [zāzuǐ] = mľasknúť jazykom
+3 V 伸出 {伸出} [shēnchū] = vyplaziť
+3 V 抓 {抓} [zhuā] = zadrapiť
+3 V 摸索 {摸索} [mōsuo] = hmatať
+3 V 滑脱 {滑脱} [huátuō] = vykĺznuť
+3 V 拨弄 {拨弄} [bōnong] = špárať
+3 V 敲打 {敲打} [qiāodǎ] = búchať
+3 V 抡 {抡} [lūn] = napriahnuť sa
+3 V 堵嘴 {堵|嘴} [dǔzuǐ] = zapchať ústa
+3 V 踩扁 {踩扁} [cǎibiǎn] = rozšliapnuť
+3 V 撅 {撅} [juē] = vyhrnúť
+3 V 砸 {砸} [zá] = tresnúť
+3 V 涂抹 {涂抹} [túmǒ] = naniesť
+3 V 丢弃 {丢弃} [diūqì] = vyhodiť
+2 V 扔 {扔} [rēng] = vyhodiť
+3 V 掷 {掷} [zhì] = hodiť
+3 V 撒 {撒} [sā] = hodiť
+3 V 掘 {掘} [jué] = vykopať
+3 V 践踏 {践踏} [jiàntà] = šliapnúť

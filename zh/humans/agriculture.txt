@@ -22,6 +22,7 @@
 3 N 犁 {犁} [lí], 把 = pluh
 2 V 耕地 {耕|地} [gēngdì] = orať
 3 V 犁地 {犁|地} [lídì] = orať
+3 V 犁 {犁} [lí] = orať
 2 V 种植 {种植} [zhòngzhí] = pestovať
 3 V 培育 {培育} [péiyù] = pestovať
 2 N 种植 {种植} [zhòngzhí], - = pestovanie
@@ -63,6 +64,21 @@
 3 N 粪 {粪} [fèn], - = hnoj
 3 V 割 {割} [gē] = kosiť
 2 N 丰收 {丰收} [fēngshōu], 个 = úroda
+3 V 移栽 {移栽} [yízāi] = presadiť (rastlinu)
+3 V 移植 {移植} [yízhí] = presadiť (rastlinu)
+2 V 除草 {除|草} [chúcǎo] = plieť
+2 V 拔草 {拔|草} [bácǎo] = plieť
+3 N 休耕地 {休耕地} [xiūgēngdì], 块 = prieloh
+3 V 耙地 {耙|地} [pàdì] = kypriť
+3 N 林间通道 {林间通道} [línjiāntōngdào], 条 = priesek
+3 N 森林砍伐 {森林砍伐} [sēnlínkǎnfá], - = výrub
+3 V 砍伐 {砍伐} [kǎnfá] = vyrúbať
+3 V 采摘 {采摘} [cǎizhāi] = oberať
+3 N 秋收 {秋收} [qiūshōu], - = žatva
+3 N 播种 {播|种} [bōzhǒng], - = osev
+3 N 柳条 {柳条} [liǔtiáo], - = prútie
+3 N 耕作 {耕作} [gēngzuò], - = orba
+3 V 翻土 {翻|土} [fāntǔ] = rýľovať
 
 # crops
 3 N 谷物 {谷物} [gǔwù], - = obilie
@@ -86,6 +102,9 @@
 3 N 秸秆 {秸秆} [jiēgǎn], - = slama
 3 N 幼苗 {幼苗} [yòumiáo], 棵 = sadenica
 3 N 草捆 {草捆} [cǎokǔn], 个 = bala
+2 N 小米 {小米} [xiǎomǐ], - = proso
+3 N 黍子 {黍子} [shǔzi], - = proso
+3 N 麦芽 {麦芽} [màiyá], - = slad
 
 # livestock-keeping
 3 N 牲畜 {牲畜} [shēngchù], 头 = dobytok
@@ -132,6 +151,22 @@
 3 N 狗窝 {狗窝} [gǒuwō], 个 = búda
 3 N 狗舍 {狗舍} [gǒushè], 个 = búda
 3 N 骑手 {骑手} [qíshǒu], 位 = jazdec
+3 N 轭 {轭} [è], 副 = jarmo
+3 N 母猪 {母猪} [mǔzhū], 头 = prasnica
+3 N 公猪 {公猪} [gōngzhū], 头 = kanec
+3 N 小山羊 {小山羊} [xiǎoshānyáng], 只 = kozľa
+3 N 黑马 {黑马} [hēimǎ], 匹 = vraník
+3 N 笼头 {笼头} [lóngtou], 副 = uzda
+3 N 缰绳 {缰绳} [jiāngshéng], 条 = opraty
+3 N 马镫 {马镫} [mǎdèng], 副 = strmeň
+3 N 马刺 {马刺} [mǎcì], 个 = ostroha
+2 N 鞭子 {鞭子} [biānzi], 条 = bič
+3 N 鞭 {鞭} [biān], 条 = bič
+3 V 鞭打 {鞭打} [biāndǎ] = bičovať
+3 N 口套 {口套} [kǒutào], 个 = náhubok
+3 N 项圈 {项圈} [xiàngquān], 个 = obojok
+3 V 套 {套} [tào] = zapriahnuť
+3 N 牛铃 {牛铃} [niúlíng], 个 = zvonec
 
 # garden-hunt-fish
 1 N 花园 {花园} [huāyuán], 个 = záhrada
@@ -170,3 +205,8 @@
 3 N 猪圈 {猪圈} [zhūjuàn], 个 = chlev
 2 N 园林 {园林} [yuánlín], 座 = záhrada
 2 N 园地 {园地} [yuándì], 块 = záhrada
+3 N 伐木工 {伐木工} [fámùgōng], 个 = drevorubač
+3 N 樵夫 {樵夫} [qiáofū], 个 = drevorubač
+3 V 开膛 {开|膛} [kāitáng] = vypitvať
+3 N 鱼钩 {鱼钩} [yúgōu], 个 = háčik
+3 N 渔线轮 {渔线轮} [yúxiànlún], 个 = navijak

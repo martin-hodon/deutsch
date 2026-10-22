@@ -58,6 +58,9 @@
 2 AN steil {steil} [ʃtaɪl] = strmý
 2 AN knapp {knapp} [knap] = tesný (sotva postačujúci), stručný, nedostatkový
 - 2 N die Knappheit {Knapp|heit} [ˈknaphaɪt], - = nedostatok, skromnosť
+3 AN schlaksig {schlaksig} [ˈʃlaksɪç] = vytiahnutý
+3 AN ausgedehnt {aus|gedehnt} [ˈaʊsɡədeːnt] = rozľahlý
+3 AN pummelig {pummelig} [ˈpʊməlɪç] = bucľatý
 
 # evaluation
 1 AN gut {gut} [ɡuːt], besser/am besten = dobrý
@@ -488,6 +491,44 @@
 3 AN unzugänglich {un|zugänglich} [ˈʊntsuːɡɛŋlɪç] = neprístupný
 3 N die Unvollkommenheit {Un|vollkommen|heit} [ˈʊnfɔlkɔmənhaɪt], Unvollkommenheiten = nedokonalosť
 3 N die Kompliziertheit {Kompliziert|heit} [kɔmpliˈtsiːɐthaɪt], - = zložitosť
+3 AN majestätisch {majestätisch} [majɛsˈtɛːtɪʃ] = majestátny
+3 N die Begünstigung {Be|günstigung} [bəˈɡʏnstɪɡʊŋ], Begünstigungen = zvýhodnenie
+3 AN heikel {heikel} [ˈhaɪkəl] = chúlostivý
+3 AN kostbar {kost|bar} [ˈkɔstbaːɐ] = vzácny
+3 AN zuträglich {zu|träg|lich} [ˈtsuːtʁɛːklɪç] = prospešný
+2 AN wiederholt {wieder|holt} [viːdɐˈhoːlt] = opätovný
+2 AN rar {rar} [ʁaːɐ] = zriedkavý
+3 AN sämig {sämig} [ˈzɛːmɪç] = hustý
+3 AN einstig {einstig} [ˈaɪnstɪç] = bývalý
+3 AN ergiebig {er|giebig} [ɛɐˈɡiːbɪç] = výnosný
+3 AN erstklassig {erst|klassig} [ˈeːɐstklasɪç] = špičkový
+3 AN biegsam {bieg|sam} [ˈbiːkzaːm] = ohybný
+3 AN schmiegsam {schmieg|sam} [ˈʃmiːkzaːm] = ohybný
+2 AN anziehend {an|ziehend} [ˈantsiːənt] = atraktívny
+3 AN zugkräftig {zug|kräftig} [ˈtsuːkkʁɛftɪç] = atraktívny
+3 AN flau {flau} [flaʊ] = chabý
+3 V taugen {taugen} [ˈtaʊɡən], hat (für A, zu D) = hodiť sa
+3 AN kinderleicht {kinder|leicht} [ˈkɪndɐlaɪçt] = jednoduchý
+3 AN ulkig {ulkig} [ˈʊlkɪç] = komický
+3 AV vortrefflich {vor|trefflich} [foːɐˈtʁɛflɪç] = výborne
+3 AV äußerst {äußerst} [ˈɔʏsɐst] = obzvlášť
+3 AN pittoresk {pittoresk} [pɪtoˈʁɛsk] = malebný
+3 AN prunkvoll {prunk|voll} [ˈpʁʊŋkfɔl] = prepychový
+3 AN blümerant {blümerant} [blyməˈʁant] = mizerný
+3 AN mulmig {mulmig} [ˈmʊlmɪç] = nepríjemný
+3 AN grässlich {gräss|lich} [ˈɡʁɛslɪç] = strašný
+3 N die Vollendung {Voll|endung} [fɔlˈɛndʊŋ], - = dokonalosť
+3 AN böswillig {bös|willig} [ˈbøːsvɪlɪç] = zlomyseľný
+3 AN boshaft {bos|haft} [ˈboːshaft] = zlomyseľný
+3 AN rabiat {rabiat} [ʁaˈbjaːt] = brutálny
+3 V eindicken {ein·dicken} [ˈaɪndɪkən], hat (A) = zhustiť
+3 AN schluderig {schluderig} [ˈʃluːdəʁɪç] = nedbanlivý
+3 AN abstrus {abstrus} [apˈstʁuːs] = nezrozumiteľný
+3 AN spleenig {spleenig} [ˈʃpliːnɪç] = čudácky
+3 AN ungestüm {un|gestüm} [ˈʊnɡəʃtyːm] = prudký
+2 AN arg {arg} [aʁk], ärger/am ärgsten = zlý
+3 AN unangebracht {un|an|ge|bracht} [ˈʊnanɡəbʁaxt] = nevhodný
+3 AN spröde {spröde} [ˈʃpʁøːdə] = krehký
 
 # state-properties
 1 AN neu {neu} [nɔʏ] = nový
@@ -898,6 +939,41 @@
 3 N die Instabilität {Instabilität} [ɪnʃtabiliˈtɛːt], Instabilitäten = nestabilita
 2 AV möglichst wenig {möglichst wenig} [ˈmøːklɪçst ˈveːnɪç] = čo najmenej
 2 V erstarken {er|starken} [ɛɐˈʃtaʁkən], ist = silnieť
+3 AN komprimiert {komprimiert} [kɔmpʁiˈmiːɐt] = stlačený
+3 N die Verletzlichkeit {Ver|letz|lich|keit} [fɛɐˈlɛtslɪçkaɪt], - = zraniteľnosť
+3 N die Verwundbarkeit {Ver|wund|bar|keit} [fɛɐˈvʊntbaːɐkaɪt], - = zraniteľnosť
+2 AN beschädigt {be|schädigt} [bəˈʃɛːdɪçt] = poškodený
+3 AN klapprig {klapprig} [ˈklapʁɪç] = rozheganý
+2 AN gebunden {ge|bunden} [ɡəˈbʊndən] = zviazaný
+3 AN morsch {morsch} [mɔʁʃ] = spráchnivený
+3 AN borstig {borstig} [ˈbɔʁstɪç] = štetinatý
+3 AN abgenutzt {ab|genutzt} [ˈapɡənʊtst] = opotrebovaný
+3 AN durchnässt {durch|nässt} [ˈdʊʁçnɛst] = premoknutý
+3 AN fehlend {fehlend} [ˈfeːlənt] = chýbajúci
+3 AN eigentümlich {eigen|tüm|lich} [ˈaɪɡəntyːmlɪç] = zvláštny
+3 AN lupenrein {lupen|rein} [ˈluːpənʁaɪn] = čistý (nezmiešaný)
+3 AN schlagartig {schlag|artig} [ˈʃlaːkaːɐtɪç] = náhly
+3 AN garstig {garstig} [ˈɡaʁstɪç] = odporný
+3 AN widerwärtig {wider|wärtig} [ˈviːdɐvɛʁtɪç] = odporný
+3 AN wortwörtlich {wort|wörtlich} [ˈvɔʁtvœʁtlɪç] = doslovný
+3 AN sacht {sacht} [zaxt] = jemný
+2 AN tüchtig {tüchtig} [ˈtʏçtɪç] = poriadny
+3 AN allerlei {aller|lei} [ˈalɐlaɪ] = rozličný
+3 AN mancherlei {mancher|lei} [ˈmançɐlaɪ] = rozličný
+3 AN aufmüpfig {auf|müpfig} [ˈaʊfmʏpfɪç] = vzdorovitý
+3 AN aufsässig {auf|sässig} [ˈaʊfzɛsɪç] = vzdorovitý
+3 AN aufwändig {auf|wändig} [ˈaʊfvɛndɪç] = nákladný
+3 AN verdorben {ver|dorben} [fɛɐˈdɔʁbən] = pokazený
+3 N die Berufstätigkeit {Berufs|tätig|keit} [bəˈʁuːfstɛːtɪçkaɪt], - = zamestnanie
+3 AN hinterlistig {hinter|listig} [ˈhɪntɐlɪstɪç] = zákerný
+3 AN arglistig {arg|listig} [ˈaʁklɪstɪç] = zákerný
+3 AN hinterhältig {hinter|hältig} [ˈhɪntɐhɛltɪç] = zákerný
+3 AN fassbar {fass|bar} [ˈfasbaːɐ] = pochopiteľný
+3 AN tapsig {tapsig} [ˈtapsɪç] = nemotorný
+3 AN beschwingt {be|schwingt} [bəˈʃvɪŋt] = svižný
+3 V entkräften {ent|kräften} [ɛntˈkʁɛftən], hat (A) = oslabiť
+3 AN elastisch {elastisch} [eˈlastɪʃ] = pružný
+2 AN zäh {zäh} [tsɛː] = húževnatý
 
 # corpus-adjectives
 3 AN durchdacht {durch|dacht} [dʊʁçˈdaxt] = premyslený, dômyselný
@@ -1017,6 +1093,9 @@
 3 AN vertrauenswürdig {vertrauens|würdig} [fɛɐˈtʁaʊənsvʏʁdɪç] = dôveryhodný
 3 AN vorweihnachtlich {vor|weihnachtlich} [ˈfoːɐvaɪnaxtlɪç] = predvianočný
 3 AN widersprüchlich {wider|sprüchlich} [ˈviːdɐʃpʁʏçlɪç] = protirečivý, rozporuplný
+3 AN vielsagend {viel|sagend} [ˈfiːlzaːɡənt] = veľavravný
+3 AN ebenbürtig {eben|bürtig} [ˈeːbənbʏʁtɪç] = rovnocenný
+3 AN weitblickend {weit|blickend} [ˈvaɪtblɪkənt] = prezieravý
 
 # quality
 3 AN umweltschädlich {umwelt|schädlich} [ˈʊmvɛltʃɛːtlɪç] = škodlivý pre životné prostredie
@@ -1057,6 +1136,19 @@
 3 AN länderübergreifend {länder|über|greifend} [ˈlɛndɐˌyːbɐɡʁaɪfənt] = medzinárodný, nadnárodný
 3 AN eigenverantwortlich {eigen|verantwortlich} [ˈaɪɡənfɛɐantvɔʁtlɪç] = na vlastnú zodpovednosť
 3 AN überbordend {über|bordend} [ˈyːbɐbɔʁdənt] = prekypujúci, nadmerný
+3 AN vereinbar {ver|einbar} [fɛɐˈaɪnbaːɐ] = zlučiteľný
+3 AV ansatzweise {ansatz|weise} [ˈanzatsvaɪzə] = v náznakoch
+3 AN salopp {salopp} [zaˈlɔp] = ležérny
+3 AN anspruchslos {an|spruchs|los} [ˈanʃpʁʊxloːs] = nenáročný
+3 N die Anmut {An|mut} [ˈanmuːt], - = pôvab
+3 AN verführerisch {ver|führerisch} [fɛɐˈfyːʁəʁɪʃ] = zvodný
+3 AN adrett {adrett} [aˈdʁɛt] = úhľadný
+3 AN schäbig {schäbig} [ˈʃɛːbɪç] = ošarpaný
+3 AN ersetzbar {er|setzbar} [ɛɐˈzɛtsbaːɐ] = nahraditeľný
+3 AN zerlumpt {zer|lumpt} [tsɛɐˈlʊmpt] = roztrhaný
+3 N die Vergeblichkeit {Ver|geb|lich|keit} [fɛɐˈɡeːplɪçkaɪt], - = zbytočnosť
+3 AN erlogen {er|logen} [ɛɐˈloːɡən] = nepravdivý
+2 AN unwahr {un|wahr} [ˈʊnvaːɐ] = nepravdivý
 
 # more
 2 AV ungemein {un|gemein} [ˈʊnɡəmaɪn] = neuveriteľne

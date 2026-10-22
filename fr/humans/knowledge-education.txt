@@ -131,6 +131,13 @@
 2 V tricher {tricher} [tʁiˈʃe] = odpisovať
 2 V copier {copier} [kɔˈpje] = odpisovať
 2 V trier {trier} [tʁiˈje] = vytriediť
+2 N le taille-crayon {taille-crayon} [tajkʁɛˈjɔ̃], taille-crayons = strúhadlo na ceruzky
+3 N le pupitre {pupitre} [pyˈpitʁ], pupitres = školská lavica
+2 N le compas {compas} [kɔ̃ˈpa], compas = kružidlo
+3 V être en retenue {être en retenue} [ɛtʁ ɑ̃ ʁətəˈny], irr, été = zostať po škole
+3 N le livre de lecture {livre de lecture} [livʁ də lɛkˈtyʁ], livres de lecture = čítanka
+2 N l'écolier (m) {écolier} [ekɔˈlje], écoliers = žiak
+2 N le maître {maître} [mɛtʁ], maîtres = učiteľ
 
 # knowledge-science
 1 N la science {science} [sjɑ̃s], sciences = veda
@@ -258,3 +265,7 @@
 3 V archiver {archiver} [aʁʃiˈve] = archivovať
 2 N l'institut (m) {institut} [ɛ̃stiˈty], instituts = ústav
 1 N le tableau {tableau} [taˈblo], tableaux = tabuľka
+3 N le tome {tome} [tɔm], tomes = diel (knihy)
+2 N le volume {volume} [vɔˈlym], volumes = diel (knihy)
+1 N la feuille {feuille} [fœj], feuilles = hárok
+3 N l'éprouvette (f) {éprouvette} [epʁuˈvɛt], éprouvettes = skúmavka

@@ -102,6 +102,14 @@
 2 N 高峰 {高峰} [gāofēng], 个 = vrchol
 2 N 山脚 {山脚} [shānjiǎo], 个 = úpätie
 3 N 山麓 {山麓} [shānlù], - = úpätie
+3 N 荒原 {荒原} [huāngyuán], 片 = pustatina
+3 N 荒地 {荒地} [huāngdì], 片 = pustatina
+3 N 林中空地 {林中空地} [línzhōngkōngdì], 片 = čistina
+3 N 地峡 {地峡} [dìxiá], 个 = pevninská šija
+2 N 山口 {山口} [shānkǒu], 个 = priesmyk
+3 V 肆虐 {肆虐} [sìnüè] = spustošiť
+3 N 国 {国} [guó], 个 = krajina (štát)
+3 N 谷 {谷} [gǔ], 条 = dolina
 
 # surface-materials
 2 N 岩石 {岩石} [yánshí], 块 = skala
@@ -136,6 +144,18 @@
 3 N 砾石 {砾石} [lìshí], - = štrk
 3 N 熔岩 {熔岩} [róngyán], - = láva
 3 N 岩浆 {岩浆} [yánjiāng], - = láva
+3 N 云母 {云母} [yúnmǔ], - = sľuda
+3 N 祖母绿 {祖母绿} [zǔmǔlǜ], 颗 = smaragd
+3 N 炉渣 {炉渣} [lúzhā], - = škvara
+3 AN 石制 {石制} [shízhì] = kamenný
+2 N 宝石 {宝石} [bǎoshí], 颗 = drahokam
+2 N 琥珀 {琥珀} [hǔpò], 块 = jantár
+3 N 泥炭 {泥炭} [nítàn], - = rašelina
+3 N 泥沼 {泥沼} [nízhǎo], 片 = bahnisko
+3 N 石灰岩 {石灰岩} [shíhuīyán], 块 = vápenec
+3 N 雪花石膏 {雪花石膏} [xuěhuāshígāo], - = alabaster
+3 N 砂岩 {砂岩} [shāyán], 块 = pieskovec
+3 N 石 {石} [shí], 块 = kameň
 
 # geo-events
 2 N 爆发 {爆发} [bàofā], - = vypuknutie
@@ -165,3 +185,7 @@
 2 V 摇晃 {摇晃} [yáohuàng] = triasť sa
 2 V 震动 {震动} [zhèndòng] = triasť sa
 2 N 地板 {地板} [dìbǎn], 块 = podlaha
+3 N 子午线 {子午线} [zǐwǔxiàn], 条 = poludník
+3 N 经线 {经线} [jīngxiàn], 条 = poludník
+3 N 回归线 {回归线} [huíguīxiàn], 条 = obratník
+3 N 极圈 {极圈} [jíquān], 个 = polárna kružnica

@@ -68,6 +68,7 @@
 2 N price reduction {price reduction} [ˈpraɪs rɪˌdʌkʃən], price reductions = zníženie ceny
 2 V get rich {get rich} [ɡet ˈrɪtʃ], got rich/got rich = zbohatnúť
 1 V borrow {borrow} [ˈbɒrəʊ] (from) = požičať si
+3 V rake in {rake·in} [reɪk ˈɪn] (sth) = nahrabať
 # buying-selling
 1 V buy {buy} [baɪ], bought/bought (sth) = kúpiť
 1 V sell {sell} [sel], sold/sold (sth) = predať
@@ -176,6 +177,10 @@
 1 AV for free {for·free} [fɔː friː] = bezplatne
 2 N price cut {price cut} [ˈpraɪs kʌt], price cuts = zlacnenie
 1 V sell {sell} [sel], sold/sold (sth, to) = predávať
+3 AN preferential {preferential} [ˌprefəˈrenʃəl] = zvýhodnený
+2 N buyer {buy|er} [ˈbaɪə], buyers = nákupca
+3 N unsold stock {unsold stock} [ʌnˈsəʊld ˈstɒk], - = ležiak (tovar)
+2 V haggle {haggle} [ˈhæɡəl] (over) = zjednávať
 # places-of-trade
 1 N market {market} [ˈmɑːkɪt], markets = trh
 1 N supermarket {super|market} [ˈsuːpəmɑːkɪt], supermarkets = supermarket
@@ -196,6 +201,7 @@
 2 N department store {department store} [dɪˈpɑːtmənt stɔː], department stores = obchodný dom
 2 N chemist's {chem|ist's} [ˈkemɪsts], chemist's = drogéria
 2 N discount store {discount store} [ˈdɪskaʊnt stɔː], discount stores = diskont
+2 N toy shop {toy shop} [ˈtɔɪ ʃɒp], toy shops = hračkárstvo
 # economy-finance
 2 N trade {trade} [treɪd], - = obchodovanie
 2 N merchant {merchant} [ˈmɜːtʃənt], merchants = obchodník
@@ -351,6 +357,10 @@
 3 N deflation {de|flation} [dɪˈfleɪʃən], - = deflácia
 2 N customer {customer} [ˈkʌstəmə], customers = odberateľ
 3 N buyer {buyer} [ˈbaɪə], buyers = odberateľ
+3 N deferment {defer|ment} [dɪˈfɜːmənt], deferments = odklad
+2 N tax haven {tax haven} [ˈtæks ˈheɪvən], tax havens = daňový raj
+3 N comprehensive insurance {comprehensive insurance} [ˌkɒmprɪˈhensɪv ɪnˈʃɔːrəns], - = havarijné poistenie
+2 N insurance company {insurance company} [ɪnˈʃɔːrəns ˈkʌmpəni], insurance companies = poisťovňa
 # trade
 3 V license {license} [ˈlaɪsəns] (sth) = licencovať
 

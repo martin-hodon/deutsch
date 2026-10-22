@@ -80,6 +80,11 @@ N koniec roka
 N jesenné prázdniny
 N veľkonočné prázdniny
 N zmena času
+N desaťdnie -- obdobie desiatich dní
+N priestupný rok
+N slnovrat
+N rovnodennosť
+N dátum vystavenia
 
 # day-parts-and-week
 N ráno
@@ -116,6 +121,7 @@ AV pozajtra
 N sezóna
 AN sezónny : adverb sezónne
 N ranná hodina
+N skoré ráno -- čas tesne pred svitaním
 
 # relative-time
 AV potom
@@ -223,6 +229,10 @@ N predchádzajúci týždeň
 N predchádzajúci mesiac
 N doba platnosti
 N krátkosť
+AN občasný
+AV mnohokrát
+N pravek
+PHR za celý život
 
 # months
 N január

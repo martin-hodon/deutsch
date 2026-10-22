@@ -218,6 +218,14 @@
 3 AN nominale {nominale} [nomiˈnaːle] = menný
 2 AN illogico {il|logico} [iˈlːɔːdʒiko], illogica, illogici/illogiche = nelogický
 2 AN incompetente {in|competente} [inkompeˈtɛnte] = nekompetentný
+2 N l'essenza (f) {essenza} [eˈsːɛntsa], essenze = podstata
+2 N la sostanza (f) {sostanza} [sosˈtantsa], sostanze = podstata
+2 AN ideale {ideale} [ideˈaːle] = vysnívaný
+3 AN sognato {sognato} [soˈɲːaːto], sognata = vysnívaný
+3 N la deduzione (f) {deduzione} [deduˈtsjoːne], deduzioni = dedukcia
+2 V sottovalutare {sotto|valutare} [sotːovaluˈtaːre] = nedoceniť
+2 N la mentalità (f) {mentalità} [mentaliˈta], mentalità = zmýšľanie
+2 N il subconscio {sub|conscio} [subˈkonʃo], subconsci = podvedomie
 
 # knowing
 1 V sapere {sapere} [saˈpeːre], irr = vedieť
@@ -382,6 +390,8 @@
 2 AV erroneamente {errone|amente} [erroneaˈmente] = chybne
 1 AV con sicurezza {con·sicurezza} [kon sikuˈrettsa] = sebavedome
 2 N l'ignoranza (f) {ignoranza} [iɲːoˈrantsa], - = nevedomosť
+3 N la comprensibilità (f) {comprensibil|ità} [komprensibiliˈta], comprensibilità = zrozumiteľnosť
+2 V distinguere {distinguere} [disˈtiŋɡwere], irr, distinto = rozoznať
 
 # memory
 1 N la memoria {memoria} [meˈmɔːrja], memorie = pamäť (schopnosť)
@@ -402,6 +412,9 @@
 3 V rinsavire {rinsavire} [rinsaˈviːre], isc, essere = spamätať sa
 2 N la riflessione {riflessione} [rifleˈsːjoːne], riflessioni = rozjímanie
 2 N la meditazione {meditazione} [meditatˈtsjoːne], meditazioni = rozjímanie
+3 N la smemoratezza (f) {smemoratezza} [zmemoraˈtettsa], smemoratezze = zábudlivosť
+3 V inculcare {inculcare} [inkulˈkaːre] = vštepovať
+2 AV a memoria {a memoria} [a meˈmɔːrja] = naspamäť
 
 # intelligence
 1 N l'intelligenza (f) {intelligenza} [intelːiˈdʒɛntsa], intelligenze = inteligencia
@@ -489,6 +502,14 @@
 3 V relativizzare {relativizzare} [relatividˈdzaːre] = relativizovať
 3 V polarizzare {polarizzare} [polaridˈdzaːre] = polarizovať
 1 V avere ragione {avere ragione} [aˈveːre raˈdʒoːne], irr = mať pravdu
+2 V impazzire {impazzire} [impatˈtsiːre], isc, essere = zblázniť sa
+3 V delirare {delirare} [deliˈraːre] = blúzniť
+3 V vaneggiare {vaneggiare} [vanedˈdʒaːre] = blúzniť
+2 N il guaio {guaio} [ˈɡwaːjo], guai = malér
+2 N il pasticcio {pasticcio} [pasˈtittʃo], pasticci = šlamastika
+3 N l'impiccio (m) {impiccio} [imˈpittʃo], impicci = šlamastika
+2 V mettere nei guai {mettere nei guai} [ˈmetːere nei ˈɡwaːi], irr, messo = zapliesť do problémov
+2 AN risolto {risolto} [riˈsolto], risolta = vyriešený
 
 # more
 1 V considerare {considerare} [konsideˈraːre] = považovať

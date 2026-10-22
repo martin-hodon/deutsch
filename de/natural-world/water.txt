@@ -39,6 +39,13 @@
 3 N das Riff {Riff} [ʁɪf], Riffe = útes (morský)
 3 N der Fjord {Fjord} [fjɔʁt], Fjorde = fjord
 3 N der Geysir {Geysir} [ˈɡaɪzɪʁ], Geysire = gejzír
+2 AN fließend {fließend} [ˈfliːsənt] = tečúci
+2 V abfließen {ab·fließen} [ˈapfliːsən], fließt ab/floss ab/abgeflossen [fliːst ap/flɔs ap/ˈapɡəflɔsən], ist = odtekať
+2 V einfließen {ein·fließen} [ˈaɪnfliːsən], fließt ein/floss ein/eingeflossen [fliːst aɪn/flɔs aɪn/ˈaɪnɡəflɔsən], ist = vtekať
+3 V überfließen {über·fließen} [ˈyːbɐfliːsən], fließt über/floss über/übergeflossen [fliːst ˈyːbɐ/flɔs ˈyːbɐ/ˈyːbɐɡəflɔsən], ist = pretiecť
+3 V zerfließen {zer|fließen} [tsɛɐˈfliːsən], zerfließt/zerfloss/zerflossen [tsɛɐˈfliːst/tsɛɐˈflɔs/tsɛɐˈflɔsən], ist = roztiecť sa
+3 N das Haff {Haff} [haf], Haffe/Haffs = zátoka
+3 N das Rinnsal {Rinn|sal} [ˈʁɪnzaːl], Rinnsale = potok
 
 # water-features
 1 N die Welle {Welle} [ˈvɛlə], Wellen = vlna
@@ -88,6 +95,15 @@
 3 N die Kläranlage {Klär|anlage} [ˈklɛːɐanlaːɡə], Kläranlagen = čistiareň odpadových vôd
 3 N der Weiher {Weiher} [ˈvaɪɐ], Weiher = rybník
 3 V schwappen {schwappen} [ˈʃvapən], hat/ist = špliechať, pretekať
+3 N das Eintauchen {Ein|tauchen} [ˈaɪntaʊxən], - = ponorenie
+3 N der Mäander {Mäander} [mɛˈandɐ], Mäander = meander
+3 N die Furt {Furt} [fʊʁt], Furten = brod
+3 V unterbinden {unter|binden} [ʊntɐˈbɪndən], unterbindet/unterband/unterbunden [ʊntɐˈbɪndət/ʊntɐˈbant/ʊntɐˈbʊndən], hat = zamedziť
+3 V platschen {platschen} [ˈplatʃən], hat = špliechať
+3 V quellen {quellen} [ˈkvɛlən], quillt/quoll/gequollen [kvɪlt/kvɔl/ɡəˈkvɔlən], ist = vyvierať
+3 V entspringen {ent|springen} [ɛntˈʃpʁɪŋən], entspringt/entsprang/entsprungen [ɛntˈʃpʁɪŋt/ɛntˈʃpʁaŋ/ɛntˈʃpʁʊŋən], ist = vyvierať
+3 N die Gischt {Gischt} [ɡɪʃt], - = pena
+3 V träufeln {träufeln} [ˈtʁɔʏfəln], hat/ist = kvapkať
 
 # water-land-edge
 1 N das Ufer {Ufer} [ˈuːfɐ], Ufer = breh
@@ -97,6 +113,8 @@
 1 N die Insel {Insel} [ˈɪnzəl], Inseln = ostrov
 - 2 N die Halbinsel {Halb|insel} [ˈhalpɪnzəl], Halbinseln = polostrov
 3 N das Kap {Kap} [kap], Kaps = mys
+3 N der Archipel {Archipel} [aʁçiˈpeːl], Archipele = súostrovie
+3 N die Nehrung {Nehrung} [ˈneːʁʊŋ], Nehrungen = pobrežná kosa
 
 # water
 3 V versiegen {ver|siegen} [fɛɐˈziːɡən], ist = vyschnúť, vyschýnať

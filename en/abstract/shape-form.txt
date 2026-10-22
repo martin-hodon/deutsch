@@ -86,6 +86,25 @@
 2 N cluster {cluster} [ˈklʌstə], clusters = zhluk
 2 N figure {figure} [ˈfɪɡə], figures = postava
 3 N build {build} [bɪld], builds = postava
+3 N tip {tip} [tɪp], tips = cíp
+3 N corner {corner} [ˈkɔːnə], corners = cíp
+2 N trapezium {trapezium} [trəˈpiːziəm], trapezia/trapeziums = lichobežník
+3 N rhombus {rhombus} [ˈrɒmbəs], rhombuses/rhombi = kosoštvorec
+3 N diamond {diamond} [ˈdaɪəmənd], diamonds = kosoštvorec
+2 N ellipse {ellipse} [ɪˈlɪps], ellipses = elipsa
+3 N cuboid {cuboid} [ˈkjuːbɔɪd], cuboids = kváder
+2 N pyramid {pyramid} [ˈpɪrəmɪd], pyramids = ihlan
+3 N loop {loop} [luːp], loops = pútko
+3 N eyelet {eyelet} [ˈaɪlət], eyelets = pútko
+3 N rhomboid {rhomboid} [ˈrɒmbɔɪd], rhomboids = kosodĺžnik
+3 V arch {arch} [ɑːtʃ] = klenúť sa
+2 AN stretched {stretched} [stretʃt] = natiahnutý
+3 N circumscribed circle {circumscribed circle} [ˈsɜːkəmskraɪbd ˈsɜːkl], circumscribed circles = opísaná kružnica
+3 N circumcircle {circum|circle} [ˈsɜːkəmsɜːkl], circumcircles = opísaná kružnica
+3 N inscribed circle {inscribed circle} [ɪnˈskraɪbd ˈsɜːkl], inscribed circles = vpísaná kružnica
+3 N incircle {in|circle} [ˈɪnsɜːkl], incircles = vpísaná kružnica
+2 N ring {ring} [rɪŋ], rings = krúžok
+3 N hoop {hoop} [huːp], hoops = krúžok
 # form-properties
 1 AN round {round} [raʊnd] = okrúhly
 3 N curve {curve} [kɜːv], curves = zaoblenie
@@ -160,3 +179,11 @@
 3 N bluntness {blunt|ness} [ˈblʌntnəs], - = tuposť
 3 N asymmetry {a|symmetry} [eɪˈsɪmɪtrɪ], asymmetries = asymetria
 2 N curve {curve} [kɜːv], curves = krivka
+3 AN close-fitting {close-fitting} [ˌkləʊs ˈfɪtɪŋ] = priliehavý
+3 AN snug {snug} [snʌɡ] = priliehavý
+2 N capacity {capacity} [kəˈpæsəti], capacities = rozloha
+3 N floor area {floor area} [ˈflɔːr ˌeəriə], floor areas = rozloha
+3 V fold {fold} [fəʊld] = prehnúť
+3 V bend over {bend·over} [bend ˈəʊvə], bent over/bent over = prehnúť
+2 N crease {crease} [kriːs], creases = záhyb
+3 N kink {kink} [kɪŋk], kinks = záhyb

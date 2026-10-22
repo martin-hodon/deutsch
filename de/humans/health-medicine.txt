@@ -144,6 +144,55 @@
 3 AN resistent {resistent} [ʁezɪsˈtɛnt] = odolný, rezistentný
 3 AN sehend {sehend} [ˈzeːənt] = vidiaci
 3 PHR zu sich kommen {zu sich kommen} [tsuː zɪç ˈkɔmən] = prebrať sa
+3 N die Streptokokke {Strepto|kokke} [ʃtʁɛptoˈkɔkə], Streptokokken = streptokok
+3 AN vergiftet {ver|giftet} [fɛɐˈɡɪftət] = otrávený (jedom)
+2 N der Krampf {Krampf} [kʁampf], Krämpfe = kŕč
+3 AN einäugig {ein|äugig} [ˈaɪnʔɔʏɡɪç] = jednooký
+3 V verrenken {ver|renken} [fɛɐˈʁɛŋkən], hat (A) = vykĺbiť
+3 V ausrenken {aus·renken} [ˈaʊsʁɛŋkən], hat (A) = vykĺbiť
+3 N der Schorf {Schorf} [ʃɔʁf], - = chrasta
+2 N die Verbrennung {Ver|brennung} [fɛɐˈbʁɛnʊŋ], Verbrennungen = popálenina
+3 AN geprellt {ge|prellt} [ɡəˈpʁɛlt] = pomliaždený
+2 N die Malaria {Malaria} [maˈlaːʁia], - = malária
+3 N das Ekzem {Ekzem} [ɛkˈtseːm], Ekzeme = ekzém
+2 N die Warze {Warze} [ˈvaʁtsə], Warzen = bradavica
+3 AN todkrank {tod|krank} [ˈtoːtkʁaŋk] = smrteľne chorý
+3 AN benommen {benommen} [bəˈnɔmən] = omráčený
+3 AN schwummerig {schwummerig} [ˈʃvʊməʁɪç] = malátny
+3 AN schlaff {schlaff} [ʃlaf] = ochabnutý
+3 AN beschwipst {beschwipst} [bəˈʃvɪpst] = podnapitý
+3 V verbluten {ver|bluten} [fɛɐˈbluːtən], ist = vykrvácať
+3 N die Tollwut {Toll|wut} [ˈtɔlvuːt], - = besnota
+3 N die Gelbsucht {Gelb|sucht} [ˈɡɛlpzʊxt], - = žltačka
+3 N die Hepatitis {Hepatitis} [hepaˈtiːtɪs], Hepatitiden = hepatitída
+3 N die Masern {Masern} [ˈmaːzɐn], PL = osýpky
+3 N die Pocken {Pocken} [ˈpɔkn̩], PL = kiahne
+3 N die Krätze {Krätze} [ˈkʁɛtsə], - = svrab
+3 N der Hexenschuss {Hexen|schuss} [ˈhɛksn̩ʃʊs], Hexenschüsse = seknutie v krížoch
+3 V verstümmeln {ver|stümmeln} [fɛɐˈʃtʏməln], hat (A) = zmrzačiť
+3 N die Schwiele {Schwiele} [ˈʃviːlə], Schwielen = mozoľ
+3 N der Eiter {Eiter} [ˈaɪtɐ], - = hnis
+3 V eitern {eitern} [ˈaɪtɐn], hat = hnisať
+3 AN eitrig {eitrig} [ˈaɪtʁɪç] = hnisavý
+3 N das Geschwür {Ge|schwür} [ɡəˈʃvyːɐ̯], Geschwüre = vred
+3 AN aufgedunsen {auf|gedunsen} [ˈaʊfɡədʊnzn̩] = opuchnutý
+3 N der Mitesser {Mit|esser} [ˈmɪtʔɛsɐ], Mitesser = čierna bodka
+3 N das Sodbrennen {Sod|brennen} [ˈzoːtbʁɛnən], - = pálenie záhy
+3 N die Wehe {Wehe} [ˈveːə], Wehen = kontrakcia
+2 N die Reizung {Reizung} [ˈʁaɪtsʊŋ], Reizungen = podráždenie
+2 N die Blase {Blase} [ˈblaːzə], Blasen = pľuzgier
+3 AN räudig {räudig} [ˈʁɔʏdɪç] = prašivý
+3 N der Erreger {Er|reger} [ɛɐˈʁeːɡɐ], Erreger = pôvodca choroby
+3 V kotzen {kotzen} [ˈkɔtsn̩], hat = zvracať
+3 V ausspeien {aus·speien} [ˈaʊsʃpaɪən], speit aus/spie aus/ausgespien [ʃpaɪt aʊs/ʃpiː aʊs/ˈaʊsɡəʃpiːn], hat (A) = zvracať
+3 AN weh {weh} [veː] = bolestivý
+2 N die Zuckerkrankheit {Zucker|krankheit} [ˈtsʊkɐkʁaŋkhaɪt], - = cukrovka
+2 AN schwindlig {schwindlig} [ˈʃvɪndlɪç] = so závratom
+3 N der Taumel {Taumel} [ˈtaʊml̩], - = závrat
+3 N die Geschwulst {Ge|schwulst} [ɡəˈʃvʊlst], Geschwülste = nádor
+2 N das Kopfweh {Kopf|weh} [ˈkɔpfveː], - = bolesť hlavy
+3 N die Anschwellung {An|schwellung} [ˈanʃvɛlʊŋ], Anschwellungen = opuch
+3 AN gefeit {gefeit} [ɡəˈfaɪt] (gegen A) = imúnny
 
 # treatment
 2 N die Medizin {Medizin} [mediˈtsiːn], Medizinen = medicína, liek
@@ -210,6 +259,15 @@
 3 V reanimieren {reanimieren} [ʁeaniˈmiːʁən], hat (A) = resuscitovať, oživiť
 3 V verwunden {ver|wunden} [fɛɐˈvʊndən], hat (A) = zraniť
 3 AN therapeutisch {therapeutisch} [teʁaˈpɔʏtɪʃ] = terapeutický
+2 N die Spritze {Spritze} [ˈʃpʁɪtsə], Spritzen = injekčná striekačka
+3 N die Hypnose {Hypnose} [hʏpˈnoːzə], Hypnosen = hypnóza
+3 N die Obduktion {Obduktion} [ɔpdʊkˈtsi̯oːn], Obduktionen = pitva
+3 N das Skalpell {Skalpell} [skalˈpɛl], Skalpelle = skalpel
+3 V aufpäppeln {auf·päppeln} [ˈaʊfpɛpln̩], hat (A) = ošetrovať
+3 V päppeln {päppeln} [ˈpɛpln̩], hat (A) = ošetrovať
+3 V ausheilen {aus·heilen} [ˈaʊshaɪlən], ist = vyliečiť
+2 V kurieren {kurieren} [kuˈʁiːʁən], hat (A) = vyliečiť
+3 N die Vakzine {Vakzine} [vakˈtsiːnə], Vakzinen = vakcína
 
 # medical-people-places
 1 N der Arzt {Arzt} [ˈaːɐtst], Ärzte = lekár
@@ -259,6 +317,9 @@
 3 N das Spital {Spital} [ʃpiˈtaːl], Spitäler = nemocnica
 3 N das Gesundheitswesen {Gesundheits|wesen} [ɡəˈzʊnthaɪtsveːzən], - = zdravotníctvo
 3 N der/die Genesene {Genesene} [ɡəˈneːzənə], Genesene = uzdravený, uzdravená
+3 N das Leichenhaus {Leichen|haus} [ˈlaɪçn̩haʊs], Leichenhäuser = márnica
+3 N die Leichenhalle {Leichen|halle} [ˈlaɪçn̩halə], Leichenhallen = márnica
+3 N der Quacksalber {Quack|salber} [ˈkvakzalbɐ], Quacksalber = šarlatán
 
 # hygiene-substances
 3 N die Hygiene {Hygiene} [hyˈɡjeːnə], - = hygiena
@@ -285,8 +346,20 @@
 3 N die Kalorie {Kalorie} [kaloˈʁiː], Kalorien = kalória
 2 N die Droge {Droge} [ˈdʁoːɡə], Drogen = droga
 3 N das Cannabis {Cannabis} [ˈkanabɪs], - = konope, marihuana
+2 N das Duschgel {Dusch|gel} [ˈdʊʃɡeːl], Duschgels = sprchový gél
+2 V baden {baden} [ˈbaːdən], hat = kúpať sa
+3 V schrubben {schrubben} [ˈʃʁʊbən], hat (A) = drhnúť
+3 V scheuern {scheuern} [ˈʃɔʏɐn], hat (A) = drhnúť
+2 V abspülen {ab·spülen} [ˈapʃpyːlən], hat (A) = zmyť
+2 N der Mundschutz {Mund|schutz} [ˈmʊntʃʊts], - = rúško
+3 V einseifen {ein·seifen} [ˈaɪnzaɪfn̩], hat (A) = mydliť
+3 N das Insulin {Insulin} [ɪnzuˈliːn], - = inzulín
+3 N das Cholesterin {Cholesterin} [kolɛsteˈʁiːn], - = cholesterol
+3 N die Glukose {Glukose} [ɡluˈkoːzə], - = glukóza
+3 AN besoffen {besoffen} [bəˈzɔfn̩] = opitý
 
 # more
 3 N die Abtreibung {Ab|treibung} [ˈapˌtʁaɪbʊŋ], Abtreibungen = potrat
 3 N der Suizid {Suizid} [zuiˈtsiːt], Suizide = samovražda
 3 N das Kokain {Kokain} [kokaˈiːn], - = kokaín
+2 N der Selbstmord {Selbst|mord} [ˈzɛlpstmɔʁt], Selbstmorde = samovražda

@@ -89,6 +89,7 @@
 2 N 背景 {背景} [bèijǐng], 个 = pozadie
 1 V 留下 {留下} [liúxià] = zanechať
 2 V 丢下 {丢下} [diūxià] = zanechať
+2 V 留 {留} [liú] = zanechať
 1 PRE 旁边 {旁边} [pángbiān] = vedľa
 2 PRE 边上 {边上} [biānshang] = vedľa
 1 AV 旁边 {旁边} [pángbiān] = vedľa
@@ -205,6 +206,9 @@
 3 N 充实 {充实} [chōngshí], - = plnosť
 1 AV 从里面 {从里面} [cóng lǐmiàn] = zvnútra
 2 AV 从内部 {从内部} [cóng nèibù] = zvnútra
+2 V 装得下 {装得下} [zhuāngdexià] = zmestiť sa
+2 V 放得下 {放得下} [fàngdexià] = zmestiť sa
+3 V 簇拥 {簇拥} [cùyōng] = obklopovať
 
 # direction-distance
 1 N 方向 {方向} [fāngxiàng], 个 = smer
@@ -321,6 +325,7 @@
 2 N 线索 {线索} [xiànsuǒ], 条 = stopa
 2 N 人间 {人间} [rénjiān], - = tento svet
 3 N 阳间 {阳间} [yángjiān], - = tento svet
+3 N 踪迹 {踪迹} [zōngjì], - = stopa
 
 # motion
 1 V 动 {动} [dòng] = hýbať
@@ -335,8 +340,11 @@
 1 V 走路 {走|路} [zǒulù] = ísť (pešo)
 1 V 去 {去} [qù] = ísť (dopravou)
 1 V 开车 {开|车} [kāichē] = ísť (dopravou)
+1 V 坐 {坐} [zuò] = ísť (dopravou)
+2 V 乘 {乘} [chéng] = ísť (dopravou)
 1 V 离开 {离开} [líkāi] = odísť
 2 V 走开 {走开} [zǒukāi] = odísť
+1 V 走 {走} [zǒu] = odísť
 1 V 经过 {经过} [jīngguò] = prejsť okolo
 2 V 路过 {路过} [lùguò] = prejsť okolo
 1 V 出去 {出去} [chūqù] = ísť von
@@ -355,6 +363,7 @@
 2 V 处理 {处理} [chǔlǐ] = zaobchádzať
 3 V 绕过 {绕过} [ràoguò] = obísť
 2 V 避开 {避开} [bìkāi] = obísť
+2 V 绕 {绕} [rào] = obísť
 2 V 犯 {犯} [fàn] = spáchať
 3 V 实施 {实施} [shíshī] = spáchať
 3 V 逃脱 {逃脱} [táotuō] = uniknúť
@@ -466,6 +475,7 @@
 2 V 担忧 {担忧} [dānyōu] = znepokojovať
 1 V 跟着 {跟着} [gēnzhe] = nasledovať
 3 V 跟随 {跟随} [gēnsuí] = nasledovať
+1 V 跟 {跟} [gēn] = nasledovať
 2 N 后果 {后果} [hòuguǒ], 个 = následok
 1 N 结果 {结果} [jiéguǒ], 个 = následok
 2 AN 以下 {以下} [yǐxià] = nasledujúci
@@ -530,6 +540,7 @@
 2 V 展开 {展开} [zhǎnkāi] = rozložiť
 2 V 传播 {传播} [chuánbō] = šíriť
 3 V 散布 {散布} [sànbù] = šíriť
+2 V 传 {传} [chuán] = šíriť
 2 N 传播 {传播} [chuánbō], - = šírenie
 3 N 扩散 {扩散} [kuòsàn], - = šírenie
 2 V 移动 {移动} [yídòng] = posunúť
@@ -563,6 +574,7 @@
 3 V 悬浮 {悬浮} [xuánfú] = vznášať sa
 2 V 撞 {撞} [zhuàng] = naraziť
 3 V 碰撞 {碰撞} [pèngzhuàng] = naraziť
+2 V 碰 {碰} [pèng] = naraziť
 3 V 源于 {源于} [yuányú] = vyplývať
 2 V 得出 {得出} [déchū] = vyplývať
 2 V 冲突 {冲突} [chōngtū] = kolidovať
@@ -596,6 +608,7 @@
 1 V 进 {进} [jìn] = vstúpiť
 2 V 降 {降} [jiàng] = klesať
 2 V 跌 {跌} [diē] = spadnúť
+2 V 落 {落} [luò] = spadnúť
 2 V 跌 {跌} [diē] = klesať
 2 V 逃 {逃} [táo] = utiecť
 2 V 沉 {沉} [chén] = potopiť sa
@@ -617,13 +630,16 @@
 1 V 赶到 {赶到} [gǎndào] = dôjsť
 1 V 领先 {领先} [lǐngxiān] = ísť vpredu
 1 V 指导 {指导} [zhǐdǎo] = viesť
+2 V 领 {领} [lǐng] = viesť
 1 N 指导 {指导} [zhǐdǎo], - = vedenie
 2 V 步行 {步行} [bùxíng] = ísť (pešo)
 2 V 上门 {上|门} [shàngmén] = prísť na návštevu
 2 V 下楼 {下|楼} [xiàlóu] = zostúpiť
+1 V 下 {下} [xià] = zostúpiť
 2 V 作出 {作出} [zuòchū] = vykonať
 2 V 达成 {达成} [dáchéng] = dosiahnuť
 2 V 分解 {分解} [fēnjiě] = rozložiť
+2 V 铺 {铺} [pū] = rozložiť
 2 V 回头 {回|头} [huítóu] = otočiť
 2 V 出场 {出|场} [chūchǎng] = vystúpiť
 2 V 出动 {出动} [chūdòng] = vyraziť
@@ -639,21 +655,42 @@
 2 N 出发 {出发} [chūfā], - = odchod
 1 V 减少 {减少} [jiǎnshǎo] = ubudnúť
 2 V 变少 {变少} [biànshǎo] = ubudnúť
+3 V 闪现 {闪现} [shǎnxiàn] = mihať sa
+3 V 掠过 {掠过} [lüèguò] = mihať sa
+2 V 弹开 {弹开} [tánkāi] = odraziť sa
+2 V 反弹 {反弹} [fǎntán] = odraziť sa
+2 V 弯曲 {弯曲} [wānqū] = prehýbať sa
+2 V 弯 {弯} [wān] = prehýbať sa
+2 V 倾斜 {倾斜} [qīngxié] = nakloniť
+2 V 歪 {歪} [wāi] = nakloniť
+2 V 送到 {送到} [sòngdào] = zaniesť
+3 V 捎去 {捎去} [shāoqù] = zaniesť
+2 V 通 {通} [tōng] = prejsť cez
+1 V 过 {过} [guò] = prejsť cez
+3 V 沾边 {沾|边} [zhānbiān] = súvisieť
+3 V 窜 {窜} [cuàn] = utiecť
+3 V 逃窜 {逃窜} [táocuàn] = utiecť
+1 V 出 {出} [chū] = vyjsť von
+2 V 掉下 {掉下} [diàoxià] = padnúť
 
 # travel
 2 V 到达 {到达} [dàodá] = pricestovať
 3 V 抵达 {抵达} [dǐdá] = pricestovať
+1 V 一起来 {一起来} [yīqǐlái] = prísť spolu
+3 V 跟来 {跟来} [gēnlái] = prísť spolu
 
 # position
 3 AN 可通行 {可通行} [kětōngxíng] = priechodný
 3 AN 畅通 {畅通} [chàngtōng] = priechodný
 1 V 搬家 {搬|家} [bānjiā] = presťahovať sa
 3 V 迁居 {迁居} [qiānjū] = presťahovať sa
+1 V 搬 {搬} [bān] = presťahovať sa
 3 V 徘徊 {徘徊} [páihuái] = blúdiť
 3 V 漫游 {漫游} [mànyóu] = blúdiť
 2 V 带出去 {带出去} [dàichūqu] = vyviesť
 2 V 赶上 {赶上} [gǎnshàng] = stihnúť
 2 V 来得及 {来得及} [láidejí] = stihnúť
+2 V 赶 {赶} [gǎn] = stihnúť
 
 # more
 2 PHR 无论哪里 {无论哪里} [wúlùn nǎlǐ] = kdekoľvek

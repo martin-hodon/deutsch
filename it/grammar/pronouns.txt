@@ -57,6 +57,7 @@
 1 PHR un po' {un po'} [un ˈpɔ] = trochu
 1 P nessuno {nessuno} [neˈsːuːno] = žiadny
 3 PHR po' {po'} [pɔ] = trochu
+3 P uno come noi {uno come noi} [ˈuːno ˈkoːme noi] = jeden z nás
 
 # language-specific closed words (no Slovak word: a description)
 1 P ciò {ciò} [ˈtʃɔ] = to (ukazovacie zámeno)

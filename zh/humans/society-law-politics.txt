@@ -178,6 +178,17 @@
 2 V 移民 {移|民} [yímín] = imigrovať
 3 V 移居 {移居} [yíjū] = imigrovať
 3 V 迁入 {迁入} [qiānrù] = imigrovať
+3 N 女官 {女官} [nǚguān], 个 = dvorná dáma
+3 N 农奴 {农奴} [nóngnú], 个 = nevoľník
+3 N 侍女 {侍女} [shìnǚ], 个 = komorná
+3 N 仆役 {仆役} [púyì], 群 = služobníctvo
+2 V 启用 {启用} [qǐyòng] = inaugurovať
+3 V 揭幕 {揭|幕} [jiēmù] = inaugurovať
+3 AN 闻名 {闻名} [wénmíng] = slávny
+3 N 荣耀 {荣耀} [róngyào], - = sláva
+3 N 信誉 {信誉} [xìnyù], - = povesť
+3 N 奴仆 {奴仆} [núpú], 个 = sluha
+3 N 百姓 {百姓} [bǎixìng], - = ľudia
 
 # state-politics
 1 N 国家 {国家} [guójiā], 个 = štát
@@ -661,6 +672,18 @@
 3 N 子民 {子民} [zǐmín], 个 = poddaný
 3 V 复员 {复员} [fùyuán] = demobilizovať
 3 V 遣散 {遣散} [qiǎnsàn] = demobilizovať
+3 N 殿下 {殿下} [diànxià], 位 = výsosť
+2 N 朝代 {朝代} [cháodài], 个 = dynastia
+3 N 王朝 {王朝} [wángcháo], 个 = dynastia
+3 N 亲王 {亲王} [qīnwáng], 位 = knieža
+3 N 伯爵 {伯爵} [bójué], 位 = gróf
+3 N 权杖 {权杖} [quánzhàng], 根 = žezlo
+3 N 纹章 {纹章} [wénzhāng], 个 = erb
+3 N 福利国家 {福利国家} [fúlìguójiā], 个 = sociálny štát
+3 N 退位 {退位} [tuìwèi], - = abdikácia
+3 N 邦联 {邦联} [bānglián], 个 = konfederácia
+3 N 使节 {使节} [shǐjié], 位 = vyslanec
+3 N 权势 {权势} [quánshì], - = moc
 
 # law-justice
 2 N 法律 {法律} [fǎlǜ], 条 = zákon
@@ -1006,11 +1029,67 @@
 2 V 批准 {批准} [pīzhǔn] = schváliť
 1 V 通过 {通过} [tōngguò] = schváliť
 3 V 认可 {认可} [rènkě] = schváliť
+3 V 堵嘴 {堵|嘴} [dǔzuǐ] = zakneblovať
+2 N 手铐 {手铐} [shǒukào], 副 = putá
+3 N 刽子手 {刽子手} [guìzishǒu], 个 = kat
+3 N 地牢 {地牢} [dìláo], 个 = žalár
+3 N 耻辱柱 {耻辱柱} [chǐrǔzhù], 根 = pranier
+3 N 绞刑架 {绞刑架} [jiǎoxíngjià], 个 = šibenica
+3 N 火刑柱 {火刑柱} [huǒxíngzhù], 个 = hranica na upálenie
+3 N 法典 {法典} [fǎdiǎn], 部 = zákonník
+2 V 违反 {违反} [wéifǎn] = previniť sa
+2 V 犯规 {犯|规} [fànguī] = previniť sa
+3 N 劳改营 {劳改营} [láogǎiyíng], 个 = káznica
+3 N 法学家 {法学家} [fǎxuéjiā], 位 = právnik
+2 N 罪犯 {罪犯} [zuìfàn], 个 = odsúdenec
+2 V 作证 {作|证} [zuòzhèng] = svedčiť
+3 N 权限 {权限} [quánxiàn], - = oprávnenie
+3 V 冤枉 {冤枉} [yuānwang] = krivdiť
+2 N 扒手 {扒手} [páshǒu], 个 = vreckár
+2 N 案件 {案件} [ànjiàn], 件 = kauza
+2 N 死刑 {死刑} [sǐxíng], 种 = trest smrti
+2 N 牢房 {牢房} [láofáng], 间 = väzenská cela
+3 N 诉讼 {诉讼} [sùsòng], 场 = súdny spor
+2 N 官司 {官司} [guānsi], 场 = súdny spor
+3 N 刑场 {刑场} [xíngchǎng], 个 = popravisko
+3 N 销赃者 {销赃者} [xiāozāngzhě], 个 = priekupník
+3 V 抓获 {抓获} [zhuāhuò] = pristihnúť
+3 V 抓包 {抓|包} [zhuābāo] = pristihnúť
+3 N 追捕者 {追捕者} [zhuībǔzhě], 个 = prenasledovateľ
+3 V 剥夺权利 {剥夺权利} [bōduóquánlì] = zbaviť práv
+3 N 施暴者 {施暴者} [shībàozhě], 个 = násilník
+3 N 暴徒 {暴徒} [bàotú], 个 = násilník
+3 N 纵火犯 {纵火犯} [zònghuǒfàn], 个 = podpaľač
+3 V 剥削 {剥削} [bōxuē] = vykorisťovať
+3 N 剥削 {剥削} [bōxuē], - = vykorisťovanie
+2 N 海盗 {海盗} [hǎidào], 个 = pirát
+3 N 伪造者 {伪造者} [wěizàozhě], 个 = falšovateľ
+3 N 保护费 {保护费} [bǎohùfèi], 笔 = výpalné
+3 N 高利贷 {高利贷} [gāolìdài], 笔 = úžera
+3 V 侵吞 {侵吞} [qīntūn] = spreneveriť
+2 V 贪污 {贪污} [tānwū] = spreneveriť
+3 N 侵吞 {侵吞} [qīntūn], - = sprenevera
+2 N 贪污 {贪污} [tānwū], - = sprenevera
+2 N 走私 {走私} [zǒusī], - = pašovanie
+3 N 走私犯 {走私犯} [zǒusīfàn], 个 = pašerák
+3 N 强奸 {强奸} [qiángjiān], 起 = znásilnenie
+3 V 拷打 {拷打} [kǎodǎ] = mučiť
+2 V 折磨 {折磨} [zhémó] = mučiť
+3 N 偷猎者 {偷猎者} [tōulièzhě], 个 = pytliak
+3 N 伪证 {伪证} [wěizhèng], 个 = krivá prísaha
+3 V 绞死 {绞死} [jiǎosǐ] = obesiť
+3 V 吊死 {吊死} [diàosǐ] = obesiť
+3 V 惩治 {惩治} [chéngzhì] = potrestať
+3 V 埋怨 {埋怨} [mányuàn] = sťažovať sa
+3 N 污蔑 {污蔑} [wūmiè], - = ohováranie
 
 # politics
 3 V 激进化 {激进化} [jījìnhuà] = radikalizovať
 3 V 极端化 {极端化} [jíduānhuà] = radikalizovať
 3 V 批准 {批准} [pīzhǔn] = ratifikovať
+3 N 谈判者 {谈判者} [tánpànzhě], 位 = vyjednávač
+3 N 意识形态 {意识形态} [yìshíxíngtài], 种 = ideológia
+3 N 议席 {议席} [yìxí], 个 = poslanecké kreslo
 
 # more
 2 AN 选举 {选举} [xuǎnjǔ] = volebný

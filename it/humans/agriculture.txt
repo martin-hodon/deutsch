@@ -55,6 +55,24 @@
 3 N il silo {silo} [ˈsiːlo], sili = silo
 3 N la vanga {vanga} [ˈvaŋɡa], vanghe = rýľ
 2 V coltivare {coltivare} [koltiˈvaːre] = kultivovať
+3 V trapiantare {trapiantare} [trapjanˈtaːre] = presadiť (rastlinu)
+3 V sarchiare {sarchiare} [sarˈkjaːre] = plieť
+3 V diserbare {diserbare} [dizerˈbaːre] = plieť
+3 N il maggese {maggese} [madˈdʒeːze], maggesi = prieloh
+3 V erpicare {erpicare} [erpiˈkaːre] = kypriť
+3 N il varco {varco} [ˈvarko], varchi = priesek
+3 N il disboscamento {disboscamento} [dizboskaˈmento], disboscamenti = výrub
+3 N la deforestazione (f) {deforestazione} [deforestaˈtsjoːne], deforestazioni = výrub
+3 V disboscare {disboscare} [dizboˈskaːre] = vyrúbať
+2 V abbattere {abbattere} [aˈbːatːere] = vyrúbať
+2 V raccogliere {raccogliere} [raˈkːɔʎːere], irr, raccolto = oberať
+2 V cogliere {cogliere} [ˈkɔʎːere], irr, colto = oberať
+3 N la mietitura (f) {mietitura} [mjetiˈtuːra], mietiture = žatva
+2 N la raccolta (f) {raccolta} [raˈkːolta], raccolte = žatva
+3 N la semina (f) {semina} [ˈseːmina], semine = osev
+3 N i vimini {vimini} [ˈviːmini], PL = prútie
+3 N l'aratura (f) {aratura} [araˈtuːra], arature = orba
+3 V vangare {vangare} [vanˈɡaːre] = rýľovať
 
 # crops
 2 N il cereale {cereale} [tʃereˈaːle], cereali = obilie
@@ -74,6 +92,8 @@
 2 N la paglia {paglia} [ˈpaʎːa], paglie = slama
 3 N la piantina {piantina} [pjanˈtiːna], piantine = sadenica
 3 N la balla {balla} [ˈbalːa], balle = bala
+3 N il miglio {miglio} [ˈmiʎːo], - = proso
+3 N il malto {malto} [ˈmalto], - = slad
 
 # livestock-keeping
 2 N il bestiame {bestiame} [besˈtjaːme], - = dobytok
@@ -117,6 +137,23 @@
 3 N la mammella {mammella} [maˈmːɛlːa], mammelle = vemeno
 2 N la cuccia {cuccia} [ˈkuttʃa], cucce = búda
 2 N il cavaliere {cavaliere} [kavaˈljɛːre], cavalieri = jazdec
+3 N il giogo {giogo} [ˈdʒɔːɡo], gioghi = jarmo
+3 N la scrofa (f) {scrofa} [ˈskrɔːfa], scrofe = prasnica
+3 N il verro {verro} [ˈvɛrːo], verri = kanec
+2 N il capretto {capretto} [kaˈpretːo], capretti = kozľa
+3 N il morello {morello} [moˈrɛlːo], morelli = vraník
+3 N la briglia (f) {briglia} [ˈbriʎːa], briglie = uzda
+2 N le redini {redini} [ˈrɛːdini], PL = opraty
+3 N la staffa (f) {staffa} [ˈstafːa], staffe = strmeň
+3 N lo sperone (m) {sperone} [speˈroːne], speroni = ostroha
+2 N la frusta (f) {frusta} [ˈfrusta], fruste = bič
+3 V frustare {frustare} [fruˈstaːre] = bičovať
+3 N la museruola (f) {museruola} [muzeˈrwɔːla], museruole = náhubok
+2 N il collare {collare} [koˈlːaːre], collari = obojok
+2 V attaccare {attaccare} [atːaˈkːaːre] = zapriahnuť
+3 V aggiogare {aggiogare} [addʒoˈɡaːre] = zapriahnuť
+3 N il campanaccio {campanaccio} [kampaˈnattʃo], campanacci = zvonec
+3 N la frustata (f) {frustata} [fruˈstaːta], frustate = šľahnutie
 
 # garden-hunt-fish
 1 N il giardino {giardino} [dʒarˈdiːno], giardini = záhrada
@@ -145,3 +182,9 @@
 3 N il tubo da giardino {tubo da giardino} [ˈtuːbo da dʒarˈdiːno], tubi da giardino = záhradná hadica
 2 N la stalla {stalla} [ˈstalːa], stalle = chlev
 3 N il porcile {porcile} [porˈtʃiːle], porcili = chlev
+3 N il boscaiolo {boscaiolo} [boskaˈjɔːlo], boscaioli = drevorubač
+3 N il taglialegna {taglia|legna} [taʎːaˈleɲːa], taglialegna = drevorubač
+3 V eviscerare {eviscerare} [eviʃːeˈraːre] = vypitvať
+3 V sventrare {sventrare} [zvenˈtraːre] = vypitvať
+3 N l'amo (m) {amo} [ˈaːmo], ami = háčik
+3 N il mulinello {mulinello} [muliˈnɛlːo], mulinelli = navijak

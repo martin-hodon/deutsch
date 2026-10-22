@@ -79,6 +79,10 @@
 2 N urodzenie {urodzenie} [urɔˈdzɛɲɛ], n, urodzenia = narodenie
 3 V młodnieć {młodnieć} [ˈmwɔdɲɛtɕ], odmłodnieć = mladnúť
 2 V odmładzać się {od|mładzać się} [ɔdˈmwadzatɕ ɕɛ], odmłodzić się = mladnúť
+3 N gnicie {gnicie} [ˈɡɲitɕɛ], n, gnicia = hnitie
+3 N padlina {padlina} [paˈdlina], ż, padliny = zdochlina
+3 V siwieć {siwieć} [ˈɕivʲɛtɕ], osiwieć = ošedivieť
+3 AN zgniły {zgniły} [ˈzɡɲiwɨ] = zhnitý
 
 # body-functions
 1 V oddychać {od|dychać} [ɔdˈdɨxatɕ], odetchnąć = dýchať
@@ -146,6 +150,39 @@
 2 V czuwać {czuwać} [ˈtʂuvatɕ], - = bdieť
 1 V nie spać {nie spać} [ɲɛ spatɕ], - = bdieť
 2 V usypiać {usypiać} [uˈsɨpʲatɕ], uśpić (B) = uspať
+3 N dreszcz {dreszcz} [drɛʂtʂ], m, dreszcze = chvenie
+3 V pulsować {pulsować} [pulˈsɔvatɕ], - = pulzovať
+3 V upijać się {u|pijać się} [uˈpʲijatɕ ɕɛ], upić się = opiť sa
+3 V współżyć {współ|żyć} [ˈfspuwʐɨtɕ], - = súložiť
+3 V ruchać {ruchać} [ˈruxatɕ], - (B) = súložiť
+3 V ejakulować {ejakulować} [ɛjakuˈlɔvatɕ], - = vystriekať sa
+3 V masturbować się {masturbować się} [masturˈbɔvatɕ ɕɛ], - = honiť si
+3 V onanizować się {onanizować się} [ɔnaɲiˈzɔvatɕ ɕɛ], - = honiť si
+3 N gówno {gówno} [ˈɡuvnɔ], n, gówna = hovno
+3 V szlochać {szlochać} [ˈʂlɔxatɕ], - = vzlykať
+3 V parskać {parskać} [ˈparskatɕ], parsknąć = prskať
+3 V nadymać {na|dymać} [naˈdɨmatɕ], nadąć (B) = nadúvať
+3 V wypacać {wy|pacać} [vɨˈpatsatɕ], wypocić (B) = vypotiť
+3 V przepocić {prze|pocić} [pʂɛˈpɔtɕitɕ], dk (B) = prepotiť
+3 N wdech {wdech} [vdɛx], m, wdechy = vdych
+3 N wydech {wy|dech} [ˈvɨdɛx], m, wydechy = výdych
+3 N drzemka {drzemka} [ˈdʐɛmka], ż, drzemki = zdriemnutie
+3 N senność {senność} [ˈsɛnnɔɕtɕ], ż, senności = ospalosť
+3 N ziewnięcie {ziewnięcie} [ʑɛvˈɲɛɲtɕɛ], n, ziewnięcia = zívnutie
+3 V nadgryzać {nad|gryzać} [natˈɡrɨzatɕ], nadgryźć (B) = nahryznúť
+3 V rozgryzać {roz|gryzać} [rɔzˈɡrɨzatɕ], rozgryźć (B) = rozhryznúť
+3 V zagryzać {za|gryzać} [zaˈɡrɨzatɕ], zagryźć (B) = zahryznúť
+3 V szczerzyć {szczerzyć} [ˈʂtʂɛʐɨtɕ], wyszczerzyć (B) = ceriť
+3 V mlaskać {mlaskać} [ˈmlaskatɕ], mlasnąć = mľaskať
+3 V bekać {bekać} [ˈbɛkatɕ], beknąć = grgať
+3 V odbijać się {od|bijać się} [ɔdˈbʲijatɕ ɕɛ], odbić się = grgať
+3 V wypłakać się {wy|płakać się} [vɨˈpwakatɕ ɕɛ], dk = vyplakať sa
+3 V dławić się {dławić się} [ˈdwavʲitɕ ɕɛ], zadławić się (N) = zabehnúť
+3 V chrząkać {chrząkać} [ˈxʐɔŋkatɕ], chrząknąć = odkašľať si
+3 V pokasływać {po|kasływać} [pɔkaˈswɨvatɕ], - = pokašliavať
+3 V smarkać {smarkać} [ˈsmarkatɕ], wysmarkać się = smrkať
+3 V pierdzieć {pierdzieć} [ˈpʲɛrdʑɛtɕ], pierdnąć = prdnúť
+3 N enzym {enzym} [ˈɛnzɨm], m, enzymy = enzým
 
 # nourishment
 1 V jeść {jeść} [jɛɕtɕ], zjeść = jesť
@@ -178,12 +215,23 @@
 3 V chrupać {chrupać} [ˈxrupatɕ], schrupać = chrúmať
 3 N sytość {sytość} [ˈsɨtɔɕtɕ], ż, - = sýtosť
 2 V żreć {żreć} [ʐrɛtɕ], zeżreć (B) = žrať
+3 V przejadać się {prze|jadać się} [pʂɛˈjadatɕ ɕɛ], przejeść się = prejesť sa
+3 V ucztować {ucztować} [utʂˈtɔvatɕ], - = hodovať
+3 V napychać się {na|pychać się} [naˈpɨxatɕ ɕɛ], napchać się (N) = napchávať sa
+3 V podjadać {pod|jadać} [pɔdˈjadatɕ], podjeść = maškrtiť
+3 V orzeźwiać {orzeźwiać} [ɔˈʐɛʑvʲatɕ], orzeźwić (B) = občerstviť
+3 N smakosz {smakosz} [ˈsmakɔʂ], m, smakosze = labužník
+3 V upijać {u|pijać} [uˈpʲijatɕ], upić (D) = odpiť
+3 V tuczyć {tuczyć} [ˈtutʂɨtɕ], utuczyć (B) = vykrmovať
+3 V wylizywać {wy|lizywać} [vɨliˈzɨvatɕ], wylizać (B) = vylízať
+3 V ssać {ssać} [ssatɕ], possać (B) = cmúľať
 
 # senses-instinct
 2 N instynkt {instynkt} [ˈinstɨŋkt], m, instynkty = inštinkt
 3 AN instynktowny {instynktowny} [instɨŋkˈtɔvnɨ] = inštinktívny
 2 N odruch {od|ruch} [ˈɔdrux], m, odruchy = reflex
 3 AV instynktownie {instynktownie} [instɨŋkˈtɔvɲɛ] = inštinktívne
+3 V odurzać {odurzać} [ɔˈduʐatɕ], odurzyć (B) = omámiť
 
 # growth-adaptation
 2 N dojrzewanie {do|jrzewanie} [dɔjʐɛˈvaɲɛ], n, dojrzewania = puberta
@@ -196,6 +244,12 @@
 3 V zdychać {zdychać} [ˈzdɨxatɕ], zdechnąć = uhynúť
 2 V ginąć {ginąć} [ˈɡinɔɲtɕ], zginąć = uhynúť
 3 V ulatniać się {u|latniać się} [uˈlatɲatɕ ɕɛ], ulotnić się = vyprchať
+3 V zrastać się {zrastać się} [ˈzrastatɕ ɕɛ], zrosnąć się = zrásť
+3 V odrastać {od|rastać} [ɔdˈrastatɕ], odrosnąć = dorásť
+3 V rozrastać się {roz|rastać się} [rɔzˈrastatɕ ɕɛ], rozrosnąć się = rozrastať sa
+3 V zapładniać {za|pładniać} [zaˈpwadɲatɕ], zapłodnić (B) = oplodniť
+3 V marnieć {marnieć} [ˈmarɲɛtɕ], zmarnieć = chradnúť
+3 N mutacja {mutacja} [muˈtatsja], ż, mutacje = mutácia
 
 # more
 2 N ekosystem {eko|system} [ɛkɔˈsɨstɛm], m, ekosystemy = ekosystém

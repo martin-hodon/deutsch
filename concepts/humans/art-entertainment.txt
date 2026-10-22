@@ -53,6 +53,9 @@ N logo
 V zdobiť
 AN epický : adverb epicky
 V kurátorovať
+V čmárať
+N čmáranica
+N ozdoba
 
 # music
 N hudba
@@ -113,6 +116,7 @@ N album
 N trio
 N pieseň
 N raper
+AN melodický
 
 # performance-literature
 N divadlo
@@ -201,6 +205,12 @@ V účinkovať
 V reštaurovať
 V synchronizovať
 AN autobiografický
+N divácka sála -- priestor pre divákov
+N bájka
+N šašo
+N šmolko
+N pódium -- vyvýšená plošina
+N fikcia
 
 # games-sport
 N hra
@@ -380,6 +390,26 @@ V hrať hazardne
 V vybojovať si
 V skompletizovať
 V surfovať
+N cyklistika
+N šípky (hra) -- hra s hádzaním šípok na terč
+N hojdačka
+N herný automat
+N horolezectvo -- lezenie po horách
+N vzpieranie -- zdvíhanie činiek
+V športovať -- cvičiť šport
+N pálka -- na odpálenie alebo odrazenie lopty
+N švihadlo -- lano na preskakovanie
+N činka -- závažie na cvičenie
+N žinenka -- podložka na cvičenie
+N hrkálka -- hračka, ktorá hrká
+N eso -- karta s jednotkou
+N dolník -- karta, nižšia ako dáma
+N šachovnica -- doska na šach
+N šachový jazdec -- šachová figúra
+N chodúľ -- palica na kráčanie vo výške
+N pešiak -- šachová figúrka
+N šachový strelec
+N hokejový puk -- gumový kotúč v hokeji
 
 # corpus-verbs
 V poštvať proti sebe

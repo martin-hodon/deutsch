@@ -81,6 +81,15 @@
 2 N la bouffée {bouffée} [buˈfe], bouffées = závan
 2 N la forte pluie {forte pluie} [fɔʁt plɥi], fortes pluies = silný dážď
 3 N la température diurne {température diurne} [tɑ̃peʁaˈtyʁ djyʁn], températures diurnes = denná teplota
+1 V souffler {souffler} [suˈfle] = fúkať
+2 V souffler {souffler} [suˈfle] (qch) = sfúknuť
+3 N la volute {volute} [vɔˈlyt], volutes = kúdol
+2 N le courant d'air {courant d'air} [kuʁɑ̃ ˈdɛʁ], courants d'air = prievan
+3 V balayer {balayer} [balɛˈje] = odfúknuť
+3 V éventer {éventer} [evɑ̃ˈte] = ovievať
+3 V bruiner {bruiner} [bʁɥiˈne] = mrholiť
+3 V se calmer {se calmer} [sə kalˈme] = zmierniť sa
+3 N le givrage {givrage} [ʒiˈvʁaʒ], givrages = námraza
 
 # temperature
 1 N la température {température} [tɑ̃peʁaˈtyʁ], températures = teplota
@@ -156,6 +165,8 @@
 2 AV modérément {modér|ément} [mɔdeʁeˈmɑ̃] = mierne
 3 AV glacialement {glaciale|ment} [ɡlasjalˈmɑ̃] = mrazivo
 2 N le refroidissement {refroidisse|ment} [ʁəfʁwadisˈmɑ̃], refroidissements = ochladzovanie
+2 V se refroidir {se refroidir} [sə ʁəfʁwaˈdiʁ] = chladnúť
+3 N l'ébullition (f) {ébullition} [ebyliˈsjɔ̃], ébullitions = var
 
 # seasons-climate
 1 N la saison {saison} [sɛˈzɔ̃], saisons = ročné obdobie

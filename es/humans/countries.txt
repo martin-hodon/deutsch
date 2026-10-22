@@ -137,6 +137,7 @@
 2 N el estonio {estonio} [esˈtonjo], estonios = Estónec
 2 N la estonia {estonia} [esˈtonja], estonias = Estónka
 2 AV en eslovaco {en·eslovaco} [en esloˈβako] = slovensky
+2 AN escocés {escocés} [eskoˈθes], escocesa = škótsky
 
 # world
 2 N los Estados Unidos {Estados Unidos} [esˈtaðos uˈniðos], PL = USA

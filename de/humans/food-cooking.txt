@@ -40,6 +40,23 @@
 3 N das Sonnenblumenöl {Sonnenblumen|öl} [ˈzɔnənbluːmənøːl], Sonnenblumenöle = slnečnicový olej
 3 N die Kräuter {Kräuter} [ˈkʁɔʏtɐ], PL = bylinky, korenie
 3 AN ungenießbar {un|genießbar} [ˈʊnɡəniːsbaːɐ] = nejedlý
+3 N das Natron {Natron} [ˈnaːtʁɔn], - = jedlá sóda
+3 N der Hefeteig {Hefe|teig} [ˈheːfətaɪk], Hefeteige = kysnuté cesto
+2 N die Füllung {Füllung} [ˈfʏlʊŋ], Füllungen = plnka
+3 N das Schmalz {Schmalz} [ʃmalts], - = bravčová masť
+3 N der Zwieback {Zwie|back} [ˈtsviːbak], Zwiebäcke/Zwiebacke = suchár
+3 N der Talg {Talg} [talk], Talge = loj
+3 N die Jause {Jause} [ˈjaʊzə], Jausen = olovrant
+3 N die Vesper {Vesper} [ˈfɛspɐ], Vespern = olovrant
+2 N der Essensrest {Essens|rest} [ˈɛsənsʁɛst], Essensreste = zvyšky jedla
+3 N das Gallert {Gallert} [ɡaˈlɛʁt], Gallerte = rôsol
+3 N die Molkerei {Molkerei} [mɔlkəˈʁaɪ], Molkereien = mliekáreň
+2 N das Dressing {Dressing} [ˈdʁɛsɪŋ], Dressings = dresing
+3 N der Happen {Happen} [ˈhapn̩], Happen = sústo
+3 N das Küchenkraut {Küchen|kraut} [ˈkʏçn̩kʁaʊt], Küchenkräuter = bylinky
+3 N der Guss {Guss} [ɡʊs], Güsse = poleva
+3 N das Vorgericht {Vor|gericht} [ˈfoːɐ̯ɡəʁɪçt], Vorgerichte = predjedlo
+3 N das Labsal {Labsal} [ˈlapzaːl], Labsale = občerstvenie
 
 # staples
 1 N das Brot {Brot} [bʁoːt], Brote = chlieb
@@ -123,6 +140,20 @@
 2 N die Linse {Linse} [ˈlɪnzə], Linsen = šošovica
 3 N der Tofu {Tofu} [ˈtoːfu], - = tofu
 3 N der Taco {Taco} [ˈtako], Tacos = taco
+3 N das Pesto {Pesto} [ˈpɛsto], Pestos = pesto
+2 N das Hörnchen {Hörnchen} [ˈhœʁnçən], Hörnchen = rožok
+3 N der Laib {Laib} [laɪp], Laibe = bochník
+3 N der Striezel {Striezel} [ˈʃtʁiːtsl̩], Striezel = vianočka
+3 N die Stulle {Stulle} [ˈʃtʊlə], Stullen = obložený chlieb
+3 N die Schupfnudel {Schupf|nudel} [ˈʃʊpfnuːdl̩], Schupfnudeln = šúľance
+3 N die Hörnchennudel {Hörnchen|nudel} [ˈhœʁnçənnuːdl̩], Hörnchennudeln = kolienka
+3 N das Hörnli {Hörnli} [ˈhœʁnli], Hörnli = kolienka
+3 N die Spätzle {Spätzle} [ˈʃpɛtslə], PL = halušky
+3 N das Mark {Mark} [maʁk], - = pretlak
+2 N das Püree {Püree} [pyˈʁeː], Pürees = pyré
+2 N die Nudel {Nudel} [ˈnuːdl̩], Nudeln = rezance
+3 N die Gnocchi {Gnocchi} [ˈɲɔki], PL = gnocchi
+3 V pökeln {pökeln} [ˈpøːkln̩], hat (A) = soliť
 
 # meat-fish-food
 2 N das Rindfleisch {Rind|fleisch} [ˈʁɪntflaɪʃ], - = hovädzie mäso, hovädzina
@@ -150,6 +181,12 @@
 3 N der Döner {Döner} [ˈdøːnɐ], Döner = döner kebab, döner
 3 N das Sushi {Sushi} [ˈzuːʃi], Sushis = suši
 1 V zunehmen {zu·nehmen} [ˈtsuːneːmən], nimmt zu/nahm zu/zugenommen [nɪmt tsuː/naːm tsuː/ˈtsuːɡənɔmən], hat = pribrať
+3 N die Leberwurst {Leber|wurst} [ˈleːbɐvʊʁst], Leberwürste = jaternica
+3 N das Rauchfleisch {Rauch|fleisch} [ˈʁaʊxflaɪʃ], - = údené mäso
+3 N die Kutteln {Kutteln} [ˈkʊtəln], PL = držky
+3 N das Pökelfleisch {Pökel|fleisch} [ˈpøːkl̩flaɪʃ], - = solené mäso
+3 N der Tran {Tran} [tʁaːn], - = rybí tuk
+3 N die Sülze {Sülze} [ˈzʏltsə], Sülzen = tlačenka
 
 # fruits
 1 N das Obst {Obst} [oːpst], - = ovocie
@@ -200,6 +237,16 @@
 3 N die Rosine {Rosine} [ʁoˈziːnə], Rosinen = hrozienko
 3 N die Limette {Limette} [liˈmɛtə], Limetten = limetka
 3 N die Grapefruit {Grapefruit} [ˈɡʁeːpfʁuːt], Grapefruits = grapefruit
+2 N die Mandarine {Mandarine} [mandaˈʁiːnə], Mandarinen = mandarínka
+3 N die Kaki {Kaki} [ˈkaːki], Kakis = kaki
+3 N die Sauerkirsche {Sauer|kirsche} [ˈzaʊɐkɪʁʃə], Sauerkirschen = višňa
+3 N die Weichsel {Weichsel} [ˈvaɪksl̩], Weichseln = višňa
+3 N die Maulbeere {Maul|beere} [ˈmaʊlbeːʁə], Maulbeeren = moruša
+2 N die Pistazie {Pistazie} [pɪsˈtaːtsi̯ə], Pistazien = pistácia
+3 N die Pekannuss {Pekan|nuss} [ˈpeːkannʊs], Pekannüsse = pekanový orech
+3 N die Cashewnuss {Cashew|nuss} [ˈkɛʃuːnʊs], Cashewnüsse = kešu orech
+3 N die Paranuss {Para|nuss} [ˈpaːʁanʊs], Paranüsse = para orech
+2 N die Mandel {Mandel} [ˈmandl̩], Mandeln = mandľa
 
 # vegetables
 1 N das Gemüse {Gemüse} [ɡəˈmyːzə], - = zelenina
@@ -241,6 +288,16 @@
 3 N der Lauch {Lauch} [laʊx], - = pór (zelenina)
 2 N der Spargel {Spargel} [ˈʃpaʁɡəl], - = špargľa
 2 N der Champignon {Champignon} [ˈʃampɪnjɔŋ], Champignons = šampiňón
+3 N der Rhabarber {Rhabarber} [ʁaˈbaʁbɐ], - = rebarbora
+3 N die Artischocke {Artischocke} [aʁtɪˈʃɔkə], Artischocken = artičok
+3 N der Grünkohl {Grün|kohl} [ˈɡʁyːnkoːl], - = kučeravá kapusta
+3 N der Kohlrabi {Kohlrabi} [koːlˈʁaːbi], Kohlrabi/Kohlrabis = kaleráb
+3 N der Bärlauch {Bär|lauch} [ˈbɛːɐ̯laʊx], - = medvedí cesnak
+3 N die Hülsenfrucht {Hülsen|frucht} [ˈhʏlzənfʁʊxt], Hülsenfrüchte = strukovina
+3 N die Kichererbse {Kicher|erbse} [ˈkɪçɐʔɛʁpsə], Kichererbsen = cícer
+3 N der Meerrettich {Meer|rettich} [ˈmeːɐ̯ʁɛtɪç], Meerrettiche = chren
+3 N der Schnittlauch {Schnitt|lauch} [ˈʃnɪtlaʊx], - = pažítka
+3 N die Batate {Batate} [baˈtaːtə], Bataten = sladký zemiak
 
 # sweets-drinks
 1 N der Kuchen {Kuchen} [ˈkuːxən], Kuchen = koláč, torta
@@ -292,6 +349,20 @@
 2 N die Chips {Chips} [tʃɪps], PL = čipsy
 3 N der Karamell {Karamell} [kaʁaˈmɛl], - = karamel
 3 N der/das Gelee {Gelee} [ʒeˈleː], Gelees = želé
+2 N der Trinkspruch {Trink|spruch} [ˈtʁɪŋkʃpʁʊx], Trinksprüche = prípitok
+3 N das Gebräu {Ge|bräu} [ɡəˈbʁɔʏ], Gebräue = žbrnda
+3 N der Met {Met} [meːt], - = medovina
+3 N der Honigwein {Honig|wein} [ˈhoːnɪçvaɪn], Honigweine = medovina
+3 N die Spirituose {Spirituose} [ʃpiʁituˈoːzə], Spirituosen = liehovina
+2 N das Kompott {Kompott} [kɔmˈpɔt], Kompotte = kompót
+2 N die Konditorei {Konditorei} [kɔndɪtoˈʁaɪ], Konditoreien = cukráreň
+3 N der Napfkuchen {Napf|kuchen} [ˈnapfkuːxən], Napfkuchen = bábovka
+3 N der Baumkuchen {Baum|kuchen} [ˈbaʊmkuːxən], Baumkuchen = trdelník
+2 N der Lutscher {Lutscher} [ˈlʊtʃɐ], Lutscher = lízanka
+3 N die Lakritze {Lakritze} [laˈkʁɪtsə], Lakritzen = pendrek (sladkosť)
+3 N der Kringel {Kringel} [ˈkʁɪŋl̩], Kringel = venček
+3 N der Eierkuchen {Eier|kuchen} [ˈaɪɐkuːxən], Eierkuchen = palacinka
+2 N der Teekessel {Tee|kessel} [ˈteːkɛsl̩], Teekessel = čajník
 
 # cooking
 1 V kochen {kochen} [ˈkɔxən], hat = variť, uvariť
@@ -345,6 +416,28 @@
 3 V speisen {speisen} [ˈʃpaɪzən], hat = stolovať, jesť
 3 V verzehren {ver|zehren} [fɛɐˈtseːʁən], hat (A) = skonzumovať, zjesť
 3 V garnieren {garnieren} [ɡaʁˈniːʁən], hat (A) = garnírovať, ozdobiť
+3 V gerinnen {gerinnen} [ɡəˈʁɪnən], gerinnt/gerann/geronnen [ɡəˈʁɪnt/ɡəˈʁan/ɡəˈʁɔnən], ist = zraziť sa (mlieko)
+3 N der Aufguss {Auf|guss} [ˈaʊfɡʊs], Aufgüsse = nálev
+3 V überbacken {über|backen} [yːbɐˈbakən], überbäckt/überbackte/überbacken [yːbɐˈbɛkt/yːbɐˈbaktə/yːbɐˈbakən], hat (A) = zapiecť
+3 V ansengen {an·sengen} [ˈanzɛŋən], hat (A) = pripáliť
+3 V zerlassen {zer|lassen} [tsɛɐˈlasən], zerlässt/zerließ/zerlassen [tsɛɐˈlɛst/tsɛɐˈliːs/tsɛɐˈlasən], hat (A) = roztopiť
+3 V entsaften {ent|saften} [ɛntˈzaftən], hat (A) = odšťaviť
+3 V gären {gären} [ˈɡɛːʁən], gärt/gor/gegoren [ɡɛːɐ̯t/ɡoːɐ̯/ɡəˈɡoːʁən], hat/ist = kvasiť
+3 V seihen {seihen} [ˈzaɪən], hat (A) = cediť
+3 V abseihen {ab·seihen} [ˈapzaɪən], hat (A) = cediť
+3 V durchseihen {durch·seihen} [ˈdʊʁçzaɪən], hat (A) = cediť
+3 V versalzen {ver|salzen} [fɛɐˈzaltsən], versalzt/versalzte/versalzen [fɛɐˈzaltst/fɛɐˈzaltstə/fɛɐˈzaltsən], hat (A) = presoliť
+3 N die Gärung {Gärung} [ˈɡɛːʁʊŋ], Gärungen = kvasenie
+3 V sättigen {sättigen} [ˈzɛtɪɡən], hat (A) = zasýtiť
+2 V reiben {reiben} [ˈʁaɪbən], reibt/rieb/gerieben [ʁaɪpt/ʁiːp/ɡəˈʁiːbən], hat (A) = strúhať
+3 V ausnehmen {aus·nehmen} [ˈaʊsneːmən], nimmt aus/nahm aus/ausgenommen [nɪmt aʊs/naːm aʊs/ˈaʊsɡənɔmən], hat (A) = vyvrhnúť
+3 V abgießen {ab·gießen} [ˈapɡiːsən], gießt ab/goss ab/abgegossen [ɡiːst ap/ɡɔs ap/ˈapɡəɡɔsən], hat (A) = odliať
+2 V ausgießen {aus·gießen} [ˈaʊsɡiːsən], gießt aus/goss aus/ausgegossen [ɡiːst aʊs/ɡɔs aʊs/ˈaʊsɡəɡɔsən], hat (A) = vyliať
+2 V nachgießen {nach·gießen} [ˈnaːxɡiːsən], gießt nach/goss nach/nachgegossen [ɡiːst naːx/ɡɔs naːx/ˈnaːxɡəɡɔsən], hat (A) = doliať
+2 V streuen {streuen} [ˈʃtʁɔʏən], hat (A) = sypať
+2 V zerschneiden {zer|schneiden} [tsɛɐˈʃnaɪdən], zerschneidet/zerschnitt/zerschnitten [tsɛɐˈʃnaɪdət/tsɛɐˈʃnɪt/tsɛɐˈʃnɪtn̩], hat (A) = rozrezať
+3 V anrühren {an·rühren} [ˈanʁyːʁən], hat (A) = zamiešať
+2 V einschenken {ein·schenken} [ˈaɪnʃɛŋkən], hat (D A) = naliať
 
 # kitchen-tools
 1 N das Messer {Messer} [ˈmɛsɐ], Messer = nôž
@@ -400,6 +493,24 @@
 3 N das Küchenmesser {Küchen|messer} [ˈkʏçənmɛsɐ], Küchenmesser = kuchynský nôž
 3 N das Menü {Menü} [meˈnyː], Menüs = menu
 3 N das Lokal {Lokal} [loˈkaːl], Lokale = pohostinstvo, podnik, krčma
+2 N der Nussknacker {Nuss|knacker} [ˈnʊsknakɐ], Nussknacker = luskáčik
+3 N der Tiegel {Tiegel} [ˈtiːɡl̩], Tiegel = kelímok
+3 N der Kelch {Kelch} [kɛlç], Kelche = čaša
+3 N die Kasserolle {Kasserolle} [kasəˈʁɔlə], Kasserollen = kastról
+3 N der Schäler {Schäler} [ˈʃɛːlɐ], Schäler = škrabka
+3 N die Teigrolle {Teig|rolle} [ˈtaɪkʁɔlə], Teigrollen = valček na cesto
+3 N der Messbecher {Mess|becher} [ˈmɛsbɛçɐ], Messbecher = odmerka
+2 N das Schneidebrett {Schneide|brett} [ˈʃnaɪdəbʁɛt], Schneidebretter = doska na krájanie
+3 N die Schaumkelle {Schaum|kelle} [ˈʃaʊmkɛlə], Schaumkellen = zberačka
+3 N der Bratspieß {Brat|spieß} [ˈbʁaːtʃpiːs], Bratspieße = ražeň
+3 N der Entsafter {Ent|safter} [ɛntˈzaftɐ], Entsafter = odšťavovač
+3 N die Saftpresse {Saft|presse} [ˈzaftpʁɛsə], Saftpressen = odšťavovač
+2 N die Kanne {Kanne} [ˈkanə], Kannen = kanvica
+3 N die Buddel {Buddel} [ˈbʊdl̩], Buddeln = fľaša
+2 N die Kelle {Kelle} [ˈkɛlə], Kellen = naberačka
+3 N der Seiher {Seiher} [ˈzaɪɐ], Seiher = cedidlo
+2 N das Reibeisen {Reibeisen} [ˈʁaɪbəʔaɪzn̩], Reibeisen = strúhadlo
+3 N die Raspel {Raspel} [ˈʁaspl̩], Raspeln = strúhadlo
 
 # taste-quality
 2 N der Geschmack {Geschmack} [ɡəˈʃmak], Geschmäcke = chuť (na jazyku), vkus
@@ -424,3 +535,9 @@
 3 AN cremig {cremig} [ˈkʁeːmɪç] = krémový, hladký
 2 AN gekocht {ge|kocht} [ɡəˈkɔxt] = varený
 3 AN geschmacklos {geschmack|los} [ɡəˈʃmakloːs] = nevkusný
+3 AN vorgegart {vor|gegart} [ˈfoːɐ̯ɡəɡaːɐ̯t] = predvarený
+3 AN abgelaufen {ab|gelaufen} [ˈapɡəlaʊfn̩] = expirovaný
+3 AN herb {herb} [hɛʁp] = trpký
+3 AN schick {schick} [ʃɪk] = vkusný
+3 AN speckig {speckig} [ˈʃpɛkɪç] = mastný
+3 N der Geschmackssinn {Geschmacks|sinn} [ɡəˈʃmaksˌzɪn], Geschmackssinne = chuť (na jazyku)

@@ -53,6 +53,15 @@
 1 N 服装 {服装} [fúzhuāng], 件 = oblečenie
 1 N 上衣 {上衣} [shàngyī], 件 = bunda
 2 V 打扮 {打扮} [dǎban] = obliecť
+3 N 西装外套 {西装外套} [xīzhuāngwàitào], 件 = sako
+3 N 伪装 {伪装} [wěizhuāng], - = prestrojenie
+3 N 长袍 {长袍} [chángpáo], 件 = rúcho
+3 N 三角内裤 {三角内裤} [sānjiǎonèikù], 条 = slipy
+2 N 内裤 {内裤} [nèikù], 条 = nohavičky
+3 N 吊袜带 {吊袜带} [diàowàdài], 条 = podväzkový pás
+3 N 无尾礼服 {无尾礼服} [wúwěilǐfú], 套 = smoking
+3 N 工作服 {工作服} [gōngzuòfú], 套 = pracovný odev
+3 N 皮大衣 {皮大衣} [pídàyī], 件 = kožuch
 
 # footwear-accessories
 1 N 鞋 {鞋} [xié], 双 = topánka
@@ -103,10 +112,16 @@
 3 N 补丁 {补丁} [bǔding], 块 = záplata
 1 N 球鞋 {球鞋} [qiúxié], 双 = tenisky
 2 N 皮鞋 {皮鞋} [píxié], 双 = topánka
+3 N 鞋拔子 {鞋拔子} [xiébázi], 个 = obuvák
+3 N 高跟鞋 {高跟鞋} [gāogēnxié], 双 = lodičky
+3 N 鞋跟 {鞋跟} [xiégēn], 只 = podpätok
+3 N 人字拖 {人字拖} [rénzìtuō], 双 = žabky
+3 N 靴 {靴} [xuē], 只 = čižma
 
 # materials-making
 2 N 布料 {布料} [bùliào], 块 = látka
 2 N 面料 {面料} [miànliào], 块 = látka
+2 N 布 {布} [bù], 块 = látka
 2 N 抹布 {抹布} [mābù], 块 = utierka
 2 N 布 {布} [bù], 块 = utierka
 3 N 手帕 {手帕} [shǒupà], 块 = vreckovka
@@ -139,6 +154,7 @@
 3 N 刺绣 {刺绣} [cìxiù], 件 = výšivka
 2 V 烫衣服 {烫|衣服} [tàngyīfu] = žehliť
 3 V 熨衣服 {熨|衣服} [yùnyīfu] = žehliť
+3 V 烫 {烫} [tàng] = žehliť
 3 N 熨斗 {熨斗} [yùndǒu], 把 = žehlička
 2 V 叠 {叠} [dié] = poskladať
 3 V 折叠 {折叠} [zhédié] = poskladať
@@ -161,8 +177,22 @@
 3 N 顶针 {顶针} [dǐngzhen], 个 = náprstok
 3 N 人体模特 {人体模特} [réntǐmótè], 个 = výkladná figurína
 2 V 编 {编} [biān] = pliesť
+2 V 织 {织} [zhī] = pliesť
 2 N 皮 {皮} [pí], 张 = koža (materiál)
 3 V 绣 {绣} [xiù] = vyšívať
+3 N 布头 {布头} [bùtóu], 块 = ústrižok
+3 N 线团 {线团} [xiàntuán], 个 = klbko
+3 N 纺锤 {纺锤} [fǎngchuí], 个 = vreteno
+3 V 拆 {拆} [chāi] = párať
+3 V 缝合 {缝合} [fénghé] = zašiť
+3 V 缝上 {缝上} [féngshang] = prišiť
+3 V 脱线 {脱|线} [tuōxiàn] = strapkať sa
+3 N 破布 {破布} [pòbù], 块 = zdrap
+3 N 纤维 {纤维} [xiānwéi], 根 = vlákno
+3 V 整经 {整|经} [zhěngjīng] = snovať
+2 V 穿 {穿} [chuān] = navliecť
+3 N 长毛绒 {长毛绒} [chángmáoróng], - = plyš
+3 N 毛球 {毛球} [máoqiú], 个 = žmolok
 
 # wearing-jewelry
 2 V 合身 {合身} [héshēn] = pasovať
@@ -202,9 +232,19 @@
 2 V 打扮 {打扮} [dǎban] = ozdobiť
 2 N 风度 {风度} [fēngdù], - = elegancia
 3 AN 穿着衣服 {穿着衣服} [chuānzhe yīfu] = oblečený
+1 V 穿着 {穿着} [chuānzhe] = mať oblečené
+2 V 打扮 {打扮} [dǎban] = vyobliekať sa
+3 N 化妆 {化|妆} [huàzhuāng], - = líčenie
 
 # parts-fasteners
 2 V 扣 {扣} [kòu] = zapnúť (gombíky)
 1 N 皮包 {皮包} [píbāo], 个 = kabelka
 2 V 解开 {解开} [jiěkāi] = rozopnúť
 2 V 解扣子 {解|扣子} [jiěkòuzi] = rozopnúť
+3 N 门襟 {门襟} [ménjīn], - = rázporok
+3 N 蝴蝶结 {蝴蝶结} [húdiéjié], 个 = mašľa
+3 N 领口 {领口} [lǐngkǒu], 个 = dekolt
+3 N 流苏 {流苏} [liúsū], 串 = strapec
+3 N 衬里 {衬里} [chènlǐ], 层 = podšívka
+2 N 口袋 {口袋} [kǒudài], 个 = vrecko na oblečení
+3 N 衣袋 {衣袋} [yīdài], 个 = vrecko na oblečení

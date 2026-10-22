@@ -127,6 +127,13 @@
 2 AV conjuntamente {conjuntamente} [koŋxuntaˈmente] = spoločne
 2 N el voto a favor {voto a favor} [ˈboto a faˈβoɾ], votos a favor = hlas za
 2 V inmigrar {in|migrar} [inmiˈɣɾaɾ] = imigrovať
+3 N la dama de honor {dama de honor} [ˈdama ðe oˈnoɾ], damas de honor = dvorná dáma
+3 N el siervo {siervo} [ˈsjeɾβo], siervos = nevoľník
+3 N la doncella {doncella} [donˈθeʎa], doncellas = komorná
+3 N la servidumbre {servidumbre} [seɾβiˈðumbɾe], - = služobníctvo
+2 V inaugurar {inaugurar} [inauɣuˈɾaɾ] = inaugurovať
+3 N el hidalgo {hidalgo} [iˈðalɣo], hidalgos = šľachtic
+3 N el cabecilla {cabecilla} [kaβeˈθiʎa], cabecillas = vodca
 
 # state-politics
 1 N el estado {estado} [esˈtaðo], estados = štát
@@ -497,6 +504,18 @@
 2 AN pacífico {pacífico} [paˈθifiko], pacífica = nenásilný
 3 N el súbdito {súbdito} [ˈsuβðito], súbditos = poddaný
 3 V desmovilizar {des|movilizar} [desmoβiliˈθaɾ] = demobilizovať
+3 N la alteza {alteza} [alˈteθa], altezas = výsosť
+2 N la dinastía {dinastía} [dinasˈtia], dinastías = dynastia
+2 N el príncipe {príncipe} [ˈpɾinθipe], príncipes = knieža
+2 N el conde {conde} [ˈkonde], condes = gróf
+3 N el cetro {cetro} [ˈθetɾo], cetros = žezlo
+2 N el escudo de armas {escudo de armas} [esˈkuðo ðe ˈaɾmas], escudos de armas = erb
+3 N el blasón {blasón} [blaˈson], blasones = erb
+3 N el Estado del bienestar {Estado del bienestar} [esˈtaðo ðel bjenesˈtaɾ], Estados del bienestar = sociálny štát
+3 N la abdicación {abdicación} [aβðikaˈθjon], abdicaciones = abdikácia
+3 N la confederación {confederación} [komfeðeɾaˈθjon], confederaciones = konfederácia
+3 N el enviado {enviado} [embiˈaðo], enviados = vyslanec
+3 N la coligación {coligación} [koliɣaˈθjon], coligaciones = koalícia
 
 # law-justice
 1 N la ley {ley} [lei], leyes = zákon
@@ -781,10 +800,68 @@
 2 N la defensa {defensa} [deˈfensa], defensas = obhajoba
 1 V aprobar {aprobar} [apɾoˈβaɾ], o>ue = schváliť
 2 V autorizar {autorizar} [autoɾiˈθaɾ] = schváliť
+3 AN conspirativo {conspirativo} [konspiɾaˈtiβo], conspirativa = sprisahanecký
+3 V amordazar {amordazar} [amoɾðaˈθaɾ] = zakneblovať
+2 N las esposas {esposas} [esˈposas], PL = putá
+3 N los grilletes {grilletes} [ɣɾiˈʎetes], PL = putá
+3 N el verdugo {verdugo} [beɾˈðuɣo], verdugos = kat
+3 N el calabozo {calabozo} [kalaˈβoθo], calabozos = žalár
+3 N la mazmorra {mazmorra} [maθˈmora], mazmorras = žalár
+3 N la picota {picota} [piˈkota], picotas = pranier
+3 N la horca {horca} [ˈoɾka], horcas = šibenica
+3 N la hoguera {hoguera} [oˈɣeɾa], hogueras = hranica na upálenie
+2 N el código {código} [ˈkoðiɣo], códigos = zákonník
+3 V infringir {infringir} [imfɾinˈxiɾ] = previniť sa
+3 N el presidio {presidio} [pɾeˈsiðjo], presidios = káznica
+3 N la penitenciaría {penitenciaría} [penitenθjaˈɾia], penitenciarías = káznica
+2 N el jurista {jurista} [xuˈɾista], juristas = právnik
+3 N el condenado {condenado} [kondeˈnaðo], condenados = odsúdenec
+2 V testificar {testificar} [testifiˈkaɾ] = svedčiť
+2 N la facultad {facultad} [fakulˈtað], facultades = oprávnenie
+2 N la autorización {autorización} [autoɾiθaˈθjon], autorizaciones = oprávnenie
+3 V agraviar {agraviar} [aɣɾaˈβjaɾ] = krivdiť
+3 N el carterista {carterista} [kaɾteˈɾista], carteristas = vreckár
+3 N el ratero {ratero} [raˈteɾo], rateros = vreckár
+2 N la causa {causa} [ˈkausa], causas = kauza
+2 N la pena de muerte {pena de muerte} [ˈpena ðe ˈmweɾte], penas de muerte = trest smrti
+3 N la pena capital {pena capital} [ˈpena kapiˈtal], penas capitales = trest smrti
+2 N la celda {celda} [ˈθelda], celdas = väzenská cela
+3 N el pleito {pleito} [ˈplejto], pleitos = súdny spor
+3 N el cadalso {cadalso} [kaˈðalso], cadalsos = popravisko
+3 N el perista {perista} [peˈɾista], peristas = priekupník
+2 V sorprender {sorprender} [soɾpɾenˈdeɾ] = pristihnúť
+3 V pillar {pillar} [piˈʎaɾ] = pristihnúť
+3 N el perseguidor {perseguidor} [peɾseɣiˈðoɾ], perseguidores = prenasledovateľ
+3 V privar de derechos {privar de derechos} [pɾiˈβaɾ ðe deˈɾetʃos] = zbaviť práv
+3 N el agresor {agresor} [aɣɾeˈsoɾ], agresores = násilník
+3 N el incendiario {incendiario} [inθenˈdjaɾjo], incendiarios = podpaľač
+2 V explotar {explotar} [eksploˈtaɾ] = vykorisťovať
+2 N la explotación {explotación} [eksplotaˈθjon], explotaciones = vykorisťovanie
+2 N el pirata {pirata} [piˈɾata], piratas = pirát
+3 N el falsificador {falsificador} [falsifikaˈðoɾ], falsificadores = falšovateľ
+3 N la cuota de protección {cuota de protección} [ˈkwota ðe pɾotekˈθjon], cuotas de protección = výpalné
+3 N la usura {usura} [uˈsuɾa], - = úžera
+3 V malversar {malversar} [malβeɾˈsaɾ] = spreneveriť
+3 V desfalcar {desfalcar} [desfalˈkaɾ] = spreneveriť
+3 N la malversación {malversación} [malβeɾsaˈθjon], malversaciones = sprenevera
+3 N el desfalco {desfalco} [desˈfalko], desfalcos = sprenevera
+2 N el contrabando {contrabando} [kontɾaˈβando], contrabandos = pašovanie
+3 N el contrabandista {contrabandista} [kontɾaβanˈdista], contrabandistas = pašerák
+2 N la violación {violación} [bjolaˈθjon], violaciones = znásilnenie
+2 V torturar {torturar} [toɾtuˈɾaɾ] = mučiť
+3 N el cazador furtivo {cazador furtivo} [kaθaˈðoɾ fuɾˈtiβo], cazadores furtivos = pytliak
+3 N el perjurio {perjurio} [peɾˈxuɾjo], perjurios = krivá prísaha
+3 V ahorcar {ahorcar} [aoɾˈkaɾ] = obesiť
+3 N el perpetrador {perpetrador} [peɾpetɾaˈðoɾ], perpetradores = páchateľ
+3 V achacar {achacar} [atʃaˈkaɾ] = obviňovať
+3 N el recelo {recelo} [reˈθelo], recelos = podozrenie
 
 # politics
 3 V radicalizar {radicalizar} [raðikaliˈθaɾ] = radikalizovať
 3 V ratificar {ratificar} [ratifiˈkaɾ] = ratifikovať
+3 N el negociador {negociador} [neɣoθjaˈðoɾ], negociadores = vyjednávač
+2 N la ideología {ideología} [iðeoloˈxia], ideologías = ideológia
+3 N el escaño {escaño} [esˈkaɲo], escaños = poslanecké kreslo
 
 # more
 2 AN electoral {electoral} [elektoˈɾal] = volebný

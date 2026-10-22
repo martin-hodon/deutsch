@@ -29,9 +29,11 @@
 2 N 秒 {秒} [miǎo], - = sekunda
 2 N 秒钟 {秒钟} [miǎozhōng], - = sekunda
 1 N 分钟 {分钟} [fēnzhōng], - = minúta
+1 N 分 {分} [fēn], - = minúta
 2 AN 分钟 {分钟} [fēnzhōng] = minútový
 1 N 小时 {小时} [xiǎoshí], 个 = hodina
 2 N 钟头 {钟头} [zhōngtóu], 个 = hodina
+1 N 点 {点} [diǎn], - = hodina
 2 N 一刻钟 {一刻钟} [yīkèzhōng], - = štvrťhodina
 1 AN 每小时 {每小时} [měixiǎoshí] = hodinový
 1 AN 好几个小时 {好几个小时} [hǎojǐge xiǎoshí] = hodiny trvajúci
@@ -133,6 +135,7 @@
 2 N 日 {日} [rì], 个 = dátum
 1 N 时候 {时候} [shíhou], - = časový bod
 1 N 日子 {日子} [rìzi], 个 = deň
+2 N 日 {日} [rì], - = deň
 1 PHR 这时候 {这时候} [zhèshíhou] = práve teraz
 1 N 工夫 {工夫} [gōngfu], - = čas (trvanie)
 2 AV 按时 {按时} [ànshí] = včas
@@ -144,6 +147,11 @@
 2 AN 长期 {长期} [chángqī] = dlhodobý
 2 AV 永久 {永久} [yǒngjiǔ] = natrvalo
 1 AV 永远 {永远} [yǒngyuǎn] = natrvalo
+3 N 旬 {旬} [xún], 个 = desaťdnie
+3 N 闰年 {闰年} [rùnián], 个 = priestupný rok
+3 N 至点 {至点} [zhìdiǎn], 个 = slnovrat
+3 N 分点 {分点} [fēndiǎn], 个 = rovnodennosť
+3 N 签发日期 {签发日期} [qiānfā rìqī], 个 = dátum vystavenia
 
 # day-parts-and-week
 1 N 早上 {早上} [zǎoshang], - = ráno
@@ -196,6 +204,8 @@
 1 AV 上午 {上午} [shàngwǔ] = predpoludním
 1 AV 半夜 {半夜} [bànyè] = o polnoci
 2 AV 午夜 {午夜} [wǔyè] = o polnoci
+2 N 凌晨 {凌晨} [língchén], - = skoré ráno
+3 N 拂晓 {拂晓} [fúxiǎo], - = skoré ráno
 
 # relative-time
 1 AV 然后 {然后} [ránhòu] = potom
@@ -246,6 +256,7 @@
 2 AV 忽然 {忽然} [hūrán] = náhle
 1 AV 马上 {马上} [mǎshàng] = hneď
 2 AV 立刻 {立刻} [lìkè] = hneď
+1 AV 就 {就} [jiù] = hneď
 2 AV 逐渐 {逐渐} [zhújiàn] = postupne
 2 AV 渐渐 {渐渐} [jiànjiàn] = postupne
 2 PHR 渐渐 {渐渐} [jiànjiàn] = postupne
@@ -271,11 +282,13 @@
 1 N 未来 {未来} [wèilái], - = budúcnosť
 1 N 将来 {将来} [jiānglái], - = budúcnosť
 2 AN 未来 {未来} [wèilái] = budúci
+1 AN 下 {下} [xià] = budúci
 3 AN 可持续 {可持续} [kěchíxù] = životaschopný
 2 AN 有生命力 {有生命力} [yǒu shēngmìnglì] = životaschopný
 3 AN 未来主义的 {未来主义的} [wèiláizhǔyì de] = futuristický
 1 N 过去 {过去} [guòqù], - = minulosť
 1 AN 过去 {过去} [guòqù] = minulý
+1 AN 上 {上} [shàng] = minulý
 1 N 现在 {现在} [xiànzài], - = súčasnosť
 2 N 当下 {当下} [dāngxià], - = súčasnosť
 2 AN 当代 {当代} [dāngdài] = súčasný
@@ -368,6 +381,7 @@
 2 AV 不断 {不断} [bùduàn] = konštantne
 1 AV 天天 {天天} [tiāntiān] = každodenne
 2 AV 已 {已} [yǐ] = už
+1 AV 都 {都} [dōu] = už
 1 PRE 后 {后} [hòu] = po
 2 PRE 至 {至} [zhì] = do
 2 AV 曾 {曾} [céng] = kedysi
@@ -399,6 +413,7 @@
 2 AV 不时 {不时} [bùshí] = občas
 2 V 等候 {等候} [děnghòu] = čakať
 2 PRE 跟前 {跟前} [gēnqián] = pred
+1 PRE 前 {前} [qián] = pred
 2 AV 将要 {将要} [jiāngyào] = čoskoro
 2 AV 决不 {决不} [juébù] = nikdy
 2 AV 时常 {时常} [shícháng] = často
@@ -416,6 +431,7 @@
 2 AV 时而 {时而} [shí'ér] = občas
 2 AV 事后 {事后} [shìhòu] = potom
 2 AV 眼看 {眼看} [yǎnkàn] = čoskoro
+1 AV 快 {快} [kuài] = čoskoro
 2 AV 依次 {依次} [yīcì] = postupne
 1 N 第二天 {第二天} [dì'èr tiān], - = nasledujúci deň
 3 N 次日 {次日} [cìrì], - = nasledujúci deň
@@ -423,6 +439,13 @@
 1 AV 最早 {最早} [zuìzǎo] = najskôr
 3 AV 破例 {破例} [pòlì] = výnimočne
 3 AV 例外地 {例外地} [lìwàide] = výnimočne
+2 AN 偶尔 {偶尔} [ǒu'ěr] = občasný
+3 AN 间歇 {间歇} [jiànxiē] = občasný
+2 AV 多次 {多次} [duōcì] = mnohokrát
+3 AV 屡次 {屡次} [lǚcì] = mnohokrát
+3 N 远古 {远古} [yuǎngǔ], - = pravek
+3 N 史前时代 {史前时代} [shǐqián shídài], 个 = pravek
+2 PHR 一辈子 {一辈子} [yībèizi] = za celý život
 
 # months
 1 N 一月 {一月} [yīyuè], - = január

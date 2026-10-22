@@ -14,6 +14,10 @@
 1 CON ни… ни {ни… ни} [nʲi nʲi] = ani
 3 CON или же {или же} [ˈilʲɪ ʐɨ] = respektíve
 2 CON так и {так и} [tak i] = ako… tak aj
+2 CON с одной стороны … с другой стороны {с одной стороны … с другой стороны} [s ɐdˈnoj stərɐˈnɨ … s drʊˈɡoj stərɐˈnɨ] = jednak… jednak
+2 CON хотя и … но {хотя и … но} [xɐˈtʲa ɪ … no] = síce… ale
+2 CON то … то {то … то} [to … to] = niekedy… niekedy
+3 CON отчасти … отчасти {отчасти … отчасти} [ɐtˈtɕasʲtʲɪ … ɐtˈtɕasʲtʲɪ] = sčasti… sčasti
 
 # subordinating
 1 CON что {что} [ʂto] = že
@@ -43,6 +47,8 @@
 1 CON после того как {после того как} [ˈposlʲɪ tɐˈvo kak] = potom čo
 3 CON тем что {тем что} [tʲem ʂto] = tým že
 1 PHR чтобы {чтобы} [ˈʂtobɨ] (+ inf) = aby
+2 CON тем более что {тем более что} [tʲem ˈbolʲɪjɪ ʂto] = tým skôr že
+2 CON так же … как {так же … как} [tak ʐɨ … kak] = tak… ako
 
 # connecting-adverbs
 1 AV поэтому {поэтому} [pɐˈɛtəmu] = preto

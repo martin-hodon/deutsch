@@ -44,6 +44,11 @@
 2 N rafa {rafa} [ˈrafa], ż, rafy = útes (morský)
 3 N fiord {fiord} [fjɔrt], m, fiordy = fjord
 3 N gejzer {gejzer} [ˈɡɛjzɛr], m, gejzery = gejzír
+2 AN płynący {płynący} [pwɨˈnɔntsɨ] = tečúci
+2 V odpływać {od|pływać} [ɔtˈpwɨvatɕ], odpłynąć = odtekať
+2 V wpływać {w|pływać} [ˈfpwɨvatɕ], wpłynąć = vtekať
+3 V przelewać się {prze|lewać się} [pʂɛˈlɛvatɕ ɕɛ], przelać się = pretiecť
+3 V rozlewać się {roz|lewać się} [rɔzˈlɛvatɕ ɕɛ], rozlać się = roztiecť sa
 
 # water-features
 1 N fala {fala} [ˈfala], ż, fale = vlna
@@ -101,6 +106,9 @@
 3 N oczyszczalnia ścieków {oczyszczalnia ścieków} [ɔtʂɨʂˈtʂalɲa ˈɕtɕɛkuf], ż, oczyszczalnie ścieków = čistiareň odpadových vôd
 3 V chlapać {chlapać} [ˈxlapatɕ], chlapnąć = špliechať
 3 V chlupotać {chlupotać} [xluˈpɔtatɕ], - = špliechať
+3 N zanurzenie {zanurzenie} [zanuˈʐɛɲɛ], n, zanurzenia = ponorenie
+3 N meander {meander} [mɛˈandɛr], m, meandry = meander
+3 N bród {bród} [brut], m, brody = brod
 
 # water-land-edge
 1 N brzeg {brzeg} [bʐɛk], m, brzegi = breh
@@ -113,3 +121,5 @@
 3 N cypel {cypel} [ˈtsɨpɛl], m, cyple = mys
 1 N basen {basen} [ˈbasɛn], m, baseny = bazén
 1 N lody {lody} [ˈlɔdɨ], lm, lody = zmrzlina
+3 N archipelag {archipelag} [arxiˈpɛlak], m, archipelagi = súostrovie
+3 N mierzeja {mierzeja} [mʲɛˈʐɛja], ż, mierzeje = pobrežná kosa

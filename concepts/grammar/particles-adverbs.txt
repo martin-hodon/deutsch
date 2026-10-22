@@ -19,6 +19,9 @@ PAR ďakujem
 PHR žiadny problém
 PHR to nevadí
 PHR do kelu
+PAR no -- ruské ну, rozhovorová častica
+PAR nech -- vyjadruje rozkaz alebo dovolenie tretej osobe
+PAR všakže
 
 # negation
 AV nie
@@ -55,6 +58,8 @@ AV prevažne
 AV čoraz viac
 AV čoraz menej
 AV približne
+AV oveľa
+PHR trochu moc -- trochu priveľa: 未免
 
 # time
 AV teraz
@@ -98,6 +103,15 @@ AV veľmi dobre
 AV prípadne
 AV na seba
 AV ľúto
+AV takpovediac
+AV odhadom
+INT fuj
+INT do riti -- vulgárne zvolanie
+INT nuž
+INT hmm
+INT och
+INT au -- zvolanie bolesti alebo prekvapenia
+INT doparoma
 
 # place-direction
 AV sem
@@ -319,3 +333,5 @@ AV na chvíľu
 AV skôr či neskôr
 AV ako predtým
 PAR častica trvajúceho stavu (着) -- po slovese: prebiehajúci dej alebo trvajúci stav: 坐着, 开着
+PAR častica dokončeného deja (了) -- za slovesom: 吃了
+PAR záporová častica (弗) -- knižné ne

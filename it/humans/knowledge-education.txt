@@ -149,6 +149,10 @@
 1 V copiare {copiare} [koˈpjaːre] = odpisovať
 1 V selezionare {selezionare} [selettsjoˈnaːre] = vytriediť
 2 V scartare {scartare} [skarˈtaːre] = vytriediť
+3 N il temperamatite {temperamatite} [temperamaˈtiːte], temperamatite = strúhadlo na ceruzky
+2 N il banco {banco} [ˈbaŋko], banchi = školská lavica
+3 N il compasso {compasso} [komˈpasːo], compassi = kružidlo
+3 N l'antologia (f) {antologia} [antoloˈdʒiːa], antologie = čítanka
 
 # knowledge-science
 1 N la scienza {scienza} [ˈʃɛntsa], scienze = veda
@@ -273,3 +277,6 @@
 2 V archiviare {archiviare} [arkiˈvjaːre] = archivovať
 2 N l'istituto (m) {istituto} [istiˈtuːto], istituti = ústav
 2 N la tabella {tabella} [taˈbɛlːa], tabelle = tabuľka
+2 N il volume {volume} [voˈluːme], volumi = diel (knihy)
+2 N il foglio {foglio} [ˈfɔʎːo], fogli = hárok
+3 N la provetta {provetta} [proˈvetːa], provette = skúmavka

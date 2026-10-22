@@ -137,6 +137,7 @@
 3 N Estonian {Estonian} [eˈstəʊniən], Estonians = Estónec
 3 N Estonian woman {Estonian woman} [eˈstəʊniən ˈwʊmən], Estonian women = Estónka
 2 AV in Slovak {in·Slovak} [ɪn ˈsləʊvæk] = slovensky
+3 AN Scottish {Scott|ish} [ˈskɒtɪʃ] = škótsky
 # world
 2 N USA {USA} [ˌjuː es ˈeɪ], - = USA
 1 N China {China} [ˈtʃaɪnə], - = Čína

@@ -313,6 +313,18 @@
 3 N ubytek {ubytek} [uˈbɨtɛk], m, ubytki = úbytok
 2 V powiększać się {powiększać się} [pɔˈvʲɛŋkʂatɕ ɕɛ], powiększyć się = zväčšiť sa
 2 V zwiększać się {zwiększać się} [ˈzvʲɛŋkʂatɕ ɕɛ], zwiększyć się = zväčšiť sa
+3 V zwieńczyć {zwieńczyć} [ˈzvʲɛɲtʂɨtɕ], dk (B) = zavŕšiť
+3 V wymieniać się {wymieniać się} [vɨˈmʲɛɲatɕ ɕɛ], wymienić się (N) = striedať sa
+2 V pękać {pękać} [ˈpɛŋkatɕ], pęknąć = prasknúť
+2 N wyciek {wyciek} [ˈvɨtɕɛk], m, wycieki = únik
+3 N nieszczelność {nieszczelność} [ɲɛˈʂtʂɛlnɔɕtɕ], ż, nieszczelności = únik
+3 V grzęznąć {grzęznąć} [ˈɡʐɛ̃znɔɲtɕ], ugrzęznąć (w + Ms) = viaznuť
+3 V wkradać się {wkradać się} [ˈfkradatɕ ɕɛ], wkraść się = vkradnúť sa
+3 N szczęśliwy traf {szczęśliwy traf} [ʂtʂɛ̃ɕˈlivɨ traf], m, szczęśliwe trafy = šťastná náhoda
+3 N fuks {fuks} [fuks], m, fuksy = šťastná náhoda
+1 V zmieniać się {zmieniać się} [ˈzmʲɛɲatɕ ɕɛ], zmienić się = zmeniť sa
+1 V stawać się {stawać się} [ˈstavatɕ ɕɛ], stać się (N) = zmeniť sa
+3 V unicestwić {unicestwić} [uɲiˈtsɛstfʲitɕ], dk (B) = zničiť
 
 # relations
 1 AN taki sam {taki sam} [ˈtaki sam] = rovnaký
@@ -320,6 +332,7 @@
 2 N równość {równość} [ˈruvnɔɕtɕ], ż, równości = rovnosť
 2 AN obojętny {obojętny} [ɔbɔˈjɛntnɨ] = ľahostajný
 2 V przypominać {przy|pominać} [pʂɨpɔˈmʲinatɕ], - = podobať sa
+2 V różnić się {różnić się} [ˈruʐɲitɕ ɕɛ], - (od + D) = líšiť sa
 2 AN nierówny {nie|równy} [ɲɛˈruvnɨ] = nerovnaký
 2 V wyrównywać {wy|równywać} [vɨruvˈnɨvatɕ], wyrównać = vyrovnať
 1 N różnica {różnica} [ruʐˈɲitsa], ż, różnice = rozdiel (odlišnosť)
@@ -609,6 +622,10 @@
 2 N obojętność {obojętność} [ɔbɔˈjɛntnɔɕtɕ], ż, - = nezáujem
 2 N brak zainteresowania {brak zainteresowania} [brak zaintɛrɛsɔˈvaɲa], m, - = nezáujem
 2 V mnożyć {mnożyć} [ˈmnɔʐɨtɕ], pomnożyć (B) = násobiť
+2 AN wliczony {wliczony} [vliˈtʂɔnɨ] = zahrnutý
+3 N gwóźdź programu {gwóźdź programu} [ɡvuʑtɕ prɔˈɡramu], m, gwoździe programu = zlatý klinec
+2 N ogół {ogół} [ˈɔɡuw], m, - = celok
+2 N ciąg {ciąg} [tɕɔŋk], m, ciągi = postupnosť
 
 # transfer-basic-verbs
 1 V dawać {dawać} [ˈdavatɕ], dać (C) = dať
@@ -737,6 +754,7 @@
 2 AN znaleziony {z|naleziony} [znalɛˈʑɔnɨ] = nájdený
 3 AN deficytowy {deficytowy} [dɛfitsɨˈtɔvɨ] = stratový
 3 AN nierentowny {nie|rentowny} [ɲɛrɛnˈtɔvnɨ] = stratový
+2 N odebranie {odebranie} [ɔdɛˈbraɲɛ], n, odebrania = odobratie
 
 # action-and-use
 1 N akcja {akcja} [ˈaktsja], ż, akcje = akcia (činnosť)
@@ -1243,6 +1261,10 @@
 3 AV błogo {błogo} [ˈbwɔɡɔ] = blažene
 2 V rozpakowywać {roz|pakowywać} [rɔspakɔˈvɨvatɕ], rozpakować (B) = rozbaliť
 2 V oddalić się {oddalić się} [ɔdˈdalitɕ ɕɛ], dk = vzdialiť sa
+2 V postępować {postępować} [pɔstɛmˈpɔvatɕ], postąpić = postupovať
+2 V zapobiegać {zapobiegać} [zapɔˈbʲɛɡatɕ], zapobiec (C) = odvrátiť
+3 V zażegnywać {zażegnywać} [zaʐɛɡˈnɨvatɕ], zażegnać (B) = odvrátiť
+2 AN żmudny {żmudny} [ˈʐmudnɨ] = namáhavý
 
 # change
 2 V okazywać {okazywać} [ɔkaˈzɨvatɕ], okazać = prejaviť
@@ -1275,6 +1297,17 @@
 2 V bandażować {bandażować} [bandaˈʐɔvatɕ], zabandażować = obviazať
 2 V obwiązywać {obwiązywać} [ɔbvʲɔ̃ˈzɨvatɕ], obwiązać = obviazať
 2 V mięknąć {mięknąć} [ˈmʲɛŋknɔɲtɕ], zmięknąć = zmäknúť
+2 N modyfikacja {modyfikacja} [mɔdɨfiˈkatsja], ż, modyfikacje = pozmenenie
+2 N stworzenie {stworzenie} [stfɔˈʐɛɲɛ], n, stworzenia = stvorenie
+2 V rozpadać się {roz|padać się} [rɔsˈpadatɕ ɕɛ], rozpaść się = rozpadať sa
+1 V łamać {łamać} [ˈwamatɕ], złamać (B) = zlomiť
+3 V naderwać {na|derwać} [naˈdɛrvatɕ], dk (B) = natrhnúť
+2 V gnieść {gnieść} [ɡɲɛɕtɕ], zgnieść (B) = krčiť
+2 V odpinać {od|pinać} [ɔtˈpʲinatɕ], odpiąć (B) = odopnúť
+2 V przypinać {przy|pinać} [pʂɨˈpʲinatɕ], przypiąć (B) = pripútať
+2 N rozkład {rozkład} [ˈrɔskwat], m, rozkłady = rozklad
+3 V szpecić {szpecić} [ˈʂpɛtɕitɕ], oszpecić (B) = zohyzdiť
+3 AN stagnujący {stagnujący} [staɡnuˈjɔntsɨ] = stagnujúci
 
 # more
 1 AN kolejny {kolejny} [kɔˈlɛjnɨ] = ďalší

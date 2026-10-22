@@ -46,6 +46,11 @@
 3 N le récif {récif} [ʁeˈsif], récifs = útes (morský)
 3 N le fjord {fjord} [fjɔʁd], fjords = fjord
 3 N le geyser {geyser} [ɡɛˈzɛʁ], geysers = gejzír
+2 AN courant {courant} [kuˈʁɑ̃], courante = tečúci
+2 V s'écouler {s'écouler} [sekuˈle] = odtekať
+3 V affluer {affluer} [aflyˈe] = vtekať
+2 V déborder {déborder} [debɔʁˈde] = pretiecť
+3 V s'étaler {s'étaler} [setaˈle] = roztiecť sa
 
 # water-features
 1 N la vague {vague} [vaɡ], vagues = vlna
@@ -107,6 +112,11 @@
 2 N les eaux usées (f) {eaux usées} [o yˈze], PL = odpadová voda
 3 N la station d'épuration {station d'épuration} [staˈsjɔ̃ depyʁaˈsjɔ̃], stations d'épuration = čistiareň odpadových vôd
 3 V clapoter {clapoter} [klapɔˈte] = špliechať
+3 N l'immersion (f) {immersion} [imɛʁˈsjɔ̃], immersions = ponorenie
+3 N le méandre {méandre} [meˈɑ̃dʁ], méandres = meander
+3 N le gué {gué} [ɡe], gués = brod
+2 N l'onde (f) {onde} [ɔ̃d], ondes = vlna
+3 N la banquise {banquise} [bɑ̃ˈkiz], banquises = ľadová kryha
 
 # water-land-edge
 2 N le rivage {rivage} [ʁiˈvaʒ], rivages = breh
@@ -121,3 +131,5 @@
 2 N le cap {cap} [kap], caps = mys
 1 N la piscine {piscine} [piˈsin], piscines = bazén
 1 N la glace {glace} [ɡlas], glaces = zmrzlina
+2 N l'archipel (m) {archipel} [aʁʃiˈpɛl], archipels = súostrovie
+3 N la flèche littorale {flèche littorale} [flɛʃ litɔˈʁal], flèches littorales = pobrežná kosa

@@ -77,6 +77,8 @@
 2 AV haut {haut} [o] = vysoko
 1 AV difficilement {difficile|ment} [difisilˈmɑ̃] = ťažko
 1 AV facilement {facile|ment} [fasilˈmɑ̃] = ľahko
+3 AN dégingandé {dégingandé} [deʒɛ̃ɡɑ̃ˈde], dégingandée = vytiahnutý
+3 AN pesant {pesant} [pəˈzɑ̃], pesante = ťažký
 
 # evaluation
 1 AN bon {bon} [bɔ̃], bonne = dobrý
@@ -647,6 +649,14 @@
 2 AN inaccessible {in|accessible} [inaksɛˈsibl] = neprístupný
 2 N l'imperfection (f) {im|perfection} [ɛ̃pɛʁfɛkˈsjɔ̃], imperfections = nedokonalosť
 2 N la complexité {complexité} [kɔ̃plɛksiˈte], complexités = zložitosť
+3 AN majestueux {majestueux} [maʒɛsˈtɥø], majestueuse, majestueux/majestueuses = majestátny
+3 N l'avantage (m) {avantage} [avɑ̃ˈtaʒ], avantages = zvýhodnenie
+3 AN délicat {délicat} [deliˈka], délicate = chúlostivý
+2 AN rare {rare} [ʁaʁ] = vzácny
+3 AN bénéfique {bénéfique} [beneˈfik] = prospešný
+3 N le péril {péril} [peˈʁil], périls = nebezpečenstvo
+3 AN accessoire {accessoire} [aksɛˈswaʁ] = vedľajší
+3 AN fâcheux {fâcheux} [fɑˈʃø], fâcheuse, fâcheux/fâcheuses = nepríjemný
 
 # state-properties
 1 AN nouveau {nouveau} [nuˈvo], nouvelle, nouveaux/nouvelles = nový
@@ -1231,6 +1241,20 @@
 2 N l'instabilité (f) {in|stabilité} [ɛ̃stabiliˈte], instabilités = nestabilita
 2 AV le moins possible {le moins possible} [lə mwɛ̃ pɔˈsibl] = čo najmenej
 2 V se renforcer {se ren|forcer} [sə ʁɑ̃fɔʁˈse] = silnieť
+3 AN comprimé {com|primé} [kɔ̃pʁiˈme], comprimée = stlačený
+3 N la vulnérabilité {vulnérabilité} [vylneʁabiliˈte], vulnérabilités = zraniteľnosť
+2 AN abîmé {abîmé} [abiˈme], abîmée = poškodený
+3 AN endommagé {endommagé} [ɑ̃dɔmaˈʒe], endommagée = poškodený
+3 AN branlant {branlant} [bʁɑ̃ˈlɑ̃], branlante = rozheganý
+3 AN attaché {attaché} [ataˈʃe], attachée = zviazaný
+3 AN pourri {pourri} [puˈʁi], pourrie = spráchnivený
+3 AN hérissé {hérissé} [eʁiˈse], hérissée = štetinatý
+2 AN usé {usé} [yˈze], usée = opotrebovaný
+3 AN trempé {trempé} [tʁɑ̃ˈpe], trempée = premoknutý
+2 AN manquant {manquant} [mɑ̃ˈkɑ̃], manquante (de) = chýbajúci
+2 AN moche {moche} [mɔʃ] = škaredý
+3 AN répulsif {répulsif} [ʁepylˈsif], répulsive = odporný
+3 AN imaginaire {imaginaire} [imaʒiˈnɛʁ] = fiktívny
 
 # corpus-adjectives
 2 AN réfléchi {réfléchi} [ʁefleˈʃi], réfléchie = premyslený
@@ -1391,6 +1415,7 @@
 3 AV banalement {banale|ment} [banalˈmɑ̃] = banálne
 3 AV lamentablement {lamentable|ment} [lamɑ̃tabləˈmɑ̃] = žalostne
 3 AV inopinément {inopiné|ment} [inɔpineˈmɑ̃] = nečakane
+3 AN éloquent {éloquent} [elɔˈkɑ̃], éloquente = veľavravný
 
 # quality
 2 AN polluant {polluant} [pɔˈlɥɑ̃], polluante = škodlivý pre životné prostredie
@@ -1443,6 +1468,18 @@
 3 AV ergonomiquement {ergonomique|ment} [ɛʁɡɔnɔmikˈmɑ̃] = ergonomicky
 3 AV inexorablement {inexorable|ment} [inɛɡzɔʁabləˈmɑ̃] = nezadržateľne
 3 AV inefficacement {inefficace|ment} [inefikasəˈmɑ̃] = neúčinne
+3 AN compatible {compatible} [kɔ̃paˈtibl] = zlučiteľný
+3 AV en germe {en germe} [ɑ̃ ˈʒɛʁm] = v náznakoch
+3 AN décontracté {dé|contracté} [dekɔ̃tʁakˈte], décontractée = ležérny
+3 AN modeste {modeste} [mɔˈdɛst] = nenáročný
+2 N la grâce {grâce} [ɡʁɑs], grâces = pôvab
+3 AN séduisant {séduisant} [sedɥiˈzɑ̃], séduisante = zvodný
+3 AN soigné {soigné} [swaˈɲe], soignée = úhľadný
+3 AN miteux {miteux} [miˈtø], miteuse, miteux/miteuses = ošarpaný
+3 AN remplaçable {rem|plaçable} [ʁɑ̃plaˈsabl] = nahraditeľný
+2 AN déchiré {dé|chiré} [deʃiˈʁe], déchirée = roztrhaný
+3 N l'inutilité (f) {in|utilité} [inytiliˈte], inutilités = zbytočnosť
+3 AN mensonger {mensonger} [mɑ̃sɔ̃ˈʒe], mensongère = nepravdivý
 
 # more
 2 AV incroyablement {incroyablement} [ɛ̃kʁwajabləˈmɑ̃] = neuveriteľne

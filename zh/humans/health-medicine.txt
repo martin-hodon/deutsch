@@ -174,6 +174,47 @@
 3 AN 看得见 {看得见} [kàndejiàn] = vidiaci
 1 PHR 醒过来 {醒过来} [xǐngguòlai] = prebrať sa
 3 PHR 苏醒 {苏醒} [sūxǐng] = prebrať sa
+3 N 链球菌 {链球菌} [liànqiújūn], 种 = streptokok
+3 AN 中毒 {中|毒} [zhòngdú] = otrávený (jedom)
+3 N 痉挛 {痉挛} [jìngluán], - = kŕč
+3 AN 独眼 {独眼} [dúyǎn] = jednooký
+3 V 脱臼 {脱|臼} [tuōjiù] = vykĺbiť
+3 N 痂 {痂} [jiā], 层 = chrasta
+3 N 烧伤 {烧伤} [shāoshāng], 处 = popálenina
+3 AN 青肿 {青肿} [qīngzhǒng] = pomliaždený
+3 N 疟疾 {疟疾} [nüèjí], - = malária
+3 N 湿疹 {湿疹} [shīzhěn], - = ekzém
+3 N 疣 {疣} [yóu], 个 = bradavica
+3 N 瘊子 {瘊子} [hóuzi], 个 = bradavica
+3 AN 病危 {病危} [bìngwēi] = smrteľne chorý
+3 AN 晕头转向 {晕头转向} [yūntóuzhuànxiàng] = omráčený
+3 AN 无精打采 {无精打采} [wújīngdǎcǎi] = malátny
+3 AN 松弛 {松弛} [sōngchí] = ochabnutý
+3 AN 微醺 {微醺} [wēixūn] = podnapitý
+3 N 狂犬病 {狂犬病} [kuángquǎnbìng], - = besnota
+3 N 黄疸 {黄疸} [huángdǎn], - = žltačka
+3 N 肝炎 {肝炎} [gānyán], - = hepatitída
+3 N 麻疹 {麻疹} [mázhěn], - = osýpky
+3 N 天花 {天花} [tiānhuā], - = kiahne
+3 N 疥疮 {疥疮} [jièchuāng], - = svrab
+3 N 闪腰 {闪|腰} [shǎnyāo], - = seknutie v krížoch
+3 V 致残 {致|残} [zhìcán] = zmrzačiť
+3 N 老茧 {老茧} [lǎojiǎn], 个 = mozoľ
+3 N 脓 {脓} [nóng], - = hnis
+3 V 化脓 {化|脓} [huànóng] = hnisať
+3 AN 化脓 {化|脓} [huànóng] = hnisavý
+3 N 溃疡 {溃疡} [kuìyáng], 个 = vred
+3 AN 肿 {肿} [zhǒng] = opuchnutý
+3 N 黑头 {黑头} [hēitóu], 个 = čierna bodka
+3 N 烧心 {烧心} [shāoxīn], - = pálenie záhy
+3 N 宫缩 {宫缩} [gōngsuō], 次 = kontrakcia
+3 N 刺激 {刺激} [cìjī], - = podráždenie
+3 N 水泡 {水泡} [shuǐpào], 个 = pľuzgier
+3 AN 癞皮 {癞皮} [làipí] = prašivý
+3 N 病原体 {病原体} [bìngyuántǐ], 种 = pôvodca choroby
+3 N 青肿 {青肿} [qīngzhǒng], 处 = pomliaždenina
+3 PHR 昏倒 {昏倒} [hūndǎo] = omdlieť
+3 N 水肿 {水肿} [shuǐzhǒng], - = opuch
 
 # treatment
 2 N 医学 {医学} [yīxué], - = medicína
@@ -253,6 +294,10 @@
 2 N 药品 {药品} [yàopǐn], 种 = liek
 2 N 医药 {医药} [yīyào], - = medicína
 2 V 治病 {治|病} [zhìbìng] = liečiť
+3 N 注射器 {注射器} [zhùshèqì], 支 = injekčná striekačka
+3 N 催眠 {催眠} [cuīmián], - = hypnóza
+3 N 尸检 {尸检} [shījiǎn], 次 = pitva
+3 N 手术刀 {手术刀} [shǒushùdāo], 把 = skalpel
 
 # medical-people-places
 1 N 医生 {医生} [yīshēng], 位 = lekár
@@ -285,6 +330,7 @@
 3 N 精神病学 {精神病学} [jīngshénbìngxué], - = psychiatria
 2 N 病房 {病房} [bìngfáng], 间 = oddelenie (nemocničné)
 3 N 病区 {病区} [bìngqū], 个 = oddelenie (nemocničné)
+2 N 科 {科} [kē], 个 = oddelenie (nemocničné)
 2 N 诊所 {诊所} [zhěnsuǒ], 家 = ordinácia
 3 N 诊室 {诊室} [zhěnshì], 间 = ordinácia
 3 V 行医 {行|医} [xíngyī] = praktizovať
@@ -308,6 +354,8 @@
 3 AN 美容 {美容} [měiróng] = kozmetický
 3 N 医疗卫生 {医疗卫生} [yīliáo wèishēng], - = zdravotníctvo
 3 N 康复者 {康复者} [kāngfùzhě], 位 = uzdravený
+3 N 太平间 {太平间} [tàipíngjiān], 间 = márnica
+3 N 江湖郎中 {江湖郎中} [jiānghúlángzhōng], 个 = šarlatán
 
 # hygiene-substances
 1 N 卫生 {卫生} [wèishēng], - = hygiena
@@ -325,6 +373,7 @@
 2 N 香烟 {香烟} [xiāngyān], 支 = cigareta
 1 V 抽烟 {抽|烟} [chōuyān] = fajčiť
 2 V 吸烟 {吸|烟} [xīyān] = fajčiť
+2 V 抽 {抽} [chōu] = fajčiť
 2 N 吸烟者 {吸烟者} [xīyānzhě], 位 = fajčiar
 3 N 烟民 {烟民} [yānmín], 个 = fajčiar
 1 N 不抽烟的人 {不抽烟的人} [bù chōuyān de rén], 个 = nefajčiar
@@ -346,6 +395,16 @@
 3 N 大麻 {大麻} [dàmá], - = konope
 3 N 针脚 {针脚} [zhēnjiao], 个 = steh
 2 N 热量 {热量} [rèliàng], - = kalória
+3 N 沐浴露 {沐浴露} [mùyùlù], 瓶 = sprchový gél
+1 V 洗澡 {洗|澡} [xǐzǎo] = kúpať sa
+3 V 刷洗 {刷洗} [shuāxǐ] = drhnúť
+3 V 冲洗 {冲洗} [chōngxǐ] = zmyť
+2 N 口罩 {口罩} [kǒuzhào], 个 = rúško
+3 V 打肥皂 {打|肥皂} [dǎféizào] = mydliť
+3 N 胰岛素 {胰岛素} [yídǎosù], - = inzulín
+3 N 胆固醇 {胆固醇} [dǎngùchún], - = cholesterol
+3 N 葡萄糖 {葡萄糖} [pútaotáng], - = glukóza
+3 N 维他命 {维他命} [wéitāmìng], - = vitamín
 
 # more
 3 N 堕胎 {堕胎} [duòtāi], - = potrat

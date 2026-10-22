@@ -63,6 +63,10 @@ V chátrať
 N rozpad
 V hniť
 V udusiť
+N hnitie
+N zdochlina
+V ošedivieť
+AN zhnitý
 
 # body-functions
 V dýchať
@@ -125,6 +129,36 @@ N látková výmena
 V driemať
 V zmĺknuť
 AN silný ako medveď
+N chvenie -- chvenie tela, trasenie
+V pulzovať
+V opiť sa -- piť, až kým človek nie je opitý
+V súložiť
+V vystriekať sa -- mať ejakuláciu
+V honiť si
+N hovno
+V vzlykať
+V prskať
+V nadúvať
+V vypotiť
+V prepotiť
+N vdych
+N výdych
+N zdriemnutie -- krátky spánok
+N ospalosť -- stav ospalého
+N zívnutie -- jedno zívnutie
+V nahryznúť
+V rozhryznúť
+V zahryznúť
+V ceriť
+V mľaskať
+V grgať
+V vyplakať sa
+V zabehnúť -- zabehlo mi (pri jedle, pití), zaskočiť; nie bežať
+V odkašľať si
+V pokašliavať
+V smrkať
+V prdnúť
+N enzým
 
 # nourishment
 V jesť
@@ -156,11 +190,22 @@ V lízať
 V olízať
 V hlodať
 V chrúmať
+V prejesť sa
+V hodovať
+V napchávať sa
+V maškrtiť
+V občerstviť
+N labužník
+V odpiť -- napiť sa trochu
+V vykrmovať
+V vylízať
+V cmúľať
 
 # senses-instinct
 N inštinkt
 AN inštinktívny : adverb inštinktívne
 N reflex
+V omámiť -- zbaviť jasného vedomia, opojiť
 
 # growth-adaptation
 N puberta
@@ -171,6 +216,12 @@ V prosperovať
 V zakoreniť sa
 V uhynúť : of zomrieť @ zvieratá
 V vyprchať
+V zrásť
+V dorásť
+V rozrastať sa
+V oplodniť
+V chradnúť
+N mutácia
 
 # more
 N ekosystém

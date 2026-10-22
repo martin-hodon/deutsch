@@ -79,6 +79,15 @@
 3 AV burzliwie {burzliwie} [buʐˈlivʲɛ] = búrlivo
 3 AV nieprzewidywalnie {nieprzewidywalnie} [ɲɛpʂɛvʲidɨˈvalɲɛ] = nepredvídateľne
 3 AV słonecznie {słonecznie} [swɔˈnɛtʂɲɛ] = slnečno
+2 V dmuchać {dmuchać} [ˈdmuxatɕ], dmuchnąć = fúkať
+2 V wiać {wiać} [vʲatɕ], powiać = fúkať
+3 V zdmuchiwać {z|dmuchiwać} [zdmuˈxivatɕ], zdmuchnąć (B) = sfúknuť
+3 N kłąb {kłąb} [kwɔmp], m, kłęby = kúdol
+2 N przeciąg {przeciąg} [ˈpʂɛtɕɔŋk], m, przeciągi = prievan
+3 V zwiewać {zwiewać} [ˈzvʲɛvatɕ], zwiać (B) = odfúknuť
+3 V owiewać {owiewać} [ɔˈvʲɛvatɕ], owionąć (B) = ovievať
+3 V mżyć {mżyć} [mʐɨtɕ], - = mrholiť
+3 V cichnąć {cichnąć} [ˈtɕixnɔɲtɕ], ucichnąć = zmierniť sa
 
 # temperature
 1 N temperatura {temperatura} [tɛmpɛraˈtura], ż, temperatury = teplota
@@ -152,6 +161,9 @@
 3 AV duszno {duszno} [ˈduʂnɔ] = dusno
 2 N ochładzanie {ochładzanie} [ɔxwaˈdzaɲɛ], n, - = ochladzovanie
 2 N ochłodzenie {ochłodzenie} [ɔxwɔˈdzɛɲɛ], n, ochłodzenia = ochladzovanie
+3 V stygnąć {stygnąć} [ˈstɨgnɔɲtɕ], ostygnąć = chladnúť
+3 N wrzenie {wrzenie} [ˈvʐɛɲɛ], n, wrzenia = var
+3 AN oziębły {oziębły} [ɔˈʑɛmbwɨ] = chladný
 
 # seasons-climate
 1 N pora roku {pora roku} [ˈpɔra ˈrɔku], ż, pory roku = ročné obdobie

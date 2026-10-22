@@ -74,6 +74,8 @@
 1 P 有的 {有的} [yǒude] = niektorý
 1 PHR 一点点 {一点点} [yīdiǎndiǎn] = trochu
 1 PHR 有点儿 {有点儿} [yǒudiǎnr] = trochu
+3 P 我们这种人 {我们这种人} [wǒmen zhè zhǒng rén] = jeden z nás
+3 P 咱们这种人 {咱们这种人} [zánmen zhè zhǒng rén] = jeden z nás
 
 # language-specific closed words (no Slovak word: a description)
 1 P 他们 {他们} [tāmen] = oni

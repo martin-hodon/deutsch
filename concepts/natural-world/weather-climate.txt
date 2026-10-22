@@ -63,6 +63,14 @@ N ochrana životného prostredia
 N závan
 N silný dážď
 N denná teplota
+V fúkať
+V sfúknuť
+N kúdol
+N prievan
+V odfúknuť -- odviať vetrom
+V ovievať -- jemne fúkať na niečo
+V mrholiť
+V zmierniť sa -- utíšiť sa, o vetre a búrke
 
 # temperature
 N teplota
@@ -112,6 +120,8 @@ N zákal
 V zakaliť
 AN vyschnutý
 N sucho
+V chladnúť
+N var -- varenie, bod varu
 
 # seasons-climate
 N ročné obdobie

@@ -48,6 +48,19 @@
 2 N les herbes aromatiques (f) {herbes aromatiques} [ɛʁb aʁɔmaˈtik], PL = bylinky
 3 AN non comestible {non comestible} [nɔ̃ kɔmɛsˈtibl] = nejedlý
 2 AN immangeable {im|mangeable} [ɛ̃mɑ̃ˈʒabl] = nejedlý
+3 N le bicarbonate de soude {bicarbonate de soude} [bikaʁbɔnat də ˈsud], - = jedlá sóda
+3 N la pâte levée {pâte levée} [pɑt ləˈve], pâtes levées = kysnuté cesto
+2 N la garniture {garniture} [gaʁniˈtyʁ], garnitures = plnka
+3 N la farce {farce} [faʁs], farces = plnka
+3 N le saindoux {saindoux} [sɛ̃ˈdu], saindoux = bravčová masť
+3 N la biscotte {biscotte} [bisˈkɔt], biscottes = suchár
+3 N le suif {suif} [sɥif], suifs = loj
+2 N le goûter {goûter} [guˈte], goûters = olovrant
+2 N les restes (m) {restes} [ʁɛst], PL = zvyšky jedla
+3 N l'aspic (m) {aspic} [asˈpik], aspics = rôsol
+3 N la laiterie {laiterie} [lɛtˈʁi], laiteries = mliekáreň
+2 N la vinaigrette {vinaigrette} [vinɛˈgʁɛt], vinaigrettes = dresing
+2 N la bouchée {bouchée} [buˈʃe], bouchées = sústo
 
 # staples
 1 N le pain {pain} [pɛ̃], pains = chlieb
@@ -129,6 +142,16 @@
 2 N la lentille {lentille} [lɑ̃ˈtij], lentilles = šošovica
 2 N le tofu {tofu} [tɔˈfu], tofus = tofu
 3 N le taco {taco} [taˈko], tacos = taco
+3 N le pesto {pesto} [pɛsˈto], pestos = pesto
+2 N le croissant {croissant} [kʁwaˈsɑ̃], croissants = rožok
+3 N la miche {miche} [miʃ], miches = bochník
+3 N la brioche tressée {brioche tressée} [bʁiˈjɔʃ tʁɛˈse], brioches tressées = vianočka
+2 N la tartine {tartine} [taʁˈtin], tartines = obložený chlieb
+2 N les macaronis (m) {macaronis} [makaʁɔˈni], PL = kolienka
+3 N le coulis {coulis} [kuˈli], coulis = pretlak
+2 N la purée {purée} [pyˈʁe], purées = pyré
+2 N la nouille {nouille} [nuj], nouilles = rezance
+2 N le gnocchi {gnocchi} [ɲɔˈki], gnocchis = gnocchi
 
 # meat-fish-food
 1 N le bœuf {bœuf} [bœf], bœufs = hovädzie mäso
@@ -158,6 +181,12 @@
 2 N le döner kebab {döner kebab} [dønɛʁ keˈbab], döner kebabs = döner kebab
 2 N le sushi {sushi} [syˈʃi], sushis = suši
 1 V grossir {grossir} [ɡʁɔˈsiʁ] = pribrať
+3 N la saucisse de foie {saucisse de foie} [soˈsis də fwa], saucisses de foie = jaternica
+2 N la viande fumée {viande fumée} [vjɑ̃d fyˈme], viandes fumées = údené mäso
+3 N les tripes (f) {tripes} [tʁip], PL = držky
+3 N la viande salée {viande salée} [vjɑ̃d saˈle], viandes salées = solené mäso
+3 N l'huile de poisson (f) {huile de poisson} [ɥil də pwaˈsɔ̃], huiles de poisson = rybí tuk
+3 N le fromage de tête {fromage de tête} [fʁɔˈmaʒ də tɛt], fromages de tête = tlačenka
 
 # fruits
 1 N le fruit {fruit} [fʁɥi], fruits = ovocie
@@ -204,6 +233,16 @@
 2 N le citron vert {citron vert} [sitʁɔ̃ ˈvɛʁ], citrons verts = limetka
 2 N la lime {lime} [lim], limes = limetka
 2 N le pamplemousse {pamplemousse} [pɑ̃pləˈmus], pamplemousses = grapefruit
+2 N la mandarine {mandarine} [mɑ̃daˈʁin], mandarines = mandarínka
+3 N le kaki {kaki} [kaˈki], kakis = kaki
+3 N la griotte {griotte} [gʁiˈjɔt], griottes = višňa
+2 N la mûre {mûre} [myʁ], mûres = moruša
+2 N la pistache {pistache} [pisˈtaʃ], pistaches = pistácia
+3 N la noix de pécan {noix de pécan} [nwa də peˈkɑ̃], noix de pécan = pekanový orech
+3 N la noix de cajou {noix de cajou} [nwa də kaˈʒu], noix de cajou = kešu orech
+3 N la noix du Brésil {noix du Brésil} [nwa dy bʁeˈzil], noix du Brésil = para orech
+2 N l'amande (f) {amande} [aˈmɑ̃d], amandes = mandľa
+3 N le groseillier {groseillier} [gʁozɛˈje], groseilliers = ríbezľa
 
 # vegetables
 1 N le légume {légume} [leˈɡym], légumes = zelenina
@@ -246,6 +285,15 @@
 2 N le poireau {poireau} [pwaˈʁo], poireaux = pór (zelenina)
 2 N l'asperge (f) {asperge} [asˈpɛʁʒ], asperges = špargľa
 2 N le champignon {champignon} [ʃɑ̃piˈɲɔ̃], champignons = šampiňón
+3 N la rhubarbe {rhubarbe} [ʁyˈbaʁb], rhubarbes = rebarbora
+2 N l'artichaut (m) {artichaut} [aʁtiˈʃo], artichauts = artičok
+3 N le chou frisé {chou frisé} [ʃu fʁiˈze], choux frisés = kučeravá kapusta
+3 N le chou-rave {chou-rave} [ʃuˈʁav], choux-raves = kaleráb
+3 N l'ail des ours (m) {ail des ours} [aj dez ˈuʁs], - = medvedí cesnak
+3 N la légumineuse {légumineuse} [legymiˈnøz], légumineuses = strukovina
+2 N le pois chiche {pois chiche} [pwa ˈʃiʃ], pois chiches = cícer
+3 N le raifort {raifort} [ʁɛˈfɔʁ], raiforts = chren
+3 N la ciboulette {ciboulette} [sibuˈlɛt], ciboulettes = pažítka
 
 # sweets-drinks
 1 N le gâteau {gâteau} [ɡɑˈto], gâteaux = koláč
@@ -302,6 +350,16 @@
 2 N les chips (f) {chips} [ʃips], PL = čipsy
 2 N le caramel {caramel} [kaʁaˈmɛl], caramels = karamel
 2 N la gelée {gelée} [ʒəˈle], gelées = želé
+2 N le toast {toast} [tost], toasts = prípitok
+3 N la bibine {bibine} [biˈbin], bibines = žbrnda
+3 N l'hydromel (m) {hydromel} [idʁɔˈmɛl], hydromels = medovina
+2 N le spiritueux {spiritueux} [spiʁiˈtɥø], spiritueux = liehovina
+2 N la compote {compote} [kɔ̃ˈpɔt], compotes = kompót
+2 N la pâtisserie {pâtisserie} [pɑtisˈʁi], pâtisseries = cukráreň
+3 N le kouglof {kouglof} [kuˈglɔf], kouglofs = bábovka
+3 N le gâteau à la broche {gâteau à la broche} [gɑto a la bʁɔʃ], gâteaux à la broche = trdelník
+2 N la sucette {sucette} [syˈsɛt], sucettes = lízanka
+3 N la réglisse {réglisse} [ʁeˈglis], - = pendrek (sladkosť)
 
 # cooking
 1 V cuisiner {cuisiner} [kɥiziˈne] = variť
@@ -362,6 +420,24 @@
 1 V dîner {dîner} [diˈne] = stolovať
 2 V consommer {consommer} [kɔ̃sɔˈme] = skonzumovať
 3 V garnir {garnir} [ɡaʁˈniʁ] = garnírovať
+3 V cailler {cailler} [kaˈje] = zraziť sa (mlieko)
+2 N l'infusion (f) {infusion} [ɛ̃fyˈzjɔ̃], infusions = nálev
+3 N la marinade {marinade} [maʁiˈnad], marinades = nálev
+3 V gratiner {gratiner} [gʁatiˈne] = zapiecť
+3 V roussir {roussir} [ʁuˈsiʁ] = pripáliť
+2 V faire fondre {faire fondre} [fɛʁ ˈfɔ̃dʁ], irr, fait = roztopiť
+2 V presser {presser} [pʁɛˈse] = odšťaviť
+3 V fermenter {fermenter} [fɛʁmɑ̃ˈte] = kvasiť
+2 V égoutter {égoutter} [egutˈte] = cediť
+3 V filtrer {filtrer} [filˈtʁe] = cediť
+3 V trop saler {trop saler} [tʁo saˈle] = presoliť
+3 N la fermentation {fermentation} [fɛʁmɑ̃taˈsjɔ̃], fermentations = kvasenie
+3 V rassasier {rassasier} [ʁasaˈzje] = zasýtiť
+2 V râper {râper} [ʁɑˈpe] = strúhať
+2 V vider {vider} [viˈde] = vyvrhnúť
+3 V décanter {décanter} [dekɑ̃ˈte] = odliať
+2 V vider {vider} [viˈde] = vyliať
+2 V rajouter {rajouter} [ʁaʒuˈte] = doliať
 
 # kitchen-tools
 1 N le couteau {couteau} [kuˈto], couteaux = nôž
@@ -422,6 +498,22 @@
 2 N le couteau de cuisine {couteau de cuisine} [kuto də kɥiˈzin], couteaux de cuisine = kuchynský nôž
 1 N le menu {menu} [məˈny], menus = menu
 1 N le restaurant {restaurant} [ʁɛstoˈʁɑ̃], restaurants = pohostinstvo
+3 N le casse-noix {casse-noix} [kasˈnwa], casse-noix = luskáčik
+2 N le pot {pot} [po], pots = kelímok
+2 N la coupe {coupe} [kup], coupes = čaša
+3 N le calice {calice} [kaˈlis], calices = čaša
+2 N la casserole {casserole} [kasˈʁɔl], casseroles = kastról
+3 N l'éplucheur (m) {éplucheur} [eplyˈʃœʁ], éplucheurs = škrabka
+3 N l'économe (m) {économe} [ekɔˈnɔm], économes = škrabka
+2 N le rouleau à pâtisserie {rouleau à pâtisserie} [ʁuˈlo a pɑtisˈʁi], rouleaux à pâtisserie = valček na cesto
+3 N le verre doseur {verre doseur} [vɛʁ doˈzœʁ], verres doseurs = odmerka
+2 N la planche à découper {planche à découper} [plɑ̃ʃ a dekuˈpe], planches à découper = doska na krájanie
+3 N l'écumoire (f) {écumoire} [ekyˈmwaʁ], écumoires = zberačka
+3 N la broche {broche} [bʁɔʃ], broches = ražeň
+3 N la centrifugeuse {centrifugeuse} [sɑ̃tʁifyˈʒøz], centrifugeuses = odšťavovač
+3 N la verseuse {verseuse} [vɛʁˈsøz], verseuses = kanvica
+3 N le frigidaire {frigidaire} [fʁiʒiˈdɛʁ], frigidaires = chladnička
+3 N le faitout {faitout} [fɛˈtu], faitouts = hrniec
 
 # taste-quality
 1 N le goût {goût} [ɡu], goûts = chuť (na jazyku)
@@ -451,3 +543,8 @@
 1 AN cuit {cuit} [kɥi], cuite = varený
 2 AN bouilli {bouilli} [buˈji], bouillie = varený
 2 AN de mauvais goût {de mauvais goût} [də movɛ ɡu] = nevkusný
+3 AN précuit {pré|cuit} [pʁekɥi], précuite = predvarený
+2 AN périmé {périmé} [peʁiˈme], périmée = expirovaný
+3 AN âpre {âpre} [ɑpʁ] = trpký
+3 AN astringent {astringent} [astʁɛ̃ˈʒɑ̃], astringente = trpký
+2 N la saveur {saveur} [saˈvœʁ], saveurs = chuť (na jazyku)

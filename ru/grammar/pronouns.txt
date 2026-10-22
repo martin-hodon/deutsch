@@ -49,6 +49,8 @@
 1 P несколько {несколько} [ˈnʲeskəlʲkə] = niekoľkí
 1 PHR немного {не|много} [nʲɪmˈnoɡə] = trochu
 1 P никакой {никакой} [nʲɪkɐˈkoj] = žiadny
+2 P один из нас {один из нас} [ɐˈdʲin ɪz nas] = jeden z nás
+3 P наш брат {наш брат} [naʂ brat] = jeden z nás
 
 # language-specific closed words (no Slovak word: a description)
 1 P свой {свой} [svoj] = svoj

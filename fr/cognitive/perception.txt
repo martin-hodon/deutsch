@@ -81,6 +81,10 @@
 3 AV sensiblement {sensible|ment} [sɑ̃sibləˈmɑ̃] = badateľne
 1 AV apparemment {appar|emment} [apaʁaˈmɑ̃] = zdanlivo
 3 N la cécité {cécité} [sesiˈte], cécités = slepota
+3 V jeter un coup d'œil {jeter un coup d'œil} [ʒəte œ̃ ku ˈdœj], irr (sur) = mrknúť sa
+3 V lever les yeux {lever les yeux} [ləve lez ˈjø], irr = vzhliadnuť
+2 V aveugler {aveugler} [avøˈɡle] = oslepiť
+3 V reluire {re|luire} [ʁəˈlɥiʁ], irr, relui = lesknúť sa
 
 # hearing
 1 V entendre {entendre} [ɑ̃ˈtɑ̃dʁ], irr, entendu = počuť
@@ -151,6 +155,13 @@
 3 AN entendant {entendant} [ɑ̃tɑ̃ˈdɑ̃], entendante = počujúci
 3 N la puanteur {puanteur} [pɥɑ̃ˈtœʁ], puanteurs = zápach
 2 N la mauvaise odeur {mauvaise odeur} [movɛz oˈdœʁ], mauvaises odeurs = zápach
+3 N la brûlure {brûlure} [bʁyˈlyʁ], brûlures = štípanie
+2 V piquer {piquer} [piˈke] = štípať
+3 N la démangeaison {démangeaison} [demɑ̃ʒɛˈzɔ̃], démangeaisons = svrbenie
+2 N la douceur {douceur} [duˈsœʁ], douceurs = sladkosť chuti
+2 N l'odorat (m) {odorat} [ɔdɔˈʁa], - = čuch
+2 N le toucher {toucher} [tuˈʃe], - = hmat
+3 AN renfermé {renfermé} [ʁɑ̃fɛʁˈme], renfermée = zatuchnutý
 
 # colors
 1 N la couleur {couleur} [kuˈlœʁ], couleurs = farba
@@ -194,3 +205,9 @@
 2 AN turquoise {turquoise} [tyʁˈkwaz] = tyrkysový
 2 AN beige {beige} [bɛʒ] = béžový
 2 AN noir et blanc {noir et blanc} [nwaʁ e blɑ̃] = čiernobiely
+3 AN azuré {azuré} [azyˈʁe], azurée = azúrový
+3 N la coloration {coloration} [kɔlɔʁaˈsjɔ̃], colorations = zafarbenie
+2 V pâlir {pâlir} [pɑˈliʁ] = zblednúť
+3 V décolorer {dé|colorer} [dekɔlɔˈʁe] = odfarbiť
+3 V recolorer {re|colorer} [ʁəkɔlɔˈʁe] = prefarbiť
+3 AN teinté {teinté} [tɛ̃ˈte], teintée = zafarbený

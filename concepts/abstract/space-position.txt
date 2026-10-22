@@ -105,6 +105,7 @@ N veľká časť
 N ohnisko
 N číslo (poradové)
 N popredie
+V zmestiť sa -- vojsť sa do priestoru
 
 # direction-distance
 N smer
@@ -304,9 +305,15 @@ V krútiť sa
 V križovať
 V pritiahnuť
 V postúpiť (vyššie)
+V mihať sa
+V odraziť sa
+V prehýbať sa
+V nakloniť
+V zaniesť
 
 # travel
 V pricestovať
+V prísť spolu
 
 # position
 AN priechodný

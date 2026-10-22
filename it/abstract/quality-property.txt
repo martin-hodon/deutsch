@@ -92,6 +92,7 @@
 2 AV in alto {in·alto} [in ˈalto] = vysoko
 1 AV a fatica {a·fatica} [a faˈtiːka] = ťažko
 2 AV di poco {di·poco} [di ˈpɔːko] = tesne
+3 AN allampanato {allampanato} [alːampaˈnaːto], allampanata = vytiahnutý
 
 # evaluation
 1 AN buono {buono} [ˈbwɔːno], buona = dobrý
@@ -690,6 +691,11 @@
 2 AN inaccessibile {in|accessibile} [inattʃeˈsːiːbile] = neprístupný
 2 N l'imperfezione (f) {im|perfezione} [imperfeˈtsjoːne], imperfezioni = nedokonalosť
 2 N la complessità {complessità} [komplesːiˈta], complessità = zložitosť
+3 AN maestoso {maestoso} [maesˈtoːzo], maestosa = majestátny
+3 N l'agevolazione (f) {agevol|azione} [adʒevolaˈtsjoːne], agevolazioni = zvýhodnenie
+2 AN delicato {delicato} [deliˈkaːto], delicata = chúlostivý
+2 AN raro {raro} [ˈraːro], rara = vzácny
+3 AN benefico {benefico} [beˈnɛːfiko], benefica, benefici/benefiche = prospešný
 
 # state-properties
 1 AN nuovo {nuovo} [ˈnwɔːvo], nuova = nový
@@ -1188,6 +1194,16 @@
 3 N l'instabilità (f) {in|stabilità} [instabiliˈta], instabilità = nestabilita
 2 AV il meno possibile {il meno possibile} [il ˈmeːno poˈsːiːbile] = čo najmenej
 2 V rafforzarsi {rafforzarsi} [rafːorˈtsarsi] = silnieť
+3 AN compresso {compresso} [komˈprɛsːo], compressa = stlačený
+3 N la vulnerabilità {vulnerabil|ità} [vulnerabiliˈta], vulnerabilità = zraniteľnosť
+2 AN danneggiato {danneggiato} [danːedˈdʒaːto], danneggiata = poškodený
+3 AN traballante {traballante} [trabaˈlːante] = rozheganý
+2 AN legato {legato} [leˈɡaːto], legata = zviazaný
+3 AN marcio {marcio} [ˈmartʃo], marcia, marci/marce = spráchnivený
+3 AN ispido {ispido} [ˈispido], ispida = štetinatý
+3 AN consunto {consunto} [konˈsunto], consunta = opotrebovaný
+3 AN fradicio {fradicio} [ˈfraːditʃo], fradicia, fradici/fradice = premoknutý
+3 AN mancante {mancante} [manˈkante] (di) = chýbajúci
 
 # corpus-adjectives
 2 AN ben pensato {ben pensato} [ben penˈsaːto], ben pensata = premyslený
@@ -1319,6 +1335,8 @@
 3 AN prenatalizio {prenatalizio} [prenataˈliːtsjo], prenatalizia = predvianočný
 3 AN contraddittorio {contraddittorio} [kontradːiˈtːɔːrjo], contraddittoria = protirečivý
 2 AV senza impegno {senza·impegno} [ˈsɛntsa imˈpeɲːo] = nezáväzne
+3 AN eloquente {eloquente} [eloˈkwɛnte] = veľavravný
+2 AN significativo {significativo} [siɲːifikaˈtiːvo], significativa = veľavravný
 
 # quality
 2 AN inquinante {inquinante} [iŋkwiˈnante] = škodlivý pre životné prostredie
@@ -1360,6 +1378,20 @@
 3 AN ermetico {ermetico} [erˈmɛːtiko], ermetica, ermetici/ermetiche = tesný (nepriepustný)
 3 AN stagno {stagno} [ˈstaɲːo], stagna = tesný (nepriepustný)
 1 N il peso {peso} [ˈpeːzo], pesi = závažie
+2 AN compatibile {compatibile} [kompaˈtiːbile] = zlučiteľný
+3 AV per accenni {per accenni} [per atˈtʃenːi] = v náznakoch
+3 AN disinvolto {disinvolto} [dizinˈvolto], disinvolta = ležérny
+3 AN modesto {modesto} [moˈdɛsto], modesta = nenáročný
+2 N il fascino {fascino} [ˈfaʃːino], fascini = pôvab
+2 N la grazia {grazia} [ˈɡrattsja], grazie = pôvab
+3 AN seducente {seducente} [seduˈtʃɛnte] = zvodný
+3 AN curato {curato} [kuˈraːto], curata = úhľadný
+3 AN trasandato {trasandato} [trazanˈdaːto], trasandata = ošarpaný
+3 AN sostituibile {sostitu|ibile} [sostituˈiːbile] = nahraditeľný
+3 AN stracciato {stracciato} [stratˈtʃaːto], stracciata = roztrhaný
+3 AN lacero {lacero} [ˈlaːtʃero], lacera = roztrhaný
+3 N l'inutilità (f) {inutil|ità} [inutiliˈta], inutilità = zbytočnosť
+2 AN falso {falso} [ˈfalso], falsa = nepravdivý
 
 # more
 2 AV incredibilmente {incredibilmente} [iŋkredibilˈmente] = neuveriteľne

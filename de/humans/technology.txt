@@ -42,6 +42,10 @@
 3 N die Lupe {Lupe} [ˈluːpə], Lupen = lupa
 3 V ticken {ticken} [ˈtɪkən], hat = tikať
 3 AN hydraulisch {hydraulisch} [hyˈdʁaʊlɪʃ] = hydraulický
+3 AN einstellbar {ein|stellbar} [ˈaɪnʃtɛlbaːɐ] = nastaviteľný
+3 AN verstellbar {ver|stellbar} [fɛɐˈʃtɛlbaːɐ] = nastaviteľný
+3 N der Kolben {Kolben} [ˈkɔlbən], Kolben = piest
+3 N die Schaltung {Schaltung} [ˈʃaltʊŋ], Schaltungen = obvod
 
 # electricity-energy
 2 N die Batterie {Batterie} [batəˈʁiː], Batterien = batéria
@@ -80,6 +84,8 @@
 3 N die Kilowattstunde {Kilowatt|stunde} [kiloˈvatʃtʊndə], Kilowattstunden = kilowatthodina
 3 N das Watt {Watt} [vat], Watt = watt
 2 V ausladen {aus·laden} [ˈaʊslaːdən], lädt aus/lud aus/ausgeladen [lɛːt aʊs/luːt aʊs/ˈaʊsɡəlaːdən], hat (A) = vyložiť
+3 N der Kurzschluss {Kurz|schluss} [ˈkʊʁtsʃlʊs], Kurzschlüsse = skrat
+2 V stoßen {stoßen} [ˈʃtoːsən], stößt/stieß/gestoßen [ʃtøːst/ʃtiːs/ɡəˈʃtoːsən], hat (A) = strčiť
 
 # computing-communication-devices
 1 N der Computer {Computer} [kɔmˈpjuːtɐ], Computer = počítač
@@ -227,10 +233,17 @@
 3 N der Upload {Up|load} [ˈaploːt], Uploads = nahratie
 2 AV offline {offline} [ˈɔflaɪn] = offline
 3 V herauszoomen {heraus·zoomen} [hɛˈʁaʊstsuːmən], hat = oddialiť
+3 N die Leertaste {Leer|taste} [ˈleːɐtastə], Leertasten = medzerník
+3 N der Arbeitsspeicher {Arbeits|speicher} [ˈaʁbaɪtsʃpaɪçɐ], Arbeitsspeicher = operačná pamäť
+3 N die Aufzählung {Auf|zählung} [ˈaʊftsɛːlʊŋ], Aufzählungen = enumerácia
+3 N die Konstante {Konstante} [kɔnˈstantə], Konstanten = konštanta
+3 V ausreiben {aus·reiben} [ˈaʊsʁaɪbən], reibt aus/rieb aus/ausgerieben [ʁaɪpt aʊs/ʁiːp aʊs/ˈaʊsɡəʁiːbən], hat (A) = zotrieť
+3 V auswischen {aus·wischen} [ˈaʊsvɪʃən], hat (A) = zotrieť
 
 # devices
 3 V demontieren {demontieren} [demɔnˈtiːʁən], hat (A) = demontovať, rozobrať
 3 V knipsen {knipsen} [ˈknɪpsən], hat (A) = fotiť, cvakať
+3 N die Abdeckung {Ab|deckung} [ˈapdɛkʊŋ], Abdeckungen = kryt
 
 # more
 2 N der Tweet {Tweet} [tviːt], Tweets = tweet
