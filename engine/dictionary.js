@@ -25,7 +25,7 @@ import { loadParadigms } from "./paradigm.js";
 import { formsIndex } from "./wordforms.js";
 import { loadDerivations, derivationText } from "./derive.js";
 import { createVoice, loadProsody } from "./speak.js";
-import { loadText, t, tn, applyText } from "./text.js";
+import { loadText, t, tn, has, applyText } from "./text.js";
 import { createPractice } from "./practice.js";
 import * as DE from "../de/morph.js";
 import { adaptVoice, loadNet, loadProfiles, lexicon, recognizeAll, record, voiceSample } from "./listen.js";
@@ -284,12 +284,15 @@ const regionText = (e) => {
   const codes = e.region ? e.region.split(" ") : [], places = codes.filter((c) => c !== "dialect").map((c) => t("region-" + c));
   return places.length ? t("region", { r: places.join(", ") }) : codes.length ? t("region-dialect") : "";
 };
+// a word's sound as shown: the pinyin and IPA of Chinese, the IPA else
+const soundText = (e) => (e.pinyin ? `${e.pinyin} · [${e.ipa}]` : e.ipa ? `[${e.ipa}]` : "");
 function resultRow(e, ...extra) {
-  const row = el("button", "result", el("span", "result-word", shown(e)), el("span", "result-pos", e.pos), e.region ? el("span", "result-region", regionText(e)) : null, el("span", "result-sk", e.sk.slice(0, 3).join(", ")), ...extra);
+  const row = el("button", "result", el("span", "result-word", shown(e), soundText(e) ? el("span", "result-ipa", soundText(e)) : null), el("span", "result-pos", e.pos), e.region ? el("span", "result-region", regionText(e)) : null, el("span", "result-sk", e.sk.slice(0, 3).join(", ")), ...extra);
   row.onclick = () => openEntry(e);
   return row;
 }
 function showResults() {
+  printable = [];
   if (stats && lang === "de") return showStats();
   if (byRank) return showByRank();
   if (listView) return showMyList();
@@ -369,7 +372,7 @@ function showTopic() {
 const PAGE = 100;
 let sentinel = null;
 function paged(list, all, row) {
-  sentinel?.disconnect(); sentinel = null;
+  sentinel?.disconnect(); sentinel = null; printable = all;
   let n = 0;
   const more = el("div", "more mute"); list.append(more);
   const next = () => {
@@ -386,11 +389,7 @@ let byRank = false, listView = false;
 function showByRank() {
   const list = $("results"); list.replaceChildren(); $("no-results").hidden = true;
   const all = (query.trim() ? lookup(query) : dict.entries).filter((e) => e.rank !== Infinity && kept(e)).sort((a, b) => a.rank - b.rank || a.order - b.order);
-  paged(list, all, (e) => {
-    const row = resultRow(e, el("span", "result-rank", "#" + e.rank), rowStar(e));
-    row.querySelector(".result-pos").after(el("span", "result-ipa", e.pinyin ? `${e.pinyin} · [${e.ipa}]` : e.ipa ? `[${e.ipa}]` : ""));   // (the sound: the pinyin and IPA of Chinese, the IPA else)
-    return row;
-  });
+  paged(list, all, (e) => resultRow(e, el("span", "result-rank", "#" + e.rank), rowStar(e)));
   if (!all.length) list.append(el("p", "mute", t("no-results")));
 }
 
@@ -414,6 +413,7 @@ function showMyList() {
   const list = $("results"); list.replaceChildren(); $("no-results").hidden = true;
   const keys = myList().filter((k) => k.startsWith(lang + "|")).map((k) => k.slice(lang.length + 1)), q = fold(query.trim());
   const items = keys.map((id) => dict.entries.find((e) => e.id === id)).filter((e) => e && kept(e) && (!q || fold(e.word).includes(q) || fold(e.sk.join(" ")).includes(q)));
+  printable = items;
   for (const e of items) {
     const rm = el("span", "result-remove", "✕"); rm.title = t("remove-from-list");
     rm.onclick = (ev) => { ev.stopPropagation(); toggleList(e); showMyList(); };
@@ -427,6 +427,55 @@ const link = (e) => { const a = el("a", "word-link", shown(e)); a.href = "#" + h
 const hashOf = (e) => `${lang}/${encodeURIComponent(e.id)}`;
 // a list of words with a gloss each (the part of speech and the first meaning, or `gloss(x)`)
 const wordList = (items, gloss = (x) => `${x.pos} · ${x.sk[0]}`) => { const ul = el("div", "word-list"); for (const x of items) ul.append(el("span", "word-item", link(x), el("span", "word-gloss", " " + gloss(x)))); return ul; };
+
+// ---- PRINT: the list shown (my list, a category's words, a search's results, by frequency) as a sheet to learn from --
+// -- a table of the words with their article, sound, grammar (plural, forms) and meanings, in the order chosen, the
+// meanings left blank on request (cover-and-test on paper). Its options (🖨 beside the search) are kept in the browser.
+let printable = [];
+const PRINT_KEY = "dictionary:print";
+const printOpts = () => { try { return { order: "list", sound: true, grammar: true, meaning: true, blank: false, ...JSON.parse(localStorage.getItem(PRINT_KEY) ?? "{}") }; } catch { return { order: "list", sound: true, grammar: true, meaning: true, blank: false }; } };
+const printTitle = () => (listView ? t("my-list") : query.trim() ? `„${query.trim()}“` : byRank ? t("by-frequency") : topic ? nameOf(topic) : LANGS[lang].name);
+function printPanel() {
+  const box = $("print-panel");
+  if (!box.hidden) { box.hidden = true; return; }
+  const o = printOpts(), n = printable.length;
+  const check = (k) => { const c = el("input"); c.type = "checkbox"; c.id = "print-" + k; c.checked = o[k]; return el("label", "chip", c, " " + t("print-" + k)); };
+  const order = el("select"); order.id = "print-order";
+  for (const k of ["list", "az", "pos"]) order.append(new Option(t("print-order-" + k), k));
+  order.value = o.order;
+  const title = el("input"); title.id = "print-title"; title.value = printTitle();
+  const go = el("button", "go", t("print-go")); go.disabled = !n;
+  go.onclick = () => {
+    const opts = { order: order.value, ...Object.fromEntries(["sound", "grammar", "meaning", "blank"].map((k) => [k, $("print-" + k).checked])) };
+    try { localStorage.setItem(PRINT_KEY, JSON.stringify(opts)); } catch { /* (storage blocked) */ }
+    printSheet(printable, title.value, opts); window.print();
+  };
+  box.replaceChildren(el("div", "print-row", el("label", "", t("print-title") + " ", title), el("span", "mute", tn("print-count", n))),
+                      el("div", "print-row", order, check("sound"), check("grammar"), check("meaning"), check("blank")),
+                      el("div", "print-row", go, el("span", "mute", n ? t("print-help") : t("print-none"))));
+  box.hidden = false;
+}
+function printSheet(items, title, o) {
+  const POS = ["N", "V", "AN", "AV", "P", "PRE", "CON", "NUM", "ART", "PAR", "INT", "PHR"], posName = (p) => (has("pos." + p) ? t("pos." + p) : p);
+  const posRank = (e) => { const i = POS.indexOf(e.pos); return i < 0 ? POS.length : i; };
+  const sorted = o.order === "az" ? [...items].sort((a, b) => fold(a.word).localeCompare(fold(b.word), lang))
+    : o.order === "pos" ? [...items].sort((a, b) => posRank(a) - posRank(b) || fold(a.word).localeCompare(fold(b.word), lang)) : items;
+  const sheet = $("print-sheet"), head = el("tr", "", el("th", "n", "#"), el("th", "", t("print-word")));
+  if (o.grammar) head.append(el("th", "", t("print-grammar")));
+  if (o.meaning) head.append(el("th", "meaning", t("print-meaning")));
+  const tbl = el("table", "print-table", el("thead", "", head)), body = el("tbody");
+  let pos = null;
+  sorted.forEach((e, i) => {
+    if (o.order === "pos" && e.pos !== pos) { pos = e.pos; body.append(el("tr", "print-group", el("td", "", ""), el("td", "", posName(e.pos)))); body.lastChild.lastChild.colSpan = 1 + o.grammar + o.meaning; }
+    const word = el("td", "word", el("b", "", shown(e)), o.sound && soundText(e) ? el("div", "ipa", soundText(e)) : null);
+    const tr = el("tr", "", el("td", "n", String(i + 1)), word);
+    if (o.grammar) tr.append(el("td", "grammar", [o.order === "pos" ? null : posName(e.pos), ...details(e)].filter(Boolean).join(" · ")));   // (grouped: the part of speech is the group's)
+    if (o.meaning) tr.append(el("td", "meaning", o.blank ? "" : e.sk.join(", ")));
+    body.append(tr);
+  });
+  tbl.append(body);
+  sheet.replaceChildren(el("h1", "", title), el("div", "print-meta", `${LANGS[lang].name} · ${tn("print-count", items.length)} · ${new Date().toLocaleDateString()}`), tbl);
+}
 
 // ---- CATEGORIES (world/categories.txt, engine/meaning.js): the tree a noun's concept is in ------------------------------
 const meanings = {};
@@ -662,7 +711,7 @@ async function openEntry(e, { push = true } = {}) {
   const starText = () => { const on = inList(e); star.textContent = on ? "★" : "☆"; star.title = t(on ? "remove-from-list" : "add-to-list"); star.classList.toggle("on", on); };
   star.onclick = () => { toggleList(e); starText(); }; starText();
   view.append(el("div", "entry-head", el("h2", "", shown(e)), say, star));
-  view.append(el("div", "entry-ipa", e.pinyin ? `${e.pinyin} · ${e.ipa}` : e.ipa ? `[${e.ipa}]` : ""));
+  view.append(el("div", "entry-ipa", soundText(e)));
   view.append(el("div", "entry-meta", `${e.pos} · FREQ ${e.freq} · ${e.category}` + (e.parts && e.parts.includes("|") ? ` · ${e.parts}` : "")));
   view.append(el("div", "entry-sk", e.sk.join(", ")));
   if (e.region) {   // (a regional word: where it is said, and the concept's general words -- Jänner: Januar)
@@ -783,6 +832,7 @@ export async function start() {
   $("mylist").onclick = () => { listView = !listView; byRank = false; views(); };
   showListCount();
   $("parts").onclick = () => showComponent("");   // (the index of components by strokes)
+  $("print").onclick = printPanel;
   $("title").onclick = () => (location.href = "trainer.html");   // (the title switches back to the trainer)
   const openHash = () => {
     const hh = fromHash(); if (!hh) { if (open || !$("entry").hidden) showList(); return; }

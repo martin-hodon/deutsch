@@ -18,7 +18,9 @@
     <button id="parts" class="tab stats-toggle" data-t="components" data-t-title="components-help" hidden>部件</button>
     <button id="byrank" class="tab stats-toggle" data-t="by-frequency" data-t-title="by-frequency-help">by frequency</button>
     <button id="mylist" class="tab stats-toggle" data-t-title="my-list-help">★</button>
+    <button id="print" class="tab stats-toggle" data-t-title="print-help-button">🖨</button>
   </div>
+  <div id="print-panel" class="card print-panel" hidden></div>
   <div class="search-row topic-row">
     <select id="topic" data-t-title="topic-title"></select>
     <select id="section" data-t-title="topic-title" hidden></select>
@@ -34,6 +36,7 @@
   <p id="no-results" class="mute" hidden data-t="no-results">nothing found</p>
   <section id="entry" class="card entry" hidden></section>
 </main>
+<div id="print-sheet" class="print-sheet"></div>
 <script type="module">
 import { start } from "./engine/dictionary.js";
 start();
