@@ -176,17 +176,7 @@ compounds-left = {n} Komposita ausgelassen
 roots-only-title = ein Kompositum (Haus|tür) hat den Artikel seines letzten Nomens (die Tür) -- es mitzuzählen würde nur dieses Nomen wiederholen
 # the dictionary's print sheet (🖨)
 print-help-button = die gezeigte Liste als Lernblatt drucken
-print-title = Titel
-print-count = {n} Wörter
-print-count.1 = 1 Wort
-print-order-list = Reihenfolge der Liste
-print-order-az = A–Z
-print-order-pos = nach Wortart
-print-sound = Aussprache
 print-grammar = Grammatik
 print-meaning = Bedeutung
-print-blank = Bedeutung leer (zum Abfragen)
-print-go = Drucken
-print-help = druckt die gerade gezeigte Liste: meine Liste, eine Kategorie, eine Suche oder nach Häufigkeit
 print-none = die Liste ist leer: wähle eine Kategorie, suche etwas oder öffne meine Liste
 print-word = Wort
