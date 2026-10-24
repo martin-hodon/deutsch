@@ -55,23 +55,39 @@ export function showWelcome(name, today, overall, onStart) {
   $("title").onclick = () => (location.href = "dictionary.html");   // (the title switches to the dictionary; the tabs beside it too)
 }
 
-// THE OFFLINE COPY on the welcome screen: the version kept, and the update only when asked -- `check()` -> the online
-// version (null: no network), `update()` fetches it and reloads
+// THE VERSION (engine/offline.js: `check()` -> the online version, null with no network; `update()` fetches it and
+// reloads): in the ⋯ settings, with a check for a newer one -- and the trainer checks by itself
+// once at the start (with a network): a newer one online shows a line over whatever is on screen, its Update beside it.
+// (The check used to be on the welcome screen alone, which a learner who comes back to an open tab never sees again: a
+// phone stayed on an old version for days.) Updating replaces only the trainer's files: the answers and the settings are
+// the browser's storage, and stay.
 export function showVersion(kept, { check, update }) {
-  $("version").textContent = kept ? t("offline-copy", { v: kept }) : t("making-offline");
+  const here = t("offline-copy", { v: kept });
+  $("version").textContent = kept ? here : t("making-offline");
   $("checkUpdate").hidden = false;
-  $("checkUpdate").onclick = async () => {
+  const run = async (button) => {   // (either Update: both say what happens)
+    for (const b of [$("doUpdate"), $("noteUpdate")]) { b.disabled = true; b.textContent = t("updating"); }
+    try { await update(); } catch (error) {
+      for (const b of [$("doUpdate"), $("noteUpdate")]) { b.disabled = false; b.textContent = t("update-failed") + (button === b && error?.message ? ` · ${error.message}` : ""); }
+    }
+  };
+  const offer = (online) => {
+    $("version").textContent = `${here} · ${t("new-version", { v: online })}`;
+    Object.assign($("doUpdate"), { hidden: false, textContent: t("update-now"), onclick: () => run($("doUpdate")) });
+    $("update-text").textContent = t("update-ready", { v: online });
+    Object.assign($("noteUpdate"), { textContent: t("update-now"), onclick: () => run($("noteUpdate")) });
+    $("update-note").hidden = false;
+  };
+  const ask = async (quiet) => {
     $("checkUpdate").disabled = true;
     const online = await check();
     $("checkUpdate").disabled = false;
-    if (online === null) return void ($("version").textContent = `${t("offline-copy", { v: kept })} · ${t("no-network")}`);
-    if (online === kept) return void ($("version").textContent = `${t("offline-copy", { v: kept })} · ${t("newest")}`);
-    $("version").textContent = `${t("offline-copy", { v: kept })} · ${t("new-version", { v: online })}`;
-    Object.assign($("doUpdate"), { hidden: false, textContent: t("update-now"), onclick: async () => {
-      $("doUpdate").disabled = true; $("doUpdate").textContent = t("updating");
-      try { await update(); } catch (error) { $("doUpdate").disabled = false; $("doUpdate").textContent = t("update-failed") + (error?.message ? ` · ${error.message}` : ""); }
-    } });
+    if (online && kept && online !== kept) return offer(online);
+    if (quiet) return;
+    $("version").textContent = `${here} · ${t(online === null ? "no-network" : "newest")}`;
   };
+  $("checkUpdate").onclick = () => ask(false);
+  if (kept) ask(true);
 }
 
 export function showTrainer(name) {

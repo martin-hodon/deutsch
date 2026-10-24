@@ -4,7 +4,9 @@
 // of <lang>/rules/neutral.txt (I/me/my/mine/myself, yo/me/me/mi/mí/me, 我/我的) and, in German, the pron.* cells of
 // de/rules/morphology.txt (mich, mir, ihm ...) -> the P entry of the base pronoun. One index, built once per language,
 // shared by the reading page (the word under the mouse) and the dictionary (dem finds der, sind sein, them they).
-//   await formsIndex(d, lang) -> Map: folded form -> [{ e, cell, ipa }]   (cell: present.3sg, pl, dat.m, pron.1sg.acc ...)
+//   await formsIndex(d, lang) -> Map: folded form -> [{ e, cell, cells, ipa }]   (cell: the first -- present.3sg, pl, dat.m,
+//   pron.1sg.acc ...; cells: every cell a form folded alike fills, with that form: ran -> { cell: V.past.1sg, form: ran } ...,
+//   läuft and lauft both under lauft)
 import { loadParadigms } from "./paradigm.js";
 import * as DE from "../de/morph.js";
 
@@ -19,7 +21,8 @@ export async function formsIndex(d, lang) {
   const add = (form, e, cell = "", ipa = "") => {
     if (typeof form !== "string" || !form) return;
     const k = fold(form), list = index.get(k) ?? index.set(k, []).get(k), have = list.find((x) => x.e === e);
-    if (!have) list.push({ e, cell, ipa }); else { if (have.cell === "form" && cell && cell !== "form") have.cell = cell; if (!have.ipa && ipa) have.ipa = ipa; }
+    if (!have) list.push({ e, cell, cells: cell ? [{ cell, form }] : [], ipa });
+    else { if (have.cell === "form" && cell && cell !== "form") have.cell = cell; if (cell && !have.cells.some((c) => c.cell === cell && c.form === form)) have.cells.push({ cell, form }); if (!have.ipa && ipa) have.ipa = ipa; }
   };
   for (const e of d.entries) {
     add(e.word, e, "", e.ipa);

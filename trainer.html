@@ -12,6 +12,8 @@
     <h1 id="title" class="flag"></h1>
   </header>
 
+  <!-- a newer version online (engine/offline.js, checked by itself at the start): one line over whatever is shown -->
+  <p id="update-note" class="update-note" hidden><span id="update-text"></span> <button id="noteUpdate"></button></p>
   <section id="welcome" class="welcome">
     <h2 id="welcome-title"></h2>
     <p id="welcome-text"></p>
@@ -21,7 +23,6 @@
       <button class="big" data-t="lets-go">Let's go ▶</button>
     </form>
     <button id="start" class="big" hidden data-t="learn">Learn ▶</button>
-    <p class="version"><span id="version"></span> <button id="checkUpdate" hidden data-t="check-update">check for update</button> <button id="doUpdate" hidden></button></p>
   </section>
 
   <div id="trainer" hidden>
@@ -87,6 +88,8 @@
       <select id="voice"><option value="man" data-t="man">man</option><option value="woman" data-t="woman">woman</option><option value="child" data-t="child">child</option></select>
       <select id="tempo" data-t-title="tempo-title"><option value="0.85" data-t="tempo-slow">slower</option><option value="1" data-t="tempo-normal">normal tempo</option><option value="1.2" data-t="tempo-faster">faster</option><option value="1.4" data-t="tempo-fast">fast</option></select>
     </div>
+    <h4 data-t="version">Version</h4>
+    <p class="version"><span id="version"></span> <button id="checkUpdate" hidden data-t="check-update">check for update</button> <button id="doUpdate" hidden></button></p>
   </details>
 
   <details id="panel-stats" class="panel stats">

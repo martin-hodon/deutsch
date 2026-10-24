@@ -112,8 +112,13 @@ h1 #learner { float: right; color: var(--mute); font-size: 16px; font-weight: 50
 .welcome form { display: flex; flex-direction: column; gap: 12px; align-items: center; }
 .welcome input { font: inherit; font-size: 20px; padding: 10px 14px; border: 2px solid var(--line); border-radius: 10px;
                  background: var(--bg); color: var(--ink); text-align: center; width: min(320px, 100%); }
-.version { margin: 22px 0 0; color: var(--mute); font-size: 13px; }
+.version { margin: 6px 0 0; color: var(--mute); font-size: 13px; }
 .version button { font-size: 13px; padding: 3px 9px; }
+/* a newer version online: one line over whatever is shown (ui.showVersion) */
+.update-note { margin: 0 auto 12px; max-width: 760px; padding: 8px 12px; border: 1px solid var(--accent); border-radius: 8px;
+               background: var(--card); font-size: 15px; display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; justify-content: space-between; }
+.update-note[hidden] { display: none; }
+.update-note button { font-size: 15px; padding: 4px 12px; }
 .welcome-stats { display: grid; gap: 6px; margin: 0 auto 24px; font-size: 17px; }
 .welcome-stats .label { display: inline-block; min-width: 5.5em; color: var(--mute); font-size: 13px; text-transform: uppercase;
                         letter-spacing: .05em; }
@@ -330,6 +335,7 @@ body[data-group="sentences"] #prompt { font-size: 24px; line-height: 1.35; }
 .text .w.unknown { border-bottom-color: transparent; color: var(--mute); }
 .text .w.derived { border-bottom-style: dashed; }   /* (not in the dictionary, read as a derivation of a word that is) */
 .tip-derived { font-size: 13px; color: var(--mute); margin-bottom: 4px; }
+.tip-gram { font-size: 13px; font-style: italic; color: var(--mute); }
 .text .say-para { border: 0; background: none; font-size: 15px; opacity: .55; padding: 0 6px 0 0; vertical-align: middle; }
 .text .say-para:hover { opacity: 1; }
 .tip { position: absolute; z-index: 20; max-width: 320px; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 8px 12px; box-shadow: 0 6px 20px rgba(0,0,0,.12); font-size: 15px; }

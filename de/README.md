@@ -139,10 +139,11 @@ words' meanings, each in its own file under `sentences/` (`sentences/README.md`)
 The trainer is a static site: push this folder to a GitHub repository and turn on Pages (Settings → Pages → Deploy
 from a branch → `main`, `/ (root)`); it opens at `https://<user>.github.io/<repo>/` (`index.html` leads to the trainer).
 On the first visit `sw.js` (a service worker) keeps every file `offline.json` lists in the browser, and from then on
-the trainer opens from that copy -- with no network at all. It does NOT update on its own: the welcome screen shows the
-version kept and a **check for update** button; only **update now** fetches the new version, whole, into a new copy and
-drops the old one once the new one is complete (a failed download leaves the kept copy as it was). The learner's
-answers and settings (IndexedDB) stay through updates.
+the trainer opens from that copy -- with no network at all. It does NOT update on its own: at the start (with a network)
+it checks for a newer version, and if there is one a line over the page says so, with **update now** beside it; the
+version kept and a **check for update** button are in ⋯ Settings. Only **update now** fetches the new version, whole,
+into a new copy and drops the old one once the new one is complete (a failed download leaves the kept copy as it was).
+The learner's answers and settings (IndexedDB) stay through updates.
 
 Before pushing a change: `python3 tools/compile.py` -- it writes `deutsch.tsv` and `offline.json` (the files and their
 version, a hash of their contents: tools/offline.py). A new version is what a learner's update then finds.

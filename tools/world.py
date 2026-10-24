@@ -184,7 +184,7 @@ def world_rows(senses, states, objstates, names):
     for at, s in lines("cast.txt"):
         m = re.match(r"^ACTOR (\S+) : (f|m)((?: ; [^;]+)*)$", s)
         if not m: errs.append(f"{at}: ACTOR Name : f|m ; job Noun ; traits a | b ; likes x | y ; dislikes z ; home Noun"); continue
-        if m.group(1) not in names.get(m.group(2), set()): errs.append(f"{at}: {m.group(1)} is no name.{m.group(2)} (grammar.txt)")
+        if m.group(1) not in names.get(m.group(2), set()): errs.append(f"{at}: {m.group(1)} is no name.{m.group(2)} (world/lists.txt)")
         f = {}
         for part in m.group(3).split(" ; ")[1:]:
             k, _, v = part.strip().partition(" ")
@@ -339,12 +339,10 @@ def categories():
 
 
 def names_of():
-    """the first names of grammar.txt (WORDS name.f / name.m)"""
-    out = {"f": set(), "m": set()}
-    for s in open(os.path.join(check.ROOT, "rules", "grammar.txt"), encoding="utf-8"):
-        m = re.match(r"^WORDS name\.(f|m): (.*)$", s)
-        if m: out[m.group(1)] |= {x.split(" [")[0].strip() for x in m.group(2).split("|")}
-    return out
+    """the first names (WORDS name.f / name.m -- world/lists.txt since they left grammar.txt: read where every WORDS list
+    is read, or the cast's 16 people were "no name" and the compile stopped before the offline package)"""
+    g = grammar_words()
+    return {k: set(g.get(f"name.{k}", [])) for k in ("f", "m")}
 
 
 if __name__ == "__main__":

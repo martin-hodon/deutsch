@@ -1,7 +1,7 @@
 // THE OFFLINE COPY: a service worker that keeps every file of the trainer (offline.json lists them) in the browser and
-// answers from there -- so the trainer opens with no network at all. It never updates on its own: a new version is
-// fetched only when the learner asks for it (trainer/offline.js, the welcome screen's Update), into a new cache, and the
-// old one dropped once the new one is whole.
+// answers from there -- so the trainer opens with no network at all. It never updates on its own: the trainer checks for
+// a newer version and offers it (engine/ui.js showVersion: a line over the page, and ⋯ Settings), and it is fetched only
+// when the learner presses Update (engine/offline.js), into a new cache, the old one dropped once the new one is whole.
 //
 //   caches: "trainer-<version>" -- the one in use (the newest whole one)
 

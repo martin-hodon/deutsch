@@ -1,5 +1,7 @@
 // THE READING PAGE (reading.html): a text pasted in a language is shown word by word; a word under the mouse shows what
-// the dictionary knows of it -- the dictionary word it is a form of (läuft -> laufen), its meanings, its IPA --, a click
+// the dictionary knows of it -- the dictionary word it is a form of (läuft -> laufen) and which form it is (Präsens ·
+// er/sie/es: engine/layouts.js), its meanings, its IPA; an English clitic (dog's, it's, don't) as the word and what the
+// clitic is --, a click
 // says it (speak.js, the form's own sound by the language's letter rules, engine/sounds.js), a 📖 in the tip opens its
 // dictionary entry, and each paragraph has a 🔊 that reads it whole. Forms are found through an index of every word's
 // forms (engine/wordforms.js, shared with the dictionary) built once for the language; Chinese text is cut into dictionary words by the longest match.
@@ -9,6 +11,7 @@ import { LANGS } from "./langs.js";
 import { keptPair, keepLearn } from "./storage.js";
 import { mountHeader } from "./header.js";
 import { formsIndex, fold, ELISIONS } from "./wordforms.js";
+import { cellsLabel } from "./layouts.js";
 import { loadDerivations, derivationText } from "./derive.js";
 import { loadSounds } from "./sounds.js";
 import { loadCharMeanings } from "./hanzi.js";
@@ -58,13 +61,44 @@ function tokenize(text) {
 // what the dictionary knows of a token: the entries it is a form of (the word itself first, then its forms) -- none: the
 // known words it is derived from (engine/derive.js: roughly -> rough + -ly), each hit with its `derived` reading
 function know(w) {
-  const k = fold(w.replace(/’/g, "'")), hits = dict.index.get(k) ?? dict.index.get(k.replace(/'$/, "")) ?? [];
+  const k = fold(w.replace(/’/g, "'"));
+  if (!dict.index.has(k) && lang === "en") { const c = clitic(k, w); if (c.length) return c; }
+  const found = dict.index.get(k) ?? dict.index.get(k.replace(/'$/, "")) ?? [], low = w.replace(/’/g, "'").toLowerCase();
+  const exactly = (h) => h.e.word.toLowerCase() === low || (h.cells ?? []).some((c) => c.form.toLowerCase() === low);
+  const hits = found.some(exactly) ? found.filter(exactly) : found;   // (großen: groß, not Größe -- the index folds ö to o)
   if (!hits.length) return dict.derive(w, dict).slice(0, 2).map((x) => ({ e: x.e, cell: "", ipa: "", derived: x }));
   const exact = hits.filter((h) => fold(h.e.word) === k), rest = hits.filter((h) => fold(h.e.word) !== k);
   return [...exact, ...rest].sort((a, b) => a.e.freq - b.e.freq || a.e.rank - b.e.rank).slice(0, 5);
 }
+// ENGLISH CLITICS: a word with 's, ', n't, 're, 've, 'll, 'd or 'm -- the word's own hits, each with what the clitic is
+// (`note`), then the dictionary words the clitic stands for (is, has, not ...: the forms index finds them, so the tip
+// says which form). 's after a noun or a name is the possessive (dog's), after a pronoun or there / here / where ... it is
+// "is" or "has" (it's), after let "us"; ' after a plural noun is its possessive (dogs')
+const CLITICS = [[/^(.+)n't$/, "n't", ["not"]], [/^(.+)'s$/, "'s", null], [/^(.+s)'$/, "'", null], [/^(.+)'re$/, "'re", ["are"]],
+                 [/^(.+)'ve$/, "'ve", ["have"]], [/^(.+)'ll$/, "'ll", ["will"]], [/^(.+)'d$/, "'d", ["would", "had"]], [/^(.+)'m$/, "'m", ["am"]]];
+const NOT_BASE = { ca: "can", wo: "will", sha: "shall", ai: "am" };   // (can't, won't, shan't, ain't)
+function clitic(k, w) {
+  for (const [re, cl, means] of CLITICS) {
+    const m = k.match(re);
+    if (!m) continue;
+    const base = cl === "n't" ? NOT_BASE[m[1]] ?? m[1] : m[1];
+    let hits = dict.index.get(base) ?? [];
+    if (cl === "n't") hits = hits.filter((h) => h.e.pos === "V");                     // (can't: the verb, not the tin)
+    const noun = hits.some((h) => h.e.pos === "N"), closed = hits.some((h) => /^(P|AV|CON|ART)$/.test(h.e.pos));
+    if (cl === "'" && !noun) return [];                                               // (a closing quote: 'this')
+    const stands = cl === "'s" ? (base === "let" ? ["us"] : closed ? ["is", "has"] : null) : means;
+    const note = stands ? `${cl} = ${stands.join(" / ")}` : cl === "'s" ? "possessive (or 's = is / has)" : "possessive";
+    // (the word's own forms only for a noun -- dog's: singular, dogs': plural; dog's: the noun, not to dog)
+    const own = (stands ? hits : hits.filter((h) => h.e.pos === "N" || !noun)).map((h) => ({ ...h, note, cells: h.e.pos === "N" ? h.cells : [] }));
+    const meant = (stands ?? []).flatMap((s) => (dict.index.get(s) ?? []).filter((h) => /^(V|AV|PAR|P)$/.test(h.e.pos))
+      .map((h) => ({ ...h, note: base !== m[1] ? `${k} = ${base} ${s}` : `${cl} = ${s}` })));   // (won't = will not)
+    if (!own.length && !meant.length && !stands) return [{ e: null, note: `${w.slice(0, w.length - cl.length)} + ${cl} · ${note}` }];   // (John's: a name)
+    return [...own, ...meant].slice(0, 5);
+  }
+  return [];
+}
 // how a token sounds: the entry's IPA for the word itself, else the form by the letter rules, else nothing
-const soundOf = (w, hit) => (hit && fold(hit.e.word) === fold(w) ? hit.e.ipa : hit?.ipa || dict.ipaOf(w) || hit?.e.ipa || "");
+const soundOf = (w, hit) => (hit?.e && fold(hit.e.word) === fold(w) ? hit.e.ipa : hit?.ipa || dict.ipaOf(w) || hit?.e?.ipa || "");
 
 // ---- the page --------------------------------------------------------------------------------------------------------------
 let tip = null, tipFor = null;
@@ -75,12 +109,17 @@ function showTip(span, hits) {
   for (const r of asChar) tip.append(el("div", "tip-word", span.textContent, el("span", "tip-pos", ` ${r.pinyin}`)), el("div", "", r.meanings.join(", ")));
   if (!hits.length && !asChar.length) tip.append(el("div", "tip-word mute", "?"));
   for (const h of hits.slice(0, 4)) {
+    if (!h.e) { tip.append(el("div", "tip-gram", h.note)); continue; }   // (no word of the dictionary: what is known of the form)
     if (h.derived) tip.append(el("div", "tip-derived", `${span.textContent} = ${derivationText(h.derived)}`));
     const e = h.e, head = el("div", "tip-word", shown(e), el("span", "tip-pos", ` ${e.pos}`));
     const a = el("a", "tip-open", "📖"); a.href = `dictionary.html#${lang}/${encodeURIComponent(e.id)}`; a.title = t("dictionary"); head.append(" ", a);
     tip.append(head);
     tip.append(el("div", "tip-ipa", (e.pinyin ? e.pinyin + " · " : "") + (e.ipa ? `[${e.ipa}]` : "")));
-    tip.append(el("div", "tip-sk", e.sk.slice(0, 3).join(", ") + (h.cell && h.cell !== "form" ? ` · ${h.cell.replace(/^[A-Z]+\./, "")}` : "")));
+    const w = span.textContent.toLowerCase(), cells = h.cells ?? [], exact = cells.filter((c) => c.form.toLowerCase() === w);   // (läuft, not lauft)
+    const form = fold(e.word) !== fold(w) ? cellsLabel(lang, e.pos, (exact.length ? exact : cells).map((c) => c.cell)) : "";   // (which form of it the word is)
+    const gram = [h.note, form].filter(Boolean).join(" · ");
+    if (gram) tip.append(el("div", "tip-gram", gram));
+    tip.append(el("div", "tip-sk", e.sk.slice(0, 3).join(", ")));
   }
   document.body.append(tip);
   const r = span.getBoundingClientRect(), tw = tip.offsetWidth;
