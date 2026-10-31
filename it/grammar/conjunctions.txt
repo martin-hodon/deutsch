@@ -9,8 +9,8 @@
 1 CON però {però} [peˈrɔ] = ale
 1 CON perché {perché} [perˈke] = lebo
 2 CON poiché {poiché} [pojˈke] = lebo
-1 CON ma {ma} [ma] = nýbrž
-3 CON bensì {bensì} [benˈsi] = nýbrž
+1 CON ma {ma} [ma] = ale skôr
+3 CON bensì {bensì} [benˈsi] = ale skôr
 3 CON nonché {nonché} [nonˈke] = ako aj
 1 CON sia… sia {sia… sia} [ˈsiːa ˈsiːa] = ako… tak aj
 2 CON tanto… quanto {tanto… quanto} [ˈtanto ˈkwanto] = ako… tak aj

@@ -596,7 +596,7 @@
 2 N bribe {bribe} [braɪb], bribes = úplatok
 2 N blackmail {black|mail} [ˈblækmeɪl], - = vydieranie
 2 V blackmail {black|mail} [ˈblækmeɪl] (sb) = vydierať
-2 N blackmailer {black|mail|er} [ˈblækmeɪlə], blackmailers = vyděrač
+2 N blackmailer {black|mail|er} [ˈblækmeɪlə], blackmailers = vydierač
 2 N vandalism {vandal|ism} [ˈvændəlɪzəm], - = vandalizmus
 2 N vandal {vandal} [ˈvændl], vandals = vandal
 2 N assault {assault} [əˈsɔːlt], assaults = ublíženie na zdraví

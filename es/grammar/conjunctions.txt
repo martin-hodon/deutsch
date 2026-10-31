@@ -6,7 +6,7 @@
 2 CON o bien {o bien} [o ˈβjen] = buď
 1 CON pero {pero} [ˈpeɾo] = ale
 1 CON pues {pues} [pwes] = lebo
-1 CON sino {sino} [ˈsino] = nýbrž
+1 CON sino {sino} [ˈsino] = ale skôr
 2 CON así como {así como} [aˈsi ˈkomo] = ako aj
 2 CON tanto como {tanto como} [ˈtanto ˈkomo] = ako… tak aj
 1 CON ni {ni} [ni] = ani

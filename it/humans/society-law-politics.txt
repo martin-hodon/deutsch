@@ -715,7 +715,7 @@
 3 N la mazzetta {mazzetta} [matˈtsetːa], mazzette = úplatok
 2 N il ricatto {ricatto} [riˈkatːo], ricatti = vydieranie
 2 V ricattare {ricattare} [rikaˈtːaːre] = vydierať
-2 N il ricattatore {ricattatore} [rikatːaˈtoːre], ricattatori = vyděrač
+2 N il ricattatore {ricattatore} [rikatːaˈtoːre], ricattatori = vydierač
 2 N il vandalismo {vandalismo} [vandaˈlizmo], - = vandalizmus
 2 N il vandalo {vandalo} [ˈvandalo], vandali = vandal
 2 N l'aggressione (f) {aggressione} [aɡːreˈsːjoːne], aggressioni = ublíženie na zdraví

@@ -560,7 +560,7 @@ N podplácanie
 N úplatok
 N vydieranie
 V vydierať
-N vyděrač
+N vydierač
 N vandalizmus
 N vandal
 N ublíženie na zdraví

@@ -8430,7 +8430,7 @@ grammar/conjunctions	但是	0	1	CON	但是				tan4ʂɨ4	但是							ale	dànsh�
 grammar/conjunctions	可是	0	1	CON	可是				kʰɤ3ʂɨ4	可是							ale	kěshì				grammar/conjunctions/coordinating	
 grammar/conjunctions	因为	0	1	CON	因为				in1weɪ4	因为							lebo	yīnwèi				grammar/conjunctions/coordinating	
 grammar/conjunctions	由于	0	2	CON	由于				joʊ2y2	由于							lebo	yóuyú				grammar/conjunctions/coordinating	
-grammar/conjunctions	而是	0	2	CON	而是				ɐɹ2ʂɨ4	而是							nýbrž	érshì				grammar/conjunctions/coordinating	
+grammar/conjunctions	而是	0	2	CON	而是				ɐɹ2ʂɨ4	而是							ale skôr	érshì				grammar/conjunctions/coordinating	
 grammar/conjunctions	以及	0	2	CON	以及				i3tɕi2	以及							ako aj	yǐjí				grammar/conjunctions/coordinating	
 grammar/conjunctions	并且	0	2	CON	并且				piŋ4tɕʰjɛ3	并且							ako… tak aj	bìngqiě				grammar/conjunctions/coordinating	
 grammar/conjunctions	而且	0	1	CON	而且				ɐɹ2tɕʰjɛ3	而且							ako… tak aj	érqiě				grammar/conjunctions/coordinating	
@@ -15349,7 +15349,7 @@ humans/society-law-politics	敲诈	0	3	N	敲诈				tɕʰjaʊ1tʂa4	敲诈							
 humans/society-law-politics	勒索	0	3	N	勒索				lɤ4swo3	勒索							vydieranie	lèsuǒ				humans/society-law-politics/law-justice	
 humans/society-law-politics	敲诈	0	3	V	敲诈				tɕʰjaʊ1tʂa4	敲诈							vydierať	qiāozhà				humans/society-law-politics/law-justice	
 humans/society-law-politics	勒索	0	3	V	勒索				lɤ4swo3	勒索							vydierať	lèsuǒ				humans/society-law-politics/law-justice	
-humans/society-law-politics	勒索者	0	3	N	勒索者				lɤ4swo3tʂɤ3	勒索者							vyděrač	lèsuǒzhě	个			humans/society-law-politics/law-justice	
+humans/society-law-politics	勒索者	0	3	N	勒索者				lɤ4swo3tʂɤ3	勒索者							vydierač	lèsuǒzhě	个			humans/society-law-politics/law-justice	
 humans/society-law-politics	恶意破坏	0	3	N	恶意破坏				ɤ4i4 pʰwo4xwaɪ4	恶意破坏							vandalizmus	èyì pòhuài				humans/society-law-politics/law-justice	
 humans/society-law-politics	破坏者	0	3	N	破坏者				pʰwo4xwaɪ4tʂɤ3	破坏者							vandal	pòhuàizhě	个			humans/society-law-politics/law-justice	
 humans/society-law-politics	人身伤害	0	3	N	人身伤害				ɻən2ʂən1 ʂaŋ1xaɪ4	人身伤害							ublíženie na zdraví	rénshēn shānghài				humans/society-law-politics/law-justice	

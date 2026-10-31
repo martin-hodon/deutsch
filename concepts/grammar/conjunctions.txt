@@ -5,7 +5,7 @@ CON alebo
 CON buď
 CON ale
 CON lebo
-CON nýbrž
+CON ale skôr
 CON ako aj
 CON ako… tak aj
 CON ani

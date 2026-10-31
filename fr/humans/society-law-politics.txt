@@ -668,7 +668,7 @@
 2 N le pot-de-vin {pot-de-vin} [podəˈvɛ̃], pots-de-vin = úplatok
 2 N le chantage {chantage} [ʃɑ̃ˈtaʒ], chantages = vydieranie
 2 V faire chanter {faire chanter} [fɛʁ ʃɑ̃ˈte], irr, fait = vydierať
-3 N le maître chanteur {maître chanteur} [mɛtʁ ʃɑ̃ˈtœʁ], maîtres chanteurs = vyděrač
+3 N le maître chanteur {maître chanteur} [mɛtʁ ʃɑ̃ˈtœʁ], maîtres chanteurs = vydierač
 3 N le vandalisme {vandal|isme} [vɑ̃daˈlism], - = vandalizmus
 3 N le vandale {vandale} [vɑ̃ˈdal], vandales = vandal
 3 N les coups et blessures (m) {coups et blessures} [ku e bleˈsyʁ], PL = ublíženie na zdraví

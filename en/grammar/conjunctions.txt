@@ -5,7 +5,7 @@
 1 CON either {either} [ˈaɪðə] = buď
 1 CON but {but} [bʌt] = ale
 2 CON for {for} [fɔː] = lebo
-1 CON but rather {but rather} [bʌt ˈrɑːðə] = nýbrž
+1 CON but rather {but rather} [bʌt ˈrɑːðə] = ale skôr
 2 CON as well as {as well as} [əz ˈwel əz] = ako aj
 2 CON both {both} [bəʊθ] = ako… tak aj
 2 CON neither {neither} [ˈnaɪðə] = ani

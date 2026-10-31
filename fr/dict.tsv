@@ -5967,7 +5967,7 @@ grammar/conjunctions	ou	0	1	CON	ou				u	ou							alebo					grammar/conjunctions/
 grammar/conjunctions	soit	0	2	CON	soit				swa	soit							buď					grammar/conjunctions/coordinating	
 grammar/conjunctions	mais	0	1	CON	mais				mɛ	mais							ale					grammar/conjunctions/coordinating	
 grammar/conjunctions	car	0	2	CON	car				kaʁ	car							lebo					grammar/conjunctions/coordinating	
-grammar/conjunctions	mais	0	1	CON	mais				mɛ	mais							nýbrž					grammar/conjunctions/coordinating	
+grammar/conjunctions	mais	0	1	CON	mais				mɛ	mais							ale skôr					grammar/conjunctions/coordinating	
 grammar/conjunctions	ainsi que	0	2	CON	ainsi que				ɛ̃si ˈkə	ainsi que							ako aj					grammar/conjunctions/coordinating	
 grammar/conjunctions	aussi bien que	0	3	CON	aussi bien que				osi bjɛ̃ ˈkə	aussi bien que							ako… tak aj					grammar/conjunctions/coordinating	
 grammar/conjunctions	ni	0	2	CON	ni				ni	ni							ani			AV aj		grammar/conjunctions/coordinating	
@@ -11143,7 +11143,7 @@ humans/society-law-politics	corruption	0	2	N	corruption	la	f	corruptions	kɔʁyp
 humans/society-law-politics	pot-de-vin	0	2	N	pot-de-vin	le	m	pots-de-vin	podəˈvɛ̃	pot-de-vin							úplatok					humans/society-law-politics/law-justice	
 humans/society-law-politics	chantage	0	2	N	chantage	le	m	chantages	ʃɑ̃ˈtaʒ	chantage							vydieranie					humans/society-law-politics/law-justice	
 humans/society-law-politics	faire chanter	0	2	V	faire chanter				fɛʁ ʃɑ̃ˈte	faire chanter	fait			irr			vydierať					humans/society-law-politics/law-justice	
-humans/society-law-politics	maître chanteur	0	3	N	maître chanteur	le	m	maîtres chanteurs	mɛtʁ ʃɑ̃ˈtœʁ	maître chanteur							vyděrač					humans/society-law-politics/law-justice	
+humans/society-law-politics	maître chanteur	0	3	N	maître chanteur	le	m	maîtres chanteurs	mɛtʁ ʃɑ̃ˈtœʁ	maître chanteur							vydierač					humans/society-law-politics/law-justice	
 humans/society-law-politics	vandalisme	0	3	N	vandalisme	le	m	-	vɑ̃daˈlism	vandal|isme							vandalizmus					humans/society-law-politics/law-justice	
 humans/society-law-politics	vandale	0	3	N	vandale	le	m	vandales	vɑ̃ˈdal	vandale							vandal					humans/society-law-politics/law-justice	
 humans/society-law-politics	coups et blessures	0	3	N	coups et blessures	les	m	PL	ku e bleˈsyʁ	coups et blessures							ublíženie na zdraví					humans/society-law-politics/law-justice	

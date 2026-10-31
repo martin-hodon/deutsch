@@ -6241,8 +6241,8 @@ grammar/conjunctions	ale	0	1	CON	ale				ˈalɛ	ale							ale					grammar/conjunc
 grammar/conjunctions	lecz	0	3	CON	lecz				lɛtʂ	lecz							ale					grammar/conjunctions/coordinating	
 grammar/conjunctions	bo	0	1	CON	bo				bɔ	bo							lebo					grammar/conjunctions/coordinating	
 grammar/conjunctions	gdyż	0	3	CON	gdyż				ɡdɨʂ	gdyż							lebo					grammar/conjunctions/coordinating	
-grammar/conjunctions	lecz	0	2	CON	lecz				lɛtʂ	lecz							nýbrž					grammar/conjunctions/coordinating	
-grammar/conjunctions	ale	0	1	CON	ale				ˈalɛ	ale							nýbrž					grammar/conjunctions/coordinating	
+grammar/conjunctions	lecz	0	2	CON	lecz				lɛtʂ	lecz							ale skôr					grammar/conjunctions/coordinating	
+grammar/conjunctions	ale	0	1	CON	ale				ˈalɛ	ale							ale skôr					grammar/conjunctions/coordinating	
 grammar/conjunctions	oraz	0	2	CON	oraz				ˈɔras	oraz							ako aj					grammar/conjunctions/coordinating	
 grammar/conjunctions	jak również	0	2	CON	jak również				jak ˈruvɲɛʂ	jak również							ako aj					grammar/conjunctions/coordinating	
 grammar/conjunctions	zarówno	0	2	CON	zarówno				zaˈruvnɔ	zarówno							ako… tak aj					grammar/conjunctions/coordinating	
@@ -11785,7 +11785,7 @@ humans/society-law-politics	szantaż	0	2	N	szantaż		m	szantaże	ˈʂantaʂ	szan
 humans/society-law-politics	wymuszenie	0	3	N	wymuszenie		n	wymuszenia	vɨmuˈʂɛɲɛ	wymuszenie							vydieranie					humans/society-law-politics/law-justice	
 humans/society-law-politics	szantażować	0	2	V	szantażować				ʂantaˈʐɔvatɕ	szantażować	zaszantażować					B	vydierať					humans/society-law-politics/law-justice	
 humans/society-law-politics	wymuszać	0	3	V	wymuszać				vɨˈmuʂatɕ	wymuszać	wymusić					B	vydierať					humans/society-law-politics/law-justice	
-humans/society-law-politics	szantażysta	0	3	N	szantażysta		m	szantażyści	ʂantaˈʐɨsta	szantażysta							vyděrač					humans/society-law-politics/law-justice	
+humans/society-law-politics	szantażysta	0	3	N	szantażysta		m	szantażyści	ʂantaˈʐɨsta	szantażysta							vydierač					humans/society-law-politics/law-justice	
 humans/society-law-politics	wandalizm	0	2	N	wandalizm		m	-	vanˈdalizm	wandalizm							vandalizmus					humans/society-law-politics/law-justice	
 humans/society-law-politics	wandal	0	2	N	wandal		m	wandale	ˈvandal	wandal							vandal					humans/society-law-politics/law-justice	
 humans/society-law-politics	uszkodzenie ciała	0	3	N	uszkodzenie ciała		n	uszkodzenia ciała	uʂkɔˈdzɛɲɛ ˈtɕawa	uszkodzenie ciała							ublíženie na zdraví					humans/society-law-politics/law-justice	

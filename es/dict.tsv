@@ -6313,7 +6313,7 @@ grammar/conjunctions	o	0	1	CON	o				o	o							alebo					grammar/conjunctions/coo
 grammar/conjunctions	o bien	0	2	CON	o bien				o ˈβjen	o bien							buď					grammar/conjunctions/coordinating	
 grammar/conjunctions	pero	0	1	CON	pero				ˈpeɾo	pero							ale					grammar/conjunctions/coordinating	
 grammar/conjunctions	pues	0	1	CON	pues				pwes	pues							lebo					grammar/conjunctions/coordinating	
-grammar/conjunctions	sino	0	1	CON	sino				ˈsino	sino							nýbrž					grammar/conjunctions/coordinating	
+grammar/conjunctions	sino	0	1	CON	sino				ˈsino	sino							ale skôr					grammar/conjunctions/coordinating	
 grammar/conjunctions	así como	0	2	CON	así como				aˈsi ˈkomo	así como							ako aj					grammar/conjunctions/coordinating	
 grammar/conjunctions	tanto como	0	2	CON	tanto como				ˈtanto ˈkomo	tanto como							ako… tak aj					grammar/conjunctions/coordinating	
 grammar/conjunctions	ni	0	1	CON	ni				ni	ni							ani			AV aj		grammar/conjunctions/coordinating	
@@ -11635,7 +11635,7 @@ humans/society-law-politics	cohecho	0	3	N	cohecho	el	m	cohechos	koˈetʃo	cohech
 humans/society-law-politics	soborno	0	2	N	soborno	el	m	sobornos	soˈβoɾno	soborno							úplatok					humans/society-law-politics/law-justice	
 humans/society-law-politics	chantaje	0	2	N	chantaje	el	m	chantajes	tʃanˈtaxe	chantaje							vydieranie					humans/society-law-politics/law-justice	
 humans/society-law-politics	chantajear	0	2	V	chantajear				tʃantaxeˈaɾ	chantajear							vydierať					humans/society-law-politics/law-justice	
-humans/society-law-politics	chantajista	0	3	N	chantajista	el	m	chantajistas	tʃantaˈxista	chantajista							vyděrač					humans/society-law-politics/law-justice	
+humans/society-law-politics	chantajista	0	3	N	chantajista	el	m	chantajistas	tʃantaˈxista	chantajista							vydierač					humans/society-law-politics/law-justice	
 humans/society-law-politics	vandalismo	0	3	N	vandalismo	el	m	-	bandaˈlismo	vandalismo							vandalizmus					humans/society-law-politics/law-justice	
 humans/society-law-politics	vándalo	0	3	N	vándalo	el	m	vándalos	ˈbandalo	vándalo							vandal					humans/society-law-politics/law-justice	
 humans/society-law-politics	agresión	0	2	N	agresión	la	f	agresiones	aɣɾeˈsjon	agresión							ublíženie na zdraví					humans/society-law-politics/law-justice	

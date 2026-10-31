@@ -6069,7 +6069,7 @@ grammar/conjunctions	либо	0	2	CON	либо				ˈlʲibə	либо							buď	
 grammar/conjunctions	но	0	1	CON	но				no	но							ale					grammar/conjunctions/coordinating	
 grammar/conjunctions	потому что	0	1	CON	потому что				pətɐˈmu ʂto	потому что							lebo					grammar/conjunctions/coordinating	
 grammar/conjunctions	ибо	0	3	CON	ибо				ˈibə	ибо							lebo					grammar/conjunctions/coordinating	
-grammar/conjunctions	а	0	1	CON	а				a	а							nýbrž					grammar/conjunctions/coordinating	
+grammar/conjunctions	а	0	1	CON	а				a	а							ale skôr					grammar/conjunctions/coordinating	
 grammar/conjunctions	а также	0	2	CON	а также				a ˈtagʐɨ	а также							ako aj					grammar/conjunctions/coordinating	
 grammar/conjunctions	как и	0	2	CON	как и				kak i	как и							ako aj					grammar/conjunctions/coordinating	
 grammar/conjunctions	как… так и	0	2	CON	как… так и				kak tak i	как… так и							ako… tak aj					grammar/conjunctions/coordinating	
@@ -11386,7 +11386,7 @@ humans/society-law-politics	взятка	0	2	N	взятка		ж	взятки	ˈv
 humans/society-law-politics	шантаж	0	3	N	шантаж		м	-	ʂɐnˈtaʂ	шантаж							vydieranie					humans/society-law-politics/law-justice	
 humans/society-law-politics	вымогательство	0	3	N	вымогательство		с	-	vɨməɡɐˈtʲelʲstvə	вымогательство							vydieranie					humans/society-law-politics/law-justice	
 humans/society-law-politics	шантажировать	0	3	V	шантажировать				ʂɐntɐˈʐɨrəvətʲ	шантажировать						В	vydierať					humans/society-law-politics/law-justice	
-humans/society-law-politics	шантажист	0	3	N	шантажист		м	шантажисты	ʂɐntɐˈʐɨst	шантажист							vyděrač					humans/society-law-politics/law-justice	
+humans/society-law-politics	шантажист	0	3	N	шантажист		м	шантажисты	ʂɐntɐˈʐɨst	шантажист							vydierač					humans/society-law-politics/law-justice	
 humans/society-law-politics	вандализм	0	3	N	вандализм		м	-	vɐndɐˈlʲizm	вандализм							vandalizmus					humans/society-law-politics/law-justice	
 humans/society-law-politics	вандал	0	3	N	вандал		м	вандалы	vɐnˈdal	вандал							vandal					humans/society-law-politics/law-justice	
 humans/society-law-politics	причинение вреда здоровью	0	3	N	причинение вреда здоровью		с	-	prʲɪtɕɪˈnʲenʲɪjə vrʲɪˈda zdɐˈrovʲju	причинение вреда здоровью							ublíženie na zdraví					humans/society-law-politics/law-justice	

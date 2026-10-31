@@ -5,7 +5,7 @@
 - 2 CON entweder {entweder} [ˈɛntveːdɐ] = buď
 1 CON aber {aber} [ˈaːbɐ] = ale, však
 1 CON denn {denn} [dɛn] = lebo, pretože
-1 CON sondern {sondern} [ˈzɔndɐn] = nýbrž, ale
+1 CON sondern {sondern} [ˈzɔndɐn] = ale skôr, ale
 2 CON sowie {so|wie} [zoˈviː] = ako aj, a tiež
 2 CON sowohl {so|wohl} [zoˈvoːl] = ako… tak aj
 2 CON weder {weder} [ˈveːdɐ] = ani
@@ -14,7 +14,7 @@
 2 CON zwar … aber {zwar … aber} [tsvaːɐ … ˈaːbɐ] = síce… ale
 2 CON bald … bald {bald … bald} [balt … balt] = niekedy… niekedy
 2 CON teils … teils {teils … teils} [taɪls … taɪls] = sčasti… sčasti
-2 CON nicht … sondern {nicht … sondern} [nɪçt … ˈzɔndɐn] = nýbrž
+2 CON nicht … sondern {nicht … sondern} [nɪçt … ˈzɔndɐn] = ale skôr
 2 CON entweder … oder {entweder … oder} [ˈɛntveːdɐ … ˈoːdɐ] = buď
 2 CON weder … noch {weder … noch} [ˈveːdɐ … nɔx] = ani
 2 CON sowohl … als auch {sowohl … als auch} [zoˈvoːl … als aʊx] = ako… tak aj

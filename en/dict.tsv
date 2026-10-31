@@ -5778,7 +5778,7 @@ grammar/conjunctions	or	0	1	CON	or				ɔː	or							alebo					grammar/conjunctio
 grammar/conjunctions	either	0	1	CON	either				ˈaɪðə	either							buď					grammar/conjunctions/coordinating	
 grammar/conjunctions	but	0	1	CON	but				bʌt	but							ale					grammar/conjunctions/coordinating	
 grammar/conjunctions	for	0	2	CON	for				fɔː	for							lebo					grammar/conjunctions/coordinating	
-grammar/conjunctions	but rather	0	1	CON	but rather				bʌt ˈrɑːðə	but rather							nýbrž					grammar/conjunctions/coordinating	
+grammar/conjunctions	but rather	0	1	CON	but rather				bʌt ˈrɑːðə	but rather							ale skôr					grammar/conjunctions/coordinating	
 grammar/conjunctions	as well as	0	2	CON	as well as				əz ˈwel əz	as well as							ako aj					grammar/conjunctions/coordinating	
 grammar/conjunctions	both	0	2	CON	both				bəʊθ	both							ako… tak aj					grammar/conjunctions/coordinating	
 grammar/conjunctions	neither	0	2	CON	neither				ˈnaɪðə	neither							ani			AV aj		grammar/conjunctions/coordinating	
@@ -10641,7 +10641,7 @@ humans/society-law-politics	bribery	0	2	N	bribery			-	ˈbraɪbərɪ	brib|ery				
 humans/society-law-politics	bribe	0	2	N	bribe			bribes	braɪb	bribe							úplatok					humans/society-law-politics/law-justice	
 humans/society-law-politics	blackmail	0	2	N	blackmail			-	ˈblækmeɪl	black|mail							vydieranie					humans/society-law-politics/law-justice	
 humans/society-law-politics	blackmail	0	2	V	blackmail				ˈblækmeɪl	black|mail						sb	vydierať					humans/society-law-politics/law-justice	
-humans/society-law-politics	blackmailer	0	2	N	blackmailer			blackmailers	ˈblækmeɪlə	black|mail|er							vyděrač					humans/society-law-politics/law-justice	
+humans/society-law-politics	blackmailer	0	2	N	blackmailer			blackmailers	ˈblækmeɪlə	black|mail|er							vydierač					humans/society-law-politics/law-justice	
 humans/society-law-politics	vandalism	0	2	N	vandalism			-	ˈvændəlɪzəm	vandal|ism							vandalizmus					humans/society-law-politics/law-justice	
 humans/society-law-politics	vandal	0	2	N	vandal			vandals	ˈvændl	vandal							vandal					humans/society-law-politics/law-justice	
 humans/society-law-politics	assault	0	2	N	assault			assaults	əˈsɔːlt	assault							ublíženie na zdraví					humans/society-law-politics/law-justice	

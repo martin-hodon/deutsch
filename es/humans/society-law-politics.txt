@@ -662,7 +662,7 @@
 2 N el soborno {soborno} [soˈβoɾno], sobornos = úplatok
 2 N el chantaje {chantaje} [tʃanˈtaxe], chantajes = vydieranie
 2 V chantajear {chantajear} [tʃantaxeˈaɾ] = vydierať
-3 N el chantajista {chantajista} [tʃantaˈxista], chantajistas = vyděrač
+3 N el chantajista {chantajista} [tʃantaˈxista], chantajistas = vydierač
 3 N el vandalismo {vandalismo} [bandaˈlismo], - = vandalizmus
 3 N el vándalo {vándalo} [ˈbandalo], vándalos = vandal
 2 N la agresión {agresión} [aɣɾeˈsjon], agresiones = ublíženie na zdraví

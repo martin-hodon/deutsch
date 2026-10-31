@@ -7,7 +7,7 @@
 1 CON но {но} [no] = ale
 1 CON потому что {потому что} [pətɐˈmu ʂto] = lebo
 3 CON ибо {ибо} [ˈibə] = lebo
-1 CON а {а} [a] = nýbrž
+1 CON а {а} [a] = ale skôr
 2 CON а также {а также} [a ˈtagʐɨ] = ako aj
 2 CON как и {как и} [kak i] = ako aj
 2 CON как… так и {как… так и} [kak tak i] = ako… tak aj

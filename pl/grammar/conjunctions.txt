@@ -9,8 +9,8 @@
 3 CON lecz {lecz} [lɛtʂ] = ale
 1 CON bo {bo} [bɔ] = lebo
 3 CON gdyż {gdyż} [ɡdɨʂ] = lebo
-2 CON lecz {lecz} [lɛtʂ] = nýbrž
-1 CON ale {ale} [ˈalɛ] = nýbrž
+2 CON lecz {lecz} [lɛtʂ] = ale skôr
+1 CON ale {ale} [ˈalɛ] = ale skôr
 2 CON oraz {oraz} [ˈɔras] = ako aj
 2 CON jak również {jak również} [jak ˈruvɲɛʂ] = ako aj
 2 CON zarówno {zarówno} [zaˈruvnɔ] = ako… tak aj

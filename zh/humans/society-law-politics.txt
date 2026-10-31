@@ -849,7 +849,7 @@
 3 N 勒索 {勒索} [lèsuǒ], - = vydieranie
 3 V 敲诈 {敲诈} [qiāozhà] = vydierať
 3 V 勒索 {勒索} [lèsuǒ] = vydierať
-3 N 勒索者 {勒索者} [lèsuǒzhě], 个 = vyděrač
+3 N 勒索者 {勒索者} [lèsuǒzhě], 个 = vydierač
 3 N 恶意破坏 {恶意破坏} [èyì pòhuài], - = vandalizmus
 3 N 破坏者 {破坏者} [pòhuàizhě], 个 = vandal
 3 N 人身伤害 {人身伤害} [rénshēn shānghài], - = ublíženie na zdraví

@@ -6,7 +6,7 @@
 2 CON soit {soit} [swa] = buď
 1 CON mais {mais} [mɛ] = ale
 2 CON car {car} [kaʁ] = lebo
-1 CON mais {mais} [mɛ] = nýbrž
+1 CON mais {mais} [mɛ] = ale skôr
 2 CON ainsi que {ainsi que} [ɛ̃si ˈkə] = ako aj
 3 CON aussi bien que {aussi bien que} [osi bjɛ̃ ˈkə] = ako… tak aj
 2 CON ni {ni} [ni] = ani

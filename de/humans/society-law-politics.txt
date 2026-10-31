@@ -611,7 +611,7 @@
 - 3 N das Bestechungsgeld {Bestechungs|geld} [bəˈʃtɛçʊŋsɡɛlt], Bestechungsgelder = úplatok
 3 N die Erpressung {Er|pressung} [ɛɐˈpʁɛsʊŋ], Erpressungen = vydieranie
 - 3 V erpressen {er|pressen} [ɛɐˈpʁɛsən], hat = vydierať
-- 3 N der Erpresser {Er|presser} [ɛɐˈpʁɛsɐ], Erpresser = vyděrač
+- 3 N der Erpresser {Er|presser} [ɛɐˈpʁɛsɐ], Erpresser = vydierač
 3 N der Vandalismus {Vandalismus} [vandaˈlɪsmʊs], - = vandalizmus
 - 3 N der Vandale {Vandale} [vanˈdaːlə], Vandalen = vandal
 2 N die Körperverletzung {Körper|ver|letzung} [ˈkœʁpɐfɛɐlɛtsʊŋ], Körperverletzungen = ublíženie na zdraví

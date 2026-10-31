@@ -9,7 +9,7 @@
 1 CON 可是 {可是} [kěshì] = ale
 1 CON 因为 {因为} [yīnwèi] = lebo
 2 CON 由于 {由于} [yóuyú] = lebo
-2 CON 而是 {而是} [érshì] = nýbrž
+2 CON 而是 {而是} [érshì] = ale skôr
 2 CON 以及 {以及} [yǐjí] = ako aj
 2 CON 并且 {并且} [bìngqiě] = ako… tak aj
 1 CON 而且 {而且} [érqiě] = ako… tak aj

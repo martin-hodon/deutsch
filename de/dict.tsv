@@ -5904,7 +5904,7 @@ grammar/conjunctions	oder	0	1	CON		oder		ˈoːdɐ	oder						alebo | či				gramm
 grammar/conjunctions	oder	1	2	CON		entweder		ˈɛntveːdɐ	entweder						buď				grammar/conjunctions/coordinating	
 grammar/conjunctions	aber	0	1	CON		aber		ˈaːbɐ	aber						ale | však				grammar/conjunctions/coordinating	
 grammar/conjunctions	denn	0	1	CON		denn		dɛn	denn						lebo | pretože				grammar/conjunctions/coordinating	
-grammar/conjunctions	sondern	0	1	CON		sondern		ˈzɔndɐn	sondern						nýbrž | ale				grammar/conjunctions/coordinating	
+grammar/conjunctions	sondern	0	1	CON		sondern		ˈzɔndɐn	sondern						ale skôr | ale				grammar/conjunctions/coordinating	
 grammar/conjunctions	sowie	0	2	CON		sowie		zoˈviː	so|wie						ako aj | a tiež				grammar/conjunctions/coordinating	
 grammar/conjunctions	sowohl	0	2	CON		sowohl		zoˈvoːl	so|wohl						ako… tak aj				grammar/conjunctions/coordinating	
 grammar/conjunctions	weder	0	2	CON		weder		ˈveːdɐ	weder						ani		AV aj		grammar/conjunctions/coordinating	
@@ -5913,7 +5913,7 @@ grammar/conjunctions	einerseits … andererseits	0	2	CON		einerseits … anderer
 grammar/conjunctions	zwar … aber	0	2	CON		zwar … aber		tsvaːɐ … ˈaːbɐ	zwar … aber						síce… ale				grammar/conjunctions/coordinating	
 grammar/conjunctions	bald … bald	0	2	CON		bald … bald		balt … balt	bald … bald						niekedy… niekedy				grammar/conjunctions/coordinating	
 grammar/conjunctions	teils … teils	0	2	CON		teils … teils		taɪls … taɪls	teils … teils						sčasti… sčasti				grammar/conjunctions/coordinating	
-grammar/conjunctions	nicht … sondern	0	2	CON		nicht … sondern		nɪçt … ˈzɔndɐn	nicht … sondern						nýbrž				grammar/conjunctions/coordinating	
+grammar/conjunctions	nicht … sondern	0	2	CON		nicht … sondern		nɪçt … ˈzɔndɐn	nicht … sondern						ale skôr				grammar/conjunctions/coordinating	
 grammar/conjunctions	entweder … oder	0	2	CON		entweder … oder		ˈɛntveːdɐ … ˈoːdɐ	entweder … oder						buď				grammar/conjunctions/coordinating	
 grammar/conjunctions	weder … noch	0	2	CON		weder … noch		ˈveːdɐ … nɔx	weder … noch						ani		AV aj		grammar/conjunctions/coordinating	
 grammar/conjunctions	sowohl … als auch	0	2	CON		sowohl … als auch		zoˈvoːl … als aʊx	sowohl … als auch						ako… tak aj				grammar/conjunctions/coordinating	
@@ -10991,7 +10991,7 @@ humans/society-law-politics	bestechen	1	3	N	die	Bestechung	Bestechungen	bəˈʃt
 humans/society-law-politics	bestechen	1	3	N	das	Bestechungsgeld	Bestechungsgelder	bəˈʃtɛçʊŋsɡɛlt	Bestechungs|geld						úplatok				humans/society-law-politics/law-justice	
 humans/society-law-politics	Erpressung	0	3	N	die	Erpressung	Erpressungen	ɛɐˈpʁɛsʊŋ	Er|pressung						vydieranie				humans/society-law-politics/law-justice	
 humans/society-law-politics	Erpressung	1	3	V		erpressen		ɛɐˈpʁɛsən	er|pressen		hat				vydierať				humans/society-law-politics/law-justice	
-humans/society-law-politics	Erpressung	1	3	N	der	Erpresser	Erpresser	ɛɐˈpʁɛsɐ	Er|presser						vyděrač				humans/society-law-politics/law-justice	
+humans/society-law-politics	Erpressung	1	3	N	der	Erpresser	Erpresser	ɛɐˈpʁɛsɐ	Er|presser						vydierač				humans/society-law-politics/law-justice	
 humans/society-law-politics	Vandalismus	0	3	N	der	Vandalismus	-	vandaˈlɪsmʊs	Vandalismus						vandalizmus				humans/society-law-politics/law-justice	
 humans/society-law-politics	Vandalismus	1	3	N	der	Vandale	Vandalen	vanˈdaːlə	Vandale						vandal				humans/society-law-politics/law-justice	
 humans/society-law-politics	Körperverletzung	0	2	N	die	Körperverletzung	Körperverletzungen	ˈkœʁpɐfɛɐlɛtsʊŋ	Körper|ver|letzung						ublíženie na zdraví				humans/society-law-politics/law-justice	

@@ -6925,8 +6925,8 @@ grammar/conjunctions	ma	0	1	CON	ma				ma	ma							ale					grammar/conjunctions/c
 grammar/conjunctions	però	0	1	CON	però				peˈrɔ	però							ale					grammar/conjunctions/coordinating	
 grammar/conjunctions	perché	0	1	CON	perché				perˈke	perché							lebo					grammar/conjunctions/coordinating	
 grammar/conjunctions	poiché	0	2	CON	poiché				pojˈke	poiché							lebo					grammar/conjunctions/coordinating	
-grammar/conjunctions	ma	0	1	CON	ma				ma	ma							nýbrž					grammar/conjunctions/coordinating	
-grammar/conjunctions	bensì	0	3	CON	bensì				benˈsi	bensì							nýbrž					grammar/conjunctions/coordinating	
+grammar/conjunctions	ma	0	1	CON	ma				ma	ma							ale skôr					grammar/conjunctions/coordinating	
+grammar/conjunctions	bensì	0	3	CON	bensì				benˈsi	bensì							ale skôr					grammar/conjunctions/coordinating	
 grammar/conjunctions	nonché	0	3	CON	nonché				nonˈke	nonché							ako aj					grammar/conjunctions/coordinating	
 grammar/conjunctions	sia… sia	0	1	CON	sia… sia				ˈsiːa ˈsiːa	sia… sia							ako… tak aj					grammar/conjunctions/coordinating	
 grammar/conjunctions	tanto… quanto	0	2	CON	tanto… quanto				ˈtanto ˈkwanto	tanto… quanto							ako… tak aj					grammar/conjunctions/coordinating	
@@ -12638,7 +12638,7 @@ humans/society-law-politics	tangente	0	2	N	tangente	la	f	tangenti	tanˈdʒɛnte	
 humans/society-law-politics	mazzetta	0	3	N	mazzetta	la	f	mazzette	matˈtsetːa	mazzetta							úplatok					humans/society-law-politics/law-justice	
 humans/society-law-politics	ricatto	0	2	N	ricatto	il	m	ricatti	riˈkatːo	ricatto							vydieranie					humans/society-law-politics/law-justice	
 humans/society-law-politics	ricattare	0	2	V	ricattare				rikaˈtːaːre	ricattare							vydierať					humans/society-law-politics/law-justice	
-humans/society-law-politics	ricattatore	0	2	N	ricattatore	il	m	ricattatori	rikatːaˈtoːre	ricattatore							vyděrač					humans/society-law-politics/law-justice	
+humans/society-law-politics	ricattatore	0	2	N	ricattatore	il	m	ricattatori	rikatːaˈtoːre	ricattatore							vydierač					humans/society-law-politics/law-justice	
 humans/society-law-politics	vandalismo	0	2	N	vandalismo	il	m	-	vandaˈlizmo	vandalismo							vandalizmus					humans/society-law-politics/law-justice	
 humans/society-law-politics	vandalo	0	2	N	vandalo	il	m	vandali	ˈvandalo	vandalo							vandal					humans/society-law-politics/law-justice	
 humans/society-law-politics	aggressione	0	2	N	aggressione	l'	f	aggressioni	aɡːreˈsːjoːne	aggressione							ublíženie na zdraví					humans/society-law-politics/law-justice	

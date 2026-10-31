@@ -407,7 +407,7 @@ N úplatok : money
 N vydieranie : crime
 V vydierať : person > patient person
 V vydierať : person > patient money
-N vyděrač : person
+N vydierač : person
 N vandalizmus : activity
 N vandal : person
 N ublíženie na zdraví : event

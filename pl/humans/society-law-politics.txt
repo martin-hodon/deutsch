@@ -714,7 +714,7 @@
 3 N wymuszenie {wymuszenie} [vɨmuˈʂɛɲɛ], n, wymuszenia = vydieranie
 2 V szantażować {szantażować} [ʂantaˈʐɔvatɕ], zaszantażować (B) = vydierať
 3 V wymuszać {wymuszać} [vɨˈmuʂatɕ], wymusić (B) = vydierať
-3 N szantażysta {szantażysta} [ʂantaˈʐɨsta], m, szantażyści = vyděrač
+3 N szantażysta {szantażysta} [ʂantaˈʐɨsta], m, szantażyści = vydierač
 2 N wandalizm {wandalizm} [vanˈdalizm], m, - = vandalizmus
 2 N wandal {wandal} [ˈvandal], m, wandale = vandal
 3 N uszkodzenie ciała {uszkodzenie ciała} [uʂkɔˈdzɛɲɛ ˈtɕawa], n, uszkodzenia ciała = ublíženie na zdraví

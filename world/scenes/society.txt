@@ -428,7 +428,7 @@ N podplácanie
 N úplatok
 N vydieranie
 V vydierať : suspect
-N vyděrač : suspect
+N vydierač : suspect
 N vandalizmus
 N vandal : suspect
 N únos
