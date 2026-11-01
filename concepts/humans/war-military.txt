@@ -73,10 +73,7 @@ N mučenie
 V zdiskreditovať
 V podmaniť si
 
-# army
-N armáda
-N námorníctvo
-AN vojenský
+# ranks-and-soldiers
 N vojak
 N vojačka
 N dôstojník
@@ -84,20 +81,12 @@ N povel
 N veliteľ
 V veliť
 N oddiel
-N stráž
-N strážca
-V strážiť
 N špión
 V špehovať
 N špionáž
 N prieskumník
 N rytier
 N veterán
-V hliadkovať
-N pochod
-V pochodovať
-N kasárne
-N veliteľstvo
 N generál
 N admirál
 N plukovník
@@ -107,10 +96,27 @@ N regrút
 V verbovať
 N žoldnier
 N pluk
+V salutovať
+N križiak
+N podporučík
+N ochranca -- ten, kto chráni
+N panoš -- služobník rytiera
+
+# forces-and-actions
+N armáda
+N námorníctvo
+AN vojenský
+N stráž
+N strážca
+V strážiť
+V hliadkovať
+N pochod
+V pochodovať
+N kasárne
+N veliteľstvo
 N kavaléria
 N pechota
 N loďstvo
-V salutovať
 N Bundeswehr
 N ozbrojené sily
 N zásahové jednotky
@@ -120,13 +126,9 @@ V zamerať
 V lemovať
 V zaskočiť
 V katapultovať
-N križiak
-N podporučík
 N letka (útvar) -- skupina lodí alebo lietadiel
-N ochranca -- ten, kto chráni
-N panoš -- služobník rytiera
 
-# weapons-fortification
+# firearms-and-explosives
 N zbraň
 N strelná zbraň
 V odzbrojiť
@@ -154,15 +156,42 @@ N bombardovanie
 N munícia
 N výbuch
 V explodovať
+N mína
+N torpédo
+N jadrová zbraň
+N guľka (strela) -- strela z pušky alebo pištole
+N hlaveň
+N samopal
+N guľomet
+N plameňomet
+N raketomet
+N húfnica
+N vzduchovka -- puška na stlačený vzduch
+N brokovnica -- zbraň na broky
+N stíhačka -- bojové lietadlo
+N náboj (do zbrane) -- strelivo
+
+# blades-and-armour
 N meč
 N dýka
 N štít
 N oštep
 N šíp
 PHR luk a šípy
-N brnenie
 N prilba
 N tank
+N mieridlo
+N kopija -- dlhá bojová zbraň
+N kord
+N kyjak
+N tulec -- puzdro na šípy
+N kuša
+N halapartňa
+V obrniť
+N pošva (na zbraň) -- puzdro na čepeľ
+
+# siege-and-combat
+N brnenie
 N tábor
 N obliehanie
 V obliehať
@@ -170,39 +199,16 @@ N zálusk
 N predsunuté stanovište
 N bunker
 N barikáda
-N mína
-N torpédo
 N delostrelectvo
 N arzenál
 N prepad
 V prepadnúť
-N mieridlo
-N jadrová zbraň
 V vraziť do
 V odraziť
 V zbrojiť
-N guľka (strela) -- strela z pušky alebo pištole
-N hlaveň
 N cimbúrie -- zubatý okraj hradby
-N kopija -- dlhá bojová zbraň
-N kord
-N kyjak
-N tulec -- puzdro na šípy
-N kuša
-N halapartňa
 N baranidlo
 N výzbroj
-V obrniť
-N samopal
-N guľomet
-N plameňomet
-N raketomet
-N húfnica
-N vzduchovka -- puška na stlačený vzduch
-N pošva (na zbraň) -- puzdro na čepeľ
-N brokovnica -- zbraň na broky
-N stíhačka -- bojové lietadlo
-N náboj (do zbrane) -- strelivo
 
 # war
 V plieniť

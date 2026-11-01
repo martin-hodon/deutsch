@@ -1,4 +1,4 @@
-# farming
+# fields-and-crops
 N poľnohospodárstvo
 N poľnohospodár
 N poľnohospodárka
@@ -16,29 +16,8 @@ N osivo
 V vysiať
 V sadiť
 V vysadiť
-N pluh
-V orať
-V pestovať
 N pestovanie
-N hnojivo
-V hnojiť
-N hrable
-N motyka
-N traktor
-N mlyn
-N veterný mlyn
-N vodný mlyn
-N mlynár
-V mlieť
-N zavlažovanie
-V zavlažovať
 N skleník
-V kosiť
-N kombajn
-N kompost
-V kompostovať
-N hnoj
-N pesticíd
 N hektár
 N parcela
 AN úrodný
@@ -46,11 +25,6 @@ N úrodnosť
 AN neúrodný
 N plantáž
 N ranč
-N kosa
-N fúrik
-N strašiak
-N silo
-N rýľ
 V kultivovať
 V presadiť (rastlinu) -- premiestniť rastlinu
 V plieť -- vytrhávať burinu
@@ -63,8 +37,36 @@ V oberať -- zbierať plody zo stromov a kríkov
 N žatva -- zber obilia
 N osev -- siatie semien
 N prútie -- tenké ohybné prúty
-N orba
 V rýľovať
+
+# farm-tools
+N pluh
+V orať
+V pestovať
+N hnojivo
+V hnojiť
+N hrable
+N motyka
+N traktor
+N mlyn
+N veterný mlyn
+N vodný mlyn
+N mlynár
+V mlieť
+N zavlažovanie
+V zavlažovať
+V kosiť
+N kombajn
+N kompost
+V kompostovať
+N hnoj
+N pesticíd
+N kosa
+N fúrik
+N strašiak
+N silo
+N rýľ
+N orba
 
 # crops
 N obilie

@@ -1,12 +1,13 @@
 # definite-article
-1 ART the {the} [ðə] = ten (určitý člen mužského rodu)
-1 P the same {the same} [ðə ˈseɪm] = ten istý
-1 P the one {the one} [ðə ˈwʌn] (who) = ten (kto)
-1 ART the {the} [ðə] = tá (určitý člen ženského rodu a množného čísla)
-1 ART the {the} [ðə] = to (určitý člen stredného rodu)
+1 ART the [ðə] = ten (určitý člen mužského rodu)
+1 P the same [ðə ˈseɪm] = ten istý
+1 P the one [ðə ˈwʌn] (who) = ten (kto)
+1 ART the [ðə] = tá (určitý člen ženského rodu a množného čísla)
+1 ART the [ðə] = to (určitý člen stredného rodu)
+
 # indefinite-article
-1 ART a {a} [ə] = jeden
-1 ART an {an} [ən] = jeden
-1 ART some {some} [sʌm] = nejaký
-1 ART any {any} [ˈenɪ] = nejaký
-1 ART no {no} [nəʊ] = žiadny
+1 ART a [ə] = jeden
+1 ART an [ən] = jeden
+1 ART some [sʌm] = nejaký
+1 ART any [ˈenɪ] = nejaký
+1 ART no [nəʊ] = žiadny

@@ -57,23 +57,8 @@ V čmárať
 N čmáranica
 N ozdoba
 
-# music
-N hudba
-N hudobník
-AN hudobný
-N hudobný nástroj
-V hrať hudbu
-N text piesne
-N uspávanka
-V spievať
-N spevák
-N speváčka
+# instruments-ensembles
 N zbor
-N melódia
-N rytmus
-AN rytmický : adverb rytmicky
-N nota
-N koncert
 N orchester
 N nástroj
 N klavír
@@ -88,19 +73,40 @@ N harfa
 N organ
 V pískať
 N píšťala
-N opera
 N skladateľ
 V skladať
 N skladba
 N dirigent
 V dirigovať
+N duet
+N violončelo
+N saxofón
+N akordeón
+N trio
+
+# songs-genres
+N hudba
+N hudobník
+AN hudobný
+N hudobný nástroj
+V hrať hudbu
+N text piesne
+N uspávanka
+V spievať
+N spevák
+N speváčka
+N melódia
+N rytmus
+AN rytmický : adverb rytmicky
+N nota
+N koncert
+N opera
 N refrén
 N akord
 N harmónia
 AN harmonický : adverb harmonicky
 N bas
 N sólo
-N duet
 N symfónia
 N balada
 N žáner
@@ -109,16 +115,12 @@ N pop
 N rock
 N sukňa
 N rap
-N violončelo
-N saxofón
-N akordeón
 N album
-N trio
 N pieseň
 N raper
 AN melodický
 
-# performance-literature
+# theatre-and-stage
 N divadlo
 N divadelná hra
 N javisko
@@ -134,15 +136,6 @@ AN dramatický : adverb dramaticky
 AN dramaturgický
 N komédia
 N tragédia
-N film
-V filmovať
-N hraný film
-N dokumentárny film
-N kreslený film
-N režisér
-V sfilmovať
-AN filmový
-N kino
 N obecenstvo
 N divák
 N potlesk
@@ -158,6 +151,45 @@ V tancovať
 N tanec
 N tanečník
 N balet
+N nácvik
+V skúšať
+N konkurz
+N premiéra
+N derniéra
+N komik
+V žonglovať
+N inscenácia
+N kulisa
+N réžia
+N šou
+N podívaná
+V pózovať
+V zelebrovať
+V účinkovať
+N divácka sála -- priestor pre divákov
+N šašo
+N pódium -- vyvýšená plošina
+
+# film-and-media
+N film
+V filmovať
+N hraný film
+N dokumentárny film
+N kreslený film
+N režisér
+V sfilmovať
+AN filmový
+N kino
+N scenár (film)
+N animácia
+N vstupenka
+N natáčanie
+N epizóda
+V reštaurovať
+V synchronizovať
+N šmolko
+
+# literature-and-story
 N príbeh
 N rozprávka
 AN rozprávkový
@@ -175,96 +207,24 @@ N poviedka
 N verš
 N rým
 V rýmovať sa
-N nácvik
-V skúšať
-N konkurz
-N scenár (film)
 N zloduch
 N dej
-N premiéra
-N derniéra
 N pokračovanie
-N animácia
-N komik
-V žonglovať
 N biografia
 N scenár (možný vývoj)
-N vstupenka
 N detektívka
 N komiks
-N inscenácia
-N kulisa
-N réžia
-N natáčanie
-N epizóda
-N šou
-N podívaná
-V pózovať
-V zelebrovať
-V účinkovať
-V reštaurovať
-V synchronizovať
 AN autobiografický
-N divácka sála -- priestor pre divákov
 N bájka
-N šašo
-N šmolko
-N pódium -- vyvýšená plošina
 N fikcia
 
-# games-sport
-N hra
-V hrať
-N hráč
-N hračka
-N hracia karta
-N stav zápasu
-N stolová hra
-N videohra
-N domáci zápas
-N hrací deň
-N reprezentant
-N hráčka
-V uvádzať predstavenia
-V hrať s
-V nahrať (v štúdiu)
-V prehrať (zápas)
-V prehrať (nahrávku)
-AN hrateľný
-V hrať ďalej
-V vystatovať sa
-AN bez zápasu
-N bábika
-N šarkan
-N šach
+# sports-and-fitness
 N šport
 AN športový
 N športovec
-N mužstvo
 AN olympijský
 PHR olympijské hry
-N tím
-N tréner : of učiteľ @ šport
-V trénovať
-N tréning
-N súťaž
-N zápas
-N preteky
-N majster
-N majstrovstvá
-N majstrovské dielo
-N cena
-N odmena
-V odmeniť
-N gól
-N brankár
-AN bezgólový
-AN nebezpečný pred bránkou
-N futbal
-N futbalista
-AN futbalový
 N basketbal
-N volejbal
 N tenis
 N hokej
 N ľadový hokej
@@ -280,20 +240,164 @@ N lyžiar
 V korčuľovať sa
 N korčuľa
 N plaváreň
-N štadión
 N fitnescentrum
 N kondícia
-N rozhodca
+N bejzbal
+N maratón
+N zápasenie
+V zápasiť
+N zápasník
+N štafeta
+N turné
+N dres
+N stolný tenis
+N joga
+N výdrž
+N športový riaditeľ
+N cyklistika
+N horolezectvo -- lezenie po horách
+N vzpieranie -- zdvíhanie činiek
+V športovať -- cvičiť šport
+N pálka -- na odpálenie alebo odrazenie lopty
+N činka -- závažie na cvičenie
+N žinenka -- podložka na cvičenie
+N hokejový puk -- gumový kotúč v hokeji
+
+# football-matchplay
+N gól
+N brankár
+AN bezgólový
+AN nebezpečný pred bránkou
+N futbal
+N futbalista
+AN futbalový
+N volejbal
+N štadión
 N lopta
+N jedenástka
+N faul
+N trefa
+N pokutové územie
+N hádzaná
+N stred poľa
+N stredný obranca
+N defenzíva
+N záver zápasu
+N výkop
+N priamy kop
+N centr
+N protiútok
+N tribúna
+N zimná prestávka
+N letná prestávka
+N oddychový čas
+N štartový výstrel
+V kopať do lopty
+
+# competition-and-prizes
+V prehrať (zápas)
+N súťaž
+N preteky
+N majstrovstvá
+N majstrovské dielo
+N cena
+N odmena
+V odmeniť
 N medaila
 N trofej
 N pohár
 N turnaj
-N bejzbal
 V vyhrať
+N liga
+N súboj
+V súboriť sa
+N partia
+N majster sveta
+N semifinále
+N majstrovstvá sveta
+N líder tabuľky
+N rekord
+AN rekordný
+N remíza
+N porazený
+N kolo
+N osemfinále
+N štvrťfinále
+N nováčik
+N záchrana v lige
+N odvetné kolo
+N základná skupina
+N obhajca titulu
+N rekordný majster
+N favorit
+N posledné miesto
+N triumf
+
+# teams-and-people
+N mužstvo
+N tím
+N tréner : of učiteľ @ šport
+V trénovať
+N tréning
+N rozhodca
+N fanúšik
+N káder
+N celebrita
+N reprezentácia
+N comeback
+N profesionál
+N amatér
+N atlét
+N atlétka
+N nová posila
+N hlavný tréner
+N tréner národného tímu
+N spoluhráč : of kolega @ šport
+N sústredenie (športovcov)
+N debut
+N duo
+
+# chess-cards-gambling
+N šach
 V staviť sa
 N stávka
-N fanúšik
+N poker
+N kasíno
+N lotéria
+N tromf
+V hrať hazardne
+N eso -- karta s jednotkou
+N dolník -- karta, nižšia ako dáma
+N šachovnica -- doska na šach
+N šachový jazdec -- šachová figúra
+N pešiak -- šachová figúrka
+N šachový strelec
+
+# leisure-and-toys
+N hra
+V hrať
+N hráč
+N hračka
+N hracia karta
+N stav zápasu
+N stolová hra
+N videohra
+N domáci zápas
+N hrací deň
+N reprezentant
+N hráčka
+V uvádzať predstavenia
+V hrať s
+V nahrať (v štúdiu)
+V prehrať (nahrávku)
+AN hrateľný
+V hrať ďalej
+V vystatovať sa
+AN bez zápasu
+N bábika
+N šarkan
+N zápas
+N majster
 N záľuba
 N zábava
 V zabávať
@@ -301,115 +405,27 @@ N sranda : of zábava @ hovorovo
 N voľný čas
 N kempovanie
 N kemping
-N liga
-N jedenástka
-N faul
-N maratón
-N zápasenie
-V zápasiť
-N zápasník
-N poker
-N kasíno
 N bowling
 N finále
-N súboj
-V súboriť sa
-N partia
-N trefa
-N štafeta
-N káder
-N turné
-N celebrita
-N reprezentácia
-N majster sveta
-N semifinále
-N comeback
-N profesionál
-N amatér
-N majstrovstvá sveta
-N pokutové územie
-N dres
-N líder tabuľky
-N atlét
-N atlétka
-N rekord
-AN rekordný
-N hádzaná
-N stolný tenis
-N joga
-N výdrž
 N ihrisko
-N remíza
-N porazený
-N lotéria
 N ručná práca
 N zberateľ
-N tromf
-N kolo
-N osemfinále
-N štvrťfinále
-N nováčik
-N záchrana v lige
-N stred poľa
 N stredopoliar
-N stredný obranca
-N defenzíva
-N nová posila
 N stĺp
 N prvý zápas
 N odveta
-N odvetné kolo
 N prípravný zápas
 N zápas vonku
-N základná skupina
 N nadstavený čas
-N záver zápasu
-N výkop
-N priamy kop
-N centr
-N protiútok
-N hlavný tréner
-N tréner národného tímu
-N športový riaditeľ
-N spoluhráč : of kolega @ šport
-N tribúna
-N sústredenie (športovcov)
-N zimná prestávka
-N letná prestávka
-N oddychový čas
-N štartový výstrel
-N debut
-N obhajca titulu
-N rekordný majster
-N favorit
-N posledné miesto
-N triumf
-N duo
-V kopať do lopty
-V hrať hazardne
 V vybojovať si
 V skompletizovať
 V surfovať
-N cyklistika
 N šípky (hra) -- hra s hádzaním šípok na terč
 N hojdačka
 N herný automat
-N horolezectvo -- lezenie po horách
-N vzpieranie -- zdvíhanie činiek
-V športovať -- cvičiť šport
-N pálka -- na odpálenie alebo odrazenie lopty
 N švihadlo -- lano na preskakovanie
-N činka -- závažie na cvičenie
-N žinenka -- podložka na cvičenie
 N hrkálka -- hračka, ktorá hrká
-N eso -- karta s jednotkou
-N dolník -- karta, nižšia ako dáma
-N šachovnica -- doska na šach
-N šachový jazdec -- šachová figúra
 N chodúľ -- palica na kráčanie vo výške
-N pešiak -- šachová figúrka
-N šachový strelec
-N hokejový puk -- gumový kotúč v hokeji
 
 # corpus-verbs
 V poštvať proti sebe

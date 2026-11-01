@@ -60,7 +60,7 @@ AN posledný
 AV napokon
 N zlomok -- matematický zlomok
 
-# amount
+# quantifiers
 AN veľa
 P mnohí
 PHR väčšina
@@ -88,24 +88,41 @@ V rozpoliť
 AN polovičatý
 AN dvojitý
 V zdvojnásobiť
-N pár
-PHR niekoľko
-N párik
-N tucet
 AV dosť
 AV iba
 AN celkový : adverb celkovo
 AV celkovo
+AN hojný : adverb hojne
+AN rôzny : adverb rôzne
+AV napoly
+AV dosýta -- dosýta, bez miery
+
+# sums-and-parts
+N pár
+PHR niekoľko
+N párik
+N tucet
 N súčet
 N priemer (priemerná hodnota)
 AN priemerný : adverb priemerne
 PHR v priemere
 AN nadpriemerný : adverb nadpriemerne
-AN hojný : adverb hojne
 AN prídavný
 N prísada
 N zvyšok
 AN zvyšný
+N prebytok
+N hojnosť
+V naplniť
+N hrsť
+N plus
+N veľké množstvo
+N promile
+N percentuálny bod
+N pätina
+AN prebytočný
+
+# piles-and-bundles
 N kopa
 V hromadiť
 N stoh
@@ -115,31 +132,20 @@ N zväzok
 V zviazať
 V rozviazať
 N šarža
-N prebytok
-N nedostatok
-N hojnosť
-V naplniť
-N hrsť
-AN rôzny : adverb rôzne
 N balík
 N štvorcový meter
-N plus
-N veľké množstvo
-N promile
-N percentuálny bod
+N hromadenie -- kopenie vecí
+
+# increase-and-reserve
+N nedostatok
 V dražiť
 N kapacita
-N pätina
 N zníženie
 N rezerva
 N celkový počet
 N maximálna hodnota
 N minimálna hodnota
 V uschovať
-AV napoly
-AV dosýta -- dosýta, bez miery
-N hromadenie -- kopenie vecí
-AN prebytočný
 
 # counting-measuring
 N číslo (matematické)

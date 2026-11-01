@@ -69,43 +69,17 @@ N stoka -- kanál na odpadové vody
 N studňa -- vykopaný prameň vody
 N dlažobná kocka -- kameň na dláždenie
 
-# buildings
-N budova
-N budova súdu
-N stavba
-N stavenisko
-N stavebný robotník
-AN stavebný
-N veža
-N palác
-N pevnosť
-N mrakodrap
-N radnica
+# eateries-and-venues
 N hostinec
 N reštaurácia
 N kaviareň
 N krčma
 N bar
-N ruina
 N zoologická záhrada
 N akvárium
 N aréna
-N kupola
-N eskalátor
-V renovovať
-N renovácia
-V zbúrať
-N demolácia
 N hala
-N inštitúcia
-N sanácia
-N novostavba
-N prestavba
-N výstavba
-N pozemok
 N sála
-N hrad
-N dóm
 N pivovar
 N zmrzlináreň
 N jedáleň (v práci)
@@ -117,11 +91,41 @@ N skladová hala
 N krytá plaváreň
 N letné kúpalisko
 N koncertná sála
+
+# castles-and-monuments
+N veža
+N palác
+N pevnosť
+N mrakodrap
+N radnica
+N ruina
+N kupola
+N hrad
+N dóm
 N padací most
 N minaret
 N krematórium
 N hrobka
 N bludisko
+
+# construction-and-renovation
+N budova
+N budova súdu
+N stavba
+N stavenisko
+N stavebný robotník
+AN stavebný
+N eskalátor
+V renovovať
+N renovácia
+V zbúrať
+N demolácia
+N inštitúcia
+N sanácia
+N novostavba
+N prestavba
+N výstavba
+N pozemok
 N trosky -- zvyšky zničenej stavby
 N stavebný pozemok -- pozemok na stavbu
 N stavebný materiál -- materiál na stavbu

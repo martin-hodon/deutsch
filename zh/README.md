@@ -6,10 +6,10 @@ exactly as the index writes it (`../DESIGN.md`) -- after ` = `. A concept may ha
 told apart by FREQ and register); a word with two meanings has a line for each.
 
     # feelings
-    1 N 感觉 {感觉} [gǎnjué], 种 = pocit
-    1 V 感觉 {感觉} [gǎnjué] = cítiť
-    1 V 回来 {回来} [huílái] = vrátiť sa
-    2 AN 骄傲 {骄傲} [jiāo'ào] = hrdý
+    1 N 感觉 [gǎnjué], 种 = pocit
+    1 V 感觉 [gǎnjué] = cítiť
+    1 V 回来 [huílái] = vrátiť sa
+    2 AN 骄傲 [jiāo'ào] = hrdý
 
 ## A line
 
@@ -19,12 +19,12 @@ told apart by FREQ and register); a word with two meanings has a line for each.
 - `FREQ` — `1` the ~1,000 commonest everyday words (about HSK 1-3), `2` common up to ~5,000 (HSK 4-6), `3` the rest;
 - `POS` — `N V AN AV PRE P CON NUM PAR INT PHR` (as German; `AN` an adjective -- a stative verb --, `PRE` a
   preposition or coverb (在 从 给 跟 对), `PAR` a particle (了 吗 的 吧), no ART);
-- the Chinese side: `word {word} [pinyin]`, then by POS (below), ending in its COMBINATIONS in parentheses if any
+- the Chinese side: `word [pinyin]`, then by POS (below), ending in its COMBINATIONS in parentheses if any
   (`(给)`, `(对)`, `(跟 ... 一起)`);
 - ` = ` and the concept's ID (one; nothing after it).
 
-`{parts}`: the word repeated; a `|` only at the joint of a SEPARABLE verb-object compound (`{睡|觉}` 睡觉, `{吃|饭}`,
-`{见|面}`, `{唱|歌}`: 了 and a measure go between the parts -- 睡了一觉); removing the `|` gives the word back. The
+The word is written plainly; a `|` only at the joint of a SEPARABLE verb-object compound (`睡|觉` 睡觉, `吃|饭`,
+`见|面`, `唱|歌`: 了 and a measure go between the parts -- 睡了一觉); removing the `|` gives the word back. The
 brackets hold the PINYIN with tone marks (`shū`, `xuéshēng`, `péngyou`: the syllables of a word written together,
 a neutral tone unmarked, an apostrophe only where the reading needs one -- `Xī'ān`, `nǚ'ér` --, ü written ü); the
 compiler turns it into the engine's IPA with tone digits (`tools/pinyin.py`: ɕɥɛ2ʂɤŋ1 -- one vowel per syllable: the
@@ -33,14 +33,21 @@ medials as glides j w ɥ, ai ei ao ou as diphthongs aɪ eɪ aʊ oʊ). Citation t
 
 | POS | laid out | example |
 |---|---|---|
-| `N` | `WORD {WORD} [pinyin], MEASURE` -- the measure word the noun is counted with (个 本 张 只 条 把 件 辆 杯 瓶 ...; `个` when no other is usual; `-` for a noun never counted: 水 天气) | `1 N 书 {书} [shū], 本 = kniha` · `1 N 水 {水} [shuǐ], - = voda` |
-| `V` | `WORD {WORD} [pinyin]` (a separable compound with `\|` in the braces) | `1 V 吃饭 {吃\|饭} [chīfàn] = jesť` · `1 V 去 {去} [qù] = ísť (pešo)` |
-| `AN` | `WORD {WORD} [pinyin]` | `1 AN 大 {大} [dà] = veľký` |
-| `PRE` `AV` `P` `CON` `NUM` `PAR` `INT` `PHR` | `word {word} [pinyin]` | `1 PRE 在 {在} [zài] = v` · `1 PHR 对不起 {对不起} [duìbuqǐ] = prepáč` |
+| `N` | `WORD [pinyin], MEASURE` -- the measure word the noun is counted with (个 本 张 只 条 把 件 辆 杯 瓶 ...; `个` when no other is usual; `-` for a noun never counted: 水 天气) | `1 N 书 [shū], 本 = kniha` · `1 N 水 [shuǐ], - = voda` |
+| `V` | `WORD [pinyin]` (a separable compound with `\|` in it) | `1 V 吃\|饭 [chīfàn] = jesť` · `1 V 去 [qù] = ísť (pešo)` |
+| `AN` | `WORD [pinyin]` | `1 AN 大 [dà] = veľký` |
+| `PRE` `AV` `P` `CON` `NUM` `PAR` `INT` `PHR` | `word [pinyin]` | `1 PRE 在 [zài] = v` · `1 PHR 对不起 [duìbuqǐ] = prepáč` |
 
 The trainer drills a concept in any pair of languages (Slovak included), the measure words, and the aspect particles
 (了 过 着) in sentences. The concept index and the world: `../DESIGN.md`. Checked and compiled by `python3
 tools/words.py zh [--compile]`.
+
+## Chengyu (humans/chengyu.txt)
+
+Four-character idioms are whole sayings, so they aren't vocabulary. They stand apart in `humans/chengyu.txt`, every line
+`PHR`, its translations together: `3 PHR 引人入胜 [yǐnrénrùshèng] = fascinujúci, pútavý`. They say no concept, so a
+sentence never takes one as its word for a concept (`OWN_TOPICS` in `tools/words.py`), and the dictionary lists them
+under this file's own sections. An ordinary four-character word stays where its meaning is (图书馆员, 工作条件).
 
 ## Derived adverbs
 
@@ -69,10 +76,10 @@ component with no reading: `氵 = voda -- zložka: tvar znaku 水 na ľavej stra
 (`乐 [lè]`, `乐 [yuè]`), the meanings in Slovak, a note after ` -- `. A character the dictionary has as a word takes its
 meaning from its entries; add a line here for a new character of composition.txt that is no word.
 
-## Regional words (rules/regional.txt)
+## Regional words
 
 Words not said everywhere Chinese is spoken -- Taiwan (`公升`), Hong Kong/Cantonese (`煲`), the north (`胡同`, `啥`), the
-south (`晓得`): `POS word = CODES -- note` (../DESIGN.md "Regional words").
+south (`晓得`): marked at the end of the line, `REG_TW`, under the common word (../DESIGN.md "Regional words").
 
 ## Names (names.txt)
 

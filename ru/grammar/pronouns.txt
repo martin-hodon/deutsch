@@ -1,56 +1,56 @@
 # personal
-1 P я {я} [ja] = ja
-1 P ты {ты} [tɨ] = ty
-1 P он {он} [on] = on
-1 P она {она} [ɐˈna] = ona
-1 P оно {оно} [ɐˈno] = ono
-1 P мы {мы} [mɨ] = my
-1 P они {они} [ɐˈnʲi] = oni
-1 P вы {вы} [vɨ] = vy (neformálne množné číslo)
-1 P вы {вы} [vɨ] = vy (zdvorilé oslovenie)
+1 P я [ja] = ja
+1 P ты [tɨ] = ty
+1 P он [on] = on
+1 P она [ɐˈna] = ona
+1 P оно [ɐˈno] = ono
+1 P мы [mɨ] = my
+1 P они [ɐˈnʲi] = oni
+1 P вы [vɨ] = vy (neformálne množné číslo)
+1 P вы [vɨ] = vy (zdvorilé oslovenie)
 
 # possessive
-1 P мой {мой} [moj] = môj
-1 P твой {твой} [tvoj] = tvoj
-1 P его {его} [jɪˈvo] = jeho
-1 P её {её} [jɪˈjo] = jej
-1 P наш {наш} [naʂ] = náš
-1 P ваш {ваш} [vaʂ] = váš (neformálne)
-1 P ваш {ваш} [vaʂ] = Váš (zdvorilé oslovenie)
+1 P мой [moj] = môj
+1 P твой [tvoj] = tvoj
+1 P его [jɪˈvo] = jeho
+1 P её [jɪˈjo] = jej
+1 P наш [naʂ] = náš
+1 P ваш [vaʂ] = váš (neformálne)
+1 P ваш [vaʂ] = Váš (zdvorilé oslovenie)
 
 # reflexive-and-reciprocal
-1 P себя {себя} [sʲɪˈbʲa] = sa (zvratné zámeno)
-1 P сам {сам} [sam] = sám
-1 P друг друга {друг друга} [druk ˈdruɡə] = navzájom
+1 P себя [sʲɪˈbʲa] = sa (zvratné zámeno)
+1 P сам [sam] = sám
+1 P друг друга [druk ˈdruɡə] = navzájom
 
 # demonstrative
-1 P этот {этот} [ˈɛtət] = tento
-1 AV на этот раз {на этот раз} [nɐ ˈɛtət ras] = tentoraz
-1 P тот {тот} [tot] = tamten
-1 P такой {такой} [tɐˈkoj] = taký
-1 PHR такой {такой} [tɐˈkoj] = taký
-2 P данный {данный} [ˈdanːɨj] = tento
+1 P этот [ˈɛtət] = tento
+1 AV на этот раз [nɐ ˈɛtət ras] = tentoraz
+1 P тот [tot] = tamten
+1 P такой [tɐˈkoj] = taký
+1 PHR такой [tɐˈkoj] = taký
+2 P данный [ˈdanːɨj] = tento
 
 # interrogative-and-relative
-1 P кто {кто} [kto] = kto
-1 P что {что} [ʂto] = čo
-1 P какой {какой} [kɐˈkoj] = ktorý
-1 P который {который} [kɐˈtorɨj] = ktorý
-1 PHR какой {какой} [kɐˈkoj] = aký
+1 P кто [kto] = kto
+1 P что [ʂto] = čo
+1 P какой [kɐˈkoj] = ktorý
+1 P который [kɐˈtorɨj] = ktorý
+1 PHR какой [kɐˈkoj] = aký
 
 # indefinite
-3 P один {один} [ɐˈdʲin] = sa (neurčitý podmet)
-1 P кто-то {кто-то} [ˈktotə] = niekto
-1 P никто {никто} [nʲɪˈkto] = nikto
-1 P все {все} [fsʲe] = každý človek
-2 P некоторый {некоторый} [ˈnʲekətərɨj] = niektorý
-1 P оба {оба} [ˈobə] = obaja
-1 P любой {любой} [lʲuˈboj] = akýkoľvek
-1 P несколько {несколько} [ˈnʲeskəlʲkə] = niekoľkí
-1 PHR немного {не|много} [nʲɪmˈnoɡə] = trochu
-1 P никакой {никакой} [nʲɪkɐˈkoj] = žiadny
-2 P один из нас {один из нас} [ɐˈdʲin ɪz nas] = jeden z nás
-3 P наш брат {наш брат} [naʂ brat] = jeden z nás
+1 P кто-то [ˈktotə] = niekto
+1 P никто [nʲɪˈkto] = nikto
+1 P все [fsʲe] = každý človek
+1 P оба [ˈobə] = obaja
+1 P любой [lʲuˈboj] = akýkoľvek
+1 P несколько [ˈnʲeskəlʲkə] = niekoľkí
+1 PHR не|много [nʲɪmˈnoɡə] = trochu
+1 P никакой [nʲɪkɐˈkoj] = žiadny
+2 P некоторый [ˈnʲekətərɨj] = niektorý
+2 P один из нас [ɐˈdʲin ɪz nas] = jeden z nás
+3 P один [ɐˈdʲin] = sa (neurčitý podmet)
+3 P наш брат [naʂ brat] = jeden z nás
 
 # language-specific closed words (no Slovak word: a description)
-1 P свой {свой} [svoj] = svoj
+1 P свой [svoj] = svoj

@@ -1,4 +1,4 @@
-# work-general
+# work-career
 N práca
 V pracovať
 N robotník
@@ -11,10 +11,8 @@ N zamestnanosť
 AN nezamestnaný
 N spolupracovníčka
 N nezamestnaný
-N zamestnanec
 N samostatne zárobkovo činná osoba
 N pracujúci
-N učeň
 V brigádovať
 N kariéra
 N povolanie
@@ -22,19 +20,6 @@ AN pracovný
 AN zamestnaný
 AN na voľnej nohe
 AN popri zamestnaní
-N šéf : of nadriadený @ hovorovo
-N šéfka
-N kolega
-N kolegyňa
-AN kolegiálny : adverb kolegiálne
-N personál
-V zamestnať
-V prepustiť (z práce)
-N prepustenie
-PHR odísť do dôchodku
-N dôchodca
-N odpočinok
-N dovolenka
 N schopnosť
 AN schopný : adverb schopne
 AN neschopný
@@ -45,19 +30,47 @@ AN neskúsený
 N zodpovednosť
 AN zodpovedný : adverb zodpovedne
 AN nezodpovedný : adverb nezodpovedne
-N časový plán
+N stáž
+N stážista
+N mzda
+N minimálna mzda
+V oplatiť sa
+N nadčasy
+N práca na čiastočný úväzok
+N práca na plný úväzok
+N projekt
+N vyhorenie
+N pracovná zmluva
+N úrad práce
+N súkromný život
+N hosťujúci pracovník
+N sociálny pracovník
+N pracovná podmienka
+N pracovná skupina
+N skrátený pracovný čas
+N vyťaženosť
+N dokončenie
+V koučovať
+V flákať sa -- lenivo tráviť čas
+V uliať sa -- vyhnúť sa práci
+V zapracovať -- zaučiť alebo včleniť
+V najať -- vziať do služby
+V drieť -- ťažko pracovať
+N drina -- ťažká driná práca
+
+# hiring-leaving
+V zamestnať
+V prepustiť (z práce)
+N prepustenie
+PHR odísť do dôchodku
+N dôchodca
+N odpočinok
+N dovolenka
 N pracovný pohovor
 V uchádzať sa
 N žiadosť o prácu
 N uchádzač
 N životopis
-N manažér
-N riaditeľ
-N vedúci
-N tajomník
-N sekretárka
-N asistent
-N expert
 N štrajk
 V štrajkovať
 N odbory
@@ -65,6 +78,49 @@ AN odborový
 N povýšenie
 N degradácia
 V povýšiť
+V dať výpoveď
+N výpoveď
+N zamestnanecký pomer
+N odstupné
+N zvýšenie platu
+N deň dovolenky
+N obedňajšia prestávka
+N PN
+N živnosť
+AN živnostenský
+N životné poistenie
+N dôchodkové poistenie
+N rodičovská dovolenka
+V poslať do dôchodku
+
+# bosses-staff
+N zamestnanec
+N učeň
+N šéf : of nadriadený @ hovorovo
+N šéfka
+N kolega
+N kolegyňa
+AN kolegiálny : adverb kolegiálne
+N manažér
+N riaditeľ
+N vedúci
+N tajomník
+N sekretárka
+N asistent
+N expert
+N nadriadený
+N podriadený
+N predchodca
+N vedúca
+N odborník
+N laik
+N zakladateľ
+N zakladateľka
+N ošetrovateľ
+N vedúci pracovník
+V manažovať
+
+# trades-professions
 N inžinier
 N mechanik
 N tesár
@@ -74,14 +130,28 @@ N kováč
 N kováčska dielňa
 V kovať
 N architekt
-N stáž
-N stážista
-N mzda
-N minimálna mzda
-V oplatiť sa
-N nadčasy
-N práca na čiastočný úväzok
-N práca na plný úväzok
+N technik
+N školník
+N murár
+N holič
+N obuvník
+N reportér
+N notár
+N lesník
+N stolár
+N taxikár
+N vodič autobusu
+N rušňovodič : of vodič @ vlaky
+N daňový poradca
+N špecialista
+N starostlivosť o deti
+N kožušník
+N sklár -- remeselník, ktorý vyrába sklo
+N vrátnik
+
+# company-meetings
+N personál
+N časový plán
 N podnikateľ
 N podnik
 V podniknúť
@@ -92,46 +162,25 @@ N pobočka
 N koncern
 N prezentácia
 V prezentovať
-N projekt
 N program rokovania
-N nadriadený
-N podriadený
-N technik
-N školník
-N murár
-N holič
-N obuvník
-V dať výpoveď
-N výpoveď
-N vyhorenie
-N vybavovanie
-N predchodca
-N vedúca
-N odborník
-N laik
-N zakladateľ
-N zakladateľka
 N prevádzka
 AN podnikový
 N podnikový výbor
-N pracovná zmluva
-N zamestnanecký pomer
-N odstupné
-N zvýšenie platu
-N deň dovolenky
-N obedňajšia prestávka
-N PN
-N úrad práce
 N porada
 N zápisnica
 N diár
-N reportér
-N notár
-N lesník
-N stolár
-N taxikár
-N vodič autobusu
-N rušňovodič : of vodič @ vlaky
+N vedenie firmy
+N nedostatok odborníkov
+N delegácia
+N valné zhromaždenie
+N dozorná rada
+N predsedníctvo
+N výberové konanie
+N pedagóg
+V reklamovať
+
+# office-paperwork
+N vybavovanie
 N pokyn
 N návod
 N návod na použitie
@@ -142,51 +191,11 @@ N pečiatka
 N papierik
 N blok
 N lepidlo
-N súkromný život
-N daňový poradca
-N živnosť
-AN živnostenský
-N hosťujúci pracovník
-N životné poistenie
-N dôchodkové poistenie
-N rodičovská dovolenka
-N ošetrovateľ
-N sociálny pracovník
-N špecialista
-N starostlivosť o deti
-N pracovná podmienka
-N pracovná skupina
-N vedúci pracovník
-N vedenie firmy
-N skrátený pracovný čas
-N nedostatok odborníkov
-N delegácia
-N valné zhromaždenie
-N dozorná rada
-N predsedníctvo
-N výberové konanie
-N vyťaženosť
-N dokončenie
-N pedagóg
-V poslať do dôchodku
-V manažovať
-V koučovať
 V povolať
 V žiť z
-V reklamovať
-N kožušník
-V flákať sa -- lenivo tráviť čas
-V uliať sa -- vyhnúť sa práci
-N sklár -- remeselník, ktorý vyrába sklo
-V zapracovať -- zaučiť alebo včleniť
-V najať -- vziať do služby
-V drieť -- ťažko pracovať
-N drina -- ťažká driná práca
-N vrátnik
 
-# making-doing
+# making-building
 V robiť
-V zatvoriť
 V napodobniť
 N výrobok
 V vyrábať
@@ -213,13 +222,23 @@ N výstroj
 N prototyp
 N stavebné práce
 V vypracovať
-V vybaviť (záležitosť)
-V starať sa o
-N starostlivosť
 V zrekonštruovať
 V zhotoviť
 V kutiť
 AN remeselný
+V nasadiť (na hlavu)
+V mutovať
+V lisovať
+V ozeleniť
+V vypreparovať
+V opracovať -- obrábať kov alebo drevo na stroji
+V píliť
+
+# carrying-out-tasks
+V zatvoriť
+V vybaviť (záležitosť)
+V starať sa o
+N starostlivosť
 V presadzovať
 V zintenzívniť
 V adaptovať
@@ -227,21 +246,14 @@ V štandardizovať
 V implementovať
 V plne vyťažiť
 V vyplniť
-V nasadiť (na hlavu)
 V odvolať
 V roztiahnuť
 V nadviazať
 V rozdúchať
-V mutovať
-V lisovať
 V priškrtiť
 V vypustiť
-V ozeleniť
 V zohnať
 V pilovať
-V vypreparovať
-V opracovať -- obrábať kov alebo drevo na stroji
-V píliť
 
 # tools
 N kladivo

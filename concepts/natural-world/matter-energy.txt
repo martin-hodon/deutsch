@@ -1,31 +1,4 @@
-# states-substances
-N hmota
-AN materiálny
-N substancia
-N vzduch
-V vetrať
-AN vzdušný
-N plyn
-AN plynný
-N zemný plyn
-AN tekutý
-AN tuhý
-N tekutina
-N pevná látka
-N kyslík
-N vodík
-N dusík
-N atóm
-AN atómový
-N atómová bomba
-N jadrová elektráreň
-N molekula
-N častica
-N dym
-V dymiť
-N sadze
-N popol
-N popolník
+# metals-and-stones
 N minerál
 N kov
 N železo
@@ -38,7 +11,6 @@ N meď
 N olovo
 N zinok
 N ortuť
-N síra
 N bronz
 N mosadz
 N hrdza
@@ -57,9 +29,60 @@ N kremeň
 N ruda
 N decht
 N vosk
-N hustota
+N črepina -- kúsok rozbitého skla alebo keramiky
+N úlomok -- malý odlomený kúsok
+N prášok -- jemne rozdrvená látka
+N platina -- chemický prvok
+N urán -- chemický prvok
+N lítium -- chemický prvok
+N sodík -- chemický prvok
+N horčík -- chemický prvok
+N draslík -- chemický prvok
+N titán -- chemický prvok
+N chróm -- chemický prvok
+N mangán -- chemický prvok
+N kobalt -- chemický prvok
+N nikel -- chemický prvok
+
+# gases-and-elements
+N hmota
+AN materiálny
+N substancia
+N vzduch
+V vetrať
+AN vzdušný
+N plyn
+AN plynný
+N zemný plyn
+N kyslík
+N vodík
+N dusík
+N atóm
+AN atómový
+N atómová bomba
+N jadrová elektráreň
+N molekula
+N častica
+N dym
+V dymiť
+N sadze
+N popol
+N popolník
+N síra
 N masa
 AN masový
+N fosfor -- chemický prvok P
+N kremík -- chemický prvok Si
+N arzén -- chemický prvok
+N hélium -- chemický prvok
+N fluór -- chemický prvok
+N chlór -- chemický prvok
+
+# changes-of-state
+AN tekutý
+AN tuhý
+N tekutina
+N pevná látka
 AN roztopený
 V vypariť sa
 V rozpustiť
@@ -69,18 +92,19 @@ V absorbovať
 V kontaminovať
 V vyschnúť
 V zvlhnúť
-N fosfor -- chemický prvok P
-N kremík -- chemický prvok Si
 V leptať -- leptaním zničiť
 V lepiť sa -- priliepať sa
+V stuhnúť -- stať sa tuhým
+N lúh -- zásaditá látka, roztok
+V nafúknuť -- naplniť vzduchom
+N topenie -- prechod látky z tuhého skupenstva do kvapalného
+N odparovanie
+
+# material-properties
+N hustota
 AN mazľavý -- mastný, špinavý a lepkavý
 AN slizký -- pokrytý slizom
-N črepina -- kúsok rozbitého skla alebo keramiky
-N úlomok -- malý odlomený kúsok
-V stuhnúť -- stať sa tuhým
 N šmuha -- pruh rozmazanej farby
-N prášok -- jemne rozdrvená látka
-N lúh -- zásaditá látka, roztok
 N krehkosť
 N plasticita
 AN ťažný -- o kove, dá sa ťahať do drôtu
@@ -93,24 +117,6 @@ N pevnosť materiálu -- odolnosť materiálu
 N húževnatosť
 N jemnosť
 AN drobivý
-N platina -- chemický prvok
-N urán -- chemický prvok
-N lítium -- chemický prvok
-N sodík -- chemický prvok
-N horčík -- chemický prvok
-N draslík -- chemický prvok
-N titán -- chemický prvok
-N chróm -- chemický prvok
-N mangán -- chemický prvok
-N kobalt -- chemický prvok
-N nikel -- chemický prvok
-N arzén -- chemický prvok
-N hélium -- chemický prvok
-N fluór -- chemický prvok
-N chlór -- chemický prvok
-V nafúknuť -- naplniť vzduchom
-N topenie -- prechod látky z tuhého skupenstva do kvapalného
-N odparovanie
 
 # fire-light
 V horieť
@@ -188,7 +194,7 @@ N náboj (elektrický) -- elektrický náboj
 N nabitie
 N vybitie
 
-# sound
+# noise-and-silence
 N šum
 N zvuk
 V znieť
@@ -204,24 +210,16 @@ N šuchot
 AN zvukotesný
 AN zvučný
 AN ohlušujúci
-N rachot
 N revanie
-V vykríknuť
+
+# rustling-and-creaking
 V šuchotať
 V praskať
 V vŕzgať
 V škrípať
-V pišťať
 V klepotať
 V plesknúť
 V čľapotať sa
-V chrčať
-V hučať
-V pípať
-V škriekať
-V hulákať
-V jačať
-V trúbiť
 V brnkať
 V štrngať
 V žblnkať
@@ -230,6 +228,18 @@ V čľupnúť
 V drnčať
 V hrkotať
 V prašťať
+
+# shrieks-and-hoots
+N rachot
+V vykríknuť
+V pišťať
+V chrčať
+V hučať
+V pípať
+V škriekať
+V hulákať
+V jačať
+V trúbiť
 V vrešťať
 V fučať
 V nôtiť si

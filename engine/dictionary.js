@@ -211,7 +211,7 @@ function showStats() {
   }
 }
 // a result's row: the word, its part of speech, its meanings; `extra`: a rank, a typed form, a remove button
-// a word said only in some region (the `region` column: <lang>/rules/regional.txt) -- "regionálne: Rakúsko", "nárečové"
+// a word said only in some region (the `region` column: the REG marks in the topic files) -- "regionálne: Rakúsko", "nárečové"
 const regionText = (e) => {
   const codes = e.region ? e.region.split(" ") : [], places = codes.filter((c) => c !== "dialect").map((c) => t("region-" + c));
   return places.length ? t("region", { r: places.join(", ") }) : codes.length ? t("region-dialect") : "";

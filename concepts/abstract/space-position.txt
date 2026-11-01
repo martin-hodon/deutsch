@@ -1,4 +1,4 @@
-# place-position
+# place-and-area
 N miesto (v priestore)
 N lokalita
 PHR na mieste
@@ -14,6 +14,35 @@ V zistiť
 V znázorniť
 AV miestami
 V pripisovať
+N centrum
+AN centrálny : adverb centrálne
+N ústredie
+AN decentralizovaný
+N sféra
+N zóna
+N miesto (priestor)
+V umiestniť
+N hranica
+AN susediaci
+N pohraničie
+V ohraničiť
+AN bezhraničný
+V vymedziť
+V hraničiť
+AN cezhraničný
+V obklopovať
+N základňa
+V zakladať sa
+N sektor
+N pole
+N dutina
+N miestnosť
+AN priestorový
+AN veľkopriestorový
+N oblasť
+N ohnisko
+
+# relative-position
 N strana
 N horná strana
 N spodná strana
@@ -26,10 +55,6 @@ AN jednostranný : adverb jednostranne
 AN všestranný : adverb všestranne
 N stred
 AV uprostred
-N centrum
-AN centrálny : adverb centrálne
-N ústredie
-AN decentralizovaný
 AV vnútri
 N vnútro
 AN vnútorný
@@ -66,28 +91,14 @@ N protistrana
 V stáť oproti
 AV dokola
 AV dookola
-N sféra
-N zóna
-N miesto (priestor)
-V umiestniť
-N hranica
-AN susediaci
-N pohraničie
-V ohraničiť
-AN bezhraničný
-V vymedziť
-V hraničiť
-AN cezhraničný
+N popredie
+
+# extent-and-arrangement
 AN rozsiahly : adverb rozsiahle
 V zahŕňať
 AN komplexný : adverb komplexne
-V obklopovať
-N základňa
-V zakladať sa
 N výklenok
-N sektor
 N usporiadanie
-N pole
 N rozpätie
 N dosah
 N prázdnota
@@ -96,15 +107,8 @@ N vákuum
 N priehradka
 AN odborný : adverb odborne
 N štrbina
-N dutina
-N miestnosť
-AN priestorový
-AN veľkopriestorový
-N oblasť
 N veľká časť
-N ohnisko
 N číslo (poradové)
-N popredie
 V zmestiť sa -- vojsť sa do priestoru
 
 # direction-distance
@@ -165,11 +169,7 @@ N severovýchod
 AN severovýchodný
 N juhozápad
 
-# motion
-V hýbať
-N pohyb
-AN pohyblivý
-V prinútiť
+# going-and-arriving
 V ísť (pešo)
 V ísť (dopravou)
 V odísť
@@ -183,7 +183,6 @@ V chopiť sa
 V zaobchádzať
 V obísť
 V spáchať
-V uniknúť
 V plynúť
 V ísť vpredu
 V venovať sa
@@ -199,8 +198,6 @@ V vyskytovať sa
 N pôvod
 V uhradiť
 V pribudnúť
-V ubudnúť
-V zaobísť sa
 V vyhovieť
 V prísť vhod
 V vyjsť von
@@ -219,6 +216,52 @@ N vstup
 V vstúpiť na
 V prejsť cez
 V odbočiť
+V nasledovať
+N následok
+AN nasledujúci
+V prenasledovať
+N nástupca
+N nástupkyňa
+V sledovať
+V ďalej sledovať
+V vystopovať
+V viesť
+N vedenie
+V zaviesť
+V viesť späť
+V previezť
+V pokračovať v
+V zviesť
+V uviesť v premiére
+V zlúčiť
+V dosiahnuť
+AN dosiahnuteľný
+AN nedosiahnuteľný
+V kvapiť
+N ponáhľanie
+AN súrny : adverb súrne
+V ponáhľať sa
+V postúpiť (vpred)
+V potulovať sa
+V vyplývať
+V preniknúť
+V vyraziť
+V vniknúť
+V vtiahnuť
+V štvať
+V križovať
+V pritiahnuť
+V postúpiť (vyššie)
+V zaniesť
+
+# falling-and-swaying
+V hýbať
+N pohyb
+AN pohyblivý
+V prinútiť
+V uniknúť
+V ubudnúť
+V zaobísť sa
 V padnúť
 PHR pustiť
 V upútať
@@ -241,37 +284,11 @@ V vyhnať
 V preháňať
 V poháňať
 V znepokojovať
-V nasledovať
-N následok
-AN nasledujúci
 V dodržať
-V prenasledovať
-N nástupca
-N nástupkyňa
-V sledovať
-V ďalej sledovať
-V vystopovať
-V viesť
-N vedenie
 V vykonať
-V zaviesť
-V viesť späť
-V previezť
-V pokračovať v
-V zviesť
-V uviesť v premiére
-V zlúčiť
 AN pretrvávajúci
 N zastavenie
 V zdržať
-V dosiahnuť
-AN dosiahnuteľný
-AN nedosiahnuteľný
-V kvapiť
-N ponáhľanie
-AN súrny : adverb súrne
-V ponáhľať sa
-V postúpiť (vpred)
 V rozložiť
 V šíriť
 N šírenie
@@ -281,7 +298,6 @@ V točiť sa
 N otočenie
 V otočiť
 V utiecť
-V potulovať sa
 V unášať sa
 V spadnúť
 N pád
@@ -291,25 +307,15 @@ V zvaliť sa
 AN roztržitý : adverb roztržito
 V vznášať sa
 V naraziť
-V vyplývať
 V kolidovať
-V preniknúť
-V vyraziť
 V týčiť sa
-V vniknúť
-V vtiahnuť
 V kývať sa
-V štvať
 V šmýkať sa
 V krútiť sa
-V križovať
-V pritiahnuť
-V postúpiť (vyššie)
 V mihať sa
 V odraziť sa
 V prehýbať sa
 V nakloniť
-V zaniesť
 
 # travel
 V pricestovať

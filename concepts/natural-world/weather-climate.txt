@@ -1,4 +1,28 @@
-# weather
+# wind-and-storms
+N vietor
+AN veterný
+N smršť
+N bezvetrie
+N vánok
+N poryv vetra
+N víchor
+AN búrlivý : adverb búrlivo
+N hurikán
+N orkán
+N tornádo
+N tajfún
+N cyklón
+N monzún
+N závan
+V fúkať
+V sfúknuť
+N kúdol
+N prievan
+V odfúknuť -- odviať vetrom
+V ovievať -- jemne fúkať na niečo
+V zmierniť sa -- utíšiť sa, o vetre a búrke
+
+# rain-snow-clouds
 N počasie
 N predpoveď počasia
 N správa o počasí
@@ -20,25 +44,11 @@ N krúpy
 V krúpiť
 N prehánka
 N dažďová prehánka
-N vietor
-AN veterný
-N smršť
-N bezvetrie
-N vánok
-N poryv vetra
-N víchor
-AN búrlivý : adverb búrlivo
 N búrka
 N hrom
 V hrmieť
 N blesk
 V blýskať sa
-N hurikán
-N orkán
-N tornádo
-N tajfún
-N cyklón
-N monzún
 N oblak
 AN oblačný
 N oblačnosť
@@ -60,17 +70,9 @@ N námraza
 N globálne otepľovanie
 N výfukové plyny
 N ochrana životného prostredia
-N závan
 N silný dážď
 N denná teplota
-V fúkať
-V sfúknuť
-N kúdol
-N prievan
-V odfúknuť -- odviať vetrom
-V ovievať -- jemne fúkať na niečo
 V mrholiť
-V zmierniť sa -- utíšiť sa, o vetre a búrke
 
 # temperature
 N teplota

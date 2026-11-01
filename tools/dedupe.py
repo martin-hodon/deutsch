@@ -45,7 +45,7 @@ for (w, pos), es in entries.items():
         sk += [t for t in r["d"]["sk"] if t not in sk]
         drop[r["rel"]].add(r["i"])
     s = lines[keep["rel"]][keep["i"]]
-    lines[keep["rel"]][keep["i"]] = s.split(" = ")[0] + " = " + ", ".join(sk)
+    lines[keep["rel"]][keep["i"]] = s.split(" = ")[0] + " = " + ", ".join(sk) + "".join(" REG" + (f"_{c}" if c != "dialect" else "") for c in keep["d"]["region"].split())
     print(f"  {w} {pos}: kept {keep['rel']}:{keep['i'] + 1}, dropped " + ", ".join(f"{r['rel']}:{r['i'] + 1}" for r in rest))
 for rel, L in lines.items():
     if drop[rel]:

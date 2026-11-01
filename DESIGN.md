@@ -45,8 +45,8 @@ several words in a language (synonyms: *anfangen*, *beginnen* -> `V začať`), t
 and valence. The trainer asks a concept; any of its words in the language is right, the commonest shown. A dictionary
 line names the concept first on its Slovak side, further Slovak words after it (accepted answers, not IDs):
 
-    1 N die Zunge {Zunge} [ˈtsʊŋə], Zungen = jazyk (orgán)
-    1 N die Sprache {Sprache} [ˈʃpʁaːxə], Sprachen = jazyk (reč), reč
+    1 N die Zunge [ˈtsʊŋə], Zungen = jazyk (orgán)
+    1 N die Sprache [ˈʃpʁaːxə], Sprachen = jazyk (reč), reč
 
 **Derived adverbs.** An adjective declares its adverb (`AN dobrý : adverb dobre`); `concepts.read()` lists `AV dobre`
 as a concept of its own, linked to the adjective (`of`). A language says it by an explicit `AV` line (well, fast, hard,
@@ -83,9 +83,11 @@ relation is between concepts, declared once for all languages.
 
 **Regional words.** A word not said everywhere its language is spoken -- a national variety (Austrian *Jänner*, British
 *lorry*, Spain's *ordenador*), a region (*Sonnabend* in northern Germany), a dialect -- is listed in
-`<lang>/rules/regional.txt` (`N Jänner = AT -- Germany: Januar`; codes AT CH DE-N DE-S, UK US AU IE SCOT, ES LATAM MX AR,
-BE CA AF, IT-N IT-S, PL-S PL-W SIL, TW HK CN-N CN-S, `dialect`). The compile writes the `region` column
-(tools/words.py `mark_region`; a name it does not find is an error). The dictionary marks the word ("regionálne: Rakúsko",
+marked at the end of its line in the topic file: `REG_AT`, several `REG_DE-S REG_AT`, `REG` for a dialect with no one
+region (codes AT CH DE-N DE-S, UK US AU IE SCOT, ES LATAM MX AR, BE CA AF, IT-N IT-S, PL-S PL-W SIL, TW HK CN-N CN-S;
+tools/check.py `take_region`). It stands as a derived line under the common word it is a variant of (`- 3 N der Jänner
+{Jänner} [ˈjɛnɐ], - = január REG_AT` under Januar); where its concept has only regional words they go under the first
+of them, and where there is no such word in the dictionary it stands alone. The dictionary marks the word ("regionálne: Rakúsko",
 `region-CODE` in ui.txt) and names the concept's general words beside it; a concept's word lists put regional words
 last (data.js, lexicon.js), so the general word is the one shown and said; the trainer does not drill a regional word
 whose concept has a general one. 2026-10-20: de 45, en 184 (a British-based dictionary: mostly UK), es 234 (mostly
@@ -193,8 +195,8 @@ The line formats are in each `<lang>/README.md`; the shared parser is `tools/wor
   only with Pan, the perception clause. The trainer drills the gender of nouns whose ending hides it and the aspect
   pairs (one implementation, parametrised by language).
 - **Chinese** (`zh/`): the PINYIN in the brackets (compiled to IPA with tone digits by `tools/pinyin.py`: medials as
-  glides, ai ei ao ou as diphthongs, r as ɻ), a noun's MEASURE WORD after it, `|` in the braces of a separable
-  verb-object compound ({睡|觉}: 了 goes between); measure words are entries too (POS PAR). No morphology beyond the
+  glides, ai ei ao ou as diphthongs, r as ɻ), a noun's MEASURE WORD after it, `|` in a separable
+  verb-object compound (睡|觉: 了 goes between); measure words are entries too (POS PAR). No morphology beyond the
   measure words and the aspect particles. The realizer is ORDER and PARTICLES: the subject, the time words, the coverb
   phrases before the verb (`frames.txt` with `pre` / `post` and `…` where the noun goes), 了 after the verb for a
   completed event, 把 when an object is placed or given, 吗 or the question word in place, 因为……所以 / 虽然……但是 /

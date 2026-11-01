@@ -1,16 +1,4 @@
-# landforms
-N krajina (štát)
-N krajina (prírodná)
-N pevnina
-N vysočina
-N trávnatá krajina
-N pôda
-N zem
-N zemetrasenie
-N zosuv pôdy
-AN pozemský
-N kontinent
-AN kontinentálny
+# mountains-and-valleys
 N vrch
 N pohorie
 N vysoké pohorie
@@ -24,11 +12,6 @@ AN kopcovitý
 N dolina
 N rovina
 N náhorná plošina
-N nížina
-N púšť
-AN pustý
-V spustošiť
-N duna
 N jaskyňa
 N útes (skalnatý)
 N vrchol
@@ -45,31 +28,50 @@ N kráter
 N tiesňava
 N výmoľ
 N trhlina v ľadovci
+N jama
+N priekopa
+N žľab
+V stekať
+N sklon
+V nakláňať
+N priepasť (v teréne)
+N čistina
+N priesmyk
+
+# regions-and-terrain
+N krajina (štát)
+N krajina (prírodná)
+N pevnina
+N vysočina
+N trávnatá krajina
+N pôda
+N zem
+N zemetrasenie
+N zosuv pôdy
+AN pozemský
+N kontinent
+AN kontinentálny
+N nížina
+N púšť
+AN pustý
+V spustošiť
+N duna
 N step
 N tundra
 N savana
 N prérie
 N terén
 N močiar
-N jama
-N priekopa
 N divočina
 N pologuľa
-N žľab
-V stekať
 N rašelinisko
 N vresovisko
 N pohan
-N sklon
-V nakláňať
-N priepasť (v teréne)
 N kraj
 N národný park
 N prírodná rezervácia
 N pustatina
-N čistina
 N pevninská šija -- úzky pás zeme medzi dvoma morami
-N priesmyk
 
 # surface-materials
 N skala

@@ -7,21 +7,21 @@ read by people AND by a program without guessing: a language-learning app (word 
 drills, verb forms) is meant to run on it.
 
 It is built on `../lang/` (the multilingual concept dictionary): the same TAXONOMY (folders → files → `# sections`),
-the same written forms, the same PARTS notation (`{Ge|fühl}`, `../lang/SEGMENTATION-GUIDE.md`) and the same IPA
+the same written forms, the same PARTS notation (`Ge|fühl`, `../lang/SEGMENTATION-GUIDE.md`) and the same IPA
 (`../lang/IPA-GUIDE.md`, German). `tools/check.py` verifies every rule below.
 
     # feelings
-    1 N das Gefühl {Ge|fühl} [ɡəˈfyːl], Gefühle (für A) = cit, pocit
-    - 1 V fühlen {fühlen} [ˈfyːlən], hat (sich A) = cítiť
-    - 3 AN gefühllos {gefühl|los} [ɡəˈfyːlloːs] = bezcitný
+    1 N das Ge|fühl [ɡəˈfyːl], Gefühle (für A) = cit, pocit
+    - 1 V fühlen [ˈfyːlən], hat (sich A) = cítiť
+    - 3 AN gefühl|los [ɡəˈfyːlloːs] = bezcitný
 
-    1 V sprechen {sprechen} [ˈʃpʁɛçən], spricht/sprach/gesprochen, hat (mit D, über A) = hovoriť, rozprávať
-    - 1 N die Sprache {Sprache} [ˈʃpʁaːxə], Sprachen = jazyk, reč
-    - 1 V versprechen {ver|sprechen} [fɛɐˈʃpʁɛçən], verspricht/versprach/versprochen, hat (D) = sľúbiť
-    - 2 V aussprechen {aus·sprechen} [ˈaʊsʃpʁɛçən], spricht aus/sprach aus/ausgesprochen, hat = vysloviť
+    1 V sprechen [ˈʃpʁɛçən], spricht/sprach/gesprochen, hat (mit D, über A) = hovoriť, rozprávať
+    - 1 N die Sprache [ˈʃpʁaːxə], Sprachen = jazyk, reč
+    - 1 V ver|sprechen [fɛɐˈʃpʁɛçən], verspricht/versprach/versprochen, hat (D) = sľúbiť
+    - 2 V aus_sprechen [ˈaʊsʃpʁɛçən], spricht aus/sprach aus/ausgesprochen, hat = vysloviť
 
-    2 AN stolz {stolz} [ʃtɔlts] (auf A) = hrdý
-    1 PRE mit {mit} [mɪt], D = s, so
+    2 AN stolz [ʃtɔlts] (auf A) = hrdý
+    1 PRE mit [mɪt], D = s, so
 
 ## Files
 
@@ -36,16 +36,19 @@ the same written forms, the same PARTS notation (`{Ge|fühl}`, `../lang/SEGMENTA
     deutsch/deutsch.tsv             every entry in one machine file (made by compile.py)
     deutsch/meaning.tsv             the meanings in one machine file (made by compile.py)
     deutsch/order.tsv               the words by how common they are, commonest first (made by order.py)
-    de/rules/regional.txt           the words said only in a region: Austria (Jänner), Switzerland, the north or
-                                    south of Germany (`N Jänner = AT`; ../DESIGN.md "Regional words")
 
 UTF-8. Inside a file: a `# section-name` line starts a section; blank lines are ignored; every other line is an ENTRY.
 A word appears in ONE place in the whole database, with one sense — the same spelling twice is two senses, told apart
 by their translations (`Bank` the seat, `Bank` the bank).
 
+A section stays small, about 40 top-level words at most; a bigger one is split by meaning. Within a section the families
+stand by their root's FREQ (1, then 2, then 3), and within a family the derived words by their own. The order therefore
+no longer says which synonym a concept uses: where that is not the commonest, `rules/prefer.txt` names it. A new section
+also goes into `../concepts/<topic>.txt` and is named in `../concepts/labels.txt`: the dictionary's filter reads those.
+
 ## A line
 
-    [- ]FREQ POS GERMAN = SLOVAK
+    [- ]FREQ POS GERMAN = SLOVAK[ REG_CODE ...]
 
 - `- ` — a DERIVED word: it belongs to the last line without one (its root word), until the next such line or
   section. A family is one level deep: all derived words are listed under the root.
@@ -55,25 +58,27 @@ by their translations (`Bank` the seat, `Bank` the bank).
   has any.
 - ` = ` — space, equals, space: the only one on the line.
 - `SLOVAK` — the translations, the usual one first, separated by `, `.
+- `REG_AT`, `REG_DE-S REG_AT`, `REG` — a word said only in a region, or a dialect's with no one region (../DESIGN.md
+  "Regional words"). Under the common word, as a derived line: `- 3 N der Jänner [ˈjɛnɐ], - = január REG_AT`.
 
 ## The German side, by part of speech
 
-Every word is written `word {parts} [ipa]`: the written form; the same in braces with its parts marked — `|` at a
-compound's joint, a living prefix, a consonant-initial suffix (`../lang/SEGMENTATION-GUIDE.md`), `·` where a verb's
-prefix SEPARATES (`auf·stehen`: *ich stehe auf*) — removing every `|` and `·` gives the word back exactly; its
+Every word is written `wo|rd [ipa]`: the written form with its parts marked — `|` at a
+compound's joint, a living prefix, a consonant-initial suffix (`../lang/SEGMENTATION-GUIDE.md`), `_` where a verb's
+prefix SEPARATES (`auf_stehen`: *ich stehe auf*) — removing every `|` and `_` gives the word back exactly; its
 pronunciation in square brackets, with the stress mark. Then, by part of speech:
 
 | POS | | laid out | example |
 |---|---|---|---|
-| `N` | noun | `ARTICLE Word {…} […], PLURAL` — the article `der`, `die`, `das` (`der/das` when both are used; `der/die` for a noun declined like an adjective; `(das)` for a name that is neuter but used without one: *(das) Deutschland*, *in Deutschland* — while *die Schweiz*, *die USA* keep theirs); the plural written out — the same word when it does not change (*das Zimmer …, Zimmer*), two accepted ones as `Wörter/Worte` — `-` only when it has NONE (*der Frieden …, -*), `PL` when the word itself is a plural (*die Leute …, PL*) | `N der Zufall {Zu|fall} [ˈtsuːfal], Zufälle` |
-| `V` | verb | `infinitive {…} […], FORMS, AUX` — FORMS only for an IRREGULAR verb (strong, mixed, *haben*, *sein*, the modals): `3rd person present/simple past/past participle`, a separable one with its prefix where it stands (`steht auf/stand auf/aufgestanden`); AUX the perfect's auxiliary `hat`, `ist` or `hat/ist`; a reflexive verb with its `sich` (`sich freuen`) | `V fahren {fahren} [ˈfaːʁən], fährt/fuhr/gefahren, ist` · `V machen {machen} [ˈmaxən], hat` |
-| `AN` | adjective | `word {…} […]`, then `, COMPARATIVE/SUPERLATIVE` when irregular or umlauting | `AN gut {gut} [ɡuːt], besser/am besten` |
-| `PRE` | preposition | `word {…} […], CASE` — `A`, `D`, `G` or `A/D` (two-way) | `PRE wegen {wegen} [ˈveːɡən], G` |
-| `AV` | adverb | `word {…} […]` | `AV gestern {gestern} [ˈɡɛstɐn]` |
-| `P` | pronoun | `word {…} […]` | `P jemand {jemand} [ˈjeːmant]` |
-| `CON` | conjunction | `word {…} […]` | `CON obwohl {ob|wohl} [ɔpˈvoːl]` |
-| `ART` `NUM` `PAR` `INT` | article, numeral, particle, interjection | `word {…} […]` | `NUM zwanzig {zwanzig} [ˈtsvantsɪç]` |
-| `PHR` | fixed phrase (several words, one meaning) | `words {…} […]` | `PHR zu Hause {zu Hause} [tsuː ˈhaʊzə]` |
+| `N` | noun | `ARTICLE Word […], PLURAL` — the article `der`, `die`, `das` (`der/das` when both are used; `der/die` for a noun declined like an adjective; `(das)` for a name that is neuter but used without one: *(das) Deutschland*, *in Deutschland* — while *die Schweiz*, *die USA* keep theirs); the plural written out — the same word when it does not change (*das Zimmer …, Zimmer*), two accepted ones as `Wörter/Worte` — `-` only when it has NONE (*der Frieden …, -*), `PL` when the word itself is a plural (*die Leute …, PL*) | `N der Zu|fall [ˈtsuːfal], Zufälle` |
+| `V` | verb | `infinitive […], FORMS, AUX` — FORMS only for an IRREGULAR verb (strong, mixed, *haben*, *sein*, the modals): `3rd person present/simple past/past participle`, a separable one with its prefix where it stands (`steht auf/stand auf/aufgestanden`); AUX the perfect's auxiliary `hat`, `ist` or `hat/ist`; a reflexive verb with its `sich` (`sich freuen`) | `V fahren [ˈfaːʁən], fährt/fuhr/gefahren, ist` · `V machen [ˈmaxən], hat` |
+| `AN` | adjective | `word […]`, then `, COMPARATIVE/SUPERLATIVE` when irregular or umlauting | `AN gut [ɡuːt], besser/am besten` |
+| `PRE` | preposition | `word […], CASE` — `A`, `D`, `G` or `A/D` (two-way) | `PRE wegen [ˈveːɡən], G` |
+| `AV` | adverb | `word […]` | `AV gestern [ˈɡɛstɐn]` |
+| `P` | pronoun | `word […]` | `P jemand [ˈjeːmant]` |
+| `CON` | conjunction | `word […]` | `CON ob|wohl [ɔpˈvoːl]` |
+| `ART` `NUM` `PAR` `INT` | article, numeral, particle, interjection | `word […]` | `NUM zwanzig [ˈtsvantsɪç]` |
+| `PHR` | fixed phrase (several words, one meaning) | `words […]` | `PHR zu Hause [tsuː ˈhaʊzə]` |
 
 **COMBINATIONS** — `(…)` at the end of the German side: what the word typically goes with, each item a German piece
 with its CASE in capitals — `N` nominative, `A` accusative, `D` dative, `G` genitive — items separated by `, `:
@@ -99,7 +104,7 @@ everyday use: *Apfel* is `1` though the news seldom speak of apples.
 4. split the rest at ` = ` (exactly one): the German side and the Slovak side;
 5. the Slovak side: split at `, `;
 6. the German side: a final `(…)` is the combinations (split at `, `); a noun begins with its article; then
-   `word {parts} [ipa]`; after it, the grammar by POS, separated by `, ` — a verb's FORMS are the item with three
+   `word [ipa]`; after it, the grammar by POS, separated by `, ` — a verb's FORMS are the item with three
    `/`-separated forms, its AUX the last item (`hat`, `ist`, `hat/ist`).
 
 `python3 tools/check.py` does exactly this, over every file, and reports any line it cannot read.

@@ -124,7 +124,7 @@ N kališný lístok
 N nažka
 N šupka
 
-# tree-flower-kinds
+# tree-species
 N dub
 N žaluď
 N breza
@@ -146,6 +146,33 @@ N palma
 N cezmína
 N osika
 N borievka
+N ginkgo
+N smrekovec
+N sekvoja
+N tuja
+N tis
+N datľovník
+N ľaliovník
+N platan
+N agát
+N štedrec
+N sofora
+N albízia
+N gledíčia
+N jarabina
+N mišpuľa
+N muchovník
+N hrab
+N pagaštan
+N orech kráľovský
+N hikória
+N jelša
+N lieska
+N pajaseň
+N olivovník
+N vavrín
+
+# flower-species
 N ruža
 N pivonka
 N šípka
@@ -172,6 +199,16 @@ N praslička
 N lekno
 N konvalinka
 N šafrán
+N rododendron
+N azalka
+N nevädza
+N aksamietnica
+N astra
+N gerbera
+N zvonček kvetinový -- kvet Campanula, nie malý zvon
+N nezábudka
+
+# herbs-and-wild-plants
 N agáve
 N aloe
 N dracéna
@@ -179,16 +216,9 @@ N lotos
 N repík
 N slez
 N opuncia
-N rododendron
-N azalka
-N nevädza
-N aksamietnica
-N astra
 N rumanček
 N podbeľ
 N lopúch
-N gerbera
-N zvonček kvetinový -- kvet Campanula, nie malý zvon
 N rasca
 N fenikel
 N aníz
@@ -197,39 +227,13 @@ N koriander
 N ligurček
 N bolehlav
 N bolševník
-N nezábudka
 N kostihoj
 N medovka
 N majorán
 N oregano
 N hluchavka
-N ginkgo
-N smrekovec
-N sekvoja
-N tuja
-N tis
-N datľovník
-N ľaliovník
-N platan
-N agát
-N štedrec
-N sofora
-N albízia
-N gledíčia
-N jarabina
-N mišpuľa
-N muchovník
-N hrab
-N pagaštan
-N orech kráľovský
-N hikória
-N jelša
-N lieska
-N pajaseň
-N olivovník
 N chmeľ
 N krušpán
-N vavrín
 N vtáčí zob
 N baza
 N skorocel

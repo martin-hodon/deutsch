@@ -1,246 +1,208 @@
 # seeing
-1 V sehen {sehen} [ˈzeːən], sieht/sah/gesehen [ziːt/zaː/ɡəˈzeːən], hat (A, nach D) = vidieť, pozerať
-- 1 V sehen {sehen} [ˈzeːən], sieht/sah/gesehen [ziːt/zaː/ɡəˈzeːən], hat (A, nach D) = pozerať
-- 3 N das Sehvermögen {Seh|ver|mögen} [ˈzeːfɛɐmøːɡən], - = zrak, schopnosť vidieť
-- 2 N die Sicht {Sicht} [zɪçt], - = viditeľnosť, výhľad
-- 2 N die Aussicht {Aus|sicht} [ˈaʊszɪçt], Aussichten (auf A) = výhľad, vyhliadka
-- 2 N die Ansicht {An|sicht} [ˈanzɪçt], Ansichten = názor, pohľad
-- 2 AN sichtbar {sicht|bar} [ˈzɪçtbaːɐ] = viditeľný
-- 2 AN unsichtbar {un|sicht|bar} [ˈʊnzɪçtbaːɐ] = neviditeľný
-- 3 AN durchsichtig {durch|sichtig} [ˈdʊʁçzɪçtɪç] = priehľadný
-- 3 AN undurchsichtig {un|durch|sichtig} [ˈʊndʊʁçzɪçtɪç] = nepriehľadný, nejasný
-- 2 V ansehen {an·sehen} [ˈanzeːən], sieht an/sah an/angesehen [ziːt an/zaː an/ˈanɡəzeːən], hat (A, sich D) = pozrieť si, prezerať si
-- 2 V aussehen {aus·sehen} [ˈaʊszeːən], sieht aus/sah aus/ausgesehen [ziːt aʊs/zaː aʊs/ˈaʊsɡəzeːən], hat = vyzerať
-- 2 V übersehen {über|sehen} [yːbɐˈzeːən], übersieht/übersah/übersehen [yːbɐˈziːt/yːbɐˈzaː/yːbɐˈzeːən], hat (A) = prehliadnuť, nezbadať
-- 2 N die Sehenswürdigkeit {Sehens|würdig|keit} [ˈzeːənsvʏʁdɪçkaɪt], Sehenswürdigkeiten = pamätihodnosť, atrakcia
-- 2 V vorsehen {vor·sehen} [ˈfoːɐzeːən], sieht vor/sah vor/vorgesehen [ziːt foːɐ/zaː foːɐ/ˈfoːɐɡəzeːən], hat (A) = plánovať, predpokladať, určiť
-- 3 V sichten {sichten} [ˈzɪçtən], hat (A) = zazrieť, preskúmať, prezrieť
-- 3 AN sehenswert {sehens|wert} [ˈzeːənsveːɐt] = stojaci za videnie
-
-1 V schauen {schauen} [ˈʃaʊən], hat (auf A, nach D) = pozerať sa, dívať sa
-- 2 V zuschauen {zu·schauen} [ˈtsuːʃaʊən], hat (D) = prizerať, sledovať
-- 2 V anschauen {an·schauen} [ˈanʃaʊən], hat (A, sich D) = pozrieť si, prezerať si
-- 3 V vorbeischauen {vorbei·schauen} [foːɐˈbaɪʃaʊən], hat (bei D) = nakuknúť, zastaviť sa
-- 3 V durchschauen {durch|schauen} [dʊʁçˈʃaʊən], hat (A) = prekuknúť, prezrieť
-- 3 V sich umschauen {sich um·schauen} [zɪç ˈʊmʃaʊən], hat (nach D) = obzrieť sa, poobzerať sa
-
-2 V beobachten {beobachten} [bəˈoːbaxtən], hat (A) = pozorovať
-- 2 N die Beobachtung {Beobachtung} [bəˈoːbaxtʊŋ], Beobachtungen = pozorovanie
-- 3 N der Beobachter {Beobachter} [bəˈoːbaxtɐ], Beobachter = pozorovateľ
-
-2 V bemerken {be|merken} [bəˈmɛʁkən], hat (A) = všimnúť si, zbadať, poznamenať
-- 3 AN bemerkbar {be|merkbar} [bəˈmɛʁkbaːɐ] = badateľný, citeľný
-
-3 V starren {starren} [ˈʃtaʁən], hat (auf A, in A) = zízať, civieť, hľadieť
-- 3 V anstarren {an·starren} [ˈanʃtaʁən], hat (A) = zízať na, uprene sa pozerať
-
-1 N der Blick {Blick} [blɪk], Blicke (auf A) = pohľad
-- 2 V blicken {blicken} [ˈblɪkən], hat (auf A, in A) = pozrieť, hľadieť
-- 3 V anblicken {an·blicken} [ˈanblɪkən], hat (A) = pozrieť na, uprieť zrak na
-- 3 N der Anblick {An|blick} [ˈanblɪk], Anblicke = pohľad, podívaná
-- 2 N der Überblick {Über|blick} [ˈyːbɐblɪk], Überblicke (über A) = prehľad
-- 3 V erblicken {er|blicken} [ɛɐˈblɪkən], hat (A) = zazrieť, uzrieť
-- 3 V zurückblicken {zurück·blicken} [tsuˈʁʏkblɪkən], hat (auf A) = obzrieť sa späť
-
-2 V scheinen {scheinen} [ˈʃaɪnən], scheint/schien/geschienen [ʃaɪnt/ʃiːn/ɡəˈʃiːnən], hat = zdať sa, svietiť
-- 2 V scheinen {scheinen} [ˈʃaɪnən], scheint/schien/geschienen [ʃaɪnt/ʃiːn/ɡəˈʃiːnən], hat = svietiť
-- 2 V erscheinen {er|scheinen} [ɛɐˈʃaɪnən], erscheint/erschien/erschienen [ɛɐˈʃaɪnt/ɛɐˈʃiːn/ɛɐˈʃiːnən], ist = objaviť sa, vyjsť, zdať sa
-- 2 N die Erscheinung {Er|scheinung} [ɛɐˈʃaɪnʊŋ], Erscheinungen = jav, zjav
-- 2 AN scheinbar {schein|bar} [ˈʃaɪnbaːɐ] = zdanlivý
-- 2 N der Schein {Schein} [ʃaɪn], Scheine = svit, zdanie, bankovka
-
-2 V verschwinden {ver|schwinden} [fɛɐˈʃvɪndən], verschwindet/verschwand/verschwunden [fɛɐˈʃvɪndət/fɛɐˈʃvant/fɛɐˈʃvʊndən], ist = zmiznúť, stratiť sa
-
-2 V verstecken {ver|stecken} [fɛɐˈʃtɛkən], hat (A, sich A) = ukryť, skryť
-- 2 N das Versteck {Versteck} [fɛɐˈʃtɛk], Verstecke = skrýša, úkryt
-
-2 V enthüllen {ent|hüllen} [ɛntˈhʏlən], hat (A) = odhaliť
-- 3 N die Enthüllung {Ent|hüllung} [ɛntˈhʏlʊŋ], Enthüllungen = odhalenie
-
-3 V erhaschen {er|haschen} [ɛɐˈhaʃən], hat (A) = uchmatnúť, zachytiť
-
-3 V spähen {spähen} [ˈʃpɛːən], hat (nach D, in A) = vyzerať, striehnuť, nazerať
-
-3 V funkeln {funkeln} [ˈfʊŋkəln], hat = trblietať sa, iskriť sa
-- 3 V anfunkeln {an·funkeln} [ˈanfʊŋkəln], hat (A) = zazerať, vrhať nahnevaný pohľad
-
-2 V entdecken {ent|decken} [ɛntˈdɛkən], hat (A) = objaviť, odhaliť, zistiť
-- 2 N die Entdeckung {Ent|deckung} [ɛntˈdɛkʊŋ], Entdeckungen = objav
-- 3 N der Entdecker {Ent|decker} [ɛntˈdɛkɐ], Entdecker = objaviteľ
-- 2 V aufdecken {auf·decken} [ˈaʊfdɛkən], hat (A) = odkryť, odhaliť
-- 3 AN unentdeckt {un|ent|deckt} [ˈʊnɛntdɛkt] = neobjavený
-
-2 V unterscheiden {unter|scheiden} [ʊntɐˈʃaɪdən], unterscheidet/unterschied/unterschieden [ʊntɐˈʃaɪdət/ʊntɐˈʃiːt/ʊntɐˈʃiːdən], hat (A, von D, zwischen D) = odlíšiť, rozlišovať
-- 3 N die Unterscheidung {Unter|scheidung} [ʊntɐˈʃaɪdʊŋ], Unterscheidungen = rozlišovanie, odlíšenie
-
-2 V ignorieren {ignorieren} [iɡnoˈʁiːʁən], hat (A) = ignorovať, nevšímať si
-
-3 V absuchen {ab·suchen} [ˈapzuːxən], hat (A, nach D) = prehľadať, prehľadávať
-
-3 AN verschwommen {ver|schwommen} [fɛɐˈʃvɔmən] = rozmazaný, nejasný
-2 AN lebhaft {leb|haft} [ˈleːphaft] = bujarý, živý
-3 AN trübe {trübe} [ˈtʁyːbə] = kalný, matný
-3 V flackern {flackern} [ˈflakɐn], hat = blikať, plápolať
-3 V glitzern {glitzern} [ˈɡlɪtsɐn], hat = trblietať sa, blýskať sa
-3 V schimmern {schimmern} [ˈʃɪmɐn], hat = mihotať sa, slabo sa lesknúť
-
-2 V glänzen {glänzen} [ˈɡlɛntsən], hat = lesknúť sa, žiariť
-- 2 AN glänzend {glänzend} [ˈɡlɛntsənt] = lesklý, skvelý
-- 3 N der Glanz {Glanz} [ɡlants], - = lesk, žiara
-2 N der Ausblick {Aus|blick} [ˈaʊsblɪk], Ausblicke = výhľad
-2 N der Einblick {Ein|blick} [ˈaɪnblɪk], Einblicke = nahliadnutie, pohľad
-3 N das Aufsehen {Auf|sehen} [ˈaʊfzeːən], - = rozruch, pozornosť
-- 3 AN aufsehenerregend {aufsehen|erregend} [ˈaʊfzeːənɛɐˌʁeːɡənt] = senzačný, vzbudzujúci pozornosť
-2 V versehen {ver|sehen} [fɛɐˈzeːən], versieht/versah/versehen [fɛɐˈziːt/fɛɐˈzaː/fɛɐˈzeːən], hat (A mit D) = opatriť, vybaviť
-2 V überwachen {über|wachen} [yːbɐˈvaxən], hat (A) = dohliadať na, sledovať, dohliadať
-3 V erstrahlen {er|strahlen} [ɛɐˈʃtʁaːlən], ist = zažiariť, rozžiariť sa
-3 V schielen {schielen} [ˈʃiːlən], hat (auf A) = škúliť, pozerať spod oka
-3 V flimmern {flimmern} [ˈflɪmɐn], hat = mihotať sa, blikať
-3 N die Blindheit {Blind|heit} [ˈblɪnthaɪt], - = slepota
-2 V gucken {gucken} [ˈɡʊkən], hat = mrknúť sa
-3 V aufblicken {auf·blicken} [ˈaʊfblɪkən], hat (zu D) = vzhliadnuť
-3 V aufschauen {auf·schauen} [ˈaʊfʃaʊən], hat (zu D) = vzhliadnuť
-2 V blenden {blenden} [ˈblɛndən], hat (A) = oslepiť
-3 N das Gedöns {Gedöns} [ɡəˈdøːns], - = rozruch
-3 AN übermütig {über|mütig} [ˈyːbɐmyːtɪç] = bujarý
-2 V verbergen {ver|bergen} [fɛɐˈbɛʁɡən], verbirgt/verbarg/verborgen [fɛɐˈbɪʁkt/fɛɐˈbaʁk/fɛɐˈbɔʁɡən], hat (A, sich A) = ukryť
-3 V enttarnen {ent|tarnen} [ɛntˈtaʁnən], hat (A) = odhaliť
-3 N die Entlarvung {Ent|larvung} [ɛntˈlaʁfʊŋ], Entlarvungen = odhalenie
-2 V blinken {blinken} [ˈblɪŋkən], hat = blikať
-3 V schillern {schillern} [ˈʃɪlɐn], hat = trblietať sa
+1 V sehen [ˈzeːən], sieht/sah/gesehen [ziːt/zaː/ɡəˈzeːən], hat (A, nach D) = vidieť, pozerať
+- 1 V sehen [ˈzeːən], sieht/sah/gesehen [ziːt/zaː/ɡəˈzeːən], hat (A, nach D) = pozerať
+- 2 N die Sicht [zɪçt], - = viditeľnosť, výhľad
+- 2 N die Aus|sicht [ˈaʊszɪçt], Aussichten (auf A) = výhľad, vyhliadka
+- 2 N die An|sicht [ˈanzɪçt], Ansichten = názor, pohľad
+- 2 AN sicht|bar [ˈzɪçtbaːɐ] = viditeľný
+- 2 AN un|sicht|bar [ˈʊnzɪçtbaːɐ] = neviditeľný
+- 2 V an_sehen [ˈanzeːən], sieht an/sah an/angesehen [ziːt an/zaː an/ˈanɡəzeːən], hat (A, sich D) = pozrieť si, prezerať si
+- 2 V aus_sehen [ˈaʊszeːən], sieht aus/sah aus/ausgesehen [ziːt aʊs/zaː aʊs/ˈaʊsɡəzeːən], hat = vyzerať
+- 2 V über|sehen [yːbɐˈzeːən], übersieht/übersah/übersehen [yːbɐˈziːt/yːbɐˈzaː/yːbɐˈzeːən], hat (A) = prehliadnuť, nezbadať
+- 2 N die Sehens|würdig|keit [ˈzeːənsvʏʁdɪçkaɪt], Sehenswürdigkeiten = pamätihodnosť, atrakcia
+- 2 V vor_sehen [ˈfoːɐzeːən], sieht vor/sah vor/vorgesehen [ziːt foːɐ/zaː foːɐ/ˈfoːɐɡəzeːən], hat (A) = plánovať, predpokladať, určiť
+- 3 N das Seh|ver|mögen [ˈzeːfɛɐmøːɡən], - = zrak, schopnosť vidieť
+- 3 AN durch|sichtig [ˈdʊʁçzɪçtɪç] = priehľadný
+- 3 AN un|durch|sichtig [ˈʊndʊʁçzɪçtɪç] = nepriehľadný, nejasný
+- 3 V sichten [ˈzɪçtən], hat (A) = zazrieť, preskúmať, prezrieť
+- 3 AN sehens|wert [ˈzeːənsveːɐt] = stojaci za videnie
+1 V schauen [ˈʃaʊən], hat (auf A, nach D) = pozerať sa, dívať sa
+- 2 V gucken [ˈɡʊkən], hat = mrknúť sa REG_DE-N
+- 2 V zu_schauen [ˈtsuːʃaʊən], hat (D) = prizerať, sledovať
+- 2 V an_schauen [ˈanʃaʊən], hat (A, sich D) = pozrieť si, prezerať si
+- 3 V vorbei_schauen [foːɐˈbaɪʃaʊən], hat (bei D) = nakuknúť, zastaviť sa
+- 3 V durch|schauen [dʊʁçˈʃaʊən], hat (A) = prekuknúť, prezrieť
+- 3 V sich um_schauen [zɪç ˈʊmʃaʊən], hat (nach D) = obzrieť sa, poobzerať sa
+- 3 V auf_schauen [ˈaʊfʃaʊən], hat (zu D) = vzhliadnuť
+1 N der Blick [blɪk], Blicke (auf A) = pohľad
+- 2 V blicken [ˈblɪkən], hat (auf A, in A) = pozrieť, hľadieť
+- 2 N der Über|blick [ˈyːbɐblɪk], Überblicke (über A) = prehľad
+- 2 N der Aus|blick [ˈaʊsblɪk], Ausblicke = výhľad
+- 2 N der Ein|blick [ˈaɪnblɪk], Einblicke = nahliadnutie, pohľad
+- 3 V an_blicken [ˈanblɪkən], hat (A) = pozrieť na, uprieť zrak na
+- 3 N der An|blick [ˈanblɪk], Anblicke = pohľad, podívaná
+- 3 V er|blicken [ɛɐˈblɪkən], hat (A) = zazrieť, uzrieť
+- 3 V zurück_blicken [tsuˈʁʏkblɪkən], hat (auf A) = obzrieť sa späť
+- 3 V auf_blicken [ˈaʊfblɪkən], hat (zu D) = vzhliadnuť
+2 V beobachten [bəˈoːbaxtən], hat (A) = pozorovať
+- 2 N die Beobachtung [bəˈoːbaxtʊŋ], Beobachtungen = pozorovanie
+- 3 N der Beobachter [bəˈoːbaxtɐ], Beobachter = pozorovateľ
+2 V be|merken [bəˈmɛʁkən], hat (A) = všimnúť si, zbadať, poznamenať
+- 3 AN be|merkbar [bəˈmɛʁkbaːɐ] = badateľný, citeľný
+2 V scheinen [ˈʃaɪnən], scheint/schien/geschienen [ʃaɪnt/ʃiːn/ɡəˈʃiːnən], hat = zdať sa, svietiť
+- 2 V scheinen [ˈʃaɪnən], scheint/schien/geschienen [ʃaɪnt/ʃiːn/ɡəˈʃiːnən], hat = svietiť
+- 2 V er|scheinen [ɛɐˈʃaɪnən], erscheint/erschien/erschienen [ɛɐˈʃaɪnt/ɛɐˈʃiːn/ɛɐˈʃiːnən], ist = objaviť sa, vyjsť, zdať sa
+- 2 N die Er|scheinung [ɛɐˈʃaɪnʊŋ], Erscheinungen = jav, zjav
+- 2 AN schein|bar [ˈʃaɪnbaːɐ] = zdanlivý
+- 2 N der Schein [ʃaɪn], Scheine = svit, zdanie, bankovka
+2 V ver|schwinden [fɛɐˈʃvɪndən], verschwindet/verschwand/verschwunden [fɛɐˈʃvɪndət/fɛɐˈʃvant/fɛɐˈʃvʊndən], ist = zmiznúť, stratiť sa
+2 V ver|stecken [fɛɐˈʃtɛkən], hat (A, sich A) = ukryť, skryť
+- 2 N das Versteck [fɛɐˈʃtɛk], Verstecke = skrýša, úkryt
+2 V ent|hüllen [ɛntˈhʏlən], hat (A) = odhaliť
+- 3 N die Ent|hüllung [ɛntˈhʏlʊŋ], Enthüllungen = odhalenie
+2 V ent|decken [ɛntˈdɛkən], hat (A) = objaviť, odhaliť, zistiť
+- 2 N die Ent|deckung [ɛntˈdɛkʊŋ], Entdeckungen = objav
+- 2 V auf_decken [ˈaʊfdɛkən], hat (A) = odkryť, odhaliť
+- 3 N der Ent|decker [ɛntˈdɛkɐ], Entdecker = objaviteľ
+- 3 AN un|ent|deckt [ˈʊnɛntdɛkt] = neobjavený
+2 V unter|scheiden [ʊntɐˈʃaɪdən], unterscheidet/unterschied/unterschieden [ʊntɐˈʃaɪdət/ʊntɐˈʃiːt/ʊntɐˈʃiːdən], hat (A, von D, zwischen D) = odlíšiť, rozlišovať
+- 3 N die Unter|scheidung [ʊntɐˈʃaɪdʊŋ], Unterscheidungen = rozlišovanie, odlíšenie
+2 V ignorieren [iɡnoˈʁiːʁən], hat (A) = ignorovať, nevšímať si
+2 AN leb|haft [ˈleːphaft] = bujarý, živý
+2 V glänzen [ˈɡlɛntsən], hat = lesknúť sa, žiariť
+- 2 AN glänzend [ˈɡlɛntsənt] = lesklý, skvelý
+- 3 N der Glanz [ɡlants], - = lesk, žiara
+2 V ver|sehen [fɛɐˈzeːən], versieht/versah/versehen [fɛɐˈziːt/fɛɐˈzaː/fɛɐˈzeːən], hat (A mit D) = opatriť, vybaviť
+2 V über|wachen [yːbɐˈvaxən], hat (A) = dohliadať na, sledovať, dohliadať
+2 V blenden [ˈblɛndən], hat (A) = oslepiť
+2 V ver|bergen [fɛɐˈbɛʁɡən], verbirgt/verbarg/verborgen [fɛɐˈbɪʁkt/fɛɐˈbaʁk/fɛɐˈbɔʁɡən], hat (A, sich A) = ukryť
+2 V blinken [ˈblɪŋkən], hat = blikať
+3 V starren [ˈʃtaʁən], hat (auf A, in A) = zízať, civieť, hľadieť
+- 3 V an_starren [ˈanʃtaʁən], hat (A) = zízať na, uprene sa pozerať
+3 V er|haschen [ɛɐˈhaʃən], hat (A) = uchmatnúť, zachytiť
+3 V spähen [ˈʃpɛːən], hat (nach D, in A) = vyzerať, striehnuť, nazerať
+3 V funkeln [ˈfʊŋkəln], hat = trblietať sa, iskriť sa
+- 3 V an_funkeln [ˈanfʊŋkəln], hat (A) = zazerať, vrhať nahnevaný pohľad
+3 V ab_suchen [ˈapzuːxən], hat (A, nach D) = prehľadať, prehľadávať
+3 AN ver|schwommen [fɛɐˈʃvɔmən] = rozmazaný, nejasný
+3 AN trübe [ˈtʁyːbə] = kalný, matný
+3 V flackern [ˈflakɐn], hat = blikať, plápolať
+3 V glitzern [ˈɡlɪtsɐn], hat = trblietať sa, blýskať sa
+3 V schimmern [ˈʃɪmɐn], hat = mihotať sa, slabo sa lesknúť
+3 N das Auf|sehen [ˈaʊfzeːən], - = rozruch, pozornosť
+- 3 AN aufsehen|erregend [ˈaʊfzeːənɛɐˌʁeːɡənt] = senzačný, vzbudzujúci pozornosť
+3 V er|strahlen [ɛɐˈʃtʁaːlən], ist = zažiariť, rozžiariť sa
+3 V schielen [ˈʃiːlən], hat (auf A) = škúliť, pozerať spod oka
+3 V flimmern [ˈflɪmɐn], hat = mihotať sa, blikať
+3 N die Blind|heit [ˈblɪnthaɪt], - = slepota
+3 N das Gedöns [ɡəˈdøːns], - = rozruch
+3 AN über|mütig [ˈyːbɐmyːtɪç] = bujarý
+3 V ent|tarnen [ɛntˈtaʁnən], hat (A) = odhaliť
+3 N die Ent|larvung [ɛntˈlaʁfʊŋ], Entlarvungen = odhalenie
+3 V schillern [ˈʃɪlɐn], hat = trblietať sa
 
 # hearing
-1 V hören {hören} [ˈhøːʁən], hat (A, von D, auf A) = počuť, počúvať
-- 1 V hören {hören} [ˈhøːʁən], hat (A, von D, auf A) = počúvať
-- 2 V zuhören {zu·hören} [ˈtsuːhøːʁən], hat (D) = počúvať, načúvať
-- 2 V anhören {an·hören} [ˈanhøːʁən], hat (A, sich D) = vypočuť si, počúvať
-- 1 V aufhören {auf·hören} [ˈaʊfhøːʁən], hat (mit D) = prestať, skončiť
-- 3 V überhören {über|hören} [yːbɐˈhøːʁən], hat (A) = prepočuť, nepostrehnúť
-- 3 N das Gehör {Ge|hör} [ɡəˈhøːɐ], - = sluch
-- 3 AN hörbar {hör|bar} [ˈhøːɐbaːɐ] = počuteľný
-
-3 V murmeln {murmeln} [ˈmʊʁməln], hat = mrmlať, šomrať
-3 V grollen {grollen} [ˈɡʁɔlən], hat = rachotiť, hrmieť
-3 V lauschen {lauschen} [ˈlaʊʃən], hat (D) = načúvať, počúvať
-3 V ertönen {ertönen} [ɛɐˈtøːnən], ist = zaznieť, ozvať sa
-3 V rauschen {rauschen} [ˈʁaʊʃən], hat/ist = šumieť, hučať
-3 N die Taubheit {Taub|heit} [ˈtaʊphaɪt], - = hluchota
-3 N der Hörsinn {Hör|sinn} [ˈhøːɐzɪn], - = sluch
-3 N der Gehörsinn {Gehör|sinn} [ɡəˈhøːɐzɪn], - = sluch
+1 V hören [ˈhøːʁən], hat (A, von D, auf A) = počuť, počúvať
+- 1 V hören [ˈhøːʁən], hat (A, von D, auf A) = počúvať
+- 1 V auf_hören [ˈaʊfhøːʁən], hat (mit D) = prestať, skončiť
+- 2 V zu_hören [ˈtsuːhøːʁən], hat (D) = počúvať, načúvať
+- 2 V an_hören [ˈanhøːʁən], hat (A, sich D) = vypočuť si, počúvať
+- 3 V über|hören [yːbɐˈhøːʁən], hat (A) = prepočuť, nepostrehnúť
+- 3 N das Ge|hör [ɡəˈhøːɐ], - = sluch
+- 3 AN hör|bar [ˈhøːɐbaːɐ] = počuteľný
+- 3 AN hörend [ˈhøːʁənt] = počujúci
+3 V murmeln [ˈmʊʁməln], hat = mrmlať, šomrať
+3 V grollen [ˈɡʁɔlən], hat = rachotiť, hrmieť
+3 V lauschen [ˈlaʊʃən], hat (D) = načúvať, počúvať
+3 V ertönen [ɛɐˈtøːnən], ist = zaznieť, ozvať sa
+3 V rauschen [ˈʁaʊʃən], hat/ist = šumieť, hučať
 
 # other-senses
-2 V riechen {riechen} [ˈʁiːçən], riecht/roch/gerochen [ʁiːçt/ʁɔx/ɡəˈʁɔxən], hat (nach D, an D) = čuchať, voňať
-- 2 V riechen {riechen} [ˈʁiːçən], riecht/roch/gerochen [ʁiːçt/ʁɔx/ɡəˈʁɔxən], hat (nach D, an D) = voňať
-- 2 N der Geruch {Ge|ruch} [ɡəˈʁʊx], Gerüche = pach, zápach
-
-2 N der Duft {Duft} [dʊft], Düfte = vôňa
-- 2 V duften {duften} [ˈdʊftən], hat (nach D) = voňať
-- 3 AN duftend {duftend} [ˈdʊftənt] = voňavý
-
-2 V stinken {stinken} [ˈʃtɪŋkən], stinkt/stank/gestunken [ʃtɪŋkt/ʃtaŋk/ɡəˈʃtʊŋkən], hat (nach D) = smrdieť, páchnuť
-- 2 N der Gestank {Ge|stank} [ɡəˈʃtaŋk], - = smrad, zápach
-
-2 V schmecken {schmecken} [ˈʃmɛkən], hat (D, nach D) = chutiť
-
-2 V berühren {be|rühren} [bəˈʁyːʁən], hat (A) = dotknúť sa, dotýkať sa
-- 2 N die Berührung {Be|rührung} [bəˈʁyːʁʊŋ], Berührungen = dotyk, kontakt
-
-1 V fühlen {fühlen} [ˈfyːlən], hat (sich A) = cítiť
-- 2 V sich anfühlen {sich an·fühlen} [zɪç ˈanfyːlən], hat = byť na dotyk, pôsobiť na dotyk
-- 3 V sich wohlfühlen {sich wohl·fühlen} [zɪç ˈvoːlfyːlən], hat = cítiť sa dobre, byť spokojný
-
-2 N der Sinn {Sinn} [zɪn], Sinne = zmysel
-- 2 AN sinnlos {sinn|los} [ˈzɪnloːs] = nezmyselný, zbytočný
-- 2 AN sinnvoll {sinn|voll} [ˈzɪnfɔl] = zmysluplný, užitočný
-- 2 N der Unsinn {Un|sinn} [ˈʊnzɪn], - = nezmysel
-- 3 AN sinnlich {sinn|lich} [ˈzɪnlɪç] = zmyselný
-
-2 V wahrnehmen {wahr·nehmen} [ˈvaːɐneːmən], nimmt wahr/nahm wahr/wahrgenommen [nɪmt vaːɐ/naːm vaːɐ/ˈvaːɐɡənɔmən], hat (A) = vnímať, zaregistrovať
-- 2 N die Wahrnehmung {Wahr|nehmung} [ˈvaːɐneːmʊŋ], Wahrnehmungen = vnímanie
-- 3 AN wahrnehmbar {wahrnehm|bar} [ˈvaːɐneːmbaːɐ] = vnímateľný, postrehnuteľný
-
-3 V jucken {jucken} [ˈjʊkən], hat = svrbieť
-
-2 V empfinden {emp|finden} [ɛmˈpfɪndən], empfindet/empfand/empfunden [ɛmˈpfɪndət/ɛmˈpfant/ɛmˈpfʊndən], hat (A) = cítiť, pociťovať, vnímať
-- 2 N die Empfindung {Emp|findung} [ɛmˈpfɪndʊŋ], Empfindungen = pocit, vnem
-- 2 AN empfindlich {emp|find|lich} [ɛmˈpfɪntlɪç] = citlivý, precitlivený
-- 3 AN empfindsam {emp|find|sam} [ɛmˈpfɪntzaːm] = jemnocitný, citlivý
-
-3 AN taub {taub} [taʊp] = hluchý, necitlivý
-3 V schnüffeln {schnüffeln} [ˈʃnʏfəln], hat (an D, in D) = ňuchať, čuchať
-
-3 N das Aroma {Aroma} [aˈʁoːma], Aromen = aróma, vôňa
-- 3 AN aromatisch {aromatisch} [aʁoˈmaːtɪʃ] = aromatický, voňavý
-
-3 V kitzeln {kitzeln} [ˈkɪtsəln], hat (A) = štekliť
-3 V wittern {wittern} [ˈvɪtɐn], hat (A) = vetriť, zacítiť
-3 V schnuppern {schnuppern} [ˈʃnʊpɐn], hat (an D) = ovoniavať, čuchať
-3 AN hörend {hörend} [ˈhøːʁənt] = počujúci
-2 N der Gestank {Gestank} [ɡəˈʃtaŋk], - = zápach
-2 N das Brennen {Brennen} [ˈbʁɛnən], - = štípanie
-2 V brennen {brennen} [ˈbʁɛnən], brennt/brannte/gebrannt [bʁɛnt/ˈbʁantə/ɡəˈbʁant], hat = štípať
-3 N der Juckreiz {Juck|reiz} [ˈjʊkʁaɪts], - = svrbenie
-2 N die Süße {Süße} [ˈzyːsə], - = sladkosť chuti
-3 N der Geruchssinn {Geruchs|sinn} [ɡəˈʁʊxszɪn], - = čuch
-3 N der Tastsinn {Tast|sinn} [ˈtastzɪn], - = hmat
-3 AN moderig {moderig} [ˈmoːdəʁɪç] = zatuchnutý
-3 AN muffig {muffig} [ˈmʊfɪç] = zatuchnutý
-3 V anrühren {an·rühren} [ˈanʁyːʁən], hat (A) = dotknúť sa
-3 V beriechen {be|riechen} [bəˈʁiːçən], beriecht/beroch/berochen [bəˈʁiːçt/bəˈʁɔx/bəˈʁɔxən], hat (A) = čuchať
-3 V beschnüffeln {be|schnüffeln} [bəˈʃnʏfəln], hat (A) = čuchať
+1 V fühlen [ˈfyːlən], hat (sich A) = cítiť
+- 2 V sich an_fühlen [zɪç ˈanfyːlən], hat = byť na dotyk, pôsobiť na dotyk
+- 3 V sich wohl_fühlen [zɪç ˈvoːlfyːlən], hat = cítiť sa dobre, byť spokojný
+2 V riechen [ˈʁiːçən], riecht/roch/gerochen [ʁiːçt/ʁɔx/ɡəˈʁɔxən], hat (nach D, an D) = čuchať, voňať
+- 2 V riechen [ˈʁiːçən], riecht/roch/gerochen [ʁiːçt/ʁɔx/ɡəˈʁɔxən], hat (nach D, an D) = voňať
+- 2 N der Ge|ruch [ɡəˈʁʊx], Gerüche = pach, zápach
+- 3 V be|riechen [bəˈʁiːçən], beriecht/beroch/berochen [bəˈʁiːçt/bəˈʁɔx/bəˈʁɔxən], hat (A) = čuchať
+2 N der Duft [dʊft], Düfte = vôňa
+- 2 V duften [ˈdʊftən], hat (nach D) = voňať
+- 3 AN duftend [ˈdʊftənt] = voňavý
+2 V stinken [ˈʃtɪŋkən], stinkt/stank/gestunken [ʃtɪŋkt/ʃtaŋk/ɡəˈʃtʊŋkən], hat (nach D) = smrdieť, páchnuť
+- 2 N der Ge|stank [ɡəˈʃtaŋk], - = smrad, zápach
+2 V schmecken [ˈʃmɛkən], hat (D, nach D) = chutiť
+2 V be|rühren [bəˈʁyːʁən], hat (A) = dotknúť sa, dotýkať sa
+- 2 N die Be|rührung [bəˈʁyːʁʊŋ], Berührungen = dotyk, kontakt
+2 N der Sinn [zɪn], Sinne = zmysel
+- 2 AN sinn|los [ˈzɪnloːs] = nezmyselný, zbytočný
+- 2 AN sinn|voll [ˈzɪnfɔl] = zmysluplný, užitočný
+- 2 N der Un|sinn [ˈʊnzɪn], - = nezmysel
+- 3 AN sinn|lich [ˈzɪnlɪç] = zmyselný
+- 3 N der Hör|sinn [ˈhøːɐzɪn], - = sluch
+- 3 N der Gehör|sinn [ɡəˈhøːɐzɪn], - = sluch
+- 3 N der Geruchs|sinn [ɡəˈʁʊxszɪn], - = čuch
+- 3 N der Tast|sinn [ˈtastzɪn], - = hmat
+2 V wahr_nehmen [ˈvaːɐneːmən], nimmt wahr/nahm wahr/wahrgenommen [nɪmt vaːɐ/naːm vaːɐ/ˈvaːɐɡənɔmən], hat (A) = vnímať, zaregistrovať
+- 2 N die Wahr|nehmung [ˈvaːɐneːmʊŋ], Wahrnehmungen = vnímanie
+- 3 AN wahrnehm|bar [ˈvaːɐneːmbaːɐ] = vnímateľný, postrehnuteľný
+2 V emp|finden [ɛmˈpfɪndən], empfindet/empfand/empfunden [ɛmˈpfɪndət/ɛmˈpfant/ɛmˈpfʊndən], hat (A) = cítiť, pociťovať, vnímať
+- 2 N die Emp|findung [ɛmˈpfɪndʊŋ], Empfindungen = pocit, vnem
+- 2 AN emp|find|lich [ɛmˈpfɪntlɪç] = citlivý, precitlivený
+- 3 AN emp|find|sam [ɛmˈpfɪntzaːm] = jemnocitný, citlivý
+2 N der Gestank [ɡəˈʃtaŋk], - = zápach
+2 V brennen [ˈbʁɛnən], brennt/brannte/gebrannt [bʁɛnt/ˈbʁantə/ɡəˈbʁant], hat = štípať
+- 2 N das Brennen [ˈbʁɛnən], - = štípanie
+2 N die Süße [ˈzyːsə], - = sladkosť chuti
+3 V jucken [ˈjʊkən], hat = svrbieť
+- 3 N der Juck|reiz [ˈjʊkʁaɪts], - = svrbenie
+3 AN taub [taʊp] = hluchý, necitlivý
+- 3 N die Taub|heit [ˈtaʊphaɪt], - = hluchota
+3 V schnüffeln [ˈʃnʏfəln], hat (an D, in D) = ňuchať, čuchať
+- 3 V be|schnüffeln [bəˈʃnʏfəln], hat (A) = čuchať
+3 N das Aroma [aˈʁoːma], Aromen = aróma, vôňa
+- 3 AN aromatisch [aʁoˈmaːtɪʃ] = aromatický, voňavý
+3 V kitzeln [ˈkɪtsəln], hat (A) = štekliť
+3 V wittern [ˈvɪtɐn], hat (A) = vetriť, zacítiť
+3 V schnuppern [ˈʃnʊpɐn], hat (an D) = ovoniavať, čuchať
+3 AN moderig [ˈmoːdəʁɪç] = zatuchnutý
+3 AN muffig [ˈmʊfɪç] = zatuchnutý
+3 V an_rühren [ˈanʁyːʁən], hat (A) = dotknúť sa
 
 # colors
-1 N die Farbe {Farbe} [ˈfaʁbə], Farben = farba
-- 2 AN farbig {farbig} [ˈfaʁbɪç] = farebný
-- 3 AN farblos {farb|los} [ˈfaʁploːs] = bezfarebný
-- 3 N der Farbton {Farb|ton} [ˈfaʁpton], Farbtöne = odtieň
-- 3 AN fliederfarben {flieder|farben} [ˈfliːdɐfaʁbən] = orgovánový, fialkový
-- 3 AN elfenbeinfarben {elfen|bein|farben} [ˈɛlfənbaɪnfaʁbən] = slonovinový
-- 3 AN bernsteinfarben {bernstein|farben} [ˈbɛʁnʃtaɪnfaʁbən] = jantárový
-- 3 AN farbenfroh {farben|froh} [ˈfaʁbənfʁoː] = pestrofarebný, veselo farebný
-- 3 AN farblich {farb|lich} [ˈfaʁplɪç] = farebný, z hľadiska farby
-
-1 AN rot {rot} [ʁoːt] = červený
-- 3 AN rötlich {röt|lich} [ˈʁøːtlɪç] = červenkastý
-- 3 AN purpurrot {purpur|rot} [ˈpʊʁpuːɐʁoːt] = purpurový, karmínový
-- 3 AN scharlachrot {scharlach|rot} [ˈʃaʁlaxʁoːt] = šarlátový
-
-1 AN blau {blau} [blaʊ] = modrý
-- 2 AN hellblau {hell|blau} [ˈhɛlblaʊ] = svetlomodrý
-- 2 AN dunkelblau {dunkel|blau} [ˈdʊŋkəlblaʊ] = tmavomodrý
-- 3 AN bläulich {bläu|lich} [ˈblɔʏlɪç] = modrastý
-
-1 AN grün {grün} [ɡʁyːn] = zelený
-- 2 AN hellgrün {hell|grün} [ˈhɛlɡʁyːn] = svetlozelený
-- 2 AN dunkelgrün {dunkel|grün} [ˈdʊŋkəlɡʁyːn] = tmavozelený
-- 3 AN grünlich {grün|lich} [ˈɡʁyːnlɪç] = zelenkastý
-
-1 AN gelb {gelb} [ɡɛlp] = žltý
-- 3 AN gelblich {gelb|lich} [ˈɡɛlplɪç] = žltkastý
-
-1 AN schwarz {schwarz} [ʃvaʁts], schwärzer/am schwärzesten = čierny
-1 AN weiß {weiß} [vaɪs] = biely
-1 AN braun {braun} [bʁaʊn] = hnedý
-1 AN grau {grau} [ɡʁaʊ] = sivý
-1 AN rosa {rosa} [ˈʁoːza] = ružový
-1 AN lila {lila} [ˈliːla] = fialový
-1 AN orange {orange} [oˈʁɑ̃ːʒə] = oranžový
-1 AN bunt {bunt} [bʊnt] = pestrý, farebný
-- 3 AN kunterbunt {kunter|bunt} [ˈkʊntɐbʊnt] = pestrý, rôznorodý
-
-2 AN blass {blass} [blas], blasser/am blassesten = bledý
-- 3 N die Blässe {Blässe} [ˈblɛsə], - = bledosť
-- 3 V verblassen {ver|blassen} [fɛɐˈblasən], ist = vyblednúť, zblednúť
-
-3 N die Schattierung {Schattierung} [ʃaˈtiːʁʊŋ], Schattierungen = odtieň, nuansa
-2 AN türkis {türkis} [tʏɐˈkiːs] = tyrkysový
-2 AN beige {beige} [beːʒ] = béžový
-2 AN schwarzweiß {schwarz|weiß} [ˈʃvaʁtsvaɪs] = čiernobiely
-3 AN azurblau {azur|blau} [aˈtsuːɐblaʊ] = azúrový
-3 N die Färbung {Färbung} [ˈfɛʁbʊŋ], Färbungen = zafarbenie
-3 V erbleichen {er|bleichen} [ɛɐˈblaɪçən], ist = zblednúť
-2 V erblassen {er|blassen} [ɛɐˈblasən], ist = zblednúť
-3 V entfärben {ent|färben} [ɛntˈfɛʁbən], hat (A, sich A) = odfarbiť
-3 V umfärben {um·färben} [ˈʊmfɛʁbən], hat (A) = prefarbiť
-2 AN gefärbt {ge|färbt} [ɡəˈfɛʁpt] = zafarbený
-2 AN violett {violett} [vioˈlɛt] = fialový
+1 N die Farbe [ˈfaʁbə], Farben = farba
+- 2 AN farbig [ˈfaʁbɪç] = farebný
+- 3 AN farb|los [ˈfaʁploːs] = bezfarebný
+- 3 N der Farb|ton [ˈfaʁpton], Farbtöne = odtieň
+- 3 AN flieder|farben [ˈfliːdɐfaʁbən] = orgovánový, fialkový
+- 3 AN elfen|bein|farben [ˈɛlfənbaɪnfaʁbən] = slonovinový
+- 3 AN bernstein|farben [ˈbɛʁnʃtaɪnfaʁbən] = jantárový
+- 3 AN farben|froh [ˈfaʁbənfʁoː] = pestrofarebný, veselo farebný
+- 3 AN farb|lich [ˈfaʁplɪç] = farebný, z hľadiska farby
+- 3 N die Färbung [ˈfɛʁbʊŋ], Färbungen = zafarbenie
+- 3 V ent|färben [ɛntˈfɛʁbən], hat (A, sich A) = odfarbiť
+- 3 V um_färben [ˈʊmfɛʁbən], hat (A) = prefarbiť
+1 AN rot [ʁoːt] = červený
+- 3 AN röt|lich [ˈʁøːtlɪç] = červenkastý
+- 3 AN purpur|rot [ˈpʊʁpuːɐʁoːt] = purpurový, karmínový
+- 3 AN scharlach|rot [ˈʃaʁlaxʁoːt] = šarlátový
+1 AN blau [blaʊ] = modrý
+- 2 AN hell|blau [ˈhɛlblaʊ] = svetlomodrý
+- 2 AN dunkel|blau [ˈdʊŋkəlblaʊ] = tmavomodrý
+- 3 AN bläu|lich [ˈblɔʏlɪç] = modrastý
+- 3 AN azur|blau [aˈtsuːɐblaʊ] = azúrový
+1 AN grün [ɡʁyːn] = zelený
+- 2 AN hell|grün [ˈhɛlɡʁyːn] = svetlozelený
+- 2 AN dunkel|grün [ˈdʊŋkəlɡʁyːn] = tmavozelený
+- 3 AN grün|lich [ˈɡʁyːnlɪç] = zelenkastý
+1 AN gelb [ɡɛlp] = žltý
+- 3 AN gelb|lich [ˈɡɛlplɪç] = žltkastý
+1 AN schwarz [ʃvaʁts], schwärzer/am schwärzesten = čierny
+1 AN weiß [vaɪs] = biely
+- 2 AN schwarz|weiß [ˈʃvaʁtsvaɪs] = čiernobiely
+1 AN braun [bʁaʊn] = hnedý
+1 AN grau [ɡʁaʊ] = sivý
+1 AN rosa [ˈʁoːza] = ružový
+1 AN lila [ˈliːla] = fialový
+1 AN orange [oˈʁɑ̃ːʒə] = oranžový
+1 AN bunt [bʊnt] = pestrý, farebný
+- 3 AN kunter|bunt [ˈkʊntɐbʊnt] = pestrý, rôznorodý
+2 AN blass [blas], blasser/am blassesten = bledý
+- 2 V er|blassen [ɛɐˈblasən], ist = zblednúť
+- 3 N die Blässe [ˈblɛsə], - = bledosť
+- 3 V ver|blassen [fɛɐˈblasən], ist = vyblednúť, zblednúť
+2 AN türkis [tʏɐˈkiːs] = tyrkysový
+2 AN beige [beːʒ] = béžový
+2 AN ge|färbt [ɡəˈfɛʁpt] = zafarbený
+2 AN violett [vioˈlɛt] = fialový
+3 N die Schattierung [ʃaˈtiːʁʊŋ], Schattierungen = odtieň, nuansa
+3 V er|bleichen [ɛɐˈblaɪçən], ist = zblednúť

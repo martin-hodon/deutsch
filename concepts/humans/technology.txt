@@ -78,53 +78,7 @@ N kilowatthodina
 N watt
 N skrat -- elektrický skrat
 
-# computing-communication-devices
-N počítač
-N laptop
-N tablet
-N obrazovka
-N monitor
-N dotyková obrazovka
-N tlačidlo
-N klávesnica
-V vytlačiť
-N tlačiareň
-V potlačiť
-N skener
-V skenovať
-N program
-V programovať
-N programátor
-N softvér
-N hardvér
-N aplikácia
-N súbor
-N priečinok
-N údaje
-N databáza
-N ochrana údajov
-N kód
-N heslo
-N internet
-N wifi
-N sieť (počítačová)
-N webová stránka
-N webkamera
-N prehliadač
-N odkaz
-V prepojiť odkazom
-N e-mail
-V kliknúť
-N kliknutie
-AV online
-AV offline
-AN digitálny : adverb digitálne
-N digitalizácia
-V digitalizovať
-PHR umelá inteligencia
-N umelá inteligencia
-N signál
-N server
+# phones-and-media
 N satelit
 N dron
 N telefón
@@ -149,21 +103,65 @@ N rádio
 N mikrofón
 N reproduktor
 N slúchadlo
+N podcast
+N GPS
+N radar
+N projektor
+N telefónne číslo
+N mobilný telefón
+N volajúci
+N poštová priehradka
+N anténa
+N hasiaci prístroj
+AN telefonický : adverb telefonicky
+
+# computer-hardware
+N počítač
+N laptop
+N tablet
+N obrazovka
+N monitor
+N dotyková obrazovka
+N tlačidlo
+N klávesnica
+V vytlačiť
+N tlačiareň
+V potlačiť
+N skener
+V skenovať
+N softvér
+N hardvér
 N kalkulačka
 N čip
 N procesor
 N USB
 N kurzor
-N rozhranie
-N algoritmus
-N spam
-N hacker
-N blog
-N podcast
 N router
 N bluetooth
-N GPS
-N pixel
+N infraštruktúra
+N pamäť (počítača)
+N notebook
+N pevný disk
+N vyhľadávač
+N počítačová hra
+N medzerník -- kláves na medzeru
+N operačná pamäť -- rýchla pamäť počítača
+
+# software-and-actions
+N program
+V programovať
+N programátor
+N aplikácia
+N súbor
+N priečinok
+N údaje
+N databáza
+N ochrana údajov
+N kód
+V kliknúť
+N kliknutie
+N rozhranie
+N algoritmus
 V rolovať
 V zotrieť
 V priblížiť
@@ -175,38 +173,12 @@ V odhlásiť sa
 N prihlásenie
 N odhlásenie
 V prihlásiť
-N profil
-V vyprofilovať sa
-N emoji
-AN virtuálny : adverb virtuálne
 V aktualizovať
 N aktualizácia
 N záložná kópia
-N radar
-N projektor
-N používateľ
-N používateľka
-N platforma
-N infraštruktúra
-N telefónne číslo
-N pamäť (počítača)
-N notebook
-N mobilný telefón
-N volajúci
-N poštová priehradka
-N príloha (dokumentu)
-N registrácia
 N operačný systém
-N pevný disk
-N vyhľadávač
-N anténa
-N počítačová hra
-N hasiaci prístroj
-N portál
-N internetová stránka
 N stiahnutie
 N nahratie
-AN telefonický : adverb telefonicky
 V simulovať
 V deaktivovať
 V personalizovať
@@ -215,10 +187,44 @@ V skontrolovať
 V znovu aktivovať
 V konfigurovať
 AN škálovateľný
-N medzerník -- kláves na medzeru
-N operačná pamäť -- rýchla pamäť počítača
 N enumerácia -- vymenovanie
 N konštanta -- hodnota, ktorá sa nemení
+
+# internet-and-online
+N heslo
+N internet
+N wifi
+N sieť (počítačová)
+N webová stránka
+N webkamera
+N prehliadač
+N odkaz
+V prepojiť odkazom
+N e-mail
+AV online
+AV offline
+AN digitálny : adverb digitálne
+N digitalizácia
+V digitalizovať
+PHR umelá inteligencia
+N umelá inteligencia
+N signál
+N server
+N spam
+N hacker
+N blog
+N pixel
+N profil
+V vyprofilovať sa
+N emoji
+AN virtuálny : adverb virtuálne
+N používateľ
+N používateľka
+N platforma
+N príloha (dokumentu)
+N registrácia
+N portál
+N internetová stránka
 
 # devices
 V demontovať

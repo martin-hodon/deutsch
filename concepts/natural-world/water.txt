@@ -44,7 +44,7 @@ V vtekať
 V pretiecť -- tiecť cez okraj
 V roztiecť sa -- rozliať sa po ploche
 
-# water-features
+# waves-and-tides
 N vlna
 N príliv a odliv
 N odliv
@@ -55,6 +55,13 @@ N prúdenie
 N záplava
 V zaplaviť
 N cunami
+N zvlnenie hladiny
+V zvlniť
+N vír
+N pereje
+N ponorenie
+
+# drops-and-spray
 N kvapka
 V kvapkať
 N pena
@@ -68,27 +75,24 @@ N para
 V pariť sa
 N mláka
 V striekať
-N zvlnenie hladiny
-V zvlniť
-N vír
-N pereje
 V presakovať
 N rozprášená voda
 N opar
 N kondenzácia
 V kondenzovať
 N soľanka
-N panva
 V vyvierať
 V namočiť
 V premočiť
+V špliechať
+
+# dams-and-channels
+N panva
 N plavebná komora
 N hrádza
 V zamedziť
 N odpadová voda
 N čistiareň odpadových vôd
-V špliechať
-N ponorenie
 N meander
 N brod
 

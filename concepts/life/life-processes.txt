@@ -68,13 +68,7 @@ N zdochlina
 V ošedivieť
 AN zhnitý
 
-# body-functions
-V dýchať
-N dych
-V vdychovať
-V vydychovať
-N dýchanie
-AN bez dychu
+# sleep-and-rest
 V spať
 V bdieť
 N spánok (stav)
@@ -88,7 +82,6 @@ AN bdelý
 V zobudiť sa
 V prebudiť sa
 V budiť
-V uspať
 V odpočívať
 V oddýchnuť si
 AN unavený
@@ -99,7 +92,21 @@ AN vyčerpaný
 V vysiliť
 N vyčerpanie
 V zívať
-V chvieť sa
+V chrápať
+V začervenať sa
+N červeň
+V driemať
+N zdriemnutie -- krátky spánok
+N ospalosť -- stav ospalého
+N zívnutie -- jedno zívnutie
+
+# breathing-and-digestion
+V dýchať
+N dych
+V vdychovať
+V vydychovať
+N dýchanie
+AN bez dychu
 V tráviť
 N trávenie
 V prehĺtať
@@ -114,42 +121,18 @@ V odhryznúť
 AN hryzavý
 V pľuť
 V vypľuť
-V mrkať
-V chrápať
-N tlkot srdca
-N búšenie srdca
-V začervenať sa
-N červeň
 V slintať
 V dychčať
 V ťažko dýchať
 V škrtiť
 V uškrtiť
-N látková výmena
-V driemať
-V zmĺknuť
-AN silný ako medveď
-N chvenie -- chvenie tela, trasenie
-V pulzovať
-V opiť sa -- piť, až kým človek nie je opitý
-V súložiť
-V vystriekať sa -- mať ejakuláciu
-V honiť si
 N hovno
-V vzlykať
-V prskať
 V nadúvať
-V vypotiť
-V prepotiť
 N vdych
 N výdych
-N zdriemnutie -- krátky spánok
-N ospalosť -- stav ospalého
-N zívnutie -- jedno zívnutie
 V nahryznúť
 V rozhryznúť
 V zahryznúť
-V ceriť
 V mľaskať
 V grgať
 V vyplakať sa
@@ -158,6 +141,27 @@ V odkašľať si
 V pokašliavať
 V smrkať
 V prdnúť
+
+# body-reactions
+V uspať
+V chvieť sa
+V mrkať
+N tlkot srdca
+N búšenie srdca
+N látková výmena
+V zmĺknuť
+AN silný ako medveď
+N chvenie -- chvenie tela, trasenie
+V pulzovať
+V opiť sa -- piť, až kým človek nie je opitý
+V súložiť
+V vystriekať sa -- mať ejakuláciu
+V honiť si
+V vzlykať
+V prskať
+V vypotiť
+V prepotiť
+V ceriť
 N enzým
 
 # nourishment

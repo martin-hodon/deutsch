@@ -1,11 +1,4 @@
-# basic-feelings
-N pocit
-N súcit
-AN bezcitný : adverb bezcitne
-AN citový : adverb citovo
-N emócia
-AN emocionálny : adverb emocionálne
-AN náladový
+# joy-and-delight
 N šťastie
 AN šťastný : adverb šťastne
 AN nešťastný : adverb nešťastne
@@ -18,15 +11,75 @@ AN potešený
 AN radostný : adverb radostne
 AN rád : adverb rado
 AN veselý : adverb veselo
-AN smutný : adverb smutno
-N smútok
-V smútiť
-N žiaľ
+N úľava
+V uľahčiť
+AN uľavený
+N nádej
+N beznádej
+V dúfať
+AV dúfajme
+AN plný nádeje
+N nadšenie
+V nadchnúť
+AN nadšený
+N potešenie
+V vychutnávať si
+N pôžitok
+N okúzlenie
+AN rozkošný : adverb rozkošne
+AN spokojný : adverb spokojne
+N spokojnosť
+AN nespokojný : adverb nespokojne
+PHR v najlepšom prípade
+N extáza
+V baviť
+N horlivosť
+AN horlivý : adverb horlivo
+N žiarlivosť
+AN žiarlivý : adverb žiarlivo
+N optimizmus
+N nespokojnosť
+V potešiť
+V strachovať sa
+V žasnúť
+V udivovať
+V fascinovať
+V rozmaznávať
+V doprajať
+V okrídliť
+AN eufórický : adverb euforicky
+
+# anger-and-annoyance
+AN náladový
 N zlosť
 AN zúrivý : adverb zúrivo
 N hnev
 AN nahnevaný
 V ozlobiť
+N sklamanie
+V sklamať
+AN sklamaný
+V hnevať
+N mrzutosť
+AN rozladený
+V nahnevať
+V dráždiť
+AN frustrovaný
+V frustrovať
+N rozhorčenie
+AN rozhorčený
+V pobúriť
+N zúrivosť
+V rušiť
+V rozrušiť
+V zazlievať
+V zúriť
+V dotierať
+V rozladiť
+V vzplanúť -- prudko sa rozčúliť
+AN zarmútený
+
+# fear-and-shock
 N strach
 AN bojazlivý : adverb bojazlivo
 N zdesenie
@@ -38,29 +91,72 @@ V postarať sa
 AN ustarostený
 V obstarať
 AN dôkladný : adverb dôkladne
-AN pokojný : adverb pokojne
-N pokoj
-V upokojiť
-AN nepokojný : adverb nepokojne
-N úľava
-V uľahčiť
-AN uľavený
 N prekvapenie
 V prekvapiť
 AN prekvapivý : adverb prekvapivo
 AN prekvapený
 N šok
 V šokovať
-N sklamanie
-V sklamať
-AN sklamaný
+N panika
+AN panický : adverb panicky
+V ľutovať
+N zľaknutie
+N hrôza
+V zľaknúť sa
+V strhnúť sa
+AN odstrašujúci
+V poplašiť
+AN stiesnený
+V premôcť
+AN ohromujúci : adverb ohromujúco
+V ohromiť
+AN ohromený
+N bázeň
+AN otrasený
+AN bezmocný : adverb bezmocne
+AN neistý : adverb neisto
+N neistota
+V obávať sa
+V báť sa
+AN nebojácny : adverb nebojácne
+V zneistiť
+V vyhýbať sa
+V vystrašiť
+V traumatizovať
+AN vystrašený
+
+# sadness-and-suffering
+AN smutný : adverb smutno
+N smútok
+V smútiť
+N žiaľ
 N zúfalstvo
 AN zúfalý : adverb zúfalo
-N nádej
-N beznádej
-V dúfať
-AV dúfajme
-AN plný nádeje
+N núdza
+PHR v najhoršom prípade
+N trápenie
+AN biedny : adverb biedne
+N bieda
+AN pochmúrny : adverb pochmúrne
+N melanchólia
+AN melancholický : adverb melancholicky
+AN sentimentálny : adverb sentimentálne
+N apatia
+AN apatický : adverb apaticky
+N utrpenie
+PHR je mi ľúto
+
+# calm-and-excitement
+N pocit
+N súcit
+AN bezcitný : adverb bezcitne
+AN citový : adverb citovo
+N emócia
+AN emocionálny : adverb emocionálne
+AN pokojný : adverb pokojne
+N pokoj
+V upokojiť
+AN nepokojný : adverb nepokojne
 V nudiť sa
 AN znudený
 AN nudný : adverb nudne
@@ -69,115 +165,27 @@ V rozčuľovať
 AN vzrušený
 AN vzrušujúci : adverb vzrušujúco
 N vzrušenie
-N nadšenie
-V nadchnúť
-AN nadšený
 AN nervózny : adverb nervózne
-V hnevať
-N mrzutosť
-AN rozladený
-V nahnevať
-N panika
-AN panický : adverb panicky
-V ľutovať
 AN poľutovaniahodný
-N potešenie
-V vychutnávať si
-N pôžitok
 N stres
 AN stresujúci
 AN vystresovaný
-N okúzlenie
-AN rozkošný : adverb rozkošne
-AN spokojný : adverb spokojne
-N spokojnosť
-AN nespokojný : adverb nespokojne
-N zľaknutie
-N hrôza
-V zľaknúť sa
-V strhnúť sa
-AN odstrašujúci
-V poplašiť
 V uvoľniť sa
 AN uvoľnený (bez napätia)
 N relaxácia
 AN napätý
 N napätie
 AN napínavý
-AN stiesnený
-V dráždiť
-AN frustrovaný
-V frustrovať
-N rozhorčenie
-AN rozhorčený
-V pobúriť
-N zúrivosť
-N núdza
-PHR v najhoršom prípade
-PHR v najlepšom prípade
-N trápenie
-AN biedny : adverb biedne
-N bieda
-AN pochmúrny : adverb pochmúrne
-N melanchólia
-AN melancholický : adverb melancholicky
-AN sentimentálny : adverb sentimentálne
-N extáza
-V premôcť
-AN ohromujúci : adverb ohromujúco
 V omráčiť
-V ohromiť
-AN ohromený
-N bázeň
-AN otrasený
-V rušiť
-V rozrušiť
-V baviť
 V nudiť
-AN bezmocný : adverb bezmocne
-AN neistý : adverb neisto
-N neistota
 AN vyrovnaný
 N vyrovnanosť
-N apatia
-AN apatický : adverb apaticky
-V zazlievať
-N horlivosť
-AN horlivý : adverb horlivo
-N žiarlivosť
-AN žiarlivý : adverb žiarlivo
-N utrpenie
-PHR je mi ľúto
-V obávať sa
-N optimizmus
 N napínavosť
 AN zvedavý : adverb zvedavo
-V báť sa
-AN nebojácny : adverb nebojácne
-N nespokojnosť
 N nervozita
 N úcta
-V potešiť
-V strachovať sa
-V žasnúť
-V udivovať
-V fascinovať
-V zneistiť
-V rozmaznávať
-V doprajať
 V vzrušiť
-V zúriť
-V vyhýbať sa
 V znepokojiť
-V okrídliť
-V dotierať
-V vystrašiť
-V traumatizovať
-AN eufórický : adverb euforicky
-V rozladiť
-V vzplanúť -- prudko sa rozčúliť
-AN zarmútený
-AN vystrašený
 V stresovať sa
 
 # love-hate
@@ -315,40 +323,28 @@ N vzlyk
 V chichotať sa
 N úškrn
 
-# feelings
-V hýriť
-V rozhnevať sa
-V blamovať sa
+# surprise-and-fear
 AN tiesnivý : adverb tiesnivo
-AN blahodarný : adverb blahodarne
-AN opojný : adverb opojne
-AN lichotivý : adverb lichotivo
-V dvoriť sa
 V skľučovať -- robiť smutným, deprimovať
-AN obdivný
 N údiv
 AN udivený
-AN znechutený
-V znechutiť
-N škodoradosť
-AN škodoradostný
-V zľutovať sa
-AN milosrdný
-N príťažlivosť -- schopnosť priťahovať
-AN rozjašený -- veselo vzrušený
-N poblúznenie -- nadšená, prehnaná zamilovanosť
 AN znepokojený
 AN šokovaný
 V zaraziť -- ohromiť, zmiasť
 AN zarazený
 AN úzkostlivý
-AN namosúrený
-AN precitlivený
-V vcítiť sa
 V zhroziť sa
 N znepokojenie
 V zastrašiť
-AN túžobný
+
+# anger-and-sulking
+V rozhnevať sa
+V blamovať sa
+AN znechutený
+V znechutiť
+N škodoradosť
+AN škodoradostný
+AN namosúrený
 AN podráždený
 N podráždenosť
 V strpčiť -- urobiť niekomu život trpkým
@@ -358,6 +354,22 @@ N veselosť
 V mrzieť -- hnevať, zarmucovať
 AN utrápený -- zmučený starosťami
 V zarmútiť
+
+# desire-and-sympathy
+V hýriť
+AN blahodarný : adverb blahodarne
+AN opojný : adverb opojne
+AN lichotivý : adverb lichotivo
+V dvoriť sa
+AN obdivný
+V zľutovať sa
+AN milosrdný
+N príťažlivosť -- schopnosť priťahovať
+AN rozjašený -- veselo vzrušený
+N poblúznenie -- nadšená, prehnaná zamilovanosť
+AN precitlivený
+V vcítiť sa
+AN túžobný
 V rozveseliť
 N rozveselenie
 

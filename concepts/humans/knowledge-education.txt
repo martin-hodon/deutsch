@@ -1,4 +1,4 @@
-# school
+# school-places-and-people
 N škola
 N žiak
 N riaditeľ školy
@@ -6,7 +6,6 @@ N základná škola
 N vysoká škola
 N gymnázium
 N žiačka
-V školiť
 AN školský
 V zapísať do školy
 N univerzita
@@ -14,6 +13,80 @@ N materská škola
 N trieda
 N učebňa
 AN prvotriedny
+N profesor
+N mentor
+N dekan
+N fakulta
+N kampus
+N študentský domov
+N prednáškova sála
+N študentská jedáleň
+N akadémia
+N vysokoškolák
+AN akademický
+N škôlka
+N odborná škola
+N hlavná škola
+N reálna škola
+N jednotná škola
+N odborná vysoká škola
+N spolužiak
+N školská taška
+N školský dvor
+N školský deň
+N učňovské miesto
+N začiatočník
+N detské jasle
+N študijný odbor
+N ľudová škola
+N školská lavica -- stôl žiaka
+
+# exams-and-diplomas
+V preveriť
+N skúška
+N skúšajúci
+N preskúmanie
+AN overiteľný
+N test
+V testovať
+N diplom
+V zapísať sa
+N zápis
+V absolvovať
+N absolvent
+N kvíz
+N záverečná práca
+N štipendium
+N gramotnosť
+N certifikát
+N maturita
+N písomná práca
+N referát
+V referovať
+N vysvedčenie
+N listina
+V získať doktorát
+
+# school-subjects-and-supplies
+N úloha
+N domáca úloha
+N semester
+N tabuľa
+N guma (na gumovanie)
+N letné prázdniny
+N opakovanie
+N riadok
+N číslica
+N informatika
+N etika
+N rozdiel (číselný)
+V rozlišovať
+N strúhadlo na ceruzky -- na ostrenie ceruziek
+N kružidlo -- na kreslenie kružníc
+N čítanka -- školská kniha textov
+
+# learning-and-teaching
+V školiť
 N lekcia
 N kurz
 V učiť
@@ -23,7 +96,6 @@ N učebný plán
 N učebnica
 N doučovateľ
 N učiteľka
-N profesor
 V študovať
 N študent
 N štúdium
@@ -43,80 +115,14 @@ V spoznať
 V cvičiť (nácvik)
 N cvičenie
 V vykonávať
-N úloha
-N domáca úloha
-V preveriť
-N skúška
-N skúšajúci
-N preskúmanie
-AN overiteľný
-N test
-V testovať
-N diplom
-N semester
-N tabuľa
-V zapísať sa
-N zápis
-V absolvovať
-N absolvent
-N mentor
-N dekan
-N fakulta
-N kampus
-N študentský domov
-N prednáškova sála
-N študentská jedáleň
-N kvíz
-N záverečná práca
 N seminár
-N štipendium
-N guma (na gumovanie)
-N gramotnosť
-N certifikát
-N akadémia
-N vysokoškolák
-AN akademický
-N škôlka
-N odborná škola
-N hlavná škola
-N reálna škola
-N jednotná škola
-N odborná vysoká škola
-N spolužiak
-N školská taška
-N letné prázdniny
-N maturita
-N písomná práca
-N referát
-V referovať
 N prednáška
-N vysvedčenie
-N listina
-N opakovanie
-N riadok
-N číslica
-N informatika
-N etika
-N rozdiel (číselný)
-V rozlišovať
-N školský dvor
 N jazykový kurz
-N školský deň
-N učňovské miesto
-N začiatočník
-N detské jasle
-N študijný odbor
-N ľudová škola
 AN pedagogický
 V senzibilizovať
-V získať doktorát
 V odpisovať
 V vytriediť
-N strúhadlo na ceruzky -- na ostrenie ceruziek
-N školská lavica -- stôl žiaka
-N kružidlo -- na kreslenie kružníc
 V zostať po škole -- ako trest po vyučovaní
-N čítanka -- školská kniha textov
 
 # knowledge-science
 N veda

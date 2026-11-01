@@ -23,7 +23,7 @@ N útulok pre zvieratá
 N škodca
 N štvornožec
 
-# mammals-wild
+# predators
 N medveď
 N ľadový medveď
 N macko
@@ -31,55 +31,21 @@ N mýval
 N vlk
 N vlčica
 N líška
-N jeleň
-N srna
-N zajac
-N králik
-N veverička
-N jež
-N myš
-N netopier
-N potkan
 N lev
 N levica
 N tiger
-N slon
-N chobot
-N opica
-N žirafa
-N zebra
-N ťava
-N klokan
-N los
-N veľryba
-N delfín
-N tuleň
 N leopard
 N vydra
 N bobor
-N krt
 N jazvec
 N lasica
-N antilopa
-N byvol
-N bizón
-N panda
-N gorila
 N gepard
-N škrečok
-N mrož
 N rys
-N šimpanz
 N hyena
 N šakal
 N panter
 N puma
-N gazela
 N fretka
-N koala
-N surikata
-N kozorožec
-N uškatec
 N kuna
 N rosomák
 N tchor
@@ -87,13 +53,71 @@ N norka
 N skunk
 N jaguár
 N kojot
+
+# primates-and-exotics
+N slon
+N chobot
+N opica
+N žirafa
+N zebra
+N klokan
+N panda
+N gorila
+N šimpanz
+N koala
+N surikata
 N ježura
 N vačkovec
-N vačica
 N mravčiar
 N pásovec
 N daman
 N hrabáč
+N orangutan
+N gibon
+N pavián
+N makak
+N mačiak
+N párnokopytník
+N nepárnokopytník
+N tapír
+N ťava dvojhrbá
+N lama
+N ľudoop
+
+# deer-and-grazers
+N jeleň
+N srna
+N zajac
+N králik
+N ťava
+N los
+N antilopa
+N byvol
+N bizón
+N gazela
+N kozorožec
+N dromedár
+N vidloroh
+N daniel
+N kamzík
+N pižmoň
+N zubor
+N pakôň
+
+# small-and-sea-mammals
+N veverička
+N jež
+N myš
+N netopier
+N potkan
+N veľryba
+N delfín
+N tuleň
+N krt
+N škrečok
+N mrož
+N uškatec
+N vačica
 N kapustniak
 N piskor
 N šupinavec
@@ -106,29 +130,11 @@ N ondatra
 N svišť
 N syseľ
 N kapybara
-N orangutan
-N gibon
-N pavián
-N makak
-N mačiak
-N párnokopytník
-N nepárnokopytník
-N tapír
-N ťava dvojhrbá
-N dromedár
-N lama
 N kosatka
 N sviňucha
 N beluga
 N narval
 N vorvaň
-N vidloroh
-N daniel
-N kamzík
-N pižmoň
-N zubor
-N pakôň
-N ľudoop
 
 # mammals-domestic
 N pes
@@ -166,20 +172,12 @@ N ohrada
 N sliepka
 N voriš
 
-# birds
+# farm-and-ground-birds
 N vták
 N sťahovavý vták
 N spevavec
 N dravec
 N kanárik
-N orol
-N sova
-N vrana
-N havran
-N vrabec
-N lastovička
-N bocian
-N žeriav (vták)
 N kačica
 N káčer
 N hus
@@ -189,40 +187,31 @@ N kuriatko
 N kohút
 N moriak
 N holub
-N labuť
-N papagáj
-N páv
 N tučniak
 N pštros
-N slávik
-N kukučka
-N ďateľ
-N čajka
-N straka
-N červienka
 N bažant
-N plameniak
-N pelikán
-N volavka
-N sokol
-N sup
-N kos
-N pinka
-N škovránok
 N prepelica
-N oriešok
-N jastrab
 N hrdlička
 N kazuár
 N emu
 N jarabica
 N perlička
 N tetrov
-N kolibrík
 N drop
 N chriašteľ
 N lyska
-N rybár riečny -- vták podobný čajke, rybožravý
+N rybárik
+N rajka
+N hlucháň
+
+# water-birds
+N bocian
+N žeriav (vták)
+N labuť
+N čajka
+N plameniak
+N pelikán
+N volavka
 N papuchalk
 N sluka
 N cíbik
@@ -233,6 +222,13 @@ N kormorán
 N ibis
 N lyžičiak
 N albatros
+
+# raptors-and-owls
+N orol
+N sova
+N sokol
+N sup
+N jastrab
 N kondor
 N bradáň
 N zdochlinár
@@ -244,19 +240,25 @@ N kuvik
 N výr
 N myšiarka
 N plamienka
-N tukan
-N dudok
-N včelárik
-N rybárik
-N krakľa
 N karakara
-N andulka
-N korela
-N kakadu
+
+# songbirds
+N vrana
+N havran
+N vrabec
+N lastovička
+N slávik
+N kukučka
+N ďateľ
+N straka
+N červienka
+N kos
+N pinka
+N škovránok
+N oriešok
+N rybár riečny -- vták podobný čajke, rybožravý
 N kavka
 N sojka
-N rajka
-N lýrochvost
 N vlha
 N sýkorka
 N brhlík
@@ -270,9 +272,21 @@ N ľabtuška
 N trasochvost
 N drozd
 N škorec
-N hlucháň
 
-# fish-reptiles-amphibians
+# exotic-birds
+N papagáj
+N páv
+N kolibrík
+N tukan
+N dudok
+N včelárik
+N krakľa
+N andulka
+N korela
+N kakadu
+N lýrochvost
+
+# fish
 N ryba
 V loviť ryby : of loviť @ rybárstvo
 N zlatá rybka
@@ -288,34 +302,6 @@ N treska
 N sleď
 N sumec
 N raja
-N krab
-N homár
-N chobotnica
-N medúza
-N morská hviezdica
-N mušľa
-N ustrica
-N žaba
-N ropucha
-N žubrienka
-N mlok
-N salamandra
-N had
-N jedovatý had
-V vinúť sa
-N vretenica
-N kobra
-N pytón
-N jašterica
-N gekón
-N leguán
-N chameleón
-N korytnačka
-N krokodíl
-N aligátor
-N mäkkýš
-N slávka
-N kôrovec
 N jeseter
 N vyza
 N sardela
@@ -336,6 +322,39 @@ N ostriež
 N zubáč
 N platesa
 N štvorzubec
+
+# shellfish-and-crustaceans
+N krab
+N homár
+N chobotnica
+N medúza
+N morská hviezdica
+N mušľa
+N ustrica
+N mäkkýš
+N slávka
+N kôrovec
+N rak (živočích) -- sladkovodný kôrovec
+
+# reptiles-and-amphibians
+N žaba
+N ropucha
+N žubrienka
+N mlok
+N salamandra
+N had
+N jedovatý had
+V vinúť sa
+N vretenica
+N kobra
+N pytón
+N jašterica
+N gekón
+N leguán
+N chameleón
+N korytnačka
+N krokodíl
+N aligátor
 N obojživelník
 N rosnička
 N plaz
@@ -349,11 +368,8 @@ N užovka
 N anakonda
 N veľhad
 N dinosaurus
-N rak (živočích) -- sladkovodný kôrovec
 
-# insects-small
-N hmyz
-N havaď
+# flying-insects
 N mucha
 N komár
 N včela
@@ -361,43 +377,45 @@ N včela medonosná
 N osa
 N sršeň
 N čmeliak
-N mravec
-N termit
 N motýľ
 N húsenica
+N vážka
+N moľa
+N ovad
+N podenka
+N cikáda
+N mäsiarka (mucha) -- mucha kladúca vajíčka do mäsa
+N lišaj
+N vidlochvost
+N babôčka pávooká
+N babôčka žihľavová
+N perlovec
+N dúhovec
+N mlynárik
+N žltáčik
+
+# beetles-pests
+N hmyz
+N havaď
+N mravec
+N termit
 N chrobák
 N lienka
-N vážka
-N svrček
-N kobylka
-N saranča
 N šváb
 N blcha
 N kliešť
-N pavúk
-N pavučina
-N škorpión
-N stonožka
 N červ
 N slimák
 N slizniak
 N ulita
-N moľa
 N larva
 N pandrava -- larva chrústa
-N ovad
 N dážďovka
-N kosec (pavúkovec) -- pavúkovec s dlhými nohami
 N roztoč
-N podenka
-N modlivka
 N ucholak
-N pakobylka
 N voš
 N bzdocha
 N ploštica
-N korčuliarka -- vodný hmyz kráčajúci po hladine
-N cikáda
 N voška
 N potápnik
 N bystruška
@@ -413,17 +431,21 @@ N červotoč
 N lykožrút
 N zlatoň
 N chrúst
-N mäsiarka (mucha) -- mucha kladúca vajíčka do mäsa
-N lišaj
-N vidlochvost
-N babôčka pávooká
-N babôčka žihľavová
-N perlovec
-N dúhovec
-N mlynárik
-N žltáčik
 
-# animal-parts-life
+# spiders-hoppers
+N svrček
+N kobylka
+N saranča
+N pavúk
+N pavučina
+N škorpión
+N stonožka
+N kosec (pavúkovec) -- pavúkovec s dlhými nohami
+N modlivka
+N pakobylka
+N korčuliarka -- vodný hmyz kráčajúci po hladine
+
+# animal-body-parts
 N chvost
 N krídlo
 N pero (vtáka)
@@ -443,12 +465,29 @@ N plutva
 N žiabra
 N tykadlo
 N škrupina
-N hniezdo : of dom @ vtáky
 N osteň
 AN ostnatý
 N hriva
-N fúz
 N papuľa : of ústa @ zvieratá
+N miska
+N fronta
+N letka (letové pero) -- dlhé pero vtáčieho krídla
+V znášať vajcia -- vtáky, ktoré kladú vajcia
+N hrb
+N chumáč
+N pysk -- pera zvieraťa (pes, kôň), nie papuľa
+N cecok
+N páperie
+N brko
+N trtáč
+N hrvoľ
+N rybia kosť
+N krovka
+N chápadlo
+N rypák
+
+# animal-sounds
+N fúz
 V štekať
 V vyť
 V revať
@@ -463,35 +502,6 @@ V kvákať
 V chrochtať
 V kdákať
 V kikiríkať
-N svorka (zvierat)
-N roj
-N klietka
-N vodítko
-N miska
-N fronta
-N nora -- zvieracie obydlie v zemi
-N brloh
-N ikry -- vajíčka rýb
-N mravenisko -- kopec mravcov
-N termitisko -- kopec termitov
-N ruja -- obdobie párenia zveri
-N letka (letové pero) -- dlhé pero vtáčieho krídla
-V znášať vajcia -- vtáky, ktoré kladú vajcia
-V kvočať -- sedieť na vajciach a zahrievať ich
-N znáška -- vajcia znesené naraz
-N hrb
-N chumáč
-N pysk -- pera zvieraťa (pes, kôň), nie papuľa
-N cecok
-N páperie
-N brko
-N trtáč
-N hrvoľ
-N rybia kosť
-N krovka
-N chápadlo
-N plást
-N rypák
 V hrkútať
 V gágať
 V cvrčať
@@ -499,6 +509,22 @@ V skučať
 V kňučať
 V erdžať -- o koni
 V bľačať
+
+# herds-and-nests
+N hniezdo : of dom @ vtáky
+N svorka (zvierat)
+N roj
+N klietka
+N vodítko
+N nora -- zvieracie obydlie v zemi
+N brloh
+N ikry -- vajíčka rýb
+N mravenisko -- kopec mravcov
+N termitisko -- kopec termitov
+N ruja -- obdobie párenia zveri
+V kvočať -- sedieť na vajciach a zahrievať ich
+N znáška -- vajcia znesené naraz
+N plást
 
 # more
 N biologický druh

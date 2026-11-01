@@ -1,4 +1,4 @@
-# building-parts
+# house-and-property
 N dom
 N domov
 N výšková budova
@@ -30,6 +30,58 @@ N nájomník
 N prenajímateľ
 V prenajať
 N nájomná zmluva
+N veranda
+N dvor
+N átrium
+N zadný dvor
+N kôlňa
+N garáž
+N podzemná garáž
+N príjazd
+N vila
+N rezidencia
+N vybavenie
+N stará zástavba
+N viacbytový dom
+N bytový blok
+N usadlosť
+V byť domovom pre
+AN voľne stojaci
+N chatrč
+
+# floors-stairs-rooms
+N prah
+N schod
+N schodík pred dverami
+N schody
+N schodisko
+N podesta
+N zábradlie
+N zábradlie schodiska
+N výťah
+N prízemie
+N horné poschodie
+N suterén
+N podkrovie
+N poschodie
+N krb
+N pivnica
+N vínna pivnica
+N balkón
+N terasa
+N strešná terasa
+N vchod
+N východ (výstup)
+V kúriť
+N kúrenie
+N radiátor
+N kotol (kúrenia)
+V vykurovať
+V rozkúriť
+N vchod do domu
+N priečka rebríka -- priečka rebríka
+
+# walls-roof-openings
 N strecha
 N povala
 N odkvap
@@ -52,38 +104,23 @@ N kľučka
 N guľová kľučka
 N kukátko
 N zárubňa
-N prah
-N schod
-N schodík pred dverami
-N schody
-N schodisko
-N podesta
-N zábradlie
-N zábradlie schodiska
-N výťah
-N prízemie
-N horné poschodie
-N suterén
-N podkrovie
-N poschodie
 N komín
 N kominár
-N krb
-N pivnica
-N vínna pivnica
-N balkón
-N terasa
-N strešná terasa
-N veranda
-N dvor
-N átrium
-N zadný dvor
-N kôlňa
-N garáž
-N podzemná garáž
-N príjazd
-N vchod
-N východ (výstup)
+N pánt
+N zástrčka (na dverách)
+N podlahová doska
+N markíza
+N baldachýn
+N poštová schránka
+N múr
+V podložiť
+N klapka
+N rímsa
+N prístrešie
+N pilier -- hrubý nosný stĺp
+N bránka -- malé dvierka v plote
+
+# surfaces-and-installations
 N tapeta
 V tapetovať
 N fasáda
@@ -93,41 +130,10 @@ N parkety
 N odtok
 N kanalizácia
 N vodovod
-V kúriť
-N kúrenie
-N radiátor
-N kotol (kúrenia)
-V vykurovať
-V rozkúriť
-N pánt
-N zástrčka (na dverách)
-N podlahová doska
-N markíza
-N baldachýn
-N poštová schránka
-N vila
-N rezidencia
-N múr
-V podložiť
 N okenná tabuľa
 N omietka
-N vchod do domu
-N vybavenie
-N stará zástavba
-N viacbytový dom
-N bytový blok
-N klapka
-N usadlosť
-V byť domovom pre
-AN voľne stojaci
-N rímsa
-N prístrešie
 N zabudovanie -- zabudovanie do niečoho
-N priečka rebríka -- priečka rebríka
 N poter -- betónová vrstva podlahy
-N pilier -- hrubý nosný stĺp
-N bránka -- malé dvierka v plote
-N chatrč
 
 # rooms
 N izba
@@ -202,30 +208,12 @@ N vitrína
 N skrinka -- malá skriňa
 N opierka -- časť kresla pre ruky
 
-# household-objects
-N kľúč
-N zväzok kľúčov
-N zámok
-V zamknúť
+# cleaning-and-hygiene
 N vodovodný kohútik
-N rohožka
-N behúň
 N odpad
 N odpadkový kôš
 N popolnica
 N zvoz odpadu
-N termostat
-N rukoväť
-N zvonček
-V zvoniť
-N sviečka
-N svietnik
-N lampáš
-N hodiny
-N náramkové hodinky
-N čas (na hodinách)
-N budík
-N vedro
 N sprcha
 V sprchovať sa
 N vaňa
@@ -244,41 +232,63 @@ N zubná pasta
 V holiť
 N holiaci strojček
 N nožnice
+N vysávač
+N sušička
+N handra
+N prachovka -- metlička alebo handrička na prach
+N sprchová hlavica -- časť sprchy, z ktorej tečie voda
+N záchodová misa -- kus toalety
+N obliečka na paplón -- návlek na paplón
+N ohorok -- zvyšok cigarety
+N haraburdy -- nepotrebné veci
+N rozprašovač -- zariadenie na rozprašovanie kvapaliny
+
+# containers-and-things
+N vedro
 N vrece
 N kôš
 N truhlica
 N váza
 N stan
-N vysávač
-N sušička
-N poistka
-N handra
 N vrecko
 N vrecúško
-N sťahovanie
 N palica
 V navýšiť
-N vedľajšie náklady
-N majiteľ domu
-N náklady na kúrenie
 N balón (nafukovací)
 N bedňa
 N platňa
-N záclona -- priehľadný záves na okno
 N šnúra
-N pochodeň
-N prachovka -- metlička alebo handrička na prach
-N sprchová hlavica -- časť sprchy, z ktorej tečie voda
-N záchodová misa -- kus toalety
-N obliečka na paplón -- návlek na paplón
 N dierkovačka -- na robenie dier do papiera
 N zošívačka -- na spájanie papierov spinkami
 N cumlík -- gumový cumeľ pre bábätko
-N ohorok -- zvyšok cigarety
-N haraburdy -- nepotrebné veci
-N rozprašovač -- zariadenie na rozprašovanie kvapaliny
-N žalúzia
 N uško (držadlo) -- držadlo hrnčeka, tašky
+
+# doors-lights-devices
+N kľúč
+N zväzok kľúčov
+N zámok
+V zamknúť
+N rohožka
+N behúň
+N termostat
+N rukoväť
+N zvonček
+V zvoniť
+N sviečka
+N svietnik
+N lampáš
+N hodiny
+N náramkové hodinky
+N čas (na hodinách)
+N budík
+N poistka
+N sťahovanie
+N vedľajšie náklady
+N majiteľ domu
+N náklady na kúrenie
+N záclona -- priehľadný záves na okno
+N pochodeň
+N žalúzia
 
 # household-actions
 N upratovačka

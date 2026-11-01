@@ -48,11 +48,70 @@ PHR so sklonenou hlavou
 AN skrčený
 AN ležiaci
 
-# locomotion
+# running-and-jumping
 V skákať
 N skok
 V vyskočiť
 V preskočiť
+V loviť
+N poľovačka
+V zahnať
+V poskakovať
+V šprintovať
+N šprint
+N šprintér
+V behať
+V cválať
+N cval
+V vtrhnúť
+N útočník (v športe)
+V dobyť útokom
+V klusať
+N klus
+V svišťať
+V uháňať -- rýchlo bežať
+V vrhnúť sa
+V prekoprcnúť sa
+
+# walking-and-stumbling
+V kráčať
+N krok
+V vykračovať
+V prekročiť
+V putovať
+N túra
+N pešký turista
+V odsťahovať sa
+V prisťahovať sa
+V ujsť
+V krívať
+V potknúť sa
+V prechádzať sa
+N prechádzka
+V korzovať
+V potácať sa
+V ustúpiť
+V uhnúť
+V odchýliť sa
+N odchýlka
+V unikať
+V brodiť sa
+V plížiť sa
+V votrieť sa
+V bežať
+V vypršať
+V zablúdiť
+V tápať
+V vbehnúť
+V knísať sa
+V cupkať
+V vrtieť sa
+V nasadnúť
+V vydrať sa
+V dupať
+N bežec
+
+# swim-climb-slide
 V liezť
 V plaziť sa
 V liezť po štyroch
@@ -68,19 +127,6 @@ V odletieť
 V priletieť
 V preletieť
 N letec
-V kráčať
-N krok
-V vykračovať
-V prekročiť
-V putovať
-N túra
-N pešký turista
-V odsťahovať sa
-V prisťahovať sa
-V loviť
-N poľovačka
-V zahnať
-V ujsť
 V kĺzať sa
 V pošmyknúť sa
 V zošmyknúť sa
@@ -88,56 +134,14 @@ AN šmykľavý
 N šmykľavka
 V gúľať sa
 V zrolovať
-V poskakovať
-V krívať
-V potknúť sa
-V šprintovať
-N šprint
-N šprintér
-V behať
-V prechádzať sa
-N prechádzka
-V korzovať
-V potácať sa
-V ustúpiť
-V uhnúť
-V odchýliť sa
-N odchýlka
-V unikať
-V cválať
-N cval
-V brodiť sa
-V plížiť sa
-V votrieť sa
-V vtrhnúť
-N útočník (v športe)
-V dobyť útokom
-V klusať
-N klus
-V bežať
-V vypršať
-V zablúdiť
-V tápať
-V svišťať
 V váľať
 V robiť kotrmelce
-V uháňať -- rýchlo bežať
-V vbehnúť
-V vrhnúť sa
-V knísať sa
-V prekoprcnúť sa
-V cupkať
-V vrtieť sa
-V nasadnúť
 V vzlietnuť
 V vyletieť
 V obletieť
-V vydrať sa
-V dupať
 V valiť sa
-N bežec
 
-# manipulation
+# grab-lift-carry
 V držať
 V pridržať
 V zadržať
@@ -167,7 +171,6 @@ V nadvihnúť
 V hodiť
 N hod
 V vyhodiť
-V zhodiť
 V vyčítať
 N výčitka
 V navrhnúť (projektovať)
@@ -192,23 +195,37 @@ V potiahnuť
 V ísť ďalej
 V vliecť
 V odvliecť
-V triasť
-V otriasť
-N otras
-V mávať (rukou)
-V pokynúť k sebe
-V zamávať
-V odmávnuť
 V ukázať
 V nahlásiť
 N inzerát
 N ručička
 V poukázať
+V visieť
+V zavesiť
+V zvesiť
+V zakryť
+N natiahnutie (svalu)
+V namáhavo zdvihnúť
+V chňapnúť
+V začuť
+N momentka
+V hltať
+N informačná tabuľa
+V nosiť
+V priklopiť
+V preklopiť
+V vtlačiť
+V zadrapiť
+V hmatať
+V vykĺznuť
+V naniesť -- nanášať, položiť na povrch
+
+# hit-push
+V zhodiť
 V tlieskať
 V biť
 N úder
 V udrieť
-V vybiť
 V zabiť úderom
 N bitka (výtržnosť)
 AN neporaziteľný
@@ -219,35 +236,73 @@ V odstúpiť
 N odstúpenie
 V zastupovať
 N zástupca
-V vytiecť
 V stlačiť
-V rozdrviť
 N dojem
 V zapôsobiť
 AN pôsobivý : adverb pôsobivo
+V klopať
+V zaklopať
+V štipnúť
+N políček
+V dať políčok
+V šťuchnúť
+V postrčiť
+V biť sa
+V zbiť
+V šľahať
+V zatĺkať
+V šliapnúť
+V zažmúriť
+N výprask -- bitka ako trest
+V búchať
+V napriahnuť sa
+N postrčenie
+V rozšliapnuť
+V tresnúť
+N cvrnknutie
+
+# rub-scratch-dig
+V rozdrviť
 V trieť
 V votrieť
 V škrabať
 N škrabanec
 V poškriabať
+V kopať
+V vykopať
+V zakopať
+V hladiť
+V hladkať
+N zápalka
+N škrtnutie
+V prečiarknuť
+V šklbať
+V vyžmýkať
+V poklepať
+V potrieť
+V poutierať
+V krájať
+N rez
+N ostrie
+V odrezať
+V vystrihnúť
+V bodať
+V tetovať
+V leštiť
+V mazať
+V natrieť
+V napichnúť
+V prepichnúť
+V hrabať
+V špárať
+
+# tie-tear-break
+V vybiť
+V vytiecť
 V trhať
 V roztrhnúť
 V rozovrieť
 V strhnúť so sebou
-V klopať
-V zaklopať
-V visieť
-V zavesiť
-V zvesiť
-V zakryť
-V kmitať
-N elán
-N kmitanie
-V otáčať
-V skrútiť
-V pootočiť
-V prekrúcať
-V štipnúť
 V ovinúť
 V odvinúť
 V navinúť
@@ -257,9 +312,38 @@ V priviazať
 V zviazať dokopy
 N pripútanosť
 V zapojiť
-V kopať
-V vykopať
-V zakopať
+V zovrieť
+AN zovretý
+V zhluknúť sa
+V vytrhať
+V rozbiť
+V zaseknúť
+V pripnúť
+V obnažiť
+V zaplietť sa
+V lipnúť
+V držať spolu
+V hodiť sa k sebe
+V vyvinúť sa
+V vrtieť
+V zapchať ústa
+V vyhrnúť
+
+# gestures-shaking
+V triasť
+V otriasť
+N otras
+V mávať (rukou)
+V pokynúť k sebe
+V zamávať
+V odmávnuť
+V kmitať
+N elán
+N kmitanie
+V otáčať
+V skrútiť
+V pootočiť
+V prekrúcať
 V prikývnuť
 V trhnúť sa
 PHR pokrčiť plecami
@@ -270,79 +354,7 @@ V potľapkať
 V ťukať
 N tip
 V ťuknúť
-N políček
-V dať políčok
-V šťuchnúť
-N natiahnutie (svalu)
-V namáhavo zdvihnúť
-V zovrieť
-AN zovretý
-V zhluknúť sa
-V hladiť
-V hladkať
-N zápalka
-N škrtnutie
-V prečiarknuť
 V lúskať
-V chňapnúť
-V začuť
-N momentka
-V šklbať
-V vytrhať
-V vyžmýkať
-V poklepať
-V potrieť
-V poutierať
-V krájať
-N rez
-N ostrie
-V odrezať
-V vystrihnúť
-V postrčiť
-V bodať
 V trasť
-V tetovať
-V leštiť
-V rozbiť
-V mazať
-V zaseknúť
-V biť sa
-V zbiť
-V pripnúť
-V obnažiť
-V zaplietť sa
-V lipnúť
-V držať spolu
-V hodiť sa k sebe
-V hltať
-V vyvinúť sa
-N informačná tabuľa
-V šľahať
-V zatĺkať
-V natrieť
-V nosiť
-V šliapnúť
-V priklopiť
-V preklopiť
-V vrtieť
-V napichnúť
-V prepichnúť
-V vtlačiť
-V hrabať
-V zažmúriť
-N výprask -- bitka ako trest
 V mľasknúť jazykom
 V vyplaziť
-V zadrapiť
-V hmatať
-V vykĺznuť
-V špárať
-V búchať
-V napriahnuť sa
-N postrčenie
-V zapchať ústa
-V rozšliapnuť
-V vyhrnúť
-V tresnúť
-N cvrnknutie
-V naniesť -- nanášať, položiť na povrch

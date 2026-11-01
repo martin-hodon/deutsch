@@ -19,21 +19,34 @@ AUX = {"hat", "ist", "hat/ist"}
 CASES = {"N", "A", "D", "G"}
 PREP_CASES = {"A", "D", "G", "A/D", "D/G", "A/G"}
 
-WORD = re.compile(r"^(?P<word>[^{}\[\]()=]+?) \{(?P<parts>[^{}]+)\} \[(?P<ipa>[^\[\]]+)\]$")
 
 
 class Bad(Exception):
     pass
 
 
+# the regions a word may be marked with, at the end of its line: their names are `region-CODE` in <lang>/ui.txt
+REGIONS = set("AT CH DE-N DE-S UK US AU IE SCOT ES LATAM MX AR BE CA AF IT-N IT-S PL-S PL-W SIL TW HK CN-N CN-S".split())
+
+
+def take_region(s):
+    """a line's end -> (the line without it, its codes): `... = január REG_AT`, `REG_DE-S REG_AT`; `REG` alone: a dialect, no one region"""
+    m = re.search(r"(?: REG(?:_\S+)?)+$", s)
+    if not m: return s, ""
+    marks = m[0].split()
+    if marks == ["REG"]: return s[:m.start()], "dialect"
+    codes = [x[4:] for x in marks]
+    if any(c not in REGIONS for c in codes): raise Bad(f"not a region: {m[0].strip()}")
+    return s[:m.start()], " ".join(codes)
+
+
 def split_word(s):
-    """'word {parts} [ipa]' + ', rest' -> (word, parts, ipa, [rest items])"""
-    m = re.match(r"^(?P<w>[^{}\[\]()=]+?) \{(?P<parts>[^{}]+)\} \[(?P<ipa>[^\[\]]+)\](?P<rest>.*)$", s)
+    """'wo|rd [ipa]' + ', rest' -> (word, parts, ipa, [rest items]); `|` a joint, `_` where a prefix separates: auf_stehen"""
+    m = re.match(r"^(?P<w>[^{}\[\]()=]+?) \[(?P<ipa>[^\[\]]+)\](?P<rest>.*)$", s)
     if not m:
-        raise Bad("no `word {parts} [ipa]`")
-    w, parts, ipa, rest = m["w"], m["parts"], m["ipa"], m["rest"]
-    if parts.replace("|", "").replace("·", "") != w:
-        raise Bad(f"parts {{{parts}}} do not spell {w!r}")
+        raise Bad("no `word [ipa]`")
+    parts, ipa, rest = m["w"].replace("_", "·"), m["ipa"], m["rest"]
+    w = parts.replace("|", "").replace("·", "")
     nuclei = re.findall(r"[aeiouyæɛɪɔʊøœɐəʏ]", re.sub(r"aɪ|aʊ|ɔʏ|eɪ|oʊ|[aiyeøuoɛɔʊɪʏ]ːɐ|[aiyeøuoɛɔʊɪʏ]ɐ", "a", ipa))   # (a diphthong, a vowel and its vocalised r: one)
     if "ˈ" not in ipa and " " not in w and len(nuclei) > 1:
         raise Bad(f"[{ipa}] has no stress mark")
@@ -53,6 +66,7 @@ def parse_line(line):
         raise Bad("spaces at the start or the end")
     if s.startswith("- "):
         d["derived"] = True; s = s[2:]
+    s, d["region"] = take_region(s)
     tok = s.split(" ", 2)
     if len(tok) < 3:
         raise Bad("too short")

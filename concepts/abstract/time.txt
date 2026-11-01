@@ -86,7 +86,7 @@ N slnovrat
 N rovnodennosť
 N dátum vystavenia
 
-# day-parts-and-week
+# day-parts
 N ráno
 AV ráno
 N poludnie
@@ -99,13 +99,6 @@ AV predpoludním
 N večer
 AV večer
 N koniec pracovnej doby
-N pondelok
-N utorok
-N streda
-N štvrtok
-N piatok
-N sobota
-N nedeľa
 AV dnes
 AN dnešný
 PHR dnes večer
@@ -123,8 +116,16 @@ AN sezónny : adverb sezónne
 N ranná hodina
 N skoré ráno -- čas tesne pred svitaním
 
-# relative-time
-AV potom
+# days
+N pondelok
+N utorok
+N streda
+N štvrtok
+N piatok
+N sobota
+N nedeľa
+
+# timing-adverbs
 AV čoskoro
 AV skôr
 AN skorý : adverb skoro
@@ -151,14 +152,32 @@ PHR kedykoľvek
 AV často
 AV častejšie
 AV občas
-N príležitosť
-AN bez príčiny
 AV zvyčajne
 AV výnimočne
 AV náhle
 AV hneď
 AV postupne
 PHR postupne
+AV medzitým
+AV nedávno
+PHR nedávno
+PHR čoskoro
+PHR v poslednom čase
+AV odteraz
+AV spočiatku
+AV nakoniec
+AN promptný : adverb promptne
+N minulý rok
+N predchádzajúci deň
+N nasledujúci deň
+AN občasný
+AV mnohokrát
+N pravek
+
+# time-spans-periods
+AV potom
+N príležitosť
+AN bez príčiny
 PRE pred
 AV predtým
 AN dočasný : adverb dočasne
@@ -169,7 +188,6 @@ PRE do
 CON kým
 PRE od (dosiaľ)
 CON odkedy
-AV medzitým
 N budúcnosť
 AN budúci
 AN životaschopný
@@ -180,10 +198,6 @@ N súčasnosť
 AN súčasný : adverb súčasne
 AN aktuálny : adverb aktuálne
 AV momentálne
-AV nedávno
-PHR nedávno
-PHR čoskoro
-PHR v poslednom čase
 AN moderný : adverb moderne
 V modernizovať
 AN antický
@@ -211,15 +225,8 @@ N rutina
 AN rutinovaný
 AN rutinný : adverb rutinne
 AN periodický : adverb periodicky
-AV odteraz
-AV spočiatku
-AV nakoniec
 AN splatný
 AN oneskorený
-AN promptný : adverb promptne
-N minulý rok
-N predchádzajúci deň
-N nasledujúci deň
 N štvrťrok
 N všedný deň
 AN každodenný : adverb každodenne
@@ -229,9 +236,6 @@ N predchádzajúci týždeň
 N predchádzajúci mesiac
 N doba platnosti
 N krátkosť
-AN občasný
-AV mnohokrát
-N pravek
 PHR za celý život
 
 # months

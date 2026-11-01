@@ -7,10 +7,10 @@ English words (synonyms, told apart by their FREQ, register, valence); an Englis
 for each.
 
     # feelings
-    1 N feeling {feel|ing} [ˈfiːlɪŋ], feelings = pocit
-    1 V feel {feel} [fiːl], felt/felt = cítiť
-    2 AN proud {proud} [praʊd] (of) = hrdý
-    1 V give up {give·up} [ɡɪv ˈʌp], gave up/given up = vzdať sa
+    1 N feel|ing [ˈfiːlɪŋ], feelings = pocit
+    1 V feel [fiːl], felt/felt = cítiť
+    2 AN proud [praʊd] (of) = hrdý
+    1 V give_up [ɡɪv ˈʌp], gave up/given up = vzdať sa
 
 ## A line
 
@@ -19,21 +19,21 @@ for each.
 - `- ` — a DERIVED word, in the family of the last line without one (as in German: *happy* → `- happiness`);
 - `FREQ` — `1` the ~1,000 commonest everyday words, `2` common up to ~5,000, `3` the rest;
 - `POS` — `N V AN AV PRE P CON ART NUM PAR INT PHR` (as German);
-- the English side: `word {parts} [ipa]`, then by POS (below), ending in its COMBINATIONS in parentheses if any:
+- the English side: `word [ipa]`, then by POS (below), ending in its COMBINATIONS in parentheses if any:
   what the word typically goes with -- a preposition (`(of)`, `(on, about)`), `(sb)`, `(sth)`, `(to do)`, `(-ing)`;
 - ` = ` and the concept's ID (one; nothing after it).
 
-`{parts}`: the word with `|` at a compound's joint or before a living suffix (`{sun|rise}`, `{feel|ing}`,
-`{un|happy}`), `·` between a phrasal verb's verb and its particle (`{give·up}`, `{turn·off}`); removing every `|` and
-`·` gives the word back. `[ipa]`: British RP, with the stress mark, in the IPA of `../../lang-data/IPA-GUIDE.md`
+The word is written with `|` at a compound's joint or before a living suffix (`sun|rise`, `feel|ing`,
+`un|happy`), `_` for the space between a phrasal verb's verb and its particle (`give_up`, `turn_off`); removing every `|` and
+making `_` a space gives the word back. `[ipa]`: British RP, with the stress mark, in the IPA of `../../lang-data/IPA-GUIDE.md`
 (`ɹ` is written `r`, the vowel of *bed* `e`; long vowels `iː uː ɑː ɔː ɜː`; diphthongs `eɪ aɪ ɔɪ əʊ aʊ ɪə eə ʊə`).
 
 | POS | laid out | example |
 |---|---|---|
-| `N` | `word {…} […], PLURAL` -- the plural always written: the same word when it does not change (*sheep … , sheep*), `-` when it has none (*information … , -*), `PL` for a plural-only word (*scissors … , PL*) | `N child {child} [tʃaɪld], children` |
-| `V` | `infinitive {…} […]`, then `, PAST/PARTICIPLE` only when IRREGULAR (`went/gone`, `put/put`); a phrasal verb with its particle (`give up`, past `gave up/given up`) | `V go {go} [ɡəʊ], went/gone` · `V walk {walk} [wɔːk]` |
-| `AN` | `word {…} […]`, then `, COMPARATIVE/SUPERLATIVE` when irregular or written with more/most only where -er/-est would be wrong for a one-syllable word | `AN good {good} [ɡʊd], better/best` |
-| `PRE` `AV` `P` `CON` `ART` `NUM` `PAR` `INT` `PHR` | `word {…} […]` | `PHR at home {at home} [ət ˈhəʊm]` |
+| `N` | `word […], PLURAL` -- the plural always written: the same word when it does not change (*sheep … , sheep*), `-` when it has none (*information … , -*), `PL` for a plural-only word (*scissors … , PL*) | `N child [tʃaɪld], children` |
+| `V` | `infinitive […]`, then `, PAST/PARTICIPLE` only when IRREGULAR (`went/gone`, `put/put`); a phrasal verb with its particle (`give up`, past `gave up/given up`) | `V go [ɡəʊ], went/gone` · `V walk [wɔːk]` |
+| `AN` | `word […]`, then `, COMPARATIVE/SUPERLATIVE` when irregular or written with more/most only where -er/-est would be wrong for a one-syllable word | `AN good [ɡʊd], better/best` |
+| `PRE` `AV` `P` `CON` `ART` `NUM` `PAR` `INT` `PHR` | `word […]` | `PHR at home [ət ˈhəʊm]` |
 
 The trainer drills a concept in any pair of languages (Slovak included); its words in a language are all the lines
 with its ID. The concept index and the world: `../DESIGN.md`.

@@ -53,15 +53,10 @@ V činiť
 V fungovať
 N prítomnosť
 
-# change-events
+# starting-ending
 V stať sa
 N stávanie sa
 N životná dráha
-V meniť
-N zmena
-V zmeniť
-AN nezmenený
-V pozmeniť
 V začať
 N koniec
 V skončiť sa
@@ -75,30 +70,33 @@ V zostať
 V nedostaviť sa
 V zostať pozadu
 V nezúčastniť sa
+N začiatok
+AN počiatočný
+N ukončenie
+N úvod
+N nástupníctvo
+N súčasť
+N nadobudnutie
+N vystúpenie (z organizácie)
+N pristúpenie
+N vznik
+N odcestovanie
+N nový začiatok
+N rozbeh
+N vážny prípad
+N ojedinelý prípad
+N prevzatie
+N zatvorenie
+V etablovať
+V nadobudnúť
+V vybojovať
+V zavŕšiť
+
+# events-processes
 V udiať sa
 N udalosť
 AN bohatý na udalosti
 V znížiť
-N redukcia
-V rozšíriť
-N rozšírenie
-V zmenšiť sa
-V zväčšiť sa
-V vyvíjať
-N vývoj
-N vývojár
-V ďalej rozvíjať
-V zlepšiť
-N zlepšenie
-V zhoršiť
-N zhoršenie
-N pokrok
-AN pokrokový
-V stvoriť
-V zničiť
-N zničenie
-V nahradiť
-N náhrada
 N príčina
 V spôsobiť
 AN príčinný
@@ -115,12 +113,41 @@ AN bezdôvodný : adverb bezdôvodne
 N vplyv
 V ovplyvniť
 AN vplyvný
+N priebeh
+N pokles
+N dopad
+N dôsledok
+N reakcia
+N incident
+V reagovať
+N dianie
+N príznak
+N úsek
+N obsah
+N priorita
+N výnimka
+N priechod
+N uskutočnenie
+N pobyt
+N nepokoj
+N zhon
+N výpadok
+N jav
+N dynamika
+N vyrovnanie sa s minulosťou
+
+# change-transform
+V meniť
+N zmena
+V zmeniť
+AN nezmenený
+V pozmeniť
+V nahradiť
+N náhrada
 V prispôsobiť
 N prispôsobenie
 V modifikovať
 V premeniť
-V predĺžiť
-N predĺženie
 V komprimovať
 V splynúť
 V zmiešať
@@ -133,6 +160,71 @@ V obnoviť (nahradiť novým)
 N obnova
 AN obnoviteľný
 PHR zrušiť
+AN premenlivý
+V vymeniť
+AN meniaci sa
+N premena
+N zvrat
+N transformácia
+N zlomový bod
+N spestrenie
+N zmena myslenia
+V kvalifikovať
+V kvalifikovať sa
+V kompenzovať
+V obmieňať
+V ukázať sa ako
+V striedať sa
+V zmeniť sa
+
+# growth-decline
+N redukcia
+V rozšíriť
+N rozšírenie
+V zmenšiť sa
+V zväčšiť sa
+V vyvíjať
+N vývoj
+N vývojár
+V ďalej rozvíjať
+V zlepšiť
+N zlepšenie
+V zhoršiť
+N zhoršenie
+N pokrok
+AN pokrokový
+V stvoriť
+V predĺžiť
+N predĺženie
+N dobudovanie
+AN rozšíriteľný
+N vyrovnanie
+V zaznamenať
+V zabrániť
+V sprísniť
+N rozmach
+N prielom
+N prírastok
+N úbytok
+N úpadok
+N zosilnenie
+N posilnenie
+N ďalší vývoj
+V dominovať
+V skrátiť
+V eskalovať
+V prehĺbiť
+V spomaliť
+V upevniť
+V minimalizovať
+V vyostriť sa
+V strojnásobiť
+V skolabovať
+V prasknúť
+
+# destruction-loss
+V zničiť
+N zničenie
 V odriecť
 N odmietnutie
 V zachovať
@@ -140,6 +232,21 @@ V uchovať
 V zavrhnúť
 N odstránenie
 V vyvolať
+N katastrofa
+AN katastrofálny : adverb katastrofálne
+N nešťastie
+N zrútenie
+N rekonštrukcia
+N zánik
+N ohrozenie
+V zametať
+V pykať
+N únik -- otvor, ktorým niečo uniká
+V viaznuť
+V vkradnúť sa -- o chybe: neúmyselne sa stať
+N šťastná náhoda
+
+# causing-shaping
 N spúšť
 V určiť
 AN určitý : adverb určite
@@ -147,125 +254,28 @@ N určenie
 AN neurčitý : adverb neurčite
 V spolurozhodovať
 V definovať
-N začiatok
-AN počiatočný
-N ukončenie
-AN premenlivý
-N priebeh
-N pokles
-N dopad
-N dôsledok
-N reakcia
-N úvod
-N incident
-N dobudovanie
-AN rozšíriteľný
-N vyrovnanie
-V zaznamenať
-V zabrániť
-N katastrofa
-AN katastrofálny : adverb katastrofálne
 V vyhotoviť
-V reagovať
-V sprísniť
-V vymeniť
-AN meniaci sa
-N premena
-N zvrat
-N transformácia
-N nešťastie
-N dianie
-N nástupníctvo
-N súčasť
-N príznak
-N úsek
-N obsah
-N priorita
-N výnimka
-N priechod
-N rozmach
-N prielom
-N zlomový bod
-N prírastok
-N úbytok
-N uskutočnenie
-N spestrenie
-N pobyt
-N nadobudnutie
-N nepokoj
-N zhon
-N výpadok
-N vystúpenie (z organizácie)
-N pristúpenie
-N vznik
-N úpadok
-N zmena myslenia
-N zrútenie
-N rekonštrukcia
-N zánik
-N odcestovanie
-N zosilnenie
-N posilnenie
-N jav
-N nový začiatok
-N rozbeh
-N vážny prípad
-N ojedinelý prípad
-N dynamika
-N prevzatie
-N zatvorenie
-N ďalší vývoj
 N zisťovanie
-N vyrovnanie sa s minulosťou
 N zabezpečenie
-N ohrozenie
-V kvalifikovať
-V kvalifikovať sa
-V etablovať
-V dominovať
-V skrátiť
 V izolovať
-V eskalovať
-V zametať
 V prevrátiť
-V nadobudnúť
-V vybojovať
 V vzbudiť
 V prepadnúť sa
 V spracovať
 V prepojiť
 V podvoliť sa
-V kompenzovať
-V prehĺbiť
-V spomaliť
-V upevniť
-V minimalizovať
-V obmieňať
 V podnietiť
 V podnecovať
 V odseknúť
 V hemžiť sa
-V ukázať sa ako
-V vyostriť sa
 V striehnuť
 V kolísať
-V pykať
 V spútať
 V skresliť
 V postriekať
-V strojnásobiť
-V skolabovať
 V vyznať sa
-V zavŕšiť
-V striedať sa
-V prasknúť
-N únik -- otvor, ktorým niečo uniká
-V viaznuť
-V vkradnúť sa -- o chybe: neúmyselne sa stať
-N šťastná náhoda
-V zmeniť sa
 
-# relations
+# sameness-difference
 AN rovnaký : adverb rovnako
 N rovnosť
 AN ľahostajný : adverb ľahostajne
@@ -280,19 +290,29 @@ N kontrast
 AN iný : adverb inak (iným spôsobom)
 AV inak (iným spôsobom)
 PHR okrem iného
-AV na druhej strane
+N opak
+AN opačný : adverb opačne
+N porovnanie
+PHR v porovnaní s
+AN neporovnateľný : adverb neporovnateľne
+V zodpovedať
+AN zodpovedajúci : adverb zodpovedajúco
+N protiklad
+PHR na rozdiel od
+AN protichodný : adverb protichodne
+N zhoda
+N spoločná črta
+V zhodovať sa
+V patriť k tomu
+
+# kinds-and-order
 N časť
 N celok
-V deliť
-V násobiť
 AV čiastočne
 V rozdať
-N podiel
 V rozdeliť
 AN pomerný : adverb pomerne
 AN nezúčastnený
-N opak
-AN opačný : adverb opačne
 N druh
 AN novodobý
 N typ
@@ -321,6 +341,26 @@ AN systémovo dôležitý
 N úroveň
 N štandard
 V spojiť
+N rozmanitosť
+AN rozmanitý
+N verzia
+N alternatíva
+AN alternatívny : adverb alternatívne
+AN voliteľný : adverb voliteľne
+N model
+N formát
+V formátovať
+AN veľkoformátový
+N postupnosť
+N účasť
+N variant
+V triediť
+N platidlo
+
+# joining-and-splitting
+V deliť
+V násobiť
+N podiel
 N spojenie
 AN záväzný : adverb záväzne
 V oddeliť
@@ -336,12 +376,15 @@ N závislosť (vzťah)
 N vzťah
 V odoberať
 PHR vzhľadom na
-N rozmanitosť
-AN rozmanitý
-N verzia
-N alternatíva
-AN alternatívny : adverb alternatívne
-AN voliteľný : adverb voliteľne
+N súvislosť
+N pripojenie
+N súdržnosť
+N horná hranica
+N dolná hranica
+V pripojiť sa
+AN zahrnutý
+
+# features-and-origin
 N črta
 V všimnúť si
 N aspekt
@@ -352,8 +395,18 @@ N prameň
 AN pôvodný : adverb pôvodne
 N základ
 N jadro
+N realita
+N funkcia
+AN funkčný : adverb funkčne
+N hľadisko
+N východisko
+N vlastnosť
+N stav zásob
+N skutočnosť
+N normálnosť
+
+# methods-and-plans
 N rámec
-N model
 N taktika
 AN taktický : adverb takticky
 N postup
@@ -362,55 +415,26 @@ N technika
 N stratégia
 AN strategický : adverb strategicky
 N režim (nastavenie)
-N formát
-V formátovať
-AN veľkoformátový
-N postupnosť
-N porovnanie
-PHR v porovnaní s
-AN neporovnateľný : adverb neporovnateľne
-V zodpovedať
-AN zodpovedajúci : adverb zodpovedajúco
-V interagovať
-N interakcia
-N súvislosť
-N protiklad
-PHR na rozdiel od
-AN protichodný : adverb protichodne
-N zaobchádzanie
-N účasť
-N účastník
-N účastníčka
-N pripojenie
-N nárok
-N potreba
-AN podľa potreby
-N príspevok
-N vec
-AN vecný : adverb vecne
-N záujem
-N nezáujem
-N šanca
-AN bez šance
-N potenciál
-N realita
-N funkcia
-AN funkčný : adverb funkčne
 N koncepcia
-N variant
-N odpor
-AN odolný
 N zámer
 N iniciatíva
 N angažovanosť
 N realizácia
 N zavedenie
 N obmedzenie
-N kríza
-N dispozícia
-V disponovať
-PHR k dispozícii
-V týkať sa
+N rozsah
+N ťažisko
+N obrovské množstvo
+N životný štýl
+N obrázok
+N dôležitosť
+N mierka
+N platnosť
+AN neplatný
+N závažnosť
+N účinnosť
+
+# doing-and-using
 AN postihnutý
 N postihnutý
 V prevziať
@@ -442,53 +466,51 @@ V zatarasiť
 V uzavrieť
 V zahájiť
 N otvorenie
+V prevalcovať
+V zhodnotiť
+
+# claims-and-chances
+AV na druhej strane
+V interagovať
+N interakcia
+N zaobchádzanie
+N účastník
+N účastníčka
+N nárok
+N potreba
+AN podľa potreby
+N príspevok
+N vec
+AN vecný : adverb vecne
+N záujem
+N nezáujem
+N šanca
+AN bez šance
+N potenciál
+N odpor
+AN odolný
+N kríza
+N dispozícia
+V disponovať
+PHR k dispozícii
+V týkať sa
 N prístup
 N odstup
 N okolie
 N predpolie
-N rozsah
-N hľadisko
-N ťažisko
-N východisko
 N náskok
 N zaostávanie
 N konsenzus
-N zhoda
-N spoločná črta
-N súdržnosť
-N vlastnosť
-V triediť
-N obrovské množstvo
-N stav zásob
-N skutočnosť
-N normálnosť
-N životný štýl
-N obrázok
-N dôležitosť
-N mierka
 N odvrátená strana
 N sporný bod
 N pochybný prípad
 N pridaná hodnota
 N smernica
-N horná hranica
-N dolná hranica
-N platnosť
-AN neplatný
 N voľnosť
-N závažnosť
-N účinnosť
-N platidlo
 N predvečer
 N odbúranie
 AN rozložiteľný
 N odpočet
-V prevalcovať
-V pripojiť sa
-V zhodnotiť
-V zhodovať sa
-V patriť k tomu
-AN zahrnutý
 N zlatý klinec -- hlavný bod, lákadlo
 
 # transfer-basic-verbs
@@ -582,70 +604,305 @@ V dobehnúť
 V vytiahnuť
 N odobratie -- odňatie, odobratie
 
-# action-and-use
+# use-and-organise
 N akcia (činnosť)
 N činnosť
 AN aktívny : adverb aktívne
 V aktivovať
-N kontrola
-V kontrolovať
 V používať
 V využiť
 N úžitok
 N využívanie
 AN využiteľný
-N zásielka
-N vysielač
-N odosielateľ
-V dbať na
 V stvárniť
 V prestavať
 V preniesť
-V vystaviť (nebezpečenstvu)
-V zaistiť
-V zastaviť
 V zariadiť
-V klasifikovať
-N zaradenie
-AN obmedzený : adverb obmedzene
-V zohľadniť
-V obrátiť
-AN obratný : adverb obratne
-V raziť
-AN poznačený
-V vyformovať
-V niesť zodpovednosť za
-V uplatniť
 N použitie
 AN aplikovateľný
 V uskutočniť
 V prestaviť
 N prechod
+V podať
+N tvorba
+N manipulácia
+N údržba
+N zakúpenie
+N vykonanie
+N spracovanie
+N zadanie
+N prenos
+N sprostredkovanie
+N prenájom
+N rozdelenie
+N zameranie
+V montovať
+V vybaviť (výbavou)
+V narábať
+V zostaviť
+V zaokrúhliť
+V prezbrojiť
+V trimovať
+V modelovať
+V vypracovať si
+V taktovať
+V postupovať
+
+# control-and-rules
+N kontrola
+V kontrolovať
+N zásielka
+N vysielač
+N odosielateľ
+V dbať na
+V klasifikovať
+N zaradenie
+AN obmedzený : adverb obmedzene
+V zohľadniť
+V niesť zodpovednosť za
 V regulovať
 N úprava
 N pravidlo
 PHR spravidla
-V podať
 V predložiť
 N predloha
-V uľaviť
-N odľahčenie
-V zrušiť
-N zrušenie
-V zaručiť
 V akceptovať
 V začleniť
 V udeliť
-V zhasiť
-V zaliať
-V zmeškať
-V uchopiť
-V napísať
-N tvorba
+N dodržiavanie
+N dohľad
+N zastúpenie
+V certifikovať
+V obmedziť
+V dávkovať
+V naplánovať
+V odstupňovať
+V privatizovať
+V kriminalizovať
+V reglementovať
+V konzultovať
+
+# stop-and-limit
+V vystaviť (nebezpečenstvu)
+V zastaviť
+V zrušiť
+N zrušenie
+V vypnúť
+V vytesniť
+V zatočiť
+V zažehnať
+V vypudiť
+V smerovať
+V spomaľovať
+V umenšiť
+V zmariť
+V neutralizovať
+V postaviť proti
+V torpédovať
+V infiltrovať
+V odvrátiť -- zabrániť hrozbe
+
+# support-and-relief
+V zaistiť
+V uľaviť
+N odľahčenie
+V zaručiť
 N upokojenie
 N zmiernenie
 N uzdravenie
 N zdravotný stav
+N priazeň
+V podopierať
+V zvýhodniť
+V nárokovať si
+V venovať
+V normalizovať
+V zveriť
+V urobiť schopným
+V naštartovať
+V spevniť
+V asistovať
+V utíšiť
+V zacementovať
+V roztlačiť
+
+# damage-and-spoil
+V vyhodiť do vzduchu
+V trápiť
+V zruinovať
+V rozmazať
+V pošpiniť
+V vyšumieť
+V drobiť sa
+V nepodariť sa
+V zbabrať
+V rozbiť na kusy
+V zdemolovať
+V namáhať
+V degradovať
+V vsiaknuť
+V znepríjemniť
+V ťahať za nos
+V zbombardovať
+V zuhoľnatieť
+V pokaziť
+
+# loss-and-removal
+V zmeškať
+V odcudziť
+V ukradnúť
+V premárniť
+V odtrhnúť
+V zameškať
+V pašovať
+V splatiť
+V zbaviť
+V posunúť dopredu
+V vplývať
+V privlastniť si
+V získať
+V rozdeliť na dve časti
+V dostať späť
+V vyradiť
+V zbaviť sa
+
+# physical-handling
+V zhasiť
+V zaliať
+V uchopiť
+V napísať
+N sebaovládanie
+V baliť
+V zabaliť
+V rozbaliť
+V napnúť
+V vzpierať
+V hádzať
+V zafixovať
+V ukladať
+V zakrývať
+V pricviknúť
+V naberať
+V rozsypať
+V upchať
+V zahaliť
+V naťahovať sa
+V vytasiť
+V chytiť sa
+V uložiť
+V napchať
+V vztýčiť
+V niesť so sebou
+V zamieriť na
+V rozprašovať
+V rozprášiť
+V mávať (predmetom)
+V vyčerpať
+V mixovať
+V natrhať
+V navigovať
+V hrabať sa
+V strašiť
+V zásobiť
+V líčiť
+V dezinfikovať
+V posypať
+
+# motion-and-sound
+V lákať
+V pozerať
+V rozlúsiť
+V jasať
+V prevrátiť sa
+V nalákať
+V víriť
+V trepotať sa
+V bublať
+V vysielať rádiom
+V osirieť
+V honosiť sa
+V zadrhávať
+V predchádzať
+V predniesť
+V pustiť sa do
+V hompáľať sa
+V prehrabávať sa
+V hojdať (sa)
+V dunieť
+V spolufinancovať
+V plápolať
+V priam sršať
+V priblížiť sa
+V vzdialiť sa
+
+# mind-and-speech
+V pohroziť
+V uprieť
+V považovať za schopného
+V osvojiť si
+V lúštiť
+V odvetiť
+V ujasniť
+V vystavovať sa
+V predstihnúť
+V ovládať na diaľku
+V dešifrovať
+V artikulovať
+V odvďačiť sa
+V holdovať
+V zistiť opýtaním
+V nacvičiť
+V rozjímať
+V rezignovať
+V spustiť
+V prevládať
+V chápať
+V nepochopiť
+
+# change-and-transform
+V obrátiť
+V raziť
+AN poznačený
+V vyformovať
+V uplatniť
+V ukazovať
+V vykazovať
+V vyhostiť
+V generovať
+V manipulovať
+V pôsobiť ako
+V privodiť
+V vziať späť
+V začať naplno
+V upustiť od
+V vynútiť si
+V odvodiť
+V preklenúť
+V zvýšiť nad mieru
+V vymôcť
+V poznamenať
+V zoštvornásobiť
+V zvečniť
+V prekrývať
+V zrealizovať
+V dolaďiť
+V klimatizovať
+V škálovať
+V konzervovať
+V odpojiť
+V emitovať
+V previazať
+V prekryť
+V zjesť
+V transformovať
+V zdokonaliť
+V ochromiť
+V používať rodovo citlivý jazyk
+V zaradiť
+V vnútiť
+
+# quality-and-status
+AN obratný : adverb obratne
 N bremeno
 AN preťažený
 V obťažovať
@@ -654,31 +911,16 @@ N námaha
 AN namáhavý : adverb namáhavo
 N výrez
 N vzhľad
-N priazeň
 N podnet
 AN pôvabný : adverb pôvabne
 N šarm
 AN šarmantný : adverb šarmantne
-N sebaovládanie
 N outsider
 N blaho
 AN blažený : adverb blažene
-N manipulácia
-N údržba
-N zakúpenie
-N vykonanie
-N spracovanie
-N zadanie
-N dodržiavanie
 N likvidácia odpadu
 N zachovanie
-N dohľad
-N prenos
 N strava
-N sprostredkovanie
-N prenájom
-N rozdelenie
-N zastúpenie
 N podsúvanie
 N prenasledovanie
 N sebaurčenie
@@ -686,207 +928,7 @@ N dôkladnosť
 N zámienka
 N honorár
 N výnos
-N zameranie
-V ukazovať
-V vykazovať
-V vyhostiť
-V odcudziť
-V vypnúť
-V baliť
-V zabaliť
-V rozbaliť
-V montovať
-V vyhodiť do vzduchu
-V napnúť
-V vzpierať
-V podopierať
-V hádzať
-V lákať
-V pozerať
-V rozlúsiť
-V ukradnúť
-V zafixovať
-V ukladať
-V generovať
-V premárniť
-V jasať
-V manipulovať
-V certifikovať
-V obmedziť
-V pôsobiť ako
-V zakrývať
-V vybaviť (výbavou)
-V pricviknúť
-V naberať
-V vytesniť
-V zvýhodniť
-V nárokovať si
-V trápiť
-V venovať
-V narábať
-V privodiť
-V vziať späť
-V začať naplno
-V upustiť od
-V vynútiť si
-V odvodiť
-V dávkovať
-V normalizovať
-V preklenúť
-V odtrhnúť
-V rozsypať
-V upchať
-V prevrátiť sa
-V zahaliť
-V naťahovať sa
-V zatočiť
-V zveriť
-V pohroziť
-V zažehnať
-V vypudiť
-V smerovať
-V vytasiť
-V zruinovať
-V zameškať
-V uprieť
-V chytiť sa
-V považovať za schopného
-V spomaľovať
-V osvojiť si
-V zvýšiť nad mieru
-V vymôcť
-V poznamenať
-V lúštiť
-V umenšiť
-V uložiť
-V pašovať
-V splatiť
-V napchať
-V vztýčiť
-V naplánovať
-V niesť so sebou
-V rozmazať
-V zoštvornásobiť
-V zvečniť
-V pošpiniť
-V zamieriť na
-V rozprašovať
-V rozprášiť
-V nalákať
-V odvetiť
-V zbaviť
-V víriť
-V mávať (predmetom)
-V trepotať sa
-V bublať
-V vysielať rádiom
-V vyšumieť
-V drobiť sa
-V osirieť
-V honosiť sa
-V nepodariť sa
-V zostaviť
-V ujasniť
-V urobiť schopným
-V vyčerpať
-V prekrývať
-V zbabrať
-V rozbiť na kusy
-V zdemolovať
-V zmariť
-V neutralizovať
-V zrealizovať
-V postaviť proti
-V vystavovať sa
-V zaokrúhliť
-V naštartovať
-V spevniť
-V posunúť dopredu
-V vplývať
-V zadrhávať
-V predchádzať
-V predniesť
-V pustiť sa do
-V predstihnúť
-V namáhať
-V asistovať
 V prevyšovať
-V torpédovať
-V mixovať
-V degradovať
-V hompáľať sa
-V vsiaknuť
-V znepríjemniť
-V ťahať za nos
-V prehrabávať sa
-V hojdať (sa)
-V natrhať
-V dolaďiť
-V navigovať
-V klimatizovať
-V ovládať na diaľku
-V dešifrovať
-V utíšiť
-V artikulovať
-V odstupňovať
-V zbombardovať
-V hrabať sa
-V privlastniť si
-V prezbrojiť
-V trimovať
-V škálovať
-V odvďačiť sa
-V privatizovať
-V modelovať
-V kriminalizovať
-V konzervovať
-V holdovať
-V zistiť opýtaním
-V odpojiť
-V emitovať
-V nacvičiť
-V dunieť
-V získať
-V rozdeliť na dve časti
-V dostať späť
-V zacementovať
-V previazať
-V zuhoľnatieť
-V reglementovať
-V prekryť
-V zjesť
-V rozjímať
-V rezignovať
-V spolufinancovať
-V plápolať
-V strašiť
-V zásobiť
-V vyradiť
-V spustiť
-V prevládať
-V infiltrovať
-V transformovať
-V priam sršať
-V líčiť
-V zdokonaliť
-V ochromiť
-V konzultovať
-V chápať
-V vypracovať si
-V používať rodovo citlivý jazyk
-V zbaviť sa
-V zaradiť
-V dezinfikovať
-V posypať
-V vnútiť
-V roztlačiť
-V priblížiť sa
-V vzdialiť sa
-V taktovať
-V pokaziť
-V nepochopiť
-V postupovať
-V odvrátiť -- zabrániť hrozbe
 
 # change
 V prejaviť

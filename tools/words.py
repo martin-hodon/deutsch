@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """A LANGUAGE'S DICTIONARY (<lang>/README.md): read every line as the app will, check it against the concept index, and
-compile <lang>/dict.tsv. English, Spanish, French, Russian and Chinese lines share their shape -- `[- ]FREQ POS word
-{parts} [ipa][, MORE] [(combinations)] = CONCEPT-ID` -- and differ in what a noun's word carries (an article), in MORE
+compile <lang>/dict.tsv. English, Spanish, French, Russian and Chinese lines share their shape -- `[- ]FREQ POS wo|rd
+[ipa][, MORE] [(combinations)] = CONCEPT-ID` -- and differ in what a noun's word carries (an article), in MORE
 (TAILS below), and in the brackets: Chinese writes its pinyin there, compiled to IPA with tone digits (tools/pinyin.py).
 
     python3 tools/words.py es            # check every es/<folder>/<file>.txt
@@ -12,6 +12,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import check, concepts, adverbs, pinyin
 
 POSES = {"N", "V", "AN", "AV", "PRE", "P", "CON", "ART", "NUM", "PAR", "INT", "PHR"}
+OWN_TOPICS = {"humans/chengyu"}   # (a language's own phrases, whole sayings: they say no concept, and stand under their file's sections)
 COLS = ["category", "root", "derived", "freq", "pos", "word", "article", "gender", "plural", "ipa", "parts", "forms", "comparison",
         "feminine", "model", "aux", "comb", "sk", "pinyin", "classifier", "opposite", "generic", "section", "region"]
 ARTICLES = {"en": None, "es": ("el", "la", "los", "las"), "fr": ("le", "la", "l'", "les"), "it": ("il", "lo", "la", "l'", "i", "gli", "le"), "ru": None, "pl": None, "zh": None}
@@ -24,8 +25,7 @@ PL_VOWELS = "aeiouyąęó"
 IPA_VOWELS = "aeiouyæɒɜɑʌɪʊəøœɛɔʏɐɨɤ"
 
 
-class Bad(Exception):
-    pass
+Bad = check.Bad
 
 
 def noun_word(lang, w, d):
@@ -100,6 +100,7 @@ def tails(lang, d, more):
 def parse_line(s, lang="en"):
     d = {"derived": s.startswith("- ")}
     if d["derived"]: s = s[2:]
+    s, d["region"] = check.take_region(s)
     m = re.match(r"^([123]) (\S+) (.*)$", s)
     if not m: raise Bad("not `FREQ POS ...`")
     d["freq"], d["pos"], rest = int(m.group(1)), m.group(2), m.group(3)
@@ -111,14 +112,14 @@ def parse_line(s, lang="en"):
     m = re.match(r"^(.*\](?:, [^()]*)?) \(([^()]+)\)$", word)
     if m: word, d["comb"] = m.group(1), [x.strip() for x in m.group(2).split(",")]
     # (the combinations may also stand right after the IPA, before the tail: desire [..] (for), desires)
-    m = re.match(r"^(.+?) \{([^}]*)\} \[([^\]]*)\](?: \(([^()]+)\))?(?:, (.*))?$", word)
-    if not m: raise Bad("not `word {parts} [ipa]`")
-    d["word"], d["parts"], d["ipa"], more = m.group(1), m.group(2), m.group(3), m.group(5)
-    if m.group(4): d["comb"] = [x.strip() for x in m.group(4).split(",")] + d["comb"]
+    m = re.match(r"^(.+?) \[([^\]]*)\](?: \(([^()]+)\))?(?:, (.*))?$", word)
+    if not m: raise Bad("not `word [ipa]`")
+    d["word"], d["ipa"], more = m.group(1), m.group(2), m.group(4)
+    if m.group(3): d["comb"] = [x.strip() for x in m.group(3).split(",")] + d["comb"]
     for k in ("article", "gender", "plural", "forms", "comparison", "feminine", "model", "aux", "pinyin", "classifier"): d[k] = ""
     if d["pos"] == "N": d["word"] = noun_word(lang, d["word"], d)
-    if d["parts"].replace("|", "").replace("·", " ") != d["word"]:   # (· is a phrasal verb's space: {give·up}; | a Chinese verb-object joint)
-        raise Bad(f"parts {{{d['parts']}}} do not give the word {d['word']!r}")
+    d["parts"] = d["word"].replace("_", "·")   # (_ is a phrasal verb's space: give_up; | a joint, a Chinese verb-object joint)
+    d["word"] = d["word"].replace("|", "").replace("_", " ")
     if lang == "zh":   # (the brackets hold the pinyin; the IPA is made of it)
         if re.search(r"[\u4e00-\u9fff]", d["ipa"]) or not d["ipa"]: raise Bad("the brackets hold the word's pinyin (xuéshēng)")
         try: d["pinyin"], d["ipa"] = d["ipa"], pinyin.to_ipa(d["ipa"])
@@ -154,7 +155,7 @@ def derive_adverbs(lang, root, idx, rows, said, seen, cols):
             a = None if r["word"] in quiet else adverbs.adverb(lang, r["word"], r["ipa"])
             if not a or (a[0], "AV", k[1]) in seen: continue
             seen[(a[0], "AV", k[1])] = "derived"
-            rows.insert(rows.index(r) + 1, {**{c: "" for c in cols}, "category": r["category"], "root": r["root"], "derived": 1, "freq": r["freq"], "pos": "AV",
+            rows.insert(rows.index(r) + 1, {**{c: "" for c in cols}, "category": r["category"], "root": r["root"], "derived": 1, "freq": r["freq"], "region": r.get("region", ""), "pos": "AV",
                                             "word": a[0], "parts": a[1], "ipa": a[2], "pinyin": r.get("pinyin", ""), "sk": k[1]})
             said.add(k)
 
@@ -174,34 +175,10 @@ def mark_section(rows):
     language's line stands, which may be another topic"""
     idx = concepts.read()
     for r in rows:
+        if r["category"] in OWN_TOPICS: continue   # (no concept: main() gave it the file's own section)
         sk = r["sk"][0] if isinstance(r["sk"], list) else r["sk"]
         c = idx.get((r["pos"], sk))
         r["section"] = f"{os.path.splitext(c['file'])[0].replace(os.sep, '/')}/{c['section']}" if c else ""
-
-
-# the regions a word may be marked with (<lang>/rules/regional.txt); their names: `region-CODE` in <lang>/ui.txt
-REGIONS = set("AT CH DE-N DE-S UK US AU IE SCOT ES LATAM MX AR BE CA AF IT-N IT-S PL-S PL-W SIL TW HK CN-N CN-S dialect".split())
-
-
-def mark_region(rows, lang):
-    """each row's `region`: the codes of <lang>/rules/regional.txt -- a word NOT said everywhere the language is spoken
-    (`N Jänner = AT`; `POS word (concept) = CODES` when the word has two concepts); returns the problems found"""
-    path, marks, bad = os.path.join(check.TOP, lang, "rules", "regional.txt"), {}, []
-    if not os.path.exists(path): return bad
-    for i, s in enumerate(open(path, encoding="utf-8"), 1):
-        s = s.strip()
-        if not s or s.startswith("#"): continue
-        m = re.match(r"^(\S+) (.+?)(?: \((.+)\))? = (.+)$", s.split(" -- ")[0])   # (` -- note`: for the reader)
-        codes = m.group(4).split() if m else []
-        if not m or not codes or any(c not in REGIONS for c in codes): bad.append(f"{lang}/rules/regional.txt:{i}: cannot read: {s}"); continue
-        marks[(m.group(1), m.group(2), m.group(3))] = " ".join(codes)
-    used = set()
-    for r in rows:
-        sk = r["sk"][0] if isinstance(r["sk"], list) else r["sk"]
-        for k in ((r["pos"], r["word"], sk), (r["pos"], r["word"], None)):
-            if k in marks: r["region"] = marks[k]; used.add(k); break
-    bad += [f"{lang}/rules/regional.txt: no word {k[0]} {k[1]}" + (f" ({k[2]})" if k[2] else "") for k in marks if k not in used]
-    return bad
 
 
 def mark_generic(rows):
@@ -217,24 +194,25 @@ def main(lang):
     root = os.path.join(check.TOP, lang)
     idx, bad, n, said, seen, rows = concepts.read(), 0, 0, set(), {}, []
     for f in files(lang):
-        rel = os.path.relpath(f, root); cat = os.path.splitext(rel)[0]; family = None
+        rel = os.path.relpath(f, root); cat = os.path.splitext(rel)[0]; family = None; own = cat in OWN_TOPICS; heading = ""
         for i, s in enumerate(open(f, encoding="utf-8"), 1):
             s = s.rstrip("\n")
+            if s.startswith("#"): heading = s[1:].strip()
             if not s.strip() or s.startswith("#"): continue
             try: d = parse_line(s, lang)
             except Bad as e: print(f"{lang}/{rel}:{i}: {e}\n    {s}"); bad += 1; continue
             k = (d["pos"], d["sk"])
-            if k not in idx: print(f"{lang}/{rel}:{i}: {d['pos']} {d['sk']} is no concept"); bad += 1
+            if k not in idx and not own: print(f"{lang}/{rel}:{i}: {d['pos']} {d['sk']} is no concept"); bad += 1
             dup = (d["word"], d["pos"], d["sk"])
             if dup in seen: print(f"{lang}/{rel}:{i}: {d['word']} {d['pos']} = {d['sk']} twice (also {seen[dup]})"); bad += 1
-            seen[dup] = f"{rel}:{i}"; said.add(k); n += 1
+            seen[dup] = f"{rel}:{i}"; n += 1
+            if k in idx: said.add(k)   # (a phrase can still be what its concept is said by: šťastnú cestu)
             if not d["derived"]: family = d["word"]
-            rows.append({**d, "category": cat, "root": family, "derived": int(d["derived"]), "comb": " | ".join(d["comb"])})
+            rows.append({**d, "category": cat, "root": family, "derived": int(d["derived"]), "comb": " | ".join(d["comb"]), **({"section": f"{cat}/{heading}"} if own else {})})
     derive_adverbs(lang, root, idx, rows, said, seen, COLS)
     mark_opposites(rows)
     mark_generic(rows)
     mark_section(rows)
-    for b in mark_region(rows, lang): print(b); bad += 1
     missing = sorted(set(k for k in idx) - said)
     for k in missing[:30]: print(f"no {lang} word for {k[0]} {k[1]} (concepts/{idx[k]['file']})")
     print(f"{n} {lang} lines; {len(said)} of {len(idx)} concepts said; {len(missing)} without; {bad} problems")

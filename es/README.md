@@ -6,10 +6,10 @@ its Slovak ID, exactly as the index writes it (`../DESIGN.md`) -- after ` = `. A
 (synonyms, told apart by FREQ, register, valence); a word with two meanings has a line for each.
 
     # feelings
-    1 N el sentimiento {sentimiento} [sentiˈmjento], sentimientos = pocit
-    1 V sentir {sentir} [senˈtiɾ], e>ie = cítiť
-    1 V volver {volver} [bolˈβeɾ], o>ue, vuelto (a + inf) = vrátiť sa
-    2 AN orgulloso {orgulloso} [oɾɣuˈʎoso], orgullosa (de) = hrdý
+    1 N el sentimiento [sentiˈmjento], sentimientos = pocit
+    1 V sentir [senˈtiɾ], e>ie = cítiť
+    1 V volver [bolˈβeɾ], o>ue, vuelto (a + inf) = vrátiť sa
+    2 AN orgulloso [oɾɣuˈʎoso], orgullosa (de) = hrdý
 
 ## A line
 
@@ -18,21 +18,21 @@ its Slovak ID, exactly as the index writes it (`../DESIGN.md`) -- after ` = `. A
 - `- ` — a DERIVED word, in the family of the last line without one (*feliz* → `- felicidad`);
 - `FREQ` — `1` the ~1,000 commonest everyday words, `2` common up to ~5,000, `3` the rest;
 - `POS` — `N V AN AV PRE P CON ART NUM PAR INT PHR` (as German);
-- the Spanish side: `word {parts} [ipa]`, then by POS (below), ending in its COMBINATIONS in parentheses if any: what
+- the Spanish side: `word [ipa]`, then by POS (below), ending in its COMBINATIONS in parentheses if any: what
   the word typically goes with -- a preposition (`(de)`, `(en, con)`), `(a + inf)`, `(que + subj)`;
 - ` = ` and the concept's ID (one; nothing after it).
 
-`{parts}`: the word with `|` at a compound's joint or before a living suffix (`{felic|idad}`,
-`{des|hacer}`); removing every `|` gives the word back (a noun's parts: without its article). `[ipa]`: Castilian, in
+The word is written with `|` at a compound's joint or before a living suffix (`felic|idad`,
+`des|hacer`); removing every `|` gives the word back. `[ipa]`: Castilian, in
 the IPA of `../../lang-data/IPA-GUIDE.md` (`β ð ɣ` between vowels, `ɾ` / `r`, `ʎ`, `x`, `θ`; the stress mark on every
 word of more than one syllable); a noun's IPA without its article.
 
 | POS | laid out | example |
 |---|---|---|
-| `N` | `el/la WORD {…} […], PLURAL` -- with its article (`los/las` for a plural-only word); a feminine noun with `el` says so: `el agua (f)`; the plural always written: the same word when it does not change (*la crisis …, crisis*), `-` none (*la salud …, -*), `PL` plural-only (*las gafas …, PL*); a country or a name with no article: its gender -- `España (f)` | `1 N la mano {mano} [ˈmano], manos = ruka (orgán)` |
-| `V` | `infinitive {…} […]`, then its MODEL when not regular -- a stem change `e>ie` `o>ue` `e>i` `u>ue` `i>ie`, `c>zc` (conozco), an accent `i>í` `u>ú` (aíslo, continúo), or `irr` (ser, ir, tener: its forms in `es/rules/irregular.txt`) --, then its PARTICIPLE only when irregular; a reflexive verb with `-se` (`levantarse`) | `1 V volver {volver} [bolˈβeɾ], o>ue, vuelto = vrátiť sa` · `1 V hablar {hablar} [aˈβlaɾ] = hovoriť` |
-| `AN` | `masculine {…} […]`, then its FEMININE when it differs (*rojo …, roja*; *verde* nothing) | `1 AN rojo {rojo} [ˈroxo], roja = červený` |
-| `PRE` `AV` `P` `CON` `ART` `NUM` `PAR` `INT` `PHR` | `word {…} […]` | `1 PHR de nuevo {de nuevo} [de ˈnweβo] = znova` |
+| `N` | `el/la WORD […], PLURAL` -- with its article (`los/las` for a plural-only word); a feminine noun with `el` says so: `el agua (f)`; the plural always written: the same word when it does not change (*la crisis …, crisis*), `-` none (*la salud …, -*), `PL` plural-only (*las gafas …, PL*); a country or a name with no article: its gender -- `España (f)` | `1 N la mano [ˈmano], manos = ruka (orgán)` |
+| `V` | `infinitive […]`, then its MODEL when not regular -- a stem change `e>ie` `o>ue` `e>i` `u>ue` `i>ie`, `c>zc` (conozco), an accent `i>í` `u>ú` (aíslo, continúo), or `irr` (ser, ir, tener: its forms in `es/rules/irregular.txt`) --, then its PARTICIPLE only when irregular; a reflexive verb with `-se` (`levantarse`) | `1 V volver [bolˈβeɾ], o>ue, vuelto = vrátiť sa` · `1 V hablar [aˈβlaɾ] = hovoriť` |
+| `AN` | `masculine […]`, then its FEMININE when it differs (*rojo …, roja*; *verde* nothing) | `1 AN rojo [ˈroxo], roja = červený` |
+| `PRE` `AV` `P` `CON` `ART` `NUM` `PAR` `INT` `PHR` | `word […]` | `1 PHR de nuevo [de ˈnweβo] = znova` |
 
 The trainer drills a concept in any pair of languages (Slovak included), and Spanish irregular verbs. The concept
 index and the world: `../DESIGN.md`. Checked and compiled by `python3 tools/words.py es [--compile]`.

@@ -9,7 +9,7 @@ AN kostnatý -- s vyčnievajúcimi kosťami
 N chlp
 PHR po celom tele
 
-# head-face
+# face-and-senses
 N hlava
 N pokožka hlavy
 N tvár
@@ -41,12 +41,6 @@ N lícna kosť
 N brada (časť tváre)
 N čelo
 N spánok (časť hlavy)
-N vlasy
-AN chlpatý
-N strih
-N brada (porast)
-AN bradatý
-N fúzy
 N krk
 N hrdlo
 N hrtan
@@ -54,19 +48,8 @@ N lebka
 N jamka (v lícu)
 N peha
 N podnebie
-N účes
-N tetovanie
 N pleť
-AN kučeravý -- s kučerami
-N kučera -- pramienok zvlnených vlasov
-N plešina -- holá hlava bez vlasov
-AN strapatý -- rozcuchaný
-N vrkoč -- spletené vlasy
-N čupryna -- strapatá hustá hriva vlasov
-V rozstrapatiť -- rozcuchať vlasy
 N ušný bubienok
-N temeno
-N briadka
 N rezák
 N očný zub
 N tesák
@@ -75,13 +58,32 @@ N zvukovod
 N strmienok
 N rohovka
 N sklovec
+AN pehavý
+
+# hair-and-looks
+N vlasy
+AN chlpatý
+N strih
+N brada (porast)
+AN bradatý
+N fúzy
+N účes
+N tetovanie
+AN kučeravý -- s kučerami
+N kučera -- pramienok zvlnených vlasov
+N plešina -- holá hlava bez vlasov
+AN strapatý -- rozcuchaný
+N vrkoč -- spletené vlasy
+N čupryna -- strapatá hustá hriva vlasov
+V rozstrapatiť -- rozcuchať vlasy
+N temeno
+N briadka
 N prameň vlasov
 N ofina
 N drdol
-AN pehavý
 V kučeraviť -- krútiť do kučier
 
-# limbs-torso
+# arms-and-hands
 N plece
 V vziať na plecia
 N paža
@@ -102,13 +104,17 @@ N odtlačok prsta
 N palec (prst)
 N klinec
 V pribíjať
-N hruď
-N hrudník
-N prsia
-N chrbát
-N chrbtica
-N brucho
-N pás
+N končatina
+N úd
+N podpazušie
+N lopatka (kosť)
+N vretenná kosť
+N lakťová kosť
+N záder
+N prostredník -- prostredný prst
+N prstenník
+
+# legs-and-feet
 N bok
 N noha (končatina)
 N stehno
@@ -125,9 +131,18 @@ N päta
 N prst na nohe
 N členok
 N kĺb prsta
-N končatina
-N úd
-N podpazušie
+N lýtková kosť
+N lono
+N bedro
+
+# torso-and-posture
+N hruď
+N hrudník
+N prsia
+N chrbát
+N chrbtica
+N brucho
+N pás
 N pupok
 N slabina
 N trup
@@ -136,22 +151,13 @@ N zadok
 N ramenná kosť
 N stehenná kosť
 N hrudná kosť
-N lopatka (kosť)
-N vretenná kosť
-N lakťová kosť
-N lýtková kosť
-N záder
 N bradavka (prsia)
 N ohryzok
 AN zhrbený
-N lono
-N bedro
 N bachor -- veľké brucho
-N prostredník -- prostredný prst
-N prstenník
 AN hrudný
 
-# internal-tissue
+# organs-and-systems
 N mozog
 N srdce
 AN srdečný : adverb srdečne
@@ -160,12 +166,35 @@ N žalúdok
 N pečeň
 N oblička
 N črevo
-N krv
-V krvácať
-AN krvavý : adverb krvavo
-N tepna
-N nerv
-N nervová sústava
+N orgán
+N organizmus
+N žľaza
+N štítna žľaza
+N podžalúdková žľaza
+N slezina
+N maternica
+N priedušnica
+N krčná mandľa
+N žlč
+N predsieň (srdca) -- časť srdca
+N pošva (ženský orgán)
+N mozoček
+N prieduška
+N bránica
+N pažerák
+N žlčník
+N tenké črevo
+N hrubé črevo
+N močový mechúr
+N močovod
+N močová rúra
+N vaječník
+N vajíčkovod
+N semenník (pohlavná žľaza)
+N miešok
+N vnútornosti
+
+# bones-skin-tissue
 N kosť
 N kostná dreň
 N zlomenina
@@ -183,8 +212,26 @@ AN bezmäsitý
 N tuk
 AN tučný
 AN vráskavý
-N orgán
-N organizmus
+N vráska
+N šľacha
+N väzivo
+N chrupavka
+N tkanivo
+N pór (v koži)
+N pigment
+N páska
+N miecha
+N medzistavcová platnička
+N sliznica
+N melanín
+
+# blood-and-cells
+N krv
+V krvácať
+AN krvavý : adverb krvavo
+N tepna
+N nerv
+N nervová sústava
 N bunka
 N gén
 AN genetický : adverb geneticky
@@ -193,48 +240,12 @@ V potiť sa
 AN potivý
 N slza
 N slina
-N vráska
-N šľacha
-N väzivo
-N chrupavka
-N žľaza
-N štítna žľaza
-N podžalúdková žľaza
 N hormón
 N pulz
-N tkanivo
-N slezina
-N maternica
-N priedušnica
-N pór (v koži)
 N hlien
 N membrána
-N krčná mandľa
-N pigment
 N žila
-N žlč
-N páska
-N predsieň (srdca) -- časť srdca
 N genóm -- súbor génov organizmu
-N pošva (ženský orgán)
-N mozoček
-N prieduška
-N miecha
-N bránica
-N medzistavcová platnička
-N sliznica
-N pažerák
-N žlčník
-N tenké črevo
-N hrubé črevo
-N močový mechúr
-N močovod
-N močová rúra
-N vaječník
-N vajíčkovod
-N semenník (pohlavná žľaza)
-N miešok
-N vnútornosti
 N krvná plazma
 N bielkovina
 N nukleotid
@@ -243,5 +254,4 @@ N biela krvinka
 N neurón
 N ribozóm
 N mitochondria
-N melanín
 N chromozóm

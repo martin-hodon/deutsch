@@ -115,20 +115,9 @@ N ľavobok -- ľavá strana lode
 N pravobok -- pravá strana lode
 N podvozok -- spodná časť vozidla
 
-# infrastructure
+# roads-signs
 N cesta (komunikácia)
 N zachádzka
-N železnica
-N električka
-N metro
-N diaľnica
-N stanica
-N nástupište
-N pristávacia dráha
-N hlavná stanica
-N koľaj
-N tunel
-N most
 N križovatka
 N priechod pre chodcov
 N doprava
@@ -137,21 +126,11 @@ N dopravný prostriedok
 AN dopravnopolitický
 N zápcha
 N semafor
-N zastávka
-N prístav : of stanica @ lode
-N letisko : of stanica @ lietanie
-N mólo
-N maják
 V parkovať
 N parkovisko
-N dok
-N lodenica
 N mýto
-N terminál
-N vozovka
 N mobilita
 N spolková cesta
-N prímestská železnica
 N jednosmerná ulica
 N obchádzka
 N parkovací dom
@@ -165,7 +144,6 @@ N telefónna búdka
 N priemyselná oblasť
 N kostolná veža
 N športové ihrisko
-N koľajnica
 N rampa
 N závora
 N oddych
@@ -174,11 +152,35 @@ N nájazd
 N uzávera
 V asfaltovať
 N odbočka -- vetva cesty alebo trate
-N výhybka -- koľajový prepínač
-N lávka -- úzky mostík pre chodcov
 N zvodidlo -- bariéra pri ceste
 
-# travel
+# rail-ports-bridges
+N železnica
+N električka
+N metro
+N diaľnica
+N stanica
+N nástupište
+N pristávacia dráha
+N hlavná stanica
+N koľaj
+N tunel
+N most
+N zastávka
+N prístav : of stanica @ lode
+N letisko : of stanica @ lietanie
+N mólo
+N maják
+N dok
+N lodenica
+N terminál
+N vozovka
+N prímestská železnica
+N koľajnica
+N výhybka -- koľajový prepínač
+N lávka -- úzky mostík pre chodcov
+
+# journey-and-vehicles
 N jazda
 N vodič
 N spolujazdec
@@ -209,44 +211,12 @@ N námorná cesta
 N výlet
 N let
 N odlet : of odjazd @ lietanie
-N prílet : of príchod @ lietanie
 N spiatočný let
 N letecká spoločnosť
-N dobrodružstvo
-AN dobrodružný : adverb dobrodružne
-N dobrodruh
-N turista
-N cestovný ruch
-AN turistický
-N cestujúci
-N posádka
-N pilot : of vodič @ lietanie
-N námorník
-N kapitán : of veliteľ @ lode
-N sprievodca vo vlaku
-N astronaut
-N lístok
-N meškanie
-V meškať
-N batožina
-N príručná batožina
-N kufor
-N batožinový priestor
-N batoh
-N vízum
-N kompas
-N vodičský preukaz
-N hotel
-N hostel
-N kabína
-N suvenír
 V pristáť
 N pristátie
 V štartovať
 N štart
-N zahraničie
-N tuzemsko
-PHR v zahraničí
 V dochádzať
 N dochádzajúci
 N navigácia
@@ -267,8 +237,53 @@ V mať nehodu
 N defekt
 N náklad
 N nákladná loď
-N kuriér
 N kokpit : of kabína @ lietadlá
+N chodba
+N cestovný lístok
+N plavba
+N konečná stanica
+N medzipristátie
+N cieľ cesty
+N vstup do krajiny
+N vycestovanie
+V vstúpiť do krajiny
+N zájazdový autobus
+N linkový autobus
+V cestovať spolu
+V jazdiť na koni -- sedieť na koni a ísť
+V vzdúvať sa -- o plachte naplnenej vetrom
+V brázdiť -- o lodi plaviacej sa po mori
+AN naklonený -- o lodi naklonenej na bok
+N verejná doprava
+
+# travellers-and-crew
+N turista
+N cestovný ruch
+AN turistický
+N cestujúci
+N posádka
+N pilot : of vodič @ lietanie
+N námorník
+N kapitán : of veliteľ @ lode
+N sprievodca vo vlaku
+N astronaut
+N vodičský preukaz
+N kuriér
+N revízor
+N dovolenkár
+N účastník cestnej premávky
+N lodivod -- vedie lode do prístavu
+N letuška -- členka posádky lietadla
+N člen posádky
+N čierny pasažier -- cestuje bez lístka
+
+# lodging-and-holiday
+N dobrodružstvo
+AN dobrodružný : adverb dobrodružne
+N dobrodruh
+N hotel
+N hostel
+N suvenír
 V prezrieť si
 N prehliadka
 N symbol mesta
@@ -279,55 +294,48 @@ V zarezervovať
 N rezervácia
 V zaúčtovať
 V odúčtovať
-N chodba
-N padák
-N pas
 N ubytovanie
 N prázdninový byt
 N penzión
 N karavan
+N obytné auto
+N krém na opaľovanie
+N ruské koleso
+N miestna doprava
+N nasťahovanie
+N vysťahovanie
+V zájsť
+AN stredomorský
+
+# tickets-and-luggage
+N prílet : of príchod @ lietanie
+N lístok
+N meškanie
+V meškať
+N batožina
+N príručná batožina
+N kufor
+N batožinový priestor
+N batoh
+N vízum
+N kompas
+N kabína
+N zahraničie
+N tuzemsko
+PHR v zahraničí
+N padák
+N pas
 N spací vak
 N preukaz
 N občiansky preukaz
 N bezpečnostná kontrola
-N cestovný lístok
-N revízor
 N prestup
-N plavba
 N prospekt
 N mapa
 N turistický chodník
-N konečná stanica
-N medzipristátie
-N cieľ cesty
-N vstup do krajiny
-N vycestovanie
-V vstúpiť do krajiny
-N zájazdový autobus
-N linkový autobus
-N obytné auto
 N miesto na sedenie
 N miesto na státie
-N krém na opaľovanie
-N ruské koleso
-N miestna doprava
-N dovolenkár
-N účastník cestnej premávky
-N nasťahovanie
-N vysťahovanie
-V zájsť
-V cestovať spolu
-AN stredomorský
 N sedlová brašna -- dvojitý vak prehodený cez sedlo alebo plece
-V jazdiť na koni -- sedieť na koni a ísť
-N lodivod -- vedie lode do prístavu
-V vzdúvať sa -- o plachte naplnenej vetrom
-N letuška -- členka posádky lietadla
-N člen posádky
-N čierny pasažier -- cestuje bez lístka
-V brázdiť -- o lodi plaviacej sa po mori
-AN naklonený -- o lodi naklonenej na bok
-N verejná doprava
 N kufrík
 N stroskotanie
 

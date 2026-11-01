@@ -1,6 +1,4 @@
-# religion
-N náboženstvo
-AN nábožný : adverb nábožne
+# god-and-spirit
 N boh
 N bohyňa
 AN božský : adverb božsky
@@ -11,21 +9,34 @@ AN svätý
 N svätec
 N svätyňa
 PHR Sväté písmo
-N kostol
-AN cirkevný
-N chrám
-N mešita
-N katedrála
-N kláštor
-N oltár
-N kňaz
-N biskup
-N mních
-N mníška
-N pápež
-N prorok
-V prorokovať
-N proroctvo
+N duša
+N duch
+AN duševný
+N duchovný
+N peklo
+N diabol
+N anjel
+N zázrak
+V čudovať sa
+V udiviť
+AN podivuhodný : adverb podivuhodne
+N strašidlo
+AN nesmrteľný
+N nesmrteľnosť
+N smrteľnosť
+N vykúpenie
+V vykúpiť
+N vykupiteľ
+N vzkriesenie
+N karma
+N raj
+N nábožnosť
+N prozreteľnosť
+N smrtka
+V vstať z mŕtvych
+N nebesá -- miesto, kde sídli boh
+
+# worship-and-ritual
 V modliť sa
 N modlitba
 V zbožňovať
@@ -36,52 +47,44 @@ V prekliať
 N hriech
 N hriešnik
 V hrešiť
-N duša
-N duch
-AN duševný
-N duchovný
-N peklo
-N diabol
-N anjel
-N obeť
-V obetovať
-N zázrak
-V čudovať sa
-V udiviť
-AN podivuhodný : adverb podivuhodne
-N strašidlo
-AN nesmrteľný
-N nesmrteľnosť
-N smrteľnosť
-N biblia
-AN biblický
-N ikona
-N pútnik
-V pútať sa
-N relikviár
-N kaplnka
-N synagóga
-N kult
 N kázeň
 V kázať
 N spev
 N meditácia
 V meditovať
 N kadidlo
-N relikvia
+N misia
+N misionár
+V konvertovať
+N rehoľný sľub
+N omša : of bohoslužba @ katolicizmus
+V zatratiť
+N zatratenie
+N uctievanie
+N očistec
+N pokánie
+V spovedať sa
+N pôst
+N sväté prijímanie
+N rozhrešenie -- odpustenie hriechov
+
+# people-of-faith
+N náboženstvo
+AN nábožný : adverb nábožne
+N kňaz
+N biskup
+N mních
+N mníška
+N pápež
+N prorok
+V prorokovať
+N proroctvo
+N pútnik
+V pútať sa
 N ateista
 N mučeník
 N učeník
-N misia
-N misionár
 N pustovník
-V konvertovať
-N vykúpenie
-V vykúpiť
-N vykupiteľ
-N vzkriesenie
-N karma
-N rehoľný sľub
 N Žid
 N Židovka
 AN židovský
@@ -95,32 +98,35 @@ AN kresťanský
 N moslim
 N katolík
 N pastor
-N raj
 N veriaci
-N omša : of bohoslužba @ katolicizmus
 AN evanjelický
 AN ekumenický
-V zatratiť
-N zatratenie
 N farnosť
-N uctievanie
-N nábožnosť
-N očistec
 N kacír
-N pokánie
-V spovedať sa
 N apoštol
-N prozreteľnosť
-N smrtka
-V vstať z mŕtvych
-N nebesá -- miesto, kde sídli boh
 N hinduizmus -- náboženstvo Indie
-N pôst
 N púť
-N sväté prijímanie
-N rozhrešenie -- odpustenie hriechov
 
-# magic-fate
+# sacred-places-objects
+N kostol
+AN cirkevný
+N chrám
+N mešita
+N katedrála
+N kláštor
+N oltár
+N obeť
+V obetovať
+N biblia
+AN biblický
+N ikona
+N relikviár
+N kaplnka
+N synagóga
+N kult
+N relikvia
+
+# magic-and-fortune
 N mágia
 AN magický
 N striga
@@ -131,9 +137,6 @@ N zariekadlo
 N čarovný prútik
 V očariť
 AN očarujúci : adverb očarujúco
-N víla
-N príšera
-N drak
 N rana osudu
 N povera
 AN poverčivý
@@ -147,6 +150,27 @@ N talizman
 N horoskop
 N astrológia
 N astrológ
+N osud
+V vyžrebovať
+V zaklínať
+V veštiť -- predpovedať budúcnosť
+N zakliatie
+N zaklínač
+AN bájny
+AN nadprirodzený
+N elixír
+N zverokruh
+N vodnár -- znamenie zverokruhu
+N blíženci -- znamenie zverokruhu
+N panna -- znamenie zverokruhu
+V začarovať
+AN prekliaty
+N predzvesť -- znamenie budúcej udalosti, veštba
+
+# mythical-creatures
+N víla
+N príšera
+N drak
 N démon
 N upír
 N zombie
@@ -159,27 +183,11 @@ N jednorožec
 N obor
 N bájna bytosť
 N báj
-N osud
-V vyžrebovať
-V zaklínať
-V veštiť -- predpovedať budúcnosť
 N vlkolak
-N zakliatie
-N zaklínač
-AN bájny
-AN nadprirodzený
-N elixír
-N zverokruh
-N vodnár -- znamenie zverokruhu
-N blíženci -- znamenie zverokruhu
-N panna -- znamenie zverokruhu
-V začarovať
-AN prekliaty
 N nymfa
 N hydra
 N kentaur
 N chiméra
-N predzvesť -- znamenie budúcej udalosti, veštba
 
 # customs-celebrations
 N zvyk

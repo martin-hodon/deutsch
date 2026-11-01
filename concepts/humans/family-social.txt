@@ -172,7 +172,7 @@ N veno
 N zrušenie zásnub
 N cudzoložstvo
 
-# social-interaction
+# meeting-and-greeting
 V stretnúť
 N stretnutie
 N miesto stretnutia
@@ -198,6 +198,29 @@ N sprievod
 AN nesprevádzaný
 N večierok
 V blahoželať
+V objať
+N objatie
+V bozkávať
+N bozk
+AV spolu
+V spolupracovať
+N spolupráca
+AN sám
+N opätovné stretnutie
+V znova vidieť
+INT dovidenia
+V stretnúť sa
+N posol
+N kamarát : of priateľ @ hovorovo
+N hostinský
+N tlačenica -- hustý dav, tlačenie sa
+N okruh -- skupina ľudí
+V maznať sa
+V zhromaždiť sa
+INT ahoj
+N husí pochod -- rad ľudí idúcich jeden za druhým
+
+# help-and-gratitude
 V pomôcť
 N pomoc
 N pomocník
@@ -218,12 +241,27 @@ V vďačiť
 V ospravedlniť sa
 N ospravedlnenie
 V odpustiť
-V objať
-N objatie
-V bozkávať
-N bozk
-V rešpektovať
-N rešpekt
+V páčiť sa
+N láskavosť
+AN dobročinný
+N dobročinnosť
+N milosť
+AN milostivý : adverb milostivo
+AN nemilosrdný : adverb nemilosrdne
+N solidarita
+AN solidárny : adverb solidárne
+V solidarizovať sa
+V povzbudiť
+V zmieriť sa
+N zmierenie
+N miláčik
+V obdarovať
+V vypomôcť -- pomôcť v núdzi niečím
+V dopomôcť -- pomôcť k niečomu
+N rozmaznanie -- prílišné dopriavanie
+N pocta
+
+# trust-and-betrayal
 V dôverovať
 N dôvera
 N nedôvera
@@ -234,49 +272,44 @@ AN verný : adverb verne
 N vernosť
 N nevera
 AN neverný : adverb neverne
-AN zdvorilý : adverb zdvorilo
-N zdvorilosť
-AN nezdvorilý : adverb nezdvorilo
-AV spolu
-V spolupracovať
-N spolupráca
-AN sám
-N hádka
 N pomsta
 V pomstiť
-V páčiť sa
-N láskavosť
-AN dobročinný
-N dobročinnosť
-N milosť
-AN milostivý : adverb milostivo
-AN nemilosrdný : adverb nemilosrdne
-N opätovné stretnutie
-V znova vidieť
-INT dovidenia
-N etiketa
-N solidarita
-AN solidárny : adverb solidárne
-V solidarizovať sa
+V oklamať
+N klam
+V predstierať
+AN obľúbený
+N obľúbenosť
+AN neobľúbený
+N zvádzanie -- lákanie na zlé alebo na lásku
+
+# conflict-and-scolding
+N hádka
 N šibalstvo
 V doberať si
 V šikanovať
 N šikana
-V povzbudiť
+V pohádať sa
+V miešať sa
+V provokovať
+N provokácia
+AN vzájomný : adverb vzájomne
+N potupa
+N obťažovanie
+V karhať -- vyčítať niekomu chybu
+N dotieravec -- otravný človek
+
+# manners-and-character
+V rešpektovať
+N rešpekt
+AN zdvorilý : adverb zdvorilo
+N zdvorilosť
+AN nezdvorilý : adverb nezdvorilo
+N etiketa
 V poslúchať
 N poslušnosť
-V zmieriť sa
-V pohádať sa
-N zmierenie
-V oklamať
-N klam
-V predstierať
 N takt
 AN taktný : adverb taktne
 AN netaktný : adverb netaktne
-AN obľúbený
-N obľúbenosť
-AN neobľúbený
 N kompromis
 AN nekompromisný : adverb nekompromisne
 N dôstojnosť
@@ -285,72 +318,53 @@ AN dôstojný človeka
 N pokora
 V ponížiť
 N poníženie
-N napodobenina
 V inšpirovať
 N inšpirácia
 V tolerovať
 N tolerancia
 AN tolerantný : adverb tolerantne
 AN netolerantný
-V miešať sa
-V provokovať
-N provokácia
-V stretnúť sa
-AN vzájomný : adverb vzájomne
 V dohodnúť sa
 V snažiť sa
 N úsilie
-N posol
-N miláčik
-N kamarát : of priateľ @ hovorovo
-N idiot
-N potupa
-N hostinský
-V obdarovať
 V izolovať sa
 N faux pas -- spoločenský prehrešok
 AN svorný -- žijúci v zhode
-V obskakovať -- podlízavo slúžiť
-N zvádzanie -- lákanie na zlé alebo na lásku
 N popularita -- obľúbenosť u ľudí
-N tlačenica -- hustý dav, tlačenie sa
-N okruh -- skupina ľudí
-V vypomôcť -- pomôcť v núdzi niečím
-V dopomôcť -- pomôcť k niečomu
-N rozmaznanie -- prílišné dopriavanie
-N obťažovanie
-V karhať -- vyčítať niekomu chybu
-V maznať sa
-V zhromaždiť sa
+
+# scoundrels-and-lowlifes
 N prisluhovač -- poskok, ochotný pomocník zlého
-INT ahoj
 N naničhodník
 N lotor
 N fagan -- neposlušné dieťa
+N chamtivec
+N chuligán
+N bifľoš
+N prostitútka
+N cundra
+N drzaňa
+N hlupana -- hlúpa žena
+N mrcha
+
+# fools-and-boors
+N idiot
 N hulvát
 N ignorant
 N pajác
 N súdruh
 N fičúr
 N zberba
+N hajzel
+
+# snitches-and-flatterers
+N napodobenina
+V obskakovať -- podlízavo slúžiť
 N pokrytec
-N chamtivec
-N chuligán
-N bifľoš
 N žalobaba
 N sliedič
 N kočka -- atraktívna žena, hovorovo
-N prostitútka
-N cundra
-N drzaňa
-N hlupana -- hlúpa žena
-N dotieravec -- otravný človek
-N mrcha
-N husí pochod -- rad ľudí idúcich jeden za druhým
 N pätolízač
-N hajzel
 N udavač
-N pocta
 
 # contact
 V túliť sa

@@ -1,4 +1,106 @@
-# thinking
+# judging-and-evaluating
+V odhadovať
+V odhadnúť
+N odhad
+V preceňovať
+V podceňovať
+V porovnať
+AN porovnateľný
+V analyzovať
+AN analytický : adverb analyticky
+V očakávať
+N očakávanie
+AN neočakávaný : adverb neočakávane
+N náhľad
+V uvedomiť si
+V pozrieť si
+N zistenie
+N doklad
+AN preukázateľný : adverb preukázateľne
+N posúdenie
+N kompetencia
+AN kompetentný : adverb kompetentne
+N odborné posúdenie
+V identifikovať
+V koncipovať
+V kalkulovať
+V sústrediť
+V dúfať v
+V spočívať
+V orientovať
+V orientovať sa
+V optimalizovať
+V reflektovať
+V overiť
+V započítať
+
+# argument-and-logic
+N pojem
+V pochopiť
+PHR byť na pochode
+N logika
+AN logický : adverb logicky
+AN nelogický
+V usudzovať
+N rozumnosť
+AN rozumný : adverb rozumne
+AN nerozumný : adverb nerozumne
+N premisa
+N perspektíva
+V zaujímať sa
+AN zainteresovaný
+N záujemca
+PHR spochybniť
+PHR prichádzať do úvahy
+N argument
+N téza
+N námietka
+V naznačovať
+V asociovať
+V poprieť
+V utvrdiť
+N podstata
+N dedukcia -- odvodzovanie zo všeobecného
+V nedoceniť -- podceniť hodnotu
+N zmýšľanie -- spôsob myslenia, zmýšľania
+N podvedomie
+
+# context-and-nuance
+AN abstraktný : adverb abstraktne
+N nuansa
+AN subtílny : adverb subtílne
+AN hlbokomyseľný : adverb hlbokomyseľne
+AN viacznačný : adverb viacznačne
+AN jednoznačný : adverb jednoznačne
+N kontext
+N originál
+AN originálny : adverb originálne
+N objekt
+N tendencia
+V mať sklon
+N spätný pohľad
+N zdanie
+N položenie otázky
+N orientácia
+AN dezorientovaný
+N obava
+N výhrada
+AN nekompetentný
+N kľúčové slovo
+N súčasník
+N nepochopenie
+N predispozícia
+AN objektívny : adverb objektívne
+AN etický : adverb eticky
+AN logistický
+V improvizovať
+V vyhodnotiť
+AN difúzny
+AN nejednotný : adverb nejednotne
+AN homogénny : adverb homogénne
+AN menný
+
+# thinking-and-ideas
 V myslieť
 N myšlienka
 V premýšľať
@@ -29,36 +131,11 @@ N sen
 V snívať
 N nočná mora
 V pýtať sa seba
-V odhadovať
-V odhadnúť
-N odhad
-V preceňovať
-V podceňovať
-V porovnať
-AN porovnateľný
-V analyzovať
-AN analytický : adverb analyticky
-N pojem
-V pochopiť
-PHR byť na pochode
-N logika
-AN logický : adverb logicky
-AN nelogický
-V usudzovať
-N rozumnosť
-AN rozumný : adverb rozumne
-AN nerozumný : adverb nerozumne
-V očakávať
-N očakávanie
-AN neočakávaný : adverb neočakávane
-N náhľad
-V uvedomiť si
 N intuícia
 AN intuitívny : adverb intuitívne
 V špekulovať
 N špekulácia
 V dumať
-V pozrieť si
 N fantázia
 AN fantastický : adverb fantasticky
 V fantazírovať
@@ -75,96 +152,24 @@ N paradox
 AN paradoxný : adverb paradoxne
 N svetonázor
 V vizualizovať
-AN abstraktný : adverb abstraktne
-N premisa
-N perspektíva
-N nuansa
-AN subtílny : adverb subtílne
-AN hlbokomyseľný : adverb hlbokomyseľne
-AN viacznačný : adverb viacznačne
-AN jednoznačný : adverb jednoznačne
 V robiť brainstorming
 N brainstorming
-V zaujímať sa
-AN zainteresovaný
-N záujemca
-PHR spochybniť
-PHR prichádzať do úvahy
-N argument
-N téza
-N námietka
-N zistenie
-N doklad
-AN preukázateľný : adverb preukázateľne
-N posúdenie
 N námet
-N kontext
-N originál
-AN originálny : adverb originálne
-N objekt
-N tendencia
-V mať sklon
-N spätný pohľad
-N zdanie
-N položenie otázky
 N spôsob myslenia
-N orientácia
-AN dezorientovaný
-N obava
-N výhrada
-N kompetencia
-AN kompetentný : adverb kompetentne
-AN nekompetentný
-N kľúčové slovo
-N súčasník
-N nepochopenie
-N predispozícia
 N vízia
-N odborné posúdenie
-V identifikovať
-V koncipovať
-V kalkulovať
-V sústrediť
-V dúfať v
-V spočívať
-V orientovať
-V orientovať sa
-V optimalizovať
-V reflektovať
-V overiť
-AN objektívny : adverb objektívne
-AN etický : adverb eticky
-AN logistický
-V improvizovať
-V vyhodnotiť
-V naznačovať
-V asociovať
-V poprieť
-V utvrdiť
 AN myšlienkový
 V vymýšľať
 V vykoumať
-V započítať
 V stimulovať
-AN difúzny
-AN nejednotný : adverb nejednotne
-AN homogénny : adverb homogénne
-AN menný
-N podstata
 AN vysnívaný
-N dedukcia -- odvodzovanie zo všeobecného
-V nedoceniť -- podceniť hodnotu
-N zmýšľanie -- spôsob myslenia, zmýšľania
-N podvedomie
 
-# knowing
+# knowing-and-understanding
 V vedieť
 N vedomosti
 N nevedomosť
 AN vedomý : adverb vedome
 N vedomie
 AN nevedomý : adverb nevedome
-AN podvedomý : adverb podvedome
 V poznať
 AN známy
 V priznať
@@ -177,15 +182,31 @@ AN samozrejmý : adverb samozrejme
 V rozpoznať
 N poznatok
 AN rozpoznateľný : adverb rozpoznateľne
-V uznať
 N uznanie
 AN oboznámený
 N pravda
+N chyba
+AN chybný : adverb chybne
+AN bezchybný : adverb bezchybne
+V rozlúštiť
+AN súvislý : adverb súvisle
+N koherencia
+AN vierohodný : adverb vierohodne
+N zjavenie
+V zjaviť
+N cit
+V obhliadnuť
+V demaskovať
+N zrozumiteľnosť
+V rozoznať -- rozlíšiť jedno od druhého
+
+# belief-and-doubt
+AN podvedomý : adverb podvedome
+V uznať
 N pochybnosť
 V pochybovať
 AV nepochybne
 V zúfalieť
-V domnievať sa
 N domnienka
 AV pravdepodobne
 V dohadovať sa
@@ -199,23 +220,12 @@ AN neveriaci
 N sebadôvera
 N sebavedomie
 AN sebavedomý : adverb sebavedome
-N chyba
-AN chybný : adverb chybne
-AN bezchybný : adverb bezchybne
 AN zmätený
 V zmiasť
 N zmätok
 AN racionálny : adverb racionálne
 AN iracionálny : adverb iracionálne
 AN rozvážny : adverb rozvážne
-V zavrieť
-N záver
-V vylúčiť
-AN uzavretý
-V pripojiť
-V sprístupniť
-V odomknúť
-AN záverečný
 V hodnotiť
 N hodnotenie
 AN skeptický : adverb skepticky
@@ -224,16 +234,32 @@ N skeptik
 AN cynický : adverb cynicky
 N cynizmus
 N cynik
-V predpokladať
-N predpoklad
 N presvedčenie
 AN presvedčený
-AN presvedčivý : adverb presvedčivo
 N rozsudok
 V súdiť
 V posúdiť
 V odsúdiť
 N úsudok
+V validovať
+V vyvrátiť
+PHR byť posadnutý
+AN posadnutý
+N posadnutosť
+
+# reasoning-and-forecasting
+V domnievať sa
+V zavrieť
+N záver
+V vylúčiť
+AN uzavretý
+V pripojiť
+V sprístupniť
+V odomknúť
+AN záverečný
+V predpokladať
+N predpoklad
+AN presvedčivý : adverb presvedčivo
 V vyvodzovať
 V hádať
 V poradiť
@@ -241,12 +267,6 @@ V uhádnuť
 AN bezradný : adverb bezradne
 N hádanka
 V dostať sa
-V validovať
-V vyvrátiť
-V rozlúštiť
-AN súvislý : adverb súvisle
-N koherencia
-AN vierohodný : adverb vierohodne
 V anticipovať
 V predvídať
 AN predpokladaný
@@ -254,22 +274,12 @@ N tušenie
 PHR neviem
 V tušiť
 AN nič netušiaci
-N zjavenie
-V zjaviť
-PHR byť posadnutý
-AN posadnutý
-N posadnutosť
 V rozptýliť
 N rozptýlenie
-N cit
 V premietať
-V obhliadnuť
 V konkretizovať
 V symbolizovať
 V napodobňovať
-V demaskovať
-N zrozumiteľnosť
-V rozoznať -- rozlíšiť jedno od druhého
 
 # memory
 N pamäť (schopnosť)

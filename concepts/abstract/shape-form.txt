@@ -1,4 +1,4 @@
-# shapes
+# solid-figures
 N tvar
 V tvarovať
 V formovať
@@ -24,27 +24,53 @@ N valec
 N kužeľ
 N ovál
 AN oválny
+N kríž
+V krížiť
+V zakrúžkovať
+V prekrížiť
+N postava
+N lichobežník
+N kosoštvorec
+N elipsa
+N kváder
+N ihlan
+N kosodĺžnik -- rovnobežník s kosými uhlami
+N opísaná kružnica
+N vpísaná kružnica
+N krúžok -- malý kruh, prstenec (nie záujmový krúžok)
+
+# lines-and-curves
 N špirála
 V ohnúť
 N oblúk
 AN ohnutý
 N ohyb
-N kríž
-V krížiť
-V zakrúžkovať
-V prekrížiť
 N čiara
 AN lineárny : adverb lineárne
 N prúžok
 AN pruhovaný
-N bod
-N stredobod
-AN bodový
 N uhol
 AN pravouhlý
 N zorný uhol
-N okraj
 N zákruta
+V vinúť
+N závit
+V prekonať
+N slučka
+N vydutie
+N zúženie
+AN zúžený
+N cikcak
+N očko
+N pútko
+V klenúť sa -- tvoriť oblúk
+AN natiahnutý
+
+# edges-and-outlines
+N bod
+N stredobod
+AN bodový
+N okraj
 N obrys
 N rám
 V zarámovať
@@ -56,53 +82,48 @@ N hrana
 AN hranatý
 N kontúra
 N silueta
-V vinúť
-N závit
-V prekonať
-N slučka
-N vydutie
-N zúženie
-AN zúžený
 N hlavica
 N drážka
-N cikcak
-N očko
 N zhluk
-N postava
 N cíp
-N lichobežník
-N kosoštvorec
-N elipsa
-N kváder
-N ihlan
-N pútko
-N kosodĺžnik -- rovnobežník s kosými uhlami
-V klenúť sa -- tvoriť oblúk
-AN natiahnutý
-N opísaná kružnica
-N vpísaná kružnica
-N krúžok -- malý kruh, prstenec (nie záujmový krúžok)
 
-# form-properties
+# shapes-and-angles
 AN okrúhly
 N zaoblenie
 AN guľatý
-N plocha
-N povrch
 AN rovný : adverb rovno
 N priamka
 N krivka
 AV rovno
 AN šikmý : adverb šikmo
-AN ostrý : adverb ostro
-V brúsiť
-N ostrosť
 N tuposť
-AN neostrý : adverb neostro
-V zneškodniť
 AN tupý : adverb tupo
 N pahýľ
 AN špicatý
+N symetria
+N asymetria
+AN symetrický : adverb symetricky
+AN asymetrický
+AN uhlopriečny : adverb uhlopriečne
+N uhlopriečka
+AN vydutý
+AN vypuklý
+AN skrútený
+AN vlnitý
+N proporcia
+N rozmer
+AN trojrozmerný
+AN dvojrozmerný
+AN nadrozmerný
+
+# surface-and-structure
+N plocha
+N povrch
+AN ostrý : adverb ostro
+V brúsiť
+N ostrosť
+AN neostrý : adverb neostro
+V zneškodniť
 AN dutý
 V vyhĺbiť
 AN masívny
@@ -136,24 +157,9 @@ N uzol
 N uzlový bod
 N hrča
 N preliačina
-N symetria
-N asymetria
-AN symetrický : adverb symetricky
-AN asymetrický
-AN uhlopriečny : adverb uhlopriečne
-N uhlopriečka
-AN vydutý
-AN vypuklý
 N hrot
 AN zúbkovaný
 AN zubatý
-AN skrútený
-AN vlnitý
-N proporcia
-N rozmer
-AN trojrozmerný
-AN dvojrozmerný
-AN nadrozmerný
 AN priliehavý -- tesne priliehajúci k telu
 N rozloha -- veľkosť plochy alebo priestoru
 V prehnúť -- ohnúť na dve časti

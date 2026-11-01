@@ -67,7 +67,31 @@ N dodatočné náklady
 V podviesť
 V nahrabať -- nahromadiť peniaze
 
-# buying-selling
+# price-value
+N náklady
+V stáť (mať cenu)
+AN bezplatný : adverb bezplatne
+AN spoplatnený
+N hodnota
+AN hodný
+AN bezcenný
+N cenný papier
+AN plnohodnotný
+AN lacný : adverb lacno
+AN drahý : adverb draho
+N zdraženie
+N zlacnenie
+V zdražiť
+N zľava
+N výhodná kúpa
+N značka
+N luxus
+AN luxusný : adverb luxusne
+V zlacniť
+AN zvýhodnený
+V zjednávať -- dohadovať cenu
+
+# buying-selling-verbs
 V kúpiť
 V predať
 N predaj
@@ -86,30 +110,9 @@ V vrátiť peniaze
 N vklad
 AN finančne dostupný
 V vyplatiť
-N náklady
-V stáť (mať cenu)
-AN bezplatný : adverb bezplatne
-AN spoplatnený
-N hodnota
-AN hodný
-AN bezcenný
-N cenný papier
-AN plnohodnotný
-AN lacný : adverb lacno
-AN drahý : adverb draho
-N zdraženie
-N zlacnenie
-V zdražiť
-N zľava
-N výhodná kúpa
-N účet (na zaplatenie)
-V rátať
-N potvrdenka
-V kvitovať
 V objednať
 N objednávka
 V objednať vopred
-N značka
 N zákazník
 N zákazníčka
 N zákazníci
@@ -117,61 +120,64 @@ V poskytnúť
 V dovoliť si
 N výkon
 AN výkonný
-N vrátenie peňazí
-V vrátiť
-N aukcia
-N luxus
-AN luxusný : adverb luxusne
 V prenajať si
 V vymeniť si
 N výmena
 V spotrebovať
 N spotrebiteľ
 N spotrebiteľka
-N tovar
-N surovina
+N marketing
+N sponzor
+V sponzorovať
+N nákupný vozík
+N nákupný zoznam
+N zodpovednosť za vady
+N predpredaj
+V pohostiť
+V stornovať
+V patentovať
+V odoslať
+N nákupca -- ten, kto nakupuje
+N ležiak (tovar) -- tovar, ktorý sa nepredá
+
+# payment-receipts
+N účet (na zaplatenie)
+V rátať
+N potvrdenka
+V kvitovať
+N vrátenie peňazí
+V vrátiť
+N aukcia
 N poukaz
 N záruka
 N transakcia
 N pokladňa
 N pokladník
 V inkasovať
-N čiarový kód
-N marketing
-N sponzor
-V sponzorovať
 N aukčná ponuka
-N nákupný vozík
-N nákupný zoznam
 N pokladničný doklad
-N výklad
 N reklamácia
 N vrátenie
-N zodpovednosť za vady
 N záloha
+N príplatok
+N úroková sadzba
+N doručenie
+N udelenie
+
+# goods-shops
+N tovar
+N surovina
+N čiarový kód
+N výklad
 N balenie
 N balíček
 N obal
 N zásoba
 N internetový obchod
 N nábytkárstvo
-N predpredaj
-N príplatok
-N úroková sadzba
-N doručenie
 N sortiment
 N cieľová skupina
-N udelenie
 N dodávateľský reťazec
-V pohostiť
-V zlacniť
-V stornovať
-V patentovať
-V odoslať
-AN zvýhodnený
-N nákupca -- ten, kto nakupuje
-N ležiak (tovar) -- tovar, ktorý sa nepredá
-V zjednávať -- dohadovať cenu
 
 # places-of-trade
 N trh
@@ -195,31 +201,7 @@ N drogéria
 N diskont
 N hračkárstvo
 
-# economy-finance
-N obchodovanie
-N obchodník
-V obchodovať
-V rokovať
-N rokovanie
-N výmenný obchod
-N veľkoobchod
-N maloobchod
-N dopyt
-N hospodárstvo
-AN hospodársky
-V obhospodarovať
-AN národohospodársky
-AN hospodársko-politický
-AN celohospodársky
-N obchod
-N obchod s potravinami
-N konateľ
-N konateľka
-AN obchodný
-AN poverený vedením
-N firma
-V vystupovať pod firmou
-N kancelária
+# earning-and-spending
 N zisk
 N príjem
 N plat
@@ -238,6 +220,20 @@ V ušetriť
 V márniť
 N plytvanie
 N úroky
+N príjmy
+N sociálna pomoc
+N dotácia
+V darovať (na dobročinnosť)
+N provízia
+N odškodnenie
+V odškodniť
+N rezervný fond
+N paušál
+N cena nájmu
+V prinášať
+V obohatiť
+
+# banking-and-investment
 N účet (bankový)
 N stav účtu
 N úver
@@ -248,6 +244,79 @@ N investícia
 N investor
 N poistenie
 V poistiť
+N prevod
+N inkaso
+N šek
+N akcia (cenný papier)
+N akcionár
+N trezor
+N zariadenie
+N burza
+N centrálna banka
+N analytik
+N nehnuteľnosť
+N výnosnosť
+V dotovať
+V diverzifikovať
+N havarijné poistenie -- poistenie auta proti škode
+N poisťovňa -- firma, ktorá poisťuje
+
+# business-and-trade
+N obchodovanie
+N obchodník
+V obchodovať
+V rokovať
+N rokovanie
+N výmenný obchod
+N veľkoobchod
+N maloobchod
+N obchod
+N obchod s potravinami
+N konateľ
+N konateľka
+AN obchodný
+AN poverený vedením
+N firma
+V vystupovať pod firmou
+N kancelária
+N reklama
+V robiť reklamu
+N maklér
+N dodávateľ
+N odberateľ
+N konkurent
+N konkurencia
+V súťažiť
+N monopol
+N účtovník
+N účtovníctvo
+N predplatné
+V predplatiť si
+N inventár
+N odvetvie
+N zákazka
+V poveriť
+N agentúra
+N manažment
+N trh práce
+N obchodný rok
+N ojazdené auto
+N pomôcka
+N opora
+N míľnik
+V zlikvidovať
+V expandovať
+V zlúčiť sa
+V uskladniť
+
+# economy-and-trends
+N dopyt
+N hospodárstvo
+AN hospodársky
+V obhospodarovať
+AN národohospodársky
+AN hospodársko-politický
+AN celohospodársky
 N daň
 N volant
 AN daňový
@@ -263,91 +332,34 @@ N deflácia
 AN inflačný
 N bankrot
 AN zbankrotovaný
-N reklama
-V robiť reklamu
-N prevod
 V previesť
-N inkaso
-N šek
-N akcia (cenný papier)
-N akcionár
-N maklér
-N dodávateľ
-N odberateľ
-N konkurent
-N konkurencia
-V súťažiť
-N monopol
 N recesia
 N colná sadzba
 N kvóta
 N schodok
-N príjmy
-N sociálna pomoc
-N dotácia
-V darovať (na dobročinnosť)
-N účtovník
-N účtovníctvo
-N predplatné
-V predplatiť si
-N provízia
-N odškodnenie
-V odškodniť
-N trezor
-N inventár
-N zariadenie
 N obrat
 N bilancia
 V bilancovať
-N odvetvie
-N zákazka
-V poveriť
-N burza
-N centrálna banka
-N analytik
-N agentúra
-N manažment
-N trh práce
 N mínus
-N obchodný rok
-N nehnuteľnosť
 N zvýšenie cien
 N škrt
-N rezervný fond
-N paušál
-N cena nájmu
-N ojazdené auto
-N pomôcka
-N opora
-N míľnik
 N platobná neschopnosť
 AN platobne neschopný
 N ekonóm
 N kľúčová úroková sadzba
 N menová politika
-N výnosnosť
 N výťažok
 N úzke miesto
 AN ekonomický : adverb ekonomicky
 V prejaviť sa
-V prinášať
-V zlikvidovať
-V obohatiť
 AN stredostavovský
-V dotovať
 V sčítať
 V limitovať
 V rozpočtovať
 V zastropovať
-V diverzifikovať
 V konsolidovať
-V expandovať
-V zlúčiť sa
-V uskladniť
 N odklad -- odklad splatnosti
 N daňový raj -- štát s nízkymi daňami pre zahraničných majiteľov
-N havarijné poistenie -- poistenie auta proti škode
-N poisťovňa -- firma, ktorá poisťuje
 
 # trade
 V licencovať

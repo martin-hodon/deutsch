@@ -6,10 +6,10 @@ Standard Polish, one word per line, in the same topic files as the concept index
 valence); a word with two meanings has a line for each.
 
     # feelings
-    1 N uczucie {uczucie} [uˈtʂutɕɛ], n, uczucia = pocit
-    1 V czuć {czuć} [tʂutɕ], poczuć = cítiť
-    1 V wracać {wracać} [ˈvratsatɕ], wrócić = vrátiť sa
-    2 AN dumny {dumny} [ˈdumnɨ] (z + D) = hrdý
+    1 N uczucie [uˈtʂutɕɛ], n, uczucia = pocit
+    1 V czuć [tʂutɕ], poczuć = cítiť
+    1 V wracać [ˈvratsatɕ], wrócić = vrátiť sa
+    2 AN dumny [ˈdumnɨ] (z + D) = hrdý
 
 ## A line
 
@@ -18,12 +18,12 @@ valence); a word with two meanings has a line for each.
 - `- ` — a DERIVED word, in the family of the last line without one (*szczęśliwy* → `- szczęście`);
 - `FREQ` — `1` the ~1,000 commonest everyday words, `2` common up to ~5,000, `3` the rest;
 - `POS` — `N V AN AV PRE P CON ART NUM PAR INT PHR` (as German; Polish has no articles -- no ART lines);
-- the Polish side: `word {parts} [ipa]`, then by POS (below), ending in its COMBINATIONS in parentheses if any: the
+- the Polish side: `word [ipa]`, then by POS (below), ending in its COMBINATIONS in parentheses if any: the
   case it governs (`(B)` accusative, `(D)` genitive, `(C)` dative, `(N)` instrumental, `(Ms)` locative), a preposition
   with its case (`(o + Ms)`, `(na + B)`), `(+ inf)`, `(że)`, `(żeby)`;
 - ` = ` and the concept's ID (one; nothing after it).
 
-`{parts}`: the word with `|` at a compound's joint or after a living prefix (`{samo|lot}`, `{pod|pisać}`); removing
+The word is written with `|` at a compound's joint or after a living prefix (`samo|lot`, `pod|pisać`); removing
 every `|` gives the word back. `[ipa]`: as `../../lang-data/IPA-GUIDE.md` says for Polish -- the vowels `a ɛ i ɨ ɔ u`
 only (e is always `ɛ`, o always `ɔ`), ę ą `ɛ̃ ɔ̃` before a fricative and at the end (a final ę usually `ɛ`), else the
 vowel + the nasal of the following stop (`ɛn ɛm ɛŋ ɔn ɔm ɔŋ`); `w` for ł; `ʂ ʐ tʂ dʐ` for sz ż/rz cz dż; `ɕ ʑ tɕ dʑ` for
@@ -32,10 +32,10 @@ trill; the stress mark `ˈ` on the penultimate syllable of every word of more th
 
 | POS | laid out | example |
 |---|---|---|
-| `N` | `WORD {…} […], GENDER, PLURAL[, ndm]` -- the gender `m` `ż` `n`, `lm` for a plural-only word; the nominative plural always written: `-` none (*mleko*), the word itself when it does not change; `ndm` an indeclinable word (kakao, menu, taxi). Animacy and personhood are not written: the world knows what is a person or an animal. | `1 N książka {książka} [ˈkɕɔ̃ʐka], ż, książki = kniha` · `1 N człowiek {człowiek} [ˈtʂwɔvʲɛk], m, ludzie = človek` · `1 N kakao {kakao} [kaˈkaɔ], n, -, ndm = kakao` |
-| `V` | `IMPERFECTIVE {…} […], PERFECTIVE` -- the imperfective infinitive is the word, its perfective partner after the comma (`-` when the verb has none: być, wiedzieć, mieć, mieszkać; `dk` when the concept exists only as a perfective: ocknąć się). A reflexive verb with `się`. The forms the rules get wrong (iść: idę, szedł; brać: biorę) are in `pl/rules/irregular.txt`. | `1 V czytać {czytać} [ˈtʂɨtatɕ], przeczytać (B) = čítať` · `1 V iść {iść} [iɕtɕ], pójść = ísť (pešo)` · `1 V być {być} [bɨtɕ], - = byť` · `1 V myć się {myć się} [mɨtɕ ɕɛ], umyć się = umývať sa` |
-| `AN` | `MASCULINE {…} […]`, then its COMPARATIVE only when irregular (lepszy, gorszy, większy, mniejszy, starszy, wyższy, dłuższy, bliższy, lżejszy) | `1 AN duży {duży} [ˈduʐɨ], większy = veľký` · `1 AN czerwony {czerwony} [tʂɛrˈvɔnɨ] = červený` |
-| `PRE` `AV` `P` `CON` `NUM` `PAR` `INT` `PHR` | `word {…} […]` (a preposition with its case in parentheses) | `1 PRE w {w} [v] (B, Ms) = v` · `1 PHR do widzenia {do widzenia} [dɔ viˈdzɛɲa] = dovidenia` |
+| `N` | `WORD […], GENDER, PLURAL[, ndm]` -- the gender `m` `ż` `n`, `lm` for a plural-only word; the nominative plural always written: `-` none (*mleko*), the word itself when it does not change; `ndm` an indeclinable word (kakao, menu, taxi). Animacy and personhood are not written: the world knows what is a person or an animal. | `1 N książka [ˈkɕɔ̃ʐka], ż, książki = kniha` · `1 N człowiek [ˈtʂwɔvʲɛk], m, ludzie = človek` · `1 N kakao [kaˈkaɔ], n, -, ndm = kakao` |
+| `V` | `IMPERFECTIVE […], PERFECTIVE` -- the imperfective infinitive is the word, its perfective partner after the comma (`-` when the verb has none: być, wiedzieć, mieć, mieszkać; `dk` when the concept exists only as a perfective: ocknąć się). A reflexive verb with `się`. The forms the rules get wrong (iść: idę, szedł; brać: biorę) are in `pl/rules/irregular.txt`. | `1 V czytać [ˈtʂɨtatɕ], przeczytać (B) = čítať` · `1 V iść [iɕtɕ], pójść = ísť (pešo)` · `1 V być [bɨtɕ], - = byť` · `1 V myć się [mɨtɕ ɕɛ], umyć się = umývať sa` |
+| `AN` | `MASCULINE […]`, then its COMPARATIVE only when irregular (lepszy, gorszy, większy, mniejszy, starszy, wyższy, dłuższy, bliższy, lżejszy) | `1 AN duży [ˈduʐɨ], większy = veľký` · `1 AN czerwony [tʂɛrˈvɔnɨ] = červený` |
+| `PRE` `AV` `P` `CON` `NUM` `PAR` `INT` `PHR` | `word […]` (a preposition with its case in parentheses) | `1 PRE w [v] (B, Ms) = v` · `1 PHR do widzenia [dɔ viˈdzɛɲa] = dovidenia` |
 
 The trainer drills a concept in any pair of languages (Slovak included), and the Polish forms (cases, the verb's
 persons and past, the aspect pair) in sentences. The concept index and the world: `../DESIGN.md`. Checked and
