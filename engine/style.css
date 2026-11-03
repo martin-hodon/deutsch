@@ -179,7 +179,7 @@ button.next { margin-top: 10px; }
 .result-star.on, .result-star:hover { color: #d97706; }
 .result-remove { margin-left: auto; color: var(--mute); padding: 0 6px; font-size: 16px; }
 .result-remove:hover { color: var(--wrong); }
-.entry-head .star { border: 0; background: none; font-size: 24px; padding: 2px 6px; opacity: .55; line-height: 1; }
+.entry-head .star { border: 0; background: none; font-size: 24px; padding: 2px 6px; opacity: .55; line-height: 1; margin-left: auto; }
 .entry-head .star.on, .entry-head .star:hover { opacity: 1; color: #d97706; }
 .results .more { margin-top: 8px; }
 
@@ -278,11 +278,11 @@ body[data-group="sentences"] #prompt { font-size: 24px; line-height: 1.35; }
 .entry-region { margin-top: 4px; font-size: 14px; }
 .result-sk { color: var(--mute); }
 .entry .back { border: 0; background: none; color: var(--accent); padding: 0 0 8px; font-size: 15px; }
-.entry-head { display: flex; align-items: center; gap: 10px; }
+.entry-head { display: flex; align-items: center; flex-wrap: wrap; gap: 4px 10px; }
 .entry-head h2 { margin: 0; font-size: 30px; }
 .entry .say { border: 0; background: none; font-size: 22px; opacity: .7; }
 .entry .say:hover { opacity: 1; }
-.entry-ipa { color: var(--mute); }
+.entry-ipa { color: var(--mute); font-size: 17px; }
 .entry-meta { color: var(--mute); font-size: 13px; margin: 2px 0 6px; }
 .entry-sk { font-size: 19px; margin-bottom: 4px; }
 .entry-details { color: var(--mute); }
@@ -391,6 +391,16 @@ body[data-group="sentences"] #prompt { font-size: 24px; line-height: 1.35; }
 /* ---- the dictionary's sound under each word, and PRINT: the sheet (only on paper) ---------------- */
 .result-word .result-ipa { display: block; font-weight: 400; font-size: 13px; }
 .result { grid-auto-flow: column; }   /* (a rank, ★ or ✕: after the meanings on the word's line, not a row of their own) */
+.hanzi-pick { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; margin: 2px 0 6px; padding: 6px; border: 1px solid var(--line); border-radius: 10px; background: var(--card); }
+.hanzi-pick[hidden] { display: none; }
+.hanzi-chip { font-size: 22px; line-height: 1.2; padding: 2px 8px; border-radius: 8px; }
+.hanzi-chip:hover { border-color: var(--accent); }
+.hanzi-sep { color: var(--mute); padding: 0 4px; }
+.print-dialog { border: 1px solid var(--line); border-radius: 12px; background: var(--card); color: inherit; padding: 16px 18px; display: grid; gap: 10px; }
+.print-dialog:not([open]) { display: none; }
+.print-dialog::backdrop { background: rgba(0, 0, 0, .3); }
+.print-from { width: 5.5em; font: inherit; color: inherit; background: var(--bg, transparent); border: 1px solid var(--line); border-radius: 8px; padding: 5px 8px; }
+.print-actions { display: flex; justify-content: flex-end; gap: 8px; }
 .print-sheet { display: none; }
 @media print {
   @page { margin: 14mm 12mm; }

@@ -361,15 +361,40 @@ const hashOf = (e) => `${lang}/${encodeURIComponent(e.id)}`;
 const wordList = (items, gloss = (x) => `${x.pos} · ${x.sk[0]}`) => { const ul = el("div", "word-list"); for (const x of items) ul.append(el("span", "word-item", link(x), el("span", "word-gloss", " " + gloss(x)))); return ul; };
 
 // ---- PRINT: the list shown (my list, a category's words, a search's results, by frequency) as a sheet to learn from --
-// -- 🖨 prints it at once, nothing to choose: a table of the words in the list's order, each with its sound, grammar
-// (part of speech, plural, forms) and meanings.
+// -- 🖨 asks from which word on (the words added to a list since it was last printed: the default is the one after the last
+// printed, kept in localStorage "dictionary:printed" per list), then prints a table of the words in the list's order, each
+// with its number in the list, its sound, grammar (part of speech, plural, forms) and meanings.
 let printable = [];
+const PRINTED_KEY = "dictionary:printed";
+const printedKey = () => [lang, listView ? "list" : byRank ? `rank|${query.trim()}` : `${topic}|${query.trim()}`].join("|");
+const printedAll = () => { try { return JSON.parse(localStorage.getItem(PRINTED_KEY) ?? "{}"); } catch { return {}; } };
 function printList() {
   if (!printable.length) { alert(t("print-none")); return; }
+  const items = printable, n = items.length, last = printedAll()[printedKey()] ?? 0;
+  const from = el("input", "print-from"); Object.assign(from, { type: "number", min: 1, max: n, value: last < n ? last + 1 : 1 });
+  const go = el("button", "go", t("print-go")), cancel = el("button", "", t("print-cancel"));
+  const box = el("dialog", "print-dialog",
+    el("label", "", t("print-from") + " ", from, " " + t("print-of", { n })),
+    last ? el("div", "mute", t("print-last", { n: last })) : null,
+    el("div", "print-actions", cancel, go));
+  const close = () => { box.close(); box.remove(); };
+  cancel.onclick = close; box.oncancel = close;
+  go.onclick = () => {
+    const k = Math.max(1, Math.min(n, Math.round(Number(from.value)) || 1));
+    close();
+    const all = printedAll(); all[printedKey()] = n;
+    try { localStorage.setItem(PRINTED_KEY, JSON.stringify(all)); } catch { /* (storage blocked) */ }
+    printSheet(items, k);
+  };
+  from.onkeydown = (ev) => { if (ev.key === "Enter") go.click(); };
+  document.body.append(box); box.showModal(); from.select();
+}
+// (the words from the k-th on, numbered as in the list)
+function printSheet(items, k) {
   const posName = (p) => (has("pos." + p) ? t("pos." + p) : p);
   const head = el("tr", "", el("th", "n", "#"), el("th", "", t("print-word")), el("th", "", t("print-grammar")), el("th", "meaning", t("print-meaning")));
   const body = el("tbody");
-  printable.forEach((e, i) => body.append(el("tr", "", el("td", "n", String(i + 1)),
+  items.slice(k - 1).forEach((e, i) => body.append(el("tr", "", el("td", "n", String(k + i)),
     el("td", "word", el("b", "", shown(e)), soundText(e) ? el("div", "ipa", soundText(e)) : null),
     el("td", "grammar", [posName(e.pos), ...details(e)].filter(Boolean).join(" · ")),
     el("td", "meaning", e.sk.join(", ")))));
@@ -436,11 +461,12 @@ async function showCategory(c, { push = true } = {}) {
   const members = m.direct(c).sort((a, b) => a.freq - b.freq || a.rank - b.rank);
   if (members.length) { const ms = el("section", "entry-section", el("h3", "", tn("category-words", members.length))); view.append(ms); ms.append(wordList(members.slice(0, 200))); if (members.length > 200) ms.append(el("div", "mute", "…")); }
 }
-const details = (e) => {
+// (`plural: false`: not the plural itself -- the entry's forms table shows it; a word that is plural only is still said so)
+const details = (e, { plural = true } = {}) => {
   const out = [];
   if (e.pos === "N" && e.gender) out.push(`${t("gender")}: ${e.gender}`);
   if (e.plural === "PL") out.push(t("plural") + ": " + t("plural-only"));
-  else if (e.plural && e.plural !== "-") out.push(`${t("plural")}: ${lang === "de" ? "die " : ""}${e.plural}`);
+  else if (plural && e.plural && e.plural !== "-") out.push(`${t("plural")}: ${lang === "de" ? "die " : ""}${e.plural}`);
   if (e.classifier) out.push(`${t("measure-words")}: ${e.classifier}`);
   if (e.forms) out.push((e.pos === "V" && (lang === "ru" || lang === "pl") ? t("aspect") : t("forms")) + `: ${e.forms}`);
   if (e.comparison) out.push(`${t("comparison")}: ${e.comparison}`);
@@ -610,8 +636,7 @@ async function openEntry(e, { push = true } = {}) {
   const star = el("button", "star", "");   // (my list: the word put aside, or taken off it)
   const starText = () => { const on = inList(e); star.textContent = on ? "★" : "☆"; star.title = t(on ? "remove-from-list" : "add-to-list"); star.classList.toggle("on", on); };
   star.onclick = () => { toggleList(e); starText(); }; starText();
-  view.append(el("div", "entry-head", el("h2", "", shown(e)), say, star));
-  view.append(el("div", "entry-ipa", soundText(e)));
+  view.append(el("div", "entry-head", el("h2", "", shown(e)), soundText(e) ? el("span", "entry-ipa", soundText(e)) : null, say, star));   // (the star in the corner: style.css)
   view.append(el("div", "entry-meta", `${e.pos} · FREQ ${e.freq} · ${e.category}` + (e.parts && e.parts.includes("|") ? ` · ${e.parts}` : "")));
   view.append(el("div", "entry-sk", e.sk.join(", ")));
   if (e.region) {   // (a regional word: where it is said, and the concept's general words -- Jänner: Januar)
@@ -619,23 +644,25 @@ async function openEntry(e, { push = true } = {}) {
     if (general.length) { row.append(el("span", "mute", ` · ${t("region-general")}: `)); general.slice(0, 3).forEach((x, i) => { row.append(i ? ", " : "", link(x)); }); }
     view.append(row);
   }
-  const det = details(e);
-  if (det.length) view.append(el("div", "entry-details", det.join(" · ")));
+  const detRow = el("div", "entry-details"); view.append(detRow);   // (filled once the forms are known: below)
   const same = dict.entries.filter((x) => x !== e && fold(x.word) === fold(e.word)).sort((a, b) => (a.pos === e.pos ? 1 : 0) - (b.pos === e.pos ? 1 : 0) || a.freq - b.freq);
   if (same.length) { const row = el("div", "entry-same", el("span", "mute", t("same-word") + ": ")); same.forEach((x, i) => { const a = link(x); a.textContent = `${x.pos} · ${x.sk.slice(0, 2).join(", ")}`; row.append(i ? " · " : "", a); }); view.append(row); }
   if (lang === "zh" && dict.hanzi) charactersSection(e, view);
   // the morphology table
   const section = (title) => { const s = el("section", "entry-section", el("h3", "", t(title))); view.append(s); return s; };
+  const forms = await formsOf(e);
+  const blocks = (LAYOUTS[lang]?.[e.pos] ?? []).map((b) => table(b, forms, e)).filter(Boolean);
+  if (lang === "de" && e.pos === "N") { const g = germanNoun(e); if (g) blocks.unshift(g); }
+  if (blocks.length) { const s = section("forms-table"); for (const b of blocks) s.append(b); }
+  // (the grammar line under the meanings: without the plural where the forms' table shows it)
+  const det = details(e, { plural: !(blocks.length && e.pos === "N") });
+  if (det.length) detRow.textContent = det.join(" · "); else detRow.remove();
   const comp = lang === "zh" ? null : compositionOf(e), heads = lang === "zh" ? [] : compoundsOf(e).sort((a, b) => a.freq - b.freq || a.rank - b.rank);
   if (comp || heads.length) {   // (its composition: hoch + Gebirge; the words it heads: Gebirge -> Hochgebirge, Vorgebirge)
     const s = section("composition");
     if (comp) s.append(el("div", "composition", typeof comp.front === "string" ? comp.front.toLowerCase() + "-" : link(comp.front), " + ", link(comp.head)));
     if (heads.length) { s.append(el("h4", "", tn("compounds", heads.length))); s.append(wordList(heads.slice(0, 60))); if (heads.length > 60) s.append(el("div", "mute", "…")); }
   }
-  const forms = await formsOf(e);
-  const blocks = (LAYOUTS[lang]?.[e.pos] ?? []).map((b) => table(b, forms, e)).filter(Boolean);
-  if (lang === "de" && e.pos === "N") { const g = germanNoun(e); if (g) blocks.unshift(g); }
-  if (blocks.length) { const s = section("forms-table"); for (const b of blocks) s.append(b); }
   // the related words: synonyms of the concept, the family, the words sharing a component
   const syn = (dict.byConcept.get(`${e.pos}|${e.concept}`) ?? []).filter((x) => x !== e);
   const family = dict.entries.filter((x) => x !== e && x.root && x.root === e.root && !syn.includes(x));
@@ -688,6 +715,97 @@ async function formsOf(e) {
   try { return paradigms[lang].forms(e); } catch { return []; }
 }
 
+// ---- CHINESE TYPED AS PINYIN: the characters (and words) its last pinyin stands for, under the search, to put in its place
+// -- hen3 offers 很, 狠 ...; ni3hao3 offers 你好 whole and 你, 尼 ... for its first syllable (the rest stays to choose next).
+// The readings: the words of one character and zh/chars.txt, then the words of more (míngtiān: 明 míng, 天 tiān -- its
+// pinyin cut in as many syllables as it has characters); the commonest first (the word's rank, then how many words have
+// the character).
+function hanziReadings(d) {
+  if (d.readings) return d.readings;
+  const used = new Map(), rank = new Map(), out = new Map();
+  for (const e of d.entries) {
+    for (const c of new Set(e.word)) used.set(c, (used.get(c) ?? 0) + 1);
+    if ([...e.word].length === 1) rank.set(e.word, Math.min(rank.get(e.word) ?? Infinity, e.rank));
+  }
+  const add = (c, letters, tone) => {
+    const list = out.get(letters) ?? out.set(letters, []).get(letters);
+    if (!list.some((x) => x.c === c && x.tone === tone)) list.push({ c, tone, rank: rank.get(c) ?? Infinity, used: used.get(c) ?? 0 });
+  };
+  const addAll = (c, pinyin) => { for (const p of pinyin.split(/[ ,/]+/).filter(Boolean)) { const k = pinyinKey(p); add(c, k.letters, k.tones); } };
+  for (const e of d.entries) if ([...e.word].length === 1 && e.pinyin) addAll(e.word, e.pinyin);
+  for (const [c, rs] of d.charMeanings ?? []) if ([...c].length === 1) for (const r of rs) if (r.pinyin) addAll(c, r.pinyin);
+  // (a word's pinyin: its letters, a tone at the letter it marks; cut by the syllables known, into one per character)
+  const known = new Set(out.keys());
+  for (const e of d.entries) {
+    const chars = [...e.word];
+    if (chars.length < 2 || !e.pinyin || !chars.every((c) => /\p{Script=Han}/u.test(c))) continue;
+    let s = "", tones = [];
+    for (const ch of e.pinyin.normalize("NFD")) { if (TONE_MARKS[ch]) tones[s.length - 1] = TONE_MARKS[ch]; else if (/[a-z]/i.test(ch)) s += ch.toLowerCase(); }
+    const cut = (i, left) => {
+      if (i === s.length) return left ? null : [];
+      if (!left) return null;
+      for (let n = Math.min(6, s.length - i); n > 0; n--) if (known.has(s.slice(i, i + n))) { const r = cut(i + n, left - 1); if (r) return [[i, n], ...r]; }
+      return null;
+    };
+    const syl = cut(0, chars.length);
+    if (syl) syl.forEach(([i, n], k) => add(chars[k], s.slice(i, i + n), tones.slice(i, i + n).find(Boolean) ?? ""));
+  }
+  for (const list of out.values()) list.sort((a, b) => a.rank - b.rank || b.used - a.used);
+  return (d.readings = out);
+}
+// the pinyin at the end of the search, in syllables: { at (where it starts), syl: [{ letters, tone, len }] }, or null
+function trailingPinyin(text, readings) {
+  const m = text.match(/[a-zA-ZüÜvV:1-5']+$/);
+  if (!m) return null;
+  const s = m[0].toLowerCase().replace(/u:|v/g, "ü").replace(/ü/g, "u");   // (ü as the dictionary keys it: u)
+  const parse = (i) => {   // (the longest syllables first, back off where the rest does not parse)
+    if (i === s.length) return [];
+    if (s[i] === "'") { const r = parse(i + 1); return r && r.length ? (r[0].len++, r) : null; }
+    for (let n = Math.min(6, s.length - i); n > 0; n--) {
+      const letters = s.slice(i, i + n);
+      if (!readings.has(letters)) continue;
+      const tone = /[1-5]/.test(s[i + n] ?? "") ? s[i + n] : "", len = n + tone.length, rest = parse(i + len);
+      if (rest) return [{ letters, tone, len }, ...rest];
+    }
+    return null;
+  };
+  // (an apostrophe before a syllable belongs to it: its length counts it, so the syllables cover the text whole)
+  const syl = parse(0);
+  return syl && syl.length ? { at: text.length - m[0].length, syl } : null;
+}
+const toneFits = (typed, tone) => !typed || (typed === "5" ? !tone || tone === "5" : tone === typed);
+function showHanziPick() {
+  const box = $("hanzi-pick"); if (!box) return;
+  box.replaceChildren(); box.hidden = true;
+  if (lang !== "zh" || !dict) return;
+  const text = $("search").value, readings = hanziReadings(dict), p = trailingPinyin(text, readings);
+  if (!p) return;
+  const put = (s, keep) => { const f = $("search"); f.value = text.slice(0, p.at) + s + keep; f.focus(); f.setSelectionRange(f.value.length, f.value.length); f.dispatchEvent(new Event("input")); };
+  const chip = (c, title, onclick) => { const b = el("button", "hanzi-chip", c); b.title = title; b.onclick = onclick; return b; };
+  // the words for the syllables together (two or more): their letters the same, their tones the ones typed
+  if (p.syl.length > 1) {
+    // (all toned: the word's tones those, a neutral one not marked; some: the ones typed among its tones, in their order)
+    const letters = p.syl.map((x) => x.letters).join(""), toned = p.syl.every((x) => x.tone), tones = p.syl.map((x) => x.tone).join("").replace(/5/g, "");
+    const among = (have) => { let i = 0; for (const c of have) if (c === tones[i]) i++; return i === tones.length; };
+    const seen = new Set(), words = dict.entries
+      .filter((e) => e.py?.letters === letters && [...e.word].length === p.syl.length && (toned ? e.py.tones === tones : among(e.py.tones)))
+      .sort((a, b) => a.rank - b.rank).filter((e) => !seen.has(e.word) && seen.add(e.word)).slice(0, 12);
+    for (const e of words) box.append(chip(e.word, `${e.pinyin ?? ""} · ${e.sk.slice(0, 2).join(", ")}`, () => put(e.word, "")));
+    if (words.length) box.append(el("span", "hanzi-sep", "|"));
+  }
+  // the characters for the first syllable
+  const first = p.syl[0], rest = text.slice(p.at).slice(first.len);
+  const chars = readings.get(first.letters).filter((r) => toneFits(first.tone, r.tone));
+  const seen = new Set();
+  for (const r of chars) {
+    if (seen.has(r.c)) continue; seen.add(r.c);
+    if (seen.size > 48) break;
+    const e = dict.entries.find((x) => x.word === r.c);
+    box.append(chip(r.c, e ? `${e.pinyin ?? ""} · ${e.sk.slice(0, 2).join(", ")}` : charGloss(r.c), () => put(r.c, rest)));
+  }
+  box.hidden = !box.childElementCount;
+}
+
 async function useLang(l) {
   if (l === lang && dict) return;
   lang = l; keepLearn(l); Object.assign($("title"), { textContent: LANGS[l].flag, title: LANGS[l].name });   // (the title: the language's flag -- chosen in the settings)
@@ -698,6 +816,7 @@ async function useLang(l) {
   formsIndex(d, l).then(async () => { paradigms[l] ??= d.pd; d.derive ??= (await loadDerivations(l)).derive; if (lang === l) showResults(); });   // (the forms -> words index, in the background: dem finds der; the derivations: roughly finds rough)
   $("search").lang = l;
   $("stats").hidden = l !== "de"; $("parts").hidden = l !== "zh";
+  showHanziPick();
   showTopics();
   showResults();
 }
@@ -721,7 +840,7 @@ export async function start() {
   $("section").onchange = () => chooseTopic($("section").value);
   const h = fromHash();
   await useLang(h?.lang ?? pair.learn);
-  $("search").oninput = () => { query = $("search").value; if (open) { history.pushState(null, "", "#" + lang); showList(); } else showResults(); };
+  $("search").oninput = () => { query = $("search").value; showHanziPick(); if (open) { history.pushState(null, "", "#" + lang); showList(); } else showResults(); };
   $("search").onkeydown = (ev) => { if (ev.key === "Enter") { const first = lookup(query)[0]; if (first) openEntry(first); } };   // (Enter opens the first match)
   $("search").focus();
   $("listen").onclick = listen;
