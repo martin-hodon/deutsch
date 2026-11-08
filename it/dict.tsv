@@ -10871,6 +10871,7 @@ humans/language-communication	acconsentire	0	3	V	acconsentire				akːonsenˈtiː
 humans/language-communication	tematico	0	3	AN	tematico				teˈmaːtiko	tematico		tematici/tematiche	tematica				tematický					humans/language-communication/speaking-and-asking	
 humans/language-communication	aneddoto	0	3	N	aneddoto	l'	m	aneddoti	aˈnɛdːoto	aneddoto							anekdota					humans/language-communication/speaking-and-asking	
 humans/language-communication	comunicativo	0	3	AN	comunicativo				komunikaˈtiːvo	comunicativo			comunicativa				komunikatívny			AN uzavretý		humans/language-communication/speaking-and-asking	
+humans/language-communication	espansivo	0	3	AN	espansivo				espanˈsiːvo	espansivo			espansiva				zdieľny					humans/language-communication/speaking-and-asking	
 humans/language-communication	loquace	0	3	AN	loquace				loˈkwaːtʃe	loquace							zhovorčivý					humans/language-communication/speaking-and-asking	
 humans/language-communication	chiacchierone	0	3	AN	chiacchierone				kjakːjeˈroːne	chiacchierone			chiacchierona				zhovorčivý					humans/language-communication/speaking-and-asking	
 humans/language-communication	tacere	0	1	V	tacere				taˈtʃeːre	tacere				irr			mlčať			V hovoriť | V rozprávať		humans/language-communication/mumble-and-babble	
@@ -17074,6 +17075,7 @@ natural-world/matter-energy	cadere con un tonfo	0	3	V	cadere con un tonfo				ka�
 natural-world/matter-energy	borbottare	0	3	V	borbottare				borboˈtːaːre	borbottare							drnčať					natural-world/matter-energy/rustling-and-creaking	
 natural-world/matter-energy	ronzare	0	3	V	ronzare				ronˈdzaːre	ronzare							drnčať					natural-world/matter-energy/rustling-and-creaking	
 natural-world/matter-energy	sferragliare	0	3	V	sferragliare				sferaʎˈʎaːre	sferragliare							hrkotať					natural-world/matter-energy/rustling-and-creaking	
+natural-world/matter-energy	sferragliare	0	3	V	sferragliare				sferaʎˈʎaːre	sferragliare							hrkať					natural-world/matter-energy/rustling-and-creaking	
 natural-world/matter-energy	crepitare	0	3	V	crepitare				krepiˈtaːre	crepitare							prašťať					natural-world/matter-energy/rustling-and-creaking	
 natural-world/matter-energy	tambureggiare	0	3	V	tambureggiare				tamburedˈdʒaːre	tambureggiare							prašťať					natural-world/matter-energy/rustling-and-creaking	
 natural-world/matter-energy	gridare	0	1	V	gridare				ɡriˈdaːre	gridare							vykríknuť					natural-world/matter-energy/shrieks-and-hoots	

@@ -88,6 +88,7 @@
 2 N talk [tɔːk], talks = rozhovor
 2 N dis|agreement [ˌdɪsəˈɡriːmənt], disagreements = nesúhlas
 2 AN talk|ative [ˈtɔːkətɪv] = zhovorčivý
+3 AN forth|coming [fɔːθˈkʌmɪŋ] = zdieľny
 3 AN eloquent [ˈeləkwənt] = výrečný
 3 N monologue [ˈmɒnəlɒɡ], monologues = monológ
 3 AN contact|less [ˈkɒntæktləs] = bezkontaktný

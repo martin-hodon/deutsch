@@ -246,6 +246,7 @@
 3 V chlupnąć [ˈxlupnɔɲtɕ], dk = čľupnúť
 3 V terkotać [tɛrˈkɔtatɕ], zaterkotać = drnčať
 3 V turkotać [turˈkɔtatɕ], zaturkotać = hrkotať
+3 V grzechotać [ɡʐɛˈxɔtatɕ], zagrzechotać = hrkať
 3 V warkotać [varˈkɔtatɕ], zawarkotać = prašťať
 
 # shrieks-and-hoots

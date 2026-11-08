@@ -250,6 +250,7 @@
 3 V плюхаться [ˈplʲuxətsə], плюхнуться = čľupnúť
 3 V тарахтеть [tɐrɐxˈtʲetʲ], - = drnčať
 3 V громыхать [ɡrɐmɨˈxatʲ], прогромыхать = hrkotať
+3 V тарахтеть [tɐrɐxˈtʲetʲ], - = hrkať
 3 V трещать [trʲɪˈɕːatʲ], затрещать = prašťať
 
 # shrieks-and-hoots

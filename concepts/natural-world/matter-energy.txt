@@ -227,6 +227,7 @@ V zurčať
 V čľupnúť
 V drnčať
 V hrkotať
+V hrkať
 V prašťať
 
 # shrieks-and-hoots

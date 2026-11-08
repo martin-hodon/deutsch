@@ -9974,6 +9974,7 @@ humans/language-communication	debatir	0	3	V	debatir				deβaˈtiɾ	debatir						
 humans/language-communication	sondeo	0	3	N	sondeo	el	m	sondeos	sonˈdeo	sondeo							prieskum					humans/language-communication/speaking-and-asking	
 humans/language-communication	alocución	0	3	N	alocución	la	f	alocuciones	alokuˈθjon	alocución							príhovor					humans/language-communication/speaking-and-asking	
 humans/language-communication	comunicativo	0	3	AN	comunicativo				komunikaˈtiβo	comunicativo			comunicativa				komunikatívny			AN uzavretý		humans/language-communication/speaking-and-asking	
+humans/language-communication	expansivo	0	3	AN	expansivo				ekspanˈsiβo	expansivo			expansiva				zdieľny					humans/language-communication/speaking-and-asking	
 humans/language-communication	callar	0	2	V	callar				kaˈʎaɾ	callar							mlčať			V hovoriť | V rozprávať		humans/language-communication/mumble-and-babble	
 humans/language-communication	guardar silencio	0	2	V	guardar silencio				ɡwaɾˈðaɾ siˈlenθjo	guardar silencio							mlčať			V hovoriť | V rozprávať		humans/language-communication/mumble-and-babble	
 humans/language-communication	ocultar	0	2	V	ocultar				okulˈtaɾ	ocultar							zamlčať			V prezradiť | V oznámiť		humans/language-communication/mumble-and-babble	
@@ -15732,6 +15733,7 @@ natural-world/matter-energy	murmurar	0	3	V	murmurar				muɾmuˈɾaɾ	murmurar			
 natural-world/matter-energy	chapotear	0	3	V	chapotear				tʃapoteˈaɾ	chapotear							čľupnúť					natural-world/matter-energy/rustling-and-creaking	
 natural-world/matter-energy	traquetear	0	3	V	traquetear				tɾaketeˈaɾ	traquetear							drnčať					natural-world/matter-energy/rustling-and-creaking	
 natural-world/matter-energy	traquetear	0	3	V	traquetear				tɾaketeˈaɾ	traquetear							hrkotať					natural-world/matter-energy/rustling-and-creaking	
+natural-world/matter-energy	traquetear	0	3	V	traquetear				tɾaketeˈaɾ	traquetear							hrkať					natural-world/matter-energy/rustling-and-creaking	
 natural-world/matter-energy	restallar	0	3	V	restallar				restaˈʎaɾ	restallar							prašťať					natural-world/matter-energy/rustling-and-creaking	
 natural-world/matter-energy	gritar	0	2	V	gritar				ɡɾiˈtaɾ	gritar							vykríknuť					natural-world/matter-energy/shrieks-and-hoots	
 natural-world/matter-energy	estruendo	0	3	N	estruendo	el	m	estruendos	esˈtɾwendo	estruendo							rachot					natural-world/matter-energy/shrieks-and-hoots	

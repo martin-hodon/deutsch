@@ -9505,6 +9505,7 @@ humans/language-communication	thématique	0	3	AN	thématique				tematˈik	théma
 humans/language-communication	anecdote	0	3	N	anecdote	l'	f	anecdotes	anɛkˈdɔt	anecdote							anekdota					humans/language-communication/speaking-and-asking	
 humans/language-communication	fluide	0	3	AN	fluide				flɥid	fluide							plynulý					humans/language-communication/speaking-and-asking	
 humans/language-communication	communicatif	0	3	AN	communicatif				kɔmynikaˈtif	communicat|if			communicative				komunikatívny			AN uzavretý		humans/language-communication/speaking-and-asking	
+humans/language-communication	expansif	0	3	AN	expansif				ɛkspɑ̃ˈsif	expans|if			expansive				zdieľny					humans/language-communication/speaking-and-asking	
 humans/language-communication	éloquemment	0	3	AV	éloquemment				elɔkaˈmɑ̃	éloqu|emment							výrečne					humans/language-communication/speaking-and-asking	
 humans/language-communication	inexplicablement	0	3	AV	inexplicablement				inɛksplikabləˈmɑ̃	inexplicable|ment							nevysvetliteľne					humans/language-communication/speaking-and-asking	
 humans/language-communication	loquace	0	3	AN	loquace				lɔˈkwas	loquace							zhovorčivý					humans/language-communication/speaking-and-asking	
@@ -15290,6 +15291,7 @@ natural-world/matter-energy	glouglouter	0	3	V	glouglouter				ɡluɡluˈte	glougl
 natural-world/matter-energy	murmurer	0	3	V	murmurer				myʁmyˈʁe	murmurer							zurčať					natural-world/matter-energy/rustling-and-creaking	
 natural-world/matter-energy	pétarader	0	3	V	pétarader				petaʁaˈde	pétarader							drnčať					natural-world/matter-energy/rustling-and-creaking	
 natural-world/matter-energy	cahoter	0	3	V	cahoter				kaɔˈte	cahoter							hrkotať					natural-world/matter-energy/rustling-and-creaking	
+natural-world/matter-energy	ferrailler	0	3	V	ferrailler				fɛʁaˈje	ferrailler							hrkať					natural-world/matter-energy/rustling-and-creaking	
 natural-world/matter-energy	crépiter	0	3	V	crépiter				kʁepiˈte	crépiter							prašťať					natural-world/matter-energy/rustling-and-creaking	
 natural-world/matter-energy	pousser un cri	0	2	V	pousser un cri				puˈse œ̃ kʁi	pousser un cri							vykríknuť					natural-world/matter-energy/shrieks-and-hoots	
 natural-world/matter-energy	fracas	0	3	N	fracas	le	m	-	fʁaˈka	fracas							rachot					natural-world/matter-energy/shrieks-and-hoots	

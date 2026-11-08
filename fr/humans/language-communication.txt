@@ -107,6 +107,7 @@
 3 N l'anecdote (f) [anɛkˈdɔt], anecdotes = anekdota
 3 AN fluide [flɥid] = plynulý
 3 AN communicat|if [kɔmynikaˈtif], communicative = komunikatívny
+3 AN expans|if [ɛkspɑ̃ˈsif], expansive = zdieľny
 3 AV éloqu|emment [elɔkaˈmɑ̃] = výrečne
 3 AV inexplicable|ment [inɛksplikabləˈmɑ̃] = nevysvetliteľne
 3 AN loquace [lɔˈkwas] = zhovorčivý

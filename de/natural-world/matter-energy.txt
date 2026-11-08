@@ -247,6 +247,7 @@
 # rustling-and-creaking
 2 V klappern [ˈklapɐn], hat = klepotať
 3 V rascheln [ˈʁaʃəln], hat = šuchotať
+3 V rasseln [ˈʁasəln], hat = hrkať
 3 V säuseln [ˈzɔʏzəln], hat = šuchotať
 3 V knistern [ˈknɪstɐn], hat = praskať
 3 V knacksen [ˈknaksən], hat = praskať

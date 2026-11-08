@@ -253,6 +253,7 @@
 3 V chapotear [tʃapoteˈaɾ] = čľupnúť
 3 V traquetear [tɾaketeˈaɾ] = drnčať
 3 V traquetear [tɾaketeˈaɾ] = hrkotať
+3 V traquetear [tɾaketeˈaɾ] = hrkať
 3 V restallar [restaˈʎaɾ] = prašťať
 
 # shrieks-and-hoots

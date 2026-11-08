@@ -9882,6 +9882,7 @@ humans/language-communication	Broschüre	0	2	N	die	Broschüre	Broschüren	bʁɔ�
 humans/language-communication	Katalog	0	2	N	der	Katalog	Kataloge	kataˈloːk	Katalog						katalóg				humans/language-communication/messages-and-records	
 humans/language-communication	mitteilen	0	2	V		mitteilen		ˈmɪttaɪlən	mit·teilen		hat			D A	oznámiť | informovať		V zamlčať		humans/language-communication/messages-and-records	
 humans/language-communication	mitteilen	1	2	N	die	Mitteilung	Mitteilungen	ˈmɪttaɪlʊŋ	Mit|teilung						oznámenie | správa				humans/language-communication/messages-and-records	
+humans/language-communication	mitteilen	1	3	AN		mitteilsam		ˈmɪttaɪlzaːm	mit|teil|sam						zdieľny				humans/language-communication/speaking-and-asking	
 humans/language-communication	mitteilen	1	3	N	die	Pressemitteilung	Pressemitteilungen	ˈpʁɛsəmɪttaɪlʊŋ	Presse|mitteilung						tlačová správa				humans/language-communication/messages-and-records	
 humans/language-communication	Angabe	0	2	N	die	Angabe	Angaben	ˈanɡaːbə	An|gabe						údaj | informácia				humans/language-communication/messages-and-records	
 humans/language-communication	Mail	0	2	N	die	Mail	Mails	meɪl	Mail						e-mail | správa				humans/technology/internet-and-online	
@@ -15088,6 +15089,7 @@ natural-world/matter-energy	Radau	0	3	N	der	Radau	-	ʁaˈdaʊ	Radau						hluk		N
 natural-world/matter-energy	Rabatz	0	3	N	der	Rabatz	-	ʁaˈbats	Rabatz						hluk		N ticho		natural-world/matter-energy/noise-and-silence	
 natural-world/matter-energy	klappern	0	2	V		klappern		ˈklapɐn	klappern		hat				klepotať				natural-world/matter-energy/rustling-and-creaking	
 natural-world/matter-energy	rascheln	0	3	V		rascheln		ˈʁaʃəln	rascheln		hat				šuchotať				natural-world/matter-energy/rustling-and-creaking	
+natural-world/matter-energy	rasseln	0	3	V		rasseln		ˈʁasəln	rasseln		hat				hrkať				natural-world/matter-energy/rustling-and-creaking	
 natural-world/matter-energy	säuseln	0	3	V		säuseln		ˈzɔʏzəln	säuseln		hat				šuchotať				natural-world/matter-energy/rustling-and-creaking	
 natural-world/matter-energy	knistern	0	3	V		knistern		ˈknɪstɐn	knistern		hat				praskať				natural-world/matter-energy/rustling-and-creaking	
 natural-world/matter-energy	knacksen	0	3	V		knacksen		ˈknaksən	knacksen		hat				praskať				natural-world/matter-energy/rustling-and-creaking	

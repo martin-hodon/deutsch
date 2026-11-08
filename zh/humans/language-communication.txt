@@ -170,6 +170,7 @@
 3 V 告知 [gàozhī] = upovedomiť
 3 AN 健谈 [jiàntán] = komunikatívny
 3 AN 善于沟通 [shànyú gōutōng] = komunikatívny
+3 AN 坦率 [tǎnshuài] = zdieľny
 3 AN 哑 [yǎ] = nemý
 3 N 呼喊 [hūhǎn], 声 = výkrik
 3 V 聊 [liáo] = rozprávať sa

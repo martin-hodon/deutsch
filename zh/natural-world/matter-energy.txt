@@ -314,6 +314,7 @@
 3 V 扑通 [pūtōng] = čľupnúť
 3 V 突突响 [tūtūxiǎng] = drnčať
 3 V 颠簸 [diānbǒ] = hrkotať
+3 V 哗啦响 [huālāxiǎng] = hrkať
 3 V 噼里啪啦响 [pīlipālaxiǎng] = prašťať
 
 # shrieks-and-hoots

@@ -111,6 +111,7 @@
 3 N el sondeo [sonˈdeo], sondeos = prieskum
 3 N la alocución [alokuˈθjon], alocuciones = príhovor
 3 AN comunicativo [komunikaˈtiβo], comunicativa = komunikatívny
+3 AN expansivo [ekspanˈsiβo], expansiva = zdieľny
 
 # mumble-and-babble
 2 V callar [kaˈʎaɾ] = mlčať

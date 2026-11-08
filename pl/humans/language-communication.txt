@@ -122,6 +122,7 @@
 3 AV niewytłumaczalnie [ɲɛvɨtwumaˈtʂalɲɛ] = nevysvetliteľne
 3 N nie|zgoda [ɲɛˈzɡɔda], ż, niezgody = nesúhlas
 3 AN rozmowny [rɔzˈmɔvnɨ] = zhovorčivý
+3 AN wylewny [vɨˈlɛvnɨ] = zdieľny
 3 V wy|perswadować [vɨpɛrsfaˈdɔvatɕ], dk = vyhovoriť
 
 # mumble-and-babble

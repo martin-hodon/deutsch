@@ -10100,6 +10100,7 @@ humans/language-communication	wymownie	0	3	AV	wymownie				vɨˈmɔvɲɛ	wymownie
 humans/language-communication	niewytłumaczalnie	0	3	AV	niewytłumaczalnie				ɲɛvɨtwumaˈtʂalɲɛ	niewytłumaczalnie							nevysvetliteľne					humans/language-communication/speaking-and-asking	
 humans/language-communication	niezgoda	0	3	N	niezgoda		ż	niezgody	ɲɛˈzɡɔda	nie|zgoda							nesúhlas			N súhlas		humans/language-communication/speaking-and-asking	
 humans/language-communication	rozmowny	0	3	AN	rozmowny				rɔzˈmɔvnɨ	rozmowny							zhovorčivý					humans/language-communication/speaking-and-asking	
+humans/language-communication	wylewny	0	3	AN	wylewny				vɨˈlɛvnɨ	wylewny							zdieľny					humans/language-communication/speaking-and-asking	
 humans/language-communication	wyperswadować	0	3	V	wyperswadować				vɨpɛrsfaˈdɔvatɕ	wy|perswadować				dk			vyhovoriť					humans/language-communication/speaking-and-asking	
 humans/language-communication	milczeć	0	1	V	milczeć				ˈmʲiltʂɛtɕ	milczeć							mlčať			V hovoriť | V rozprávať		humans/language-communication/mumble-and-babble	
 humans/language-communication	szeptać	0	2	V	szeptać				ˈʂɛptatɕ	szeptać	szepnąć						šepkať			V kričať		humans/language-communication/mumble-and-babble	
@@ -15896,6 +15897,7 @@ natural-world/matter-energy	szemrać	0	3	V	szemrać				ˈʂɛmratɕ	szemrać	zas
 natural-world/matter-energy	chlupnąć	0	3	V	chlupnąć				ˈxlupnɔɲtɕ	chlupnąć				dk			čľupnúť					natural-world/matter-energy/rustling-and-creaking	
 natural-world/matter-energy	terkotać	0	3	V	terkotać				tɛrˈkɔtatɕ	terkotać	zaterkotać						drnčať					natural-world/matter-energy/rustling-and-creaking	
 natural-world/matter-energy	turkotać	0	3	V	turkotać				turˈkɔtatɕ	turkotać	zaturkotać						hrkotať					natural-world/matter-energy/rustling-and-creaking	
+natural-world/matter-energy	grzechotać	0	3	V	grzechotać				ɡʐɛˈxɔtatɕ	grzechotać	zagrzechotać						hrkať					natural-world/matter-energy/rustling-and-creaking	
 natural-world/matter-energy	warkotać	0	3	V	warkotać				varˈkɔtatɕ	warkotać	zawarkotać						prašťať					natural-world/matter-energy/rustling-and-creaking	
 natural-world/matter-energy	krzyknąć	0	2	V	krzyknąć				ˈkʂɨknɔɲtɕ	krzyknąć				dk			vykríknuť					natural-world/matter-energy/shrieks-and-hoots	
 natural-world/matter-energy	wrzeszczeć	0	2	V	wrzeszczeć				ˈvʐɛʂtʂɛtɕ	wrzeszczeć	wrzasnąć						škriekať					natural-world/matter-energy/shrieks-and-hoots	

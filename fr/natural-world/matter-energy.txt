@@ -251,6 +251,7 @@
 3 V murmurer [myʁmyˈʁe] = zurčať
 3 V pétarader [petaʁaˈde] = drnčať
 3 V cahoter [kaɔˈte] = hrkotať
+3 V ferrailler [fɛʁaˈje] = hrkať
 3 V crépiter [kʁepiˈte] = prašťať
 
 # shrieks-and-hoots

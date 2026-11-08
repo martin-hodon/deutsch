@@ -302,6 +302,7 @@
 3 V borbottare [borboˈtːaːre] = drnčať
 3 V ronzare [ronˈdzaːre] = drnčať
 3 V sferragliare [sferaʎˈʎaːre] = hrkotať
+3 V sferragliare [sferaʎˈʎaːre] = hrkať
 3 V crepitare [krepiˈtaːre] = prašťať
 3 V tambureggiare [tamburedˈdʒaːre] = prašťať
 

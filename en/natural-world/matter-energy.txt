@@ -303,6 +303,7 @@
 3 V rattle [ˈrætəl] = drnčať
 3 V chug [tʃʌɡ] = drnčať
 3 V rattle [ˈrætəl] = hrkotať
+3 V rattle [ˈrætəl] = hrkať
 3 V rumble [ˈrʌmbəl] = hrkotať
 3 V crackle [ˈkrækəl] = prašťať
 3 V bang [bæŋ] = prašťať
