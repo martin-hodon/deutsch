@@ -264,3 +264,6 @@ print-from = from word no.
 print-go = print
 print-last = last printed up to no. {n}
 print-of = of {n}
+# the header's ☰ (engine/header.js)
+menu = menu: the dictionary's filters, print, settings, statistics, data, the generator
+close = close

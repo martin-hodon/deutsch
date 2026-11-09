@@ -260,3 +260,6 @@ print-from = od slova č.
 print-go = tlačiť
 print-last = naposledy vytlačené po č. {n}
 print-of = z {n}
+# the header's ☰ (engine/header.js)
+menu = ponuka: filtre slovníka, tlač, nastavenia, štatistika, dáta, generátor
+close = zavrieť

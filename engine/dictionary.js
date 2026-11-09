@@ -1,4 +1,4 @@
-// THE DICTIONARY PAGE (dictionary.html): a language's words looked up as one types, an entry opened with everything the
+// THE DICTIONARY VIEW (index.html #dictionary, #de/Haus): a language's words looked up as one types, an entry opened with everything the
 // vocabulary data holds of it -- its sound (spoken on 🔊), meanings, grammar details, its MORPHOLOGY TABLE (the forms of
 // engine/paradigm.js laid out by language and part of speech: LAYOUTS below), its RELATED WORDS (the synonyms of its
 // concept, its word family -- the dictionary's `root` / `derived` lines --, the words sharing a component of its
@@ -20,13 +20,13 @@
 import { loadDictionary, shown, spoken } from "./data.js";
 import { LANGS } from "./langs.js";
 import { keptPair, keepLearn } from "./storage.js";
-import { mountHeader } from "./header.js";
+import { onLearn, chooseLearn, learning, closePops } from "./header.js";
 import { loadParadigms } from "./paradigm.js";
 import { formsIndex } from "./wordforms.js";
 import { LAYOUTS } from "./layouts.js";
 import { loadDerivations, derivationText } from "./derive.js";
 import { createVoice, loadProsody } from "./speak.js";
-import { loadText, t, tn, has, applyText } from "./text.js";
+import { t, tn, has, applyText } from "./text.js";
 import { createPractice } from "./practice.js";
 import * as DE from "../de/morph.js";
 import { adaptVoice, loadNet, loadProfiles, lexicon, recognizeAll, record, voiceSample } from "./listen.js";
@@ -808,7 +808,7 @@ function showHanziPick() {
 
 async function useLang(l) {
   if (l === lang && dict) return;
-  lang = l; keepLearn(l); Object.assign($("title"), { textContent: LANGS[l].flag, title: LANGS[l].name });   // (the title: the language's flag -- chosen in the settings)
+  lang = l; keepLearn(l); chooseLearn(l);   // (an entry of another language opened: the header's flag and the other views follow)
   dict = await loadLang(l);
   if ($("mylist")) showListCount();
   voice.prosody = await loadProsody(LANGS[l].speech);
@@ -828,9 +828,9 @@ function fromHash() {
 
 export async function start() {
   const pair = keptPair();
-  await loadText(LANGS[pair.other]?.ui ?? "sk/ui.txt", "en/ui.txt");
-  applyText(); mountHeader("dictionary");
   native = pair.other; await loadLabels();
+  // the header's flag: this language's words -- an entry open closes to the list (the address #de only when the dictionary is the view shown)
+  onLearn((code) => { if (code === lang) return; useLang(code).then(() => { if (open || !$("entry").hidden) { if (document.body.dataset.view === "dictionary") history.pushState(null, "", "#" + code); showList(); } }); });
   try { topic = localStorage.getItem(TOPIC_KEY) ?? ""; } catch { topic = ""; }
   try { const f = JSON.parse(localStorage.getItem(FREQ_KEY) ?? "null"); if (Array.isArray(f) && f.length) freqs = new Set(f.map(Number).filter((n) => n >= 1 && n <= 3)); } catch { /* (none kept) */ }
   if (!freqs.size) freqs = new Set([1, 2, 3]);
@@ -839,7 +839,7 @@ export async function start() {
   $("topic").onchange = () => chooseTopic($("topic").value);
   $("section").onchange = () => chooseTopic($("section").value);
   const h = fromHash();
-  await useLang(h?.lang ?? pair.learn);
+  await useLang(h?.lang ?? learning());
   $("search").oninput = () => { query = $("search").value; showHanziPick(); if (open) { history.pushState(null, "", "#" + lang); showList(); } else showResults(); };
   $("search").onkeydown = (ev) => { if (ev.key === "Enter") { const first = lookup(query)[0]; if (first) openEntry(first); } };   // (Enter opens the first match)
   $("search").focus();
@@ -851,8 +851,7 @@ export async function start() {
   $("mylist").onclick = () => { listView = !listView; byRank = false; views(); };
   showListCount();
   $("parts").onclick = () => showComponent("");   // (the index of components by strokes)
-  $("print").onclick = printList;
-  $("title").onclick = () => (location.href = "trainer.html");   // (the title switches back to the trainer)
+  $("print").onclick = () => { closePops(); printList(); };   // (in the ☰ menu)
   const openHash = () => {
     const hh = fromHash(); if (!hh) { if (open || !$("entry").hidden) showList(); return; }
     useLang(hh.lang).then(() => {

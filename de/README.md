@@ -125,8 +125,8 @@ for two words (*das Gefühl* / *gefühl…*, *sein* the verb and *sein* the poss
                                            # meaning.tsv, offline.json
     CORPUS=.../deu_news_2022_1M-words.txt python3 tools/order.py   # -> order.tsv: rank word pos count, by corpus counts
 
-`trainer.html` drills articles, plurals and vocabulary (DE→SK, SK→DE) from `deutsch.tsv`, three options a question,
-with spaced repetition: serve the folder (`python3 -m http.server`, then `localhost:8000/trainer.html`). Its code is in
+`index.html` (the Grammar view) drills articles, plurals and vocabulary (DE→SK, SK→DE) from `deutsch.tsv`, three options a question,
+with spaced repetition: serve the folder (`python3 -m http.server`, then `localhost:8000/`). Its code is in
 `trainer/`, one job a file: `data.js` (read the dictionary), `questions.js` (the modes), `plurals.js` (plural rules
 for lookalike wrong plurals), `storage.js` (IndexedDB: every answer, the learner's name and settings), `srs.js` (the
 schedule, computed from the answers), `stats.js`, `ui.js`, `app.js`, and `speak.js`: the German SPOKEN from each entry's

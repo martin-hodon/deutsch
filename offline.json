@@ -1,6 +1,6 @@
 {
- "version": "69aae5104e",
- "made": "2026-11-07 12:02",
+ "version": "271c4a6313",
+ "made": "2026-11-09 19:41",
  "files": [
   "concepts/labels.txt",
   "de/dict.tsv",
@@ -56,6 +56,7 @@
   "engine/listen.js",
   "engine/listen.json",
   "engine/listen_net.json",
+  "engine/main.js",
   "engine/meaning.js",
   "engine/offline.js",
   "engine/paradigm.js",

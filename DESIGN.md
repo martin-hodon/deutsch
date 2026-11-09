@@ -20,7 +20,7 @@ through any other, Slovak the index everything is keyed by. (`../deutsch/` is th
                          sounds.txt its letter rules, adverbs.txt, irregular.txt, tests.txt), its realizer
                          (realize.js) and morphology (morph.js), ui.txt (the interface in that language), dict.tsv
                          (compiled), order.tsv (corpus ranks)
-      *.html             the pages: trainer.html (the Grammar page: words, morphology, syntax, overview), dictionary, reading, sentences/stories, speech benches
+      *.html             index.html (the one page: Grammar -- words, morphology, syntax, overview --, dictionary, reading; trainer/dictionary/reading.html redirect into it), sentences/stories, speech benches
 
 What may depend on what: `world/` and `engine/` know no language; a language folder knows the world (its lines end
 in concept IDs) and the engine (its realizer implements the engine's interface); nothing in `engine/` imports a
@@ -209,17 +209,17 @@ Sizes: dict.tsv rows de 12,705, en 13,016, es 13,972, fr 13,744, it 15,462, pl 1
 CON 39, INT 8, ART 6). Chinese covers HSK 1-6 except names, erhua variants and bound phrases (24 / 18 / 44 / 45 / 63 /
 104 of the six levels unsaid).
 
-## The grammar page (trainer.html, engine/app.js; the tab is called Grammar)
+## The grammar view (index.html #grammar, engine/app.js; the tab is called Grammar)
 
 The page speaks THE LEARNER'S OWN LANGUAGE (engine/text.js: `<lang>/ui.txt`, `sk/ui.txt` -- Slovak by default, English
 the fallback for a missing key; chosen in the settings, "my language", with the vocabulary asked through it); the
-language LEARNED is chosen on one line with the EXERCISE -- **Words**, **Morphology**, **Syntax**, **Overview** -- and that exercise's
+language LEARNED is the header's flag; one line chooses the EXERCISE -- **Words**, **Morphology**, **Syntax**, **Overview** -- and that exercise's
 filters (the level, the word category's first level, the structure, the rule set, the verbs); the word modes (the
 vocabulary both ways, der/die/das, the plural, gender, aspect, measure word, articles) are tabs under it. Every choice
-is kept across visits (engine/storage.js: the name and the settings `view`, `pair` = { learn, other: my language },
+is kept across visits (engine/storage.js: the settings `view`, `pair` = { learn, other: my language },
 `speech` in localStorage and in the IndexedDB profile, stamped { t, v }, the newer wins; the answer log in IndexedDB),
 and a language change keeps the kind of exercise (morphology in German -> morphology in Spanish). The welcome screen
-shows once a browsing session; `trainer.html#panel-settings|stats|data` opens the trainer on that panel at once.
+shows once a browsing session (no name is asked: the totals only); `#panel-settings|stats|data` opens the trainer on that panel at once.
 
 - **Words** (spaced repetition, srs.js): the level is one FREQ (1, 2 or 3), not "up to". The word asked or answered
   is SPOKEN (engine/speak.js). The category filter and the statistics use the categories' first level only. The
@@ -256,18 +256,21 @@ shows once a browsing session; `trainer.html#panel-settings|stats|data` opens th
   clicked opens that exercise on the structure or rule set.
 - **Recorded data** (⋯): every answer kept in the browser, newest first, by exercise, and the whole log as JSON.
 
-## The header (engine/header.js)
+## One page, the header (index.html, engine/main.js, engine/header.js)
 
-One header for the three pages, built at start: the title left (a click switches trainer <-> dictionary); in the upper
-right corner the page tabs Grammar | 📖 Dictionary | 📄 Reading | ⋯ (a small icon tab) and, under them, the learner's
-name. ⋯ is the trainer's own section (trainer.html#more, shown without leaving the trainer page): the settings open --
-the language learned, one's own, speech --, then statistics and recorded data (opened on a click; #panel-stats,
-#panel-data open one) and the sentence generator. ONE LANGUAGE across the pages: the pair setting is the only record of
-the language chosen, chosen in the settings only; the dictionary and the reading page read it on start; every page shows its
-flag as its title (langs.js `flag`; a dictionary link into another language's entry writes `learn` back: storage.js
-`keptPair` / `keepLearn`).
+ONE PAGE holds the three views -- the address says which: `#grammar` (the default), `#dictionary` (or a dictionary address:
+`#de`, `#de/Haus`, `#de/cat/food`, `#zh/comp/氵`), `#reading`; `#more` and `#panel-...` are the trainer's own. The trainer
+starts at once, the dictionary and the reading when first shown; a change of view or of language reloads nothing (the old
+trainer.html, dictionary.html, reading.html addresses redirect, their hash kept). The header: at the LEFT the FLAG of the
+language learned -- a click opens the languages (langs.js `flag`, `name`; those with a `dict`), and the one chosen is
+learned in every view at once (header.js `chooseLearn` -> `onLearn` listeners; the pair setting is the only record,
+storage.js `keptPair` / `keepLearn`; a dictionary link into another language's entry chooses it the same way) -- in the
+MIDDLE the tabs Grammar | 📖 Dictionary | 📄 Reading, at the RIGHT ☰: a popup (closed with ✕, Escape or a click outside) with
+the dictionary's filters (the category, FREQ 1 2 3, print) while the dictionary is shown, then the trainer's sections: the
+settings (one's own language, speech, the version), statistics and recorded data (#panel-stats, #panel-data open one) and
+the sentence generator. No name is asked or shown.
 
-## The dictionary (dictionary.html, engine/dictionary.js)
+## The dictionary (#dictionary, engine/dictionary.js)
 
 A language chosen, a word typed is looked up as one types: the word itself first, then a word the typed FORM belongs
 to (dem -> der · dat.m, sind -> sein · present.1pl, them -> they · pron.3pl, della -> di), then the Slovak meanings
@@ -302,7 +305,7 @@ component that is no character (氵 丨) take their MEANING from `zh/chars.txt` 
 line per reading; 2,513 characters, Slovak): the gloss beside it in the lists, the tooltip of a component link, the
 meaning lines of its component view, the search's component row.
 
-## Reading (reading.html, engine/reading.js)
+## Reading (#reading, engine/reading.js)
 
 A text pasted in a language is shown word by word as soon as it is pasted or when typing pauses. A word under the mouse
 shows the dictionary words it is a form of (läuft -> laufen present.3sg, ogrodzie -> ogród loc.sg), their meanings and

@@ -1,45 +1,8 @@
 <!doctype html>
 <html lang="sk">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Dictionary</title>
-<link rel="stylesheet" href="engine/style.css">
+<head><meta charset="utf-8"><title>…</title>
+<!-- the page is index.html now (one page for the grammar, the dictionary and the reading); an old link lands here and goes on, its hash kept -->
+<script>location.replace("index.html" + (location.hash && location.hash !== "#" ? location.hash : "#dictionary"));</script>
 </head>
-<body class="dictionary">
-<main>
-  <header class="top">
-    <h1 id="title" class="flag"></h1>
-  </header>
-  <div class="search-row">
-    <input id="search" type="search" autocomplete="off" data-t-placeholder="search" placeholder="type a word">
-    <button id="listen" class="listen" data-t-title="listen" title="say a word">🎤</button>
-    <button id="stats" class="tab stats-toggle" data-t="articles" data-t-title="articles-help" hidden>der · die · das</button>
-    <button id="parts" class="tab stats-toggle" data-t="components" data-t-title="components-help" hidden>部件</button>
-    <button id="byrank" class="tab stats-toggle" data-t="by-frequency" data-t-title="by-frequency-help">by frequency</button>
-    <button id="mylist" class="tab stats-toggle" data-t-title="my-list-help">★</button>
-    <button id="print" class="tab stats-toggle" data-t-title="print-help-button">🖨</button>
-  </div>
-  <div id="hanzi-pick" class="hanzi-pick" hidden></div>
-  <div class="search-row topic-row">
-    <select id="topic" data-t-title="topic-title"></select>
-    <select id="section" data-t-title="topic-title" hidden></select>
-    <span id="freq" class="freq-filter" data-t-title="freq-filter-title">
-      <span class="freq-label">FREQ</span>
-      <label class="chip" data-t-title="freq-1"><input type="checkbox" value="1" checked>1</label>
-      <label class="chip" data-t-title="freq-2"><input type="checkbox" value="2" checked>2</label>
-      <label class="chip" data-t-title="freq-3"><input type="checkbox" value="3" checked>3</label>
-    </span>
-  </div>
-  <p id="search-help" class="mute" data-t="search-help">Type a word in the language, or its meaning in your own; click a word for its forms and the words around it.</p>
-  <div id="results" class="results"></div>
-  <p id="no-results" class="mute" hidden data-t="no-results">nothing found</p>
-  <section id="entry" class="card entry" hidden></section>
-</main>
-<div id="print-sheet" class="print-sheet"></div>
-<script type="module">
-import { start } from "./engine/dictionary.js";
-start();
-</script>
-</body>
+<body><a href="index.html#dictionary">→</a></body>
 </html>

@@ -1,4 +1,4 @@
-// THE READING PAGE (reading.html): a text pasted in a language is shown word by word; a word under the mouse shows what
+// THE READING VIEW (index.html #reading): a text pasted in a language is shown word by word; a word under the mouse shows what
 // the dictionary knows of it -- the dictionary word it is a form of (läuft -> laufen) and which form it is (Präsens ·
 // er/sie/es: engine/layouts.js), its meanings, its IPA; an English clitic (dog's, it's, don't) as the word and what the
 // clitic is --, a click
@@ -8,15 +8,14 @@
 // The text is kept in the browser (localStorage) for the next visit.
 import { loadDictionary, shown, spoken } from "./data.js";
 import { LANGS } from "./langs.js";
-import { keptPair, keepLearn } from "./storage.js";
-import { mountHeader } from "./header.js";
+import { onLearn, learning } from "./header.js";
 import { formsIndex, fold, ELISIONS } from "./wordforms.js";
 import { cellsLabel } from "./layouts.js";
 import { loadDerivations, derivationText } from "./derive.js";
 import { loadSounds } from "./sounds.js";
 import { loadCharMeanings } from "./hanzi.js";
 import { createVoice, loadProsody, phrase } from "./speak.js";
-import { loadText, t, applyText } from "./text.js";
+import { t, applyText } from "./text.js";
 import * as DE from "../de/morph.js";   // (pluralIPA: a German plural's sound)
 
 const $ = (id) => document.getElementById(id);
@@ -112,7 +111,7 @@ function showTip(span, hits) {
     if (!h.e) { tip.append(el("div", "tip-gram", h.note)); continue; }   // (no word of the dictionary: what is known of the form)
     if (h.derived) tip.append(el("div", "tip-derived", `${span.textContent} = ${derivationText(h.derived)}`));
     const e = h.e, head = el("div", "tip-word", shown(e), el("span", "tip-pos", ` ${e.pos}`));
-    const a = el("a", "tip-open", "📖"); a.href = `dictionary.html#${lang}/${encodeURIComponent(e.id)}`; a.title = t("dictionary"); head.append(" ", a);
+    const a = el("a", "tip-open", "📖"); a.href = `#${lang}/${encodeURIComponent(e.id)}`;   // (the dictionary view, on this page) a.title = t("dictionary"); head.append(" ", a);
     tip.append(head);
     tip.append(el("div", "tip-ipa", (e.pinyin ? e.pinyin + " · " : "") + (e.ipa ? `[${e.ipa}]` : "")));
     const w = span.textContent.toLowerCase(), cells = h.cells ?? [], exact = cells.filter((c) => c.form.toLowerCase() === w);   // (läuft, not lauft)
@@ -151,18 +150,16 @@ function renderText(text) {
 }
 
 async function useLang(l) {
-  lang = l; keepLearn(l); Object.assign($("title"), { textContent: LANGS[l].flag, title: LANGS[l].name });   // (the title: the language's flag -- chosen in the settings)
-  $("status").textContent = t("making");
+  lang = l;
+  $("read-status").textContent = t("making");
   dict = await loadLang(l);
   voice.prosody = await loadProsody(LANGS[l].speech);
-  $("status").textContent = "";
+  $("read-status").textContent = "";
 }
 export async function start() {
-  const pair = keptPair();
-  await loadText(LANGS[pair.other]?.ui ?? "sk/ui.txt", "en/ui.txt");
-  applyText(); mountHeader("reading");
   const kept = JSON.parse(localStorage.getItem("trainer:reading") ?? "null");
-  await useLang(pair.learn);   // (the one language chosen across the pages, not the text's: a kept text of another language is just shown)
+  onLearn((code) => { if (code !== lang) useLang(code).then(() => { if ($("input").value.trim()) renderText($("input").value); }); });   // (the header's flag: the text read in it)
+  await useLang(learning());   // (the one language chosen across the views, not the text's: a kept text of another language is just shown)
   if (kept?.text) { $("input").value = kept.text; renderText(kept.text); }
   // the text is shown as soon as it is pasted, or when typing pauses (no button)
   const show = () => { const text = $("input").value; try { localStorage.setItem("trainer:reading", JSON.stringify({ lang, text })); } catch { /* (storage blocked) */ } if (text.trim()) renderText(text); else { $("text").hidden = true; $("text").replaceChildren(); } };
@@ -170,6 +167,5 @@ export async function start() {
   $("input").oninput = () => { clearTimeout(timer); timer = setTimeout(show, 700); };
   $("input").onpaste = () => { clearTimeout(timer); timer = setTimeout(show, 50); };
   $("input").onkeydown = (ev) => { if (ev.key === "Enter" && (ev.ctrlKey || ev.metaKey)) { clearTimeout(timer); show(); } };
-  $("title").onclick = () => (location.href = "trainer.html");
   document.addEventListener("click", (ev) => { if (!ev.target.closest(".w, .tip")) hideTip(); });
 }

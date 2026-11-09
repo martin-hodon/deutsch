@@ -25,38 +25,22 @@ export function withArticleColor(text, on = true) {
 // the page's fixed words, in the learner's own language (after loadText, and again when the language changes)
 export const showText = (lang) => { applyText(); document.documentElement.lang = lang; };
 
-// First use: ask for the name, `onName(name)` when given
-export function askName(onName) {
-  $("welcome-title").textContent = t("welcome");
-  $("welcome-text").textContent = t("your-name");
-  $("name-form").hidden = false;
-  $("start").hidden = true;
-  $("name").focus();
-  $("name-form").onsubmit = event => {
-    event.preventDefault();
-    const name = $("name").value.trim();
-    if (name) onName(name);
-  };
-}
-
-// Every later visit: greet with the totals (all modes), `onStart()` on the button
-export function showWelcome(name, today, overall, onStart) {
+// The welcome (once a browsing session): the totals (all modes), `onStart()` on the button -- no name asked, none shown
+export function showWelcome(today, overall, onStart) {
   const line = row => row ? t("stats-line", { n: row.answers, answers: tn("answers", row.answers), p: percentCorrect(row), s: averageSeconds(row) }) : "–";
-  $("welcome-title").textContent = t("hello", { name });
+  $("welcome-title").textContent = t("welcome");
   $("welcome-text").textContent = "";
   $("welcome-stats").replaceChildren(
     element("div", "", element("span", "label", t("today")), line(today)),
     element("div", "", element("span", "label", t("overall")), line(overall)));
   $("welcome-stats").hidden = false;
-  $("name-form").hidden = true;
   $("start").hidden = false;
   $("start").focus();
   $("start").onclick = onStart;
-  $("title").onclick = () => (location.href = "dictionary.html");   // (the title switches to the dictionary; the tabs beside it too)
 }
 
 // THE VERSION (engine/offline.js: `check()` -> the online version, null with no network; `update()` fetches it and
-// reloads): in the ⋯ settings, with a check for a newer one -- and the trainer checks by itself
+// reloads): in the ☰ settings, with a check for a newer one -- and the trainer checks by itself
 // once at the start (with a network): a newer one online shows a line over whatever is on screen, its Update beside it.
 // (The check used to be on the welcome screen alone, which a learner who comes back to an open tab never sees again: a
 // phone stayed on an old version for days.) Updating replaces only the trainer's files: the answers and the settings are
@@ -90,11 +74,9 @@ export function showVersion(kept, { check, update }) {
   if (kept) ask(true);
 }
 
-export function showTrainer(name) {
+export function showTrainer() {
   $("welcome").hidden = true;
   $("trainer").hidden = false;
-  $("moreTab").hidden = false;
-  $("learner").textContent = name;
 }
 
 // THE MODES: the exercise select (Words, Morphology, Syntax -- beside the language learned), the word modes as tabs
@@ -141,13 +123,7 @@ export function showCategories(categories) {
   if (categories.includes(kept)) $("category").value = kept;
 }
 
-// the language learned (the select above the exercises) -- `onChoose(code)`; and the learner's own (in the settings)
-export function showLearn(langs, learn, onChoose) {
-  const codes = Object.keys(langs).filter((c) => langs[c].dict);
-  $("learn").replaceChildren(...codes.map((c) => new Option(langs[c].name, c)));
-  $("learn").value = learn;
-  $("learn").onchange = () => onChoose($("learn").value);
-}
+// the learner's own language (in the settings) -- `onChoose(code)`; the language learned is the header's flag (engine/header.js)
 export function showNative(langs, native, onChoose) {
   const codes = Object.keys(langs).filter((c) => langs[c].ui);
   $("native").replaceChildren(...codes.map((c) => new Option(langs[c].name, c)));
@@ -155,9 +131,8 @@ export function showNative(langs, native, onChoose) {
   $("native").onchange = () => onChoose($("native").value);
 }
 
-// the heading: the language learned, its flag (as on the dictionary and the reading page; the name in the tooltip)
-export function showTitle(name, flag) {
-  Object.assign($("title"), { textContent: flag, title: name });
+// the document's title: the language learned (its flag is the header's, engine/header.js)
+export function showTitle(name) {
   document.title = `${name} · ${t("trainer")}`;
 }
 
@@ -414,16 +389,15 @@ export function onKeys(handler) {
   });
 }
 
-// ---- ⋯: the trainer's own section (the header's ⋯ tab, trainer.html#more) -- the settings open, statistics and the
-// recorded data under them, each opened on a click (`onPanel(name)` fills it as it opens), the sentence generator a link
+// ---- the ☰ sections (#more, #panel-...): the settings open, statistics and the recorded data under them, each opened on
+// a click (`onPanel(name)` fills it as it opens)
 export function setupMore({ onPanel }) {
   for (const p of document.querySelectorAll("#more-view details.panel")) p.ontoggle = () => { if (p.open) onPanel(p.id.replace("panel-", "")); };
 }
-// the exercises or ⋯ (`panel` opened in it: a link to trainer.html#panel-stats); the header's tab marked current
+// the exercises or the ☰ sections (`panel` opened in it: #panel-stats)
 export function showView(more, panel = null) {
   $("trainer").hidden = more;
   $("more-view").hidden = !more;
-  for (const a of document.querySelectorAll(".pages a")) if (a.dataset.t === "trainer" || a.id === "moreTab") a.classList.toggle("current", (a.id === "moreTab") === more);
   if (more && panel) { $("panel-" + panel).open = true; $("panel-" + panel).scrollIntoView({ behavior: "smooth", block: "nearest" }); }
 }
 export const inMore = () => !$("more-view").hidden;

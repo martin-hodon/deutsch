@@ -104,7 +104,6 @@ button, select { font: inherit; color: inherit; background: var(--card); border:
 .stats tr.total td { font-weight: 700; color: var(--accent); }
 
 /* the welcome */
-h1 #learner { float: right; color: var(--mute); font-size: 16px; font-weight: 500; margin-top: 6px; }
 .welcome { background: var(--card); border: 1px solid var(--line); border-top: 5px solid var(--accent); border-radius: 16px;
            padding: 36px 20px; text-align: center; }
 .welcome h2 { font-size: 30px; margin: 0 0 8px; }
@@ -137,19 +136,33 @@ h1 #learner { float: right; color: var(--mute); font-size: 16px; font-weight: 50
 @keyframes bounce { 40% { transform: scale(1.025); } }
 @keyframes shake { 20%, 60% { transform: translateX(-8px); } 40%, 80% { transform: translateX(8px); } }
 
-/* ---- the header: the language, the learner, the page tabs with ⋯ ------------------------------------------------- */
-header.top { display: flex; align-items: flex-start; gap: 10px; margin: 4px 0 14px; }
-header.top h1 { margin: 0; flex: 1; cursor: pointer; }
-header.top h1.flag { font-size: 34px; line-height: 1.1; }   /* every page's title: the language's flag */
-/* the upper right corner: the page tabs (⋯ the small last one), under them the learner -- the same on every page (engine/header.js) */
-.corner { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
-.who { display: flex; align-items: center; gap: 10px; min-height: 28px; }
-.pages { display: flex; gap: 2px; border: 1px solid var(--line); border-radius: 10px; padding: 2px; background: var(--card); }
+/* ---- the header (engine/header.js): the flag of the language learned (a click: the languages), the view tabs, ☰ ----- */
+header.top { position: relative; display: flex; align-items: center; gap: 10px; margin: 4px 0 14px; }
+.lang-btn { flex: 0 0 auto; font-size: 28px; line-height: 1; padding: 2px 6px; border-radius: 10px; background: none; border-color: transparent; }
+.lang-btn:hover { border-color: var(--line); background: var(--card); }
+.pages { display: flex; gap: 2px; border: 1px solid var(--line); border-radius: 10px; padding: 2px; background: var(--card); margin: 0 auto; }
 .pages a { padding: 4px 10px; border-radius: 8px; color: var(--mute); text-decoration: none; font-size: 14px; white-space: nowrap; }
 .pages a.current { background: var(--accent); color: #fff; }
 .pages a:hover:not(.current) { background: var(--bg); color: var(--ink); }
-.pages a.more-tab { padding: 4px 7px; font-weight: 700; }
-header.top #learner { color: var(--mute); font-size: 16px; }
+.menu-btn { flex: 0 0 auto; font-size: 20px; line-height: 1; padding: 4px 9px; }
+/* the popups: under the header, the languages at the left, ☰ at the right; closed with ✕, Escape or a click outside */
+.pop { position: absolute; top: calc(100% + 6px); z-index: 30; min-width: 220px; max-width: min(380px, calc(100vw - 32px)); background: var(--card); border: 1px solid var(--line);
+       border-radius: 12px; padding: 12px 14px; box-shadow: 0 10px 30px rgba(0, 0, 0, .16); }
+.lang-pop { left: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 4px; }
+.pop h4 { grid-column: 1 / -1; margin: 0 0 4px; font-size: 12px; color: var(--mute); text-transform: uppercase; letter-spacing: .05em; font-weight: 600; }
+.lang-choice { display: flex; align-items: center; gap: 8px; padding: 6px 10px; text-align: left; border-color: transparent; background: none; }
+.lang-choice:hover { background: var(--bg); }
+.lang-choice.chosen { border-color: var(--accent); background: var(--bg); font-weight: 600; }
+.lang-flag { font-size: 22px; line-height: 1; }
+.menu { right: 0; min-width: 260px; }
+.pop-close { position: absolute; top: 6px; right: 6px; border: 0; background: none; color: var(--mute); font-size: 16px; padding: 4px 8px; }
+.pop-close:hover { color: var(--ink); }
+.menu-part + .menu-part { margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--line); }
+.menu-part .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 6px 0; }
+.menu-part select { max-width: 100%; }
+#menu-more { display: grid; gap: 2px; }
+#menu-more a { padding: 7px 10px; border-radius: 8px; color: inherit; text-decoration: none; }
+#menu-more a:hover { background: var(--bg); }
 
 /* ---- the language learned and the exercise (one line with the filters), the word modes under it ------------------- */
 .mute { color: var(--mute); }
@@ -261,8 +274,7 @@ body[data-group="sentences"] #prompt { font-size: 24px; line-height: 1.35; }
 .built .tile.given { border-style: dotted; color: var(--mute); background: none; }
 .panel h4 { margin: 14px 0 2px; font-size: 15px; }
 
-/* ---- the dictionary page (dictionary.html, engine/dictionary.js) ---- */
-.dictionary .top { display: flex; align-items: center; justify-content: space-between; }
+/* ---- the dictionary view (engine/dictionary.js) ---- */
 .search-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 6px 0 4px; }
 .search-row select { flex: 0 0 auto; }
 .search-row .listen { flex: 0 0 auto; font-size: 20px; padding: 4px 10px; }
@@ -325,8 +337,8 @@ body[data-group="sentences"] #prompt { font-size: 24px; line-height: 1.35; }
 .stats-n { color: var(--mute); font-size: 14px; text-align: right; }
 .stats-words { margin: 6px 0; } .stats-words summary { cursor: pointer; font-weight: 700; }
 
-/* ---- the reading page (reading.html, engine/reading.js) ---- */
-.reading textarea { width: 100%; font: inherit; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--card); color: inherit; resize: vertical; }
+/* ---- the reading view (engine/reading.js) ---- */
+#view-reading textarea { width: 100%; font: inherit; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--card); color: inherit; resize: vertical; }
 .read-actions { display: flex; gap: 12px; align-items: center; margin: 8px 0 14px; }
 .text { font-size: 19px; line-height: 1.7; }
 .text .para { margin: 0 0 12px; }
@@ -343,12 +355,11 @@ body[data-group="sentences"] #prompt { font-size: 24px; line-height: 1.35; }
 .tip-open { text-decoration: none; font-size: 14px; }
 .tip-ipa, .tip-sk { color: var(--mute); } .tip-sk { color: var(--ink); margin-bottom: 6px; }
 
-/* ---- a phone: the corner (tabs with ⋯, name) keeps the upper right, the title goes under it; nothing wider than the screen --- */
+/* ---- a phone: one row still -- the flag, the tabs tighter, ☰; nothing wider than the screen --------------------------- */
 @media (max-width: 600px) {
-  header.top { flex-wrap: wrap; }
-  header.top .corner { order: -1; width: 100%; }
-  .pages a { padding: 4px 8px; font-size: 13px; }
-  header.top h1 { font-size: 24px; }
+  header.top { gap: 6px; }
+  .pages a { padding: 4px 7px; font-size: 13px; }
+  .lang-btn { font-size: 24px; padding: 2px 4px; }
   main { overflow-x: hidden; }
 }
 
@@ -376,8 +387,8 @@ body[data-group="sentences"] #prompt { font-size: 24px; line-height: 1.35; }
 .ladder .tree-rule { font-weight: 600; font-size: 13px; }
 .ladder .tree-words { overflow-wrap: anywhere; }
 .ladder .tree-pos { font-size: 12px; color: var(--mute); margin-left: 6px; }
-/* the dictionary's category filter: a group or topic, then its section */
-.topic-row select { flex: 1 1 200px; min-width: 0; max-width: 100%; }
+/* the dictionary's category filter (in ☰): a group or topic, then its section */
+.menu #topic, .menu #section { flex: 1 1 100%; min-width: 0; }
 .topic-count { margin: 4px 0 6px; font-size: 14px; }
 .stats-roots { display: block; margin: 4px 0 8px; font-size: 14px; cursor: pointer; }
 /* the dictionary's FREQ filter: three toggles, on = shown; the box itself hidden, the chip is the box */

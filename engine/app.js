@@ -3,12 +3,12 @@
 // (a sentence made for the language learned, engine/practice.js: its syntax -- the word order --, its morphology -- a
 // form left out --, and the overview of both with examples). The page speaks the learner's own language (engine/text.js; Slovak until chosen in the settings), the
 // exercises ask the words through it; the language learned is chosen in the settings. On screen only what the
-// chosen exercise needs; the settings, statistics and the recorded data in the ⋯ section (trainer.html#more).
+// chosen exercise needs; the settings, statistics and the recorded data in the ☰ sections (#more, #panel-...).
 import { loadDictionary, details } from "./data.js";
 import { loadMorphology } from "../de/morph.js";
 import { modesFor } from "./questions.js";
 import { LANGS } from "./langs.js";
-import { mountHeader } from "./header.js";
+import { onLearn, chooseLearn, learning } from "./header.js";
 import { openStorage } from "./storage.js";
 import { buildCards, record, chooseNext, cardKey, newToday, dueCount, learnedCount, NEW_PER_DAY, SPACING_MEMORY } from "./srs.js";
 import { summarize } from "./stats.js";
@@ -54,11 +54,10 @@ const asked = [];                               // the cards asked last, oldest 
 // the page's words in the learner's own language (English for what a language's file has not)
 const useText = async (native) => { await loadText(LANGS[native]?.ui ?? LANGS.sk.ui, LANGS.en.ui); ui.showText(native); };
 
-async function start() {
+export async function start() {
   storage = await openStorage();
-  pair = { ...pair, ...(await storage.getSetting("pair")) };
-  await useText(pair.other);
-  mountHeader("trainer");
+  pair = { ...pair, ...(await storage.getSetting("pair")), learn: learning() };   // (the language learned: the header's flag, the one record)
+  if (pair.other !== (document.documentElement.lang || "sk")) await useText(pair.other);
   try {
     await loadMorphology("de/rules/morphology.txt");   // (the morphology: a German plural's sound)
   } catch (error) {
@@ -74,14 +73,16 @@ async function start() {
 
   // the offline copy (sw.js): kept in the browser, updated only from the welcome screen
   if (await startOffline()) ui.showVersion(await keptVersion(), { check: onlineVersion, update });
-  const name = await storage.getName();
+  // the language chosen in the header: the exercises in it (the kind kept), before or after Learn
+  onLearn(async (code) => { await usePair({ ...pair, learn: code }); storage.setSetting("pair", pair); if (begun) { await showFilters(); ask(); } });
   // (the welcome once a visit: after Learn was clicked, coming back -- from the dictionary -- goes straight to the questions)
-  const begun = (() => { try { return sessionStorage.getItem("trainer:begun") === "1"; } catch { return false; } })();
-  const more = moreHash();   // (another page's ⋯ tab: straight to the section)
-  if (name && (begun || more)) await learn(name);
-  else if (name) ui.showWelcome(name, summarize(answers, null, startOfToday()).all, summarize(answers, null).all, () => learn(name));
-  else ui.askName(async newName => { await storage.setName(newName); learn(newName); });
+  const was = (() => { try { return sessionStorage.getItem("trainer:begun") === "1"; } catch { return false; } })();
+  const more = moreHash();   // (a ☰ section asked for: straight to it)
+  window.addEventListener("hashchange", () => { if (moreHash() && !begun) learn(); });   // (a ☰ section asked for from the welcome: past it)
+  if (was || more) await learn();
+  else ui.showWelcome(summarize(answers, null, startOfToday()).all, summarize(answers, null).all, learn);
 }
+let begun = false;
 
 // the voice: the language learned is spoken (speak.js, with the language's own prosody -- loaded in usePair); the mode
 // says what, when (questions.js `say`); the question itself is read in the word exercises only -- a grammar exercise
@@ -93,14 +94,15 @@ const say = (ipa) => {   // -> ms it speaks; what was said can be heard again (u
   return voice.say(ipa) * 1000;
 };
 
-async function learn(name) {
+async function learn() {
+  if (begun) return;
+  begun = true;
   try { sessionStorage.setItem("trainer:begun", "1"); } catch { /* (storage blocked: the welcome shows again) */ }
-  ui.showTrainer(name);
+  ui.showTrainer();
   const speech = { level: 2, kind: "man", tempo: 1, ...(await storage.getSetting("speech")) };   // (medium, a man, the language's tempo: until chosen)
   Object.assign(voice, { level: speech.level, kind: speech.kind, tempo: speech.tempo });
   ui.showSpeech(speech, (s) => { Object.assign(voice, s); if (!s.level) voice.stop(); storage.setSetting("speech", s); });
   ui.setupMore({ onPanel });
-  ui.showLearn(LANGS, pair.learn, async (learn) => { await usePair({ ...pair, learn }); storage.setSetting("pair", pair); await showFilters(); ask(); });
   // (the learner's own language changed: the page's words anew, the exercises asked through it)
   ui.showNative(LANGS, pair.other, async (other) => { await useText(other); await usePair({ ...pair, other }); storage.setSetting("pair", pair); await showFilters(); ask(); });
   for (const id of ["level", "category", "structure", "rule", "verbs"]) ui.onChange(id, () => { view[id] = ui.selected(id); keepView(); if (id === "level") showMarks(); ask(); });
@@ -108,18 +110,16 @@ async function learn(name) {
   ui.onKeys(pressed);
   ask();
   route();
-  window.addEventListener("hashchange", route);
-  // (Grammar from ⋯: back to the exercises on the page, not a reload -- the address without its #more)
-  document.querySelector('.pages a[data-t="trainer"]').onclick = (event) => { if (!moreHash()) return; event.preventDefault(); history.pushState(null, "", location.pathname + location.search); route(); };
+  window.addEventListener("hashchange", route);   // (the Grammar tab is #grammar: back to the exercises from a ☰ section)
 }
-// the address says what is shown: #more the ⋯ section (#panel-stats, #panel-data: it, with that one open), else the exercises
+// the address says what is shown: #more the ☰ sections (#panel-stats, #panel-data: it, with that one open), else the exercises
 const moreHash = () => location.hash.match(/^#(?:more|panel-(settings|stats|data))$/);
 function route() {
   const m = moreHash();
   ui.showView(!!m, m?.[1]);
   if (m) for (const name of ["stats", "data"]) if (ui.panelOpen(name)) onPanel(name);   // (one left open: anew, the answers since)
 }
-// a section of ⋯ opened: what it shows
+// a section of ☰ opened: what it shows
 async function onPanel(panel) {
   if (panel === "stats") showProgress();
   if (panel === "data") ui.showData(answers, await storage.profile(), labelOfMode);
@@ -135,7 +135,8 @@ async function usePair(p) {
   if (other !== "sk") await loadLang(other);
   MODES = modesFor(p.learn, other, dicts);
   if (!MODES[mode]) mode = likeMode(was) ?? Object.keys(MODES)[0];
-  ui.showTitle(LANGS[p.learn].name, LANGS[p.learn].flag);
+  ui.showTitle(LANGS[p.learn].name);
+  chooseLearn(p.learn);   // (the header's flag, the other views: already it, as a rule)
   voice.prosody = await loadProsody(LANGS[p.learn].speech);
 }
 
@@ -322,7 +323,7 @@ function choose(option) {
 
 // Keys 1-3 do what a click on that option does; Enter checks a word order, or goes on; Backspace takes a word back
 function pressed(key) {
-  if (!current || ui.inMore()) return;
+  if (!current || ui.inMore() || document.body.dataset.view !== "trainer") return;   // (another view shown: its own keys)
   if (current.kind === "ladder") { if (key === "Enter") ask(); return; }
   if (current.kind === "order") {
     if (key === "Enter") return current.answered ? ask() : orderKeys?.check();
@@ -380,4 +381,3 @@ function showProgress(entries = null) {
   if (ui.panelOpen("stats")) ui.showStats(todayRows, overallRows, (n) => labelOf(m.kind === "order" ? structures : m.kind === "forms" ? rules : [], n), "· " + t(m.label));
 }
 
-start();

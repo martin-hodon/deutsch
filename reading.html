@@ -1,26 +1,8 @@
 <!doctype html>
 <html lang="sk">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Reading</title>
-<link rel="stylesheet" href="engine/style.css">
+<head><meta charset="utf-8"><title>…</title>
+<!-- the page is index.html now (one page for the grammar, the dictionary and the reading); an old link lands here and goes on, its hash kept -->
+<script>location.replace("index.html" + (location.hash && location.hash !== "#" ? location.hash : "#reading"));</script>
 </head>
-<body class="reading">
-<main>
-  <header class="top">
-    <h1 id="title" class="flag"></h1>
-  </header>
-  <div class="search-row">
-    <span id="status" class="mute"></span>
-  </div>
-  <textarea id="input" rows="6" data-t-placeholder="paste-text" placeholder="paste a text"></textarea>
-  <p class="mute read-help" data-t="read-help">hover a word for its meaning, click it to hear it</p>
-  <section id="text" class="card text" hidden></section>
-</main>
-<script type="module">
-import { start } from "./engine/reading.js";
-start();
-</script>
-</body>
+<body><a href="index.html#reading">→</a></body>
 </html>
